@@ -1,4 +1,4 @@
-import {defaults,validateAppearance,applyAppearance} from './appearance-v4.mjs?v=opacity-5';
+import {defaults,validateAppearance,applyAppearance} from './appearance-v4.mjs?v=empty-6';
 const form=document.querySelector('#settings'),frame=document.querySelector('#preview'),status=document.querySelector('#status'),key='qinglan-appearance-draft-v1';let config={...defaults};
 function show(t){status.textContent=t;}
 function send(){

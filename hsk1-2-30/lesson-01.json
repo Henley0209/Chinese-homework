@@ -1,0 +1,970 @@
+{
+  "title": "HSK1-2 第01课 你好！",
+  "description": "Xin chào!；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“你好”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "nǐ hǎo",
+        "B": "nì hǎo",
+        "C": "ní hǎo",
+        "D": "nī hǎo"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“你好”的正确读音是 nǐ hǎo。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“您好”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "nǐn hǎo",
+        "B": "nīn hǎo",
+        "C": "nìn hǎo",
+        "D": "nín hǎo"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“您好”的正确读音是 nín hǎo。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“早上”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zào shang",
+        "B": "zǎo shang",
+        "C": "záo shang",
+        "D": "zāo shang"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“早上”的正确读音是 zǎo shang。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“下午”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiá wǔ",
+        "B": "xià wǔ",
+        "C": "xiā wǔ",
+        "D": "xiǎ wǔ"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“下午”的正确读音是 xià wǔ。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“晚上”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wàn shang",
+        "B": "wān shang",
+        "C": "wǎn shang",
+        "D": "wán shang"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“晚上”的正确读音是 wǎn shang。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“谢谢”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiě xie",
+        "B": "xiè xie",
+        "C": "xié xie",
+        "D": "xiē xie"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“谢谢”的正确读音是 xiè xie。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“不客气”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "bū kè qi",
+        "B": "bǔ kè qi",
+        "C": "bù kè qi",
+        "D": "bú kè qi"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“不客气”的正确读音是 bú kè qi。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“对不起”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "duí bu qǐ",
+        "B": "duì bu qǐ",
+        "C": "duǐ bu qǐ",
+        "D": "duī bu qǐ"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“对不起”的正确读音是 duì bu qǐ。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“没关系”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "méi guān xì",
+        "B": "mèi guān xì",
+        "C": "měi guān xì",
+        "D": "mēi guān xì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“没关系”的正确读音是 méi guān xì。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“再见”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zāi jiàn",
+        "B": "zái jiàn",
+        "C": "zǎi jiàn",
+        "D": "zài jiàn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“再见”的正确读音是 zài jiàn。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“高兴”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "gāo xìng",
+        "B": "gào xìng",
+        "C": "gáo xìng",
+        "D": "gǎo xìng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“高兴”的正确读音是 gāo xìng。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“请”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qīng",
+        "B": "qíng",
+        "C": "qǐng",
+        "D": "qìng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“请”的正确读音是 qǐng。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“欢迎”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "huǎn yíng",
+        "B": "huàn yíng",
+        "C": "huán yíng",
+        "D": "huān yíng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“欢迎”的正确读音是 huān yíng。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“朋友”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "pěng you",
+        "B": "pēng you",
+        "C": "péng you",
+        "D": "pèng you"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“朋友”的正确读音是 péng you。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“好吗”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "hāo ma",
+        "B": "háo ma",
+        "C": "hǎo ma",
+        "D": "hào ma"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“好吗”的正确读音是 hǎo ma。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____，我叫小兰。",
+      "pinyin": "____， wǒ jiào xiǎo lán 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin chào, tôi tên là Tiểu Lan.",
+      "options": {
+        "A": "下午",
+        "B": "你好",
+        "C": "晚上",
+        "D": "高兴"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“你好”。完整句子：你好，我叫小兰。",
+      "optionPinyin": {
+        "A": "xià wǔ",
+        "B": "nǐ hǎo",
+        "C": "wǎn shang",
+        "D": "gāo xìng"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：老师，____！",
+      "pinyin": "lǎo shī ，____！",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Em chào thầy cô ạ!",
+      "options": {
+        "A": "欢迎",
+        "B": "朋友",
+        "C": "谢谢",
+        "D": "您好"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“您好”。完整句子：老师，您好！",
+      "optionPinyin": {
+        "A": "huān yíng",
+        "B": "péng you",
+        "C": "xiè xie",
+        "D": "nín hǎo"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____好！",
+      "pinyin": "____ hǎo ！",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chào buổi sáng!",
+      "options": {
+        "A": "朋友",
+        "B": "再见",
+        "C": "不客气",
+        "D": "早上"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“早上”。完整句子：早上好！",
+      "optionPinyin": {
+        "A": "péng you",
+        "B": "zài jiàn",
+        "C": "bú kè qi",
+        "D": "zǎo shang"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____好！",
+      "pinyin": "____ hǎo ！",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chào buổi chiều!",
+      "options": {
+        "A": "下午",
+        "B": "你好",
+        "C": "晚上",
+        "D": "对不起"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“下午”。完整句子：下午好！",
+      "optionPinyin": {
+        "A": "xià wǔ",
+        "B": "nǐ hǎo",
+        "C": "wǎn shang",
+        "D": "duì bu qǐ"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____好！",
+      "pinyin": "____ hǎo ！",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chào buổi tối!",
+      "options": {
+        "A": "谢谢",
+        "B": "没关系",
+        "C": "朋友",
+        "D": "晚上"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“晚上”。完整句子：晚上好！",
+      "optionPinyin": {
+        "A": "xiè xie",
+        "B": "méi guān xì",
+        "C": "péng you",
+        "D": "wǎn shang"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____你的帮助。",
+      "pinyin": "____ nǐ de bāng zhù 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cảm ơn sự giúp đỡ của bạn.",
+      "options": {
+        "A": "好吗",
+        "B": "你好",
+        "C": "谢谢",
+        "D": "请"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“谢谢”。完整句子：谢谢你的帮助。",
+      "optionPinyin": {
+        "A": "hǎo ma",
+        "B": "nǐ hǎo",
+        "C": "xiè xie",
+        "D": "qǐng"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____，这是我应该做的。",
+      "pinyin": "____， zhè shì wǒ yīng gāi zuò de 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Không có gì, đây là điều tôi nên làm.",
+      "options": {
+        "A": "没关系",
+        "B": "你好",
+        "C": "下午",
+        "D": "不客气"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“不客气”。完整句子：不客气，这是我应该做的。",
+      "optionPinyin": {
+        "A": "méi guān xì",
+        "B": "nǐ hǎo",
+        "C": "xià wǔ",
+        "D": "bú kè qi"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____，我来晚了。",
+      "pinyin": "____， wǒ lái wǎn le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin lỗi, tôi đến muộn.",
+      "options": {
+        "A": "不客气",
+        "B": "您好",
+        "C": "高兴",
+        "D": "对不起"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“对不起”。完整句子：对不起，我来晚了。",
+      "optionPinyin": {
+        "A": "bú kè qi",
+        "B": "nín hǎo",
+        "C": "gāo xìng",
+        "D": "duì bu qǐ"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____，请进。",
+      "pinyin": "____， qǐng jìn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Không sao, mời vào.",
+      "options": {
+        "A": "没关系",
+        "B": "对不起",
+        "C": "好吗",
+        "D": "不客气"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“没关系”。完整句子：没关系，请进。",
+      "optionPinyin": {
+        "A": "méi guān xì",
+        "B": "duì bu qǐ",
+        "C": "hǎo ma",
+        "D": "bú kè qi"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：明天见，____！",
+      "pinyin": "míng tiān jiàn ，____！",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hẹn gặp ngày mai, tạm biệt!",
+      "options": {
+        "A": "请",
+        "B": "再见",
+        "C": "朋友",
+        "D": "不客气"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“再见”。完整句子：明天见，再见！",
+      "optionPinyin": {
+        "A": "qǐng",
+        "B": "zài jiàn",
+        "C": "péng you",
+        "D": "bú kè qi"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：认识你我很____。",
+      "pinyin": "rèn shi nǐ wǒ hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi rất vui được biết bạn.",
+      "options": {
+        "A": "您好",
+        "B": "不客气",
+        "C": "欢迎",
+        "D": "高兴"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“高兴”。完整句子：认识你我很高兴。",
+      "optionPinyin": {
+        "A": "nín hǎo",
+        "B": "bú kè qi",
+        "C": "huān yíng",
+        "D": "gāo xìng"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____坐在这里。",
+      "pinyin": "____ zuò zài zhè lǐ 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mời ngồi ở đây.",
+      "options": {
+        "A": "早上",
+        "B": "请",
+        "C": "晚上",
+        "D": "欢迎"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“请”。完整句子：请坐在这里。",
+      "optionPinyin": {
+        "A": "zǎo shang",
+        "B": "qǐng",
+        "C": "wǎn shang",
+        "D": "huān yíng"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____你来我家。",
+      "pinyin": "____ nǐ lái wǒ jiā 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chào mừng bạn đến nhà tôi.",
+      "options": {
+        "A": "对不起",
+        "B": "欢迎",
+        "C": "朋友",
+        "D": "没关系"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“欢迎”。完整句子：欢迎你来我家。",
+      "optionPinyin": {
+        "A": "duì bu qǐ",
+        "B": "huān yíng",
+        "C": "péng you",
+        "D": "méi guān xì"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这是我的____。",
+      "pinyin": "zhè shì wǒ de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Đây là bạn của tôi.",
+      "options": {
+        "A": "你好",
+        "B": "对不起",
+        "C": "朋友",
+        "D": "高兴"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“朋友”。完整句子：这是我的朋友。",
+      "optionPinyin": {
+        "A": "nǐ hǎo",
+        "B": "duì bu qǐ",
+        "C": "péng you",
+        "D": "gāo xìng"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你今天还____？",
+      "pinyin": "nǐ jīn tiān hái ____？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay bạn có khỏe không?",
+      "options": {
+        "A": "再见",
+        "B": "请",
+        "C": "好吗",
+        "D": "早上"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“好吗”。完整句子：你今天还好吗？",
+      "optionPinyin": {
+        "A": "zài jiàn",
+        "B": "qǐng",
+        "C": "hǎo ma",
+        "D": "zǎo shang"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n叫小兰 / 你好 / 我",
+      "pinyin": "jiào xiǎo lán / nǐ hǎo / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Xin chào, tôi tên là Tiểu Lan.",
+      "answers": [
+        "你好，我叫小兰。",
+        "你好我叫小兰",
+        "你好,我叫小兰."
+      ],
+      "points": 2,
+      "explanation": "参考句子：你好，我叫小兰。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n您好 / 老师",
+      "pinyin": "nín hǎo / lǎo shī",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Em chào thầy cô ạ!",
+      "answers": [
+        "老师，您好！",
+        "老师您好",
+        "老师,您好!"
+      ],
+      "points": 2,
+      "explanation": "参考句子：老师，您好！"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n好 / 早上",
+      "pinyin": "hǎo / zǎo shang",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chào buổi sáng!",
+      "answers": [
+        "早上好！",
+        "早上好",
+        "早上好!"
+      ],
+      "points": 2,
+      "explanation": "参考句子：早上好！"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n好 / 下午",
+      "pinyin": "hǎo / xià wǔ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chào buổi chiều!",
+      "answers": [
+        "下午好！",
+        "下午好",
+        "下午好!"
+      ],
+      "points": 2,
+      "explanation": "参考句子：下午好！"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n好 / 晚上",
+      "pinyin": "hǎo / wǎn shang",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chào buổi tối!",
+      "answers": [
+        "晚上好！",
+        "晚上好",
+        "晚上好!"
+      ],
+      "points": 2,
+      "explanation": "参考句子：晚上好！"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n你的帮助 / 谢谢",
+      "pinyin": "nǐ de bāng zhù / xiè xie",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cảm ơn sự giúp đỡ của bạn.",
+      "answers": [
+        "谢谢你的帮助。",
+        "谢谢你的帮助",
+        "谢谢你的帮助."
+      ],
+      "points": 2,
+      "explanation": "参考句子：谢谢你的帮助。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n这是我应该做的 / 不客气",
+      "pinyin": "zhè shì wǒ yīng gāi zuò de / bú kè qi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Không có gì, đây là điều tôi nên làm.",
+      "answers": [
+        "不客气，这是我应该做的。",
+        "不客气这是我应该做的",
+        "不客气,这是我应该做的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：不客气，这是我应该做的。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n来晚了 / 对不起 / 我",
+      "pinyin": "lái wǎn le / duì bu qǐ / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Xin lỗi, tôi đến muộn.",
+      "answers": [
+        "对不起，我来晚了。",
+        "对不起我来晚了",
+        "对不起,我来晚了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：对不起，我来晚了。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请进 / 没关系",
+      "pinyin": "qǐng jìn / méi guān xì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Không sao, mời vào.",
+      "answers": [
+        "没关系，请进。",
+        "没关系请进",
+        "没关系,请进."
+      ],
+      "points": 2,
+      "explanation": "参考句子：没关系，请进。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n见 / 明天 / 再见",
+      "pinyin": "jiàn / míng tiān / zài jiàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hẹn gặp ngày mai, tạm biệt!",
+      "answers": [
+        "明天见，再见！",
+        "明天见再见",
+        "明天见,再见!"
+      ],
+      "points": 2,
+      "explanation": "参考句子：明天见，再见！"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很高兴 / 认识你 / 我",
+      "pinyin": "hěn gāo xìng / rèn shi nǐ / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi rất vui được biết bạn.",
+      "answers": [
+        "认识你我很高兴。",
+        "认识你我很高兴",
+        "认识你我很高兴."
+      ],
+      "points": 2,
+      "explanation": "参考句子：认识你我很高兴。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n坐在 / 请 / 这里",
+      "pinyin": "zuò zài / qǐng / zhè lǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mời ngồi ở đây.",
+      "answers": [
+        "请坐在这里。",
+        "请坐在这里",
+        "请坐在这里."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请坐在这里。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n你 / 来我家 / 欢迎",
+      "pinyin": "nǐ / lái wǒ jiā / huān yíng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chào mừng bạn đến nhà tôi.",
+      "answers": [
+        "欢迎你来我家。",
+        "欢迎你来我家",
+        "欢迎你来我家."
+      ],
+      "points": 2,
+      "explanation": "参考句子：欢迎你来我家。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的朋友 / 这是",
+      "pinyin": "wǒ de péng you / zhè shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Đây là bạn của tôi.",
+      "answers": [
+        "这是我的朋友。",
+        "这是我的朋友",
+        "这是我的朋友."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这是我的朋友。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n今天 / 还好吗 / 你",
+      "pinyin": "jīn tiān / hái hǎo ma / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay bạn có khỏe không?",
+      "answers": [
+        "你今天还好吗？",
+        "你今天还好吗",
+        "今天你还好吗",
+        "你今天还好吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你今天还好吗？"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我们 / 见 / 明天",
+      "pinyin": "wǒ men / jiàn / míng tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng ta gặp nhau ngày mai.",
+      "answers": [
+        "我们明天见。",
+        "我们明天见",
+        "明天我们见",
+        "我们明天见."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们明天见。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的好朋友 / 你们 / 都是",
+      "pinyin": "wǒ de hǎo péng you / nǐ men / dōu shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Các bạn đều là bạn tốt của tôi.",
+      "answers": [
+        "你们都是我的好朋友。",
+        "你们都是我的好朋友",
+        "你们都是我的好朋友."
+      ],
+      "points": 2,
+      "explanation": "参考句子：你们都是我的好朋友。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n也 / 我 / 很高兴认识你",
+      "pinyin": "yě / wǒ / hěn gāo xìng rèn shi nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi cũng rất vui được biết bạn.",
+      "answers": [
+        "我也很高兴认识你。",
+        "我也很高兴认识你",
+        "我也很高兴认识你."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我也很高兴认识你。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喝杯水 / 请 / 进来",
+      "pinyin": "hē bēi shuǐ / qǐng / jìn lai",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mời vào uống một cốc nước.",
+      "answers": [
+        "请进来喝杯水。",
+        "请进来喝杯水",
+        "请进来喝杯水."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请进来喝杯水。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很忙 / 今天 / 老师",
+      "pinyin": "hěn máng / jīn tiān / lǎo shī",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay cô giáo rất bận.",
+      "answers": [
+        "老师今天很忙。",
+        "老师今天很忙",
+        "今天老师很忙",
+        "老师今天很忙."
+      ],
+      "points": 2,
+      "explanation": "参考句子：老师今天很忙。"
+    }
+  ]
+}

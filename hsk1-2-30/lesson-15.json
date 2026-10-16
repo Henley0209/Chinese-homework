@@ -1,0 +1,968 @@
+{
+  "title": "HSK1-2 第15课 你想吃什么？",
+  "description": "Bạn muốn ăn gì?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“米饭”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "mī fàn",
+        "B": "mì fàn",
+        "C": "mǐ fàn",
+        "D": "mí fàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“米饭”的正确读音是 mǐ fàn。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“面条”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "miàn tiáo",
+        "B": "miǎn tiáo",
+        "C": "miān tiáo",
+        "D": "mián tiáo"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“面条”的正确读音是 miàn tiáo。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“鸡蛋”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jǐ dàn",
+        "B": "jí dàn",
+        "C": "jī dàn",
+        "D": "jì dàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“鸡蛋”的正确读音是 jī dàn。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“鱼”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yǔ",
+        "B": "yú",
+        "C": "yū",
+        "D": "yù"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“鱼”的正确读音是 yú。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“牛肉”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "niǔ ròu",
+        "B": "niū ròu",
+        "C": "niù ròu",
+        "D": "niú ròu"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“牛肉”的正确读音是 niú ròu。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“鸡肉”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jí ròu",
+        "B": "jǐ ròu",
+        "C": "jì ròu",
+        "D": "jī ròu"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“鸡肉”的正确读音是 jī ròu。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“苹果”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "píng guǒ",
+        "B": "pìng guǒ",
+        "C": "pǐng guǒ",
+        "D": "pīng guǒ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“苹果”的正确读音是 píng guǒ。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“香蕉”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiǎng jiāo",
+        "B": "xiáng jiāo",
+        "C": "xiāng jiāo",
+        "D": "xiàng jiāo"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“香蕉”的正确读音是 xiāng jiāo。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“西瓜”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xì guā",
+        "B": "xí guā",
+        "C": "xǐ guā",
+        "D": "xī guā"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“西瓜”的正确读音是 xī guā。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“水果”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shuì guǒ",
+        "B": "shuǐ guǒ",
+        "C": "shuī guǒ",
+        "D": "shuí guǒ"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“水果”的正确读音是 shuǐ guǒ。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“菜”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "cài",
+        "B": "cǎi",
+        "C": "cái",
+        "D": "cāi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“菜”的正确读音是 cài。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“饿”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "é",
+        "B": "ē",
+        "C": "ě",
+        "D": "è"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“饿”的正确读音是 è。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“吃”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chǐ",
+        "B": "chī",
+        "C": "chí",
+        "D": "chì"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“吃”的正确读音是 chī。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“想”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiǎng",
+        "B": "xiàng",
+        "C": "xiāng",
+        "D": "xiáng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“想”的正确读音是 xiǎng。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“饱”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "bāo",
+        "B": "bào",
+        "C": "báo",
+        "D": "bǎo"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“饱”的正确读音是 bǎo。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我喜欢吃____。",
+      "pinyin": "wǒ xǐ huan chī ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi thích ăn cơm.",
+      "options": {
+        "A": "香蕉",
+        "B": "米饭",
+        "C": "菜",
+        "D": "鸡蛋"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“米饭”。完整句子：我喜欢吃米饭。",
+      "optionPinyin": {
+        "A": "xiāng jiāo",
+        "B": "mǐ fàn",
+        "C": "cài",
+        "D": "jī dàn"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他想吃____。",
+      "pinyin": "tā xiǎng chī ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy muốn ăn mì.",
+      "options": {
+        "A": "面条",
+        "B": "苹果",
+        "C": "吃",
+        "D": "香蕉"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“面条”。完整句子：他想吃面条。",
+      "optionPinyin": {
+        "A": "miàn tiáo",
+        "B": "píng guǒ",
+        "C": "chī",
+        "D": "xiāng jiāo"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：早饭我吃一个____。",
+      "pinyin": "zǎo fàn wǒ chī yí gè ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bữa sáng tôi ăn một quả trứng.",
+      "options": {
+        "A": "鸡蛋",
+        "B": "鸡肉",
+        "C": "鱼",
+        "D": "米饭"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“鸡蛋”。完整句子：早饭我吃一个鸡蛋。",
+      "optionPinyin": {
+        "A": "jī dàn",
+        "B": "jī ròu",
+        "C": "yú",
+        "D": "mǐ fàn"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：妈妈买了一条____。",
+      "pinyin": "mā ma mǎi le yī tiáo ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ đã mua một con cá.",
+      "options": {
+        "A": "鱼",
+        "B": "米饭",
+        "C": "饿",
+        "D": "想"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“鱼”。完整句子：妈妈买了一条鱼。",
+      "optionPinyin": {
+        "A": "yú",
+        "B": "mǐ fàn",
+        "C": "è",
+        "D": "xiǎng"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我不吃____。",
+      "pinyin": "wǒ bù chī ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi không ăn thịt bò.",
+      "options": {
+        "A": "鸡肉",
+        "B": "西瓜",
+        "C": "鸡蛋",
+        "D": "牛肉"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“牛肉”。完整句子：我不吃牛肉。",
+      "optionPinyin": {
+        "A": "jī ròu",
+        "B": "xī guā",
+        "C": "jī dàn",
+        "D": "niú ròu"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：她喜欢吃____。",
+      "pinyin": "tā xǐ huan chī ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy thích ăn thịt gà.",
+      "options": {
+        "A": "鸡肉",
+        "B": "香蕉",
+        "C": "苹果",
+        "D": "饱"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“鸡肉”。完整句子：她喜欢吃鸡肉。",
+      "optionPinyin": {
+        "A": "jī ròu",
+        "B": "xiāng jiāo",
+        "C": "píng guǒ",
+        "D": "bǎo"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这个____很好吃。",
+      "pinyin": "zhè ge ____ hěn hǎo chī 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Quả táo này rất ngon.",
+      "options": {
+        "A": "饱",
+        "B": "苹果",
+        "C": "吃",
+        "D": "面条"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“苹果”。完整句子：这个苹果很好吃。",
+      "optionPinyin": {
+        "A": "bǎo",
+        "B": "píng guǒ",
+        "C": "chī",
+        "D": "miàn tiáo"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我买了三个____。",
+      "pinyin": "wǒ mǎi le sān gè ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đã mua ba quả chuối.",
+      "options": {
+        "A": "鱼",
+        "B": "香蕉",
+        "C": "苹果",
+        "D": "牛肉"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“香蕉”。完整句子：我买了三个香蕉。",
+      "optionPinyin": {
+        "A": "yú",
+        "B": "xiāng jiāo",
+        "C": "píng guǒ",
+        "D": "niú ròu"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：夏天我喜欢吃____。",
+      "pinyin": "xià tiān wǒ xǐ huan chī ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mùa hè tôi thích ăn dưa hấu.",
+      "options": {
+        "A": "面条",
+        "B": "香蕉",
+        "C": "西瓜",
+        "D": "饿"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“西瓜”。完整句子：夏天我喜欢吃西瓜。",
+      "optionPinyin": {
+        "A": "miàn tiáo",
+        "B": "xiāng jiāo",
+        "C": "xī guā",
+        "D": "è"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我每天吃____。",
+      "pinyin": "wǒ měi tiān chī ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi ăn trái cây mỗi ngày.",
+      "options": {
+        "A": "鸡蛋",
+        "B": "水果",
+        "C": "米饭",
+        "D": "鱼"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“水果”。完整句子：我每天吃水果。",
+      "optionPinyin": {
+        "A": "jī dàn",
+        "B": "shuǐ guǒ",
+        "C": "mǐ fàn",
+        "D": "yú"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请多吃一点____。",
+      "pinyin": "qǐng duō chī yì diǎn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy ăn thêm một chút rau.",
+      "options": {
+        "A": "牛肉",
+        "B": "香蕉",
+        "C": "菜",
+        "D": "饿"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“菜”。完整句子：请多吃一点菜。",
+      "optionPinyin": {
+        "A": "niú ròu",
+        "B": "xiāng jiāo",
+        "C": "cài",
+        "D": "è"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我有点儿____了。",
+      "pinyin": "wǒ yǒu diǎn ér ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi hơi đói rồi.",
+      "options": {
+        "A": "鸡蛋",
+        "B": "水果",
+        "C": "饱",
+        "D": "饿"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“饿”。完整句子：我有点儿饿了。",
+      "optionPinyin": {
+        "A": "jī dàn",
+        "B": "shuǐ guǒ",
+        "C": "bǎo",
+        "D": "è"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这个菜很好____。",
+      "pinyin": "zhè ge cài hěn hǎo ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Món này ăn rất ngon.",
+      "options": {
+        "A": "水果",
+        "B": "米饭",
+        "C": "西瓜",
+        "D": "吃"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“吃”。完整句子：这个菜很好吃。",
+      "optionPinyin": {
+        "A": "shuǐ guǒ",
+        "B": "mǐ fàn",
+        "C": "xī guā",
+        "D": "chī"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你____吃什么？",
+      "pinyin": "nǐ ____ chī shén me ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn muốn ăn gì?",
+      "options": {
+        "A": "饱",
+        "B": "想",
+        "C": "水果",
+        "D": "西瓜"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“想”。完整句子：你想吃什么？",
+      "optionPinyin": {
+        "A": "bǎo",
+        "B": "xiǎng",
+        "C": "shuǐ guǒ",
+        "D": "xī guā"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我已经吃____了。",
+      "pinyin": "wǒ yǐ jīng chī ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đã ăn no rồi.",
+      "options": {
+        "A": "饱",
+        "B": "想",
+        "C": "饿",
+        "D": "米饭"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“饱”。完整句子：我已经吃饱了。",
+      "optionPinyin": {
+        "A": "bǎo",
+        "B": "xiǎng",
+        "C": "è",
+        "D": "mǐ fàn"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 吃米饭 / 喜欢",
+      "pinyin": "wǒ / chī mǐ fàn / xǐ huan",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi thích ăn cơm.",
+      "answers": [
+        "我喜欢吃米饭。",
+        "我喜欢吃米饭",
+        "我喜欢吃米饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我喜欢吃米饭。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n他 / 吃面条 / 想",
+      "pinyin": "tā / chī miàn tiáo / xiǎng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy muốn ăn mì.",
+      "answers": [
+        "他想吃面条。",
+        "他想吃面条",
+        "他想吃面条."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他想吃面条。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n吃一个鸡蛋 / 早饭 / 我",
+      "pinyin": "chī yí gè jī dàn / zǎo fàn / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bữa sáng tôi ăn một quả trứng.",
+      "answers": [
+        "早饭我吃一个鸡蛋。",
+        "早饭我吃一个鸡蛋",
+        "早饭我吃一个鸡蛋."
+      ],
+      "points": 2,
+      "explanation": "参考句子：早饭我吃一个鸡蛋。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n买了一条鱼 / 妈妈",
+      "pinyin": "mǎi le yī tiáo yú / mā ma",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mẹ đã mua một con cá.",
+      "answers": [
+        "妈妈买了一条鱼。",
+        "妈妈买了一条鱼",
+        "妈妈买了一条鱼."
+      ],
+      "points": 2,
+      "explanation": "参考句子：妈妈买了一条鱼。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n牛肉 / 不吃 / 我",
+      "pinyin": "niú ròu / bù chī / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi không ăn thịt bò.",
+      "answers": [
+        "我不吃牛肉。",
+        "我不吃牛肉",
+        "我不吃牛肉."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我不吃牛肉。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n吃鸡肉 / 喜欢 / 她",
+      "pinyin": "chī jī ròu / xǐ huan / tā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cô ấy thích ăn thịt gà.",
+      "answers": [
+        "她喜欢吃鸡肉。",
+        "她喜欢吃鸡肉",
+        "她喜欢吃鸡肉."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她喜欢吃鸡肉。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很 / 好吃 / 这个苹果",
+      "pinyin": "hěn / hǎo chī / zhè ge píng guǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Quả táo này rất ngon.",
+      "answers": [
+        "这个苹果很好吃。",
+        "这个苹果很好吃",
+        "这个苹果很好吃."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这个苹果很好吃。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n买了三个香蕉 / 我",
+      "pinyin": "mǎi le sān gè xiāng jiāo / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi đã mua ba quả chuối.",
+      "answers": [
+        "我买了三个香蕉。",
+        "我买了三个香蕉",
+        "我买了三个香蕉."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我买了三个香蕉。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喜欢吃西瓜 / 夏天 / 我",
+      "pinyin": "xǐ huan chī xī guā / xià tiān / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mùa hè tôi thích ăn dưa hấu.",
+      "answers": [
+        "夏天我喜欢吃西瓜。",
+        "夏天我喜欢吃西瓜",
+        "夏天我喜欢吃西瓜."
+      ],
+      "points": 2,
+      "explanation": "参考句子：夏天我喜欢吃西瓜。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n每天 / 吃水果 / 我",
+      "pinyin": "měi tiān / chī shuǐ guǒ / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi ăn trái cây mỗi ngày.",
+      "answers": [
+        "我每天吃水果。",
+        "我每天吃水果",
+        "我每天吃水果."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我每天吃水果。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n多吃一点菜 / 请",
+      "pinyin": "duō chī yì diǎn cài / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy ăn thêm một chút rau.",
+      "answers": [
+        "请多吃一点菜。",
+        "请多吃一点菜",
+        "请多吃一点菜."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请多吃一点菜。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有点儿饿了 / 我",
+      "pinyin": "yǒu diǎn ér è le / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi hơi đói rồi.",
+      "answers": [
+        "我有点儿饿了。",
+        "我有点儿饿了",
+        "我有点儿饿了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我有点儿饿了。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很好吃 / 这个菜",
+      "pinyin": "hěn hǎo chī / zhè ge cài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Món này ăn rất ngon.",
+      "answers": [
+        "这个菜很好吃。",
+        "这个菜很好吃",
+        "这个菜很好吃."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这个菜很好吃。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n想 / 你 / 吃什么",
+      "pinyin": "xiǎng / nǐ / chī shén me",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn muốn ăn gì?",
+      "answers": [
+        "你想吃什么？",
+        "你想吃什么",
+        "你想吃什么?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你想吃什么？"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n已经 / 我 / 吃饱了",
+      "pinyin": "yǐ jīng / wǒ / chī bǎo le",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi đã ăn no rồi.",
+      "answers": [
+        "我已经吃饱了。",
+        "我已经吃饱了",
+        "我已经吃饱了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我已经吃饱了。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n在家吃饭 / 今天 / 我们",
+      "pinyin": "zài jiā chī fàn / jīn tiān / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay chúng tôi ăn cơm ở nhà.",
+      "answers": [
+        "今天我们在家吃饭。",
+        "今天我们在家吃饭",
+        "我们今天在家吃饭",
+        "今天我们在家吃饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天我们在家吃饭。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n你 / 中国菜吗 / 喜欢吃",
+      "pinyin": "nǐ / zhōng guó cài ma / xǐ huan chī",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn thích ăn món Trung Quốc không?",
+      "answers": [
+        "你喜欢吃中国菜吗？",
+        "你喜欢吃中国菜吗",
+        "你喜欢吃中国菜吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你喜欢吃中国菜吗？"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n还想 / 我 / 吃一点儿面条",
+      "pinyin": "hái xiǎng / wǒ / chī yì diǎn ér miàn tiáo",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi vẫn muốn ăn thêm một chút mì.",
+      "answers": [
+        "我还想吃一点儿面条。",
+        "我还想吃一点儿面条",
+        "我还想吃一点儿面条."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我还想吃一点儿面条。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n妈妈买的 / 桌上的水果 / 都是",
+      "pinyin": "mā ma mǎi de / zhuō shàng de shuǐ guǒ / dōu shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Trái cây trên bàn đều do mẹ mua.",
+      "answers": [
+        "桌上的水果都是妈妈买的。",
+        "桌上的水果都是妈妈买的",
+        "桌上的水果都是妈妈买的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：桌上的水果都是妈妈买的。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n做晚饭吧 / 一起 / 我们",
+      "pinyin": "zuò wǎn fàn ba / yì qǐ / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng ta cùng nấu bữa tối nhé.",
+      "answers": [
+        "我们一起做晚饭吧。",
+        "我们一起做晚饭吧",
+        "我们一起做晚饭吧."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们一起做晚饭吧。"
+    }
+  ]
+}

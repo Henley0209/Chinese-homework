@@ -1,0 +1,968 @@
+{
+  "title": "HSK1-2 第02课 你叫什么名字？",
+  "description": "Bạn tên là gì?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“叫”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jiāo",
+        "B": "jiào",
+        "C": "jiǎo",
+        "D": "jiáo"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“叫”的正确读音是 jiào。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“名字”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "mìng zi",
+        "B": "mīng zi",
+        "C": "míng zi",
+        "D": "mǐng zi"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“名字”的正确读音是 míng zi。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“姓”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xǐng",
+        "B": "xīng",
+        "C": "xíng",
+        "D": "xìng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“姓”的正确读音是 xìng。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“你”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "nì",
+        "B": "nǐ",
+        "C": "nī",
+        "D": "ní"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“你”的正确读音是 nǐ。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“我”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wō",
+        "B": "wó",
+        "C": "wǒ",
+        "D": "wò"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“我”的正确读音是 wǒ。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“他”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "tā",
+        "B": "tǎ",
+        "C": "tá",
+        "D": "tà"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“他”的正确读音是 tā。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“她”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "tā",
+        "B": "tá",
+        "C": "tǎ",
+        "D": "tà"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“她”的正确读音是 tā。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“同学”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "tòng xué",
+        "B": "tóng xué",
+        "C": "tōng xué",
+        "D": "tǒng xué"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“同学”的正确读音是 tóng xué。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“老师”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "lāo shī",
+        "B": "lǎo shī",
+        "C": "lào shī",
+        "D": "láo shī"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“老师”的正确读音是 lǎo shī。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“认识”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "rēn shi",
+        "B": "rén shi",
+        "C": "rěn shi",
+        "D": "rèn shi"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“认识”的正确读音是 rèn shi。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“是”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shī",
+        "B": "shǐ",
+        "C": "shì",
+        "D": "shí"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“是”的正确读音是 shì。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“都”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dòu",
+        "B": "dǒu",
+        "C": "dōu",
+        "D": "dóu"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“都”的正确读音是 dōu。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“也”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yě",
+        "B": "yé",
+        "C": "yē",
+        "D": "yè"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“也”的正确读音是 yě。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“呢”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "nē",
+        "B": "ně",
+        "C": "né",
+        "D": "ne"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“呢”的正确读音是 ne。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“什么”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shén me",
+        "B": "shèn me",
+        "C": "shěn me",
+        "D": "shēn me"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“什么”的正确读音是 shén me。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你____什么名字？",
+      "pinyin": "nǐ ____ shén me míng zi ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn tên là gì?",
+      "options": {
+        "A": "叫",
+        "B": "你",
+        "C": "呢",
+        "D": "我"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“叫”。完整句子：你叫什么名字？",
+      "optionPinyin": {
+        "A": "jiào",
+        "B": "nǐ",
+        "C": "ne",
+        "D": "wǒ"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我的____是小兰。",
+      "pinyin": "wǒ de ____ shì xiǎo lán 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tên tôi là Tiểu Lan.",
+      "options": {
+        "A": "什么",
+        "B": "名字",
+        "C": "她",
+        "D": "我"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“名字”。完整句子：我的名字是小兰。",
+      "optionPinyin": {
+        "A": "shén me",
+        "B": "míng zi",
+        "C": "tā",
+        "D": "wǒ"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我____李。",
+      "pinyin": "wǒ ____ lǐ 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi họ Lý.",
+      "options": {
+        "A": "什么",
+        "B": "姓",
+        "C": "名字",
+        "D": "他"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“姓”。完整句子：我姓李。",
+      "optionPinyin": {
+        "A": "shén me",
+        "B": "xìng",
+        "C": "míng zi",
+        "D": "tā"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____是小明吗？",
+      "pinyin": "____ shì xiǎo míng ma ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn có phải là Tiểu Minh không?",
+      "options": {
+        "A": "认识",
+        "B": "什么",
+        "C": "姓",
+        "D": "你"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“你”。完整句子：你是小明吗？",
+      "optionPinyin": {
+        "A": "rèn shi",
+        "B": "shén me",
+        "C": "xìng",
+        "D": "nǐ"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____是小兰。",
+      "pinyin": "____ shì xiǎo lán 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi là Tiểu Lan.",
+      "options": {
+        "A": "我",
+        "B": "他",
+        "C": "叫",
+        "D": "是"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“我”。完整句子：我是小兰。",
+      "optionPinyin": {
+        "A": "wǒ",
+        "B": "tā",
+        "C": "jiào",
+        "D": "shì"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____是我的同学。",
+      "pinyin": "____ shì wǒ de tóng xué 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy là bạn học của tôi.",
+      "options": {
+        "A": "同学",
+        "B": "你",
+        "C": "名字",
+        "D": "他"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“他”。完整句子：他是我的同学。",
+      "optionPinyin": {
+        "A": "tóng xué",
+        "B": "nǐ",
+        "C": "míng zi",
+        "D": "tā"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____叫小红。",
+      "pinyin": "____ jiào xiǎo hóng 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy tên là Tiểu Hồng.",
+      "options": {
+        "A": "我",
+        "B": "同学",
+        "C": "是",
+        "D": "她"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“她”。完整句子：她叫小红。",
+      "optionPinyin": {
+        "A": "wǒ",
+        "B": "tóng xué",
+        "C": "shì",
+        "D": "tā"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我们是____。",
+      "pinyin": "wǒ men shì ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi là bạn học.",
+      "options": {
+        "A": "认识",
+        "B": "同学",
+        "C": "姓",
+        "D": "都"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“同学”。完整句子：我们是同学。",
+      "optionPinyin": {
+        "A": "rèn shi",
+        "B": "tóng xué",
+        "C": "xìng",
+        "D": "dōu"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这是我的____。",
+      "pinyin": "zhè shì wǒ de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Đây là giáo viên của tôi.",
+      "options": {
+        "A": "什么",
+        "B": "名字",
+        "C": "我",
+        "D": "老师"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“老师”。完整句子：这是我的老师。",
+      "optionPinyin": {
+        "A": "shén me",
+        "B": "míng zi",
+        "C": "wǒ",
+        "D": "lǎo shī"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我____你的哥哥。",
+      "pinyin": "wǒ ____ nǐ dī gē gē 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi quen anh trai của bạn.",
+      "options": {
+        "A": "认识",
+        "B": "同学",
+        "C": "名字",
+        "D": "叫"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“认识”。完整句子：我认识你的哥哥。",
+      "optionPinyin": {
+        "A": "rèn shi",
+        "B": "tóng xué",
+        "C": "míng zi",
+        "D": "jiào"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你____王老师吗？",
+      "pinyin": "nǐ ____ wáng lǎo shī ma ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn có phải là cô Vương không?",
+      "options": {
+        "A": "他",
+        "B": "名字",
+        "C": "是",
+        "D": "你"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“是”。完整句子：你是王老师吗？",
+      "optionPinyin": {
+        "A": "tā",
+        "B": "míng zi",
+        "C": "shì",
+        "D": "nǐ"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你们____姓阮吗？",
+      "pinyin": "nǐ men ____ xìng ruǎn ma ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Các bạn đều họ Nguyễn phải không?",
+      "options": {
+        "A": "认识",
+        "B": "也",
+        "C": "都",
+        "D": "什么"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“都”。完整句子：你们都姓阮吗？",
+      "optionPinyin": {
+        "A": "rèn shi",
+        "B": "yě",
+        "C": "dōu",
+        "D": "shén me"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我____姓李。",
+      "pinyin": "wǒ ____ xìng lǐ 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi cũng họ Lý.",
+      "options": {
+        "A": "是",
+        "B": "也",
+        "C": "老师",
+        "D": "我"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“也”。完整句子：我也姓李。",
+      "optionPinyin": {
+        "A": "shì",
+        "B": "yě",
+        "C": "lǎo shī",
+        "D": "wǒ"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你____？",
+      "pinyin": "nǐ ____？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Còn bạn thì sao?",
+      "options": {
+        "A": "呢",
+        "B": "什么",
+        "C": "她",
+        "D": "名字"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“呢”。完整句子：你呢？",
+      "optionPinyin": {
+        "A": "ne",
+        "B": "shén me",
+        "C": "tā",
+        "D": "míng zi"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你叫____？",
+      "pinyin": "nǐ jiào ____？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn tên là gì?",
+      "options": {
+        "A": "什么",
+        "B": "她",
+        "C": "老师",
+        "D": "也"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“什么”。完整句子：你叫什么？",
+      "optionPinyin": {
+        "A": "shén me",
+        "B": "tā",
+        "C": "lǎo shī",
+        "D": "yě"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n你 / 什么名字 / 叫",
+      "pinyin": "nǐ / shén me míng zi / jiào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn tên là gì?",
+      "answers": [
+        "你叫什么名字？",
+        "你叫什么名字",
+        "你叫什么名字?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你叫什么名字？"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 小兰 / 我的名字",
+      "pinyin": "shì / xiǎo lán / wǒ de míng zi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tên tôi là Tiểu Lan.",
+      "answers": [
+        "我的名字是小兰。",
+        "我的名字是小兰",
+        "我的名字是小兰."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的名字是小兰。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n李 / 姓 / 我",
+      "pinyin": "lǐ / xìng / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi họ Lý.",
+      "answers": [
+        "我姓李。",
+        "我姓李",
+        "我姓李."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我姓李。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n小明吗 / 你 / 是",
+      "pinyin": "xiǎo míng ma / nǐ / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn có phải là Tiểu Minh không?",
+      "answers": [
+        "你是小明吗？",
+        "你是小明吗",
+        "你是小明吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你是小明吗？"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n小兰 / 我 / 是",
+      "pinyin": "xiǎo lán / wǒ / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi là Tiểu Lan.",
+      "answers": [
+        "我是小兰。",
+        "我是小兰",
+        "我是小兰."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我是小兰。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的同学 / 是 / 他",
+      "pinyin": "wǒ de tóng xué / shì / tā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy là bạn học của tôi.",
+      "answers": [
+        "他是我的同学。",
+        "他是我的同学",
+        "他是我的同学."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他是我的同学。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n她 / 小红 / 叫",
+      "pinyin": "tā / xiǎo hóng / jiào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cô ấy tên là Tiểu Hồng.",
+      "answers": [
+        "她叫小红。",
+        "她叫小红",
+        "她叫小红."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她叫小红。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n同学 / 是 / 我们",
+      "pinyin": "tóng xué / shì / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi là bạn học.",
+      "answers": [
+        "我们是同学。",
+        "我们是同学",
+        "我们是同学."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们是同学。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的老师 / 这 / 是",
+      "pinyin": "wǒ de lǎo shī / zhè / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Đây là giáo viên của tôi.",
+      "answers": [
+        "这是我的老师。",
+        "这是我的老师",
+        "这是我的老师."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这是我的老师。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n认识 / 我 / 你的哥哥",
+      "pinyin": "rèn shi / wǒ / nǐ dī gē gē",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi quen anh trai của bạn.",
+      "answers": [
+        "我认识你的哥哥。",
+        "我认识你的哥哥",
+        "我认识你的哥哥."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我认识你的哥哥。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 王老师吗 / 你",
+      "pinyin": "shì / wáng lǎo shī ma / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn có phải là cô Vương không?",
+      "answers": [
+        "你是王老师吗？",
+        "你是王老师吗",
+        "你是王老师吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你是王老师吗？"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n都 / 姓阮吗 / 你们",
+      "pinyin": "dōu / xìng ruǎn ma / nǐ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Các bạn đều họ Nguyễn phải không?",
+      "answers": [
+        "你们都姓阮吗？",
+        "你们都姓阮吗",
+        "你们都姓阮吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你们都姓阮吗？"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n也 / 我 / 姓李",
+      "pinyin": "yě / wǒ / xìng lǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi cũng họ Lý.",
+      "answers": [
+        "我也姓李。",
+        "我也姓李",
+        "我也姓李."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我也姓李。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n呢 / 你",
+      "pinyin": "ne / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Còn bạn thì sao?",
+      "answers": [
+        "你呢？",
+        "你呢",
+        "你呢?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你呢？"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n叫什么 / 你",
+      "pinyin": "jiào shén me / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn tên là gì?",
+      "answers": [
+        "你叫什么？",
+        "你叫什么",
+        "你叫什么?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你叫什么？"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n告诉我 / 请 / 你的名字",
+      "pinyin": "gào su wǒ / qǐng / nǐ de míng zi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy cho tôi biết tên của bạn.",
+      "answers": [
+        "请告诉我你的名字。",
+        "请告诉我你的名字",
+        "请告诉我你的名字."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请告诉我你的名字。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的老师 / 不是 / 小明",
+      "pinyin": "wǒ de lǎo shī / bú shì / xiǎo míng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tiểu Minh không phải là giáo viên của tôi.",
+      "answers": [
+        "小明不是我的老师。",
+        "小明不是我的老师",
+        "小明不是我的老师."
+      ],
+      "points": 2,
+      "explanation": "参考句子：小明不是我的老师。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n认识了一个新同学 / 今天 / 我们",
+      "pinyin": "rèn shi le yí gè xīn tóng xué / jīn tiān / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay chúng tôi đã làm quen một bạn học mới.",
+      "answers": [
+        "我们今天认识了一个新同学。",
+        "我们今天认识了一个新同学",
+        "今天我们认识了一个新同学",
+        "我们今天认识了一个新同学."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们今天认识了一个新同学。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n这位老师 / 不姓李 / 姓王",
+      "pinyin": "zhè wèi lǎo shī / bù xìng lǐ / xìng wáng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Giáo viên này họ Vương, không phải họ Lý.",
+      "answers": [
+        "这位老师姓王不姓李。",
+        "这位老师姓王不姓李",
+        "这位老师姓王不姓李."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这位老师姓王不姓李。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n认识 / 那个学生吗 / 你",
+      "pinyin": "rèn shi / nà ge xué sheng ma / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn có biết học sinh kia không?",
+      "answers": [
+        "你认识那个学生吗？",
+        "你认识那个学生吗",
+        "你认识那个学生吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你认识那个学生吗？"
+    }
+  ]
+}

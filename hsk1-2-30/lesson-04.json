@@ -1,0 +1,967 @@
+{
+  "title": "HSK1-2 第04课 你今年多大？",
+  "description": "Năm nay bạn bao nhiêu tuổi?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“今年”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jìn nián",
+        "B": "jín nián",
+        "C": "jīn nián",
+        "D": "jǐn nián"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“今年”的正确读音是 jīn nián。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“二十”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "ēr shí",
+        "B": "èr shí",
+        "C": "ér shí",
+        "D": "ěr shí"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“二十”的正确读音是 èr shí。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“岁”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "suì",
+        "B": "suí",
+        "C": "suī",
+        "D": "suǐ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“岁”的正确读音是 suì。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“生日”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shēng rì",
+        "B": "shèng rì",
+        "C": "shěng rì",
+        "D": "shéng rì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“生日”的正确读音是 shēng rì。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“三”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "sàn",
+        "B": "sǎn",
+        "C": "sān",
+        "D": "sán"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“三”的正确读音是 sān。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“大”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dá",
+        "B": "dà",
+        "C": "dā",
+        "D": "dǎ"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“大”的正确读音是 dà。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“小”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiào",
+        "B": "xiāo",
+        "C": "xiáo",
+        "D": "xiǎo"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“小”的正确读音是 xiǎo。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“七十”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qí shí",
+        "B": "qǐ shí",
+        "C": "qī shí",
+        "D": "qì shí"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“七十”的正确读音是 qī shí。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“两个”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "liǎng gè",
+        "B": "liáng gè",
+        "C": "liāng gè",
+        "D": "liàng gè"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“两个”的正确读音是 liǎng gè。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“五”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wú",
+        "B": "wū",
+        "C": "wǔ",
+        "D": "wù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“五”的正确读音是 wǔ。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“六”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "liū",
+        "B": "liǔ",
+        "C": "liù",
+        "D": "liú"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“六”的正确读音是 liù。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“十月”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shǐ yuè",
+        "B": "shī yuè",
+        "C": "shí yuè",
+        "D": "shì yuè"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“十月”的正确读音是 shí yuè。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“十八”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shì bā",
+        "B": "shī bā",
+        "C": "shí bā",
+        "D": "shǐ bā"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“十八”的正确读音是 shí bā。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“几”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jì",
+        "B": "jǐ",
+        "C": "jī",
+        "D": "jí"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“几”的正确读音是 jǐ。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“快乐”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "kuǎi lè",
+        "B": "kuāi lè",
+        "C": "kuái lè",
+        "D": "kuài lè"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“快乐”的正确读音是 kuài lè。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你____多大？",
+      "pinyin": "nǐ ____ duō dà ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay bạn bao nhiêu tuổi?",
+      "options": {
+        "A": "今年",
+        "B": "快乐",
+        "C": "五",
+        "D": "六"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“今年”。完整句子：你今年多大？",
+      "optionPinyin": {
+        "A": "jīn nián",
+        "B": "kuài lè",
+        "C": "wǔ",
+        "D": "liù"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我____岁。",
+      "pinyin": "wǒ ____ suì 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi hai mươi tuổi.",
+      "options": {
+        "A": "二十",
+        "B": "岁",
+        "C": "十八",
+        "D": "快乐"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“二十”。完整句子：我二十岁。",
+      "optionPinyin": {
+        "A": "èr shí",
+        "B": "suì",
+        "C": "shí bā",
+        "D": "kuài lè"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：妹妹今年十____。",
+      "pinyin": "mèi mei jīn nián shí ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay em gái mười tuổi.",
+      "options": {
+        "A": "岁",
+        "B": "两个",
+        "C": "今年",
+        "D": "小"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“岁”。完整句子：妹妹今年十岁。",
+      "optionPinyin": {
+        "A": "suì",
+        "B": "liǎng gè",
+        "C": "jīn nián",
+        "D": "xiǎo"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你的____是几月几号？",
+      "pinyin": "nǐ de ____ shì jǐ yuè jǐ hào ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Sinh nhật của bạn là ngày mấy tháng mấy?",
+      "options": {
+        "A": "十月",
+        "B": "小",
+        "C": "六",
+        "D": "生日"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“生日”。完整句子：你的生日是几月几号？",
+      "optionPinyin": {
+        "A": "shí yuè",
+        "B": "xiǎo",
+        "C": "liù",
+        "D": "shēng rì"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我是五月____号出生的。",
+      "pinyin": "wǒ shì wǔ yuè ____ hào chū shēng de 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi sinh ngày ba tháng năm.",
+      "options": {
+        "A": "快乐",
+        "B": "七十",
+        "C": "大",
+        "D": "三"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“三”。完整句子：我是五月三号出生的。",
+      "optionPinyin": {
+        "A": "kuài lè",
+        "B": "qī shí",
+        "C": "dà",
+        "D": "sān"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：哥哥比我____两岁。",
+      "pinyin": "gē ge bǐ wǒ ____ liǎng suì 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh trai lớn hơn tôi hai tuổi.",
+      "options": {
+        "A": "大",
+        "B": "小",
+        "C": "十八",
+        "D": "几"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“大”。完整句子：哥哥比我大两岁。",
+      "optionPinyin": {
+        "A": "dà",
+        "B": "xiǎo",
+        "C": "shí bā",
+        "D": "jǐ"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：妹妹比我____五岁。",
+      "pinyin": "mèi mei bǐ wǒ ____ wǔ suì 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Em gái nhỏ hơn tôi năm tuổi.",
+      "options": {
+        "A": "五",
+        "B": "六",
+        "C": "小",
+        "D": "快乐"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“小”。完整句子：妹妹比我小五岁。",
+      "optionPinyin": {
+        "A": "wǔ",
+        "B": "liù",
+        "C": "xiǎo",
+        "D": "kuài lè"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：奶奶今年____岁。",
+      "pinyin": "nǎi nai jīn nián ____ suì 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay bà nội bảy mươi tuổi.",
+      "options": {
+        "A": "六",
+        "B": "小",
+        "C": "七十",
+        "D": "三"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“七十”。完整句子：奶奶今年七十岁。",
+      "optionPinyin": {
+        "A": "liù",
+        "B": "xiǎo",
+        "C": "qī shí",
+        "D": "sān"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我有____弟弟。",
+      "pinyin": "wǒ yǒu ____ dì di 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi có hai em trai.",
+      "options": {
+        "A": "两个",
+        "B": "三",
+        "C": "几",
+        "D": "五"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“两个”。完整句子：我有两个弟弟。",
+      "optionPinyin": {
+        "A": "liǎng gè",
+        "B": "sān",
+        "C": "jǐ",
+        "D": "wǔ"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这里有____个人。",
+      "pinyin": "zhè lǐ yǒu ____ gè rén 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Ở đây có năm người.",
+      "options": {
+        "A": "生日",
+        "B": "今年",
+        "C": "二十",
+        "D": "五"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“五”。完整句子：这里有五个人。",
+      "optionPinyin": {
+        "A": "shēng rì",
+        "B": "jīn nián",
+        "C": "èr shí",
+        "D": "wǔ"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：弟弟今年____岁。",
+      "pinyin": "dì di jīn nián ____ suì 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay em trai sáu tuổi.",
+      "options": {
+        "A": "五",
+        "B": "岁",
+        "C": "六",
+        "D": "七十"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“六”。完整句子：弟弟今年六岁。",
+      "optionPinyin": {
+        "A": "wǔ",
+        "B": "suì",
+        "C": "liù",
+        "D": "qī shí"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我的生日在____。",
+      "pinyin": "wǒ de shēng rì zài ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Sinh nhật của tôi vào tháng mười.",
+      "options": {
+        "A": "五",
+        "B": "二十",
+        "C": "十月",
+        "D": "十八"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“十月”。完整句子：我的生日在十月。",
+      "optionPinyin": {
+        "A": "wǔ",
+        "B": "èr shí",
+        "C": "shí yuè",
+        "D": "shí bā"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：姐姐今年____岁。",
+      "pinyin": "jiě jie jīn nián ____ suì 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay chị gái mười tám tuổi.",
+      "options": {
+        "A": "十月",
+        "B": "两个",
+        "C": "十八",
+        "D": "大"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“十八”。完整句子：姐姐今年十八岁。",
+      "optionPinyin": {
+        "A": "shí yuè",
+        "B": "liǎng gè",
+        "C": "shí bā",
+        "D": "dà"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你家有____口人？",
+      "pinyin": "nǐ jiā yǒu ____ kǒu rén ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà bạn có mấy người?",
+      "options": {
+        "A": "大",
+        "B": "生日",
+        "C": "几",
+        "D": "十月"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“几”。完整句子：你家有几口人？",
+      "optionPinyin": {
+        "A": "dà",
+        "B": "shēng rì",
+        "C": "jǐ",
+        "D": "shí yuè"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：祝你生日____！",
+      "pinyin": "zhù nǐ shēng rì ____！",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúc bạn sinh nhật vui vẻ!",
+      "options": {
+        "A": "大",
+        "B": "快乐",
+        "C": "十八",
+        "D": "六"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“快乐”。完整句子：祝你生日快乐！",
+      "optionPinyin": {
+        "A": "dà",
+        "B": "kuài lè",
+        "C": "shí bā",
+        "D": "liù"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n多大 / 你 / 今年",
+      "pinyin": "duō dà / nǐ / jīn nián",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Năm nay bạn bao nhiêu tuổi?",
+      "answers": [
+        "你今年多大？",
+        "你今年多大",
+        "你今年多大?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你今年多大？"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n二十岁 / 我",
+      "pinyin": "èr shí suì / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi hai mươi tuổi.",
+      "answers": [
+        "我二十岁。",
+        "我二十岁",
+        "我二十岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我二十岁。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n今年 / 妹妹 / 十岁",
+      "pinyin": "jīn nián / mèi mei / shí suì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Năm nay em gái mười tuổi.",
+      "answers": [
+        "妹妹今年十岁。",
+        "妹妹今年十岁",
+        "妹妹今年十岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：妹妹今年十岁。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n的生日 / 你 / 是几月几号",
+      "pinyin": "de shēng rì / nǐ / shì jǐ yuè jǐ hào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Sinh nhật của bạn là ngày mấy tháng mấy?",
+      "answers": [
+        "你的生日是几月几号？",
+        "你的生日是几月几号",
+        "你的生日是几月几号?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你的生日是几月几号？"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 五月三号出生的 / 我",
+      "pinyin": "shì / wǔ yuè sān hào chū shēng de / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi sinh ngày ba tháng năm.",
+      "answers": [
+        "我是五月三号出生的。",
+        "我是五月三号出生的",
+        "我是五月三号出生的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我是五月三号出生的。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n比我 / 哥哥 / 大两岁",
+      "pinyin": "bǐ wǒ / gē ge / dà liǎng suì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh trai lớn hơn tôi hai tuổi.",
+      "answers": [
+        "哥哥比我大两岁。",
+        "哥哥比我大两岁",
+        "哥哥比我大两岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：哥哥比我大两岁。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n小五岁 / 比我 / 妹妹",
+      "pinyin": "xiǎo wǔ suì / bǐ wǒ / mèi mei",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Em gái nhỏ hơn tôi năm tuổi.",
+      "answers": [
+        "妹妹比我小五岁。",
+        "妹妹比我小五岁",
+        "妹妹比我小五岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：妹妹比我小五岁。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n今年 / 奶奶 / 七十岁",
+      "pinyin": "jīn nián / nǎi nai / qī shí suì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Năm nay bà nội bảy mươi tuổi.",
+      "answers": [
+        "奶奶今年七十岁。",
+        "奶奶今年七十岁",
+        "奶奶今年七十岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：奶奶今年七十岁。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 两个弟弟 / 有",
+      "pinyin": "wǒ / liǎng gè dì di / yǒu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi có hai em trai.",
+      "answers": [
+        "我有两个弟弟。",
+        "我有两个弟弟",
+        "我有两个弟弟."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我有两个弟弟。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n五个人 / 这里 / 有",
+      "pinyin": "wǔ gè rén / zhè lǐ / yǒu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Ở đây có năm người.",
+      "answers": [
+        "这里有五个人。",
+        "这里有五个人",
+        "这里有五个人."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这里有五个人。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n弟弟 / 六岁 / 今年",
+      "pinyin": "dì di / liù suì / jīn nián",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Năm nay em trai sáu tuổi.",
+      "answers": [
+        "弟弟今年六岁。",
+        "弟弟今年六岁",
+        "弟弟今年六岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：弟弟今年六岁。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n在 / 我的生日 / 十月",
+      "pinyin": "zài / wǒ de shēng rì / shí yuè",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Sinh nhật của tôi vào tháng mười.",
+      "answers": [
+        "我的生日在十月。",
+        "我的生日在十月",
+        "我的生日在十月."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的生日在十月。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n姐姐 / 十八岁 / 今年",
+      "pinyin": "jiě jie / shí bā suì / jīn nián",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Năm nay chị gái mười tám tuổi.",
+      "answers": [
+        "姐姐今年十八岁。",
+        "姐姐今年十八岁",
+        "姐姐今年十八岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：姐姐今年十八岁。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n几口人 / 你家 / 有",
+      "pinyin": "jǐ kǒu rén / nǐ jiā / yǒu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Nhà bạn có mấy người?",
+      "answers": [
+        "你家有几口人？",
+        "你家有几口人",
+        "你家有几口人?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你家有几口人？"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n生日 / 快乐 / 祝你",
+      "pinyin": "shēng rì / kuài lè / zhù nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúc bạn sinh nhật vui vẻ!",
+      "answers": [
+        "祝你生日快乐！",
+        "祝你生日快乐",
+        "祝你生日快乐!"
+      ],
+      "points": 2,
+      "explanation": "参考句子：祝你生日快乐！"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n大三岁 / 比妈妈 / 爸爸",
+      "pinyin": "dà sān suì / bǐ mā ma / bà ba",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bố lớn hơn mẹ ba tuổi.",
+      "answers": [
+        "爸爸比妈妈大三岁。",
+        "爸爸比妈妈大三岁",
+        "爸爸比妈妈大三岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：爸爸比妈妈大三岁。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 今天 / 我的生日",
+      "pinyin": "shì / jīn tiān / wǒ de shēng rì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay là sinh nhật của tôi.",
+      "answers": [
+        "今天是我的生日。",
+        "今天是我的生日",
+        "今天是我的生日."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天是我的生日。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n今年 / 你弟弟 / 多大了",
+      "pinyin": "jīn nián / nǐ dì di / duō dà le",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Năm nay em trai bạn bao nhiêu tuổi rồi?",
+      "answers": [
+        "你弟弟今年多大了？",
+        "你弟弟今年多大了",
+        "你弟弟今年多大了?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你弟弟今年多大了？"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n都是 / 二十岁 / 我们",
+      "pinyin": "dōu shì / èr shí suì / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi đều hai mươi tuổi.",
+      "answers": [
+        "我们都是二十岁。",
+        "我们都是二十岁",
+        "我们都是二十岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们都是二十岁。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n桌上 / 一个生日蛋糕 / 有",
+      "pinyin": "zhuō shàng / yí gè shēng rì dàn gāo / yǒu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Trên bàn có một chiếc bánh sinh nhật.",
+      "answers": [
+        "桌上有一个生日蛋糕。",
+        "桌上有一个生日蛋糕",
+        "桌上有一个生日蛋糕."
+      ],
+      "points": 2,
+      "explanation": "参考句子：桌上有一个生日蛋糕。"
+    }
+  ]
+}

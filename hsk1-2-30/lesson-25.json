@@ -1,0 +1,969 @@
+{
+  "title": "HSK1-2 第25课 你怎么去学校？",
+  "description": "Bạn đến trường bằng cách nào?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“公共汽车”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "gōng gòng qì chē",
+        "B": "gǒng gòng qì chē",
+        "C": "gòng gòng qì chē",
+        "D": "góng gòng qì chē"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“公共汽车”的正确读音是 gōng gòng qì chē。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“出租车”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chū zū chē",
+        "B": "chú zū chē",
+        "C": "chǔ zū chē",
+        "D": "chù zū chē"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“出租车”的正确读音是 chū zū chē。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“火车”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "huò chē",
+        "B": "huó chē",
+        "C": "huǒ chē",
+        "D": "huō chē"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“火车”的正确读音是 huǒ chē。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“飞机”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "fěi jī",
+        "B": "fēi jī",
+        "C": "féi jī",
+        "D": "fèi jī"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“飞机”的正确读音是 fēi jī。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“走路”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zōu lù",
+        "B": "zóu lù",
+        "C": "zǒu lù",
+        "D": "zòu lù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“走路”的正确读音是 zǒu lù。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“骑车”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qì chē",
+        "B": "qī chē",
+        "C": "qí chē",
+        "D": "qǐ chē"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“骑车”的正确读音是 qí chē。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“开车”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "kāi chē",
+        "B": "kài chē",
+        "C": "kái chē",
+        "D": "kǎi chē"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“开车”的正确读音是 kāi chē。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“等车”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "déng chē",
+        "B": "dèng chē",
+        "C": "dēng chē",
+        "D": "děng chē"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“等车”的正确读音是 děng chē。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“上车”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "sháng chē",
+        "B": "shāng chē",
+        "C": "shǎng chē",
+        "D": "shàng chē"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“上车”的正确读音是 shàng chē。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“下车”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiá chē",
+        "B": "xiā chē",
+        "C": "xiǎ chē",
+        "D": "xià chē"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“下车”的正确读音是 xià chē。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“车票”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "ché piào",
+        "B": "chě piào",
+        "C": "chē piào",
+        "D": "chè piào"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“车票”的正确读音是 chē piào。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“起飞”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qì fēi",
+        "B": "qǐ fēi",
+        "C": "qí fēi",
+        "D": "qī fēi"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“起飞”的正确读音是 qǐ fēi。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“到”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dǎo",
+        "B": "dáo",
+        "C": "dāo",
+        "D": "dào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“到”的正确读音是 dào。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“公里”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "góng lǐ",
+        "B": "gǒng lǐ",
+        "C": "gōng lǐ",
+        "D": "gòng lǐ"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“公里”的正确读音是 gōng lǐ。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“怎么”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zèn me",
+        "B": "zěn me",
+        "C": "zēn me",
+        "D": "zén me"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“怎么”的正确读音是 zěn me。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我每天坐____上学。",
+      "pinyin": "wǒ měi tiān zuò ____ shàng xué 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mỗi ngày tôi đi học bằng xe buýt.",
+      "options": {
+        "A": "怎么",
+        "B": "公共汽车",
+        "C": "起飞",
+        "D": "上车"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“公共汽车”。完整句子：我每天坐公共汽车上学。",
+      "optionPinyin": {
+        "A": "zěn me",
+        "B": "gōng gòng qì chē",
+        "C": "qǐ fēi",
+        "D": "shàng chē"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他坐____去公司。",
+      "pinyin": "tā zuò ____ qù gōng sī 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy đi taxi đến công ty.",
+      "options": {
+        "A": "飞机",
+        "B": "起飞",
+        "C": "上车",
+        "D": "出租车"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“出租车”。完整句子：他坐出租车去公司。",
+      "optionPinyin": {
+        "A": "fēi jī",
+        "B": "qǐ fēi",
+        "C": "shàng chē",
+        "D": "chū zū chē"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：姐姐坐____去北京。",
+      "pinyin": "jiě jie zuò ____ qù běi jīng 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chị gái đi tàu hỏa đến Bắc Kinh.",
+      "options": {
+        "A": "火车",
+        "B": "起飞",
+        "C": "走路",
+        "D": "出租车"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“火车”。完整句子：姐姐坐火车去北京。",
+      "optionPinyin": {
+        "A": "huǒ chē",
+        "B": "qǐ fēi",
+        "C": "zǒu lù",
+        "D": "chū zū chē"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：爸爸明天坐____去中国。",
+      "pinyin": "bà ba míng tiān zuò ____ qù zhōng guó 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Ngày mai bố đi máy bay đến Trung Quốc.",
+      "options": {
+        "A": "出租车",
+        "B": "飞机",
+        "C": "起飞",
+        "D": "走路"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“飞机”。完整句子：爸爸明天坐飞机去中国。",
+      "optionPinyin": {
+        "A": "chū zū chē",
+        "B": "fēi jī",
+        "C": "qǐ fēi",
+        "D": "zǒu lù"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我喜欢____去学校。",
+      "pinyin": "wǒ xǐ huan ____ qù xué xiào 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi thích đi bộ đến trường.",
+      "options": {
+        "A": "火车",
+        "B": "走路",
+        "C": "公共汽车",
+        "D": "上车"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“走路”。完整句子：我喜欢走路去学校。",
+      "optionPinyin": {
+        "A": "huǒ chē",
+        "B": "zǒu lù",
+        "C": "gōng gòng qì chē",
+        "D": "shàng chē"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：哥哥每天____上班。",
+      "pinyin": "gē ge měi tiān ____ shàng bān 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mỗi ngày anh trai đạp xe đi làm.",
+      "options": {
+        "A": "起飞",
+        "B": "出租车",
+        "C": "上车",
+        "D": "骑车"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“骑车”。完整句子：哥哥每天骑车上班。",
+      "optionPinyin": {
+        "A": "qǐ fēi",
+        "B": "chū zū chē",
+        "C": "shàng chē",
+        "D": "qí chē"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你会____吗？",
+      "pinyin": "nǐ huì ____ ma ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn có biết lái xe không?",
+      "options": {
+        "A": "开车",
+        "B": "怎么",
+        "C": "起飞",
+        "D": "车票"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“开车”。完整句子：你会开车吗？",
+      "optionPinyin": {
+        "A": "kāi chē",
+        "B": "zěn me",
+        "C": "qǐ fēi",
+        "D": "chē piào"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我在车站____。",
+      "pinyin": "wǒ zài chē zhàn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đợi xe ở bến.",
+      "options": {
+        "A": "公里",
+        "B": "等车",
+        "C": "开车",
+        "D": "出租车"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“等车”。完整句子：我在车站等车。",
+      "optionPinyin": {
+        "A": "gōng lǐ",
+        "B": "děng chē",
+        "C": "kāi chē",
+        "D": "chū zū chē"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请从前门____。",
+      "pinyin": "qǐng cóng qián mén ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy lên xe từ cửa trước.",
+      "options": {
+        "A": "起飞",
+        "B": "车票",
+        "C": "上车",
+        "D": "骑车"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“上车”。完整句子：请从前门上车。",
+      "optionPinyin": {
+        "A": "qǐ fēi",
+        "B": "chē piào",
+        "C": "shàng chē",
+        "D": "qí chē"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我们在下一站____。",
+      "pinyin": "wǒ men zài xià yī zhàn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng ta xuống xe ở trạm tiếp theo.",
+      "options": {
+        "A": "等车",
+        "B": "开车",
+        "C": "下车",
+        "D": "飞机"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“下车”。完整句子：我们在下一站下车。",
+      "optionPinyin": {
+        "A": "děng chē",
+        "B": "kāi chē",
+        "C": "xià chē",
+        "D": "fēi jī"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我已经买好____了。",
+      "pinyin": "wǒ yǐ jīng mǎi hǎo ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đã mua vé xe xong rồi.",
+      "options": {
+        "A": "下车",
+        "B": "车票",
+        "C": "飞机",
+        "D": "走路"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“车票”。完整句子：我已经买好车票了。",
+      "optionPinyin": {
+        "A": "xià chē",
+        "B": "chē piào",
+        "C": "fēi jī",
+        "D": "zǒu lù"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：飞机十点____。",
+      "pinyin": "fēi jī shí diǎn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Máy bay cất cánh lúc mười giờ.",
+      "options": {
+        "A": "火车",
+        "B": "出租车",
+        "C": "公里",
+        "D": "起飞"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“起飞”。完整句子：飞机十点起飞。",
+      "optionPinyin": {
+        "A": "huǒ chē",
+        "B": "chū zū chē",
+        "C": "gōng lǐ",
+        "D": "qǐ fēi"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我们已经____学校了。",
+      "pinyin": "wǒ men yǐ jīng ____ xué xiào le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi đã đến trường rồi.",
+      "options": {
+        "A": "上车",
+        "B": "出租车",
+        "C": "怎么",
+        "D": "到"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“到”。完整句子：我们已经到学校了。",
+      "optionPinyin": {
+        "A": "shàng chē",
+        "B": "chū zū chē",
+        "C": "zěn me",
+        "D": "dào"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：从家到公司有三____。",
+      "pinyin": "cóng jiā dào gōng sī yǒu sān ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Từ nhà đến công ty dài ba ki-lô-mét.",
+      "options": {
+        "A": "上车",
+        "B": "到",
+        "C": "走路",
+        "D": "公里"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“公里”。完整句子：从家到公司有三公里。",
+      "optionPinyin": {
+        "A": "shàng chē",
+        "B": "dào",
+        "C": "zǒu lù",
+        "D": "gōng lǐ"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你____去学校？",
+      "pinyin": "nǐ ____ qù xué xiào ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn đến trường bằng cách nào?",
+      "options": {
+        "A": "怎么",
+        "B": "公里",
+        "C": "开车",
+        "D": "到"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“怎么”。完整句子：你怎么去学校？",
+      "optionPinyin": {
+        "A": "zěn me",
+        "B": "gōng lǐ",
+        "C": "kāi chē",
+        "D": "dào"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 坐公共汽车上学 / 每天",
+      "pinyin": "wǒ / zuò gōng gòng qì chē shàng xué / měi tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mỗi ngày tôi đi học bằng xe buýt.",
+      "answers": [
+        "我每天坐公共汽车上学。",
+        "我每天坐公共汽车上学",
+        "我每天坐公共汽车上学."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我每天坐公共汽车上学。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n去公司 / 他 / 出租车 / 坐",
+      "pinyin": "qù gōng sī / tā / chū zū chē / zuò",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy đi taxi đến công ty.",
+      "answers": [
+        "他坐出租车去公司。",
+        "他坐出租车去公司",
+        "他坐出租车去公司."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他坐出租车去公司。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n坐 / 姐姐 / 去北京 / 火车",
+      "pinyin": "zuò / jiě jie / qù běi jīng / huǒ chē",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chị gái đi tàu hỏa đến Bắc Kinh.",
+      "answers": [
+        "姐姐坐火车去北京。",
+        "姐姐坐火车去北京",
+        "姐姐坐火车去北京."
+      ],
+      "points": 2,
+      "explanation": "参考句子：姐姐坐火车去北京。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n坐飞机去中国 / 明天 / 爸爸",
+      "pinyin": "zuò fēi jī qù zhōng guó / míng tiān / bà ba",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Ngày mai bố đi máy bay đến Trung Quốc.",
+      "answers": [
+        "爸爸明天坐飞机去中国。",
+        "爸爸明天坐飞机去中国",
+        "明天爸爸坐飞机去中国",
+        "爸爸明天坐飞机去中国."
+      ],
+      "points": 2,
+      "explanation": "参考句子：爸爸明天坐飞机去中国。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n去学校 / 走路 / 我 / 喜欢",
+      "pinyin": "qù xué xiào / zǒu lù / wǒ / xǐ huan",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi thích đi bộ đến trường.",
+      "answers": [
+        "我喜欢走路去学校。",
+        "我喜欢走路去学校",
+        "我喜欢走路去学校."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我喜欢走路去学校。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n每天 / 骑车 / 上班 / 哥哥",
+      "pinyin": "měi tiān / qí chē / shàng bān / gē ge",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mỗi ngày anh trai đạp xe đi làm.",
+      "answers": [
+        "哥哥每天骑车上班。",
+        "哥哥每天骑车上班",
+        "哥哥每天骑车上班."
+      ],
+      "points": 2,
+      "explanation": "参考句子：哥哥每天骑车上班。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n会 / 开车吗 / 你",
+      "pinyin": "huì / kāi chē ma / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn có biết lái xe không?",
+      "answers": [
+        "你会开车吗？",
+        "你会开车吗",
+        "你会开车吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你会开车吗？"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n等车 / 在车站 / 我",
+      "pinyin": "děng chē / zài chē zhàn / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi đợi xe ở bến.",
+      "answers": [
+        "我在车站等车。",
+        "我在车站等车",
+        "我在车站等车."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我在车站等车。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请 / 上车 / 从前门",
+      "pinyin": "qǐng / shàng chē / cóng qián mén",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy lên xe từ cửa trước.",
+      "answers": [
+        "请从前门上车。",
+        "请从前门上车",
+        "请从前门上车."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请从前门上车。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n下车 / 在下一站 / 我们",
+      "pinyin": "xià chē / zài xià yī zhàn / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng ta xuống xe ở trạm tiếp theo.",
+      "answers": [
+        "我们在下一站下车。",
+        "我们在下一站下车",
+        "我们在下一站下车."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们在下一站下车。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n已经 / 买好车票了 / 我",
+      "pinyin": "yǐ jīng / mǎi hǎo chē piào le / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi đã mua vé xe xong rồi.",
+      "answers": [
+        "我已经买好车票了。",
+        "我已经买好车票了",
+        "我已经买好车票了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我已经买好车票了。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n起飞 / 十点 / 飞机",
+      "pinyin": "qǐ fēi / shí diǎn / fēi jī",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Máy bay cất cánh lúc mười giờ.",
+      "answers": [
+        "飞机十点起飞。",
+        "飞机十点起飞",
+        "飞机十点起飞."
+      ],
+      "points": 2,
+      "explanation": "参考句子：飞机十点起飞。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n已经 / 我们 / 学校了 / 到",
+      "pinyin": "yǐ jīng / wǒ men / xué xiào le / dào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi đã đến trường rồi.",
+      "answers": [
+        "我们已经到学校了。",
+        "我们已经到学校了",
+        "我们已经到学校了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们已经到学校了。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n三公里 / 从家到公司 / 有",
+      "pinyin": "sān gōng lǐ / cóng jiā dào gōng sī / yǒu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Từ nhà đến công ty dài ba ki-lô-mét.",
+      "answers": [
+        "从家到公司有三公里。",
+        "从家到公司有三公里",
+        "从家到公司有三公里."
+      ],
+      "points": 2,
+      "explanation": "参考句子：从家到公司有三公里。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n去学校 / 怎么 / 你",
+      "pinyin": "qù xué xiào / zěn me / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn đến trường bằng cách nào?",
+      "answers": [
+        "你怎么去学校？",
+        "你怎么去学校",
+        "你怎么去学校?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你怎么去学校？"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n多长时间 / 从这里到车站 / 要",
+      "pinyin": "duō zhǎng shí jiān / cóng zhè lǐ dào chē zhàn / yào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Từ đây đến bến xe mất bao lâu?",
+      "answers": [
+        "从这里到车站要多长时间？",
+        "从这里到车站要多长时间",
+        "从这里到车站要多长时间?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：从这里到车站要多长时间？"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不坐公共汽车 / 我 / 今天",
+      "pinyin": "bù zuò gōng gòng qì chē / wǒ / jīn tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay tôi không đi xe buýt.",
+      "answers": [
+        "今天我不坐公共汽车。",
+        "今天我不坐公共汽车",
+        "我今天不坐公共汽车",
+        "今天我不坐公共汽车."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天我不坐公共汽车。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n比走路 / 快 / 坐出租车",
+      "pinyin": "bǐ zǒu lù / kuài / zuò chū zū chē",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Đi taxi nhanh hơn đi bộ.",
+      "answers": [
+        "坐出租车比走路快。",
+        "坐出租车比走路快",
+        "坐出租车比走路快."
+      ],
+      "points": 2,
+      "explanation": "参考句子：坐出租车比走路快。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n出发 / 几点 / 我们",
+      "pinyin": "chū fā / jǐ diǎn / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng ta xuất phát lúc mấy giờ?",
+      "answers": [
+        "我们几点出发？",
+        "我们几点出发",
+        "我们几点出发?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们几点出发？"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请 / 去火车站 / 送我",
+      "pinyin": "qǐng / qù huǒ chē zhàn / sòng wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Xin đưa tôi đến ga tàu hỏa.",
+      "answers": [
+        "请送我去火车站。",
+        "请送我去火车站",
+        "请送我去火车站."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请送我去火车站。"
+    }
+  ]
+}

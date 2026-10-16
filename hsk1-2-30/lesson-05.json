@@ -1,0 +1,969 @@
+{
+  "title": "HSK1-2 第05课 这是我的家人",
+  "description": "Đây là gia đình tôi；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“爸爸”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "bā ba",
+        "B": "bǎ ba",
+        "C": "bá ba",
+        "D": "bà ba"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“爸爸”的正确读音是 bà ba。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“妈妈”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "mà ma",
+        "B": "mǎ ma",
+        "C": "má ma",
+        "D": "mā ma"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“妈妈”的正确读音是 mā ma。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“哥哥”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "gè ge",
+        "B": "gé ge",
+        "C": "gě ge",
+        "D": "gē ge"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“哥哥”的正确读音是 gē ge。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“姐姐”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jiē jie",
+        "B": "jié jie",
+        "C": "jiè jie",
+        "D": "jiě jie"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“姐姐”的正确读音是 jiě jie。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“弟弟”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dī di",
+        "B": "dí di",
+        "C": "dǐ di",
+        "D": "dì di"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“弟弟”的正确读音是 dì di。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“妹妹”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "měi mei",
+        "B": "mèi mei",
+        "C": "méi mei",
+        "D": "mēi mei"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“妹妹”的正确读音是 mèi mei。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“爷爷”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yé ye",
+        "B": "yě ye",
+        "C": "yē ye",
+        "D": "yè ye"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“爷爷”的正确读音是 yé ye。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“奶奶”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "nāi nai",
+        "B": "nái nai",
+        "C": "nài nai",
+        "D": "nǎi nai"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“奶奶”的正确读音是 nǎi nai。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“口”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "kóu",
+        "B": "kǒu",
+        "C": "kōu",
+        "D": "kòu"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“口”的正确读音是 kǒu。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“家”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jiǎ",
+        "B": "jià",
+        "C": "jiá",
+        "D": "jiā"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“家”的正确读音是 jiā。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“家人”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jià rén",
+        "B": "jiā rén",
+        "C": "jiǎ rén",
+        "D": "jiá rén"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“家人”的正确读音是 jiā rén。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“女儿”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "nǜ ér",
+        "B": "nǚ ér",
+        "C": "nǘ ér",
+        "D": "nǖ ér"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“女儿”的正确读音是 nǚ ér。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“儿子”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "ér zi",
+        "B": "ēr zi",
+        "C": "èr zi",
+        "D": "ěr zi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“儿子”的正确读音是 ér zi。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“爱”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "ài",
+        "B": "ái",
+        "C": "āi",
+        "D": "ǎi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“爱”的正确读音是 ài。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“一起”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yì qǐ",
+        "B": "yí qǐ",
+        "C": "yǐ qǐ",
+        "D": "yī qǐ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“一起”的正确读音是 yì qǐ。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这是我的____。",
+      "pinyin": "zhè shì wǒ de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Đây là bố của tôi.",
+      "options": {
+        "A": "奶奶",
+        "B": "弟弟",
+        "C": "爸爸",
+        "D": "爷爷"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“爸爸”。完整句子：这是我的爸爸。",
+      "optionPinyin": {
+        "A": "nǎi nai",
+        "B": "dì di",
+        "C": "bà ba",
+        "D": "yé ye"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我的____是老师。",
+      "pinyin": "wǒ de ____ shì lǎo shī 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ tôi là giáo viên.",
+      "options": {
+        "A": "妈妈",
+        "B": "一起",
+        "C": "儿子",
+        "D": "哥哥"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“妈妈”。完整句子：我的妈妈是老师。",
+      "optionPinyin": {
+        "A": "mā ma",
+        "B": "yì qǐ",
+        "C": "ér zi",
+        "D": "gē ge"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____在北京工作。",
+      "pinyin": "____ zài běi jīng gōng zuò 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh trai làm việc ở Bắc Kinh.",
+      "options": {
+        "A": "弟弟",
+        "B": "哥哥",
+        "C": "爸爸",
+        "D": "家人"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“哥哥”。完整句子：哥哥在北京工作。",
+      "optionPinyin": {
+        "A": "dì di",
+        "B": "gē ge",
+        "C": "bà ba",
+        "D": "jiā rén"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____喜欢看书。",
+      "pinyin": "____ xǐ huan kàn shū 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chị gái thích đọc sách.",
+      "options": {
+        "A": "一起",
+        "B": "姐姐",
+        "C": "爷爷",
+        "D": "家"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“姐姐”。完整句子：姐姐喜欢看书。",
+      "optionPinyin": {
+        "A": "yì qǐ",
+        "B": "jiě jie",
+        "C": "yé ye",
+        "D": "jiā"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____今年八岁。",
+      "pinyin": "____ jīn nián bā suì 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay em trai tám tuổi.",
+      "options": {
+        "A": "弟弟",
+        "B": "妹妹",
+        "C": "姐姐",
+        "D": "哥哥"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“弟弟”。完整句子：弟弟今年八岁。",
+      "optionPinyin": {
+        "A": "dì di",
+        "B": "mèi mei",
+        "C": "jiě jie",
+        "D": "gē ge"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____在学校学习。",
+      "pinyin": "____ zài xué xiào xué xí 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Em gái học ở trường.",
+      "options": {
+        "A": "一起",
+        "B": "妹妹",
+        "C": "奶奶",
+        "D": "姐姐"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“妹妹”。完整句子：妹妹在学校学习。",
+      "optionPinyin": {
+        "A": "yì qǐ",
+        "B": "mèi mei",
+        "C": "nǎi nai",
+        "D": "jiě jie"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____喜欢喝茶。",
+      "pinyin": "____ xǐ huan hē chá 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Ông nội thích uống trà.",
+      "options": {
+        "A": "妈妈",
+        "B": "一起",
+        "C": "爷爷",
+        "D": "女儿"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“爷爷”。完整句子：爷爷喜欢喝茶。",
+      "optionPinyin": {
+        "A": "mā ma",
+        "B": "yì qǐ",
+        "C": "yé ye",
+        "D": "nǚ ér"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____每天做饭。",
+      "pinyin": "____ měi tiān zuò fàn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bà nội nấu cơm mỗi ngày.",
+      "options": {
+        "A": "爸爸",
+        "B": "儿子",
+        "C": "奶奶",
+        "D": "一起"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“奶奶”。完整句子：奶奶每天做饭。",
+      "optionPinyin": {
+        "A": "bà ba",
+        "B": "ér zi",
+        "C": "nǎi nai",
+        "D": "yì qǐ"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我家有四____人。",
+      "pinyin": "wǒ jiā yǒu sì ____ rén 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà tôi có bốn người.",
+      "options": {
+        "A": "爸爸",
+        "B": "口",
+        "C": "儿子",
+        "D": "弟弟"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“口”。完整句子：我家有四口人。",
+      "optionPinyin": {
+        "A": "bà ba",
+        "B": "kǒu",
+        "C": "ér zi",
+        "D": "dì di"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我的____在河内。",
+      "pinyin": "wǒ de ____ zài hé nèi 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà tôi ở Hà Nội.",
+      "options": {
+        "A": "爱",
+        "B": "爷爷",
+        "C": "爸爸",
+        "D": "家"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“家”。完整句子：我的家在河内。",
+      "optionPinyin": {
+        "A": "ài",
+        "B": "yé ye",
+        "C": "bà ba",
+        "D": "jiā"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他们是我的____。",
+      "pinyin": "tā men shì wǒ de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Họ là người nhà của tôi.",
+      "options": {
+        "A": "爱",
+        "B": "家人",
+        "C": "儿子",
+        "D": "姐姐"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“家人”。完整句子：他们是我的家人。",
+      "optionPinyin": {
+        "A": "ài",
+        "B": "jiā rén",
+        "C": "ér zi",
+        "D": "jiě jie"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：她是我的____。",
+      "pinyin": "tā shì wǒ de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô bé là con gái của tôi.",
+      "options": {
+        "A": "一起",
+        "B": "妈妈",
+        "C": "女儿",
+        "D": "家人"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“女儿”。完整句子：她是我的女儿。",
+      "optionPinyin": {
+        "A": "yì qǐ",
+        "B": "mā ma",
+        "C": "nǚ ér",
+        "D": "jiā rén"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他是我的____。",
+      "pinyin": "tā shì wǒ de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cậu bé là con trai của tôi.",
+      "options": {
+        "A": "口",
+        "B": "儿子",
+        "C": "妹妹",
+        "D": "家"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“儿子”。完整句子：他是我的儿子。",
+      "optionPinyin": {
+        "A": "kǒu",
+        "B": "ér zi",
+        "C": "mèi mei",
+        "D": "jiā"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我____我的家人。",
+      "pinyin": "wǒ ____ wǒ de jiā rén 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi yêu gia đình của mình.",
+      "options": {
+        "A": "爱",
+        "B": "弟弟",
+        "C": "家",
+        "D": "爷爷"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“爱”。完整句子：我爱我的家人。",
+      "optionPinyin": {
+        "A": "ài",
+        "B": "dì di",
+        "C": "jiā",
+        "D": "yé ye"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我们每天____吃饭。",
+      "pinyin": "wǒ men měi tiān ____ chī fàn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi ăn cơm cùng nhau mỗi ngày.",
+      "options": {
+        "A": "爸爸",
+        "B": "一起",
+        "C": "妈妈",
+        "D": "妹妹"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“一起”。完整句子：我们每天一起吃饭。",
+      "optionPinyin": {
+        "A": "bà ba",
+        "B": "yì qǐ",
+        "C": "mā ma",
+        "D": "mèi mei"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的爸爸 / 这是",
+      "pinyin": "wǒ de bà ba / zhè shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Đây là bố của tôi.",
+      "answers": [
+        "这是我的爸爸。",
+        "这是我的爸爸",
+        "这是我的爸爸."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这是我的爸爸。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 老师 / 我的妈妈",
+      "pinyin": "shì / lǎo shī / wǒ de mā ma",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mẹ tôi là giáo viên.",
+      "answers": [
+        "我的妈妈是老师。",
+        "我的妈妈是老师",
+        "我的妈妈是老师."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的妈妈是老师。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n北京工作 / 在 / 哥哥",
+      "pinyin": "běi jīng gōng zuò / zài / gē ge",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh trai làm việc ở Bắc Kinh.",
+      "answers": [
+        "哥哥在北京工作。",
+        "哥哥在北京工作",
+        "哥哥在北京工作."
+      ],
+      "points": 2,
+      "explanation": "参考句子：哥哥在北京工作。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喜欢 / 姐姐 / 看书",
+      "pinyin": "xǐ huan / jiě jie / kàn shū",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chị gái thích đọc sách.",
+      "answers": [
+        "姐姐喜欢看书。",
+        "姐姐喜欢看书",
+        "姐姐喜欢看书."
+      ],
+      "points": 2,
+      "explanation": "参考句子：姐姐喜欢看书。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n今年 / 弟弟 / 八岁",
+      "pinyin": "jīn nián / dì di / bā suì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Năm nay em trai tám tuổi.",
+      "answers": [
+        "弟弟今年八岁。",
+        "弟弟今年八岁",
+        "弟弟今年八岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：弟弟今年八岁。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n妹妹 / 学校学习 / 在",
+      "pinyin": "mèi mei / xué xiào xué xí / zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Em gái học ở trường.",
+      "answers": [
+        "妹妹在学校学习。",
+        "妹妹在学校学习",
+        "妹妹在学校学习."
+      ],
+      "points": 2,
+      "explanation": "参考句子：妹妹在学校学习。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喜欢 / 喝茶 / 爷爷",
+      "pinyin": "xǐ huan / hē chá / yé ye",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Ông nội thích uống trà.",
+      "answers": [
+        "爷爷喜欢喝茶。",
+        "爷爷喜欢喝茶",
+        "爷爷喜欢喝茶."
+      ],
+      "points": 2,
+      "explanation": "参考句子：爷爷喜欢喝茶。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n每天 / 奶奶 / 做饭",
+      "pinyin": "měi tiān / nǎi nai / zuò fàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bà nội nấu cơm mỗi ngày.",
+      "answers": [
+        "奶奶每天做饭。",
+        "奶奶每天做饭",
+        "奶奶每天做饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：奶奶每天做饭。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有四口人 / 我家",
+      "pinyin": "yǒu sì kǒu rén / wǒ jiā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Nhà tôi có bốn người.",
+      "answers": [
+        "我家有四口人。",
+        "我家有四口人",
+        "我家有四口人."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我家有四口人。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的家 / 河内 / 在",
+      "pinyin": "wǒ de jiā / hé nèi / zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Nhà tôi ở Hà Nội.",
+      "answers": [
+        "我的家在河内。",
+        "我的家在河内",
+        "我的家在河内."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的家在河内。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的家人 / 是 / 他们",
+      "pinyin": "wǒ de jiā rén / shì / tā men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Họ là người nhà của tôi.",
+      "answers": [
+        "他们是我的家人。",
+        "他们是我的家人",
+        "他们是我的家人."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他们是我的家人。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 她 / 我的女儿",
+      "pinyin": "shì / tā / wǒ de nǚ ér",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cô bé là con gái của tôi.",
+      "answers": [
+        "她是我的女儿。",
+        "她是我的女儿",
+        "她是我的女儿."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她是我的女儿。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的儿子 / 是 / 他",
+      "pinyin": "wǒ de ér zi / shì / tā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cậu bé là con trai của tôi.",
+      "answers": [
+        "他是我的儿子。",
+        "他是我的儿子",
+        "他是我的儿子."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他是我的儿子。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的家人 / 我 / 爱",
+      "pinyin": "wǒ de jiā rén / wǒ / ài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi yêu gia đình của mình.",
+      "answers": [
+        "我爱我的家人。",
+        "我爱我的家人",
+        "我爱我的家人."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我爱我的家人。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n每天 / 一起吃饭 / 我们",
+      "pinyin": "měi tiān / yì qǐ chī fàn / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi ăn cơm cùng nhau mỗi ngày.",
+      "answers": [
+        "我们每天一起吃饭。",
+        "我们每天一起吃饭",
+        "我们每天一起吃饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们每天一起吃饭。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n爸爸 / 不在家 / 今天",
+      "pinyin": "bà ba / bù zài jiā / jīn tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay bố không ở nhà.",
+      "answers": [
+        "爸爸今天不在家。",
+        "爸爸今天不在家",
+        "今天爸爸不在家",
+        "爸爸今天不在家."
+      ],
+      "points": 2,
+      "explanation": "参考句子：爸爸今天不在家。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有 / 哥哥姐姐吗 / 你",
+      "pinyin": "yǒu / gē ge jiě jie ma / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn có anh chị không?",
+      "answers": [
+        "你有哥哥姐姐吗？",
+        "你有哥哥姐姐吗",
+        "你有哥哥姐姐吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你有哥哥姐姐吗？"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n弟弟妹妹 / 我 / 没有",
+      "pinyin": "dì di mèi mei / wǒ / méi yǒu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi không có em trai hay em gái.",
+      "answers": [
+        "我没有弟弟妹妹。",
+        "我没有弟弟妹妹",
+        "我没有弟弟妹妹."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我没有弟弟妹妹。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n周末 / 去看爷爷奶奶 / 我",
+      "pinyin": "zhōu mò / qù kàn yé ye nǎi nai / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cuối tuần tôi đi thăm ông bà nội.",
+      "answers": [
+        "周末我去看爷爷奶奶。",
+        "周末我去看爷爷奶奶",
+        "我周末去看爷爷奶奶",
+        "周末我去看爷爷奶奶."
+      ],
+      "points": 2,
+      "explanation": "参考句子：周末我去看爷爷奶奶。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很高兴 / 我们一家人 / 都",
+      "pinyin": "hěn gāo xìng / wǒ men yī jiā rén / dōu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cả nhà chúng tôi đều rất vui.",
+      "answers": [
+        "我们一家人都很高兴。",
+        "我们一家人都很高兴",
+        "我们一家人都很高兴."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们一家人都很高兴。"
+    }
+  ]
+}

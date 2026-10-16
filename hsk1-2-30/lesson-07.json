@@ -1,0 +1,968 @@
+{
+  "title": "HSK1-2 第07课 你的电话号码是多少？",
+  "description": "Số điện thoại của bạn là bao nhiêu?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“电话”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "diàn huà",
+        "B": "diǎn huà",
+        "C": "diān huà",
+        "D": "dián huà"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“电话”的正确读音是 diàn huà。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“号码”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "hào mǎ",
+        "B": "hǎo mǎ",
+        "C": "hāo mǎ",
+        "D": "háo mǎ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“号码”的正确读音是 hào mǎ。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“打电话”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dā diàn huà",
+        "B": "dà diàn huà",
+        "C": "dá diàn huà",
+        "D": "dǎ diàn huà"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“打电话”的正确读音是 dǎ diàn huà。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“手机”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shǒu jī",
+        "B": "shōu jī",
+        "C": "shòu jī",
+        "D": "shóu jī"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“手机”的正确读音是 shǒu jī。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“多少”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "duó shao",
+        "B": "duǒ shao",
+        "C": "duō shao",
+        "D": "duò shao"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“多少”的正确读音是 duō shao。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“零”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "lìng",
+        "B": "lǐng",
+        "C": "líng",
+        "D": "līng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“零”的正确读音是 líng。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“一”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yì",
+        "B": "yí",
+        "C": "yǐ",
+        "D": "yī"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“一”的正确读音是 yī。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“四”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "sì",
+        "B": "sǐ",
+        "C": "sī",
+        "D": "sí"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“四”的正确读音是 sì。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“九”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jiù",
+        "B": "jiú",
+        "C": "jiǔ",
+        "D": "jiū"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“九”的正确读音是 jiǔ。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“说”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shuō",
+        "B": "shuò",
+        "C": "shuó",
+        "D": "shuǒ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“说”的正确读音是 shuō。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“听”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "tīng",
+        "B": "tíng",
+        "C": "tìng",
+        "D": "tǐng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“听”的正确读音是 tīng。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“写”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiè",
+        "B": "xié",
+        "C": "xiē",
+        "D": "xiě"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“写”的正确读音是 xiě。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“喂”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wèi",
+        "B": "wéi",
+        "C": "wěi",
+        "D": "wēi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“喂”的正确读音是 wèi。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“等”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dēng",
+        "B": "dèng",
+        "C": "děng",
+        "D": "déng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“等”的正确读音是 děng。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“告诉”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "gào su",
+        "B": "gǎo su",
+        "C": "gāo su",
+        "D": "gáo su"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“告诉”的正确读音是 gào su。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你的____号码是多少？",
+      "pinyin": "nǐ de ____ hào mǎ shì duō shao ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Số điện thoại của bạn là bao nhiêu?",
+      "options": {
+        "A": "听",
+        "B": "电话",
+        "C": "告诉",
+        "D": "号码"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“电话”。完整句子：你的电话号码是多少？",
+      "optionPinyin": {
+        "A": "tīng",
+        "B": "diàn huà",
+        "C": "gào su",
+        "D": "hào mǎ"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请写下你的____。",
+      "pinyin": "qǐng xiě xià nǐ de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy viết số của bạn xuống.",
+      "options": {
+        "A": "写",
+        "B": "多少",
+        "C": "号码",
+        "D": "手机"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“号码”。完整句子：请写下你的号码。",
+      "optionPinyin": {
+        "A": "xiě",
+        "B": "duō shao",
+        "C": "hào mǎ",
+        "D": "shǒu jī"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我给妈妈____。",
+      "pinyin": "wǒ gěi mā ma ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi gọi điện thoại cho mẹ.",
+      "options": {
+        "A": "打电话",
+        "B": "多少",
+        "C": "四",
+        "D": "号码"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“打电话”。完整句子：我给妈妈打电话。",
+      "optionPinyin": {
+        "A": "dǎ diàn huà",
+        "B": "duō shao",
+        "C": "sì",
+        "D": "hào mǎ"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我的____在桌子上。",
+      "pinyin": "wǒ de ____ zài zhuō zi shàng 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Điện thoại di động của tôi ở trên bàn.",
+      "options": {
+        "A": "手机",
+        "B": "说",
+        "C": "听",
+        "D": "告诉"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“手机”。完整句子：我的手机在桌子上。",
+      "optionPinyin": {
+        "A": "shǒu jī",
+        "B": "shuō",
+        "C": "tīng",
+        "D": "gào su"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你的号码是____？",
+      "pinyin": "nǐ de hào mǎ shì ____？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Số của bạn là bao nhiêu?",
+      "options": {
+        "A": "手机",
+        "B": "写",
+        "C": "多少",
+        "D": "九"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“多少”。完整句子：你的号码是多少？",
+      "optionPinyin": {
+        "A": "shǒu jī",
+        "B": "xiě",
+        "C": "duō shao",
+        "D": "jiǔ"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这个数字是____。",
+      "pinyin": "zhè ge shù zì shì ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chữ số này là số không.",
+      "options": {
+        "A": "多少",
+        "B": "等",
+        "C": "零",
+        "D": "手机"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“零”。完整句子：这个数字是零。",
+      "optionPinyin": {
+        "A": "duō shao",
+        "B": "děng",
+        "C": "líng",
+        "D": "shǒu jī"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我家住在第____层。",
+      "pinyin": "wǒ jiā zhù zài dì ____ céng 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà tôi ở tầng một.",
+      "options": {
+        "A": "号码",
+        "B": "九",
+        "C": "一",
+        "D": "等"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“一”。完整句子：我家住在第一层。",
+      "optionPinyin": {
+        "A": "hào mǎ",
+        "B": "jiǔ",
+        "C": "yī",
+        "D": "děng"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这栋楼有____层。",
+      "pinyin": "zhè dòng lóu yǒu ____ céng 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tòa nhà này có bốn tầng.",
+      "options": {
+        "A": "喂",
+        "B": "号码",
+        "C": "手机",
+        "D": "四"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“四”。完整句子：这栋楼有四层。",
+      "optionPinyin": {
+        "A": "wèi",
+        "B": "hào mǎ",
+        "C": "shǒu jī",
+        "D": "sì"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他每天____点睡觉。",
+      "pinyin": "tā měi tiān ____ diǎn shuì jiào 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy ngủ lúc chín giờ mỗi ngày.",
+      "options": {
+        "A": "打电话",
+        "B": "零",
+        "C": "告诉",
+        "D": "九"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“九”。完整句子：他每天九点睡觉。",
+      "optionPinyin": {
+        "A": "dǎ diàn huà",
+        "B": "líng",
+        "C": "gào su",
+        "D": "jiǔ"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请再____一次号码。",
+      "pinyin": "qǐng zài ____ yī cì hào mǎ 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy đọc lại số một lần nữa.",
+      "options": {
+        "A": "说",
+        "B": "四",
+        "C": "听",
+        "D": "零"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“说”。完整句子：请再说一次号码。",
+      "optionPinyin": {
+        "A": "shuō",
+        "B": "sì",
+        "C": "tīng",
+        "D": "líng"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我没____清楚。",
+      "pinyin": "wǒ méi ____ qīng chu 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi chưa nghe rõ.",
+      "options": {
+        "A": "喂",
+        "B": "零",
+        "C": "听",
+        "D": "写"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“听”。完整句子：我没听清楚。",
+      "optionPinyin": {
+        "A": "wèi",
+        "B": "líng",
+        "C": "tīng",
+        "D": "xiě"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你会____我的名字吗？",
+      "pinyin": "nǐ huì ____ wǒ de míng zi ma ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn có biết viết tên tôi không?",
+      "options": {
+        "A": "听",
+        "B": "九",
+        "C": "写",
+        "D": "四"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“写”。完整句子：你会写我的名字吗？",
+      "optionPinyin": {
+        "A": "tīng",
+        "B": "jiǔ",
+        "C": "xiě",
+        "D": "sì"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____，请问小明在吗？",
+      "pinyin": "____， qǐng wèn xiǎo míng zài ma ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: A lô, xin hỏi Tiểu Minh có ở đó không?",
+      "options": {
+        "A": "写",
+        "B": "多少",
+        "C": "喂",
+        "D": "电话"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“喂”。完整句子：喂，请问小明在吗？",
+      "optionPinyin": {
+        "A": "xiě",
+        "B": "duō shao",
+        "C": "wèi",
+        "D": "diàn huà"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请____一下。",
+      "pinyin": "qǐng ____ yí xià 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin đợi một chút.",
+      "options": {
+        "A": "电话",
+        "B": "等",
+        "C": "九",
+        "D": "手机"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“等”。完整句子：请等一下。",
+      "optionPinyin": {
+        "A": "diàn huà",
+        "B": "děng",
+        "C": "jiǔ",
+        "D": "shǒu jī"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我把号码____你。",
+      "pinyin": "wǒ bǎ hào mǎ ____ nǐ 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi nói cho bạn biết số điện thoại.",
+      "options": {
+        "A": "号码",
+        "B": "告诉",
+        "C": "零",
+        "D": "说"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“告诉”。完整句子：我把号码告诉你。",
+      "optionPinyin": {
+        "A": "hào mǎ",
+        "B": "gào su",
+        "C": "líng",
+        "D": "shuō"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n号码 / 是多少 / 你的电话",
+      "pinyin": "hào mǎ / shì duō shao / nǐ de diàn huà",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Số điện thoại của bạn là bao nhiêu?",
+      "answers": [
+        "你的电话号码是多少？",
+        "你的电话号码是多少",
+        "你的电话号码是多少?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你的电话号码是多少？"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n写下 / 你的号码 / 请",
+      "pinyin": "xiě xià / nǐ de hào mǎ / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy viết số của bạn xuống.",
+      "answers": [
+        "请写下你的号码。",
+        "请写下你的号码",
+        "请写下你的号码."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请写下你的号码。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 打电话 / 给妈妈",
+      "pinyin": "wǒ / dǎ diàn huà / gěi mā ma",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi gọi điện thoại cho mẹ.",
+      "answers": [
+        "我给妈妈打电话。",
+        "我给妈妈打电话",
+        "我给妈妈打电话."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我给妈妈打电话。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n在 / 我的手机 / 桌子上",
+      "pinyin": "zài / wǒ de shǒu jī / zhuō zi shàng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Điện thoại di động của tôi ở trên bàn.",
+      "answers": [
+        "我的手机在桌子上。",
+        "我的手机在桌子上",
+        "我的手机在桌子上."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的手机在桌子上。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n多少 / 是 / 你的号码",
+      "pinyin": "duō shao / shì / nǐ de hào mǎ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Số của bạn là bao nhiêu?",
+      "answers": [
+        "你的号码是多少？",
+        "你的号码是多少",
+        "你的号码是多少?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你的号码是多少？"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 零 / 这个数字",
+      "pinyin": "shì / líng / zhè ge shù zì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chữ số này là số không.",
+      "answers": [
+        "这个数字是零。",
+        "这个数字是零",
+        "这个数字是零."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这个数字是零。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我家 / 第一层 / 住在",
+      "pinyin": "wǒ jiā / dì yī céng / zhù zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Nhà tôi ở tầng một.",
+      "answers": [
+        "我家住在第一层。",
+        "我家住在第一层",
+        "我家住在第一层."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我家住在第一层。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n四层 / 有 / 这栋楼",
+      "pinyin": "sì céng / yǒu / zhè dòng lóu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tòa nhà này có bốn tầng.",
+      "answers": [
+        "这栋楼有四层。",
+        "这栋楼有四层",
+        "这栋楼有四层."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这栋楼有四层。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n每天 / 九点睡觉 / 他",
+      "pinyin": "měi tiān / jiǔ diǎn shuì jiào / tā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy ngủ lúc chín giờ mỗi ngày.",
+      "answers": [
+        "他每天九点睡觉。",
+        "他每天九点睡觉",
+        "他每天九点睡觉."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他每天九点睡觉。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n再 / 请 / 说一次号码",
+      "pinyin": "zài / qǐng / shuō yī cì hào mǎ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy đọc lại số một lần nữa.",
+      "answers": [
+        "请再说一次号码。",
+        "请再说一次号码",
+        "请再说一次号码."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请再说一次号码。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n听清楚 / 我 / 没",
+      "pinyin": "tīng qīng chu / wǒ / méi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi chưa nghe rõ.",
+      "answers": [
+        "我没听清楚。",
+        "我没听清楚",
+        "我没听清楚."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我没听清楚。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n写我的名字吗 / 会 / 你",
+      "pinyin": "xiě wǒ de míng zi ma / huì / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn có biết viết tên tôi không?",
+      "answers": [
+        "你会写我的名字吗？",
+        "你会写我的名字吗",
+        "你会写我的名字吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你会写我的名字吗？"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喂 / 小明在吗 / 请问",
+      "pinyin": "wèi / xiǎo míng zài ma / qǐng wèn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: A lô, xin hỏi Tiểu Minh có ở đó không?",
+      "answers": [
+        "喂，请问小明在吗？",
+        "喂请问小明在吗",
+        "喂,请问小明在吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：喂，请问小明在吗？"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n一下 / 等 / 请",
+      "pinyin": "yí xià / děng / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Xin đợi một chút.",
+      "answers": [
+        "请等一下。",
+        "请等一下",
+        "请等一下."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请等一下。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n告诉你 / 把号码 / 我",
+      "pinyin": "gào su nǐ / bǎ hào mǎ / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi nói cho bạn biết số điện thoại.",
+      "answers": [
+        "我把号码告诉你。",
+        "我把号码告诉你",
+        "我把号码告诉你."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我把号码告诉你。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n你 / 方便接电话吗 / 现在",
+      "pinyin": "nǐ / fāng biàn jiē diàn huà ma / xiàn zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bây giờ bạn có tiện nghe điện thoại không?",
+      "answers": [
+        "你现在方便接电话吗？",
+        "你现在方便接电话吗",
+        "现在你方便接电话吗",
+        "你现在方便接电话吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你现在方便接电话吗？"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n打电话 / 他 / 正在",
+      "pinyin": "dǎ diàn huà / tā / zhèng zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy đang gọi điện thoại.",
+      "answers": [
+        "他正在打电话。",
+        "他正在打电话",
+        "他正在打电话."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他正在打电话。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n明天 / 再打来 / 请",
+      "pinyin": "míng tiān / zài dǎ lái / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Ngày mai vui lòng gọi lại.",
+      "answers": [
+        "请明天再打来。",
+        "请明天再打来",
+        "请明天再打来."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请明天再打来。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不是 / 这个号码 / 我的",
+      "pinyin": "bú shì / zhè ge hào mǎ / wǒ de",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Số này không phải của tôi.",
+      "answers": [
+        "这个号码不是我的。",
+        "这个号码不是我的",
+        "这个号码不是我的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这个号码不是我的。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n老师的电话号码 / 我 / 知道",
+      "pinyin": "lǎo shī de diàn huà hào mǎ / wǒ / zhī dào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi biết số điện thoại của cô giáo.",
+      "answers": [
+        "我知道老师的电话号码。",
+        "我知道老师的电话号码",
+        "我知道老师的电话号码."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我知道老师的电话号码。"
+    }
+  ]
+}

@@ -1,0 +1,973 @@
+{
+  "title": "HSK1-2 第26课 我有点儿不舒服",
+  "description": "Tôi hơi khó chịu trong người；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“舒服”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shǔ fu",
+        "B": "shù fu",
+        "C": "shū fu",
+        "D": "shú fu"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“舒服”的正确读音是 shū fu。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“生病”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shēng bìng",
+        "B": "shéng bìng",
+        "C": "shèng bìng",
+        "D": "shěng bìng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“生病”的正确读音是 shēng bìng。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“医院”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yǐ yuàn",
+        "B": "yī yuàn",
+        "C": "yí yuàn",
+        "D": "yì yuàn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“医院”的正确读音是 yī yuàn。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“医生”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yí shēng",
+        "B": "yǐ shēng",
+        "C": "yī shēng",
+        "D": "yì shēng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“医生”的正确读音是 yī shēng。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“头疼”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "tóu téng",
+        "B": "tǒu téng",
+        "C": "tòu téng",
+        "D": "tōu téng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“头疼”的正确读音是 tóu téng。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“肚子”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dù zi",
+        "B": "dǔ zi",
+        "C": "dú zi",
+        "D": "dū zi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“肚子”的正确读音是 dù zi。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“感冒”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "gàn mào",
+        "B": "gán mào",
+        "C": "gǎn mào",
+        "D": "gān mào"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“感冒”的正确读音是 gǎn mào。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“发烧”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "fǎ shāo",
+        "B": "fà shāo",
+        "C": "fā shāo",
+        "D": "fá shāo"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“发烧”的正确读音是 fā shāo。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“休息”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiú xi",
+        "B": "xiū xi",
+        "C": "xiù xi",
+        "D": "xiǔ xi"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“休息”的正确读音是 xiū xi。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“药”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yào",
+        "B": "yāo",
+        "C": "yǎo",
+        "D": "yáo"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“药”的正确读音是 yào。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“水”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shuī",
+        "B": "shuì",
+        "C": "shuǐ",
+        "D": "shuí"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“水”的正确读音是 shuǐ。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“眼睛”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yán jing",
+        "B": "yǎn jing",
+        "C": "yàn jing",
+        "D": "yān jing"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“眼睛”的正确读音是 yǎn jing。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“手”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shóu",
+        "B": "shǒu",
+        "C": "shòu",
+        "D": "shōu"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“手”的正确读音是 shǒu。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“牙”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yà",
+        "B": "yǎ",
+        "C": "yā",
+        "D": "yá"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“牙”的正确读音是 yá。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“身体”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shēn tǐ",
+        "B": "shén tǐ",
+        "C": "shèn tǐ",
+        "D": "shěn tǐ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“身体”的正确读音是 shēn tǐ。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：今天我不太____。",
+      "pinyin": "jīn tiān wǒ bú tài ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay tôi không được khỏe lắm.",
+      "options": {
+        "A": "肚子",
+        "B": "医院",
+        "C": "牙",
+        "D": "舒服"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“舒服”。完整句子：今天我不太舒服。",
+      "optionPinyin": {
+        "A": "dù zi",
+        "B": "yī yuàn",
+        "C": "yá",
+        "D": "shū fu"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他____了。",
+      "pinyin": "tā ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy bị ốm rồi.",
+      "options": {
+        "A": "生病",
+        "B": "医生",
+        "C": "手",
+        "D": "休息"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“生病”。完整句子：他生病了。",
+      "optionPinyin": {
+        "A": "shēng bìng",
+        "B": "yī shēng",
+        "C": "shǒu",
+        "D": "xiū xi"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我想去____。",
+      "pinyin": "wǒ xiǎng qù ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn đến bệnh viện.",
+      "options": {
+        "A": "医院",
+        "B": "生病",
+        "C": "感冒",
+        "D": "肚子"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“医院”。完整句子：我想去医院。",
+      "optionPinyin": {
+        "A": "yī yuàn",
+        "B": "shēng bìng",
+        "C": "gǎn mào",
+        "D": "dù zi"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____请帮我看看。",
+      "pinyin": "____ qǐng bāng wǒ kàn kàn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bác sĩ vui lòng khám giúp tôi.",
+      "options": {
+        "A": "医生",
+        "B": "头疼",
+        "C": "牙",
+        "D": "医院"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“医生”。完整句子：医生请帮我看看。",
+      "optionPinyin": {
+        "A": "yī shēng",
+        "B": "tóu téng",
+        "C": "yá",
+        "D": "yī yuàn"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我今天有点儿____。",
+      "pinyin": "wǒ jīn tiān yǒu diǎn ér ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay tôi hơi đau đầu.",
+      "options": {
+        "A": "生病",
+        "B": "感冒",
+        "C": "头疼",
+        "D": "休息"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“头疼”。完整句子：我今天有点儿头疼。",
+      "optionPinyin": {
+        "A": "shēng bìng",
+        "B": "gǎn mào",
+        "C": "tóu téng",
+        "D": "xiū xi"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：弟弟的____不舒服。",
+      "pinyin": "dì di de ____ bù shū fú 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bụng của em trai khó chịu.",
+      "options": {
+        "A": "水",
+        "B": "休息",
+        "C": "肚子",
+        "D": "手"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“肚子”。完整句子：弟弟的肚子不舒服。",
+      "optionPinyin": {
+        "A": "shuǐ",
+        "B": "xiū xi",
+        "C": "dù zi",
+        "D": "shǒu"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我好像____了。",
+      "pinyin": "wǒ hǎo xiàng ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hình như tôi bị cảm rồi.",
+      "options": {
+        "A": "感冒",
+        "B": "发烧",
+        "C": "肚子",
+        "D": "牙"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“感冒”。完整句子：我好像感冒了。",
+      "optionPinyin": {
+        "A": "gǎn mào",
+        "B": "fā shāo",
+        "C": "dù zi",
+        "D": "yá"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：她今天____了。",
+      "pinyin": "tā jīn tiān ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay cô ấy bị sốt.",
+      "options": {
+        "A": "生病",
+        "B": "发烧",
+        "C": "头疼",
+        "D": "休息"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“发烧”。完整句子：她今天发烧了。",
+      "optionPinyin": {
+        "A": "shēng bìng",
+        "B": "fā shāo",
+        "C": "tóu téng",
+        "D": "xiū xi"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：医生说要多____。",
+      "pinyin": "yī shēng shuō yào duō ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bác sĩ nói cần nghỉ ngơi nhiều.",
+      "options": {
+        "A": "感冒",
+        "B": "休息",
+        "C": "水",
+        "D": "生病"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“休息”。完整句子：医生说要多休息。",
+      "optionPinyin": {
+        "A": "gǎn mào",
+        "B": "xiū xi",
+        "C": "shuǐ",
+        "D": "shēng bìng"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我去药店买____。",
+      "pinyin": "wǒ qù yào diàn mǎi ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đến hiệu thuốc mua thuốc.",
+      "options": {
+        "A": "药",
+        "B": "头疼",
+        "C": "医生",
+        "D": "感冒"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“药”。完整句子：我去药店买药。",
+      "optionPinyin": {
+        "A": "yào",
+        "B": "tóu téng",
+        "C": "yī shēng",
+        "D": "gǎn mào"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这几天你要多喝____。",
+      "pinyin": "zhè jǐ tiān nǐ yào duō hē ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mấy ngày này bạn cần uống nhiều nước.",
+      "options": {
+        "A": "水",
+        "B": "休息",
+        "C": "肚子",
+        "D": "发烧"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“水”。完整句子：这几天你要多喝水。",
+      "optionPinyin": {
+        "A": "shuǐ",
+        "B": "xiū xi",
+        "C": "dù zi",
+        "D": "fā shāo"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我的____有点儿不舒服。",
+      "pinyin": "wǒ de ____ yǒu diǎn ér bù shū fú 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mắt của tôi hơi khó chịu.",
+      "options": {
+        "A": "舒服",
+        "B": "药",
+        "C": "牙",
+        "D": "眼睛"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“眼睛”。完整句子：我的眼睛有点儿不舒服。",
+      "optionPinyin": {
+        "A": "shū fu",
+        "B": "yào",
+        "C": "yá",
+        "D": "yǎn jing"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我洗干净了____。",
+      "pinyin": "wǒ xǐ gān jìng le ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đã rửa tay sạch rồi.",
+      "options": {
+        "A": "舒服",
+        "B": "医院",
+        "C": "牙",
+        "D": "手"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“手”。完整句子：我洗干净了手。",
+      "optionPinyin": {
+        "A": "shū fu",
+        "B": "yī yuàn",
+        "C": "yá",
+        "D": "shǒu"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我的____有点儿疼。",
+      "pinyin": "wǒ de ____ yǒu diǎn ér téng 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Răng của tôi hơi đau.",
+      "options": {
+        "A": "感冒",
+        "B": "牙",
+        "C": "生病",
+        "D": "药"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“牙”。完整句子：我的牙有点儿疼。",
+      "optionPinyin": {
+        "A": "gǎn mào",
+        "B": "yá",
+        "C": "shēng bìng",
+        "D": "yào"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你要注意____。",
+      "pinyin": "nǐ yào zhù yì ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn cần chú ý sức khỏe.",
+      "options": {
+        "A": "眼睛",
+        "B": "身体",
+        "C": "休息",
+        "D": "头疼"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“身体”。完整句子：你要注意身体。",
+      "optionPinyin": {
+        "A": "yǎn jing",
+        "B": "shēn tǐ",
+        "C": "xiū xi",
+        "D": "tóu téng"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n今天 / 不太舒服 / 我",
+      "pinyin": "jīn tiān / bú tài shū fu / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay tôi không được khỏe lắm.",
+      "answers": [
+        "今天我不太舒服。",
+        "今天我不太舒服",
+        "我今天不太舒服",
+        "今天我不太舒服."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天我不太舒服。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n了 / 他 / 生病",
+      "pinyin": "le / tā / shēng bìng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy bị ốm rồi.",
+      "answers": [
+        "他生病了。",
+        "他生病了",
+        "他生病了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他生病了。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n想 / 去医院 / 我",
+      "pinyin": "xiǎng / qù yī yuàn / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn đến bệnh viện.",
+      "answers": [
+        "我想去医院。",
+        "我想去医院",
+        "我想去医院."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想去医院。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n帮我看看 / 医生 / 请",
+      "pinyin": "bāng wǒ kàn kàn / yī shēng / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bác sĩ vui lòng khám giúp tôi.",
+      "answers": [
+        "医生请帮我看看。",
+        "医生请帮我看看",
+        "医生请帮我看看."
+      ],
+      "points": 2,
+      "explanation": "参考句子：医生请帮我看看。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有点儿头疼 / 今天 / 我",
+      "pinyin": "yǒu diǎn ér tóu téng / jīn tiān / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay tôi hơi đau đầu.",
+      "answers": [
+        "我今天有点儿头疼。",
+        "我今天有点儿头疼",
+        "今天我有点儿头疼",
+        "我今天有点儿头疼."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我今天有点儿头疼。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n弟弟 / 不舒服 / 的肚子",
+      "pinyin": "dì di / bù shū fú / de dù zi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bụng của em trai khó chịu.",
+      "answers": [
+        "弟弟的肚子不舒服。",
+        "弟弟的肚子不舒服",
+        "弟弟的肚子不舒服."
+      ],
+      "points": 2,
+      "explanation": "参考句子：弟弟的肚子不舒服。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n好像 / 感冒了 / 我",
+      "pinyin": "hǎo xiàng / gǎn mào le / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hình như tôi bị cảm rồi.",
+      "answers": [
+        "我好像感冒了。",
+        "我好像感冒了",
+        "我好像感冒了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我好像感冒了。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n发烧了 / 她 / 今天",
+      "pinyin": "fā shāo le / tā / jīn tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay cô ấy bị sốt.",
+      "answers": [
+        "她今天发烧了。",
+        "她今天发烧了",
+        "今天她发烧了",
+        "她今天发烧了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她今天发烧了。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n要多休息 / 说 / 医生",
+      "pinyin": "yào duō xiū xi / shuō / yī shēng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bác sĩ nói cần nghỉ ngơi nhiều.",
+      "answers": [
+        "医生说要多休息。",
+        "医生说要多休息",
+        "医生说要多休息."
+      ],
+      "points": 2,
+      "explanation": "参考句子：医生说要多休息。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n买药 / 我 / 去药店",
+      "pinyin": "mǎi yào / wǒ / qù yào diàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi đến hiệu thuốc mua thuốc.",
+      "answers": [
+        "我去药店买药。",
+        "我去药店买药",
+        "我去药店买药."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我去药店买药。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n你 / 要多喝水 / 这几天",
+      "pinyin": "nǐ / yào duō hē shuǐ / zhè jǐ tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mấy ngày này bạn cần uống nhiều nước.",
+      "answers": [
+        "这几天你要多喝水。",
+        "这几天你要多喝水",
+        "这几天你要多喝水."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这几天你要多喝水。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不舒服 / 有点儿 / 我的眼睛",
+      "pinyin": "bù shū fú / yǒu diǎn ér / wǒ de yǎn jing",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mắt của tôi hơi khó chịu.",
+      "answers": [
+        "我的眼睛有点儿不舒服。",
+        "我的眼睛有点儿不舒服",
+        "我的眼睛有点儿不舒服."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的眼睛有点儿不舒服。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 手 / 洗干净了",
+      "pinyin": "wǒ / shǒu / xǐ gān jìng le",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi đã rửa tay sạch rồi.",
+      "answers": [
+        "我洗干净了手。",
+        "我洗干净了手",
+        "我洗干净了手."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我洗干净了手。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有点儿疼 / 我 / 的牙",
+      "pinyin": "yǒu diǎn ér téng / wǒ / de yá",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Răng của tôi hơi đau.",
+      "answers": [
+        "我的牙有点儿疼。",
+        "我的牙有点儿疼",
+        "我的牙有点儿疼."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的牙有点儿疼。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n身体 / 你 / 要注意",
+      "pinyin": "shēn tǐ / nǐ / yào zhù yì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn cần chú ý sức khỏe.",
+      "answers": [
+        "你要注意身体。",
+        "你要注意身体",
+        "你要注意身体."
+      ],
+      "points": 2,
+      "explanation": "参考句子：你要注意身体。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不舒服 / 你 / 哪里",
+      "pinyin": "bù shū fú / nǐ / nǎ lǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn khó chịu ở đâu?",
+      "answers": [
+        "你哪里不舒服？",
+        "你哪里不舒服",
+        "你哪里不舒服?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你哪里不舒服？"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 想早点睡觉 / 今天",
+      "pinyin": "wǒ / xiǎng zǎo diǎn shuì jiào / jīn tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay tôi muốn đi ngủ sớm.",
+      "answers": [
+        "我今天想早点睡觉。",
+        "我今天想早点睡觉",
+        "今天我想早点睡觉",
+        "我今天想早点睡觉."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我今天想早点睡觉。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n昨天 / 他 / 去看医生了",
+      "pinyin": "zuó tiān / tā / qù kàn yī shēng le",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm qua anh ấy đã đi khám bác sĩ.",
+      "answers": [
+        "他昨天去看医生了。",
+        "他昨天去看医生了",
+        "昨天他去看医生了",
+        "他昨天去看医生了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他昨天去看医生了。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n已经 / 我 / 好多了",
+      "pinyin": "yǐ jīng / wǒ / hǎo duō le",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi đã khỏe hơn nhiều rồi.",
+      "answers": [
+        "我已经好多了。",
+        "我已经好多了",
+        "我已经好多了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我已经好多了。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不能去上班 / 明天 / 我",
+      "pinyin": "bù néng qù shàng bān / míng tiān / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Ngày mai tôi không thể đi làm.",
+      "answers": [
+        "明天我不能去上班。",
+        "明天我不能去上班",
+        "我明天不能去上班",
+        "明天我不能去上班."
+      ],
+      "points": 2,
+      "explanation": "参考句子：明天我不能去上班。"
+    }
+  ]
+}

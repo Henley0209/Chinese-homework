@@ -1,0 +1,967 @@
+{
+  "title": "HSK1-2 第12课 请再说一遍",
+  "description": "Xin hãy nói lại một lần nữa；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“请”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qìng",
+        "B": "qíng",
+        "C": "qǐng",
+        "D": "qīng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“请”的正确读音是 qǐng。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“慢”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "mān",
+        "B": "mǎn",
+        "C": "màn",
+        "D": "mán"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“慢”的正确读音是 màn。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“快”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "kuǎi",
+        "B": "kuāi",
+        "C": "kuài",
+        "D": "kuái"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“快”的正确读音是 kuài。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“再”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zái",
+        "B": "zāi",
+        "C": "zài",
+        "D": "zǎi"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“再”的正确读音是 zài。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“遍”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "biàn",
+        "B": "biǎn",
+        "C": "bián",
+        "D": "biān"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“遍”的正确读音是 biàn。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“清楚”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qìng chu",
+        "B": "qīng chu",
+        "C": "qǐng chu",
+        "D": "qíng chu"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“清楚”的正确读音是 qīng chu。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“帮助”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "bǎng zhù",
+        "B": "bàng zhù",
+        "C": "bāng zhù",
+        "D": "báng zhù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“帮助”的正确读音是 bāng zhù。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“问题”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wèn tí",
+        "B": "wén tí",
+        "C": "wěn tí",
+        "D": "wēn tí"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“问题”的正确读音是 wèn tí。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“回答”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "huí dá",
+        "B": "huì dá",
+        "C": "huī dá",
+        "D": "huǐ dá"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“回答”的正确读音是 huí dá。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“打开”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dǎ kāi",
+        "B": "dā kāi",
+        "C": "dá kāi",
+        "D": "dà kāi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“打开”的正确读音是 dǎ kāi。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“坐下”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zuó xià",
+        "B": "zuò xià",
+        "C": "zuǒ xià",
+        "D": "zuō xià"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“坐下”的正确读音是 zuò xià。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“进来”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jīn lai",
+        "B": "jǐn lai",
+        "C": "jìn lai",
+        "D": "jín lai"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“进来”的正确读音是 jìn lai。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“洗手间”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xì shǒu jiān",
+        "B": "xī shǒu jiān",
+        "C": "xí shǒu jiān",
+        "D": "xǐ shǒu jiān"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“洗手间”的正确读音是 xǐ shǒu jiān。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“错”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "cuō",
+        "B": "cuó",
+        "C": "cuǒ",
+        "D": "cuò"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“错”的正确读音是 cuò。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“对”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "duǐ",
+        "B": "duí",
+        "C": "duī",
+        "D": "duì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“对”的正确读音是 duì。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____再说一遍。",
+      "pinyin": "____ zài shuō yí biàn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin hãy nói lại một lần nữa.",
+      "options": {
+        "A": "坐下",
+        "B": "进来",
+        "C": "请",
+        "D": "错"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“请”。完整句子：请再说一遍。",
+      "optionPinyin": {
+        "A": "zuò xià",
+        "B": "jìn lai",
+        "C": "qǐng",
+        "D": "cuò"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：老师，请说____一点。",
+      "pinyin": "lǎo shī ， qǐng shuō ____ yì diǎn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Thầy cô vui lòng nói chậm một chút.",
+      "options": {
+        "A": "快",
+        "B": "请",
+        "C": "慢",
+        "D": "坐下"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“慢”。完整句子：老师，请说慢一点。",
+      "optionPinyin": {
+        "A": "kuài",
+        "B": "qǐng",
+        "C": "màn",
+        "D": "zuò xià"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你说得太____了。",
+      "pinyin": "nǐ shuō dé tài ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn nói nhanh quá.",
+      "options": {
+        "A": "错",
+        "B": "洗手间",
+        "C": "快",
+        "D": "慢"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“快”。完整句子：你说得太快了。",
+      "optionPinyin": {
+        "A": "cuò",
+        "B": "xǐ shǒu jiān",
+        "C": "kuài",
+        "D": "màn"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请____读一次。",
+      "pinyin": "qǐng ____ dú yī cì 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy đọc lại một lần nữa.",
+      "options": {
+        "A": "再",
+        "B": "遍",
+        "C": "打开",
+        "D": "快"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“再”。完整句子：请再读一次。",
+      "optionPinyin": {
+        "A": "zài",
+        "B": "biàn",
+        "C": "dǎ kāi",
+        "D": "kuài"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这个词请读两____。",
+      "pinyin": "zhè ge cí qǐng dú liǎng ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Từ này hãy đọc hai lần.",
+      "options": {
+        "A": "回答",
+        "B": "遍",
+        "C": "对",
+        "D": "打开"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“遍”。完整句子：这个词请读两遍。",
+      "optionPinyin": {
+        "A": "huí dá",
+        "B": "biàn",
+        "C": "duì",
+        "D": "dǎ kāi"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我没有听____。",
+      "pinyin": "wǒ méi yǒu tīng ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi chưa nghe rõ.",
+      "options": {
+        "A": "错",
+        "B": "请",
+        "C": "慢",
+        "D": "清楚"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“清楚”。完整句子：我没有听清楚。",
+      "optionPinyin": {
+        "A": "cuò",
+        "B": "qǐng",
+        "C": "màn",
+        "D": "qīng chu"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：老师请____我。",
+      "pinyin": "lǎo shī qǐng ____ wǒ 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Thầy cô vui lòng giúp em.",
+      "options": {
+        "A": "帮助",
+        "B": "回答",
+        "C": "坐下",
+        "D": "进来"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“帮助”。完整句子：老师请帮助我。",
+      "optionPinyin": {
+        "A": "bāng zhù",
+        "B": "huí dá",
+        "C": "zuò xià",
+        "D": "jìn lai"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我有一个____。",
+      "pinyin": "wǒ yǒu yí gè ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi có một câu hỏi.",
+      "options": {
+        "A": "问题",
+        "B": "再",
+        "C": "错",
+        "D": "打开"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“问题”。完整句子：我有一个问题。",
+      "optionPinyin": {
+        "A": "wèn tí",
+        "B": "zài",
+        "C": "cuò",
+        "D": "dǎ kāi"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请____我的问题。",
+      "pinyin": "qǐng ____ wǒ de wèn tí 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy trả lời câu hỏi của tôi.",
+      "options": {
+        "A": "快",
+        "B": "回答",
+        "C": "再",
+        "D": "进来"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“回答”。完整句子：请回答我的问题。",
+      "optionPinyin": {
+        "A": "kuài",
+        "B": "huí dá",
+        "C": "zài",
+        "D": "jìn lai"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请____书。",
+      "pinyin": "qǐng ____ shū 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy mở sách ra.",
+      "options": {
+        "A": "打开",
+        "B": "慢",
+        "C": "进来",
+        "D": "错"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“打开”。完整句子：请打开书。",
+      "optionPinyin": {
+        "A": "dǎ kāi",
+        "B": "màn",
+        "C": "jìn lai",
+        "D": "cuò"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请____，上课了。",
+      "pinyin": "qǐng ____， shàng kè le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mời ngồi xuống, bắt đầu học rồi.",
+      "options": {
+        "A": "坐下",
+        "B": "问题",
+        "C": "遍",
+        "D": "慢"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“坐下”。完整句子：请坐下，上课了。",
+      "optionPinyin": {
+        "A": "zuò xià",
+        "B": "wèn tí",
+        "C": "biàn",
+        "D": "màn"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请____坐。",
+      "pinyin": "qǐng ____ zuò 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mời vào ngồi.",
+      "options": {
+        "A": "帮助",
+        "B": "请",
+        "C": "快",
+        "D": "进来"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“进来”。完整句子：请进来坐。",
+      "optionPinyin": {
+        "A": "bāng zhù",
+        "B": "qǐng",
+        "C": "kuài",
+        "D": "jìn lai"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我想去____。",
+      "pinyin": "wǒ xiǎng qù ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn đi vệ sinh.",
+      "options": {
+        "A": "洗手间",
+        "B": "坐下",
+        "C": "错",
+        "D": "对"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“洗手间”。完整句子：我想去洗手间。",
+      "optionPinyin": {
+        "A": "xǐ shǒu jiān",
+        "B": "zuò xià",
+        "C": "cuò",
+        "D": "duì"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这个字我写____了。",
+      "pinyin": "zhè ge zì wǒ xiě ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chữ này tôi viết sai rồi.",
+      "options": {
+        "A": "打开",
+        "B": "错",
+        "C": "洗手间",
+        "D": "回答"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“错”。完整句子：这个字我写错了。",
+      "optionPinyin": {
+        "A": "dǎ kāi",
+        "B": "cuò",
+        "C": "xǐ shǒu jiān",
+        "D": "huí dá"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：老师说这个答案是____的。",
+      "pinyin": "lǎo shī shuō zhè ge dá àn shì ____ de 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Giáo viên nói đáp án này đúng.",
+      "options": {
+        "A": "问题",
+        "B": "对",
+        "C": "请",
+        "D": "慢"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“对”。完整句子：老师说这个答案是对的。",
+      "optionPinyin": {
+        "A": "wèn tí",
+        "B": "duì",
+        "C": "qǐng",
+        "D": "màn"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n再说一遍 / 请",
+      "pinyin": "zài shuō yí biàn / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Xin hãy nói lại một lần nữa.",
+      "answers": [
+        "请再说一遍。",
+        "请再说一遍",
+        "请再说一遍."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请再说一遍。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请说慢 / 老师 / 一点",
+      "pinyin": "qǐng shuō màn / lǎo shī / yì diǎn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Thầy cô vui lòng nói chậm một chút.",
+      "answers": [
+        "老师，请说慢一点。",
+        "老师请说慢一点",
+        "老师,请说慢一点."
+      ],
+      "points": 2,
+      "explanation": "参考句子：老师，请说慢一点。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n说得 / 你 / 太快了",
+      "pinyin": "shuō dé / nǐ / tài kuài le",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn nói nhanh quá.",
+      "answers": [
+        "你说得太快了。",
+        "你说得太快了",
+        "你说得太快了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：你说得太快了。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n再 / 请 / 读一次",
+      "pinyin": "zài / qǐng / dú yī cì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy đọc lại một lần nữa.",
+      "answers": [
+        "请再读一次。",
+        "请再读一次",
+        "请再读一次."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请再读一次。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请读两遍 / 这个词",
+      "pinyin": "qǐng dú liǎng biàn / zhè ge cí",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Từ này hãy đọc hai lần.",
+      "answers": [
+        "这个词请读两遍。",
+        "这个词请读两遍",
+        "这个词请读两遍."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这个词请读两遍。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n听清楚 / 没有 / 我",
+      "pinyin": "tīng qīng chu / méi yǒu / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi chưa nghe rõ.",
+      "answers": [
+        "我没有听清楚。",
+        "我没有听清楚",
+        "我没有听清楚."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我没有听清楚。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请 / 老师 / 帮助我",
+      "pinyin": "qǐng / lǎo shī / bāng zhù wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Thầy cô vui lòng giúp em.",
+      "answers": [
+        "老师请帮助我。",
+        "老师请帮助我",
+        "老师请帮助我."
+      ],
+      "points": 2,
+      "explanation": "参考句子：老师请帮助我。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有一个问题 / 我",
+      "pinyin": "yǒu yí gè wèn tí / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi có một câu hỏi.",
+      "answers": [
+        "我有一个问题。",
+        "我有一个问题",
+        "我有一个问题."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我有一个问题。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请 / 我的问题 / 回答",
+      "pinyin": "qǐng / wǒ de wèn tí / huí dá",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy trả lời câu hỏi của tôi.",
+      "answers": [
+        "请回答我的问题。",
+        "请回答我的问题",
+        "请回答我的问题."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请回答我的问题。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n打开 / 书 / 请",
+      "pinyin": "dǎ kāi / shū / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy mở sách ra.",
+      "answers": [
+        "请打开书。",
+        "请打开书",
+        "请打开书."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请打开书。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n坐下 / 上课了 / 请",
+      "pinyin": "zuò xià / shàng kè le / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mời ngồi xuống, bắt đầu học rồi.",
+      "answers": [
+        "请坐下，上课了。",
+        "请坐下上课了",
+        "请坐下,上课了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请坐下，上课了。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n进来 / 坐 / 请",
+      "pinyin": "jìn lai / zuò / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mời vào ngồi.",
+      "answers": [
+        "请进来坐。",
+        "请进来坐",
+        "请进来坐."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请进来坐。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 去洗手间 / 想",
+      "pinyin": "wǒ / qù xǐ shǒu jiān / xiǎng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn đi vệ sinh.",
+      "answers": [
+        "我想去洗手间。",
+        "我想去洗手间",
+        "我想去洗手间."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想去洗手间。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n这个字 / 写错了 / 我",
+      "pinyin": "zhè ge zì / xiě cuò le / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chữ này tôi viết sai rồi.",
+      "answers": [
+        "这个字我写错了。",
+        "这个字我写错了",
+        "这个字我写错了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这个字我写错了。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n这个答案是对的 / 说 / 老师",
+      "pinyin": "zhè ge dá àn shì duì de / shuō / lǎo shī",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Giáo viên nói đáp án này đúng.",
+      "answers": [
+        "老师说这个答案是对的。",
+        "老师说这个答案是对的",
+        "老师说这个答案是对的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：老师说这个答案是对的。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 问一个问题吗 / 可以",
+      "pinyin": "wǒ / wèn yí gè wèn tí ma / kě yǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi có thể hỏi một câu hỏi không?",
+      "answers": [
+        "我可以问一个问题吗？",
+        "我可以问一个问题吗",
+        "我可以问一个问题吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：我可以问一个问题吗？"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请 / 放在桌子上 / 把书",
+      "pinyin": "qǐng / fàng zài zhuō zi shàng / bǎ shū",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy đặt sách lên bàn.",
+      "answers": [
+        "请把书放在桌子上。",
+        "请把书放在桌子上",
+        "请把书放在桌子上."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请把书放在桌子上。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n这个句子 / 什么意思 / 是",
+      "pinyin": "zhè ge jù zi / shén me yì si / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Câu này có nghĩa là gì?",
+      "answers": [
+        "这个句子是什么意思？",
+        "这个句子是什么意思",
+        "这个句子是什么意思?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：这个句子是什么意思？"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n练习一次吧 / 我们 / 再",
+      "pinyin": "liàn xí yī cì ba / wǒ men / zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng ta hãy luyện tập thêm một lần nữa.",
+      "answers": [
+        "我们再练习一次吧。",
+        "我们再练习一次吧",
+        "我们再练习一次吧."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们再练习一次吧。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n明白了 / 谢谢老师 / 我",
+      "pinyin": "míng bái le / xiè xie lǎo shī / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cảm ơn thầy cô, em hiểu rồi.",
+      "answers": [
+        "谢谢老师，我明白了。",
+        "谢谢老师我明白了",
+        "谢谢老师,我明白了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：谢谢老师，我明白了。"
+    }
+  ]
+}

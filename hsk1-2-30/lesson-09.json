@@ -1,0 +1,972 @@
+{
+  "title": "HSK1-2 第09课 现在几点？",
+  "description": "Bây giờ là mấy giờ?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“现在”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiān zài",
+        "B": "xiǎn zài",
+        "C": "xiàn zài",
+        "D": "xián zài"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“现在”的正确读音是 xiàn zài。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“点”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "diǎn",
+        "B": "dián",
+        "C": "diān",
+        "D": "diàn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“点”的正确读音是 diǎn。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“半”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "bán",
+        "B": "bàn",
+        "C": "bān",
+        "D": "bǎn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“半”的正确读音是 bàn。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“分钟”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "fěn zhōng",
+        "B": "fén zhōng",
+        "C": "fèn zhōng",
+        "D": "fēn zhōng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“分钟”的正确读音是 fēn zhōng。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“小时”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiáo shí",
+        "B": "xiāo shí",
+        "C": "xiào shí",
+        "D": "xiǎo shí"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“小时”的正确读音是 xiǎo shí。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“早上”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "záo shang",
+        "B": "zǎo shang",
+        "C": "zāo shang",
+        "D": "zào shang"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“早上”的正确读音是 zǎo shang。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“上午”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shàng wǔ",
+        "B": "shǎng wǔ",
+        "C": "sháng wǔ",
+        "D": "shāng wǔ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“上午”的正确读音是 shàng wǔ。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“中午”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zhòng wǔ",
+        "B": "zhóng wǔ",
+        "C": "zhōng wǔ",
+        "D": "zhǒng wǔ"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“中午”的正确读音是 zhōng wǔ。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“下午”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiǎ wǔ",
+        "B": "xià wǔ",
+        "C": "xiā wǔ",
+        "D": "xiá wǔ"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“下午”的正确读音是 xià wǔ。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“晚上”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wán shang",
+        "B": "wān shang",
+        "C": "wàn shang",
+        "D": "wǎn shang"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“晚上”的正确读音是 wǎn shang。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“时候”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shí hou",
+        "B": "shǐ hou",
+        "C": "shī hou",
+        "D": "shì hou"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“时候”的正确读音是 shí hou。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“时间”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shǐ jiān",
+        "B": "shì jiān",
+        "C": "shī jiān",
+        "D": "shí jiān"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“时间”的正确读音是 shí jiān。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“手表”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shòu biǎo",
+        "B": "shóu biǎo",
+        "C": "shōu biǎo",
+        "D": "shǒu biǎo"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“手表”的正确读音是 shǒu biǎo。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“开始”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "kái shǐ",
+        "B": "kāi shǐ",
+        "C": "kài shǐ",
+        "D": "kǎi shǐ"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“开始”的正确读音是 kāi shǐ。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“迟到”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chí dào",
+        "B": "chī dào",
+        "C": "chì dào",
+        "D": "chǐ dào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“迟到”的正确读音是 chí dào。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____是八点。",
+      "pinyin": "____ shì bā diǎn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bây giờ là tám giờ.",
+      "options": {
+        "A": "手表",
+        "B": "下午",
+        "C": "现在",
+        "D": "时候"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“现在”。完整句子：现在是八点。",
+      "optionPinyin": {
+        "A": "shǒu biǎo",
+        "B": "xià wǔ",
+        "C": "xiàn zài",
+        "D": "shí hou"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你几____上课？",
+      "pinyin": "nǐ jǐ ____ shàng kè ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn vào học lúc mấy giờ?",
+      "options": {
+        "A": "手表",
+        "B": "上午",
+        "C": "下午",
+        "D": "点"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“点”。完整句子：你几点上课？",
+      "optionPinyin": {
+        "A": "shǒu biǎo",
+        "B": "shàng wǔ",
+        "C": "xià wǔ",
+        "D": "diǎn"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：现在七点____。",
+      "pinyin": "xiàn zài qī diǎn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bây giờ là bảy giờ rưỡi.",
+      "options": {
+        "A": "晚上",
+        "B": "半",
+        "C": "上午",
+        "D": "迟到"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“半”。完整句子：现在七点半。",
+      "optionPinyin": {
+        "A": "wǎn shang",
+        "B": "bàn",
+        "C": "shàng wǔ",
+        "D": "chí dào"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请等我五____。",
+      "pinyin": "qǐng děng wǒ wǔ ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin đợi tôi năm phút.",
+      "options": {
+        "A": "分钟",
+        "B": "迟到",
+        "C": "中午",
+        "D": "现在"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“分钟”。完整句子：请等我五分钟。",
+      "optionPinyin": {
+        "A": "fēn zhōng",
+        "B": "chí dào",
+        "C": "zhōng wǔ",
+        "D": "xiàn zài"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我每天工作八个____。",
+      "pinyin": "wǒ měi tiān gōng zuò bā gè ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi làm việc tám tiếng mỗi ngày.",
+      "options": {
+        "A": "分钟",
+        "B": "时间",
+        "C": "小时",
+        "D": "时候"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“小时”。完整句子：我每天工作八个小时。",
+      "optionPinyin": {
+        "A": "fēn zhōng",
+        "B": "shí jiān",
+        "C": "xiǎo shí",
+        "D": "shí hou"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____我六点起床。",
+      "pinyin": "____ wǒ liù diǎn qǐ chuáng 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Buổi sáng tôi thức dậy lúc sáu giờ.",
+      "options": {
+        "A": "手表",
+        "B": "上午",
+        "C": "早上",
+        "D": "中午"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“早上”。完整句子：早上我六点起床。",
+      "optionPinyin": {
+        "A": "shǒu biǎo",
+        "B": "shàng wǔ",
+        "C": "zǎo shang",
+        "D": "zhōng wǔ"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____九点我们有课。",
+      "pinyin": "____ jiǔ diǎn wǒ men yǒu kè 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Buổi sáng lúc chín giờ chúng tôi có tiết học.",
+      "options": {
+        "A": "时间",
+        "B": "上午",
+        "C": "晚上",
+        "D": "分钟"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“上午”。完整句子：上午九点我们有课。",
+      "optionPinyin": {
+        "A": "shí jiān",
+        "B": "shàng wǔ",
+        "C": "wǎn shang",
+        "D": "fēn zhōng"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____十二点我吃饭。",
+      "pinyin": "____ shí èr diǎn wǒ chī fàn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Buổi trưa lúc mười hai giờ tôi ăn cơm.",
+      "options": {
+        "A": "中午",
+        "B": "半",
+        "C": "迟到",
+        "D": "早上"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“中午”。完整句子：中午十二点我吃饭。",
+      "optionPinyin": {
+        "A": "zhōng wǔ",
+        "B": "bàn",
+        "C": "chí dào",
+        "D": "zǎo shang"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____三点他去学校。",
+      "pinyin": "____ sān diǎn tā qù xué xiào 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Buổi chiều lúc ba giờ anh ấy đến trường.",
+      "options": {
+        "A": "晚上",
+        "B": "上午",
+        "C": "下午",
+        "D": "手表"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“下午”。完整句子：下午三点他去学校。",
+      "optionPinyin": {
+        "A": "wǎn shang",
+        "B": "shàng wǔ",
+        "C": "xià wǔ",
+        "D": "shǒu biǎo"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____十点我睡觉。",
+      "pinyin": "____ shí diǎn wǒ shuì jiào 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Buổi tối lúc mười giờ tôi đi ngủ.",
+      "options": {
+        "A": "时候",
+        "B": "小时",
+        "C": "晚上",
+        "D": "下午"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“晚上”。完整句子：晚上十点我睡觉。",
+      "optionPinyin": {
+        "A": "shí hou",
+        "B": "xiǎo shí",
+        "C": "wǎn shang",
+        "D": "xià wǔ"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你什么____回家？",
+      "pinyin": "nǐ shén me ____ huí jiā ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Khi nào bạn về nhà?",
+      "options": {
+        "A": "手表",
+        "B": "时候",
+        "C": "分钟",
+        "D": "时间"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“时候”。完整句子：你什么时候回家？",
+      "optionPinyin": {
+        "A": "shǒu biǎo",
+        "B": "shí hou",
+        "C": "fēn zhōng",
+        "D": "shí jiān"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我今天没有____。",
+      "pinyin": "wǒ jīn tiān méi yǒu ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay tôi không có thời gian.",
+      "options": {
+        "A": "时间",
+        "B": "手表",
+        "C": "开始",
+        "D": "下午"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“时间”。完整句子：我今天没有时间。",
+      "optionPinyin": {
+        "A": "shí jiān",
+        "B": "shǒu biǎo",
+        "C": "kāi shǐ",
+        "D": "xià wǔ"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请看一下你的____。",
+      "pinyin": "qǐng kàn yí xià nǐ de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy xem đồng hồ đeo tay của bạn.",
+      "options": {
+        "A": "中午",
+        "B": "半",
+        "C": "上午",
+        "D": "手表"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“手表”。完整句子：请看一下你的手表。",
+      "optionPinyin": {
+        "A": "zhōng wǔ",
+        "B": "bàn",
+        "C": "shàng wǔ",
+        "D": "shǒu biǎo"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：会议八点____。",
+      "pinyin": "huì yì bā diǎn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cuộc họp bắt đầu lúc tám giờ.",
+      "options": {
+        "A": "上午",
+        "B": "手表",
+        "C": "下午",
+        "D": "开始"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“开始”。完整句子：会议八点开始。",
+      "optionPinyin": {
+        "A": "shàng wǔ",
+        "B": "shǒu biǎo",
+        "C": "xià wǔ",
+        "D": "kāi shǐ"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他今天____了。",
+      "pinyin": "tā jīn tiān ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay anh ấy đã đến muộn.",
+      "options": {
+        "A": "手表",
+        "B": "迟到",
+        "C": "时候",
+        "D": "半"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“迟到”。完整句子：他今天迟到了。",
+      "optionPinyin": {
+        "A": "shǒu biǎo",
+        "B": "chí dào",
+        "C": "shí hou",
+        "D": "bàn"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n八点 / 现在 / 是",
+      "pinyin": "bā diǎn / xiàn zài / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bây giờ là tám giờ.",
+      "answers": [
+        "现在是八点。",
+        "现在是八点",
+        "现在是八点."
+      ],
+      "points": 2,
+      "explanation": "参考句子：现在是八点。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n上课 / 几点 / 你",
+      "pinyin": "shàng kè / jǐ diǎn / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn vào học lúc mấy giờ?",
+      "answers": [
+        "你几点上课？",
+        "你几点上课",
+        "你几点上课?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你几点上课？"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n七点半 / 现在",
+      "pinyin": "qī diǎn bàn / xiàn zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bây giờ là bảy giờ rưỡi.",
+      "answers": [
+        "现在七点半。",
+        "现在七点半",
+        "现在七点半."
+      ],
+      "points": 2,
+      "explanation": "参考句子：现在七点半。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n五分钟 / 请 / 等我",
+      "pinyin": "wǔ fēn zhōng / qǐng / děng wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Xin đợi tôi năm phút.",
+      "answers": [
+        "请等我五分钟。",
+        "请等我五分钟",
+        "请等我五分钟."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请等我五分钟。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 工作八个小时 / 每天",
+      "pinyin": "wǒ / gōng zuò bā gè xiǎo shí / měi tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi làm việc tám tiếng mỗi ngày.",
+      "answers": [
+        "我每天工作八个小时。",
+        "我每天工作八个小时",
+        "我每天工作八个小时."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我每天工作八个小时。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n六点起床 / 早上 / 我",
+      "pinyin": "liù diǎn qǐ chuáng / zǎo shang / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Buổi sáng tôi thức dậy lúc sáu giờ.",
+      "answers": [
+        "早上我六点起床。",
+        "早上我六点起床",
+        "我早上六点起床",
+        "早上我六点起床."
+      ],
+      "points": 2,
+      "explanation": "参考句子：早上我六点起床。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n上午 / 我们有课 / 九点",
+      "pinyin": "shàng wǔ / wǒ men yǒu kè / jiǔ diǎn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Buổi sáng lúc chín giờ chúng tôi có tiết học.",
+      "answers": [
+        "上午九点我们有课。",
+        "上午九点我们有课",
+        "上午九点我们有课."
+      ],
+      "points": 2,
+      "explanation": "参考句子：上午九点我们有课。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n十二点 / 我吃饭 / 中午",
+      "pinyin": "shí èr diǎn / wǒ chī fàn / zhōng wǔ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Buổi trưa lúc mười hai giờ tôi ăn cơm.",
+      "answers": [
+        "中午十二点我吃饭。",
+        "中午十二点我吃饭",
+        "中午十二点我吃饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：中午十二点我吃饭。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n他去学校 / 三点 / 下午",
+      "pinyin": "tā qù xué xiào / sān diǎn / xià wǔ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Buổi chiều lúc ba giờ anh ấy đến trường.",
+      "answers": [
+        "下午三点他去学校。",
+        "下午三点他去学校",
+        "下午三点他去学校."
+      ],
+      "points": 2,
+      "explanation": "参考句子：下午三点他去学校。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n十点 / 我睡觉 / 晚上",
+      "pinyin": "shí diǎn / wǒ shuì jiào / wǎn shang",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Buổi tối lúc mười giờ tôi đi ngủ.",
+      "answers": [
+        "晚上十点我睡觉。",
+        "晚上十点我睡觉",
+        "晚上十点我睡觉."
+      ],
+      "points": 2,
+      "explanation": "参考句子：晚上十点我睡觉。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n什么时候 / 你 / 回家",
+      "pinyin": "shén me shí hòu / nǐ / huí jiā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Khi nào bạn về nhà?",
+      "answers": [
+        "你什么时候回家？",
+        "你什么时候回家",
+        "你什么时候回家?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你什么时候回家？"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n没有时间 / 我 / 今天",
+      "pinyin": "méi yǒu shí jiān / wǒ / jīn tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay tôi không có thời gian.",
+      "answers": [
+        "我今天没有时间。",
+        "我今天没有时间",
+        "今天我没有时间",
+        "我今天没有时间."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我今天没有时间。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n看一下 / 你的手表 / 请",
+      "pinyin": "kàn yí xià / nǐ de shǒu biǎo / qǐng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy xem đồng hồ đeo tay của bạn.",
+      "answers": [
+        "请看一下你的手表。",
+        "请看一下你的手表",
+        "请看一下你的手表."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请看一下你的手表。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n开始 / 会议 / 八点",
+      "pinyin": "kāi shǐ / huì yì / bā diǎn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cuộc họp bắt đầu lúc tám giờ.",
+      "answers": [
+        "会议八点开始。",
+        "会议八点开始",
+        "会议八点开始."
+      ],
+      "points": 2,
+      "explanation": "参考句子：会议八点开始。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n今天 / 迟到了 / 他",
+      "pinyin": "jīn tiān / chí dào le / tā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay anh ấy đã đến muộn.",
+      "answers": [
+        "他今天迟到了。",
+        "他今天迟到了",
+        "今天他迟到了",
+        "他今天迟到了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他今天迟到了。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n八点半 / 我们 / 在学校见",
+      "pinyin": "bā diǎn bàn / wǒ men / zài xué xiào jiàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng ta gặp nhau ở trường lúc tám giờ rưỡi.",
+      "answers": [
+        "我们八点半在学校见。",
+        "我们八点半在学校见",
+        "八点半我们在学校见",
+        "我们八点半在学校见."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们八点半在学校见。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n每天 / 你 / 睡几个小时",
+      "pinyin": "měi tiān / nǐ / shuì jǐ gè xiǎo shí",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mỗi ngày bạn ngủ mấy tiếng?",
+      "answers": [
+        "你每天睡几个小时？",
+        "你每天睡几个小时",
+        "你每天睡几个小时?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你每天睡几个小时？"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n现在 / 还有十分钟 / 离上课",
+      "pinyin": "xiàn zài / hái yǒu shí fēn zhōng / lí shàng kè",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bây giờ còn mười phút nữa mới vào học.",
+      "answers": [
+        "现在离上课还有十分钟。",
+        "现在离上课还有十分钟",
+        "现在离上课还有十分钟."
+      ],
+      "points": 2,
+      "explanation": "参考句子：现在离上课还有十分钟。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n下午五点 / 我 / 回家",
+      "pinyin": "xià wǔ wǔ diǎn / wǒ / huí jiā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi về nhà lúc năm giờ chiều.",
+      "answers": [
+        "我下午五点回家。",
+        "我下午五点回家",
+        "下午五点我回家",
+        "我下午五点回家."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我下午五点回家。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n二十分钟 / 从家到学校 / 要",
+      "pinyin": "èr shí fēn zhōng / cóng jiā dào xué xiào / yào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Từ nhà đến trường mất hai mươi phút.",
+      "answers": [
+        "从家到学校要二十分钟。",
+        "从家到学校要二十分钟",
+        "从家到学校要二十分钟."
+      ],
+      "points": 2,
+      "explanation": "参考句子：从家到学校要二十分钟。"
+    }
+  ]
+}

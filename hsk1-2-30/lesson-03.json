@@ -1,0 +1,968 @@
+{
+  "title": "HSK1-2 第03课 我是越南人",
+  "description": "Tôi là người Việt Nam；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“越南”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yuē nán",
+        "B": "yué nán",
+        "C": "yuè nán",
+        "D": "yuě nán"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“越南”的正确读音是 yuè nán。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“中国”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zhōng guó",
+        "B": "zhǒng guó",
+        "C": "zhóng guó",
+        "D": "zhòng guó"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“中国”的正确读音是 zhōng guó。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“美国”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "méi guó",
+        "B": "mēi guó",
+        "C": "měi guó",
+        "D": "mèi guó"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“美国”的正确读音是 měi guó。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“日本”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "rì běn",
+        "B": "rī běn",
+        "C": "rǐ běn",
+        "D": "rí běn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“日本”的正确读音是 rì běn。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“国家”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "guó jiā",
+        "B": "guō jiā",
+        "C": "guò jiā",
+        "D": "guǒ jiā"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“国家”的正确读音是 guó jiā。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“哪”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "nà",
+        "B": "ná",
+        "C": "nā",
+        "D": "nǎ"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“哪”的正确读音是 nǎ。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“中文”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zhóng wén",
+        "B": "zhòng wén",
+        "C": "zhǒng wén",
+        "D": "zhōng wén"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“中文”的正确读音是 zhōng wén。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“越南语”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yuē nán yǔ",
+        "B": "yuě nán yǔ",
+        "C": "yué nán yǔ",
+        "D": "yuè nán yǔ"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“越南语”的正确读音是 yuè nán yǔ。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“英语”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yìng yǔ",
+        "B": "yǐng yǔ",
+        "C": "yīng yǔ",
+        "D": "yíng yǔ"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“英语”的正确读音是 yīng yǔ。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“北京”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "bēi jīng",
+        "B": "běi jīng",
+        "C": "bèi jīng",
+        "D": "béi jīng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“北京”的正确读音是 běi jīng。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“河内”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "hè nèi",
+        "B": "hē nèi",
+        "C": "hě nèi",
+        "D": "hé nèi"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“河内”的正确读音是 hé nèi。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“城市”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chéng shì",
+        "B": "chěng shì",
+        "C": "chèng shì",
+        "D": "chēng shì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“城市”的正确读音是 chéng shì。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“学习”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xuē xí",
+        "B": "xué xí",
+        "C": "xuě xí",
+        "D": "xuè xí"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“学习”的正确读音是 xué xí。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“会”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "huì",
+        "B": "huí",
+        "C": "huǐ",
+        "D": "huī"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“会”的正确读音是 huì。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“说”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shuó",
+        "B": "shuò",
+        "C": "shuǒ",
+        "D": "shuō"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“说”的正确读音是 shuō。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我是____人。",
+      "pinyin": "wǒ shì ____ rén 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi là người Việt Nam.",
+      "options": {
+        "A": "越南",
+        "B": "会",
+        "C": "日本",
+        "D": "说"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“越南”。完整句子：我是越南人。",
+      "optionPinyin": {
+        "A": "yuè nán",
+        "B": "huì",
+        "C": "rì běn",
+        "D": "shuō"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：王老师是____人。",
+      "pinyin": "wáng lǎo shī shì ____ rén 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Thầy Vương là người Trung Quốc.",
+      "options": {
+        "A": "国家",
+        "B": "中国",
+        "C": "英语",
+        "D": "日本"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“中国”。完整句子：王老师是中国人。",
+      "optionPinyin": {
+        "A": "guó jiā",
+        "B": "zhōng guó",
+        "C": "yīng yǔ",
+        "D": "rì běn"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他是____人。",
+      "pinyin": "tā shì ____ rén 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy là người Mỹ.",
+      "options": {
+        "A": "国家",
+        "B": "说",
+        "C": "学习",
+        "D": "美国"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“美国”。完整句子：他是美国人。",
+      "optionPinyin": {
+        "A": "guó jiā",
+        "B": "shuō",
+        "C": "xué xí",
+        "D": "měi guó"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：她是____人。",
+      "pinyin": "tā shì ____ rén 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy là người Nhật Bản.",
+      "options": {
+        "A": "中文",
+        "B": "美国",
+        "C": "越南",
+        "D": "日本"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“日本”。完整句子：她是日本人。",
+      "optionPinyin": {
+        "A": "zhōng wén",
+        "B": "měi guó",
+        "C": "yuè nán",
+        "D": "rì běn"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我喜欢我的____。",
+      "pinyin": "wǒ xǐ huan wǒ de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi yêu đất nước của mình.",
+      "options": {
+        "A": "城市",
+        "B": "国家",
+        "C": "英语",
+        "D": "会"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“国家”。完整句子：我喜欢我的国家。",
+      "optionPinyin": {
+        "A": "chéng shì",
+        "B": "guó jiā",
+        "C": "yīng yǔ",
+        "D": "huì"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你是____国人？",
+      "pinyin": "nǐ shì ____ guó rén ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn là người nước nào?",
+      "options": {
+        "A": "说",
+        "B": "会",
+        "C": "城市",
+        "D": "哪"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“哪”。完整句子：你是哪国人？",
+      "optionPinyin": {
+        "A": "shuō",
+        "B": "huì",
+        "C": "chéng shì",
+        "D": "nǎ"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我会说____。",
+      "pinyin": "wǒ huì shuō ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi biết nói tiếng Trung.",
+      "options": {
+        "A": "越南",
+        "B": "英语",
+        "C": "中文",
+        "D": "国家"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“中文”。完整句子：我会说中文。",
+      "optionPinyin": {
+        "A": "yuè nán",
+        "B": "yīng yǔ",
+        "C": "zhōng wén",
+        "D": "guó jiā"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：妈妈说____。",
+      "pinyin": "mā ma shuō ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ nói tiếng Việt.",
+      "options": {
+        "A": "越南语",
+        "B": "河内",
+        "C": "会",
+        "D": "日本"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“越南语”。完整句子：妈妈说越南语。",
+      "optionPinyin": {
+        "A": "yuè nán yǔ",
+        "B": "hé nèi",
+        "C": "huì",
+        "D": "rì běn"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他也会说____。",
+      "pinyin": "tā yě huì shuō ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy cũng biết nói tiếng Anh.",
+      "options": {
+        "A": "中文",
+        "B": "英语",
+        "C": "城市",
+        "D": "会"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“英语”。完整句子：他也会说英语。",
+      "optionPinyin": {
+        "A": "zhōng wén",
+        "B": "yīng yǔ",
+        "C": "chéng shì",
+        "D": "huì"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我想去____。",
+      "pinyin": "wǒ xiǎng qù ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn đi Bắc Kinh.",
+      "options": {
+        "A": "会",
+        "B": "北京",
+        "C": "国家",
+        "D": "城市"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“北京”。完整句子：我想去北京。",
+      "optionPinyin": {
+        "A": "huì",
+        "B": "běi jīng",
+        "C": "guó jiā",
+        "D": "chéng shì"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：她住在____。",
+      "pinyin": "tā zhù zài ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy sống ở Hà Nội.",
+      "options": {
+        "A": "城市",
+        "B": "哪",
+        "C": "河内",
+        "D": "日本"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“河内”。完整句子：她住在河内。",
+      "optionPinyin": {
+        "A": "chéng shì",
+        "B": "nǎ",
+        "C": "hé nèi",
+        "D": "rì běn"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你现在住在哪个____？",
+      "pinyin": "nǐ xiàn zài zhù zài nǎ ge ____？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hiện giờ bạn sống ở thành phố nào?",
+      "options": {
+        "A": "城市",
+        "B": "学习",
+        "C": "美国",
+        "D": "中文"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“城市”。完整句子：你现在住在哪个城市？",
+      "optionPinyin": {
+        "A": "chéng shì",
+        "B": "xué xí",
+        "C": "měi guó",
+        "D": "zhōng wén"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我喜欢____中文。",
+      "pinyin": "wǒ xǐ huan ____ zhōng wén 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi thích học tiếng Trung.",
+      "options": {
+        "A": "学习",
+        "B": "美国",
+        "C": "越南",
+        "D": "哪"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“学习”。完整句子：我喜欢学习中文。",
+      "optionPinyin": {
+        "A": "xué xí",
+        "B": "měi guó",
+        "C": "yuè nán",
+        "D": "nǎ"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你____说中文吗？",
+      "pinyin": "nǐ ____ shuō zhōng wén ma ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn có biết nói tiếng Trung không?",
+      "options": {
+        "A": "中国",
+        "B": "会",
+        "C": "河内",
+        "D": "英语"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“会”。完整句子：你会说中文吗？",
+      "optionPinyin": {
+        "A": "zhōng guó",
+        "B": "huì",
+        "C": "hé nèi",
+        "D": "yīng yǔ"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请用中文____。",
+      "pinyin": "qǐng yòng zhōng wén ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy nói bằng tiếng Trung.",
+      "options": {
+        "A": "北京",
+        "B": "中国",
+        "C": "说",
+        "D": "学习"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“说”。完整句子：请用中文说。",
+      "optionPinyin": {
+        "A": "běi jīng",
+        "B": "zhōng guó",
+        "C": "shuō",
+        "D": "xué xí"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 越南人 / 是",
+      "pinyin": "wǒ / yuè nán rén / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi là người Việt Nam.",
+      "answers": [
+        "我是越南人。",
+        "我是越南人",
+        "我是越南人."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我是越南人。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n中国人 / 王老师 / 是",
+      "pinyin": "zhōng guó rén / wáng lǎo shī / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Thầy Vương là người Trung Quốc.",
+      "answers": [
+        "王老师是中国人。",
+        "王老师是中国人",
+        "王老师是中国人."
+      ],
+      "points": 2,
+      "explanation": "参考句子：王老师是中国人。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n美国人 / 他 / 是",
+      "pinyin": "měi guó rén / tā / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy là người Mỹ.",
+      "answers": [
+        "他是美国人。",
+        "他是美国人",
+        "他是美国人."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他是美国人。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n日本人 / 她 / 是",
+      "pinyin": "rì běn rén / tā / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cô ấy là người Nhật Bản.",
+      "answers": [
+        "她是日本人。",
+        "她是日本人",
+        "她是日本人."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她是日本人。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喜欢 / 我的国家 / 我",
+      "pinyin": "xǐ huan / wǒ de guó jiā / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi yêu đất nước của mình.",
+      "answers": [
+        "我喜欢我的国家。",
+        "我喜欢我的国家",
+        "我喜欢我的国家."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我喜欢我的国家。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 你 / 哪国人",
+      "pinyin": "shì / nǐ / nǎ guó rén",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn là người nước nào?",
+      "answers": [
+        "你是哪国人？",
+        "你是哪国人",
+        "你是哪国人?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你是哪国人？"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 中文 / 会说",
+      "pinyin": "wǒ / zhōng wén / huì shuō",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi biết nói tiếng Trung.",
+      "answers": [
+        "我会说中文。",
+        "我会说中文",
+        "我会说中文."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我会说中文。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n越南语 / 说 / 妈妈",
+      "pinyin": "yuè nán yǔ / shuō / mā ma",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mẹ nói tiếng Việt.",
+      "answers": [
+        "妈妈说越南语。",
+        "妈妈说越南语",
+        "妈妈说越南语."
+      ],
+      "points": 2,
+      "explanation": "参考句子：妈妈说越南语。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n他 / 英语 / 也会说",
+      "pinyin": "tā / yīng yǔ / yě huì shuō",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy cũng biết nói tiếng Anh.",
+      "answers": [
+        "他也会说英语。",
+        "他也会说英语",
+        "他也会说英语."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他也会说英语。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 去北京 / 想",
+      "pinyin": "wǒ / qù běi jīng / xiǎng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn đi Bắc Kinh.",
+      "answers": [
+        "我想去北京。",
+        "我想去北京",
+        "我想去北京."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想去北京。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n住在 / 她 / 河内",
+      "pinyin": "zhù zài / tā / hé nèi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cô ấy sống ở Hà Nội.",
+      "answers": [
+        "她住在河内。",
+        "她住在河内",
+        "她住在河内."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她住在河内。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n现在 / 住在哪个城市 / 你",
+      "pinyin": "xiàn zài / zhù zài nǎ ge chéng shì / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hiện giờ bạn sống ở thành phố nào?",
+      "answers": [
+        "你现在住在哪个城市？",
+        "你现在住在哪个城市",
+        "现在你住在哪个城市",
+        "你现在住在哪个城市?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你现在住在哪个城市？"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喜欢 / 我 / 学习中文",
+      "pinyin": "xǐ huan / wǒ / xué xí zhōng wén",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi thích học tiếng Trung.",
+      "answers": [
+        "我喜欢学习中文。",
+        "我喜欢学习中文",
+        "我喜欢学习中文."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我喜欢学习中文。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n你 / 说中文吗 / 会",
+      "pinyin": "nǐ / shuō zhōng wén ma / huì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn có biết nói tiếng Trung không?",
+      "answers": [
+        "你会说中文吗？",
+        "你会说中文吗",
+        "你会说中文吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你会说中文吗？"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n用中文 / 请 / 说",
+      "pinyin": "yòng zhōng wén / qǐng / shuō",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy nói bằng tiếng Trung.",
+      "answers": [
+        "请用中文说。",
+        "请用中文说",
+        "请用中文说."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请用中文说。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n越南 / 我的朋友 / 来自",
+      "pinyin": "yuè nán / wǒ de péng you / lái zì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn của tôi đến từ Việt Nam.",
+      "answers": [
+        "我的朋友来自越南。",
+        "我的朋友来自越南",
+        "我的朋友来自越南."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的朋友来自越南。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n学习 / 我们 / 在中国",
+      "pinyin": "xué xí / wǒ men / zài zhōng guó",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi học ở Trung Quốc.",
+      "answers": [
+        "我们在中国学习。",
+        "我们在中国学习",
+        "我们在中国学习."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们在中国学习。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n说得 / 你的中文 / 很好",
+      "pinyin": "shuō dé / nǐ de zhōng wén / hěn hǎo",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn nói tiếng Trung rất tốt.",
+      "answers": [
+        "你的中文说得很好。",
+        "你的中文说得很好",
+        "你的中文说得很好."
+      ],
+      "points": 2,
+      "explanation": "参考句子：你的中文说得很好。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 日语 / 不会说",
+      "pinyin": "wǒ / rì yǔ / bú huì shuō",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi không biết nói tiếng Nhật.",
+      "answers": [
+        "我不会说日语。",
+        "我不会说日语",
+        "我不会说日语."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我不会说日语。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n哪个国家 / 想去 / 你",
+      "pinyin": "nǎ ge guó jiā / xiǎng qù / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn muốn đến nước nào?",
+      "answers": [
+        "你想去哪个国家？",
+        "你想去哪个国家",
+        "你想去哪个国家?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你想去哪个国家？"
+    }
+  ]
+}

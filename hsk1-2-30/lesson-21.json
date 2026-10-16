@@ -1,0 +1,967 @@
+{
+  "title": "HSK1-2 第21课 今天的天气怎么样？",
+  "description": "Thời tiết hôm nay thế nào?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“天气”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "tiān qì",
+        "B": "tiǎn qì",
+        "C": "tiàn qì",
+        "D": "tián qì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“天气”的正确读音是 tiān qì。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“热”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "ré",
+        "B": "rě",
+        "C": "rē",
+        "D": "rè"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“热”的正确读音是 rè。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“冷”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "léng",
+        "B": "lēng",
+        "C": "lěng",
+        "D": "lèng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“冷”的正确读音是 lěng。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“下雨”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xià yǔ",
+        "B": "xiā yǔ",
+        "C": "xiǎ yǔ",
+        "D": "xiá yǔ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“下雨”的正确读音是 xià yǔ。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“晴天”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qíng tiān",
+        "B": "qīng tiān",
+        "C": "qǐng tiān",
+        "D": "qìng tiān"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“晴天”的正确读音是 qíng tiān。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“风”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "féng",
+        "B": "fēng",
+        "C": "fěng",
+        "D": "fèng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“风”的正确读音是 fēng。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“春天”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chǔn tiān",
+        "B": "chún tiān",
+        "C": "chūn tiān",
+        "D": "chùn tiān"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“春天”的正确读音是 chūn tiān。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“夏天”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiā tiān",
+        "B": "xià tiān",
+        "C": "xiá tiān",
+        "D": "xiǎ tiān"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“夏天”的正确读音是 xià tiān。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“秋天”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qiù tiān",
+        "B": "qiū tiān",
+        "C": "qiú tiān",
+        "D": "qiǔ tiān"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“秋天”的正确读音是 qiū tiān。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“冬天”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dóng tiān",
+        "B": "dōng tiān",
+        "C": "dòng tiān",
+        "D": "dǒng tiān"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“冬天”的正确读音是 dōng tiān。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“雨伞”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yǔ sǎn",
+        "B": "yū sǎn",
+        "C": "yú sǎn",
+        "D": "yù sǎn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“雨伞”的正确读音是 yǔ sǎn。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“热一点”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "rè yì diǎn",
+        "B": "rě yì diǎn",
+        "C": "ré yì diǎn",
+        "D": "rē yì diǎn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“热一点”的正确读音是 rè yì diǎn。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“很好”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "hěn hǎo",
+        "B": "hèn hǎo",
+        "C": "hēn hǎo",
+        "D": "hén hǎo"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“很好”的正确读音是 hěn hǎo。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“下雪”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiá xuě",
+        "B": "xiǎ xuě",
+        "C": "xiā xuě",
+        "D": "xià xuě"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“下雪”的正确读音是 xià xuě。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“太”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "tāi",
+        "B": "tǎi",
+        "C": "tái",
+        "D": "tài"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“太”的正确读音是 tài。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：今天的____怎么样？",
+      "pinyin": "jīn tiān de ____ zěn me yàng ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Thời tiết hôm nay thế nào?",
+      "options": {
+        "A": "冷",
+        "B": "天气",
+        "C": "晴天",
+        "D": "下雪"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“天气”。完整句子：今天的天气怎么样？",
+      "optionPinyin": {
+        "A": "lěng",
+        "B": "tiān qì",
+        "C": "qíng tiān",
+        "D": "xià xuě"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：夏天很____。",
+      "pinyin": "xià tiān hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mùa hè rất nóng.",
+      "options": {
+        "A": "冬天",
+        "B": "雨伞",
+        "C": "热",
+        "D": "秋天"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“热”。完整句子：夏天很热。",
+      "optionPinyin": {
+        "A": "dōng tiān",
+        "B": "yǔ sǎn",
+        "C": "rè",
+        "D": "qiū tiān"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：冬天这里很____。",
+      "pinyin": "dōng tiān zhè lǐ hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mùa đông ở đây rất lạnh.",
+      "options": {
+        "A": "热一点",
+        "B": "雨伞",
+        "C": "冷",
+        "D": "太"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“冷”。完整句子：冬天这里很冷。",
+      "optionPinyin": {
+        "A": "rè yì diǎn",
+        "B": "yǔ sǎn",
+        "C": "lěng",
+        "D": "tài"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：外面正在____。",
+      "pinyin": "wài miàn zhèng zài ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Ngoài trời đang mưa.",
+      "options": {
+        "A": "雨伞",
+        "B": "冷",
+        "C": "下雨",
+        "D": "热一点"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“下雨”。完整句子：外面正在下雨。",
+      "optionPinyin": {
+        "A": "yǔ sǎn",
+        "B": "lěng",
+        "C": "xià yǔ",
+        "D": "rè yì diǎn"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：今天是____。",
+      "pinyin": "jīn tiān shì ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay trời nắng.",
+      "options": {
+        "A": "热",
+        "B": "晴天",
+        "C": "下雨",
+        "D": "天气"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“晴天”。完整句子：今天是晴天。",
+      "optionPinyin": {
+        "A": "rè",
+        "B": "qíng tiān",
+        "C": "xià yǔ",
+        "D": "tiān qì"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：外面有很大的____。",
+      "pinyin": "wài miàn yǒu hěn dà de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Ngoài trời có gió rất mạnh.",
+      "options": {
+        "A": "春天",
+        "B": "风",
+        "C": "夏天",
+        "D": "太"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“风”。完整句子：外面有很大的风。",
+      "optionPinyin": {
+        "A": "chūn tiān",
+        "B": "fēng",
+        "C": "xià tiān",
+        "D": "tài"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我喜欢____。",
+      "pinyin": "wǒ xǐ huan ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi thích mùa xuân.",
+      "options": {
+        "A": "冬天",
+        "B": "春天",
+        "C": "太",
+        "D": "下雪"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“春天”。完整句子：我喜欢春天。",
+      "optionPinyin": {
+        "A": "dōng tiān",
+        "B": "chūn tiān",
+        "C": "tài",
+        "D": "xià xuě"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____我常常去游泳。",
+      "pinyin": "____ wǒ cháng cháng qù yóu yǒng 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mùa hè tôi thường đi bơi.",
+      "options": {
+        "A": "太",
+        "B": "夏天",
+        "C": "热",
+        "D": "雨伞"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“夏天”。完整句子：夏天我常常去游泳。",
+      "optionPinyin": {
+        "A": "tài",
+        "B": "xià tiān",
+        "C": "rè",
+        "D": "yǔ sǎn"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____这里不太热。",
+      "pinyin": "____ zhè lǐ bú tài rè 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mùa thu ở đây không nóng lắm.",
+      "options": {
+        "A": "秋天",
+        "B": "太",
+        "C": "热",
+        "D": "很好"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“秋天”。完整句子：秋天这里不太热。",
+      "optionPinyin": {
+        "A": "qiū tiān",
+        "B": "tài",
+        "C": "rè",
+        "D": "hěn hǎo"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____我穿很多衣服。",
+      "pinyin": "____ wǒ chuān hěn duō yī fu 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mùa đông tôi mặc nhiều quần áo.",
+      "options": {
+        "A": "冬天",
+        "B": "下雨",
+        "C": "热一点",
+        "D": "风"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“冬天”。完整句子：冬天我穿很多衣服。",
+      "optionPinyin": {
+        "A": "dōng tiān",
+        "B": "xià yǔ",
+        "C": "rè yì diǎn",
+        "D": "fēng"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：下雨了，请带上____。",
+      "pinyin": "xià yǔ le ， qǐng dài shàng ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Trời mưa rồi, hãy mang theo ô.",
+      "options": {
+        "A": "夏天",
+        "B": "下雨",
+        "C": "雨伞",
+        "D": "春天"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“雨伞”。完整句子：下雨了，请带上雨伞。",
+      "optionPinyin": {
+        "A": "xià tiān",
+        "B": "xià yǔ",
+        "C": "yǔ sǎn",
+        "D": "chūn tiān"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：今天比昨天____。",
+      "pinyin": "jīn tiān bǐ zuó tiān ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay nóng hơn hôm qua một chút.",
+      "options": {
+        "A": "风",
+        "B": "热一点",
+        "C": "秋天",
+        "D": "春天"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“热一点”。完整句子：今天比昨天热一点。",
+      "optionPinyin": {
+        "A": "fēng",
+        "B": "rè yì diǎn",
+        "C": "qiū tiān",
+        "D": "chūn tiān"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：今天天气____。",
+      "pinyin": "jīn tiān tiān qì ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay thời tiết rất đẹp.",
+      "options": {
+        "A": "下雪",
+        "B": "很好",
+        "C": "夏天",
+        "D": "风"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“很好”。完整句子：今天天气很好。",
+      "optionPinyin": {
+        "A": "xià xuě",
+        "B": "hěn hǎo",
+        "C": "xià tiān",
+        "D": "fēng"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我不喜欢____。",
+      "pinyin": "wǒ bù xǐ huan ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi không thích tuyết rơi.",
+      "options": {
+        "A": "冷",
+        "B": "下雪",
+        "C": "雨伞",
+        "D": "晴天"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“下雪”。完整句子：我不喜欢下雪。",
+      "optionPinyin": {
+        "A": "lěng",
+        "B": "xià xuě",
+        "C": "yǔ sǎn",
+        "D": "qíng tiān"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：外面____冷了。",
+      "pinyin": "wài miàn ____ lěng le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Ngoài trời lạnh quá.",
+      "options": {
+        "A": "太",
+        "B": "春天",
+        "C": "夏天",
+        "D": "天气"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“太”。完整句子：外面太冷了。",
+      "optionPinyin": {
+        "A": "tài",
+        "B": "chūn tiān",
+        "C": "xià tiān",
+        "D": "tiān qì"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n今天 / 怎么样 / 的天气",
+      "pinyin": "jīn tiān / zěn me yàng / de tiān qì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Thời tiết hôm nay thế nào?",
+      "answers": [
+        "今天的天气怎么样？",
+        "今天的天气怎么样",
+        "今天的天气怎么样?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天的天气怎么样？"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很热 / 夏天",
+      "pinyin": "hěn rè / xià tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mùa hè rất nóng.",
+      "answers": [
+        "夏天很热。",
+        "夏天很热",
+        "夏天很热."
+      ],
+      "points": 2,
+      "explanation": "参考句子：夏天很热。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n冬天 / 很冷 / 这里",
+      "pinyin": "dōng tiān / hěn lěng / zhè lǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mùa đông ở đây rất lạnh.",
+      "answers": [
+        "冬天这里很冷。",
+        "冬天这里很冷",
+        "冬天这里很冷."
+      ],
+      "points": 2,
+      "explanation": "参考句子：冬天这里很冷。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n下雨 / 外面 / 正在",
+      "pinyin": "xià yǔ / wài miàn / zhèng zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Ngoài trời đang mưa.",
+      "answers": [
+        "外面正在下雨。",
+        "外面正在下雨",
+        "外面正在下雨."
+      ],
+      "points": 2,
+      "explanation": "参考句子：外面正在下雨。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 晴天 / 今天",
+      "pinyin": "shì / qíng tiān / jīn tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay trời nắng.",
+      "answers": [
+        "今天是晴天。",
+        "今天是晴天",
+        "今天是晴天."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天是晴天。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有很大的风 / 外面",
+      "pinyin": "yǒu hěn dà de fēng / wài miàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Ngoài trời có gió rất mạnh.",
+      "answers": [
+        "外面有很大的风。",
+        "外面有很大的风",
+        "外面有很大的风."
+      ],
+      "points": 2,
+      "explanation": "参考句子：外面有很大的风。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 春天 / 喜欢",
+      "pinyin": "wǒ / chūn tiān / xǐ huan",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi thích mùa xuân.",
+      "answers": [
+        "我喜欢春天。",
+        "我喜欢春天",
+        "我喜欢春天."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我喜欢春天。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n常常去游泳 / 夏天 / 我",
+      "pinyin": "cháng cháng qù yóu yǒng / xià tiān / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mùa hè tôi thường đi bơi.",
+      "answers": [
+        "夏天我常常去游泳。",
+        "夏天我常常去游泳",
+        "夏天我常常去游泳."
+      ],
+      "points": 2,
+      "explanation": "参考句子：夏天我常常去游泳。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不太热 / 秋天 / 这里",
+      "pinyin": "bú tài rè / qiū tiān / zhè lǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mùa thu ở đây không nóng lắm.",
+      "answers": [
+        "秋天这里不太热。",
+        "秋天这里不太热",
+        "秋天这里不太热."
+      ],
+      "points": 2,
+      "explanation": "参考句子：秋天这里不太热。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n穿很多衣服 / 我 / 冬天",
+      "pinyin": "chuān hěn duō yī fu / wǒ / dōng tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mùa đông tôi mặc nhiều quần áo.",
+      "answers": [
+        "冬天我穿很多衣服。",
+        "冬天我穿很多衣服",
+        "冬天我穿很多衣服."
+      ],
+      "points": 2,
+      "explanation": "参考句子：冬天我穿很多衣服。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请带上雨伞 / 下雨了",
+      "pinyin": "qǐng dài shàng yǔ sǎn / xià yǔ le",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Trời mưa rồi, hãy mang theo ô.",
+      "answers": [
+        "下雨了，请带上雨伞。",
+        "下雨了请带上雨伞",
+        "下雨了,请带上雨伞."
+      ],
+      "points": 2,
+      "explanation": "参考句子：下雨了，请带上雨伞。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n热一点 / 今天 / 比昨天",
+      "pinyin": "rè yì diǎn / jīn tiān / bǐ zuó tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay nóng hơn hôm qua một chút.",
+      "answers": [
+        "今天比昨天热一点。",
+        "今天比昨天热一点",
+        "今天比昨天热一点."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天比昨天热一点。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很好 / 天气 / 今天",
+      "pinyin": "hěn hǎo / tiān qì / jīn tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay thời tiết rất đẹp.",
+      "answers": [
+        "今天天气很好。",
+        "今天天气很好",
+        "今天天气很好."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天天气很好。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不喜欢 / 下雪 / 我",
+      "pinyin": "bù xǐ huan / xià xuě / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi không thích tuyết rơi.",
+      "answers": [
+        "我不喜欢下雪。",
+        "我不喜欢下雪",
+        "我不喜欢下雪."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我不喜欢下雪。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n太 / 冷了 / 外面",
+      "pinyin": "tài / lěng le / wài miàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Ngoài trời lạnh quá.",
+      "answers": [
+        "外面太冷了。",
+        "外面太冷了",
+        "外面太冷了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：外面太冷了。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n会 / 明天 / 下雨吗",
+      "pinyin": "huì / míng tiān / xià yǔ ma",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Ngày mai trời có mưa không?",
+      "answers": [
+        "明天会下雨吗？",
+        "明天会下雨吗",
+        "明天会下雨吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：明天会下雨吗？"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不冷 / 今天 / 也不热",
+      "pinyin": "bù lěng / jīn tiān / yě bù rè",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay không lạnh cũng không nóng.",
+      "answers": [
+        "今天不冷也不热。",
+        "今天不冷也不热",
+        "今天不冷也不热."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天不冷也不热。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我们 / 去公园 / 天气好的时候",
+      "pinyin": "wǒ men / qù gōng yuán / tiān qì hǎo de shí hou",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Khi thời tiết đẹp chúng tôi đi công viên.",
+      "answers": [
+        "天气好的时候我们去公园。",
+        "天气好的时候我们去公园",
+        "天气好的时候我们去公园."
+      ],
+      "points": 2,
+      "explanation": "参考句子：天气好的时候我们去公园。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n常常 / 越南的夏天 / 下雨",
+      "pinyin": "cháng cháng / yuè nán de xià tiān / xià yǔ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mùa hè ở Việt Nam thường có mưa.",
+      "answers": [
+        "越南的夏天常常下雨。",
+        "越南的夏天常常下雨",
+        "越南的夏天常常下雨."
+      ],
+      "points": 2,
+      "explanation": "参考句子：越南的夏天常常下雨。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n一杯热水 / 我 / 想喝",
+      "pinyin": "yī bēi rè shuǐ / wǒ / xiǎng hē",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn uống một cốc nước nóng.",
+      "answers": [
+        "我想喝一杯热水。",
+        "我想喝一杯热水",
+        "我想喝一杯热水."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想喝一杯热水。"
+    }
+  ]
+}

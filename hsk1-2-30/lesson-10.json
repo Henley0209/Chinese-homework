@@ -1,0 +1,978 @@
+{
+  "title": "HSK1-2 第10课 我每天七点起床",
+  "description": "Mỗi ngày tôi thức dậy lúc bảy giờ；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“起床”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qǐ chuáng",
+        "B": "qī chuáng",
+        "C": "qì chuáng",
+        "D": "qí chuáng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“起床”的正确读音是 qǐ chuáng。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“睡觉”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shuí jiào",
+        "B": "shuī jiào",
+        "C": "shuǐ jiào",
+        "D": "shuì jiào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“睡觉”的正确读音是 shuì jiào。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“做饭”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zuó fàn",
+        "B": "zuō fàn",
+        "C": "zuò fàn",
+        "D": "zuǒ fàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“做饭”的正确读音是 zuò fàn。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“吃饭”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chì fàn",
+        "B": "chī fàn",
+        "C": "chí fàn",
+        "D": "chǐ fàn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“吃饭”的正确读音是 chī fàn。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“上学”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shàng xué",
+        "B": "sháng xué",
+        "C": "shāng xué",
+        "D": "shǎng xué"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“上学”的正确读音是 shàng xué。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“回家”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "huǐ jiā",
+        "B": "huī jiā",
+        "C": "huí jiā",
+        "D": "huì jiā"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“回家”的正确读音是 huí jiā。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“每天”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "méi tiān",
+        "B": "měi tiān",
+        "C": "mèi tiān",
+        "D": "mēi tiān"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“每天”的正确读音是 měi tiān。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“洗脸”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xì liǎn",
+        "B": "xí liǎn",
+        "C": "xǐ liǎn",
+        "D": "xī liǎn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“洗脸”的正确读音是 xǐ liǎn。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“刷牙”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shuǎ yá",
+        "B": "shuà yá",
+        "C": "shuá yá",
+        "D": "shuā yá"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“刷牙”的正确读音是 shuā yá。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“早饭”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "záo fàn",
+        "B": "zào fàn",
+        "C": "zāo fàn",
+        "D": "zǎo fàn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“早饭”的正确读音是 zǎo fàn。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“午饭”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wú fàn",
+        "B": "wù fàn",
+        "C": "wǔ fàn",
+        "D": "wū fàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“午饭”的正确读音是 wǔ fàn。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“晚饭”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wán fàn",
+        "B": "wàn fàn",
+        "C": "wān fàn",
+        "D": "wǎn fàn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“晚饭”的正确读音是 wǎn fàn。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“休息”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiū xi",
+        "B": "xiǔ xi",
+        "C": "xiù xi",
+        "D": "xiú xi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“休息”的正确读音是 xiū xi。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“电视”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "diān shì",
+        "B": "dián shì",
+        "C": "diàn shì",
+        "D": "diǎn shì"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“电视”的正确读音是 diàn shì。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“先”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiān",
+        "B": "xián",
+        "C": "xiǎn",
+        "D": "xiàn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“先”的正确读音是 xiān。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我七点____。",
+      "pinyin": "wǒ qī diǎn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi thức dậy lúc bảy giờ.",
+      "options": {
+        "A": "每天",
+        "B": "睡觉",
+        "C": "起床",
+        "D": "晚饭"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“起床”。完整句子：我七点起床。",
+      "optionPinyin": {
+        "A": "měi tiān",
+        "B": "shuì jiào",
+        "C": "qǐ chuáng",
+        "D": "wǎn fàn"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：弟弟晚上九点____。",
+      "pinyin": "dì di wǎn shang jiǔ diǎn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Em trai đi ngủ lúc chín giờ tối.",
+      "options": {
+        "A": "睡觉",
+        "B": "洗脸",
+        "C": "起床",
+        "D": "每天"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“睡觉”。完整句子：弟弟晚上九点睡觉。",
+      "optionPinyin": {
+        "A": "shuì jiào",
+        "B": "xǐ liǎn",
+        "C": "qǐ chuáng",
+        "D": "měi tiān"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：妈妈每天____。",
+      "pinyin": "mā ma měi tiān ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ nấu cơm mỗi ngày.",
+      "options": {
+        "A": "吃饭",
+        "B": "上学",
+        "C": "做饭",
+        "D": "睡觉"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“做饭”。完整句子：妈妈每天做饭。",
+      "optionPinyin": {
+        "A": "chī fàn",
+        "B": "shàng xué",
+        "C": "zuò fàn",
+        "D": "shuì jiào"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我在家____。",
+      "pinyin": "wǒ zài jiā ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi ăn cơm ở nhà.",
+      "options": {
+        "A": "每天",
+        "B": "吃饭",
+        "C": "回家",
+        "D": "睡觉"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“吃饭”。完整句子：我在家吃饭。",
+      "optionPinyin": {
+        "A": "měi tiān",
+        "B": "chī fàn",
+        "C": "huí jiā",
+        "D": "shuì jiào"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他八点____。",
+      "pinyin": "tā bā diǎn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy đi học lúc tám giờ.",
+      "options": {
+        "A": "上学",
+        "B": "先",
+        "C": "每天",
+        "D": "睡觉"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“上学”。完整句子：他八点上学。",
+      "optionPinyin": {
+        "A": "shàng xué",
+        "B": "xiān",
+        "C": "měi tiān",
+        "D": "shuì jiào"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我们下午五点____。",
+      "pinyin": "wǒ men xià wǔ wǔ diǎn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi về nhà lúc năm giờ chiều.",
+      "options": {
+        "A": "每天",
+        "B": "回家",
+        "C": "起床",
+        "D": "休息"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“回家”。完整句子：我们下午五点回家。",
+      "optionPinyin": {
+        "A": "měi tiān",
+        "B": "huí jiā",
+        "C": "qǐ chuáng",
+        "D": "xiū xi"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：姐姐____都看书。",
+      "pinyin": "jiě jie ____ dōu kàn shū 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chị gái đọc sách mỗi ngày.",
+      "options": {
+        "A": "早饭",
+        "B": "每天",
+        "C": "晚饭",
+        "D": "午饭"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“每天”。完整句子：姐姐每天都看书。",
+      "optionPinyin": {
+        "A": "zǎo fàn",
+        "B": "měi tiān",
+        "C": "wǎn fàn",
+        "D": "wǔ fàn"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：早上我先____。",
+      "pinyin": "zǎo shang wǒ xiān ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Buổi sáng tôi rửa mặt trước.",
+      "options": {
+        "A": "起床",
+        "B": "睡觉",
+        "C": "刷牙",
+        "D": "洗脸"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“洗脸”。完整句子：早上我先洗脸。",
+      "optionPinyin": {
+        "A": "qǐ chuáng",
+        "B": "shuì jiào",
+        "C": "shuā yá",
+        "D": "xǐ liǎn"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我每天早晚____。",
+      "pinyin": "wǒ měi tiān zǎo wǎn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đánh răng sáng và tối mỗi ngày.",
+      "options": {
+        "A": "休息",
+        "B": "刷牙",
+        "C": "做饭",
+        "D": "睡觉"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“刷牙”。完整句子：我每天早晚刷牙。",
+      "optionPinyin": {
+        "A": "xiū xi",
+        "B": "shuā yá",
+        "C": "zuò fàn",
+        "D": "shuì jiào"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你吃____了吗？",
+      "pinyin": "nǐ chī ____ le ma ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn đã ăn sáng chưa?",
+      "options": {
+        "A": "休息",
+        "B": "早饭",
+        "C": "洗脸",
+        "D": "午饭"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“早饭”。完整句子：你吃早饭了吗？",
+      "optionPinyin": {
+        "A": "xiū xi",
+        "B": "zǎo fàn",
+        "C": "xǐ liǎn",
+        "D": "wǔ fàn"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我们十二点吃____。",
+      "pinyin": "wǒ men shí èr diǎn chī ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi ăn trưa lúc mười hai giờ.",
+      "options": {
+        "A": "午饭",
+        "B": "早饭",
+        "C": "做饭",
+        "D": "睡觉"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“午饭”。完整句子：我们十二点吃午饭。",
+      "optionPinyin": {
+        "A": "wǔ fàn",
+        "B": "zǎo fàn",
+        "C": "zuò fàn",
+        "D": "shuì jiào"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我和家人一起吃____。",
+      "pinyin": "wǒ hé jiā rén yì qǐ chī ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi ăn tối cùng gia đình.",
+      "options": {
+        "A": "睡觉",
+        "B": "回家",
+        "C": "晚饭",
+        "D": "休息"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“晚饭”。完整句子：我和家人一起吃晚饭。",
+      "optionPinyin": {
+        "A": "shuì jiào",
+        "B": "huí jiā",
+        "C": "wǎn fàn",
+        "D": "xiū xi"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我想____一下。",
+      "pinyin": "wǒ xiǎng ____ yí xià 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn nghỉ ngơi một chút.",
+      "options": {
+        "A": "电视",
+        "B": "早饭",
+        "C": "回家",
+        "D": "休息"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“休息”。完整句子：我想休息一下。",
+      "optionPinyin": {
+        "A": "diàn shì",
+        "B": "zǎo fàn",
+        "C": "huí jiā",
+        "D": "xiū xi"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：晚上我们一起看____。",
+      "pinyin": "wǎn shang wǒ men yì qǐ kàn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Buổi tối chúng tôi cùng xem ti vi.",
+      "options": {
+        "A": "早饭",
+        "B": "回家",
+        "C": "电视",
+        "D": "睡觉"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“电视”。完整句子：晚上我们一起看电视。",
+      "optionPinyin": {
+        "A": "zǎo fàn",
+        "B": "huí jiā",
+        "C": "diàn shì",
+        "D": "shuì jiào"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我____吃饭再学习。",
+      "pinyin": "wǒ ____ chī fàn zài xué xí 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi ăn cơm trước rồi học.",
+      "options": {
+        "A": "早饭",
+        "B": "晚饭",
+        "C": "回家",
+        "D": "先"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“先”。完整句子：我先吃饭再学习。",
+      "optionPinyin": {
+        "A": "zǎo fàn",
+        "B": "wǎn fàn",
+        "C": "huí jiā",
+        "D": "xiān"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n起床 / 我 / 七点",
+      "pinyin": "qǐ chuáng / wǒ / qī diǎn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi thức dậy lúc bảy giờ.",
+      "answers": [
+        "我七点起床。",
+        "我七点起床",
+        "七点我起床",
+        "我七点起床."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我七点起床。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n晚上 / 弟弟 / 九点睡觉",
+      "pinyin": "wǎn shang / dì di / jiǔ diǎn shuì jiào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Em trai đi ngủ lúc chín giờ tối.",
+      "answers": [
+        "弟弟晚上九点睡觉。",
+        "弟弟晚上九点睡觉",
+        "晚上弟弟九点睡觉",
+        "弟弟晚上九点睡觉."
+      ],
+      "points": 2,
+      "explanation": "参考句子：弟弟晚上九点睡觉。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n做饭 / 妈妈 / 每天",
+      "pinyin": "zuò fàn / mā ma / měi tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mẹ nấu cơm mỗi ngày.",
+      "answers": [
+        "妈妈每天做饭。",
+        "妈妈每天做饭",
+        "妈妈每天做饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：妈妈每天做饭。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n吃饭 / 在家 / 我",
+      "pinyin": "chī fàn / zài jiā / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi ăn cơm ở nhà.",
+      "answers": [
+        "我在家吃饭。",
+        "我在家吃饭",
+        "我在家吃饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我在家吃饭。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n上学 / 他 / 八点",
+      "pinyin": "shàng xué / tā / bā diǎn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy đi học lúc tám giờ.",
+      "answers": [
+        "他八点上学。",
+        "他八点上学",
+        "八点他上学",
+        "他八点上学."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他八点上学。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n下午 / 我们 / 五点回家",
+      "pinyin": "xià wǔ / wǒ men / wǔ diǎn huí jiā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi về nhà lúc năm giờ chiều.",
+      "answers": [
+        "我们下午五点回家。",
+        "我们下午五点回家",
+        "下午我们五点回家",
+        "我们下午五点回家."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们下午五点回家。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n姐姐 / 都看书 / 每天",
+      "pinyin": "jiě jie / dōu kàn shū / měi tiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chị gái đọc sách mỗi ngày.",
+      "answers": [
+        "姐姐每天都看书。",
+        "姐姐每天都看书",
+        "姐姐每天都看书."
+      ],
+      "points": 2,
+      "explanation": "参考句子：姐姐每天都看书。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n早上 / 先洗脸 / 我",
+      "pinyin": "zǎo shang / xiān xǐ liǎn / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Buổi sáng tôi rửa mặt trước.",
+      "answers": [
+        "早上我先洗脸。",
+        "早上我先洗脸",
+        "我早上先洗脸",
+        "早上我先洗脸."
+      ],
+      "points": 2,
+      "explanation": "参考句子：早上我先洗脸。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n早晚刷牙 / 每天 / 我",
+      "pinyin": "zǎo wǎn shuā yá / měi tiān / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi đánh răng sáng và tối mỗi ngày.",
+      "answers": [
+        "我每天早晚刷牙。",
+        "我每天早晚刷牙",
+        "我每天早晚刷牙."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我每天早晚刷牙。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n了吗 / 吃早饭 / 你",
+      "pinyin": "le ma / chī zǎo fàn / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn đã ăn sáng chưa?",
+      "answers": [
+        "你吃早饭了吗？",
+        "你吃早饭了吗",
+        "你吃早饭了吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你吃早饭了吗？"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n吃午饭 / 我们 / 十二点",
+      "pinyin": "chī wǔ fàn / wǒ men / shí èr diǎn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi ăn trưa lúc mười hai giờ.",
+      "answers": [
+        "我们十二点吃午饭。",
+        "我们十二点吃午饭",
+        "十二点我们吃午饭",
+        "我们十二点吃午饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们十二点吃午饭。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n和家人 / 我 / 一起吃晚饭",
+      "pinyin": "hé jiā rén / wǒ / yì qǐ chī wǎn fàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi ăn tối cùng gia đình.",
+      "answers": [
+        "我和家人一起吃晚饭。",
+        "我和家人一起吃晚饭",
+        "我和家人一起吃晚饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我和家人一起吃晚饭。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n休息 / 我 / 想 / 一下",
+      "pinyin": "xiū xi / wǒ / xiǎng / yí xià",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn nghỉ ngơi một chút.",
+      "answers": [
+        "我想休息一下。",
+        "我想休息一下",
+        "我想休息一下."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想休息一下。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n一起看电视 / 晚上 / 我们",
+      "pinyin": "yì qǐ kàn diàn shì / wǎn shang / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Buổi tối chúng tôi cùng xem ti vi.",
+      "answers": [
+        "晚上我们一起看电视。",
+        "晚上我们一起看电视",
+        "我们晚上一起看电视",
+        "晚上我们一起看电视."
+      ],
+      "points": 2,
+      "explanation": "参考句子：晚上我们一起看电视。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n吃饭 / 我 / 再学习 / 先",
+      "pinyin": "chī fàn / wǒ / zài xué xí / xiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi ăn cơm trước rồi học.",
+      "answers": [
+        "我先吃饭再学习。",
+        "我先吃饭再学习",
+        "我先吃饭再学习."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我先吃饭再学习。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n每天 / 走路去上学 / 他",
+      "pinyin": "měi tiān / zǒu lù qù shàng xué / tā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy đi bộ đến trường mỗi ngày.",
+      "answers": [
+        "他每天走路去上学。",
+        "他每天走路去上学",
+        "他每天走路去上学."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他每天走路去上学。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n洗碗 / 吃完饭以后 / 我",
+      "pinyin": "xǐ wǎn / chī wán fàn yǐ hòu / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Sau khi ăn cơm xong tôi rửa bát.",
+      "answers": [
+        "吃完饭以后我洗碗。",
+        "吃完饭以后我洗碗",
+        "我吃完饭以后洗碗",
+        "吃完饭以后我洗碗."
+      ],
+      "points": 2,
+      "explanation": "参考句子：吃完饭以后我洗碗。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n起床比较晚 / 周末 / 我",
+      "pinyin": "qǐ chuáng bǐ jiào wǎn / zhōu mò / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cuối tuần tôi thức dậy khá muộn.",
+      "answers": [
+        "周末我起床比较晚。",
+        "周末我起床比较晚",
+        "我周末起床比较晚",
+        "周末我起床比较晚."
+      ],
+      "points": 2,
+      "explanation": "参考句子：周末我起床比较晚。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n开始学习 / 我 / 晚上八点",
+      "pinyin": "kāi shǐ xué xí / wǒ / wǎn shang bā diǎn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi bắt đầu học lúc tám giờ tối.",
+      "answers": [
+        "我晚上八点开始学习。",
+        "我晚上八点开始学习",
+        "晚上八点我开始学习",
+        "我晚上八点开始学习."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我晚上八点开始学习。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n睡觉以前 / 听一会儿音乐 / 我",
+      "pinyin": "shuì jiào yǐ qián / tīng yí huì ér yīn yuè / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Trước khi ngủ tôi nghe nhạc một lúc.",
+      "answers": [
+        "睡觉以前我听一会儿音乐。",
+        "睡觉以前我听一会儿音乐",
+        "我睡觉以前听一会儿音乐",
+        "睡觉以前我听一会儿音乐."
+      ],
+      "points": 2,
+      "explanation": "参考句子：睡觉以前我听一会儿音乐。"
+    }
+  ]
+}

@@ -1,0 +1,968 @@
+{
+  "title": "HSK1-2 第30课 我的生活与朋友",
+  "description": "Cuộc sống và bạn bè của tôi；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“朋友”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "pēng you",
+        "B": "pèng you",
+        "C": "pěng you",
+        "D": "péng you"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“朋友”的正确读音是 péng you。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“生活”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shèng huó",
+        "B": "shěng huó",
+        "C": "shéng huó",
+        "D": "shēng huó"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“生活”的正确读音是 shēng huó。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“学习”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xuè xí",
+        "B": "xuē xí",
+        "C": "xué xí",
+        "D": "xuě xí"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“学习”的正确读音是 xué xí。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“运动”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yūn dòng",
+        "B": "yún dòng",
+        "C": "yǔn dòng",
+        "D": "yùn dòng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“运动”的正确读音是 yùn dòng。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“高”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "gāo",
+        "B": "gáo",
+        "C": "gǎo",
+        "D": "gào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“高”的正确读音是 gāo。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“大”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dà",
+        "B": "dá",
+        "C": "dǎ",
+        "D": "dā"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“大”的正确读音是 dà。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“近”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jīn",
+        "B": "jìn",
+        "C": "jín",
+        "D": "jǐn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“近”的正确读音是 jìn。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“有意思”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yóu yì si",
+        "B": "yōu yì si",
+        "C": "yòu yì si",
+        "D": "yǒu yì si"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“有意思”的正确读音是 yǒu yì si。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“高兴”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "gáo xìng",
+        "B": "gǎo xìng",
+        "C": "gāo xìng",
+        "D": "gào xìng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“高兴”的正确读音是 gāo xìng。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“觉得”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "juè de",
+        "B": "jué de",
+        "C": "juě de",
+        "D": "juē de"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“觉得”的正确读音是 jué de。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“好”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "hǎo",
+        "B": "hào",
+        "C": "háo",
+        "D": "hāo"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“好”的正确读音是 hǎo。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“快乐”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "kuái lè",
+        "B": "kuài lè",
+        "C": "kuǎi lè",
+        "D": "kuāi lè"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“快乐”的正确读音是 kuài lè。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“帮助”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "bāng zhù",
+        "B": "báng zhù",
+        "C": "bǎng zhù",
+        "D": "bàng zhù"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“帮助”的正确读音是 bāng zhù。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“一起”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yī qǐ",
+        "B": "yǐ qǐ",
+        "C": "yí qǐ",
+        "D": "yì qǐ"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“一起”的正确读音是 yì qǐ。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“谢谢”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiē xie",
+        "B": "xié xie",
+        "C": "xiě xie",
+        "D": "xiè xie"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“谢谢”的正确读音是 xiè xie。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：小明是我的好____。",
+      "pinyin": "xiǎo míng shì wǒ de hǎo ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tiểu Minh là bạn tốt của tôi.",
+      "options": {
+        "A": "觉得",
+        "B": "快乐",
+        "C": "朋友",
+        "D": "大"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“朋友”。完整句子：小明是我的好朋友。",
+      "optionPinyin": {
+        "A": "jué de",
+        "B": "kuài lè",
+        "C": "péng you",
+        "D": "dà"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我很喜欢现在的____。",
+      "pinyin": "wǒ hěn xǐ huan xiàn zài de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi rất thích cuộc sống hiện tại.",
+      "options": {
+        "A": "近",
+        "B": "高兴",
+        "C": "学习",
+        "D": "生活"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“生活”。完整句子：我很喜欢现在的生活。",
+      "optionPinyin": {
+        "A": "jìn",
+        "B": "gāo xìng",
+        "C": "xué xí",
+        "D": "shēng huó"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我们每天一起____。",
+      "pinyin": "wǒ men měi tiān yì qǐ ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi học cùng nhau mỗi ngày.",
+      "options": {
+        "A": "高兴",
+        "B": "学习",
+        "C": "大",
+        "D": "帮助"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“学习”。完整句子：我们每天一起学习。",
+      "optionPinyin": {
+        "A": "gāo xìng",
+        "B": "xué xí",
+        "C": "dà",
+        "D": "bāng zhù"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：周末我和朋友去____。",
+      "pinyin": "zhōu mò wǒ hé péng you qù ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cuối tuần tôi đi tập thể thao cùng bạn.",
+      "options": {
+        "A": "生活",
+        "B": "好",
+        "C": "运动",
+        "D": "大"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“运动”。完整句子：周末我和朋友去运动。",
+      "optionPinyin": {
+        "A": "shēng huó",
+        "B": "hǎo",
+        "C": "yùn dòng",
+        "D": "dà"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：她比我____。",
+      "pinyin": "tā bǐ wǒ ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy cao hơn tôi.",
+      "options": {
+        "A": "生活",
+        "B": "帮助",
+        "C": "大",
+        "D": "高"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“高”。完整句子：她比我高。",
+      "optionPinyin": {
+        "A": "shēng huó",
+        "B": "bāng zhù",
+        "C": "dà",
+        "D": "gāo"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我比弟弟____三岁。",
+      "pinyin": "wǒ bǐ dì di ____ sān suì 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi lớn hơn em trai ba tuổi.",
+      "options": {
+        "A": "一起",
+        "B": "大",
+        "C": "运动",
+        "D": "高"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“大”。完整句子：我比弟弟大三岁。",
+      "optionPinyin": {
+        "A": "yì qǐ",
+        "B": "dà",
+        "C": "yùn dòng",
+        "D": "gāo"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我家比他家离学校____。",
+      "pinyin": "wǒ jiā bǐ tā jiā lí xué xiào ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà tôi gần trường hơn nhà anh ấy.",
+      "options": {
+        "A": "一起",
+        "B": "朋友",
+        "C": "有意思",
+        "D": "近"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“近”。完整句子：我家比他家离学校近。",
+      "optionPinyin": {
+        "A": "yì qǐ",
+        "B": "péng you",
+        "C": "yǒu yì si",
+        "D": "jìn"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这本书比那本更____。",
+      "pinyin": "zhè běn shū bǐ nà běn gèng ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Quyển sách này thú vị hơn quyển kia.",
+      "options": {
+        "A": "近",
+        "B": "一起",
+        "C": "大",
+        "D": "有意思"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“有意思”。完整句子：这本书比那本更有意思。",
+      "optionPinyin": {
+        "A": "jìn",
+        "B": "yì qǐ",
+        "C": "dà",
+        "D": "yǒu yì si"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你为什么不____？",
+      "pinyin": "nǐ wèi shén me bù ____？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tại sao bạn không vui?",
+      "options": {
+        "A": "近",
+        "B": "运动",
+        "C": "大",
+        "D": "高兴"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“高兴”。完整句子：你为什么不高兴？",
+      "optionPinyin": {
+        "A": "jìn",
+        "B": "yùn dòng",
+        "C": "dà",
+        "D": "gāo xìng"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我____这部电影很好看。",
+      "pinyin": "wǒ ____ zhè bù diàn yǐng hěn hǎo kàn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi thấy bộ phim này rất hay.",
+      "options": {
+        "A": "好",
+        "B": "觉得",
+        "C": "快乐",
+        "D": "帮助"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“觉得”。完整句子：我觉得这部电影很好看。",
+      "optionPinyin": {
+        "A": "hǎo",
+        "B": "jué de",
+        "C": "kuài lè",
+        "D": "bāng zhù"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他中文说得很____。",
+      "pinyin": "tā zhōng wén shuō dé hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy nói tiếng Trung rất tốt.",
+      "options": {
+        "A": "好",
+        "B": "一起",
+        "C": "运动",
+        "D": "高兴"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“好”。完整句子：他中文说得很好。",
+      "optionPinyin": {
+        "A": "hǎo",
+        "B": "yì qǐ",
+        "C": "yùn dòng",
+        "D": "gāo xìng"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我希望每天都很____。",
+      "pinyin": "wǒ xī wàng měi tiān dōu hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi hy vọng ngày nào cũng vui vẻ.",
+      "options": {
+        "A": "谢谢",
+        "B": "生活",
+        "C": "快乐",
+        "D": "学习"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“快乐”。完整句子：我希望每天都很快乐。",
+      "optionPinyin": {
+        "A": "xiè xie",
+        "B": "shēng huó",
+        "C": "kuài lè",
+        "D": "xué xí"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：朋友常常____我。",
+      "pinyin": "péng you cháng cháng ____ wǒ 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn bè thường giúp đỡ tôi.",
+      "options": {
+        "A": "谢谢",
+        "B": "快乐",
+        "C": "觉得",
+        "D": "帮助"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“帮助”。完整句子：朋友常常帮助我。",
+      "optionPinyin": {
+        "A": "xiè xie",
+        "B": "kuài lè",
+        "C": "jué de",
+        "D": "bāng zhù"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我们喜欢____做饭。",
+      "pinyin": "wǒ men xǐ huan ____ zuò fàn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi thích nấu cơm cùng nhau.",
+      "options": {
+        "A": "好",
+        "B": "高",
+        "C": "学习",
+        "D": "一起"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“一起”。完整句子：我们喜欢一起做饭。",
+      "optionPinyin": {
+        "A": "hǎo",
+        "B": "gāo",
+        "C": "xué xí",
+        "D": "yì qǐ"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我想对你说____。",
+      "pinyin": "wǒ xiǎng duì nǐ shuō ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn nói lời cảm ơn với bạn.",
+      "options": {
+        "A": "谢谢",
+        "B": "觉得",
+        "C": "高",
+        "D": "好"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“谢谢”。完整句子：我想对你说谢谢。",
+      "optionPinyin": {
+        "A": "xiè xie",
+        "B": "jué de",
+        "C": "gāo",
+        "D": "hǎo"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我的好朋友 / 小明 / 是",
+      "pinyin": "wǒ de hǎo péng you / xiǎo míng / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tiểu Minh là bạn tốt của tôi.",
+      "answers": [
+        "小明是我的好朋友。",
+        "小明是我的好朋友",
+        "小明是我的好朋友."
+      ],
+      "points": 2,
+      "explanation": "参考句子：小明是我的好朋友。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很喜欢 / 我 / 现在的生活",
+      "pinyin": "hěn xǐ huan / wǒ / xiàn zài de shēng huó",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi rất thích cuộc sống hiện tại.",
+      "answers": [
+        "我很喜欢现在的生活。",
+        "我很喜欢现在的生活",
+        "我很喜欢现在的生活."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我很喜欢现在的生活。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n每天 / 我们 / 一起学习",
+      "pinyin": "měi tiān / wǒ men / yì qǐ xué xí",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi học cùng nhau mỗi ngày.",
+      "answers": [
+        "我们每天一起学习。",
+        "我们每天一起学习",
+        "我们每天一起学习."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们每天一起学习。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 和朋友去运动 / 周末",
+      "pinyin": "wǒ / hé péng you qù yùn dòng / zhōu mò",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cuối tuần tôi đi tập thể thao cùng bạn.",
+      "answers": [
+        "周末我和朋友去运动。",
+        "周末我和朋友去运动",
+        "我周末和朋友去运动",
+        "周末我和朋友去运动."
+      ],
+      "points": 2,
+      "explanation": "参考句子：周末我和朋友去运动。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n她 / 高 / 比我",
+      "pinyin": "tā / gāo / bǐ wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cô ấy cao hơn tôi.",
+      "answers": [
+        "她比我高。",
+        "她比我高",
+        "她比我高."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她比我高。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n比弟弟 / 我 / 大 / 三岁",
+      "pinyin": "bǐ dì di / wǒ / dà / sān suì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi lớn hơn em trai ba tuổi.",
+      "answers": [
+        "我比弟弟大三岁。",
+        "我比弟弟大三岁",
+        "我比弟弟大三岁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我比弟弟大三岁。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n比他家 / 离学校近 / 我家",
+      "pinyin": "bǐ tā jiā / lí xué xiào jìn / wǒ jiā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Nhà tôi gần trường hơn nhà anh ấy.",
+      "answers": [
+        "我家比他家离学校近。",
+        "我家比他家离学校近",
+        "我家比他家离学校近."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我家比他家离学校近。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n更有意思 / 这本书 / 比那本",
+      "pinyin": "gèng yǒu yì si / zhè běn shū / bǐ nà běn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Quyển sách này thú vị hơn quyển kia.",
+      "answers": [
+        "这本书比那本更有意思。",
+        "这本书比那本更有意思",
+        "这本书比那本更有意思."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这本书比那本更有意思。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n为什么 / 你 / 不高兴",
+      "pinyin": "wèi shén me / nǐ / bù gāo xìng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tại sao bạn không vui?",
+      "answers": [
+        "你为什么不高兴？",
+        "你为什么不高兴",
+        "你为什么不高兴?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你为什么不高兴？"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 这部电影很好看 / 觉得",
+      "pinyin": "wǒ / zhè bù diàn yǐng hěn hǎo kàn / jué de",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi thấy bộ phim này rất hay.",
+      "answers": [
+        "我觉得这部电影很好看。",
+        "我觉得这部电影很好看",
+        "我觉得这部电影很好看."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我觉得这部电影很好看。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n他 / 说得很好 / 中文",
+      "pinyin": "tā / shuō dé hěn hǎo / zhōng wén",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy nói tiếng Trung rất tốt.",
+      "answers": [
+        "他中文说得很好。",
+        "他中文说得很好",
+        "他中文说得很好."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他中文说得很好。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 每天都很快乐 / 希望",
+      "pinyin": "wǒ / měi tiān dōu hěn kuài lè / xī wàng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi hy vọng ngày nào cũng vui vẻ.",
+      "answers": [
+        "我希望每天都很快乐。",
+        "我希望每天都很快乐",
+        "我希望每天都很快乐."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我希望每天都很快乐。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n常常 / 帮助我 / 朋友",
+      "pinyin": "cháng cháng / bāng zhù wǒ / péng you",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn bè thường giúp đỡ tôi.",
+      "answers": [
+        "朋友常常帮助我。",
+        "朋友常常帮助我",
+        "朋友常常帮助我."
+      ],
+      "points": 2,
+      "explanation": "参考句子：朋友常常帮助我。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n一起 / 做饭 / 喜欢 / 我们",
+      "pinyin": "yì qǐ / zuò fàn / xǐ huan / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi thích nấu cơm cùng nhau.",
+      "answers": [
+        "我们喜欢一起做饭。",
+        "我们喜欢一起做饭",
+        "我们喜欢一起做饭."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们喜欢一起做饭。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n对你说谢谢 / 我 / 想",
+      "pinyin": "duì nǐ shuō xiè xie / wǒ / xiǎng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn nói lời cảm ơn với bạn.",
+      "answers": [
+        "我想对你说谢谢。",
+        "我想对你说谢谢",
+        "我想对你说谢谢."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想对你说谢谢。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我们 / 喜欢听音乐 / 都",
+      "pinyin": "wǒ men / xǐ huan tīng yīn yuè / dōu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng tôi đều thích nghe nhạc.",
+      "answers": [
+        "我们都喜欢听音乐。",
+        "我们都喜欢听音乐",
+        "我们都喜欢听音乐."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们都喜欢听音乐。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 认识你 / 很高兴",
+      "pinyin": "wǒ / rèn shi nǐ / hěn gāo xìng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi rất vui được biết bạn.",
+      "answers": [
+        "认识你，我很高兴。",
+        "认识你我很高兴",
+        "认识你,我很高兴."
+      ],
+      "points": 2,
+      "explanation": "参考句子：认识你，我很高兴。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n每天 / 都很忙 / 她",
+      "pinyin": "měi tiān / dōu hěn máng / tā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cô ấy rất bận mỗi ngày.",
+      "answers": [
+        "她每天都很忙。",
+        "她每天都很忙",
+        "她每天都很忙."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她每天都很忙。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n好多了 / 比以前 / 我的中文",
+      "pinyin": "hǎo duō le / bǐ yǐ qián / wǒ de zhōng wén",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tiếng Trung của tôi tốt hơn trước nhiều rồi.",
+      "answers": [
+        "我的中文比以前好多了。",
+        "我的中文比以前好多了",
+        "我的中文比以前好多了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的中文比以前好多了。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n和朋友一起去中国 / 我 / 想",
+      "pinyin": "hé péng you yì qǐ qù zhōng guó / wǒ / xiǎng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn đi Trung Quốc cùng bạn bè.",
+      "answers": [
+        "我想和朋友一起去中国。",
+        "我想和朋友一起去中国",
+        "我想和朋友一起去中国."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想和朋友一起去中国。"
+    }
+  ]
+}

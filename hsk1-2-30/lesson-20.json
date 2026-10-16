@@ -1,0 +1,968 @@
+{
+  "title": "HSK1-2 第20课 我喜欢这件衣服",
+  "description": "Tôi thích bộ quần áo này；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“衣服”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yì fu",
+        "B": "yī fu",
+        "C": "yǐ fu",
+        "D": "yí fu"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“衣服”的正确读音是 yī fu。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“颜色”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yán sè",
+        "B": "yǎn sè",
+        "C": "yān sè",
+        "D": "yàn sè"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“颜色”的正确读音是 yán sè。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“红色”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "hōng sè",
+        "B": "hóng sè",
+        "C": "hòng sè",
+        "D": "hǒng sè"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“红色”的正确读音是 hóng sè。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“白色”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "bái sè",
+        "B": "bài sè",
+        "C": "bǎi sè",
+        "D": "bāi sè"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“白色”的正确读音是 bái sè。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“黑色”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "héi sè",
+        "B": "hèi sè",
+        "C": "hēi sè",
+        "D": "hěi sè"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“黑色”的正确读音是 hēi sè。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“蓝色”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "lān sè",
+        "B": "lán sè",
+        "C": "làn sè",
+        "D": "lǎn sè"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“蓝色”的正确读音是 lán sè。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“黄色”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "huāng sè",
+        "B": "huǎng sè",
+        "C": "huàng sè",
+        "D": "huáng sè"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“黄色”的正确读音是 huáng sè。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“裤子”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "kū zi",
+        "B": "kù zi",
+        "C": "kú zi",
+        "D": "kǔ zi"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“裤子”的正确读音是 kù zi。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“鞋”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xié",
+        "B": "xiě",
+        "C": "xiè",
+        "D": "xiē"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“鞋”的正确读音是 xié。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“衬衫”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chèn shān",
+        "B": "chén shān",
+        "C": "chěn shān",
+        "D": "chēn shān"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“衬衫”的正确读音是 chèn shān。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“试”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shī",
+        "B": "shí",
+        "C": "shǐ",
+        "D": "shì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“试”的正确读音是 shì。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“大”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "dā",
+        "B": "dǎ",
+        "C": "dà",
+        "D": "dá"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“大”的正确读音是 dà。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“小”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xiáo",
+        "B": "xiǎo",
+        "C": "xiāo",
+        "D": "xiào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“小”的正确读音是 xiǎo。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“穿”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chuàn",
+        "B": "chuán",
+        "C": "chuān",
+        "D": "chuǎn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“穿”的正确读音是 chuān。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“漂亮”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "piāo liang",
+        "B": "piào liang",
+        "C": "piáo liang",
+        "D": "piǎo liang"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“漂亮”的正确读音是 piào liang。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这件____很漂亮。",
+      "pinyin": "zhè jiàn ____ hěn piào liang 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bộ quần áo này rất đẹp.",
+      "options": {
+        "A": "鞋",
+        "B": "衣服",
+        "C": "大",
+        "D": "试"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“衣服”。完整句子：这件衣服很漂亮。",
+      "optionPinyin": {
+        "A": "xié",
+        "B": "yī fu",
+        "C": "dà",
+        "D": "shì"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你喜欢什么____？",
+      "pinyin": "nǐ xǐ huan shén me ____？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn thích màu gì?",
+      "options": {
+        "A": "颜色",
+        "B": "裤子",
+        "C": "小",
+        "D": "蓝色"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“颜色”。完整句子：你喜欢什么颜色？",
+      "optionPinyin": {
+        "A": "yán sè",
+        "B": "kù zi",
+        "C": "xiǎo",
+        "D": "lán sè"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我喜欢____。",
+      "pinyin": "wǒ xǐ huan ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi thích màu đỏ.",
+      "options": {
+        "A": "蓝色",
+        "B": "鞋",
+        "C": "红色",
+        "D": "衣服"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“红色”。完整句子：我喜欢红色。",
+      "optionPinyin": {
+        "A": "lán sè",
+        "B": "xié",
+        "C": "hóng sè",
+        "D": "yī fu"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：她穿一件____的衣服。",
+      "pinyin": "tā chuān yī jiàn ____ de yī fu 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy mặc một bộ quần áo màu trắng.",
+      "options": {
+        "A": "穿",
+        "B": "白色",
+        "C": "黑色",
+        "D": "黄色"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“白色”。完整句子：她穿一件白色的衣服。",
+      "optionPinyin": {
+        "A": "chuān",
+        "B": "bái sè",
+        "C": "hēi sè",
+        "D": "huáng sè"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这条裤子是____的。",
+      "pinyin": "zhè tiáo kù zi shì ____ de 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chiếc quần này màu đen.",
+      "options": {
+        "A": "漂亮",
+        "B": "黑色",
+        "C": "衣服",
+        "D": "黄色"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“黑色”。完整句子：这条裤子是黑色的。",
+      "optionPinyin": {
+        "A": "piào liang",
+        "B": "hēi sè",
+        "C": "yī fu",
+        "D": "huáng sè"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我有一个____的书包。",
+      "pinyin": "wǒ yǒu yí gè ____ de shū bāo 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi có một chiếc cặp sách màu xanh dương.",
+      "options": {
+        "A": "蓝色",
+        "B": "裤子",
+        "C": "漂亮",
+        "D": "白色"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“蓝色”。完整句子：我有一个蓝色的书包。",
+      "optionPinyin": {
+        "A": "lán sè",
+        "B": "kù zi",
+        "C": "piào liang",
+        "D": "bái sè"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：弟弟穿____的衣服。",
+      "pinyin": "dì di chuān ____ de yī fu 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Em trai mặc quần áo màu vàng.",
+      "options": {
+        "A": "裤子",
+        "B": "黑色",
+        "C": "鞋",
+        "D": "黄色"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“黄色”。完整句子：弟弟穿黄色的衣服。",
+      "optionPinyin": {
+        "A": "kù zi",
+        "B": "hēi sè",
+        "C": "xié",
+        "D": "huáng sè"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：妈妈买了一条____。",
+      "pinyin": "mā ma mǎi le yī tiáo ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ đã mua một chiếc quần.",
+      "options": {
+        "A": "裤子",
+        "B": "颜色",
+        "C": "黄色",
+        "D": "白色"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“裤子”。完整句子：妈妈买了一条裤子。",
+      "optionPinyin": {
+        "A": "kù zi",
+        "B": "yán sè",
+        "C": "huáng sè",
+        "D": "bái sè"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这双____太小了。",
+      "pinyin": "zhè shuāng ____ tài xiǎo le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Đôi giày này nhỏ quá.",
+      "options": {
+        "A": "小",
+        "B": "衬衫",
+        "C": "大",
+        "D": "鞋"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“鞋”。完整句子：这双鞋太小了。",
+      "optionPinyin": {
+        "A": "xiǎo",
+        "B": "chèn shān",
+        "C": "dà",
+        "D": "xié"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我想买一件____。",
+      "pinyin": "wǒ xiǎng mǎi yī jiàn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn mua một chiếc áo sơ mi.",
+      "options": {
+        "A": "衬衫",
+        "B": "小",
+        "C": "黑色",
+        "D": "鞋"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“衬衫”。完整句子：我想买一件衬衫。",
+      "optionPinyin": {
+        "A": "chèn shān",
+        "B": "xiǎo",
+        "C": "hēi sè",
+        "D": "xié"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请让我____一下。",
+      "pinyin": "qǐng ràng wǒ ____ yí xià 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin cho tôi thử một chút.",
+      "options": {
+        "A": "衬衫",
+        "B": "黄色",
+        "C": "试",
+        "D": "红色"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“试”。完整句子：请让我试一下。",
+      "optionPinyin": {
+        "A": "chèn shān",
+        "B": "huáng sè",
+        "C": "shì",
+        "D": "hóng sè"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这件有点儿____。",
+      "pinyin": "zhè jiàn yǒu diǎn ér ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bộ này hơi rộng.",
+      "options": {
+        "A": "试",
+        "B": "衬衫",
+        "C": "裤子",
+        "D": "大"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“大”。完整句子：这件有点儿大。",
+      "optionPinyin": {
+        "A": "shì",
+        "B": "chèn shān",
+        "C": "kù zi",
+        "D": "dà"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我想要____一点的。",
+      "pinyin": "wǒ xiǎng yào ____ yì diǎn de 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn cái nhỏ hơn một chút.",
+      "options": {
+        "A": "颜色",
+        "B": "黑色",
+        "C": "鞋",
+        "D": "小"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“小”。完整句子：我想要小一点的。",
+      "optionPinyin": {
+        "A": "yán sè",
+        "B": "hēi sè",
+        "C": "xié",
+        "D": "xiǎo"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你今天____什么？",
+      "pinyin": "nǐ jīn tiān ____ shén me ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay bạn mặc gì?",
+      "options": {
+        "A": "颜色",
+        "B": "大",
+        "C": "穿",
+        "D": "黄色"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“穿”。完整句子：你今天穿什么？",
+      "optionPinyin": {
+        "A": "yán sè",
+        "B": "dà",
+        "C": "chuān",
+        "D": "huáng sè"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：她穿这件衣服很____。",
+      "pinyin": "tā chuān zhè jiàn yī fu hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy mặc bộ quần áo này rất đẹp.",
+      "options": {
+        "A": "黑色",
+        "B": "漂亮",
+        "C": "白色",
+        "D": "颜色"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“漂亮”。完整句子：她穿这件衣服很漂亮。",
+      "optionPinyin": {
+        "A": "hēi sè",
+        "B": "piào liang",
+        "C": "bái sè",
+        "D": "yán sè"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n漂亮 / 很 / 这件衣服",
+      "pinyin": "piào liang / hěn / zhè jiàn yī fu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bộ quần áo này rất đẹp.",
+      "answers": [
+        "这件衣服很漂亮。",
+        "这件衣服很漂亮",
+        "这件衣服很漂亮."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这件衣服很漂亮。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喜欢 / 什么颜色 / 你",
+      "pinyin": "xǐ huan / shén me yán sè / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn thích màu gì?",
+      "answers": [
+        "你喜欢什么颜色？",
+        "你喜欢什么颜色",
+        "你喜欢什么颜色?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你喜欢什么颜色？"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n红色 / 我 / 喜欢",
+      "pinyin": "hóng sè / wǒ / xǐ huan",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi thích màu đỏ.",
+      "answers": [
+        "我喜欢红色。",
+        "我喜欢红色",
+        "我喜欢红色."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我喜欢红色。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n一件白色的衣服 / 穿 / 她",
+      "pinyin": "yī jiàn bái sè de yī fu / chuān / tā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cô ấy mặc một bộ quần áo màu trắng.",
+      "answers": [
+        "她穿一件白色的衣服。",
+        "她穿一件白色的衣服",
+        "她穿一件白色的衣服."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她穿一件白色的衣服。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是 / 这条裤子 / 黑色的",
+      "pinyin": "shì / zhè tiáo kù zi / hēi sè de",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chiếc quần này màu đen.",
+      "answers": [
+        "这条裤子是黑色的。",
+        "这条裤子是黑色的",
+        "这条裤子是黑色的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这条裤子是黑色的。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有一个蓝色的书包 / 我",
+      "pinyin": "yǒu yí gè lán sè de shū bāo / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi có một chiếc cặp sách màu xanh dương.",
+      "answers": [
+        "我有一个蓝色的书包。",
+        "我有一个蓝色的书包",
+        "我有一个蓝色的书包."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我有一个蓝色的书包。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n黄色的衣服 / 弟弟 / 穿",
+      "pinyin": "huáng sè de yī fu / dì di / chuān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Em trai mặc quần áo màu vàng.",
+      "answers": [
+        "弟弟穿黄色的衣服。",
+        "弟弟穿黄色的衣服",
+        "弟弟穿黄色的衣服."
+      ],
+      "points": 2,
+      "explanation": "参考句子：弟弟穿黄色的衣服。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n买了一条裤子 / 妈妈",
+      "pinyin": "mǎi le yī tiáo kù zi / mā ma",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Mẹ đã mua một chiếc quần.",
+      "answers": [
+        "妈妈买了一条裤子。",
+        "妈妈买了一条裤子",
+        "妈妈买了一条裤子."
+      ],
+      "points": 2,
+      "explanation": "参考句子：妈妈买了一条裤子。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n太小了 / 这双鞋",
+      "pinyin": "tài xiǎo le / zhè shuāng xié",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Đôi giày này nhỏ quá.",
+      "answers": [
+        "这双鞋太小了。",
+        "这双鞋太小了",
+        "这双鞋太小了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这双鞋太小了。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我 / 一件衬衫 / 想买",
+      "pinyin": "wǒ / yī jiàn chèn shān / xiǎng mǎi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn mua một chiếc áo sơ mi.",
+      "answers": [
+        "我想买一件衬衫。",
+        "我想买一件衬衫",
+        "我想买一件衬衫."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想买一件衬衫。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n让我 / 一下 / 请 / 试",
+      "pinyin": "ràng wǒ / yí xià / qǐng / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Xin cho tôi thử một chút.",
+      "answers": [
+        "请让我试一下。",
+        "请让我试一下",
+        "请让我试一下."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请让我试一下。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有点儿大 / 这件",
+      "pinyin": "yǒu diǎn ér dà / zhè jiàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bộ này hơi rộng.",
+      "answers": [
+        "这件有点儿大。",
+        "这件有点儿大",
+        "这件有点儿大."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这件有点儿大。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n小一点的 / 想要 / 我",
+      "pinyin": "xiǎo yì diǎn de / xiǎng yào / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn cái nhỏ hơn một chút.",
+      "answers": [
+        "我想要小一点的。",
+        "我想要小一点的",
+        "我想要小一点的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想要小一点的。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n穿 / 今天 / 你 / 什么",
+      "pinyin": "chuān / jīn tiān / nǐ / shén me",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay bạn mặc gì?",
+      "answers": [
+        "你今天穿什么？",
+        "你今天穿什么",
+        "今天你穿什么",
+        "你今天穿什么?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你今天穿什么？"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n她 / 很漂亮 / 穿这件衣服",
+      "pinyin": "tā / hěn piào liang / chuān zhè jiàn yī fu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cô ấy mặc bộ quần áo này rất đẹp.",
+      "answers": [
+        "她穿这件衣服很漂亮。",
+        "她穿这件衣服很漂亮",
+        "她穿这件衣服很漂亮."
+      ],
+      "points": 2,
+      "explanation": "参考句子：她穿这件衣服很漂亮。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有没有 / 鞋 / 大一点儿的",
+      "pinyin": "yǒu méi yǒu / xié / dà yī diǎn ér de",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Có giày lớn hơn một chút không?",
+      "answers": [
+        "有没有大一点儿的鞋？",
+        "有没有大一点儿的鞋",
+        "有没有大一点儿的鞋?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：有没有大一点儿的鞋？"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n觉得 / 我 / 蓝色的更好看",
+      "pinyin": "jué de / wǒ / lán sè de gèng hǎo kàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi thấy cái màu xanh dương đẹp hơn.",
+      "answers": [
+        "我觉得蓝色的更好看。",
+        "我觉得蓝色的更好看",
+        "我觉得蓝色的更好看."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我觉得蓝色的更好看。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n这件衣服 / 姐姐买的 / 是",
+      "pinyin": "zhè jiàn yī fu / jiě jie mǎi de / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bộ quần áo này do chị gái mua.",
+      "answers": [
+        "这件衣服是姐姐买的。",
+        "这件衣服是姐姐买的",
+        "这件衣服是姐姐买的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这件衣服是姐姐买的。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n合适 / 不太 / 这条裤子",
+      "pinyin": "hé shì / bú tài / zhè tiáo kù zi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chiếc quần này không phù hợp lắm.",
+      "answers": [
+        "这条裤子不太合适。",
+        "这条裤子不太合适",
+        "这条裤子不太合适."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这条裤子不太合适。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n白色的衬衫 / 那件 / 我要",
+      "pinyin": "bái sè de chèn shān / nà jiàn / wǒ yào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn chiếc áo sơ mi màu trắng kia.",
+      "answers": [
+        "我要那件白色的衬衫。",
+        "我要那件白色的衬衫",
+        "我要那件白色的衬衫."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我要那件白色的衬衫。"
+    }
+  ]
+}

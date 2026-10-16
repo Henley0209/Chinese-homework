@@ -1,0 +1,967 @@
+{
+  "title": "HSK1-2 第24课 请问，车站在哪儿？",
+  "description": "Xin hỏi, bến xe ở đâu?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“车站”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "ché zhàn",
+        "B": "chē zhàn",
+        "C": "chè zhàn",
+        "D": "chě zhàn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“车站”的正确读音是 chē zhàn。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“商店”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shàng diàn",
+        "B": "sháng diàn",
+        "C": "shāng diàn",
+        "D": "shǎng diàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“商店”的正确读音是 shāng diàn。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“左边”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zuò biān",
+        "B": "zuó biān",
+        "C": "zuǒ biān",
+        "D": "zuō biān"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“左边”的正确读音是 zuǒ biān。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“右边”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yóu biān",
+        "B": "yòu biān",
+        "C": "yǒu biān",
+        "D": "yōu biān"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“右边”的正确读音是 yòu biān。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“前”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qiàn",
+        "B": "qián",
+        "C": "qiān",
+        "D": "qiǎn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“前”的正确读音是 qián。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“后面”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "hòu miàn",
+        "B": "hóu miàn",
+        "C": "hōu miàn",
+        "D": "hǒu miàn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“后面”的正确读音是 hòu miàn。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“远”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yuān",
+        "B": "yuàn",
+        "C": "yuǎn",
+        "D": "yuán"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“远”的正确读音是 yuǎn。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“近”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jín",
+        "B": "jìn",
+        "C": "jǐn",
+        "D": "jīn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“近”的正确读音是 jìn。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“走”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zǒu",
+        "B": "zóu",
+        "C": "zòu",
+        "D": "zōu"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“走”的正确读音是 zǒu。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“路口”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "lù kǒu",
+        "B": "lǔ kǒu",
+        "C": "lú kǒu",
+        "D": "lū kǒu"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“路口”的正确读音是 lù kǒu。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“对面”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "duǐ miàn",
+        "B": "duì miàn",
+        "C": "duī miàn",
+        "D": "duí miàn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“对面”的正确读音是 duì miàn。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“银行”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yīn háng",
+        "B": "yín háng",
+        "C": "yìn háng",
+        "D": "yǐn háng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“银行”的正确读音是 yín háng。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“医院”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yì yuàn",
+        "B": "yí yuàn",
+        "C": "yǐ yuàn",
+        "D": "yī yuàn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“医院”的正确读音是 yī yuàn。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“分钟”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "fēn zhōng",
+        "B": "fén zhōng",
+        "C": "fèn zhōng",
+        "D": "fěn zhōng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“分钟”的正确读音是 fēn zhōng。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“请问”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "qìng wèn",
+        "B": "qǐng wèn",
+        "C": "qīng wèn",
+        "D": "qíng wèn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“请问”的正确读音是 qǐng wèn。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请问____在哪儿？",
+      "pinyin": "qǐng wèn ____ zài nǎ ér ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin hỏi, bến xe ở đâu?",
+      "options": {
+        "A": "银行",
+        "B": "左边",
+        "C": "走",
+        "D": "车站"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“车站”。完整句子：请问车站在哪儿？",
+      "optionPinyin": {
+        "A": "yín háng",
+        "B": "zuǒ biān",
+        "C": "zǒu",
+        "D": "chē zhàn"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：前面有一家____。",
+      "pinyin": "qián miàn yǒu yī jiā ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Phía trước có một cửa hàng.",
+      "options": {
+        "A": "银行",
+        "B": "商店",
+        "C": "后面",
+        "D": "走"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“商店”。完整句子：前面有一家商店。",
+      "optionPinyin": {
+        "A": "yín háng",
+        "B": "shāng diàn",
+        "C": "hòu miàn",
+        "D": "zǒu"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：学校的____是医院。",
+      "pinyin": "xué xiào de ____ shì yī yuàn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bên trái trường học là bệnh viện.",
+      "options": {
+        "A": "右边",
+        "B": "走",
+        "C": "商店",
+        "D": "左边"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“左边”。完整句子：学校的左边是医院。",
+      "optionPinyin": {
+        "A": "yòu biān",
+        "B": "zǒu",
+        "C": "shāng diàn",
+        "D": "zuǒ biān"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：饭店在学校____。",
+      "pinyin": "fàn diàn zài xué xiào ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà hàng ở bên phải trường.",
+      "options": {
+        "A": "右边",
+        "B": "分钟",
+        "C": "车站",
+        "D": "请问"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“右边”。完整句子：饭店在学校右边。",
+      "optionPinyin": {
+        "A": "yòu biān",
+        "B": "fēn zhōng",
+        "C": "chē zhàn",
+        "D": "qǐng wèn"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请往____走。",
+      "pinyin": "qǐng wǎng ____ zǒu 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy đi về phía trước.",
+      "options": {
+        "A": "车站",
+        "B": "前",
+        "C": "医院",
+        "D": "左边"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“前”。完整句子：请往前走。",
+      "optionPinyin": {
+        "A": "chē zhàn",
+        "B": "qián",
+        "C": "yī yuàn",
+        "D": "zuǒ biān"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：超市在____。",
+      "pinyin": "chāo shì zài ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Siêu thị ở phía sau.",
+      "options": {
+        "A": "商店",
+        "B": "右边",
+        "C": "车站",
+        "D": "后面"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“后面”。完整句子：超市在后面。",
+      "optionPinyin": {
+        "A": "shāng diàn",
+        "B": "yòu biān",
+        "C": "chē zhàn",
+        "D": "hòu miàn"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：医院离这里很____。",
+      "pinyin": "yī yuàn lí zhè lǐ hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bệnh viện rất xa đây.",
+      "options": {
+        "A": "右边",
+        "B": "前",
+        "C": "远",
+        "D": "左边"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“远”。完整句子：医院离这里很远。",
+      "optionPinyin": {
+        "A": "yòu biān",
+        "B": "qián",
+        "C": "yuǎn",
+        "D": "zuǒ biān"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我家离车站很____。",
+      "pinyin": "wǒ jiā lí chē zhàn hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà tôi rất gần bến xe.",
+      "options": {
+        "A": "请问",
+        "B": "近",
+        "C": "商店",
+        "D": "前"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“近”。完整句子：我家离车站很近。",
+      "optionPinyin": {
+        "A": "qǐng wèn",
+        "B": "jìn",
+        "C": "shāng diàn",
+        "D": "qián"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请一直____。",
+      "pinyin": "qǐng yì zhí ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy đi thẳng.",
+      "options": {
+        "A": "商店",
+        "B": "前",
+        "C": "车站",
+        "D": "走"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“走”。完整句子：请一直走。",
+      "optionPinyin": {
+        "A": "shāng diàn",
+        "B": "qián",
+        "C": "chē zhàn",
+        "D": "zǒu"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我们在____见。",
+      "pinyin": "wǒ men zài ____ jiàn 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng ta gặp nhau ở ngã đường.",
+      "options": {
+        "A": "路口",
+        "B": "车站",
+        "C": "请问",
+        "D": "右边"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“路口”。完整句子：我们在路口见。",
+      "optionPinyin": {
+        "A": "lù kǒu",
+        "B": "chē zhàn",
+        "C": "qǐng wèn",
+        "D": "yòu biān"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：商店在学校的____。",
+      "pinyin": "shāng diàn zài xué xiào de ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cửa hàng ở đối diện trường.",
+      "options": {
+        "A": "商店",
+        "B": "走",
+        "C": "对面",
+        "D": "后面"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“对面”。完整句子：商店在学校的对面。",
+      "optionPinyin": {
+        "A": "shāng diàn",
+        "B": "zǒu",
+        "C": "duì miàn",
+        "D": "hòu miàn"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：你怎么去____？",
+      "pinyin": "nǐ zěn me qù ____？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn đến ngân hàng bằng cách nào?",
+      "options": {
+        "A": "走",
+        "B": "远",
+        "C": "银行",
+        "D": "商店"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“银行”。完整句子：你怎么去银行？",
+      "optionPinyin": {
+        "A": "zǒu",
+        "B": "yuǎn",
+        "C": "yín háng",
+        "D": "shāng diàn"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我要去____。",
+      "pinyin": "wǒ yào qù ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn đến bệnh viện.",
+      "options": {
+        "A": "走",
+        "B": "分钟",
+        "C": "医院",
+        "D": "近"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“医院”。完整句子：我要去医院。",
+      "optionPinyin": {
+        "A": "zǒu",
+        "B": "fēn zhōng",
+        "C": "yī yuàn",
+        "D": "jìn"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：从这里到学校要五____。",
+      "pinyin": "cóng zhè lǐ dào xué xiào yào wǔ ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Từ đây đến trường mất năm phút.",
+      "options": {
+        "A": "分钟",
+        "B": "请问",
+        "C": "商店",
+        "D": "前"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“分钟”。完整句子：从这里到学校要五分钟。",
+      "optionPinyin": {
+        "A": "fēn zhōng",
+        "B": "qǐng wèn",
+        "C": "shāng diàn",
+        "D": "qián"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：____洗手间在哪里？",
+      "pinyin": "____ xǐ shǒu jiān zài nǎ lǐ ？",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin hỏi, nhà vệ sinh ở đâu?",
+      "options": {
+        "A": "医院",
+        "B": "右边",
+        "C": "请问",
+        "D": "远"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“请问”。完整句子：请问洗手间在哪里？",
+      "optionPinyin": {
+        "A": "yī yuàn",
+        "B": "yòu biān",
+        "C": "qǐng wèn",
+        "D": "yuǎn"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n车站 / 在哪儿 / 请问",
+      "pinyin": "chē zhàn / zài nǎ ér / qǐng wèn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Xin hỏi, bến xe ở đâu?",
+      "answers": [
+        "请问车站在哪儿？",
+        "请问车站在哪儿",
+        "请问车站在哪儿?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：请问车站在哪儿？"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n有一家商店 / 前面",
+      "pinyin": "yǒu yī jiā shāng diàn / qián miàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Phía trước có một cửa hàng.",
+      "answers": [
+        "前面有一家商店。",
+        "前面有一家商店",
+        "前面有一家商店."
+      ],
+      "points": 2,
+      "explanation": "参考句子：前面有一家商店。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n是医院 / 的左边 / 学校",
+      "pinyin": "shì yī yuàn / de zuǒ biān / xué xiào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bên trái trường học là bệnh viện.",
+      "answers": [
+        "学校的左边是医院。",
+        "学校的左边是医院",
+        "学校的左边是医院."
+      ],
+      "points": 2,
+      "explanation": "参考句子：学校的左边是医院。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n在学校右边 / 饭店",
+      "pinyin": "zài xué xiào yòu biān / fàn diàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Nhà hàng ở bên phải trường.",
+      "answers": [
+        "饭店在学校右边。",
+        "饭店在学校右边",
+        "饭店在学校右边."
+      ],
+      "points": 2,
+      "explanation": "参考句子：饭店在学校右边。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n走 / 请 / 往前",
+      "pinyin": "zǒu / qǐng / wǎng qián",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy đi về phía trước.",
+      "answers": [
+        "请往前走。",
+        "请往前走",
+        "请往前走."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请往前走。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n后面 / 超市 / 在",
+      "pinyin": "hòu miàn / chāo shì / zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Siêu thị ở phía sau.",
+      "answers": [
+        "超市在后面。",
+        "超市在后面",
+        "超市在后面."
+      ],
+      "points": 2,
+      "explanation": "参考句子：超市在后面。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很远 / 医院 / 离这里",
+      "pinyin": "hěn yuǎn / yī yuàn / lí zhè lǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bệnh viện rất xa đây.",
+      "answers": [
+        "医院离这里很远。",
+        "医院离这里很远",
+        "医院离这里很远."
+      ],
+      "points": 2,
+      "explanation": "参考句子：医院离这里很远。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我家 / 很近 / 离车站",
+      "pinyin": "wǒ jiā / hěn jìn / lí chē zhàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Nhà tôi rất gần bến xe.",
+      "answers": [
+        "我家离车站很近。",
+        "我家离车站很近",
+        "我家离车站很近."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我家离车站很近。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n走 / 请 / 一直",
+      "pinyin": "zǒu / qǐng / yì zhí",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy đi thẳng.",
+      "answers": [
+        "请一直走。",
+        "请一直走",
+        "请一直走."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请一直走。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我们 / 路口见 / 在",
+      "pinyin": "wǒ men / lù kǒu jiàn / zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng ta gặp nhau ở ngã đường.",
+      "answers": [
+        "我们在路口见。",
+        "我们在路口见",
+        "我们在路口见."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们在路口见。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n在学校的对面 / 商店",
+      "pinyin": "zài xué xiào de duì miàn / shāng diàn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cửa hàng ở đối diện trường.",
+      "answers": [
+        "商店在学校的对面。",
+        "商店在学校的对面",
+        "商店在学校的对面."
+      ],
+      "points": 2,
+      "explanation": "参考句子：商店在学校的对面。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n去银行 / 怎么 / 你",
+      "pinyin": "qù yín háng / zěn me / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn đến ngân hàng bằng cách nào?",
+      "answers": [
+        "你怎么去银行？",
+        "你怎么去银行",
+        "你怎么去银行?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你怎么去银行？"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n要去 / 医院 / 我",
+      "pinyin": "yào qù / yī yuàn / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn đến bệnh viện.",
+      "answers": [
+        "我要去医院。",
+        "我要去医院",
+        "我要去医院."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我要去医院。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n五分钟 / 从这里到学校 / 要",
+      "pinyin": "wǔ fēn zhōng / cóng zhè lǐ dào xué xiào / yào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Từ đây đến trường mất năm phút.",
+      "answers": [
+        "从这里到学校要五分钟。",
+        "从这里到学校要五分钟",
+        "从这里到学校要五分钟."
+      ],
+      "points": 2,
+      "explanation": "参考句子：从这里到学校要五分钟。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请问 / 在哪里 / 洗手间",
+      "pinyin": "qǐng wèn / zài nǎ lǐ / xǐ shǒu jiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Xin hỏi, nhà vệ sinh ở đâu?",
+      "answers": [
+        "请问洗手间在哪里？",
+        "请问洗手间在哪里",
+        "请问洗手间在哪里?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：请问洗手间在哪里？"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n去车站的路吗 / 知道 / 你",
+      "pinyin": "qù chē zhàn de lù ma / zhī dào / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn có biết đường đến bến xe không?",
+      "answers": [
+        "你知道去车站的路吗？",
+        "你知道去车站的路吗",
+        "你知道去车站的路吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你知道去车站的路吗？"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n到前面的路口 / 走 / 向左",
+      "pinyin": "dào qián miàn de lù kǒu / zǒu / xiàng zuǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Đến ngã đường phía trước rồi đi về bên trái.",
+      "answers": [
+        "到前面的路口向左走。",
+        "到前面的路口向左走",
+        "到前面的路口向左走."
+      ],
+      "points": 2,
+      "explanation": "参考句子：到前面的路口向左走。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n那家商店旁边 / 就在 / 学校",
+      "pinyin": "nà jiā shāng diàn páng biān / jiù zài / xué xiào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Trường học ở ngay bên cạnh cửa hàng kia.",
+      "answers": [
+        "学校就在那家商店旁边。",
+        "学校就在那家商店旁边",
+        "学校就在那家商店旁边."
+      ],
+      "points": 2,
+      "explanation": "参考句子：学校就在那家商店旁边。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n走路 / 我们 / 去公园吧",
+      "pinyin": "zǒu lù / wǒ men / qù gōng yuán ba",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chúng ta đi bộ đến công viên nhé.",
+      "answers": [
+        "我们走路去公园吧。",
+        "我们走路去公园吧",
+        "我们走路去公园吧."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们走路去公园吧。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n怎么走 / 告诉我 / 谢谢你",
+      "pinyin": "zěn me zǒu / gào su wǒ / xiè xie nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cảm ơn bạn đã chỉ cho tôi cách đi.",
+      "answers": [
+        "谢谢你告诉我怎么走。",
+        "谢谢你告诉我怎么走",
+        "谢谢你告诉我怎么走."
+      ],
+      "points": 2,
+      "explanation": "参考句子：谢谢你告诉我怎么走。"
+    }
+  ]
+}

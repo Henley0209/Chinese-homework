@@ -1,0 +1,968 @@
+{
+  "title": "HSK1-2 第16课 我要一杯茶",
+  "description": "Tôi muốn một cốc trà；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“水”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shuǐ",
+        "B": "shuí",
+        "C": "shuì",
+        "D": "shuī"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“水”的正确读音是 shuǐ。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“茶”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chá",
+        "B": "chā",
+        "C": "chǎ",
+        "D": "chà"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“茶”的正确读音是 chá。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“咖啡”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "ká fēi",
+        "B": "kā fēi",
+        "C": "kǎ fēi",
+        "D": "kà fēi"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“咖啡”的正确读音是 kā fēi。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“牛奶”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "niù nǎi",
+        "B": "niú nǎi",
+        "C": "niǔ nǎi",
+        "D": "niū nǎi"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“牛奶”的正确读音是 niú nǎi。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“果汁”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "guǒ zhī",
+        "B": "guō zhī",
+        "C": "guò zhī",
+        "D": "guó zhī"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“果汁”的正确读音是 guǒ zhī。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“杯”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "béi",
+        "B": "bēi",
+        "C": "bèi",
+        "D": "běi"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“杯”的正确读音是 bēi。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“瓶”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "pīng",
+        "B": "pìng",
+        "C": "píng",
+        "D": "pǐng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“瓶”的正确读音是 píng。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“喝”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "hé",
+        "B": "hē",
+        "C": "hè",
+        "D": "hě"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“喝”的正确读音是 hē。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“渴”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "kè",
+        "B": "kě",
+        "C": "ké",
+        "D": "kē"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“渴”的正确读音是 kě。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“热”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "rě",
+        "B": "rè",
+        "C": "rē",
+        "D": "ré"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“热”的正确读音是 rè。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“冷”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "lēng",
+        "B": "léng",
+        "C": "lèng",
+        "D": "lěng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“冷”的正确读音是 lěng。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“甜”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "tián",
+        "B": "tiǎn",
+        "C": "tiàn",
+        "D": "tiān"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“甜”的正确读音是 tián。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“糖”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "tāng",
+        "B": "tǎng",
+        "C": "táng",
+        "D": "tàng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“糖”的正确读音是 táng。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“冰”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "bìng",
+        "B": "bǐng",
+        "C": "bíng",
+        "D": "bīng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“冰”的正确读音是 bīng。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“两”的正确读音。",
+      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "liǎng",
+        "B": "liáng",
+        "C": "liāng",
+        "D": "liàng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“两”的正确读音是 liǎng。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我想喝____。",
+      "pinyin": "wǒ xiǎng hē ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn uống nước.",
+      "options": {
+        "A": "牛奶",
+        "B": "渴",
+        "C": "水",
+        "D": "瓶"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“水”。完整句子：我想喝水。",
+      "optionPinyin": {
+        "A": "niú nǎi",
+        "B": "kě",
+        "C": "shuǐ",
+        "D": "píng"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：爸爸喜欢喝____。",
+      "pinyin": "bà ba xǐ huan hē ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bố thích uống trà.",
+      "options": {
+        "A": "茶",
+        "B": "冷",
+        "C": "渴",
+        "D": "牛奶"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“茶”。完整句子：爸爸喜欢喝茶。",
+      "optionPinyin": {
+        "A": "chá",
+        "B": "lěng",
+        "C": "kě",
+        "D": "niú nǎi"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我要一杯____。",
+      "pinyin": "wǒ yào yī bēi ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn một cốc cà phê.",
+      "options": {
+        "A": "两",
+        "B": "冰",
+        "C": "咖啡",
+        "D": "热"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“咖啡”。完整句子：我要一杯咖啡。",
+      "optionPinyin": {
+        "A": "liǎng",
+        "B": "bīng",
+        "C": "kā fēi",
+        "D": "rè"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：妹妹早上喝____。",
+      "pinyin": "mèi mei zǎo shang hē ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Em gái uống sữa vào buổi sáng.",
+      "options": {
+        "A": "茶",
+        "B": "咖啡",
+        "C": "糖",
+        "D": "牛奶"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“牛奶”。完整句子：妹妹早上喝牛奶。",
+      "optionPinyin": {
+        "A": "chá",
+        "B": "kā fēi",
+        "C": "táng",
+        "D": "niú nǎi"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：他喜欢喝____。",
+      "pinyin": "tā xǐ huan hē ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy thích uống nước trái cây.",
+      "options": {
+        "A": "冰",
+        "B": "杯",
+        "C": "甜",
+        "D": "果汁"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“果汁”。完整句子：他喜欢喝果汁。",
+      "optionPinyin": {
+        "A": "bīng",
+        "B": "bēi",
+        "C": "tián",
+        "D": "guǒ zhī"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请给我一____水。",
+      "pinyin": "qǐng gěi wǒ yī ____ shuǐ 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy cho tôi một cốc nước.",
+      "options": {
+        "A": "冷",
+        "B": "渴",
+        "C": "杯",
+        "D": "热"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“杯”。完整句子：请给我一杯水。",
+      "optionPinyin": {
+        "A": "lěng",
+        "B": "kě",
+        "C": "bēi",
+        "D": "rè"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这____水是我的。",
+      "pinyin": "zhè ____ shuǐ shì wǒ de 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chai nước này là của tôi.",
+      "options": {
+        "A": "咖啡",
+        "B": "果汁",
+        "C": "瓶",
+        "D": "冷"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“瓶”。完整句子：这瓶水是我的。",
+      "optionPinyin": {
+        "A": "kā fēi",
+        "B": "guǒ zhī",
+        "C": "píng",
+        "D": "lěng"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我不想____咖啡。",
+      "pinyin": "wǒ bù xiǎng ____ kā fēi 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi không muốn uống cà phê.",
+      "options": {
+        "A": "糖",
+        "B": "牛奶",
+        "C": "冰",
+        "D": "喝"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“喝”。完整句子：我不想喝咖啡。",
+      "optionPinyin": {
+        "A": "táng",
+        "B": "niú nǎi",
+        "C": "bīng",
+        "D": "hē"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：今天太热，我很____。",
+      "pinyin": "jīn tiān tài rè ， wǒ hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay nóng quá, tôi rất khát.",
+      "options": {
+        "A": "杯",
+        "B": "瓶",
+        "C": "冰",
+        "D": "渴"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“渴”。完整句子：今天太热，我很渴。",
+      "optionPinyin": {
+        "A": "bēi",
+        "B": "píng",
+        "C": "bīng",
+        "D": "kě"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这杯水很____。",
+      "pinyin": "zhè bēi shuǐ hěn ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cốc nước này rất nóng.",
+      "options": {
+        "A": "热",
+        "B": "甜",
+        "C": "果汁",
+        "D": "牛奶"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“热”。完整句子：这杯水很热。",
+      "optionPinyin": {
+        "A": "rè",
+        "B": "tián",
+        "C": "guǒ zhī",
+        "D": "niú nǎi"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我想喝____水。",
+      "pinyin": "wǒ xiǎng hē ____ shuǐ 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn uống nước lạnh.",
+      "options": {
+        "A": "糖",
+        "B": "咖啡",
+        "C": "冷",
+        "D": "茶"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“冷”。完整句子：我想喝冷水。",
+      "optionPinyin": {
+        "A": "táng",
+        "B": "kā fēi",
+        "C": "lěng",
+        "D": "chá"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：这杯茶太____了。",
+      "pinyin": "zhè bēi chá tài ____ le 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cốc trà này ngọt quá.",
+      "options": {
+        "A": "冰",
+        "B": "牛奶",
+        "C": "渴",
+        "D": "甜"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“甜”。完整句子：这杯茶太甜了。",
+      "optionPinyin": {
+        "A": "bīng",
+        "B": "niú nǎi",
+        "C": "kě",
+        "D": "tián"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：我的咖啡不加____。",
+      "pinyin": "wǒ de kā fēi bù jiā ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cà phê của tôi không thêm đường.",
+      "options": {
+        "A": "茶",
+        "B": "冰",
+        "C": "糖",
+        "D": "渴"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“糖”。完整句子：我的咖啡不加糖。",
+      "optionPinyin": {
+        "A": "chá",
+        "B": "bīng",
+        "C": "táng",
+        "D": "kě"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：杯子里没有____。",
+      "pinyin": "bēi zi lǐ méi yǒu ____。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Trong cốc không có đá.",
+      "options": {
+        "A": "热",
+        "B": "两",
+        "C": "冰",
+        "D": "糖"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“冰”。完整句子：杯子里没有冰。",
+      "optionPinyin": {
+        "A": "rè",
+        "B": "liǎng",
+        "C": "bīng",
+        "D": "táng"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语提示选择正确词语：请给我____杯茶。",
+      "pinyin": "qǐng gěi wǒ ____ bēi chá 。",
+      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy cho tôi hai cốc trà.",
+      "options": {
+        "A": "水",
+        "B": "喝",
+        "C": "冷",
+        "D": "两"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“两”。完整句子：请给我两杯茶。",
+      "optionPinyin": {
+        "A": "shuǐ",
+        "B": "hē",
+        "C": "lěng",
+        "D": "liǎng"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n想 / 喝水 / 我",
+      "pinyin": "xiǎng / hē shuǐ / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn uống nước.",
+      "answers": [
+        "我想喝水。",
+        "我想喝水",
+        "我想喝水."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想喝水。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喝茶 / 喜欢 / 爸爸",
+      "pinyin": "hē chá / xǐ huan / bà ba",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bố thích uống trà.",
+      "answers": [
+        "爸爸喜欢喝茶。",
+        "爸爸喜欢喝茶",
+        "爸爸喜欢喝茶."
+      ],
+      "points": 2,
+      "explanation": "参考句子：爸爸喜欢喝茶。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n一杯咖啡 / 我要",
+      "pinyin": "yī bēi kā fēi / wǒ yào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn một cốc cà phê.",
+      "answers": [
+        "我要一杯咖啡。",
+        "我要一杯咖啡",
+        "我要一杯咖啡."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我要一杯咖啡。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n早上 / 喝牛奶 / 妹妹",
+      "pinyin": "zǎo shang / hē niú nǎi / mèi mei",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Em gái uống sữa vào buổi sáng.",
+      "answers": [
+        "妹妹早上喝牛奶。",
+        "妹妹早上喝牛奶",
+        "早上妹妹喝牛奶",
+        "妹妹早上喝牛奶."
+      ],
+      "points": 2,
+      "explanation": "参考句子：妹妹早上喝牛奶。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喜欢 / 他 / 喝果汁",
+      "pinyin": "xǐ huan / tā / hē guǒ zhī",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Anh ấy thích uống nước trái cây.",
+      "answers": [
+        "他喜欢喝果汁。",
+        "他喜欢喝果汁",
+        "他喜欢喝果汁."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他喜欢喝果汁。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请 / 一杯水 / 给我",
+      "pinyin": "qǐng / yī bēi shuǐ / gěi wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy cho tôi một cốc nước.",
+      "answers": [
+        "请给我一杯水。",
+        "请给我一杯水",
+        "请给我一杯水."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请给我一杯水。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n这瓶 / 是我的 / 水",
+      "pinyin": "zhè píng / shì wǒ de / shuǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Chai nước này là của tôi.",
+      "answers": [
+        "这瓶水是我的。",
+        "这瓶水是我的",
+        "这瓶水是我的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这瓶水是我的。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不想 / 我 / 喝 / 咖啡",
+      "pinyin": "bù xiǎng / wǒ / hē / kā fēi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi không muốn uống cà phê.",
+      "answers": [
+        "我不想喝咖啡。",
+        "我不想喝咖啡",
+        "我不想喝咖啡."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我不想喝咖啡。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n我很渴 / 今天 / 太热",
+      "pinyin": "wǒ hěn kě / jīn tiān / tài rè",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hôm nay nóng quá, tôi rất khát.",
+      "answers": [
+        "今天太热，我很渴。",
+        "今天太热我很渴",
+        "今天太热,我很渴."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天太热，我很渴。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n很热 / 这杯水",
+      "pinyin": "hěn rè / zhè bēi shuǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cốc nước này rất nóng.",
+      "answers": [
+        "这杯水很热。",
+        "这杯水很热",
+        "这杯水很热."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这杯水很热。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n想喝 / 我 / 冷水",
+      "pinyin": "xiǎng hē / wǒ / lěng shuǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn uống nước lạnh.",
+      "answers": [
+        "我想喝冷水。",
+        "我想喝冷水",
+        "我想喝冷水."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想喝冷水。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n太甜了 / 这杯茶",
+      "pinyin": "tài tián le / zhè bēi chá",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cốc trà này ngọt quá.",
+      "answers": [
+        "这杯茶太甜了。",
+        "这杯茶太甜了",
+        "这杯茶太甜了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这杯茶太甜了。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不加糖 / 我的咖啡",
+      "pinyin": "bù jiā táng / wǒ de kā fēi",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cà phê của tôi không thêm đường.",
+      "answers": [
+        "我的咖啡不加糖。",
+        "我的咖啡不加糖",
+        "我的咖啡不加糖."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我的咖啡不加糖。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n没有 / 冰 / 杯子里",
+      "pinyin": "méi yǒu / bīng / bēi zi lǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Trong cốc không có đá.",
+      "answers": [
+        "杯子里没有冰。",
+        "杯子里没有冰",
+        "杯子里没有冰."
+      ],
+      "points": 2,
+      "explanation": "参考句子：杯子里没有冰。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n请 / 两杯茶 / 给我",
+      "pinyin": "qǐng / liǎng bēi chá / gěi wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Hãy cho tôi hai cốc trà.",
+      "answers": [
+        "请给我两杯茶。",
+        "请给我两杯茶",
+        "请给我两杯茶."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请给我两杯茶。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n热水还是冷水 / 想喝 / 你",
+      "pinyin": "rè shuǐ hái shi lěng shuǐ / xiǎng hē / nǐ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Bạn muốn uống nước nóng hay nước lạnh?",
+      "answers": [
+        "你想喝热水还是冷水？",
+        "你想喝热水还是冷水",
+        "你想喝热水还是冷水?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你想喝热水还是冷水？"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n喝很多水 / 每天 / 我",
+      "pinyin": "hē hěn duō shuǐ / měi tiān / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi uống nhiều nước mỗi ngày.",
+      "answers": [
+        "我每天喝很多水。",
+        "我每天喝很多水",
+        "我每天喝很多水."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我每天喝很多水。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n给你的 / 这杯咖啡 / 是",
+      "pinyin": "gěi nǐ de / zhè bēi kā fēi / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Cốc cà phê này dành cho bạn.",
+      "answers": [
+        "这杯咖啡是给你的。",
+        "这杯咖啡是给你的",
+        "这杯咖啡是给你的."
+      ],
+      "points": 2,
+      "explanation": "参考句子：这杯咖啡是给你的。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n三瓶牛奶 / 有 / 桌子上",
+      "pinyin": "sān píng niú nǎi / yǒu / zhuō zi shàng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Trên bàn có ba chai sữa.",
+      "answers": [
+        "桌子上有三瓶牛奶。",
+        "桌子上有三瓶牛奶",
+        "桌子上有三瓶牛奶."
+      ],
+      "points": 2,
+      "explanation": "参考句子：桌子上有三瓶牛奶。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】按越南语提示排列词语，输入完整句子（不用斜线，不在汉字之间加空格）：\n不要糖 / 一杯茶 / 我要",
+      "pinyin": "bú yào táng / yī bēi chá / wǒ yào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh theo nghĩa tiếng Việt: Tôi muốn một cốc trà không đường.",
+      "answers": [
+        "我要一杯茶不要糖。",
+        "我要一杯茶不要糖",
+        "我要一杯茶不要糖."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我要一杯茶不要糖。"
+    }
+  ]
+}

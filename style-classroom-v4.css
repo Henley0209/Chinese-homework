@@ -29,3 +29,13 @@ header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22p
 .has-hero-image .hero{background:#fff}
 .hero-background{opacity:var(--photo-opacity,1)}
 .has-hero-image .hero::before{background:rgba(255,255,255,var(--overlay-opacity,.55))}
+
+/* Keep photo, hints and assignment in separate normal-flow blocks. */
+.brand-name-link{color:inherit;text-decoration:none}
+.brand-website{display:block;font-size:15px;line-height:1.5;font-weight:500;margin-top:8px;overflow-wrap:anywhere;text-decoration:underline;text-underline-offset:3px}
+.hero-hints{display:flex;flex-wrap:wrap;gap:12px 24px;padding:18px 4px;margin:0 0 16px;color:var(--blue);font-size:13px}
+.has-hero-image .hero{display:grid;grid-template-columns:minmax(0,1fr);padding:0;min-height:0;margin-bottom:0}
+.has-hero-image .hero-background{position:relative;inset:auto;grid-area:1/1;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;z-index:0;align-self:stretch}
+.has-hero-image .hero::before{z-index:1;pointer-events:none}
+.has-hero-image .hero>div:first-of-type{grid-area:1/1;z-index:2;align-self:center;padding:clamp(20px,4vw,40px);width:100%;max-width:660px}
+@media(max-width:650px){.brand-website{font-size:14px}.hero-hints{font-size:12px;gap:10px;padding:14px 2px}.has-hero-image .hero-background{aspect-ratio:4/3}}

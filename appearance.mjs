@@ -9,10 +9,10 @@ export function validateAppearance(value){
  for(const k of ['illustration','compact'])if(k in value){if(typeof value[k]!=='boolean')throw Error('开关格式无效');out[k]=value[k];}
  return out;
 }
-export function applyAppearance(value){const c=validateAppearance(value),s=document.documentElement.style;
+export function applyAppearance(value,target=document){const c=validateAppearance(value),s=target.documentElement.style;
  for(const [k,v] of Object.entries({'--blue':c.primary,'--page-background':c.background,'--body-size':c.fontSize+'px','--title-size':c.titleSize+'px'}))s.setProperty(k,v);
- for(const [selector,key] of [['#brand-name','brand'],['.hero h1','heading'],['#welcome-zh','welcome'],['#welcome-vi','vietnamese'],['#start','button'],['#footer-text','footer']]){const n=document.querySelector(selector);if(n)n.textContent=c[key];}
- document.title=c.brand+' · 在线作业';document.body.classList.toggle('single-fields',c.layout==='one');document.body.classList.toggle('compact-hero',c.compact);document.body.classList.toggle('no-illustration',!c.illustration);return c;
+ for(const [selector,key] of [['#brand-name','brand'],['.hero h1','heading'],['#welcome-zh','welcome'],['#welcome-vi','vietnamese'],['#start','button'],['#footer-text','footer']]){const n=target.querySelector(selector);if(n)n.textContent=c[key];}
+ target.title=c.brand+' · 在线作业';target.body.classList.toggle('single-fields',c.layout==='one');target.body.classList.toggle('compact-hero',c.compact);target.body.classList.toggle('no-illustration',!c.illustration);return c;
 }
 if(typeof document!=='undefined'&&document.body.dataset.page!=='editor'){
  // Only the editor's same-origin parent may send temporary preview changes.

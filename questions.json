@@ -1,0 +1,248 @@
+{
+  "title": "第一课 · 你好，中文！",
+  "description": "问候、数字与自我介绍",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "text": "“你好”的越南语意思是？",
+      "pinyin": "Nǐ hǎo",
+      "vietnamese": "Chọn nghĩa đúng.",
+      "options": {
+        "A": "Xin chào",
+        "B": "Cảm ơn",
+        "C": "Tạm biệt",
+        "D": "Xin lỗi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "正确答案：Xin chào"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "text": "“谢谢”的拼音是？",
+      "pinyin": "谢谢",
+      "vietnamese": "Chọn phiên âm đúng.",
+      "options": {
+        "A": "nǐ hǎo",
+        "B": "zài jiàn",
+        "C": "xiè xie",
+        "D": "lǎo shī"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "正确答案：xiè xie"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "text": "我 ___ 越南人。",
+      "pinyin": "Wǒ ___ Yuènán rén.",
+      "vietnamese": "Tôi là người Việt Nam.",
+      "options": {
+        "A": "有",
+        "B": "是",
+        "C": "在",
+        "D": "去"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "正确答案：是"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "text": "“老师”的越南语意思是？",
+      "pinyin": "Lǎo shī",
+      "vietnamese": "Chọn nghĩa đúng.",
+      "options": {
+        "A": "Học sinh",
+        "B": "Bạn bè",
+        "C": "Bác sĩ",
+        "D": "Giáo viên"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "正确答案：Giáo viên"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "text": "“三”的意思是？",
+      "pinyin": "Sān",
+      "vietnamese": "Chọn số đúng.",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "正确答案：3"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "text": "你 ___ 什么名字？",
+      "pinyin": "Nǐ ___ shén me míng zi?",
+      "vietnamese": "Bạn tên là gì?",
+      "options": {
+        "A": "叫",
+        "B": "喝",
+        "C": "吃",
+        "D": "看"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "正确答案：叫"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "text": "“再见”的越南语意思是？",
+      "pinyin": "Zài jiàn",
+      "vietnamese": "Chọn nghĩa đúng.",
+      "options": {
+        "A": "Xin chào",
+        "B": "Tạm biệt",
+        "C": "Cảm ơn",
+        "D": "Không sao"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "正确答案：Tạm biệt"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "text": "我喜欢喝 ___。",
+      "pinyin": "Wǒ xǐ huan hē ___.",
+      "vietnamese": "Tôi thích uống trà.",
+      "options": {
+        "A": "书",
+        "B": "饭",
+        "C": "茶",
+        "D": "人"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "正确答案：茶"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "text": "“今天”的越南语意思是？",
+      "pinyin": "Jīn tiān",
+      "vietnamese": "Chọn nghĩa đúng.",
+      "options": {
+        "A": "Hôm qua",
+        "B": "Ngày mai",
+        "C": "Tuần sau",
+        "D": "Hôm nay"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "正确答案：Hôm nay"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "text": "“学生”的拼音是？",
+      "pinyin": "学生",
+      "vietnamese": "Chọn phiên âm đúng.",
+      "options": {
+        "A": "xué sheng",
+        "B": "lǎo shī",
+        "C": "péng you",
+        "D": "míng zi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "正确答案：xué sheng"
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "text": "你 ___！",
+      "pinyin": "Nǐ ___!",
+      "vietnamese": "Xin chào!",
+      "answers": [
+        "好"
+      ],
+      "points": 10,
+      "explanation": "“你好”是见面时常用的问候语。"
+    },
+    {
+      "id": 12,
+      "type": "fill",
+      "text": "谢 ___！",
+      "pinyin": "Xiè ___!",
+      "vietnamese": "Cảm ơn!",
+      "answers": [
+        "谢"
+      ],
+      "points": 10,
+      "explanation": "“谢谢”用来表达感谢。"
+    },
+    {
+      "id": 13,
+      "type": "fill",
+      "text": "我 ___ 学生。",
+      "pinyin": "Wǒ ___ xué sheng.",
+      "vietnamese": "Tôi là học sinh.",
+      "answers": [
+        "是"
+      ],
+      "points": 10,
+      "explanation": "“是”用来说明身份。"
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "text": "一、二、___。",
+      "pinyin": "Yī, èr, ___.",
+      "vietnamese": "Một, hai, ba.",
+      "answers": [
+        "三",
+        "3"
+      ],
+      "points": 10,
+      "explanation": "“三”表示数字3。"
+    },
+    {
+      "id": 15,
+      "type": "fill",
+      "text": "我爱学 ___。",
+      "pinyin": "Wǒ ài xué ___.",
+      "vietnamese": "Tôi thích học tiếng Trung.",
+      "answers": [
+        "中文",
+        "汉语"
+      ],
+      "points": 10,
+      "explanation": "“中文”和“汉语”都可以表示 tiếng Trung。"
+    }
+  ]
+}

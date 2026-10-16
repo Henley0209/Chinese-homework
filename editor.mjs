@@ -1,11 +1,16 @@
-import {defaults,validateAppearance} from './appearance.mjs';
-const form=document.querySelector('#settings'),frame=document.querySelector('#preview'),status=document.querySelector('#status'),key='qinglan-appearance-draft-v1';let config={...defaults},ready=false;
+import {defaults,validateAppearance,applyAppearance} from './appearance.mjs?v=preview-fix-2';
+const form=document.querySelector('#settings'),frame=document.querySelector('#preview'),status=document.querySelector('#status'),key='qinglan-appearance-draft-v1';let config={...defaults};
 function show(t){status.textContent=t;}
-function send(){if(ready)frame.contentWindow.postMessage({type:'appearance-preview',config},location.origin);}
+function send(){
+ // Apply directly to the same-origin preview, independent of ready-message timing.
+ try{const doc=frame.contentDocument;if(doc?.querySelector('.hero'))applyAppearance(config,doc);}catch{}
+ frame.contentWindow?.postMessage({type:'appearance-preview',config},location.origin);
+}
+frame.addEventListener('load',send);
 function populate(c){config=validateAppearance(c);for(const [k,v]of Object.entries(config)){const input=form.elements.namedItem(k);if(input.type==='checkbox')input.checked=v;else input.value=v;}labels();send();}
 function labels(){document.querySelector('#font-value').textContent=config.fontSize+'px';document.querySelector('#title-value').textContent=config.titleSize+'px';}
 function read(){const c={};for(const [k,v]of Object.entries(defaults)){const input=form.elements.namedItem(k);c[k]=typeof v==='boolean'?input.checked:typeof v==='number'?Number(input.value):input.value;}return validateAppearance(c);}
-window.addEventListener('message',e=>{if(e.origin===location.origin&&e.source===frame.contentWindow&&e.data?.type==='appearance-ready'){ready=true;send();}});
+window.addEventListener('message',e=>{if(e.origin===location.origin&&e.source===frame.contentWindow&&e.data?.type==='appearance-ready'){send();}});
 form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',()=>{try{config=read();labels();send();show('正在预览修改，尚未保存或发布。');}catch(e){show(e.message);}});
 async function published(){const r=await fetch('./site-config.json',{cache:'no-store'});if(!r.ok)throw Error('暂时无法读取网站配置，请稍后重试。');return validateAppearance(await r.json());}
 document.querySelector('#save').onclick=()=>{try{config=read();localStorage.setItem(key,JSON.stringify(config));show('本机草稿已保存。学生页面尚未改变。');}catch(e){show('保存失败：'+e.message);}};

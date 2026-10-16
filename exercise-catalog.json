@@ -1,0 +1,1196 @@
+{
+  "version": 1,
+  "exercises": [
+    {
+      "id": "intro-1",
+      "bank": "intro",
+      "exercise": {
+        "title": "第一课 · 你好，中文！",
+        "description": "问候、数字与自我介绍",
+        "questions": [
+          {
+            "id": 1,
+            "type": "choice",
+            "text": "“你好”的越南语意思是？",
+            "pinyin": "Nǐ hǎo",
+            "vietnamese": "Chọn nghĩa đúng.",
+            "options": {
+              "A": "Xin chào",
+              "B": "Cảm ơn",
+              "C": "Tạm biệt",
+              "D": "Xin lỗi"
+            },
+            "answers": [
+              "A"
+            ],
+            "points": 5,
+            "explanation": "正确答案：Xin chào"
+          },
+          {
+            "id": 2,
+            "type": "choice",
+            "text": "“谢谢”的拼音是？",
+            "pinyin": "谢谢",
+            "vietnamese": "Chọn phiên âm đúng.",
+            "options": {
+              "A": "nǐ hǎo",
+              "B": "zài jiàn",
+              "C": "xiè xie",
+              "D": "lǎo shī"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 5,
+            "explanation": "正确答案：xiè xie"
+          },
+          {
+            "id": 3,
+            "type": "choice",
+            "text": "我 ___ 越南人。",
+            "pinyin": "Wǒ ___ Yuènán rén.",
+            "vietnamese": "Tôi là người Việt Nam.",
+            "options": {
+              "A": "有",
+              "B": "是",
+              "C": "在",
+              "D": "去"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 5,
+            "explanation": "正确答案：是"
+          },
+          {
+            "id": 4,
+            "type": "choice",
+            "text": "“老师”的越南语意思是？",
+            "pinyin": "Lǎo shī",
+            "vietnamese": "Chọn nghĩa đúng.",
+            "options": {
+              "A": "Học sinh",
+              "B": "Bạn bè",
+              "C": "Bác sĩ",
+              "D": "Giáo viên"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 5,
+            "explanation": "正确答案：Giáo viên"
+          },
+          {
+            "id": 5,
+            "type": "choice",
+            "text": "“三”的意思是？",
+            "pinyin": "Sān",
+            "vietnamese": "Chọn số đúng.",
+            "options": {
+              "A": "1",
+              "B": "2",
+              "C": "3",
+              "D": "4"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 5,
+            "explanation": "正确答案：3"
+          },
+          {
+            "id": 6,
+            "type": "choice",
+            "text": "你 ___ 什么名字？",
+            "pinyin": "Nǐ ___ shén me míng zi?",
+            "vietnamese": "Bạn tên là gì?",
+            "options": {
+              "A": "叫",
+              "B": "喝",
+              "C": "吃",
+              "D": "看"
+            },
+            "answers": [
+              "A"
+            ],
+            "points": 5,
+            "explanation": "正确答案：叫"
+          },
+          {
+            "id": 7,
+            "type": "choice",
+            "text": "“再见”的越南语意思是？",
+            "pinyin": "Zài jiàn",
+            "vietnamese": "Chọn nghĩa đúng.",
+            "options": {
+              "A": "Xin chào",
+              "B": "Tạm biệt",
+              "C": "Cảm ơn",
+              "D": "Không sao"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 5,
+            "explanation": "正确答案：Tạm biệt"
+          },
+          {
+            "id": 8,
+            "type": "choice",
+            "text": "我喜欢喝 ___。",
+            "pinyin": "Wǒ xǐ huan hē ___.",
+            "vietnamese": "Tôi thích uống trà.",
+            "options": {
+              "A": "书",
+              "B": "饭",
+              "C": "茶",
+              "D": "人"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 5,
+            "explanation": "正确答案：茶"
+          },
+          {
+            "id": 9,
+            "type": "choice",
+            "text": "“今天”的越南语意思是？",
+            "pinyin": "Jīn tiān",
+            "vietnamese": "Chọn nghĩa đúng.",
+            "options": {
+              "A": "Hôm qua",
+              "B": "Ngày mai",
+              "C": "Tuần sau",
+              "D": "Hôm nay"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 5,
+            "explanation": "正确答案：Hôm nay"
+          },
+          {
+            "id": 10,
+            "type": "choice",
+            "text": "“学生”的拼音是？",
+            "pinyin": "学生",
+            "vietnamese": "Chọn phiên âm đúng.",
+            "options": {
+              "A": "xué sheng",
+              "B": "lǎo shī",
+              "C": "péng you",
+              "D": "míng zi"
+            },
+            "answers": [
+              "A"
+            ],
+            "points": 5,
+            "explanation": "正确答案：xué sheng"
+          },
+          {
+            "id": 11,
+            "type": "fill",
+            "text": "你 ___！",
+            "pinyin": "Nǐ ___!",
+            "vietnamese": "Xin chào!",
+            "answers": [
+              "好"
+            ],
+            "points": 10,
+            "explanation": "“你好”是见面时常用的问候语。"
+          },
+          {
+            "id": 12,
+            "type": "fill",
+            "text": "谢 ___！",
+            "pinyin": "Xiè ___!",
+            "vietnamese": "Cảm ơn!",
+            "answers": [
+              "谢"
+            ],
+            "points": 10,
+            "explanation": "“谢谢”用来表达感谢。"
+          },
+          {
+            "id": 13,
+            "type": "fill",
+            "text": "我 ___ 学生。",
+            "pinyin": "Wǒ ___ xué sheng.",
+            "vietnamese": "Tôi là học sinh.",
+            "answers": [
+              "是"
+            ],
+            "points": 10,
+            "explanation": "“是”用来说明身份。"
+          },
+          {
+            "id": 14,
+            "type": "fill",
+            "text": "一、二、___。",
+            "pinyin": "Yī, èr, ___.",
+            "vietnamese": "Một, hai, ba.",
+            "answers": [
+              "三",
+              "3"
+            ],
+            "points": 10,
+            "explanation": "“三”表示数字3。"
+          },
+          {
+            "id": 15,
+            "type": "fill",
+            "text": "我爱学 ___。",
+            "pinyin": "Wǒ ài xué ___.",
+            "vietnamese": "Tôi thích học tiếng Trung.",
+            "answers": [
+              "中文",
+              "汉语"
+            ],
+            "points": 10,
+            "explanation": "“中文”和“汉语”都可以表示 tiếng Trung。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hsk1-2-1",
+      "bank": "hsk1-2",
+      "exercise": {
+        "title": "HSK1-2 · 演示练习",
+        "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+        "questions": [
+          {
+            "id": 1,
+            "type": "choice",
+            "text": "你___哪国人？",
+            "options": {
+              "A": "是",
+              "B": "有",
+              "C": "在",
+              "D": "去"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Bạn là người nước nào?",
+            "points": 10,
+            "explanation": "“是”说明身份。"
+          },
+          {
+            "id": 2,
+            "type": "choice",
+            "text": "现在八点，我九点上课。我___去学校。",
+            "options": {
+              "A": "昨天",
+              "B": "去年",
+              "C": "一会儿",
+              "D": "已经"
+            },
+            "answers": [
+              "C"
+            ],
+            "vietnamese": "Chọn từ phù hợp với thời gian trong tương lai.",
+            "points": 10,
+            "explanation": "“一会儿”表示过一小段时间。"
+          },
+          {
+            "id": 3,
+            "type": "choice",
+            "text": "这本书___钱？",
+            "options": {
+              "A": "几",
+              "B": "多少",
+              "C": "什么",
+              "D": "谁"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Quyển sách này bao nhiêu tiền?",
+            "points": 10,
+            "explanation": "询问价格用“多少钱”。"
+          },
+          {
+            "id": 4,
+            "type": "choice",
+            "text": "我每天___公共汽车去上班。",
+            "options": {
+              "A": "看",
+              "B": "说",
+              "C": "吃",
+              "D": "坐"
+            },
+            "answers": [
+              "D"
+            ],
+            "vietnamese": "Tôi đi làm bằng xe buýt mỗi ngày.",
+            "points": 10,
+            "explanation": "乘车用“坐公共汽车”。"
+          },
+          {
+            "id": 5,
+            "type": "choice",
+            "text": "他比我___三岁。",
+            "options": {
+              "A": "大",
+              "B": "多",
+              "C": "很",
+              "D": "最"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Anh ấy hơn tôi ba tuổi.",
+            "points": 10,
+            "explanation": "比较年龄用“大三岁”。"
+          },
+          {
+            "id": 6,
+            "type": "choice",
+            "text": "外面下雨了，出门要带___。",
+            "options": {
+              "A": "杯子",
+              "B": "筷子",
+              "C": "雨伞",
+              "D": "报纸"
+            },
+            "answers": [
+              "C"
+            ],
+            "vietnamese": "Trời mưa, ra ngoài cần mang gì?",
+            "points": 10,
+            "explanation": "下雨时用雨伞。"
+          },
+          {
+            "id": 7,
+            "type": "fill",
+            "text": "我___越南学习中文。",
+            "answers": [
+              "在"
+            ],
+            "vietnamese": "Tôi học tiếng Trung ở Việt Nam.",
+            "points": 10,
+            "explanation": "表示地点用“在”。"
+          },
+          {
+            "id": 8,
+            "type": "fill",
+            "text": "昨天我买___一本书。",
+            "answers": [
+              "了"
+            ],
+            "vietnamese": "Hôm qua tôi đã mua một quyển sách.",
+            "points": 10,
+            "explanation": "“了”表示动作已经完成。"
+          },
+          {
+            "id": 9,
+            "type": "fill",
+            "text": "一星期有___天。（用汉字）",
+            "answers": [
+              "七"
+            ],
+            "vietnamese": "Một tuần có bảy ngày.",
+            "points": 10,
+            "explanation": "一星期有七天。"
+          },
+          {
+            "id": 10,
+            "type": "fill",
+            "text": "这本书不是我的，___他的。",
+            "answers": [
+              "是"
+            ],
+            "vietnamese": "Quyển sách này không phải của tôi, mà là của anh ấy.",
+            "points": 10,
+            "explanation": "“不是……，是……”表示判断。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hsk3-1",
+      "bank": "hsk3",
+      "exercise": {
+        "title": "HSK3 · 演示练习",
+        "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+        "questions": [
+          {
+            "id": 1,
+            "type": "choice",
+            "text": "___下雨，我们还是按时到了学校。",
+            "options": {
+              "A": "因为",
+              "B": "虽然",
+              "C": "如果",
+              "D": "为了"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Mặc dù trời mưa, chúng tôi vẫn đến trường đúng giờ.",
+            "points": 10,
+            "explanation": "“虽然……还是……”表示转折。"
+          },
+          {
+            "id": 2,
+            "type": "choice",
+            "text": "我已经把作业___了。",
+            "options": {
+              "A": "看见",
+              "B": "听见",
+              "C": "写完",
+              "D": "出发"
+            },
+            "answers": [
+              "C"
+            ],
+            "vietnamese": "Tôi đã làm xong bài tập.",
+            "points": 10,
+            "explanation": "“写完”说明作业完成。"
+          },
+          {
+            "id": 3,
+            "type": "choice",
+            "text": "他一边听音乐，___做饭。",
+            "options": {
+              "A": "一边",
+              "B": "但是",
+              "C": "所以",
+              "D": "或者"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Anh ấy vừa nghe nhạc vừa nấu ăn.",
+            "points": 10,
+            "explanation": "“一边……一边……”表示同时进行。"
+          },
+          {
+            "id": 4,
+            "type": "choice",
+            "text": "这道题不难，我___五分钟就做完了。",
+            "options": {
+              "A": "从",
+              "B": "对",
+              "C": "比",
+              "D": "用"
+            },
+            "answers": [
+              "D"
+            ],
+            "vietnamese": "Tôi chỉ mất năm phút để làm xong.",
+            "points": 10,
+            "explanation": "“用五分钟”表示花费的时间。"
+          },
+          {
+            "id": 5,
+            "type": "choice",
+            "text": "这件衣服太贵了，有没有___一点儿的？",
+            "options": {
+              "A": "新鲜",
+              "B": "便宜",
+              "C": "安静",
+              "D": "聪明"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Có cái nào rẻ hơn một chút không?",
+            "points": 10,
+            "explanation": "价格高的反义表达是“便宜”。"
+          },
+          {
+            "id": 6,
+            "type": "choice",
+            "text": "飞机快起飞了，我们得___去机场。",
+            "options": {
+              "A": "突然",
+              "B": "特别",
+              "C": "马上",
+              "D": "一直"
+            },
+            "answers": [
+              "C"
+            ],
+            "vietnamese": "Máy bay sắp cất cánh, cần đi ngay.",
+            "points": 10,
+            "explanation": "“马上”表示立刻。"
+          },
+          {
+            "id": 7,
+            "type": "fill",
+            "text": "除了中文___，她还会说英语。",
+            "answers": [
+              "以外",
+              "外"
+            ],
+            "vietnamese": "Ngoài tiếng Trung, cô ấy còn biết tiếng Anh.",
+            "points": 10,
+            "explanation": "常用结构为“除了……以外，还……”。"
+          },
+          {
+            "id": 8,
+            "type": "fill",
+            "text": "这本小说我已经看___了。（表示完成）",
+            "answers": [
+              "完"
+            ],
+            "vietnamese": "Tôi đã đọc xong cuốn tiểu thuyết này.",
+            "points": 10,
+            "explanation": "“完”是表示动作完成的结果补语。"
+          },
+          {
+            "id": 9,
+            "type": "fill",
+            "text": "如果明天不下雨，我们___去公园。",
+            "answers": [
+              "就"
+            ],
+            "vietnamese": "Nếu ngày mai không mưa thì chúng ta đi công viên.",
+            "points": 10,
+            "explanation": "条件句使用“如果……就……”。"
+          },
+          {
+            "id": 10,
+            "type": "fill",
+            "text": "她每天都练习，所以中文___来___好。（两个空填同一个字）",
+            "answers": [
+              "越"
+            ],
+            "vietnamese": "Cô ấy luyện tập mỗi ngày nên tiếng Trung ngày càng tốt.",
+            "points": 10,
+            "explanation": "“越来越好”表示程度不断提高。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hsk4-1",
+      "bank": "hsk4",
+      "exercise": {
+        "title": "HSK4 · 演示练习",
+        "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+        "questions": [
+          {
+            "id": 1,
+            "type": "choice",
+            "text": "___遇到什么困难，他都不会放弃。",
+            "options": {
+              "A": "尽管",
+              "B": "不管",
+              "C": "由于",
+              "D": "既然"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Bất kể gặp khó khăn gì, anh ấy cũng không bỏ cuộc.",
+            "points": 10,
+            "explanation": "“不管……都……”表示无条件。"
+          },
+          {
+            "id": 2,
+            "type": "choice",
+            "text": "与其担心结果，___认真准备。",
+            "options": {
+              "A": "不如",
+              "B": "但是",
+              "C": "而且",
+              "D": "否则"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Thay vì lo lắng kết quả, hãy chuẩn bị kỹ.",
+            "points": 10,
+            "explanation": "选择关系使用“与其……不如……”。"
+          },
+          {
+            "id": 3,
+            "type": "choice",
+            "text": "这份调查的结果与我们的___基本一致。",
+            "options": {
+              "A": "温度",
+              "B": "方向",
+              "C": "预测",
+              "D": "距离"
+            },
+            "answers": [
+              "C"
+            ],
+            "vietnamese": "Kết quả khảo sát gần giống dự đoán của chúng tôi.",
+            "points": 10,
+            "explanation": "“预测”指事先作出的判断。"
+          },
+          {
+            "id": 4,
+            "type": "choice",
+            "text": "请提前确认信息，___影响明天的安排。",
+            "options": {
+              "A": "反而",
+              "B": "甚至",
+              "C": "到底",
+              "D": "以免"
+            },
+            "answers": [
+              "D"
+            ],
+            "vietnamese": "Hãy xác nhận trước để tránh ảnh hưởng lịch ngày mai.",
+            "points": 10,
+            "explanation": "“以免”表示避免不希望的结果。"
+          },
+          {
+            "id": 5,
+            "type": "choice",
+            "text": "这项工作需要团队成员互相___。",
+            "options": {
+              "A": "浪费",
+              "B": "配合",
+              "C": "迟到",
+              "D": "失望"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Công việc này cần các thành viên phối hợp.",
+            "points": 10,
+            "explanation": "“互相配合”表示协作。"
+          },
+          {
+            "id": 6,
+            "type": "choice",
+            "text": "既然你已经决定了，___应该坚持下去。",
+            "options": {
+              "A": "就",
+              "B": "却",
+              "C": "又",
+              "D": "才"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Đã quyết định rồi thì nên kiên trì.",
+            "points": 10,
+            "explanation": "“既然……就……”表示推论。"
+          },
+          {
+            "id": 7,
+            "type": "fill",
+            "text": "他不但完成了任务，___帮助了其他同事。",
+            "answers": [
+              "而且",
+              "还"
+            ],
+            "vietnamese": "Anh ấy không những hoàn thành nhiệm vụ mà còn giúp đồng nghiệp.",
+            "points": 10,
+            "explanation": "“不但……而且……”表示递进，也可用“还”。"
+          },
+          {
+            "id": 8,
+            "type": "fill",
+            "text": "会议原定九点开始，后来被推___到十点。（表示延后）",
+            "answers": [
+              "迟"
+            ],
+            "vietnamese": "Cuộc họp được hoãn từ chín giờ đến mười giờ.",
+            "points": 10,
+            "explanation": "“推迟”表示把时间往后移。"
+          },
+          {
+            "id": 9,
+            "type": "fill",
+            "text": "请把会议时间___知所有同事。（填写一个汉字）",
+            "answers": [
+              "通"
+            ],
+            "vietnamese": "Hãy thông báo thời gian họp cho mọi đồng nghiệp.",
+            "points": 10,
+            "explanation": "“通知”表示传达信息。"
+          },
+          {
+            "id": 10,
+            "type": "fill",
+            "text": "无论任务多么困难，我们___要认真完成。",
+            "answers": [
+              "都"
+            ],
+            "vietnamese": "Dù nhiệm vụ khó đến đâu, chúng ta đều phải hoàn thành nghiêm túc.",
+            "points": 10,
+            "explanation": "“无论……都……”表示条件不影响结果。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hsk5-1",
+      "bank": "hsk5",
+      "exercise": {
+        "title": "HSK5 · 演示练习",
+        "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+        "questions": [
+          {
+            "id": 1,
+            "type": "choice",
+            "text": "这项改革并非一蹴而就，需要___推进。",
+            "options": {
+              "A": "莫名其妙",
+              "B": "循序渐进",
+              "C": "得不偿失",
+              "D": "无独有偶"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Cải cách cần được tiến hành từng bước.",
+            "points": 10,
+            "explanation": "“循序渐进”指按照一定顺序逐步提高。"
+          },
+          {
+            "id": 2,
+            "type": "choice",
+            "text": "面对复杂情况，我们应根据实际需求___调整方案。",
+            "options": {
+              "A": "灵活",
+              "B": "沉重",
+              "C": "拥挤",
+              "D": "锋利"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Cần linh hoạt điều chỉnh phương án theo nhu cầu thực tế.",
+            "points": 10,
+            "explanation": "“灵活调整”表示随情况变化作出适当改变。"
+          },
+          {
+            "id": 3,
+            "type": "choice",
+            "text": "这个方案看似节省成本，___可能增加长期风险。",
+            "options": {
+              "A": "从而",
+              "B": "何况",
+              "C": "实则",
+              "D": "以至"
+            },
+            "answers": [
+              "C"
+            ],
+            "vietnamese": "Phương án tưởng như tiết kiệm nhưng thực tế có thể tăng rủi ro.",
+            "points": 10,
+            "explanation": "“看似……实则……”比较表象与实际。"
+          },
+          {
+            "id": 4,
+            "type": "choice",
+            "text": "他对数据进行了反复___，以确保结论可靠。",
+            "options": {
+              "A": "浏览",
+              "B": "夸张",
+              "C": "推辞",
+              "D": "核实"
+            },
+            "answers": [
+              "D"
+            ],
+            "vietnamese": "Anh ấy kiểm chứng dữ liệu nhiều lần.",
+            "points": 10,
+            "explanation": "“核实”强调查明是否真实、准确。"
+          },
+          {
+            "id": 5,
+            "type": "choice",
+            "text": "阅读：方案虽未立即见效，却为后续合作奠定了基础。由此可知：",
+            "options": {
+              "A": "方案毫无价值",
+              "B": "方案有长期意义",
+              "C": "合作已经结束",
+              "D": "方案已被取消"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Đọc và chọn nhận định phù hợp.",
+            "points": 10,
+            "explanation": "“奠定基础”说明它对未来合作有价值。"
+          },
+          {
+            "id": 6,
+            "type": "choice",
+            "text": "在保障质量的___下，企业应提高生产效率。",
+            "options": {
+              "A": "前提",
+              "B": "背景",
+              "C": "形状",
+              "D": "气氛"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Doanh nghiệp nên tăng hiệu suất với điều kiện bảo đảm chất lượng.",
+            "points": 10,
+            "explanation": "“在……的前提下”表示先决条件。"
+          },
+          {
+            "id": 7,
+            "type": "fill",
+            "text": "我们需要从长___议，不能仓促作出决定。（填写一个汉字）",
+            "answers": [
+              "计"
+            ],
+            "vietnamese": "Cần cân nhắc lâu dài, không quyết định vội.",
+            "points": 10,
+            "explanation": "成语“从长计议”表示慢慢商量、慎重考虑。"
+          },
+          {
+            "id": 8,
+            "type": "fill",
+            "text": "这个结论缺乏充分的证___。（填写一个汉字）",
+            "answers": [
+              "据"
+            ],
+            "vietnamese": "Kết luận này thiếu bằng chứng đầy đủ.",
+            "points": 10,
+            "explanation": "“证据”是证明事实的材料。"
+          },
+          {
+            "id": 9,
+            "type": "fill",
+            "text": "在实施之前，应充分评___潜在风险。（填写一个汉字）",
+            "answers": [
+              "估"
+            ],
+            "vietnamese": "Trước khi thực hiện, cần đánh giá rủi ro tiềm ẩn.",
+            "points": 10,
+            "explanation": "“评估”表示评价、估计。"
+          },
+          {
+            "id": 10,
+            "type": "fill",
+            "text": "双方应通过协___解决分歧。（填写一个汉字）",
+            "answers": [
+              "商"
+            ],
+            "vietnamese": "Hai bên nên giải quyết bất đồng bằng thương lượng.",
+            "points": 10,
+            "explanation": "“协商”表示共同商量。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "daily-1",
+      "bank": "daily",
+      "exercise": {
+        "title": "日常交际 · 演示练习",
+        "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+        "questions": [
+          {
+            "id": 1,
+            "type": "choice",
+            "text": "别人说“谢谢”，你可以回答：",
+            "options": {
+              "A": "不客气",
+              "B": "对不起",
+              "C": "没听懂",
+              "D": "慢走"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Đáp lại lời cảm ơn như thế nào?",
+            "points": 10,
+            "explanation": "“不客气”用于回应感谢。"
+          },
+          {
+            "id": 2,
+            "type": "choice",
+            "text": "你想知道去车站的路线，可以问：",
+            "options": {
+              "A": "你吃了吗？",
+              "B": "请问，车站怎么走？",
+              "C": "这件多少钱？",
+              "D": "你贵姓？"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Bạn muốn hỏi đường đến bến xe.",
+            "points": 10,
+            "explanation": "“怎么走”用来询问路线。"
+          },
+          {
+            "id": 3,
+            "type": "choice",
+            "text": "在餐厅点菜时，哪句话合适？",
+            "options": {
+              "A": "请给我挂号",
+              "B": "我要办理登机",
+              "C": "请给我一份菜单",
+              "D": "请把门锁上"
+            },
+            "answers": [
+              "C"
+            ],
+            "vietnamese": "Chọn câu phù hợp khi gọi món.",
+            "points": 10,
+            "explanation": "餐厅点菜可以先要菜单。"
+          },
+          {
+            "id": 4,
+            "type": "choice",
+            "text": "朋友问“你什么时候方便？”你可以回答：",
+            "options": {
+              "A": "我姓李",
+              "B": "这是一支笔",
+              "C": "在桌子上",
+              "D": "明天下午可以"
+            },
+            "answers": [
+              "D"
+            ],
+            "vietnamese": "Trả lời về thời gian rảnh.",
+            "points": 10,
+            "explanation": "“明天下午”回答时间。"
+          },
+          {
+            "id": 5,
+            "type": "choice",
+            "text": "没听清别人说的话，应该说：",
+            "options": {
+              "A": "请再说一遍，好吗？",
+              "B": "我先点菜",
+              "C": "祝你生日快乐",
+              "D": "欢迎光临"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Bạn chưa nghe rõ lời người khác.",
+            "points": 10,
+            "explanation": "礼貌地请求对方重复。"
+          },
+          {
+            "id": 6,
+            "type": "choice",
+            "text": "买衣服想换大一号，可以说：",
+            "options": {
+              "A": "可以退房吗？",
+              "B": "有大一点儿的吗？",
+              "C": "请问几号登机口？",
+              "D": "我想预约牙医"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Bạn muốn đổi sang cỡ lớn hơn.",
+            "points": 10,
+            "explanation": "“大一点儿”用于询问更大的尺寸。"
+          },
+          {
+            "id": 7,
+            "type": "fill",
+            "text": "打扰别人之前，可以先说：“不好___。”",
+            "answers": [
+              "意思"
+            ],
+            "vietnamese": "Trước khi làm phiền, có thể nói xin lỗi.",
+            "points": 10,
+            "explanation": "“不好意思”是礼貌表达。"
+          },
+          {
+            "id": 8,
+            "type": "fill",
+            "text": "想知道商品的价格，可以问：“这个___钱？”",
+            "answers": [
+              "多少"
+            ],
+            "vietnamese": "Hỏi giá món hàng.",
+            "points": 10,
+            "explanation": "询问价格常用“多少钱”。"
+          },
+          {
+            "id": 9,
+            "type": "fill",
+            "text": "约好三点见面，可以说：“我们三点___。”",
+            "answers": [
+              "见"
+            ],
+            "vietnamese": "Hẹn gặp lúc ba giờ.",
+            "points": 10,
+            "explanation": "“三点见”表示在三点见面。"
+          },
+          {
+            "id": 10,
+            "type": "fill",
+            "text": "结账时，可以说：“服务员，请___。”",
+            "answers": [
+              "结账",
+              "买单"
+            ],
+            "vietnamese": "Bạn muốn thanh toán tại nhà hàng.",
+            "points": 10,
+            "explanation": "“结账”和“买单”都可用于请求付款。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "factory-1",
+      "bank": "factory",
+      "exercise": {
+        "title": "汉语工厂 · 演示练习",
+        "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+        "questions": [
+          {
+            "id": 1,
+            "type": "choice",
+            "text": "进入要求佩戴安全帽的车间，应先：",
+            "options": {
+              "A": "戴好安全帽",
+              "B": "随便拍照",
+              "C": "关闭所有机器",
+              "D": "脱下工作鞋"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Trước khi vào xưởng yêu cầu mũ bảo hộ, cần làm gì?",
+            "points": 10,
+            "explanation": "应遵守车间规定，正确佩戴安全帽。"
+          },
+          {
+            "id": 2,
+            "type": "choice",
+            "text": "“不合格品”的越南语意思是：",
+            "options": {
+              "A": "Hàng đã giao",
+              "B": "Sản phẩm không đạt",
+              "C": "Nguyên liệu mới",
+              "D": "Ca làm việc"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Chọn nghĩa đúng.",
+            "points": 10,
+            "explanation": "“不合格品”指未达到要求的产品。"
+          },
+          {
+            "id": 3,
+            "type": "choice",
+            "text": "发现设备异常，应当：",
+            "options": {
+              "A": "自行拆机",
+              "B": "继续加速生产",
+              "C": "按规定停机并报告负责人",
+              "D": "隐瞒情况"
+            },
+            "answers": [
+              "C"
+            ],
+            "vietnamese": "Phát hiện máy có dấu hiệu bất thường thì làm gì?",
+            "points": 10,
+            "explanation": "应按现场安全规程处理并报告，不能擅自维修。"
+          },
+          {
+            "id": 4,
+            "type": "choice",
+            "text": "“交接班”主要是指：",
+            "options": {
+              "A": "购买机器",
+              "B": "更换产品包装",
+              "C": "统计食堂人数",
+              "D": "上一班与下一班交代工作"
+            },
+            "answers": [
+              "D"
+            ],
+            "vietnamese": "“交接班” có nghĩa là gì?",
+            "points": 10,
+            "explanation": "交接班需要说明生产和设备情况。"
+          },
+          {
+            "id": 5,
+            "type": "choice",
+            "text": "请按___要求检查产品尺寸。",
+            "options": {
+              "A": "质量标准",
+              "B": "天气预报",
+              "C": "旅游计划",
+              "D": "菜单"
+            },
+            "answers": [
+              "A"
+            ],
+            "vietnamese": "Kiểm tra kích thước theo tiêu chuẩn chất lượng.",
+            "points": 10,
+            "explanation": "产品检验应按质量标准执行。"
+          },
+          {
+            "id": 6,
+            "type": "choice",
+            "text": "“这批货明天发出”中的“发出”是指：",
+            "options": {
+              "A": "报废",
+              "B": "发货",
+              "C": "返工",
+              "D": "请假"
+            },
+            "answers": [
+              "B"
+            ],
+            "vietnamese": "Trong câu này, “发出” có nghĩa là gì?",
+            "points": 10,
+            "explanation": "“发出”在货物语境中表示发货。"
+          },
+          {
+            "id": 7,
+            "type": "fill",
+            "text": "今天生产___是五百件。（填写一个汉字）",
+            "answers": [
+              "量"
+            ],
+            "vietnamese": "Sản lượng hôm nay là năm trăm sản phẩm.",
+            "points": 10,
+            "explanation": "“生产量”表示生产的数量。"
+          },
+          {
+            "id": 8,
+            "type": "fill",
+            "text": "发现质量问题，应及时___告负责人。（填写一个汉字）",
+            "answers": [
+              "报"
+            ],
+            "vietnamese": "Phát hiện vấn đề chất lượng cần báo cáo kịp thời.",
+            "points": 10,
+            "explanation": "“报告”表示向负责人说明情况。"
+          },
+          {
+            "id": 9,
+            "type": "fill",
+            "text": "交货之前，请再次检查产品的数___。（填写一个汉字）",
+            "answers": [
+              "量"
+            ],
+            "vietnamese": "Trước khi giao hàng, hãy kiểm tra lại số lượng.",
+            "points": 10,
+            "explanation": "“数量”表示产品的多少。"
+          },
+          {
+            "id": 10,
+            "type": "fill",
+            "text": "使用设备前，应接受安全培___。（填写一个汉字）",
+            "answers": [
+              "训"
+            ],
+            "vietnamese": "Cần được đào tạo an toàn trước khi sử dụng thiết bị.",
+            "points": 10,
+            "explanation": "“培训”表示有计划地传授知识和技能。"
+          }
+        ]
+      }
+    }
+  ]
+}

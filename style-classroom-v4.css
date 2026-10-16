@@ -48,3 +48,23 @@ header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22p
 .bank-fields p{margin:2px 0}
 #bank-error{color:#a23524;font-size:14px}
 #bank-loading{color:var(--blue);font-size:13px}
+
+/* Compact role chooser replaces the former assignment overview. */
+.role-section{margin-bottom:24px;padding-bottom:22px;border-bottom:1px solid var(--line)}
+.role-section label,.teacher-upload-fields label{display:block;margin-bottom:8px}
+.role-section select,.teacher-upload-fields select{width:100%;min-height:48px;padding:11px 14px;border:1px solid #d5e3ed;border-radius:8px;background:#fbfdff;color:var(--ink);font:inherit}
+#teacher-login{margin-top:20px}
+.teacher-password-row{display:flex;align-items:stretch;gap:12px}
+.teacher-password-row input{flex:1;min-width:0;margin-top:0!important}
+.teacher-password-row button{flex-shrink:0}
+#teacher-error{color:#a23524;font-size:14px}
+#teacher-auth-state{color:#28775d}
+.teacher-upload-fields{display:grid;gap:10px;margin:20px 0}
+.teacher-upload-fields #replace-wrap label{margin-top:8px}
+.teacher-upload-fields .upload{margin:12px 0}
+.teacher-actions{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+#tools{max-height:90dvh;overflow-y:auto}
+#tools details{margin:18px 0;font-size:14px}
+#tools summary{cursor:pointer;font-weight:600}
+#student-entry .fields{margin-top:4px}
+@media(max-width:650px){.teacher-password-row{flex-direction:column}.role-section{margin-bottom:20px;padding-bottom:18px}#welcome.panel{padding:22px 18px}}

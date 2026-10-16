@@ -80,3 +80,18 @@ header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22p
 .usage-guide{color:var(--blue);font-size:13px;font-weight:700;margin:0 4px 22px;line-height:1.85;overflow-wrap:anywhere}.usage-guide p{margin:0 0 6px}.usage-guide p:last-child{margin-bottom:0}.role-section>label{font-size:13px}
 .option{font-size:20px;line-height:1.6;align-items:flex-start;min-height:64px}.option input{margin-top:9px;flex-shrink:0}.option-text{display:block;min-width:0;overflow-wrap:anywhere}.option-label{display:block}.option-pinyin{display:block;font-size:15px;color:var(--blue);font-weight:400;line-height:1.65;margin-top:3px}.question-body>.pinyin{white-space:pre-line;overflow-wrap:anywhere;line-height:1.9;margin:8px 0}.panel legend{white-space:pre-line}
 @media(max-width:650px){.option{font-size:19px}.option-pinyin{font-size:14px}.usage-guide{margin:0 2px 18px}}
+
+/* Override generic label span styles for readable, compact answer choices. */
+#questions .options{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 12px;margin-top:12px}
+#questions .option{padding:12px 14px;min-width:0;min-height:58px;line-height:1.35;gap:12px;align-items:flex-start;height:auto}
+#questions .option .option-text{font-size:23px;line-height:1.35;margin:0;color:var(--ink);font-weight:500;flex:1;min-width:0;overflow-wrap:anywhere}
+#questions .option .option-label{font-size:inherit;line-height:inherit;margin:0;color:inherit;font-weight:inherit;display:block}
+#questions .option .option-pinyin{font-size:18px;line-height:1.4;margin:3px 0 0;color:var(--blue);font-weight:400;white-space:normal}
+#questions .option input{margin:8px 0 0;width:18px;height:18px;flex-shrink:0}
+#questions legend{line-height:1.45;margin-bottom:5px;overflow-wrap:anywhere}
+#questions .question-body>.pinyin{line-height:1.5;margin:5px 0}
+#questions .question-body>.vi{line-height:1.45;margin:3px 0}
+.result-feedback{padding:14px 18px;background:#edf6ff;border:1px solid var(--line);border-radius:12px;margin:18px 0}
+.feedback-message{font-size:22px;font-weight:700;color:var(--blue);line-height:1.45;margin:0 0 10px}
+.feedback-status{margin:6px 0 0;line-height:1.5}.feedback-status:empty{display:none}
+@media(max-width:650px){#questions .options{grid-template-columns:minmax(0,1fr);gap:9px}#questions .option .option-text{font-size:22px}#questions .option .option-pinyin{font-size:17px}#questions .option{padding:11px 12px}.feedback-message{font-size:20px}}

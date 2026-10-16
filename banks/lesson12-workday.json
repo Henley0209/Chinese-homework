@@ -1,0 +1,815 @@
+{
+  "title": "第12课 我每天的工作",
+  "description": "根据课件《我的一天出差》编写。共50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。排序题请输入完整句子，不用斜线分隔，不在汉字间添加空格；兼容句末有无句号。",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "text": "【拼音选择】请选择“出差”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "chú chāi",
+        "B": "chù chāi",
+        "C": "chū chái",
+        "D": "chū chāi"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "出差：chū chāi，意思是 đi công tác。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "text": "【拼音选择】请选择“客户”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "kě hù",
+        "B": "kē hù",
+        "C": "kè hù",
+        "D": "kè hú"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "客户：kè hù，意思是 khách hàng。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "text": "【拼音选择】请选择“对接”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "duì jié",
+        "B": "duì jiē",
+        "C": "duī jiè",
+        "D": "duǐ jiē"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "对接：duì jiē，意思是 phối hợp công việc。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "text": "【拼音选择】请选择“生产”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "shēng chàn",
+        "B": "shēng chǎn",
+        "C": "shéng chǎn",
+        "D": "shěng chān"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "生产：shēng chǎn，意思是 sản xuất。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "text": "【拼音选择】请选择“检查”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jiàn chá",
+        "B": "jiǎn chá",
+        "C": "jiān chà",
+        "D": "jiǎn chā"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "检查：jiǎn chá，意思是 kiểm tra。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "text": "【拼音选择】请选择“样品”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "yáng pǐn",
+        "B": "yǎng pìn",
+        "C": "yàng pǐn",
+        "D": "yàng pín"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "样品：yàng pǐn，意思是 hàng mẫu。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "text": "【拼音选择】请选择“问题”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wěn tì",
+        "B": "wèn tǐ",
+        "C": "wèn tí",
+        "D": "wén tí"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "问题：wèn tí，意思是 vấn đề。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "text": "【拼音选择】请选择“准时”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zhùn shí",
+        "B": "zhūn shǐ",
+        "C": "zhǔn shì",
+        "D": "zhǔn shí"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "准时：zhǔn shí，意思是 đúng giờ。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "text": "【拼音选择】请选择“汇报”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "huǐ bǎo",
+        "B": "huì báo",
+        "C": "huì bào",
+        "D": "huí bào"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "汇报：huì bào，意思是 báo cáo。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "text": "【拼音选择】请选择“返程”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "fǎn chēng",
+        "B": "fān chèng",
+        "C": "fǎn chéng",
+        "D": "fàn chéng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "返程：fǎn chéng，意思是 trở về sau chuyến đi。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "text": "【拼音选择】请选择“辛苦”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "xǐn kū",
+        "B": "xín kǔ",
+        "C": "xīn kǔ",
+        "D": "xīn kù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "辛苦：xīn kǔ，意思是 vất vả。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "text": "【拼音选择】请选择“完成”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "wán chèng",
+        "B": "wǎn chéng",
+        "C": "wàn chēng",
+        "D": "wán chéng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "完成：wán chéng，意思是 hoàn thành。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "text": "【拼音选择】请选择“进度”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "jīn dǔ",
+        "B": "jǐn dù",
+        "C": "jìn dù",
+        "D": "jìn dú"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "进度：jìn dù，意思是 tiến độ。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "text": "【拼音选择】请选择“质量”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zhī liǎng",
+        "B": "zhì liàng",
+        "C": "zhǐ liàng",
+        "D": "zhì liáng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "质量：zhì liàng，意思是 chất lượng。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "text": "【拼音选择】请选择“整改”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "options": {
+        "A": "zhěng gài",
+        "B": "zhēng gāi",
+        "C": "zhèng gǎi",
+        "D": "zhěng gǎi"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "整改：zhěng gǎi，意思是 khắc phục, cải thiện。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "text": "【选词填空】明天我要去外地____，拜访合作工厂。",
+      "vietnamese": "Ngày mai tôi đi công tác ở nơi khác để thăm nhà máy đối tác.",
+      "options": {
+        "A": "汇报",
+        "B": "整改",
+        "C": "出差",
+        "D": "返程"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“出差”。完整句子：明天我要去外地出差，拜访合作工厂。"
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "text": "【选词填空】购买我们产品的那家公司，是我们的重要____。",
+      "vietnamese": "Công ty mua sản phẩm của chúng tôi là khách hàng quan trọng.",
+      "options": {
+        "A": "样品",
+        "B": "质量",
+        "C": "客户",
+        "D": "进度"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“客户”。完整句子：购买我们产品的那家公司，是我们的重要客户。"
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "text": "【选词填空】这项工作需要双方协调，请你和生产部____一下。",
+      "vietnamese": "Công việc này cần hai bên phối hợp; hãy trao đổi với bộ phận sản xuất.",
+      "options": {
+        "A": "出差",
+        "B": "生产",
+        "C": "返程",
+        "D": "对接"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“对接”。完整句子：这项工作需要双方协调，请你和生产部对接一下。"
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "text": "【选词填空】这家工厂每天能____一千件产品。",
+      "vietnamese": "Nhà máy này có thể sản xuất một nghìn sản phẩm mỗi ngày.",
+      "options": {
+        "A": "生产",
+        "B": "辛苦",
+        "C": "返程",
+        "D": "汇报"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“生产”。完整句子：这家工厂每天能生产一千件产品。"
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "text": "【选词填空】发货前，请仔细____这批产品有没有瑕疵。",
+      "vietnamese": "Trước khi giao hàng, hãy kiểm tra kỹ xem lô sản phẩm này có lỗi không.",
+      "options": {
+        "A": "汇报",
+        "B": "检查",
+        "C": "出差",
+        "D": "返程"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“检查”。完整句子：发货前，请仔细检查这批产品有没有瑕疵。"
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "text": "【选词填空】正式量产前，我们先做了一个____，供客户测试。",
+      "vietnamese": "Trước khi sản xuất hàng loạt, chúng tôi làm một mẫu để khách hàng thử nghiệm.",
+      "options": {
+        "A": "客户",
+        "B": "样品",
+        "C": "质量",
+        "D": "进度"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“样品”。完整句子：正式量产前，我们先做了一个样品，供客户测试。"
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "text": "【选词填空】这台机器突然不能运转，可能出了____。",
+      "vietnamese": "Máy đột nhiên không chạy được, có thể đã xảy ra sự cố.",
+      "options": {
+        "A": "问题",
+        "B": "资料",
+        "C": "客户",
+        "D": "样品"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“问题”。完整句子：这台机器突然不能运转，可能出了问题。"
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "text": "【选词填空】会议九点开始，请大家____参加，不要迟到。",
+      "vietnamese": "Cuộc họp bắt đầu lúc chín giờ; mọi người hãy tham gia đúng giờ.",
+      "options": {
+        "A": "准时",
+        "B": "返程",
+        "C": "辛苦",
+        "D": "质量"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“准时”。完整句子：会议九点开始，请大家准时参加，不要迟到。"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "text": "【选词填空】出差结束后，我要向领导____工作情况。",
+      "vietnamese": "Sau chuyến công tác, tôi cần báo cáo tình hình công việc với lãnh đạo.",
+      "options": {
+        "A": "生产",
+        "B": "汇报",
+        "C": "整改",
+        "D": "返程"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“汇报”。完整句子：出差结束后，我要向领导汇报工作情况。"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "text": "【选词填空】外地的工作已经结束，我们准备乘车____。",
+      "vietnamese": "Công việc ở nơi khác đã kết thúc, chúng tôi chuẩn bị lên xe trở về.",
+      "options": {
+        "A": "对接",
+        "B": "检查",
+        "C": "生产",
+        "D": "返程"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“返程”。完整句子：外地的工作已经结束，我们准备乘车返程。"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "text": "【选词填空】你忙了一整天，真____了！先休息一下吧。",
+      "vietnamese": "Bạn đã bận cả ngày, vất vả rồi! Hãy nghỉ một chút.",
+      "options": {
+        "A": "进度",
+        "B": "样品",
+        "C": "准时",
+        "D": "辛苦"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“辛苦”。完整句子：你忙了一整天，真辛苦了！先休息一下吧。"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "text": "【选词填空】今天的任务已经全部____，可以下班了。",
+      "vietnamese": "Nhiệm vụ hôm nay đã hoàn thành toàn bộ, có thể tan làm rồi.",
+      "options": {
+        "A": "汇报",
+        "B": "返程",
+        "C": "生产",
+        "D": "完成"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“完成”。完整句子：今天的任务已经全部完成，可以下班了。"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "text": "【选词填空】这个项目一共分五个阶段，目前做到第三阶段，这是最新的工作____。",
+      "vietnamese": "Dự án có năm giai đoạn, hiện đang ở giai đoạn ba; đây là tiến độ mới nhất.",
+      "options": {
+        "A": "样品",
+        "B": "进度",
+        "C": "客户",
+        "D": "质量"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“进度”。完整句子：这个项目一共分五个阶段，目前做到第三阶段，这是最新的工作进度。"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "text": "【选词填空】这批产品结实耐用，____很好，客户很满意。",
+      "vietnamese": "Lô sản phẩm này bền chắc, chất lượng rất tốt, khách hàng rất hài lòng.",
+      "options": {
+        "A": "客户",
+        "B": "返程",
+        "C": "质量",
+        "D": "进度"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“质量”。完整句子：这批产品结实耐用，质量很好，客户很满意。"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "text": "【选词填空】检查发现产品不合格，工厂必须按要求立即____。",
+      "vietnamese": "Sản phẩm được phát hiện không đạt yêu cầu; nhà máy phải khắc phục ngay theo yêu cầu.",
+      "options": {
+        "A": "出差",
+        "B": "返程",
+        "C": "整改",
+        "D": "汇报"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“整改”。完整句子：检查发现产品不合格，工厂必须按要求立即整改。"
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n我要 / 今天 / 出差 / 去合作工厂",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "今天我要去合作工厂出差。",
+        "今天我要去合作工厂出差",
+        "今天我要去合作工厂出差."
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天我要去合作工厂出差。"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n早上七点 / 出发 / 从公司 / 我",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "我早上七点从公司出发。",
+        "我早上七点从公司出发",
+        "我早上七点从公司出发."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我早上七点从公司出发。"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n到达客户工厂 / 准时 / 我 / 八点的时候",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "八点的时候，我准时到达客户工厂。",
+        "八点的时候，我准时到达客户工厂",
+        "八点的时候我准时到达客户工厂。",
+        "八点的时候我准时到达客户工厂",
+        "八点的时候,我准时到达客户工厂.",
+        "八点的时候,我准时到达客户工厂"
+      ],
+      "points": 2,
+      "explanation": "参考句子：八点的时候，我准时到达客户工厂。"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n和客户 / 我先 / 到了工厂以后 / 确认今天的工作安排",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "到了工厂以后，我先和客户确认今天的工作安排。",
+        "到了工厂以后，我先和客户确认今天的工作安排",
+        "到了工厂以后我先和客户确认今天的工作安排。",
+        "到了工厂以后我先和客户确认今天的工作安排",
+        "到了工厂以后,我先和客户确认今天的工作安排.",
+        "到了工厂以后,我先和客户确认今天的工作安排"
+      ],
+      "points": 2,
+      "explanation": "参考句子：到了工厂以后，我先和客户确认今天的工作安排。"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n生产部和质检部的负责人 / 然后 / 我开始 / 对接",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "然后我开始对接生产部和质检部的负责人。",
+        "然后我开始对接生产部和质检部的负责人",
+        "然后我开始对接生产部和质检部的负责人."
+      ],
+      "points": 2,
+      "explanation": "参考句子：然后我开始对接生产部和质检部的负责人。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n向我 / 目前的生产情况 / 介绍了 / 他们",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "他们向我介绍了目前的生产情况。",
+        "他们向我介绍了目前的生产情况",
+        "他们向我介绍了目前的生产情况."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他们向我介绍了目前的生产情况。"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n了解 / 我 / 需要 / 这批订单的生产进度",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "我需要了解这批订单的生产进度。",
+        "我需要了解这批订单的生产进度",
+        "我需要了解这批订单的生产进度."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我需要了解这批订单的生产进度。"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n跟进项目进度 / 每天都要 / 为了保证交货时间 / 我们",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "为了保证交货时间，我们每天都要跟进项目进度。",
+        "为了保证交货时间，我们每天都要跟进项目进度",
+        "为了保证交货时间我们每天都要跟进项目进度。",
+        "为了保证交货时间我们每天都要跟进项目进度",
+        "为了保证交货时间,我们每天都要跟进项目进度.",
+        "为了保证交货时间,我们每天都要跟进项目进度"
+      ],
+      "points": 2,
+      "explanation": "参考句子：为了保证交货时间，我们每天都要跟进项目进度。"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n我 / 检查产品质量 / 来到车间 / 随后",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "随后，我来到车间检查产品质量。",
+        "随后，我来到车间检查产品质量",
+        "随后我来到车间检查产品质量。",
+        "随后我来到车间检查产品质量",
+        "随后,我来到车间检查产品质量.",
+        "随后,我来到车间检查产品质量"
+      ],
+      "points": 2,
+      "explanation": "参考句子：随后，我来到车间检查产品质量。"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n存在小问题 / 我 / 在检查过程中 / 发现一个样品",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "在检查过程中，我发现一个样品存在小问题。",
+        "在检查过程中，我发现一个样品存在小问题",
+        "在检查过程中我发现一个样品存在小问题。",
+        "在检查过程中我发现一个样品存在小问题",
+        "在检查过程中,我发现一个样品存在小问题.",
+        "在检查过程中,我发现一个样品存在小问题"
+      ],
+      "points": 2,
+      "explanation": "参考句子：在检查过程中，我发现一个样品存在小问题。"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n需要及时整改 / 但是 / 虽然不严重 / 这个问题",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "这个问题虽然不严重，但是需要及时整改。",
+        "这个问题虽然不严重，但是需要及时整改",
+        "这个问题虽然不严重但是需要及时整改。",
+        "这个问题虽然不严重但是需要及时整改",
+        "这个问题虽然不严重,但是需要及时整改.",
+        "这个问题虽然不严重,但是需要及时整改"
+      ],
+      "points": 2,
+      "explanation": "参考句子：这个问题虽然不严重，但是需要及时整改。"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n处理这个问题 / 马上 / 通知相关负责人 / 我",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "我马上通知相关负责人处理这个问题。",
+        "我马上通知相关负责人处理这个问题",
+        "我马上通知相关负责人处理这个问题."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我马上通知相关负责人处理这个问题。"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n进行整改 / 为了不耽误整体生产计划 / 立即安排人员 / 工厂",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "为了不耽误整体生产计划，工厂立即安排人员进行整改。",
+        "为了不耽误整体生产计划，工厂立即安排人员进行整改",
+        "为了不耽误整体生产计划工厂立即安排人员进行整改。",
+        "为了不耽误整体生产计划工厂立即安排人员进行整改",
+        "为了不耽误整体生产计划,工厂立即安排人员进行整改.",
+        "为了不耽误整体生产计划,工厂立即安排人员进行整改"
+      ],
+      "points": 2,
+      "explanation": "参考句子：为了不耽误整体生产计划，工厂立即安排人员进行整改。"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n整改完成以后 / 检查产品 / 再次 / 我",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "整改完成以后，我再次检查产品。",
+        "整改完成以后，我再次检查产品",
+        "整改完成以后我再次检查产品。",
+        "整改完成以后我再次检查产品",
+        "整改完成以后,我再次检查产品.",
+        "整改完成以后,我再次检查产品"
+      ],
+      "points": 2,
+      "explanation": "参考句子：整改完成以后，我再次检查产品。"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n经过确认 / 已经达到 / 产品质量 / 客户要求",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "经过确认，产品质量已经达到客户要求。",
+        "经过确认，产品质量已经达到客户要求",
+        "经过确认产品质量已经达到客户要求。",
+        "经过确认产品质量已经达到客户要求",
+        "经过确认,产品质量已经达到客户要求.",
+        "经过确认,产品质量已经达到客户要求"
+      ],
+      "points": 2,
+      "explanation": "参考句子：经过确认，产品质量已经达到客户要求。"
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n和客户一起 / 我 / 讨论后续生产安排 / 中午的时候",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "中午的时候，我和客户一起讨论后续生产安排。",
+        "中午的时候，我和客户一起讨论后续生产安排",
+        "中午的时候我和客户一起讨论后续生产安排。",
+        "中午的时候我和客户一起讨论后续生产安排",
+        "中午的时候,我和客户一起讨论后续生产安排.",
+        "中午的时候,我和客户一起讨论后续生产安排"
+      ],
+      "points": 2,
+      "explanation": "参考句子：中午的时候，我和客户一起讨论后续生产安排。"
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n整理了 / 当天的工作资料和检查记录 / 我 / 下午",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "下午我整理了当天的工作资料和检查记录。",
+        "下午我整理了当天的工作资料和检查记录",
+        "下午我整理了当天的工作资料和检查记录."
+      ],
+      "points": 2,
+      "explanation": "参考句子：下午我整理了当天的工作资料和检查记录。"
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n我 / 向客户 / 返程之前 / 确认了下一批订单的生产计划",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "返程之前，我向客户确认了下一批订单的生产计划。",
+        "返程之前，我向客户确认了下一批订单的生产计划",
+        "返程之前我向客户确认了下一批订单的生产计划。",
+        "返程之前我向客户确认了下一批订单的生产计划",
+        "返程之前,我向客户确认了下一批订单的生产计划.",
+        "返程之前,我向客户确认了下一批订单的生产计划"
+      ],
+      "points": 2,
+      "explanation": "参考句子：返程之前，我向客户确认了下一批订单的生产计划。"
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n我 / 汇报了本次出差的情况 / 回到公司以后 / 向领导",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "回到公司以后，我向领导汇报了本次出差的情况。",
+        "回到公司以后，我向领导汇报了本次出差的情况",
+        "回到公司以后我向领导汇报了本次出差的情况。",
+        "回到公司以后我向领导汇报了本次出差的情况",
+        "回到公司以后,我向领导汇报了本次出差的情况.",
+        "回到公司以后,我向领导汇报了本次出差的情况"
+      ],
+      "points": 2,
+      "explanation": "参考句子：回到公司以后，我向领导汇报了本次出差的情况。"
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n所有工作任务 / 我顺利完成了 / 但是 / 虽然这次出差很辛苦",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+      "answers": [
+        "虽然这次出差很辛苦，但是我顺利完成了所有工作任务。",
+        "虽然这次出差很辛苦，但是我顺利完成了所有工作任务",
+        "虽然这次出差很辛苦但是我顺利完成了所有工作任务。",
+        "虽然这次出差很辛苦但是我顺利完成了所有工作任务",
+        "虽然这次出差很辛苦,但是我顺利完成了所有工作任务.",
+        "虽然这次出差很辛苦,但是我顺利完成了所有工作任务"
+      ],
+      "points": 2,
+      "explanation": "参考句子：虽然这次出差很辛苦，但是我顺利完成了所有工作任务。"
+    }
+  ]
+}

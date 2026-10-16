@@ -8,7 +8,15 @@ function canonical(value){
  if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(k==='title'?titleKey(value[k]):value[k])]));
  return value;
 }
-function same(a,b){return JSON.stringify(canonical(a))===JSON.stringify(canonical(b));}
+function same(a,b){
+ if(JSON.stringify(canonical(a))===JSON.stringify(canonical(b)))return true;
+ // Retire an unchanged old draft when only pronunciation annotations were published.
+ if(a.annotationVersion===1&&!b.annotationVersion){
+  const core=v=>JSON.parse(JSON.stringify(v,(k,x)=>['pinyin','optionPinyin','annotationVersion'].includes(k)?undefined:x));
+  return JSON.stringify(canonical(core(a)))===JSON.stringify(canonical(core(b)));
+ }
+ return false;
+}
 export function validateEntry(entry){
  if(!entry||typeof entry.id!=='string'||!/^[-a-zA-Z0-9_]{1,100}$/.test(entry.id)||!Object.hasOwn(bankLabels,entry.bank))throw Error('练习编号或所属题库无效。');
  validate(entry.exercise);return {id:entry.id,bank:entry.bank,exercise:structuredClone(entry.exercise)};
@@ -73,3 +81,4 @@ export function draftCount(){return drafts.length;}
 // Mobile browsers may restore an old tab from memory without a normal reload.
 if(typeof window!=='undefined')window.addEventListener('pageshow',e=>{if(e.persisted)loadCatalog({refresh:true}).catch(()=>{});});
 if(typeof document!=='undefined')document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')loadCatalog({refresh:true}).catch(()=>{});});
+

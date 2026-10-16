@@ -1,6 +1,6 @@
 import {recordLogin} from './visit-counter.mjs?v=visits15';
 import {isTeacherPassword} from './teacher-auth.mjs?v=visits15';
-import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=visits15';
+import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=guide17';
 import {validate} from './grading.mjs';
 const $=s=>document.querySelector(s);let authenticated=false,attempt=0,uploading=false;
 const message=t=>$('#teacher-status').textContent=t;
@@ -40,3 +40,4 @@ $('#import').onchange=async e=>{
 };
 $('#export-exercises').onclick=()=>{try{requireTeacher();const data=catalog();const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)+'\n'],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='exercise-catalog.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);message('已下载 exercise-catalog.json。将它上传到GitHub仓库首页并替换同名文件，等待部署后学生即可看到更新。');}catch(e){message(e.message);}};
 $('#discard-exercises').onclick=()=>{try{requireTeacher();if(!confirm('清除本机未发布草稿，恢复网站已发布的题目？'))return;discardDrafts();message('已清除本机草稿，网站已发布的题库不受影响。');}catch(e){message(e.message);}};
+

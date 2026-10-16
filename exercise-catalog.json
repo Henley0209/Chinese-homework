@@ -12,7 +12,7 @@
             "id": 1,
             "type": "choice",
             "text": "“你好”的越南语意思是？",
-            "pinyin": "Nǐ hǎo",
+            "pinyin": "“ nǐ hǎo ” de yuè nán yǔ yì sī shì ？",
             "vietnamese": "Chọn nghĩa đúng.",
             "options": {
               "A": "Xin chào",
@@ -24,13 +24,14 @@
               "A"
             ],
             "points": 5,
-            "explanation": "正确答案：Xin chào"
+            "explanation": "正确答案：Xin chào",
+            "optionPinyin": {}
           },
           {
             "id": 2,
             "type": "choice",
             "text": "“谢谢”的拼音是？",
-            "pinyin": "谢谢",
+            "pinyin": "“____” de pīn yīn shì ？",
             "vietnamese": "Chọn phiên âm đúng.",
             "options": {
               "A": "nǐ hǎo",
@@ -42,13 +43,14 @@
               "C"
             ],
             "points": 5,
-            "explanation": "正确答案：xiè xie"
+            "explanation": "正确答案：xiè xie",
+            "optionPinyin": {}
           },
           {
             "id": 3,
             "type": "choice",
             "text": "我 ___ 越南人。",
-            "pinyin": "Wǒ ___ Yuènán rén.",
+            "pinyin": "wǒ  ___  yuè nán rén 。",
             "vietnamese": "Tôi là người Việt Nam.",
             "options": {
               "A": "有",
@@ -60,13 +62,19 @@
               "B"
             ],
             "points": 5,
-            "explanation": "正确答案：是"
+            "explanation": "正确答案：是",
+            "optionPinyin": {
+              "A": "yǒu",
+              "B": "shì",
+              "C": "zài",
+              "D": "qù"
+            }
           },
           {
             "id": 4,
             "type": "choice",
             "text": "“老师”的越南语意思是？",
-            "pinyin": "Lǎo shī",
+            "pinyin": "“ lǎo shī ” de yuè nán yǔ yì sī shì ？",
             "vietnamese": "Chọn nghĩa đúng.",
             "options": {
               "A": "Học sinh",
@@ -78,13 +86,14 @@
               "D"
             ],
             "points": 5,
-            "explanation": "正确答案：Giáo viên"
+            "explanation": "正确答案：Giáo viên",
+            "optionPinyin": {}
           },
           {
             "id": 5,
             "type": "choice",
             "text": "“三”的意思是？",
-            "pinyin": "Sān",
+            "pinyin": "“ sān ” de yì si shì ？",
             "vietnamese": "Chọn số đúng.",
             "options": {
               "A": "1",
@@ -96,13 +105,14 @@
               "C"
             ],
             "points": 5,
-            "explanation": "正确答案：3"
+            "explanation": "正确答案：3",
+            "optionPinyin": {}
           },
           {
             "id": 6,
             "type": "choice",
             "text": "你 ___ 什么名字？",
-            "pinyin": "Nǐ ___ shén me míng zi?",
+            "pinyin": "nǐ  ___  shén me míng zi ？",
             "vietnamese": "Bạn tên là gì?",
             "options": {
               "A": "叫",
@@ -114,13 +124,19 @@
               "A"
             ],
             "points": 5,
-            "explanation": "正确答案：叫"
+            "explanation": "正确答案：叫",
+            "optionPinyin": {
+              "A": "jiào",
+              "B": "hē",
+              "C": "chī",
+              "D": "kàn"
+            }
           },
           {
             "id": 7,
             "type": "choice",
             "text": "“再见”的越南语意思是？",
-            "pinyin": "Zài jiàn",
+            "pinyin": "“ zài jiàn ” de yuè nán yǔ yì sī shì ？",
             "vietnamese": "Chọn nghĩa đúng.",
             "options": {
               "A": "Xin chào",
@@ -132,13 +148,14 @@
               "B"
             ],
             "points": 5,
-            "explanation": "正确答案：Tạm biệt"
+            "explanation": "正确答案：Tạm biệt",
+            "optionPinyin": {}
           },
           {
             "id": 8,
             "type": "choice",
             "text": "我喜欢喝 ___。",
-            "pinyin": "Wǒ xǐ huan hē ___.",
+            "pinyin": "wǒ xǐ huan hē  ___。",
             "vietnamese": "Tôi thích uống trà.",
             "options": {
               "A": "书",
@@ -150,13 +167,19 @@
               "C"
             ],
             "points": 5,
-            "explanation": "正确答案：茶"
+            "explanation": "正确答案：茶",
+            "optionPinyin": {
+              "A": "shū",
+              "B": "fàn",
+              "C": "chá",
+              "D": "rén"
+            }
           },
           {
             "id": 9,
             "type": "choice",
             "text": "“今天”的越南语意思是？",
-            "pinyin": "Jīn tiān",
+            "pinyin": "“ jīn tiān ” de yuè nán yǔ yì sī shì ？",
             "vietnamese": "Chọn nghĩa đúng.",
             "options": {
               "A": "Hôm qua",
@@ -168,13 +191,14 @@
               "D"
             ],
             "points": 5,
-            "explanation": "正确答案：Hôm nay"
+            "explanation": "正确答案：Hôm nay",
+            "optionPinyin": {}
           },
           {
             "id": 10,
             "type": "choice",
             "text": "“学生”的拼音是？",
-            "pinyin": "学生",
+            "pinyin": "“____” de pīn yīn shì ？",
             "vietnamese": "Chọn phiên âm đúng.",
             "options": {
               "A": "xué sheng",
@@ -186,13 +210,14 @@
               "A"
             ],
             "points": 5,
-            "explanation": "正确答案：xué sheng"
+            "explanation": "正确答案：xué sheng",
+            "optionPinyin": {}
           },
           {
             "id": 11,
             "type": "fill",
             "text": "你 ___！",
-            "pinyin": "Nǐ ___!",
+            "pinyin": "nǐ  ___！",
             "vietnamese": "Xin chào!",
             "answers": [
               "好"
@@ -204,7 +229,7 @@
             "id": 12,
             "type": "fill",
             "text": "谢 ___！",
-            "pinyin": "Xiè ___!",
+            "pinyin": "xiè  ___！",
             "vietnamese": "Cảm ơn!",
             "answers": [
               "谢"
@@ -216,7 +241,7 @@
             "id": 13,
             "type": "fill",
             "text": "我 ___ 学生。",
-            "pinyin": "Wǒ ___ xué sheng.",
+            "pinyin": "wǒ  ___  xué sheng 。",
             "vietnamese": "Tôi là học sinh.",
             "answers": [
               "是"
@@ -228,7 +253,7 @@
             "id": 14,
             "type": "fill",
             "text": "一、二、___。",
-            "pinyin": "Yī, èr, ___.",
+            "pinyin": "yī 、 èr 、___。",
             "vietnamese": "Một, hai, ba.",
             "answers": [
               "三",
@@ -241,7 +266,7 @@
             "id": 15,
             "type": "fill",
             "text": "我爱学 ___。",
-            "pinyin": "Wǒ ài xué ___.",
+            "pinyin": "wǒ ài xué  ___。",
             "vietnamese": "Tôi thích học tiếng Trung.",
             "answers": [
               "中文",
@@ -250,7 +275,8 @@
             "points": 10,
             "explanation": "“中文”和“汉语”都可以表示 tiếng Trung。"
           }
-        ]
+        ],
+        "annotationVersion": 1
       }
     },
     {
@@ -275,7 +301,14 @@
             ],
             "vietnamese": "Bạn là người nước nào?",
             "points": 10,
-            "explanation": "“是”说明身份。"
+            "explanation": "“是”说明身份。",
+            "pinyin": "nǐ ___ nǎ guó rén ？",
+            "optionPinyin": {
+              "A": "shì",
+              "B": "yǒu",
+              "C": "zài",
+              "D": "qù"
+            }
           },
           {
             "id": 2,
@@ -292,7 +325,14 @@
             ],
             "vietnamese": "Chọn từ phù hợp với thời gian trong tương lai.",
             "points": 10,
-            "explanation": "“一会儿”表示过一小段时间。"
+            "explanation": "“一会儿”表示过一小段时间。",
+            "pinyin": "xiàn zài bā diǎn ， wǒ jiǔ diǎn shàng kè 。 wǒ ___ qù xué xiào 。",
+            "optionPinyin": {
+              "A": "zuó tiān",
+              "B": "qù nián",
+              "C": "yī huì er",
+              "D": "yǐ jīng"
+            }
           },
           {
             "id": 3,
@@ -309,7 +349,14 @@
             ],
             "vietnamese": "Quyển sách này bao nhiêu tiền?",
             "points": 10,
-            "explanation": "询问价格用“多少钱”。"
+            "explanation": "询问价格用“多少钱”。",
+            "pinyin": "zhè běn shū ___ qián ？",
+            "optionPinyin": {
+              "A": "jǐ",
+              "B": "duō shǎo",
+              "C": "shén me",
+              "D": "shuí"
+            }
           },
           {
             "id": 4,
@@ -326,7 +373,14 @@
             ],
             "vietnamese": "Tôi đi làm bằng xe buýt mỗi ngày.",
             "points": 10,
-            "explanation": "乘车用“坐公共汽车”。"
+            "explanation": "乘车用“坐公共汽车”。",
+            "pinyin": "wǒ měi tiān ___ gōng gòng qì chē qù shàng bān 。",
+            "optionPinyin": {
+              "A": "kàn",
+              "B": "shuō",
+              "C": "chī",
+              "D": "zuò"
+            }
           },
           {
             "id": 5,
@@ -343,7 +397,14 @@
             ],
             "vietnamese": "Anh ấy hơn tôi ba tuổi.",
             "points": 10,
-            "explanation": "比较年龄用“大三岁”。"
+            "explanation": "比较年龄用“大三岁”。",
+            "pinyin": "tā bǐ wǒ ___ sān suì 。",
+            "optionPinyin": {
+              "A": "dà",
+              "B": "duō",
+              "C": "hěn",
+              "D": "zuì"
+            }
           },
           {
             "id": 6,
@@ -360,7 +421,14 @@
             ],
             "vietnamese": "Trời mưa, ra ngoài cần mang gì?",
             "points": 10,
-            "explanation": "下雨时用雨伞。"
+            "explanation": "下雨时用雨伞。",
+            "pinyin": "wài miàn xià yǔ le ， chū mén yào dài ___。",
+            "optionPinyin": {
+              "A": "bēi zi",
+              "B": "kuài zi",
+              "C": "yǔ sǎn",
+              "D": "bào zhǐ"
+            }
           },
           {
             "id": 7,
@@ -371,7 +439,8 @@
             ],
             "vietnamese": "Tôi học tiếng Trung ở Việt Nam.",
             "points": 10,
-            "explanation": "表示地点用“在”。"
+            "explanation": "表示地点用“在”。",
+            "pinyin": "wǒ ___ yuè nán xué xí zhōng wén 。"
           },
           {
             "id": 8,
@@ -382,7 +451,8 @@
             ],
             "vietnamese": "Hôm qua tôi đã mua một quyển sách.",
             "points": 10,
-            "explanation": "“了”表示动作已经完成。"
+            "explanation": "“了”表示动作已经完成。",
+            "pinyin": "zuó tiān wǒ mǎi ___ yī běn shū 。"
           },
           {
             "id": 9,
@@ -393,7 +463,8 @@
             ],
             "vietnamese": "Một tuần có bảy ngày.",
             "points": 10,
-            "explanation": "一星期有七天。"
+            "explanation": "一星期有七天。",
+            "pinyin": "yī xīng qī yǒu ___ tiān 。（ yòng hàn zì ）"
           },
           {
             "id": 10,
@@ -404,9 +475,11 @@
             ],
             "vietnamese": "Quyển sách này không phải của tôi, mà là của anh ấy.",
             "points": 10,
-            "explanation": "“不是……，是……”表示判断。"
+            "explanation": "“不是……，是……”表示判断。",
+            "pinyin": "zhè běn shū bú shì wǒ de ，___ tā de 。"
           }
-        ]
+        ],
+        "annotationVersion": 1
       }
     },
     {
@@ -431,7 +504,14 @@
             ],
             "vietnamese": "Mặc dù trời mưa, chúng tôi vẫn đến trường đúng giờ.",
             "points": 10,
-            "explanation": "“虽然……还是……”表示转折。"
+            "explanation": "“虽然……还是……”表示转折。",
+            "pinyin": "___ xià yǔ ， wǒ men hái shì àn shí dào le xué xiào 。",
+            "optionPinyin": {
+              "A": "yīn wèi",
+              "B": "suī rán",
+              "C": "rú guǒ",
+              "D": "wèi le"
+            }
           },
           {
             "id": 2,
@@ -448,7 +528,14 @@
             ],
             "vietnamese": "Tôi đã làm xong bài tập.",
             "points": 10,
-            "explanation": "“写完”说明作业完成。"
+            "explanation": "“写完”说明作业完成。",
+            "pinyin": "wǒ yǐ jīng bǎ zuò yè ___ le 。",
+            "optionPinyin": {
+              "A": "kàn jiàn",
+              "B": "tīng jiàn",
+              "C": "xiě wán",
+              "D": "chū fā"
+            }
           },
           {
             "id": 3,
@@ -465,7 +552,14 @@
             ],
             "vietnamese": "Anh ấy vừa nghe nhạc vừa nấu ăn.",
             "points": 10,
-            "explanation": "“一边……一边……”表示同时进行。"
+            "explanation": "“一边……一边……”表示同时进行。",
+            "pinyin": "tā yī biān tīng yīn yuè ，___ zuò fàn 。",
+            "optionPinyin": {
+              "A": "yī biān",
+              "B": "dàn shì",
+              "C": "suǒ yǐ",
+              "D": "huò zhě"
+            }
           },
           {
             "id": 4,
@@ -482,7 +576,14 @@
             ],
             "vietnamese": "Tôi chỉ mất năm phút để làm xong.",
             "points": 10,
-            "explanation": "“用五分钟”表示花费的时间。"
+            "explanation": "“用五分钟”表示花费的时间。",
+            "pinyin": "zhè dào tí bù nán ， wǒ ___ wǔ fēn zhōng jiù zuò wán le 。",
+            "optionPinyin": {
+              "A": "cóng",
+              "B": "duì",
+              "C": "bǐ",
+              "D": "yòng"
+            }
           },
           {
             "id": 5,
@@ -499,7 +600,14 @@
             ],
             "vietnamese": "Có cái nào rẻ hơn một chút không?",
             "points": 10,
-            "explanation": "价格高的反义表达是“便宜”。"
+            "explanation": "价格高的反义表达是“便宜”。",
+            "pinyin": "zhè jiàn yī fú tài guì le ， yǒu méi yǒu ___ yì diǎn ér de ？",
+            "optionPinyin": {
+              "A": "xīn xiān",
+              "B": "pián yi",
+              "C": "ān jìng",
+              "D": "cōng míng"
+            }
           },
           {
             "id": 6,
@@ -516,7 +624,14 @@
             ],
             "vietnamese": "Máy bay sắp cất cánh, cần đi ngay.",
             "points": 10,
-            "explanation": "“马上”表示立刻。"
+            "explanation": "“马上”表示立刻。",
+            "pinyin": "fēi jī kuài qǐ fēi le ， wǒ men dé ___ qù jī chǎng 。",
+            "optionPinyin": {
+              "A": "tū rán",
+              "B": "tè bié",
+              "C": "mǎ shàng",
+              "D": "yì zhí"
+            }
           },
           {
             "id": 7,
@@ -528,7 +643,8 @@
             ],
             "vietnamese": "Ngoài tiếng Trung, cô ấy còn biết tiếng Anh.",
             "points": 10,
-            "explanation": "常用结构为“除了……以外，还……”。"
+            "explanation": "常用结构为“除了……以外，还……”。",
+            "pinyin": "chú le zhōng wén ___， tā hái huì shuō yīng yǔ 。"
           },
           {
             "id": 8,
@@ -539,7 +655,8 @@
             ],
             "vietnamese": "Tôi đã đọc xong cuốn tiểu thuyết này.",
             "points": 10,
-            "explanation": "“完”是表示动作完成的结果补语。"
+            "explanation": "“完”是表示动作完成的结果补语。",
+            "pinyin": "zhè běn xiǎo shuō wǒ yǐ jīng kàn ___ le 。（ biǎo shì wán chéng ）"
           },
           {
             "id": 9,
@@ -550,7 +667,8 @@
             ],
             "vietnamese": "Nếu ngày mai không mưa thì chúng ta đi công viên.",
             "points": 10,
-            "explanation": "条件句使用“如果……就……”。"
+            "explanation": "条件句使用“如果……就……”。",
+            "pinyin": "rú guǒ míng tiān bù xià yǔ ， wǒ men ___ qù gōng yuán 。"
           },
           {
             "id": 10,
@@ -561,9 +679,11 @@
             ],
             "vietnamese": "Cô ấy luyện tập mỗi ngày nên tiếng Trung ngày càng tốt.",
             "points": 10,
-            "explanation": "“越来越好”表示程度不断提高。"
+            "explanation": "“越来越好”表示程度不断提高。",
+            "pinyin": "tā měi tiān dōu liàn xí ， suǒ yǐ zhōng wén ___ lái ___ hǎo 。（ liǎng gè kōng tián tóng yī gè zì ）"
           }
-        ]
+        ],
+        "annotationVersion": 1
       }
     },
     {
@@ -588,7 +708,14 @@
             ],
             "vietnamese": "Bất kể gặp khó khăn gì, anh ấy cũng không bỏ cuộc.",
             "points": 10,
-            "explanation": "“不管……都……”表示无条件。"
+            "explanation": "“不管……都……”表示无条件。",
+            "pinyin": "___ yù dào shén me kùn nán ， tā dōu bú huì fàng qì 。",
+            "optionPinyin": {
+              "A": "jǐn guǎn",
+              "B": "bù guǎn",
+              "C": "yóu yú",
+              "D": "jì rán"
+            }
           },
           {
             "id": 2,
@@ -605,7 +732,14 @@
             ],
             "vietnamese": "Thay vì lo lắng kết quả, hãy chuẩn bị kỹ.",
             "points": 10,
-            "explanation": "选择关系使用“与其……不如……”。"
+            "explanation": "选择关系使用“与其……不如……”。",
+            "pinyin": "yǔ qí dān xīn jié guǒ ，___ rèn zhēn zhǔn bèi 。",
+            "optionPinyin": {
+              "A": "bù rú",
+              "B": "dàn shì",
+              "C": "ér qiě",
+              "D": "fǒu zé"
+            }
           },
           {
             "id": 3,
@@ -622,7 +756,14 @@
             ],
             "vietnamese": "Kết quả khảo sát gần giống dự đoán của chúng tôi.",
             "points": 10,
-            "explanation": "“预测”指事先作出的判断。"
+            "explanation": "“预测”指事先作出的判断。",
+            "pinyin": "zhè fèn diào chá de jié guǒ yǔ wǒ men de ___ jī běn yí zhì 。",
+            "optionPinyin": {
+              "A": "wēn dù",
+              "B": "fāng xiàng",
+              "C": "yù cè",
+              "D": "jù lí"
+            }
           },
           {
             "id": 4,
@@ -639,7 +780,14 @@
             ],
             "vietnamese": "Hãy xác nhận trước để tránh ảnh hưởng lịch ngày mai.",
             "points": 10,
-            "explanation": "“以免”表示避免不希望的结果。"
+            "explanation": "“以免”表示避免不希望的结果。",
+            "pinyin": "qǐng tí qián què rèn xìn xī ，___ yǐng xiǎng míng tiān de ān pái 。",
+            "optionPinyin": {
+              "A": "fǎn ér",
+              "B": "shèn zhì",
+              "C": "dào dǐ",
+              "D": "yǐ miǎn"
+            }
           },
           {
             "id": 5,
@@ -656,7 +804,14 @@
             ],
             "vietnamese": "Công việc này cần các thành viên phối hợp.",
             "points": 10,
-            "explanation": "“互相配合”表示协作。"
+            "explanation": "“互相配合”表示协作。",
+            "pinyin": "zhè xiàng gōng zuò xū yào tuán duì chéng yuán hù xiāng ___。",
+            "optionPinyin": {
+              "A": "làng fèi",
+              "B": "pèi hé",
+              "C": "chí dào",
+              "D": "shī wàng"
+            }
           },
           {
             "id": 6,
@@ -673,7 +828,14 @@
             ],
             "vietnamese": "Đã quyết định rồi thì nên kiên trì.",
             "points": 10,
-            "explanation": "“既然……就……”表示推论。"
+            "explanation": "“既然……就……”表示推论。",
+            "pinyin": "jì rán nǐ yǐ jīng jué dìng le ，___ yīng gāi jiān chí xià qù 。",
+            "optionPinyin": {
+              "A": "jiù",
+              "B": "què",
+              "C": "yòu",
+              "D": "cái"
+            }
           },
           {
             "id": 7,
@@ -685,7 +847,8 @@
             ],
             "vietnamese": "Anh ấy không những hoàn thành nhiệm vụ mà còn giúp đồng nghiệp.",
             "points": 10,
-            "explanation": "“不但……而且……”表示递进，也可用“还”。"
+            "explanation": "“不但……而且……”表示递进，也可用“还”。",
+            "pinyin": "tā bù dàn wán chéng le rèn wù ，___ bāng zhù le qí tā tóng shì 。"
           },
           {
             "id": 8,
@@ -696,7 +859,8 @@
             ],
             "vietnamese": "Cuộc họp được hoãn từ chín giờ đến mười giờ.",
             "points": 10,
-            "explanation": "“推迟”表示把时间往后移。"
+            "explanation": "“推迟”表示把时间往后移。",
+            "pinyin": "huì yì yuán dìng jiǔ diǎn kāi shǐ ， hòu lái bèi tuī ___ dào shí diǎn 。（ biǎo shì yán hòu ）"
           },
           {
             "id": 9,
@@ -707,7 +871,8 @@
             ],
             "vietnamese": "Hãy thông báo thời gian họp cho mọi đồng nghiệp.",
             "points": 10,
-            "explanation": "“通知”表示传达信息。"
+            "explanation": "“通知”表示传达信息。",
+            "pinyin": "qǐng bǎ huì yì shí jiān ___ zhī suǒ yǒu tóng shì 。（ tián xiě yí gè hàn zì ）"
           },
           {
             "id": 10,
@@ -718,9 +883,11 @@
             ],
             "vietnamese": "Dù nhiệm vụ khó đến đâu, chúng ta đều phải hoàn thành nghiêm túc.",
             "points": 10,
-            "explanation": "“无论……都……”表示条件不影响结果。"
+            "explanation": "“无论……都……”表示条件不影响结果。",
+            "pinyin": "wú lùn rèn wù duō me kùn nán ， wǒ men ___ yào rèn zhēn wán chéng 。"
           }
-        ]
+        ],
+        "annotationVersion": 1
       }
     },
     {
@@ -745,7 +912,14 @@
             ],
             "vietnamese": "Cải cách cần được tiến hành từng bước.",
             "points": 10,
-            "explanation": "“循序渐进”指按照一定顺序逐步提高。"
+            "explanation": "“循序渐进”指按照一定顺序逐步提高。",
+            "pinyin": "zhè xiàng gǎi gé bìng fēi yí cù ér jiù ， xū yào ___ tuī jìn 。",
+            "optionPinyin": {
+              "A": "mò míng qí miào",
+              "B": "xún xù jiàn jìn",
+              "C": "dé bù cháng shī",
+              "D": "wú dú yǒu ǒu"
+            }
           },
           {
             "id": 2,
@@ -762,7 +936,14 @@
             ],
             "vietnamese": "Cần linh hoạt điều chỉnh phương án theo nhu cầu thực tế.",
             "points": 10,
-            "explanation": "“灵活调整”表示随情况变化作出适当改变。"
+            "explanation": "“灵活调整”表示随情况变化作出适当改变。",
+            "pinyin": "miàn duì fù zá qíng kuàng ， wǒ men yīng gēn jù shí jì xū qiú ___ tiáo zhěng fāng àn 。",
+            "optionPinyin": {
+              "A": "líng huó",
+              "B": "chén zhòng",
+              "C": "yōng jǐ",
+              "D": "fēng lì"
+            }
           },
           {
             "id": 3,
@@ -779,7 +960,14 @@
             ],
             "vietnamese": "Phương án tưởng như tiết kiệm nhưng thực tế có thể tăng rủi ro.",
             "points": 10,
-            "explanation": "“看似……实则……”比较表象与实际。"
+            "explanation": "“看似……实则……”比较表象与实际。",
+            "pinyin": "zhè ge fāng àn kàn shì jié shěng chéng běn ，___ kě néng zēng jiā cháng qī fēng xiǎn 。",
+            "optionPinyin": {
+              "A": "cóng ér",
+              "B": "hé kuàng",
+              "C": "shí zé",
+              "D": "yǐ zhì"
+            }
           },
           {
             "id": 4,
@@ -796,7 +984,14 @@
             ],
             "vietnamese": "Anh ấy kiểm chứng dữ liệu nhiều lần.",
             "points": 10,
-            "explanation": "“核实”强调查明是否真实、准确。"
+            "explanation": "“核实”强调查明是否真实、准确。",
+            "pinyin": "tā duì shù jù jìn xíng le fǎn fù ___， yǐ què bǎo jié lùn kě kào 。",
+            "optionPinyin": {
+              "A": "liú lǎn",
+              "B": "kuā zhāng",
+              "C": "tuī cí",
+              "D": "hé shí"
+            }
           },
           {
             "id": 5,
@@ -813,7 +1008,14 @@
             ],
             "vietnamese": "Đọc và chọn nhận định phù hợp.",
             "points": 10,
-            "explanation": "“奠定基础”说明它对未来合作有价值。"
+            "explanation": "“奠定基础”说明它对未来合作有价值。",
+            "pinyin": "yuè dú ： fāng àn suī wèi lì jí jiàn xiào ， què wèi hòu xù hé zuò diàn dìng le jī chǔ 。 yóu cǐ kě zhī ：",
+            "optionPinyin": {
+              "A": "fāng àn háo wú jià zhí",
+              "B": "fāng àn yǒu cháng qī yì yì",
+              "C": "hé zuò yǐ jīng jié shù",
+              "D": "fāng àn yǐ bèi qǔ xiāo"
+            }
           },
           {
             "id": 6,
@@ -830,7 +1032,14 @@
             ],
             "vietnamese": "Doanh nghiệp nên tăng hiệu suất với điều kiện bảo đảm chất lượng.",
             "points": 10,
-            "explanation": "“在……的前提下”表示先决条件。"
+            "explanation": "“在……的前提下”表示先决条件。",
+            "pinyin": "zài bǎo zhàng zhì liàng de ___ xià ， qǐ yè yīng tí gāo shēng chǎn xiào lǜ 。",
+            "optionPinyin": {
+              "A": "qián tí",
+              "B": "bèi jǐng",
+              "C": "xíng zhuàng",
+              "D": "qì fēn"
+            }
           },
           {
             "id": 7,
@@ -841,7 +1050,8 @@
             ],
             "vietnamese": "Cần cân nhắc lâu dài, không quyết định vội.",
             "points": 10,
-            "explanation": "成语“从长计议”表示慢慢商量、慎重考虑。"
+            "explanation": "成语“从长计议”表示慢慢商量、慎重考虑。",
+            "pinyin": "wǒ men xū yào cóng cháng ___ yì ， bù néng cāng cù zuò chū jué dìng 。（ tián xiě yí gè hàn zì ）"
           },
           {
             "id": 8,
@@ -852,7 +1062,8 @@
             ],
             "vietnamese": "Kết luận này thiếu bằng chứng đầy đủ.",
             "points": 10,
-            "explanation": "“证据”是证明事实的材料。"
+            "explanation": "“证据”是证明事实的材料。",
+            "pinyin": "zhè ge jié lùn quē fá chōng fèn de zhèng ___。（ tián xiě yí gè hàn zì ）"
           },
           {
             "id": 9,
@@ -863,7 +1074,8 @@
             ],
             "vietnamese": "Trước khi thực hiện, cần đánh giá rủi ro tiềm ẩn.",
             "points": 10,
-            "explanation": "“评估”表示评价、估计。"
+            "explanation": "“评估”表示评价、估计。",
+            "pinyin": "zài shí shī zhī qián ， yīng chōng fèn píng ___ qián zài fēng xiǎn 。（ tián xiě yí gè hàn zì ）"
           },
           {
             "id": 10,
@@ -874,9 +1086,11 @@
             ],
             "vietnamese": "Hai bên nên giải quyết bất đồng bằng thương lượng.",
             "points": 10,
-            "explanation": "“协商”表示共同商量。"
+            "explanation": "“协商”表示共同商量。",
+            "pinyin": "shuāng fāng yīng tōng guò xié ___ jiě jué fēn qí 。（ tián xiě yí gè hàn zì ）"
           }
-        ]
+        ],
+        "annotationVersion": 1
       }
     },
     {
@@ -901,7 +1115,14 @@
             ],
             "vietnamese": "Đáp lại lời cảm ơn như thế nào?",
             "points": 10,
-            "explanation": "“不客气”用于回应感谢。"
+            "explanation": "“不客气”用于回应感谢。",
+            "pinyin": "bié rén shuō “ xiè xie ”， nǐ kě yǐ huí dá ：",
+            "optionPinyin": {
+              "A": "bú kè qì",
+              "B": "duì bù qǐ",
+              "C": "méi tīng dǒng",
+              "D": "màn zǒu"
+            }
           },
           {
             "id": 2,
@@ -918,7 +1139,14 @@
             ],
             "vietnamese": "Bạn muốn hỏi đường đến bến xe.",
             "points": 10,
-            "explanation": "“怎么走”用来询问路线。"
+            "explanation": "“怎么走”用来询问路线。",
+            "pinyin": "nǐ xiǎng zhī dào qù chē zhàn de lù xiàn ， kě yǐ wèn ：",
+            "optionPinyin": {
+              "A": "nǐ chī le ma ？",
+              "B": "qǐng wèn ， chē zhàn zěn me zǒu ？",
+              "C": "zhè jiàn duō shǎo qián ？",
+              "D": "nǐ guì xìng ？"
+            }
           },
           {
             "id": 3,
@@ -935,7 +1163,14 @@
             ],
             "vietnamese": "Chọn câu phù hợp khi gọi món.",
             "points": 10,
-            "explanation": "餐厅点菜可以先要菜单。"
+            "explanation": "餐厅点菜可以先要菜单。",
+            "pinyin": "zài cān tīng diǎn cài shí ， nǎ jù huà hé shì ？",
+            "optionPinyin": {
+              "A": "qǐng gěi wǒ guà hào",
+              "B": "wǒ yào bàn lǐ dēng jī",
+              "C": "qǐng gěi wǒ yī fèn cài dān",
+              "D": "qǐng bǎ mén suǒ shàng"
+            }
           },
           {
             "id": 4,
@@ -952,7 +1187,14 @@
             ],
             "vietnamese": "Trả lời về thời gian rảnh.",
             "points": 10,
-            "explanation": "“明天下午”回答时间。"
+            "explanation": "“明天下午”回答时间。",
+            "pinyin": "péng yǒu wèn “ nǐ shén me shí hòu fāng biàn ？” nǐ kě yǐ huí dá ：",
+            "optionPinyin": {
+              "A": "wǒ xìng lǐ",
+              "B": "zhè shì yī zhī bǐ",
+              "C": "zài zhuō zi shàng",
+              "D": "míng tiān xià wǔ kě yǐ"
+            }
           },
           {
             "id": 5,
@@ -969,7 +1211,14 @@
             ],
             "vietnamese": "Bạn chưa nghe rõ lời người khác.",
             "points": 10,
-            "explanation": "礼貌地请求对方重复。"
+            "explanation": "礼貌地请求对方重复。",
+            "pinyin": "méi tīng qīng bié rén shuō de huà ， yīng gāi shuō ：",
+            "optionPinyin": {
+              "A": "qǐng zài shuō yī biàn ， hǎo ma ？",
+              "B": "wǒ xiān diǎn cài",
+              "C": "zhù nǐ shēng rì kuài lè",
+              "D": "huān yíng guāng lín"
+            }
           },
           {
             "id": 6,
@@ -986,7 +1235,14 @@
             ],
             "vietnamese": "Bạn muốn đổi sang cỡ lớn hơn.",
             "points": 10,
-            "explanation": "“大一点儿”用于询问更大的尺寸。"
+            "explanation": "“大一点儿”用于询问更大的尺寸。",
+            "pinyin": "mǎi yī fú xiǎng huàn dà yī hào ， kě yǐ shuō ：",
+            "optionPinyin": {
+              "A": "kě yǐ tuì fáng ma ？",
+              "B": "yǒu dà yī diǎn ér de ma ？",
+              "C": "qǐng wèn jǐ hào dēng jī kǒu ？",
+              "D": "wǒ xiǎng yù yuē yá yī"
+            }
           },
           {
             "id": 7,
@@ -997,7 +1253,8 @@
             ],
             "vietnamese": "Trước khi làm phiền, có thể nói xin lỗi.",
             "points": 10,
-            "explanation": "“不好意思”是礼貌表达。"
+            "explanation": "“不好意思”是礼貌表达。",
+            "pinyin": "dǎ rǎo bié rén zhī qián ， kě yǐ xiān shuō ：“ bù hǎo ___。”"
           },
           {
             "id": 8,
@@ -1008,7 +1265,8 @@
             ],
             "vietnamese": "Hỏi giá món hàng.",
             "points": 10,
-            "explanation": "询问价格常用“多少钱”。"
+            "explanation": "询问价格常用“多少钱”。",
+            "pinyin": "xiǎng zhī dào shāng pǐn de jià gé ， kě yǐ wèn ：“ zhè ge ___ qián ？”"
           },
           {
             "id": 9,
@@ -1019,7 +1277,8 @@
             ],
             "vietnamese": "Hẹn gặp lúc ba giờ.",
             "points": 10,
-            "explanation": "“三点见”表示在三点见面。"
+            "explanation": "“三点见”表示在三点见面。",
+            "pinyin": "yuē hǎo sān diǎn jiàn miàn ， kě yǐ shuō ：“ wǒ men sān diǎn ___。”"
           },
           {
             "id": 10,
@@ -1031,9 +1290,11 @@
             ],
             "vietnamese": "Bạn muốn thanh toán tại nhà hàng.",
             "points": 10,
-            "explanation": "“结账”和“买单”都可用于请求付款。"
+            "explanation": "“结账”和“买单”都可用于请求付款。",
+            "pinyin": "jié zhàng shí ， kě yǐ shuō ：“ fú wù yuán ， qǐng ___。”"
           }
-        ]
+        ],
+        "annotationVersion": 1
       }
     },
     {
@@ -1058,7 +1319,14 @@
             ],
             "vietnamese": "Trước khi vào xưởng yêu cầu mũ bảo hộ, cần làm gì?",
             "points": 10,
-            "explanation": "应遵守车间规定，正确佩戴安全帽。"
+            "explanation": "应遵守车间规定，正确佩戴安全帽。",
+            "pinyin": "jìn rù yāo qiú pèi dài ān quán mào de chē jiān ， yīng xiān ：",
+            "optionPinyin": {
+              "A": "dài hǎo ān quán mào",
+              "B": "suí biàn pāi zhào",
+              "C": "guān bì suǒ yǒu jī qì",
+              "D": "tuō xià gōng zuò xié"
+            }
           },
           {
             "id": 2,
@@ -1075,7 +1343,9 @@
             ],
             "vietnamese": "Chọn nghĩa đúng.",
             "points": 10,
-            "explanation": "“不合格品”指未达到要求的产品。"
+            "explanation": "“不合格品”指未达到要求的产品。",
+            "pinyin": "“ bù hé gé pǐn ” de yuè nán yǔ yì sī shì ：",
+            "optionPinyin": {}
           },
           {
             "id": 3,
@@ -1092,7 +1362,14 @@
             ],
             "vietnamese": "Phát hiện máy có dấu hiệu bất thường thì làm gì?",
             "points": 10,
-            "explanation": "应按现场安全规程处理并报告，不能擅自维修。"
+            "explanation": "应按现场安全规程处理并报告，不能擅自维修。",
+            "pinyin": "fā xiàn shè bèi yì cháng ， yīng dāng ：",
+            "optionPinyin": {
+              "A": "zì xíng chāi jī",
+              "B": "jì xù jiā sù shēng chǎn",
+              "C": "àn guī dìng tíng jī bìng bào gào fù zé rén",
+              "D": "yǐn mán qíng kuàng"
+            }
           },
           {
             "id": 4,
@@ -1109,7 +1386,14 @@
             ],
             "vietnamese": "“交接班” có nghĩa là gì?",
             "points": 10,
-            "explanation": "交接班需要说明生产和设备情况。"
+            "explanation": "交接班需要说明生产和设备情况。",
+            "pinyin": "“ jiāo jiē bān ” zhǔ yào shì zhǐ ：",
+            "optionPinyin": {
+              "A": "gòu mǎi jī qì",
+              "B": "gēng huàn chǎn pǐn bāo zhuāng",
+              "C": "tǒng jì shí táng rén shù",
+              "D": "shàng yī bān yǔ xià yī bān jiāo dài gōng zuò"
+            }
           },
           {
             "id": 5,
@@ -1126,7 +1410,14 @@
             ],
             "vietnamese": "Kiểm tra kích thước theo tiêu chuẩn chất lượng.",
             "points": 10,
-            "explanation": "产品检验应按质量标准执行。"
+            "explanation": "产品检验应按质量标准执行。",
+            "pinyin": "qǐng àn ___ yāo qiú jiǎn chá chǎn pǐn chǐ cùn 。",
+            "optionPinyin": {
+              "A": "zhì liàng biāo zhǔn",
+              "B": "tiān qì yù bào",
+              "C": "lǚ yóu jì huà",
+              "D": "cài dān"
+            }
           },
           {
             "id": 6,
@@ -1143,7 +1434,14 @@
             ],
             "vietnamese": "Trong câu này, “发出” có nghĩa là gì?",
             "points": 10,
-            "explanation": "“发出”在货物语境中表示发货。"
+            "explanation": "“发出”在货物语境中表示发货。",
+            "pinyin": "“ zhè pī huò míng tiān fā chū ” zhōng de “ fā chū ” shì zhǐ ：",
+            "optionPinyin": {
+              "A": "bào fèi",
+              "B": "fā huò",
+              "C": "fǎn gōng",
+              "D": "qǐng jià"
+            }
           },
           {
             "id": 7,
@@ -1154,7 +1452,8 @@
             ],
             "vietnamese": "Sản lượng hôm nay là năm trăm sản phẩm.",
             "points": 10,
-            "explanation": "“生产量”表示生产的数量。"
+            "explanation": "“生产量”表示生产的数量。",
+            "pinyin": "jīn tiān shēng chǎn ___ shì wǔ bǎi jiàn 。（ tián xiě yí gè hàn zì ）"
           },
           {
             "id": 8,
@@ -1165,7 +1464,8 @@
             ],
             "vietnamese": "Phát hiện vấn đề chất lượng cần báo cáo kịp thời.",
             "points": 10,
-            "explanation": "“报告”表示向负责人说明情况。"
+            "explanation": "“报告”表示向负责人说明情况。",
+            "pinyin": "fā xiàn zhì liàng wèn tí ， yīng jí shí ___ gào fù zé rén 。（ tián xiě yí gè hàn zì ）"
           },
           {
             "id": 9,
@@ -1176,7 +1476,8 @@
             ],
             "vietnamese": "Trước khi giao hàng, hãy kiểm tra lại số lượng.",
             "points": 10,
-            "explanation": "“数量”表示产品的多少。"
+            "explanation": "“数量”表示产品的多少。",
+            "pinyin": "jiāo huò zhī qián ， qǐng zài cì jiǎn chá chǎn pǐn de shù ___。（ tián xiě yí gè hàn zì ）"
           },
           {
             "id": 10,
@@ -1187,9 +1488,11 @@
             ],
             "vietnamese": "Cần được đào tạo an toàn trước khi sử dụng thiết bị.",
             "points": 10,
-            "explanation": "“培训”表示有计划地传授知识和技能。"
+            "explanation": "“培训”表示有计划地传授知识和技能。",
+            "pinyin": "shǐ yòng shè bèi qián ， yīng jiē shòu ān quán péi ___。（ tián xiě yí gè hàn zì ）"
           }
-        ]
+        ],
+        "annotationVersion": 1
       }
     },
     {
@@ -1215,7 +1518,9 @@
               "A"
             ],
             "points": 2,
-            "explanation": "彩盒：cǎi hé；越南语：hộp màu, hộp in màu。"
+            "explanation": "彩盒：cǎi hé；越南语：hộp màu, hộp in màu。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 2,
@@ -1233,7 +1538,9 @@
               "B"
             ],
             "points": 2,
-            "explanation": "印刷：yìn shuā；越南语：in ấn。"
+            "explanation": "印刷：yìn shuā；越南语：in ấn。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 3,
@@ -1251,7 +1558,9 @@
               "C"
             ],
             "points": 2,
-            "explanation": "颜色：yán sè；越南语：màu sắc。"
+            "explanation": "颜色：yán sè；越南语：màu sắc。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 4,
@@ -1269,7 +1578,9 @@
               "D"
             ],
             "points": 2,
-            "explanation": "异常：yì cháng；越南语：bất thường。"
+            "explanation": "异常：yì cháng；越南语：bất thường。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 5,
@@ -1287,7 +1598,9 @@
               "A"
             ],
             "points": 2,
-            "explanation": "色差：sè chā；越南语：độ lệch màu。"
+            "explanation": "色差：sè chā；越南语：độ lệch màu。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 6,
@@ -1305,7 +1618,9 @@
               "B"
             ],
             "points": 2,
-            "explanation": "样品：yàng pǐn；越南语：mẫu。"
+            "explanation": "样品：yàng pǐn；越南语：mẫu。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 7,
@@ -1323,7 +1638,9 @@
               "C"
             ],
             "points": 2,
-            "explanation": "标准：biāo zhǔn；越南语：tiêu chuẩn。"
+            "explanation": "标准：biāo zhǔn；越南语：tiêu chuẩn。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 8,
@@ -1341,7 +1658,9 @@
               "D"
             ],
             "points": 2,
-            "explanation": "检查：jiǎn chá；越南语：kiểm tra。"
+            "explanation": "检查：jiǎn chá；越南语：kiểm tra。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 9,
@@ -1359,7 +1678,9 @@
               "A"
             ],
             "points": 2,
-            "explanation": "确认：què rèn；越南语：xác nhận。"
+            "explanation": "确认：què rèn；越南语：xác nhận。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 10,
@@ -1377,7 +1698,9 @@
               "B"
             ],
             "points": 2,
-            "explanation": "原因：yuán yīn；越南语：nguyên nhân。"
+            "explanation": "原因：yuán yīn；越南语：nguyên nhân。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 11,
@@ -1395,7 +1718,9 @@
               "C"
             ],
             "points": 2,
-            "explanation": "调整：tiáo zhěng；越南语：điều chỉnh。"
+            "explanation": "调整：tiáo zhěng；越南语：điều chỉnh。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 12,
@@ -1413,7 +1738,9 @@
               "D"
             ],
             "points": 2,
-            "explanation": "批次：pī cì；越南语：lô hàng。"
+            "explanation": "批次：pī cì；越南语：lô hàng。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 13,
@@ -1431,7 +1758,9 @@
               "A"
             ],
             "points": 2,
-            "explanation": "影响：yǐng xiǎng；越南语：ảnh hưởng。"
+            "explanation": "影响：yǐng xiǎng；越南语：ảnh hưởng。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 14,
@@ -1449,7 +1778,9 @@
               "B"
             ],
             "points": 2,
-            "explanation": "处理：chǔ lǐ；越南语：xử lý。"
+            "explanation": "处理：chǔ lǐ；越南语：xử lý。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 15,
@@ -1467,7 +1798,9 @@
               "C"
             ],
             "points": 2,
-            "explanation": "改善：gǎi shàn；越南语：cải thiện, khắc phục。"
+            "explanation": "改善：gǎi shàn；越南语：cải thiện, khắc phục。",
+            "pinyin": "【 yī 、 pīn yīn xuǎn zé 】“____” de zhèng què dú yīn shì ？",
+            "optionPinyin": {}
           },
           {
             "id": 16,
@@ -1485,7 +1818,14 @@
               "A"
             ],
             "points": 2,
-            "explanation": "正确词语：彩盒。“彩盒”是包装产品的盒子，句子说明盒子上的印刷颜色。"
+            "explanation": "正确词语：彩盒。“彩盒”是包装产品的盒子，句子说明盒子上的印刷颜色。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè pī shǒu jī bāo zhuāng ___ shàng de lán sè bǐ kè hù yāo qiú de gēng shēn 。",
+            "optionPinyin": {
+              "A": "cǎi hé",
+              "B": "yuán yīn",
+              "C": "biāo zhǔn",
+              "D": "pī cì"
+            }
           },
           {
             "id": 17,
@@ -1503,7 +1843,14 @@
               "C"
             ],
             "points": 2,
-            "explanation": "正确词语：印刷。“印刷工作”指在彩盒上印制图文的工作。"
+            "explanation": "正确词语：印刷。“印刷工作”指在彩盒上印制图文的工作。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè pī cǎi hé de ___ gōng zuò yǐ jīng wán chéng ， kě yǐ kāi shǐ jiǎn chá le 。",
+            "optionPinyin": {
+              "A": "yán sè",
+              "B": "pī cì",
+              "C": "yìn shuā",
+              "D": "yuán yīn"
+            }
           },
           {
             "id": 18,
@@ -1521,7 +1868,14 @@
               "B"
             ],
             "points": 2,
-            "explanation": "正确词语：颜色。“颜色”可以用“深、浅”来描述。"
+            "explanation": "正确词语：颜色。“颜色”可以用“深、浅”来描述。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè ge ___ yǒu diǎn shēn ， qǐng hé kè hù què rèn de yàng pǐn bǐ jiào yī xià 。",
+            "optionPinyin": {
+              "A": "pī cì",
+              "B": "yán sè",
+              "C": "yuán yīn",
+              "D": "yǐng xiǎng"
+            }
           },
           {
             "id": 19,
@@ -1539,7 +1893,14 @@
               "D"
             ],
             "points": 2,
-            "explanation": "正确词语：异常。“出现异常”表示出现不正常的情况。"
+            "explanation": "正确词语：异常。“出现异常”表示出现不正常的情况。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 pǐn zhì bù fā xiàn shēng chǎn guò chéng chū xiàn le ___， xū yào mǎ shàng bào gào 。",
+            "optionPinyin": {
+              "A": "yìn shuā",
+              "B": "yàng pǐn",
+              "C": "biāo zhǔn",
+              "D": "yì cháng"
+            }
           },
           {
             "id": 20,
@@ -1557,7 +1918,14 @@
               "A"
             ],
             "points": 2,
-            "explanation": "正确词语：色差。“色差”表示两个颜色之间的差别。"
+            "explanation": "正确词语：色差。“色差”表示两个颜色之间的差别。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè liǎng gè cǎi hé de lán sè bù yí yàng ， cún zài míng xiǎn de ___。",
+            "optionPinyin": {
+              "A": "sè chà",
+              "B": "pī cì",
+              "C": "yìn shuā",
+              "D": "biāo zhǔn"
+            }
           },
           {
             "id": 21,
@@ -1575,7 +1943,14 @@
               "C"
             ],
             "points": 2,
-            "explanation": "正确词语：样品。“样品”是用来比较和确认的实物样本。"
+            "explanation": "正确词语：样品。“样品”是用来比较和确认的实物样本。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 qǐng bǎ kè hù què rèn de ___ ná guò lái ， fāng biàn wǒ men bǐ jiào 。",
+            "optionPinyin": {
+              "A": "yuán yīn",
+              "B": "yìn shuā",
+              "C": "yàng pǐn",
+              "D": "yǐng xiǎng"
+            }
           },
           {
             "id": 22,
@@ -1593,7 +1968,14 @@
               "B"
             ],
             "points": 2,
-            "explanation": "正确词语：标准。“质量标准”表示客户规定的质量要求。"
+            "explanation": "正确词语：标准。“质量标准”表示客户规定的质量要求。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 suǒ yǒu chǎn pǐn dōu bì xū fú hé kè hù de zhì liàng ___。",
+            "optionPinyin": {
+              "A": "pī cì",
+              "B": "biāo zhǔn",
+              "C": "yán sè",
+              "D": "yuán yīn"
+            }
           },
           {
             "id": 23,
@@ -1611,7 +1993,14 @@
               "D"
             ],
             "points": 2,
-            "explanation": "正确词语：检查。“检查设备”表示查看设备是否正常。"
+            "explanation": "正确词语：检查。“检查设备”表示查看设备是否正常。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 kāi jī qián ， qǐng àn zhào diǎn jiǎn biǎo ___ yìn shuā shè bèi 。",
+            "optionPinyin": {
+              "A": "yìn shuā",
+              "B": "yǐng xiǎng",
+              "C": "gǎi shàn",
+              "D": "jiǎn chá"
+            }
           },
           {
             "id": 24,
@@ -1629,7 +2018,14 @@
               "A"
             ],
             "points": 2,
-            "explanation": "正确词语：确认。“确认”表示核实、确定具体情况。"
+            "explanation": "正确词语：确认。“确认”表示核实、确定具体情况。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 qǐng gōng chéng bù ___ zhè cì yán sè biàn huà de jù tǐ qíng kuàng 。",
+            "optionPinyin": {
+              "A": "què rèn",
+              "B": "yìn shuā",
+              "C": "gǎi shàn",
+              "D": "yǐng xiǎng"
+            }
           },
           {
             "id": 25,
@@ -1647,7 +2043,14 @@
               "C"
             ],
             "points": 2,
-            "explanation": "正确词语：原因。“原因”表示导致颜色变化的因素。"
+            "explanation": "正确词语：原因。“原因”表示导致颜色变化的因素。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 wǒ men hái bù zhī dào yán sè biàn shēn de ___， xū yào jìn yí bù fēn xī 。",
+            "optionPinyin": {
+              "A": "yàng pǐn",
+              "B": "pī cì",
+              "C": "yuán yīn",
+              "D": "cǎi hé"
+            }
           },
           {
             "id": 26,
@@ -1665,7 +2068,14 @@
               "B"
             ],
             "points": 2,
-            "explanation": "正确词语：调整。“调整参数”表示改变设备的设置。"
+            "explanation": "正确词语：调整。“调整参数”表示改变设备的设置。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 qǐng gōng chéng shī gēn jù jiǎn chá jié guǒ ___ yìn shuā jī de cān shù 。",
+            "optionPinyin": {
+              "A": "yìn shuā",
+              "B": "tiáo zhěng",
+              "C": "yǐng xiǎng",
+              "D": "pī cì"
+            }
           },
           {
             "id": 27,
@@ -1683,7 +2093,14 @@
               "D"
             ],
             "points": 2,
-            "explanation": "正确词语：批次。“批次”区分不同批生产的产品。"
+            "explanation": "正确词语：批次。“批次”区分不同批生产的产品。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 qǐng bǎ bù tóng ___ de chǎn pǐn fēn kāi fàng zhì ， bìng zuò hǎo jì lù 。",
+            "optionPinyin": {
+              "A": "jiǎn chá",
+              "B": "yuán yīn",
+              "C": "yǐng xiǎng",
+              "D": "pī cì"
+            }
           },
           {
             "id": 28,
@@ -1701,7 +2118,14 @@
               "A"
             ],
             "points": 2,
-            "explanation": "正确词语：影响。“影响后续生产”表示对后续生产产生作用。"
+            "explanation": "正确词语：影响。“影响后续生产”表示对后续生产产生作用。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 rú guǒ bù jí shí chǔ lǐ ， zhè ge wèn tí kě néng huì ___ hòu xù shēng chǎn 。",
+            "optionPinyin": {
+              "A": "yǐng xiǎng",
+              "B": "yìn shuā",
+              "C": "què rèn",
+              "D": "jiǎn chá"
+            }
           },
           {
             "id": 29,
@@ -1719,7 +2143,14 @@
               "C"
             ],
             "points": 2,
-            "explanation": "正确词语：处理。“处理”在这里指决定如何处置不合格产品。"
+            "explanation": "正确词语：处理。“处理”在这里指决定如何处置不合格产品。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè xiē bù hé gé chǎn pǐn gāi rú hé ___？ qǐng zhǔ guǎn gěi chū tuì huò huò fǎn gōng yì jiàn 。",
+            "optionPinyin": {
+              "A": "què rèn",
+              "B": "yǐng xiǎng",
+              "C": "chǔ lǐ",
+              "D": "yìn shuā"
+            }
           },
           {
             "id": 30,
@@ -1737,7 +2168,14 @@
               "B"
             ],
             "points": 2,
-            "explanation": "正确词语：改善。“改善措施”用于减少问题或防止问题再次发生。"
+            "explanation": "正确词语：改善。“改善措施”用于减少问题或防止问题再次发生。",
+            "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 wèi le bì miǎn wèn tí zài cì fā shēng ， gōng chéng bù xū yào tí chū ___ cuò shī 。",
+            "optionPinyin": {
+              "A": "cǎi hé",
+              "B": "gǎi shàn",
+              "C": "yán sè",
+              "D": "pī cì"
+            }
           },
           {
             "id": 31,
@@ -1757,7 +2195,8 @@
               "我们刚才检查这批手机包装彩盒时,发现印刷颜色有异常."
             ],
             "points": 2,
-            "explanation": "课件原句（李主管）：我们刚才检查这批手机包装彩盒时，发现印刷颜色有异常。\n“我们”作主语，“刚才”表示时间；“……时”引出发现问题的情境。"
+            "explanation": "课件原句（李主管）：我们刚才检查这批手机包装彩盒时，发现印刷颜色有异常。\n“我们”作主语，“刚才”表示时间；“……时”引出发现问题的情境。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n gāng cái  /  fā xiàn  /  wǒ men  /  yìn shuā yán sè yǒu yì cháng  /  jiǎn chá zhè pī shǒu jī bāo zhuāng cǎi hé shí"
           },
           {
             "id": 32,
@@ -1777,7 +2216,8 @@
               "你看一下,这个彩盒的蓝色明显比客户确认的样品深."
             ],
             "points": 2,
-            "explanation": "课件原句（李主管）：你看一下，这个彩盒的蓝色明显比客户确认的样品深。\n“比客户确认的样品”是比较结构，“深”放在比较结构后。"
+            "explanation": "课件原句（李主管）：你看一下，这个彩盒的蓝色明显比客户确认的样品深。\n“比客户确认的样品”是比较结构，“深”放在比较结构后。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bǐ kè hù què rèn de yàng pǐn  /  zhè ge cǎi hé de lán sè  /  nǐ kàn yī xià  /  shēn  /  míng xiǎn"
           },
           {
             "id": 33,
@@ -1791,7 +2231,8 @@
               "请把样品和刚生产的彩盒放在一起比较一下."
             ],
             "points": 2,
-            "explanation": "课件原句（王工）：请把样品和刚生产的彩盒放在一起比较一下。\n“请＋把＋对象＋动作”，先放在一起，再比较。"
+            "explanation": "课件原句（王工）：请把样品和刚生产的彩盒放在一起比较一下。\n“请＋把＋对象＋动作”，先放在一起，再比较。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bǎ yàng pǐn hé gāng shēng chǎn de cǎi hé  /  bǐ jiào yī xià  /  qǐng  /  fàng zài yì qǐ"
           },
           {
             "id": 34,
@@ -1811,7 +2252,8 @@
               "按照我们的标准,颜色应该基本一致,不能有明显的色差."
             ],
             "points": 2,
-            "explanation": "课件原句（王工）：按照我们的标准，颜色应该基本一致，不能有明显的色差。\n先说明依据，再说明颜色应当一致以及不能有明显色差。"
+            "explanation": "课件原句（王工）：按照我们的标准，颜色应该基本一致，不能有明显的色差。\n先说明依据，再说明颜色应当一致以及不能有明显色差。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n jī běn yí zhì  /  yán sè  /  yīng gāi  /  bù néng yǒu  /  àn zhào wǒ men de biāo zhǔn  /  míng xiǎn de sè chà"
           },
           {
             "id": 35,
@@ -1831,7 +2273,8 @@
               "这批产品今天上午开始生产,到现在已经完成三千个."
             ],
             "points": 2,
-            "explanation": "课件原句（陈组长）：这批产品今天上午开始生产，到现在已经完成三千个。\n先交代生产开始的时间，再说明到现在完成的数量。"
+            "explanation": "课件原句（陈组长）：这批产品今天上午开始生产，到现在已经完成三千个。\n先交代生产开始的时间，再说明到现在完成的数量。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n zhè pī chǎn pǐn  /  dào xiàn zài  /  jīn tiān shàng wǔ  /  kāi shǐ shēng chǎn  /  yǐ jīng wán chéng sān qiān gè"
           },
           {
             "id": 36,
@@ -1851,7 +2294,8 @@
               "前面检查的时候没有发现问题,刚才换了一批纸板以后,颜色好像变深了."
             ],
             "points": 2,
-            "explanation": "课件原句（陈组长）：前面检查的时候没有发现问题，刚才换了一批纸板以后，颜色好像变深了。\n按时间顺序说明前面没有问题、更换纸板后颜色变深。"
+            "explanation": "课件原句（陈组长）：前面检查的时候没有发现问题，刚才换了一批纸板以后，颜色好像变深了。\n按时间顺序说明前面没有问题、更换纸板后颜色变深。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n méi yǒu fā xiàn wèn tí  /  qián miàn jiǎn chá de shí hòu  /  yán sè  /  hǎo xiàng biàn shēn le  /  gāng cái huàn le yī pī zhǐ bǎn yǐ hòu"
           },
           {
             "id": 37,
@@ -1871,7 +2315,8 @@
               "这可能会影响产品外观,也可能不符合客户的要求."
             ],
             "points": 2,
-            "explanation": "课件原句（李主管）：这可能会影响产品外观，也可能不符合客户的要求。\n“可能……也可能……”说明异常带来的两种潜在影响。"
+            "explanation": "课件原句（李主管）：这可能会影响产品外观，也可能不符合客户的要求。\n“可能……也可能……”说明异常带来的两种潜在影响。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n yě kě néng  /  bù fú hé kè hù de yāo qiú  /  zhè  /  kě néng huì yǐng xiǎng chǎn pǐn wài guān"
           },
           {
             "id": 38,
@@ -1891,7 +2336,8 @@
               "我们需要先确认异常从什么时候开始,再检查已经生产的产品."
             ],
             "points": 2,
-            "explanation": "课件原句（李主管）：我们需要先确认异常从什么时候开始，再检查已经生产的产品。\n“先……再……”表示确认与检查的处理顺序。"
+            "explanation": "课件原句（李主管）：我们需要先确认异常从什么时候开始，再检查已经生产的产品。\n“先……再……”表示确认与检查的处理顺序。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n xiān què rèn yì cháng cóng shén me shí hòu kāi shǐ  /  wǒ men  /  yǐ jīng shēng chǎn de chǎn pǐn  /  zài jiǎn chá  /  xū yào"
           },
           {
             "id": 39,
@@ -1911,7 +2357,8 @@
               "我建议先暂停这台印刷机,避免继续生产不合格的彩盒."
             ],
             "points": 2,
-            "explanation": "课件原句（王工）：我建议先暂停这台印刷机，避免继续生产不合格的彩盒。\n先提出暂停设备的建议，再用“避免”说明目的。"
+            "explanation": "课件原句（王工）：我建议先暂停这台印刷机，避免继续生产不合格的彩盒。\n先提出暂停设备的建议，再用“避免”说明目的。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bù hé gé de cǎi hé  /  jì xù shēng chǎn  /  xiān zàn tíng zhè tái yìn shuā jī  /  wǒ jiàn yì  /  bì miǎn"
           },
           {
             "id": 40,
@@ -1931,7 +2378,8 @@
               "同时,请陈组长把不同批次的产品分开放好,并做好标记."
             ],
             "points": 2,
-            "explanation": "课件原句（王工）：同时，请陈组长把不同批次的产品分开放好，并做好标记。\n“请＋人＋把＋产品＋动作”，最后用“并”连接做好标记。"
+            "explanation": "课件原句（王工）：同时，请陈组长把不同批次的产品分开放好，并做好标记。\n“请＋人＋把＋产品＋动作”，最后用“并”连接做好标记。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bìng zuò hǎo biāo jì  /  tóng shí  /  bǎ bù tóng pī cì de chǎn pǐn  /  fēn kāi fàng hǎo  /  qǐng chén zǔ zhǎng"
           },
           {
             "id": 41,
@@ -1951,7 +2399,8 @@
               "我会把颜色正常和颜色异常的产品分开,记录每个批次的数量."
             ],
             "points": 2,
-            "explanation": "课件原句（陈组长）：我会把颜色正常和颜色异常的产品分开，记录每个批次的数量。\n先说明把不同状态的产品分开，再说明记录每批数量。"
+            "explanation": "课件原句（陈组长）：我会把颜色正常和颜色异常的产品分开，记录每个批次的数量。\n先说明把不同状态的产品分开，再说明记录每批数量。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bǎ yán sè zhèng cháng hé yán sè yì cháng de chǎn pǐn  /  jì lù  /  wǒ huì  /  fēn kāi  /  měi gè pī cì de shù liàng"
           },
           {
             "id": 42,
@@ -1971,7 +2420,8 @@
               "另外,需要检查刚才更换的纸板有没有问题吗?"
             ],
             "points": 2,
-            "explanation": "课件原句（陈组长）：另外，需要检查刚才更换的纸板有没有问题吗？\n“刚才更换的纸板”是检查对象，句末用“吗”表示询问。"
+            "explanation": "课件原句（陈组长）：另外，需要检查刚才更换的纸板有没有问题吗？\n“刚才更换的纸板”是检查对象，句末用“吗”表示询问。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n lìng wài  /  ma  /  gāng cái gēng huàn de zhǐ bǎn  /  yǒu méi yǒu wèn tí  /  xū yào jiǎn chá"
           },
           {
             "id": 43,
@@ -2009,7 +2459,8 @@
               "我们要检查纸板的表面,油墨的使用情况,以及印刷机的参数."
             ],
             "points": 2,
-            "explanation": "课件原句（王工）：我们要检查纸板的表面、油墨的使用情况，以及印刷机的参数。\n按课件原句的列举顺序：纸板表面、油墨使用情况、印刷机参数。"
+            "explanation": "课件原句（王工）：我们要检查纸板的表面、油墨的使用情况，以及印刷机的参数。\n按课件原句的列举顺序：纸板表面、油墨使用情况、印刷机参数。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n yìn shuā jī de cān shù  /  yóu mò de shǐ yòng qíng kuàng  /  zhǐ bǎn de biǎo miàn  /  yǐ jí  /  yào jiǎn chá  /  wǒ men"
           },
           {
             "id": 44,
@@ -2047,7 +2498,8 @@
               "颜色变深可能与油墨浓度,设备设置或材料差异有关,但现在还不能确定具体原因."
             ],
             "points": 2,
-            "explanation": "课件原句（王工）：颜色变深可能与油墨浓度、设备设置或材料差异有关，但现在还不能确定具体原因。\n“可能与……有关”表示推测，“但现在……”说明尚未确定原因。"
+            "explanation": "课件原句（王工）：颜色变深可能与油墨浓度、设备设置或材料差异有关，但现在还不能确定具体原因。\n“可能与……有关”表示推测，“但现在……”说明尚未确定原因。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n yóu mò nóng dù  /  shè bèi shè zhì  /  kě néng yǔ  /  dàn xiàn zài  /  hái bù néng què dìng jù tǐ yuán yīn  /  yán sè biàn shēn  /  huò cái liào chā yì yǒu guān"
           },
           {
             "id": 45,
@@ -2067,7 +2519,8 @@
               "品质部会重新检查这批产品,并与客户确认的样品进行比较."
             ],
             "points": 2,
-            "explanation": "课件原句（李主管）：品质部会重新检查这批产品，并与客户确认的样品进行比较。\n“品质部”作主语，“并”连接重新检查与比较两个动作。"
+            "explanation": "课件原句（李主管）：品质部会重新检查这批产品，并与客户确认的样品进行比较。\n“品质部”作主语，“并”连接重新检查与比较两个动作。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n pǐn zhì bù  /  jìn xíng bǐ jiào  /  huì chóng xīn jiǎn chá zhè pī chǎn pǐn  /  bìng yǔ  /  kè hù què rèn de yàng pǐn"
           },
           {
             "id": 46,
@@ -2087,7 +2540,8 @@
               "如果发现不符合标准的产品,我们会单独标记,不能直接送到包装工序."
             ],
             "points": 2,
-            "explanation": "课件原句（李主管）：如果发现不符合标准的产品，我们会单独标记，不能直接送到包装工序。\n先给出“如果……”条件，再说明标记与禁止送往包装工序。"
+            "explanation": "课件原句（李主管）：如果发现不符合标准的产品，我们会单独标记，不能直接送到包装工序。\n先给出“如果……”条件，再说明标记与禁止送往包装工序。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bù fú hé biāo zhǔn de chǎn pǐn  /  rú guǒ fā xiàn  /  sòng dào bāo zhuāng gōng xù  /  wǒ men huì dān dú biāo jì  /  bù néng zhí jiē"
           },
           {
             "id": 47,
@@ -2107,7 +2561,8 @@
               "那调整以后,我们是不是要先印刷几个彩盒,再交给品质部确认?"
             ],
             "points": 2,
-            "explanation": "课件原句（陈组长）：那调整以后，我们是不是要先印刷几个彩盒，再交给品质部确认？\n时间条件放前面，“先……再……”表示试印与品质确认的顺序。"
+            "explanation": "课件原句（陈组长）：那调整以后，我们是不是要先印刷几个彩盒，再交给品质部确认？\n时间条件放前面，“先……再……”表示试印与品质确认的顺序。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n zài jiāo gěi  /  nà tiáo zhěng yǐ hòu  /  yào xiān yìn shuā jǐ gè cǎi hé  /  pǐn zhì bù què rèn  /  wǒ men shì bú shì"
           },
           {
             "id": 48,
@@ -2127,7 +2582,8 @@
               "工程部调整设备参数后,先试印少量产品."
             ],
             "points": 2,
-            "explanation": "课件原句（王工）：工程部调整设备参数后，先试印少量产品。\n先说明工程部调整参数，之后再试印少量产品。"
+            "explanation": "课件原句（王工）：工程部调整设备参数后，先试印少量产品。\n先说明工程部调整参数，之后再试印少量产品。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n shǎo liàng chǎn pǐn  /  xiān shì yìn  /  gōng chéng bù  /  tiáo zhěng shè bèi cān shù hòu"
           },
           {
             "id": 49,
@@ -2147,7 +2603,8 @@
               "品质部确认颜色符合标准以后,才能恢复正常生产."
             ],
             "points": 2,
-            "explanation": "课件原句（王工）：品质部确认颜色符合标准以后，才能恢复正常生产。\n“……以后，才能……”表示恢复生产所需的先决条件。"
+            "explanation": "课件原句（王工）：品质部确认颜色符合标准以后，才能恢复正常生产。\n“……以后，才能……”表示恢复生产所需的先决条件。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n cái néng  /  què rèn yán sè fú hé biāo zhǔn yǐ hòu  /  pǐn zhì bù  /  huī fù zhèng cháng shēng chǎn"
           },
           {
             "id": 50,
@@ -2161,9 +2618,986 @@
               "请工程部记录调整前后的参数和检查结果."
             ],
             "points": 2,
-            "explanation": "课件原句（李主管）：请工程部记录调整前后的参数和检查结果。\n“请工程部记录”后接两个记录对象：参数和检查结果。"
+            "explanation": "课件原句（李主管）：请工程部记录调整前后的参数和检查结果。\n“请工程部记录”后接两个记录对象：参数和检查结果。",
+            "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n jì lù  /  tiáo zhěng qián hòu de cān shù  /  qǐng gōng chéng bù  /  hé jiǎn chá jié guǒ"
           }
-        ]
+        ],
+        "annotationVersion": 1
+      }
+    },
+    {
+      "id": "daily-lesson12-workday",
+      "bank": "daily",
+      "exercise": {
+        "title": "第12课 我每天的工作",
+        "description": "根据课件《我的一天出差》编写。共50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。排序题请输入完整句子，不用斜线分隔，不在汉字间添加空格；兼容句末有无句号。",
+        "questions": [
+          {
+            "id": 1,
+            "type": "choice",
+            "text": "【拼音选择】请选择“出差”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "chú chāi",
+              "B": "chù chāi",
+              "C": "chū chái",
+              "D": "chū chāi"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 2,
+            "explanation": "出差：chū chāi，意思是 đi công tác。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 2,
+            "type": "choice",
+            "text": "【拼音选择】请选择“客户”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "kě hù",
+              "B": "kē hù",
+              "C": "kè hù",
+              "D": "kè hú"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "客户：kè hù，意思是 khách hàng。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 3,
+            "type": "choice",
+            "text": "【拼音选择】请选择“对接”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "duì jié",
+              "B": "duì jiē",
+              "C": "duī jiè",
+              "D": "duǐ jiē"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 2,
+            "explanation": "对接：duì jiē，意思是 phối hợp công việc。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 4,
+            "type": "choice",
+            "text": "【拼音选择】请选择“生产”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "shēng chàn",
+              "B": "shēng chǎn",
+              "C": "shéng chǎn",
+              "D": "shěng chān"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 2,
+            "explanation": "生产：shēng chǎn，意思是 sản xuất。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 5,
+            "type": "choice",
+            "text": "【拼音选择】请选择“检查”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "jiàn chá",
+              "B": "jiǎn chá",
+              "C": "jiān chà",
+              "D": "jiǎn chā"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 2,
+            "explanation": "检查：jiǎn chá，意思是 kiểm tra。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 6,
+            "type": "choice",
+            "text": "【拼音选择】请选择“样品”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "yáng pǐn",
+              "B": "yǎng pìn",
+              "C": "yàng pǐn",
+              "D": "yàng pín"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "样品：yàng pǐn，意思是 hàng mẫu。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 7,
+            "type": "choice",
+            "text": "【拼音选择】请选择“问题”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "wěn tì",
+              "B": "wèn tǐ",
+              "C": "wèn tí",
+              "D": "wén tí"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "问题：wèn tí，意思是 vấn đề。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 8,
+            "type": "choice",
+            "text": "【拼音选择】请选择“准时”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "zhùn shí",
+              "B": "zhūn shǐ",
+              "C": "zhǔn shì",
+              "D": "zhǔn shí"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 2,
+            "explanation": "准时：zhǔn shí，意思是 đúng giờ。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 9,
+            "type": "choice",
+            "text": "【拼音选择】请选择“汇报”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "huǐ bǎo",
+              "B": "huì báo",
+              "C": "huì bào",
+              "D": "huí bào"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "汇报：huì bào，意思是 báo cáo。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 10,
+            "type": "choice",
+            "text": "【拼音选择】请选择“返程”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "fǎn chēng",
+              "B": "fān chèng",
+              "C": "fǎn chéng",
+              "D": "fàn chéng"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "返程：fǎn chéng，意思是 trở về sau chuyến đi。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 11,
+            "type": "choice",
+            "text": "【拼音选择】请选择“辛苦”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "xǐn kū",
+              "B": "xín kǔ",
+              "C": "xīn kǔ",
+              "D": "xīn kù"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "辛苦：xīn kǔ，意思是 vất vả。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 12,
+            "type": "choice",
+            "text": "【拼音选择】请选择“完成”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "wán chèng",
+              "B": "wǎn chéng",
+              "C": "wàn chēng",
+              "D": "wán chéng"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 2,
+            "explanation": "完成：wán chéng，意思是 hoàn thành。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 13,
+            "type": "choice",
+            "text": "【拼音选择】请选择“进度”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "jīn dǔ",
+              "B": "jǐn dù",
+              "C": "jìn dù",
+              "D": "jìn dú"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "进度：jìn dù，意思是 tiến độ。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 14,
+            "type": "choice",
+            "text": "【拼音选择】请选择“质量”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "zhī liǎng",
+              "B": "zhì liàng",
+              "C": "zhǐ liàng",
+              "D": "zhì liáng"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 2,
+            "explanation": "质量：zhì liàng，意思是 chất lượng。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 15,
+            "type": "choice",
+            "text": "【拼音选择】请选择“整改”的正确读音。",
+            "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+            "options": {
+              "A": "zhěng gài",
+              "B": "zhēng gāi",
+              "C": "zhèng gǎi",
+              "D": "zhěng gǎi"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 2,
+            "explanation": "整改：zhěng gǎi，意思是 khắc phục, cải thiện。",
+            "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
+            "optionPinyin": {}
+          },
+          {
+            "id": 16,
+            "type": "choice",
+            "text": "【选词填空】明天我要去外地____，拜访合作工厂。",
+            "vietnamese": "Ngày mai tôi đi công tác ở nơi khác để thăm nhà máy đối tác.",
+            "options": {
+              "A": "汇报",
+              "B": "整改",
+              "C": "出差",
+              "D": "返程"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "应填“出差”。完整句子：明天我要去外地出差，拜访合作工厂。",
+            "pinyin": "【 xuǎn cí tián kòng 】 míng tiān wǒ yào qù wài dì ____， bài fǎng hé zuò gōng chǎng 。",
+            "optionPinyin": {
+              "A": "huì bào",
+              "B": "zhěng gǎi",
+              "C": "chū chāi",
+              "D": "fǎn chéng"
+            }
+          },
+          {
+            "id": 17,
+            "type": "choice",
+            "text": "【选词填空】购买我们产品的那家公司，是我们的重要____。",
+            "vietnamese": "Công ty mua sản phẩm của chúng tôi là khách hàng quan trọng.",
+            "options": {
+              "A": "样品",
+              "B": "质量",
+              "C": "客户",
+              "D": "进度"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "应填“客户”。完整句子：购买我们产品的那家公司，是我们的重要客户。",
+            "pinyin": "【 xuǎn cí tián kòng 】 gòu mǎi wǒ men chǎn pǐn de nà jiā gōng sī ， shì wǒ men de zhòng yào ____。",
+            "optionPinyin": {
+              "A": "yàng pǐn",
+              "B": "zhì liàng",
+              "C": "kè hù",
+              "D": "jìn dù"
+            }
+          },
+          {
+            "id": 18,
+            "type": "choice",
+            "text": "【选词填空】这项工作需要双方协调，请你和生产部____一下。",
+            "vietnamese": "Công việc này cần hai bên phối hợp; hãy trao đổi với bộ phận sản xuất.",
+            "options": {
+              "A": "出差",
+              "B": "生产",
+              "C": "返程",
+              "D": "对接"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 2,
+            "explanation": "应填“对接”。完整句子：这项工作需要双方协调，请你和生产部对接一下。",
+            "pinyin": "【 xuǎn cí tián kòng 】 zhè xiàng gōng zuò xū yào shuāng fāng xié tiáo ， qǐng nǐ hé shēng chǎn bù ____ yī xià 。",
+            "optionPinyin": {
+              "A": "chū chāi",
+              "B": "shēng chǎn",
+              "C": "fǎn chéng",
+              "D": "duì jiē"
+            }
+          },
+          {
+            "id": 19,
+            "type": "choice",
+            "text": "【选词填空】这家工厂每天能____一千件产品。",
+            "vietnamese": "Nhà máy này có thể sản xuất một nghìn sản phẩm mỗi ngày.",
+            "options": {
+              "A": "生产",
+              "B": "辛苦",
+              "C": "返程",
+              "D": "汇报"
+            },
+            "answers": [
+              "A"
+            ],
+            "points": 2,
+            "explanation": "应填“生产”。完整句子：这家工厂每天能生产一千件产品。",
+            "pinyin": "【 xuǎn cí tián kòng 】 zhè jiā gōng chǎng měi tiān néng ____ yī qiān jiàn chǎn pǐn 。",
+            "optionPinyin": {
+              "A": "shēng chǎn",
+              "B": "xīn kǔ",
+              "C": "fǎn chéng",
+              "D": "huì bào"
+            }
+          },
+          {
+            "id": 20,
+            "type": "choice",
+            "text": "【选词填空】发货前，请仔细____这批产品有没有瑕疵。",
+            "vietnamese": "Trước khi giao hàng, hãy kiểm tra kỹ xem lô sản phẩm này có lỗi không.",
+            "options": {
+              "A": "汇报",
+              "B": "检查",
+              "C": "出差",
+              "D": "返程"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 2,
+            "explanation": "应填“检查”。完整句子：发货前，请仔细检查这批产品有没有瑕疵。",
+            "pinyin": "【 xuǎn cí tián kòng 】 fā huò qián ， qǐng zǐ xì ____ zhè pī chǎn pǐn yǒu méi yǒu xiá cī 。",
+            "optionPinyin": {
+              "A": "huì bào",
+              "B": "jiǎn chá",
+              "C": "chū chāi",
+              "D": "fǎn chéng"
+            }
+          },
+          {
+            "id": 21,
+            "type": "choice",
+            "text": "【选词填空】正式量产前，我们先做了一个____，供客户测试。",
+            "vietnamese": "Trước khi sản xuất hàng loạt, chúng tôi làm một mẫu để khách hàng thử nghiệm.",
+            "options": {
+              "A": "客户",
+              "B": "样品",
+              "C": "质量",
+              "D": "进度"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 2,
+            "explanation": "应填“样品”。完整句子：正式量产前，我们先做了一个样品，供客户测试。",
+            "pinyin": "【 xuǎn cí tián kòng 】 zhèng shì liàng chǎn qián ， wǒ men xiān zuò le yí gè ____， gōng kè hù cè shì 。",
+            "optionPinyin": {
+              "A": "kè hù",
+              "B": "yàng pǐn",
+              "C": "zhì liàng",
+              "D": "jìn dù"
+            }
+          },
+          {
+            "id": 22,
+            "type": "choice",
+            "text": "【选词填空】这台机器突然不能运转，可能出了____。",
+            "vietnamese": "Máy đột nhiên không chạy được, có thể đã xảy ra sự cố.",
+            "options": {
+              "A": "问题",
+              "B": "资料",
+              "C": "客户",
+              "D": "样品"
+            },
+            "answers": [
+              "A"
+            ],
+            "points": 2,
+            "explanation": "应填“问题”。完整句子：这台机器突然不能运转，可能出了问题。",
+            "pinyin": "【 xuǎn cí tián kòng 】 zhè tái jī qì tū rán bù néng yùn zhuàn ， kě néng chū le ____。",
+            "optionPinyin": {
+              "A": "wèn tí",
+              "B": "zī liào",
+              "C": "kè hù",
+              "D": "yàng pǐn"
+            }
+          },
+          {
+            "id": 23,
+            "type": "choice",
+            "text": "【选词填空】会议九点开始，请大家____参加，不要迟到。",
+            "vietnamese": "Cuộc họp bắt đầu lúc chín giờ; mọi người hãy tham gia đúng giờ.",
+            "options": {
+              "A": "准时",
+              "B": "返程",
+              "C": "辛苦",
+              "D": "质量"
+            },
+            "answers": [
+              "A"
+            ],
+            "points": 2,
+            "explanation": "应填“准时”。完整句子：会议九点开始，请大家准时参加，不要迟到。",
+            "pinyin": "【 xuǎn cí tián kòng 】 huì yì jiǔ diǎn kāi shǐ ， qǐng dà jiā ____ cān jiā ， bú yào chí dào 。",
+            "optionPinyin": {
+              "A": "zhǔn shí",
+              "B": "fǎn chéng",
+              "C": "xīn kǔ",
+              "D": "zhì liàng"
+            }
+          },
+          {
+            "id": 24,
+            "type": "choice",
+            "text": "【选词填空】出差结束后，我要向领导____工作情况。",
+            "vietnamese": "Sau chuyến công tác, tôi cần báo cáo tình hình công việc với lãnh đạo.",
+            "options": {
+              "A": "生产",
+              "B": "汇报",
+              "C": "整改",
+              "D": "返程"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 2,
+            "explanation": "应填“汇报”。完整句子：出差结束后，我要向领导汇报工作情况。",
+            "pinyin": "【 xuǎn cí tián kòng 】 chū chāi jié shù hòu ， wǒ yào xiàng lǐng dǎo ____ gōng zuò qíng kuàng 。",
+            "optionPinyin": {
+              "A": "shēng chǎn",
+              "B": "huì bào",
+              "C": "zhěng gǎi",
+              "D": "fǎn chéng"
+            }
+          },
+          {
+            "id": 25,
+            "type": "choice",
+            "text": "【选词填空】外地的工作已经结束，我们准备乘车____。",
+            "vietnamese": "Công việc ở nơi khác đã kết thúc, chúng tôi chuẩn bị lên xe trở về.",
+            "options": {
+              "A": "对接",
+              "B": "检查",
+              "C": "生产",
+              "D": "返程"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 2,
+            "explanation": "应填“返程”。完整句子：外地的工作已经结束，我们准备乘车返程。",
+            "pinyin": "【 xuǎn cí tián kòng 】 wài dì de gōng zuò yǐ jīng jié shù ， wǒ men zhǔn bèi chéng chē ____。",
+            "optionPinyin": {
+              "A": "duì jiē",
+              "B": "jiǎn chá",
+              "C": "shēng chǎn",
+              "D": "fǎn chéng"
+            }
+          },
+          {
+            "id": 26,
+            "type": "choice",
+            "text": "【选词填空】你忙了一整天，真____了！先休息一下吧。",
+            "vietnamese": "Bạn đã bận cả ngày, vất vả rồi! Hãy nghỉ một chút.",
+            "options": {
+              "A": "进度",
+              "B": "样品",
+              "C": "准时",
+              "D": "辛苦"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 2,
+            "explanation": "应填“辛苦”。完整句子：你忙了一整天，真辛苦了！先休息一下吧。",
+            "pinyin": "【 xuǎn cí tián kòng 】 nǐ máng le yī zhěng tiān ， zhēn ____ le ！ xiān xiū xī yī xià ba 。",
+            "optionPinyin": {
+              "A": "jìn dù",
+              "B": "yàng pǐn",
+              "C": "zhǔn shí",
+              "D": "xīn kǔ"
+            }
+          },
+          {
+            "id": 27,
+            "type": "choice",
+            "text": "【选词填空】今天的任务已经全部____，可以下班了。",
+            "vietnamese": "Nhiệm vụ hôm nay đã hoàn thành toàn bộ, có thể tan làm rồi.",
+            "options": {
+              "A": "汇报",
+              "B": "返程",
+              "C": "生产",
+              "D": "完成"
+            },
+            "answers": [
+              "D"
+            ],
+            "points": 2,
+            "explanation": "应填“完成”。完整句子：今天的任务已经全部完成，可以下班了。",
+            "pinyin": "【 xuǎn cí tián kòng 】 jīn tiān de rèn wù yǐ jīng quán bù ____， kě yǐ xià bān le 。",
+            "optionPinyin": {
+              "A": "huì bào",
+              "B": "fǎn chéng",
+              "C": "shēng chǎn",
+              "D": "wán chéng"
+            }
+          },
+          {
+            "id": 28,
+            "type": "choice",
+            "text": "【选词填空】这个项目一共分五个阶段，目前做到第三阶段，这是最新的工作____。",
+            "vietnamese": "Dự án có năm giai đoạn, hiện đang ở giai đoạn ba; đây là tiến độ mới nhất.",
+            "options": {
+              "A": "样品",
+              "B": "进度",
+              "C": "客户",
+              "D": "质量"
+            },
+            "answers": [
+              "B"
+            ],
+            "points": 2,
+            "explanation": "应填“进度”。完整句子：这个项目一共分五个阶段，目前做到第三阶段，这是最新的工作进度。",
+            "pinyin": "【 xuǎn cí tián kòng 】 zhè ge xiàng mù yī gòng fēn wǔ gè jiē duàn ， mù qián zuò dào dì sān jiē duàn ， zhè shì zuì xīn de gōng zuò ____。",
+            "optionPinyin": {
+              "A": "yàng pǐn",
+              "B": "jìn dù",
+              "C": "kè hù",
+              "D": "zhì liàng"
+            }
+          },
+          {
+            "id": 29,
+            "type": "choice",
+            "text": "【选词填空】这批产品结实耐用，____很好，客户很满意。",
+            "vietnamese": "Lô sản phẩm này bền chắc, chất lượng rất tốt, khách hàng rất hài lòng.",
+            "options": {
+              "A": "客户",
+              "B": "返程",
+              "C": "质量",
+              "D": "进度"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "应填“质量”。完整句子：这批产品结实耐用，质量很好，客户很满意。",
+            "pinyin": "【 xuǎn cí tián kòng 】 zhè pī chǎn pǐn jiē shi nài yòng ，____ hěn hǎo ， kè hù hěn mǎn yì 。",
+            "optionPinyin": {
+              "A": "kè hù",
+              "B": "fǎn chéng",
+              "C": "zhì liàng",
+              "D": "jìn dù"
+            }
+          },
+          {
+            "id": 30,
+            "type": "choice",
+            "text": "【选词填空】检查发现产品不合格，工厂必须按要求立即____。",
+            "vietnamese": "Sản phẩm được phát hiện không đạt yêu cầu; nhà máy phải khắc phục ngay theo yêu cầu.",
+            "options": {
+              "A": "出差",
+              "B": "返程",
+              "C": "整改",
+              "D": "汇报"
+            },
+            "answers": [
+              "C"
+            ],
+            "points": 2,
+            "explanation": "应填“整改”。完整句子：检查发现产品不合格，工厂必须按要求立即整改。",
+            "pinyin": "【 xuǎn cí tián kòng 】 jiǎn chá fā xiàn chǎn pǐn bù hé gé ， gōng chǎng bì xū àn yāo qiú lì jí ____。",
+            "optionPinyin": {
+              "A": "chū chāi",
+              "B": "fǎn chéng",
+              "C": "zhěng gǎi",
+              "D": "huì bào"
+            }
+          },
+          {
+            "id": 31,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n我要 / 今天 / 出差 / 去合作工厂",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "今天我要去合作工厂出差。",
+              "今天我要去合作工厂出差",
+              "今天我要去合作工厂出差."
+            ],
+            "points": 2,
+            "explanation": "参考句子：今天我要去合作工厂出差。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ yào  /  jīn tiān  /  chū chāi  /  qù hé zuò gōng chǎng"
+          },
+          {
+            "id": 32,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n早上七点 / 出发 / 从公司 / 我",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "我早上七点从公司出发。",
+              "我早上七点从公司出发",
+              "我早上七点从公司出发."
+            ],
+            "points": 2,
+            "explanation": "参考句子：我早上七点从公司出发。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n zǎo shàng qī diǎn  /  chū fā  /  cóng gōng sī  /  wǒ"
+          },
+          {
+            "id": 33,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n到达客户工厂 / 准时 / 我 / 八点的时候",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "八点的时候，我准时到达客户工厂。",
+              "八点的时候，我准时到达客户工厂",
+              "八点的时候我准时到达客户工厂。",
+              "八点的时候我准时到达客户工厂",
+              "八点的时候,我准时到达客户工厂.",
+              "八点的时候,我准时到达客户工厂"
+            ],
+            "points": 2,
+            "explanation": "参考句子：八点的时候，我准时到达客户工厂。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n dào dá kè hù gōng chǎng  /  zhǔn shí  /  wǒ  /  bā diǎn de shí hòu"
+          },
+          {
+            "id": 34,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n和客户 / 我先 / 到了工厂以后 / 确认今天的工作安排",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "到了工厂以后，我先和客户确认今天的工作安排。",
+              "到了工厂以后，我先和客户确认今天的工作安排",
+              "到了工厂以后我先和客户确认今天的工作安排。",
+              "到了工厂以后我先和客户确认今天的工作安排",
+              "到了工厂以后,我先和客户确认今天的工作安排.",
+              "到了工厂以后,我先和客户确认今天的工作安排"
+            ],
+            "points": 2,
+            "explanation": "参考句子：到了工厂以后，我先和客户确认今天的工作安排。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n hé kè hù  /  wǒ xiān  /  dào le gōng chǎng yǐ hòu  /  què rèn jīn tiān de gōng zuò ān pái"
+          },
+          {
+            "id": 35,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n生产部和质检部的负责人 / 然后 / 我开始 / 对接",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "然后我开始对接生产部和质检部的负责人。",
+              "然后我开始对接生产部和质检部的负责人",
+              "然后我开始对接生产部和质检部的负责人."
+            ],
+            "points": 2,
+            "explanation": "参考句子：然后我开始对接生产部和质检部的负责人。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n shēng chǎn bù hé zhì jiǎn bù de fù zé rén  /  rán hòu  /  wǒ kāi shǐ  /  duì jiē"
+          },
+          {
+            "id": 36,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n向我 / 目前的生产情况 / 介绍了 / 他们",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "他们向我介绍了目前的生产情况。",
+              "他们向我介绍了目前的生产情况",
+              "他们向我介绍了目前的生产情况."
+            ],
+            "points": 2,
+            "explanation": "参考句子：他们向我介绍了目前的生产情况。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n xiàng wǒ  /  mù qián de shēng chǎn qíng kuàng  /  jiè shào le  /  tā men"
+          },
+          {
+            "id": 37,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n了解 / 我 / 需要 / 这批订单的生产进度",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "我需要了解这批订单的生产进度。",
+              "我需要了解这批订单的生产进度",
+              "我需要了解这批订单的生产进度."
+            ],
+            "points": 2,
+            "explanation": "参考句子：我需要了解这批订单的生产进度。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n liǎo jiě  /  wǒ  /  xū yào  /  zhè pī dìng dān de shēng chǎn jìn dù"
+          },
+          {
+            "id": 38,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n跟进项目进度 / 每天都要 / 为了保证交货时间 / 我们",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "为了保证交货时间，我们每天都要跟进项目进度。",
+              "为了保证交货时间，我们每天都要跟进项目进度",
+              "为了保证交货时间我们每天都要跟进项目进度。",
+              "为了保证交货时间我们每天都要跟进项目进度",
+              "为了保证交货时间,我们每天都要跟进项目进度.",
+              "为了保证交货时间,我们每天都要跟进项目进度"
+            ],
+            "points": 2,
+            "explanation": "参考句子：为了保证交货时间，我们每天都要跟进项目进度。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n gēn jìn xiàng mù jìn dù  /  měi tiān dōu yào  /  wèi le bǎo zhèng jiāo huò shí jiān  /  wǒ men"
+          },
+          {
+            "id": 39,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n我 / 检查产品质量 / 来到车间 / 随后",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "随后，我来到车间检查产品质量。",
+              "随后，我来到车间检查产品质量",
+              "随后我来到车间检查产品质量。",
+              "随后我来到车间检查产品质量",
+              "随后,我来到车间检查产品质量.",
+              "随后,我来到车间检查产品质量"
+            ],
+            "points": 2,
+            "explanation": "参考句子：随后，我来到车间检查产品质量。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ  /  jiǎn chá chǎn pǐn zhì liàng  /  lái dào chē jiān  /  suí hòu"
+          },
+          {
+            "id": 40,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n存在小问题 / 我 / 在检查过程中 / 发现一个样品",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "在检查过程中，我发现一个样品存在小问题。",
+              "在检查过程中，我发现一个样品存在小问题",
+              "在检查过程中我发现一个样品存在小问题。",
+              "在检查过程中我发现一个样品存在小问题",
+              "在检查过程中,我发现一个样品存在小问题.",
+              "在检查过程中,我发现一个样品存在小问题"
+            ],
+            "points": 2,
+            "explanation": "参考句子：在检查过程中，我发现一个样品存在小问题。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n cún zài xiǎo wèn tí  /  wǒ  /  zài jiǎn chá guò chéng zhōng  /  fā xiàn yí gè yàng pǐn"
+          },
+          {
+            "id": 41,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n需要及时整改 / 但是 / 虽然不严重 / 这个问题",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "这个问题虽然不严重，但是需要及时整改。",
+              "这个问题虽然不严重，但是需要及时整改",
+              "这个问题虽然不严重但是需要及时整改。",
+              "这个问题虽然不严重但是需要及时整改",
+              "这个问题虽然不严重,但是需要及时整改.",
+              "这个问题虽然不严重,但是需要及时整改"
+            ],
+            "points": 2,
+            "explanation": "参考句子：这个问题虽然不严重，但是需要及时整改。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n xū yào jí shí zhěng gǎi  /  dàn shì  /  suī rán bù yán zhòng  /  zhè ge wèn tí"
+          },
+          {
+            "id": 42,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n处理这个问题 / 马上 / 通知相关负责人 / 我",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "我马上通知相关负责人处理这个问题。",
+              "我马上通知相关负责人处理这个问题",
+              "我马上通知相关负责人处理这个问题."
+            ],
+            "points": 2,
+            "explanation": "参考句子：我马上通知相关负责人处理这个问题。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n chǔ lǐ zhè ge wèn tí  /  mǎ shàng  /  tōng zhī xiāng guān fù zé rén  /  wǒ"
+          },
+          {
+            "id": 43,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n进行整改 / 为了不耽误整体生产计划 / 立即安排人员 / 工厂",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "为了不耽误整体生产计划，工厂立即安排人员进行整改。",
+              "为了不耽误整体生产计划，工厂立即安排人员进行整改",
+              "为了不耽误整体生产计划工厂立即安排人员进行整改。",
+              "为了不耽误整体生产计划工厂立即安排人员进行整改",
+              "为了不耽误整体生产计划,工厂立即安排人员进行整改.",
+              "为了不耽误整体生产计划,工厂立即安排人员进行整改"
+            ],
+            "points": 2,
+            "explanation": "参考句子：为了不耽误整体生产计划，工厂立即安排人员进行整改。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n jìn xíng zhěng gǎi  /  wèi le bù dān wu zhěng tǐ shēng chǎn jì huà  /  lì jí ān pái rén yuán  /  gōng chǎng"
+          },
+          {
+            "id": 44,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n整改完成以后 / 检查产品 / 再次 / 我",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "整改完成以后，我再次检查产品。",
+              "整改完成以后，我再次检查产品",
+              "整改完成以后我再次检查产品。",
+              "整改完成以后我再次检查产品",
+              "整改完成以后,我再次检查产品.",
+              "整改完成以后,我再次检查产品"
+            ],
+            "points": 2,
+            "explanation": "参考句子：整改完成以后，我再次检查产品。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n zhěng gǎi wán chéng yǐ hòu  /  jiǎn chá chǎn pǐn  /  zài cì  /  wǒ"
+          },
+          {
+            "id": 45,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n经过确认 / 已经达到 / 产品质量 / 客户要求",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "经过确认，产品质量已经达到客户要求。",
+              "经过确认，产品质量已经达到客户要求",
+              "经过确认产品质量已经达到客户要求。",
+              "经过确认产品质量已经达到客户要求",
+              "经过确认,产品质量已经达到客户要求.",
+              "经过确认,产品质量已经达到客户要求"
+            ],
+            "points": 2,
+            "explanation": "参考句子：经过确认，产品质量已经达到客户要求。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n jīng guò què rèn  /  yǐ jīng dá dào  /  chǎn pǐn zhì liàng  /  kè hù yāo qiú"
+          },
+          {
+            "id": 46,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n和客户一起 / 我 / 讨论后续生产安排 / 中午的时候",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "中午的时候，我和客户一起讨论后续生产安排。",
+              "中午的时候，我和客户一起讨论后续生产安排",
+              "中午的时候我和客户一起讨论后续生产安排。",
+              "中午的时候我和客户一起讨论后续生产安排",
+              "中午的时候,我和客户一起讨论后续生产安排.",
+              "中午的时候,我和客户一起讨论后续生产安排"
+            ],
+            "points": 2,
+            "explanation": "参考句子：中午的时候，我和客户一起讨论后续生产安排。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n hé kè hù yì qǐ  /  wǒ  /  tǎo lùn hòu xù shēng chǎn ān pái  /  zhōng wǔ de shí hòu"
+          },
+          {
+            "id": 47,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n整理了 / 当天的工作资料和检查记录 / 我 / 下午",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "下午我整理了当天的工作资料和检查记录。",
+              "下午我整理了当天的工作资料和检查记录",
+              "下午我整理了当天的工作资料和检查记录."
+            ],
+            "points": 2,
+            "explanation": "参考句子：下午我整理了当天的工作资料和检查记录。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n zhěng lǐ le  /  dāng tiān de gōng zuò zī liào hé jiǎn chá jì lù  /  wǒ  /  xià wǔ"
+          },
+          {
+            "id": 48,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n我 / 向客户 / 返程之前 / 确认了下一批订单的生产计划",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "返程之前，我向客户确认了下一批订单的生产计划。",
+              "返程之前，我向客户确认了下一批订单的生产计划",
+              "返程之前我向客户确认了下一批订单的生产计划。",
+              "返程之前我向客户确认了下一批订单的生产计划",
+              "返程之前,我向客户确认了下一批订单的生产计划.",
+              "返程之前,我向客户确认了下一批订单的生产计划"
+            ],
+            "points": 2,
+            "explanation": "参考句子：返程之前，我向客户确认了下一批订单的生产计划。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ  /  xiàng kè hù  /  fǎn chéng zhī qián  /  què rèn le xià yī pī dìng dān de shēng chǎn jì huà"
+          },
+          {
+            "id": 49,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n我 / 汇报了本次出差的情况 / 回到公司以后 / 向领导",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "回到公司以后，我向领导汇报了本次出差的情况。",
+              "回到公司以后，我向领导汇报了本次出差的情况",
+              "回到公司以后我向领导汇报了本次出差的情况。",
+              "回到公司以后我向领导汇报了本次出差的情况",
+              "回到公司以后,我向领导汇报了本次出差的情况.",
+              "回到公司以后,我向领导汇报了本次出差的情况"
+            ],
+            "points": 2,
+            "explanation": "参考句子：回到公司以后，我向领导汇报了本次出差的情况。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ  /  huì bào le běn cì chū chāi de qíng kuàng  /  huí dào gōng sī yǐ hòu  /  xiàng lǐng dǎo"
+          },
+          {
+            "id": 50,
+            "type": "fill",
+            "text": "【句子排序】将下列词语排列成完整句子并输入（不写序号，不用斜线分隔）：\n所有工作任务 / 我顺利完成了 / 但是 / 虽然这次出差很辛苦",
+            "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh và nhập cả câu. Không dùng dấu gạch chéo; không thêm khoảng trắng giữa các từ tiếng Trung.",
+            "answers": [
+              "虽然这次出差很辛苦，但是我顺利完成了所有工作任务。",
+              "虽然这次出差很辛苦，但是我顺利完成了所有工作任务",
+              "虽然这次出差很辛苦但是我顺利完成了所有工作任务。",
+              "虽然这次出差很辛苦但是我顺利完成了所有工作任务",
+              "虽然这次出差很辛苦,但是我顺利完成了所有工作任务.",
+              "虽然这次出差很辛苦,但是我顺利完成了所有工作任务"
+            ],
+            "points": 2,
+            "explanation": "参考句子：虽然这次出差很辛苦，但是我顺利完成了所有工作任务。",
+            "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n suǒ yǒu gōng zuò rèn wù  /  wǒ shùn lì wán chéng le  /  dàn shì  /  suī rán zhè cì chū chāi hěn xīn kǔ"
+          }
+        ],
+        "annotationVersion": 1
       }
     }
   ]

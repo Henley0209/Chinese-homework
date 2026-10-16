@@ -11,3 +11,16 @@ h1{font-size:clamp(28px,5vw,var(--title-size,46px));white-space:pre-line;overflo
 .primary:hover{background:var(--blue);filter:brightness(.88)}
 .brand,.hero p,footer{overflow-wrap:anywhere}
 @media(max-width:650px){h1{font-size:min(var(--title-size,46px),38px)}}
+
+/* Classroom masthead: preserve image aspect ratio on all screens. */
+header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22px}
+.brand{font-size:clamp(25px,3.4vw,36px);line-height:1.25;min-width:0}
+.brand-subtitle{display:block;font-size:16px;line-height:1.5;margin-top:12px;font-weight:400;white-space:pre-wrap}
+.hero{position:relative;isolation:isolate;border-radius:18px;overflow:hidden}
+.hero-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-2}
+.has-hero-image .hero{padding:36px;grid-template-columns:1fr;min-height:400px}
+.has-hero-image .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.95),rgba(255,255,255,.75) 48%,rgba(255,255,255,.08));z-index:-1}
+.has-hero-image .illustration{display:none}
+.has-hero-image .hero>div:first-child{max-width:590px}
+.has-hero-image .hero p{color:#294b5f}
+@media(max-width:650px){header{min-height:96px;align-items:flex-start;gap:12px}.brand{font-size:26px;gap:9px}.logo{font-size:25px;padding:3px 9px}.brand-subtitle{font-size:14px;margin-top:10px}.has-hero-image .hero{min-height:420px;padding:24px 20px}.has-hero-image .hero::before{background:rgba(255,255,255,.83)}}

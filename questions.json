@@ -24,13 +24,13 @@
       "id": 2,
       "type": "choice",
       "text": "“谢谢”的拼音是？",
-      "pinyin": "谢谢",
+      "pinyin": "Qǐng xuǎn zé zhèng què de pīn yīn.",
       "vietnamese": "Chọn phiên âm đúng.",
       "options": {
-        "A": "nǐ hǎo",
-        "B": "zài jiàn",
+        "A": "xì xie",
+        "B": "xiè xi",
         "C": "xiè xie",
-        "D": "lǎo shī"
+        "D": "xià xie"
       },
       "answers": [
         "C"
@@ -168,13 +168,13 @@
       "id": 10,
       "type": "choice",
       "text": "“学生”的拼音是？",
-      "pinyin": "学生",
+      "pinyin": "Qǐng xuǎn zé zhèng què de pīn yīn.",
       "vietnamese": "Chọn phiên âm đúng.",
       "options": {
         "A": "xué sheng",
-        "B": "lǎo shī",
-        "C": "péng you",
-        "D": "míng zi"
+        "B": "xué shen",
+        "C": "xué seng",
+        "D": "xié sheng"
       },
       "answers": [
         "A"
@@ -244,5 +244,7 @@
       "points": 10,
       "explanation": "“中文”和“汉语”都可以表示 tiếng Trung。"
     }
-  ]
+  ],
+  "previousPronunciationHash": "1cac6ad1",
+  "pronunciationOptionsVersion": 1
 }

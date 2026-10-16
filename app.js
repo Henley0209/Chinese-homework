@@ -2,8 +2,8 @@ import {showFeedback,stopFeedback} from './result-feedback.mjs?v=voice18';
 import {recordLogin} from './visit-counter.mjs?v=visits15';
 import {validate,grade,normalize} from './grading.mjs';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
-import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=guide17';
-import {teacherActive} from './teacher-tools.mjs?v=guide17';
+import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=fuzzy19';
+import {teacherActive} from './teacher-tools.mjs?v=fuzzy19';
 const $=s=>document.querySelector(s);let data,student,submitted=false,intro=null,starting=false;const notice=t=>$('#notice').textContent=t;
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function install(value){stopFeedback();data=validate(value);$('#start').disabled=false;$('#exercise').hidden=true;$('#result').hidden=true;$('#welcome').hidden=false;submitted=false;notice('');}

@@ -8,7 +8,9 @@ function canonical(value){
  if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(k==='title'?titleKey(value[k]):value[k])]));
  return value;
 }
+function fingerprint(value){let hash=2166136261;for(const char of JSON.stringify(canonical(value)))hash=Math.imul(hash^char.codePointAt(0),16777619)>>>0;return hash.toString(16).padStart(8,'0');}
 function same(a,b){
+ if(a.pronunciationOptionsVersion===1&&a.previousPronunciationHash===fingerprint(b))return true;
  if(JSON.stringify(canonical(a))===JSON.stringify(canonical(b)))return true;
  // Retire an unchanged old draft when only pronunciation annotations were published.
  if(a.annotationVersion===1&&!b.annotationVersion){

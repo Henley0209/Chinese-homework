@@ -45,12 +45,21 @@ export function applyAppearance(value,target=document){const c=validateAppearanc
  if(c.backgroundImage){if(!image){image=target.createElement('img');image.className='hero-background';image.alt='';hero.prepend(image);}if(image.getAttribute('src')!==c.backgroundImage)image.src=c.backgroundImage;}
  else if(image)image.remove();
  }target.body.classList.toggle('has-hero-image',!!c.backgroundImage);
+ target.documentElement.classList.remove('appearance-loading');
+ target.getElementById?.('site-loading')?.remove();
+ if(typeof window!=='undefined'&&target===document)clearTimeout(window.__appearanceBootTimer);
  target.title=c.brand+' · 在线作业';target.body.classList.toggle('single-fields',c.layout==='one');target.body.classList.toggle('compact-hero',c.compact);target.body.classList.toggle('no-illustration',!c.illustration);return c;
 }
 if(typeof document!=='undefined'&&document.body.dataset.page!=='editor'){
  // Only the editor's same-origin parent may send temporary preview changes.
  const preview=new URLSearchParams(location.search).has('appearance-preview')&&window.parent!==window;
  if(preview)window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==window.parent||e.data?.type!=='appearance-preview')return;try{applyAppearance(e.data.config);}catch{}});
- try{const r=await fetch('./site-config.json',{cache:'no-store'});if(!r.ok)throw Error();const c=await r.json();if(!preview)applyAppearance(c);}catch{if(!preview)applyAppearance(defaults);}
+ try{
+ const r=await fetch('./site-config.json',{cache:'no-store'});if(!r.ok)throw Error();const c=validateAppearance(await r.json());
+ if(!preview){
+ if(c.backgroundImage){const image=new Image();image.src=c.backgroundImage;try{await Promise.race([image.decode(),new Promise(resolve=>setTimeout(resolve,2000))]);}catch{}}
+ applyAppearance(c);
+ }
+ }catch{if(!preview)applyAppearance(defaults);}
  if(preview)window.parent.postMessage({type:'appearance-ready'},location.origin);
 }

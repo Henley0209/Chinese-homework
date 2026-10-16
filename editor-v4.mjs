@@ -1,4 +1,4 @@
-import {defaults,validateAppearance,applyAppearance} from './appearance-v4.mjs';
+import {defaults,validateAppearance,applyAppearance} from './appearance-v4.mjs?v=opacity-5';
 const form=document.querySelector('#settings'),frame=document.querySelector('#preview'),status=document.querySelector('#status'),key='qinglan-appearance-draft-v1';let config={...defaults};
 function show(t){status.textContent=t;}
 function send(){
@@ -8,7 +8,7 @@ function send(){
 }
 frame.addEventListener('load',send);
 function populate(c){config=validateAppearance(c);for(const [k,v]of Object.entries(config)){const input=form.elements.namedItem(k);if(!input)continue;if(input.type==='checkbox')input.checked=v;else input.value=v;}labels();send();}
-function labels(){document.querySelector('#font-value').textContent=config.fontSize+'px';document.querySelector('#title-value').textContent=config.titleSize+'px';}
+function labels(){document.querySelector('#photo-opacity-value').textContent=config.backgroundOpacity+'%';document.querySelector('#overlay-opacity-value').textContent=config.overlayOpacity+'%';document.querySelector('#font-value').textContent=config.fontSize+'px';document.querySelector('#title-value').textContent=config.titleSize+'px';}
 function read(){const c={};for(const [k,v]of Object.entries(defaults)){const input=form.elements.namedItem(k);if(!input){c[k]=config[k];continue;}c[k]=typeof v==='boolean'?input.checked:typeof v==='number'?Number(input.value):input.value;}return validateAppearance(c);}
 window.addEventListener('message',e=>{if(e.origin===location.origin&&e.source===frame.contentWindow&&e.data?.type==='appearance-ready'){send();}});
 form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',()=>{try{config=read();labels();send();show('正在预览修改，尚未保存或发布。');}catch(e){show(e.message);}});

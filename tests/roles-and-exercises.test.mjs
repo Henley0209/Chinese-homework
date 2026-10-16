@@ -30,7 +30,8 @@ const nodes=new Map(),selects=new Set(['#user-role','#question-bank','#exercise-
 const $=s=>{if(!nodes.has(s))nodes.set(s,node(selects.has(s)?'select':'div'));return nodes.get(s);};
 $('#user-role').value='student';$('#question-bank').value='hsk1-2';$('#upload-mode').value='add';$('#teacher-login').hidden=true;
 const crypto={subtle:webcrypto.subtle,randomUUID};
-const context={...store,isTeacherPassword:value=>Promise.resolve(value==='teacher-test-only'),resolveBank,validate,grade,normalize,crypto,structuredClone,TextEncoder,Uint8Array,URL,Blob,confirm:()=>true,setTimeout,console,
+const loginEvents=[];
+const context={recordLogin:role=>{loginEvents.push(role);},...store,isTeacherPassword:value=>Promise.resolve(value==='teacher-test-only'),resolveBank,validate,grade,normalize,crypto,structuredClone,TextEncoder,Uint8Array,URL,Blob,confirm:()=>true,setTimeout,console,
  document:{querySelector:$,createElement:tag=>node(tag)},FormData:class{constructor(f){this.values=f.fd;}get(k){return this.values[k]??null;}}};
 async function script(name,append=''){let s=fs.readFileSync(new URL(name,root),'utf8').replace(/^import .*;\n/gm,'').replaceAll('export ','');await vm.runInNewContext('(async()=>{'+s+'\n'+append+'})()',context);}
 await script('teacher-tools.mjs','globalThis.teacherActive=teacherActive;');await script('app.js');
@@ -41,15 +42,16 @@ for(const [id,pass]of [['hsk1-2','NgaZhu1122'],['hsk3','NgaZhu1133'],['hsk4','Ng
  $('#question-bank').value=id;$('#question-bank').handlers.change();assert.equal($('#exercise-select').value,id+'-1');
  form.fd={student:'An',className:'A1',questionBank:id,exerciseId:id+'-1',bankPassword:pass};await submit();assert.equal($('#progress').max,10);assert.equal($('#bank-error').textContent,'');
 }
-form.fd={student:'An',className:'A1',questionBank:'hsk3',exerciseId:'hsk1-2-1',bankPassword:'NgaZhu1133'};await submit();assert.match($('#bank-error').textContent,/对应的练习/);
+form.fd={student:'An',className:'A1',questionBank:'hsk3',exerciseId:'hsk1-2-1',bankPassword:'NgaZhu1133'};await submit();assert.match($('#bank-error').textContent,/对应的练习/);assert.equal(loginEvents.length,7);
 const file={size:100,text:async()=>JSON.stringify(changed.exercise)},event={target:{files:[file],value:'file'}};
 await $('#import').onchange(event);assert.match($('#teacher-status').textContent,/先完成教师验证/);assert.equal(store.draftCount(),0);
 $('#user-role').value='teacher';$('#user-role').handlers.change();assert.equal($('#teacher-login').hidden,false);assert.equal($('#student-entry').hidden,true);
 $('#teacher-password').value='wrong';$('#teacher-login').handlers.submit({preventDefault(){}});
-const tick=()=>new Promise(r=>setTimeout(r,15));await tick();assert.equal($('#tools').open,false);
+const tick=()=>new Promise(r=>setTimeout(r,15));await tick();assert.equal($('#tools').open,false);assert.equal(loginEvents.filter(r=>r==='teacher').length,0);
 $('#teacher-password').value='teacher-test-only';$('#teacher-password').handlers.input();
 for(let i=0;i<80&&!$('#tools').open;i++)await tick();
-assert.equal($('#tools').open,true);assert.equal($('#teacher-password').value,'');
+assert.equal($('#tools').open,true);assert.equal($('#teacher-password').value,'');assert.equal(loginEvents.filter(r=>r==='teacher').length,1);
+$('#tools').close();await $('#open-teacher-tools').onclick();assert.equal(loginEvents.filter(r=>r==='teacher').length,1);
 $('#upload-bank').value='hsk3';$('#upload-mode').value='add';await $('#import').onchange({target:{files:[file],value:'file'}});
 assert.equal(store.listExercises('hsk3').length,2);assert.equal($('#exercise-select').children.length,store.listExercises($('#question-bank').value).length);
 $('#user-role').value='student';$('#user-role').handlers.change();

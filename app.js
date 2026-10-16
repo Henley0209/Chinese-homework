@@ -1,7 +1,8 @@
+import {recordLogin} from './visit-counter.mjs?v=visits15';
 import {validate,grade,normalize} from './grading.mjs';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
-import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=sync14';
-import {teacherActive} from './teacher-tools.mjs?v=sync14';
+import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=visits15';
+import {teacherActive} from './teacher-tools.mjs?v=visits15';
 const $=s=>document.querySelector(s);let data,student,submitted=false,intro=null,starting=false;const notice=t=>$('#notice').textContent=t;
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function install(value){data=validate(value);$('#start').disabled=false;$('#exercise').hidden=true;$('#result').hidden=true;$('#welcome').hidden=false;submitted=false;notice('');}
@@ -30,6 +31,7 @@ $('#identity').addEventListener('submit',async e=>{
 
  install(selected,route.label);student=person;notice('');render();$('#bank-password').value='';
  $('#welcome').hidden=true;$('#exercise').hidden=false;$('#student-label').textContent=student.name+' · '+route.label;
+ recordLogin('student');
  $('#exercise').scrollIntoView({behavior:'smooth'});
  }catch(err){error.textContent='无法开始答题：'+err.message;}finally{starting=false;$('#start').disabled=false;$('#bank-loading').textContent='';}
 });

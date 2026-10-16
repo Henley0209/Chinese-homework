@@ -10,7 +10,7 @@ export function validateAppearance(value){
  if(k==='backgroundImage'&&value[k]!==''&&(!/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/=]+$/.test(value[k])||value[k].length>4000000))throw Error('背景图格式无效或过大');
  out[k]=value[k];
  }
- for(const k of ['brand','heading','welcome','vietnamese','button','footer'])if(k in value){if(typeof value[k]!=='string'||!value[k].trim()||value[k].length>300)throw Error('文字不能为空或超过300字：'+k);out[k]=value[k];}
+ for(const k of ['brand','heading','welcome','vietnamese','button','footer'])if(k in value){if(typeof value[k]!=='string'||value[k].length>300||(['brand','button'].includes(k)&&!value[k].trim()))throw Error('文字格式无效，网站名称和按钮文字不能为空：'+k);out[k]=value[k];}
  for(const k of ['primary','background'])if(k in value){if(typeof value[k]!=='string'||!/^#[0-9a-f]{6}$/i.test(value[k]))throw Error('颜色格式无效');out[k]=value[k];}
  for(const [k,min,max] of [['fontSize',16,22],['titleSize',28,60]])if(k in value){if(!Number.isInteger(value[k])||value[k]<min||value[k]>max)throw Error('字号超出范围');out[k]=value[k];}
  if('layout'in value){if(!['one','two'].includes(value.layout))throw Error('布局无效');out.layout=value.layout;}
@@ -19,7 +19,12 @@ export function validateAppearance(value){
 }
 export function applyAppearance(value,target=document){const c=validateAppearance(value),s=target.documentElement.style;
  for(const [k,v] of Object.entries({'--photo-opacity':String(c.backgroundOpacity/100),'--overlay-opacity':String(c.overlayOpacity/100),'--blue':c.primary,'--page-background':c.background,'--body-size':c.fontSize+'px','--title-size':c.titleSize+'px'}))s.setProperty(k,v);
- for(const [selector,key] of [['#brand-name','brand'],['.hero h1','heading'],['#welcome-zh','welcome'],['#welcome-vi','vietnamese'],['#start','button'],['#footer-text','footer']]){const n=target.querySelector(selector);if(n)n.textContent=c[key];}
+ for(const [selector,key] of [['#brand-name','brand'],['.hero h1','heading'],['#welcome-zh','welcome'],['#welcome-vi','vietnamese'],['#start','button'],['#footer-text','footer']]){const n=target.querySelector(selector);if(n){n.textContent=c[key];if(['heading','welcome','vietnamese','footer'].includes(key))n.hidden=!c[key].trim();}}
+ const welcome=target.querySelector('#welcome-zh'),vi=target.querySelector('#welcome-vi');
+ if(welcome?.parentElement&&vi?.parentElement===welcome.parentElement){
+ welcome.parentElement.hidden=!c.welcome.trim()&&!c.vietnamese.trim();
+ const br=welcome.parentElement.querySelector('br');if(br)br.hidden=!c.welcome.trim()||!c.vietnamese.trim();
+ }
  const subtitle=target.querySelector('#brand-subtitle');if(subtitle){subtitle.textContent=c.subtitle;subtitle.hidden=!c.subtitle.trim();}
  const hero=target.querySelector('.hero');if(hero){let image=hero.querySelector('.hero-background');
  if(c.backgroundImage){if(!image){image=target.createElement('img');image.className='hero-background';image.alt='';hero.prepend(image);}if(image.getAttribute('src')!==c.backgroundImage)image.src=c.backgroundImage;}

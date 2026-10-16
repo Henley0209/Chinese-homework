@@ -24,3 +24,8 @@ header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22p
 .has-hero-image .hero>div:first-child{max-width:590px}
 .has-hero-image .hero p{color:#294b5f}
 @media(max-width:650px){header{min-height:96px;align-items:flex-start;gap:12px}.brand{font-size:26px;gap:9px}.logo{font-size:25px;padding:3px 9px}.brand-subtitle{font-size:14px;margin-top:10px}.has-hero-image .hero{min-height:420px;padding:24px 20px}.has-hero-image .hero::before{background:rgba(255,255,255,.83)}}
+
+/* Independent photo opacity and white overlay; never dim text or controls. */
+.has-hero-image .hero{background:#fff}
+.hero-background{opacity:var(--photo-opacity,1)}
+.has-hero-image .hero::before{background:rgba(255,255,255,var(--overlay-opacity,.55))}

@@ -1,7 +1,18 @@
-export const defaults=Object.freeze({brand:'Tiếng Trung Cô Nga',subtitle:'',backgroundImage:'',backgroundOpacity:100,overlayOpacity:55,heading:'让中文，\n成为你的新朋友。',welcome:'从一句“你好”开始，认真练习，自信表达。',vietnamese:'Luyện tập từng chút, tự tin mỗi ngày.',button:'开始答题 →',footer:'青蓝中文 · 每一次练习，都是进步。',primary:'#2476b5',background:'#f3f8fc',fontSize:16,titleSize:46,layout:'two',illustration:true,compact:false});
+export const defaults=Object.freeze({brand:'Tiếng Trung Cô Nga',subtitle:'',websiteLabel:'',websiteUrl:'',backgroundImage:'',backgroundOpacity:100,overlayOpacity:55,heading:'让中文，\n成为你的新朋友。',welcome:'从一句“你好”开始，认真练习，自信表达。',vietnamese:'Luyện tập từng chút, tự tin mỗi ngày.',button:'开始答题 →',footer:'青蓝中文 · 每一次练习，都是进步。',primary:'#2476b5',background:'#f3f8fc',fontSize:16,titleSize:46,layout:'two',illustration:true,compact:false});
 export function validateAppearance(value){
  if(!value||typeof value!=='object'||Array.isArray(value))throw Error('配置必须是JSON对象');
  const out={...defaults};
+ for(const k of ['websiteLabel','websiteUrl'])if(k in value){
+ if(typeof value[k]!=='string'||value[k].length>(k==='websiteUrl'?2000:300))throw Error('链接文字或网址格式无效');
+ out[k]=value[k].trim();
+ }
+ if(out.websiteUrl){
+ const raw=/^https?:\/\//i.test(out.websiteUrl)?out.websiteUrl:'https://'+out.websiteUrl;
+ let url;try{url=new URL(raw);}catch{throw Error('请输入有效的网站地址');}
+ if(!['https:','http:'].includes(url.protocol)||!url.hostname||url.username||url.password||/[\s]/.test(out.websiteUrl)||/^[a-z][a-z0-9+.-]*:/i.test(out.websiteUrl)&&!/^https?:\/\//i.test(out.websiteUrl))throw Error('网站链接仅支持http或https地址');
+ out.websiteUrl=url.href;
+ }
+
  for(const k of ['backgroundOpacity','overlayOpacity'])if(k in value){if(!Number.isInteger(value[k])||value[k]<0||value[k]>100)throw Error('透明度必须为0—100之间的整数');out[k]=value[k];}
 
  for(const k of ['subtitle','backgroundImage'])if(k in value){
@@ -26,6 +37,10 @@ export function applyAppearance(value,target=document){const c=validateAppearanc
  const br=welcome.parentElement.querySelector('br');if(br)br.hidden=!c.welcome.trim()||!c.vietnamese.trim();
  }
  const subtitle=target.querySelector('#brand-subtitle');if(subtitle){subtitle.textContent=c.subtitle;subtitle.hidden=!c.subtitle.trim();}
+ const website=target.querySelector('#brand-website');if(website){
+ website.textContent=c.websiteLabel||c.websiteUrl;website.hidden=!c.websiteUrl;
+ if(c.websiteUrl)website.href=c.websiteUrl;else website.removeAttribute('href');
+ }
  const hero=target.querySelector('.hero');if(hero){let image=hero.querySelector('.hero-background');
  if(c.backgroundImage){if(!image){image=target.createElement('img');image.className='hero-background';image.alt='';hero.prepend(image);}if(image.getAttribute('src')!==c.backgroundImage)image.src=c.backgroundImage;}
  else if(image)image.remove();

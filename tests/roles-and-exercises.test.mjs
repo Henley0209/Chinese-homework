@@ -17,7 +17,7 @@ for(const e of published.exercises){validate(e.exercise);const answers=Object.fr
 assert.throws(()=>store.getExercise('hsk3','hsk1-2-1'));
 const changed=structuredClone(published.exercises.find(e=>e.bank==='hsk3'));changed.id='hsk3-new';changed.exercise.title='新增的HSK3练习';
 store.saveExercise(changed);assert.equal(store.listExercises('hsk3').length,2);assert.equal(store.listExercises('hsk3')[1].draft,true);assert.equal(store.draftCount(),1);
-assert.equal(store.validateCatalog(JSON.parse(JSON.stringify(store.catalog()))).exercises.length,8);
+assert.equal(store.validateCatalog(JSON.parse(JSON.stringify(store.catalog()))).exercises.length,published.exercises.length+1);
 assert.throws(()=>store.saveExercise({...changed,id:'invalid',exercise:{title:'坏题库',questions:[]}}));
 assert.equal(store.draftCount(),1);
 full=true;assert.throws(()=>store.saveExercise({...changed,id:'quota-fail'}));full=false;assert.equal(store.listExercises('hsk3').length,2);
@@ -36,7 +36,7 @@ async function script(name,append=''){let s=fs.readFileSync(new URL(name,root),'
 await script('teacher-tools.mjs','globalThis.teacherActive=teacherActive;');await script('app.js');
 assert.equal($('#exercise-select').value,'hsk1-2-1');assert.equal($('#teacher-login').hidden,true);
 const form=$('#identity');const submit=()=>form.handlers.submit({preventDefault(){},target:form});
-form.fd={student:'An',className:'A1',questionBank:'hsk3',exerciseId:'hsk3-1',bankPassword:''};await submit();assert.match($('#student-label').textContent,/入门练习/);assert.equal($('#progress').max,15);
+form.fd={student:'An',questionBank:'hsk3',exerciseId:'hsk3-1',bankPassword:''};await submit();assert.match($('#student-label').textContent,/入门练习/);assert.equal($('#progress').max,15);
 for(const [id,pass]of [['hsk1-2','NgaZhu1122'],['hsk3','NgaZhu1133'],['hsk4','NgaZhu1144'],['hsk5','NgaZhu1155'],['daily','NgaZhu1166'],['factory','NgaZhu1177']]){
  $('#question-bank').value=id;$('#question-bank').handlers.change();assert.equal($('#exercise-select').value,id+'-1');
  form.fd={student:'An',className:'A1',questionBank:id,exerciseId:id+'-1',bankPassword:pass};await submit();assert.equal($('#progress').max,10);assert.equal($('#bank-error').textContent,'');

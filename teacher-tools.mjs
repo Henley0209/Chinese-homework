@@ -1,5 +1,5 @@
-import {isTeacherPassword} from './teacher-auth.mjs?v=roles13';
-import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=roles13';
+import {isTeacherPassword} from './teacher-auth.mjs?v=sync14';
+import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=sync14';
 import {validate} from './grading.mjs';
 const $=s=>document.querySelector(s);let authenticated=false,attempt=0,uploading=false;
 const message=t=>$('#teacher-status').textContent=t;
@@ -32,7 +32,9 @@ $('#import').onchange=async e=>{
  const exercise=validate(JSON.parse(await file.text()));requireTeacher();
  if(mode==='replace'&&!target)throw Error('请选择要替换的练习。');
  const id=mode==='replace'?target:bank+'-'+crypto.randomUUID();
- saveExercise({id,bank,exercise});message('已导入“'+exercise.title+'”到'+bankLabels[bank]+'（本机草稿）。请下载题库发布文件并上传GitHub，才会同步到其他设备。');
+ const result=saveExercise({id,bank,exercise});
+ if(!result.draft)message('该练习与已发布内容一致，未新增重复项。手机打开或刷新网页即可读取已发布题目。');
+ else message((result.updated?'已更新同名练习“':'已新增练习“')+exercise.title+'”（本机草稿，手机暂不可见）。请下载题库发布文件并上传GitHub，发布后才能同步到其他设备。');
  }catch(err){message('导入失败：'+err.message);}finally{uploading=false;$('#import').disabled=false;e.target.value='';}
 };
 $('#export-exercises').onclick=()=>{try{requireTeacher();const data=catalog();const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)+'\n'],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='exercise-catalog.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);message('已下载 exercise-catalog.json。将它上传到GitHub仓库首页并替换同名文件，等待部署后学生即可看到更新。');}catch(e){message(e.message);}};

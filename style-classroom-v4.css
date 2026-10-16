@@ -68,3 +68,5 @@ header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22p
 #tools summary{cursor:pointer;font-weight:600}
 #student-entry .fields{margin-top:4px}
 @media(max-width:650px){.teacher-password-row{flex-direction:column}.role-section{margin-bottom:20px;padding-bottom:18px}#welcome.panel{padding:22px 18px}}
+
+#student-entry .fields.student-name-only{grid-template-columns:minmax(0,1fr)}

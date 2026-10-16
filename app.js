@@ -1,7 +1,7 @@
 import {validate,grade,normalize} from './grading.mjs';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
-import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=roles13';
-import {teacherActive} from './teacher-tools.mjs?v=roles13';
+import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=sync14';
+import {teacherActive} from './teacher-tools.mjs?v=sync14';
 const $=s=>document.querySelector(s);let data,student,submitted=false,intro=null,starting=false;const notice=t=>$('#notice').textContent=t;
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function install(value){data=validate(value);$('#start').disabled=false;$('#exercise').hidden=true;$('#result').hidden=true;$('#welcome').hidden=false;submitted=false;notice('');}
@@ -17,9 +17,9 @@ function answers(){const fd=new FormData($('#quiz'));return Object.fromEntries(d
 function update(){const a=answers(),n=data.questions.filter(q=>normalize(a[q.id])).length;$('#progress').max=data.questions.length;$('#progress').value=n;$('#progress-label').textContent=`已完成 ${n} / ${data.questions.length} 题 · Đã trả lời`;$('#confirm').checked=false;$('#confirm-wrap').hidden=true;}
 $('#identity').addEventListener('submit',async e=>{
  e.preventDefault();if(starting||teacherActive())return;
- const fd=new FormData(e.target),person={name:String(fd.get('student')||'').trim(),className:String(fd.get('className')||'').trim()};
+ const fd=new FormData(e.target),person={name:String(fd.get('student')||'').trim()};
  const error=$('#bank-error');error.textContent='';
- if(!person.name||!person.className){error.textContent='请填写姓名和班级，不能只输入空格。';return;}
+ if(!person.name){error.textContent='请填写学生姓名，不能只输入空格。';return;}
  let route;try{route=resolveBank(fd.get('questionBank'),fd.get('bankPassword'));}catch(err){error.textContent=err.message;$('#bank-password').focus();return;}
  starting=true;$('#start').disabled=true;$('#bank-loading').textContent='正在加载题库… / Đang tải câu hỏi…';
  try{
@@ -29,10 +29,10 @@ $('#identity').addEventListener('submit',async e=>{
  const selected=route.id==='intro'?introExercise():getExercise(route.id,String(fd.get('exerciseId')||''));
 
  install(selected,route.label);student=person;notice('');render();$('#bank-password').value='';
- $('#welcome').hidden=true;$('#exercise').hidden=false;$('#student-label').textContent=student.name+' · '+student.className+' · '+route.label;
+ $('#welcome').hidden=true;$('#exercise').hidden=false;$('#student-label').textContent=student.name+' · '+route.label;
  $('#exercise').scrollIntoView({behavior:'smooth'});
  }catch(err){error.textContent='无法开始答题：'+err.message;}finally{starting=false;$('#start').disabled=false;$('#bank-loading').textContent='';}
 });
 $('#quiz').addEventListener('input',e=>{if(e.target.id!=='confirm')update();});
-$('#quiz').addEventListener('submit',e=>{e.preventDefault();if(submitted)return;const a=answers(),missing=data.questions.filter(q=>!normalize(a[q.id])).length;if(missing&&!$('#confirm').checked){$('#confirm-wrap').hidden=false;$('#submit-hint').textContent=`还有${missing}题未作答，将计0分。补充答案，或勾选确认后再次提交。`;return;}const r=grade(data,a);submitted=true;$('#exercise').hidden=true;const root=$('#result');root.replaceChildren(el('span','练习完成 · HOÀN THÀNH','eyebrow'),el('h2',student.name+'，你又进步了一点！'),el('p',student.className+' · '+data.title));const score=el('div',String(r.score),'score');score.append(el('small',' / '+r.total+' 分'));root.append(score,el('p',`答对 ${r.correct} / ${data.questions.length} 题 · 正确率 ${Math.round(r.correct/data.questions.length*100)}%`),el('p','继续复习下面的题目，让知识更牢固。','note'));for(const [i,q] of data.questions.entries()){const d=r.details[i],card=el('div',undefined,'review'+(d.correct?' correct':''));card.append(el('b',`${d.correct?'✓ 正确':'✗ 未答或错误'} · 第${i+1}题 · ${d.earned}/${q.points}分`),el('p',q.text),el('p','你的答案：'+(q.type==='choice'&&d.answer?d.answer+' · '+q.options[d.answer]:d.answer||'未作答')),el('p','参考答案：'+q.answers.map(a=>q.type==='choice'?a+' · '+q.options[a]:a).join(' / ')),el('small',q.explanation||''));root.append(card);}const retry=el('button','返回题库选择 →','primary');retry.onclick=()=>{install(introExercise());$('#bank-error').textContent='';$('#welcome').scrollIntoView({behavior:'smooth'});};root.append(retry,el('p','本演示不向服务器保存姓名、班级或成绩，刷新后将清空。','note'));root.hidden=false;root.focus();});
+$('#quiz').addEventListener('submit',e=>{e.preventDefault();if(submitted)return;const a=answers(),missing=data.questions.filter(q=>!normalize(a[q.id])).length;if(missing&&!$('#confirm').checked){$('#confirm-wrap').hidden=false;$('#submit-hint').textContent=`还有${missing}题未作答，将计0分。补充答案，或勾选确认后再次提交。`;return;}const r=grade(data,a);submitted=true;$('#exercise').hidden=true;const root=$('#result');root.replaceChildren(el('span','练习完成 · HOÀN THÀNH','eyebrow'),el('h2',student.name+'，你又进步了一点！'),el('p',data.title));const score=el('div',String(r.score),'score');score.append(el('small',' / '+r.total+' 分'));root.append(score,el('p',`答对 ${r.correct} / ${data.questions.length} 题 · 正确率 ${Math.round(r.correct/data.questions.length*100)}%`),el('p','继续复习下面的题目，让知识更牢固。','note'));for(const [i,q] of data.questions.entries()){const d=r.details[i],card=el('div',undefined,'review'+(d.correct?' correct':''));card.append(el('b',`${d.correct?'✓ 正确':'✗ 未答或错误'} · 第${i+1}题 · ${d.earned}/${q.points}分`),el('p',q.text),el('p','你的答案：'+(q.type==='choice'&&d.answer?d.answer+' · '+q.options[d.answer]:d.answer||'未作答')),el('p','参考答案：'+q.answers.map(a=>q.type==='choice'?a+' · '+q.options[a]:a).join(' / ')),el('small',q.explanation||''));root.append(card);}const retry=el('button','返回题库选择 →','primary');retry.onclick=()=>{install(introExercise());$('#bank-error').textContent='';$('#welcome').scrollIntoView({behavior:'smooth'});};root.append(retry,el('p','本演示不向服务器保存姓名、班级或成绩，刷新后将清空。','note'));root.hidden=false;root.focus();});
 try{await loadCatalog();intro=introExercise();syncExercises();install(intro);}catch(e){notice('练习题库加载失败：'+e.message);}

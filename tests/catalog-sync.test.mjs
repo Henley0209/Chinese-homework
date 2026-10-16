@@ -1,0 +1,41 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';
+const original=JSON.parse(fs.readFileSync(new URL('../exercise-catalog.json',import.meta.url),'utf8'));
+const lesson=original.exercises.find(e=>e.bank==='factory'&&e.exercise.title.includes('第11课'));
+assert.ok(lesson);assert.equal(lesson.exercise.questions.length,50);
+const key='qinglan-exercise-drafts-v1',memory=new Map(),requests=[];
+let remote=structuredClone(original);
+remote.exercises.push({...structuredClone(lesson),id:'factory-duplicate-legacy',exercise:{...structuredClone(lesson.exercise),title:lesson.exercise.title.replaceAll(' ','')}});
+const saved=[{...structuredClone(lesson),id:'old-local-1'},{...structuredClone(lesson),id:'old-local-2'}];
+memory.set(key,JSON.stringify(saved));
+globalThis.localStorage={getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v),removeItem:k=>memory.delete(k)};
+globalThis.fetch=async(url,opts)=>{requests.push({url,opts});return {ok:true,json:async()=>structuredClone(remote)};};
+const events={},documentEvents={};
+globalThis.window={addEventListener:(name,fn)=>events[name]=fn};
+globalThis.document={visibilityState:'visible',addEventListener:(name,fn)=>documentEvents[name]=fn};
+const store=await import('../exercise-store.mjs?catalog-sync-test');
+await store.loadCatalog();
+assert.equal(store.listExercises('factory').filter(e=>store.titleKey(e.exercise.title)===store.titleKey(lesson.exercise.title)).length,1);
+assert.equal(store.draftCount(),0);assert.deepEqual(JSON.parse(memory.get(key)),[]);
+assert.match(requests[0].url,/exercise-catalog.json\?updated=\d+/);assert.equal(requests[0].opts.cache,'no-store');
+const same=store.saveExercise({...structuredClone(lesson),id:'new-random-upload'});
+assert.equal(same.draft,false);assert.equal(store.draftCount(),0);
+const changed={...structuredClone(lesson),id:'random-import-1'};changed.exercise.questions[0].explanation='新的解释';
+const first=store.saveExercise(changed);assert.equal(first.id,lesson.id);assert.equal(first.draft,true);
+const second=store.saveExercise({...changed,id:'random-import-2'});assert.equal(second.id,lesson.id);assert.equal(store.draftCount(),1);
+assert.equal(store.catalog().exercises.filter(e=>store.titleKey(e.exercise.title)===store.titleKey(lesson.exercise.title)).length,1);
+// Publishing the current local draft removes its "local-only" marker when reloaded.
+remote=store.catalog();await store.loadCatalog({refresh:true});assert.equal(store.draftCount(),0);
+assert.equal(store.getExercise('factory',lesson.id).questions[0].explanation,'新的解释');
+// A new device with no local browser drafts sees the same published lesson.
+memory.clear();const phone=await import('../exercise-store.mjs?phone-test');await phone.loadCatalog();
+assert.equal(phone.listExercises('factory').filter(e=>e.exercise.title===lesson.exercise.title).length,1);
+assert.equal(phone.getExercise('factory',lesson.id).questions[0].explanation,'新的解释');
+// Duplicate unpublished imports are migrated, with the latest content retained.
+const fresh={...structuredClone(lesson),id:'draft-a',exercise:{...structuredClone(lesson.exercise),title:'本机尚未发布练习',description:'旧版本'}};
+memory.set(key,JSON.stringify([fresh,{...fresh,id:'draft-b',exercise:{...fresh.exercise,description:'新版本'}}]));
+await phone.loadCatalog({refresh:true});assert.equal(phone.draftCount(),1);
+assert.equal(phone.listExercises('factory').find(e=>e.exercise.title==='本机尚未发布练习').exercise.description,'新版本');
+const n=requests.length;events.pageshow({persisted:true});await new Promise(r=>setTimeout(r,0));assert.ok(requests.length>n);
+const m=requests.length;documentEvents.visibilitychange();await new Promise(r=>setTimeout(r,0));assert.ok(requests.length>m);
+delete globalThis.window;delete globalThis.document;
+console.log('通过：线上重复合并、本机重复草稿迁移、已发布草稿消除、同名上传更新、电脑发布后新手机读取、未发布编辑保留、手机恢复页面刷新和绕过旧题库缓存。');

@@ -1,7 +1,9 @@
-export const defaults=Object.freeze({brand:'Tiếng Trung Cô Nga',subtitle:'',backgroundImage:'',heading:'让中文，\n成为你的新朋友。',welcome:'从一句“你好”开始，认真练习，自信表达。',vietnamese:'Luyện tập từng chút, tự tin mỗi ngày.',button:'开始答题 →',footer:'青蓝中文 · 每一次练习，都是进步。',primary:'#2476b5',background:'#f3f8fc',fontSize:16,titleSize:46,layout:'two',illustration:true,compact:false});
+export const defaults=Object.freeze({brand:'Tiếng Trung Cô Nga',subtitle:'',backgroundImage:'',backgroundOpacity:100,overlayOpacity:55,heading:'让中文，\n成为你的新朋友。',welcome:'从一句“你好”开始，认真练习，自信表达。',vietnamese:'Luyện tập từng chút, tự tin mỗi ngày.',button:'开始答题 →',footer:'青蓝中文 · 每一次练习，都是进步。',primary:'#2476b5',background:'#f3f8fc',fontSize:16,titleSize:46,layout:'two',illustration:true,compact:false});
 export function validateAppearance(value){
  if(!value||typeof value!=='object'||Array.isArray(value))throw Error('配置必须是JSON对象');
  const out={...defaults};
+ for(const k of ['backgroundOpacity','overlayOpacity'])if(k in value){if(!Number.isInteger(value[k])||value[k]<0||value[k]>100)throw Error('透明度必须为0—100之间的整数');out[k]=value[k];}
+
  for(const k of ['subtitle','backgroundImage'])if(k in value){
  if(typeof value[k]!=='string')throw Error('配置格式无效');
  if(k==='subtitle'&&value[k].length>300)throw Error('副标题超过300字');
@@ -16,7 +18,7 @@ export function validateAppearance(value){
  return out;
 }
 export function applyAppearance(value,target=document){const c=validateAppearance(value),s=target.documentElement.style;
- for(const [k,v] of Object.entries({'--blue':c.primary,'--page-background':c.background,'--body-size':c.fontSize+'px','--title-size':c.titleSize+'px'}))s.setProperty(k,v);
+ for(const [k,v] of Object.entries({'--photo-opacity':String(c.backgroundOpacity/100),'--overlay-opacity':String(c.overlayOpacity/100),'--blue':c.primary,'--page-background':c.background,'--body-size':c.fontSize+'px','--title-size':c.titleSize+'px'}))s.setProperty(k,v);
  for(const [selector,key] of [['#brand-name','brand'],['.hero h1','heading'],['#welcome-zh','welcome'],['#welcome-vi','vietnamese'],['#start','button'],['#footer-text','footer']]){const n=target.querySelector(selector);if(n)n.textContent=c[key];}
  const subtitle=target.querySelector('#brand-subtitle');if(subtitle){subtitle.textContent=c.subtitle;subtitle.hidden=!c.subtitle.trim();}
  const hero=target.querySelector('.hero');if(hero){let image=hero.querySelector('.hero-background');

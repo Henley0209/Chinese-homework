@@ -1,0 +1,153 @@
+{
+  "title": "日常交际 · 演示练习",
+  "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "text": "别人说“谢谢”，你可以回答：",
+      "options": {
+        "A": "不客气",
+        "B": "对不起",
+        "C": "没听懂",
+        "D": "慢走"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Đáp lại lời cảm ơn như thế nào?",
+      "points": 10,
+      "explanation": "“不客气”用于回应感谢。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "text": "你想知道去车站的路线，可以问：",
+      "options": {
+        "A": "你吃了吗？",
+        "B": "请问，车站怎么走？",
+        "C": "这件多少钱？",
+        "D": "你贵姓？"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Bạn muốn hỏi đường đến bến xe.",
+      "points": 10,
+      "explanation": "“怎么走”用来询问路线。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "text": "在餐厅点菜时，哪句话合适？",
+      "options": {
+        "A": "请给我挂号",
+        "B": "我要办理登机",
+        "C": "请给我一份菜单",
+        "D": "请把门锁上"
+      },
+      "answers": [
+        "C"
+      ],
+      "vietnamese": "Chọn câu phù hợp khi gọi món.",
+      "points": 10,
+      "explanation": "餐厅点菜可以先要菜单。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "text": "朋友问“你什么时候方便？”你可以回答：",
+      "options": {
+        "A": "我姓李",
+        "B": "这是一支笔",
+        "C": "在桌子上",
+        "D": "明天下午可以"
+      },
+      "answers": [
+        "D"
+      ],
+      "vietnamese": "Trả lời về thời gian rảnh.",
+      "points": 10,
+      "explanation": "“明天下午”回答时间。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "text": "没听清别人说的话，应该说：",
+      "options": {
+        "A": "请再说一遍，好吗？",
+        "B": "我先点菜",
+        "C": "祝你生日快乐",
+        "D": "欢迎光临"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Bạn chưa nghe rõ lời người khác.",
+      "points": 10,
+      "explanation": "礼貌地请求对方重复。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "text": "买衣服想换大一号，可以说：",
+      "options": {
+        "A": "可以退房吗？",
+        "B": "有大一点儿的吗？",
+        "C": "请问几号登机口？",
+        "D": "我想预约牙医"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Bạn muốn đổi sang cỡ lớn hơn.",
+      "points": 10,
+      "explanation": "“大一点儿”用于询问更大的尺寸。"
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "text": "打扰别人之前，可以先说：“不好___。”",
+      "answers": [
+        "意思"
+      ],
+      "vietnamese": "Trước khi làm phiền, có thể nói xin lỗi.",
+      "points": 10,
+      "explanation": "“不好意思”是礼貌表达。"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "text": "想知道商品的价格，可以问：“这个___钱？”",
+      "answers": [
+        "多少"
+      ],
+      "vietnamese": "Hỏi giá món hàng.",
+      "points": 10,
+      "explanation": "询问价格常用“多少钱”。"
+    },
+    {
+      "id": 9,
+      "type": "fill",
+      "text": "约好三点见面，可以说：“我们三点___。”",
+      "answers": [
+        "见"
+      ],
+      "vietnamese": "Hẹn gặp lúc ba giờ.",
+      "points": 10,
+      "explanation": "“三点见”表示在三点见面。"
+    },
+    {
+      "id": 10,
+      "type": "fill",
+      "text": "结账时，可以说：“服务员，请___。”",
+      "answers": [
+        "结账",
+        "买单"
+      ],
+      "vietnamese": "Bạn muốn thanh toán tại nhà hàng.",
+      "points": 10,
+      "explanation": "“结账”和“买单”都可用于请求付款。"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "title": "HSK1-2 · 演示练习",
+  "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "text": "你___哪国人？",
+      "options": {
+        "A": "是",
+        "B": "有",
+        "C": "在",
+        "D": "去"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Bạn là người nước nào?",
+      "points": 10,
+      "explanation": "“是”说明身份。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "text": "现在八点，我九点上课。我___去学校。",
+      "options": {
+        "A": "昨天",
+        "B": "去年",
+        "C": "一会儿",
+        "D": "已经"
+      },
+      "answers": [
+        "C"
+      ],
+      "vietnamese": "Chọn từ phù hợp với thời gian trong tương lai.",
+      "points": 10,
+      "explanation": "“一会儿”表示过一小段时间。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "text": "这本书___钱？",
+      "options": {
+        "A": "几",
+        "B": "多少",
+        "C": "什么",
+        "D": "谁"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Quyển sách này bao nhiêu tiền?",
+      "points": 10,
+      "explanation": "询问价格用“多少钱”。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "text": "我每天___公共汽车去上班。",
+      "options": {
+        "A": "看",
+        "B": "说",
+        "C": "吃",
+        "D": "坐"
+      },
+      "answers": [
+        "D"
+      ],
+      "vietnamese": "Tôi đi làm bằng xe buýt mỗi ngày.",
+      "points": 10,
+      "explanation": "乘车用“坐公共汽车”。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "text": "他比我___三岁。",
+      "options": {
+        "A": "大",
+        "B": "多",
+        "C": "很",
+        "D": "最"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Anh ấy hơn tôi ba tuổi.",
+      "points": 10,
+      "explanation": "比较年龄用“大三岁”。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "text": "外面下雨了，出门要带___。",
+      "options": {
+        "A": "杯子",
+        "B": "筷子",
+        "C": "雨伞",
+        "D": "报纸"
+      },
+      "answers": [
+        "C"
+      ],
+      "vietnamese": "Trời mưa, ra ngoài cần mang gì?",
+      "points": 10,
+      "explanation": "下雨时用雨伞。"
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "text": "我___越南学习中文。",
+      "answers": [
+        "在"
+      ],
+      "vietnamese": "Tôi học tiếng Trung ở Việt Nam.",
+      "points": 10,
+      "explanation": "表示地点用“在”。"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "text": "昨天我买___一本书。",
+      "answers": [
+        "了"
+      ],
+      "vietnamese": "Hôm qua tôi đã mua một quyển sách.",
+      "points": 10,
+      "explanation": "“了”表示动作已经完成。"
+    },
+    {
+      "id": 9,
+      "type": "fill",
+      "text": "一星期有___天。（用汉字）",
+      "answers": [
+        "七"
+      ],
+      "vietnamese": "Một tuần có bảy ngày.",
+      "points": 10,
+      "explanation": "一星期有七天。"
+    },
+    {
+      "id": 10,
+      "type": "fill",
+      "text": "这本书不是我的，___他的。",
+      "answers": [
+        "是"
+      ],
+      "vietnamese": "Quyển sách này không phải của tôi, mà là của anh ấy.",
+      "points": 10,
+      "explanation": "“不是……，是……”表示判断。"
+    }
+  ]
+}

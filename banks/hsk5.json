@@ -1,0 +1,152 @@
+{
+  "title": "HSK5 · 演示练习",
+  "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "text": "这项改革并非一蹴而就，需要___推进。",
+      "options": {
+        "A": "莫名其妙",
+        "B": "循序渐进",
+        "C": "得不偿失",
+        "D": "无独有偶"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Cải cách cần được tiến hành từng bước.",
+      "points": 10,
+      "explanation": "“循序渐进”指按照一定顺序逐步提高。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "text": "面对复杂情况，我们应根据实际需求___调整方案。",
+      "options": {
+        "A": "灵活",
+        "B": "沉重",
+        "C": "拥挤",
+        "D": "锋利"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Cần linh hoạt điều chỉnh phương án theo nhu cầu thực tế.",
+      "points": 10,
+      "explanation": "“灵活调整”表示随情况变化作出适当改变。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "text": "这个方案看似节省成本，___可能增加长期风险。",
+      "options": {
+        "A": "从而",
+        "B": "何况",
+        "C": "实则",
+        "D": "以至"
+      },
+      "answers": [
+        "C"
+      ],
+      "vietnamese": "Phương án tưởng như tiết kiệm nhưng thực tế có thể tăng rủi ro.",
+      "points": 10,
+      "explanation": "“看似……实则……”比较表象与实际。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "text": "他对数据进行了反复___，以确保结论可靠。",
+      "options": {
+        "A": "浏览",
+        "B": "夸张",
+        "C": "推辞",
+        "D": "核实"
+      },
+      "answers": [
+        "D"
+      ],
+      "vietnamese": "Anh ấy kiểm chứng dữ liệu nhiều lần.",
+      "points": 10,
+      "explanation": "“核实”强调查明是否真实、准确。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "text": "阅读：方案虽未立即见效，却为后续合作奠定了基础。由此可知：",
+      "options": {
+        "A": "方案毫无价值",
+        "B": "方案有长期意义",
+        "C": "合作已经结束",
+        "D": "方案已被取消"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Đọc và chọn nhận định phù hợp.",
+      "points": 10,
+      "explanation": "“奠定基础”说明它对未来合作有价值。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "text": "在保障质量的___下，企业应提高生产效率。",
+      "options": {
+        "A": "前提",
+        "B": "背景",
+        "C": "形状",
+        "D": "气氛"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Doanh nghiệp nên tăng hiệu suất với điều kiện bảo đảm chất lượng.",
+      "points": 10,
+      "explanation": "“在……的前提下”表示先决条件。"
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "text": "我们需要从长___议，不能仓促作出决定。（填写一个汉字）",
+      "answers": [
+        "计"
+      ],
+      "vietnamese": "Cần cân nhắc lâu dài, không quyết định vội.",
+      "points": 10,
+      "explanation": "成语“从长计议”表示慢慢商量、慎重考虑。"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "text": "这个结论缺乏充分的证___。（填写一个汉字）",
+      "answers": [
+        "据"
+      ],
+      "vietnamese": "Kết luận này thiếu bằng chứng đầy đủ.",
+      "points": 10,
+      "explanation": "“证据”是证明事实的材料。"
+    },
+    {
+      "id": 9,
+      "type": "fill",
+      "text": "在实施之前，应充分评___潜在风险。（填写一个汉字）",
+      "answers": [
+        "估"
+      ],
+      "vietnamese": "Trước khi thực hiện, cần đánh giá rủi ro tiềm ẩn.",
+      "points": 10,
+      "explanation": "“评估”表示评价、估计。"
+    },
+    {
+      "id": 10,
+      "type": "fill",
+      "text": "双方应通过协___解决分歧。（填写一个汉字）",
+      "answers": [
+        "商"
+      ],
+      "vietnamese": "Hai bên nên giải quyết bất đồng bằng thương lượng.",
+      "points": 10,
+      "explanation": "“协商”表示共同商量。"
+    }
+  ]
+}

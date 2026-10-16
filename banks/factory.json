@@ -1,0 +1,152 @@
+{
+  "title": "汉语工厂 · 演示练习",
+  "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "text": "进入要求佩戴安全帽的车间，应先：",
+      "options": {
+        "A": "戴好安全帽",
+        "B": "随便拍照",
+        "C": "关闭所有机器",
+        "D": "脱下工作鞋"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Trước khi vào xưởng yêu cầu mũ bảo hộ, cần làm gì?",
+      "points": 10,
+      "explanation": "应遵守车间规定，正确佩戴安全帽。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "text": "“不合格品”的越南语意思是：",
+      "options": {
+        "A": "Hàng đã giao",
+        "B": "Sản phẩm không đạt",
+        "C": "Nguyên liệu mới",
+        "D": "Ca làm việc"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Chọn nghĩa đúng.",
+      "points": 10,
+      "explanation": "“不合格品”指未达到要求的产品。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "text": "发现设备异常，应当：",
+      "options": {
+        "A": "自行拆机",
+        "B": "继续加速生产",
+        "C": "按规定停机并报告负责人",
+        "D": "隐瞒情况"
+      },
+      "answers": [
+        "C"
+      ],
+      "vietnamese": "Phát hiện máy có dấu hiệu bất thường thì làm gì?",
+      "points": 10,
+      "explanation": "应按现场安全规程处理并报告，不能擅自维修。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "text": "“交接班”主要是指：",
+      "options": {
+        "A": "购买机器",
+        "B": "更换产品包装",
+        "C": "统计食堂人数",
+        "D": "上一班与下一班交代工作"
+      },
+      "answers": [
+        "D"
+      ],
+      "vietnamese": "“交接班” có nghĩa là gì?",
+      "points": 10,
+      "explanation": "交接班需要说明生产和设备情况。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "text": "请按___要求检查产品尺寸。",
+      "options": {
+        "A": "质量标准",
+        "B": "天气预报",
+        "C": "旅游计划",
+        "D": "菜单"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Kiểm tra kích thước theo tiêu chuẩn chất lượng.",
+      "points": 10,
+      "explanation": "产品检验应按质量标准执行。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "text": "“这批货明天发出”中的“发出”是指：",
+      "options": {
+        "A": "报废",
+        "B": "发货",
+        "C": "返工",
+        "D": "请假"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Trong câu này, “发出” có nghĩa là gì?",
+      "points": 10,
+      "explanation": "“发出”在货物语境中表示发货。"
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "text": "今天生产___是五百件。（填写一个汉字）",
+      "answers": [
+        "量"
+      ],
+      "vietnamese": "Sản lượng hôm nay là năm trăm sản phẩm.",
+      "points": 10,
+      "explanation": "“生产量”表示生产的数量。"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "text": "发现质量问题，应及时___告负责人。（填写一个汉字）",
+      "answers": [
+        "报"
+      ],
+      "vietnamese": "Phát hiện vấn đề chất lượng cần báo cáo kịp thời.",
+      "points": 10,
+      "explanation": "“报告”表示向负责人说明情况。"
+    },
+    {
+      "id": 9,
+      "type": "fill",
+      "text": "交货之前，请再次检查产品的数___。（填写一个汉字）",
+      "answers": [
+        "量"
+      ],
+      "vietnamese": "Trước khi giao hàng, hãy kiểm tra lại số lượng.",
+      "points": 10,
+      "explanation": "“数量”表示产品的多少。"
+    },
+    {
+      "id": 10,
+      "type": "fill",
+      "text": "使用设备前，应接受安全培___。（填写一个汉字）",
+      "answers": [
+        "训"
+      ],
+      "vietnamese": "Cần được đào tạo an toàn trước khi sử dụng thiết bị.",
+      "points": 10,
+      "explanation": "“培训”表示有计划地传授知识和技能。"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "title": "HSK4 · 演示练习",
+  "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "text": "___遇到什么困难，他都不会放弃。",
+      "options": {
+        "A": "尽管",
+        "B": "不管",
+        "C": "由于",
+        "D": "既然"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Bất kể gặp khó khăn gì, anh ấy cũng không bỏ cuộc.",
+      "points": 10,
+      "explanation": "“不管……都……”表示无条件。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "text": "与其担心结果，___认真准备。",
+      "options": {
+        "A": "不如",
+        "B": "但是",
+        "C": "而且",
+        "D": "否则"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Thay vì lo lắng kết quả, hãy chuẩn bị kỹ.",
+      "points": 10,
+      "explanation": "选择关系使用“与其……不如……”。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "text": "这份调查的结果与我们的___基本一致。",
+      "options": {
+        "A": "温度",
+        "B": "方向",
+        "C": "预测",
+        "D": "距离"
+      },
+      "answers": [
+        "C"
+      ],
+      "vietnamese": "Kết quả khảo sát gần giống dự đoán của chúng tôi.",
+      "points": 10,
+      "explanation": "“预测”指事先作出的判断。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "text": "请提前确认信息，___影响明天的安排。",
+      "options": {
+        "A": "反而",
+        "B": "甚至",
+        "C": "到底",
+        "D": "以免"
+      },
+      "answers": [
+        "D"
+      ],
+      "vietnamese": "Hãy xác nhận trước để tránh ảnh hưởng lịch ngày mai.",
+      "points": 10,
+      "explanation": "“以免”表示避免不希望的结果。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "text": "这项工作需要团队成员互相___。",
+      "options": {
+        "A": "浪费",
+        "B": "配合",
+        "C": "迟到",
+        "D": "失望"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Công việc này cần các thành viên phối hợp.",
+      "points": 10,
+      "explanation": "“互相配合”表示协作。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "text": "既然你已经决定了，___应该坚持下去。",
+      "options": {
+        "A": "就",
+        "B": "却",
+        "C": "又",
+        "D": "才"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Đã quyết định rồi thì nên kiên trì.",
+      "points": 10,
+      "explanation": "“既然……就……”表示推论。"
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "text": "他不但完成了任务，___帮助了其他同事。",
+      "answers": [
+        "而且",
+        "还"
+      ],
+      "vietnamese": "Anh ấy không những hoàn thành nhiệm vụ mà còn giúp đồng nghiệp.",
+      "points": 10,
+      "explanation": "“不但……而且……”表示递进，也可用“还”。"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "text": "会议原定九点开始，后来被推___到十点。（表示延后）",
+      "answers": [
+        "迟"
+      ],
+      "vietnamese": "Cuộc họp được hoãn từ chín giờ đến mười giờ.",
+      "points": 10,
+      "explanation": "“推迟”表示把时间往后移。"
+    },
+    {
+      "id": 9,
+      "type": "fill",
+      "text": "请把会议时间___知所有同事。（填写一个汉字）",
+      "answers": [
+        "通"
+      ],
+      "vietnamese": "Hãy thông báo thời gian họp cho mọi đồng nghiệp.",
+      "points": 10,
+      "explanation": "“通知”表示传达信息。"
+    },
+    {
+      "id": 10,
+      "type": "fill",
+      "text": "无论任务多么困难，我们___要认真完成。",
+      "answers": [
+        "都"
+      ],
+      "vietnamese": "Dù nhiệm vụ khó đến đâu, chúng ta đều phải hoàn thành nghiêm túc.",
+      "points": 10,
+      "explanation": "“无论……都……”表示条件不影响结果。"
+    }
+  ]
+}

@@ -39,3 +39,12 @@ header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22p
 .has-hero-image .hero::before{z-index:1;pointer-events:none}
 .has-hero-image .hero>div:first-of-type{grid-area:1/1;z-index:2;align-self:center;padding:clamp(20px,4vw,40px);width:100%;max-width:660px}
 @media(max-width:650px){.brand-website{font-size:14px}.hero-hints{font-size:12px;gap:10px;padding:14px 2px}.has-hero-image .hero-background{aspect-ratio:4/3}}
+
+/* Bank selection follows the class field on every screen. */
+.bank-fields{margin-top:22px;display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+.bank-fields label{margin-top:8px}
+.bank-fields select{display:block;width:100%;min-height:48px;border:1px solid #d5e3ed;border-radius:8px;background:#fbfdff;color:var(--ink);padding:11px 14px;font:inherit}
+.bank-fields input{min-height:48px}
+.bank-fields p{margin:2px 0}
+#bank-error{color:#a23524;font-size:14px}
+#bank-loading{color:var(--blue);font-size:13px}

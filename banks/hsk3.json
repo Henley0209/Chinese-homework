@@ -1,0 +1,153 @@
+{
+  "title": "HSK3 · 演示练习",
+  "description": "原创演示题 · 6道选择题 + 4道填空题 · 非官方试卷",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "text": "___下雨，我们还是按时到了学校。",
+      "options": {
+        "A": "因为",
+        "B": "虽然",
+        "C": "如果",
+        "D": "为了"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Mặc dù trời mưa, chúng tôi vẫn đến trường đúng giờ.",
+      "points": 10,
+      "explanation": "“虽然……还是……”表示转折。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "text": "我已经把作业___了。",
+      "options": {
+        "A": "看见",
+        "B": "听见",
+        "C": "写完",
+        "D": "出发"
+      },
+      "answers": [
+        "C"
+      ],
+      "vietnamese": "Tôi đã làm xong bài tập.",
+      "points": 10,
+      "explanation": "“写完”说明作业完成。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "text": "他一边听音乐，___做饭。",
+      "options": {
+        "A": "一边",
+        "B": "但是",
+        "C": "所以",
+        "D": "或者"
+      },
+      "answers": [
+        "A"
+      ],
+      "vietnamese": "Anh ấy vừa nghe nhạc vừa nấu ăn.",
+      "points": 10,
+      "explanation": "“一边……一边……”表示同时进行。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "text": "这道题不难，我___五分钟就做完了。",
+      "options": {
+        "A": "从",
+        "B": "对",
+        "C": "比",
+        "D": "用"
+      },
+      "answers": [
+        "D"
+      ],
+      "vietnamese": "Tôi chỉ mất năm phút để làm xong.",
+      "points": 10,
+      "explanation": "“用五分钟”表示花费的时间。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "text": "这件衣服太贵了，有没有___一点儿的？",
+      "options": {
+        "A": "新鲜",
+        "B": "便宜",
+        "C": "安静",
+        "D": "聪明"
+      },
+      "answers": [
+        "B"
+      ],
+      "vietnamese": "Có cái nào rẻ hơn một chút không?",
+      "points": 10,
+      "explanation": "价格高的反义表达是“便宜”。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "text": "飞机快起飞了，我们得___去机场。",
+      "options": {
+        "A": "突然",
+        "B": "特别",
+        "C": "马上",
+        "D": "一直"
+      },
+      "answers": [
+        "C"
+      ],
+      "vietnamese": "Máy bay sắp cất cánh, cần đi ngay.",
+      "points": 10,
+      "explanation": "“马上”表示立刻。"
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "text": "除了中文___，她还会说英语。",
+      "answers": [
+        "以外",
+        "外"
+      ],
+      "vietnamese": "Ngoài tiếng Trung, cô ấy còn biết tiếng Anh.",
+      "points": 10,
+      "explanation": "常用结构为“除了……以外，还……”。"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "text": "这本小说我已经看___了。（表示完成）",
+      "answers": [
+        "完"
+      ],
+      "vietnamese": "Tôi đã đọc xong cuốn tiểu thuyết này.",
+      "points": 10,
+      "explanation": "“完”是表示动作完成的结果补语。"
+    },
+    {
+      "id": 9,
+      "type": "fill",
+      "text": "如果明天不下雨，我们___去公园。",
+      "answers": [
+        "就"
+      ],
+      "vietnamese": "Nếu ngày mai không mưa thì chúng ta đi công viên.",
+      "points": 10,
+      "explanation": "条件句使用“如果……就……”。"
+    },
+    {
+      "id": 10,
+      "type": "fill",
+      "text": "她每天都练习，所以中文___来___好。（两个空填同一个字）",
+      "answers": [
+        "越"
+      ],
+      "vietnamese": "Cô ấy luyện tập mỗi ngày nên tiếng Trung ngày càng tốt.",
+      "points": 10,
+      "explanation": "“越来越好”表示程度不断提高。"
+    }
+  ]
+}

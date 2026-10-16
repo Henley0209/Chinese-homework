@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {validate,grade} from '../grading.mjs';
+const d=validate(JSON.parse(fs.readFileSync(new URL('../questions.json',import.meta.url))));
+assert.equal(d.questions.filter(q=>q.type==='choice').length,10);assert.equal(d.questions.filter(q=>q.type==='fill').length,5);
+const a=Object.fromEntries(d.questions.map(q=>[q.id,q.answers[0]]));
+assert.equal(grade(d,a).score,100);assert.equal(grade(d,{}).score,0);
+assert.equal(grade(d,Object.fromEntries(d.questions.map(q=>[q.id,'错误']))).score,0);
+assert.equal(grade(d,{1:'A',11:'好'}).score,15);
+assert.equal(grade(d,{15:'  汉语  ',14:'３'}).score,20);
+assert.equal(grade(d,{11:' '}).score,0);
+assert.equal(grade(d,a).score,grade(d,a).score);
+assert.throws(()=>validate({...d,questions:d.questions.slice(0,9)}));
+assert.throws(()=>validate({...d,questions:Array.from({length:51},(_,i)=>({...d.questions[0],id:i}))}));
+validate({...d,questions:Array.from({length:50},(_,i)=>({...d.questions[0],id:i}))});
+assert.throws(()=>validate({...d,questions:d.questions.map((q,i)=>i===1?{...q,id:1}:q)}));
+assert.throws(()=>validate({...d,questions:d.questions.map((q,i)=>i===0?{...q,answers:['E']}:q)}));
+console.log('通过：15道题结构、满分100、全错0、全漏答0、混合15、多答案与全角数字20、空白0、重复评分一致、10—50题限制和无效题库校验。');

@@ -23,7 +23,7 @@ export function applyAppearance(value,target=document){const c=validateAppearanc
  if(c.backgroundImage){if(!image){image=target.createElement('img');image.className='hero-background';image.alt='';hero.prepend(image);}if(image.getAttribute('src')!==c.backgroundImage)image.src=c.backgroundImage;}
  else if(image)image.remove();
  }target.body.classList.toggle('has-hero-image',!!c.backgroundImage);
- target.title=c.brand+' · 在线作业';target.body.classList.toggle('single-fields',c.layout==='one');target.body.classList.toggle('compact-hero',c.compact);target.body.classList.toggle('no-illustration',!c.illustration);return c;
+ target.title=c.brand+' · 汉语中心';target.body.classList.toggle('single-fields',c.layout==='one');target.body.classList.toggle('compact-hero',c.compact);target.body.classList.toggle('no-illustration',!c.illustration);return c;
 }
 if(typeof document!=='undefined'&&document.body.dataset.page!=='editor'){
  // Only the editor's same-origin parent may send temporary preview changes.

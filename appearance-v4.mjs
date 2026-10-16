@@ -48,7 +48,7 @@ export function applyAppearance(value,target=document){const c=validateAppearanc
  target.documentElement.classList.remove('appearance-loading');
  target.getElementById?.('site-loading')?.remove();
  if(typeof window!=='undefined'&&target===document)clearTimeout(window.__appearanceBootTimer);
- target.title=c.brand+' · 在线作业';target.body.classList.toggle('single-fields',c.layout==='one');target.body.classList.toggle('compact-hero',c.compact);target.body.classList.toggle('no-illustration',!c.illustration);return c;
+ target.title=c.brand+' · 汉语中心';target.body.classList.toggle('single-fields',c.layout==='one');target.body.classList.toggle('compact-hero',c.compact);target.body.classList.toggle('no-illustration',!c.illustration);return c;
 }
 if(typeof document!=='undefined'&&document.body.dataset.page!=='editor'){
  // Only the editor's same-origin parent may send temporary preview changes.

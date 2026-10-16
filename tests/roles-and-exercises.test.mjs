@@ -15,13 +15,14 @@ if(process.env.QINGLAN_TEACHER_PASSWORD)assert.equal(await isTeacherPassword(pro
 for(const p of ['','wrong','teacher-test-only','trailing-space '])assert.equal(await isTeacherPassword(p),false);
 for(const e of published.exercises){validate(e.exercise);const answers=Object.fromEntries(e.exercise.questions.map(q=>[q.id,q.answers[0]]));assert.equal(grade(e.exercise,answers).score,100);}
 assert.throws(()=>store.getExercise('hsk3','hsk1-2-1'));
+const hsk3Published=published.exercises.filter(e=>e.bank==='hsk3').length;
 const changed=structuredClone(published.exercises.find(e=>e.bank==='hsk3'));changed.id='hsk3-new';changed.exercise.title='新增的HSK3练习';
-store.saveExercise(changed);assert.equal(store.listExercises('hsk3').length,2);assert.equal(store.listExercises('hsk3')[1].draft,true);assert.equal(store.draftCount(),1);
+store.saveExercise(changed);assert.equal(store.listExercises('hsk3').length,hsk3Published+1);assert.equal(store.listExercises('hsk3').find(e=>e.exercise.title===changed.exercise.title).draft,true);assert.equal(store.draftCount(),1);
 assert.equal(store.validateCatalog(JSON.parse(JSON.stringify(store.catalog()))).exercises.length,published.exercises.length+1);
 assert.throws(()=>store.saveExercise({...changed,id:'invalid',exercise:{title:'坏题库',questions:[]}}));
 assert.equal(store.draftCount(),1);
-full=true;assert.throws(()=>store.saveExercise({...changed,id:'quota-fail'}));full=false;assert.equal(store.listExercises('hsk3').length,2);
-store.discardDrafts();assert.equal(store.listExercises('hsk3').length,1);
+full=true;assert.throws(()=>store.saveExercise({...changed,id:'quota-fail'}));full=false;assert.equal(store.listExercises('hsk3').length,hsk3Published+1);
+store.discardDrafts();assert.equal(store.listExercises('hsk3').length,hsk3Published);
 function node(tag='div'){return {tag,hidden:false,textContent:'',value:'',disabled:false,open:false,fd:{},children:[],handlers:{},
  addEventListener(k,v){this.handlers[k]=v;},append(...ns){this.children.push(...ns);if(this.tag==='select'&&!this.value&&ns[0])this.value=ns[0].value;},
  replaceChildren(...ns){this.children=[];if(this.tag==='select')this.value='';this.append(...ns);},setAttribute(){},focus(){},scrollIntoView(){},querySelector(){return this.button??(this.button=node('button'));},
@@ -53,7 +54,7 @@ for(let i=0;i<80&&!$('#tools').open;i++)await tick();
 assert.equal($('#tools').open,true);assert.equal($('#teacher-password').value,'');assert.equal(loginEvents.filter(r=>r==='teacher').length,1);
 $('#tools').close();await $('#open-teacher-tools').onclick();assert.equal(loginEvents.filter(r=>r==='teacher').length,1);
 $('#upload-bank').value='hsk3';$('#upload-mode').value='add';await $('#import').onchange({target:{files:[file],value:'file'}});
-assert.equal(store.listExercises('hsk3').length,2);assert.equal($('#exercise-select').children.length,store.listExercises($('#question-bank').value).length);
+assert.equal(store.listExercises('hsk3').length,hsk3Published+1);assert.equal($('#exercise-select').children.length,store.listExercises($('#question-bank').value).length);
 $('#user-role').value='student';$('#user-role').handlers.change();
 $('#question-bank').value='hsk3';$('#question-bank').handlers.change();
 const uploaded=store.listExercises('hsk3').find(e=>e.draft);

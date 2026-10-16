@@ -1,0 +1,994 @@
+{
+  "title": "HSK3 第03课 我的中文学习经历",
+  "description": "Quá trình học tiếng Trung của tôi。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。",
+  "annotationVersion": 1,
+  "pronunciationOptionsVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“语言”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "yǒu yán",
+        "B": "yǔ yáng",
+        "C": "yǔ yán",
+        "D": "yǒ yán"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“语言”的正确读音：yǔ yán。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“汉字”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "hàng zì",
+        "B": "hàn zhì",
+        "C": "fàn zì",
+        "D": "hàn zì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“汉字”的正确读音：hàn zì。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“拼音”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "pīn yīn",
+        "B": "pīn yīng",
+        "C": "pī yīn",
+        "D": "pīng yīn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“拼音”的正确读音：pīn yīn。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“词语”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "zí yǔ",
+        "B": "cí yǔ",
+        "C": "cí yǒ",
+        "D": "chí yǔ"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“词语”的正确读音：cí yǔ。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“语法”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "yǒ fǎ",
+        "B": "yǔ fǒ",
+        "C": "yǔ fǎ",
+        "D": "yǔ hǎ"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“语法”的正确读音：yǔ fǎ。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“句子”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "jù zhi",
+        "B": "qù zi",
+        "C": "xù zi",
+        "D": "jù zi"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“句子”的正确读音：jù zi。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“课文”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "kè wén",
+        "B": "kè wéng",
+        "C": "kà wén",
+        "D": "kèi wén"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“课文”的正确读音：kè wén。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“发音”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "hā yīn",
+        "B": "fā yīn",
+        "C": "fā yīng",
+        "D": "fō yīn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“发音”的正确读音：fā yīn。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“声调”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "shēn diào",
+        "B": "shēng dào",
+        "C": "shēng diào",
+        "D": "sēng diào"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“声调”的正确读音：shēng diào。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“听力”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "tī lì",
+        "B": "tīng nì",
+        "C": "tīng lìn",
+        "D": "tīng lì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“听力”的正确读音：tīng lì。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“口语”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "kǒu yǔ",
+        "B": "kǒu yǒ",
+        "C": "kuǒ yǔ",
+        "D": "kǎo yǔ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“口语”的正确读音：kǒu yǔ。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“阅读”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "yuè duí",
+        "B": "yuè dú",
+        "C": "juè dú",
+        "D": "què dú"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“阅读”的正确读音：yuè dú。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“练习”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "liàng xí",
+        "B": "niàn xí",
+        "C": "liàn xí",
+        "D": "liàn xín"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“练习”的正确读音：liàn xí。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“复习”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "fù xín",
+        "B": "hù xí",
+        "C": "fò xí",
+        "D": "fù xí"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“复习”的正确读音：fù xí。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“预习”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "options": {
+        "A": "yù xí",
+        "B": "yò xí",
+        "C": "yù xín",
+        "D": "yòu xí"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“预习”的正确读音：yù xí。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：我从去年____学中文。",
+      "pinyin": "wǒ cóng qù nián ____ xué zhōng wén 。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: bắt đầu.",
+      "options": {
+        "A": "明白",
+        "B": "开始",
+        "C": "回答",
+        "D": "坚持"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“开始”。完整句子：我从去年开始学中文。",
+      "optionPinyin": {
+        "A": "míng bai",
+        "B": "kāi shǐ",
+        "C": "huí dá",
+        "D": "jiān chí"
+      }
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：她每天学汉语两个____。",
+      "pinyin": "tā měi tiān xué hàn yǔ liǎng gè ____。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: giờ.",
+      "options": {
+        "A": "回答",
+        "B": "意思",
+        "C": "小时",
+        "D": "方法"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“小时”。完整句子：她每天学汉语两个小时。",
+      "optionPinyin": {
+        "A": "huí dá",
+        "B": "yì si",
+        "C": "xiǎo shí",
+        "D": "fāng fǎ"
+      }
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：我不明白这个词的____。",
+      "pinyin": "wǒ bù míng bái zhè ge cí de ____。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: ý nghĩa.",
+      "options": {
+        "A": "努力",
+        "B": "错",
+        "C": "回答",
+        "D": "意思"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“意思”。完整句子：我不明白这个词的意思。",
+      "optionPinyin": {
+        "A": "nǔ lì",
+        "B": "cuò",
+        "C": "huí dá",
+        "D": "yì si"
+      }
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：请____这个字的写法。",
+      "pinyin": "qǐng ____ zhè ge zì de xiě fǎ 。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: chú ý.",
+      "options": {
+        "A": "注意",
+        "B": "字典",
+        "C": "努力",
+        "D": "开始"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“注意”。完整句子：请注意这个字的写法。",
+      "optionPinyin": {
+        "A": "zhù yì",
+        "B": "zì diǎn",
+        "C": "nǔ lì",
+        "D": "kāi shǐ"
+      }
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：这个问题我终于____了。",
+      "pinyin": "zhè ge wèn tí wǒ zhōng yú ____ le 。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: hiểu.",
+      "options": {
+        "A": "小时",
+        "B": "明白",
+        "C": "进步",
+        "D": "意思"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“明白”。完整句子：这个问题我终于明白了。",
+      "optionPinyin": {
+        "A": "xiǎo shí",
+        "B": "míng bai",
+        "C": "jìn bù",
+        "D": "yì si"
+      }
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：你的中文水平有很大____。",
+      "pinyin": "nǐ de zhōng wén shuǐ píng yǒu hěn dà ____。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiến bộ.",
+      "options": {
+        "A": "小时",
+        "B": "回答",
+        "C": "进步",
+        "D": "注意"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“进步”。完整句子：你的中文水平有很大进步。",
+      "optionPinyin": {
+        "A": "xiǎo shí",
+        "B": "huí dá",
+        "C": "jìn bù",
+        "D": "zhù yì"
+      }
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：不懂的时候可以查____。",
+      "pinyin": "bù dǒng de shí hou kě yǐ chá ____。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: từ điển.",
+      "options": {
+        "A": "进步",
+        "B": "检查",
+        "C": "回答",
+        "D": "字典"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“字典”。完整句子：不懂的时候可以查字典。",
+      "optionPinyin": {
+        "A": "jìn bù",
+        "B": "jiǎn chá",
+        "C": "huí dá",
+        "D": "zì diǎn"
+      }
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：我找到了适合自己的学习____。",
+      "pinyin": "wǒ zhǎo dào le shì hé zì jǐ de xué xí ____。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: phương pháp.",
+      "options": {
+        "A": "方法",
+        "B": "回答",
+        "C": "错",
+        "D": "检查"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“方法”。完整句子：我找到了适合自己的学习方法。",
+      "optionPinyin": {
+        "A": "fāng fǎ",
+        "B": "huí dá",
+        "C": "cuò",
+        "D": "jiǎn chá"
+      }
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：老师要求我们____每天读书。",
+      "pinyin": "lǎo shī yāo qiú wǒ men ____ měi tiān dú shū 。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: kiên trì.",
+      "options": {
+        "A": "错",
+        "B": "坚持",
+        "C": "小时",
+        "D": "回答"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“坚持”。完整句子：老师要求我们坚持每天读书。",
+      "optionPinyin": {
+        "A": "cuò",
+        "B": "jiān chí",
+        "C": "xiǎo shí",
+        "D": "huí dá"
+      }
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：这道题我做____了。",
+      "pinyin": "zhè dào tí wǒ zuò ____ le 。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: sai.",
+      "options": {
+        "A": "放弃",
+        "B": "方法",
+        "C": "错",
+        "D": "注意"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“错”。完整句子：这道题我做错了。",
+      "optionPinyin": {
+        "A": "fàng qì",
+        "B": "fāng fǎ",
+        "C": "cuò",
+        "D": "zhù yì"
+      }
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：请先____一下答案。",
+      "pinyin": "qǐng xiān ____ yí xià dá àn 。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: kiểm tra.",
+      "options": {
+        "A": "小时",
+        "B": "问题",
+        "C": "字典",
+        "D": "检查"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“检查”。完整句子：请先检查一下答案。",
+      "optionPinyin": {
+        "A": "xiǎo shí",
+        "B": "wèn tí",
+        "C": "zì diǎn",
+        "D": "jiǎn chá"
+      }
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：我想再问一个____。",
+      "pinyin": "wǒ xiǎng zài wèn yí gè ____。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: câu hỏi.",
+      "options": {
+        "A": "问题",
+        "B": "进步",
+        "C": "注意",
+        "D": "开始"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“问题”。完整句子：我想再问一个问题。",
+      "optionPinyin": {
+        "A": "wèn tí",
+        "B": "jìn bù",
+        "C": "zhù yì",
+        "D": "kāi shǐ"
+      }
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：你能____我的提问吗？",
+      "pinyin": "nǐ néng ____ wǒ de tí wèn ma ？",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: trả lời.",
+      "options": {
+        "A": "注意",
+        "B": "回答",
+        "C": "字典",
+        "D": "开始"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“回答”。完整句子：你能回答我的提问吗？",
+      "optionPinyin": {
+        "A": "zhù yì",
+        "B": "huí dá",
+        "C": "zì diǎn",
+        "D": "kāi shǐ"
+      }
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：遇到困难也不要____。",
+      "pinyin": "yù dào kùn nan yě bú yào ____。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: từ bỏ.",
+      "options": {
+        "A": "问题",
+        "B": "开始",
+        "C": "放弃",
+        "D": "努力"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“放弃”。完整句子：遇到困难也不要放弃。",
+      "optionPinyin": {
+        "A": "wèn tí",
+        "B": "kāi shǐ",
+        "C": "fàng qì",
+        "D": "nǔ lì"
+      }
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据越南语词义提示填入最合适的词语：他每天都很____。",
+      "pinyin": "tā měi tiān dōu hěn ____。",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: cố gắng.",
+      "options": {
+        "A": "小时",
+        "B": "检查",
+        "C": "注意",
+        "D": "努力"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“努力”。完整句子：他每天都很努力。",
+      "optionPinyin": {
+        "A": "xiǎo shí",
+        "B": "jiǎn chá",
+        "C": "zhù yì",
+        "D": "nǔ lì"
+      }
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（16个汉字，不含标点；不用斜线，不在汉字间加空格）：\n我 / 现在 / 已经 / 说的话 / 听懂老师 / 学会 / 怎样",
+      "pinyin": "wǒ / xiàn zài / yǐ jīng / shuō de huà / tīng dǒng lǎo shī / xué huì / zěn yàng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "我现在已经学会怎样听懂老师说的话。",
+        "我现在已经学会怎样听懂老师说的话",
+        "我现在已经学会怎样听懂老师说的话."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我现在已经学会怎样听懂老师说的话。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng tīng dǒng lǎo shī shuō de huà 。",
+      "hanziCount": 16
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（16个汉字，不含标点；不用斜线，不在汉字间加空格）：\n读完一本 / 准备 / 中文书 / 今天下课以后 / 我",
+      "pinyin": "dú wán yī běn / zhǔn bèi / zhōng wén shū / jīn tiān xià kè yǐ hòu / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "今天下课以后我准备读完一本中文书。",
+        "今天下课以后我准备读完一本中文书",
+        "今天下课以后我准备读完一本中文书.",
+        "我今天下课以后准备读完一本中文书",
+        "我今天下课以后准备读完一本中文书。"
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天下课以后我准备读完一本中文书。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi dú wán yī běn zhōng wén shū 。",
+      "hanziCount": 16
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（18个汉字，不含标点；不用斜线，不在汉字间加空格）：\n写一篇 / 打算 / 一起 / 下个星期 / 简单的 / 日记 / 我们",
+      "pinyin": "xiě yī piān / dǎ suàn / yì qǐ / xià gè xīng qī / jiǎn dān de / rì jì / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "下个星期我们打算一起写一篇简单的日记。",
+        "下个星期我们打算一起写一篇简单的日记",
+        "下个星期我们打算一起写一篇简单的日记.",
+        "我们下个星期打算一起写一篇简单的日记",
+        "我们下个星期打算一起写一篇简单的日记。"
+      ],
+      "points": 2,
+      "explanation": "参考句子：下个星期我们打算一起写一篇简单的日记。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ xiě yī piān jiǎn dān de rì jì 。",
+      "hanziCount": 18
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（16个汉字，不含标点；不用斜线，不在汉字间加空格）：\n告诉我 / 怎样 / 的想法 / 能不能 / 你 / 说出完整",
+      "pinyin": "gào su wǒ / zěn yàng / de xiǎng fǎ / néng bù néng / nǐ / shuō chū wán zhěng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "你能不能告诉我怎样说出完整的想法？",
+        "你能不能告诉我怎样说出完整的想法",
+        "你能不能告诉我怎样说出完整的想法?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：你能不能告诉我怎样说出完整的想法？\nnǐ néng bù néng gào su wǒ zěn yàng shuō chū wán zhěng de xiǎng fǎ ？",
+      "hanziCount": 16
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（19个汉字，不含标点；不用斜线，不在汉字间加空格）：\n的表达 / 都认为 / 一件重要的事 / 记住常见 / 我们 / 是",
+      "pinyin": "de biǎo dá / dōu rèn wéi / yī jiàn zhòng yào de shì / jì zhù cháng jiàn / wǒ men / shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "我们都认为记住常见的表达是一件重要的事。",
+        "我们都认为记住常见的表达是一件重要的事",
+        "我们都认为记住常见的表达是一件重要的事."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我们都认为记住常见的表达是一件重要的事。\nwǒ men dōu rèn wéi jì zhù cháng jiàn de biǎo dá shì yī jiàn zhòng yào de shì 。",
+      "hanziCount": 19
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（16个汉字，不含标点；不用斜线，不在汉字间加空格）：\n我 / 讲述自己 / 的故事 / 就 / 如果明天有时间",
+      "pinyin": "wǒ / jiǎng shù zì jǐ / de gù shì / jiù / rú guǒ míng tiān yǒu shí jiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "如果明天有时间，我就讲述自己的故事。",
+        "如果明天有时间我就讲述自己的故事",
+        "如果明天有时间,我就讲述自己的故事."
+      ],
+      "points": 2,
+      "explanation": "参考句子：如果明天有时间，我就讲述自己的故事。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù jiǎng shù zì jǐ de gù shì 。",
+      "hanziCount": 16
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（16个汉字，不含标点；不用斜线，不在汉字间加空格）：\n教我 / 的错误 / 改正过去 / 想请老师 / 我 / 怎样",
+      "pinyin": "jiào wǒ / de cuò wù / gǎi zhèng guò qù / xiǎng qǐng lǎo shī / wǒ / zěn yàng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "我想请老师教我怎样改正过去的错误。",
+        "我想请老师教我怎样改正过去的错误",
+        "我想请老师教我怎样改正过去的错误."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我想请老师教我怎样改正过去的错误。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng gǎi zhèng guò qù de cuò wù 。",
+      "hanziCount": 16
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（18个汉字，不含标点；不用斜线，不在汉字间加空格）：\n参加班里 / 现在 / 的讨论 / 我 / 不太会 / 以前 / 好多了",
+      "pinyin": "cān jiā bān lǐ / xiàn zài / de tǎo lùn / wǒ / bú tài huì / yǐ qián / hǎo duō le",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "我以前不太会参加班里的讨论，现在好多了。",
+        "我以前不太会参加班里的讨论现在好多了",
+        "我以前不太会参加班里的讨论,现在好多了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我以前不太会参加班里的讨论，现在好多了。\nwǒ yǐ qián bú tài huì cān jiā bān lǐ de tǎo lùn ， xiàn zài hǎo duō le 。",
+      "hanziCount": 18
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（16个汉字，不含标点；不用斜线，不在汉字间加空格）：\n理解文章 / 试着 / 下次 / 的内容 / 希望 / 可以 / 我",
+      "pinyin": "lǐ jiě wén zhāng / shì zhe / xià cì / de nèi róng / xī wàng / kě yǐ / wǒ",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "我希望下次可以试着理解文章的内容。",
+        "我希望下次可以试着理解文章的内容",
+        "我希望下次可以试着理解文章的内容."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我希望下次可以试着理解文章的内容。\nwǒ xī wàng xià cì kě yǐ shì zhe lǐ jiě wén zhāng de nèi róng 。",
+      "hanziCount": 16
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（17个汉字，不含标点；不用斜线，不在汉字间加空格）：\n觉得 / 姐姐 / 用新学的 / 说 / 让她 / 很开心 / 词造句",
+      "pinyin": "jué de / jiě jiě / yòng xīn xué de / shuō / ràng tā / hěn kāi xīn / cí zào jù",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "姐姐说用新学的词造句让她觉得很开心。",
+        "姐姐说用新学的词造句让她觉得很开心",
+        "姐姐说用新学的词造句让她觉得很开心."
+      ],
+      "points": 2,
+      "explanation": "参考句子：姐姐说用新学的词造句让她觉得很开心。\njiě jiě shuō yòng xīn xué de cí zào jù ràng tā jué de hěn kāi xīn 。",
+      "hanziCount": 17
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（18个汉字，不含标点；不用斜线，不在汉字间加空格）：\n常常 / 我和同学 / 利用周末 / 汉语交谈 / 和同伴用",
+      "pinyin": "cháng cháng / wǒ hé tóng xué / lì yòng zhōu mò / hàn yǔ jiāo tán / hé tóng bàn yòng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "我和同学常常利用周末和同伴用汉语交谈。",
+        "我和同学常常利用周末和同伴用汉语交谈",
+        "我和同学常常利用周末和同伴用汉语交谈."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我和同学常常利用周末和同伴用汉语交谈。\nwǒ hé tóng xué cháng cháng lì yòng zhōu mò hé tóng bàn yòng hàn yǔ jiāo tán 。",
+      "hanziCount": 18
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（17个汉字，不含标点；不用斜线，不在汉字间加空格）：\n应该 / 课后作业 / 按时完成 / 先 / 做事之前 / 我们",
+      "pinyin": "yīng gāi / kè hòu zuò yè / àn shí wán chéng / xiān / zuò shì zhī qián / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "做事之前我们应该先按时完成课后作业。",
+        "做事之前我们应该先按时完成课后作业",
+        "做事之前我们应该先按时完成课后作业."
+      ],
+      "points": 2,
+      "explanation": "参考句子：做事之前我们应该先按时完成课后作业。\nzuò shì zhī qián wǒ men yīng gāi xiān àn shí wán chéng kè hòu zuò yè 。",
+      "hanziCount": 17
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（18个汉字，不含标点；不用斜线，不在汉字间加空格）：\n准备课堂 / 教我们 / 昨天上课时 / 老师 / 上的发言",
+      "pinyin": "zhǔn bèi kè táng / jiào wǒ men / zuó tiān shàng kè shí / lǎo shī / shàng de fā yán",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "昨天上课时老师教我们准备课堂上的发言。",
+        "昨天上课时老师教我们准备课堂上的发言",
+        "昨天上课时老师教我们准备课堂上的发言."
+      ],
+      "points": 2,
+      "explanation": "参考句子：昨天上课时老师教我们准备课堂上的发言。\nzuó tiān shàng kè shí lǎo shī jiào wǒ men zhǔn bèi kè táng shàng de fā yán 。",
+      "hanziCount": 18
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（17个汉字，不含标点；不用斜线，不在汉字间加空格）：\n商量好 / 明天 / 把重点记 / 我和朋友 / 在本子上",
+      "pinyin": "shāng liáng hǎo / míng tiān / bǎ zhòng diǎn jì / wǒ hé péng you / zài běn zi shàng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "我和朋友商量好明天把重点记在本子上。",
+        "我和朋友商量好明天把重点记在本子上",
+        "我和朋友商量好明天把重点记在本子上."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我和朋友商量好明天把重点记在本子上。\nwǒ hé péng you shāng liáng hǎo míng tiān bǎ zhòng diǎn jì zài běn zi shàng 。",
+      "hanziCount": 17
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（18个汉字，不含标点；不用斜线，不在汉字间加空格）：\n很会 / 比较 / 两句话的 / 可以 / 教我吗 / 区别 / 你 / 听说",
+      "pinyin": "hěn huì / bǐ jiào / liǎng jù huà de / kě yǐ / jiào wǒ ma / qū bié / nǐ / tīng shuō",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "听说你很会比较两句话的区别，可以教我吗？",
+        "听说你很会比较两句话的区别可以教我吗",
+        "听说你很会比较两句话的区别,可以教我吗?"
+      ],
+      "points": 2,
+      "explanation": "参考句子：听说你很会比较两句话的区别，可以教我吗？\ntīng shuō nǐ hěn huì bǐ jiào liǎng jù huà de qū bié ， kě yǐ jiào wǒ ma ？",
+      "hanziCount": 18
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（17个汉字，不含标点；不用斜线，不在汉字间加空格）：\n怎样 / 知道 / 已经 / 了 / 应该 / 选择合适 / 我 / 的读物",
+      "pinyin": "zěn yàng / zhī dao / yǐ jīng / le / yīng gāi / xuǎn zé hé shì / wǒ / de dú wù",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "我已经知道应该怎样选择合适的读物了。",
+        "我已经知道应该怎样选择合适的读物了",
+        "我已经知道应该怎样选择合适的读物了."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我已经知道应该怎样选择合适的读物了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng xuǎn zé hé shì de dú wù le 。",
+      "hanziCount": 17
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（17个汉字，不含标点；不用斜线，不在汉字间加空格）：\n我们 / 今天 / 利用路上 / 怎样 / 一起 / 讨论 / 的时间",
+      "pinyin": "wǒ men / jīn tiān / lì yòng lù shàng / zěn yàng / yì qǐ / tǎo lùn / de shí jiān",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "今天我们一起讨论怎样利用路上的时间。",
+        "今天我们一起讨论怎样利用路上的时间",
+        "今天我们一起讨论怎样利用路上的时间.",
+        "我们今天一起讨论怎样利用路上的时间",
+        "我们今天一起讨论怎样利用路上的时间。"
+      ],
+      "points": 2,
+      "explanation": "参考句子：今天我们一起讨论怎样利用路上的时间。\njīn tiān wǒ men yì qǐ tǎo lùn zěn yàng lì yòng lù shàng de shí jiān 。",
+      "hanziCount": 17
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（17个汉字，不含标点；不用斜线，不在汉字间加空格）：\n准备 / 安排每天 / 他 / 的任务 / 忙完工作以后 / 再",
+      "pinyin": "zhǔn bèi / ān pái měi tiān / tā / de rèn wù / máng wán gōng zuò yǐ hòu / zài",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "他准备忙完工作以后再安排每天的任务。",
+        "他准备忙完工作以后再安排每天的任务",
+        "他准备忙完工作以后再安排每天的任务."
+      ],
+      "points": 2,
+      "explanation": "参考句子：他准备忙完工作以后再安排每天的任务。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài ān pái měi tiān de rèn wù 。",
+      "hanziCount": 17
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（19个汉字，不含标点；不用斜线，不在汉字间加空格）：\n一起 / 试着 / 可以 / 给朋友写 / 我们 / 一张卡片 / 我觉得",
+      "pinyin": "yì qǐ / shì zhe / kě yǐ / gěi péng you xiě / wǒ men / yī zhāng kǎ piàn / wǒ jué de",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "我觉得我们可以试着一起给朋友写一张卡片。",
+        "我觉得我们可以试着一起给朋友写一张卡片",
+        "我觉得我们可以试着一起给朋友写一张卡片."
+      ],
+      "points": 2,
+      "explanation": "参考句子：我觉得我们可以试着一起给朋友写一张卡片。\nwǒ jué de wǒ men kě yǐ shì zhe yì qǐ gěi péng you xiě yī zhāng kǎ piàn 。",
+      "hanziCount": 19
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】请将词语排列为完整句子（18个汉字，不含标点；不用斜线，不在汉字间加空格）：\n再 / 然后 / 向别人 / 先等我一下 / 解释原因 / 请 / 我们",
+      "pinyin": "zài / rán hòu / xiàng bié rén / xiān děng wǒ yí xià / jiě shì yuán yīn / qǐng / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh gồm 15–20 chữ Hán, không tính dấu câu. Không thêm hoặc bớt từ; không nhập dấu gạch chéo.",
+      "answers": [
+        "请先等我一下，然后我们再向别人解释原因。",
+        "请先等我一下然后我们再向别人解释原因",
+        "请先等我一下,然后我们再向别人解释原因."
+      ],
+      "points": 2,
+      "explanation": "参考句子：请先等我一下，然后我们再向别人解释原因。\nqǐng xiān děng wǒ yí xià ， rán hòu wǒ men zài xiàng bié rén jiě shì yuán yīn 。",
+      "hanziCount": 18
+    }
+  ]
+}

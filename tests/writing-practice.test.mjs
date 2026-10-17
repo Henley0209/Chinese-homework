@@ -15,5 +15,5 @@ for(const [bank,entries] of Object.entries(catalog)){
 }
 assert.equal(progressIndex(null,50),0);for(const n of [-1,50,NaN,2.5])assert.equal(progressIndex(n,50),0);assert.equal(progressIndex('12',50),12);
 assert.equal(scoreEmoji(59),'😢');assert.equal(scoreEmoji(60),'🙂');assert.equal(scoreEmoji(99),'🙂');assert.equal(scoreEmoji(100),'😆');assert.equal(scoreEmoji(50,50),'😆');
-const poly=catalog['hsk1-2'].find(e=>e.character==='长');assert.deepEqual(poly.pinyin,['cháng','zhǎng']);assert.ok(pronunciationText(poly,1).includes('长'));
+const poly=catalog['hsk1-2'].find(e=>e.character==='长');assert.deepEqual(poly.pinyin,['cháng','zhǎng']);assert.equal(pronunciationText(poly,0),'cháng');assert.equal(pronunciationText(poly,1),'zhǎng');
 console.log('通过：三个分级字库、真实笔顺数据、笔画排序、多音字、进度边界、表情分档。');

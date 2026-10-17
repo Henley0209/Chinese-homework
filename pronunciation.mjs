@@ -1,0 +1,11 @@
+export function pinyinKey(text){let tone=5;const marks={'\u0304':1,'\u0301':2,'\u030c':3,'\u0300':4};let normalized=text.toLowerCase().normalize('NFD');for(const [mark,n] of Object.entries(marks))if(normalized.includes(mark))tone=n;normalized=normalized.replace(/u\u0308/g,'v').replace(/[\u0300-\u036f]/g,'');return normalized+tone;}
+export function createPronunciationPlayer({onUnavailable=()=>{}}={}){
+ let manifestPromise,audio,url,generation=0,loading=false,speech;const packs=new Map();
+ function stop(){generation++;loading=false;if(speech){globalThis.speechSynthesis?.cancel();speech=null;}if(audio){audio.pause();audio.removeAttribute('src');audio.load();audio=null;}if(url){URL.revokeObjectURL(url);url=null;}}
+ async function play(entry,index=0){if(loading||(audio&&!audio.paused&&!audio.ended)||speech)return false;stop();const token=generation;loading=true;
+  try{manifestPromise??=fetch('pronunciation/index.json').then(r=>{if(!r.ok)throw Error('audio index');return r.json();});const manifest=await manifestPromise,key=pinyinKey(entry.pinyin[index%entry.pinyin.length]),clip=manifest[key];if(!clip)throw Error('missing recording');if(clip.speech){if(token!==generation)return false;if(!globalThis.speechSynthesis||!globalThis.SpeechSynthesisUtterance)throw Error('speech unavailable');speech=new SpeechSynthesisUtterance(clip.speech);speech.lang='zh-CN';speech.rate=.75;speech.onend=()=>{if(token===generation){speech=null;loading=false;}};speech.onerror=()=>{if(token===generation){speech=null;loading=false;onUnavailable();}};speechSynthesis.speak(speech);return true;}
+   if(!packs.has(clip.file))packs.set(clip.file,fetch('pronunciation/'+clip.file).then(r=>{if(!r.ok)throw Error('audio pack');return r.arrayBuffer();}).catch(err=>{packs.delete(clip.file);throw err;}));const pack=await packs.get(clip.file);if(token!==generation)return;url=URL.createObjectURL(new Blob([pack.slice(clip.offset,clip.offset+clip.length)],{type:'audio/mpeg'}));audio=new Audio(url);audio.onended=()=>{if(token===generation)loading=false;};audio.onerror=()=>{if(token===generation){loading=false;onUnavailable();}};await audio.play();if(token===generation)loading=false;return true;
+  }catch{if(token===generation){loading=false;manifestPromise=null;onUnavailable();}return false;}
+ }
+ return {play,stop};
+}

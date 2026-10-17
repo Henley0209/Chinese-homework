@@ -22,7 +22,13 @@ export function createFeedbackSpeech({synth=globalThis.speechSynthesis,Utterance
  return {play,stop};
 }
 let active;
-export function stopFeedback(){active?.stop();active=null;}
+let emojiTimer,emojiNode;
+export function scoreEmoji(score,total=100){const percent=total>0?score/total*100:0;return percent>=100?'😆':percent<60?'😢':'🙂';}
+export function showScoreEmoji(score,total){
+ if(!document.body)return;
+ clearTimeout(emojiTimer);emojiNode?.remove();emojiNode=document.createElement('div');emojiNode.className='score-emoji';emojiNode.textContent=scoreEmoji(score,total);emojiNode.setAttribute('aria-hidden','true');document.body.append(emojiNode);emojiTimer=setTimeout(()=>{emojiNode?.remove();emojiNode=null;},3000);
+}
+export function stopFeedback(){active?.stop();active=null;clearTimeout(emojiTimer);emojiNode?.remove();emojiNode=null;}
 export function showFeedback(root,score,total){
  stopFeedback();
  const text=feedbackText(score,total),box=document.createElement('div'),message=document.createElement('p'),button=document.createElement('button'),status=document.createElement('p');
@@ -31,6 +37,6 @@ export function showFeedback(root,score,total){
  status.className='note feedback-status';status.setAttribute('role','status');
  active=createFeedbackSpeech({onStatus:value=>{status.textContent=value;}});
  const player=active;button.onclick=()=>player.play(text);box.append(message,button,status);root.append(box);
- player.play(text);
+ player.play(text);showScoreEmoji(score,total);
 }
 if(typeof window!=='undefined')window.addEventListener('pagehide',stopFeedback);

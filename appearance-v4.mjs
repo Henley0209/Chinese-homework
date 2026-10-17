@@ -30,7 +30,7 @@ export function validateAppearance(value){
 }
 export function applyAppearance(value,target=document){const c=validateAppearance(value),s=target.documentElement.style;
  for(const [k,v] of Object.entries({'--photo-opacity':String(c.backgroundOpacity/100),'--overlay-opacity':String(c.overlayOpacity/100),'--blue':c.primary,'--page-background':c.background,'--body-size':c.fontSize+'px','--title-size':c.titleSize+'px'}))s.setProperty(k,v);
- for(const [selector,key] of [['#brand-name','brand'],['.hero h1','heading'],['#welcome-zh','welcome'],['#welcome-vi','vietnamese'],['#start','button'],['#footer-text','footer']]){const n=target.querySelector(selector);if(n){n.textContent=c[key];if(['heading','welcome','vietnamese','footer'].includes(key))n.hidden=!c[key].trim();}}
+ for(const [selector,key] of [['#brand-name','brand'],['.hero h1','heading'],['#welcome-zh','welcome'],['#welcome-vi','vietnamese'],['#start>span','button'],['#footer-text','footer']]){const n=target.querySelector(selector);if(n){n.textContent=key==='button'?c[key].replace(/\s*→\s*$/,''):c[key];if(['heading','welcome','vietnamese','footer'].includes(key))n.hidden=!c[key].trim();}}
  const welcome=target.querySelector('#welcome-zh'),vi=target.querySelector('#welcome-vi');
  if(welcome?.parentElement&&vi?.parentElement===welcome.parentElement){
  welcome.parentElement.hidden=!c.welcome.trim()&&!c.vietnamese.trim();

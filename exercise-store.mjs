@@ -27,7 +27,7 @@ function uniqueByTitle(entries){
  const map=new Map();for(const e of entries){const prev=map.get(key(e));map.set(key(e),prev?{...e,id:prev.id}:e);}return [...map.values()];
 }
 export function validateCatalog(value){
- if(!value||value.version!==1||!Array.isArray(value.exercises)||value.exercises.length>100)throw Error('题库文件格式无效或超过100份练习。');
+ if(!value||value.version!==1||!Array.isArray(value.exercises)||value.exercises.length>500)throw Error('题库文件格式无效或超过500份练习。');
  const ids=new Set(),entries=value.exercises.map(v=>{const e=validateEntry(v);if(ids.has(e.id))throw Error('练习编号重复。');ids.add(e.id);return e;});
  const unique=uniqueByTitle(entries);
  for(const bank of Object.keys(bankLabels))if(!unique.some(e=>e.bank===bank))throw Error('题库缺少练习：'+bankLabels[bank]);
@@ -56,7 +56,7 @@ export async function loadCatalog({refresh=false}={}){
  const r=await fetch('./exercise-catalog.json?updated='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('练习列表加载失败，请刷新重试。');
  const c=validateCatalog(await r.json());published=c.exercises;
  try{const saved=localStorage.getItem(storageKey);
- if(saved){const v=JSON.parse(saved);if(!Array.isArray(v)||v.length>100)throw Error();drafts=reconcile(v);validateCatalog({version:1,exercises:combined()});
+ if(saved){const v=JSON.parse(saved);if(!Array.isArray(v)||v.length>500)throw Error();drafts=reconcile(v);validateCatalog({version:1,exercises:combined()});
  // Remove duplicate and already-published drafts on this device, retaining genuine unpublished changes.
  try{if(JSON.stringify(v)!==JSON.stringify(drafts))localStorage.setItem(storageKey,JSON.stringify(drafts));}catch{}
  }else drafts=[];

@@ -1,6 +1,6 @@
 import {recordLogin} from './visit-counter.mjs?v=visits15';
 import {isTeacherPassword} from './teacher-auth.mjs?v=visits15';
-import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=fuzzy19';
+import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=hsk4-40';
 import {validate} from './grading.mjs';
 const $=s=>document.querySelector(s);let authenticated=false,attempt=0,uploading=false;
 const message=t=>$('#teacher-status').textContent=t;

@@ -1,11 +1,12 @@
-import {createHandwriting} from './handwriting.mjs?v=writing24';
-import {createPronunciationPlayer} from './pronunciation.mjs?v=writing22';
+import {resolveWritingLevel,writingLevels} from './writing-access.mjs?v=writing26';
+import {createHandwriting} from './handwriting.mjs?v=writing26';
+import {createPronunciationPlayer} from './pronunciation.mjs?v=writing26';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=s=>document.querySelector(s);
 export function progressIndex(value,length){const n=Number(value);return Number.isInteger(n)&&n>=0&&n<length?n:0;}
 export function pronunciationText(entry,index){return entry.pinyin[index%entry.pinyin.length];}
 export function initWriting(){
- const root=$('#writing-practice'),entryButton=$('#practice-writing');if(!root||!entryButton)return;
+ const root=$('#writing-practice'),entryButton=$('#practice-writing'),shortcut=$('#writing-shortcut');if(!root||!entryButton)return;
  const strokeCache=new Map();
  let ink;
  const pronunciation=createPronunciationPlayer({onUnavailable:()=>{const status=root.querySelector('.writing-audio-status');if(status)status.textContent='请点击喇叭重试播放 / Chạm loa để thử lại';}});
@@ -22,7 +23,7 @@ export function initWriting(){
  function success(token){if(token!==version||complete)return;complete=true;reaction(true);root.querySelector('.writing-status').textContent=index<entries.length-1?'写对了！5秒后练习下一个字 / Đúng rồi! Chữ tiếp theo sau 5 giây':'本组练习完成！/ Đã hoàn thành nhóm này!';if(index<entries.length-1)advance=setTimeout(()=>show(index+1),5000);}
  async function show(next){
   cancel();index=progressIndex(next,entries.length);save();complete=false;voiceIndex=0;const token=version,e=entries[index],practiceBank=bank;root.replaceChildren();
-  const nav=make('div',undefined,'writing-nav');const prev=button('← 上一字','Trước',()=>show(index-1));prev.disabled=index===0;const following=button('下一字 →','Sau',()=>show(index+1));following.disabled=index===entries.length-1;nav.append(prev,make('span',`${bank.toUpperCase()} · ${index+1} / ${entries.length}`),following);
+  const nav=make('div',undefined,'writing-nav');const prev=button('← 上字','Trước',()=>show(index-1));prev.disabled=index===0;const following=button('下字 →','Sau',()=>show(index+1));following.disabled=index===entries.length-1;const progress=make('div',`${bank.toUpperCase()} · ${index+1} / ${entries.length}`,'writing-level-progress');const levels=make('div',undefined,'writing-levels');levels.setAttribute('aria-label','选择汉字级别 / Chọn cấp độ');for(const level of writingLevels){const tab=make('button',level.toUpperCase(),'writing-level level-'+level);tab.type='button';tab.setAttribute('aria-pressed',String(level===bank));tab.onclick=()=>{if(level!==bank)void switchLevel(level);};levels.append(tab);}nav.append(prev,levels,following);
   const card=make('div',undefined,'writing-word'),description=make('div');description.append(make('div',`${e.character}  ${e.pinyin.join(' / ')}`,'writing-reading'),make('div',e.vietnamese));const sound=button('🔊','Nghe',speak);sound.setAttribute('aria-label','朗读当前汉字 / Đọc chữ hiện tại');card.append(description,sound);const audioStatus=make('p','','writing-audio-status note');audioStatus.setAttribute('role','status');
   const grid=make('div',undefined,'writing-grid');grid.id='hanzi-grid';grid.setAttribute('aria-label','米字格手写区 / Ô luyện viết');
   const guides=document.createElementNS('http://www.w3.org/2000/svg','svg');guides.setAttribute('viewBox','0 0 100 100');guides.setAttribute('aria-hidden','true');guides.innerHTML='<path d="M0 0L100 100M100 0L0 100M50 0V100M0 50H100" fill="none" stroke="#e9aaa5" stroke-width=".45" stroke-dasharray="2 2"/>';guides.classList.add('writing-guides');grid.append(guides);
@@ -32,8 +33,10 @@ export function initWriting(){
   async function demonstrate(){
    if(token!==version||!writer||demonstrating)return;
    demonstrating=true;const currentWriter=writer;clearTimeout(advance);clearTimeout(emojiTimeout);emoji.hidden=true;complete=false;ink?.pause();canvas.hidden=true;demo.disabled=true;check.disabled=true;status.textContent='请看慢速笔顺演示 / Hãy xem thứ tự nét viết chậm';
-   try{await currentWriter.animateCharacter();if(token!==version)return;await currentWriter.hideCharacter();}
-   finally{demonstrating=false;if(token===version){ink?.reset();canvas.hidden=false;check.disabled=false;demo.disabled=false;status.textContent='自由书写，停笔2秒自动检查 / Dừng 2 giây để kiểm tra';}}
+   let failed=false;
+   try{await currentWriter.setCharacter(e.character);if(token!==version)return;await currentWriter.hideCharacter({duration:0});await currentWriter.animateCharacter();if(token!==version)return;await currentWriter.hideCharacter();}
+   catch{failed=true;}
+   finally{demonstrating=false;if(token===version){ink?.reset();canvas.hidden=false;check.disabled=false;demo.disabled=false;status.textContent=failed?'演示未完成，请点击演示重试 / Nhấn xem mẫu để thử lại':'自由书写，停笔2秒自动检查 / Dừng 2 giây để kiểm tra';}}
   }
   const controls=make('div',undefined,'writing-controls');const demo=button('演示','Xem mẫu',()=>demonstrate());demo.disabled=true;
   const check=button('检查','Kiểm tra',()=>ink?.check());check.disabled=true;
@@ -41,7 +44,7 @@ export function initWriting(){
   const clear=button('重写','Viết lại',()=>show(index));
   const back=button('返回题库','Về ngân hàng câu hỏi',()=>{cancel();root.hidden=true;$('#welcome').hidden=false;$('#welcome').scrollIntoView({behavior:'smooth'});});
   const secondary=make('div',undefined,'writing-secondary');secondary.append(clear,restart,back);
-  root.append(nav,card,audioStatus,make('p',`自由手写 · ${e.strokes} 笔 / Viết tự do · ${e.strokes} nét`,'note'),grid,controls,status,secondary);
+  root.append(progress,nav,card,audioStatus,make('p',`自由手写 · ${e.strokes} 笔 / Viết tự do · ${e.strokes} nét`,'note'),grid,controls,status,secondary);
   try{
    if(!strokeCache.has(practiceBank)){const res=await fetch('writing-strokes-'+practiceBank+'.json');if(!res.ok)throw Error('笔顺加载失败');strokeCache.set(practiceBank,await res.json());}const data=strokeCache.get(practiceBank)[e.character];if(token!==version)return;if(!data)throw Error('找不到当前汉字笔顺');
    if(!globalThis.HanziWriter)throw Error('笔顺组件未加载，请刷新');
@@ -49,10 +52,25 @@ export function initWriting(){
    ink=createHandwriting(canvas,{medians:data.medians,onComplete:()=>success(token),onIncomplete:()=>{if(token!==version)return;ink?.pause();check.disabled=true;demo.disabled=true;status.textContent='2秒后清空并演示一次 / Xóa và xem mẫu sau 2 giây';reaction(false,()=>{if(token!==version)return;ink?.reset();void demonstrate();});},onWriting:()=>{if(token===version)status.textContent='正在书写… / Đang viết…';}});demo.disabled=false;check.disabled=false;status.textContent='自由书写，停笔2秒自动检查 / Dừng 2 giây để kiểm tra';speak();repeat=setInterval(speak,3000);
   }catch(err){if(token===version){status.textContent='加载失败，请点击“重写”重试。 / Không tải được. Hãy thử lại. '+err.message;}}
  }
- entryButton.onclick=async()=>{
-  if(!['hsk1-2','hsk3','hsk4'].includes($('#question-bank').value)){$('#bank-error').textContent='写字练习目前支持 HSK1-2、HSK3、HSK4，请先选择其中一个题库。';return;}
-  entryButton.disabled=true;
-  try{if(!catalog){const response=await fetch('writing-catalog.json');if(!response.ok)throw Error('字库加载失败');catalog=await response.json();try{const migration=await fetch('writing-legacy-progress.json');if(migration.ok)legacy=await migration.json();}catch{}}bank=$('#question-bank').value;entries=catalog[bank];let saved=0;try{saved=localStorage.getItem('writing-progress:'+bank);const character=localStorage.getItem('writing-character:'+bank)||legacy?.[bank]?.[progressIndex(saved,legacy?.[bank]?.length||0)];const found=entries.findIndex(e=>e.character===character);if(found>=0)saved=found;}catch{}stopFeedback();$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;root.hidden=false;await show(progressIndex(saved,entries.length));root.focus();root.scrollIntoView({behavior:'smooth'});}catch(err){$('#bank-error').textContent=err.message;}finally{entryButton.disabled=false;}
- };
+ async function switchLevel(level){
+  bank=level;entries=catalog[bank];let saved=0;try{saved=localStorage.getItem('writing-progress:'+bank);const character=localStorage.getItem('writing-character:'+bank)||legacy?.[bank]?.[progressIndex(saved,legacy?.[bank]?.length||0)];const found=entries.findIndex(e=>e.character===character);if(found>=0)saved=found;}catch{}
+  await show(progressIndex(saved,entries.length));
+ }
+ async function enter(password){
+  const level=resolveWritingLevel(password,$('#question-bank').value);entryButton.disabled=true;if(shortcut)shortcut.disabled=true;
+  try{if(!catalog){const response=await fetch('writing-catalog.json');if(!response.ok)throw Error('字库加载失败');catalog=await response.json();try{const migration=await fetch('writing-legacy-progress.json');if(migration.ok)legacy=await migration.json();}catch{}}
+   stopFeedback();$('#bank-error').textContent='';$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;root.hidden=false;await switchLevel(level);root.focus();root.scrollIntoView({behavior:'smooth'});
+  }finally{entryButton.disabled=false;if(shortcut)shortcut.disabled=false;}
+ }
+ let accessDialog;
+ function askPassword(message='请输入题库密码 / Vui lòng nhập mật khẩu ngân hàng câu hỏi'){
+  if(!accessDialog){accessDialog=make('dialog',undefined,'writing-access-dialog');accessDialog.innerHTML='<form><h2>练习写字 / Luyện viết chữ</h2><label>题库密码 / Mật khẩu<input name="writingPassword" type="password" autocomplete="off" required></label><p role="alert"></p><div class="writing-access-actions"><button type="submit" class="primary">进入 / Vào</button><button type="button" class="quiet">取消 / Hủy</button></div></form>';document.body.append(accessDialog);accessDialog.querySelector('button[type=button]').onclick=()=>accessDialog.close();accessDialog.querySelector('form').onsubmit=async event=>{event.preventDefault();const input=accessDialog.querySelector('input'),submit=accessDialog.querySelector('button[type=submit]');submit.disabled=true;try{await enter(input.value);$('#bank-password').value=input.value;accessDialog.close();}catch(error){accessDialog.querySelector('[role=alert]').textContent=error.message;}finally{submit.disabled=false;}};}
+  accessDialog.querySelector('[role=alert]').textContent=message;accessDialog.querySelector('input').value='';if(!accessDialog.open)accessDialog.showModal();accessDialog.querySelector('input').focus();
+ }
+ async function open(){
+  const password=$('#bank-password').value;
+  try{resolveWritingLevel(password,$('#question-bank').value);await enter(password);}catch(error){if($('#welcome').hidden)askPassword(error.message);else{$('#bank-error').textContent=error.message;$('#bank-password').focus();}}
+ }
+ entryButton.onclick=open;if(shortcut)shortcut.onclick=open;
  window.addEventListener('pagehide',cancel);document.addEventListener('visibilitychange',()=>{if(document.hidden)pronunciation.stop();});
 }

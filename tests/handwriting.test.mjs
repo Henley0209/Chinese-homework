@@ -11,6 +11,16 @@ for(const ch of ['一','二','十','人','口','好','学','想','谢','赢']){
  const transformed=ink(ch).map(s=>s.map(([x,y])=>[x*.6+50,y*.6+30]));assert.equal(assessHandwriting(transformed,source[ch].medians).correct,true,ch+' position/size');
  const split=ink(ch).flatMap(s=>{const n=Math.floor(s.length/2);return [s.slice(0,n+1),s.slice(n)];});assert.equal(assessHandwriting(split,source[ch].medians).correct,true,ch+' split strokes');
 }
+// Practice accepts a locally short/long or wide/narrow stroke when it exists
+// in the right region. Test simple and compound characters, not just reports.
+for(const ch of ['公','分','二','十','口','好','学','谢','赢']){
+ const strokes=ink(ch);
+ for(let j=0;j<strokes.length;j++)for(const [sx,sy] of [[.18,.18],[2.8,2.8],[.3,1.6],[1.6,.3]]){
+  const stroke=strokes[j],cx=(Math.min(...stroke.map(p=>p[0]))+Math.max(...stroke.map(p=>p[0])))/2,cy=(Math.min(...stroke.map(p=>p[1]))+Math.max(...stroke.map(p=>p[1])))/2;
+  const loose=strokes.map((s,i)=>i===j?s.map(([x,y])=>[cx+(x-cx)*sx,cy+(y-cy)*sy]):s);
+  assert.equal(assessHandwriting(loose,source[ch].medians).correct,true,ch+' stroke '+j+' relaxed length/proportion '+sx+','+sy);
+ }
+}
 // Approximate centerlines from the reported screenshot; no original pointer data.
 const handwrittenGong=[[[378,1006],[362,1050],[334,1087],[312,1127],[274,1156]],[[505,937],[536,973],[586,1012],[627,1040],[668,1055]],[[501,1103],[467,1155],[430,1201],[372,1276],[456,1277],[513,1277],[583,1277]],[[574,1227],[585,1260],[612,1314],[633,1340]]];
 assert.equal(assessHandwriting(handwrittenGong,source['公'].medians).correct,true,'reported handwritten 公');

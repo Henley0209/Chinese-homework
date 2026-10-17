@@ -24,23 +24,28 @@ function distance(mask){
  return d;
 }
 function covered(mask,dist,tolerance){let total=0,hit=0;for(let i=0;i<mask.length;i++)if(mask[i]){total++;if(dist[i]<=tolerance)hit++;}return total?hit/total:0;}
-// A second pass compares the parts with limited freedom in size and spacing.
+// A second pass checks that the strokes exist in their approximate regions.
 // It requires a one-to-one match so a missing or extra stroke cannot disappear.
 function matchesFlexibleStrokes(drawn,reference){
  if(drawn.length!==reference.length||reference.length<2||reference.length>24)return false;
  function describe(stroke){
   const xs=stroke.map(p=>p[0]),ys=stroke.map(p=>p[1]),x=Math.min(...xs),y=Math.min(...ys),w=Math.max(...xs)-x,h=Math.max(...ys)-y;
-  const size=Math.max(w,h,1e-6),shape=raster([stroke.map(([a,b])=>[(a-x-w/2)/size+.5,(b-y-h/2)/size+.5])]);
-  return {x:x+w/2,y:y+h/2,size:Math.hypot(w,h),shape,dist:distance(shape),points:stroke.map(([a,b])=>[(a-x-w/2)/size+.5,(b-y-h/2)/size+.5])};
+  const size=Math.max(w,h,1e-6),sx=Math.max(w,size*.3),sy=Math.max(h,size*.3);
+  const points=stroke.map(([a,b])=>[(a-x-w/2)/size+.5,(b-y-h/2)/size+.5]);
+  const flexible=stroke.map(([a,b])=>[(a-x-w/2)/sx+.5,(b-y-h/2)/sy+.5]);
+  const shape=raster([points]),flexShape=raster([flexible]);
+  return {x:x+w/2,y:y+h/2,size:Math.hypot(w,h),shape,dist:distance(shape),points,flexible,flexShape,flexDist:distance(flexShape)};
  }
  const input=drawn.map(describe),target=reference.map(describe);
  const candidates=target.map(t=>input.flatMap((s,i)=>{
-  // Handwritten dots/slants may be much shorter than the calligraphic model.
-  // Allow component spacing to vary, while still requiring a shape match.
-  if(Math.hypot(s.x-t.x,s.y-t.y)>.3||s.size<t.size*.35||s.size>t.size*2.2)return [];
+  // Length and proportions are practice goals, not reasons to reject a stroke.
+  // Keep only a tiny-mark guard and an approximate region/shape requirement.
+  if(Math.hypot(s.x-t.x,s.y-t.y)>.34||s.size<.015)return [];
   for(const degrees of [-25,-12,0,12,25]){
    const mask=raster([s.points],degrees*Math.PI/180);
    if(covered(t.shape,distance(mask),7)>=.82&&covered(mask,t.dist,7)>=.82)return [i];
+   const flexibleMask=raster([s.flexible],degrees*Math.PI/180);
+   if(covered(t.flexShape,distance(flexibleMask),7)>=.8&&covered(flexibleMask,t.flexDist,7)>=.8)return [i];
   }
   return [];
  }));

@@ -1,6 +1,6 @@
-import {resolveWritingLevel,writingLevels} from './writing-access.mjs?v=writing29';
-import {createHandwriting} from './handwriting.mjs?v=writing29';
-import {createPronunciationPlayer} from './pronunciation.mjs?v=writing29';
+import {resolveWritingLevel,writingLevels} from './writing-access.mjs?v=writing30';
+import {createHandwriting} from './handwriting.mjs?v=writing30';
+import {createPronunciationPlayer} from './pronunciation.mjs?v=writing30';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=s=>document.querySelector(s);
 export function progressIndex(value,length){const n=Number(value);return Number.isInteger(n)&&n>=0&&n<length?n:0;}
@@ -8,8 +8,8 @@ export function pronunciationText(entry,index){return entry.pinyin[index%entry.p
 export function initWriting(){
  const root=$('#writing-practice'),entryButton=$('#practice-writing'),shortcut=$('#writing-shortcut');if(!root||!entryButton)return;
  const strokeCache=new Map();
- let ink;
- const pronunciation=createPronunciationPlayer({onUnavailable:()=>{const status=root.querySelector('.writing-audio-status');if(status)status.textContent='请点击喇叭重试播放 / Chạm loa để thử lại';}});
+ let ink,needsAudioGesture=false;
+ const pronunciation=createPronunciationPlayer({onUnavailable:()=>{needsAudioGesture=true;const status=root.querySelector('.writing-audio-status');if(status)status.textContent='请点击喇叭重试播放 / Chạm loa để thử lại';}});
  let catalog,legacy,entries=[],bank,index=0,writer,version=0,advance,repeat,emojiTimeout,voiceIndex=0,complete=false;
  const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
  const button=(zh,vi,fn,cls='primary')=>{const b=make('button',undefined,cls+' bilingual');b.type='button';b.append(make('span',zh),make('small',vi));b.onclick=fn;return b;};
@@ -17,7 +17,7 @@ export function initWriting(){
  function save(){try{localStorage.setItem('writing-progress:'+bank,String(index));localStorage.setItem('writing-character:'+bank,entries[index].character);}catch{}}
  async function speak(){
   if(document.hidden||root.hidden)return;
-  const e=entries[index],token=version;const played=await pronunciation.play(e,voiceIndex);if(played&&token===version){voiceIndex=(voiceIndex+1)%e.pinyin.length;const status=root.querySelector('.writing-audio-status');if(status)status.textContent='';}
+  const e=entries[index],token=version;const played=await pronunciation.play(e,voiceIndex);if(played&&token===version){needsAudioGesture=false;voiceIndex=(voiceIndex+1)%e.pinyin.length;const status=root.querySelector('.writing-audio-status');if(status)status.textContent='';}
  }
  function reaction(ok,afterDisappear=()=>{}){const n=root.querySelector('.writing-emoji');clearTimeout(emojiTimeout);n.textContent=ok?'👍':'😢';n.hidden=false;emojiTimeout=setTimeout(()=>{n.hidden=true;afterDisappear();},2000);}
  function success(token){if(token!==version||complete)return;complete=true;reaction(true);root.querySelector('.writing-status').textContent=index<entries.length-1?'写对了！5秒后练习下一个字 / Đúng rồi! Chữ tiếp theo sau 5 giây':'本组练习完成！/ Đã hoàn thành nhóm này!';if(index<entries.length-1)advance=setTimeout(()=>show(index+1),5000);}
@@ -45,11 +45,12 @@ export function initWriting(){
   const back=button('返回题库','Về ngân hàng câu hỏi',()=>{cancel();root.hidden=true;$('#welcome').hidden=false;$('#welcome').scrollIntoView({behavior:'smooth'});});
   const secondary=make('div',undefined,'writing-secondary');secondary.append(clear,restart,back);
   root.append(progress,nav,card,audioStatus,make('p',`自由手写 · ${e.strokes} 笔 / Viết tự do · ${e.strokes} nét`,'note'),grid,controls,status,secondary);
+  void speak();repeat=setInterval(speak,3000);
   try{
    if(!strokeCache.has(practiceBank)){const res=await fetch('writing-strokes-'+practiceBank+'.json');if(!res.ok)throw Error('笔顺加载失败');strokeCache.set(practiceBank,await res.json());}const data=strokeCache.get(practiceBank)[e.character];if(token!==version)return;if(!data)throw Error('找不到当前汉字笔顺');
    if(!globalThis.HanziWriter)throw Error('笔顺组件未加载，请刷新');
    const size=grid.clientWidth;writer=HanziWriter.create(grid,e.character,{width:size,height:size,padding:20,showCharacter:false,showOutline:false,strokeColor:'#153e57',drawingColor:'#2175b7',drawingWidth:18,strokeAnimationSpeed:.35,delayBetweenStrokes:850,highlightOnComplete:false,charDataLoader:()=>Promise.resolve(data)});
-   ink=createHandwriting(canvas,{medians:data.medians,onComplete:()=>success(token),onIncomplete:()=>{if(token!==version)return;ink?.pause();check.disabled=true;demo.disabled=true;status.textContent='2秒后清空并演示一次 / Xóa và xem mẫu sau 2 giây';reaction(false,()=>{if(token!==version)return;ink?.reset();void demonstrate();});},onWriting:()=>{if(token===version)status.textContent='正在书写… / Đang viết…';}});demo.disabled=false;check.disabled=false;status.textContent='自由书写，停笔2秒自动检查 / Dừng 2 giây để kiểm tra';speak();repeat=setInterval(speak,3000);
+   ink=createHandwriting(canvas,{medians:data.medians,onComplete:()=>success(token),onIncomplete:()=>{if(token!==version)return;ink?.pause();check.disabled=true;demo.disabled=true;status.textContent='2秒后清空并演示一次 / Xóa và xem mẫu sau 2 giây';reaction(false,()=>{if(token!==version)return;ink?.reset();void demonstrate();});},onWriting:()=>{if(token===version)status.textContent='正在书写… / Đang viết…';}});demo.disabled=false;check.disabled=false;status.textContent='自由书写，停笔2秒自动检查 / Dừng 2 giây để kiểm tra';
   }catch(err){if(token===version){status.textContent='加载失败，请点击“重写”重试。 / Không tải được. Hãy thử lại. '+err.message;}}
  }
  async function switchLevel(level){
@@ -57,7 +58,7 @@ export function initWriting(){
   await show(progressIndex(saved,entries.length));
  }
  async function enter(password){
-  const level=resolveWritingLevel(password,$('#question-bank').value);entryButton.disabled=true;if(shortcut)shortcut.disabled=true;
+  const level=resolveWritingLevel(password,$('#question-bank').value);pronunciation.unlock();entryButton.disabled=true;if(shortcut)shortcut.disabled=true;
   try{if(!catalog){const response=await fetch('writing-catalog.json');if(!response.ok)throw Error('字库加载失败');catalog=await response.json();try{const migration=await fetch('writing-legacy-progress.json');if(migration.ok)legacy=await migration.json();}catch{}}
    stopFeedback();$('#bank-error').textContent='';$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;root.hidden=false;await switchLevel(level);root.focus();root.scrollIntoView({behavior:'smooth'});
   }finally{entryButton.disabled=false;if(shortcut)shortcut.disabled=false;}
@@ -68,9 +69,15 @@ export function initWriting(){
   accessDialog.querySelector('[role=alert]').textContent=message;accessDialog.querySelector('input').value='';if(!accessDialog.open)accessDialog.showModal();accessDialog.querySelector('input').focus();
  }
  async function open(){
-  const password=$('#bank-password').value;
+  pronunciation.unlock();const password=$('#bank-password').value;
   try{resolveWritingLevel(password,$('#question-bank').value);await enter(password);}catch(error){if($('#welcome').hidden)askPassword(error.message);else{$('#bank-error').textContent=error.message;$('#bank-password').focus();}}
  }
  entryButton.onclick=open;if(shortcut)shortcut.onclick=open;
- window.addEventListener('pagehide',cancel);document.addEventListener('visibilitychange',()=>{if(document.hidden)pronunciation.stop();});
+ // Retry on a real tap when the browser blocked autoplay; keep the practice
+ // state intact across back/forward cache and resume immediately on return.
+ document.addEventListener('pointerdown',()=>{if(!root.hidden&&needsAudioGesture){pronunciation.unlock();void speak();}},{passive:true});
+ document.addEventListener('keydown',()=>{if(!root.hidden&&needsAudioGesture){pronunciation.unlock();void speak();}});
+ window.addEventListener('pagehide',()=>pronunciation.stop());
+ window.addEventListener('pageshow',()=>{if(!root.hidden)void speak();});
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)pronunciation.stop();else if(!root.hidden)void speak();});
 }

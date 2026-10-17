@@ -43,8 +43,8 @@ export function initSystemRating(doc=globalThis.document){
  function celebrate(){
   hide();if(doc.hidden)return;rain.hidden=false;
   const reduced=globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-  function drop(count){for(let i=0;i<count;i++){const heart=doc.createElement('span');heart.textContent='❤️';heart.style.cssText=`left:${Math.random()*96}%;font-size:${14+Math.random()*19}px;--drift:${Math.random()*80-40}px;--turn:${Math.random()*90-45}deg;animation-duration:${1.3+Math.random()*.7}s`;heart.addEventListener('animationend',()=>heart.remove(),{once:true});rain.append(heart);}}
-  drop(8);if(!reduced)rainfall=setInterval(()=>drop(4),120);
+  function drop(count){for(let i=0;i<count;i++){const heart=doc.createElement('span');heart.textContent='❤️';heart.style.cssText=`left:${Math.random()*96}%;font-size:${14+Math.random()*19}px;--drift:${reduced?0:Math.random()*80-40}px;--turn:${reduced?0:Math.random()*90-45}deg;animation-duration:${reduced?2.4+Math.random()*.8:1.3+Math.random()*.7}s`;heart.addEventListener('animationend',()=>heart.remove(),{once:true});rain.append(heart);}}
+  drop(reduced?4:8);rainfall=setInterval(()=>drop(reduced?2:4),reduced?300:120);
   dismiss=setTimeout(hide,4000);
  }
 

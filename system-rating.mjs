@@ -31,7 +31,7 @@ export function createRatingCounter({fetchFn=globalThis.fetch,storage,render=()=
 }
 export function initSystemRating(doc=globalThis.document){
  const widget=doc?.querySelector('#system-rating');if(!widget)return;
- const rain=doc.querySelector('#rating-celebration'),undo=widget.querySelector('[data-rating-undo]'),status=widget.querySelector('.rating-status');let fade,dismiss,expiry;
+ const rain=doc.querySelector('#rating-celebration'),undo=widget.querySelector('[data-rating-undo]'),status=widget.querySelector('.rating-status');let rainfall,dismiss,expiry;
  const preview=new URLSearchParams(globalThis.location?.search||'').has('appearance-preview');
  const counter=createRatingCounter({withLock:fn=>globalThis.navigator?.locks?globalThis.navigator.locks.request('qinglan-rating-mutation',fn):fn(),render:state=>{
   for(const kind of ['like','dislike']){const label=widget.querySelector('[data-rating-count="'+kind+'"]'),s=state[kind];label.textContent=s.value===null?'…':s.value.toLocaleString('zh-CN');label.title=s.stale?'等待网络同步 / Đang chờ đồng bộ':'全站累计 / Tổng trên mọi thiết bị';label.dataset.scope='site';widget.querySelector('[data-rating="'+kind+'"]').disabled=state.busy;}
@@ -39,8 +39,15 @@ export function initSystemRating(doc=globalThis.document){
   undo.hidden=!state.canUndo;undo.disabled=state.busy;undo.title='1小时内可撤销本设备的心碎评价 / Hủy trong 1 giờ trên thiết bị này';
   status.textContent=state.stale?'暂未同步，请稍后重试 / Chưa đồng bộ, hãy thử lại':state.busy?'正在同步… / Đang đồng bộ…':state.canUndo?'1小时内可撤销 / Có thể hủy trong 1 giờ':'';
  }});
- function hide(){clearTimeout(fade);clearTimeout(dismiss);rain.hidden=true;rain.replaceChildren();rain.classList.remove('fading');}
- function celebrate(){hide();if(doc.hidden)return;for(let i=0;i<26;i++){const heart=doc.createElement('span');heart.textContent='❤️';heart.style.cssText=`left:${Math.random()*96}%;font-size:${14+Math.random()*19}px;--drift:${Math.random()*100-50}px;--turn:${Math.random()*90-45}deg;animation-delay:${Math.random()*.35}s`;rain.append(heart);}rain.hidden=false;fade=setTimeout(()=>rain.classList.add('fading'),3000);dismiss=setTimeout(hide,4300);}
+ function hide(){clearInterval(rainfall);clearTimeout(dismiss);rain.hidden=true;rain.replaceChildren();}
+ function celebrate(){
+  hide();if(doc.hidden)return;rain.hidden=false;
+  const reduced=globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  function drop(count){for(let i=0;i<count;i++){const heart=doc.createElement('span');heart.textContent='❤️';heart.style.cssText=`left:${Math.random()*96}%;font-size:${14+Math.random()*19}px;--drift:${Math.random()*80-40}px;--turn:${Math.random()*90-45}deg;animation-duration:${1.3+Math.random()*.7}s`;heart.addEventListener('animationend',()=>heart.remove(),{once:true});rain.append(heart);}}
+  drop(8);if(!reduced)rainfall=setInterval(()=>drop(4),120);
+  dismiss=setTimeout(hide,4000);
+ }
+
  for(const kind of ['like','dislike'])widget.querySelector('[data-rating="'+kind+'"]').onclick=()=>{if(!preview)void counter.click(kind);if(kind==='like')celebrate();};
  undo.onclick=()=>{if(!preview)void counter.undoDislike();};
  function refresh(){counter.refreshEligibility();if(!preview&&!doc.hidden&&!widget.closest('[hidden]'))void counter.load();}

@@ -1,5 +1,5 @@
-import {studentExercises} from './exercise-options.mjs?v=writing31';
-import {initWriting} from './writing-practice.mjs?v=writing31';
+import {studentExercises} from './exercise-options.mjs?v=writing32';
+import {initWriting} from './writing-practice.mjs?v=writing32';
 import {showFeedback,stopFeedback} from './result-feedback.mjs?v=writing21';
 import {recordLogin} from './visit-counter.mjs?v=visits15';
 import {validate,grade,normalize} from './grading.mjs';

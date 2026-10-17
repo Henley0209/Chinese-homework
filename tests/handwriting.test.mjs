@@ -18,6 +18,11 @@ for(const sample of [handwrittenGong.slice().reverse().map(s=>s.slice().reverse(
 for(let i=0;i<4;i++)assert.equal(assessHandwriting(handwrittenGong.filter((_,n)=>n!==i),source['公'].medians).correct,false,'公 missing stroke '+i);
 for(const ch of ['六','八','父','只'])assert.equal(assessHandwriting(ink(ch),source['公'].medians).correct,false,ch+' is not 公');
 assert.equal(assessHandwriting([...handwrittenGong,[[280,950],[650,950]]],source['公'].medians).correct,false,'公 extra horizontal');
+// The reaction obscures part of 分; the covered segment is approximated.
+const handwrittenFen=[[[430,894],[399,942],[367,995],[331,1034],[287,1051]],[[580,887],[597,912],[606,946],[626,978],[666,997]],[[377,1092],[455,1090],[533,1085],[608,1085],[623,1107],[626,1186],[613,1248],[594,1297],[574,1314]],[[506,1104],[499,1150],[478,1201],[446,1247],[417,1275]]];
+for(const sample of [handwrittenFen,handwrittenFen.slice().reverse().map(s=>s.slice().reverse()),handwrittenFen.map(s=>s.map(([x,y])=>[x*.55-20,y*.55+10]))])assert.equal(assessHandwriting(sample,source['分'].medians).correct,true,'reported 分, short upper stroke and shifted lower stroke');
+for(let i=0;i<4;i++)assert.equal(assessHandwriting(handwrittenFen.filter((_,n)=>n!==i),source['分'].medians).correct,false,'分 missing stroke '+i);
+assert.equal(assessHandwriting(ink('八'),source['分'].medians).correct,false,'八 is incomplete for 分');
 for(const ch of ['二','十','人','口','好','学'])assert.equal(assessHandwriting(ink(ch).slice(0,1),source[ch].medians).correct,false,ch+' incomplete');
 assert.equal(assessHandwriting(ink('一'),source['十'].medians).correct,false);assert.equal(assessHandwriting(ink('三'),source['二'].medians).correct,false);assert.equal(assessHandwriting([],source['一'].medians).correct,false);assert.ok(INK_WIDTH>=18);assert.equal(FINISH_DELAY,2000);
 for(const [p,k] of [['cháng','chang2'],['zhǎng','zhang3'],['lǜ','lv4'],['nǚ','nv3'],['lüè','lve4'],['de','de5']])assert.equal(pinyinKey(p),k);

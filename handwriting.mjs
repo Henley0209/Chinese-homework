@@ -35,7 +35,9 @@ function matchesFlexibleStrokes(drawn,reference){
  }
  const input=drawn.map(describe),target=reference.map(describe);
  const candidates=target.map(t=>input.flatMap((s,i)=>{
-  if(Math.hypot(s.x-t.x,s.y-t.y)>.24||s.size<t.size*.45||s.size>t.size*2.2)return [];
+  // Handwritten dots/slants may be much shorter than the calligraphic model.
+  // Allow component spacing to vary, while still requiring a shape match.
+  if(Math.hypot(s.x-t.x,s.y-t.y)>.3||s.size<t.size*.35||s.size>t.size*2.2)return [];
   for(const degrees of [-25,-12,0,12,25]){
    const mask=raster([s.points],degrees*Math.PI/180);
    if(covered(t.shape,distance(mask),7)>=.82&&covered(mask,t.dist,7)>=.82)return [i];

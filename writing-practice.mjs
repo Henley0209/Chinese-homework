@@ -1,6 +1,6 @@
-import {resolveWritingLevel,writingLevels} from './writing-access.mjs?v=writing30';
-import {createHandwriting} from './handwriting.mjs?v=writing30';
-import {createPronunciationPlayer} from './pronunciation.mjs?v=writing30';
+import {resolveWritingLevel,writingLevels} from './writing-access.mjs?v=writing31';
+import {createHandwriting} from './handwriting.mjs?v=writing31';
+import {createPronunciationPlayer} from './pronunciation.mjs?v=writing31';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=s=>document.querySelector(s);
 export function progressIndex(value,length){const n=Number(value);return Number.isInteger(n)&&n>=0&&n<length?n:0;}

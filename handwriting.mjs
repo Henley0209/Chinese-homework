@@ -55,9 +55,40 @@ function matchesFlexibleStrokes(drawn,reference){
  function assign(t,seen){for(const i of candidates[t]){if(seen.has(i))continue;seen.add(i);if(owners[i]===-1||assign(owners[i],seen)){owners[i]=t;return true;}}return false;}
  return candidates.every((_,t)=>assign(t,new Set()));
 }
+// Join pen-lift fragments before checking for extra strokes. A single stroke
+// drawn in pieces must not be confused with a genuinely additional stroke.
+function joinFragments(strokes){
+ const parts=strokes.filter(s=>s.length).map(s=>s.slice());
+ let changed=true;
+ while(changed){changed=false;let pair;
+  for(let i=0;i<parts.length;i++)for(let j=i+1;j<parts.length;j++)for(const ra of [false,true])for(const rb of [false,true]){
+   const a=ra?parts[i].slice().reverse():parts[i],b=rb?parts[j].slice().reverse():parts[j];
+   const end=a.at(-1),start=b[0],gap=Math.hypot(end[0]-start[0],end[1]-start[1]);if(gap>.035)continue;
+   const u=a[Math.max(0,a.length-3)],v=b[Math.min(2,b.length-1)];
+   const ax=end[0]-u[0],ay=end[1]-u[1],bx=v[0]-start[0],by=v[1]-start[1],length=Math.hypot(ax,ay)*Math.hypot(bx,by);
+   if(gap>1e-6&&(!length||(ax*bx+ay*by)/length<.8))continue;
+   if(!pair||gap<pair.gap)pair={i,j,a,b,gap};
+  }
+  if(pair){parts[pair.i]=pair.a.concat(pair.b);parts.splice(pair.j,1);changed=true;}
+ }
+ return parts;
+}
+// Distinguish extra horizontal bars even when several strokes were connected
+// into one pen gesture. Check only simple characters to avoid dense radicals.
+function horizontalBands(strokes){
+ const bands=[];
+ for(const stroke of strokes){let run=[];
+  function finish(){if(run.length){const xs=run.map(p=>p[0]),ys=run.map(p=>p[1]);if(Math.max(...xs)-Math.min(...xs)>=.16)bands.push((Math.max(...ys)+Math.min(...ys))/2);}run=[];}
+  for(let i=1;i<stroke.length;i++){const a=stroke[i-1],b=stroke[i],dx=Math.abs(b[0]-a[0]),dy=Math.abs(b[1]-a[1]);if(dx>0&&dy<=dx*.4){if(!run.length)run.push(a);run.push(b);}else finish();}finish();
+ }
+ bands.sort((a,b)=>a-b);const groups=[];for(const y of bands)if(!groups.length||y-groups.at(-1)>.09)groups.push(y);
+ return groups.length;
+}
 export function assessHandwriting(ink,medians){
  const drawn=normalize(ink),reference=normalize(medians.map(s=>s.map(([x,y])=>[x,-y])));
  if(!drawn.length||!reference.length)return {correct:false,coverage:0,precision:0};
+ if(joinFragments(drawn).length>reference.length)return {correct:false,coverage:0,precision:0,reason:'extra-strokes'};
+ if(reference.length<=4&&horizontalBands(reference)>=2&&reference.some(s=>{const xs=s.map(p=>p[0]),ys=s.map(p=>p[1]);return Math.max(...ys)-Math.min(...ys)>=.6&&Math.max(...xs)-Math.min(...xs)<=.12;})&&horizontalBands(drawn)>horizontalBands(reference))return {correct:false,coverage:0,precision:0,reason:'extra-horizontal'};
  const target=raster(reference),targetDistance=distance(target);let best={correct:false,coverage:0,precision:0},score=0;
  // Compare the whole silhouette, ignoring pen order, split strokes and connections.
  // Search modest rotations and slants to accept natural, imprecise handwriting.

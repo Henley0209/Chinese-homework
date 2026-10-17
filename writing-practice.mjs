@@ -1,5 +1,5 @@
 import {resolveWritingLevel,writingLevels} from './writing-access.mjs?v=writing33';
-import {createHandwriting} from './handwriting.mjs?v=writing33';
+import {createHandwriting} from './handwriting.mjs?v=writing37';
 import {createPronunciationPlayer} from './pronunciation.mjs?v=writing33';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=s=>document.querySelector(s);

@@ -1,4 +1,4 @@
-import {createHandwriting} from './handwriting.mjs?v=writing22';
+import {createHandwriting} from './handwriting.mjs?v=writing23';
 import {createPronunciationPlayer} from './pronunciation.mjs?v=writing22';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=s=>document.querySelector(s);
@@ -18,28 +18,29 @@ export function initWriting(){
   if(document.hidden||root.hidden)return;
   const e=entries[index],token=version;const played=await pronunciation.play(e,voiceIndex);if(played&&token===version){voiceIndex=(voiceIndex+1)%e.pinyin.length;const status=root.querySelector('.writing-audio-status');if(status)status.textContent='';}
  }
- function reaction(ok){const n=root.querySelector('.writing-emoji');clearTimeout(emojiTimeout);n.textContent=ok?'👍':'😢';n.hidden=false;emojiTimeout=setTimeout(()=>{n.hidden=true;},2000);}
+ function reaction(ok,afterDisappear=()=>{}){const n=root.querySelector('.writing-emoji');clearTimeout(emojiTimeout);n.textContent=ok?'👍':'😢';n.hidden=false;emojiTimeout=setTimeout(()=>{n.hidden=true;afterDisappear();},2000);}
  function success(token){if(token!==version||complete)return;complete=true;reaction(true);root.querySelector('.writing-status').textContent=index<entries.length-1?'写对了！5秒后练习下一个字 / Đúng rồi! Chữ tiếp theo sau 5 giây':'本组练习完成！/ Đã hoàn thành nhóm này!';if(index<entries.length-1)advance=setTimeout(()=>show(index+1),5000);}
  async function show(next){
   cancel();index=progressIndex(next,entries.length);save();complete=false;voiceIndex=0;const token=version,e=entries[index],practiceBank=bank;root.replaceChildren();
-  const nav=make('div',undefined,'writing-nav');const prev=button('← 上一个','Chữ trước',()=>show(index-1));prev.disabled=index===0;const following=button('下一个 →','Chữ tiếp theo',()=>show(index+1));following.disabled=index===entries.length-1;nav.append(prev,make('span',`${bank.toUpperCase()} · ${index+1} / ${entries.length}`),following);
+  const nav=make('div',undefined,'writing-nav');const prev=button('← 上一字','Trước',()=>show(index-1));prev.disabled=index===0;const following=button('下一字 →','Sau',()=>show(index+1));following.disabled=index===entries.length-1;nav.append(prev,make('span',`${bank.toUpperCase()} · ${index+1} / ${entries.length}`),following);
   const card=make('div',undefined,'writing-word'),description=make('div');description.append(make('div',`${e.character}  ${e.pinyin.join(' / ')}`,'writing-reading'),make('div',e.vietnamese));const sound=button('🔊','Nghe',speak);sound.setAttribute('aria-label','朗读当前汉字 / Đọc chữ hiện tại');card.append(description,sound);const audioStatus=make('p','','writing-audio-status note');audioStatus.setAttribute('role','status');
   const grid=make('div',undefined,'writing-grid');grid.id='hanzi-grid';grid.setAttribute('aria-label','米字格手写区 / Ô luyện viết');
   const guides=document.createElementNS('http://www.w3.org/2000/svg','svg');guides.setAttribute('viewBox','0 0 100 100');guides.setAttribute('aria-hidden','true');guides.innerHTML='<path d="M0 0L100 100M100 0L0 100M50 0V100M0 50H100" fill="none" stroke="#e9aaa5" stroke-width=".45" stroke-dasharray="2 2"/>';guides.classList.add('writing-guides');grid.append(guides);
   const emoji=make('div',undefined,'writing-emoji');emoji.hidden=true;emoji.setAttribute('aria-hidden','true');grid.append(emoji);const canvas=make('canvas');canvas.className='writing-canvas';canvas.setAttribute('aria-label','手写汉字 / Viết chữ bằng tay');grid.append(canvas);
   const status=make('p','正在加载笔顺… / Đang tải nét chữ…','writing-status');status.setAttribute('role','status');
-  const controls=make('div',undefined,'writing-controls');const demo=button('演示书写','Trình diễn viết chữ',async()=>{if(!writer)return;clearTimeout(advance);complete=false;ink?.pause();canvas.hidden=true;demo.disabled=true;check.disabled=true;status.textContent='请看慢速笔顺演示 / Hãy xem thứ tự nét viết chậm';try{await writer.animateCharacter();if(token===version){await writer.hideCharacter();ink?.reset();canvas.hidden=false;check.disabled=false;status.textContent='请慢慢写，写完后点“写好了，检查” / Viết xong rồi nhấn kiểm tra';}}finally{if(token===version)demo.disabled=false;}});demo.disabled=true;
-  const check=button('写好了，检查','Kiểm tra chữ',()=>ink?.check());check.disabled=true;
-  const restart=button('从第一个字开始练习','Luyện tập từ chữ đầu tiên',()=>show(0));controls.append(demo,restart);
-  const clear=button('清空重写','Viết lại',()=>show(index));
-  const back=button('返回题库选择新的题目','Quay lại ngân hàng câu hỏi để chọn câu hỏi mới.',()=>{cancel();root.hidden=true;$('#welcome').hidden=false;$('#welcome').scrollIntoView({behavior:'smooth'});});
-  root.append(nav,card,audioStatus,make('p',`${e.strokes} 笔 · 可分多笔慢慢写 / Có thể viết chậm từng nét`,'note'),grid,status,check,controls,clear,back);
+  const controls=make('div',undefined,'writing-controls');const demo=button('演示','Xem mẫu',async()=>{if(!writer)return;clearTimeout(advance);complete=false;ink?.pause();canvas.hidden=true;demo.disabled=true;check.disabled=true;status.textContent='请看慢速笔顺演示 / Hãy xem thứ tự nét viết chậm';try{await writer.animateCharacter();if(token===version){await writer.hideCharacter();ink?.reset();canvas.hidden=false;check.disabled=false;status.textContent='自由书写，停笔3秒自动检查 / Dừng 3 giây để kiểm tra';}}finally{if(token===version)demo.disabled=false;}});demo.disabled=true;
+  const check=button('检查','Kiểm tra',()=>ink?.check());check.disabled=true;
+  const restart=button('从头练习','Từ đầu',()=>show(0));controls.append(check,demo);
+  const clear=button('重写','Viết lại',()=>show(index));
+  const back=button('返回题库','Về ngân hàng câu hỏi',()=>{cancel();root.hidden=true;$('#welcome').hidden=false;$('#welcome').scrollIntoView({behavior:'smooth'});});
+  const secondary=make('div',undefined,'writing-secondary');secondary.append(clear,restart,back);
+  root.append(nav,card,audioStatus,make('p',`自由手写 · ${e.strokes} 笔 / Viết tự do · ${e.strokes} nét`,'note'),grid,controls,status,secondary);
   try{
    if(!strokeCache.has(practiceBank)){const res=await fetch('writing-strokes-'+practiceBank+'.json');if(!res.ok)throw Error('笔顺加载失败');strokeCache.set(practiceBank,await res.json());}const data=strokeCache.get(practiceBank)[e.character];if(token!==version)return;if(!data)throw Error('找不到当前汉字笔顺');
    if(!globalThis.HanziWriter)throw Error('笔顺组件未加载，请刷新');
    const size=grid.clientWidth;writer=HanziWriter.create(grid,e.character,{width:size,height:size,padding:20,showCharacter:false,showOutline:false,strokeColor:'#153e57',drawingColor:'#2175b7',drawingWidth:18,strokeAnimationSpeed:.35,delayBetweenStrokes:850,highlightOnComplete:false,charDataLoader:()=>Promise.resolve(data)});
-   ink=createHandwriting(canvas,{medians:data.medians,onComplete:()=>success(token),onIncomplete:()=>{if(token!==version)return;reaction(false);status.textContent='请检查整字结构，可继续补写或清空重写 / Hãy kiểm tra cả chữ, viết thêm hoặc viết lại';},onWriting:()=>{if(token===version)status.textContent='正在书写，写完后点“写好了，检查” / Đang viết…';}});demo.disabled=false;check.disabled=false;status.textContent='请慢慢写，写完后点“写好了，检查” / Viết xong rồi nhấn kiểm tra';speak();repeat=setInterval(speak,3000);
-  }catch(err){if(token===version){status.textContent='加载失败，请点击清空重写重试。 / Không tải được. Hãy thử lại. '+err.message;}}
+   ink=createHandwriting(canvas,{medians:data.medians,onComplete:()=>success(token),onIncomplete:()=>{if(token!==version)return;ink?.pause();check.disabled=true;demo.disabled=true;status.textContent='再试一次，2秒后清空 / Thử lại sau 2 giây';reaction(false,()=>{if(token!==version)return;ink?.reset();check.disabled=false;demo.disabled=false;status.textContent='自由书写，停笔3秒自动检查 / Dừng 3 giây để kiểm tra';});},onWriting:()=>{if(token===version)status.textContent='正在书写… / Đang viết…';}});demo.disabled=false;check.disabled=false;status.textContent='自由书写，停笔3秒自动检查 / Dừng 3 giây để kiểm tra';speak();repeat=setInterval(speak,3000);
+  }catch(err){if(token===version){status.textContent='加载失败，请点击“重写”重试。 / Không tải được. Hãy thử lại. '+err.message;}}
  }
  entryButton.onclick=async()=>{
   if(!['hsk1-2','hsk3','hsk4'].includes($('#question-bank').value)){$('#bank-error').textContent='写字练习目前支持 HSK1-2、HSK3、HSK4，请先选择其中一个题库。';return;}

@@ -1,6 +1,6 @@
-// Tolerant whole-character matching; submit after three seconds without another stroke.
+// Tolerant whole-character matching; submit after two seconds without another stroke.
 export const INK_WIDTH=18;
-export const FINISH_DELAY=3000;
+export const FINISH_DELAY=2000;
 const SIDE=56;
 function normalize(strokes){
  const points=strokes.flat();if(!points.length)return [];

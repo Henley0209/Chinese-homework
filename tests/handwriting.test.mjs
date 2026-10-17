@@ -12,7 +12,7 @@ for(const ch of ['一','二','十','人','口','好','学','想','谢','赢']){
  const split=ink(ch).flatMap(s=>{const n=Math.floor(s.length/2);return [s.slice(0,n+1),s.slice(n)];});assert.equal(assessHandwriting(split,source[ch].medians).correct,true,ch+' split strokes');
 }
 for(const ch of ['二','十','人','口','好','学'])assert.equal(assessHandwriting(ink(ch).slice(0,1),source[ch].medians).correct,false,ch+' incomplete');
-assert.equal(assessHandwriting(ink('一'),source['十'].medians).correct,false);assert.equal(assessHandwriting(ink('三'),source['二'].medians).correct,false);assert.equal(assessHandwriting([],source['一'].medians).correct,false);assert.ok(INK_WIDTH>=18);assert.equal(FINISH_DELAY,3000);
+assert.equal(assessHandwriting(ink('一'),source['十'].medians).correct,false);assert.equal(assessHandwriting(ink('三'),source['二'].medians).correct,false);assert.equal(assessHandwriting([],source['一'].medians).correct,false);assert.ok(INK_WIDTH>=18);assert.equal(FINISH_DELAY,2000);
 for(const [p,k] of [['cháng','chang2'],['zhǎng','zhang3'],['lǜ','lv4'],['nǚ','nv3'],['lüè','lve4'],['de','de5']])assert.equal(pinyinKey(p),k);
 console.log('通过：整字结构、位置和缩放、分段笔画、未完成和错字、粗笔画、多音字音节。');
 const catalog=JSON.parse(fs.readFileSync(new URL('../writing-catalog.json',import.meta.url))),audio=JSON.parse(fs.readFileSync(new URL('../pronunciation/index.json',import.meta.url)));

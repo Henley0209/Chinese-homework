@@ -1,4 +1,4 @@
-import {createHandwriting} from './handwriting.mjs?v=writing23';
+import {createHandwriting} from './handwriting.mjs?v=writing24';
 import {createPronunciationPlayer} from './pronunciation.mjs?v=writing22';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=s=>document.querySelector(s);
@@ -28,7 +28,14 @@ export function initWriting(){
   const guides=document.createElementNS('http://www.w3.org/2000/svg','svg');guides.setAttribute('viewBox','0 0 100 100');guides.setAttribute('aria-hidden','true');guides.innerHTML='<path d="M0 0L100 100M100 0L0 100M50 0V100M0 50H100" fill="none" stroke="#e9aaa5" stroke-width=".45" stroke-dasharray="2 2"/>';guides.classList.add('writing-guides');grid.append(guides);
   const emoji=make('div',undefined,'writing-emoji');emoji.hidden=true;emoji.setAttribute('aria-hidden','true');grid.append(emoji);const canvas=make('canvas');canvas.className='writing-canvas';canvas.setAttribute('aria-label','手写汉字 / Viết chữ bằng tay');grid.append(canvas);
   const status=make('p','正在加载笔顺… / Đang tải nét chữ…','writing-status');status.setAttribute('role','status');
-  const controls=make('div',undefined,'writing-controls');const demo=button('演示','Xem mẫu',async()=>{if(!writer)return;clearTimeout(advance);complete=false;ink?.pause();canvas.hidden=true;demo.disabled=true;check.disabled=true;status.textContent='请看慢速笔顺演示 / Hãy xem thứ tự nét viết chậm';try{await writer.animateCharacter();if(token===version){await writer.hideCharacter();ink?.reset();canvas.hidden=false;check.disabled=false;status.textContent='自由书写，停笔3秒自动检查 / Dừng 3 giây để kiểm tra';}}finally{if(token===version)demo.disabled=false;}});demo.disabled=true;
+  let demonstrating=false;
+  async function demonstrate(){
+   if(token!==version||!writer||demonstrating)return;
+   demonstrating=true;const currentWriter=writer;clearTimeout(advance);clearTimeout(emojiTimeout);emoji.hidden=true;complete=false;ink?.pause();canvas.hidden=true;demo.disabled=true;check.disabled=true;status.textContent='请看慢速笔顺演示 / Hãy xem thứ tự nét viết chậm';
+   try{await currentWriter.animateCharacter();if(token!==version)return;await currentWriter.hideCharacter();}
+   finally{demonstrating=false;if(token===version){ink?.reset();canvas.hidden=false;check.disabled=false;demo.disabled=false;status.textContent='自由书写，停笔2秒自动检查 / Dừng 2 giây để kiểm tra';}}
+  }
+  const controls=make('div',undefined,'writing-controls');const demo=button('演示','Xem mẫu',()=>demonstrate());demo.disabled=true;
   const check=button('检查','Kiểm tra',()=>ink?.check());check.disabled=true;
   const restart=button('从头练习','Từ đầu',()=>show(0));controls.append(check,demo);
   const clear=button('重写','Viết lại',()=>show(index));
@@ -39,7 +46,7 @@ export function initWriting(){
    if(!strokeCache.has(practiceBank)){const res=await fetch('writing-strokes-'+practiceBank+'.json');if(!res.ok)throw Error('笔顺加载失败');strokeCache.set(practiceBank,await res.json());}const data=strokeCache.get(practiceBank)[e.character];if(token!==version)return;if(!data)throw Error('找不到当前汉字笔顺');
    if(!globalThis.HanziWriter)throw Error('笔顺组件未加载，请刷新');
    const size=grid.clientWidth;writer=HanziWriter.create(grid,e.character,{width:size,height:size,padding:20,showCharacter:false,showOutline:false,strokeColor:'#153e57',drawingColor:'#2175b7',drawingWidth:18,strokeAnimationSpeed:.35,delayBetweenStrokes:850,highlightOnComplete:false,charDataLoader:()=>Promise.resolve(data)});
-   ink=createHandwriting(canvas,{medians:data.medians,onComplete:()=>success(token),onIncomplete:()=>{if(token!==version)return;ink?.pause();check.disabled=true;demo.disabled=true;status.textContent='再试一次，2秒后清空 / Thử lại sau 2 giây';reaction(false,()=>{if(token!==version)return;ink?.reset();check.disabled=false;demo.disabled=false;status.textContent='自由书写，停笔3秒自动检查 / Dừng 3 giây để kiểm tra';});},onWriting:()=>{if(token===version)status.textContent='正在书写… / Đang viết…';}});demo.disabled=false;check.disabled=false;status.textContent='自由书写，停笔3秒自动检查 / Dừng 3 giây để kiểm tra';speak();repeat=setInterval(speak,3000);
+   ink=createHandwriting(canvas,{medians:data.medians,onComplete:()=>success(token),onIncomplete:()=>{if(token!==version)return;ink?.pause();check.disabled=true;demo.disabled=true;status.textContent='2秒后清空并演示一次 / Xóa và xem mẫu sau 2 giây';reaction(false,()=>{if(token!==version)return;ink?.reset();void demonstrate();});},onWriting:()=>{if(token===version)status.textContent='正在书写… / Đang viết…';}});demo.disabled=false;check.disabled=false;status.textContent='自由书写，停笔2秒自动检查 / Dừng 2 giây để kiểm tra';speak();repeat=setInterval(speak,3000);
   }catch(err){if(token===version){status.textContent='加载失败，请点击“重写”重试。 / Không tải được. Hãy thử lại. '+err.message;}}
  }
  entryButton.onclick=async()=>{

@@ -4,7 +4,7 @@ import {assessHandwriting,INK_WIDTH,FINISH_DELAY} from '../handwriting.mjs';
 import {pinyinKey} from '../pronunciation.mjs';
 const source=Object.assign({},...['hsk1-2','hsk3','hsk4'].map(b=>JSON.parse(fs.readFileSync(new URL('../writing-strokes-'+b+'.json',import.meta.url)))));
 const ink=ch=>source[ch].medians.map(s=>s.map(([x,y])=>[x,-y]));
-for(const ch of ['一','二','十','人','口','牛','好','学','想','谢','赢']){
+for(const ch of ['一','二','十','人','口','牛','午','好','学','想','谢','赢']){
  assert.equal(assessHandwriting(ink(ch),source[ch].medians).correct,true,ch+' complete');
  const loose=ink(ch).map(s=>s.map(([x,y],i)=>[x*.65+y*.12+20+Math.sin(i)*16,y*1.4-40+Math.cos(i)*12]));assert.equal(assessHandwriting(loose,source[ch].medians).correct,true,ch+' slanted, narrow and imprecise');
  const reversed=ink(ch).slice().reverse().map(s=>s.slice().reverse());assert.equal(assessHandwriting(reversed,source[ch].medians).correct,true,ch+' free stroke order');
@@ -26,6 +26,20 @@ for(let j=0;j<4;j++)for(const factor of [.65,1.5]){
  const loose=strokes.map((s,i)=>i===j?s.map(([x,y])=>[cx+(x-cx)*factor,cy+(y-cy)*factor]):s);
  assert.equal(assessHandwriting(loose,source['牛'].medians).correct,true,'牛 retains length tolerance');
 }
+// Same stroke count is not sufficient: the upright crosses the top bar in
+// 牛 and ends below it in 午. Keep the distinction under common variations.
+for(const [written,target] of [['午','牛'],['牛','午']]){
+ const strokes=ink(written);
+ for(const sample of [strokes,strokes.slice().reverse().map(s=>s.slice().reverse()),strokes.map(s=>s.map(([x,y])=>[x*.6+35,y*.8-20])),strokes.map(s=>s.map(([x,y],i)=>[x+Math.sin(i)*3,y+Math.cos(i)*3]))])assert.equal(assessHandwriting(sample,source[target].medians).correct,false,written+' is not '+target);
+}
+const reportedWu=[[[418,798],[401,856],[370,920],[337,970],[303,1006]],[[397,884],[452,888],[507,881],[581,868]],[[388,1064],[455,1057],[517,1049],[576,1040]],[[496,948],[497,1047],[499,1133],[498,1269],[515,1308]]];
+assert.equal(assessHandwriting(reportedWu,source['牛'].medians).correct,false,'reported 午 written for 牛');
+assert.equal(assessHandwriting(reportedWu,source['午'].medians).correct,true,'reported 午 is valid for 午');
+const connectedWu=[ink('午')[0],ink('午')[1],ink('午')[2].concat(ink('午')[3])];
+assert.equal(assessHandwriting(connectedWu,source['牛'].medians).correct,false,'connected 午 is not 牛');
+// A mid-stem pen lift still represents one continuous upright.
+const splitStem=ink('牛');const originalStem=splitStem.pop(),a=originalStem.at(-2),b=originalStem.at(-1),mid=[(a[0]+b[0])/2,(a[1]+b[1])/2];splitStem.push(originalStem.slice(0,-1).concat([mid]),[mid,b]);
+assert.equal(assessHandwriting(splitStem,source['牛'].medians).correct,true,'牛 with a pen lift in its upright');
 // Extra strokes must not be accepted merely because they lie near 牛.
 const yearInk=ink('年');
 for(const sample of [yearInk,yearInk.slice().reverse().map(s=>s.slice().reverse()),yearInk.map(s=>s.map(([x,y])=>[x*.6+30,y*.8-15]))])assert.equal(assessHandwriting(sample,source['牛'].medians).correct,false,'年 is not 牛');

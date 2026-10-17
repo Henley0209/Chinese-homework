@@ -84,11 +84,38 @@ function horizontalBands(strokes){
  bands.sort((a,b)=>a-b);const groups=[];for(const y of bands)if(!groups.length||y-groups.at(-1)>.09)groups.push(y);
  return groups.length;
 }
+// Identify the two-crossbar/one-upright structure independently of pen lifts.
+// 牛 must cross the upper bar; 午 starts its upright below that bar.
+function upperCrossbarRelation(strokes){
+ const horizontal=[],vertical=[];
+ for(const stroke of strokes)for(const axis of [0,1]){
+  let run=[];
+  function finish(){if(run.length){const xs=run.map(p=>p[0]),ys=run.map(p=>p[1]),x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys),y1=Math.max(...ys);
+   if(axis===0&&x1-x0>=.16)horizontal.push({points:run,x0,x1,y:(y0+y1)/2});
+   if(axis===1&&y1-y0>=.25)vertical.push({x:(x0+x1)/2,y0,y1});
+  }run=[];}
+  for(let i=1;i<stroke.length;i++){const a=stroke[i-1],b=stroke[i],main=Math.abs(b[axis]-a[axis]),cross=Math.abs(b[1-axis]-a[1-axis]);if(main>0&&cross<=main*.55){if(!run.length)run.push(a);run.push(b);}else finish();}finish();
+ }
+ const upright=vertical.sort((a,b)=>(b.y1-b.y0)-(a.y1-a.y0))[0];if(!upright)return null;
+ const bars=horizontal.filter(h=>upright.x>=h.x0-.025&&upright.x<=h.x1+.025).sort((a,b)=>a.y-b.y),distinct=[];
+ for(const h of bars)if(!distinct.length||h.y-distinct.at(-1).y>.09)distinct.push(h);
+ if(distinct.length!==2||upright.y1<distinct[1].y+.08)return null;
+ const upper=distinct[0];let y=upper.y;
+ for(let i=1;i<upper.points.length;i++){const a=upper.points[i-1],b=upper.points[i];if(b[0]!==a[0]&&upright.x>=Math.min(a[0],b[0])&&upright.x<=Math.max(a[0],b[0])){y=a[1]+(b[1]-a[1])*(upright.x-a[0])/(b[0]-a[0]);break;}}
+ return y-upright.y0;
+}
 export function assessHandwriting(ink,medians){
  const drawn=normalize(ink),reference=normalize(medians.map(s=>s.map(([x,y])=>[x,-y])));
  if(!drawn.length||!reference.length)return {correct:false,coverage:0,precision:0};
- if(joinFragments(drawn).length>reference.length)return {correct:false,coverage:0,precision:0,reason:'extra-strokes'};
+ const joined=joinFragments(drawn);
+ if(joined.length>reference.length)return {correct:false,coverage:0,precision:0,reason:'extra-strokes'};
  if(reference.length<=4&&horizontalBands(reference)>=2&&reference.some(s=>{const xs=s.map(p=>p[0]),ys=s.map(p=>p[1]);return Math.max(...ys)-Math.min(...ys)>=.6&&Math.max(...xs)-Math.min(...xs)<=.12;})&&horizontalBands(drawn)>horizontalBands(reference))return {correct:false,coverage:0,precision:0,reason:'extra-horizontal'};
+ if(reference.length===4){
+  const expected=upperCrossbarRelation(reference);
+  if(expected!==null){const actual=upperCrossbarRelation(joined);
+   if(actual===null||(expected>.04&&actual<.015)||(expected<-.025&&actual>.06))return {correct:false,coverage:0,precision:0,reason:'upper-crossbar-connection'};
+  }
+ }
  const target=raster(reference),targetDistance=distance(target);let best={correct:false,coverage:0,precision:0},score=0;
  // Compare the whole silhouette, ignoring pen order, split strokes and connections.
  // Search modest rotations and slants to accept natural, imprecise handwriting.

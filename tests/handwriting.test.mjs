@@ -11,6 +11,13 @@ for(const ch of ['一','二','十','人','口','好','学','想','谢','赢']){
  const transformed=ink(ch).map(s=>s.map(([x,y])=>[x*.6+50,y*.6+30]));assert.equal(assessHandwriting(transformed,source[ch].medians).correct,true,ch+' position/size');
  const split=ink(ch).flatMap(s=>{const n=Math.floor(s.length/2);return [s.slice(0,n+1),s.slice(n)];});assert.equal(assessHandwriting(split,source[ch].medians).correct,true,ch+' split strokes');
 }
+// Approximate centerlines from the reported screenshot; no original pointer data.
+const handwrittenGong=[[[378,1006],[362,1050],[334,1087],[312,1127],[274,1156]],[[505,937],[536,973],[586,1012],[627,1040],[668,1055]],[[501,1103],[467,1155],[430,1201],[372,1276],[456,1277],[513,1277],[583,1277]],[[574,1227],[585,1260],[612,1314],[633,1340]]];
+assert.equal(assessHandwriting(handwrittenGong,source['公'].medians).correct,true,'reported handwritten 公');
+for(const sample of [handwrittenGong.slice().reverse().map(s=>s.slice().reverse()),handwrittenGong.map(s=>s.map(([x,y])=>[x*.65+18,y*.65-30]))])assert.equal(assessHandwriting(sample,source['公'].medians).correct,true,'公 order and canvas size');
+for(let i=0;i<4;i++)assert.equal(assessHandwriting(handwrittenGong.filter((_,n)=>n!==i),source['公'].medians).correct,false,'公 missing stroke '+i);
+for(const ch of ['六','八','父','只'])assert.equal(assessHandwriting(ink(ch),source['公'].medians).correct,false,ch+' is not 公');
+assert.equal(assessHandwriting([...handwrittenGong,[[280,950],[650,950]]],source['公'].medians).correct,false,'公 extra horizontal');
 for(const ch of ['二','十','人','口','好','学'])assert.equal(assessHandwriting(ink(ch).slice(0,1),source[ch].medians).correct,false,ch+' incomplete');
 assert.equal(assessHandwriting(ink('一'),source['十'].medians).correct,false);assert.equal(assessHandwriting(ink('三'),source['二'].medians).correct,false);assert.equal(assessHandwriting([],source['一'].medians).correct,false);assert.ok(INK_WIDTH>=18);assert.equal(FINISH_DELAY,2000);
 for(const [p,k] of [['cháng','chang2'],['zhǎng','zhang3'],['lǜ','lv4'],['nǚ','nv3'],['lüè','lve4'],['de','de5']])assert.equal(pinyinKey(p),k);

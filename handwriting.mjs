@@ -24,6 +24,30 @@ function distance(mask){
  return d;
 }
 function covered(mask,dist,tolerance){let total=0,hit=0;for(let i=0;i<mask.length;i++)if(mask[i]){total++;if(dist[i]<=tolerance)hit++;}return total?hit/total:0;}
+// A second pass compares the parts with limited freedom in size and spacing.
+// It requires a one-to-one match so a missing or extra stroke cannot disappear.
+function matchesFlexibleStrokes(drawn,reference){
+ if(drawn.length!==reference.length||reference.length<2||reference.length>24)return false;
+ function describe(stroke){
+  const xs=stroke.map(p=>p[0]),ys=stroke.map(p=>p[1]),x=Math.min(...xs),y=Math.min(...ys),w=Math.max(...xs)-x,h=Math.max(...ys)-y;
+  const size=Math.max(w,h,1e-6),shape=raster([stroke.map(([a,b])=>[(a-x-w/2)/size+.5,(b-y-h/2)/size+.5])]);
+  return {x:x+w/2,y:y+h/2,size:Math.hypot(w,h),shape,dist:distance(shape),points:stroke.map(([a,b])=>[(a-x-w/2)/size+.5,(b-y-h/2)/size+.5])};
+ }
+ const input=drawn.map(describe),target=reference.map(describe);
+ const candidates=target.map(t=>input.flatMap((s,i)=>{
+  if(Math.hypot(s.x-t.x,s.y-t.y)>.24||s.size<t.size*.45||s.size>t.size*2.2)return [];
+  for(const degrees of [-25,-12,0,12,25]){
+   const mask=raster([s.points],degrees*Math.PI/180);
+   if(covered(t.shape,distance(mask),7)>=.82&&covered(mask,t.dist,7)>=.82)return [i];
+  }
+  return [];
+ }));
+ if(candidates.some(c=>!c.length))return false;
+ // Bipartite matching ignores stroke order without reusing one stroke twice.
+ const owners=new Array(input.length).fill(-1);
+ function assign(t,seen){for(const i of candidates[t]){if(seen.has(i))continue;seen.add(i);if(owners[i]===-1||assign(owners[i],seen)){owners[i]=t;return true;}}return false;}
+ return candidates.every((_,t)=>assign(t,new Set()));
+}
 export function assessHandwriting(ink,medians){
  const drawn=normalize(ink),reference=normalize(medians.map(s=>s.map(([x,y])=>[x,-y])));
  if(!drawn.length||!reference.length)return {correct:false,coverage:0,precision:0};
@@ -36,6 +60,7 @@ export function assessHandwriting(ink,medians){
   if(result.correct)return result;
   if(value>score){score=value;best=result;}
  }
+ if(matchesFlexibleStrokes(drawn,reference))return {...best,correct:true,match:"structure"};
  return best;
 }
 export function createHandwriting(canvas,{medians,onComplete,onIncomplete,onWriting}){

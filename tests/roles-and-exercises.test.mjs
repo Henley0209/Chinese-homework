@@ -1,3 +1,4 @@
+import {progressKey,saveProgress,loadProgress,clearProgress} from '../exercise-progress.mjs';
 import {studentExercises} from '../exercise-options.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -27,13 +28,13 @@ store.discardDrafts();assert.equal(store.listExercises('hsk3').length,hsk3Publis
 function node(tag='div'){return {tag,hidden:false,textContent:'',value:'',disabled:false,open:false,fd:{},children:[],handlers:{},
  addEventListener(k,v){this.handlers[k]=v;},append(...ns){this.children.push(...ns);if(this.tag==='select'&&!this.value&&ns[0])this.value=ns[0].value;},
  replaceChildren(...ns){this.children=[];if(this.tag==='select')this.value='';this.append(...ns);},setAttribute(){},focus(){},scrollIntoView(){},querySelector(){return this.button??(this.button=node('button'));},
- showModal(){this.open=true;},close(){this.open=false;this.handlers.close?.();}};}
+ getBoundingClientRect(){return {top:0,bottom:100};},showModal(){this.open=true;},close(){this.open=false;this.handlers.close?.();}};}
 const nodes=new Map(),selects=new Set(['#user-role','#question-bank','#exercise-select','#upload-bank','#upload-mode','#upload-target']);
 const $=s=>{if(!nodes.has(s))nodes.set(s,node(selects.has(s)?'select':'div'));return nodes.get(s);};
 $('#user-role').value='student';$('#question-bank').value='hsk1-2';$('#upload-mode').value='add';$('#teacher-login').hidden=true;
 const crypto={subtle:webcrypto.subtle,randomUUID};
 const loginEvents=[];
-const context={studentExercises,initWriting:()=>{},showFeedback:()=>{},stopFeedback:()=>{},recordLogin:role=>{loginEvents.push(role);},...store,isTeacherPassword:value=>Promise.resolve(value==='teacher-test-only'),resolveBank,validate,grade,normalize,crypto,structuredClone,TextEncoder,Uint8Array,URL,Blob,confirm:()=>true,setTimeout,console,
+const context={progressKey,saveProgress,loadProgress,clearProgress,studentExercises,initWriting:()=>{},showFeedback:()=>{},stopFeedback:()=>{},recordLogin:role=>{loginEvents.push(role);},...store,isTeacherPassword:value=>Promise.resolve(value==='teacher-test-only'),resolveBank,validate,grade,normalize,crypto,structuredClone,TextEncoder,Uint8Array,URL,Blob,confirm:()=>true,setTimeout,console,
  document:{querySelector:$,createElement:tag=>node(tag)},FormData:class{constructor(f){this.values=f.fd;}get(k){return this.values[k]??null;}}};
 async function script(name,append=''){let s=fs.readFileSync(new URL(name,root),'utf8').replace(/^import .*;\n/gm,'').replaceAll('export ','');await vm.runInNewContext('(async()=>{'+s+'\n'+append+'})()',context);}
 await script('teacher-tools.mjs','globalThis.teacherActive=teacherActive;');await script('app.js');

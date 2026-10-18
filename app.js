@@ -1,4 +1,4 @@
-import {initPictureWords} from './picture-words.mjs?v=fruits1';
+import {initPictureWords} from './picture-words.mjs?v=objects2';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';
 import {studentExercises} from './exercise-options.mjs?v=writing33';
 import {initWriting} from './writing-practice.mjs?v=fruits1';

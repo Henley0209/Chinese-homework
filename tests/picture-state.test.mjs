@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';
+import {loadPictureState,savePictureState,pictureStateKey} from '../picture-words-state.mjs';
+const catalog=JSON.parse(fs.readFileSync(new URL('../picture-words/catalog.json',import.meta.url)));
+const memory=new Map(),storage={getItem:k=>memory.get(k)??null,setItem:(k,v)=>memory.set(k,v)};
+assert.deepEqual(loadPictureState(catalog,storage),{view:'categories'});
+storage.setItem('picture-progress:fruits','9');assert.equal(loadPictureState(catalog,storage).index,9);
+const category=catalog.categories.find(c=>c.id==='vegetables'),word=category.words[19];
+const state={view:'question',categoryId:category.id,wordId:word.id,index:19,optionIds:[word.id,...category.words.slice(0,3).map(w=>w.id)],selectedId:word.id,outcome:'waiting'};
+assert.equal(savePictureState(state,storage),true);let restored=loadPictureState(catalog,storage);assert.equal(restored.index,19);assert.equal(restored.outcome,'complete');assert.deepEqual(restored.optionIds,state.optionIds);assert.equal(restored.selectedId,word.id);
+// Stable IDs survive inserting/reordering words, so the same image is restored.
+const changed=structuredClone(catalog),vegetables=changed.categories.find(c=>c.id===category.id);vegetables.words.unshift(vegetables.words.pop());restored=loadPictureState(changed,storage);assert.equal(restored.wordId,word.id);assert.equal(restored.index,20);
+assert.equal(savePictureState({...state,outcome:'wrong',selectedId:category.words[0].id},storage),true);restored=loadPictureState(catalog,storage);assert.equal(restored.outcome,'ready');assert.equal(restored.selectedId,null);
+savePictureState({...state,optionIds:['broken']},storage);restored=loadPictureState(catalog,storage);assert.equal(restored.optionIds,undefined);assert.equal(restored.outcome,'ready');
+savePictureState({...state,categoryId:'removed'},storage);assert.deepEqual(loadPictureState(catalog,storage),{view:'categories'});
+savePictureState({...state,wordId:'removed'},storage);assert.deepEqual(loadPictureState(catalog,storage),{view:'categories'});
+savePictureState({...state,offset:320},storage);assert.equal(loadPictureState(catalog,storage).offset,320);savePictureState({...state,offset:-20},storage);assert.equal(loadPictureState(catalog,storage).offset,0);
+savePictureState({view:'categories'},storage);assert.deepEqual(loadPictureState(catalog,storage),{view:'categories'});
+storage.setItem(pictureStateKey,'broken');assert.deepEqual(loadPictureState(catalog,storage),{view:'categories'});
+const blocked={getItem(){throw Error();},setItem(){throw Error();}};assert.equal(savePictureState(state,blocked),false);assert.deepEqual(loadPictureState(catalog,blocked),{view:'categories'});
+Object.defineProperty(globalThis,'localStorage',{configurable:true,get(){throw Error('blocked storage getter');}});assert.deepEqual(loadPictureState(catalog),{view:'categories'});assert.equal(savePictureState(state),false);delete globalThis.localStorage;
+console.log('通过：上次分类/题目界面、第20题、选项顺序、已答对状态、旧版迁移、词序更新、失效数据与存储不可用。');

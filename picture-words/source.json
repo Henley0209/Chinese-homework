@@ -1,0 +1,3296 @@
+{
+  "version": 1,
+  "atlases": [
+    {
+      "id": "fruits-more",
+      "name": "水果扩充",
+      "vietnamese": "Trái cây",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "柠檬",
+          "vietnamese": "Chanh vàng",
+          "english": "one whole bright yellow lemon with a cut half"
+        },
+        {
+          "chinese": "青柠",
+          "vietnamese": "Chanh xanh",
+          "english": "one whole green lime and cut green-rind half"
+        },
+        {
+          "chinese": "柚子",
+          "vietnamese": "Bưởi",
+          "english": "large thick-rind pale green pomelo with big pink segments"
+        },
+        {
+          "chinese": "桃子",
+          "vietnamese": "Đào",
+          "english": "pink fuzzy peach and cut half with brown pit"
+        },
+        {
+          "chinese": "李子",
+          "vietnamese": "Mận",
+          "english": "dark purple plum and cut half showing yellow flesh and stone"
+        },
+        {
+          "chinese": "杏子",
+          "vietnamese": "Mơ",
+          "english": "small orange apricot and half with brown stone"
+        },
+        {
+          "chinese": "樱桃",
+          "vietnamese": "Anh đào",
+          "english": "paired glossy red cherries with long stems"
+        },
+        {
+          "chinese": "草莓",
+          "vietnamese": "Dâu tây",
+          "english": "red strawberry with green calyx and visible tiny seeds"
+        },
+        {
+          "chinese": "蓝莓",
+          "vietnamese": "Việt quất",
+          "english": "small pile of round dusty blue blueberries"
+        },
+        {
+          "chinese": "树莓",
+          "vietnamese": "Mâm xôi đỏ",
+          "english": "red raspberries with hollow centers"
+        },
+        {
+          "chinese": "黑莓",
+          "vietnamese": "Mâm xôi đen",
+          "english": "black blackberries with bumpy clustered drupelets"
+        },
+        {
+          "chinese": "桑葚",
+          "vietnamese": "Dâu tằm",
+          "english": "elongated purple mulberries with tiny clustered bumps"
+        },
+        {
+          "chinese": "猕猴桃",
+          "vietnamese": "Kiwi",
+          "english": "brown hairy kiwi with cut half showing green ring and black seeds"
+        },
+        {
+          "chinese": "石榴",
+          "vietnamese": "Lựu",
+          "english": "red pomegranate with cut half showing red jewel seeds"
+        },
+        {
+          "chinese": "柿子",
+          "vietnamese": "Hồng",
+          "english": "orange persimmon with large dark green calyx"
+        },
+        {
+          "chinese": "榴莲",
+          "vietnamese": "Sầu riêng",
+          "english": "large sharp-spiked green durian opened showing yellow lobes"
+        },
+        {
+          "chinese": "山竹",
+          "vietnamese": "Măng cụt",
+          "english": "dark purple mangosteen opened with white segmented flesh"
+        },
+        {
+          "chinese": "火龙果",
+          "vietnamese": "Thanh long",
+          "english": "pink dragonfruit with green scales and white flesh dotted with black seeds"
+        },
+        {
+          "chinese": "红毛丹",
+          "vietnamese": "Chôm chôm",
+          "english": "red rambutan with soft long hairlike spikes and white flesh"
+        },
+        {
+          "chinese": "龙眼",
+          "vietnamese": "Nhãn",
+          "english": "small round brown longan opened with translucent flesh and black seed"
+        },
+        {
+          "chinese": "菠萝蜜",
+          "vietnamese": "Mít",
+          "english": "large green bumpy jackfruit opened showing many golden fleshy bulbs"
+        },
+        {
+          "chinese": "椰子",
+          "vietnamese": "Dừa",
+          "english": "brown hairy coconut with white flesh and shell half"
+        },
+        {
+          "chinese": "无花果",
+          "vietnamese": "Sung ngọt",
+          "english": "purple fig cut open showing rich pink seed flesh"
+        },
+        {
+          "chinese": "番石榴",
+          "vietnamese": "Ổi",
+          "english": "green guava with cut half showing pink flesh and tiny seeds"
+        },
+        {
+          "chinese": "百香果",
+          "vietnamese": "Chanh dây",
+          "english": "purple passionfruit with half showing yellow seed pulp"
+        },
+        {
+          "chinese": "牛油果",
+          "vietnamese": "Bơ",
+          "english": "green avocado cut open showing one large brown pit"
+        },
+        {
+          "chinese": "哈密瓜",
+          "vietnamese": "Dưa lưới",
+          "english": "netted cantaloupe with orange flesh and central tan seeds"
+        },
+        {
+          "chinese": "杨桃",
+          "vietnamese": "Khế",
+          "english": "yellow starfruit with clearly star-shaped cut slices"
+        },
+        {
+          "chinese": "枇杷",
+          "vietnamese": "Nhót tây",
+          "english": "small oval yellow loquat with brown seeds and fuzzy skin"
+        },
+        {
+          "chinese": "莲雾",
+          "vietnamese": "Roi / Mận miền Nam",
+          "english": "pink shiny bell-shaped wax apple fruits"
+        },
+        {
+          "chinese": "释迦果",
+          "vietnamese": "Na",
+          "english": "green custard apple with segmented scaly rind and white flesh"
+        },
+        {
+          "chinese": "冬枣",
+          "vietnamese": "Táo tàu tươi",
+          "english": "small green and reddish-brown round fresh jujubes"
+        },
+        {
+          "chinese": "山楂",
+          "vietnamese": "Táo gai",
+          "english": "small red hawthorn fruits with pale speckled skins"
+        },
+        {
+          "chinese": "杨梅",
+          "vietnamese": "Thanh mai",
+          "english": "round dark red Chinese bayberry with dense tiny surface bumps"
+        },
+        {
+          "chinese": "人参果",
+          "vietnamese": "Dưa pepino",
+          "english": "oval pale yellow pepino melon with purple stripes"
+        },
+        {
+          "chinese": "橄榄",
+          "vietnamese": "Ô liu",
+          "english": "small green olives and one cut half showing narrow stone"
+        }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "name": "蔬菜",
+      "vietnamese": "Rau củ",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "胡萝卜",
+          "vietnamese": "Cà rốt",
+          "english": "orange carrot with leafy green top"
+        },
+        {
+          "chinese": "白萝卜",
+          "vietnamese": "Củ cải trắng",
+          "english": "long white daikon radish with green leaves"
+        },
+        {
+          "chinese": "土豆",
+          "vietnamese": "Khoai tây",
+          "english": "brown potatoes with one cut half yellow flesh"
+        },
+        {
+          "chinese": "红薯",
+          "vietnamese": "Khoai lang",
+          "english": "purple-skinned sweet potato with orange flesh"
+        },
+        {
+          "chinese": "芋头",
+          "vietnamese": "Khoai môn",
+          "english": "brown hairy taro root with pale purple-speckled flesh"
+        },
+        {
+          "chinese": "山药",
+          "vietnamese": "Củ mài",
+          "english": "long thin brown Chinese yam root with white cut end"
+        },
+        {
+          "chinese": "西红柿",
+          "vietnamese": "Cà chua",
+          "english": "round red tomato and cut half"
+        },
+        {
+          "chinese": "黄瓜",
+          "vietnamese": "Dưa chuột",
+          "english": "long green cucumber with round slices"
+        },
+        {
+          "chinese": "茄子",
+          "vietnamese": "Cà tím",
+          "english": "long glossy purple eggplant with green cap"
+        },
+        {
+          "chinese": "青椒",
+          "vietnamese": "Ớt chuông xanh",
+          "english": "green bell pepper whole and cut half"
+        },
+        {
+          "chinese": "红椒",
+          "vietnamese": "Ớt chuông đỏ",
+          "english": "red bell pepper whole and cut half"
+        },
+        {
+          "chinese": "辣椒",
+          "vietnamese": "Ớt cay",
+          "english": "small long pointed red chili peppers"
+        },
+        {
+          "chinese": "南瓜",
+          "vietnamese": "Bí đỏ",
+          "english": "orange ribbed pumpkin with cut wedge"
+        },
+        {
+          "chinese": "冬瓜",
+          "vietnamese": "Bí đao",
+          "english": "large pale green wax gourd with white flesh"
+        },
+        {
+          "chinese": "苦瓜",
+          "vietnamese": "Mướp đắng",
+          "english": "deeply bumpy long green bitter melon"
+        },
+        {
+          "chinese": "丝瓜",
+          "vietnamese": "Mướp",
+          "english": "long slender ridged green loofah gourd"
+        },
+        {
+          "chinese": "西葫芦",
+          "vietnamese": "Bí ngòi",
+          "english": "dark green zucchini with pale cut slices"
+        },
+        {
+          "chinese": "玉米",
+          "vietnamese": "Ngô",
+          "english": "yellow corn cob with peeled green husk"
+        },
+        {
+          "chinese": "豌豆",
+          "vietnamese": "Đậu Hà Lan",
+          "english": "open green pea pod with round peas"
+        },
+        {
+          "chinese": "四季豆",
+          "vietnamese": "Đậu cô ve",
+          "english": "slender smooth green bean pods"
+        },
+        {
+          "chinese": "豇豆",
+          "vietnamese": "Đậu đũa",
+          "english": "extra-long yardlong green bean pods bundled"
+        },
+        {
+          "chinese": "西兰花",
+          "vietnamese": "Súp lơ xanh",
+          "english": "green broccoli head with short thick stalk"
+        },
+        {
+          "chinese": "菜花",
+          "vietnamese": "Súp lơ trắng",
+          "english": "white cauliflower head surrounded by green leaves"
+        },
+        {
+          "chinese": "卷心菜",
+          "vietnamese": "Bắp cải",
+          "english": "compact round green cabbage with cut half"
+        },
+        {
+          "chinese": "白菜",
+          "vietnamese": "Cải thảo",
+          "english": "elongated napa cabbage with white ribs and crinkled leaves"
+        },
+        {
+          "chinese": "生菜",
+          "vietnamese": "Xà lách",
+          "english": "loose leafy lettuce head"
+        },
+        {
+          "chinese": "菠菜",
+          "vietnamese": "Rau bina",
+          "english": "bunch of dark green pointed spinach leaves"
+        },
+        {
+          "chinese": "空心菜",
+          "vietnamese": "Rau muống",
+          "english": "bunch of water spinach with long hollow stems"
+        },
+        {
+          "chinese": "芹菜",
+          "vietnamese": "Cần tây",
+          "english": "bunch of thick pale green celery stalks"
+        },
+        {
+          "chinese": "韭菜",
+          "vietnamese": "Hẹ",
+          "english": "bundle of flat narrow dark green garlic chive leaves"
+        },
+        {
+          "chinese": "葱",
+          "vietnamese": "Hành lá",
+          "english": "scallions with white bases and hollow green leaves"
+        },
+        {
+          "chinese": "洋葱",
+          "vietnamese": "Hành tây",
+          "english": "golden onion whole and cut half showing rings"
+        },
+        {
+          "chinese": "大蒜",
+          "vietnamese": "Tỏi",
+          "english": "white garlic bulb and individual cloves"
+        },
+        {
+          "chinese": "生姜",
+          "vietnamese": "Gừng",
+          "english": "knobby tan ginger root with yellow cut end"
+        },
+        {
+          "chinese": "口蘑",
+          "vietnamese": "Nấm mỡ",
+          "english": "white button mushrooms with round caps"
+        },
+        {
+          "chinese": "香菇",
+          "vietnamese": "Nấm hương",
+          "english": "brown shiitake mushrooms with cracked caps and short stems"
+        }
+      ]
+    },
+    {
+      "id": "animals",
+      "name": "动物",
+      "vietnamese": "Động vật",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "猫",
+          "vietnamese": "Mèo",
+          "english": "domestic orange tabby cat sitting"
+        },
+        {
+          "chinese": "狗",
+          "vietnamese": "Chó",
+          "english": "friendly golden dog standing"
+        },
+        {
+          "chinese": "兔子",
+          "vietnamese": "Thỏ",
+          "english": "white rabbit with long upright ears"
+        },
+        {
+          "chinese": "仓鼠",
+          "vietnamese": "Chuột hamster",
+          "english": "small golden hamster with round ears"
+        },
+        {
+          "chinese": "刺猬",
+          "vietnamese": "Nhím gai",
+          "english": "small hedgehog with short brown spines"
+        },
+        {
+          "chinese": "松鼠",
+          "vietnamese": "Sóc",
+          "english": "squirrel with fluffy curved tail holding an acorn"
+        },
+        {
+          "chinese": "猴子",
+          "vietnamese": "Khỉ",
+          "english": "brown monkey with long tail"
+        },
+        {
+          "chinese": "熊猫",
+          "vietnamese": "Gấu trúc",
+          "english": "black and white giant panda sitting"
+        },
+        {
+          "chinese": "熊",
+          "vietnamese": "Gấu",
+          "english": "brown bear standing on four legs"
+        },
+        {
+          "chinese": "老虎",
+          "vietnamese": "Hổ",
+          "english": "orange tiger with distinct black stripes"
+        },
+        {
+          "chinese": "狮子",
+          "vietnamese": "Sư tử",
+          "english": "male lion with large golden mane"
+        },
+        {
+          "chinese": "豹子",
+          "vietnamese": "Báo",
+          "english": "spotted leopard with rosette spots"
+        },
+        {
+          "chinese": "狼",
+          "vietnamese": "Sói",
+          "english": "gray wolf standing in side profile"
+        },
+        {
+          "chinese": "狐狸",
+          "vietnamese": "Cáo",
+          "english": "red fox with bushy white-tipped tail"
+        },
+        {
+          "chinese": "大象",
+          "vietnamese": "Voi",
+          "english": "gray elephant with large ears and trunk"
+        },
+        {
+          "chinese": "长颈鹿",
+          "vietnamese": "Hươu cao cổ",
+          "english": "giraffe with very long neck and patterned coat"
+        },
+        {
+          "chinese": "斑马",
+          "vietnamese": "Ngựa vằn",
+          "english": "black-and-white striped zebra"
+        },
+        {
+          "chinese": "马",
+          "vietnamese": "Ngựa",
+          "english": "brown horse standing"
+        },
+        {
+          "chinese": "牛",
+          "vietnamese": "Bò",
+          "english": "black-and-white dairy cow"
+        },
+        {
+          "chinese": "水牛",
+          "vietnamese": "Trâu",
+          "english": "dark gray water buffalo with wide curved horns"
+        },
+        {
+          "chinese": "绵羊",
+          "vietnamese": "Cừu",
+          "english": "white woolly sheep"
+        },
+        {
+          "chinese": "山羊",
+          "vietnamese": "Dê",
+          "english": "goat with beard and backward curved horns"
+        },
+        {
+          "chinese": "猪",
+          "vietnamese": "Lợn",
+          "english": "pink pig with curly tail"
+        },
+        {
+          "chinese": "骆驼",
+          "vietnamese": "Lạc đà",
+          "english": "tan two-humped camel"
+        },
+        {
+          "chinese": "鹿",
+          "vietnamese": "Hươu",
+          "english": "brown deer with branching antlers"
+        },
+        {
+          "chinese": "袋鼠",
+          "vietnamese": "Chuột túi",
+          "english": "kangaroo with large hind legs and pouch"
+        },
+        {
+          "chinese": "鸡",
+          "vietnamese": "Gà",
+          "english": "colorful rooster with red comb"
+        },
+        {
+          "chinese": "鸭子",
+          "vietnamese": "Vịt",
+          "english": "duck with flat bill and webbed feet"
+        },
+        {
+          "chinese": "鹅",
+          "vietnamese": "Ngỗng",
+          "english": "white goose with long neck"
+        },
+        {
+          "chinese": "鸽子",
+          "vietnamese": "Bồ câu",
+          "english": "gray pigeon"
+        },
+        {
+          "chinese": "鹦鹉",
+          "vietnamese": "Vẹt",
+          "english": "colorful parrot perched on short branch"
+        },
+        {
+          "chinese": "孔雀",
+          "vietnamese": "Công",
+          "english": "peacock with fully spread colorful tail"
+        },
+        {
+          "chinese": "企鹅",
+          "vietnamese": "Chim cánh cụt",
+          "english": "black-and-white penguin standing upright"
+        },
+        {
+          "chinese": "海龟",
+          "vietnamese": "Rùa biển",
+          "english": "green turtle with domed shell"
+        },
+        {
+          "chinese": "鳄鱼",
+          "vietnamese": "Cá sấu",
+          "english": "crocodile with long toothed snout"
+        },
+        {
+          "chinese": "海豚",
+          "vietnamese": "Cá heo",
+          "english": "gray dolphin arcing above a small blue splash"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "交通工具",
+      "vietnamese": "Phương tiện giao thông",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "自行车",
+          "vietnamese": "Xe đạp",
+          "english": "standard pedal bicycle"
+        },
+        {
+          "chinese": "电动自行车",
+          "vietnamese": "Xe đạp điện",
+          "english": "pedal bicycle with visible battery pack"
+        },
+        {
+          "chinese": "摩托车",
+          "vietnamese": "Xe máy",
+          "english": "motorcycle with engine and fuel tank"
+        },
+        {
+          "chinese": "电动滑板车",
+          "vietnamese": "Xe trượt điện",
+          "english": "standing electric kick scooter"
+        },
+        {
+          "chinese": "三轮车",
+          "vietnamese": "Xe ba bánh",
+          "english": "cargo pedal tricycle with rear cargo bed"
+        },
+        {
+          "chinese": "人力车",
+          "vietnamese": "Xe xích lô",
+          "english": "Vietnamese cyclo with passenger seat in front"
+        },
+        {
+          "chinese": "独轮车",
+          "vietnamese": "Xe một bánh",
+          "english": "pedal unicycle with one wheel and saddle"
+        },
+        {
+          "chinese": "轿车",
+          "vietnamese": "Ô tô con",
+          "english": "small passenger sedan car"
+        },
+        {
+          "chinese": "出租车",
+          "vietnamese": "Taxi",
+          "english": "yellow taxi with blank roof taxi light no lettering"
+        },
+        {
+          "chinese": "警车",
+          "vietnamese": "Xe cảnh sát",
+          "english": "black-and-white police car with red-blue roof lights no words"
+        },
+        {
+          "chinese": "救护车",
+          "vietnamese": "Xe cứu thương",
+          "english": "white ambulance with red medical cross no text"
+        },
+        {
+          "chinese": "消防车",
+          "vietnamese": "Xe cứu hỏa",
+          "english": "red fire engine with ladder and hose reels"
+        },
+        {
+          "chinese": "公共汽车",
+          "vietnamese": "Xe buýt",
+          "english": "city transit bus with large windows"
+        },
+        {
+          "chinese": "校车",
+          "vietnamese": "Xe đưa đón học sinh",
+          "english": "yellow school bus no text"
+        },
+        {
+          "chinese": "客车",
+          "vietnamese": "Xe khách",
+          "english": "long-distance touring coach bus"
+        },
+        {
+          "chinese": "货车",
+          "vietnamese": "Xe tải",
+          "english": "medium truck with covered cargo box"
+        },
+        {
+          "chinese": "皮卡",
+          "vietnamese": "Xe bán tải",
+          "english": "pickup truck with open rear bed"
+        },
+        {
+          "chinese": "拖拉机",
+          "vietnamese": "Máy kéo",
+          "english": "farm tractor with large rear wheels"
+        },
+        {
+          "chinese": "叉车",
+          "vietnamese": "Xe nâng",
+          "english": "industrial forklift with raised front forks"
+        },
+        {
+          "chinese": "挖掘机",
+          "vietnamese": "Máy xúc",
+          "english": "tracked excavator with articulated digging arm"
+        },
+        {
+          "chinese": "推土机",
+          "vietnamese": "Xe ủi",
+          "english": "tracked bulldozer with broad front blade"
+        },
+        {
+          "chinese": "压路机",
+          "vietnamese": "Xe lu",
+          "english": "road roller with large smooth front drum"
+        },
+        {
+          "chinese": "起重机",
+          "vietnamese": "Xe cẩu",
+          "english": "mobile crane truck with long raised boom"
+        },
+        {
+          "chinese": "搅拌车",
+          "vietnamese": "Xe trộn bê tông",
+          "english": "concrete mixer truck with rotating drum"
+        },
+        {
+          "chinese": "垃圾车",
+          "vietnamese": "Xe chở rác",
+          "english": "garbage collection truck with rear compactor"
+        },
+        {
+          "chinese": "油罐车",
+          "vietnamese": "Xe bồn chở dầu",
+          "english": "tanker truck with long cylindrical tank"
+        },
+        {
+          "chinese": "普速火车",
+          "vietnamese": "Tàu hỏa thường",
+          "english": "passenger locomotive with linked train carriages"
+        },
+        {
+          "chinese": "高铁",
+          "vietnamese": "Tàu cao tốc",
+          "english": "sleek white high-speed train with pointed nose"
+        },
+        {
+          "chinese": "有轨电车",
+          "vietnamese": "Xe điện đường phố",
+          "english": "street tram running on rails under overhead wires"
+        },
+        {
+          "chinese": "缆车",
+          "vietnamese": "Cáp treo",
+          "english": "small aerial cable car gondola suspended from cable"
+        },
+        {
+          "chinese": "飞机",
+          "vietnamese": "Máy bay",
+          "english": "commercial passenger jet airplane"
+        },
+        {
+          "chinese": "直升机",
+          "vietnamese": "Trực thăng",
+          "english": "helicopter with large top rotor"
+        },
+        {
+          "chinese": "热气球",
+          "vietnamese": "Khinh khí cầu",
+          "english": "colorful hot air balloon with basket"
+        },
+        {
+          "chinese": "轮船",
+          "vietnamese": "Tàu thủy",
+          "english": "large passenger ship with decks and funnel"
+        },
+        {
+          "chinese": "帆船",
+          "vietnamese": "Thuyền buồm",
+          "english": "sailboat with tall triangular white sail"
+        },
+        {
+          "chinese": "快艇",
+          "vietnamese": "Ca nô",
+          "english": "small motor speedboat on a tiny water splash"
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "name": "办公室用品",
+      "vietnamese": "Đồ dùng văn phòng",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "办公桌",
+          "vietnamese": "Bàn làm việc",
+          "english": "office desk with drawers"
+        },
+        {
+          "chinese": "办公椅",
+          "vietnamese": "Ghế văn phòng",
+          "english": "swivel office chair on five caster wheels"
+        },
+        {
+          "chinese": "会议桌",
+          "vietnamese": "Bàn họp",
+          "english": "long oval conference table"
+        },
+        {
+          "chinese": "文件柜",
+          "vietnamese": "Tủ hồ sơ",
+          "english": "tall metal filing cabinet with drawers"
+        },
+        {
+          "chinese": "书柜",
+          "vietnamese": "Tủ sách",
+          "english": "wooden office bookcase with shelves"
+        },
+        {
+          "chinese": "保险柜",
+          "vietnamese": "Két sắt",
+          "english": "compact steel safe with round combination dial"
+        },
+        {
+          "chinese": "打印机",
+          "vietnamese": "Máy in",
+          "english": "desktop printer with blank paper sheet emerging"
+        },
+        {
+          "chinese": "复印机",
+          "vietnamese": "Máy photocopy",
+          "english": "large floor-standing office photocopier"
+        },
+        {
+          "chinese": "扫描仪",
+          "vietnamese": "Máy quét",
+          "english": "flatbed document scanner with open lid"
+        },
+        {
+          "chinese": "碎纸机",
+          "vietnamese": "Máy hủy tài liệu",
+          "english": "office shredder with paper strips in bin"
+        },
+        {
+          "chinese": "传真机",
+          "vietnamese": "Máy fax",
+          "english": "desktop fax machine with paper roll and handset"
+        },
+        {
+          "chinese": "投影仪",
+          "vietnamese": "Máy chiếu",
+          "english": "desktop projector with lens and blue light beam"
+        },
+        {
+          "chinese": "投影幕布",
+          "vietnamese": "Màn chiếu",
+          "english": "pulldown blank white projector screen on stand"
+        },
+        {
+          "chinese": "电话机",
+          "vietnamese": "Điện thoại bàn",
+          "english": "office landline telephone with handset and blank buttons"
+        },
+        {
+          "chinese": "计算器",
+          "vietnamese": "Máy tính cầm tay",
+          "english": "desktop calculator with display and buttons no readable numbers"
+        },
+        {
+          "chinese": "考勤机",
+          "vietnamese": "Máy chấm công",
+          "english": "wall-mounted fingerprint attendance terminal"
+        },
+        {
+          "chinese": "打卡钟",
+          "vietnamese": "Đồng hồ chấm công",
+          "english": "traditional time clock with paper card slot"
+        },
+        {
+          "chinese": "装订机",
+          "vietnamese": "Máy đóng sách",
+          "english": "manual comb binding machine with paper punch lever"
+        },
+        {
+          "chinese": "塑封机",
+          "vietnamese": "Máy ép plastic",
+          "english": "desktop laminator with clear pouch emerging"
+        },
+        {
+          "chinese": "裁纸机",
+          "vietnamese": "Bàn cắt giấy",
+          "english": "guillotine paper cutter with long raised cutting arm"
+        },
+        {
+          "chinese": "白板",
+          "vietnamese": "Bảng trắng",
+          "english": "small office whiteboard on rolling stand"
+        },
+        {
+          "chinese": "磁铁",
+          "vietnamese": "Nam châm",
+          "english": "set of round colorful whiteboard magnets"
+        },
+        {
+          "chinese": "文件托盘",
+          "vietnamese": "Khay tài liệu",
+          "english": "stacked office paper letter trays"
+        },
+        {
+          "chinese": "文件盒",
+          "vietnamese": "Hộp hồ sơ",
+          "english": "upright archive storage box with label slot blank"
+        },
+        {
+          "chinese": "文件架",
+          "vietnamese": "Giá tài liệu",
+          "english": "vertical multi-slot desktop file organizer"
+        },
+        {
+          "chinese": "名片夹",
+          "vietnamese": "Hộp đựng danh thiếp",
+          "english": "metal business card holder with blank cards"
+        },
+        {
+          "chinese": "桌牌",
+          "vietnamese": "Biển tên để bàn",
+          "english": "blank triangular desk nameplate"
+        },
+        {
+          "chinese": "印章",
+          "vietnamese": "Con dấu",
+          "english": "round rubber stamp with handle and blank base"
+        },
+        {
+          "chinese": "印台",
+          "vietnamese": "Khay mực dấu",
+          "english": "open red stamp ink pad"
+        },
+        {
+          "chinese": "打孔器",
+          "vietnamese": "Dụng cụ đục lỗ",
+          "english": "two-hole desktop paper punch"
+        },
+        {
+          "chinese": "胶带座",
+          "vietnamese": "Đế cắt băng dính",
+          "english": "weighted tape dispenser holding transparent tape"
+        },
+        {
+          "chinese": "笔筒",
+          "vietnamese": "Ống đựng bút",
+          "english": "cylindrical pen holder with pens"
+        },
+        {
+          "chinese": "鼠标垫",
+          "vietnamese": "Tấm lót chuột",
+          "english": "rectangular dark mouse pad alone"
+        },
+        {
+          "chinese": "垃圾桶",
+          "vietnamese": "Thùng rác",
+          "english": "small office wastepaper bin"
+        },
+        {
+          "chinese": "台灯",
+          "vietnamese": "Đèn bàn",
+          "english": "adjustable task lamp with articulated arm"
+        },
+        {
+          "chinese": "挂钟",
+          "vietnamese": "Đồng hồ treo tường",
+          "english": "round office wall clock no readable numerals"
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "厨房用品",
+      "vietnamese": "Đồ dùng nhà bếp",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "菜刀",
+          "vietnamese": "Dao bếp",
+          "english": "wide rectangular Chinese kitchen cleaver"
+        },
+        {
+          "chinese": "水果刀",
+          "vietnamese": "Dao gọt trái cây",
+          "english": "small pointed paring knife with short blade"
+        },
+        {
+          "chinese": "面包刀",
+          "vietnamese": "Dao cắt bánh mì",
+          "english": "long serrated bread knife"
+        },
+        {
+          "chinese": "剪刀",
+          "vietnamese": "Kéo nhà bếp",
+          "english": "sturdy kitchen shears with loop handles"
+        },
+        {
+          "chinese": "砧板",
+          "vietnamese": "Thớt",
+          "english": "rectangular wooden cutting board"
+        },
+        {
+          "chinese": "炒锅",
+          "vietnamese": "Chảo xào",
+          "english": "round-bottom black wok with long handle"
+        },
+        {
+          "chinese": "平底锅",
+          "vietnamese": "Chảo rán",
+          "english": "shallow frying pan with long handle"
+        },
+        {
+          "chinese": "汤锅",
+          "vietnamese": "Nồi nấu canh",
+          "english": "deep soup stockpot with two side handles and lid"
+        },
+        {
+          "chinese": "蒸锅",
+          "vietnamese": "Nồi hấp",
+          "english": "two-tier steamer pot with perforated upper basket"
+        },
+        {
+          "chinese": "奶锅",
+          "vietnamese": "Nồi nhỏ có tay cầm",
+          "english": "small saucepan with long handle and pouring lip"
+        },
+        {
+          "chinese": "锅盖",
+          "vietnamese": "Nắp nồi",
+          "english": "round glass pot lid with central knob"
+        },
+        {
+          "chinese": "锅铲",
+          "vietnamese": "Xẻng nấu ăn",
+          "english": "flat metal cooking spatula with long handle"
+        },
+        {
+          "chinese": "汤勺",
+          "vietnamese": "Muôi canh",
+          "english": "deep round soup ladle"
+        },
+        {
+          "chinese": "漏勺",
+          "vietnamese": "Muôi thủng",
+          "english": "round perforated skimmer spoon"
+        },
+        {
+          "chinese": "夹子",
+          "vietnamese": "Kẹp gắp thức ăn",
+          "english": "metal kitchen food tongs"
+        },
+        {
+          "chinese": "打蛋器",
+          "vietnamese": "Phới đánh trứng",
+          "english": "handheld wire balloon whisk"
+        },
+        {
+          "chinese": "擀面杖",
+          "vietnamese": "Cây cán bột",
+          "english": "wooden rolling pin"
+        },
+        {
+          "chinese": "削皮器",
+          "vietnamese": "Dụng cụ gọt vỏ",
+          "english": "Y-shaped vegetable peeler"
+        },
+        {
+          "chinese": "刨丝器",
+          "vietnamese": "Dụng cụ bào sợi",
+          "english": "stainless steel box grater"
+        },
+        {
+          "chinese": "开瓶器",
+          "vietnamese": "Dụng cụ mở nắp chai",
+          "english": "metal bottle cap opener"
+        },
+        {
+          "chinese": "开罐器",
+          "vietnamese": "Dụng cụ mở hộp",
+          "english": "manual turning can opener"
+        },
+        {
+          "chinese": "漏斗",
+          "vietnamese": "Phễu",
+          "english": "small kitchen funnel with narrow spout"
+        },
+        {
+          "chinese": "筛子",
+          "vietnamese": "Rây",
+          "english": "fine mesh round sieve with handle"
+        },
+        {
+          "chinese": "洗菜盆",
+          "vietnamese": "Chậu rửa rau",
+          "english": "perforated colander bowl"
+        },
+        {
+          "chinese": "量杯",
+          "vietnamese": "Ca đong",
+          "english": "transparent measuring jug with red tick marks no numbers"
+        },
+        {
+          "chinese": "厨房秤",
+          "vietnamese": "Cân nhà bếp",
+          "english": "small digital kitchen scale with blank screen"
+        },
+        {
+          "chinese": "饭碗",
+          "vietnamese": "Bát cơm",
+          "english": "small ceramic rice bowl"
+        },
+        {
+          "chinese": "盘子",
+          "vietnamese": "Đĩa",
+          "english": "round white ceramic dinner plate"
+        },
+        {
+          "chinese": "筷子",
+          "vietnamese": "Đũa",
+          "english": "pair of brown wooden chopsticks"
+        },
+        {
+          "chinese": "勺子",
+          "vietnamese": "Thìa",
+          "english": "ceramic Chinese soup spoon"
+        },
+        {
+          "chinese": "叉子",
+          "vietnamese": "Dĩa",
+          "english": "stainless dinner fork"
+        },
+        {
+          "chinese": "玻璃杯",
+          "vietnamese": "Cốc thủy tinh",
+          "english": "clear drinking glass"
+        },
+        {
+          "chinese": "茶壶",
+          "vietnamese": "Ấm trà",
+          "english": "ceramic teapot with spout and lid"
+        },
+        {
+          "chinese": "保鲜盒",
+          "vietnamese": "Hộp bảo quản thực phẩm",
+          "english": "rectangular transparent food storage box with snap lid"
+        },
+        {
+          "chinese": "调料瓶",
+          "vietnamese": "Lọ gia vị",
+          "english": "small spice shaker bottle with perforated top"
+        },
+        {
+          "chinese": "隔热手套",
+          "vietnamese": "Găng tay chống nóng",
+          "english": "thick quilted oven mitt"
+        }
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "电子消费品",
+      "vietnamese": "Thiết bị điện tử tiêu dùng",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "智能手机",
+          "vietnamese": "Điện thoại thông minh",
+          "english": "smartphone with blank dark touch screen"
+        },
+        {
+          "chinese": "平板电脑",
+          "vietnamese": "Máy tính bảng",
+          "english": "thin tablet computer with blank screen"
+        },
+        {
+          "chinese": "电子书阅读器",
+          "vietnamese": "Máy đọc sách",
+          "english": "e-reader with grayscale blank screen"
+        },
+        {
+          "chinese": "智能手表",
+          "vietnamese": "Đồng hồ thông minh",
+          "english": "smartwatch with blank rectangular screen"
+        },
+        {
+          "chinese": "运动手环",
+          "vietnamese": "Vòng đeo tay thông minh",
+          "english": "slim fitness tracker wristband"
+        },
+        {
+          "chinese": "数码相机",
+          "vietnamese": "Máy ảnh kỹ thuật số",
+          "english": "compact digital camera with lens"
+        },
+        {
+          "chinese": "单反相机",
+          "vietnamese": "Máy ảnh DSLR",
+          "english": "black DSLR camera with large interchangeable lens"
+        },
+        {
+          "chinese": "拍立得",
+          "vietnamese": "Máy ảnh lấy liền",
+          "english": "instant camera with blank white photo emerging"
+        },
+        {
+          "chinese": "摄像机",
+          "vietnamese": "Máy quay phim",
+          "english": "handheld camcorder with flip-out screen"
+        },
+        {
+          "chinese": "运动相机",
+          "vietnamese": "Camera hành trình thể thao",
+          "english": "tiny action camera in waterproof housing"
+        },
+        {
+          "chinese": "无人机",
+          "vietnamese": "Máy bay không người lái",
+          "english": "quadcopter camera drone with four propellers"
+        },
+        {
+          "chinese": "头戴式耳机",
+          "vietnamese": "Tai nghe chụp tai",
+          "english": "large over-ear headphones"
+        },
+        {
+          "chinese": "入耳式耳机",
+          "vietnamese": "Tai nghe nhét tai",
+          "english": "wired in-ear earbuds pair"
+        },
+        {
+          "chinese": "无线耳机",
+          "vietnamese": "Tai nghe không dây",
+          "english": "true wireless earbuds in charging case"
+        },
+        {
+          "chinese": "蓝牙音箱",
+          "vietnamese": "Loa Bluetooth",
+          "english": "portable cylindrical wireless speaker"
+        },
+        {
+          "chinese": "智能音箱",
+          "vietnamese": "Loa thông minh",
+          "english": "small puck-shaped smart home speaker"
+        },
+        {
+          "chinese": "麦克风",
+          "vietnamese": "Micrô",
+          "english": "handheld vocal microphone"
+        },
+        {
+          "chinese": "录音笔",
+          "vietnamese": "Máy ghi âm",
+          "english": "slim handheld digital voice recorder"
+        },
+        {
+          "chinese": "收音机",
+          "vietnamese": "Đài radio",
+          "english": "portable radio with antenna and dial"
+        },
+        {
+          "chinese": "音乐播放器",
+          "vietnamese": "Máy nghe nhạc",
+          "english": "small digital music player with blank screen and wheel"
+        },
+        {
+          "chinese": "游戏机",
+          "vietnamese": "Máy chơi game",
+          "english": "home gaming console tower with controller"
+        },
+        {
+          "chinese": "掌上游戏机",
+          "vietnamese": "Máy chơi game cầm tay",
+          "english": "handheld game console with screen between controls"
+        },
+        {
+          "chinese": "游戏手柄",
+          "vietnamese": "Tay cầm chơi game",
+          "english": "standalone video game controller"
+        },
+        {
+          "chinese": "虚拟现实头盔",
+          "vietnamese": "Kính thực tế ảo",
+          "english": "VR headset with thick head strap"
+        },
+        {
+          "chinese": "移动电源",
+          "vietnamese": "Pin sạc dự phòng",
+          "english": "rectangular power bank with USB ports"
+        },
+        {
+          "chinese": "充电器",
+          "vietnamese": "Củ sạc",
+          "english": "wall phone charging adapter with prongs"
+        },
+        {
+          "chinese": "无线充电板",
+          "vietnamese": "Đế sạc không dây",
+          "english": "flat circular wireless charging pad"
+        },
+        {
+          "chinese": "充电线",
+          "vietnamese": "Dây sạc",
+          "english": "coiled USB charging cable"
+        },
+        {
+          "chinese": "自拍杆",
+          "vietnamese": "Gậy tự sướng",
+          "english": "extended selfie stick holding phone mount"
+        },
+        {
+          "chinese": "手机支架",
+          "vietnamese": "Giá đỡ điện thoại",
+          "english": "folding tabletop phone stand"
+        },
+        {
+          "chinese": "手机壳",
+          "vietnamese": "Ốp điện thoại",
+          "english": "empty protective smartphone case"
+        },
+        {
+          "chinese": "稳定器",
+          "vietnamese": "Gimbal chống rung",
+          "english": "handheld three-axis smartphone gimbal"
+        },
+        {
+          "chinese": "电子词典",
+          "vietnamese": "Từ điển điện tử",
+          "english": "small clamshell electronic dictionary with keyboard"
+        },
+        {
+          "chinese": "数码相框",
+          "vietnamese": "Khung ảnh kỹ thuật số",
+          "english": "digital photo frame on stand with blank screen"
+        },
+        {
+          "chinese": "电视盒子",
+          "vietnamese": "Hộp TV thông minh",
+          "english": "small television streaming box and remote"
+        },
+        {
+          "chinese": "遥控器",
+          "vietnamese": "Điều khiển từ xa",
+          "english": "slim TV remote control no readable symbols"
+        }
+      ]
+    },
+    {
+      "id": "cosmetics",
+      "name": "化妆用品",
+      "vietnamese": "Đồ trang điểm",
+      "columns": 6,
+      "rows": 4,
+      "words": [
+        {
+          "chinese": "口红",
+          "vietnamese": "Son môi",
+          "english": "red lipstick bullet extended from black tube"
+        },
+        {
+          "chinese": "唇彩",
+          "vietnamese": "Son bóng",
+          "english": "clear lip gloss tube with wand applicator"
+        },
+        {
+          "chinese": "唇线笔",
+          "vietnamese": "Chì kẻ môi",
+          "english": "red lip liner pencil with cap beside it"
+        },
+        {
+          "chinese": "眼线笔",
+          "vietnamese": "Chì kẻ mắt",
+          "english": "black eyeliner pencil with visible black tip"
+        },
+        {
+          "chinese": "睫毛膏",
+          "vietnamese": "Mascara",
+          "english": "mascara tube with bristled wand outside"
+        },
+        {
+          "chinese": "眼影盘",
+          "vietnamese": "Bảng phấn mắt",
+          "english": "open palette of many colored eyeshadow pans"
+        },
+        {
+          "chinese": "粉底液",
+          "vietnamese": "Kem nền",
+          "english": "glass liquid foundation bottle showing beige cream"
+        },
+        {
+          "chinese": "粉饼",
+          "vietnamese": "Phấn nén",
+          "english": "open compact with beige pressed face powder and mirror"
+        },
+        {
+          "chinese": "腮红",
+          "vietnamese": "Phấn má",
+          "english": "open round compact with pink blush"
+        },
+        {
+          "chinese": "遮瑕笔",
+          "vietnamese": "Bút che khuyết điểm",
+          "english": "beige concealer pen with small brush tip"
+        },
+        {
+          "chinese": "眉笔",
+          "vietnamese": "Chì kẻ mày",
+          "english": "brown eyebrow pencil with spoolie brush on other end"
+        },
+        {
+          "chinese": "眉刷",
+          "vietnamese": "Cọ chải mày",
+          "english": "standalone short eyebrow spoolie brush"
+        },
+        {
+          "chinese": "假睫毛",
+          "vietnamese": "Mi giả",
+          "english": "pair of curved false eyelash strips"
+        },
+        {
+          "chinese": "睫毛夹",
+          "vietnamese": "Kẹp bấm mi",
+          "english": "metal eyelash curler with finger loops"
+        },
+        {
+          "chinese": "散粉刷",
+          "vietnamese": "Cọ phấn phủ",
+          "english": "large fluffy powder makeup brush"
+        },
+        {
+          "chinese": "美妆蛋",
+          "vietnamese": "Mút trang điểm",
+          "english": "pink teardrop-shaped makeup blending sponge"
+        },
+        {
+          "chinese": "粉扑",
+          "vietnamese": "Bông phấn",
+          "english": "round flat face powder puff with ribbon strap"
+        },
+        {
+          "chinese": "化妆棉",
+          "vietnamese": "Bông tẩy trang",
+          "english": "stack of white round cotton pads"
+        },
+        {
+          "chinese": "棉签",
+          "vietnamese": "Tăm bông",
+          "english": "bundle of double-ended cotton swabs"
+        },
+        {
+          "chinese": "卸妆巾",
+          "vietnamese": "Khăn tẩy trang",
+          "english": "packet of makeup remover wipes with one wipe emerging"
+        },
+        {
+          "chinese": "化妆镜",
+          "vietnamese": "Gương trang điểm",
+          "english": "round tabletop vanity mirror"
+        },
+        {
+          "chinese": "指甲油",
+          "vietnamese": "Sơn móng tay",
+          "english": "small red nail polish bottle with brush"
+        },
+        {
+          "chinese": "指甲锉",
+          "vietnamese": "Dũa móng tay",
+          "english": "slim pink nail file board"
+        },
+        {
+          "chinese": "化妆包",
+          "vietnamese": "Túi trang điểm",
+          "english": "small open zippered cosmetic pouch"
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "name": "衣服",
+      "vietnamese": "Quần áo",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "短袖衬衫",
+          "vietnamese": "Áo sơ mi ngắn tay",
+          "english": "short-sleeve button-front shirt"
+        },
+        {
+          "chinese": "长袖衬衫",
+          "vietnamese": "Áo sơ mi dài tay",
+          "english": "long-sleeve button-front shirt"
+        },
+        {
+          "chinese": "圆领短袖",
+          "vietnamese": "Áo thun cổ tròn",
+          "english": "plain short-sleeve crew-neck T-shirt"
+        },
+        {
+          "chinese": "翻领短袖",
+          "vietnamese": "Áo polo",
+          "english": "short-sleeve polo shirt with folded collar"
+        },
+        {
+          "chinese": "背心",
+          "vietnamese": "Áo ba lỗ",
+          "english": "sleeveless tank top"
+        },
+        {
+          "chinese": "吊带衫",
+          "vietnamese": "Áo hai dây",
+          "english": "women camisole with thin shoulder straps"
+        },
+        {
+          "chinese": "毛衣",
+          "vietnamese": "Áo len",
+          "english": "knitted pullover sweater"
+        },
+        {
+          "chinese": "开衫",
+          "vietnamese": "Áo cardigan",
+          "english": "knitted button-front cardigan"
+        },
+        {
+          "chinese": "卫衣",
+          "vietnamese": "Áo sweatshirt",
+          "english": "crew-neck sweatshirt without hood"
+        },
+        {
+          "chinese": "连帽衫",
+          "vietnamese": "Áo hoodie",
+          "english": "hooded sweatshirt"
+        },
+        {
+          "chinese": "西装外套",
+          "vietnamese": "Áo vest",
+          "english": "tailored suit jacket"
+        },
+        {
+          "chinese": "牛仔外套",
+          "vietnamese": "Áo khoác denim",
+          "english": "blue denim jacket"
+        },
+        {
+          "chinese": "皮夹克",
+          "vietnamese": "Áo khoác da",
+          "english": "black leather zippered jacket"
+        },
+        {
+          "chinese": "风衣",
+          "vietnamese": "Áo trench coat",
+          "english": "tan belted trench coat"
+        },
+        {
+          "chinese": "羽绒服",
+          "vietnamese": "Áo khoác lông vũ",
+          "english": "quilted puffer down jacket"
+        },
+        {
+          "chinese": "大衣",
+          "vietnamese": "Áo măng tô",
+          "english": "long wool overcoat"
+        },
+        {
+          "chinese": "雨衣",
+          "vietnamese": "Áo mưa",
+          "english": "yellow hooded raincoat"
+        },
+        {
+          "chinese": "连衣裙",
+          "vietnamese": "Váy liền",
+          "english": "one-piece sleeveless dress"
+        },
+        {
+          "chinese": "半身裙",
+          "vietnamese": "Chân váy",
+          "english": "knee-length A-line skirt"
+        },
+        {
+          "chinese": "百褶裙",
+          "vietnamese": "Váy xếp ly",
+          "english": "short accordion-pleated skirt"
+        },
+        {
+          "chinese": "牛仔裤",
+          "vietnamese": "Quần jean",
+          "english": "blue denim jeans"
+        },
+        {
+          "chinese": "西裤",
+          "vietnamese": "Quần tây",
+          "english": "tailored black formal trousers"
+        },
+        {
+          "chinese": "短裤",
+          "vietnamese": "Quần short",
+          "english": "casual knee-length shorts"
+        },
+        {
+          "chinese": "运动裤",
+          "vietnamese": "Quần thể thao",
+          "english": "athletic sweatpants with elastic cuffs"
+        },
+        {
+          "chinese": "背带裤",
+          "vietnamese": "Quần yếm",
+          "english": "denim bib overalls with shoulder straps"
+        },
+        {
+          "chinese": "睡衣",
+          "vietnamese": "Đồ ngủ",
+          "english": "matching pajama shirt and trousers"
+        },
+        {
+          "chinese": "浴袍",
+          "vietnamese": "Áo choàng tắm",
+          "english": "thick white terry bathrobe with belt"
+        },
+        {
+          "chinese": "泳衣",
+          "vietnamese": "Đồ bơi",
+          "english": "one-piece women's swimsuit displayed as clothing only"
+        },
+        {
+          "chinese": "围裙",
+          "vietnamese": "Tạp dề",
+          "english": "kitchen apron with neck strap"
+        },
+        {
+          "chinese": "旗袍",
+          "vietnamese": "Sườn xám",
+          "english": "red Chinese qipao dress with high collar"
+        },
+        {
+          "chinese": "奥黛",
+          "vietnamese": "Áo dài",
+          "english": "Vietnamese ao dai long tunic with white trousers"
+        },
+        {
+          "chinese": "围巾",
+          "vietnamese": "Khăn quàng cổ",
+          "english": "folded long wool scarf"
+        },
+        {
+          "chinese": "帽子",
+          "vietnamese": "Mũ",
+          "english": "casual baseball cap"
+        },
+        {
+          "chinese": "手套",
+          "vietnamese": "Găng tay",
+          "english": "pair of knitted winter gloves"
+        },
+        {
+          "chinese": "袜子",
+          "vietnamese": "Tất",
+          "english": "pair of ankle socks"
+        },
+        {
+          "chinese": "领带",
+          "vietnamese": "Cà vạt",
+          "english": "striped necktie knotted at top"
+        }
+      ]
+    },
+    {
+      "id": "shoes",
+      "name": "鞋子",
+      "vietnamese": "Giày dép",
+      "columns": 6,
+      "rows": 4,
+      "words": [
+        {
+          "chinese": "低帮帆布鞋",
+          "vietnamese": "Giày vải cổ thấp",
+          "english": "pair of low-top canvas lace-up shoes"
+        },
+        {
+          "chinese": "高帮帆布鞋",
+          "vietnamese": "Giày vải cổ cao",
+          "english": "pair of high-top canvas sneakers"
+        },
+        {
+          "chinese": "篮球鞋",
+          "vietnamese": "Giày bóng rổ",
+          "english": "high ankle basketball shoes with thick sporty soles"
+        },
+        {
+          "chinese": "足球鞋",
+          "vietnamese": "Giày bóng đá",
+          "english": "soccer cleats with visible studs under sole"
+        },
+        {
+          "chinese": "田径钉鞋",
+          "vietnamese": "Giày đinh điền kinh",
+          "english": "track sprinting shoes with sharp small spikes under forefoot"
+        },
+        {
+          "chinese": "登山鞋",
+          "vietnamese": "Giày leo núi",
+          "english": "rugged ankle hiking boots with deep tread"
+        },
+        {
+          "chinese": "骑行鞋",
+          "vietnamese": "Giày đạp xe",
+          "english": "road cycling shoes with visible sole cleats and dial closure"
+        },
+        {
+          "chinese": "溜冰鞋",
+          "vietnamese": "Giày trượt băng",
+          "english": "ice skates with metal blades"
+        },
+        {
+          "chinese": "轮滑鞋",
+          "vietnamese": "Giày patin bốn bánh",
+          "english": "quad roller skates with four wheels arranged two by two"
+        },
+        {
+          "chinese": "直排轮滑鞋",
+          "vietnamese": "Giày patin một hàng bánh",
+          "english": "inline skates with four wheels in a single row"
+        },
+        {
+          "chinese": "芭蕾舞鞋",
+          "vietnamese": "Giày múa ba lê",
+          "english": "pink ballet slippers with long ribbons"
+        },
+        {
+          "chinese": "踢踏舞鞋",
+          "vietnamese": "Giày múa tap",
+          "english": "black tap dance shoes showing metal heel and toe plates"
+        },
+        {
+          "chinese": "人字拖",
+          "vietnamese": "Dép xỏ ngón",
+          "english": "pair of rubber flip-flops with Y straps"
+        },
+        {
+          "chinese": "一字拖",
+          "vietnamese": "Dép quai ngang",
+          "english": "pair of slide sandals with one broad strap"
+        },
+        {
+          "chinese": "毛绒拖鞋",
+          "vietnamese": "Dép bông",
+          "english": "pair of soft fluffy closed-toe house slippers"
+        },
+        {
+          "chinese": "洞洞鞋",
+          "vietnamese": "Dép sục có lỗ",
+          "english": "pair of molded foam clogs with ventilation holes"
+        },
+        {
+          "chinese": "搭扣凉鞋",
+          "vietnamese": "Dép sandal có khóa",
+          "english": "pair of flat sandals with multiple narrow straps and heel buckle"
+        },
+        {
+          "chinese": "高跟鞋",
+          "vietnamese": "Giày cao gót",
+          "english": "pair of classic pointed-toe stiletto pumps"
+        },
+        {
+          "chinese": "坡跟鞋",
+          "vietnamese": "Giày đế xuồng",
+          "english": "pair of wedge heel shoes with continuous raised sole"
+        },
+        {
+          "chinese": "平底单鞋",
+          "vietnamese": "Giày búp bê",
+          "english": "pair of flat ballet-style everyday shoes without ribbons"
+        },
+        {
+          "chinese": "系带皮鞋",
+          "vietnamese": "Giày da buộc dây",
+          "english": "pair of formal polished lace-up leather shoes"
+        },
+        {
+          "chinese": "乐福鞋",
+          "vietnamese": "Giày lười",
+          "english": "pair of leather loafers without laces"
+        },
+        {
+          "chinese": "雨靴",
+          "vietnamese": "Ủng đi mưa",
+          "english": "pair of tall shiny yellow rubber rain boots"
+        },
+        {
+          "chinese": "雪地靴",
+          "vietnamese": "Ủng mùa đông",
+          "english": "pair of tan shearling-lined winter boots"
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "name": "五金用品",
+      "vietnamese": "Đồ kim khí và dụng cụ",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "锤子",
+          "vietnamese": "Búa",
+          "english": "claw hammer with steel head and wooden handle"
+        },
+        {
+          "chinese": "橡胶锤",
+          "vietnamese": "Búa cao su",
+          "english": "black rubber mallet"
+        },
+        {
+          "chinese": "一字螺丝刀",
+          "vietnamese": "Tua vít dẹt",
+          "english": "flat-head screwdriver"
+        },
+        {
+          "chinese": "十字螺丝刀",
+          "vietnamese": "Tua vít bốn cạnh",
+          "english": "Phillips cross-head screwdriver with visible cross tip"
+        },
+        {
+          "chinese": "活动扳手",
+          "vietnamese": "Mỏ lết",
+          "english": "adjustable crescent wrench"
+        },
+        {
+          "chinese": "开口扳手",
+          "vietnamese": "Cờ lê miệng",
+          "english": "double-ended open-end wrench"
+        },
+        {
+          "chinese": "梅花扳手",
+          "vietnamese": "Cờ lê vòng",
+          "english": "double-ended closed ring wrench"
+        },
+        {
+          "chinese": "内六角扳手",
+          "vietnamese": "Lục giác",
+          "english": "L-shaped hex Allen key set"
+        },
+        {
+          "chinese": "管钳",
+          "vietnamese": "Kìm ống",
+          "english": "large adjustable pipe wrench with toothed jaw"
+        },
+        {
+          "chinese": "老虎钳",
+          "vietnamese": "Kìm điện",
+          "english": "combination pliers with blunt jaws"
+        },
+        {
+          "chinese": "尖嘴钳",
+          "vietnamese": "Kìm mũi nhọn",
+          "english": "needle-nose pliers"
+        },
+        {
+          "chinese": "斜口钳",
+          "vietnamese": "Kìm cắt chéo",
+          "english": "diagonal cutting pliers"
+        },
+        {
+          "chinese": "剥线钳",
+          "vietnamese": "Kìm tuốt dây",
+          "english": "wire stripping pliers with notched cutting jaws"
+        },
+        {
+          "chinese": "大力钳",
+          "vietnamese": "Kìm bấm chết",
+          "english": "locking vise-grip pliers"
+        },
+        {
+          "chinese": "钢锯",
+          "vietnamese": "Cưa sắt",
+          "english": "metal hacksaw with bow frame"
+        },
+        {
+          "chinese": "木工锯",
+          "vietnamese": "Cưa gỗ",
+          "english": "wood hand saw with broad serrated blade"
+        },
+        {
+          "chinese": "锉刀",
+          "vietnamese": "Giũa",
+          "english": "flat metal file with handle"
+        },
+        {
+          "chinese": "凿子",
+          "vietnamese": "Đục",
+          "english": "wood chisel with bevel cutting edge"
+        },
+        {
+          "chinese": "美工刀",
+          "vietnamese": "Dao rọc giấy",
+          "english": "retractable utility knife with segmented blade"
+        },
+        {
+          "chinese": "电钻",
+          "vietnamese": "Máy khoan",
+          "english": "cordless power drill with drill bit"
+        },
+        {
+          "chinese": "钻头",
+          "vietnamese": "Mũi khoan",
+          "english": "set of metal spiral drill bits"
+        },
+        {
+          "chinese": "角磨机",
+          "vietnamese": "Máy mài góc",
+          "english": "handheld angle grinder with circular disc"
+        },
+        {
+          "chinese": "卷尺",
+          "vietnamese": "Thước cuộn",
+          "english": "retractable yellow measuring tape partially extended"
+        },
+        {
+          "chinese": "游标卡尺",
+          "vietnamese": "Thước cặp",
+          "english": "metal vernier caliper with sliding jaws"
+        },
+        {
+          "chinese": "水平尺",
+          "vietnamese": "Thước thủy",
+          "english": "spirit level with visible bubble vials"
+        },
+        {
+          "chinese": "螺丝",
+          "vietnamese": "Vít",
+          "english": "metal pointed wood screws with spiral threads"
+        },
+        {
+          "chinese": "螺栓",
+          "vietnamese": "Bu lông",
+          "english": "hex-head bolts with threaded shafts"
+        },
+        {
+          "chinese": "螺母",
+          "vietnamese": "Đai ốc",
+          "english": "hexagonal nuts with threaded holes"
+        },
+        {
+          "chinese": "垫圈",
+          "vietnamese": "Vòng đệm",
+          "english": "flat round metal washers"
+        },
+        {
+          "chinese": "钉子",
+          "vietnamese": "Đinh",
+          "english": "small steel nails with flat heads"
+        },
+        {
+          "chinese": "铆钉",
+          "vietnamese": "Đinh tán",
+          "english": "blind pop rivets with long mandrels"
+        },
+        {
+          "chinese": "合页",
+          "vietnamese": "Bản lề",
+          "english": "metal door hinge unfolded"
+        },
+        {
+          "chinese": "挂锁",
+          "vietnamese": "Ổ khóa",
+          "english": "brass padlock with U-shaped shackle"
+        },
+        {
+          "chinese": "链条",
+          "vietnamese": "Dây xích",
+          "english": "short length of metal link chain"
+        },
+        {
+          "chinese": "弹簧",
+          "vietnamese": "Lò xo",
+          "english": "steel compression coil spring"
+        },
+        {
+          "chinese": "轴承",
+          "vietnamese": "Vòng bi",
+          "english": "metal ball bearing ring with visible balls"
+        }
+      ]
+    },
+    {
+      "id": "work-supplies",
+      "name": "劳动用品",
+      "vietnamese": "Đồ bảo hộ lao động",
+      "columns": 6,
+      "rows": 4,
+      "words": [
+        {
+          "chinese": "安全帽",
+          "vietnamese": "Mũ bảo hộ",
+          "english": "yellow industrial safety hard hat"
+        },
+        {
+          "chinese": "护目镜",
+          "vietnamese": "Kính bảo hộ",
+          "english": "clear wraparound safety goggles"
+        },
+        {
+          "chinese": "防护面罩",
+          "vietnamese": "Tấm che mặt",
+          "english": "clear full-face protective shield with headband"
+        },
+        {
+          "chinese": "焊接面罩",
+          "vietnamese": "Mặt nạ hàn",
+          "english": "dark welding helmet with small black viewing window"
+        },
+        {
+          "chinese": "耳塞",
+          "vietnamese": "Nút bịt tai",
+          "english": "pair of orange foam earplugs"
+        },
+        {
+          "chinese": "隔音耳罩",
+          "vietnamese": "Chụp tai chống ồn",
+          "english": "industrial hearing protection earmuffs"
+        },
+        {
+          "chinese": "防尘口罩",
+          "vietnamese": "Khẩu trang chống bụi",
+          "english": "white molded particulate respirator mask"
+        },
+        {
+          "chinese": "防毒面具",
+          "vietnamese": "Mặt nạ phòng độc",
+          "english": "half-face respirator with two filter cartridges"
+        },
+        {
+          "chinese": "皮质劳保手套",
+          "vietnamese": "Găng tay da bảo hộ",
+          "english": "pair of thick leather industrial work gloves"
+        },
+        {
+          "chinese": "防割手套",
+          "vietnamese": "Găng tay chống cắt",
+          "english": "pair of gray cut-resistant gloves with darker fingertips"
+        },
+        {
+          "chinese": "绝缘手套",
+          "vietnamese": "Găng tay cách điện",
+          "english": "pair of thick orange rubber electrical insulating gloves"
+        },
+        {
+          "chinese": "防化手套",
+          "vietnamese": "Găng tay chống hóa chất",
+          "english": "pair of long green chemical resistant gloves"
+        },
+        {
+          "chinese": "反光背心",
+          "vietnamese": "Áo phản quang",
+          "english": "fluorescent yellow safety vest with reflective stripes"
+        },
+        {
+          "chinese": "安全带",
+          "vietnamese": "Dây đai an toàn",
+          "english": "full-body fall protection harness with straps and buckles"
+        },
+        {
+          "chinese": "安全绳",
+          "vietnamese": "Dây an toàn",
+          "english": "coiled safety rope with metal locking carabiner"
+        },
+        {
+          "chinese": "防砸鞋",
+          "vietnamese": "Giày bảo hộ mũi thép",
+          "english": "pair of black steel-toe safety work shoes with reinforced toe shown"
+        },
+        {
+          "chinese": "防护服",
+          "vietnamese": "Quần áo bảo hộ",
+          "english": "white hooded full-body protective coverall"
+        },
+        {
+          "chinese": "护膝",
+          "vietnamese": "Miếng bảo vệ đầu gối",
+          "english": "pair of hard-shell work knee pads"
+        },
+        {
+          "chinese": "护腰带",
+          "vietnamese": "Đai bảo vệ lưng",
+          "english": "black lifting support back belt with shoulder straps"
+        },
+        {
+          "chinese": "工具腰包",
+          "vietnamese": "Túi dụng cụ đeo hông",
+          "english": "leather work tool belt pouch"
+        },
+        {
+          "chinese": "急救箱",
+          "vietnamese": "Hộp sơ cứu",
+          "english": "white first aid box with red cross"
+        },
+        {
+          "chinese": "灭火器",
+          "vietnamese": "Bình chữa cháy",
+          "english": "red fire extinguisher with hose and pressure gauge"
+        },
+        {
+          "chinese": "安全锥",
+          "vietnamese": "Cọc tiêu giao thông",
+          "english": "orange traffic safety cone with white reflective bands"
+        },
+        {
+          "chinese": "警示带",
+          "vietnamese": "Băng cảnh báo",
+          "english": "roll of yellow and black striped barrier tape no text"
+        }
+      ]
+    },
+    {
+      "id": "textile",
+      "name": "纺织厂设备",
+      "vietnamese": "Thiết bị nhà máy dệt may",
+      "columns": 6,
+      "rows": 4,
+      "words": [
+        {
+          "chinese": "梳棉机",
+          "vietnamese": "Máy chải bông",
+          "english": "industrial cotton carding machine with large enclosed drum and cotton feed"
+        },
+        {
+          "chinese": "并条机",
+          "vietnamese": "Máy ghép sợi",
+          "english": "textile draw frame feeding white slivers into tall cans"
+        },
+        {
+          "chinese": "粗纱机",
+          "vietnamese": "Máy kéo sợi thô",
+          "english": "textile roving frame with rows of large upright bobbins"
+        },
+        {
+          "chinese": "细纱机",
+          "vietnamese": "Máy kéo sợi con",
+          "english": "ring spinning machine with long rows of small spindles"
+        },
+        {
+          "chinese": "络筒机",
+          "vietnamese": "Máy đánh ống sợi",
+          "english": "automatic yarn winding machine with rows of conical yarn packages"
+        },
+        {
+          "chinese": "整经机",
+          "vietnamese": "Máy mắc sợi",
+          "english": "warping machine with wide large drum and many parallel warp threads"
+        },
+        {
+          "chinese": "浆纱机",
+          "vietnamese": "Máy hồ sợi",
+          "english": "textile sizing machine with yarn sheet passing over heated cylinders"
+        },
+        {
+          "chinese": "剑杆织机",
+          "vietnamese": "Máy dệt kiếm",
+          "english": "rapier weaving loom with visible horizontal yarn warp and rigid insertion rods"
+        },
+        {
+          "chinese": "圆织机",
+          "vietnamese": "Máy dệt tròn",
+          "english": "circular weaving loom with round ring frame and surrounding yarn spools"
+        },
+        {
+          "chinese": "圆筒针织机",
+          "vietnamese": "Máy dệt kim tròn",
+          "english": "circular knitting machine with central round needle cylinder"
+        },
+        {
+          "chinese": "横机",
+          "vietnamese": "Máy dệt kim phẳng",
+          "english": "flat-bed knitting machine with long horizontal needle bed and carriage"
+        },
+        {
+          "chinese": "染色机",
+          "vietnamese": "Máy nhuộm",
+          "english": "stainless fabric dyeing vessel with round sealed front door and pipes"
+        },
+        {
+          "chinese": "定型机",
+          "vietnamese": "Máy định hình vải",
+          "english": "fabric stenter heat setting machine with long tunnel and fabric web"
+        },
+        {
+          "chinese": "验布机",
+          "vietnamese": "Máy kiểm vải",
+          "english": "fabric inspection machine with slanted illuminated viewing table and cloth roll"
+        },
+        {
+          "chinese": "卷布机",
+          "vietnamese": "Máy cuộn vải",
+          "english": "fabric rolling machine with horizontal large cloth roller"
+        },
+        {
+          "chinese": "铺布机",
+          "vietnamese": "Máy trải vải",
+          "english": "automatic fabric spreading carriage traveling above long cutting table"
+        },
+        {
+          "chinese": "裁布机",
+          "vietnamese": "Máy cắt vải",
+          "english": "upright electric straight-knife fabric cutter on base plate"
+        },
+        {
+          "chinese": "缝纫机",
+          "vietnamese": "Máy may",
+          "english": "industrial straight-stitch sewing machine on table"
+        },
+        {
+          "chinese": "包缝机",
+          "vietnamese": "Máy vắt sổ",
+          "english": "industrial overlock sewing machine with multiple thread cones"
+        },
+        {
+          "chinese": "绷缝机",
+          "vietnamese": "Máy may kansai",
+          "english": "industrial coverstitch sewing machine with three thread cones and flat bed"
+        },
+        {
+          "chinese": "锁眼机",
+          "vietnamese": "Máy thùa khuy",
+          "english": "industrial buttonhole sewing machine with narrow clamping foot"
+        },
+        {
+          "chinese": "钉扣机",
+          "vietnamese": "Máy đính cúc",
+          "english": "industrial button attaching sewing machine with button clamp"
+        },
+        {
+          "chinese": "蒸汽熨斗",
+          "vietnamese": "Bàn là hơi công nghiệp",
+          "english": "industrial heavy steam iron connected to hose"
+        },
+        {
+          "chinese": "筒子架",
+          "vietnamese": "Giá để ống sợi",
+          "english": "tall textile creel rack holding many yarn cones"
+        }
+      ]
+    },
+    {
+      "id": "carton",
+      "name": "纸箱厂设备",
+      "vietnamese": "Thiết bị nhà máy thùng carton",
+      "columns": 6,
+      "rows": 4,
+      "words": [
+        {
+          "chinese": "原纸架",
+          "vietnamese": "Giá nâng cuộn giấy",
+          "english": "heavy mill roll stand holding large brown kraft paper roll"
+        },
+        {
+          "chinese": "单面瓦楞机",
+          "vietnamese": "Máy tạo sóng một mặt",
+          "english": "single facer corrugating machine with paired large fluted rollers"
+        },
+        {
+          "chinese": "双面机",
+          "vietnamese": "Máy ghép bìa carton",
+          "english": "double facer machine with wide long pressure belt carrying corrugated board"
+        },
+        {
+          "chinese": "糊机",
+          "vietnamese": "Máy bôi keo",
+          "english": "industrial glue applicator roller machine with visible glue tank"
+        },
+        {
+          "chinese": "预热缸",
+          "vietnamese": "Lô gia nhiệt giấy",
+          "english": "large polished metal paper preheater cylinder on frame"
+        },
+        {
+          "chinese": "天桥输送架",
+          "vietnamese": "Cầu băng tải giấy",
+          "english": "elevated overhead bridge conveyor carrying corrugated paper web"
+        },
+        {
+          "chinese": "纵切压线机",
+          "vietnamese": "Máy chia khổ cán lằn",
+          "english": "slitter scorer machine with rows of circular slitting knives on shaft"
+        },
+        {
+          "chinese": "横切机",
+          "vietnamese": "Máy cắt ngang giấy",
+          "english": "rotary paper cross-cutting machine with horizontal cutting cylinders"
+        },
+        {
+          "chinese": "薄刀分纸机",
+          "vietnamese": "Máy chia giấy dao mỏng",
+          "english": "thin-blade cardboard slitter with several exposed circular disc blades"
+        },
+        {
+          "chinese": "切纸机",
+          "vietnamese": "Máy xén giấy",
+          "english": "industrial guillotine paper cutter with tall stack of sheets and straight blade"
+        },
+        {
+          "chinese": "送纸机",
+          "vietnamese": "Máy cấp giấy",
+          "english": "cardboard sheet separator feeder with suction pickup heads above stack"
+        },
+        {
+          "chinese": "印刷开槽机",
+          "vietnamese": "Máy in và xẻ rãnh",
+          "english": "large flexographic carton printer slotter with multiple colored printing units"
+        },
+        {
+          "chinese": "裱纸机",
+          "vietnamese": "Máy bồi giấy",
+          "english": "sheet laminating machine feeding printed top sheet onto corrugated board with two input stacks"
+        },
+        {
+          "chinese": "圆压圆模切机",
+          "vietnamese": "Máy bế tròn",
+          "english": "rotary die cutting machine showing paired patterned cylindrical rollers"
+        },
+        {
+          "chinese": "平压平模切机",
+          "vietnamese": "Máy bế phẳng",
+          "english": "flat platen die cutting machine with large rectangular clamping plates"
+        },
+        {
+          "chinese": "钉箱机",
+          "vietnamese": "Máy đóng ghim thùng",
+          "english": "upright carton stitching machine with long narrow support arm"
+        },
+        {
+          "chinese": "粘箱机",
+          "vietnamese": "Máy dán thùng",
+          "english": "folder gluer machine with belts folding brown carton blanks"
+        },
+        {
+          "chinese": "封箱机",
+          "vietnamese": "Máy dán băng keo thùng",
+          "english": "carton sealing conveyor with top and bottom tape heads and brown box"
+        },
+        {
+          "chinese": "捆扎机",
+          "vietnamese": "Máy đóng đai",
+          "english": "strapping machine with tall arch around cardboard box"
+        },
+        {
+          "chinese": "缠绕机",
+          "vietnamese": "Máy quấn màng pallet",
+          "english": "pallet stretch wrapping machine with rotating turntable and tall film mast"
+        },
+        {
+          "chinese": "堆码机",
+          "vietnamese": "Máy xếp chồng",
+          "english": "carton sheet stacker with lifting platform and neatly stacked board"
+        },
+        {
+          "chinese": "输送带",
+          "vietnamese": "Băng tải",
+          "english": "straight industrial belt conveyor with rollers"
+        },
+        {
+          "chinese": "空压机",
+          "vietnamese": "Máy nén khí",
+          "english": "air compressor with motor atop horizontal tank"
+        },
+        {
+          "chinese": "废纸打包机",
+          "vietnamese": "Máy ép kiện giấy phế liệu",
+          "english": "vertical hydraulic waste paper baler with compressed cardboard bale"
+        }
+      ]
+    },
+    {
+      "id": "teaching",
+      "name": "学校教师用品",
+      "vietnamese": "Đồ dùng dạy học",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "黑板",
+          "vietnamese": "Bảng đen",
+          "english": "green classroom chalkboard in wooden frame"
+        },
+        {
+          "chinese": "粉笔",
+          "vietnamese": "Phấn",
+          "english": "box of colored chalk sticks"
+        },
+        {
+          "chinese": "黑板擦",
+          "vietnamese": "Lau bảng",
+          "english": "rectangular felt chalkboard eraser"
+        },
+        {
+          "chinese": "讲台",
+          "vietnamese": "Bục giảng",
+          "english": "teacher podium lectern with slanted top"
+        },
+        {
+          "chinese": "课桌",
+          "vietnamese": "Bàn học",
+          "english": "school pupil desk with small drawer"
+        },
+        {
+          "chinese": "学生椅",
+          "vietnamese": "Ghế học sinh",
+          "english": "simple school chair with metal legs"
+        },
+        {
+          "chinese": "教学白板",
+          "vietnamese": "Bảng trắng dạy học",
+          "english": "large blank white teaching board on stand"
+        },
+        {
+          "chinese": "白板笔",
+          "vietnamese": "Bút viết bảng",
+          "english": "set of chunky dry-erase markers"
+        },
+        {
+          "chinese": "电子白板",
+          "vietnamese": "Bảng tương tác",
+          "english": "large touchscreen interactive classroom board with blank display"
+        },
+        {
+          "chinese": "教鞭",
+          "vietnamese": "Que chỉ bảng",
+          "english": "long thin pointing stick with rubber tip"
+        },
+        {
+          "chinese": "激光笔",
+          "vietnamese": "Bút laser",
+          "english": "slim presentation laser pointer with small red dot"
+        },
+        {
+          "chinese": "地球仪",
+          "vietnamese": "Quả địa cầu",
+          "english": "tabletop globe with colored continents no text"
+        },
+        {
+          "chinese": "世界地图",
+          "vietnamese": "Bản đồ thế giới",
+          "english": "rolled classroom world map showing continent shapes no labels"
+        },
+        {
+          "chinese": "三角尺",
+          "vietnamese": "Ê ke",
+          "english": "large transparent classroom set square"
+        },
+        {
+          "chinese": "量角器",
+          "vietnamese": "Thước đo góc",
+          "english": "large semicircular protractor no readable numbers"
+        },
+        {
+          "chinese": "教学圆规",
+          "vietnamese": "Compa bảng",
+          "english": "large chalkboard compass with chalk holder"
+        },
+        {
+          "chinese": "算盘",
+          "vietnamese": "Bàn tính",
+          "english": "wooden abacus with rows of beads"
+        },
+        {
+          "chinese": "模型钟",
+          "vietnamese": "Đồng hồ mô hình",
+          "english": "classroom teaching clock with colorful hands no numerals"
+        },
+        {
+          "chinese": "骨骼模型",
+          "vietnamese": "Mô hình bộ xương",
+          "english": "small human skeleton classroom model on stand"
+        },
+        {
+          "chinese": "人体模型",
+          "vietnamese": "Mô hình cơ thể người",
+          "english": "anatomical torso teaching model with colored internal organs"
+        },
+        {
+          "chinese": "显微镜",
+          "vietnamese": "Kính hiển vi",
+          "english": "classroom optical microscope"
+        },
+        {
+          "chinese": "试管架",
+          "vietnamese": "Giá ống nghiệm",
+          "english": "wooden rack holding several glass test tubes"
+        },
+        {
+          "chinese": "烧杯",
+          "vietnamese": "Cốc thí nghiệm",
+          "english": "clear glass laboratory beaker with spout"
+        },
+        {
+          "chinese": "试管",
+          "vietnamese": "Ống nghiệm",
+          "english": "several empty clear test tubes"
+        },
+        {
+          "chinese": "教学卡片",
+          "vietnamese": "Thẻ học",
+          "english": "stack of blank colorful educational flashcards"
+        },
+        {
+          "chinese": "教学挂图",
+          "vietnamese": "Tranh treo dạy học",
+          "english": "hanging classroom chart with picture icons only no words"
+        },
+        {
+          "chinese": "教材",
+          "vietnamese": "Giáo trình",
+          "english": "stack of school textbooks with blank colored covers"
+        },
+        {
+          "chinese": "教案本",
+          "vietnamese": "Sổ giáo án",
+          "english": "open lesson planning notebook with blank ruled pages"
+        },
+        {
+          "chinese": "点名册",
+          "vietnamese": "Sổ điểm danh",
+          "english": "open attendance register with blank grid pages"
+        },
+        {
+          "chinese": "作业本",
+          "vietnamese": "Vở bài tập",
+          "english": "stack of thin exercise notebooks with blank covers"
+        },
+        {
+          "chinese": "红笔",
+          "vietnamese": "Bút đỏ",
+          "english": "red marking pen with red tip"
+        },
+        {
+          "chinese": "奖状",
+          "vietnamese": "Giấy khen",
+          "english": "blank certificate with decorative red border"
+        },
+        {
+          "chinese": "奖杯",
+          "vietnamese": "Cúp",
+          "english": "gold trophy cup on small base"
+        },
+        {
+          "chinese": "扩音器",
+          "vietnamese": "Máy trợ giảng",
+          "english": "portable teacher waist amplifier with headset microphone"
+        },
+        {
+          "chinese": "书架",
+          "vietnamese": "Giá sách",
+          "english": "low classroom bookshelf filled with blank-cover books"
+        },
+        {
+          "chinese": "铃铛",
+          "vietnamese": "Chuông",
+          "english": "small brass handbell with wooden handle"
+        }
+      ]
+    },
+    {
+      "id": "appliances",
+      "name": "家用电器",
+      "vietnamese": "Đồ điện gia dụng",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "冰箱",
+          "vietnamese": "Tủ lạnh",
+          "english": "upright two-door refrigerator"
+        },
+        {
+          "chinese": "冰柜",
+          "vietnamese": "Tủ đông",
+          "english": "white chest freezer with top lid"
+        },
+        {
+          "chinese": "洗衣机",
+          "vietnamese": "Máy giặt",
+          "english": "front-loading washing machine"
+        },
+        {
+          "chinese": "干衣机",
+          "vietnamese": "Máy sấy quần áo",
+          "english": "clothes tumble dryer with round door and folded clothes on top"
+        },
+        {
+          "chinese": "空调",
+          "vietnamese": "Điều hòa",
+          "english": "wall-mounted split air conditioner indoor unit"
+        },
+        {
+          "chinese": "电风扇",
+          "vietnamese": "Quạt điện",
+          "english": "standing pedestal electric fan"
+        },
+        {
+          "chinese": "吊扇",
+          "vietnamese": "Quạt trần",
+          "english": "ceiling fan with three blades"
+        },
+        {
+          "chinese": "暖风机",
+          "vietnamese": "Máy sưởi quạt",
+          "english": "portable fan heater with glowing grille"
+        },
+        {
+          "chinese": "电暖器",
+          "vietnamese": "Máy sưởi dầu",
+          "english": "oil-filled radiator heater with vertical fins"
+        },
+        {
+          "chinese": "加湿器",
+          "vietnamese": "Máy tạo ẩm",
+          "english": "small ultrasonic humidifier with visible mist plume"
+        },
+        {
+          "chinese": "除湿机",
+          "vietnamese": "Máy hút ẩm",
+          "english": "upright dehumidifier with water collection tank"
+        },
+        {
+          "chinese": "空气净化器",
+          "vietnamese": "Máy lọc không khí",
+          "english": "tall air purifier with perforated filter intake"
+        },
+        {
+          "chinese": "吸尘器",
+          "vietnamese": "Máy hút bụi",
+          "english": "canister vacuum cleaner with hose and floor head"
+        },
+        {
+          "chinese": "扫地机器人",
+          "vietnamese": "Robot hút bụi",
+          "english": "round robotic vacuum cleaner"
+        },
+        {
+          "chinese": "电饭锅",
+          "vietnamese": "Nồi cơm điện",
+          "english": "electric rice cooker with open lid showing cooked rice"
+        },
+        {
+          "chinese": "电压力锅",
+          "vietnamese": "Nồi áp suất điện",
+          "english": "electric pressure cooker with locking lid and steam valve"
+        },
+        {
+          "chinese": "微波炉",
+          "vietnamese": "Lò vi sóng",
+          "english": "countertop microwave oven with glass door"
+        },
+        {
+          "chinese": "电烤箱",
+          "vietnamese": "Lò nướng điện",
+          "english": "countertop toaster oven with wire rack"
+        },
+        {
+          "chinese": "空气炸锅",
+          "vietnamese": "Nồi chiên không dầu",
+          "english": "drawer-style air fryer with pulled-out basket"
+        },
+        {
+          "chinese": "电磁炉",
+          "vietnamese": "Bếp từ",
+          "english": "single-burner flat induction cooktop"
+        },
+        {
+          "chinese": "电水壶",
+          "vietnamese": "Ấm siêu tốc",
+          "english": "electric kettle on power base"
+        },
+        {
+          "chinese": "饮水机",
+          "vietnamese": "Cây nước nóng lạnh",
+          "english": "water dispenser with inverted blue bottle"
+        },
+        {
+          "chinese": "咖啡机",
+          "vietnamese": "Máy pha cà phê",
+          "english": "espresso coffee machine with portafilter and cup"
+        },
+        {
+          "chinese": "豆浆机",
+          "vietnamese": "Máy làm sữa đậu nành",
+          "english": "soy milk maker with tall steel jug and motorized lid"
+        },
+        {
+          "chinese": "搅拌机",
+          "vietnamese": "Máy xay sinh tố",
+          "english": "blender with glass jug on motor base"
+        },
+        {
+          "chinese": "榨汁机",
+          "vietnamese": "Máy ép trái cây",
+          "english": "juice extractor with large feed chute and juice jug"
+        },
+        {
+          "chinese": "面包机",
+          "vietnamese": "Máy làm bánh mì",
+          "english": "bread maker with open top lid and bread loaf inside"
+        },
+        {
+          "chinese": "烤面包机",
+          "vietnamese": "Máy nướng lát bánh mì",
+          "english": "two-slot toaster with bread slices"
+        },
+        {
+          "chinese": "洗碗机",
+          "vietnamese": "Máy rửa bát",
+          "english": "dishwasher with open door and racks of plates"
+        },
+        {
+          "chinese": "抽油烟机",
+          "vietnamese": "Máy hút mùi",
+          "english": "stainless kitchen range hood"
+        },
+        {
+          "chinese": "热水器",
+          "vietnamese": "Bình nóng lạnh",
+          "english": "wall-mounted cylindrical electric water heater"
+        },
+        {
+          "chinese": "吹风机",
+          "vietnamese": "Máy sấy tóc",
+          "english": "handheld hair dryer"
+        },
+        {
+          "chinese": "电熨斗",
+          "vietnamese": "Bàn là điện",
+          "english": "household electric iron with cord"
+        },
+        {
+          "chinese": "挂烫机",
+          "vietnamese": "Bàn là cây",
+          "english": "upright garment steamer with hanging hose"
+        },
+        {
+          "chinese": "电动牙刷",
+          "vietnamese": "Bàn chải điện",
+          "english": "electric toothbrush with charging base"
+        },
+        {
+          "chinese": "剃须刀",
+          "vietnamese": "Máy cạo râu",
+          "english": "electric shaver with three round rotating heads"
+        }
+      ]
+    },
+    {
+      "id": "computer-parts",
+      "name": "电脑配件",
+      "vietnamese": "Linh kiện và phụ kiện máy tính",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "键盘",
+          "vietnamese": "Bàn phím",
+          "english": "standard full-size computer keyboard"
+        },
+        {
+          "chinese": "鼠标",
+          "vietnamese": "Chuột máy tính",
+          "english": "computer mouse with scroll wheel"
+        },
+        {
+          "chinese": "显示器",
+          "vietnamese": "Màn hình",
+          "english": "flat computer monitor on stand"
+        },
+        {
+          "chinese": "电脑机箱",
+          "vietnamese": "Vỏ máy tính",
+          "english": "empty desktop tower computer case with side panel removed"
+        },
+        {
+          "chinese": "主板",
+          "vietnamese": "Bo mạch chủ",
+          "english": "computer motherboard with CPU socket and expansion slots"
+        },
+        {
+          "chinese": "处理器",
+          "vietnamese": "Bộ xử lý",
+          "english": "square CPU chip with gold contacts visible"
+        },
+        {
+          "chinese": "内存条",
+          "vietnamese": "Thanh RAM",
+          "english": "green RAM memory module with black chips"
+        },
+        {
+          "chinese": "显卡",
+          "vietnamese": "Card đồ họa",
+          "english": "graphics card with twin cooling fans"
+        },
+        {
+          "chinese": "机械硬盘",
+          "vietnamese": "Ổ cứng HDD",
+          "english": "opened hard disk drive showing shiny platter"
+        },
+        {
+          "chinese": "固态硬盘",
+          "vietnamese": "Ổ cứng SSD",
+          "english": "rectangular 2.5 inch solid state drive"
+        },
+        {
+          "chinese": "电源",
+          "vietnamese": "Bộ nguồn máy tính",
+          "english": "desktop PC power supply unit with fan and bundled cables"
+        },
+        {
+          "chinese": "散热器",
+          "vietnamese": "Bộ tản nhiệt",
+          "english": "CPU heatsink with metal fins and fan"
+        },
+        {
+          "chinese": "机箱风扇",
+          "vietnamese": "Quạt case",
+          "english": "square computer case cooling fan"
+        },
+        {
+          "chinese": "导热硅脂",
+          "vietnamese": "Keo tản nhiệt",
+          "english": "small syringe tube of gray thermal paste"
+        },
+        {
+          "chinese": "声卡",
+          "vietnamese": "Card âm thanh",
+          "english": "PCI sound card with colored audio jacks"
+        },
+        {
+          "chinese": "网卡",
+          "vietnamese": "Card mạng",
+          "english": "PCI network card with Ethernet port"
+        },
+        {
+          "chinese": "无线网卡",
+          "vietnamese": "Card Wi-Fi",
+          "english": "wireless computer adapter card with twin antennas"
+        },
+        {
+          "chinese": "光驱",
+          "vietnamese": "Ổ đĩa quang",
+          "english": "desktop optical disc drive with tray extended"
+        },
+        {
+          "chinese": "光盘",
+          "vietnamese": "Đĩa quang",
+          "english": "shiny compact disc"
+        },
+        {
+          "chinese": "移动硬盘",
+          "vietnamese": "Ổ cứng di động",
+          "english": "portable external hard drive with USB cable"
+        },
+        {
+          "chinese": "U盘",
+          "vietnamese": "USB lưu trữ",
+          "english": "USB flash drive with exposed connector"
+        },
+        {
+          "chinese": "存储卡",
+          "vietnamese": "Thẻ nhớ",
+          "english": "full-size SD memory card"
+        },
+        {
+          "chinese": "读卡器",
+          "vietnamese": "Đầu đọc thẻ",
+          "english": "USB memory card reader with card slots"
+        },
+        {
+          "chinese": "USB集线器",
+          "vietnamese": "Bộ chia USB",
+          "english": "four-port USB hub"
+        },
+        {
+          "chinese": "扩展坞",
+          "vietnamese": "Dock mở rộng",
+          "english": "laptop docking station with multiple video and USB ports"
+        },
+        {
+          "chinese": "网线",
+          "vietnamese": "Dây mạng",
+          "english": "coiled Ethernet cable with transparent RJ45 connectors"
+        },
+        {
+          "chinese": "高清线",
+          "vietnamese": "Cáp HDMI",
+          "english": "HDMI cable with flat trapezoid connectors"
+        },
+        {
+          "chinese": "显示线",
+          "vietnamese": "Cáp VGA",
+          "english": "VGA cable with blue screw-lock connectors"
+        },
+        {
+          "chinese": "电源线",
+          "vietnamese": "Dây nguồn máy tính",
+          "english": "black computer AC power cord with three-pin IEC connector"
+        },
+        {
+          "chinese": "摄像头",
+          "vietnamese": "Webcam",
+          "english": "small webcam clipped to top of tiny monitor edge"
+        },
+        {
+          "chinese": "路由器",
+          "vietnamese": "Bộ định tuyến",
+          "english": "Wi-Fi router with four antennas"
+        },
+        {
+          "chinese": "交换机",
+          "vietnamese": "Bộ chuyển mạch mạng",
+          "english": "network switch with row of eight Ethernet ports"
+        },
+        {
+          "chinese": "不间断电源",
+          "vietnamese": "Bộ lưu điện UPS",
+          "english": "small tower UPS battery backup with outlets"
+        },
+        {
+          "chinese": "电脑支架",
+          "vietnamese": "Giá đỡ laptop",
+          "english": "angled metal laptop stand without laptop"
+        },
+        {
+          "chinese": "电脑包",
+          "vietnamese": "Túi đựng laptop",
+          "english": "padded laptop carry bag"
+        },
+        {
+          "chinese": "防尘罩",
+          "vietnamese": "Áo phủ máy tính",
+          "english": "transparent dust cover fitted over computer monitor"
+        }
+      ]
+    },
+    {
+      "id": "stationery",
+      "name": "文具",
+      "vietnamese": "Văn phòng phẩm",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "铅笔",
+          "vietnamese": "Bút chì",
+          "english": "sharpened wooden graphite pencil"
+        },
+        {
+          "chinese": "自动铅笔",
+          "vietnamese": "Bút chì bấm",
+          "english": "mechanical pencil with push button and fine lead"
+        },
+        {
+          "chinese": "圆珠笔",
+          "vietnamese": "Bút bi",
+          "english": "blue ballpoint pen"
+        },
+        {
+          "chinese": "钢笔",
+          "vietnamese": "Bút máy",
+          "english": "fountain pen with exposed metal nib"
+        },
+        {
+          "chinese": "中性笔",
+          "vietnamese": "Bút gel",
+          "english": "transparent gel ink pen"
+        },
+        {
+          "chinese": "荧光笔",
+          "vietnamese": "Bút đánh dấu",
+          "english": "bright yellow chisel-tip highlighter"
+        },
+        {
+          "chinese": "彩色铅笔",
+          "vietnamese": "Bút chì màu",
+          "english": "set of colored pencils"
+        },
+        {
+          "chinese": "蜡笔",
+          "vietnamese": "Bút sáp màu",
+          "english": "set of thick colorful wax crayons"
+        },
+        {
+          "chinese": "水彩笔",
+          "vietnamese": "Bút màu nước",
+          "english": "set of colorful felt-tip coloring markers"
+        },
+        {
+          "chinese": "毛笔",
+          "vietnamese": "Bút lông",
+          "english": "Chinese calligraphy brush with bamboo handle"
+        },
+        {
+          "chinese": "橡皮",
+          "vietnamese": "Tẩy",
+          "english": "small pink rectangular eraser"
+        },
+        {
+          "chinese": "卷笔刀",
+          "vietnamese": "Gọt bút chì",
+          "english": "small pencil sharpener with metal blade"
+        },
+        {
+          "chinese": "铅芯",
+          "vietnamese": "Ruột chì",
+          "english": "clear tube of mechanical pencil leads"
+        },
+        {
+          "chinese": "笔芯",
+          "vietnamese": "Ruột bút bi",
+          "english": "ballpoint pen refill with metal writing tip"
+        },
+        {
+          "chinese": "墨水",
+          "vietnamese": "Mực viết",
+          "english": "small glass fountain pen ink bottle"
+        },
+        {
+          "chinese": "尺子",
+          "vietnamese": "Thước kẻ",
+          "english": "straight transparent ruler no readable numbers"
+        },
+        {
+          "chinese": "圆规",
+          "vietnamese": "Compa",
+          "english": "small metal geometry compass with pencil attachment"
+        },
+        {
+          "chinese": "剪纸刀",
+          "vietnamese": "Dao cắt giấy",
+          "english": "small craft knife with pointed blade and protective cap"
+        },
+        {
+          "chinese": "胶水",
+          "vietnamese": "Keo dán",
+          "english": "white liquid glue bottle with pointed nozzle"
+        },
+        {
+          "chinese": "固体胶",
+          "vietnamese": "Keo khô",
+          "english": "uncapped glue stick"
+        },
+        {
+          "chinese": "透明胶带",
+          "vietnamese": "Băng dính trong",
+          "english": "roll of clear adhesive tape"
+        },
+        {
+          "chinese": "双面胶",
+          "vietnamese": "Băng dính hai mặt",
+          "english": "roll of double-sided adhesive tape with white backing"
+        },
+        {
+          "chinese": "订书机",
+          "vietnamese": "Dập ghim",
+          "english": "desktop stapler"
+        },
+        {
+          "chinese": "订书钉",
+          "vietnamese": "Ghim bấm",
+          "english": "small strips of steel staples"
+        },
+        {
+          "chinese": "起钉器",
+          "vietnamese": "Dụng cụ gỡ ghim",
+          "english": "small claw-style staple remover"
+        },
+        {
+          "chinese": "回形针",
+          "vietnamese": "Kẹp giấy",
+          "english": "pile of metal paper clips"
+        },
+        {
+          "chinese": "长尾夹",
+          "vietnamese": "Kẹp bướm",
+          "english": "black binder clips with silver wire handles"
+        },
+        {
+          "chinese": "图钉",
+          "vietnamese": "Đinh ghim",
+          "english": "colorful thumbtacks"
+        },
+        {
+          "chinese": "便利贴",
+          "vietnamese": "Giấy ghi chú",
+          "english": "stack of square yellow sticky notes"
+        },
+        {
+          "chinese": "笔记本",
+          "vietnamese": "Sổ tay",
+          "english": "spiral notebook with blank ruled pages"
+        },
+        {
+          "chinese": "信封",
+          "vietnamese": "Phong bì",
+          "english": "plain white envelope"
+        },
+        {
+          "chinese": "文件袋",
+          "vietnamese": "Túi hồ sơ",
+          "english": "transparent snap-closure document pouch"
+        },
+        {
+          "chinese": "文件夹",
+          "vietnamese": "Bìa kẹp hồ sơ",
+          "english": "open two-ring document binder"
+        },
+        {
+          "chinese": "书签",
+          "vietnamese": "Dấu trang",
+          "english": "decorative ribbon bookmark tucked in blank book"
+        },
+        {
+          "chinese": "笔袋",
+          "vietnamese": "Túi bút",
+          "english": "zippered pencil case with pens visible"
+        },
+        {
+          "chinese": "修正带",
+          "vietnamese": "Băng xóa",
+          "english": "handheld correction tape dispenser"
+        }
+      ]
+    },
+    {
+      "id": "toys",
+      "name": "玩具",
+      "vietnamese": "Đồ chơi",
+      "columns": 6,
+      "rows": 6,
+      "words": [
+        {
+          "chinese": "积木",
+          "vietnamese": "Khối xếp hình",
+          "english": "colorful wooden building blocks"
+        },
+        {
+          "chinese": "拼图",
+          "vietnamese": "Tranh ghép hình",
+          "english": "partly assembled jigsaw puzzle with loose pieces"
+        },
+        {
+          "chinese": "魔方",
+          "vietnamese": "Khối Rubik",
+          "english": "three by three colorful Rubik cube"
+        },
+        {
+          "chinese": "玩偶",
+          "vietnamese": "Búp bê",
+          "english": "simple cloth rag doll"
+        },
+        {
+          "chinese": "毛绒熊",
+          "vietnamese": "Gấu bông",
+          "english": "soft brown teddy bear"
+        },
+        {
+          "chinese": "玩具汽车",
+          "vietnamese": "Ô tô đồ chơi",
+          "english": "small red toy car"
+        },
+        {
+          "chinese": "遥控车",
+          "vietnamese": "Xe điều khiển từ xa",
+          "english": "remote-control toy car with handheld controller"
+        },
+        {
+          "chinese": "玩具火车",
+          "vietnamese": "Tàu hỏa đồ chơi",
+          "english": "wooden toy train on short track"
+        },
+        {
+          "chinese": "玩具飞机",
+          "vietnamese": "Máy bay đồ chơi",
+          "english": "small colorful toy airplane"
+        },
+        {
+          "chinese": "玩具轮船",
+          "vietnamese": "Tàu thủy đồ chơi",
+          "english": "small plastic toy boat"
+        },
+        {
+          "chinese": "玩具机器人",
+          "vietnamese": "Robot đồ chơi",
+          "english": "friendly small toy robot"
+        },
+        {
+          "chinese": "玩具恐龙",
+          "vietnamese": "Khủng long đồ chơi",
+          "english": "green plastic toy dinosaur"
+        },
+        {
+          "chinese": "陀螺",
+          "vietnamese": "Con quay",
+          "english": "wooden spinning top"
+        },
+        {
+          "chinese": "悠悠球",
+          "vietnamese": "Yo-yo",
+          "english": "red yo-yo with string loop"
+        },
+        {
+          "chinese": "弹珠",
+          "vietnamese": "Bi ve",
+          "english": "colorful glass marbles"
+        },
+        {
+          "chinese": "弹弓",
+          "vietnamese": "Ná đồ chơi",
+          "english": "small wooden Y-shaped toy slingshot with elastic band"
+        },
+        {
+          "chinese": "水枪",
+          "vietnamese": "Súng nước",
+          "english": "brightly colored plastic water gun clearly toy"
+        },
+        {
+          "chinese": "泡泡机",
+          "vietnamese": "Máy thổi bong bóng",
+          "english": "small toy bubble machine emitting soap bubbles"
+        },
+        {
+          "chinese": "万花筒",
+          "vietnamese": "Kính vạn hoa",
+          "english": "colorful kaleidoscope tube with reflected color pattern at end"
+        },
+        {
+          "chinese": "沙漏",
+          "vietnamese": "Đồng hồ cát đồ chơi",
+          "english": "small colorful sand timer"
+        },
+        {
+          "chinese": "风筝",
+          "vietnamese": "Diều",
+          "english": "colorful diamond kite with long tail and string spool"
+        },
+        {
+          "chinese": "风车",
+          "vietnamese": "Chong chóng",
+          "english": "colorful handheld pinwheel"
+        },
+        {
+          "chinese": "跳绳",
+          "vietnamese": "Dây nhảy",
+          "english": "coiled jump rope with two handles"
+        },
+        {
+          "chinese": "呼啦圈",
+          "vietnamese": "Vòng lắc eo",
+          "english": "large bright plastic hula hoop"
+        },
+        {
+          "chinese": "沙滩球",
+          "vietnamese": "Bóng bãi biển",
+          "english": "colorful striped rubber play ball"
+        },
+        {
+          "chinese": "足球",
+          "vietnamese": "Bóng đá",
+          "english": "black and white soccer ball"
+        },
+        {
+          "chinese": "篮球",
+          "vietnamese": "Bóng rổ",
+          "english": "orange basketball with black seams"
+        },
+        {
+          "chinese": "羽毛球拍",
+          "vietnamese": "Vợt cầu lông",
+          "english": "pair of badminton rackets and shuttlecock"
+        },
+        {
+          "chinese": "乒乓球拍",
+          "vietnamese": "Vợt bóng bàn",
+          "english": "red and black table tennis paddles with white ball"
+        },
+        {
+          "chinese": "象棋",
+          "vietnamese": "Cờ tướng",
+          "english": "Chinese chess board with round pieces marked only simple abstract symbols"
+        },
+        {
+          "chinese": "跳棋",
+          "vietnamese": "Cờ nhảy",
+          "english": "star-shaped Chinese checkers board with colorful pegs"
+        },
+        {
+          "chinese": "飞行棋",
+          "vietnamese": "Cờ cá ngựa",
+          "english": "cross-shaped colorful ludo board with playing pieces"
+        },
+        {
+          "chinese": "套圈",
+          "vietnamese": "Đồ chơi ném vòng",
+          "english": "toy ring toss set with pegs and colorful rings"
+        },
+        {
+          "chinese": "滑梯",
+          "vietnamese": "Cầu trượt",
+          "english": "small plastic playground slide"
+        },
+        {
+          "chinese": "跷跷板",
+          "vietnamese": "Bập bênh",
+          "english": "small playground seesaw without people"
+        },
+        {
+          "chinese": "摇摇马",
+          "vietnamese": "Ngựa bập bênh",
+          "english": "wooden rocking horse toy"
+        }
+      ]
+    }
+  ]
+}

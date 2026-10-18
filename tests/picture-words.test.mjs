@@ -1,21 +1,24 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {createHash} from 'node:crypto';
 import {validatePictureCatalog,pictureOptions,pictureProgress,createPictureFeedback} from '../picture-words-core.mjs';
 import {createWordAudio} from '../picture-words-audio.mjs';
 import {resolveWritingLevel} from '../writing-access.mjs';
 import {banks} from '../bank-access.mjs';
 const root=new URL('../',import.meta.url),catalog=JSON.parse(fs.readFileSync(new URL('picture-words/catalog.json',root)));
-assert.equal(validatePictureCatalog(catalog),catalog);assert.equal(catalog.categories.length,1);
-const fruit=catalog.categories[0];assert.equal(fruit.name,'水果');assert.equal(fruit.vietnamese,'Trái cây');assert.equal(fruit.words.length,10);
-const hashes=new Set(),positions=new Set();
-for(const [i,word]of fruit.words.entries()){
- const file=fs.readFileSync(new URL(word.image,root));assert.deepEqual([...file.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.ok(file.readUInt32BE(16)>=1000);assert.ok(file.readUInt32BE(20)>=1000);hashes.add(createHash('sha256').update(file).digest('hex'));
+assert.equal(validatePictureCatalog(catalog),catalog);assert.equal(catalog.categories.length,19);
+const fruit=catalog.categories[0];assert.equal(fruit.name,'水果');assert.equal(fruit.vietnamese,'Trái cây');assert.equal(fruit.words.length,46);
+const hashes=new Set(),positions=new Set(),files=new Map();
+const allWords=catalog.categories.flatMap(c=>c.words);
+for(const [word,reading]of Object.entries({'干衣机':'gān yī jī','铺布机':'pū bù jī','包缝机':'bāo féng jī','绷缝机':'bēng féng jī'}))assert.equal(allWords.find(w=>w.chinese===word).pinyin,reading);
+assert.equal(catalog.categories.reduce((n,c)=>n+c.words.length,0),634);
+for(const category of catalog.categories)for(const [i,word]of category.words.entries()){
+ const file=files.get(word.image)||fs.readFileSync(new URL(word.image,root));files.set(word.image,file);assert.deepEqual([...file.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.ok(file.readUInt32BE(16)>=1000);assert.ok(file.readUInt32BE(20)>=1000);hashes.add(word.image+':'+(word.sprite?.index??'whole'));
+ assert.ok(word.pinyin&&word.vietnamese);if(word.sprite){assert.equal(word.sprite.columns,6);assert.ok(word.sprite.index<word.sprite.columns*word.sprite.rows);}
  for(const random of [()=>0,()=>.25,()=>.5,()=>.999]){
-  const options=pictureOptions(fruit,i,random);assert.equal(options.length,4);assert.equal(new Set(options.map(w=>w.id)).size,4);assert.ok(options.some(w=>w.id===word.id));assert.ok(options.every(w=>fruit.words.includes(w)));positions.add(options.findIndex(w=>w.id===word.id));
+  const options=pictureOptions(category,i,random);assert.equal(options.length,4);assert.equal(new Set(options.map(w=>w.id)).size,4);assert.ok(options.some(w=>w.id===word.id));assert.ok(options.every(w=>category.words.includes(w)));positions.add(options.findIndex(w=>w.id===word.id));
  }
 }
-assert.equal(hashes.size,10);assert.ok(positions.size>=3);
+assert.equal(hashes.size,634);assert.ok(positions.size>=3);
 const duplicate=structuredClone(catalog);duplicate.categories[0].words[1].id=duplicate.categories[0].words[0].id;assert.throws(()=>validatePictureCatalog(duplicate),/无效/);
 const unsafe=structuredClone(catalog);unsafe.categories[0].words[0].image='https://example.com/unrelated.png';assert.throws(()=>validatePictureCatalog(unsafe),/无效/);
 assert.throws(()=>pictureOptions(fruit,100),/足够/);
@@ -36,7 +39,7 @@ const spoken=[];let cancellations=0,unavailable=0,ready=0;
 const synthesis={cancel:()=>cancellations++,getVoices:()=>[{lang:'vi-VN'},{lang:'zh-CN',name:'Mandarin'}],speak:u=>{spoken.push(u);u.onstart?.();}};
 class Utterance{constructor(text){this.text=text;}}
 const audio=createWordAudio({synthesis,Utterance,onUnavailable:()=>unavailable++,onReady:()=>ready++});
-for(const word of fruit.words)assert.equal(audio.speak(word.chinese),true);
+for(const word of fruit.words.slice(0,10))assert.equal(audio.speak(word.chinese),true);
 assert.equal(spoken.length,10);assert.ok(spoken.every(u=>u.lang==='zh-CN'&&u.voice.name==='Mandarin'));assert.equal(ready,10);assert.equal(cancellations,10);
 const stale=spoken.at(-1);audio.stop();stale.onerror();assert.equal(unavailable,0);
 const missing=createWordAudio({synthesis:null,Utterance:null,onUnavailable:()=>unavailable++});assert.equal(missing.speak('西瓜'),false);assert.equal(unavailable,1);
@@ -44,4 +47,4 @@ const noMandarin=createWordAudio({synthesis:{cancel(){},getVoices:()=>[{lang:'en
 for(const page of ['index.html','homepage-v4.html']){
  const source=fs.readFileSync(new URL(page,root),'utf8');assert.equal((source.match(/id="practice-pictures"/g)||[]).length,1);assert.equal((source.match(/id="picture-practice"/g)||[]).length,1);
 }
-console.log('通过：10张独立水果图片、同类四选一、写字同款密码、1秒表情+2秒翻页、错误重选、导航取消计时和每个词的普通话播放。');
+console.log('通过：19类634张物品图、同类四选一、写字同款密码、1秒表情+2秒翻页、错误重选、导航取消计时和每个词的普通话播放。');

@@ -6,6 +6,7 @@ export function validatePictureCatalog(value){
   categories.add(category.id);const ids=new Set(),words=new Set();
   for(const word of category.words){
    if(!word?.id||ids.has(word.id)||!word.chinese||words.has(word.chinese)||!word.pinyin||!word.vietnamese||!/^assets\/picture-words\/[a-z0-9-]+\/[a-z0-9-]+\.png$/.test(word.image))throw Error('图片词条格式无效。');
+   if(word.sprite&&(!Number.isInteger(word.sprite.columns)||word.sprite.columns<1||word.sprite.columns>10||!Number.isInteger(word.sprite.rows)||word.sprite.rows<1||word.sprite.rows>10||!Number.isInteger(word.sprite.index)||word.sprite.index<0||word.sprite.index>=word.sprite.columns*word.sprite.rows))throw Error('图片位置无效。');
    ids.add(word.id);words.add(word.chinese);
   }
  }
@@ -32,5 +33,5 @@ export function createPictureFeedback({onChange=()=>{},onAdvance=()=>{},schedule
    if(correct)timers.push(schedule(()=>{if(token!==generation)return;phase='complete';onAdvance();},2000));
   },1000));return true;
  }
- return {choose,cancel,reset(){cancel();emit();},get phase(){return phase;}};
+ return {choose,cancel,settle(){cancel();phase='complete';emit();},reset(){cancel();emit();},get phase(){return phase;}};
 }

@@ -1,3 +1,4 @@
+import {startHeroSlideshow,stopHeroSlideshow} from './hero-slideshow.mjs?v=slides21';
 export const defaults=Object.freeze({brand:'Tiếng Trung Cô Nga',subtitle:'',websiteLabel:'',websiteUrl:'',backgroundImage:'',backgroundOpacity:100,overlayOpacity:55,heading:'让中文，\n成为你的新朋友。',welcome:'从一句“你好”开始，认真练习，自信表达。',vietnamese:'Luyện tập từng chút, tự tin mỗi ngày.',button:'开始答题 →',footer:'青蓝中文 · 每一次练习，都是进步。',primary:'#2476b5',background:'#f3f8fc',fontSize:16,titleSize:46,layout:'two',illustration:true,compact:false});
 export function validateAppearance(value){
  if(!value||typeof value!=='object'||Array.isArray(value))throw Error('配置必须是JSON对象');
@@ -41,9 +42,10 @@ export function applyAppearance(value,target=document){const c=validateAppearanc
  website.textContent=c.websiteLabel||c.websiteUrl;website.hidden=!c.websiteUrl;
  if(c.websiteUrl)website.href=c.websiteUrl;else website.removeAttribute('href');
  }
- const hero=target.querySelector('.hero');if(hero){let image=hero.querySelector('.hero-background');
+ const hero=target.querySelector('.hero');if(hero){stopHeroSlideshow(hero);let image=hero.querySelector('.hero-background');
  if(c.backgroundImage){if(!image){image=target.createElement('img');image.className='hero-background';image.alt='';hero.prepend(image);}if(image.getAttribute('src')!==c.backgroundImage)image.src=c.backgroundImage;}
  else if(image)image.remove();
+  if(c.backgroundImage&&typeof window!=='undefined'&&target===document&&window.parent===window)startHeroSlideshow(hero,image);
  }target.body.classList.toggle('has-hero-image',!!c.backgroundImage);
  target.documentElement.classList.remove('appearance-loading');
  target.getElementById?.('site-loading')?.remove();

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "fruits",
+      "name": "水果",
+      "vietnamese": "Trái cây",
+      "words": [
+        {"id":"watermelon","chinese":"西瓜","pinyin":"xī guā","vietnamese":"Dưa hấu","image":"assets/picture-words/fruits/watermelon.png"},
+        {"id":"apple","chinese":"苹果","pinyin":"píng guǒ","vietnamese":"Táo","image":"assets/picture-words/fruits/apple.png"},
+        {"id":"banana","chinese":"香蕉","pinyin":"xiāng jiāo","vietnamese":"Chuối","image":"assets/picture-words/fruits/banana.png"},
+        {"id":"orange","chinese":"橙子","pinyin":"chéng zi","vietnamese":"Cam","image":"assets/picture-words/fruits/orange.png"},
+        {"id":"grape","chinese":"葡萄","pinyin":"pú tao","vietnamese":"Nho","image":"assets/picture-words/fruits/grape.png"},
+        {"id":"pear","chinese":"梨","pinyin":"lí","vietnamese":"Lê","image":"assets/picture-words/fruits/pear.png"},
+        {"id":"pineapple","chinese":"菠萝","pinyin":"bō luó","vietnamese":"Dứa / Thơm","image":"assets/picture-words/fruits/pineapple.png"},
+        {"id":"mango","chinese":"芒果","pinyin":"máng guǒ","vietnamese":"Xoài","image":"assets/picture-words/fruits/mango.png"},
+        {"id":"lychee","chinese":"荔枝","pinyin":"lì zhī","vietnamese":"Vải","image":"assets/picture-words/fruits/lychee.png"},
+        {"id":"papaya","chinese":"木瓜","pinyin":"mù guā","vietnamese":"Đu đủ","image":"assets/picture-words/fruits/papaya.png"}
+      ]
+    }
+  ]
+}

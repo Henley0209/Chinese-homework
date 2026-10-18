@@ -1,0 +1,47 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {validatePictureCatalog,pictureOptions,pictureProgress,createPictureFeedback} from '../picture-words-core.mjs';
+import {createWordAudio} from '../picture-words-audio.mjs';
+import {resolveWritingLevel} from '../writing-access.mjs';
+import {banks} from '../bank-access.mjs';
+const root=new URL('../',import.meta.url),catalog=JSON.parse(fs.readFileSync(new URL('picture-words/catalog.json',root)));
+assert.equal(validatePictureCatalog(catalog),catalog);assert.equal(catalog.categories.length,1);
+const fruit=catalog.categories[0];assert.equal(fruit.name,'水果');assert.equal(fruit.vietnamese,'Trái cây');assert.equal(fruit.words.length,10);
+const hashes=new Set(),positions=new Set();
+for(const [i,word]of fruit.words.entries()){
+ const file=fs.readFileSync(new URL(word.image,root));assert.deepEqual([...file.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.ok(file.readUInt32BE(16)>=1000);assert.ok(file.readUInt32BE(20)>=1000);hashes.add(createHash('sha256').update(file).digest('hex'));
+ for(const random of [()=>0,()=>.25,()=>.5,()=>.999]){
+  const options=pictureOptions(fruit,i,random);assert.equal(options.length,4);assert.equal(new Set(options.map(w=>w.id)).size,4);assert.ok(options.some(w=>w.id===word.id));assert.ok(options.every(w=>fruit.words.includes(w)));positions.add(options.findIndex(w=>w.id===word.id));
+ }
+}
+assert.equal(hashes.size,10);assert.ok(positions.size>=3);
+const duplicate=structuredClone(catalog);duplicate.categories[0].words[1].id=duplicate.categories[0].words[0].id;assert.throws(()=>validatePictureCatalog(duplicate),/无效/);
+const unsafe=structuredClone(catalog);unsafe.categories[0].words[0].image='https://example.com/unrelated.png';assert.throws(()=>validatePictureCatalog(unsafe),/无效/);
+assert.throws(()=>pictureOptions(fruit,100),/足够/);
+assert.equal(pictureProgress('8',10),8);for(const v of [-1,10,'broken',1.5])assert.equal(pictureProgress(v,10),0);
+// Password acceptance deliberately matches writing practice, including cross-bank passwords.
+for(const bank of banks)assert.doesNotThrow(()=>resolveWritingLevel(bank.password,'hsk1-2'));
+assert.throws(()=>resolveWritingLevel(''),/密码/);assert.throws(()=>resolveWritingLevel('wrong'),/密码/);
+let now=0,nextId=0,timers=new Map(),advances=0;const changes=[];
+const schedule=(fn,delay)=>{const id=++nextId;timers.set(id,{at:now+delay,fn});return id;};
+function tick(delta){const end=now+delta;while(true){const next=[...timers.entries()].filter(([,t])=>t.at<=end).sort((a,b)=>a[1].at-b[1].at)[0];if(!next)break;now=next[1].at;timers.delete(next[0]);next[1].fn();}now=end;}
+const feedback=createPictureFeedback({onChange:s=>changes.push({...s,time:now}),onAdvance:()=>advances++,schedule,unschedule:id=>timers.delete(id)});
+assert.equal(feedback.choose(false),true);assert.equal(changes.at(-1).emoji,'😢');assert.equal(feedback.choose(true),false);
+tick(999);assert.equal(feedback.phase,'wrong');tick(1);assert.equal(feedback.phase,'ready');assert.equal(changes.at(-1).emoji,'');assert.equal(advances,0);
+assert.equal(feedback.choose(true),true);assert.equal(changes.at(-1).emoji,'👍');tick(1000);assert.equal(feedback.phase,'waiting');assert.equal(changes.at(-1).emoji,'');tick(1999);assert.equal(advances,0);tick(1);assert.equal(advances,1);
+feedback.reset();feedback.choose(true);tick(1000);feedback.cancel();tick(10000);assert.equal(advances,1);
+feedback.reset();feedback.choose(false);feedback.reset();tick(1000);assert.equal(feedback.phase,'ready');
+const spoken=[];let cancellations=0,unavailable=0,ready=0;
+const synthesis={cancel:()=>cancellations++,getVoices:()=>[{lang:'vi-VN'},{lang:'zh-CN',name:'Mandarin'}],speak:u=>{spoken.push(u);u.onstart?.();}};
+class Utterance{constructor(text){this.text=text;}}
+const audio=createWordAudio({synthesis,Utterance,onUnavailable:()=>unavailable++,onReady:()=>ready++});
+for(const word of fruit.words)assert.equal(audio.speak(word.chinese),true);
+assert.equal(spoken.length,10);assert.ok(spoken.every(u=>u.lang==='zh-CN'&&u.voice.name==='Mandarin'));assert.equal(ready,10);assert.equal(cancellations,10);
+const stale=spoken.at(-1);audio.stop();stale.onerror();assert.equal(unavailable,0);
+const missing=createWordAudio({synthesis:null,Utterance:null,onUnavailable:()=>unavailable++});assert.equal(missing.speak('西瓜'),false);assert.equal(unavailable,1);
+const noMandarin=createWordAudio({synthesis:{cancel(){},getVoices:()=>[{lang:'en-US'}],speak(){throw Error('must not use English voice');}},Utterance,onUnavailable:()=>unavailable++});assert.equal(noMandarin.speak('西瓜'),false);assert.equal(unavailable,2);
+for(const page of ['index.html','homepage-v4.html']){
+ const source=fs.readFileSync(new URL(page,root),'utf8');assert.equal((source.match(/id="practice-pictures"/g)||[]).length,1);assert.equal((source.match(/id="picture-practice"/g)||[]).length,1);
+}
+console.log('通过：10张独立水果图片、同类四选一、写字同款密码、1秒表情+2秒翻页、错误重选、导航取消计时和每个词的普通话播放。');

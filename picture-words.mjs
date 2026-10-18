@@ -69,7 +69,7 @@ export function initPictureWords({onEnter=()=>{}}={}){
   try{
    // Reuse writing practice's exact password policy: any existing course password.
    resolveWritingLevel($('#bank-password').value,$('#question-bank').value);
-   if(!catalog){const response=await fetch('./picture-words/catalog.json?v=objects2');if(!response.ok)throw Error('图片词库加载失败，请重试。 / Không tải được từ vựng.');catalog=validatePictureCatalog(await response.json());}
+   if(!catalog){const response=await fetch('./picture-words/catalog.json?v=vocab1004');if(!response.ok)throw Error('图片词库加载失败，请重试。 / Không tải được từ vựng.');catalog=validatePictureCatalog(await response.json());}
    if(token!==version)return;
    onEnter();stopFeedback();document.dispatchEvent(new CustomEvent('practice:enter',{detail:'pictures'}));
    $('#bank-error').textContent='';$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;const writing=$('#writing-practice');if(writing)writing.hidden=true;

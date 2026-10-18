@@ -34,18 +34,18 @@ const $=s=>{if(!nodes.has(s))nodes.set(s,node(selects.has(s)?'select':'div'));re
 $('#user-role').value='student';$('#question-bank').value='hsk1-2';$('#upload-mode').value='add';$('#teacher-login').hidden=true;
 const crypto={subtle:webcrypto.subtle,randomUUID};
 const loginEvents=[];
-const context={progressKey,saveProgress,loadProgress,clearProgress,studentExercises,initWriting:()=>{},initPictureWords:()=>{},showFeedback:()=>{},stopFeedback:()=>{},recordLogin:role=>{loginEvents.push(role);},...store,isTeacherPassword:value=>Promise.resolve(value==='teacher-test-only'),resolveBank,validate,grade,normalize,crypto,structuredClone,TextEncoder,Uint8Array,URL,Blob,confirm:()=>true,setTimeout,console,
+const context={progressKey,saveProgress,loadProgress,clearProgress,studentExercises,initWriting:()=>{},initPictureWords:()=>{},showFeedback:()=>{},stopFeedback:()=>{},recordLogin:role=>{loginEvents.push(role);},recordPracticeEntry:mode=>{assert.equal(mode,'quiz');loginEvents.push('student');},...store,isTeacherPassword:value=>Promise.resolve(value==='teacher-test-only'),resolveBank,validate,grade,normalize,crypto,structuredClone,TextEncoder,Uint8Array,URL,Blob,confirm:()=>true,setTimeout,console,
  document:{querySelector:$,createElement:tag=>node(tag)},FormData:class{constructor(f){this.values=f.fd;}get(k){return this.values[k]??null;}}};
 async function script(name,append=''){let s=fs.readFileSync(new URL(name,root),'utf8').replace(/^import .*;\n/gm,'').replaceAll('export ','');await vm.runInNewContext('(async()=>{'+s+'\n'+append+'})()',context);}
 await script('teacher-tools.mjs','globalThis.teacherActive=teacherActive;');await script('app.js');
 assert.equal($('#exercise-select').value,'hsk1-2-topic-01');assert.equal($('#teacher-login').hidden,true);
 const form=$('#identity');const submit=()=>form.handlers.submit({preventDefault(){},target:form});
-form.fd={student:'An',questionBank:'hsk3',exerciseId:'hsk3-1',bankPassword:''};await submit();assert.match($('#student-label').textContent,/入门练习/);assert.equal($('#progress').max,15);
+form.fd={student:'An',questionBank:'hsk3',exerciseId:'hsk3-1',bankPassword:''};await submit();assert.match($('#student-label').textContent,/入门练习/);assert.equal($('#progress').max,15);assert.equal(loginEvents.length,0);
 for(const [id,pass]of [['hsk1-2','NgaZhu1122'],['hsk3','NgaZhu1133'],['hsk4','NgaZhu1144'],['hsk5','NgaZhu1155'],['daily','NgaZhu1166'],['factory','NgaZhu1177']]){
  $('#question-bank').value=id;$('#question-bank').handlers.change();assert.equal($('#exercise-select').value,studentExercises(store.listExercises(id))[0].id);
  form.fd={student:'An',className:'A1',questionBank:id,exerciseId:id+'-1',bankPassword:pass};await submit();assert.equal($('#progress').max,10);assert.equal($('#bank-error').textContent,'');
 }
-form.fd={student:'An',className:'A1',questionBank:'hsk3',exerciseId:'hsk1-2-1',bankPassword:'NgaZhu1133'};await submit();assert.match($('#bank-error').textContent,/对应的练习/);assert.equal(loginEvents.length,7);
+form.fd={student:'An',className:'A1',questionBank:'hsk3',exerciseId:'hsk1-2-1',bankPassword:'NgaZhu1133'};await submit();assert.match($('#bank-error').textContent,/对应的练习/);assert.equal(loginEvents.length,6);
 const file={size:100,text:async()=>JSON.stringify(changed.exercise)},event={target:{files:[file],value:'file'}};
 await $('#import').onchange(event);assert.match($('#teacher-status').textContent,/先完成教师验证/);assert.equal(store.draftCount(),0);
 $('#user-role').value='teacher';$('#user-role').handlers.change();assert.equal($('#teacher-login').hidden,false);assert.equal($('#student-entry').hidden,true);

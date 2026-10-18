@@ -28,6 +28,10 @@ export function createLoginCounter({fetchFn=globalThis.fetch,render=()=>{},base=
    // Mark before sending: retries and concurrent clicks must not submit a second increment.
    loggedIn.add(role);return update('hit');
   },
+  // Each call represents a separately completed, password-authenticated entry.
+  recordPracticeEntry(mode){
+   return ['quiz','writing','pictures'].includes(mode)?update('hit'):Promise.resolve(value);
+  },
   resetSession(){loggedIn.clear();},
   current:()=>value
  };
@@ -41,7 +45,7 @@ if(typeof document!=='undefined'){
   else{
    live=createLoginCounter({render:({value,error})=>{
     total.textContent=value===null?(error?'暂不可用':'…'):value.toLocaleString('zh-CN');
-    container.title=error?'全站计数暂未同步；不影响答题。':'全站累计：学生成功进入练习或教师验证通过计1次；刷新不计数。';
+    container.title=error?'全站计数暂未同步；不影响答题。':'全站累计：输入有效题库密码后，每次成功进入答题、写字或看图识词计1次；教师验证通过计1次。';
     container.dataset.state=error?'unavailable':'ready';
    }});
    live.load();
@@ -52,3 +56,5 @@ if(typeof document!=='undefined'){
  }
 }
 export function recordLogin(role){return live?live.recordLogin(role):Promise.resolve(null);}
+
+export function recordPracticeEntry(mode){return live?live.recordPracticeEntry(mode):Promise.resolve(null);}

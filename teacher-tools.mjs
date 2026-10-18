@@ -1,4 +1,4 @@
-import {recordLogin} from './visit-counter.mjs?v=visits15';
+import {recordLogin} from './visit-counter.mjs?v=visits16';
 import {isTeacherPassword} from './teacher-auth.mjs?v=visits15';
 import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=hsk4-40';
 import {validate} from './grading.mjs';

@@ -4,7 +4,7 @@ import {validatePictureCatalog,pictureOptions,pictureProgress,createPictureFeedb
 import {createWordAudio} from './picture-words-audio.mjs?v=objects2';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=selector=>document.querySelector(selector);
-export function initPictureWords({onEnter=()=>{}}={}){
+export function initPictureWords({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
  const root=$('#picture-practice'),entry=$('#practice-pictures');if(!root||!entry)return;
  let catalog,category,index=0,version=0,loading=false,feedback,nodes,currentState={view:'categories'},scrollTimer=null;
  const make=(tag,text,cls)=>{const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(cls)node.className=cls;return node;};
@@ -65,7 +65,7 @@ export function initPictureWords({onEnter=()=>{}}={}){
   if(resume?.outcome==='complete'){selected=buttons.find(b=>b.dataset.word===word.id);feedback.settle();}
  }
  async function enter(){
-  if(loading)return;loading=true;entry.disabled=true;const token=version;
+  if(loading||!root.hidden)return;loading=true;entry.disabled=true;const token=version;
   try{
    // Reuse writing practice's exact password policy: any existing course password.
    resolveWritingLevel($('#bank-password').value,$('#question-bank').value);
@@ -73,7 +73,7 @@ export function initPictureWords({onEnter=()=>{}}={}){
    if(token!==version)return;
    onEnter();stopFeedback();document.dispatchEvent(new CustomEvent('practice:enter',{detail:'pictures'}));
    $('#bank-error').textContent='';$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;const writing=$('#writing-practice');if(writing)writing.hidden=true;
-   root.hidden=false;const previous=loadPictureState(catalog);if(previous.view==='question'){category=catalog.categories.find(c=>c.id===previous.categoryId);show(previous.index,previous);}else categories();root.focus({preventScroll:true});root.scrollIntoView({behavior:'instant'});const shown=version;if(Number.isFinite(previous.offset))requestAnimationFrame(()=>{if(shown===version&&!root.hidden)window.scrollBy({top:root.getBoundingClientRect().top+previous.offset,behavior:'instant'});});
+   root.hidden=false;const previous=loadPictureState(catalog);if(previous.view==='question'){category=catalog.categories.find(c=>c.id===previous.categoryId);show(previous.index,previous);}else categories();root.focus({preventScroll:true});root.scrollIntoView({behavior:'instant'});const shown=version;if(Number.isFinite(previous.offset))requestAnimationFrame(()=>{if(shown===version&&!root.hidden)window.scrollBy({top:root.getBoundingClientRect().top+previous.offset,behavior:'instant'});});onAuthenticatedEntry();
   }catch(error){if(token===version){$('#bank-error').textContent=error.message;$('#bank-password').focus();}}
   finally{loading=false;entry.disabled=false;}
  }

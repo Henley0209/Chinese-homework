@@ -1,13 +1,13 @@
-import {initPictureWords} from './picture-words.mjs?v=vocab1274';
+import {initPictureWords} from './picture-words.mjs?v=visits16';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';
 import {studentExercises} from './exercise-options.mjs?v=writing33';
-import {initWriting} from './writing-practice.mjs?v=fruits1';
+import {initWriting} from './writing-practice.mjs?v=visits16';
 import {showFeedback,stopFeedback} from './result-feedback.mjs?v=writing21';
-import {recordLogin} from './visit-counter.mjs?v=visits15';
+import {recordPracticeEntry} from './visit-counter.mjs?v=visits16';
 import {validate,grade,normalize} from './grading.mjs';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
 import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {teacherActive} from './teacher-tools.mjs?v=hsk4-40';
+import {teacherActive} from './teacher-tools.mjs?v=visits16';
 const $=s=>document.querySelector(s);let data,student,submitted=false,intro=null,starting=false,activeProgress=null,restoring=false;const notice=t=>$('#notice').textContent=t;
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function install(value){if(typeof window!=='undefined')document.dispatchEvent(new CustomEvent('practice:enter',{detail:'quiz'}));stopFeedback();data=validate(value);$('#start').disabled=false;$('#exercise').hidden=true;$('#result').hidden=true;$('#welcome').hidden=false;submitted=false;notice('');}
@@ -62,7 +62,7 @@ $('#identity').addEventListener('submit',async e=>{
 
  saveCurrentProgress();install(selected,route.label);student=person;activeProgress=progressKey(person.name,route.id,route.id==='intro'?'intro':String(fd.get('exerciseId')||''));const saved=loadProgress(activeProgress,data);notice('');render();$('#bank-password').value='';
  $('#welcome').hidden=true;$('#exercise').hidden=false;$('#student-label').textContent=student.name+' · '+route.label;
- recordLogin('student');
+ if(route.id!=='intro')void recordPracticeEntry('quiz');
  if(saved)restoreCurrentProgress(saved);else{$('#exercise').scrollIntoView({behavior:'instant'});saveCurrentProgress();}
  }catch(err){error.textContent='无法开始答题：'+err.message;}finally{starting=false;$('#start').disabled=false;$('#bank-loading').textContent='';}
 });
@@ -71,5 +71,5 @@ $('#quiz').addEventListener('submit',e=>{e.preventDefault();if(submitted)return;
 try{await loadCatalog();intro=introExercise();syncExercises();install(intro);}catch(e){notice('练习题库加载失败：'+e.message);}
 
 
-initWriting();
-initPictureWords({onEnter:saveCurrentProgress});
+initWriting({onAuthenticatedEntry:()=>{void recordPracticeEntry('writing');}});
+initPictureWords({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{void recordPracticeEntry('pictures');}});

@@ -5,7 +5,7 @@ import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=s=>document.querySelector(s);
 export function progressIndex(value,length){const n=Number(value);return Number.isInteger(n)&&n>=0&&n<length?n:0;}
 export function pronunciationText(entry,index){return entry.pinyin[index%entry.pinyin.length];}
-export function initWriting(){
+export function initWriting({onAuthenticatedEntry=()=>{}}={}){
  const root=$('#writing-practice'),entryButton=$('#practice-writing'),shortcut=$('#writing-shortcut');if(!root||!entryButton)return;
  const strokeCache=new Map();
  let ink,needsAudioGesture=false;
@@ -58,9 +58,10 @@ export function initWriting(){
   await show(progressIndex(saved,entries.length));
  }
  async function enter(password){
+  if(entryButton.disabled||!root.hidden)return;
   const level=resolveWritingLevel(password,$('#question-bank').value);pronunciation.unlock();entryButton.disabled=true;if(shortcut)shortcut.disabled=true;
   try{if(!catalog){const response=await fetch('writing-catalog.json');if(!response.ok)throw Error('字库加载失败');catalog=await response.json();try{const migration=await fetch('writing-legacy-progress.json');if(migration.ok)legacy=await migration.json();}catch{}}
-   document.dispatchEvent(new CustomEvent('practice:enter',{detail:'writing'}));stopFeedback();$('#bank-error').textContent='';$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;root.hidden=false;await switchLevel(level);root.focus();root.scrollIntoView({behavior:'smooth'});
+   document.dispatchEvent(new CustomEvent('practice:enter',{detail:'writing'}));stopFeedback();$('#bank-error').textContent='';$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;root.hidden=false;await switchLevel(level);root.focus();root.scrollIntoView({behavior:'smooth'});onAuthenticatedEntry();
   }finally{entryButton.disabled=false;if(shortcut)shortcut.disabled=false;}
  }
  let accessDialog;

@@ -19,3 +19,13 @@ const invalid=createLoginCounter({fetchFn:async()=>({ok:true,json:async()=>({val
 let finishRead;const race=createLoginCounter({fetchFn:(url,options)=>options.method==='GET'?new Promise(r=>finishRead=r):Promise.resolve({ok:true,json:async()=>({value:8})})});
 const pending=race.load();await race.recordLogin('student');finishRead({ok:true,json:async()=>({value:7})});await pending;assert.equal(race.current(),8);
 console.log('通过：成功登录+1、并发/重复去重、刷新只读、切换角色后的新登录、模拟手机电脑共享总数、断网与无效数据处理、请求不含姓名密码、慢读取不覆盖新计数。');
+
+let practiceTotal=0;const practice=createLoginCounter({fetchFn:async(url,options)=>{if(options.method==='POST')practiceTotal++;return {ok:true,json:async()=>({value:practiceTotal})};}});
+await practice.load();assert.equal(practiceTotal,0);
+for(const mode of ['writing','pictures','quiz','writing','pictures','quiz'])await practice.recordPracticeEntry(mode);
+assert.equal(practiceTotal,6);await practice.load();assert.equal(practiceTotal,6);
+await practice.recordPracticeEntry('invalid');assert.equal(practiceTotal,6);
+let failedEntries=0;const failedPractice=createLoginCounter({fetchFn:async()=>{failedEntries++;throw Error('offline');}});
+await failedPractice.recordPracticeEntry('writing');assert.equal(failedEntries,1);
+await failedPractice.recordPracticeEntry('writing');assert.equal(failedEntries,2);
+console.log('通过：答题、写字、看图识词每次成功进入均可独立加1，同模式再次进入不被角色去重拦截，刷新只读，统计失败不自动重复提交。');

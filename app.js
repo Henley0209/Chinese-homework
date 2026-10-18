@@ -1,3 +1,4 @@
+import './password-visibility.mjs?v=password17';
 import {initPictureWords} from './picture-words.mjs?v=visits16';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';
 import {studentExercises} from './exercise-options.mjs?v=writing33';

@@ -1,4 +1,4 @@
-import {initQuizMusic} from './quiz-music.mjs?v=music19';
+import {initQuizMusic} from './quiz-music.mjs?v=music20';
 import './password-visibility.mjs?v=password17';
 import {initPictureWords} from './picture-words.mjs?v=visits16';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';

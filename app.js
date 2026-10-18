@@ -1,6 +1,7 @@
+import {initReading} from './reading-practice.mjs?v=reading1';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';
 import {studentExercises} from './exercise-options.mjs?v=writing33';
-import {initWriting} from './writing-practice.mjs?v=writing38';
+import {initWriting} from './writing-practice.mjs?v=reading1';
 import {showFeedback,stopFeedback} from './result-feedback.mjs?v=writing21';
 import {recordLogin} from './visit-counter.mjs?v=visits15';
 import {validate,grade,normalize} from './grading.mjs';
@@ -9,7 +10,7 @@ import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './e
 import {teacherActive} from './teacher-tools.mjs?v=hsk4-40';
 const $=s=>document.querySelector(s);let data,student,submitted=false,intro=null,starting=false,activeProgress=null,restoring=false;const notice=t=>$('#notice').textContent=t;
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
-function install(value){stopFeedback();data=validate(value);$('#start').disabled=false;$('#exercise').hidden=true;$('#result').hidden=true;$('#welcome').hidden=false;submitted=false;notice('');}
+function install(value){if(typeof window!=='undefined')document.dispatchEvent(new CustomEvent('practice:enter',{detail:'quiz'}));stopFeedback();data=validate(value);$('#start').disabled=false;$('#exercise').hidden=true;$('#result').hidden=true;$('#welcome').hidden=false;submitted=false;notice('');}
 function syncExercises(){
  const select=$('#exercise-select'),previous=select.value,items=studentExercises(listExercises($('#question-bank').value));select.replaceChildren();
  for(const e of items){const option=el('option',e.exercise.title+(e.draft?'（本机草稿）':''));option.value=e.id;select.append(option);}
@@ -71,3 +72,4 @@ try{await loadCatalog();intro=introExercise();syncExercises();install(intro);}ca
 
 
 initWriting();
+initReading({onEnter:saveCurrentProgress,isTeacher:teacherActive});

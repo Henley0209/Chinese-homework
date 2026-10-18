@@ -60,7 +60,7 @@ export function initWriting(){
  async function enter(password){
   const level=resolveWritingLevel(password,$('#question-bank').value);pronunciation.unlock();entryButton.disabled=true;if(shortcut)shortcut.disabled=true;
   try{if(!catalog){const response=await fetch('writing-catalog.json');if(!response.ok)throw Error('字库加载失败');catalog=await response.json();try{const migration=await fetch('writing-legacy-progress.json');if(migration.ok)legacy=await migration.json();}catch{}}
-   stopFeedback();$('#bank-error').textContent='';$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;root.hidden=false;await switchLevel(level);root.focus();root.scrollIntoView({behavior:'smooth'});
+   document.dispatchEvent(new CustomEvent('practice:enter',{detail:'writing'}));stopFeedback();$('#bank-error').textContent='';$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;root.hidden=false;await switchLevel(level);root.focus();root.scrollIntoView({behavior:'smooth'});
   }finally{entryButton.disabled=false;if(shortcut)shortcut.disabled=false;}
  }
  let accessDialog;
@@ -77,6 +77,7 @@ export function initWriting(){
  // state intact across back/forward cache and resume immediately on return.
  document.addEventListener('pointerdown',()=>{if(!root.hidden&&needsAudioGesture){pronunciation.unlock();void speak();}},{passive:true});
  document.addEventListener('keydown',()=>{if(!root.hidden&&needsAudioGesture){pronunciation.unlock();void speak();}});
+ document.addEventListener('practice:enter',event=>{if(event.detail!=='writing'){cancel();root.hidden=true;}});
  window.addEventListener('pagehide',()=>pronunciation.stop());
  window.addEventListener('pageshow',()=>{if(!root.hidden)void speak();});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)pronunciation.stop();else if(!root.hidden)void speak();});

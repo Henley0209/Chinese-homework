@@ -17,7 +17,9 @@ function shuffle(items,random){
 }
 export function pictureOptions(category,index,random=Math.random){
  const answer=category.words[index];if(!answer||category.words.length<4)throw Error('没有足够的同类选项。');
- return shuffle([answer,...shuffle(category.words.filter(word=>word.id!==answer.id),random).slice(0,3)],random);
+ const candidates=category.words.filter(word=>word.id!==answer.id&&(!answer.contrastGroup||word.contrastGroup!==answer.contrastGroup));
+ if(candidates.length<3)throw Error('没有足够的同类选项。');
+ return shuffle([answer,...shuffle(candidates,random).slice(0,3)],random);
 }
 export function pictureProgress(value,length){const index=Number(value);return Number.isInteger(index)&&index>=0&&index<length?index:0;}
 export function createPictureFeedback({onChange=()=>{},onAdvance=()=>{},schedule=setTimeout,unschedule=clearTimeout}={}){

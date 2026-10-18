@@ -12131,6 +12131,3345 @@
           }
         }
       ]
+    },
+    {
+      "id": "alcohol",
+      "name": "酒",
+      "vietnamese": "Đồ uống có cồn",
+      "words": [
+        {
+          "id": "alcohol-1-01",
+          "chinese": "白酒",
+          "pinyin": "bái jiǔ",
+          "vietnamese": "Rượu trắng Trung Quốc",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 0
+          },
+          "contrastGroup": "clear-spirits"
+        },
+        {
+          "id": "alcohol-1-02",
+          "chinese": "黄酒",
+          "pinyin": "huáng jiǔ",
+          "vietnamese": "Rượu gạo vàng",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 1
+          }
+        },
+        {
+          "id": "alcohol-1-03",
+          "chinese": "米酒",
+          "pinyin": "mǐ jiǔ",
+          "vietnamese": "Rượu gạo",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 2
+          }
+        },
+        {
+          "id": "alcohol-1-04",
+          "chinese": "清酒",
+          "pinyin": "qīng jiǔ",
+          "vietnamese": "Rượu sake",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 3
+          },
+          "contrastGroup": "clear-spirits"
+        },
+        {
+          "id": "alcohol-1-05",
+          "chinese": "烧酒",
+          "pinyin": "shāo jiǔ",
+          "vietnamese": "Rượu soju",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 4
+          },
+          "contrastGroup": "clear-spirits"
+        },
+        {
+          "id": "alcohol-1-06",
+          "chinese": "伏特加",
+          "pinyin": "fú tè jiā",
+          "vietnamese": "Vodka",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 5
+          },
+          "contrastGroup": "clear-spirits"
+        },
+        {
+          "id": "alcohol-1-07",
+          "chinese": "金酒",
+          "pinyin": "jīn jiǔ",
+          "vietnamese": "Gin",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 6
+          },
+          "contrastGroup": "clear-spirits"
+        },
+        {
+          "id": "alcohol-1-08",
+          "chinese": "朗姆酒",
+          "pinyin": "lǎng mǔ jiǔ",
+          "vietnamese": "Rum",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 7
+          },
+          "contrastGroup": "amber-spirits"
+        },
+        {
+          "id": "alcohol-1-09",
+          "chinese": "龙舌兰酒",
+          "pinyin": "lóng shé lán jiǔ",
+          "vietnamese": "Tequila",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 8
+          }
+        },
+        {
+          "id": "alcohol-1-10",
+          "chinese": "威士忌",
+          "pinyin": "wēi shì jì",
+          "vietnamese": "Whisky",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 9
+          },
+          "contrastGroup": "amber-spirits"
+        },
+        {
+          "id": "alcohol-1-11",
+          "chinese": "白兰地",
+          "pinyin": "bái lán dì",
+          "vietnamese": "Brandy",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 10
+          },
+          "contrastGroup": "amber-spirits"
+        },
+        {
+          "id": "alcohol-1-12",
+          "chinese": "干邑",
+          "pinyin": "gān yì",
+          "vietnamese": "Cognac",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 11
+          },
+          "contrastGroup": "amber-spirits"
+        },
+        {
+          "id": "alcohol-1-13",
+          "chinese": "红葡萄酒",
+          "pinyin": "hóng pú táo jiǔ",
+          "vietnamese": "Vang đỏ",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 12
+          },
+          "contrastGroup": "wines"
+        },
+        {
+          "id": "alcohol-1-14",
+          "chinese": "白葡萄酒",
+          "pinyin": "bái pú táo jiǔ",
+          "vietnamese": "Vang trắng",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 13
+          },
+          "contrastGroup": "wines"
+        },
+        {
+          "id": "alcohol-1-15",
+          "chinese": "桃红葡萄酒",
+          "pinyin": "táo hóng pú táo jiǔ",
+          "vietnamese": "Vang hồng",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 14
+          },
+          "contrastGroup": "wines"
+        },
+        {
+          "id": "alcohol-1-16",
+          "chinese": "香槟",
+          "pinyin": "xiāng bīn",
+          "vietnamese": "Champagne",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 15
+          },
+          "contrastGroup": "wines"
+        },
+        {
+          "id": "alcohol-1-17",
+          "chinese": "起泡酒",
+          "pinyin": "qǐ pào jiǔ",
+          "vietnamese": "Vang sủi",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 16
+          },
+          "contrastGroup": "wines"
+        },
+        {
+          "id": "alcohol-1-18",
+          "chinese": "冰酒",
+          "pinyin": "bīng jiǔ",
+          "vietnamese": "Vang băng",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 17
+          },
+          "contrastGroup": "wines"
+        },
+        {
+          "id": "alcohol-1-19",
+          "chinese": "波特酒",
+          "pinyin": "bō tè jiǔ",
+          "vietnamese": "Rượu port",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 18
+          },
+          "contrastGroup": "wines"
+        },
+        {
+          "id": "alcohol-1-20",
+          "chinese": "雪莉酒",
+          "pinyin": "xuě lì jiǔ",
+          "vietnamese": "Rượu sherry",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 19
+          },
+          "contrastGroup": "wines"
+        },
+        {
+          "id": "alcohol-1-21",
+          "chinese": "苦艾酒",
+          "pinyin": "kǔ ài jiǔ",
+          "vietnamese": "Absinthe",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 20
+          }
+        },
+        {
+          "id": "alcohol-1-22",
+          "chinese": "味美思",
+          "pinyin": "wèi měi sī",
+          "vietnamese": "Vermouth",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 21
+          }
+        },
+        {
+          "id": "alcohol-1-23",
+          "chinese": "梅酒",
+          "pinyin": "méi jiǔ",
+          "vietnamese": "Rượu mơ Nhật",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 22
+          }
+        },
+        {
+          "id": "alcohol-1-24",
+          "chinese": "荔枝酒",
+          "pinyin": "lì zhī jiǔ",
+          "vietnamese": "Rượu vải",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 23
+          }
+        },
+        {
+          "id": "alcohol-1-25",
+          "chinese": "杨梅酒",
+          "pinyin": "yáng méi jiǔ",
+          "vietnamese": "Rượu thanh mai",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 24
+          }
+        },
+        {
+          "id": "alcohol-1-26",
+          "chinese": "桑葚酒",
+          "pinyin": "sāng shèn jiǔ",
+          "vietnamese": "Rượu dâu tằm",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 25
+          }
+        },
+        {
+          "id": "alcohol-1-27",
+          "chinese": "苹果酒",
+          "pinyin": "píng guǒ jiǔ",
+          "vietnamese": "Rượu táo cider",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 26
+          }
+        },
+        {
+          "id": "alcohol-1-28",
+          "chinese": "梨酒",
+          "pinyin": "lí jiǔ",
+          "vietnamese": "Rượu lê",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 27
+          }
+        },
+        {
+          "id": "alcohol-1-29",
+          "chinese": "椰子酒",
+          "pinyin": "yē zi jiǔ",
+          "vietnamese": "Rượu dừa",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 28
+          }
+        },
+        {
+          "id": "alcohol-1-30",
+          "chinese": "蜂蜜酒",
+          "pinyin": "fēng mì jiǔ",
+          "vietnamese": "Rượu mật ong",
+          "image": "assets/picture-words/alcohol-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 29
+          }
+        },
+        {
+          "id": "alcohol-2-01",
+          "chinese": "淡色啤酒",
+          "pinyin": "dàn sè pí jiǔ",
+          "vietnamese": "Bia vàng",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 0
+          },
+          "contrastGroup": "beers"
+        },
+        {
+          "id": "alcohol-2-02",
+          "chinese": "黑啤酒",
+          "pinyin": "hēi pí jiǔ",
+          "vietnamese": "Bia đen",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 1
+          },
+          "contrastGroup": "beers"
+        },
+        {
+          "id": "alcohol-2-03",
+          "chinese": "小麦啤酒",
+          "pinyin": "xiǎo mài pí jiǔ",
+          "vietnamese": "Bia lúa mì",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 2
+          },
+          "contrastGroup": "beers"
+        },
+        {
+          "id": "alcohol-2-04",
+          "chinese": "红啤酒",
+          "pinyin": "hóng pí jiǔ",
+          "vietnamese": "Bia đỏ",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 3
+          },
+          "contrastGroup": "beers"
+        },
+        {
+          "id": "alcohol-2-05",
+          "chinese": "水果啤酒",
+          "pinyin": "shuǐ guǒ pí jiǔ",
+          "vietnamese": "Bia trái cây",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 4
+          },
+          "contrastGroup": "beers"
+        },
+        {
+          "id": "alcohol-2-06",
+          "chinese": "生啤酒",
+          "pinyin": "shēng pí jiǔ",
+          "vietnamese": "Bia tươi",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 5
+          },
+          "contrastGroup": "beers"
+        },
+        {
+          "id": "alcohol-2-07",
+          "chinese": "莫吉托",
+          "pinyin": "mò jí tuō",
+          "vietnamese": "Mojito",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 6
+          }
+        },
+        {
+          "id": "alcohol-2-08",
+          "chinese": "玛格丽特",
+          "pinyin": "mǎ gé lì tè",
+          "vietnamese": "Margarita",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 7
+          }
+        },
+        {
+          "id": "alcohol-2-09",
+          "chinese": "马提尼",
+          "pinyin": "mǎ tí ní",
+          "vietnamese": "Martini",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 8
+          }
+        },
+        {
+          "id": "alcohol-2-10",
+          "chinese": "曼哈顿",
+          "pinyin": "màn hā dùn",
+          "vietnamese": "Manhattan",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 9
+          }
+        },
+        {
+          "id": "alcohol-2-11",
+          "chinese": "长岛冰茶",
+          "pinyin": "cháng dǎo bīng chá",
+          "vietnamese": "Long Island iced tea",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 10
+          }
+        },
+        {
+          "id": "alcohol-2-12",
+          "chinese": "血腥玛丽",
+          "pinyin": "xuè xīng mǎ lì",
+          "vietnamese": "Bloody Mary",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 11
+          }
+        },
+        {
+          "id": "alcohol-2-13",
+          "chinese": "金汤力",
+          "pinyin": "jīn tāng lì",
+          "vietnamese": "Gin tonic",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 12
+          }
+        },
+        {
+          "id": "alcohol-2-14",
+          "chinese": "螺丝起子",
+          "pinyin": "luó sī qǐ zi",
+          "vietnamese": "Screwdriver",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 13
+          }
+        },
+        {
+          "id": "alcohol-2-15",
+          "chinese": "自由古巴",
+          "pinyin": "zì yóu gǔ bā",
+          "vietnamese": "Cuba libre",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 14
+          }
+        },
+        {
+          "id": "alcohol-2-16",
+          "chinese": "椰林飘香",
+          "pinyin": "yē lín piāo xiāng",
+          "vietnamese": "Piña colada",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 15
+          }
+        },
+        {
+          "id": "alcohol-2-17",
+          "chinese": "蓝色夏威夷",
+          "pinyin": "lán sè xià wēi yí",
+          "vietnamese": "Blue Hawaii",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 16
+          }
+        },
+        {
+          "id": "alcohol-2-18",
+          "chinese": "龙舌兰日出",
+          "pinyin": "lóng shé lán rì chū",
+          "vietnamese": "Tequila sunrise",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 17
+          }
+        },
+        {
+          "id": "alcohol-2-19",
+          "chinese": "大都会",
+          "pinyin": "dà dū huì",
+          "vietnamese": "Cosmopolitan",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 18
+          }
+        },
+        {
+          "id": "alcohol-2-20",
+          "chinese": "白俄罗斯",
+          "pinyin": "bái é luó sī",
+          "vietnamese": "White Russian",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 19
+          }
+        },
+        {
+          "id": "alcohol-2-21",
+          "chinese": "黑俄罗斯",
+          "pinyin": "hēi é luó sī",
+          "vietnamese": "Black Russian",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 20
+          }
+        },
+        {
+          "id": "alcohol-2-22",
+          "chinese": "爱尔兰咖啡",
+          "pinyin": "ài ěr lán kā fēi",
+          "vietnamese": "Cà phê Ireland",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 21
+          }
+        },
+        {
+          "id": "alcohol-2-23",
+          "chinese": "热红酒",
+          "pinyin": "rè hóng jiǔ",
+          "vietnamese": "Vang nóng",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 22
+          }
+        },
+        {
+          "id": "alcohol-2-24",
+          "chinese": "桑格利亚",
+          "pinyin": "sāng gé lì yà",
+          "vietnamese": "Sangria",
+          "image": "assets/picture-words/alcohol-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "饮料",
+      "vietnamese": "Đồ uống",
+      "words": [
+        {
+          "id": "drinks-1-01",
+          "chinese": "矿泉水",
+          "pinyin": "kuàng quán shuǐ",
+          "vietnamese": "Nước khoáng",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 0
+          },
+          "contrastGroup": "water"
+        },
+        {
+          "id": "drinks-1-02",
+          "chinese": "苏打水",
+          "pinyin": "sū dá shuǐ",
+          "vietnamese": "Nước soda",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 1
+          },
+          "contrastGroup": "water"
+        },
+        {
+          "id": "drinks-1-03",
+          "chinese": "气泡水",
+          "pinyin": "qì pào shuǐ",
+          "vietnamese": "Nước có ga",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 2
+          },
+          "contrastGroup": "water"
+        },
+        {
+          "id": "drinks-1-04",
+          "chinese": "柠檬水",
+          "pinyin": "níng méng shuǐ",
+          "vietnamese": "Nước chanh vàng",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 3
+          }
+        },
+        {
+          "id": "drinks-1-05",
+          "chinese": "橙汁",
+          "pinyin": "chéng zhī",
+          "vietnamese": "Nước cam",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 4
+          }
+        },
+        {
+          "id": "drinks-1-06",
+          "chinese": "苹果汁",
+          "pinyin": "píng guǒ zhī",
+          "vietnamese": "Nước ép táo",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 5
+          }
+        },
+        {
+          "id": "drinks-1-07",
+          "chinese": "葡萄汁",
+          "pinyin": "pú táo zhī",
+          "vietnamese": "Nước ép nho",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 6
+          }
+        },
+        {
+          "id": "drinks-1-08",
+          "chinese": "西瓜汁",
+          "pinyin": "xī guā zhī",
+          "vietnamese": "Nước ép dưa hấu",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 7
+          }
+        },
+        {
+          "id": "drinks-1-09",
+          "chinese": "芒果汁",
+          "pinyin": "máng guǒ zhī",
+          "vietnamese": "Nước ép xoài",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 8
+          }
+        },
+        {
+          "id": "drinks-1-10",
+          "chinese": "菠萝汁",
+          "pinyin": "bō luó zhī",
+          "vietnamese": "Nước ép dứa",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 9
+          }
+        },
+        {
+          "id": "drinks-1-11",
+          "chinese": "番石榴汁",
+          "pinyin": "fān shí liú zhī",
+          "vietnamese": "Nước ép ổi",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 10
+          }
+        },
+        {
+          "id": "drinks-1-12",
+          "chinese": "百香果汁",
+          "pinyin": "bǎi xiāng guǒ zhī",
+          "vietnamese": "Nước chanh dây",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 11
+          }
+        },
+        {
+          "id": "drinks-1-13",
+          "chinese": "椰子水",
+          "pinyin": "yē zi shuǐ",
+          "vietnamese": "Nước dừa",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 12
+          }
+        },
+        {
+          "id": "drinks-1-14",
+          "chinese": "甘蔗汁",
+          "pinyin": "gān zhè zhī",
+          "vietnamese": "Nước mía",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 13
+          }
+        },
+        {
+          "id": "drinks-1-15",
+          "chinese": "番茄汁",
+          "pinyin": "fān qié zhī",
+          "vietnamese": "Nước ép cà chua",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 14
+          }
+        },
+        {
+          "id": "drinks-1-16",
+          "chinese": "胡萝卜汁",
+          "pinyin": "hú luó bo zhī",
+          "vietnamese": "Nước ép cà rốt",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 15
+          }
+        },
+        {
+          "id": "drinks-1-17",
+          "chinese": "石榴汁",
+          "pinyin": "shí liú zhī",
+          "vietnamese": "Nước ép lựu",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 16
+          }
+        },
+        {
+          "id": "drinks-1-18",
+          "chinese": "蓝莓汁",
+          "pinyin": "lán méi zhī",
+          "vietnamese": "Nước ép việt quất",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 17
+          }
+        },
+        {
+          "id": "drinks-1-19",
+          "chinese": "酸梅汤",
+          "pinyin": "suān méi tāng",
+          "vietnamese": "Nước ô mai",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 18
+          }
+        },
+        {
+          "id": "drinks-1-20",
+          "chinese": "绿豆汤",
+          "pinyin": "lǜ dòu tāng",
+          "vietnamese": "Nước đậu xanh",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 19
+          }
+        },
+        {
+          "id": "drinks-1-21",
+          "chinese": "豆浆",
+          "pinyin": "dòu jiāng",
+          "vietnamese": "Sữa đậu nành",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 20
+          },
+          "contrastGroup": "milk"
+        },
+        {
+          "id": "drinks-1-22",
+          "chinese": "牛奶",
+          "pinyin": "niú nǎi",
+          "vietnamese": "Sữa bò",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 21
+          },
+          "contrastGroup": "milk"
+        },
+        {
+          "id": "drinks-1-23",
+          "chinese": "酸奶",
+          "pinyin": "suān nǎi",
+          "vietnamese": "Sữa chua",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 22
+          }
+        },
+        {
+          "id": "drinks-1-24",
+          "chinese": "燕麦奶",
+          "pinyin": "yàn mài nǎi",
+          "vietnamese": "Sữa yến mạch",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 23
+          },
+          "contrastGroup": "milk"
+        },
+        {
+          "id": "drinks-1-25",
+          "chinese": "杏仁奶",
+          "pinyin": "xìng rén nǎi",
+          "vietnamese": "Sữa hạnh nhân",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 24
+          },
+          "contrastGroup": "milk"
+        },
+        {
+          "id": "drinks-1-26",
+          "chinese": "椰奶",
+          "pinyin": "yē nǎi",
+          "vietnamese": "Sữa dừa",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 25
+          },
+          "contrastGroup": "milk"
+        },
+        {
+          "id": "drinks-1-27",
+          "chinese": "可乐",
+          "pinyin": "kě lè",
+          "vietnamese": "Cola",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 26
+          }
+        },
+        {
+          "id": "drinks-1-28",
+          "chinese": "柠檬汽水",
+          "pinyin": "níng méng qì shuǐ",
+          "vietnamese": "Nước ngọt chanh",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 27
+          }
+        },
+        {
+          "id": "drinks-1-29",
+          "chinese": "橙味汽水",
+          "pinyin": "chéng wèi qì shuǐ",
+          "vietnamese": "Nước ngọt vị cam",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 28
+          }
+        },
+        {
+          "id": "drinks-1-30",
+          "chinese": "能量饮料",
+          "pinyin": "néng liàng yǐn liào",
+          "vietnamese": "Nước tăng lực",
+          "image": "assets/picture-words/drinks-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 29
+          }
+        },
+        {
+          "id": "drinks-2-01",
+          "chinese": "运动饮料",
+          "pinyin": "yùn dòng yǐn liào",
+          "vietnamese": "Nước uống thể thao",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 0
+          }
+        },
+        {
+          "id": "drinks-2-02",
+          "chinese": "电解质水",
+          "pinyin": "diàn jiě zhì shuǐ",
+          "vietnamese": "Nước điện giải",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 1
+          },
+          "contrastGroup": "water"
+        },
+        {
+          "id": "drinks-2-03",
+          "chinese": "红茶",
+          "pinyin": "hóng chá",
+          "vietnamese": "Trà đen",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 2
+          }
+        },
+        {
+          "id": "drinks-2-04",
+          "chinese": "绿茶",
+          "pinyin": "lǜ chá",
+          "vietnamese": "Trà xanh",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 3
+          }
+        },
+        {
+          "id": "drinks-2-05",
+          "chinese": "乌龙茶",
+          "pinyin": "wū lóng chá",
+          "vietnamese": "Trà ô long",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 4
+          }
+        },
+        {
+          "id": "drinks-2-06",
+          "chinese": "茉莉花茶",
+          "pinyin": "mò lì huā chá",
+          "vietnamese": "Trà hoa nhài",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 5
+          }
+        },
+        {
+          "id": "drinks-2-07",
+          "chinese": "菊花茶",
+          "pinyin": "jú huā chá",
+          "vietnamese": "Trà hoa cúc",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 6
+          }
+        },
+        {
+          "id": "drinks-2-08",
+          "chinese": "玫瑰花茶",
+          "pinyin": "méi guī huā chá",
+          "vietnamese": "Trà hoa hồng",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 7
+          }
+        },
+        {
+          "id": "drinks-2-09",
+          "chinese": "普洱茶",
+          "pinyin": "pǔ ěr chá",
+          "vietnamese": "Trà Phổ Nhĩ",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 8
+          }
+        },
+        {
+          "id": "drinks-2-10",
+          "chinese": "抹茶",
+          "pinyin": "mǒ chá",
+          "vietnamese": "Matcha",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 9
+          }
+        },
+        {
+          "id": "drinks-2-11",
+          "chinese": "奶茶",
+          "pinyin": "nǎi chá",
+          "vietnamese": "Trà sữa",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 10
+          },
+          "contrastGroup": "milk-tea"
+        },
+        {
+          "id": "drinks-2-12",
+          "chinese": "珍珠奶茶",
+          "pinyin": "zhēn zhū nǎi chá",
+          "vietnamese": "Trà sữa trân châu",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 11
+          },
+          "contrastGroup": "milk-tea"
+        },
+        {
+          "id": "drinks-2-13",
+          "chinese": "柠檬茶",
+          "pinyin": "níng méng chá",
+          "vietnamese": "Trà chanh",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 12
+          }
+        },
+        {
+          "id": "drinks-2-14",
+          "chinese": "桃子茶",
+          "pinyin": "táo zi chá",
+          "vietnamese": "Trà đào",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 13
+          }
+        },
+        {
+          "id": "drinks-2-15",
+          "chinese": "越南滴漏咖啡",
+          "pinyin": "yuè nán dī lòu kā fēi",
+          "vietnamese": "Cà phê phin Việt Nam",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 14
+          }
+        },
+        {
+          "id": "drinks-2-16",
+          "chinese": "美式咖啡",
+          "pinyin": "měi shì kā fēi",
+          "vietnamese": "Cà phê Americano",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 15
+          }
+        },
+        {
+          "id": "drinks-2-17",
+          "chinese": "拿铁咖啡",
+          "pinyin": "ná tiě kā fēi",
+          "vietnamese": "Cà phê latte",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 16
+          }
+        },
+        {
+          "id": "drinks-2-18",
+          "chinese": "卡布奇诺",
+          "pinyin": "kǎ bù qí nuò",
+          "vietnamese": "Cappuccino",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 17
+          }
+        },
+        {
+          "id": "drinks-2-19",
+          "chinese": "浓缩咖啡",
+          "pinyin": "nóng suō kā fēi",
+          "vietnamese": "Espresso",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 18
+          }
+        },
+        {
+          "id": "drinks-2-20",
+          "chinese": "摩卡咖啡",
+          "pinyin": "mó kǎ kā fēi",
+          "vietnamese": "Cà phê mocha",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 19
+          }
+        },
+        {
+          "id": "drinks-2-21",
+          "chinese": "热巧克力",
+          "pinyin": "rè qiǎo kè lì",
+          "vietnamese": "Sô cô la nóng",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 20
+          }
+        },
+        {
+          "id": "drinks-2-22",
+          "chinese": "草莓奶昔",
+          "pinyin": "cǎo méi nǎi xī",
+          "vietnamese": "Sữa lắc dâu",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 21
+          }
+        },
+        {
+          "id": "drinks-2-23",
+          "chinese": "香蕉奶昔",
+          "pinyin": "xiāng jiāo nǎi xī",
+          "vietnamese": "Sữa lắc chuối",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 22
+          }
+        },
+        {
+          "id": "drinks-2-24",
+          "chinese": "牛油果冰沙",
+          "pinyin": "niú yóu guǒ bīng shā",
+          "vietnamese": "Sinh tố bơ",
+          "image": "assets/picture-words/drinks-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "barber",
+      "name": "理发工具",
+      "vietnamese": "Dụng cụ làm tóc",
+      "words": [
+        {
+          "id": "barber-1-01",
+          "chinese": "理发剪刀",
+          "pinyin": "lǐ fà jiǎn dāo",
+          "vietnamese": "Kéo cắt tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 0
+          },
+          "contrastGroup": "hair-shears"
+        },
+        {
+          "id": "barber-1-02",
+          "chinese": "牙剪",
+          "pinyin": "yá jiǎn",
+          "vietnamese": "Kéo tỉa tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 1
+          },
+          "contrastGroup": "hair-shears"
+        },
+        {
+          "id": "barber-1-03",
+          "chinese": "电推剪",
+          "pinyin": "diàn tuī jiǎn",
+          "vietnamese": "Tông đơ cắt tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 2
+          }
+        },
+        {
+          "id": "barber-1-04",
+          "chinese": "修边器",
+          "pinyin": "xiū biān qì",
+          "vietnamese": "Tông đơ viền",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 3
+          }
+        },
+        {
+          "id": "barber-1-05",
+          "chinese": "手动推剪",
+          "pinyin": "shǒu dòng tuī jiǎn",
+          "vietnamese": "Tông đơ cơ",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 4
+          }
+        },
+        {
+          "id": "barber-1-06",
+          "chinese": "剃刀",
+          "pinyin": "tì dāo",
+          "vietnamese": "Dao cạo",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 5
+          }
+        },
+        {
+          "id": "barber-1-07",
+          "chinese": "安全剃须刀",
+          "pinyin": "ān quán tì xū dāo",
+          "vietnamese": "Dao cạo an toàn",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 6
+          }
+        },
+        {
+          "id": "barber-1-08",
+          "chinese": "刀片",
+          "pinyin": "dāo piàn",
+          "vietnamese": "Lưỡi dao cạo",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 7
+          }
+        },
+        {
+          "id": "barber-1-09",
+          "chinese": "剃须刷",
+          "pinyin": "tì xū shuā",
+          "vietnamese": "Chổi cạo râu",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 8
+          }
+        },
+        {
+          "id": "barber-1-10",
+          "chinese": "剃须碗",
+          "pinyin": "tì xū wǎn",
+          "vietnamese": "Bát tạo bọt cạo râu",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 9
+          }
+        },
+        {
+          "id": "barber-1-11",
+          "chinese": "剃须泡沫",
+          "pinyin": "tì xū pào mò",
+          "vietnamese": "Bọt cạo râu",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 10
+          }
+        },
+        {
+          "id": "barber-1-12",
+          "chinese": "须后水",
+          "pinyin": "xū hòu shuǐ",
+          "vietnamese": "Nước sau cạo râu",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 11
+          }
+        },
+        {
+          "id": "barber-1-13",
+          "chinese": "吹风机",
+          "pinyin": "chuī fēng jī",
+          "vietnamese": "Máy sấy tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 12
+          }
+        },
+        {
+          "id": "barber-1-14",
+          "chinese": "烘发帽",
+          "pinyin": "hōng fà mào",
+          "vietnamese": "Mũ sấy tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 13
+          }
+        },
+        {
+          "id": "barber-1-15",
+          "chinese": "烘发机",
+          "pinyin": "hōng fà jī",
+          "vietnamese": "Máy sấy tóc đứng",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 14
+          }
+        },
+        {
+          "id": "barber-1-16",
+          "chinese": "焗油帽",
+          "pinyin": "jú yóu mào",
+          "vietnamese": "Mũ hấp tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 15
+          }
+        },
+        {
+          "id": "barber-1-17",
+          "chinese": "焗油机",
+          "pinyin": "jú yóu jī",
+          "vietnamese": "Máy hấp tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 16
+          }
+        },
+        {
+          "id": "barber-1-18",
+          "chinese": "直发夹",
+          "pinyin": "zhí fà jiā",
+          "vietnamese": "Máy duỗi tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 17
+          },
+          "contrastGroup": "hair-irons"
+        },
+        {
+          "id": "barber-1-19",
+          "chinese": "卷发棒",
+          "pinyin": "juǎn fà bàng",
+          "vietnamese": "Máy uốn tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 18
+          },
+          "contrastGroup": "hair-irons"
+        },
+        {
+          "id": "barber-1-20",
+          "chinese": "蛋卷棒",
+          "pinyin": "dàn juǎn bàng",
+          "vietnamese": "Máy uốn sóng",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 19
+          },
+          "contrastGroup": "hair-irons"
+        },
+        {
+          "id": "barber-1-21",
+          "chinese": "玉米夹",
+          "pinyin": "yù mǐ jiā",
+          "vietnamese": "Máy bấm tóc gợn",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 20
+          },
+          "contrastGroup": "hair-irons"
+        },
+        {
+          "id": "barber-1-22",
+          "chinese": "热风梳",
+          "pinyin": "rè fēng shū",
+          "vietnamese": "Lược sấy tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 21
+          }
+        },
+        {
+          "id": "barber-1-23",
+          "chinese": "电卷梳",
+          "pinyin": "diàn juǎn shū",
+          "vietnamese": "Lược uốn điện",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 22
+          }
+        },
+        {
+          "id": "barber-1-24",
+          "chinese": "气垫梳",
+          "pinyin": "qì diàn shū",
+          "vietnamese": "Lược đệm khí",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 23
+          }
+        },
+        {
+          "id": "barber-1-25",
+          "chinese": "圆滚梳",
+          "pinyin": "yuán gǔn shū",
+          "vietnamese": "Lược tròn",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 24
+          }
+        },
+        {
+          "id": "barber-1-26",
+          "chinese": "尖尾梳",
+          "pinyin": "jiān wěi shū",
+          "vietnamese": "Lược đuôi nhọn",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 25
+          }
+        },
+        {
+          "id": "barber-1-27",
+          "chinese": "宽齿梳",
+          "pinyin": "kuān chǐ shū",
+          "vietnamese": "Lược răng thưa",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 26
+          }
+        },
+        {
+          "id": "barber-1-28",
+          "chinese": "排骨梳",
+          "pinyin": "pái gǔ shū",
+          "vietnamese": "Lược xương cá",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 27
+          }
+        },
+        {
+          "id": "barber-1-29",
+          "chinese": "发夹",
+          "pinyin": "fà jiā",
+          "vietnamese": "Kẹp tóc",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 28
+          },
+          "contrastGroup": "hair-clips"
+        },
+        {
+          "id": "barber-1-30",
+          "chinese": "鸭嘴夹",
+          "pinyin": "yā zuǐ jiā",
+          "vietnamese": "Kẹp mỏ vịt",
+          "image": "assets/picture-words/barber-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 29
+          },
+          "contrastGroup": "hair-clips"
+        },
+        {
+          "id": "barber-2-01",
+          "chinese": "发卡",
+          "pinyin": "fà qiǎ",
+          "vietnamese": "Kẹp tăm",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 0
+          },
+          "contrastGroup": "hair-clips"
+        },
+        {
+          "id": "barber-2-02",
+          "chinese": "皮筋",
+          "pinyin": "pí jīn",
+          "vietnamese": "Dây buộc tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 1
+          }
+        },
+        {
+          "id": "barber-2-03",
+          "chinese": "卷发筒",
+          "pinyin": "juǎn fà tǒng",
+          "vietnamese": "Lô cuốn tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 2
+          }
+        },
+        {
+          "id": "barber-2-04",
+          "chinese": "烫发杠",
+          "pinyin": "tàng fà gàng",
+          "vietnamese": "Trục uốn tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 3
+          }
+        },
+        {
+          "id": "barber-2-05",
+          "chinese": "烫发纸",
+          "pinyin": "tàng fà zhǐ",
+          "vietnamese": "Giấy uốn tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 4
+          }
+        },
+        {
+          "id": "barber-2-06",
+          "chinese": "锡纸",
+          "pinyin": "xī zhǐ",
+          "vietnamese": "Giấy bạc nhuộm tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 5
+          }
+        },
+        {
+          "id": "barber-2-07",
+          "chinese": "染发碗",
+          "pinyin": "rǎn fà wǎn",
+          "vietnamese": "Bát pha thuốc nhuộm",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 6
+          }
+        },
+        {
+          "id": "barber-2-08",
+          "chinese": "染发刷",
+          "pinyin": "rǎn fà shuā",
+          "vietnamese": "Cọ nhuộm tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 7
+          }
+        },
+        {
+          "id": "barber-2-09",
+          "chinese": "染发梳",
+          "pinyin": "rǎn fà shū",
+          "vietnamese": "Lược nhuộm tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 8
+          }
+        },
+        {
+          "id": "barber-2-10",
+          "chinese": "量杯",
+          "pinyin": "liáng bēi",
+          "vietnamese": "Ca đong",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 9
+          }
+        },
+        {
+          "id": "barber-2-11",
+          "chinese": "喷壶",
+          "pinyin": "pēn hú",
+          "vietnamese": "Bình xịt nước",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 10
+          }
+        },
+        {
+          "id": "barber-2-12",
+          "chinese": "洗发水",
+          "pinyin": "xǐ fà shuǐ",
+          "vietnamese": "Dầu gội",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 11
+          }
+        },
+        {
+          "id": "barber-2-13",
+          "chinese": "护发素",
+          "pinyin": "hù fà sù",
+          "vietnamese": "Dầu xả",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 12
+          }
+        },
+        {
+          "id": "barber-2-14",
+          "chinese": "发膜",
+          "pinyin": "fà mó",
+          "vietnamese": "Kem ủ tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 13
+          }
+        },
+        {
+          "id": "barber-2-15",
+          "chinese": "发蜡",
+          "pinyin": "fà là",
+          "vietnamese": "Sáp vuốt tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 14
+          }
+        },
+        {
+          "id": "barber-2-16",
+          "chinese": "发胶",
+          "pinyin": "fà jiāo",
+          "vietnamese": "Keo xịt tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 15
+          }
+        },
+        {
+          "id": "barber-2-17",
+          "chinese": "发泥",
+          "pinyin": "fà ní",
+          "vietnamese": "Sáp đất tạo kiểu",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 16
+          }
+        },
+        {
+          "id": "barber-2-18",
+          "chinese": "摩丝",
+          "pinyin": "mó sī",
+          "vietnamese": "Bọt tạo kiểu tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 17
+          }
+        },
+        {
+          "id": "barber-2-19",
+          "chinese": "理发围布",
+          "pinyin": "lǐ fà wéi bù",
+          "vietnamese": "Áo choàng cắt tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 18
+          }
+        },
+        {
+          "id": "barber-2-20",
+          "chinese": "颈纸",
+          "pinyin": "jǐng zhǐ",
+          "vietnamese": "Giấy quấn cổ",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 19
+          }
+        },
+        {
+          "id": "barber-2-21",
+          "chinese": "扫发刷",
+          "pinyin": "sǎo fà shuā",
+          "vietnamese": "Chổi phủi tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 20
+          }
+        },
+        {
+          "id": "barber-2-22",
+          "chinese": "理发椅",
+          "pinyin": "lǐ fà yǐ",
+          "vietnamese": "Ghế cắt tóc",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 21
+          }
+        },
+        {
+          "id": "barber-2-23",
+          "chinese": "洗头床",
+          "pinyin": "xǐ tóu chuáng",
+          "vietnamese": "Giường gội đầu",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 22
+          }
+        },
+        {
+          "id": "barber-2-24",
+          "chinese": "工具推车",
+          "pinyin": "gōng jù tuī chē",
+          "vietnamese": "Xe đẩy dụng cụ",
+          "image": "assets/picture-words/barber-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "shoe-machinery",
+      "name": "鞋厂设备",
+      "vietnamese": "Thiết bị nhà máy giày",
+      "words": [
+        {
+          "id": "shoe-machinery-1-01",
+          "chinese": "平面裁断机",
+          "pinyin": "píng miàn cái duàn jī",
+          "vietnamese": "Máy chặt mặt phẳng",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 0
+          },
+          "contrastGroup": "shoe-cutters"
+        },
+        {
+          "id": "shoe-machinery-1-02",
+          "chinese": "龙门裁断机",
+          "pinyin": "lóng mén cái duàn jī",
+          "vietnamese": "Máy chặt cầu",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 1
+          },
+          "contrastGroup": "shoe-cutters"
+        },
+        {
+          "id": "shoe-machinery-1-03",
+          "chinese": "摇臂裁断机",
+          "pinyin": "yáo bì cái duàn jī",
+          "vietnamese": "Máy chặt tay quay",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 2
+          },
+          "contrastGroup": "shoe-cutters"
+        },
+        {
+          "id": "shoe-machinery-1-04",
+          "chinese": "电脑切割机",
+          "pinyin": "diàn nǎo qiē gē jī",
+          "vietnamese": "Máy cắt vi tính",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 3
+          }
+        },
+        {
+          "id": "shoe-machinery-1-05",
+          "chinese": "激光切割机",
+          "pinyin": "jī guāng qiē gē jī",
+          "vietnamese": "Máy cắt laser",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 4
+          }
+        },
+        {
+          "id": "shoe-machinery-1-06",
+          "chinese": "皮革片皮机",
+          "pinyin": "pí gé piàn pí jī",
+          "vietnamese": "Máy lạng da",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 5
+          }
+        },
+        {
+          "id": "shoe-machinery-1-07",
+          "chinese": "皮革削边机",
+          "pinyin": "pí gé xiāo biān jī",
+          "vietnamese": "Máy lạng mép da",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 6
+          }
+        },
+        {
+          "id": "shoe-machinery-1-08",
+          "chinese": "磨皮机",
+          "pinyin": "mó pí jī",
+          "vietnamese": "Máy mài da",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 7
+          }
+        },
+        {
+          "id": "shoe-machinery-1-09",
+          "chinese": "压花机",
+          "pinyin": "yā huā jī",
+          "vietnamese": "Máy dập hoa văn",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 8
+          }
+        },
+        {
+          "id": "shoe-machinery-1-10",
+          "chinese": "冲孔机",
+          "pinyin": "chōng kǒng jī",
+          "vietnamese": "Máy đục lỗ",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 9
+          }
+        },
+        {
+          "id": "shoe-machinery-1-11",
+          "chinese": "打眼机",
+          "pinyin": "dǎ yǎn jī",
+          "vietnamese": "Máy bấm khoen",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 10
+          }
+        },
+        {
+          "id": "shoe-machinery-1-12",
+          "chinese": "铆钉机",
+          "pinyin": "mǎo dīng jī",
+          "vietnamese": "Máy tán đinh",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 11
+          }
+        },
+        {
+          "id": "shoe-machinery-1-13",
+          "chinese": "高头缝纫机",
+          "pinyin": "gāo tóu féng rèn jī",
+          "vietnamese": "Máy may trụ",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 12
+          },
+          "contrastGroup": "shoe-sewing"
+        },
+        {
+          "id": "shoe-machinery-1-14",
+          "chinese": "锁边机",
+          "pinyin": "suǒ biān jī",
+          "vietnamese": "Máy vắt sổ",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 13
+          },
+          "contrastGroup": "shoe-sewing"
+        },
+        {
+          "id": "shoe-machinery-1-15",
+          "chinese": "罗拉车",
+          "pinyin": "luó lā chē",
+          "vietnamese": "Máy may bánh lăn",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 14
+          },
+          "contrastGroup": "shoe-sewing"
+        },
+        {
+          "id": "shoe-machinery-1-16",
+          "chinese": "曲臂缝纫机",
+          "pinyin": "qū bì féng rèn jī",
+          "vietnamese": "Máy may tay cong",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 15
+          },
+          "contrastGroup": "shoe-sewing"
+        },
+        {
+          "id": "shoe-machinery-1-17",
+          "chinese": "双针缝纫机",
+          "pinyin": "shuāng zhēn féng rèn jī",
+          "vietnamese": "Máy may hai kim",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 16
+          },
+          "contrastGroup": "shoe-sewing"
+        },
+        {
+          "id": "shoe-machinery-1-18",
+          "chinese": "花样缝纫机",
+          "pinyin": "huā yàng féng rèn jī",
+          "vietnamese": "Máy may lập trình",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 17
+          },
+          "contrastGroup": "shoe-sewing"
+        },
+        {
+          "id": "shoe-machinery-1-19",
+          "chinese": "鞋帮折边机",
+          "pinyin": "xié bāng zhé biān jī",
+          "vietnamese": "Máy gấp mép mũ giày",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 18
+          }
+        },
+        {
+          "id": "shoe-machinery-1-20",
+          "chinese": "鞋帮压平机",
+          "pinyin": "xié bāng yā píng jī",
+          "vietnamese": "Máy ép phẳng mũ giày",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 19
+          }
+        },
+        {
+          "id": "shoe-machinery-1-21",
+          "chinese": "鞋帮定型机",
+          "pinyin": "xié bāng dìng xíng jī",
+          "vietnamese": "Máy định hình mũ giày",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 20
+          }
+        },
+        {
+          "id": "shoe-machinery-1-22",
+          "chinese": "前帮机",
+          "pinyin": "qián bāng jī",
+          "vietnamese": "Máy gò mũi",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 21
+          }
+        },
+        {
+          "id": "shoe-machinery-1-23",
+          "chinese": "中帮机",
+          "pinyin": "zhōng bāng jī",
+          "vietnamese": "Máy gò hông",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 22
+          }
+        },
+        {
+          "id": "shoe-machinery-1-24",
+          "chinese": "后帮机",
+          "pinyin": "hòu bāng jī",
+          "vietnamese": "Máy gò gót",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 23
+          }
+        },
+        {
+          "id": "shoe-machinery-1-25",
+          "chinese": "套楦机",
+          "pinyin": "tào xuàn jī",
+          "vietnamese": "Máy vào phom",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 24
+          }
+        },
+        {
+          "id": "shoe-machinery-1-26",
+          "chinese": "拔楦机",
+          "pinyin": "bá xuàn jī",
+          "vietnamese": "Máy rút phom",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 25
+          }
+        },
+        {
+          "id": "shoe-machinery-1-27",
+          "chinese": "蒸湿机",
+          "pinyin": "zhēng shī jī",
+          "vietnamese": "Máy làm mềm bằng hơi",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 26
+          }
+        },
+        {
+          "id": "shoe-machinery-1-28",
+          "chinese": "热定型机",
+          "pinyin": "rè dìng xíng jī",
+          "vietnamese": "Máy định hình nóng",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 27
+          }
+        },
+        {
+          "id": "shoe-machinery-1-29",
+          "chinese": "冷定型机",
+          "pinyin": "lěng dìng xíng jī",
+          "vietnamese": "Máy định hình lạnh",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 28
+          }
+        },
+        {
+          "id": "shoe-machinery-1-30",
+          "chinese": "鞋头压衬机",
+          "pinyin": "xié tóu yā chèn jī",
+          "vietnamese": "Máy ép lót mũi",
+          "image": "assets/picture-words/shoe-machinery-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 29
+          }
+        },
+        {
+          "id": "shoe-machinery-2-01",
+          "chinese": "后跟压衬机",
+          "pinyin": "hòu gēn yā chèn jī",
+          "vietnamese": "Máy ép lót gót",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 0
+          }
+        },
+        {
+          "id": "shoe-machinery-2-02",
+          "chinese": "鞋面烫平机",
+          "pinyin": "xié miàn tàng píng jī",
+          "vietnamese": "Máy ủi mặt giày",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 1
+          }
+        },
+        {
+          "id": "shoe-machinery-2-03",
+          "chinese": "鞋底打磨机",
+          "pinyin": "xié dǐ dǎ mó jī",
+          "vietnamese": "Máy mài đế",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 2
+          }
+        },
+        {
+          "id": "shoe-machinery-2-04",
+          "chinese": "自动磨边机",
+          "pinyin": "zì dòng mó biān jī",
+          "vietnamese": "Máy mài viền tự động",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 3
+          }
+        },
+        {
+          "id": "shoe-machinery-2-05",
+          "chinese": "除尘机",
+          "pinyin": "chú chén jī",
+          "vietnamese": "Máy hút bụi",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 4
+          }
+        },
+        {
+          "id": "shoe-machinery-2-06",
+          "chinese": "鞋底清洗机",
+          "pinyin": "xié dǐ qīng xǐ jī",
+          "vietnamese": "Máy rửa đế",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 5
+          }
+        },
+        {
+          "id": "shoe-machinery-2-07",
+          "chinese": "涂胶机",
+          "pinyin": "tú jiāo jī",
+          "vietnamese": "Máy bôi keo",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 6
+          }
+        },
+        {
+          "id": "shoe-machinery-2-08",
+          "chinese": "喷胶机",
+          "pinyin": "pēn jiāo jī",
+          "vietnamese": "Máy phun keo",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 7
+          }
+        },
+        {
+          "id": "shoe-machinery-2-09",
+          "chinese": "烘胶机",
+          "pinyin": "hōng jiāo jī",
+          "vietnamese": "Máy sấy keo",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 8
+          }
+        },
+        {
+          "id": "shoe-machinery-2-10",
+          "chinese": "活化机",
+          "pinyin": "huó huà jī",
+          "vietnamese": "Máy hoạt hóa keo",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 9
+          }
+        },
+        {
+          "id": "shoe-machinery-2-11",
+          "chinese": "压底机",
+          "pinyin": "yā dǐ jī",
+          "vietnamese": "Máy ép đế",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 10
+          },
+          "contrastGroup": "sole-presses"
+        },
+        {
+          "id": "shoe-machinery-2-12",
+          "chinese": "墙式压底机",
+          "pinyin": "qiáng shì yā dǐ jī",
+          "vietnamese": "Máy ép đế tường",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 11
+          },
+          "contrastGroup": "sole-presses"
+        },
+        {
+          "id": "shoe-machinery-2-13",
+          "chinese": "万能压底机",
+          "pinyin": "wàn néng yā dǐ jī",
+          "vietnamese": "Máy ép đế đa năng",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 12
+          },
+          "contrastGroup": "sole-presses"
+        },
+        {
+          "id": "shoe-machinery-2-14",
+          "chinese": "鞋跟钉合机",
+          "pinyin": "xié gēn dìng hé jī",
+          "vietnamese": "Máy đóng gót",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 13
+          }
+        },
+        {
+          "id": "shoe-machinery-2-15",
+          "chinese": "鞋跟打磨机",
+          "pinyin": "xié gēn dǎ mó jī",
+          "vietnamese": "Máy mài gót",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 14
+          }
+        },
+        {
+          "id": "shoe-machinery-2-16",
+          "chinese": "鞋底注塑机",
+          "pinyin": "xié dǐ zhù sù jī",
+          "vietnamese": "Máy ép phun đế",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 15
+          }
+        },
+        {
+          "id": "shoe-machinery-2-17",
+          "chinese": "橡胶硫化机",
+          "pinyin": "xiàng jiāo liú huà jī",
+          "vietnamese": "Máy lưu hóa cao su",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 16
+          }
+        },
+        {
+          "id": "shoe-machinery-2-18",
+          "chinese": "发泡机",
+          "pinyin": "fā pào jī",
+          "vietnamese": "Máy tạo bọt đế",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 17
+          }
+        },
+        {
+          "id": "shoe-machinery-2-19",
+          "chinese": "鞋垫成型机",
+          "pinyin": "xié diàn chéng xíng jī",
+          "vietnamese": "Máy định hình lót giày",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 18
+          }
+        },
+        {
+          "id": "shoe-machinery-2-20",
+          "chinese": "鞋带编织机",
+          "pinyin": "xié dài biān zhī jī",
+          "vietnamese": "Máy dệt dây giày",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 19
+          }
+        },
+        {
+          "id": "shoe-machinery-2-21",
+          "chinese": "鞋带打头机",
+          "pinyin": "xié dài dǎ tóu jī",
+          "vietnamese": "Máy bọc đầu dây giày",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 20
+          }
+        },
+        {
+          "id": "shoe-machinery-2-22",
+          "chinese": "金属检测机",
+          "pinyin": "jīn shǔ jiǎn cè jī",
+          "vietnamese": "Máy dò kim loại",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 21
+          }
+        },
+        {
+          "id": "shoe-machinery-2-23",
+          "chinese": "耐折试验机",
+          "pinyin": "nài zhé shì yàn jī",
+          "vietnamese": "Máy thử uốn giày",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 22
+          }
+        },
+        {
+          "id": "shoe-machinery-2-24",
+          "chinese": "耐磨试验机",
+          "pinyin": "nài mó shì yàn jī",
+          "vietnamese": "Máy thử mài mòn",
+          "image": "assets/picture-words/shoe-machinery-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 23
+          }
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "食物",
+      "vietnamese": "Thức ăn",
+      "words": [
+        {
+          "id": "food-1-01",
+          "chinese": "米饭",
+          "pinyin": "mǐ fàn",
+          "vietnamese": "Cơm trắng",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 0
+          }
+        },
+        {
+          "id": "food-1-02",
+          "chinese": "炒饭",
+          "pinyin": "chǎo fàn",
+          "vietnamese": "Cơm chiên",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 1
+          }
+        },
+        {
+          "id": "food-1-03",
+          "chinese": "粥",
+          "pinyin": "zhōu",
+          "vietnamese": "Cháo",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 2
+          }
+        },
+        {
+          "id": "food-1-04",
+          "chinese": "面条",
+          "pinyin": "miàn tiáo",
+          "vietnamese": "Mì sợi",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 3
+          },
+          "contrastGroup": "noodles"
+        },
+        {
+          "id": "food-1-05",
+          "chinese": "拉面",
+          "pinyin": "lā miàn",
+          "vietnamese": "Mì kéo",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 4
+          },
+          "contrastGroup": "noodles"
+        },
+        {
+          "id": "food-1-06",
+          "chinese": "炒面",
+          "pinyin": "chǎo miàn",
+          "vietnamese": "Mì xào",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 5
+          },
+          "contrastGroup": "noodles"
+        },
+        {
+          "id": "food-1-07",
+          "chinese": "米粉",
+          "pinyin": "mǐ fěn",
+          "vietnamese": "Bún gạo",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 6
+          },
+          "contrastGroup": "noodles"
+        },
+        {
+          "id": "food-1-08",
+          "chinese": "河粉",
+          "pinyin": "hé fěn",
+          "vietnamese": "Phở",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 7
+          },
+          "contrastGroup": "noodles"
+        },
+        {
+          "id": "food-1-09",
+          "chinese": "凉面",
+          "pinyin": "liáng miàn",
+          "vietnamese": "Mì lạnh",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 8
+          },
+          "contrastGroup": "noodles"
+        },
+        {
+          "id": "food-1-10",
+          "chinese": "馒头",
+          "pinyin": "mán tou",
+          "vietnamese": "Bánh màn thầu",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 9
+          }
+        },
+        {
+          "id": "food-1-11",
+          "chinese": "包子",
+          "pinyin": "bāo zi",
+          "vietnamese": "Bánh bao",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 10
+          }
+        },
+        {
+          "id": "food-1-12",
+          "chinese": "饺子",
+          "pinyin": "jiǎo zi",
+          "vietnamese": "Sủi cảo",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 11
+          }
+        },
+        {
+          "id": "food-1-13",
+          "chinese": "馄饨",
+          "pinyin": "hún tun",
+          "vietnamese": "Hoành thánh",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 12
+          }
+        },
+        {
+          "id": "food-1-14",
+          "chinese": "烧卖",
+          "pinyin": "shāo mài",
+          "vietnamese": "Xíu mại hấp",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 13
+          }
+        },
+        {
+          "id": "food-1-15",
+          "chinese": "春卷",
+          "pinyin": "chūn juǎn",
+          "vietnamese": "Chả giò",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 14
+          }
+        },
+        {
+          "id": "food-1-16",
+          "chinese": "生春卷",
+          "pinyin": "shēng chūn juǎn",
+          "vietnamese": "Gỏi cuốn",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 15
+          }
+        },
+        {
+          "id": "food-1-17",
+          "chinese": "粽子",
+          "pinyin": "zòng zi",
+          "vietnamese": "Bánh ú",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 16
+          }
+        },
+        {
+          "id": "food-1-18",
+          "chinese": "年糕",
+          "pinyin": "nián gāo",
+          "vietnamese": "Bánh gạo",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 17
+          }
+        },
+        {
+          "id": "food-1-19",
+          "chinese": "煎饼",
+          "pinyin": "jiān bǐng",
+          "vietnamese": "Bánh kếp mặn",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 18
+          }
+        },
+        {
+          "id": "food-1-20",
+          "chinese": "油条",
+          "pinyin": "yóu tiáo",
+          "vietnamese": "Quẩy",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 19
+          }
+        },
+        {
+          "id": "food-1-21",
+          "chinese": "面包",
+          "pinyin": "miàn bāo",
+          "vietnamese": "Bánh mì",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 20
+          }
+        },
+        {
+          "id": "food-1-22",
+          "chinese": "法棍",
+          "pinyin": "fǎ gùn",
+          "vietnamese": "Bánh mì baguette",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 21
+          }
+        },
+        {
+          "id": "food-1-23",
+          "chinese": "三明治",
+          "pinyin": "sān míng zhì",
+          "vietnamese": "Bánh sandwich",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 22
+          }
+        },
+        {
+          "id": "food-1-24",
+          "chinese": "汉堡",
+          "pinyin": "hàn bǎo",
+          "vietnamese": "Hamburger",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 23
+          }
+        },
+        {
+          "id": "food-1-25",
+          "chinese": "披萨",
+          "pinyin": "pī sà",
+          "vietnamese": "Pizza",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 24
+          }
+        },
+        {
+          "id": "food-1-26",
+          "chinese": "热狗",
+          "pinyin": "rè gǒu",
+          "vietnamese": "Hot dog",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 25
+          }
+        },
+        {
+          "id": "food-1-27",
+          "chinese": "炸鸡",
+          "pinyin": "zhá jī",
+          "vietnamese": "Gà rán",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 26
+          }
+        },
+        {
+          "id": "food-1-28",
+          "chinese": "烤鸭",
+          "pinyin": "kǎo yā",
+          "vietnamese": "Vịt quay",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 27
+          }
+        },
+        {
+          "id": "food-1-29",
+          "chinese": "烧烤",
+          "pinyin": "shāo kǎo",
+          "vietnamese": "Đồ nướng",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 28
+          }
+        },
+        {
+          "id": "food-1-30",
+          "chinese": "火锅",
+          "pinyin": "huǒ guō",
+          "vietnamese": "Lẩu",
+          "image": "assets/picture-words/food-1/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 5,
+            "index": 29
+          }
+        },
+        {
+          "id": "food-2-01",
+          "chinese": "麻婆豆腐",
+          "pinyin": "má pó dòu fu",
+          "vietnamese": "Đậu phụ Tứ Xuyên",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 0
+          }
+        },
+        {
+          "id": "food-2-02",
+          "chinese": "宫保鸡丁",
+          "pinyin": "gōng bǎo jī dīng",
+          "vietnamese": "Gà Kung Pao",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 1
+          }
+        },
+        {
+          "id": "food-2-03",
+          "chinese": "红烧肉",
+          "pinyin": "hóng shāo ròu",
+          "vietnamese": "Thịt kho tàu kiểu Trung",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 2
+          }
+        },
+        {
+          "id": "food-2-04",
+          "chinese": "糖醋排骨",
+          "pinyin": "táng cù pái gǔ",
+          "vietnamese": "Sườn xào chua ngọt",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 3
+          }
+        },
+        {
+          "id": "food-2-05",
+          "chinese": "清蒸鱼",
+          "pinyin": "qīng zhēng yú",
+          "vietnamese": "Cá hấp",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 4
+          }
+        },
+        {
+          "id": "food-2-06",
+          "chinese": "煎蛋",
+          "pinyin": "jiān dàn",
+          "vietnamese": "Trứng ốp la",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 5
+          }
+        },
+        {
+          "id": "food-2-07",
+          "chinese": "蒸蛋",
+          "pinyin": "zhēng dàn",
+          "vietnamese": "Trứng hấp",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 6
+          }
+        },
+        {
+          "id": "food-2-08",
+          "chinese": "豆腐",
+          "pinyin": "dòu fu",
+          "vietnamese": "Đậu phụ",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 7
+          }
+        },
+        {
+          "id": "food-2-09",
+          "chinese": "牛排",
+          "pinyin": "niú pái",
+          "vietnamese": "Bít tết",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 8
+          }
+        },
+        {
+          "id": "food-2-10",
+          "chinese": "意大利面",
+          "pinyin": "yì dà lì miàn",
+          "vietnamese": "Mì Ý",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 9
+          },
+          "contrastGroup": "noodles"
+        },
+        {
+          "id": "food-2-11",
+          "chinese": "沙拉",
+          "pinyin": "shā lā",
+          "vietnamese": "Salad",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 10
+          }
+        },
+        {
+          "id": "food-2-12",
+          "chinese": "寿司",
+          "pinyin": "shòu sī",
+          "vietnamese": "Sushi",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 11
+          },
+          "contrastGroup": "rice-rolls"
+        },
+        {
+          "id": "food-2-13",
+          "chinese": "饭团",
+          "pinyin": "fàn tuán",
+          "vietnamese": "Cơm nắm",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 12
+          }
+        },
+        {
+          "id": "food-2-14",
+          "chinese": "紫菜包饭",
+          "pinyin": "zǐ cài bāo fàn",
+          "vietnamese": "Cơm cuộn rong biển",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 13
+          },
+          "contrastGroup": "rice-rolls"
+        },
+        {
+          "id": "food-2-15",
+          "chinese": "咖喱饭",
+          "pinyin": "gā lí fàn",
+          "vietnamese": "Cơm cà ri",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 14
+          }
+        },
+        {
+          "id": "food-2-16",
+          "chinese": "蛋糕",
+          "pinyin": "dàn gāo",
+          "vietnamese": "Bánh kem",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 15
+          }
+        },
+        {
+          "id": "food-2-17",
+          "chinese": "饼干",
+          "pinyin": "bǐng gān",
+          "vietnamese": "Bánh quy",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 16
+          }
+        },
+        {
+          "id": "food-2-18",
+          "chinese": "月饼",
+          "pinyin": "yuè bǐng",
+          "vietnamese": "Bánh trung thu",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 17
+          }
+        },
+        {
+          "id": "food-2-19",
+          "chinese": "甜甜圈",
+          "pinyin": "tián tián quān",
+          "vietnamese": "Bánh vòng",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 18
+          }
+        },
+        {
+          "id": "food-2-20",
+          "chinese": "冰淇淋",
+          "pinyin": "bīng qí lín",
+          "vietnamese": "Kem",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 19
+          }
+        },
+        {
+          "id": "food-2-21",
+          "chinese": "布丁",
+          "pinyin": "bù dīng",
+          "vietnamese": "Bánh flan",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 20
+          }
+        },
+        {
+          "id": "food-2-22",
+          "chinese": "果冻",
+          "pinyin": "guǒ dòng",
+          "vietnamese": "Thạch rau câu",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 21
+          }
+        },
+        {
+          "id": "food-2-23",
+          "chinese": "汤圆",
+          "pinyin": "tāng yuán",
+          "vietnamese": "Bánh trôi nước",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 22
+          }
+        },
+        {
+          "id": "food-2-24",
+          "chinese": "芝麻球",
+          "pinyin": "zhī má qiú",
+          "vietnamese": "Bánh cam mè",
+          "image": "assets/picture-words/food-2/atlas.png",
+          "sprite": {
+            "columns": 6,
+            "rows": 4,
+            "index": 23
+          }
+        }
+      ]
     }
   ]
 }

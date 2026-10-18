@@ -34,7 +34,7 @@ const $=s=>{if(!nodes.has(s))nodes.set(s,node(selects.has(s)?'select':'div'));re
 $('#user-role').value='student';$('#question-bank').value='hsk1-2';$('#upload-mode').value='add';$('#teacher-login').hidden=true;
 const crypto={subtle:webcrypto.subtle,randomUUID};
 const loginEvents=[];
-const context={progressKey,saveProgress,loadProgress,clearProgress,studentExercises,initWriting:()=>{},initReading:()=>{},showFeedback:()=>{},stopFeedback:()=>{},recordLogin:role=>{loginEvents.push(role);},...store,isTeacherPassword:value=>Promise.resolve(value==='teacher-test-only'),resolveBank,validate,grade,normalize,crypto,structuredClone,TextEncoder,Uint8Array,URL,Blob,confirm:()=>true,setTimeout,console,
+const context={progressKey,saveProgress,loadProgress,clearProgress,studentExercises,initWriting:()=>{},showFeedback:()=>{},stopFeedback:()=>{},recordLogin:role=>{loginEvents.push(role);},...store,isTeacherPassword:value=>Promise.resolve(value==='teacher-test-only'),resolveBank,validate,grade,normalize,crypto,structuredClone,TextEncoder,Uint8Array,URL,Blob,confirm:()=>true,setTimeout,console,
  document:{querySelector:$,createElement:tag=>node(tag)},FormData:class{constructor(f){this.values=f.fd;}get(k){return this.values[k]??null;}}};
 async function script(name,append=''){let s=fs.readFileSync(new URL(name,root),'utf8').replace(/^import .*;\n/gm,'').replaceAll('export ','');await vm.runInNewContext('(async()=>{'+s+'\n'+append+'})()',context);}
 await script('teacher-tools.mjs','globalThis.teacherActive=teacherActive;');await script('app.js');

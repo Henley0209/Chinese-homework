@@ -1,6 +1,17 @@
-/* Small seasonal greeting below the homepage background. */
-.womens-day{display:flex;flex-direction:column;align-items:center;gap:14px;margin:0;padding:24px 12px 12px;text-align:center}
-.womens-day-bouquet{display:block;width:clamp(130px,22vw,180px);height:auto;aspect-ratio:5/6;object-fit:contain;animation:bouquet-turn 32s linear infinite;filter:drop-shadow(0 8px 12px #b460771a)}
-.womens-day p{margin:0;color:#ad4767;font-size:clamp(15px,2.4vw,19px);font-weight:600;line-height:1.65;overflow-wrap:anywhere}
-@keyframes bouquet-turn{from{transform:perspective(800px) rotateY(0deg)}to{transform:perspective(800px) rotateY(360deg)}}
-@media(prefers-reduced-motion:reduce){.womens-day-bouquet{animation:none}}
+/* A bouquet made of dimensional petals; the greeting stays facing the reader. */
+.womens-day{position:relative;display:grid;place-items:center;isolation:isolate;min-height:310px;margin:0;padding:24px 12px 12px;text-align:center}
+.flower-scene{width:240px;height:270px;perspective:850px;pointer-events:none}
+.flower-bouquet{position:relative;width:100%;height:100%;transform-style:preserve-3d;animation:bouquet-turn 28s linear infinite}
+.rose{position:absolute;left:50%;top:38%;transform:translate3d(var(--x),var(--y),var(--z)) scale(var(--size));transform-style:preserve-3d}
+.rose-head{position:absolute;width:58px;height:58px;left:-29px;top:-29px;transform:rotateX(-18deg);transform-style:preserve-3d}
+.rose-petal{position:absolute;left:10px;top:9px;width:38px;height:42px;border-radius:65% 45% 65% 35%;background:radial-gradient(ellipse at 30% 20%,#ffe2e9,hsl(var(--hue) 80% 73%) 45%,hsl(var(--hue) 62% 43%));box-shadow:inset 1px 2px 3px #fff9,0 2px 4px #85254233;transform:rotateZ(var(--turn)) translateY(calc(-13px + var(--layer)*4px)) rotateX(52deg) translateZ(calc(var(--layer)*5px));backface-visibility:visible}
+.rose-heart{position:absolute;inset:19px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffb7ca,#ba315d);transform:translateZ(18px);box-shadow:0 0 5px #a52a5044}
+.rose-stem{position:absolute;left:-2px;top:12px;width:4px;height:125px;border-radius:4px;background:linear-gradient(90deg,#325b35,#8da95a,#446338);transform-origin:top;transform:rotateZ(-8deg);}
+.rose-leaf{position:absolute;left:0;top:45px;width:33px;height:17px;border-radius:0 85% 0 85%;background:linear-gradient(25deg,#285d42,#8ba85c);transform:rotateZ(-30deg) rotateY(30deg);box-shadow:inset 0 -1px #c0cd8d}
+.bouquet-wrap{position:absolute;left:67px;top:135px;width:106px;height:115px;clip-path:polygon(0 0,100% 0,65% 100%,35% 100%);background:linear-gradient(100deg,#e3a3b0,#ffe5e7 38%,#e8a5b8 68%,#c47c97);transform:translateZ(12px);border-radius:8px}
+.bouquet-ribbon{position:absolute;left:93px;top:208px;width:56px;height:23px;background:linear-gradient(145deg,#ffd8df,#d37f99);border-radius:50% 15% 50% 15%;transform:translateZ(25px) rotateZ(-12deg);box-shadow:0 3px 8px #b65b7940}
+.womens-day .womens-day-greeting{position:absolute;z-index:2;top:47%;left:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;width:min(100%,640px);margin:0;padding:10px 16px;color:#9d315e;font-family:"Palatino Linotype","Book Antiqua",Georgia,serif;font-style:italic;font-size:clamp(26px,4.6vw,38px);font-weight:700;line-height:1.2;letter-spacing:.02em;text-shadow:0 2px 0 #fff,0 -1px 3px #fff,2px 0 4px #fff,-2px 0 4px #fff,0 5px 14px #fff;pointer-events:none}
+.greeting-date{font-size:.7em;letter-spacing:.16em;margin-bottom:5px;color:#bb6c37}
+@keyframes bouquet-turn{from{transform:rotateX(8deg) rotateY(0deg)}to{transform:rotateX(8deg) rotateY(360deg)}}
+@media(max-width:480px){.womens-day{min-height:290px}.flower-scene{transform:scale(.9)}.womens-day .womens-day-greeting{font-size:clamp(24px,6.8vw,30px)}}
+@media(prefers-reduced-motion:reduce){.flower-bouquet{animation:none;transform:rotateX(8deg) rotateY(-12deg)}}

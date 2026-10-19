@@ -95,3 +95,9 @@ header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22p
 .feedback-message{font-size:22px;font-weight:700;color:var(--blue);line-height:1.45;margin:0 0 10px}
 .feedback-status{margin:6px 0 0;line-height:1.5}.feedback-status:empty{display:none}
 @media(max-width:650px){#questions .options{grid-template-columns:minmax(0,1fr);gap:9px}#questions .option .option-text{font-size:22px}#questions .option .option-pinyin{font-size:17px}#questions .option{padding:11px 12px}.feedback-message{font-size:20px}}
+
+/* Match the bilingual home button used by picture practice. */
+.quiz-navigation{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px}
+#quiz-home{padding:7px 10px;font-size:12px;min-height:40px}
+#quiz-home small{font-size:10px}
+#exercise>.sticky{align-items:center;gap:8px 12px}

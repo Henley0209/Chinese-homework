@@ -1,6 +1,6 @@
 /* Original bouquet with a centered, stationary artistic greeting. */
 .womens-day{position:relative;display:grid;place-items:center;isolation:isolate;min-height:270px;margin:0;padding:24px 12px 12px;text-align:center}
-.womens-day-bouquet{display:block;width:clamp(130px,22vw,180px);height:auto;aspect-ratio:5/6;object-fit:contain;animation:bouquet-turn 32s linear infinite;filter:drop-shadow(0 8px 12px #b460771a)}
+.womens-day-bouquet{display:block;width:clamp(200px,32vw,280px);height:auto;aspect-ratio:5/6;object-fit:contain;animation:bouquet-turn 32s linear infinite;filter:drop-shadow(0 8px 12px #b460771a)}
 .womens-day .womens-day-greeting{position:absolute;z-index:2;top:47%;left:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;width:min(100%,640px);margin:0;padding:10px 16px;color:#9d315e;font-family:"Palatino Linotype","Book Antiqua",Georgia,serif;font-style:italic;font-size:clamp(26px,4.6vw,38px);font-weight:700;line-height:1.2;letter-spacing:.02em;text-shadow:0 2px 0 #fff,0 -1px 3px #fff,2px 0 4px #fff,-2px 0 4px #fff,0 5px 14px #fff;pointer-events:none}
 .greeting-date{font-size:.7em;letter-spacing:.16em;margin-bottom:5px;color:#bb6c37}
 @keyframes bouquet-turn{from{transform:perspective(800px) rotateY(0deg)}to{transform:perspective(800px) rotateY(360deg)}}

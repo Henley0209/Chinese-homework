@@ -1,0 +1,6 @@
+/* Small seasonal greeting below the homepage background. */
+.womens-day{display:flex;flex-direction:column;align-items:center;gap:14px;margin:0;padding:24px 12px 12px;text-align:center}
+.womens-day-bouquet{display:block;width:clamp(130px,22vw,180px);height:auto;aspect-ratio:5/6;object-fit:contain;animation:bouquet-turn 32s linear infinite;filter:drop-shadow(0 8px 12px #b460771a)}
+.womens-day p{margin:0;color:#ad4767;font-size:clamp(15px,2.4vw,19px);font-weight:600;line-height:1.65;overflow-wrap:anywhere}
+@keyframes bouquet-turn{from{transform:perspective(800px) rotateY(0deg)}to{transform:perspective(800px) rotateY(360deg)}}
+@media(prefers-reduced-motion:reduce){.womens-day-bouquet{animation:none}}

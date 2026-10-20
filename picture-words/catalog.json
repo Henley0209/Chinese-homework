@@ -15470,6 +15470,607 @@
           }
         }
       ]
+    },
+    {
+      "id": "smt-equipment",
+      "name": "SMT设备",
+      "vietnamese": "Thiết bị SMT",
+      "words": [
+        {
+          "id": "smt-equipment-01",
+          "chinese": "锡膏印刷机",
+          "pinyin": "xī gāo yìn shuā jī",
+          "vietnamese": "Máy in kem hàn",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 0
+          }
+        },
+        {
+          "id": "smt-equipment-02",
+          "chinese": "贴片机",
+          "pinyin": "tiē piàn jī",
+          "vietnamese": "Máy gắn linh kiện SMT",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 1
+          }
+        },
+        {
+          "id": "smt-equipment-03",
+          "chinese": "回流焊炉",
+          "pinyin": "huí liú hàn lú",
+          "vietnamese": "Lò hàn reflow",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 2
+          }
+        },
+        {
+          "id": "smt-equipment-04",
+          "chinese": "自动光学检测仪",
+          "pinyin": "zì dòng guāng xué jiǎn cè yí",
+          "vietnamese": "Máy kiểm tra quang học tự động",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 3
+          }
+        },
+        {
+          "id": "smt-equipment-05",
+          "chinese": "锡膏检测仪",
+          "pinyin": "xī gāo jiǎn cè yí",
+          "vietnamese": "Máy kiểm tra kem hàn",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 4
+          }
+        },
+        {
+          "id": "smt-equipment-06",
+          "chinese": "上板机",
+          "pinyin": "shàng bǎn jī",
+          "vietnamese": "Máy cấp bảng mạch",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 5
+          },
+          "contrastGroup": "pcb-magazine-handling"
+        },
+        {
+          "id": "smt-equipment-07",
+          "chinese": "下板机",
+          "pinyin": "xià bǎn jī",
+          "vietnamese": "Máy thu bảng mạch",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 6
+          },
+          "contrastGroup": "pcb-magazine-handling"
+        },
+        {
+          "id": "smt-equipment-08",
+          "chinese": "接驳台",
+          "pinyin": "jiē bó tái",
+          "vietnamese": "Băng tải nối chuyền PCB",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 7
+          }
+        },
+        {
+          "id": "smt-equipment-09",
+          "chinese": "锡膏搅拌机",
+          "pinyin": "xī gāo jiǎo bàn jī",
+          "vietnamese": "Máy trộn kem hàn",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 8
+          }
+        },
+        {
+          "id": "smt-equipment-10",
+          "chinese": "钢网清洗机",
+          "pinyin": "gāng wǎng qīng xǐ jī",
+          "vietnamese": "Máy rửa khuôn in kem hàn",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 9
+          }
+        },
+        {
+          "id": "smt-equipment-11",
+          "chinese": "X射线检测仪",
+          "pinyin": "X shè xiàn jiǎn cè yí",
+          "vietnamese": "Máy kiểm tra tia X",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 10
+          }
+        },
+        {
+          "id": "smt-equipment-12",
+          "chinese": "激光打标机",
+          "pinyin": "jī guāng dǎ biāo jī",
+          "vietnamese": "Máy khắc laser",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 11
+          }
+        },
+        {
+          "id": "smt-equipment-13",
+          "chinese": "分板机",
+          "pinyin": "fēn bǎn jī",
+          "vietnamese": "Máy tách bảng mạch",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 12
+          }
+        },
+        {
+          "id": "smt-equipment-14",
+          "chinese": "防潮柜",
+          "pinyin": "fáng cháo guì",
+          "vietnamese": "Tủ chống ẩm",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 13
+          }
+        },
+        {
+          "id": "smt-equipment-15",
+          "chinese": "锡膏冷藏柜",
+          "pinyin": "xī gāo lěng cáng guì",
+          "vietnamese": "Tủ lạnh bảo quản kem hàn",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 14
+          }
+        },
+        {
+          "id": "smt-equipment-16",
+          "chinese": "防静电工作台",
+          "pinyin": "fáng jìng diàn gōng zuò tái",
+          "vietnamese": "Bàn làm việc chống tĩnh điện",
+          "image": "assets/picture-words/smt-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "dip-equipment",
+      "name": "DIP设备",
+      "vietnamese": "Thiết bị DIP",
+      "words": [
+        {
+          "id": "dip-equipment-01",
+          "chinese": "波峰焊机",
+          "pinyin": "bō fēng hàn jī",
+          "vietnamese": "Máy hàn sóng",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 0
+          },
+          "contrastGroup": "wave-soldering"
+        },
+        {
+          "id": "dip-equipment-02",
+          "chinese": "选择性波峰焊机",
+          "pinyin": "xuǎn zé xìng bō fēng hàn jī",
+          "vietnamese": "Máy hàn sóng chọn lọc",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 1
+          },
+          "contrastGroup": "wave-soldering"
+        },
+        {
+          "id": "dip-equipment-03",
+          "chinese": "立式插件机",
+          "pinyin": "lì shì chā jiàn jī",
+          "vietnamese": "Máy cắm linh kiện chân hướng tâm",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 2
+          }
+        },
+        {
+          "id": "dip-equipment-04",
+          "chinese": "卧式插件机",
+          "pinyin": "wò shì chā jiàn jī",
+          "vietnamese": "Máy cắm linh kiện chân dọc trục",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 3
+          }
+        },
+        {
+          "id": "dip-equipment-05",
+          "chinese": "插件流水线",
+          "pinyin": "chā jiàn liú shuǐ xiàn",
+          "vietnamese": "Dây chuyền cắm linh kiện",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 4
+          }
+        },
+        {
+          "id": "dip-equipment-06",
+          "chinese": "切脚机",
+          "pinyin": "qiē jiǎo jī",
+          "vietnamese": "Máy cắt chân linh kiện",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 5
+          }
+        },
+        {
+          "id": "dip-equipment-07",
+          "chinese": "成型机",
+          "pinyin": "chéng xíng jī",
+          "vietnamese": "Máy uốn tạo hình chân linh kiện",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 6
+          }
+        },
+        {
+          "id": "dip-equipment-08",
+          "chinese": "锡炉",
+          "pinyin": "xī lú",
+          "vietnamese": "Bể nhúng thiếc",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 7
+          }
+        },
+        {
+          "id": "dip-equipment-09",
+          "chinese": "焊台",
+          "pinyin": "hàn tái",
+          "vietnamese": "Trạm hàn",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 8
+          }
+        },
+        {
+          "id": "dip-equipment-10",
+          "chinese": "热风返修台",
+          "pinyin": "rè fēng fǎn xiū tái",
+          "vietnamese": "Trạm khò sửa chữa",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 9
+          }
+        },
+        {
+          "id": "dip-equipment-11",
+          "chinese": "烟雾净化器",
+          "pinyin": "yān wù jìng huà qì",
+          "vietnamese": "Máy lọc khói hàn",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 10
+          }
+        },
+        {
+          "id": "dip-equipment-12",
+          "chinese": "自动锁螺丝机",
+          "pinyin": "zì dòng suǒ luó sī jī",
+          "vietnamese": "Máy siết vít tự động",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 11
+          }
+        },
+        {
+          "id": "dip-equipment-13",
+          "chinese": "三防漆涂覆机",
+          "pinyin": "sān fáng qī tú fù jī",
+          "vietnamese": "Máy phủ keo bảo vệ bảng mạch",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 12
+          }
+        },
+        {
+          "id": "dip-equipment-14",
+          "chinese": "紫外线固化炉",
+          "pinyin": "zǐ wài xiàn gù huà lú",
+          "vietnamese": "Lò đóng rắn bằng tia UV",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 13
+          }
+        },
+        {
+          "id": "dip-equipment-15",
+          "chinese": "在线测试仪",
+          "pinyin": "zài xiàn cè shì yí",
+          "vietnamese": "Máy kiểm tra mạch ICT",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 14
+          }
+        },
+        {
+          "id": "dip-equipment-16",
+          "chinese": "功能测试仪",
+          "pinyin": "gōng néng cè shì yí",
+          "vietnamese": "Máy kiểm tra chức năng",
+          "image": "assets/picture-words/dip-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "warehouse-equipment",
+      "name": "仓库常用设备",
+      "vietnamese": "Thiết bị kho thông dụng",
+      "words": [
+        {
+          "id": "warehouse-equipment-01",
+          "chinese": "叉车",
+          "pinyin": "chā chē",
+          "vietnamese": "Xe nâng hàng",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 0
+          }
+        },
+        {
+          "id": "warehouse-equipment-02",
+          "chinese": "手动搬运车",
+          "pinyin": "shǒu dòng bān yùn chē",
+          "vietnamese": "Xe nâng tay",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 1
+          }
+        },
+        {
+          "id": "warehouse-equipment-03",
+          "chinese": "电动搬运车",
+          "pinyin": "diàn dòng bān yùn chē",
+          "vietnamese": "Xe nâng pallet điện",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 2
+          }
+        },
+        {
+          "id": "warehouse-equipment-04",
+          "chinese": "堆高车",
+          "pinyin": "duī gāo chē",
+          "vietnamese": "Xe nâng xếp chồng",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 3
+          }
+        },
+        {
+          "id": "warehouse-equipment-05",
+          "chinese": "货架",
+          "pinyin": "huò jià",
+          "vietnamese": "Kệ kho",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 4
+          }
+        },
+        {
+          "id": "warehouse-equipment-06",
+          "chinese": "托盘",
+          "pinyin": "tuō pán",
+          "vietnamese": "Pallet",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 5
+          }
+        },
+        {
+          "id": "warehouse-equipment-07",
+          "chinese": "平板推车",
+          "pinyin": "píng bǎn tuī chē",
+          "vietnamese": "Xe đẩy sàn phẳng",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 6
+          }
+        },
+        {
+          "id": "warehouse-equipment-08",
+          "chinese": "两轮手推车",
+          "pinyin": "liǎng lún shǒu tuī chē",
+          "vietnamese": "Xe đẩy hai bánh",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 7
+          }
+        },
+        {
+          "id": "warehouse-equipment-09",
+          "chinese": "滚筒输送机",
+          "pinyin": "gǔn tǒng shū sòng jī",
+          "vietnamese": "Băng tải con lăn",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 8
+          }
+        },
+        {
+          "id": "warehouse-equipment-10",
+          "chinese": "电子平台秤",
+          "pinyin": "diàn zǐ píng tái chèng",
+          "vietnamese": "Cân sàn điện tử",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 9
+          }
+        },
+        {
+          "id": "warehouse-equipment-11",
+          "chinese": "条码扫描器",
+          "pinyin": "tiáo mǎ sǎo miáo qì",
+          "vietnamese": "Máy quét mã vạch",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 10
+          }
+        },
+        {
+          "id": "warehouse-equipment-12",
+          "chinese": "标签打印机",
+          "pinyin": "biāo qiān dǎ yìn jī",
+          "vietnamese": "Máy in nhãn",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 11
+          }
+        },
+        {
+          "id": "warehouse-equipment-13",
+          "chinese": "封箱机",
+          "pinyin": "fēng xiāng jī",
+          "vietnamese": "Máy dán thùng carton",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 12
+          }
+        },
+        {
+          "id": "warehouse-equipment-14",
+          "chinese": "打包机",
+          "pinyin": "dǎ bāo jī",
+          "vietnamese": "Máy đóng đai",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 13
+          }
+        },
+        {
+          "id": "warehouse-equipment-15",
+          "chinese": "缠绕膜包装机",
+          "pinyin": "chán rào mó bāo zhuāng jī",
+          "vietnamese": "Máy quấn màng pallet",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 14
+          }
+        },
+        {
+          "id": "warehouse-equipment-16",
+          "chinese": "移动登高梯",
+          "pinyin": "yí dòng dēng gāo tī",
+          "vietnamese": "Thang kho di động",
+          "image": "assets/picture-words/warehouse-equipment/atlas.png",
+          "sprite": {
+            "columns": 4,
+            "rows": 4,
+            "index": 15
+          }
+        }
+      ]
     }
   ]
 }

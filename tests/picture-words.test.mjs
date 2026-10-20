@@ -5,14 +5,14 @@ import {createWordAudio} from '../picture-words-audio.mjs';
 import {resolveWritingLevel} from '../writing-access.mjs';
 import {banks} from '../bank-access.mjs';
 const root=new URL('../',import.meta.url),catalog=JSON.parse(fs.readFileSync(new URL('picture-words/catalog.json',root)));
-assert.equal(validatePictureCatalog(catalog),catalog);assert.equal(catalog.categories.length,24);
+assert.equal(validatePictureCatalog(catalog),catalog);assert.equal(catalog.categories.length,27);
 const fruit=catalog.categories[0];assert.equal(fruit.name,'水果');assert.equal(fruit.vietnamese,'Trái cây');assert.equal(fruit.words.length,58);
 for(const [id,name]of Object.entries({alcohol:'酒',drinks:'饮料',barber:'理发工具','shoe-machinery':'鞋厂设备',food:'食物'})){const category=catalog.categories.find(c=>c.id===id);assert.equal(category.name,name);assert.equal(category.words.length,54);}
 const hashes=new Set(),positions=new Set(),files=new Map();
 const allWords=catalog.categories.flatMap(c=>c.words);
 for(const [word,reading]of Object.entries({'干衣机':'gān yī jī','铺布机':'pū bù jī','包缝机':'bāo féng jī','绷缝机':'bēng féng jī','散粉':'sǎn fěn','绗缝机':'háng féng jī','蒸呢机':'zhēng ní jī','分子模型':'fēn zǐ mó xíng','直发夹':'zhí fà jiā','削笔器':'xiāo bǐ qì','干邑':'gān yì','桑葚酒':'sāng shèn jiǔ','烫发杠':'tàng fà gàng','耐折试验机':'nài zhé shì yàn jī'}))assert.equal(allWords.find(w=>w.chinese===word).pinyin,reading);
-assert.equal(catalog.categories.reduce((n,c)=>n+c.words.length,0),1274);
-for(const category of catalog.categories){assert.ok(category.words.length>=50&&category.words.length<=100);}
+assert.equal(catalog.categories.reduce((n,c)=>n+c.words.length,0),1322);
+for(const category of catalog.categories){assert.ok(category.words.length>=(category.id.endsWith("-equipment")?16:50)&&category.words.length<=100);}
 for(const category of catalog.categories)for(const [i,word]of category.words.entries()){
  const file=files.get(word.image)||fs.readFileSync(new URL(word.image,root));files.set(word.image,file);assert.deepEqual([...file.subarray(0,8)],[137,80,78,71,13,10,26,10]);assert.ok(file.readUInt32BE(16)>=1000);assert.ok(file.readUInt32BE(20)>=1000);hashes.add(word.image+':'+(word.sprite?.index??'whole'));
  assert.ok(word.pinyin&&word.vietnamese);if(word.sprite){assert.ok([4,6].includes(word.sprite.columns));assert.ok(word.sprite.index<word.sprite.columns*word.sprite.rows);}
@@ -20,7 +20,7 @@ for(const category of catalog.categories)for(const [i,word]of category.words.ent
   const options=pictureOptions(category,i,random);assert.equal(options.length,4);assert.equal(new Set(options.map(w=>w.id)).size,4);assert.ok(options.some(w=>w.id===word.id));assert.ok(options.every(w=>category.words.includes(w)));if(word.contrastGroup)assert.ok(options.every(w=>w.id===word.id||w.contrastGroup!==word.contrastGroup));positions.add(options.findIndex(w=>w.id===word.id));
  }
 }
-assert.equal(hashes.size,1274);assert.ok(positions.size>=3);
+assert.equal(hashes.size,1322);assert.ok(positions.size>=3);
 const source=JSON.parse(fs.readFileSync(new URL('picture-words/source.json',root)));
 for(const atlas of source.atlases){
  assert.equal(atlas.words.length,atlas.columns*atlas.rows);
@@ -59,4 +59,4 @@ const noMandarin=createWordAudio({synthesis:{cancel(){},getVoices:()=>[{lang:'en
 for(const page of ['index.html','homepage-v4.html']){
  const source=fs.readFileSync(new URL(page,root),'utf8');assert.equal((source.match(/id="practice-pictures"/g)||[]).length,1);assert.equal((source.match(/id="picture-practice"/g)||[]).length,1);
 }
-console.log('通过：24类1274张物品图、同类四选一、写字同款密码、1秒表情+2秒翻页、错误重选、导航取消计时和每个词的普通话播放。');
+console.log('通过：27类1322张物品图、同类四选一、写字同款密码、1秒表情+2秒翻页、错误重选、导航取消计时和每个词的普通话播放。');

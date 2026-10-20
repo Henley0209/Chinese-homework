@@ -1,7 +1,7 @@
 import {initPhonetics} from './phonetics.mjs?v=phonetics-mobile8';
 import {initQuizMusic} from './quiz-music.mjs?v=music20';
 import './password-visibility.mjs?v=password17';
-import {initPictureWords} from './picture-words.mjs?v=visits16';
+import {initPictureWords} from './picture-words.mjs?v=vocab1322';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';
 import {studentExercises} from './exercise-options.mjs?v=writing33';
 import {initWriting} from './writing-practice.mjs?v=phonetics1';

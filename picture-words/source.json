@@ -6781,6 +6781,273 @@
           "english": "golden fried sesame balls with one cut showing bean filling"
         }
       ]
+    },
+    {
+      "id": "smt-equipment",
+      "name": "SMT设备",
+      "vietnamese": "Thiết bị SMT",
+      "columns": 4,
+      "rows": 4,
+      "words": [
+        {
+          "chinese": "锡膏印刷机",
+          "vietnamese": "Máy in kem hàn",
+          "english": "solder paste stencil printer"
+        },
+        {
+          "chinese": "贴片机",
+          "vietnamese": "Máy gắn linh kiện SMT",
+          "english": "pick and place machine"
+        },
+        {
+          "chinese": "回流焊炉",
+          "vietnamese": "Lò hàn reflow",
+          "english": "reflow oven"
+        },
+        {
+          "chinese": "自动光学检测仪",
+          "vietnamese": "Máy kiểm tra quang học tự động",
+          "english": "automatic optical inspection machine"
+        },
+        {
+          "chinese": "锡膏检测仪",
+          "vietnamese": "Máy kiểm tra kem hàn",
+          "english": "solder paste inspection machine"
+        },
+        {
+          "chinese": "上板机",
+          "vietnamese": "Máy cấp bảng mạch",
+          "english": "PCB magazine loader"
+        },
+        {
+          "chinese": "下板机",
+          "vietnamese": "Máy thu bảng mạch",
+          "english": "PCB magazine unloader"
+        },
+        {
+          "chinese": "接驳台",
+          "vietnamese": "Băng tải nối chuyền PCB",
+          "english": "PCB conveyor"
+        },
+        {
+          "chinese": "锡膏搅拌机",
+          "vietnamese": "Máy trộn kem hàn",
+          "english": "solder paste mixer"
+        },
+        {
+          "chinese": "钢网清洗机",
+          "vietnamese": "Máy rửa khuôn in kem hàn",
+          "english": "ultrasonic stencil cleaner"
+        },
+        {
+          "chinese": "X射线检测仪",
+          "vietnamese": "Máy kiểm tra tia X",
+          "english": "X-ray PCB inspection cabinet"
+        },
+        {
+          "chinese": "激光打标机",
+          "vietnamese": "Máy khắc laser",
+          "english": "PCB laser marker"
+        },
+        {
+          "chinese": "分板机",
+          "vietnamese": "Máy tách bảng mạch",
+          "english": "PCB router depaneling machine"
+        },
+        {
+          "chinese": "防潮柜",
+          "vietnamese": "Tủ chống ẩm",
+          "english": "dry storage cabinet"
+        },
+        {
+          "chinese": "锡膏冷藏柜",
+          "vietnamese": "Tủ lạnh bảo quản kem hàn",
+          "english": "solder paste refrigerator"
+        },
+        {
+          "chinese": "防静电工作台",
+          "vietnamese": "Bàn làm việc chống tĩnh điện",
+          "english": "ESD workbench"
+        }
+      ]
+    },
+    {
+      "id": "dip-equipment",
+      "name": "DIP设备",
+      "vietnamese": "Thiết bị DIP",
+      "columns": 4,
+      "rows": 4,
+      "words": [
+        {
+          "chinese": "波峰焊机",
+          "vietnamese": "Máy hàn sóng",
+          "english": "wave soldering machine"
+        },
+        {
+          "chinese": "选择性波峰焊机",
+          "vietnamese": "Máy hàn sóng chọn lọc",
+          "english": "selective soldering machine"
+        },
+        {
+          "chinese": "立式插件机",
+          "vietnamese": "Máy cắm linh kiện chân hướng tâm",
+          "english": "radial component insertion machine"
+        },
+        {
+          "chinese": "卧式插件机",
+          "vietnamese": "Máy cắm linh kiện chân dọc trục",
+          "english": "axial component insertion machine"
+        },
+        {
+          "chinese": "插件流水线",
+          "vietnamese": "Dây chuyền cắm linh kiện",
+          "english": "manual insertion assembly line"
+        },
+        {
+          "chinese": "切脚机",
+          "vietnamese": "Máy cắt chân linh kiện",
+          "english": "component lead cutter"
+        },
+        {
+          "chinese": "成型机",
+          "vietnamese": "Máy uốn tạo hình chân linh kiện",
+          "english": "component lead forming machine"
+        },
+        {
+          "chinese": "锡炉",
+          "vietnamese": "Bể nhúng thiếc",
+          "english": "solder pot"
+        },
+        {
+          "chinese": "焊台",
+          "vietnamese": "Trạm hàn",
+          "english": "soldering station"
+        },
+        {
+          "chinese": "热风返修台",
+          "vietnamese": "Trạm khò sửa chữa",
+          "english": "hot air rework station"
+        },
+        {
+          "chinese": "烟雾净化器",
+          "vietnamese": "Máy lọc khói hàn",
+          "english": "fume extractor"
+        },
+        {
+          "chinese": "自动锁螺丝机",
+          "vietnamese": "Máy siết vít tự động",
+          "english": "automatic screw fastening machine"
+        },
+        {
+          "chinese": "三防漆涂覆机",
+          "vietnamese": "Máy phủ keo bảo vệ bảng mạch",
+          "english": "conformal coating machine"
+        },
+        {
+          "chinese": "紫外线固化炉",
+          "vietnamese": "Lò đóng rắn bằng tia UV",
+          "english": "UV curing tunnel"
+        },
+        {
+          "chinese": "在线测试仪",
+          "vietnamese": "Máy kiểm tra mạch ICT",
+          "english": "in circuit tester with bed of nails"
+        },
+        {
+          "chinese": "功能测试仪",
+          "vietnamese": "Máy kiểm tra chức năng",
+          "english": "functional PCB tester"
+        }
+      ]
+    },
+    {
+      "id": "warehouse-equipment",
+      "name": "仓库常用设备",
+      "vietnamese": "Thiết bị kho thông dụng",
+      "columns": 4,
+      "rows": 4,
+      "words": [
+        {
+          "chinese": "叉车",
+          "vietnamese": "Xe nâng hàng",
+          "english": "counterbalance forklift"
+        },
+        {
+          "chinese": "手动搬运车",
+          "vietnamese": "Xe nâng tay",
+          "english": "manual hydraulic pallet jack"
+        },
+        {
+          "chinese": "电动搬运车",
+          "vietnamese": "Xe nâng pallet điện",
+          "english": "electric pallet truck"
+        },
+        {
+          "chinese": "堆高车",
+          "vietnamese": "Xe nâng xếp chồng",
+          "english": "electric stacker"
+        },
+        {
+          "chinese": "货架",
+          "vietnamese": "Kệ kho",
+          "english": "pallet storage rack"
+        },
+        {
+          "chinese": "托盘",
+          "vietnamese": "Pallet",
+          "english": "wooden pallet"
+        },
+        {
+          "chinese": "平板推车",
+          "vietnamese": "Xe đẩy sàn phẳng",
+          "english": "flatbed trolley"
+        },
+        {
+          "chinese": "两轮手推车",
+          "vietnamese": "Xe đẩy hai bánh",
+          "english": "upright two wheel hand truck"
+        },
+        {
+          "chinese": "滚筒输送机",
+          "vietnamese": "Băng tải con lăn",
+          "english": "roller conveyor"
+        },
+        {
+          "chinese": "电子平台秤",
+          "vietnamese": "Cân sàn điện tử",
+          "english": "electronic platform scale"
+        },
+        {
+          "chinese": "条码扫描器",
+          "vietnamese": "Máy quét mã vạch",
+          "english": "barcode scanner"
+        },
+        {
+          "chinese": "标签打印机",
+          "vietnamese": "Máy in nhãn",
+          "english": "thermal label printer"
+        },
+        {
+          "chinese": "封箱机",
+          "vietnamese": "Máy dán thùng carton",
+          "english": "carton sealing machine"
+        },
+        {
+          "chinese": "打包机",
+          "vietnamese": "Máy đóng đai",
+          "english": "strapping machine"
+        },
+        {
+          "chinese": "缠绕膜包装机",
+          "vietnamese": "Máy quấn màng pallet",
+          "english": "stretch wrapping machine"
+        },
+        {
+          "chinese": "移动登高梯",
+          "vietnamese": "Thang kho di động",
+          "english": "wheeled warehouse ladder"
+        }
+      ]
     }
   ]
 }

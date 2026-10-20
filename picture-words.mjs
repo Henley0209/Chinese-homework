@@ -1,6 +1,6 @@
 import {loadPictureState,savePictureState} from './picture-words-state.mjs?v=objects2';
 import {resolveWritingLevel} from './writing-access.mjs?v=writing33';
-import {validatePictureCatalog,pictureOptions,pictureProgress,createPictureFeedback} from './picture-words-core.mjs?v=vocab1274';
+import {validatePictureCatalog,pictureOptions,pictureProgress,createPictureFeedback} from './picture-words-core.mjs?v=vocab1322';
 import {createWordAudio} from './picture-words-audio.mjs?v=objects2';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=selector=>document.querySelector(selector);
@@ -69,7 +69,7 @@ export function initPictureWords({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}
   try{
    // Reuse writing practice's exact password policy: any existing course password.
    resolveWritingLevel($('#bank-password').value,$('#question-bank').value);
-   if(!catalog){const response=await fetch('./picture-words/catalog.json?v=vocab1274');if(!response.ok)throw Error('图片词库加载失败，请重试。 / Không tải được từ vựng.');catalog=validatePictureCatalog(await response.json());}
+   if(!catalog){const response=await fetch('./picture-words/catalog.json?v=vocab1322');if(!response.ok)throw Error('图片词库加载失败，请重试。 / Không tải được từ vựng.');catalog=validatePictureCatalog(await response.json());}
    if(token!==version)return;
    onEnter();stopFeedback();document.dispatchEvent(new CustomEvent('practice:enter',{detail:'pictures'}));
    $('#bank-error').textContent='';$('#welcome').hidden=true;$('#exercise').hidden=true;$('#result').hidden=true;const writing=$('#writing-practice');if(writing)writing.hidden=true;

@@ -1,4 +1,4 @@
-import {initPhonetics} from './phonetics.mjs?v=phonetics3';
+import {initPhonetics} from './phonetics.mjs?v=phonetics4';
 import {initQuizMusic} from './quiz-music.mjs?v=music20';
 import './password-visibility.mjs?v=password17';
 import {initPictureWords} from './picture-words.mjs?v=visits16';

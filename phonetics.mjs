@@ -4,12 +4,12 @@ import {createMouthMotion} from './mouth-motion.mjs?v=phonetics3';
 import {createIsolatedAudio} from './phonetics-audio.mjs?v=phonetics3';
 import {phoneticCategories,mouthPhotos} from './phonetics-data.mjs?v=phonetics2';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
-const pageSize=6;
+const pageSize=6,playbackRate=.5;
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 const button=(zh,vi,action,cls='quiet')=>{const n=el('button',undefined,cls+' bilingual');n.type='button';n.append(el('span',zh),el('small',vi));n.lastChild.lang='vi';n.onclick=action;return n;};
 export function initPhonetics({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
  const root=document.querySelector('#pronunciation-practice'),entry=document.querySelector('#practice-pronunciation');if(!root||!entry)return;
- let category,page=0,selected=0,active=false,status,letter,playButton,tiles=[],photos,dialog,dialogReturn,motion,zoomCanvas,scrubber,rate=1,playGeneration=0;
+ let category,page=0,selected=0,active=false,status,letter,playButton,tiles=[],photos,dialog,dialogReturn,motion,zoomCanvas,playGeneration=0;
  function onStart(timing){active=true;status.textContent='正在播放读音和 AI 口型动作 / Đang phát âm và khẩu hình AI';playButton.textContent='■ 停止 / Dừng';motion?.play(timing);}
  function onEnd(){stop();status.textContent='播放完成，点击字母可再次聆听。 / Đã phát xong. Chạm chữ để nghe lại.';}
  function onUnavailable(){stop();status.textContent='读音加载或播放失败，请检查网络后点击重试。 / Không phát được âm. Kiểm tra mạng rồi chạm để thử lại.';}
@@ -31,9 +31,9 @@ export function initPhonetics({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
   const poster=photo(item.shapes[0],item.symbol+' · AI 口型');poster.removeAttribute('role');poster.removeAttribute('aria-label');poster.append(canvas);
   const b=button('','',()=>{
    dialogReturn=b;zoomCanvas=el('canvas');zoomCanvas.width=800;zoomCanvas.height=800;zoomCanvas.className='phonetics-motion-canvas is-zoom';zoomCanvas.setAttribute('role','img');zoomCanvas.setAttribute('aria-label',item.symbol+' · AI 口型放大 / Khẩu hình AI phóng to');
-   dialog.replaceChildren(el('h3',item.symbol+' · AI 口型动作 / Khẩu hình AI'),zoomCanvas,button('▶ 重播','Nghe lại',playCurrent,'primary'),button('0.5× 慢速播放','Phát chậm',()=>{rate=.5;root.querySelector('#phonetics-speed').value='0.5';void playCurrent();}),button('关闭','Đóng',closePhoto));motion.attach(zoomCanvas);dialog.showModal();
+   dialog.replaceChildren(el('h3',item.symbol+' · AI 口型动作 / Khẩu hình AI'),zoomCanvas,button('▶ 重播','Nghe lại',playCurrent,'primary'),button('关闭','Đóng',closePhoto));motion.attach(zoomCanvas);dialog.showModal();
   },'phonetics-photo-button');b.replaceChildren(poster);b.setAttribute('aria-label',item.symbol+' · 放大发音动作 / Phóng to khẩu hình');photos.append(b);
-  motion=createMouthMotion(canvas,{onProgress:value=>{if(scrubber)scrubber.value=String(Math.round(value*100));}});
+  motion=createMouthMotion(canvas);
   const owner=motion;
   void owner.prepare(item,category.id).catch(()=>{if(owner===motion)status.textContent='AI 口型素材暂未加载，可点击播放重试。 / Chưa tải được khẩu hình AI, chạm phát để thử lại.';});
  }
@@ -42,7 +42,7 @@ export function initPhonetics({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
   root.querySelector('[data-guide-zh]').textContent=item.zh;root.querySelector('[data-guide-vi]').textContent=item.vi;
   for(const b of tiles)b.setAttribute('aria-pressed',String(Number(b.dataset.index)===index));
   const chart=root.querySelector('.phonetics-tone');chart.hidden=!item.contour;if(item.contour)chart.querySelector('polyline').setAttribute('points',item.contour);
-  status.textContent='点击字母播放 AI 口型与读音，可选择慢速观察。 / Chạm chữ để phát khẩu hình AI và âm, chọn tốc độ chậm để quan sát.';showMotion(item);if(play)playCurrent();
+  status.textContent='点击字母，自动以 0.5 倍速朗读并播放对应口型。 / Chạm chữ để tự phát âm và khẩu hình ở tốc độ 0.5×.';showMotion(item);if(play)playCurrent();
  }
  async function playCurrent(){
   stop();const token=playGeneration,item=category.items[selected],owner=motion,group=category.id;
@@ -50,7 +50,7 @@ export function initPhonetics({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
   status.textContent='正在加载口型和读音… / Đang tải khẩu hình và âm…';
   try{await owner.prepare(item,group);}catch{if(token!==playGeneration)return;status.textContent='口型素材加载失败，请检查网络后重试。 / Không tải được khẩu hình, kiểm tra mạng rồi thử lại.';return;}
   if(token!==playGeneration||root.hidden||document.hidden)return;
-  if(group==='tones')void tonePlayer.play({pinyin:[item.pinyin],rate});else isolated.play(item.audio,{rate});
+  if(group==='tones')void tonePlayer.play({pinyin:[item.pinyin],rate:playbackRate});else isolated.play(item.audio,{rate:playbackRate});
  }
  function render(){
   stop();closePhoto();root.replaceChildren();const h=header(category.zh+' / '+category.vi);h.append(button('返回分类','Về danh mục',categories));root.append(h);
@@ -62,9 +62,7 @@ export function initPhonetics({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
   const chart=el('div',undefined,'phonetics-tone');chart.innerHTML='<svg viewBox="0 0 220 185" role="img" aria-label="五度声调示意：纵向越高音越高，横向为时间 / Đường cao độ theo thời gian"><path d="M20 20 V160 H195 M20 25 H190 M20 60 H190 M20 95 H190 M20 130 H190" fill="none" stroke="#d9dfe8"/><text x="1" y="28" font-size="12">5</text><text x="1" y="165" font-size="12">1</text><polyline fill="none" stroke="#375dce" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><text x="80" y="181" font-size="11">时间 / Thời gian →</text></svg>';
   playButton=button('▶ 播放','Phát âm',()=>{if(active){stop();status.textContent='已停止 / Đã dừng';}else playCurrent();},'primary');status=el('p',undefined,'phonetics-status');status.setAttribute('role','status');
   dialog=el('dialog',undefined,'phonetics-photo-dialog');dialog.setAttribute('aria-label','口型放大 / Phóng to khẩu hình');dialog.addEventListener('close',()=>{if(zoomCanvas)motion?.detach(zoomCanvas);zoomCanvas=null;dialogReturn?.focus({preventScroll:true});});dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closePhoto();}});
-  const controls=el('div',undefined,'phonetics-motion-controls'),speedLabel=el('label','播放速度 / Tốc độ '),speed=el('select');speed.id='phonetics-speed';for(const [value,label] of [[1,'1× 正常 / Bình thường'],[.75,'0.75× 慢速 / Chậm'],[.5,'0.5× 慢速 / Rất chậm']]){const option=el('option',label);option.value=String(value);speed.append(option);}speed.value=String(rate);speed.onchange=()=>{stop();rate=Number(speed.value);status.textContent='速度已切换，点击播放。 / Đã đổi tốc độ, chạm phát.';};speedLabel.append(speed);
-  const scrubLabel=el('label','拖动观察口型 / Kéo để xem khẩu hình');scrubber=el('input');scrubber.type='range';scrubber.min='0';scrubber.max='100';scrubber.value='0';scrubber.id='phonetics-motion-position';scrubber.oninput=()=>{const value=Number(scrubber.value)/100;stop();motion?.seek(value);status.textContent='正在分步观察，点击播放可重新聆听。 / Đang xem từng bước, chạm phát để nghe lại.';};scrubLabel.append(scrubber);controls.append(speedLabel,scrubLabel);
-  demo.append(letter,photos,el('p','AI 人嘴动作 · 点击放大 / Khẩu hình AI · Chạm để phóng to','phonetics-photo-hint'),controls,chart,zh,vi,playButton,status,el('p','AI 生成动作帧合成的写实口型模拟，仅作辅助参考。舌根等内部位置请结合文字说明。 / Khẩu hình mô phỏng từ các khung hình AI, dùng để tham khảo; xem hướng dẫn về vị trí bên trong miệng.','note'));
+  demo.append(letter,photos,el('p','AI 人嘴动作 · 点击放大 / Khẩu hình AI · Chạm để phóng to','phonetics-photo-hint'),chart,zh,vi,playButton,status,el('p','AI 生成动作帧合成的写实口型模拟，仅作辅助参考。舌根等内部位置请结合文字说明。 / Khẩu hình mô phỏng từ các khung hình AI, dùng để tham khảo; xem hướng dẫn về vị trí bên trong miệng.','note'));
   if(category.id==='initials')demo.append(el('p','声母本音短促，不附加韵母；y、w 分别按 i、u 的音值练习。 / Phụ âm được phát ngắn, không thêm vần; y và w luyện theo âm i và u.','note'));
   root.append(demo,dialog);select(selected);
  }

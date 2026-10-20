@@ -1,10 +1,10 @@
 import {resolveWritingLevel} from './writing-access.mjs?v=writing33';
-import {createPronunciationPlayer} from './pronunciation.mjs?v=phonetics3';
-import {createMouthMotion} from './mouth-motion.mjs?v=phonetics3';
-import {createIsolatedAudio} from './phonetics-audio.mjs?v=phonetics3';
+import {createPronunciationPlayer} from './pronunciation.mjs?v=phonetics5';
+import {createMouthMotion} from './mouth-motion.mjs?v=phonetics5';
+import {createIsolatedAudio} from './phonetics-audio.mjs?v=phonetics5';
 import {phoneticCategories,mouthPhotos} from './phonetics-data.mjs?v=phonetics2';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
-const pageSize=6,playbackRate=.5;
+const pageSize=6,playbackRate=.35;
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 const button=(zh,vi,action,cls='quiet')=>{const n=el('button',undefined,cls+' bilingual');n.type='button';n.append(el('span',zh),el('small',vi));n.lastChild.lang='vi';n.onclick=action;return n;};
 export function initPhonetics({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
@@ -42,7 +42,7 @@ export function initPhonetics({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
   root.querySelector('[data-guide-zh]').textContent=item.zh;root.querySelector('[data-guide-vi]').textContent=item.vi;
   for(const b of tiles)b.setAttribute('aria-pressed',String(Number(b.dataset.index)===index));
   const chart=root.querySelector('.phonetics-tone');chart.hidden=!item.contour;if(item.contour)chart.querySelector('polyline').setAttribute('points',item.contour);
-  status.textContent='点击字母，自动以 0.5 倍速朗读并播放对应口型。 / Chạm chữ để tự phát âm và khẩu hình ở tốc độ 0.5×.';showMotion(item);if(play)playCurrent();
+  status.textContent='点击字母，自动以 0.35 倍速朗读并播放对应口型。 / Chạm chữ để tự phát âm và khẩu hình ở tốc độ 0.35×.';showMotion(item);if(play)playCurrent();
  }
  async function playCurrent(){
   stop();const token=playGeneration,item=category.items[selected],owner=motion,group=category.id;
@@ -63,7 +63,7 @@ export function initPhonetics({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
   playButton=button('▶ 播放','Phát âm',()=>{if(active){stop();status.textContent='已停止 / Đã dừng';}else playCurrent();},'primary');status=el('p',undefined,'phonetics-status');status.setAttribute('role','status');
   dialog=el('dialog',undefined,'phonetics-photo-dialog');dialog.setAttribute('aria-label','口型放大 / Phóng to khẩu hình');dialog.addEventListener('close',()=>{if(zoomCanvas)motion?.detach(zoomCanvas);zoomCanvas=null;dialogReturn?.focus({preventScroll:true});});dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closePhoto();}});
   demo.append(letter,photos,el('p','AI 人嘴动作 · 点击放大 / Khẩu hình AI · Chạm để phóng to','phonetics-photo-hint'),chart,zh,vi,playButton,status,el('p','AI 生成动作帧合成的写实口型模拟，仅作辅助参考。舌根等内部位置请结合文字说明。 / Khẩu hình mô phỏng từ các khung hình AI, dùng để tham khảo; xem hướng dẫn về vị trí bên trong miệng.','note'));
-  if(category.id==='initials')demo.append(el('p','声母本音短促，不附加韵母；y、w 分别按 i、u 的音值练习。 / Phụ âm được phát ngắn, không thêm vần; y và w luyện theo âm i và u.','note'));
+  if(category.id==='initials')demo.append(el('p','声母按普通话拼音教学读法完整示范，慢速跟读。 / Phụ âm được đọc đầy đủ theo cách dạy pinyin tiếng Phổ thông, hãy luyện đọc chậm.','note'));
   root.append(demo,dialog);select(selected);
  }
  function changePage(delta){page+=delta;selected=page*pageSize;render();focusRoot();}

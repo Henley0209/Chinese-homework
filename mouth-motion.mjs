@@ -11,15 +11,12 @@ export const motionLayout={
  consonants:{columns:6,rows:4,y:[0,256,512,768,1024],x:[0,286,570,847,1117,1403,1536],frames:[0,1,2,3,4,0]}
 };
 const poses={open:['vowels-a',0],round:['vowels-a',1],back:['vowels-a',2],flat:['vowels-a',3],u:['vowels-b',0],pinch:['vowels-b',0],lipteeth:['vowels-b',2],nasal:['vowels-b',3],closed:['consonants',0],curled:['consonants',1],teeth:['consonants',2],high:['consonants',3],narrow:['consonants',3]};
-const initialPoses={b:'closed',p:'closed',m:'closed',f:'lipteeth',d:'nasal',t:'nasal',n:'nasal',l:'nasal',g:'back',k:'back',h:'back',j:'high',q:'high',x:'high',zh:'curled',ch:'curled',sh:'curled',r:'curled',z:'teeth',c:'teeth',s:'teeth',y:'flat',w:'u'};
+const initialPaths={b:['closed','round'],p:['closed','round'],m:['closed','round'],f:['lipteeth','round'],d:['nasal','back'],t:['nasal','back'],n:['nasal','back'],l:['nasal','back'],g:['back'],k:['back'],h:['back'],j:['high','flat'],q:['high','flat'],x:['high','flat'],zh:['curled'],ch:['curled'],sh:['curled'],r:['curled'],z:['teeth'],c:['teeth'],s:['teeth'],y:['flat'],w:['u']};
 const compoundPoses={ui:['u','back','flat'],iu:['flat','round','u'],uai:['u','open','flat'],iao:['flat','open','round'],un:['u','back','nasal'],ian:['flat','open','nasal'],'üan':['pinch','open','nasal'],iang:['flat','open','back'],uang:['u','open','back'],iong:['pinch','back']};
 const frame=(pose,column)=>({atlas:poses[pose][0],row:poses[pose][1],column});
 export function mouthSequence(item,category){
- if(category==='initials'){
-  const pose=initialPoses[item.symbol];if(!pose)throw Error('Unknown initial');
-  return (item.symbol==='m'?[0,1,1,1,1,0]:[0,1,2,3,4,5]).map(column=>frame(pose,column));
- }
- const path=category==='finals'?(compoundPoses[item.symbol]||[...new Set(item.shapes)]):['flat'];
+ const path=category==='initials'?initialPaths[item.symbol]:category==='finals'?(compoundPoses[item.symbol]||[...new Set(item.shapes)]):['flat'];
+ if(!path)throw Error('Unknown initial');
  if(!path.length||path.some(p=>!poses[p]))throw Error('Unknown mouth pose');
  if(path.length===1)return [0,1,2,3,4,5].map(column=>frame(path[0],column));
  return [frame(path[0],0),frame(path[0],1),...path.flatMap(p=>[frame(p,2),frame(p,3)]),frame(path.at(-1),4),frame(path.at(-1),5)];

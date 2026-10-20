@@ -16,10 +16,13 @@ for(const category of phoneticCategories){
    const source=sources[category.id+'/'+item.symbol];assert.equal(source.file,item.audio);
    assert.ok(fs.statSync(new URL('../'+item.audio,import.meta.url)).size>500);
    assert.ok(source.duration>.3&&source.duration<3);
-   if(category.id==='initials'&&!['y','w'].includes(item.symbol))assert.ok(source.trim[1]<.51,'Initial recordings exclude the following syllable vowel');
+   if(category.id==='initials'){assert.equal(source.mode,'teaching-initial');assert.deepEqual(source.trim,[null,null],'Teaching initials preserve complete recorded pronunciation');}
+   if(category.id==='finals'&&!['o','eng','ong'].includes(item.symbol))assert.deepEqual(source.trim,[null,null],'Zero-initial finals preserve complete recordings');
   }else assert.ok(manifest[pinyinKey(item.pinyin)]);
  }
 }
+const teachingKeys={b:'bo1',p:'po1',m:'mo1',f:'fo1',d:'de1',t:'te1',n:'ne1',l:'le1',g:'ge1',k:'ke1',h:'he1',j:'ji1',q:'qi1',x:'xi1',zh:'zhi1',ch:'chi1',sh:'shi1',r:'ri1',z:'zi1',c:'ci1',s:'si1',y:'yi1',w:'wu1'};
+for(const [symbol,key] of Object.entries(teachingKeys))assert.equal(sources['initials/'+symbol].sourceKey,key,'Correct teaching recording for '+symbol);
 assert.throws(()=>resolveWritingLevel(''));assert.throws(()=>resolveWritingLevel('invalid'));
 let instance,started=0,ended=0,unavailable=0,reject;
 class AudioMock{
@@ -37,4 +40,4 @@ audio.play('pronunciation/isolated/finals-o.mp3');staleEnd();staleError();assert
 instance.onended();assert.equal(ended,1);audio.stop();assert.equal(instance.paused,true);
 assert.equal(audio.play('pronunciation/isolated/finals-a.mp3'),true);reject(Error('blocked'));await Promise.resolve();assert.equal(unavailable,1);
 assert.equal(audio.play('pronunciation/na.mp3'),false,'Never fall back to a full syllable');assert.equal(unavailable,2);
-console.log('通过：58 项独立声韵母录音、静态口型映射、无示范音节、声调录音、手机同步播放、切换停止、过期事件和失败重试。');
+console.log('通过：58 项完整教学声母及韵母录音、静态口型映射、无示范音节、声调录音、手机同步播放、切换停止、过期事件和失败重试。');

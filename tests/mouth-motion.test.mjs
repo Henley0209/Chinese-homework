@@ -9,7 +9,7 @@ for(const group of phoneticCategories)for(const item of group.items){
 }
 const finals=phoneticCategories.find(c=>c.id==='finals');
 const ai=mouthSequence(finals.items.find(x=>x.symbol==='ai'),'finals');assert.ok(new Set(ai.map(f=>f.row)).size>1,'Diphthong moves between its vowel poses');
-const m=mouthSequence({symbol:'m'},'initials');assert.ok(m.every(f=>f.column<2),'m keeps lips closed rather than adding a vowel');
+const m=mouthSequence({symbol:'m'},'initials');assert.ok(m.some(f=>f.atlas==='consonants')&&m.some(f=>f.atlas==='vowels-a'),'m teaching reading moves from closed lips into its rounded vowel');
 assert.equal(motionLayout['vowels-b'].columns,5,'Use the inspected AI atlas grid, without cropping across tile boundaries');
 // Exercise animation lifecycle with controlled image loading and a media clock.
 const saved={Image:globalThis.Image,requestAnimationFrame:globalThis.requestAnimationFrame,cancelAnimationFrame:globalThis.cancelAnimationFrame};
@@ -28,5 +28,5 @@ try{
  const canceled=createMouthMotion(canvas()),preparingLate=canceled.prepare(finals.items.find(x=>x.symbol==='u'),'finals');canceled.dispose();pending[1].onload();assert.equal(await preparingLate,false);
  const failed=createMouthMotion(canvas()),loadingFailed=failed.prepare({symbol:'b'},'initials');pending[2].onerror();await assert.rejects(loadingFailed);
  const retry=failed.prepare({symbol:'b'},'initials');pending[3].onload();assert.equal(await retry,true);failed.dispose();
- console.log('通过：63 项动作路径、复韵母过渡、m 闭唇、素材网格、媒体时钟同步、放大同步、停止复位与过期加载取消。');
+ console.log('通过：63 项动作路径、复韵母过渡、声母教学读音过渡、素材网格、媒体时钟同步、放大同步、停止复位与过期加载取消。');
 }finally{Object.assign(globalThis,saved);}

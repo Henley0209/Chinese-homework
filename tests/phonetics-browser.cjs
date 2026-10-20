@@ -3,7 +3,7 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict');
 (async()=>{
  fs.mkdirSync('work',{recursive:true});
  const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
- const context=await browser.newContext({viewport:{width:390,height:844}}),page=await context.newPage();
+ const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,deviceScaleFactor:3}),page=await context.newPage();
  await page.addInitScript(()=>{const Native=window.Audio;window.__practiceAudio=[];window.Audio=function(...args){const audio=new Native(...args);window.__practiceAudio.push(audio);return audio;};window.Audio.prototype=Native.prototype;});
  const requests=[];page.on('request',r=>requests.push(r.url()));
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
@@ -29,6 +29,16 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict');
  assert.equal(await root.locator('select,input[type=range]').count(),0,'No playback speed or motion scrub controls');
  await root.locator('.phonetics-letters button').first().click();
  await page.waitForFunction(()=>Number(document.querySelector('.phonetics-motion-canvas')?.dataset.motionProgress)>.1);
+ // Older mobile engines can ignore aspect-ratio; the canvas must still occupy a square.
+ const fallback=await page.addStyleTag({content:'.phonetics-photo,.phonetics-motion-canvas{aspect-ratio:auto!important}'});
+ for(const width of [320,390,600,768,1440]){
+  await page.setViewportSize({width,height:900});
+  const box=await root.locator('.phonetics-motion-canvas').boundingBox();
+  assert.ok(box&&box.width>150&&box.height>150,'Visible mouth canvas at '+width+'px');
+  assert.ok(Math.abs(box.width-box.height)<2,'Square mouth canvas at '+width+'px');
+  assert.ok(await root.locator('.phonetics-motion-canvas').evaluate(c=>c.getContext('2d').getImageData(0,0,c.width,c.height).data.some((v,i)=>i%4===3&&v>0)),'Mouth pixels rendered');
+ }
+ await fallback.evaluate(el=>el.remove());await page.setViewportSize({width:390,height:844});
  const early=await root.locator('.phonetics-motion-canvas').evaluate(c=>c.toDataURL());
  await page.waitForFunction(()=>Number(document.querySelector('.phonetics-motion-canvas')?.dataset.motionProgress)>.5);
  const later=await root.locator('.phonetics-motion-canvas').evaluate(c=>c.toDataURL());assert.notEqual(early,later,'AI mouth frames change while audio plays');

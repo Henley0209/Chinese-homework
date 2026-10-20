@@ -27,6 +27,14 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict');
  const root=page.locator('#pronunciation-practice');assert.equal(await root.locator('.phonetics-categories button').count(),3);
  await root.getByRole('button',{name:'韵母 Vần'}).click();assert.equal(await root.locator('.phonetics-letters button').count(),6);
  assert.equal(await root.locator('select,input[type=range]').count(),0,'No playback speed or motion scrub controls');
+ // The initial mouth image is visible before any letter, playback, or zoom tap.
+ await page.waitForFunction(()=>document.querySelector('.phonetics-motion-canvas')?.dataset.motionProgress==='0.000');
+ const initialBox=await root.locator('.phonetics-motion-canvas').boundingBox();
+ assert.ok(initialBox&&initialBox.height>150&&Math.abs(initialBox.height-initialBox.width)<2,'Mouth appears automatically');
+ assert.ok(await root.locator('.phonetics-motion-canvas').evaluate(c=>c.getContext('2d').getImageData(0,0,c.width,c.height).data.some((v,i)=>i%4===3&&v>0)),'Initial mouth image is painted');
+ assert.equal(await root.locator('dialog').evaluate(d=>d.open),false,'No zoom tap required');
+ const letterBox=await root.locator('.phonetics-letters button').first().boundingBox();
+ assert.ok(letterBox.height<70,'Compact mobile letter buttons');
  await root.locator('.phonetics-letters button').first().click();
  await page.waitForFunction(()=>Number(document.querySelector('.phonetics-motion-canvas')?.dataset.motionProgress)>.1);
  // Older mobile engines can ignore aspect-ratio; the canvas must still occupy a square.

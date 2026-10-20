@@ -1,0 +1,45 @@
+const {chromium}=require('playwright');
+const fs=require('fs'),path=require('path'),assert=require('assert/strict');
+(async()=>{
+ fs.mkdirSync('work',{recursive:true});
+ const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
+ const context=await browser.newContext({viewport:{width:390,height:844}}),page=await context.newPage();
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.route('**/*',async route=>{
+  const u=new URL(route.request().url());if(u.hostname!=='practice.test')return route.abort();
+  const file=path.resolve('.',decodeURIComponent(u.pathname).replace(/^\//,'')||'index.html');
+  if(!file.startsWith(process.cwd()+path.sep))return route.abort();
+  if(!fs.existsSync(file))return route.fulfill({status:404,body:''});
+  const ext=path.extname(file),mime={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.bin':'application/octet-stream','.png':'image/png','.jpg':'image/jpeg'}[ext]||'application/octet-stream';
+  return route.fulfill({status:200,contentType:mime,body:fs.readFileSync(file)});
+ });
+ await page.goto('http://practice.test/index.html?appearance-preview=1');
+ await page.waitForFunction(()=>document.querySelector('#practice-pronunciation').onclick!==null);
+ await page.locator('#practice-pronunciation').click();
+ assert.equal(await page.locator('#pronunciation-practice').isVisible(),false);
+ assert.match(await page.locator('#bank-error').innerText(),/请输入/);
+ await page.locator('#bank-password').fill('wrong');await page.locator('#practice-pronunciation').click();assert.match(await page.locator('#bank-error').innerText(),/不正确/);
+ // Use the same configured course password as picture words without logging it.
+ const banks=await import(path.resolve('bank-access.mjs'));await page.locator('#bank-password').fill(banks.banks[0].password);
+ await page.locator('#practice-pronunciation').click();assert.equal(await page.locator('#welcome').isVisible(),false);
+ const root=page.locator('#pronunciation-practice');assert.equal(await root.locator('.phonetics-categories button').count(),3);
+ await root.getByRole('button',{name:'韵母 Vần'}).click();assert.equal(await root.locator('.phonetics-letters button').count(),6);
+ await root.locator('.phonetics-letters button').first().click();
+ await page.waitForFunction(()=>document.querySelector('.phonetics-status').textContent.includes('播放完成'));
+ assert.equal(await root.locator('.phonetics-selected').innerText(),'a');
+ await root.getByRole('button',{name:'② 查看发音口型 Khẩu hình phát âm'}).click();
+ assert.match(await root.locator('.phonetics-phase').innerText(),/②/);
+ for(let i=0;i<5;i++)await root.getByRole('button',{name:'下一页 → Trang sau'}).click();
+ assert.equal(await root.locator('.phonetics-letters button').count(),5);
+ assert.equal(await root.getByRole('button',{name:'下一页 → Trang sau'}).isDisabled(),true);
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,'mobile must not overflow');
+ await page.screenshot({path:'work/phonetics-mobile.png',fullPage:true});
+ await root.getByRole('button',{name:'返回分类 Về danh mục'}).click();await root.getByRole('button',{name:'声调 Thanh điệu'}).click();
+ await root.locator('.phonetics-letters button').nth(2).click();assert.equal(await root.locator('.phonetics-tone').isVisible(),true);
+ await root.getByRole('button',{name:'返回主页 Về trang chủ'}).click();assert.equal(await root.isVisible(),false);
+ assert.equal(await page.evaluate(()=>[...document.querySelectorAll('audio')].every(a=>a.paused)),true);
+ await page.setViewportSize({width:1440,height:1000});await page.locator('#practice-pronunciation').click();await root.getByRole('button',{name:'声母 Phụ âm đầu'}).click();await root.locator('.phonetics-letters button').first().click();
+ await page.screenshot({path:'work/phonetics-desktop.png',fullPage:true});
+ assert.deepEqual(errors,[]);console.log('PASS mobile and desktop: auth, categories, recorded playback, step views, pagination, tone chart, return home, no JS errors.');
+ await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

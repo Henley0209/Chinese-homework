@@ -22,13 +22,15 @@ globalThis.fetch=async url=>{
  return {ok:true,arrayBuffer:async()=>new Uint8Array([1,2,3,4]).buffer};
 };
 try{
- let unavailable=0;
- const p=createPronunciationPlayer({onUnavailable:()=>unavailable++});
+ let unavailable=0,starts=0,ends=0;
+ const p=createPronunciationPlayer({onUnavailable:()=>unavailable++,onStart:()=>starts++,onEnd:()=>ends++});
  gesture=true;p.unlock();gesture=false;await Promise.resolve();
  assert.equal(created.length,1,'unlock creates the reusable audio element');
  assert.equal(await p.play(entry),true,'asynchronous download retains the unlocked element');
  assert.equal(created.length,1);
+ created[0].onplaying();assert.equal(starts,1,'animation starts when recording plays');
  assert.equal(await p.play(entry),false,'do not overlap active recordings');
+ created[0].paused=true;created[0].ended=true;created[0].onended();assert.equal(ends,1,'animation ends with recording');
  p.stop();assert.equal(await p.play(entry),true,'switching letters reuses audio permission');p.stop();
  assert.equal(unavailable,0);
  const blocked=createPronunciationPlayer({onUnavailable:()=>unavailable++});

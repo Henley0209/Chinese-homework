@@ -22,10 +22,10 @@ console.log('通过：成功登录+1、并发/重复去重、刷新只读、切�
 
 let practiceTotal=0;const practice=createLoginCounter({fetchFn:async(url,options)=>{if(options.method==='POST')practiceTotal++;return {ok:true,json:async()=>({value:practiceTotal})};}});
 await practice.load();assert.equal(practiceTotal,0);
-for(const mode of ['writing','pictures','quiz','writing','pictures','quiz'])await practice.recordPracticeEntry(mode);
-assert.equal(practiceTotal,6);await practice.load();assert.equal(practiceTotal,6);
-await practice.recordPracticeEntry('invalid');assert.equal(practiceTotal,6);
+for(const mode of ['writing','pictures','quiz','pronunciation','writing','pictures','quiz','pronunciation'])await practice.recordPracticeEntry(mode);
+assert.equal(practiceTotal,8);await practice.load();assert.equal(practiceTotal,8);
+await practice.recordPracticeEntry('invalid');assert.equal(practiceTotal,8);
 let failedEntries=0;const failedPractice=createLoginCounter({fetchFn:async()=>{failedEntries++;throw Error('offline');}});
 await failedPractice.recordPracticeEntry('writing');assert.equal(failedEntries,1);
 await failedPractice.recordPracticeEntry('writing');assert.equal(failedEntries,2);
-console.log('通过：答题、写字、看图识词每次成功进入均可独立加1，同模式再次进入不被角色去重拦截，刷新只读，统计失败不自动重复提交。');
+console.log('通过：答题、写字、看图识词和发音练习每次成功进入均可独立加1，同模式再次进入不被角色去重拦截，刷新只读，统计失败不自动重复提交。');

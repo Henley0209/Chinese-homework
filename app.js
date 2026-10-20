@@ -1,15 +1,16 @@
+import {initPhonetics} from './phonetics.mjs?v=phonetics1';
 import {initQuizMusic} from './quiz-music.mjs?v=music20';
 import './password-visibility.mjs?v=password17';
 import {initPictureWords} from './picture-words.mjs?v=visits16';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';
 import {studentExercises} from './exercise-options.mjs?v=writing33';
-import {initWriting} from './writing-practice.mjs?v=visits16';
+import {initWriting} from './writing-practice.mjs?v=phonetics1';
 import {showFeedback,stopFeedback} from './result-feedback.mjs?v=writing21';
-import {recordPracticeEntry} from './visit-counter.mjs?v=visits16';
+import {recordPracticeEntry} from './visit-counter.mjs?v=phonetics1';
 import {validate,grade,normalize} from './grading.mjs';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
 import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {teacherActive} from './teacher-tools.mjs?v=visits16';
+import {teacherActive} from './teacher-tools.mjs?v=phonetics1';
 const quizMusic=initQuizMusic();
 const $=s=>document.querySelector(s);let data,student,submitted=false,intro=null,starting=false,activeProgress=null,restoring=false;const notice=t=>$('#notice').textContent=t;
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
@@ -84,3 +85,5 @@ try{await loadCatalog();intro=introExercise();syncExercises();install(intro);}ca
 
 initWriting({onAuthenticatedEntry:()=>{void recordPracticeEntry('writing');}});
 initPictureWords({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{void recordPracticeEntry('pictures');}});
+
+initPhonetics({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{void recordPracticeEntry('pronunciation');}});

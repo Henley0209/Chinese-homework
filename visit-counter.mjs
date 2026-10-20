@@ -30,7 +30,7 @@ export function createLoginCounter({fetchFn=globalThis.fetch,render=()=>{},base=
   },
   // Each call represents a separately completed, password-authenticated entry.
   recordPracticeEntry(mode){
-   return ['quiz','writing','pictures'].includes(mode)?update('hit'):Promise.resolve(value);
+   return ['quiz','writing','pictures','pronunciation'].includes(mode)?update('hit'):Promise.resolve(value);
   },
   resetSession(){loggedIn.clear();},
   current:()=>value
@@ -45,7 +45,7 @@ if(typeof document!=='undefined'){
   else{
    live=createLoginCounter({render:({value,error})=>{
     total.textContent=value===null?(error?'暂不可用':'…'):value.toLocaleString('zh-CN');
-    container.title=error?'全站计数暂未同步；不影响答题。':'全站累计：输入有效题库密码后，每次成功进入答题、写字或看图识词计1次；教师验证通过计1次。';
+    container.title=error?'全站计数暂未同步；不影响答题。':'全站累计：输入有效题库密码后，每次成功进入答题、写字、看图识词或发音练习计1次；教师验证通过计1次。';
     container.dataset.state=error?'unavailable':'ready';
    }});
    live.load();

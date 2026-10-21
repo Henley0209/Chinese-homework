@@ -6,7 +6,7 @@ import {studentExercises} from '../exercise-options.mjs';
 import {progressKey,saveProgress,loadProgress} from '../exercise-progress.mjs';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
 const catalog=read('exercise-catalog.json'),manifest=read('hsk5-30/manifest.json');
-assert.equal(manifest.length,30);assert.equal(validateCatalog(catalog).exercises.length,149);
+assert.equal(manifest.length,30);assert.equal(validateCatalog(catalog).exercises.filter(e=>!/^daily-topic-\d{2}$/.test(e.id)).length,149);
 const sentences=new Set(),letters=s=>[...s.replace(/[。.]/gu,'')].sort().join('');
 for(const m of manifest){
  const d=validate(read('hsk5-30/'+m.file));assert.equal(d.questions.length,20);

@@ -3,7 +3,7 @@ export const previewText='你好，欢迎参加今天的听力练习。请仔细
 export const recordingKey=({role,text})=>JSON.stringify([fixedVoices[role],text]);
 // One media element retains the user's playback permission on mobile devices.
 // Every audible clip comes from the site's verified recordings; no device TTS.
-export function createRecordedPlayer({AudioClass=globalThis.Audio,fetchManifest=()=>fetch(new URL('./audio/manifest.json?v=fixed4',import.meta.url)).then(r=>{if(!r.ok)throw Error('Audio manifest unavailable');return r.json();}),onStatus=()=>{}}={}){
+export function createRecordedPlayer({AudioClass=globalThis.Audio,fetchManifest=()=>fetch(new URL('./audio/manifest.json?v=bank300v1',import.meta.url)).then(r=>{if(!r.ok)throw Error('Audio manifest unavailable');return r.json();}),onStatus=()=>{}}={}){
  let audio,generation=0,manifestPromise,unlocked=false;
  const baseURL=new URL('./audio/',import.meta.url);
  function loadManifest(){

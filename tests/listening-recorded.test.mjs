@@ -4,7 +4,7 @@ import {generateQuestions,generationChoices} from '../listening/data.mjs';
 import {questionSegments} from '../listening/speech.mjs';
 import {createRecordedPlayer,fixedVoices,recordingKey} from '../listening/recorded-player.mjs';
 const corpus=buildCorpus(),clips=Object.fromEntries(corpus.map(c=>[c.key,{file:c.file,voice:c.voice,duration:1}]));
-assert.equal(corpus.length,229);assert.deepEqual(voices,fixedVoices);assert.deepEqual(buildCorpus(),corpus,'corpus enumeration is deterministic despite random question order');
+assert.equal(corpus.length,1830);assert.deepEqual(voices,fixedVoices);assert.deepEqual(buildCorpus(),corpus,'corpus enumeration is deterministic despite random question order');
 const choices=generationChoices;
 for(const name of choices.names)for(const hour of choices.hours)for(const price of choices.prices)for(const count of choices.counts)for(const id of ['hsk','daily','factory']){
  for(const q of generateQuestions(id,{randomize:true,values:{name,hour,price,count}})){
@@ -31,6 +31,11 @@ await player.play(dialogue);const oldEnd=audio.onended,n=played.length;player.st
 await player.play([{role:'narrator',text:'not recorded'}]);assert.match(statuses.at(-1),/暂不可用/);
 let resolveManifest;const delayed=new Promise(resolve=>{resolveManifest=resolve;});const slow=createRecordedPlayer({AudioClass:FakeAudio,fetchManifest:()=>delayed});const pending=slow.play(dialogue);slow.stop();const before=played.length;resolveManifest(manifest);await pending;assert.equal(played.length,before,'late manifest cannot restart stopped audio');
 const deny=createRecordedPlayer({AudioClass:class extends FakeAudio{play(){return Promise.reject(Object.assign(Error(),{name:'NotAllowedError'}));}},fetchManifest:async()=>manifest,onStatus:text=>statuses.push(text)});await deny.play(dialogue);await new Promise(resolve=>setImmediate(resolve));assert.match(statuses.at(-1),/请点击/);
-console.log('PASS: 229-clip corpus covers all variants; fixed voices, sequencing, mobile element reuse, speed, cancellation and playback errors.');
+console.log('PASS: 1830-clip corpus covers all variants; fixed voices, sequencing, mobile element reuse, speed, cancellation and playback errors.');
 
 await player.play(dialogue);assert.equal(audio.playbackRate,.8,'female defaults to 0.8');audio.onended();assert.equal(audio.playbackRate,.8,'male defaults to 0.8');player.stop();
+
+const expanded=await import('../listening/bank300.mjs');
+for(const category of expanded.categories)for(const q of expanded.generateQuestions(category.id)){
+ for(const segment of [...questionSegments(q.text,q.question),...q.options.map(text=>({role:'narrator',text}))])assert.ok(clips[recordingKey(segment)],`${q.id} has a matching fixed-voice recording`);
+}

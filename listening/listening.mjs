@@ -1,7 +1,7 @@
-import {categories,generateQuestions} from './data.mjs?v=fixed4';
+import {categories,generateQuestions} from './bank300.mjs?v=bank300v1';
 import {questionSegments} from './speech.mjs?v=natural3';
-import {createRecordedPlayer} from './recorded-player.mjs?v=compact5';
-import {createListeningProgress} from './progress.mjs?v=compact5';
+import {createRecordedPlayer} from './recorded-player.mjs?v=bank300v1';
+import {createListeningProgress} from './progress.mjs?v=bank300v1';
 const root=document.querySelector('#listening-app'),back=document.querySelector('#listening-categories'),intro=document.querySelector('.listening-intro');
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 const button=(text,fn,cls='quiet')=>{const b=el('button',text,cls);b.type='button';b.onclick=fn;return b;};
@@ -26,10 +26,10 @@ function showCategories(){
  const grid=el('div',undefined,'listening-categories');
  for(const c of categories){
   const b=button('',()=>enter(c,{autoplay:true}),'listening-category'),icon=el('span',c.icon,'icon');icon.setAttribute('aria-hidden','true');
-  const vi=el('span',c.vi);vi.lang='vi';const saved=progressStore.load(c.id);b.append(icon,el('strong',c.zh),vi);
+  const vi=el('span',c.vi);vi.lang='vi';const saved=progressStore.load(c.id);b.append(icon,el('strong',c.zh),vi,el('small',`${c.questionCount} 题 / câu`));
   if(saved)b.append(el('small',saved.finished?'已完成 / Đã xong':`继续第 ${saved.index+1} 题 / Tiếp câu ${saved.index+1}`));grid.append(b);
  }
- root.append(grid,el('p','点击分类直接练习；题目和进度自动保存在当前浏览器。 / Chọn chủ đề để luyện ngay; bài và tiến độ được tự lưu trên trình duyệt này.','note'));focus();
+ root.append(grid,el('p','每类 300 题，单人朗读和双人对话依次交替；进度自动保存在当前浏览器。 / Mỗi chủ đề 300 câu, xen kẽ một người và hội thoại hai người; tự lưu tiến độ.','note'));focus();
 }
 function enter(c,{autoplay=false}={}){
  if(category)saveCurrent();stop();category=c;setView(true);setHash(c.id);
@@ -45,7 +45,7 @@ function move(delta){saveCurrent();index+=delta;render();saveCurrent();readQuest
 function render(){
  stop();finished=false;status=null;saveStatus=null;const q=questions[index],answered=Number.isInteger(answers[index]);root.replaceChildren();setView(true);toolbar(category.zh+' / '+category.vi);
  const meta=el('div',undefined,'listening-meta'),count=el('span'),saved=el('span',undefined,'listening-save');saveStatus=saved;saved.setAttribute('role','status');meta.append(count,saved);root.append(meta);
- function updateCount(){count.textContent=`第 ${index+1} / ${questions.length} 题 · 答对 ${answers.filter((a,i)=>a===questions[i].answer).length} 题 / Câu ${index+1}`;}
+ function updateCount(){count.textContent=`第 ${index+1} / ${questions.length} 题 · ${q.format==='dialogue'?'双人对话':'单人朗读'} · 答对 ${answers.filter((a,i)=>a===questions[i].answer).length} 题 / Câu ${index+1}`;}
  updateCount();const progress=el('progress');progress.max=questions.length;progress.value=answeredCount();progress.setAttribute('aria-label','答题进度 / Tiến độ');root.append(progress);
  const controls=el('div',undefined,'listening-controls'),label=el('label','语速 / Tốc độ '),select=el('select');select.setAttribute('aria-label','语速 / Tốc độ');
  for(const value of [.65,.8,1]){const o=el('option',value+'×');o.value=value;select.append(o);}select.value=String(rate===.85?.8:rate);rate=Number(select.value);

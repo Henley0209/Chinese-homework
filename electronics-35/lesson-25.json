@@ -1,0 +1,1092 @@
+{
+  "title": "电子工厂 第25课 功能测试与结果反馈",
+  "description": "面向越南学习者的电子工厂汉语原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“功能”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "dōng néng",
+        "B": "gōng néng",
+        "C": "cōng néng",
+        "D": "gōng léng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“功能”读作 gōng néng，本课词义：chức năng。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“测试”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "chè shì",
+        "B": "cè shì",
+        "C": "cè sì",
+        "D": "cà shì"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“测试”读作 cè shì，本课词义：kiểm thử。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“通过”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "tōng guò",
+        "B": "cōng guò",
+        "C": "gōng guò",
+        "D": "dōng guò"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“通过”读作 tōng guò，本课词义：đạt。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“失败”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "shī bài",
+        "B": "chī bài",
+        "C": "shī bèi",
+        "D": "sī bài"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“失败”读作 shī bài，本课词义：không đạt, thất bại。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“显示”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "xiǎn shì",
+        "B": "xiǎn sì",
+        "C": "xiǎng shì",
+        "D": "qiǎn shì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“显示”读作 xiǎn shì，本课词义：hiển thị。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“接触”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "biē chù",
+        "B": "jiē chù",
+        "C": "qiē chù",
+        "D": "jiē cù"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“接触”读作 jiē chù，本课词义：tiếp xúc。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“程序”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "céng xù",
+        "B": "chéng qù",
+        "C": "chén xù",
+        "D": "chéng xù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“程序”读作 chéng xù，本课词义：chương trình。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“复测”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "fù cè",
+        "B": "bù cè",
+        "C": "hù cè",
+        "D": "fù chè"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“复测”读作 fù cè，本课词义：kiểm thử lại。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“输出”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "shū chū",
+        "B": "shū cū",
+        "C": "sū chū",
+        "D": "chū chū"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“输出”读作 shū chū，本课词义：đầu ra。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“数据”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "shù jù",
+        "B": "sù jù",
+        "C": "chù jù",
+        "D": "shù qù"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“数据”读作 shù jù，本课词义：dữ liệu。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这项____测试时没有正常响应。",
+      "pinyin": "zhè xiàng ____ cè shì shí méi yǒu zhèng cháng xiǎng yìng",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: chức năng.",
+      "options": {
+        "A": "接触",
+        "B": "功能",
+        "C": "数据",
+        "D": "显示"
+      },
+      "optionPinyin": {
+        "A": "jiē chù",
+        "B": "gōng néng",
+        "C": "shù jù",
+        "D": "xiǎn shì"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“功能”（chức năng）。完整表达：这项功能测试时没有正常响应。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这个型号使用哪一套____程序。",
+      "pinyin": "qǐng wèn zhè ge xíng hào shǐ yòng nǎ yī tào ____ chéng xù",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: kiểm thử.",
+      "options": {
+        "A": "测试",
+        "B": "通过",
+        "C": "接触",
+        "D": "复测"
+      },
+      "optionPinyin": {
+        "A": "cè shì",
+        "B": "tōng guò",
+        "C": "jiē chù",
+        "D": "fù cè"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“测试”（kiểm thử）。完整表达：请问这个型号使用哪一套测试程序。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这件产品已经____检测结果已记录。",
+      "pinyin": "zhè jiàn chǎn pǐn yǐ jīng ____ jiǎn cè jié guǒ yǐ jì lù",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: đạt.",
+      "options": {
+        "A": "功能",
+        "B": "复测",
+        "C": "通过",
+        "D": "程序"
+      },
+      "optionPinyin": {
+        "A": "gōng néng",
+        "B": "fù cè",
+        "C": "tōng guò",
+        "D": "chéng xù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“通过”（đạt）。完整表达：这件产品已经通过检测结果已记录。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这次测试____的现象我已经记录下来。",
+      "pinyin": "zhè cì cè shì ____ de xiàn xiàng wǒ yǐ jīng jì lù xià lái",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: không đạt, thất bại.",
+      "options": {
+        "A": "输出",
+        "B": "失败",
+        "C": "程序",
+        "D": "通过"
+      },
+      "optionPinyin": {
+        "A": "shū chū",
+        "B": "shī bài",
+        "C": "chéng xù",
+        "D": "tōng guò"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“失败”（không đạt, thất bại）。完整表达：这次测试失败的现象我已经记录下来。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：按下开关以后屏幕没有正常____。",
+      "pinyin": "àn xià kāi guān yǐ hòu píng mù méi yǒu zhèng cháng ____",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: hiển thị.",
+      "options": {
+        "A": "输出",
+        "B": "显示",
+        "C": "接触",
+        "D": "通过"
+      },
+      "optionPinyin": {
+        "A": "shū chū",
+        "B": "xiǎn shì",
+        "C": "jiē chù",
+        "D": "tōng guò"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“显示”（hiển thị）。完整表达：按下开关以后屏幕没有正常显示。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这个接口疑似____不良请协助检查。",
+      "pinyin": "zhè ge jiē kǒu yí sì ____ bù liáng qǐng xié zhù jiǎn chá",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiếp xúc.",
+      "options": {
+        "A": "程序",
+        "B": "接触",
+        "C": "功能",
+        "D": "失败"
+      },
+      "optionPinyin": {
+        "A": "chéng xù",
+        "B": "jiē chù",
+        "C": "gōng néng",
+        "D": "shī bài"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“接触”（tiếp xúc）。完整表达：这个接口疑似接触不良请协助检查。"
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：测试____的版本请在开始前核实。",
+      "pinyin": "cè shì ____ de bǎn běn qǐng zài kāi shǐ qián hé shí",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: chương trình.",
+      "options": {
+        "A": "数据",
+        "B": "接触",
+        "C": "测试",
+        "D": "程序"
+      },
+      "optionPinyin": {
+        "A": "shù jù",
+        "B": "jiē chù",
+        "C": "cè shì",
+        "D": "chéng xù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“程序”（chương trình）。完整表达：测试程序的版本请在开始前核实。"
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：是否需要____请按照流程确认。",
+      "pinyin": "shì fǒu xū yào ____ qǐng àn zhào liú chéng què rèn",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: kiểm thử lại.",
+      "options": {
+        "A": "功能",
+        "B": "复测",
+        "C": "通过",
+        "D": "程序"
+      },
+      "optionPinyin": {
+        "A": "gōng néng",
+        "B": "fù cè",
+        "C": "tōng guò",
+        "D": "chéng xù"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“复测”（kiểm thử lại）。完整表达：是否需要复测请按照流程确认。"
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这次测量的____结果与要求不一致请协助确认。",
+      "pinyin": "zhè cì cè liáng de ____ jié guǒ yǔ yāo qiú bù yí zhì qǐng xié zhù què rèn",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: đầu ra.",
+      "options": {
+        "A": "数据",
+        "B": "测试",
+        "C": "输出",
+        "D": "接触"
+      },
+      "optionPinyin": {
+        "A": "shù jù",
+        "B": "cè shì",
+        "C": "shū chū",
+        "D": "jiē chù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“输出”（đầu ra）。完整表达：这次测量的输出结果与要求不一致请协助确认。"
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：原始测试____请如实保存。",
+      "pinyin": "yuán shǐ cè shì ____ qǐng rú shí bǎo cún",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: dữ liệu.",
+      "options": {
+        "A": "失败",
+        "B": "程序",
+        "C": "显示",
+        "D": "数据"
+      },
+      "optionPinyin": {
+        "A": "shī bài",
+        "B": "chéng xù",
+        "C": "xiǎn shì",
+        "D": "shù jù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“数据”（dữ liệu）。完整表达：原始测试数据请如实保存。"
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要报告某功能在测试中无正常反应，应该怎么说？",
+      "pinyin": "nǐ yào bào gào mǒu gōng néng zài cè shì zhōng wú zhèng cháng fǎn yìng ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "如果测试工位安排有变化请及时通知我",
+        "B": "是否需要复测请按照流程确认",
+        "C": "这次测量的输出结果与要求不一致请协助确认",
+        "D": "这项功能测试时没有正常响应"
+      },
+      "optionPinyin": {
+        "A": "rú guǒ cè shì gōng wèi ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
+        "B": "shì fǒu xū yào fù cè qǐng àn zhào liú chéng què rèn",
+        "C": "zhè cì cè liáng de shū chū jié guǒ yǔ yāo qiú bù yí zhì qǐng xié zhù què rèn",
+        "D": "zhè xiàng gōng néng cè shì shí méi yǒu zhèng cháng xiǎng yìng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要报告某功能在测试中无正常反应，应该怎么说？\n符合此任务的表达：这项功能测试时没有正常响应。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你想确认机型适用的测试程序，应该怎么问？",
+      "pinyin": "nǐ xiǎng què rèn jī xíng shì yòng de cè shì chéng xù ， yīng gāi zěn me wèn ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "测试程序的版本请在开始前核实",
+        "B": "原始测试数据请如实保存",
+        "C": "请告诉我谁负责测试结果反馈",
+        "D": "请问这个型号使用哪一套测试程序"
+      },
+      "optionPinyin": {
+        "A": "cè shì chéng xù de bǎn běn qǐng zài kāi shǐ qián hé shí",
+        "B": "yuán shǐ cè shì shù jù qǐng rú shí bǎo cún",
+        "C": "qǐng gào sù wǒ shuí fù zé cè shì jié guǒ fǎn kuì",
+        "D": "qǐng wèn zhè ge xíng hào shǐ yòng nǎ yī tào cè shì chéng xù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你想确认机型适用的测试程序，应该怎么问？\n符合此任务的表达：请问这个型号使用哪一套测试程序。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要说明该产品检测合格且已登记，应该怎么说？",
+      "pinyin": "nǐ yào shuō míng gāi chǎn pǐn jiǎn cè hé gé qiě yǐ dēng jì ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "关于功能失败的核实结果我还需要再核实一下",
+        "B": "这件产品已经通过检测结果已记录",
+        "C": "测试程序的版本请在开始前核实",
+        "D": "我们先确认测试程序有效状态再继续沟通"
+      },
+      "optionPinyin": {
+        "A": "guān yú gōng néng shī bài de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "B": "zhè jiàn chǎn pǐn yǐ jīng tōng guò jiǎn cè jié guǒ yǐ jì lù",
+        "C": "cè shì chéng xù de bǎn běn qǐng zài kāi shǐ qián hé shí",
+        "D": "wǒ men xiān què rèn cè shì chéng xù yǒu xiào zhuàng tài zài jì xù gōu tōng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要说明该产品检测合格且已登记，应该怎么说？\n符合此任务的表达：这件产品已经通过检测结果已记录。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要说明已记下不通过的表现，应该怎么说？",
+      "pinyin": "nǐ yào shuō míng yǐ jì xià bù tōng guò de biǎo xiàn ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "这次测试失败的现象我已经记录下来",
+        "B": "这件产品已经通过检测结果已记录",
+        "C": "原始测试数据请如实保存",
+        "D": "请告诉我谁负责测试结果反馈"
+      },
+      "optionPinyin": {
+        "A": "zhè cì cè shì shī bài de xiàn xiàng wǒ yǐ jīng jì lù xià lái",
+        "B": "zhè jiàn chǎn pǐn yǐ jīng tōng guò jiǎn cè jié guǒ yǐ jì lù",
+        "C": "yuán shǐ cè shì shù jù qǐng rú shí bǎo cún",
+        "D": "qǐng gào sù wǒ shuí fù zé cè shì jié guǒ fǎn kuì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要说明已记下不通过的表现，应该怎么说？\n符合此任务的表达：这次测试失败的现象我已经记录下来。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要描述开关操作后屏幕无正常画面，应该怎么说？",
+      "pinyin": "nǐ yào miáo shù kāi guān cāo zuò hòu píng mù wú zhèng cháng huà miàn ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "关于功能失败的核实结果我还需要再核实一下",
+        "B": "请告诉我谁负责测试结果反馈",
+        "C": "按下开关以后屏幕没有正常显示",
+        "D": "我们先确认测试程序有效状态再继续沟通"
+      },
+      "optionPinyin": {
+        "A": "guān yú gōng néng shī bài de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "B": "qǐng gào sù wǒ shuí fù zé cè shì jié guǒ fǎn kuì",
+        "C": "àn xià kāi guān yǐ hòu píng mù méi yǒu zhèng cháng xiǎn shì",
+        "D": "wǒ men xiān què rèn cè shì chéng xù yǒu xiào zhuàng tài zài jì xù gōu tōng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要描述开关操作后屏幕无正常画面，应该怎么说？\n符合此任务的表达：按下开关以后屏幕没有正常显示。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你怀疑接口接触不佳，需要专业检查，应该怎么说？",
+      "pinyin": "nǐ huái yí jiē kǒu jiē chù bù jiā ， xū yào zhuān yè jiǎn chá ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "这个接口疑似接触不良请协助检查",
+        "B": "是否需要复测请按照流程确认",
+        "C": "按下开关以后屏幕没有正常显示",
+        "D": "请问这个型号使用哪一套测试程序"
+      },
+      "optionPinyin": {
+        "A": "zhè ge jiē kǒu yí sì jiē chù bù liáng qǐng xié zhù jiǎn chá",
+        "B": "shì fǒu xū yào fù cè qǐng àn zhào liú chéng què rèn",
+        "C": "àn xià kāi guān yǐ hòu píng mù méi yǒu zhèng cháng xiǎn shì",
+        "D": "qǐng wèn zhè ge xíng hào shǐ yòng nǎ yī tào cè shì chéng xù"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你怀疑接口接触不佳，需要专业检查，应该怎么说？\n符合此任务的表达：这个接口疑似接触不良请协助检查。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要提醒测试前确认软件版本，应该怎么说？",
+      "pinyin": "nǐ yào tí xǐng cè shì qián què rèn ruǎn jiàn bǎn běn ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "如果测试工位安排有变化请及时通知我",
+        "B": "测试程序的版本请在开始前核实",
+        "C": "这次测量的输出结果与要求不一致请协助确认",
+        "D": "请告诉我谁负责测试结果反馈"
+      },
+      "optionPinyin": {
+        "A": "rú guǒ cè shì gōng wèi ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
+        "B": "cè shì chéng xù de bǎn běn qǐng zài kāi shǐ qián hé shí",
+        "C": "zhè cì cè liáng de shū chū jié guǒ yǔ yāo qiú bù yí zhì qǐng xié zhù què rèn",
+        "D": "qǐng gào sù wǒ shuí fù zé cè shì jié guǒ fǎn kuì"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要提醒测试前确认软件版本，应该怎么说？\n符合此任务的表达：测试程序的版本请在开始前核实。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要说明是否重测应遵循规定，应该怎么说？",
+      "pinyin": "nǐ yào shuō míng shì fǒu zhòng cè yīng zūn xún guī dìng ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "这件产品已经通过检测结果已记录",
+        "B": "测试程序的版本请在开始前核实",
+        "C": "请帮我确认一下功能测试要求的具体要求",
+        "D": "是否需要复测请按照流程确认"
+      },
+      "optionPinyin": {
+        "A": "zhè jiàn chǎn pǐn yǐ jīng tōng guò jiǎn cè jié guǒ yǐ jì lù",
+        "B": "cè shì chéng xù de bǎn běn qǐng zài kāi shǐ qián hé shí",
+        "C": "qǐng bāng wǒ què rèn yí xià gōng néng cè shì yāo qiú de jù tǐ yāo qiú",
+        "D": "shì fǒu xū yào fù cè qǐng àn zhào liú chéng què rèn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要说明是否重测应遵循规定，应该怎么说？\n符合此任务的表达：是否需要复测请按照流程确认。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你发现输出测量结果不符要求，需要确认，应该怎么说？",
+      "pinyin": "nǐ fā xiàn shū chū cè liáng jié guǒ bù fú yāo qiú ， xū yào què rèn ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "如果测试工位安排有变化请及时通知我",
+        "B": "关于功能失败的核实结果我还需要再核实一下",
+        "C": "按下开关以后屏幕没有正常显示",
+        "D": "这次测量的输出结果与要求不一致请协助确认"
+      },
+      "optionPinyin": {
+        "A": "rú guǒ cè shì gōng wèi ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
+        "B": "guān yú gōng néng shī bài de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "C": "àn xià kāi guān yǐ hòu píng mù méi yǒu zhèng cháng xiǎn shì",
+        "D": "zhè cì cè liáng de shū chū jié guǒ yǔ yāo qiú bù yí zhì qǐng xié zhù què rèn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你发现输出测量结果不符要求，需要确认，应该怎么说？\n符合此任务的表达：这次测量的输出结果与要求不一致请协助确认。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要提醒真实保留初始测试资料，应该怎么说？",
+      "pinyin": "nǐ yào tí xǐng zhēn shí bǎo liú chū shǐ cè shì zī liào ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "关于功能失败的核实结果我还需要再核实一下",
+        "B": "这件产品已经通过检测结果已记录",
+        "C": "原始测试数据请如实保存",
+        "D": "测试程序的版本请在开始前核实"
+      },
+      "optionPinyin": {
+        "A": "guān yú gōng néng shī bài de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "B": "zhè jiàn chǎn pǐn yǐ jīng tōng guò jiǎn cè jié guǒ yǐ jì lù",
+        "C": "yuán shǐ cè shì shù jù qǐng rú shí bǎo cún",
+        "D": "cè shì chéng xù de bǎn běn qǐng zài kāi shǐ qián hé shí"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要提醒真实保留初始测试资料，应该怎么说？\n符合此任务的表达：原始测试数据请如实保存。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 31,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你想请同事核实“功能测试要求”的具体要求，应该怎么说？",
+      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ gōng néng cè shì yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "请告诉我谁负责测试结果反馈",
+        "B": "这个接口疑似接触不良请协助检查",
+        "C": "请帮我确认一下功能测试要求的具体要求",
+        "D": "按下开关以后屏幕没有正常显示"
+      },
+      "optionPinyin": {
+        "A": "qǐng gào sù wǒ shuí fù zé cè shì jié guǒ fǎn kuì",
+        "B": "zhè ge jiē kǒu yí sì jiē chù bù liáng qǐng xié zhù jiǎn chá",
+        "C": "qǐng bāng wǒ què rèn yí xià gōng néng cè shì yāo qiú de jù tǐ yāo qiú",
+        "D": "àn xià kāi guān yǐ hòu píng mù méi yǒu zhèng cháng xiǎn shì"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你想请同事核实“功能测试要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下功能测试要求的具体要求。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 32,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未核实“功能失败的核实结果”，需要明确表示仍待核查，应该怎么说？",
+      "pinyin": "nǐ shàng wèi hé shí “ gōng néng shī bài de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "请帮我确认一下功能测试要求的具体要求",
+        "B": "测试程序的版本请在开始前核实",
+        "C": "关于功能失败的核实结果我还需要再核实一下",
+        "D": "是否需要复测请按照流程确认"
+      },
+      "optionPinyin": {
+        "A": "qǐng bāng wǒ què rèn yí xià gōng néng cè shì yāo qiú de jù tǐ yāo qiú",
+        "B": "cè shì chéng xù de bǎn běn qǐng zài kāi shǐ qián hé shí",
+        "C": "guān yú gōng néng shī bài de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "D": "shì fǒu xū yào fù cè qǐng àn zhào liú chéng què rèn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你尚未核实“功能失败的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于功能失败的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 33,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你希望“测试工位安排”变化时及时获知，应该怎么说？",
+      "pinyin": "nǐ xī wàng “ cè shì gōng wèi ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "这个接口疑似接触不良请协助检查",
+        "B": "请帮我确认一下功能测试要求的具体要求",
+        "C": "原始测试数据请如实保存",
+        "D": "如果测试工位安排有变化请及时通知我"
+      },
+      "optionPinyin": {
+        "A": "zhè ge jiē kǒu yí sì jiē chù bù liáng qǐng xié zhù jiǎn chá",
+        "B": "qǐng bāng wǒ què rèn yí xià gōng néng cè shì yāo qiú de jù tǐ yāo qiú",
+        "C": "yuán shǐ cè shì shù jù qǐng rú shí bǎo cún",
+        "D": "rú guǒ cè shì gōng wèi ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你希望“测试工位安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果测试工位安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 34,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你想询问由谁负责“测试结果反馈”，应该怎么说？",
+      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ cè shì jié guǒ fǎn kuì ”， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "请告诉我谁负责测试结果反馈",
+        "B": "这次测量的输出结果与要求不一致请协助确认",
+        "C": "请帮我确认一下功能测试要求的具体要求",
+        "D": "这次测试失败的现象我已经记录下来"
+      },
+      "optionPinyin": {
+        "A": "qǐng gào sù wǒ shuí fù zé cè shì jié guǒ fǎn kuì",
+        "B": "zhè cì cè liáng de shū chū jié guǒ yǔ yāo qiú bù yí zhì qǐng xié zhù què rèn",
+        "C": "qǐng bāng wǒ què rèn yí xià gōng néng cè shì yāo qiú de jù tǐ yāo qiú",
+        "D": "zhè cì cè shì shī bài de xiàn xiàng wǒ yǐ jīng jì lù xià lái"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你想询问由谁负责“测试结果反馈”，应该怎么说？\n符合此任务的表达：请告诉我谁负责测试结果反馈。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 35,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你希望先确认“测试程序有效状态”再继续讨论，应该怎么说？",
+      "pinyin": "nǐ xī wàng xiān què rèn “ cè shì chéng xù yǒu xiào zhuàng tài ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "请告诉我谁负责测试结果反馈",
+        "B": "请问这个型号使用哪一套测试程序",
+        "C": "这项功能测试时没有正常响应",
+        "D": "我们先确认测试程序有效状态再继续沟通"
+      },
+      "optionPinyin": {
+        "A": "qǐng gào sù wǒ shuí fù zé cè shì jié guǒ fǎn kuì",
+        "B": "qǐng wèn zhè ge xíng hào shǐ yòng nǎ yī tào cè shì chéng xù",
+        "C": "zhè xiàng gōng néng cè shì shí méi yǒu zhèng cháng xiǎng yìng",
+        "D": "wǒ men xiān què rèn cè shì chéng xù yǒu xiào zhuàng tài zài jì xù gōu tōng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你希望先确认“测试程序有效状态”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认测试程序有效状态再继续沟通。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n正常响应 / 没有 / 测试时 / 这项功能",
+      "pinyin": "zhèng cháng xiǎng yìng / méi yǒu / cè shì shí / zhè xiàng gōng néng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "这项功能测试时没有正常响应",
+        "这项功能测试时没有正常响应。",
+        "这项功能测试时没有正常响应.",
+        "这项功能测试时没有正常响应？",
+        "这项功能测试时没有正常响应?"
+      ],
+      "points": 2,
+      "hanziCount": 13,
+      "explanation": "参考表达：这项功能测试时没有正常响应。\nzhè xiàng gōng néng cè shì shí méi yǒu zhèng cháng xiǎng yìng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这个型号 / 请问 / 使用 / 哪一套测试程序",
+      "pinyin": "zhè ge xíng hào / qǐng wèn / shǐ yòng / nǎ yī tào cè shì chéng xù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "请问这个型号使用哪一套测试程序",
+        "请问这个型号使用哪一套测试程序。",
+        "请问这个型号使用哪一套测试程序.",
+        "请问这个型号使用哪一套测试程序？",
+        "请问这个型号使用哪一套测试程序?"
+      ],
+      "points": 2,
+      "hanziCount": 15,
+      "explanation": "参考表达：请问这个型号使用哪一套测试程序。\nqǐng wèn zhè ge xíng hào shǐ yòng nǎ yī tào cè shì chéng xù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n结果 / 已记录 / 这件产品 / 已经通过检测",
+      "pinyin": "jié guǒ / yǐ jì lù / zhè jiàn chǎn pǐn / yǐ jīng tōng guò jiǎn cè",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "这件产品已经通过检测结果已记录",
+        "这件产品已经通过检测结果已记录。",
+        "这件产品已经通过检测结果已记录.",
+        "这件产品已经通过检测结果已记录？",
+        "这件产品已经通过检测结果已记录?"
+      ],
+      "points": 2,
+      "hanziCount": 15,
+      "explanation": "参考表达：这件产品已经通过检测结果已记录。\nzhè jiàn chǎn pǐn yǐ jīng tōng guò jiǎn cè jié guǒ yǐ jì lù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n记录下来 / 我 / 这次测试失败的现象 / 已经",
+      "pinyin": "jì lù xià lái / wǒ / zhè cì cè shì shī bài de xiàn xiàng / yǐ jīng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "这次测试失败的现象我已经记录下来",
+        "这次测试失败的现象我已经记录下来。",
+        "这次测试失败的现象我已经记录下来.",
+        "这次测试失败的现象我已经记录下来？",
+        "这次测试失败的现象我已经记录下来?"
+      ],
+      "points": 2,
+      "hanziCount": 16,
+      "explanation": "参考表达：这次测试失败的现象我已经记录下来。\nzhè cì cè shì shī bài de xiàn xiàng wǒ yǐ jīng jì lù xià lái。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n正常显示 / 屏幕 / 按下开关以后 / 没有",
+      "pinyin": "zhèng cháng xiǎn shì / píng mù / àn xià kāi guān yǐ hòu / méi yǒu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "按下开关以后屏幕没有正常显示",
+        "按下开关以后屏幕没有正常显示。",
+        "按下开关以后屏幕没有正常显示.",
+        "按下开关以后屏幕没有正常显示？",
+        "按下开关以后屏幕没有正常显示?"
+      ],
+      "points": 2,
+      "hanziCount": 14,
+      "explanation": "参考表达：按下开关以后屏幕没有正常显示。\nàn xià kāi guān yǐ hòu píng mù méi yǒu zhèng cháng xiǎn shì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n协助检查 / 疑似接触不良 / 请 / 这个接口",
+      "pinyin": "xié zhù jiǎn chá / yí sì jiē chù bù liáng / qǐng / zhè ge jiē kǒu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "这个接口疑似接触不良请协助检查",
+        "这个接口疑似接触不良请协助检查。",
+        "这个接口疑似接触不良请协助检查.",
+        "这个接口疑似接触不良请协助检查？",
+        "这个接口疑似接触不良请协助检查?"
+      ],
+      "points": 2,
+      "hanziCount": 15,
+      "explanation": "参考表达：这个接口疑似接触不良请协助检查。\nzhè ge jiē kǒu yí sì jiē chù bù liáng qǐng xié zhù jiǎn chá。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n在开始前 / 测试程序的版本 / 请 / 核实",
+      "pinyin": "zài kāi shǐ qián / cè shì chéng xù de bǎn běn / qǐng / hé shí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "测试程序的版本请在开始前核实",
+        "测试程序的版本请在开始前核实。",
+        "测试程序的版本请在开始前核实.",
+        "测试程序的版本请在开始前核实？",
+        "测试程序的版本请在开始前核实?"
+      ],
+      "points": 2,
+      "hanziCount": 14,
+      "explanation": "参考表达：测试程序的版本请在开始前核实。\ncè shì chéng xù de bǎn běn qǐng zài kāi shǐ qián hé shí。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n是否需要复测 / 确认 / 请 / 按照流程",
+      "pinyin": "shì fǒu xū yào fù cè / què rèn / qǐng / àn zhào liú chéng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "是否需要复测请按照流程确认",
+        "是否需要复测请按照流程确认。",
+        "是否需要复测请按照流程确认.",
+        "是否需要复测请按照流程确认？",
+        "是否需要复测请按照流程确认?"
+      ],
+      "points": 2,
+      "hanziCount": 13,
+      "explanation": "参考表达：是否需要复测请按照流程确认。\nshì fǒu xū yào fù cè qǐng àn zhào liú chéng què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这次测量的输出结果 / 协助确认 / 与要求不一致 / 请",
+      "pinyin": "zhè cì cè liáng de shū chū jié guǒ / xié zhù què rèn / yǔ yāo qiú bù yí zhì / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "这次测量的输出结果与要求不一致请协助确认",
+        "这次测量的输出结果与要求不一致请协助确认。",
+        "这次测量的输出结果与要求不一致请协助确认.",
+        "这次测量的输出结果与要求不一致请协助确认？",
+        "这次测量的输出结果与要求不一致请协助确认?"
+      ],
+      "points": 2,
+      "hanziCount": 20,
+      "explanation": "参考表达：这次测量的输出结果与要求不一致请协助确认。\nzhè cì cè liáng de shū chū jié guǒ yǔ yāo qiú bù yí zhì qǐng xié zhù què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 原始测试数据 / 保存 / 如实",
+      "pinyin": "qǐng / yuán shǐ cè shì shù jù / bǎo cún / rú shí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "原始测试数据请如实保存",
+        "原始测试数据请如实保存。",
+        "原始测试数据请如实保存.",
+        "原始测试数据请如实保存？",
+        "原始测试数据请如实保存?"
+      ],
+      "points": 2,
+      "hanziCount": 11,
+      "explanation": "参考表达：原始测试数据请如实保存。\nyuán shǐ cè shì shù jù qǐng rú shí bǎo cún。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n帮我确认一下 / 的具体要求 / 功能测试要求 / 请",
+      "pinyin": "bāng wǒ què rèn yí xià / de jù tǐ yāo qiú / gōng néng cè shì yāo qiú / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "请帮我确认一下功能测试要求的具体要求",
+        "请帮我确认一下功能测试要求的具体要求。",
+        "请帮我确认一下功能测试要求的具体要求.",
+        "请帮我确认一下功能测试要求的具体要求？",
+        "请帮我确认一下功能测试要求的具体要求?"
+      ],
+      "points": 2,
+      "hanziCount": 18,
+      "explanation": "参考表达：请帮我确认一下功能测试要求的具体要求。\nqǐng bāng wǒ què rèn yí xià gōng néng cè shì yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 功能失败的核实结果 / 再核实一下 / 还需要 / 关于",
+      "pinyin": "wǒ / gōng néng shī bài de hé shí jié guǒ / zài hé shí yí xià / hái xū yào / guān yú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "关于功能失败的核实结果我还需要再核实一下",
+        "关于功能失败的核实结果我还需要再核实一下。",
+        "关于功能失败的核实结果我还需要再核实一下.",
+        "关于功能失败的核实结果我还需要再核实一下？",
+        "关于功能失败的核实结果我还需要再核实一下?"
+      ],
+      "points": 2,
+      "hanziCount": 20,
+      "explanation": "参考表达：关于功能失败的核实结果我还需要再核实一下。\nguān yú gōng néng shī bài de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 有变化 / 测试工位安排 / 及时通知我 / 如果",
+      "pinyin": "qǐng / yǒu biàn huà / cè shì gōng wèi ān pái / jí shí tōng zhī wǒ / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "如果测试工位安排有变化请及时通知我",
+        "如果测试工位安排有变化请及时通知我。",
+        "如果测试工位安排有变化请及时通知我.",
+        "如果测试工位安排有变化请及时通知我？",
+        "如果测试工位安排有变化请及时通知我?"
+      ],
+      "points": 2,
+      "hanziCount": 17,
+      "explanation": "参考表达：如果测试工位安排有变化请及时通知我。\nrú guǒ cè shì gōng wèi ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n负责 / 请 / 测试结果反馈 / 告诉我 / 谁",
+      "pinyin": "fù zé / qǐng / cè shì jié guǒ fǎn kuì / gào sù wǒ / shuí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "请告诉我谁负责测试结果反馈",
+        "请告诉我谁负责测试结果反馈。",
+        "请告诉我谁负责测试结果反馈.",
+        "请告诉我谁负责测试结果反馈？",
+        "请告诉我谁负责测试结果反馈?"
+      ],
+      "points": 2,
+      "hanziCount": 13,
+      "explanation": "参考表达：请告诉我谁负责测试结果反馈。\nqǐng gào sù wǒ shuí fù zé cè shì jié guǒ fǎn kuì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n确认 / 测试程序有效状态 / 我们 / 再 / 继续沟通 / 先",
+      "pinyin": "què rèn / cè shì chéng xù yǒu xiào zhuàng tài / wǒ men / zài / jì xù gōu tōng / xiān",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "我们先确认测试程序有效状态再继续沟通",
+        "我们先确认测试程序有效状态再继续沟通。",
+        "我们先确认测试程序有效状态再继续沟通.",
+        "我们先确认测试程序有效状态再继续沟通？",
+        "我们先确认测试程序有效状态再继续沟通?"
+      ],
+      "points": 2,
+      "hanziCount": 18,
+      "explanation": "参考表达：我们先确认测试程序有效状态再继续沟通。\nwǒ men xiān què rèn cè shì chéng xù yǒu xiào zhuàng tài zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    }
+  ]
+}

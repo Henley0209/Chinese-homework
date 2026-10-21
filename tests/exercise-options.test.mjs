@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {studentExercises} from '../exercise-options.mjs';
 const published=JSON.parse(fs.readFileSync(new URL('../exercise-catalog.json',import.meta.url))).exercises;
-for(const [bank,count] of [['hsk1-2',30],['hsk3',40],['hsk4',40],['hsk5',30],['daily',36],['factory',1]]){
+for(const [bank,count] of [['hsk1-2',30],['hsk3',40],['hsk4',40],['hsk5',30],['daily',71],['factory',1]]){
  const items=published.filter(e=>e.bank===bank),visible=studentExercises(items);assert.equal(visible.length,count);
  assert.ok(visible.every(e=>!e.exercise.title.includes('演示练习')));
 }

@@ -1,0 +1,1092 @@
+{
+  "title": "电子工厂 第21课 设备状态与异常报告",
+  "description": "面向越南学习者的电子工厂汉语原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“报警”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "bào jǐng",
+        "B": "bào jǐn",
+        "C": "bào qǐng",
+        "D": "biào jǐng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“报警”读作 bào jǐng，本课词义：báo động。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“卡料”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "bǎ liào",
+        "B": "cǎ liào",
+        "C": "kǎ niào",
+        "D": "kǎ liào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“卡料”读作 kǎ liào，本课词义：kẹt vật tư。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“异响”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "yì qiǎng",
+        "B": "bì xiǎng",
+        "C": "yì xiǎng",
+        "D": "yì xiǎn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“异响”读作 yì xiǎng，本课词义：tiếng động bất thường。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“故障”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "gù zàng",
+        "B": "bù zhàng",
+        "C": "gù zhàng",
+        "D": "gù zhàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“故障”读作 gù zhàng，本课词义：sự cố。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“维修”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "féi xiū",
+        "B": "wéi xiū",
+        "C": "wéi qiū",
+        "D": "léi xiū"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“维修”读作 wéi xiū，本课词义：sửa chữa。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“现象”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "qiàn xiàng",
+        "B": "xiàn qiàng",
+        "C": "xiàn xiàng",
+        "D": "xiàn xiàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“现象”读作 xiàn xiàng，本课词义：hiện tượng。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“停机”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "tíng jī",
+        "B": "míng jī",
+        "C": "líng jī",
+        "D": "tíng qī"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“停机”读作 tíng jī，本课词义：dừng máy。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“恢复”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "huī fù",
+        "B": "chuī fù",
+        "C": "cuī fù",
+        "D": "huī hù"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“恢复”读作 huī fù，本课词义：khôi phục。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“擅自”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "shàn zì",
+        "B": "sàn zì",
+        "C": "shàng zì",
+        "D": "shàn zhì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“擅自”读作 shàn zì，本课词义：tự ý。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“位置”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "wài zhì",
+        "B": "bèi zhì",
+        "C": "wèi zì",
+        "D": "wèi zhì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“位置”读作 wèi zhì，本课词义：vị trí。"
+    },
+    {
+      "id": 11,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这台设备突然____了请通知负责人员。",
+      "pinyin": "zhè tái shè bèi tū rán ____ le qǐng tōng zhī fù zé rén yuán",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: báo động.",
+      "options": {
+        "A": "异响",
+        "B": "擅自",
+        "C": "恢复",
+        "D": "报警"
+      },
+      "optionPinyin": {
+        "A": "yì xiǎng",
+        "B": "shàn zì",
+        "C": "huī fù",
+        "D": "bào jǐng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“报警”（báo động）。完整表达：这台设备突然报警了请通知负责人员。"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：设备出现____现象我已经按流程报告。",
+      "pinyin": "shè bèi chū xiàn ____ xiàn xiàng wǒ yǐ jīng àn liú chéng bào gào",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: kẹt vật tư.",
+      "options": {
+        "A": "报警",
+        "B": "维修",
+        "C": "异响",
+        "D": "卡料"
+      },
+      "optionPinyin": {
+        "A": "bào jǐng",
+        "B": "wéi xiū",
+        "C": "yì xiǎng",
+        "D": "kǎ liào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“卡料”（kẹt vật tư）。完整表达：设备出现卡料现象我已经按流程报告。"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：运行过程中这台设备出现了____。",
+      "pinyin": "yùn xíng guò chéng zhōng zhè tái shè bèi chū xiàn le ____",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiếng động bất thường.",
+      "options": {
+        "A": "异响",
+        "B": "停机",
+        "C": "卡料",
+        "D": "位置"
+      },
+      "optionPinyin": {
+        "A": "yì xiǎng",
+        "B": "tíng jī",
+        "C": "kǎ liào",
+        "D": "wèi zhì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“异响”（tiếng động bất thường）。完整表达：运行过程中这台设备出现了异响。"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：____的原因还没有确认请等待专业人员检查。",
+      "pinyin": "____ de yuán yīn hái méi yǒu què rèn qǐng děng dài zhuān yè rén yuán jiǎn chá",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: sự cố.",
+      "options": {
+        "A": "现象",
+        "B": "故障",
+        "C": "位置",
+        "D": "维修"
+      },
+      "optionPinyin": {
+        "A": "xiàn xiàng",
+        "B": "gù zhàng",
+        "C": "wèi zhì",
+        "D": "wéi xiū"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“故障”（sự cố）。完整表达：故障的原因还没有确认请等待专业人员检查。"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问负责____的人员预计什么时候到。",
+      "pinyin": "qǐng wèn fù zé ____ de rén yuán yù jì shén me shí hòu dào",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: sửa chữa.",
+      "options": {
+        "A": "维修",
+        "B": "恢复",
+        "C": "位置",
+        "D": "擅自"
+      },
+      "optionPinyin": {
+        "A": "wéi xiū",
+        "B": "huī fù",
+        "C": "wèi zhì",
+        "D": "shàn zì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“维修”（sửa chữa）。完整表达：请问负责维修的人员预计什么时候到。"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我会先描述看到的____不随意判断原因。",
+      "pinyin": "wǒ huì xiān miáo shù kàn dào de ____ bù suí yì pàn duàn yuán yīn",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: hiện tượng.",
+      "options": {
+        "A": "报警",
+        "B": "现象",
+        "C": "故障",
+        "D": "擅自"
+      },
+      "optionPinyin": {
+        "A": "bào jǐng",
+        "B": "xiàn xiàng",
+        "C": "gù zhàng",
+        "D": "shàn zì"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“现象”（hiện tượng）。完整表达：我会先描述看到的现象不随意判断原因。"
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这次____的时间我已经记录好了。",
+      "pinyin": "zhè cì ____ de shí jiān wǒ yǐ jīng jì lù hǎo le",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: dừng máy.",
+      "options": {
+        "A": "报警",
+        "B": "停机",
+        "C": "擅自",
+        "D": "卡料"
+      },
+      "optionPinyin": {
+        "A": "bào jǐng",
+        "B": "tíng jī",
+        "C": "shàn zì",
+        "D": "kǎ liào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“停机”（dừng máy）。完整表达：这次停机的时间我已经记录好了。"
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：是否可以____生产请由负责人员确认。",
+      "pinyin": "shì fǒu kě yǐ ____ shēng chǎn qǐng yóu fù zé rén yuán què rèn",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: khôi phục.",
+      "options": {
+        "A": "恢复",
+        "B": "卡料",
+        "C": "位置",
+        "D": "停机"
+      },
+      "optionPinyin": {
+        "A": "huī fù",
+        "B": "kǎ liào",
+        "C": "wèi zhì",
+        "D": "tíng jī"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“恢复”（khôi phục）。完整表达：是否可以恢复生产请由负责人员确认。"
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：未经批准请不要____拆开设备。",
+      "pinyin": "wèi jīng pī zhǔn qǐng bú yào ____ chāi kāi shè bèi",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: tự ý.",
+      "options": {
+        "A": "维修",
+        "B": "卡料",
+        "C": "现象",
+        "D": "擅自"
+      },
+      "optionPinyin": {
+        "A": "wéi xiū",
+        "B": "kǎ liào",
+        "C": "xiàn xiàng",
+        "D": "shàn zì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“擅自”（tự ý）。完整表达：未经批准请不要擅自拆开设备。"
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：异常发生的____在设备右侧的进料口。",
+      "pinyin": "yì cháng fā shēng de ____ zài shè bèi yòu cè de jìn liào kǒu",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: vị trí.",
+      "options": {
+        "A": "报警",
+        "B": "卡料",
+        "C": "异响",
+        "D": "位置"
+      },
+      "optionPinyin": {
+        "A": "bào jǐng",
+        "B": "kǎ liào",
+        "C": "yì xiǎng",
+        "D": "wèi zhì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“位置”（vị trí）。完整表达：异常发生的位置在设备右侧的进料口。"
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】设备发出警报，你需要通知负责人，应该怎么说？",
+      "pinyin": "shè bèi fā chū jǐng bào ， nǐ xū yào tōng zhī fù zé rén ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "关于设备故障的核实结果我还需要再核实一下",
+        "B": "这台设备突然报警了请通知负责人员",
+        "C": "设备出现卡料现象我已经按流程报告",
+        "D": "请问负责维修的人员预计什么时候到"
+      },
+      "optionPinyin": {
+        "A": "guān yú shè bèi gù zhàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "B": "zhè tái shè bèi tū rán bào jǐng le qǐng tōng zhī fù zé rén yuán",
+        "C": "shè bèi chū xiàn kǎ liào xiàn xiàng wǒ yǐ jīng àn liú chéng bào gào",
+        "D": "qǐng wèn fù zé wéi xiū de rén yuán yù jì shén me shí hòu dào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "交际任务：设备发出警报，你需要通知负责人，应该怎么说？\n符合此任务的表达：这台设备突然报警了请通知负责人员。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】机器出现物料卡住的情况，你已按流程上报，应该怎么说？",
+      "pinyin": "jī qì chū xiàn wù liào kǎ zhù de qíng kuàng ， nǐ yǐ àn liú chéng shàng bào ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "设备出现卡料现象我已经按流程报告",
+        "B": "故障的原因还没有确认请等待专业人员检查",
+        "C": "请告诉我谁负责设备状态跟踪",
+        "D": "请问负责维修的人员预计什么时候到"
+      },
+      "optionPinyin": {
+        "A": "shè bèi chū xiàn kǎ liào xiàn xiàng wǒ yǐ jīng àn liú chéng bào gào",
+        "B": "gù zhàng de yuán yīn hái méi yǒu què rèn qǐng děng dài zhuān yè rén yuán jiǎn chá",
+        "C": "qǐng gào sù wǒ shuí fù zé shè bèi zhuàng tài gēn zōng",
+        "D": "qǐng wèn fù zé wéi xiū de rén yuán yù jì shén me shí hòu dào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "交际任务：机器出现物料卡住的情况，你已按流程上报，应该怎么说？\n符合此任务的表达：设备出现卡料现象我已经按流程报告。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要描述机器工作时发出异常声音，应该怎么说？",
+      "pinyin": "nǐ yào miáo shù jī qì gōng zuò shí fā chū yì cháng shēng yīn ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "运行过程中这台设备出现了异响",
+        "B": "请告诉我谁负责设备状态跟踪",
+        "C": "这次停机的时间我已经记录好了",
+        "D": "请问负责维修的人员预计什么时候到"
+      },
+      "optionPinyin": {
+        "A": "yùn xíng guò chéng zhōng zhè tái shè bèi chū xiàn le yì xiǎng",
+        "B": "qǐng gào sù wǒ shuí fù zé shè bèi zhuàng tài gēn zōng",
+        "C": "zhè cì tíng jī de shí jiān wǒ yǐ jīng jì lù hǎo le",
+        "D": "qǐng wèn fù zé wéi xiū de rén yuán yù jì shén me shí hòu dào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要描述机器工作时发出异常声音，应该怎么说？\n符合此任务的表达：运行过程中这台设备出现了异响。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】有人问机器为何出问题，目前原因未知，你应怎么说明？",
+      "pinyin": "yǒu rén wèn jī qì wèi hé chū wèn tí ， mù qián yuán yīn wèi zhī ， nǐ yīng zěn me shuō míng ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "我们先确认恢复生产的批准情况再继续沟通",
+        "B": "这次停机的时间我已经记录好了",
+        "C": "故障的原因还没有确认请等待专业人员检查",
+        "D": "如果维修到场安排有变化请及时通知我"
+      },
+      "optionPinyin": {
+        "A": "wǒ men xiān què rèn huī fù shēng chǎn de pī zhǔn qíng kuàng zài jì xù gōu tōng",
+        "B": "zhè cì tíng jī de shí jiān wǒ yǐ jīng jì lù hǎo le",
+        "C": "gù zhàng de yuán yīn hái méi yǒu què rèn qǐng děng dài zhuān yè rén yuán jiǎn chá",
+        "D": "rú guǒ wéi xiū dào chǎng ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "交际任务：有人问机器为何出问题，目前原因未知，你应怎么说明？\n符合此任务的表达：故障的原因还没有确认请等待专业人员检查。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你想了解专业修理人员到场时间，应该怎么问？",
+      "pinyin": "nǐ xiǎng liǎo jiě zhuān yè xiū lǐ rén yuán dào chǎng shí jiān ， yīng gāi zěn me wèn ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "请问负责维修的人员预计什么时候到",
+        "B": "请帮我确认一下设备异常报告要求的具体要求",
+        "C": "故障的原因还没有确认请等待专业人员检查",
+        "D": "我们先确认恢复生产的批准情况再继续沟通"
+      },
+      "optionPinyin": {
+        "A": "qǐng wèn fù zé wéi xiū de rén yuán yù jì shén me shí hòu dào",
+        "B": "qǐng bāng wǒ què rèn yí xià shè bèi yì cháng bào gào yāo qiú de jù tǐ yāo qiú",
+        "C": "gù zhàng de yuán yīn hái méi yǒu què rèn qǐng děng dài zhuān yè rén yuán jiǎn chá",
+        "D": "wǒ men xiān què rèn huī fù shēng chǎn de pī zhǔn qíng kuàng zài jì xù gōu tōng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你想了解专业修理人员到场时间，应该怎么问？\n符合此任务的表达：请问负责维修的人员预计什么时候到。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你想说明报告时会如实描述而不臆测，应该怎么说？",
+      "pinyin": "nǐ xiǎng shuō míng bào gào shí huì rú shí miáo shù ér bù yì cè ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "请问负责维修的人员预计什么时候到",
+        "B": "这次停机的时间我已经记录好了",
+        "C": "关于设备故障的核实结果我还需要再核实一下",
+        "D": "我会先描述看到的现象不随意判断原因"
+      },
+      "optionPinyin": {
+        "A": "qǐng wèn fù zé wéi xiū de rén yuán yù jì shén me shí hòu dào",
+        "B": "zhè cì tíng jī de shí jiān wǒ yǐ jīng jì lù hǎo le",
+        "C": "guān yú shè bèi gù zhàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "D": "wǒ huì xiān miáo shù kàn dào de xiàn xiàng bù suí yì pàn duàn yuán yīn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你想说明报告时会如实描述而不臆测，应该怎么说？\n符合此任务的表达：我会先描述看到的现象不随意判断原因。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】主管问设备何时停下，你想说明时间已记录，应该怎么说？",
+      "pinyin": "zhǔ guǎn wèn shè bèi hé shí tíng xià ， nǐ xiǎng shuō míng shí jiān yǐ jì lù ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "关于设备故障的核实结果我还需要再核实一下",
+        "B": "异常发生的位置在设备右侧的进料口",
+        "C": "未经批准请不要擅自拆开设备",
+        "D": "这次停机的时间我已经记录好了"
+      },
+      "optionPinyin": {
+        "A": "guān yú shè bèi gù zhàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "B": "yì cháng fā shēng de wèi zhì zài shè bèi yòu cè de jìn liào kǒu",
+        "C": "wèi jīng pī zhǔn qǐng bú yào shàn zì chāi kāi shè bèi",
+        "D": "zhè cì tíng jī de shí jiān wǒ yǐ jīng jì lù hǎo le"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "交际任务：主管问设备何时停下，你想说明时间已记录，应该怎么说？\n符合此任务的表达：这次停机的时间我已经记录好了。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要说明恢复生产需负责人确认，应该怎么说？",
+      "pinyin": "nǐ yào shuō míng huī fù shēng chǎn xū fù zé rén què rèn ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "是否可以恢复生产请由负责人员确认",
+        "B": "异常发生的位置在设备右侧的进料口",
+        "C": "请告诉我谁负责设备状态跟踪",
+        "D": "关于设备故障的核实结果我还需要再核实一下"
+      },
+      "optionPinyin": {
+        "A": "shì fǒu kě yǐ huī fù shēng chǎn qǐng yóu fù zé rén yuán què rèn",
+        "B": "yì cháng fā shēng de wèi zhì zài shè bèi yòu cè de jìn liào kǒu",
+        "C": "qǐng gào sù wǒ shuí fù zé shè bèi zhuàng tài gēn zōng",
+        "D": "guān yú shè bèi gù zhàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要说明恢复生产需负责人确认，应该怎么说？\n符合此任务的表达：是否可以恢复生产请由负责人员确认。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你要提醒不能未经批准拆卸机器，应该怎么说？",
+      "pinyin": "nǐ yào tí xǐng bù néng wèi jīng pī zhǔn chāi xiè jī qì ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "请告诉我谁负责设备状态跟踪",
+        "B": "未经批准请不要擅自拆开设备",
+        "C": "如果维修到场安排有变化请及时通知我",
+        "D": "关于设备故障的核实结果我还需要再核实一下"
+      },
+      "optionPinyin": {
+        "A": "qǐng gào sù wǒ shuí fù zé shè bèi zhuàng tài gēn zōng",
+        "B": "wèi jīng pī zhǔn qǐng bú yào shàn zì chāi kāi shè bèi",
+        "C": "rú guǒ wéi xiū dào chǎng ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
+        "D": "guān yú shè bèi gù zhàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你要提醒不能未经批准拆卸机器，应该怎么说？\n符合此任务的表达：未经批准请不要擅自拆开设备。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】负责人问异常在哪里，你要说明在右侧进料口，应该怎么说？",
+      "pinyin": "fù zé rén wèn yì cháng zài nǎ lǐ ， nǐ yào shuō míng zài yòu cè jìn liào kǒu ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "我会先描述看到的现象不随意判断原因",
+        "B": "异常发生的位置在设备右侧的进料口",
+        "C": "是否可以恢复生产请由负责人员确认",
+        "D": "请问负责维修的人员预计什么时候到"
+      },
+      "optionPinyin": {
+        "A": "wǒ huì xiān miáo shù kàn dào de xiàn xiàng bù suí yì pàn duàn yuán yīn",
+        "B": "yì cháng fā shēng de wèi zhì zài shè bèi yòu cè de jìn liào kǒu",
+        "C": "shì fǒu kě yǐ huī fù shēng chǎn qǐng yóu fù zé rén yuán què rèn",
+        "D": "qǐng wèn fù zé wéi xiū de rén yuán yù jì shén me shí hòu dào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "交际任务：负责人问异常在哪里，你要说明在右侧进料口，应该怎么说？\n符合此任务的表达：异常发生的位置在设备右侧的进料口。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 31,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你想请同事核实“设备异常报告要求”的具体要求，应该怎么说？",
+      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ shè bèi yì cháng bào gào yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "未经批准请不要擅自拆开设备",
+        "B": "异常发生的位置在设备右侧的进料口",
+        "C": "这台设备突然报警了请通知负责人员",
+        "D": "请帮我确认一下设备异常报告要求的具体要求"
+      },
+      "optionPinyin": {
+        "A": "wèi jīng pī zhǔn qǐng bú yào shàn zì chāi kāi shè bèi",
+        "B": "yì cháng fā shēng de wèi zhì zài shè bèi yòu cè de jìn liào kǒu",
+        "C": "zhè tái shè bèi tū rán bào jǐng le qǐng tōng zhī fù zé rén yuán",
+        "D": "qǐng bāng wǒ què rèn yí xià shè bèi yì cháng bào gào yāo qiú de jù tǐ yāo qiú"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你想请同事核实“设备异常报告要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下设备异常报告要求的具体要求。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 32,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未核实“设备故障的核实结果”，需要明确表示仍待核查，应该怎么说？",
+      "pinyin": "nǐ shàng wèi hé shí “ shè bèi gù zhàng de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "是否可以恢复生产请由负责人员确认",
+        "B": "这台设备突然报警了请通知负责人员",
+        "C": "关于设备故障的核实结果我还需要再核实一下",
+        "D": "异常发生的位置在设备右侧的进料口"
+      },
+      "optionPinyin": {
+        "A": "shì fǒu kě yǐ huī fù shēng chǎn qǐng yóu fù zé rén yuán què rèn",
+        "B": "zhè tái shè bèi tū rán bào jǐng le qǐng tōng zhī fù zé rén yuán",
+        "C": "guān yú shè bèi gù zhàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "D": "yì cháng fā shēng de wèi zhì zài shè bèi yòu cè de jìn liào kǒu"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你尚未核实“设备故障的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于设备故障的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 33,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你希望“维修到场安排”变化时及时获知，应该怎么说？",
+      "pinyin": "nǐ xī wàng “ wéi xiū dào chǎng ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "是否可以恢复生产请由负责人员确认",
+        "B": "故障的原因还没有确认请等待专业人员检查",
+        "C": "如果维修到场安排有变化请及时通知我",
+        "D": "异常发生的位置在设备右侧的进料口"
+      },
+      "optionPinyin": {
+        "A": "shì fǒu kě yǐ huī fù shēng chǎn qǐng yóu fù zé rén yuán què rèn",
+        "B": "gù zhàng de yuán yīn hái méi yǒu què rèn qǐng děng dài zhuān yè rén yuán jiǎn chá",
+        "C": "rú guǒ wéi xiū dào chǎng ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
+        "D": "yì cháng fā shēng de wèi zhì zài shè bèi yòu cè de jìn liào kǒu"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你希望“维修到场安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果维修到场安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 34,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你想询问由谁负责“设备状态跟踪”，应该怎么说？",
+      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ shè bèi zhuàng tài gēn zōng ”， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "这台设备突然报警了请通知负责人员",
+        "B": "关于设备故障的核实结果我还需要再核实一下",
+        "C": "请告诉我谁负责设备状态跟踪",
+        "D": "故障的原因还没有确认请等待专业人员检查"
+      },
+      "optionPinyin": {
+        "A": "zhè tái shè bèi tū rán bào jǐng le qǐng tōng zhī fù zé rén yuán",
+        "B": "guān yú shè bèi gù zhàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
+        "C": "qǐng gào sù wǒ shuí fù zé shè bèi zhuàng tài gēn zōng",
+        "D": "gù zhàng de yuán yīn hái méi yǒu què rèn qǐng děng dài zhuān yè rén yuán jiǎn chá"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你想询问由谁负责“设备状态跟踪”，应该怎么说？\n符合此任务的表达：请告诉我谁负责设备状态跟踪。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 35,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你希望先确认“恢复生产的批准情况”再继续讨论，应该怎么说？",
+      "pinyin": "nǐ xī wàng xiān què rèn “ huī fù shēng chǎn de pī zhǔn qíng kuàng ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
+      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "options": {
+        "A": "我们先确认恢复生产的批准情况再继续沟通",
+        "B": "设备出现卡料现象我已经按流程报告",
+        "C": "我会先描述看到的现象不随意判断原因",
+        "D": "关于设备故障的核实结果我还需要再核实一下"
+      },
+      "optionPinyin": {
+        "A": "wǒ men xiān què rèn huī fù shēng chǎn de pī zhǔn qíng kuàng zài jì xù gōu tōng",
+        "B": "shè bèi chū xiàn kǎ liào xiàn xiàng wǒ yǐ jīng àn liú chéng bào gào",
+        "C": "wǒ huì xiān miáo shù kàn dào de xiàn xiàng bù suí yì pàn duàn yuán yīn",
+        "D": "guān yú shè bèi gù zhàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "交际任务：你希望先确认“恢复生产的批准情况”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认恢复生产的批准情况再继续沟通。其他选项未直接完成题目指定的交际目的。"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n突然报警了 / 通知负责人员 / 这台设备 / 请",
+      "pinyin": "tū rán bào jǐng le / tōng zhī fù zé rén yuán / zhè tái shè bèi / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "这台设备突然报警了请通知负责人员",
+        "这台设备突然报警了请通知负责人员。",
+        "这台设备突然报警了请通知负责人员.",
+        "这台设备突然报警了请通知负责人员？",
+        "这台设备突然报警了请通知负责人员?"
+      ],
+      "points": 2,
+      "hanziCount": 16,
+      "explanation": "参考表达：这台设备突然报警了请通知负责人员。\nzhè tái shè bèi tū rán bào jǐng le qǐng tōng zhī fù zé rén yuán。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 已经按流程报告 / 设备 / 出现卡料现象",
+      "pinyin": "wǒ / yǐ jīng àn liú chéng bào gào / shè bèi / chū xiàn kǎ liào xiàn xiàng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "设备出现卡料现象我已经按流程报告",
+        "设备出现卡料现象我已经按流程报告。",
+        "设备出现卡料现象我已经按流程报告.",
+        "设备出现卡料现象我已经按流程报告？",
+        "设备出现卡料现象我已经按流程报告?"
+      ],
+      "points": 2,
+      "hanziCount": 16,
+      "explanation": "参考表达：设备出现卡料现象我已经按流程报告。\nshè bèi chū xiàn kǎ liào xiàn xiàng wǒ yǐ jīng àn liú chéng bào gào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n运行过程中 / 这台设备 / 异响 / 出现了",
+      "pinyin": "yùn xíng guò chéng zhōng / zhè tái shè bèi / yì xiǎng / chū xiàn le",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "运行过程中这台设备出现了异响",
+        "运行过程中这台设备出现了异响。",
+        "运行过程中这台设备出现了异响.",
+        "运行过程中这台设备出现了异响？",
+        "运行过程中这台设备出现了异响?"
+      ],
+      "points": 2,
+      "hanziCount": 14,
+      "explanation": "参考表达：运行过程中这台设备出现了异响。\nyùn xíng guò chéng zhōng zhè tái shè bèi chū xiàn le yì xiǎng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n等待专业人员检查 / 请 / 还没有确认 / 故障的原因",
+      "pinyin": "děng dài zhuān yè rén yuán jiǎn chá / qǐng / hái méi yǒu què rèn / gù zhàng de yuán yīn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "故障的原因还没有确认请等待专业人员检查",
+        "故障的原因还没有确认请等待专业人员检查。",
+        "故障的原因还没有确认请等待专业人员检查.",
+        "故障的原因还没有确认请等待专业人员检查？",
+        "故障的原因还没有确认请等待专业人员检查?"
+      ],
+      "points": 2,
+      "hanziCount": 19,
+      "explanation": "参考表达：故障的原因还没有确认请等待专业人员检查。\ngù zhàng de yuán yīn hái méi yǒu què rèn qǐng děng dài zhuān yè rén yuán jiǎn chá。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n负责维修的人员 / 预计 / 什么时候到 / 请问",
+      "pinyin": "fù zé wéi xiū de rén yuán / yù jì / shén me shí hòu dào / qǐng wèn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "请问负责维修的人员预计什么时候到",
+        "请问负责维修的人员预计什么时候到。",
+        "请问负责维修的人员预计什么时候到.",
+        "请问负责维修的人员预计什么时候到？",
+        "请问负责维修的人员预计什么时候到?"
+      ],
+      "points": 2,
+      "hanziCount": 16,
+      "explanation": "参考表达：请问负责维修的人员预计什么时候到。\nqǐng wèn fù zé wéi xiū de rén yuán yù jì shén me shí hòu dào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n不随意判断原因 / 看到的现象 / 会先描述 / 我",
+      "pinyin": "bù suí yì pàn duàn yuán yīn / kàn dào de xiàn xiàng / huì xiān miáo shù / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "我会先描述看到的现象不随意判断原因",
+        "我会先描述看到的现象不随意判断原因。",
+        "我会先描述看到的现象不随意判断原因.",
+        "我会先描述看到的现象不随意判断原因？",
+        "我会先描述看到的现象不随意判断原因?"
+      ],
+      "points": 2,
+      "hanziCount": 17,
+      "explanation": "参考表达：我会先描述看到的现象不随意判断原因。\nwǒ huì xiān miáo shù kàn dào de xiàn xiàng bù suí yì pàn duàn yuán yīn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 这次停机的时间 / 记录好了 / 已经",
+      "pinyin": "wǒ / zhè cì tíng jī de shí jiān / jì lù hǎo le / yǐ jīng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "这次停机的时间我已经记录好了",
+        "这次停机的时间我已经记录好了。",
+        "这次停机的时间我已经记录好了.",
+        "这次停机的时间我已经记录好了？",
+        "这次停机的时间我已经记录好了?"
+      ],
+      "points": 2,
+      "hanziCount": 14,
+      "explanation": "参考表达：这次停机的时间我已经记录好了。\nzhè cì tíng jī de shí jiān wǒ yǐ jīng jì lù hǎo le。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 是否可以恢复生产 / 由负责人员 / 确认",
+      "pinyin": "qǐng / shì fǒu kě yǐ huī fù shēng chǎn / yóu fù zé rén yuán / què rèn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "是否可以恢复生产请由负责人员确认",
+        "是否可以恢复生产请由负责人员确认。",
+        "是否可以恢复生产请由负责人员确认.",
+        "是否可以恢复生产请由负责人员确认？",
+        "是否可以恢复生产请由负责人员确认?"
+      ],
+      "points": 2,
+      "hanziCount": 16,
+      "explanation": "参考表达：是否可以恢复生产请由负责人员确认。\nshì fǒu kě yǐ huī fù shēng chǎn qǐng yóu fù zé rén yuán què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n不要擅自 / 未经批准 / 请 / 拆开设备",
+      "pinyin": "bú yào shàn zì / wèi jīng pī zhǔn / qǐng / chāi kāi shè bèi",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "未经批准请不要擅自拆开设备",
+        "未经批准请不要擅自拆开设备。",
+        "未经批准请不要擅自拆开设备.",
+        "未经批准请不要擅自拆开设备？",
+        "未经批准请不要擅自拆开设备?"
+      ],
+      "points": 2,
+      "hanziCount": 13,
+      "explanation": "参考表达：未经批准请不要擅自拆开设备。\nwèi jīng pī zhǔn qǐng bú yào shàn zì chāi kāi shè bèi。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n在 / 设备右侧的 / 进料口 / 异常发生的位置",
+      "pinyin": "zài / shè bèi yòu cè de / jìn liào kǒu / yì cháng fā shēng de wèi zhì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "异常发生的位置在设备右侧的进料口",
+        "异常发生的位置在设备右侧的进料口。",
+        "异常发生的位置在设备右侧的进料口.",
+        "异常发生的位置在设备右侧的进料口？",
+        "异常发生的位置在设备右侧的进料口?"
+      ],
+      "points": 2,
+      "hanziCount": 16,
+      "explanation": "参考表达：异常发生的位置在设备右侧的进料口。\nyì cháng fā shēng de wèi zhì zài shè bèi yòu cè de jìn liào kǒu。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 帮我确认一下 / 的具体要求 / 设备异常报告要求",
+      "pinyin": "qǐng / bāng wǒ què rèn yí xià / de jù tǐ yāo qiú / shè bèi yì cháng bào gào yāo qiú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "请帮我确认一下设备异常报告要求的具体要求",
+        "请帮我确认一下设备异常报告要求的具体要求。",
+        "请帮我确认一下设备异常报告要求的具体要求.",
+        "请帮我确认一下设备异常报告要求的具体要求？",
+        "请帮我确认一下设备异常报告要求的具体要求?"
+      ],
+      "points": 2,
+      "hanziCount": 20,
+      "explanation": "参考表达：请帮我确认一下设备异常报告要求的具体要求。\nqǐng bāng wǒ què rèn yí xià shè bèi yì cháng bào gào yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n设备故障的核实结果 / 还需要 / 关于 / 再核实一下 / 我",
+      "pinyin": "shè bèi gù zhàng de hé shí jié guǒ / hái xū yào / guān yú / zài hé shí yí xià / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "关于设备故障的核实结果我还需要再核实一下",
+        "关于设备故障的核实结果我还需要再核实一下。",
+        "关于设备故障的核实结果我还需要再核实一下.",
+        "关于设备故障的核实结果我还需要再核实一下？",
+        "关于设备故障的核实结果我还需要再核实一下?"
+      ],
+      "points": 2,
+      "hanziCount": 20,
+      "explanation": "参考表达：关于设备故障的核实结果我还需要再核实一下。\nguān yú shè bèi gù zhàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n有变化 / 请 / 及时通知我 / 维修到场安排 / 如果",
+      "pinyin": "yǒu biàn huà / qǐng / jí shí tōng zhī wǒ / wéi xiū dào chǎng ān pái / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "如果维修到场安排有变化请及时通知我",
+        "如果维修到场安排有变化请及时通知我。",
+        "如果维修到场安排有变化请及时通知我.",
+        "如果维修到场安排有变化请及时通知我？",
+        "如果维修到场安排有变化请及时通知我?"
+      ],
+      "points": 2,
+      "hanziCount": 17,
+      "explanation": "参考表达：如果维修到场安排有变化请及时通知我。\nrú guǒ wéi xiū dào chǎng ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n谁 / 设备状态跟踪 / 请 / 负责 / 告诉我",
+      "pinyin": "shuí / shè bèi zhuàng tài gēn zōng / qǐng / fù zé / gào sù wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "请告诉我谁负责设备状态跟踪",
+        "请告诉我谁负责设备状态跟踪。",
+        "请告诉我谁负责设备状态跟踪.",
+        "请告诉我谁负责设备状态跟踪？",
+        "请告诉我谁负责设备状态跟踪?"
+      ],
+      "points": 2,
+      "hanziCount": 13,
+      "explanation": "参考表达：请告诉我谁负责设备状态跟踪。\nqǐng gào sù wǒ shuí fù zé shè bèi zhuàng tài gēn zōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n先 / 继续沟通 / 再 / 确认 / 我们 / 恢复生产的批准情况",
+      "pinyin": "xiān / jì xù gōu tōng / zài / què rèn / wǒ men / huī fù shēng chǎn de pī zhǔn qíng kuàng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "我们先确认恢复生产的批准情况再继续沟通",
+        "我们先确认恢复生产的批准情况再继续沟通。",
+        "我们先确认恢复生产的批准情况再继续沟通.",
+        "我们先确认恢复生产的批准情况再继续沟通？",
+        "我们先确认恢复生产的批准情况再继续沟通?"
+      ],
+      "points": 2,
+      "hanziCount": 19,
+      "explanation": "参考表达：我们先确认恢复生产的批准情况再继续沟通。\nwǒ men xiān què rèn huī fù shēng chǎn de pī zhǔn qíng kuàng zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+    }
+  ]
+}

@@ -9,7 +9,7 @@ const catalog=read('exercise-catalog.json'),manifest=read('hsk4-40/manifest.json
 const textbookTitles=['简单的爱情','真正的朋友','工作再忙也别忘了锻炼','不要太着急买','找到适合自己的方法','一分钱一分货','最好的医生是自己','生活中不缺少美','阳光总在风雨后','幸福的标准','读书好，读好书，好读书','用心发现世界','喝着茶看京剧','保护地球母亲','教育孩子的艺术','生活可以更美好','人与自然','科技与世界','生活的味道','路上的风景'];
 assert.equal(manifest.length,40);assert.deepEqual(manifest.slice(0,20).map(m=>m.title),textbookTitles);
 assert.equal(validateCatalog(catalog).exercises.length,catalog.exercises.length);
-assert.equal(catalog.exercises.filter(e=>!/^daily-topic-\d{2}$/.test(e.id)&&(e.bank!=='hsk5'||!e.id.startsWith('hsk5-topic-'))).length,119);
+assert.equal(catalog.exercises.filter(e=>!/^(daily|electronics)-topic-\d{2}$/.test(e.id)&&(e.bank!=='hsk5'||!e.id.startsWith('hsk5-topic-'))).length,119);
 const sentences=new Set(),keys='ABCD',han=s=>[...s].filter(c=>/[\u4e00-\u9fff]/u.test(c)).length;
 const letters=s=>[...s.replace(/[，。！？、：；,.!?;:]/gu,'')].sort().join('');
 for(const m of manifest){

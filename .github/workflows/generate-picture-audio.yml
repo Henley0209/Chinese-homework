@@ -1,0 +1,52 @@
+name: Generate picture vocabulary Xiaoxiao voice
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/generate-picture-audio.yml'
+      - 'tools/picture-audio-corpus.mjs'
+      - 'tools/picture-audio-generate.py'
+      - 'picture-words/catalog.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: picture-xiaoxiao-audio
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install speech generator
+        run: python -m pip install 'edge-tts>=7.2.3,<8' 'mutagen>=1.47,<2'
+      - name: Check picture playback and prepare all word recordings
+        run: |
+          node --test tests/picture-words.test.mjs tests/picture-state.test.mjs
+          node tools/picture-audio-corpus.mjs
+      - name: Generate and validate all Xiaoxiao recordings
+        run: python tools/picture-audio-generate.py work/picture-audio/corpus.json
+      - name: Verify every vocabulary recording is present
+        run: node tools/verify-picture-audio.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: picture-xiaoxiao-audio
+          path: picture-words/audio/
+      - name: Publish verified vocabulary recordings
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add picture-words/audio/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Publish verified Xiaoxiao recordings for picture vocabulary'
+          git pull --rebase origin main
+          git push origin HEAD:main

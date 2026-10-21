@@ -1,34 +1,34 @@
+import {wordRecordings} from './picture-words/audio-index.mjs?v=mobile-tap1';
 export const wordVoice='zh-CN-XiaoxiaoNeural';
-// Use verified recordings so every device hears Xiaoxiao, independent of installed TTS.
-export function createWordAudio({AudioClass=globalThis.Audio,fetchManifest=()=>fetch(new URL('./picture-words/audio/manifest.json?v=xiaoxiao1',import.meta.url),{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('Audio manifest unavailable');return r.json();}),onUnavailable=()=>{},onReady=()=>{}}={}){
- let audio,generation=0,manifestPromise,unlocked=false;
+// The recording index is imported before options become interactive. Never await
+// a fetch, silent clip or promise before playing the actual word in a user's tap.
+export function createWordAudio({AudioClass=globalThis.Audio,recordings=wordRecordings,onUnavailable=()=>{},onReady=()=>{}}={}){
+ let audio,generation=0,preloads=[];
  const base=new URL('./picture-words/audio/',import.meta.url);
- function load(){
-  manifestPromise??=Promise.resolve().then(fetchManifest).then(m=>{if(m.voices?.female!==wordVoice||!m.clips)throw Error('Unexpected voice');return m;}).catch(e=>{manifestPromise=null;throw e;});return manifestPromise;
+ function configure(a){a.preload='auto';a.volume=1;a.playsInline=true;a.setAttribute?.('playsinline','');return a;}
+ function stop(){generation++;if(audio){audio.onplaying=null;audio.onended=null;audio.onerror=null;try{audio.pause();}catch{}}}
+ function prepare(texts){
+  for(const a of preloads){try{a.removeAttribute?.('src');a.load?.();}catch{}}
+  preloads=[];
+  if(!AudioClass)return;
+  for(const text of new Set(texts)){
+   const file=recordings[text];if(!/^[a-f0-9]{32}\.mp3$/.test(file||''))continue;
+   try{const a=configure(new AudioClass());a.src=new URL(file,base).href;a.load?.();preloads.push(a);}catch{}
+  }
  }
- function getAudio(){audio??=new AudioClass();audio.preload='auto';audio.volume=1;return audio;}
- function stop(){generation++;if(audio){audio.onplaying=null;audio.onended=null;audio.onerror=null;try{audio.pause();audio.removeAttribute('src');audio.load();}catch{}}}
  function speak(text){
-  stop();const token=generation;
-  if(!AudioClass){onUnavailable();return false;}
-  let priming;
+  stop();const token=generation,file=recordings[text];
+  if(!AudioClass||!/^[a-f0-9]{32}\.mp3$/.test(file||'')){onUnavailable();return false;}
   try{
-   const a=getAudio();
-   // Prime the same media element synchronously inside the user's real tap on mobile.
-   if(!unlocked){a.src='data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQIAAAAAAA==';a.playbackRate=1;priming=Promise.resolve(a.play()).catch(()=>{});}
-   void (async()=>{
-    try{
-     const manifest=await load();await priming;if(token!==generation)return;
-     const clip=manifest.clips[JSON.stringify([wordVoice,text])];
-     if(!clip||clip.voice!==wordVoice||!clip.duration||!/^[a-f0-9]{32}\.mp3$/.test(clip.file))throw Error('Missing Xiaoxiao recording');
-     a.src=new URL(clip.file,base).href;a.playbackRate=.8;a.preservesPitch=true;a.webkitPreservesPitch=true;
-     a.onplaying=()=>{if(token===generation){unlocked=true;onReady();}};
-     a.onerror=()=>{if(token===generation)onUnavailable();};
-     await a.play();
-    }catch{if(token===generation)onUnavailable();}
-   })();return true;
-  }catch{onUnavailable();return false;}
+   const a=audio??=configure(new AudioClass());
+   a.src=new URL(file,base).href;a.playbackRate=.8;a.preservesPitch=true;a.webkitPreservesPitch=true;
+   a.onplaying=()=>{if(token===generation)onReady();};
+   a.onerror=()=>{if(token===generation)onUnavailable();};
+   // This real MP3 play() must run synchronously within the option's click.
+   const playing=a.play();
+   if(playing?.catch)playing.catch(()=>{if(token===generation)onUnavailable();});
+   return true;
+  }catch{if(token===generation)onUnavailable();return false;}
  }
- void load().catch(()=>{});
- return {speak,stop};
+ return {speak,stop,prepare};
 }

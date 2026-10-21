@@ -6,6 +6,7 @@ on:
       - '.github/workflows/generate-picture-audio.yml'
       - 'tools/picture-audio-corpus.mjs'
       - 'tools/picture-audio-generate.py'
+      - 'tools/picture-audio-index.mjs'
       - 'picture-words/catalog.json'
   workflow_dispatch:
 permissions:
@@ -36,7 +37,9 @@ jobs:
       - name: Generate and validate all Xiaoxiao recordings
         run: python tools/picture-audio-generate.py work/picture-audio/corpus.json
       - name: Verify every vocabulary recording is present
-        run: node tools/verify-picture-audio.mjs
+        run: |
+          node tools/verify-picture-audio.mjs
+          node tools/picture-audio-index.mjs
       - uses: actions/upload-artifact@v4
         with:
           name: picture-xiaoxiao-audio
@@ -45,7 +48,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add picture-words/audio/
+          git add picture-words/audio/ picture-words/audio-index.mjs
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Publish verified Xiaoxiao recordings for picture vocabulary'
           git pull --rebase origin main

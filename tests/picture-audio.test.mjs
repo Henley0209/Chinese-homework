@@ -1,25 +1,39 @@
 import assert from 'node:assert/strict';
 import {createWordAudio,wordVoice} from '../picture-words-audio.mjs';
+import {wordRecordings} from '../picture-words/audio-index.mjs';
 import {buildCorpus,voice} from '../tools/picture-audio-corpus.mjs';
-const corpus=buildCorpus();assert.equal(wordVoice,voice);assert.ok(corpus.length>1000);
-assert.equal(new Set(corpus.map(c=>c.text)).size,corpus.length);
-const manifest={voices:{female:voice},clips:Object.fromEntries(corpus.map(c=>[c.key,{voice,file:c.file,duration:1}]))};
-const played=[];let ready=0,unavailable=0;
-class AudioMock{
- play(){played.push(this.src);this.onplaying?.();return Promise.resolve();}
- pause(){} removeAttribute(){this.src='';} load(){}
+const corpus=buildCorpus();assert.equal(wordVoice,voice);assert.equal(Object.keys(wordRecordings).length,corpus.length);
+for(const clip of corpus)assert.equal(wordRecordings[clip.text],clip.file);
+let gesture=false,ready=0,unavailable=0,paused=0;const instances=[],played=[];
+class MobileAudio{
+ constructor(){instances.push(this);}
+ setAttribute(){} removeAttribute(){this.src='';}load(){}
+ pause(){paused++;}
+ play(){
+  // Model mobile browsers which reject playback after the click handler returns.
+  assert.ok(gesture,'The real MP3 must play inside the active user click');
+  assert.ok(this.src.endsWith('.mp3'),'Do not play a silent unlock clip');
+  played.push(this.src);this.onplaying?.();return Promise.resolve();
+ }
 }
+const click=fn=>{gesture=true;try{return fn();}finally{gesture=false;}};
 const flush=()=>new Promise(r=>setImmediate(r));
-const player=createWordAudio({AudioClass:AudioMock,fetchManifest:async()=>manifest,onReady:()=>ready++,onUnavailable:()=>unavailable++});
-const first=corpus[0],second=corpus[1];
-assert.equal(player.speak(first.text),true);await flush();assert.equal(ready,1);
-assert.ok(played.at(-1).endsWith(first.file));assert.equal(unavailable,0);
-// Rapid taps play only the latest pending vocabulary clip.
-const mark=played.length;player.speak(first.text);player.speak(second.text);await flush();assert.equal(played.length-mark,1);assert.ok(played.at(-1).endsWith(second.file));
-const next=played.length;player.speak(first.text);player.stop();await flush();assert.equal(played.length,next);
-player.speak('不存在的词语');await flush();assert.equal(unavailable,1);
-const missing=createWordAudio({AudioClass:null,fetchManifest:async()=>manifest,onUnavailable:()=>unavailable++});assert.equal(missing.speak(first.text),false);assert.equal(unavailable,2);
-const wrong=createWordAudio({AudioClass:AudioMock,fetchManifest:async()=>({...manifest,voices:{female:'zh-CN-YunxiNeural'}}),onUnavailable:()=>unavailable++});wrong.speak(first.text);await flush();assert.equal(unavailable,3);
-let attempts=0;const retry=createWordAudio({AudioClass:AudioMock,fetchManifest:async()=>{if(++attempts===1)throw Error('offline');return manifest;},onUnavailable:()=>unavailable++});
-await flush();retry.speak(first.text);await flush();assert.ok(played.at(-1).endsWith(first.file));
-console.log(`通过：${corpus.length}词晓晓音色索引、固定录音、快速切换、退出取消、缺失录音、错误音色和断网重试。`);
+const first=corpus[0],second=corpus[1],player=createWordAudio({AudioClass:MobileAudio,onReady:()=>ready++,onUnavailable:()=>unavailable++});
+player.prepare([first.text,second.text]);assert.equal(played.length,0);assert.equal(instances.length,2);
+assert.equal(click(()=>player.speak(first.text)),true);
+// No awaiting required: even the first real word must already be playing.
+assert.equal(played.length,1);assert.ok(played[0].endsWith(first.file));assert.equal(ready,1);
+click(()=>player.speak(first.text));click(()=>player.speak(second.text));assert.ok(played.at(-1).endsWith(second.file));assert.ok(paused>=2);
+const stale=instances.at(-1).onerror;player.stop();stale();assert.equal(unavailable,0);
+assert.equal(click(()=>player.speak('不存在的词语')),false);assert.equal(unavailable,1);
+assert.equal(createWordAudio({AudioClass:null,onUnavailable:()=>unavailable++}).speak(first.text),false);assert.equal(unavailable,2);
+// A late rejection from an old tap must not overwrite the current playback state.
+let rejectOld;
+class DelayedAudio extends MobileAudio{
+ play(){super.play();if(!rejectOld)return new Promise((resolve,reject)=>{rejectOld=reject;});return Promise.resolve();}
+}
+const racing=createWordAudio({AudioClass:DelayedAudio,onUnavailable:()=>unavailable++});
+click(()=>racing.speak(first.text));click(()=>racing.speak(second.text));rejectOld(Error('interrupted'));await flush();assert.equal(unavailable,2);
+class BlockedAudio extends MobileAudio{play(){return Promise.reject(Error('blocked'));}}
+const blocked=createWordAudio({AudioClass:BlockedAudio,onUnavailable:()=>unavailable++});click(()=>blocked.speak(first.text));await flush();assert.equal(unavailable,3);
+console.log(`通过：${corpus.length}词静态索引、手机首次点击同步播放真实MP3、四选项预加载、快速切换、退出取消和失败提示。`);

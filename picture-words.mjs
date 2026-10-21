@@ -1,7 +1,7 @@
 import {loadPictureState,savePictureState} from './picture-words-state.mjs?v=objects2';
 import {resolveWritingLevel} from './writing-access.mjs?v=writing33';
 import {validatePictureCatalog,pictureOptions,pictureProgress,createPictureFeedback} from './picture-words-core.mjs?v=vocab1322';
-import {createWordAudio} from './picture-words-audio.mjs?v=xiaoxiao1';
+import {createWordAudio} from './picture-words-audio.mjs?v=mobile-tap1';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=selector=>document.querySelector(selector);
 export function initPictureWords({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
@@ -31,6 +31,7 @@ export function initPictureWords({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}
   const emoji=make('div','','picture-emoji');emoji.hidden=true;emoji.setAttribute('aria-hidden','true');frame.append(image,emoji);
   const choices=resume?.optionIds?resume.optionIds.map(id=>category.words.find(w=>w.id===id)):pictureOptions(category,index);
   currentState={view:'question',categoryId:category.id,wordId:word.id,index,optionIds:choices.map(w=>w.id),outcome:resume?.outcome||'ready',selectedId:resume?.selectedId||null};remember();
+  audio.prepare(choices.map(option=>option.chinese));
   const options=make('div',undefined,'picture-options');options.setAttribute('aria-label','选择图片中的物品 / Chọn từ đúng với hình');
   const status=make('p','正在加载图片… / Đang tải hình…','picture-status');status.setAttribute('role','status');
   const audioStatus=make('p','','picture-audio-status note');audioStatus.setAttribute('role','status');const retry=button('picture-image-retry','重新加载图片','Tải lại hình',()=>{retry.hidden=true;status.textContent='正在加载图片… / Đang tải hình…';image.src=word.image+'?retry='+Date.now();},'quiet');retry.hidden=true;

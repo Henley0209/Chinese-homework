@@ -87,10 +87,33 @@ export function createVisitCounter({request=createCounterTransport(),key=COUNTER
  }
  return {open(name){if(!opened)opened=(async()=>{await total('hit');if(normalizeName(name))await recordName(name);return value;})();return opened;},load:()=>total('get'),recordName,refreshUsers,current:()=>value};
 }
+// Drive movement directly so browser animation preferences and stale CSS cannot
+// turn the public ticker into a manual scroll area.
+export function startVisitTicker(track,win){
+ const viewport=track.parentElement;
+ viewport.style.setProperty('overflow','hidden','important');
+ viewport.style.setProperty('scrollbar-width','none','important');
+ viewport.style.setProperty('height','1.8em','important');
+ track.style.setProperty('animation','none','important');
+ let frame=null,last=null,offset=0;
+ function tick(now){
+  const height=track.firstElementChild?.getBoundingClientRect().height||0;
+  if(height){
+   if(last!==null)offset=(offset+Math.min(now-last,100)*0.012)%height;
+   track.style.setProperty('transform',`translate3d(0,${-offset}px,0)`,'important');
+  }else offset=0;
+  last=now;frame=win.requestAnimationFrame(tick);
+ }
+ function start(){if(frame!==null)return;last=null;frame=win.requestAnimationFrame(tick);}
+ function stop(){if(frame!==null)win.cancelAnimationFrame(frame);frame=null;last=null;}
+ win.addEventListener('pagehide',stop);win.addEventListener('pageshow',start);start();
+ return stop;
+}
 export function mountVisitCounter(doc=globalThis.document,win=globalThis.window){
  const total=doc?.querySelector('#visit-total'),container=doc?.querySelector('#visit-counter'),track=doc?.querySelector('#visit-users-track'),status=doc?.querySelector('#visit-users-status');
  if(!total||!container)return;
  if(new URLSearchParams(win.location.search).has('appearance-preview')){total.textContent='—';if(status)status.textContent='编辑预览不计数';return;}
+ if(track)startVisitTicker(track,win);
  const live=createVisitCounter({render:({value,error})=>{
   total.textContent=value===null?(error?'暂不可用':'…'):value.toLocaleString('zh-CN');container.title=error?'访问次数暂未同步；不影响答题。':'每次打开或刷新网页计1次；进入练习、切换题目和切回标签不重复计数。';container.dataset.state=error?'unavailable':'ready';
  },renderUsers:({rows,error})=>{

@@ -1,6 +1,6 @@
 import {categories,generateQuestions} from './bank300.mjs?v=bank300v1';
 import {questionSegments} from './speech.mjs?v=natural3';
-import {createRecordedPlayer} from './recorded-player.mjs?v=bank300v1';
+import {createRecordedPlayer} from './recorded-player.mjs?v=autoplay6';
 import {createListeningProgress} from './progress.mjs?v=bank300v1';
 const root=document.querySelector('#listening-app'),back=document.querySelector('#listening-categories'),intro=document.querySelector('.listening-intro');
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
@@ -31,7 +31,7 @@ function showCategories(){
  }
  root.append(grid,el('p','每类 300 题，单人朗读和双人对话依次交替；进度自动保存在当前浏览器。 / Mỗi chủ đề 300 câu, xen kẽ một người và hội thoại hai người; tự lưu tiến độ.','note'));focus();
 }
-function enter(c,{autoplay=false}={}){
+function enter(c,{autoplay=true}={}){
  if(category)saveCurrent();stop();category=c;setView(true);setHash(c.id);
  const saved=progressStore.load(c.id);
  if(saved){({questions,index,answers,finished,rate}=saved);}

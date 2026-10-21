@@ -1,11 +1,11 @@
 .visit-stats{margin-left:auto;max-width:100%;width:280px;display:flex;flex-direction:column;align-items:stretch;gap:5px;text-align:right;min-width:0}
 .visit-stats .visit-counter{margin-left:0}
-.visit-users{width:100%;overflow:hidden;border-radius:5px;color:#245877;font-size:12px;line-height:1.8;outline-offset:3px;text-align:left}
-.visit-users-track{display:flex;width:max-content;animation:visit-user-scroll var(--visit-scroll-duration,20s) linear infinite}
-.visit-users-group{display:flex;align-items:center;flex-shrink:0;gap:24px;padding-right:24px}
-.visit-user{white-space:nowrap}
+.visit-users{width:100%;height:1.8em;overflow:hidden;border-radius:5px;color:#245877;font-size:12px;line-height:1.8;outline-offset:3px;text-align:left}
+.visit-users-track{display:flex;flex-direction:column;width:100%;animation:visit-user-scroll var(--visit-scroll-duration,20s) linear infinite}
+.visit-users-group{display:flex;flex-direction:column;align-items:stretch;flex-shrink:0;width:100%}
+.visit-user{display:block;height:1.8em;line-height:1.8;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .visit-users:hover .visit-users-track,.visit-users:focus-within .visit-users-track,.visit-users:active .visit-users-track{animation-play-state:paused}
 .visit-users-status{font-size:10px;line-height:1.5;color:#67849a;white-space:normal}
-@keyframes visit-user-scroll{to{transform:translateX(-50%)}}
+@keyframes visit-user-scroll{to{transform:translateY(-50%)}}
 @media(max-width:650px){.visit-stats{width:100%;max-width:320px}.visit-users{font-size:11px}}
-@media(prefers-reduced-motion:reduce){.visit-users{overflow-x:auto}.visit-users-track{animation:none}.visit-users-group[aria-hidden=true]{display:none}}
+@media(prefers-reduced-motion:reduce){.visit-users{overflow-x:hidden;overflow-y:auto}.visit-users-track{animation:none}.visit-users-group[aria-hidden=true]{display:none}}

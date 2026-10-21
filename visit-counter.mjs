@@ -100,7 +100,7 @@ export function mountVisitCounter(doc=globalThis.document,win=globalThis.window)
    for(const row of rows){const item=doc.createElement('span');item.className='visit-user';item.textContent=`${row.name} · 累计访问 ${row.count.toLocaleString('zh-CN')} 次`;group.append(item);}
    track.append(group);
   }
-  track.style.setProperty('--visit-scroll-duration',Math.max(18,rows.length*5)+'s');
+  track.style.setProperty('--visit-scroll-duration',Math.max(5,rows.length*3)+'s');
   if(status)status.textContent=error?'用户次数暂未完全同步 / Chưa đồng bộ đầy đủ':rows.length?'按姓名累计 · 悬停暂停 / Theo tên · Dừng khi trỏ vào':'输入姓名后计入个人累计 / Nhập tên để ghi nhận lượt cá nhân';
  }});
  let saved='';try{saved=normalizeName(JSON.parse(win.localStorage.getItem('practice-remembered-entry-v1')||'{}').name);}catch{}

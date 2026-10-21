@@ -3,7 +3,7 @@ import asyncio
 import json
 import os
 from pathlib import Path
-import subprocess
+from mutagen.mp3 import MP3
 import sys
 import edge_tts
 
@@ -16,11 +16,10 @@ completed = 0
 def inspect(path):
     if not path.exists() or path.stat().st_size < 1000:
         return None
-    result = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1', str(path)], capture_output=True, text=True)
     try:
-        duration = float(result.stdout.strip())
-        return round(duration, 3) if result.returncode == 0 and duration > 0 else None
-    except ValueError:
+        duration = MP3(path).info.length
+        return round(duration, 3) if duration > 0 else None
+    except Exception:
         return None
 
 async def generate(clip):

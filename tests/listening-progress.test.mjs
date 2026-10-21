@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {createListeningProgress} from '../listening/progress.mjs';
+import {generateQuestions} from '../listening/data.mjs';
+const values=new Map(),storage={getItem:key=>values.get(key)||null,setItem:(key,value)=>values.set(key,value)};
+const store=createListeningProgress(storage);
+const questions=generateQuestions('daily',{values:{name:'小陈',hour:9,price:30,count:120}}),answers=Array(10).fill(null);answers[0]=2;
+const session={questions,index:1,answers,finished:false,rate:.8};
+assert.ok(store.save('daily',session));
+const fresh=createListeningProgress(storage);assert.deepEqual(fresh.load('daily').questions,questions,'exact random questions and option order survive a new visit');assert.equal(fresh.load('daily').index,1);assert.deepEqual(fresh.load('daily').answers,answers);assert.equal(fresh.last().category,'daily');
+const hsk={questions:generateQuestions('hsk'),index:0,answers:Array(10).fill(null),finished:false,rate:.8};assert.ok(store.save('hsk',hsk));assert.equal(store.last().category,'hsk');assert.deepEqual(store.load('daily').questions,questions,'categories retain independent sessions');
+const restored=store.load('daily');restored.questions[0].options.reverse();assert.deepEqual(store.load('daily').questions,questions,'loaded values cannot mutate saved snapshots');
+const completed={...session,index:9,answers:questions.map(q=>q.answer),finished:true};assert.ok(store.save('daily',completed));assert.equal(store.load('daily').finished,true);
+assert.equal(store.save('daily',{...session,index:10}),false);assert.equal(store.save('daily',{...session,answers:[5]}),false);assert.equal(store.load('invalid'),null);
+const unavailable=createListeningProgress({getItem(){throw Error('denied');},setItem(){throw Error('denied');}});assert.equal(unavailable.last(),null);assert.equal(unavailable.save('hsk',hsk),false);
+values.set('chinese-listening-progress-v1','{broken');assert.equal(store.last(),null);assert.ok(store.save('hsk',hsk),'recover safely from corrupt browser data');
+console.log('PASS: exact question/answer restoration, per-category sessions, completed sessions, corrupt storage and blocked storage.');

@@ -32,3 +32,5 @@ await player.play([{role:'narrator',text:'not recorded'}]);assert.match(statuses
 let resolveManifest;const delayed=new Promise(resolve=>{resolveManifest=resolve;});const slow=createRecordedPlayer({AudioClass:FakeAudio,fetchManifest:()=>delayed});const pending=slow.play(dialogue);slow.stop();const before=played.length;resolveManifest(manifest);await pending;assert.equal(played.length,before,'late manifest cannot restart stopped audio');
 const deny=createRecordedPlayer({AudioClass:class extends FakeAudio{play(){return Promise.reject(Object.assign(Error(),{name:'NotAllowedError'}));}},fetchManifest:async()=>manifest,onStatus:text=>statuses.push(text)});await deny.play(dialogue);await new Promise(resolve=>setImmediate(resolve));assert.match(statuses.at(-1),/请点击/);
 console.log('PASS: 229-clip corpus covers all variants; fixed voices, sequencing, mobile element reuse, speed, cancellation and playback errors.');
+
+await player.play(dialogue);assert.equal(audio.playbackRate,.8,'female defaults to 0.8');audio.onended();assert.equal(audio.playbackRate,.8,'male defaults to 0.8');player.stop();

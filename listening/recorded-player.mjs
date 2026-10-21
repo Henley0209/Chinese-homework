@@ -19,7 +19,7 @@ export function createRecordedPlayer({AudioClass=globalThis.Audio,fetchManifest=
   if(unlocked||!AudioClass)return;
   try{const a=getAudio();a.src='data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQIAAAAAAA==';Promise.resolve(a.play()).then(()=>{unlocked=true;},()=>{});}catch{}
  }
- async function play(segments,{rate=1}={}){
+ async function play(segments,{rate=.8}={}){
   stop();const token=generation;unlock();
   if(!AudioClass){onStatus('此浏览器不支持音频播放。 / Trình duyệt không hỗ trợ âm thanh.');return;}
   onStatus('正在加载固定普通话录音… / Đang tải bản thu phổ thông…');
@@ -30,7 +30,7 @@ export function createRecordedPlayer({AudioClass=globalThis.Audio,fetchManifest=
    function next(){
     if(token!==generation)return;
     if(index>=queue.length){onStatus('朗读完成，可再听一次。 / Đã đọc xong, có thể nghe lại.');return;}
-    const item=queue[index++],a=getAudio();a.src=new URL(item.clip.file,baseURL).href;a.playbackRate=[.65,.85,1].includes(rate)?rate:1;a.preservesPitch=true;a.webkitPreservesPitch=true;
+    const item=queue[index++],a=getAudio();a.src=new URL(item.clip.file,baseURL).href;a.playbackRate=[.65,.8,.85,1].includes(rate)?rate:.8;a.preservesPitch=true;a.webkitPreservesPitch=true;
     a.onplaying=()=>{if(token===generation){unlocked=true;onStatus(`正在播放 · ${item.role==='male'?'云希男声':'晓晓女声'} / Đang phát · ${item.role==='male'?'Yunxi':'Xiaoxiao'}`);}};
     a.onended=next;a.onerror=()=>{if(token===generation)onStatus('录音加载失败，请检查网络后点击“再听一次”。 / Không tải được bản thu, kiểm tra mạng rồi nghe lại.');};
     try{Promise.resolve(a.play()).catch(error=>{if(token!==generation)return;if(error?.name==='NotAllowedError'){unlocked=false;onStatus('请点击“再听一次”开始播放。 / Chạm “Nghe lại” để phát âm thanh.');}else onStatus('录音播放失败，请点击“再听一次”。 / Không phát được bản thu, hãy nghe lại.');});}catch{if(token===generation)onStatus('录音播放失败，请点击“再听一次”。 / Không phát được bản thu, hãy nghe lại.');}

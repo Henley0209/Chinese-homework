@@ -1,0 +1,390 @@
+{
+  "title": "HSK5 第15课 阅读与信息判断",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“观点”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "duān diǎn",
+        "B": "guān diǎn",
+        "C": "guāng diǎn",
+        "D": "cuān diǎn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "“观点”读作 guān diǎn，意思是 quan điểm。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“证实”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "zèng shí",
+        "B": "zhèng sí",
+        "C": "zhèng shí",
+        "D": "zhèn shí"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "“证实”读作 zhèng shí，意思是 chứng thực。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“可靠”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "hě kào",
+        "B": "gě kào",
+        "C": "kě kòu",
+        "D": "kě kào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“可靠”读作 kě kào，意思是 đáng tin cậy。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“分析”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "hēn xī",
+        "B": "fēng xī",
+        "C": "fēn qī",
+        "D": "fēn xī"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“分析”读作 fēn xī，意思是 phân tích。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“结论”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "qié lùn",
+        "B": "jié lùn",
+        "C": "bié lùn",
+        "D": "jié nùn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "“结论”读作 jié lùn，意思是 kết luận。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：阅读评论时我们应该区分事实与作者的____。",
+      "pinyin": "yuè dú píng lùn shí wǒ men yīng gāi qū fēn shì shí yǔ zuò zhě de ____",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: quan điểm.",
+      "options": {
+        "A": "证实",
+        "B": "分析",
+        "C": "观点",
+        "D": "可靠"
+      },
+      "optionPinyin": {
+        "A": "zhèng shí",
+        "B": "fēn xī",
+        "C": "guān diǎn",
+        "D": "kě kào"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“观点”（quan điểm）。完整句子：阅读评论时我们应该区分事实与作者的观点。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：这条消息目前还没有得到可靠的____。",
+      "pinyin": "zhè tiáo xiāo xi mù qián hái méi yǒu dé dào kě kào de ____",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: chứng thực.",
+      "options": {
+        "A": "分析",
+        "B": "观点",
+        "C": "证实",
+        "D": "结论"
+      },
+      "optionPinyin": {
+        "A": "fēn xī",
+        "B": "guān diǎn",
+        "C": "zhèng shí",
+        "D": "jié lùn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“证实”（chứng thực）。完整句子：这条消息目前还没有得到可靠的证实。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：作出判断以前最好查阅多个____的信息来源。",
+      "pinyin": "zuò chū pàn duàn yǐ qián zuì hǎo chá yuè duō gè ____ de xìn xī lái yuán",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: đáng tin cậy.",
+      "options": {
+        "A": "观点",
+        "B": "可靠",
+        "C": "结论",
+        "D": "证实"
+      },
+      "optionPinyin": {
+        "A": "guān diǎn",
+        "B": "kě kào",
+        "C": "jié lùn",
+        "D": "zhèng shí"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“可靠”（đáng tin cậy）。完整句子：作出判断以前最好查阅多个可靠的信息来源。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：他通过比较不同的材料____了问题出现的原因。",
+      "pinyin": "tā tōng guò bǐ jiào bù tóng de cái liào ____ le wèn tí chū xiàn de yuán yīn",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: phân tích.",
+      "options": {
+        "A": "观点",
+        "B": "分析",
+        "C": "证实",
+        "D": "可靠"
+      },
+      "optionPinyin": {
+        "A": "guān diǎn",
+        "B": "fēn xī",
+        "C": "zhèng shí",
+        "D": "kě kào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“分析”（phân tích）。完整句子：他通过比较不同的材料分析了问题出现的原因。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：如果证据不够充分就不应该过早地得出____。",
+      "pinyin": "rú guǒ zhèng jù bù gòu chōng fèn jiù bù yīng gāi guò zǎo dì dé chū ____",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: kết luận.",
+      "options": {
+        "A": "结论",
+        "B": "证实",
+        "C": "观点",
+        "D": "可靠"
+      },
+      "optionPinyin": {
+        "A": "jié lùn",
+        "B": "zhèng shí",
+        "C": "guān diǎn",
+        "D": "kě kào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“结论”（kết luận）。完整句子：如果证据不够充分就不应该过早地得出结论。"
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（19个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n事实与作者的观点 / 应该 / 阅读评论时 / 区分 / 我们",
+      "pinyin": "shì shí yǔ zuò zhě de guān diǎn / yīng gāi / yuè dú píng lùn shí / qū fēn / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "阅读评论时我们应该区分事实与作者的观点。",
+        "阅读评论时我们应该区分事实与作者的观点",
+        "阅读评论时我们应该区分事实与作者的观点.",
+        "我们阅读评论时应该区分事实与作者的观点",
+        "我们阅读评论时应该区分事实与作者的观点。",
+        "我们阅读评论时应该区分事实与作者的观点."
+      ],
+      "points": 5,
+      "hanziCount": 19,
+      "explanation": "参考句子：阅读评论时我们应该区分事实与作者的观点。\nyuè dú píng lùn shí wǒ men yīng gāi qū fēn shì shí yǔ zuò zhě de guān diǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 12,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（16个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n得到 / 可靠的证实 / 这条消息 / 还没有 / 目前",
+      "pinyin": "dé dào / kě kào de zhèng shí / zhè tiáo xiāo xi / hái méi yǒu / mù qián",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "这条消息目前还没有得到可靠的证实。",
+        "这条消息目前还没有得到可靠的证实",
+        "这条消息目前还没有得到可靠的证实."
+      ],
+      "points": 5,
+      "hanziCount": 16,
+      "explanation": "参考句子：这条消息目前还没有得到可靠的证实。\nzhè tiáo xiāo xi mù qián hái méi yǒu dé dào kě kào de zhèng shí。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 13,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（19个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n可靠的信息来源 / 多个 / 最好 / 作出判断以前 / 查阅",
+      "pinyin": "kě kào de xìn xī lái yuán / duō gè / zuì hǎo / zuò chū pàn duàn yǐ qián / chá yuè",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "作出判断以前最好查阅多个可靠的信息来源。",
+        "作出判断以前最好查阅多个可靠的信息来源",
+        "作出判断以前最好查阅多个可靠的信息来源."
+      ],
+      "points": 5,
+      "hanziCount": 19,
+      "explanation": "参考句子：作出判断以前最好查阅多个可靠的信息来源。\nzuò chū pàn duàn yǐ qián zuì hǎo chá yuè duō gè kě kào de xìn xī lái yuán。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（20个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n通过 / 分析了 / 问题出现的原因 / 比较不同的材料 / 他",
+      "pinyin": "tōng guò / fēn xī le / wèn tí chū xiàn de yuán yīn / bǐ jiào bù tóng de cái liào / tā",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "他通过比较不同的材料分析了问题出现的原因。",
+        "他通过比较不同的材料分析了问题出现的原因",
+        "他通过比较不同的材料分析了问题出现的原因."
+      ],
+      "points": 5,
+      "hanziCount": 20,
+      "explanation": "参考句子：他通过比较不同的材料分析了问题出现的原因。\ntā tōng guò bǐ jiào bù tóng de cái liào fēn xī le wèn tí chū xiàn de yuán yīn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 15,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（19个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n就不应该 / 得出结论 / 证据不够充分 / 如果 / 过早地",
+      "pinyin": "jiù bù yīng gāi / dé chū jié lùn / zhèng jù bù gòu chōng fèn / rú guǒ / guò zǎo dì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "如果证据不够充分就不应该过早地得出结论。",
+        "如果证据不够充分就不应该过早地得出结论",
+        "如果证据不够充分就不应该过早地得出结论."
+      ],
+      "points": 5,
+      "hanziCount": 19,
+      "explanation": "参考句子：如果证据不够充分就不应该过早地得出结论。\nrú guǒ zhèng jù bù gòu chōng fèn jiù bù yīng gāi guò zǎo dì dé chū jié lùn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 16,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 不仅要了解 / 信息来源的核实 / 思考其实际意义 / 还要",
+      "pinyin": "wǒ men / bù jǐn yào liǎo jiě / xìn xī lái yuán de hé shí / sī kǎo qí shí jì yì yì / hái yào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "我们不仅要了解信息来源的核实还要思考其实际意义。",
+        "我们不仅要了解信息来源的核实还要思考其实际意义",
+        "我们不仅要了解信息来源的核实还要思考其实际意义."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：我们不仅要了解信息来源的核实还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě xìn xī lái yuán de hé shí hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（24个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n无论 / 阅读习惯的形成 / 值得我们认真关注 / 都 / 社会如何变化",
+      "pinyin": "wú lùn / yuè dú xí guàn de xíng chéng / zhí de wǒ men rèn zhēn guān zhù / dōu / shè huì rú hé biàn huà",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "无论社会如何变化阅读习惯的形成都值得我们认真关注。",
+        "无论社会如何变化阅读习惯的形成都值得我们认真关注",
+        "无论社会如何变化阅读习惯的形成都值得我们认真关注."
+      ],
+      "points": 5,
+      "hanziCount": 24,
+      "explanation": "参考句子：无论社会如何变化阅读习惯的形成都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà yuè dú xí guàn de xíng chéng dū zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+    },
+    {
+      "id": 18,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n才能 / 作出更合理的判断 / 只有 / 独立判断的能力 / 深入理解",
+      "pinyin": "cái néng / zuò chū gèng hé lǐ de pàn duàn / zhǐ yǒu / dú lì pàn duàn de néng lì / shēn rù lǐ jiě",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "只有深入理解独立判断的能力才能作出更合理的判断。",
+        "只有深入理解独立判断的能力才能作出更合理的判断",
+        "只有深入理解独立判断的能力才能作出更合理的判断."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：只有深入理解独立判断的能力才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě dú lì pàn duàn de néng lì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+    },
+    {
+      "id": 19,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n急于得出结论 / 先 / 事实与观点的区别 / 不如 / 认真分析 / 与其",
+      "pinyin": "jí yú dé chū jié lùn / xiān / shì shí yǔ guān diǎn de qū bié / bù rú / rèn zhēn fēn xī / yǔ qí",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "与其急于得出结论不如先认真分析事实与观点的区别。",
+        "与其急于得出结论不如先认真分析事实与观点的区别",
+        "与其急于得出结论不如先认真分析事实与观点的区别."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：与其急于得出结论不如先认真分析事实与观点的区别。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī shì shí yǔ guān diǎn de qū bié。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n老师 / 要求我们 / 结合实际经历 / 证据使用的原则 / 具体说明",
+      "pinyin": "lǎo shī / yāo qiú wǒ men / jié hé shí jì jīng lì / zhèng jù shǐ yòng de yuán zé / jù tǐ shuō míng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "老师要求我们结合实际经历具体说明证据使用的原则。",
+        "老师要求我们结合实际经历具体说明证据使用的原则",
+        "老师要求我们结合实际经历具体说明证据使用的原则."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明证据使用的原则。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng zhèng jù shǐ yòng de yuán zé。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+    }
+  ]
+}

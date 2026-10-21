@@ -1,0 +1,390 @@
+{
+  "title": "HSK5 第16课 科技与人工智能",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“技术”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "jì shù",
+        "B": "bì shù",
+        "C": "qì shù",
+        "D": "jì sù"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“技术”读作 jì shù，意思是 công nghệ。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“代替”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "dài tì",
+        "B": "bài tì",
+        "C": "duì tì",
+        "D": "cài tì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“代替”读作 dài tì，意思是 thay thế。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“准确”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "zhǔn juè",
+        "B": "zǔn què",
+        "C": "zhǔn xuè",
+        "D": "zhǔn què"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“准确”读作 zhǔn què，意思是 chính xác。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“依赖”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "bī lài",
+        "B": "yī nài",
+        "C": "yī lèi",
+        "D": "yī lài"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“依赖”读作 yī lài，意思是 phụ thuộc。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“创造”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "chuàng zhào",
+        "B": "chuàn zào",
+        "C": "chuàng zòu",
+        "D": "chuàng zào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“创造”读作 chuàng zào，意思是 sáng tạo。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：新____的应用正在逐渐改变人们的工作方式。",
+      "pinyin": "xīn ____ de yìng yòng zhèng zài zhú jiàn gǎi biàn rén men de gōng zuò fāng shì",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: công nghệ.",
+      "options": {
+        "A": "技术",
+        "B": "创造",
+        "C": "准确",
+        "D": "代替"
+      },
+      "optionPinyin": {
+        "A": "jì shù",
+        "B": "chuàng zào",
+        "C": "zhǔn què",
+        "D": "dài tì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“技术”（công nghệ）。完整句子：新技术的应用正在逐渐改变人们的工作方式。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：机器能够____人类完成部分重复性的工作。",
+      "pinyin": "jī qì néng gòu ____ rén lèi wán chéng bù fèn chóng fù xìng de gōng zuò",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: thay thế.",
+      "options": {
+        "A": "代替",
+        "B": "准确",
+        "C": "依赖",
+        "D": "技术"
+      },
+      "optionPinyin": {
+        "A": "dài tì",
+        "B": "zhǔn què",
+        "C": "yī lài",
+        "D": "jì shù"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“代替”（thay thế）。完整句子：机器能够代替人类完成部分重复性的工作。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：使用自动翻译时我们仍然需要检查表达是否____。",
+      "pinyin": "shǐ yòng zì dòng fān yì shí wǒ men réng rán xū yào jiǎn chá biǎo dá shì fǒu ____",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: chính xác.",
+      "options": {
+        "A": "代替",
+        "B": "依赖",
+        "C": "准确",
+        "D": "创造"
+      },
+      "optionPinyin": {
+        "A": "dài tì",
+        "B": "yī lài",
+        "C": "zhǔn què",
+        "D": "chuàng zào"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“准确”（chính xác）。完整句子：使用自动翻译时我们仍然需要检查表达是否准确。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：如果过分____软件就可能忽视独立思考的重要性。",
+      "pinyin": "rú guǒ guò fèn ____ ruǎn jiàn jiù kě néng hū shì dú lì sī kǎo de zhòng yào xìng",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: phụ thuộc.",
+      "options": {
+        "A": "技术",
+        "B": "准确",
+        "C": "创造",
+        "D": "依赖"
+      },
+      "optionPinyin": {
+        "A": "jì shù",
+        "B": "zhǔn què",
+        "C": "chuàng zào",
+        "D": "yī lài"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“依赖”（phụ thuộc）。完整句子：如果过分依赖软件就可能忽视独立思考的重要性。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：技术的价值不仅在于提高效率还在于____新的机会。",
+      "pinyin": "jì shù de jià zhí bù jǐn zài yú tí gāo xiào lǜ hái zài yú ____ xīn de jī huì",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: sáng tạo.",
+      "options": {
+        "A": "依赖",
+        "B": "技术",
+        "C": "准确",
+        "D": "创造"
+      },
+      "optionPinyin": {
+        "A": "yī lài",
+        "B": "jì shù",
+        "C": "zhǔn què",
+        "D": "chuàng zào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“创造”（sáng tạo）。完整句子：技术的价值不仅在于提高效率还在于创造新的机会。"
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（19个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n正在 / 人们的 / 逐渐改变 / 新技术的应用 / 工作方式",
+      "pinyin": "zhèng zài / rén men de / zhú jiàn gǎi biàn / xīn jì shù de yìng yòng / gōng zuò fāng shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "新技术的应用正在逐渐改变人们的工作方式。",
+        "新技术的应用正在逐渐改变人们的工作方式",
+        "新技术的应用正在逐渐改变人们的工作方式."
+      ],
+      "points": 5,
+      "hanziCount": 19,
+      "explanation": "参考句子：新技术的应用正在逐渐改变人们的工作方式。\nxīn jì shù de yìng yòng zhèng zài zhú jiàn gǎi biàn rén men de gōng zuò fāng shì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 12,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（18个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n能够 / 完成 / 代替人类 / 部分重复性的工作 / 机器",
+      "pinyin": "néng gòu / wán chéng / dài tì rén lèi / bù fèn chóng fù xìng de gōng zuò / jī qì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "机器能够代替人类完成部分重复性的工作。",
+        "机器能够代替人类完成部分重复性的工作",
+        "机器能够代替人类完成部分重复性的工作."
+      ],
+      "points": 5,
+      "hanziCount": 18,
+      "explanation": "参考句子：机器能够代替人类完成部分重复性的工作。\njī qì néng gòu dài tì rén lèi wán chéng bù fèn chóng fù xìng de gōng zuò。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 13,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（21个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n表达是否准确 / 使用自动翻译时 / 仍然需要 / 检查 / 我们",
+      "pinyin": "biǎo dá shì fǒu zhǔn què / shǐ yòng zì dòng fān yì shí / réng rán xū yào / jiǎn chá / wǒ men",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "使用自动翻译时我们仍然需要检查表达是否准确。",
+        "使用自动翻译时我们仍然需要检查表达是否准确",
+        "使用自动翻译时我们仍然需要检查表达是否准确.",
+        "我们使用自动翻译时仍然需要检查表达是否准确",
+        "我们使用自动翻译时仍然需要检查表达是否准确。",
+        "我们使用自动翻译时仍然需要检查表达是否准确."
+      ],
+      "points": 5,
+      "hanziCount": 21,
+      "explanation": "参考句子：使用自动翻译时我们仍然需要检查表达是否准确。\nshǐ yòng zì dòng fān yì shí wǒ men réng rán xū yào jiǎn chá biǎo dá shì fǒu zhǔn què。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（21个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n就可能 / 如果 / 过分依赖软件 / 独立思考的重要性 / 忽视",
+      "pinyin": "jiù kě néng / rú guǒ / guò fèn yī lài ruǎn jiàn / dú lì sī kǎo de zhòng yào xìng / hū shì",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "如果过分依赖软件就可能忽视独立思考的重要性。",
+        "如果过分依赖软件就可能忽视独立思考的重要性",
+        "如果过分依赖软件就可能忽视独立思考的重要性."
+      ],
+      "points": 5,
+      "hanziCount": 21,
+      "explanation": "参考句子：如果过分依赖软件就可能忽视独立思考的重要性。\nrú guǒ guò fèn yī lài ruǎn jiàn jiù kě néng hū shì dú lì sī kǎo de zhòng yào xìng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 15,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（22个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n不仅在于 / 提高效率 / 技术的价值 / 创造新的机会 / 还在于",
+      "pinyin": "bù jǐn zài yú / tí gāo xiào lǜ / jì shù de jià zhí / chuàng zào xīn de jī huì / hái zài yú",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "技术的价值不仅在于提高效率还在于创造新的机会。",
+        "技术的价值不仅在于提高效率还在于创造新的机会",
+        "技术的价值不仅在于提高效率还在于创造新的机会."
+      ],
+      "points": 5,
+      "hanziCount": 22,
+      "explanation": "参考句子：技术的价值不仅在于提高效率还在于创造新的机会。\njì shù de jià zhí bù jǐn zài yú tí gāo xiào lǜ hái zài yú chuàng zào xīn de jī huì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 16,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n不仅要了解 / 思考其实际意义 / 我们 / 还要 / 人工智能的应用",
+      "pinyin": "bù jǐn yào liǎo jiě / sī kǎo qí shí jì yì yì / wǒ men / hái yào / rén gōng zhì néng de yìng yòng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "我们不仅要了解人工智能的应用还要思考其实际意义。",
+        "我们不仅要了解人工智能的应用还要思考其实际意义",
+        "我们不仅要了解人工智能的应用还要思考其实际意义."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：我们不仅要了解人工智能的应用还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě rén gōng zhì néng de yìng yòng hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（24个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n无论 / 值得我们认真关注 / 社会如何变化 / 都 / 技术发展的影响",
+      "pinyin": "wú lùn / zhí de wǒ men rèn zhēn guān zhù / shè huì rú hé biàn huà / dōu / jì shù fā zhǎn de yǐng xiǎng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "无论社会如何变化技术发展的影响都值得我们认真关注。",
+        "无论社会如何变化技术发展的影响都值得我们认真关注",
+        "无论社会如何变化技术发展的影响都值得我们认真关注."
+      ],
+      "points": 5,
+      "hanziCount": 24,
+      "explanation": "参考句子：无论社会如何变化技术发展的影响都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà jì shù fā zhǎn de yǐng xiǎng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+    },
+    {
+      "id": 18,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n翻译工具的局限 / 只有 / 深入理解 / 作出更合理的判断 / 才能",
+      "pinyin": "fān yì gōng jù de jú xiàn / zhǐ yǒu / shēn rù lǐ jiě / zuò chū gèng hé lǐ de pàn duàn / cái néng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "只有深入理解翻译工具的局限才能作出更合理的判断。",
+        "只有深入理解翻译工具的局限才能作出更合理的判断",
+        "只有深入理解翻译工具的局限才能作出更合理的判断."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：只有深入理解翻译工具的局限才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě fān yì gōng jù de jú xiàn cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+    },
+    {
+      "id": 19,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（22个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n创造能力的培养 / 与其 / 先 / 急于得出结论 / 不如 / 认真分析",
+      "pinyin": "chuàng zào néng lì de péi yǎng / yǔ qí / xiān / jí yú dé chū jié lùn / bù rú / rèn zhēn fēn xī",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "与其急于得出结论不如先认真分析创造能力的培养。",
+        "与其急于得出结论不如先认真分析创造能力的培养",
+        "与其急于得出结论不如先认真分析创造能力的培养."
+      ],
+      "points": 5,
+      "hanziCount": 22,
+      "explanation": "参考句子：与其急于得出结论不如先认真分析创造能力的培养。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī chuàng zào néng lì de péi yǎng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n老师 / 人机合作的前景 / 要求我们 / 结合实际经历 / 具体说明",
+      "pinyin": "lǎo shī / rén jī hé zuò de qián jǐng / yāo qiú wǒ men / jié hé shí jì jīng lì / jù tǐ shuō míng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "老师要求我们结合实际经历具体说明人机合作的前景。",
+        "老师要求我们结合实际经历具体说明人机合作的前景",
+        "老师要求我们结合实际经历具体说明人机合作的前景."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明人机合作的前景。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng rén jī hé zuò de qián jǐng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+    }
+  ]
+}

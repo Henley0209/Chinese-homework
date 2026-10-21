@@ -1,0 +1,390 @@
+{
+  "title": "HSK5 第23课 艺术欣赏与审美",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "annotationVersion": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“欣赏”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "xīn shǎng",
+        "B": "qīn shǎng",
+        "C": "xīn sǎng",
+        "D": "xīn shǎn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“欣赏”读作 xīn shǎng，意思是 thưởng thức。"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“风格”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "fēng gé",
+        "B": "bēng gé",
+        "C": "hēng gé",
+        "D": "fēn gé"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“风格”读作 fēng gé，意思是 phong cách。"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“表达”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "biǎo dá",
+        "B": "diǎo dá",
+        "C": "biǎn dá",
+        "D": "bǎo dá"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“表达”读作 biǎo dá，意思是 biểu đạt。"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“想象”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "xiǎng qiàng",
+        "B": "xiǎng xiàng",
+        "C": "xiǎn xiàng",
+        "D": "qiǎng xiàng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "“想象”读作 xiǎng xiàng，意思是 tưởng tượng。"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“感受”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "options": {
+        "A": "gǎn shào",
+        "B": "gǎn sòu",
+        "C": "gǎn shòu",
+        "D": "gǎng shòu"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "“感受”读作 gǎn shòu，意思是 cảm nhận。"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：参观展览时老师引导学生从不同角度____作品。",
+      "pinyin": "cān guān zhǎn lǎn shí lǎo shī yǐn dǎo xué shēng cóng bù tóng jiǎo dù ____ zuò pǐn",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: thưởng thức.",
+      "options": {
+        "A": "表达",
+        "B": "想象",
+        "C": "欣赏",
+        "D": "风格"
+      },
+      "optionPinyin": {
+        "A": "biǎo dá",
+        "B": "xiǎng xiàng",
+        "C": "xīn shǎng",
+        "D": "fēng gé"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“欣赏”（thưởng thức）。完整句子：参观展览时老师引导学生从不同角度欣赏作品。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：这位画家在长期创作中逐渐形成了独特的艺术____。",
+      "pinyin": "zhè wèi huà jiā zài cháng qī chuàng zuò zhōng zhú jiàn xíng chéng le dú tè de yì shù ____",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: phong cách.",
+      "options": {
+        "A": "表达",
+        "B": "欣赏",
+        "C": "风格",
+        "D": "想象"
+      },
+      "optionPinyin": {
+        "A": "biǎo dá",
+        "B": "xīn shǎng",
+        "C": "fēng gé",
+        "D": "xiǎng xiàng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“风格”（phong cách）。完整句子：这位画家在长期创作中逐渐形成了独特的艺术风格。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：艺术家常常通过作品____对社会生活的思考。",
+      "pinyin": "yì shù jiā cháng cháng tōng guò zuò pǐn ____ duì shè huì shēng huó de sī kǎo",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: biểu đạt.",
+      "options": {
+        "A": "风格",
+        "B": "表达",
+        "C": "欣赏",
+        "D": "感受"
+      },
+      "optionPinyin": {
+        "A": "fēng gé",
+        "B": "biǎo dá",
+        "C": "xīn shǎng",
+        "D": "gǎn shòu"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“表达”（biểu đạt）。完整句子：艺术家常常通过作品表达对社会生活的思考。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：阅读文学作品能够激发读者丰富的____。",
+      "pinyin": "yuè dú wén xué zuò pǐn néng gòu jī fā dú zhě fēng fù de ____",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: tưởng tượng.",
+      "options": {
+        "A": "想象",
+        "B": "欣赏",
+        "C": "表达",
+        "D": "风格"
+      },
+      "optionPinyin": {
+        "A": "xiǎng xiàng",
+        "B": "xīn shǎng",
+        "C": "biǎo dá",
+        "D": "fēng gé"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“想象”（tưởng tượng）。完整句子：阅读文学作品能够激发读者丰富的想象。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：即使面对同一幅画不同的人也可能产生不同的____。",
+      "pinyin": "jí shǐ miàn duì tóng yī fú huà bù tóng de rén yě kě néng chǎn shēng bù tóng de ____",
+      "vietnamese": "Gợi ý nghĩa của từ cần điền: cảm nhận.",
+      "options": {
+        "A": "欣赏",
+        "B": "表达",
+        "C": "想象",
+        "D": "感受"
+      },
+      "optionPinyin": {
+        "A": "xīn shǎng",
+        "B": "biǎo dá",
+        "C": "xiǎng xiàng",
+        "D": "gǎn shòu"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“感受”（cảm nhận）。完整句子：即使面对同一幅画不同的人也可能产生不同的感受。"
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（20个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n从不同角度 / 引导学生 / 参观展览时 / 欣赏作品 / 老师",
+      "pinyin": "cóng bù tóng jiǎo dù / yǐn dǎo xué shēng / cān guān zhǎn lǎn shí / xīn shǎng zuò pǐn / lǎo shī",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "参观展览时老师引导学生从不同角度欣赏作品。",
+        "参观展览时老师引导学生从不同角度欣赏作品",
+        "参观展览时老师引导学生从不同角度欣赏作品.",
+        "老师参观展览时引导学生从不同角度欣赏作品",
+        "老师参观展览时引导学生从不同角度欣赏作品。",
+        "老师参观展览时引导学生从不同角度欣赏作品."
+      ],
+      "points": 5,
+      "hanziCount": 20,
+      "explanation": "参考句子：参观展览时老师引导学生从不同角度欣赏作品。\ncān guān zhǎn lǎn shí lǎo shī yǐn dǎo xué shēng cóng bù tóng jiǎo dù xīn shǎng zuò pǐn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 12,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（22个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n独特的 / 这位画家 / 在长期创作中 / 逐渐形成了 / 艺术风格",
+      "pinyin": "dú tè de / zhè wèi huà jiā / zài cháng qī chuàng zuò zhōng / zhú jiàn xíng chéng le / yì shù fēng gé",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "这位画家在长期创作中逐渐形成了独特的艺术风格。",
+        "这位画家在长期创作中逐渐形成了独特的艺术风格",
+        "这位画家在长期创作中逐渐形成了独特的艺术风格."
+      ],
+      "points": 5,
+      "hanziCount": 22,
+      "explanation": "参考句子：这位画家在长期创作中逐渐形成了独特的艺术风格。\nzhè wèi huà jiā zài cháng qī chuàng zuò zhōng zhú jiàn xíng chéng le dú tè de yì shù fēng gé。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 13,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（19个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n表达 / 通过作品 / 艺术家 / 常常 / 对社会生活的思考",
+      "pinyin": "biǎo dá / tōng guò zuò pǐn / yì shù jiā / cháng cháng / duì shè huì shēng huó de sī kǎo",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "艺术家常常通过作品表达对社会生活的思考。",
+        "艺术家常常通过作品表达对社会生活的思考",
+        "艺术家常常通过作品表达对社会生活的思考."
+      ],
+      "points": 5,
+      "hanziCount": 19,
+      "explanation": "参考句子：艺术家常常通过作品表达对社会生活的思考。\nyì shù jiā cháng cháng tōng guò zuò pǐn biǎo dá duì shè huì shēng huó de sī kǎo。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（17个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n激发 / 想象 / 读者丰富的 / 阅读文学作品 / 能够",
+      "pinyin": "jī fā / xiǎng xiàng / dú zhě fēng fù de / yuè dú wén xué zuò pǐn / néng gòu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "阅读文学作品能够激发读者丰富的想象。",
+        "阅读文学作品能够激发读者丰富的想象",
+        "阅读文学作品能够激发读者丰富的想象."
+      ],
+      "points": 5,
+      "hanziCount": 17,
+      "explanation": "参考句子：阅读文学作品能够激发读者丰富的想象。\nyuè dú wén xué zuò pǐn néng gòu jī fā dú zhě fēng fù de xiǎng xiàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 15,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（22个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n即使 / 面对同一幅画 / 也可能 / 不同的人 / 产生不同的感受",
+      "pinyin": "jí shǐ / miàn duì tóng yī fú huà / yě kě néng / bù tóng de rén / chǎn shēng bù tóng de gǎn shòu",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "即使面对同一幅画不同的人也可能产生不同的感受。",
+        "即使面对同一幅画不同的人也可能产生不同的感受",
+        "即使面对同一幅画不同的人也可能产生不同的感受."
+      ],
+      "points": 5,
+      "hanziCount": 22,
+      "explanation": "参考句子：即使面对同一幅画不同的人也可能产生不同的感受。\njí shǐ miàn duì tóng yī fú huà bù tóng de rén yě kě néng chǎn shēng bù tóng de gǎn shòu。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+    },
+    {
+      "id": 16,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 艺术欣赏的方法 / 不仅要了解 / 思考其实际意义 / 还要",
+      "pinyin": "wǒ men / yì shù xīn shǎng de fāng fǎ / bù jǐn yào liǎo jiě / sī kǎo qí shí jì yì yì / hái yào",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "我们不仅要了解艺术欣赏的方法还要思考其实际意义。",
+        "我们不仅要了解艺术欣赏的方法还要思考其实际意义",
+        "我们不仅要了解艺术欣赏的方法还要思考其实际意义."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：我们不仅要了解艺术欣赏的方法还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě yì shù xīn shǎng de fāng fǎ hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（24个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n都 / 无论 / 社会如何变化 / 值得我们认真关注 / 审美差异的原因",
+      "pinyin": "dōu / wú lùn / shè huì rú hé biàn huà / zhí de wǒ men rèn zhēn guān zhù / shěn měi chāi yì de yuán yīn",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "无论社会如何变化审美差异的原因都值得我们认真关注。",
+        "无论社会如何变化审美差异的原因都值得我们认真关注",
+        "无论社会如何变化审美差异的原因都值得我们认真关注."
+      ],
+      "points": 5,
+      "hanziCount": 24,
+      "explanation": "参考句子：无论社会如何变化审美差异的原因都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà shěn měi chāi yì de yuán yīn dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+    },
+    {
+      "id": 18,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n只有 / 深入理解 / 文学阅读的价值 / 作出更合理的判断 / 才能",
+      "pinyin": "zhǐ yǒu / shēn rù lǐ jiě / wén xué yuè dú de jià zhí / zuò chū gèng hé lǐ de pàn duàn / cái néng",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "只有深入理解文学阅读的价值才能作出更合理的判断。",
+        "只有深入理解文学阅读的价值才能作出更合理的判断",
+        "只有深入理解文学阅读的价值才能作出更合理的判断."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：只有深入理解文学阅读的价值才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě wén xué yuè dú de jià zhí cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+    },
+    {
+      "id": 19,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（22个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n先 / 急于得出结论 / 认真分析 / 不如 / 个人风格的形成 / 与其",
+      "pinyin": "xiān / jí yú dé chū jié lùn / rèn zhēn fēn xī / bù rú / gè rén fēng gé de xíng chéng / yǔ qí",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "与其急于得出结论不如先认真分析个人风格的形成。",
+        "与其急于得出结论不如先认真分析个人风格的形成",
+        "与其急于得出结论不如先认真分析个人风格的形成."
+      ],
+      "points": 5,
+      "hanziCount": 22,
+      "explanation": "参考句子：与其急于得出结论不如先认真分析个人风格的形成。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī gè rén fēng gé de xíng chéng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "section": "句子排序",
+      "text": "【句子排序】排列为完整句子（23个汉字，不增减词语，不用斜线，不在汉字间加空格）：\n结合实际经历 / 要求我们 / 具体说明 / 艺术表达的意义 / 老师",
+      "pinyin": "jié hé shí jì jīng lì / yāo qiú wǒ men / jù tǐ shuō míng / yì shù biǎo dá de yì yì / lǎo shī",
+      "vietnamese": "Sắp xếp thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "answers": [
+        "老师要求我们结合实际经历具体说明艺术表达的意义。",
+        "老师要求我们结合实际经历具体说明艺术表达的意义",
+        "老师要求我们结合实际经历具体说明艺术表达的意义."
+      ],
+      "points": 5,
+      "hanziCount": 23,
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明艺术表达的意义。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng yì shù biǎo dá de yì yì。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+    }
+  ]
+}

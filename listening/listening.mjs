@@ -1,12 +1,12 @@
 import {categories,generateQuestions} from './data.mjs?v=listening1';
-import {chooseVoices,voiceGender,questionSegments,createMandarinPlayer} from './speech.mjs?v=mandarin2';
+import {chooseVoices,voiceGender,questionSegments,createMandarinPlayer} from './speech.mjs?v=natural3';
 const root=document.querySelector('#listening-app');
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 const button=(text,fn,cls='quiet')=>{const b=el('button',text,cls);b.type='button';b.onclick=fn;return b;};
 let category,questions=[],index=0,answers=[],rate=.85,status,voiceSettings;
 const speech=window.speechSynthesis;
 let voicePreferences={};
-try{voicePreferences=JSON.parse(localStorage.getItem('listening-mandarin-voices')||'{}')||{};}catch{}
+try{voicePreferences=JSON.parse(localStorage.getItem('listening-natural-voices-v3')||'{}')||{};}catch{}
 const player=createMandarinPlayer({speech,Utterance:window.SpeechSynthesisUtterance,onStatus:text=>{if(status)status.textContent=text;},preferences:()=>voicePreferences});
 function stop(){player.stop();}
 function speak(text){void player.play([{role:'narrator',text}],{rate});}
@@ -14,10 +14,10 @@ function renderVoiceSettings(){
  if(!voiceSettings)return;voiceSettings.replaceChildren();
  const selected=chooseVoices(speech?.getVoices()||[],voicePreferences);
  for(const [role,label] of [['male','男声 / Giọng nam'],['female','女声 / Giọng nữ']]){
-  const wrap=el('label',label+' '),select=el('select');select.setAttribute('aria-label',label);const auto=el('option',selected[role]?'自动 / Tự động':'未找到，请选择 / Chọn giọng');auto.value='';select.append(auto);
+  const wrap=el('label',label+' '),select=el('select');select.setAttribute('aria-label',label);const auto=el('option',selected[role]?'推荐 · '+selected[role].name:'未找到，请选择 / Chọn giọng');auto.value='';select.append(auto);
   for(const v of selected.pool){const gender=voiceGender(v),option=el('option',v.name+(gender==='male'?' · 男':gender==='female'?' · 女':''));option.value=v.voiceURI||v.name;select.append(option);}
-  select.value=voicePreferences[role]||'';select.onchange=()=>{stop();voicePreferences[role]=select.value;try{localStorage.setItem('listening-mandarin-voices',JSON.stringify(voicePreferences));}catch{}const voices=chooseVoices(speech.getVoices(),voicePreferences);if(voices[role])void player.play([{role,text:role==='male'?'你好，这是普通话男声。':'你好，这是普通话女声。'}],{rate});};
-  wrap.append(select);voiceSettings.append(wrap);
+  select.value=voicePreferences[role]||'';select.onchange=()=>{stop();voicePreferences[role]=select.value;try{localStorage.setItem('listening-natural-voices-v3',JSON.stringify(voicePreferences));}catch{}const voices=chooseVoices(speech.getVoices(),voicePreferences);if(voices[role])void player.play([{role,text:role==='male'?'你好，这是普通话男声。':'你好，这是普通话女声。'}],{rate});};
+  wrap.append(select);voiceSettings.append(wrap,button(role==='male'?'▶ 试听男声 / Nghe giọng nam':'▶ 试听女声 / Nghe giọng nữ',()=>{void player.play([{role,text:'你好，欢迎参加今天的听力练习。请仔细听题，然后选择正确答案。'}],{rate:1});}));
  }
 }
 speech?.addEventListener?.('voiceschanged',renderVoiceSettings);
@@ -33,7 +33,7 @@ function render(){
  stop();const q=questions[index],answered=answers[index]!==undefined;root.replaceChildren();toolbar(category.zh+' / '+category.vi,showCategories);
  root.append(el('p',`第 ${index+1} / ${questions.length} 题 · 已答对 ${answers.filter((a,i)=>a===questions[i].answer).length} 题 / Câu ${index+1}`));const progress=el('progress');progress.max=questions.length;progress.value=answers.length;progress.setAttribute('aria-label','答题进度 / Tiến độ');root.append(progress);
  const controls=el('div',undefined,'listening-controls'),label=el('label','语速 / Tốc độ '),select=el('select');for(const value of [.65,.85,1]){const o=el('option',value+'×');o.value=value;select.append(o);}select.value=String(rate);select.onchange=()=>{rate=Number(select.value);readQuestion();};label.append(select);controls.append(button('▶ 再听一次 / Nghe lại',readQuestion,'primary'),button('■ 停止 / Dừng',()=>{stop();status.textContent='已停止 / Đã dừng';}),label);root.append(controls);
- const voiceDetails=el('details',undefined,'listening-transcript');voiceDetails.append(el('summary','对话音色（普通话） / Giọng hội thoại'));voiceSettings=el('div',undefined,'listening-controls');voiceDetails.append(voiceSettings,el('p','男、女角色使用不同普通话音色；设备缺少音色时会提示添加。 / Vai nam và nữ dùng hai giọng phổ thông khác nhau.','note'));root.append(voiceDetails);renderVoiceSettings();
+ const voiceDetails=el('details',undefined,'listening-transcript');voiceDetails.append(el('summary','对话音色（普通话） / Giọng hội thoại'));voiceSettings=el('div',undefined,'listening-controls');voiceDetails.append(voiceSettings,el('p','优先使用晓晓女声、云希男声及自然或增强音色；可点击试听。音色以设备实际提供的列表为准。 / Ưu tiên giọng tự nhiên, chạm để nghe thử; tùy giọng có sẵn trên thiết bị.','note'));root.append(voiceDetails);renderVoiceSettings();
  status=el('p',undefined,'listening-audio-status');status.setAttribute('role','status');root.append(status,el('h3',q.question,'listening-question'));
  const options=el('div',undefined,'listening-options'),feedback=el('div',undefined,'listening-feedback');feedback.setAttribute('role','status');const next=button(index===questions.length-1?'查看成绩 / Xem kết quả':'下一题 → / Câu tiếp',()=>{if(index===questions.length-1)finish();else{index++;render();readQuestion();}},'primary');next.disabled=!answered;
  function showAnswer(){const a=answers[index];for(const [i,b] of [...options.children].entries()){b.setAttribute('aria-pressed',String(i===a));if(i===q.answer)b.classList.add('correct');if(i===a&&a!==q.answer)b.classList.add('wrong');}feedback.replaceChildren(el('span',a===q.answer?'👍':'😢','face'),el('span',a===q.answer?'答对了！ / Chính xác!':`答错了。正确答案：${'ABCD'[q.answer]} ${q.options[q.answer]} / Chưa đúng.`));next.disabled=false;progress.value=answers.length;}

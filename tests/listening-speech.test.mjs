@@ -23,3 +23,12 @@ let voiceListener;voices=[];speech.addEventListener=(_,fn)=>{voiceListener=fn;};
 preferred={};const pending=player.play(segments);voices=[female,male];voiceListener();await pending;assert.equal(spoken.length,1);
 voices=[];const canceled=player.play(segments);player.stop();voices=[female,male];voiceListener();await canceled;assert.equal(spoken.length,1);
 console.log('PASS: Mandarin-only voices, male/female dialogue, narrator, manual assignment, missing voice messages, late voice discovery and interruption.');
+
+// Natural voices win even when legacy voices are listed first by the OS.
+const oldFemale={lang:'zh-CN',name:'Microsoft Huihui',voiceURI:'old-f'},oldMale={lang:'zh-CN',name:'Microsoft Kangkang',voiceURI:'old-m'};
+const ranked=chooseVoices([oldFemale,oldMale,male,female]);
+assert.equal(ranked.female,female);assert.equal(ranked.male,male);
+assert.equal(chooseVoices([female,oldFemale],{female:'old-f'}).female,oldFemale,'explicit user choice still works');
+const enhanced={lang:'zh-CN',name:'Ting-Ting (Enhanced)',voiceURI:'enhanced'},basic={lang:'zh-CN',name:'Ting-Ting',voiceURI:'basic'};
+assert.equal(chooseVoices([basic,enhanced]).female,enhanced);
+assert.equal(voiceGender({name:'Tian-Tian (Premium)'}),'female');

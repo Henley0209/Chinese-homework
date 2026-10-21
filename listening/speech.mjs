@@ -6,13 +6,26 @@ export function isMandarin(voice){
 }
 export function voiceGender(voice){
  const name=String(voice.name||'');
- if(/^(?:female|woman)$/i.test(voice.gender||'')||/女声|女聲|female|xiaoxiao|xiaoyi|xiaohan|xiaomeng|xiaomo|xiaoqiu|xiaorui|xiaoshuang|xiaoxuan|xiaoyan|xiaoyou|xiaozhen|huihui|yaoyao|ting[- ]?ting|tingting|lili|sin[- ]?ji/i.test(name))return 'female';
+ if(/^(?:female|woman)$/i.test(voice.gender||'')||/女声|女聲|female|xiaoxiao|xiaoyi|xiaohan|xiaomeng|xiaomo|xiaoqiu|xiaorui|xiaoshuang|xiaoxuan|xiaoyan|xiaoyou|xiaozhen|huihui|yaoyao|ting[- ]?ting|tingting|tian[- ]?tian|lili|sin[- ]?ji/i.test(name))return 'female';
  if(/^(?:male|man)$/i.test(voice.gender||'')||/男声|男聲|\bmale\b|yunxi|yunjian|yunyang|yunfeng|yunhao|yunxia|yunye|yunyi|kangkang|kang[- ]?kang|li[- ]?mu/i.test(name))return 'male';
  return null;
 }
 const key=v=>v.voiceURI||v.name;
+// Prefer neural/natural and enhanced voices over legacy platform defaults.
+// Names are matched after normalization because browsers format them differently.
+export function voiceQuality(voice){
+ const name=String(voice.name||'').toLowerCase().replace(/[-_ ]/g,'');
+ let score=0;
+ if(/xiaoxiao/.test(name))score+=1000;
+ if(/yunxi/.test(name))score+=1000;
+ if(/xiaoyi|yunyang/.test(name))score+=800;
+ if(/natural|neural|自然|神经|神經/.test(name))score+=400;
+ if(/premium|enhanced|高质量|高品質|高品质|增强|增強/.test(name))score+=300;
+ if(/huihui|kangkang|yaoyao/.test(name))score-=200;
+ return score;
+}
 export function chooseVoices(voices,preferred={}){
- const pool=voices.filter(isMandarin);
+ const pool=voices.filter(isMandarin).sort((a,b)=>voiceQuality(b)-voiceQuality(a));
  const resolve=gender=>pool.find(v=>key(v)===preferred[gender])||pool.find(v=>voiceGender(v)===gender);
  const female=resolve('female'),male=resolve('male');
  return {pool,female,male,narrator:female||male||pool[0]};
@@ -49,7 +62,7 @@ export function createMandarinPlayer({speech,Utterance,onStatus=()=>{},preferenc
    if(token!==generation)return;
    if(index>=segments.length){currentSpeech=null;onStatus('朗读完成，可再听一次。 / Đã đọc xong, có thể nghe lại.');return;}
    const segment=segments[index++],utterance=new Utterance(segment.text);currentSpeech=utterance;utterance.lang='zh-CN';utterance.voice=selected[segment.role];utterance.rate=rate;utterance.pitch=1;
-   const label={male:'男声',female:'女声',narrator:'旁白'}[segment.role];onStatus(`正在朗读 · 普通话${label} / Đang đọc · ${segment.role==='male'?'Giọng nam':segment.role==='female'?'Giọng nữ':'Dẫn chuyện'}`);
+   const label={male:'男声',female:'女声',narrator:'旁白'}[segment.role];onStatus(`正在朗读 · 普通话${label} · ${utterance.voice.name} / Đang đọc`);
    utterance.onend=next;utterance.onerror=e=>{if(token===generation&&!['canceled','interrupted'].includes(e.error)){currentSpeech=null;onStatus('普通话语音播放失败，请检查系统语音是否可用后重试。 / Không phát được giọng phổ thông, hãy kiểm tra cài đặt giọng đọc.');}};
    try{speech.speak(utterance);}catch{if(token===generation)onStatus('语音播放失败，请点击“再听一次”。 / Không phát được, hãy chạm “Nghe lại”.');}
   }

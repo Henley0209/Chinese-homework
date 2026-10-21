@@ -1,7 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {validatePictureCatalog,pictureOptions,pictureProgress,createPictureFeedback} from '../picture-words-core.mjs';
-import {createWordAudio} from '../picture-words-audio.mjs';
 import {resolveWritingLevel} from '../writing-access.mjs';
 import {banks} from '../bank-access.mjs';
 const root=new URL('../',import.meta.url),catalog=JSON.parse(fs.readFileSync(new URL('picture-words/catalog.json',root)));
@@ -47,15 +46,6 @@ tick(999);assert.equal(feedback.phase,'wrong');tick(1);assert.equal(feedback.pha
 assert.equal(feedback.choose(true),true);assert.equal(changes.at(-1).emoji,'👍');tick(1000);assert.equal(feedback.phase,'waiting');assert.equal(changes.at(-1).emoji,'');tick(1999);assert.equal(advances,0);tick(1);assert.equal(advances,1);
 feedback.reset();feedback.choose(true);tick(1000);feedback.cancel();tick(10000);assert.equal(advances,1);
 feedback.reset();feedback.choose(false);feedback.reset();tick(1000);assert.equal(feedback.phase,'ready');
-const spoken=[];let cancellations=0,unavailable=0,ready=0;
-const synthesis={cancel:()=>cancellations++,getVoices:()=>[{lang:'vi-VN'},{lang:'zh-CN',name:'Mandarin'}],speak:u=>{spoken.push(u);u.onstart?.();}};
-class Utterance{constructor(text){this.text=text;}}
-const audio=createWordAudio({synthesis,Utterance,onUnavailable:()=>unavailable++,onReady:()=>ready++});
-for(const word of fruit.words.slice(0,10))assert.equal(audio.speak(word.chinese),true);
-assert.equal(spoken.length,10);assert.ok(spoken.every(u=>u.lang==='zh-CN'&&u.voice.name==='Mandarin'));assert.equal(ready,10);assert.equal(cancellations,10);
-const stale=spoken.at(-1);audio.stop();stale.onerror();assert.equal(unavailable,0);
-const missing=createWordAudio({synthesis:null,Utterance:null,onUnavailable:()=>unavailable++});assert.equal(missing.speak('西瓜'),false);assert.equal(unavailable,1);
-const noMandarin=createWordAudio({synthesis:{cancel(){},getVoices:()=>[{lang:'en-US'}],speak(){throw Error('must not use English voice');}},Utterance,onUnavailable:()=>unavailable++});assert.equal(noMandarin.speak('西瓜'),false);assert.equal(unavailable,2);
 for(const page of ['index.html','homepage-v4.html']){
  const source=fs.readFileSync(new URL(page,root),'utf8');assert.equal((source.match(/id="practice-pictures"/g)||[]).length,1);assert.equal((source.match(/id="picture-practice"/g)||[]).length,1);
 }

@@ -1,7 +1,7 @@
 import {loadPictureState,savePictureState} from './picture-words-state.mjs?v=objects2';
 import {resolveWritingLevel} from './writing-access.mjs?v=writing33';
 import {validatePictureCatalog,pictureOptions,pictureProgress,createPictureFeedback} from './picture-words-core.mjs?v=vocab1322';
-import {createWordAudio} from './picture-words-audio.mjs?v=objects2';
+import {createWordAudio} from './picture-words-audio.mjs?v=xiaoxiao1';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 const $=selector=>document.querySelector(selector);
 export function initPictureWords({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
@@ -9,7 +9,7 @@ export function initPictureWords({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}
  let catalog,category,index=0,version=0,loading=false,feedback,nodes,currentState={view:'categories'},scrollTimer=null;
  const make=(tag,text,cls)=>{const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(cls)node.className=cls;return node;};
  const button=(id,zh,vi,action,cls='primary')=>{const b=make('button',undefined,cls+' bilingual');b.id=id;b.type='button';b.append(make('span',zh),make('small',vi));b.lastChild.lang='vi';b.onclick=action;return b;};
- const audio=createWordAudio({onUnavailable:()=>{if(nodes?.audio)nodes.audio.textContent='未能播放中文读音，请在设备中启用普通话语音后重试。 / Hãy bật giọng đọc tiếng Trung trên thiết bị rồi chạm lại.';},onReady:()=>{if(nodes?.audio)nodes.audio.textContent='';}});
+ const audio=createWordAudio({onUnavailable:()=>{if(nodes?.audio)nodes.audio.textContent='晓晓女声录音加载失败，请检查网络后点击汉字重试。 / Không tải được giọng Xiaoxiao, hãy kiểm tra mạng rồi chạm lại.';},onReady:()=>{if(nodes?.audio)nodes.audio.textContent='';}});
  function capturePosition(){if(!root.hidden){const offset=Math.max(0,-root.getBoundingClientRect().top);if(currentState.offset!==offset){currentState.offset=offset;remember();}}}
  function cancel(){clearTimeout(scrollTimer);version++;feedback?.cancel();audio.stop();}
  function back(){capturePosition();cancel();root.hidden=true;$('#welcome').hidden=false;$('#welcome').scrollIntoView({behavior:'smooth'});}
@@ -59,7 +59,7 @@ export function initPictureWords({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}
   const restart=button('picture-restart','从头练习','Luyện lại từ đầu',()=>show(0),'quiet');restart.hidden=true;
   image.onload=()=>{if(token!==version)return;ready=true;for(const b of buttons)b.disabled=false;retry.hidden=true;status.textContent=feedback.phase==='complete'?'上次已答对，可继续下一题或重新练习。 / Lần trước đã chọn đúng. Bạn có thể tiếp tục hoặc luyện lại.':'请选择图片中的物品。 / Chọn từ đúng với hình.';};
   image.onerror=()=>{if(token!==version)return;ready=false;for(const b of buttons)b.disabled=true;status.textContent='图片加载失败，请重试。 / Không tải được hình. Hãy thử lại.';retry.hidden=false;};
-  root.append(header,nav,frame,options,status,audioStatus,retry,restart,make('p','点击汉字可听普通话读音。答对后自动翻页，答错后重新选择。 / Chạm vào chữ để nghe tiếng Trung. Đúng thì tự chuyển trang, sai thì chọn lại.','note'));
+  root.append(header,nav,frame,options,status,audioStatus,retry,restart,make('p','点击汉字可听晓晓女声朗读。答对后自动翻页，答错后重新选择。 / Chạm vào chữ để nghe giọng nữ Xiaoxiao. Đúng thì tự chuyển trang, sai thì chọn lại.','note'));
   if(word.sprite){const {columns,rows,index:tile}=word.sprite;Object.assign(image.style,{position:'absolute',width:columns*100+'%',height:rows*100+'%',left:-(tile%columns)*100+'%',top:-Math.floor(tile/columns)*100+'%',objectFit:'fill'});}
   image.src=word.image;
   if(resume?.outcome==='complete'){selected=buttons.find(b=>b.dataset.word===word.id);feedback.settle();}

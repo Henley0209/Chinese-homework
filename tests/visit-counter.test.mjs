@@ -1,31 +1,41 @@
 import assert from 'node:assert/strict';
-import {createLoginCounter,COUNTER_KEY} from '../visit-counter.mjs';
-let server=0;const calls=[],renders=[];
-const fetchFn=async(url,options)=>{calls.push({url,options});if(options.method==='POST')server++;return {ok:true,status:200,json:async()=>({value:String(server)})};};
-const computer=createLoginCounter({fetchFn,render:v=>renders.push(v)});
-assert.equal(await computer.load(),0);assert.equal(server,0);
-await Promise.all([computer.recordLogin('student'),computer.recordLogin('student')]);assert.equal(server,1);
-await computer.load();assert.equal(server,1);
-await computer.recordLogin('teacher');assert.equal(server,2);await computer.recordLogin('teacher');assert.equal(server,2);
-computer.resetSession();await computer.recordLogin('student');assert.equal(server,3);
-const phone=createLoginCounter({fetchFn});assert.equal(await phone.load(),3);await phone.recordLogin('student');assert.equal(server,4);assert.equal(await computer.load(),4);
-assert.ok(calls.every(c=>c.url.includes(COUNTER_KEY)&&c.options.credentials==='omit'&&c.options.referrerPolicy==='no-referrer'&&!c.options.body));
-assert.equal(await computer.recordLogin('wrong-role'),4);assert.equal(server,4);
-const missing=createLoginCounter({fetchFn:async()=>({ok:false,status:404,json:async()=>({error:'Key not found'})})});assert.equal(await missing.load(),0);
-const unavailable=[];let attempts=0;
-const offline=createLoginCounter({fetchFn:async()=>{attempts++;throw Error('offline');},render:v=>unavailable.push(v)});
-assert.equal(await offline.recordLogin('student'),null);await offline.recordLogin('student');assert.equal(attempts,1);assert.equal(unavailable[0].value,null);assert.equal(unavailable[0].error,true);
-const invalid=createLoginCounter({fetchFn:async()=>({ok:true,json:async()=>({value:'not-a-number'})})});assert.equal(await invalid.load(),null);
-let finishRead;const race=createLoginCounter({fetchFn:(url,options)=>options.method==='GET'?new Promise(r=>finishRead=r):Promise.resolve({ok:true,json:async()=>({value:8})})});
-const pending=race.load();await race.recordLogin('student');finishRead({ok:true,json:async()=>({value:7})});await pending;assert.equal(race.current(),8);
-console.log('通过：成功登录+1、并发/重复去重、刷新只读、切换角色后的新登录、模拟手机电脑共享总数、断网与无效数据处理、请求不含姓名密码、慢读取不覆盖新计数。');
-
-let practiceTotal=0;const practice=createLoginCounter({fetchFn:async(url,options)=>{if(options.method==='POST')practiceTotal++;return {ok:true,json:async()=>({value:practiceTotal})};}});
-await practice.load();assert.equal(practiceTotal,0);
-for(const mode of ['writing','pictures','quiz','pronunciation','writing','pictures','quiz','pronunciation'])await practice.recordPracticeEntry(mode);
-assert.equal(practiceTotal,8);await practice.load();assert.equal(practiceTotal,8);
-await practice.recordPracticeEntry('invalid');assert.equal(practiceTotal,8);
-let failedEntries=0;const failedPractice=createLoginCounter({fetchFn:async()=>{failedEntries++;throw Error('offline');}});
-await failedPractice.recordPracticeEntry('writing');assert.equal(failedEntries,1);
-await failedPractice.recordPracticeEntry('writing');assert.equal(failedEntries,2);
-console.log('通过：答题、写字、看图识词和发音练习每次成功进入均可独立加1，同模式再次进入不被角色去重拦截，刷新只读，统计失败不自动重复提交。');
+import {createVisitCounter,createCounterTransport,COUNTER_KEY,USER_PREFIX,normalizeName,encodeName,decodeName,nameKey} from '../visit-counter.mjs';
+const server=new Map(),calls=[];
+const request=async(action,key,value)=>{
+ calls.push({action,key,value});
+ if(action==='hit'){const next=BigInt(server.get(key)||0)+1n;server.set(key,String(next));return String(next);}
+ if(action==='set'){server.set(key,String(value));return String(value);}
+ return server.get(key)||null;
+};
+const make=options=>createVisitCounter({request,...options});
+server.set(COUNTER_KEY,'177');const computer=make();
+await Promise.all([computer.open('Nguyễn An'),computer.open('Nguyễn An')]);assert.equal(server.get(COUNTER_KEY),'178');
+const id=await nameKey('Nguyễn An'),userKey=USER_PREFIX+'_count_'+id;
+assert.equal(server.get(userKey),'1');
+await computer.load();await computer.refreshUsers();await computer.recordName('另一个名字');assert.equal(server.get(COUNTER_KEY),'178');assert.equal(server.get(userKey),'1');
+const phone=make();await phone.open('Nguyễn An');assert.equal(server.get(userKey),'2');assert.equal(server.get(COUNTER_KEY),'179');
+const refresh=make();await refresh.open('Nguyễn An');assert.equal(server.get(userKey),'3');assert.equal(server.get(COUNTER_KEY),'180');
+assert.equal(server.get(USER_PREFIX+'_users'),'1');
+const anonymous=make();await anonymous.open();assert.equal(server.get(COUNTER_KEY),'181');
+await Promise.all([anonymous.recordName('学生乙'),anonymous.recordName('学生乙')]);assert.equal(server.get(USER_PREFIX+'_count_'+await nameKey('学生乙')),'1');assert.equal(server.get(COUNTER_KEY),'181');
+assert.equal(server.get(USER_PREFIX+'_users'),'2');
+let visible;const otherBrowser=make({renderUsers:s=>visible=s});await otherBrowser.refreshUsers();assert.deepEqual(visible.rows,[{name:'Nguyễn An',count:3},{name:'学生乙',count:1}]);
+// Concurrent first visits may share a registry slot or publish duplicate labels;
+// the public list must merge by name, and both real page opens still count.
+await Promise.all([make().open('陈同学'),make().open('陈同学')]);
+await otherBrowser.refreshUsers();assert.equal(visible.rows.filter(r=>r.name==='陈同学').length,1);assert.equal(visible.rows.find(r=>r.name==='陈同学').count,2);
+assert.equal(server.get(COUNTER_KEY),'183');
+for(const name of ['Nguyễn Thị Hồng','越南学生甲','👩🏻‍🏫 An','<img src=x onerror=alert(1)>'])assert.equal(decodeName(encodeName(name)),name);
+assert.equal(normalizeName('  An   Nguyễn  '),'An Nguyễn');assert.equal(await nameKey('ＡＮ'),await nameKey('an'));
+let failed=0;const offline=createVisitCounter({request:async()=>{failed++;throw Error('offline');}});await offline.open();await offline.open();assert.equal(failed,1);
+// An older read must not overwrite a newer total.
+let finish;const racing=createVisitCounter({request:action=>action==='get'?new Promise(r=>finish=r):Promise.resolve('10')});const pending=racing.load();await racing.open();finish('9');await pending;assert.equal(racing.current(),10);
+// Paging must reach every registered name, rather than just local or recent users.
+const paged=make({pageSize:1,renderUsers:s=>visible=s});for(let i=0;i<6;i++)await paged.refreshUsers();assert.equal(visible.rows.length,3);
+const transportCalls=[];const rawName=encodeName('Nguyễn Thị Hồng');
+const http=createCounterTransport({spacing:0,fetchFn:async(url,options)=>{transportCalls.push({url,options});return {ok:true,status:200,text:async()=>'{"value":'+rawName+'}'};}});
+assert.equal(await http('get','test-index'),rawName);await http('set','test-index',rawName);await http('hit','test-counter');
+assert.ok(transportCalls.every(c=>c.options.credentials==='omit'&&c.options.referrerPolicy==='no-referrer'&&!c.options.body));assert.equal(transportCalls[2].options.method,'POST');
+assert.equal(new URL(transportCalls[1].url).searchParams.get('value'),rawName);
+const missing=createCounterTransport({spacing:0,fetchFn:async()=>({ok:false,status:404,text:async()=>'{"error":"Key not found"}'})});assert.equal(await missing('get','missing'),null);
+console.log('通过：每页打开+1、刷新+1、同页去重、练习不加数、姓名跨设备合并、首次填名归属、共享滚动列表、并发注册去重、Unicode姓名精度、分页全量与断网容错。');

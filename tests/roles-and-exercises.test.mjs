@@ -45,7 +45,7 @@ for(const [id,pass]of [['hsk1-2','NgaZhu1122'],['hsk3','NgaZhu1133'],['hsk4','Ng
  $('#question-bank').value=id;$('#question-bank').handlers.change();assert.equal($('#exercise-select').value,studentExercises(store.listExercises(id))[0].id);
  form.fd={student:'An',className:'A1',questionBank:id,exerciseId:id+'-1',bankPassword:pass};await submit();assert.equal($('#progress').max,10);assert.equal($('#bank-error').textContent,'');
 }
-form.fd={student:'An',className:'A1',questionBank:'hsk3',exerciseId:'hsk1-2-1',bankPassword:'NgaZhu1133'};await submit();assert.match($('#bank-error').textContent,/对应的练习/);assert.equal(loginEvents.length,6);
+form.fd={student:'An',className:'A1',questionBank:'hsk3',exerciseId:'hsk1-2-1',bankPassword:'NgaZhu1133'};await submit();assert.match($('#bank-error').textContent,/对应的练习/);assert.equal(loginEvents.length,0);
 const file={size:100,text:async()=>JSON.stringify(changed.exercise)},event={target:{files:[file],value:'file'}};
 await $('#import').onchange(event);assert.match($('#teacher-status').textContent,/先完成教师验证/);assert.equal(store.draftCount(),0);
 $('#user-role').value='teacher';$('#user-role').handlers.change();assert.equal($('#teacher-login').hidden,false);assert.equal($('#student-entry').hidden,true);
@@ -53,8 +53,8 @@ $('#teacher-password').value='wrong';$('#teacher-login').handlers.submit({preven
 const tick=()=>new Promise(r=>setTimeout(r,15));await tick();assert.equal($('#tools').open,false);assert.equal(loginEvents.filter(r=>r==='teacher').length,0);
 $('#teacher-password').value='teacher-test-only';$('#teacher-password').handlers.input();
 for(let i=0;i<80&&!$('#tools').open;i++)await tick();
-assert.equal($('#tools').open,true);assert.equal($('#teacher-password').value,'');assert.equal(loginEvents.filter(r=>r==='teacher').length,1);
-$('#tools').close();await $('#open-teacher-tools').onclick();assert.equal(loginEvents.filter(r=>r==='teacher').length,1);
+assert.equal($('#tools').open,true);assert.equal($('#teacher-password').value,'');assert.equal(loginEvents.filter(r=>r==='teacher').length,0);
+$('#tools').close();await $('#open-teacher-tools').onclick();assert.equal(loginEvents.filter(r=>r==='teacher').length,0);
 $('#upload-bank').value='hsk3';$('#upload-mode').value='add';await $('#import').onchange({target:{files:[file],value:'file'}});
 assert.equal(store.listExercises('hsk3').length,hsk3Published+1);assert.equal($('#exercise-select').children.length,studentExercises(store.listExercises($('#question-bank').value)).length);
 $('#user-role').value='student';$('#user-role').handlers.change();

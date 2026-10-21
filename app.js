@@ -7,11 +7,10 @@ import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-pr
 import {studentExercises} from './exercise-options.mjs?v=writing33';
 import {initWriting} from './writing-practice.mjs?v=remember11';
 import {showFeedback,stopFeedback} from './result-feedback.mjs?v=writing21';
-import {recordPracticeEntry} from './visit-counter.mjs?v=phonetics1';
 import {validate,grade,normalize} from './grading.mjs';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
 import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {teacherActive} from './teacher-tools.mjs?v=phonetics1';
+import {teacherActive} from './teacher-tools.mjs?v=pageviews1';
 const quizMusic=initQuizMusic();
 const $=s=>document.querySelector(s);let data,student,submitted=false,intro=null,starting=false,activeProgress=null,restoring=false;const notice=t=>$('#notice').textContent=t;
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
@@ -68,7 +67,6 @@ $('#identity').addEventListener('submit',async e=>{
 
  saveCurrentProgress();install(selected,route.label);student=person;activeProgress=progressKey(person.name,route.id,route.id==='intro'?'intro':String(fd.get('exerciseId')||''));const saved=loadProgress(activeProgress,data);notice('');render();rememberEntry();
  $('#welcome').hidden=true;$('#exercise').hidden=false;$('#student-label').textContent=student.name+' · '+route.label;
- if(route.id!=='intro')void recordPracticeEntry('quiz');
  void quizMusic.start();
  if(saved)restoreCurrentProgress(saved);else{$('#exercise').scrollIntoView({behavior:'instant'});saveCurrentProgress();}
  }catch(err){error.textContent='无法开始答题：'+err.message;}finally{starting=false;$('#start').disabled=false;$('#bank-loading').textContent='';}
@@ -81,11 +79,11 @@ $('#quiz-home').addEventListener('click',()=>{
  $('#start').focus({preventScroll:true});
 });
 $('#quiz').addEventListener('input',e=>{if(e.target.id!=='confirm'){update();saveCurrentProgress();}});
-$('#quiz').addEventListener('submit',e=>{e.preventDefault();if(submitted)return;const a=answers(),missing=data.questions.filter(q=>!normalize(a[q.id])).length;if(missing&&!$('#confirm').checked){$('#confirm-wrap').hidden=false;$('#submit-hint').textContent=`还有${missing}题未作答，将计0分。补充答案，或勾选确认后再次提交。`;return;}quizMusic.stop();const r=grade(data,a);clearProgress(activeProgress);submitted=true;$('#exercise').hidden=true;const root=$('#result');root.replaceChildren(el('span','练习完成 · HOÀN THÀNH','eyebrow'),el('h2',student.name+'，你又进步了一点！'),el('p',data.title));const score=el('div',String(r.score),'score');score.append(el('small',' / '+r.total+' 分'));root.append(score,el('p',`答对 ${r.correct} / ${data.questions.length} 题 · 正确率 ${Math.round(r.correct/data.questions.length*100)}%`),el('p',r.correct===data.questions.length?'全部答对！没有需要复习的错题。':'下面只显示错误和未作答的题目。','note'));showFeedback(root,r.score,r.total);for(const [i,q] of data.questions.entries()){const d=r.details[i];if(d.correct)continue;const card=el('div',undefined,'review'+(d.correct?' correct':''));card.append(el('b',`${d.correct?'✓ 正确':'✗ 未答或错误'} · 第${i+1}题 · ${d.earned}/${q.points}分`),el('p',q.text),el('p','你的答案：'+(q.type==='choice'&&d.answer?d.answer+' · '+q.options[d.answer]:d.answer||'未作答')),el('p','参考答案：'+q.answers.map(a=>q.type==='choice'?a+' · '+q.options[a]:a).join(' / ')),el('small',q.explanation||''));root.append(card);}const retry=el('button',undefined,'primary bilingual');retry.append(el('span','返回题库选择新的题目'),el('small','Quay lại ngân hàng câu hỏi để chọn câu hỏi mới.'));const redo=el('button',undefined,'quiet bilingual');redo.append(el('span','重做一次'),el('small','Làm lại một lần.'));redo.onclick=()=>{stopFeedback();submitted=false;render();root.hidden=true;$('#exercise').hidden=false;saveCurrentProgress();$('#exercise').scrollIntoView({behavior:'smooth'});};const actions=el('div',undefined,'result-actions');actions.append(retry,redo);retry.onclick=()=>{install(introExercise());$('#bank-error').textContent='';$('#welcome').scrollIntoView({behavior:'smooth'});};root.append(actions,el('p','练习进度仅保存在当前浏览器，提交后清除本次进度；不向服务器上传姓名、答案或成绩。','note'));root.hidden=false;root.focus();});
+$('#quiz').addEventListener('submit',e=>{e.preventDefault();if(submitted)return;const a=answers(),missing=data.questions.filter(q=>!normalize(a[q.id])).length;if(missing&&!$('#confirm').checked){$('#confirm-wrap').hidden=false;$('#submit-hint').textContent=`还有${missing}题未作答，将计0分。补充答案，或勾选确认后再次提交。`;return;}quizMusic.stop();const r=grade(data,a);clearProgress(activeProgress);submitted=true;$('#exercise').hidden=true;const root=$('#result');root.replaceChildren(el('span','练习完成 · HOÀN THÀNH','eyebrow'),el('h2',student.name+'，你又进步了一点！'),el('p',data.title));const score=el('div',String(r.score),'score');score.append(el('small',' / '+r.total+' 分'));root.append(score,el('p',`答对 ${r.correct} / ${data.questions.length} 题 · 正确率 ${Math.round(r.correct/data.questions.length*100)}%`),el('p',r.correct===data.questions.length?'全部答对！没有需要复习的错题。':'下面只显示错误和未作答的题目。','note'));showFeedback(root,r.score,r.total);for(const [i,q] of data.questions.entries()){const d=r.details[i];if(d.correct)continue;const card=el('div',undefined,'review'+(d.correct?' correct':''));card.append(el('b',`${d.correct?'✓ 正确':'✗ 未答或错误'} · 第${i+1}题 · ${d.earned}/${q.points}分`),el('p',q.text),el('p','你的答案：'+(q.type==='choice'&&d.answer?d.answer+' · '+q.options[d.answer]:d.answer||'未作答')),el('p','参考答案：'+q.answers.map(a=>q.type==='choice'?a+' · '+q.options[a]:a).join(' / ')),el('small',q.explanation||''));root.append(card);}const retry=el('button',undefined,'primary bilingual');retry.append(el('span','返回题库选择新的题目'),el('small','Quay lại ngân hàng câu hỏi để chọn câu hỏi mới.'));const redo=el('button',undefined,'quiet bilingual');redo.append(el('span','重做一次'),el('small','Làm lại một lần.'));redo.onclick=()=>{stopFeedback();submitted=false;render();root.hidden=true;$('#exercise').hidden=false;saveCurrentProgress();$('#exercise').scrollIntoView({behavior:'smooth'});};const actions=el('div',undefined,'result-actions');actions.append(retry,redo);retry.onclick=()=>{install(introExercise());$('#bank-error').textContent='';$('#welcome').scrollIntoView({behavior:'smooth'});};root.append(actions,el('p','练习进度仅保存在当前浏览器，提交后清除；答案和成绩不上传，姓名用于公开访问次数统计。','note'));root.hidden=false;root.focus();});
 try{await loadCatalog();intro=introExercise();syncExercises();install(intro);}catch(e){notice('练习题库加载失败：'+e.message);}
 
 
-initWriting({onAuthenticatedEntry:()=>{rememberEntry();void recordPracticeEntry('writing');}});
-initPictureWords({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{rememberEntry();void recordPracticeEntry('pictures');}});
+initWriting({onAuthenticatedEntry:()=>{rememberEntry();}});
+initPictureWords({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{rememberEntry();}});
 
-initPhonetics({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{rememberEntry();void recordPracticeEntry('pronunciation');}});
+initPhonetics({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{rememberEntry();}});

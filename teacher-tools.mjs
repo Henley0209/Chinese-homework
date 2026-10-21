@@ -1,4 +1,3 @@
-import {recordLogin} from './visit-counter.mjs?v=phonetics1';
 import {isTeacherPassword} from './teacher-auth.mjs?v=visits15';
 import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=hsk4-40';
 import {validate} from './grading.mjs';
@@ -16,7 +15,7 @@ async function authenticate(quiet=false){
  try{const correct=await isTeacherPassword(value);if(token!==attempt||!teacherActive())return;
  if(!correct){if(!quiet)$('#teacher-error').textContent='教师密码不正确，请重新输入。';return;}
  authenticated=true;$('#teacher-password').value='';$('#teacher-error').textContent='';$('#teacher-auth-state').textContent='教师验证通过';$('#open-teacher-tools').hidden=false;
- await loadCatalog();if(token!==attempt||!teacherActive()||!authenticated)return;updateTargets();openTools();recordLogin('teacher');
+ await loadCatalog();if(token!==attempt||!teacherActive()||!authenticated)return;updateTargets();openTools();
  }catch(e){if(token===attempt){authenticated=false;$('#open-teacher-tools').hidden=true;$('#teacher-auth-state').textContent='';$('#teacher-error').textContent=e.message;}}
 }
 $('#teacher-login').addEventListener('submit',e=>{e.preventDefault();authenticate();});

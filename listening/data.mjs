@@ -14,9 +14,10 @@ q('女：你不是说今天要去看电影吗？男：朋友临时有事，我�
 export const categories=[{id:'hsk',zh:'HSK',vi:'Luyện nghe HSK',icon:'📘',note:'HSK 3—4 · 10 道已确认题目 / 10 câu đã duyệt'},{id:'daily',zh:'日常交际',vi:'Giao tiếp hằng ngày',icon:'💬',note:'生活情境 · 自动组卷 / Tình huống đời sống'},{id:'factory',zh:'汉语工厂',vi:'Tiếng Trung trong nhà máy',icon:'🏭',note:'工作情境 · 自动组卷 / Tình huống công việc'}];
 const pick=a=>a[Math.floor(Math.random()*a.length)];
 export function shuffle(a){const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]];}return b;}
-export function generateQuestions(category,{randomize=false}={}){
+export const generationChoices={names:['小王','小李','小陈','小张'],hours:[8,9,10],prices:[20,30,40],counts:[100,120,150]};
+export function generateQuestions(category,{randomize=false,values={}}={}){
  if(category==='hsk')return randomize?shuffle(hskQuestions).map(x=>{const options=shuffle(x.options);return {...x,options,answer:options.indexOf(x.options[x.answer])};}):hskQuestions.map(x=>({...x,options:[...x.options]}));
- const name=pick(['小王','小李','小陈','小张']),hour=pick([8,9,10]),price=pick([20,30,40]),count=pick([100,120,150]);
+ const name=values.name??pick(generationChoices.names),hour=values.hour??pick(generationChoices.hours),price=values.price??pick(generationChoices.prices),count=values.count??pick(generationChoices.counts);
  const daily=[
  q(`${name}买了两杯咖啡，每杯${price}元。`,`${name}一共需要付多少钱？`,[`${price}元`,`${price*2}元`,`${price*3}元`,`${price+5}元`],1),
  q(`我们约好上午${hour}点见面，请提前十分钟到。`,'应该几点到？',[`${hour}点十分`,`${hour}点半`,`${hour-1}点五十分`,`${hour+1}点`],2),

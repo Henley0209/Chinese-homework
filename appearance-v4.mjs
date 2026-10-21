@@ -1,5 +1,5 @@
 import {startHeroSlideshow,stopHeroSlideshow} from './hero-slideshow.mjs?v=slides21';
-export const defaults=Object.freeze({brand:'Tiếng Trung Cô Nga',subtitle:'',websiteLabel:'',websiteUrl:'',backgroundImage:'',backgroundOpacity:100,overlayOpacity:55,heading:'让中文，\n成为你的新朋友。',welcome:'从一句“你好”开始，认真练习，自信表达。',vietnamese:'Luyện tập từng chút, tự tin mỗi ngày.',button:'开始答题 →',footer:'青蓝中文 · 每一次练习，都是进步。',primary:'#2476b5',background:'#f3f8fc',fontSize:16,titleSize:46,layout:'two',illustration:true,compact:false});
+export const defaults=Object.freeze({brand:'Tiếng Trung Cô Nga',subtitle:'',websiteLabel:'',websiteUrl:'',backgroundImage:'',backgroundOpacity:100,overlayOpacity:55,heading:'让中文，\n成为你的新朋友。',welcome:'从一句“你好”开始，认真练习，自信表达。',vietnamese:'Luyện tập từng chút, tự tin mỗi ngày.',button:'练习习题',footer:'青蓝中文 · 每一次练习，都是进步。',primary:'#2476b5',background:'#f3f8fc',fontSize:16,titleSize:46,layout:'two',illustration:true,compact:false});
 export function validateAppearance(value){
  if(!value||typeof value!=='object'||Array.isArray(value))throw Error('配置必须是JSON对象');
  const out={...defaults};

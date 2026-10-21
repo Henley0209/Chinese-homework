@@ -101,3 +101,9 @@ header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22p
 #quiz-home{padding:7px 10px;font-size:12px;min-height:40px}
 #quiz-home small{font-size:10px}
 #exercise>.sticky{align-items:center;gap:8px 12px}
+
+/* Home practice entries: line icon on the left, bilingual label on the right. */
+.start-row .practice-entry{display:grid;grid-template-columns:26px minmax(0,1fr);column-gap:12px;align-content:center;align-items:center;text-align:left}
+.practice-entry .practice-icon{grid-column:1;grid-row:1 / 3;display:block;width:26px;height:26px;align-self:center;pointer-events:none}
+.practice-entry>span,.practice-entry>small{grid-column:2;min-width:0}
+.practice-entry>span{grid-row:1}.practice-entry>small{grid-row:2}

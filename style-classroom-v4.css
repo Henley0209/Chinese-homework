@@ -107,3 +107,5 @@ header{height:auto;min-height:112px;gap:20px;padding-top:22px;padding-bottom:22p
 .practice-entry .practice-icon{grid-column:1;grid-row:1 / 3;display:block;width:26px;height:26px;align-self:center;pointer-events:none}
 .practice-entry>span,.practice-entry>small{grid-column:2;min-width:0}
 .practice-entry>span{grid-row:1}.practice-entry>small{grid-row:2}
+
+.remembered-entry{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px;margin-top:16px}.remembered-entry>span{flex:1 1 280px}.remembered-entry>button{font-size:12px;padding:6px 10px}

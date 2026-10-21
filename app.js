@@ -1,10 +1,11 @@
+import {initRememberedEntry} from './remembered-entry.mjs?v=remember11';
 import {initPhonetics} from './phonetics.mjs?v=phonetics-mobile8';
 import {initQuizMusic} from './quiz-music.mjs?v=music20';
 import './password-visibility.mjs?v=password17';
 import {initPictureWords} from './picture-words.mjs?v=vocab1322';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';
 import {studentExercises} from './exercise-options.mjs?v=writing33';
-import {initWriting} from './writing-practice.mjs?v=phonetics1';
+import {initWriting} from './writing-practice.mjs?v=remember11';
 import {showFeedback,stopFeedback} from './result-feedback.mjs?v=writing21';
 import {recordPracticeEntry} from './visit-counter.mjs?v=phonetics1';
 import {validate,grade,normalize} from './grading.mjs';
@@ -15,6 +16,7 @@ const quizMusic=initQuizMusic();
 const $=s=>document.querySelector(s);let data,student,submitted=false,intro=null,starting=false,activeProgress=null,restoring=false;const notice=t=>$('#notice').textContent=t;
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function install(value){if(typeof window!=='undefined')document.dispatchEvent(new CustomEvent('practice:enter',{detail:'quiz'}));stopFeedback();data=validate(value);$('#start').disabled=false;$('#exercise').hidden=true;$('#result').hidden=true;$('#welcome').hidden=false;submitted=false;notice('');}
+const rememberEntry=initRememberedEntry();
 function syncExercises(){
  const select=$('#exercise-select'),previous=select.value,items=studentExercises(listExercises($('#question-bank').value));select.replaceChildren();
  for(const e of items){const option=el('option',e.exercise.title+(e.draft?'（本机草稿）':''));option.value=e.id;select.append(option);}
@@ -64,7 +66,7 @@ $('#identity').addEventListener('submit',async e=>{
  if(teacherActive())throw Error('请切换为学生用户后开始答题。');
  const selected=route.id==='intro'?introExercise():getExercise(route.id,String(fd.get('exerciseId')||''));
 
- saveCurrentProgress();install(selected,route.label);student=person;activeProgress=progressKey(person.name,route.id,route.id==='intro'?'intro':String(fd.get('exerciseId')||''));const saved=loadProgress(activeProgress,data);notice('');render();$('#bank-password').value='';
+ saveCurrentProgress();install(selected,route.label);student=person;activeProgress=progressKey(person.name,route.id,route.id==='intro'?'intro':String(fd.get('exerciseId')||''));const saved=loadProgress(activeProgress,data);notice('');render();rememberEntry();
  $('#welcome').hidden=true;$('#exercise').hidden=false;$('#student-label').textContent=student.name+' · '+route.label;
  if(route.id!=='intro')void recordPracticeEntry('quiz');
  void quizMusic.start();
@@ -83,7 +85,7 @@ $('#quiz').addEventListener('submit',e=>{e.preventDefault();if(submitted)return;
 try{await loadCatalog();intro=introExercise();syncExercises();install(intro);}catch(e){notice('练习题库加载失败：'+e.message);}
 
 
-initWriting({onAuthenticatedEntry:()=>{void recordPracticeEntry('writing');}});
-initPictureWords({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{void recordPracticeEntry('pictures');}});
+initWriting({onAuthenticatedEntry:()=>{rememberEntry();void recordPracticeEntry('writing');}});
+initPictureWords({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{rememberEntry();void recordPracticeEntry('pictures');}});
 
-initPhonetics({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{void recordPracticeEntry('pronunciation');}});
+initPhonetics({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{rememberEntry();void recordPracticeEntry('pronunciation');}});

@@ -24,8 +24,10 @@ window.__appearanceBootTimer=setTimeout(()=>{
  if(new URLSearchParams(location.search).has('appearance-preview'))return;
  let editing=false;document.addEventListener('input',()=>{editing=true;},{once:true});
  function refresh(version){
-  if(editing||typeof version!=='string'||!/^[a-zA-Z0-9.-]{1,80}$/.test(version))return;
+  if(editing||version===release||typeof version!=='string'||!/^[a-zA-Z0-9.-]{1,80}$/.test(version))return;
   const url=new URL(location.href);if(url.searchParams.get('release')===version)return;
+  // A stale CDN response must never keep reloading the same release.
+  try{const key='site-release-refresh:'+version;if(sessionStorage.getItem(key))return;sessionStorage.setItem(key,'1');}catch{return;}
   url.searchParams.set('release',version);location.replace(url.href);
  }
  // Refresh the fixed Pages entry once; later visits also check the published release.

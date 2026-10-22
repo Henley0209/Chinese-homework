@@ -85,17 +85,17 @@ for lesson,block in enumerate(blocks,1):
    alt=''.join([chunks[1],chunks[0]]+chunks[2:]);variants += [alt,alt+'。',alt+'.',alt+'？',alt+'?']
   questions.append(dict(id=len(questions)+1,type='fill',section='句子排序',text='【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n'+' / '.join(shuffled),pinyin=' / '.join(py(c) for c in shuffled),vietnamese='Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.',answers=list(dict.fromkeys(variants)),points=2,hanziCount=han(sentence),explanation='参考表达：'+sentence+'。\n'+py(sentence)+'。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp.'))
  assert len(questions)==50
- exercise=dict(title=f'电子工厂 第{lesson:02d}课 {title}',description='面向越南学习者的电子工厂汉语原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准',annotationVersion=1,questions=questions)
+ exercise=dict(title=f'汉语工厂 第{lesson:02d}课 {title}',description='面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准',annotationVersion=1,questions=questions)
  filename=f'lesson-{lesson:02d}.json';(OUT/filename).write_text(json.dumps(exercise,ensure_ascii=False,indent=2)+'\n')
- entries.append(dict(id=f'electronics-topic-{lesson:02d}',bank='daily',exercise=exercise))
- manifest.append(dict(lesson=lesson,title=title,file=filename,bank='daily',questionCount=50,totalPoints=100,targetWords=words,communicationGoals=[p for c,p in drills],sortingSentences=expressions))
+ entries.append(dict(id=f'electronics-topic-{lesson:02d}',bank='factory',exercise=exercise))
+ manifest.append(dict(lesson=lesson,title=title,file=filename,bank='factory',questionCount=50,totalPoints=100,targetWords=words,communicationGoals=[p for c,p in drills],sortingSentences=expressions))
 (OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 catalog=json.loads((ROOT/'exercise-catalog.json').read_text());before=[e for e in catalog['exercises'] if not re.fullmatch(r'electronics-topic-\d{2}',e['id'])]
-# Append after existing daily lessons; retain their IDs, contents and order.
-insert=max(i for i,e in enumerate(before) if e['bank']=='daily')+1
+# Append after existing factory lessons; retain all stable IDs and questions.
+insert=max(i for i,e in enumerate(before) if e['bank']=='factory')+1
 catalog['exercises']=before[:insert]+entries+before[insert:]
 (ROOT/'exercise-catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
-handout=['# 电子工厂汉语：35个主题练习','共1750题。每课50题，每题2分，满分100分。所属题库：日常交际。原创课堂语言练习，非官方HSK试卷。']
+handout=['# 汉语工厂：35个主题练习','共1750题。每课50题，每题2分，满分100分。所属题库：汉语工厂。原创课堂语言练习，非官方HSK试卷。']
 for e,m in zip(entries,manifest):
  d=e['exercise'];handout += ['\n## '+d['title'],'核心词：'+'、'.join(m['targetWords'])]
  for q in d['questions']:
@@ -104,10 +104,10 @@ for e,m in zip(entries,manifest):
  handout += ['\n### 教师答案与解析']+[str(q['id'])+'. '+q['answers'][0]+'　'+q['explanation'] for q in d['questions']]
  handout += ['\n### 角色扮演（人工反馈，不计系统分数）','两人轮流扮演本课情境中的员工与沟通对象，选取2个交际任务完成至少4轮对话。每人至少使用3个核心词，第二轮更换岗位、物料、时间或异常现象。','基础任务：'+'；'.join(m['communicationGoals'][:10])]
 (OUT/'课堂练习与答案.md').write_text('\n\n'.join(handout)+'\n')
-items=''.join(f'<li><a href="{m["file"]}" download>第{m["lesson"]:02d}课　{html.escape(m["title"])}</a><small>50题 · 100分 · 日常交际题库</small></li>' for m in manifest)
-(OUT/'index.html').write_text('''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>电子工厂汉语 · 35课1750题</title><style>body{margin:0;background:#f3f8fc;color:#173b53;font:17px/1.8 system-ui,sans-serif}main{max-width:1050px;margin:auto;padding:32px 20px}h1{font-size:32px}a{color:#176cad}.actions{display:flex;gap:12px;flex-wrap:wrap}.actions a,li{padding:16px;background:white;border:1px solid #dceaf3;border-radius:12px}.actions a{text-decoration:none}ol{padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}li{list-style:none}small{display:block;color:#617c90;font-size:14px}@media print{.actions{display:none}li{break-inside:avoid}}</style></head><body><main><p>TIẾNG TRUNG CÔ NGA · TIẾNG TRUNG NHÀ MÁY ĐIỆN TỬ</p><h1>电子工厂汉语：35个工作主题</h1><p>从入职报到到生产协作，为越南学习者设计1750道原创课堂语言练习。每课50题：10道拼音选择、10道词语填空、15道情境应答、15道句子排序。每题2分，满分100分。</p><p lang="vi">35 chủ đề · 1750 câu hỏi · 50 câu mỗi bài · Có gợi ý tiếng Việt, phiên âm và giải thích đáp án.</p><div class="actions"><a href="../?release=2026-10-21-electronics-35">进入日常交际题库</a><a href="electronics-35-topics.zip" download>下载35课题库与生成代码</a><a href="课堂练习与答案.md">课堂练习与教师答案</a><a href="使用说明.md">使用说明</a></div><p>进入主站，选择“日常交际”，再选择“电子工厂 第01课”至“第35课”，使用原有日常交际题库密码。原有日常交际课程和汉语工厂题库保留。</p><p>本套沿用HSK作业格式，非官方考试试卷。技术主题用于语言沟通训练，具体操作依据所在工厂的有效文件与授权要求。</p><ol>'''+items+'</ol></main></body></html>')
+items=''.join(f'<li><a href="{m["file"]}" download>第{m["lesson"]:02d}课　{html.escape(m["title"])}</a><small>50题 · 100分 · 汉语工厂题库</small></li>' for m in manifest)
+(OUT/'index.html').write_text('''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>汉语工厂 · 35课1750题</title><style>body{margin:0;background:#f3f8fc;color:#173b53;font:17px/1.8 system-ui,sans-serif}main{max-width:1050px;margin:auto;padding:32px 20px}h1{font-size:32px}a{color:#176cad}.actions{display:flex;gap:12px;flex-wrap:wrap}.actions a,li{padding:16px;background:white;border:1px solid #dceaf3;border-radius:12px}.actions a{text-decoration:none}ol{padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}li{list-style:none}small{display:block;color:#617c90;font-size:14px}@media print{.actions{display:none}li{break-inside:avoid}}</style></head><body><main><p>TIẾNG TRUNG CÔ NGA · TIẾNG TRUNG TRONG NHÀ MÁY</p><h1>汉语工厂：35个工作主题</h1><p>从入职报到到生产协作，为越南学习者设计1750道原创课堂语言练习。每课50题：10道拼音选择、10道词语填空、15道情境应答、15道句子排序。每题2分，满分100分。</p><p lang="vi">35 chủ đề · 1750 câu hỏi · 50 câu mỗi bài · Có gợi ý tiếng Việt, phiên âm và giải thích đáp án.</p><div class="actions"><a href="../?release=2026-10-22-factory-bank">进入汉语工厂题库</a><a href="electronics-35-topics.zip" download>下载35课题库与生成代码</a><a href="课堂练习与答案.md">课堂练习与教师答案</a><a href="使用说明.md">使用说明</a></div><p>进入主站，选择“汉语工厂”，再选择“汉语工厂 第01课”至“第35课”，使用原有汉语工厂题库密码。原有日常交际课程和汉语工厂题库保留。</p><p>本套沿用HSK作业格式，非官方考试试卷。技术主题用于语言沟通训练，具体操作依据所在工厂的有效文件与授权要求。</p><ol>'''+items+'</ol></main></body></html>')
 with zipfile.ZipFile(OUT/'electronics-35-topics.zip','w',zipfile.ZIP_DEFLATED) as z:
  for path in sorted(OUT.iterdir()):
   if path.suffix in ['.json','.md','.txt','.html']:z.write(path,'electronics-35/'+path.name)
  z.write(Path(__file__),'tools/generate-electronics.py')
-print(f'Generated {len(entries)} lessons / 1750 questions / {len(seen)} distinct sorting expressions; catalog {len(catalog["exercises"])} entries; bank=daily')
+print(f'Generated {len(entries)} lessons / 1750 questions / {len(seen)} distinct sorting expressions; catalog {len(catalog["exercises"])} entries; bank=factory')

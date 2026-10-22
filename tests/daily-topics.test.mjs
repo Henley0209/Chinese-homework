@@ -41,7 +41,7 @@ assert.equal(sentences.size,175);
 const memory=new Map();globalThis.localStorage={getItem:k=>memory.get(k)||null,setItem:(k,v)=>memory.set(k,v),removeItem:k=>memory.delete(k)};
 globalThis.fetch=async()=>({ok:true,json:async()=>structuredClone(catalog)});
 await loadCatalog();const visible=studentExercises(listExercises('daily'));
-assert.equal(visible.length,71);const lessons=visible.filter(e=>/^daily-topic-\d{2}$/.test(e.id));assert.equal(lessons.length,35);
+assert.equal(visible.length,36);const lessons=visible.filter(e=>/^daily-topic-\d{2}$/.test(e.id));assert.equal(lessons.length,35);
 assert.deepEqual(lessons.map(e=>e.id),manifest.map(m=>'daily-topic-'+String(m.lesson).padStart(2,'0')));
 const last=lessons[34],key=progressKey('测试学生','daily',last.id),answers=Object.fromEntries(last.exercise.questions.slice(0,12).map(q=>[q.id,q.answers[0]]));
 assert.equal(saveProgress(key,last.exercise,answers,{index:12,offset:0}),true);

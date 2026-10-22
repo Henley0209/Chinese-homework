@@ -1,9 +1,10 @@
 .visit-stats{margin-left:auto;max-width:100%;width:280px;display:flex;flex-direction:column;align-items:stretch;gap:5px;text-align:right;min-width:0}
 .visit-stats .visit-counter{margin-left:0}
-.visit-users{width:100%;height:1.8em;overflow:hidden!important;scrollbar-width:none;border-radius:5px;color:#245877;font-size:12px;line-height:1.8;outline-offset:3px;text-align:left}
+.visit-users{width:100%;height:3.6em;overflow:hidden!important;scrollbar-width:none;border-radius:5px;color:#245877;font-size:12px;line-height:1.8;outline-offset:3px;text-align:left}
 .visit-users-track{display:flex;flex-direction:column;width:100%;animation:none}
 .visit-users-group{display:flex;flex-direction:column;align-items:stretch;flex-shrink:0;width:100%}
 .visit-user{display:block;height:1.8em;line-height:1.8;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.visit-users-status:empty{display:none}
 .visit-users-status{font-size:10px;line-height:1.5;color:#67849a;white-space:normal}
 @keyframes visit-user-scroll{to{transform:translateY(-50%)}}
 @media(max-width:650px){.visit-stats{width:100%;max-width:320px}.visit-users{font-size:11px}}

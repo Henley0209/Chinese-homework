@@ -1,6 +1,6 @@
 import {initRememberedEntry} from './remembered-entry.mjs?v=remember11';
 import {initPhonetics} from './phonetics.mjs?v=phonetics-mobile8';
-import {initQuizMusic} from './quiz-music.mjs?v=music21';
+import {initQuizMusic} from './quiz-music.mjs?v=music22';
 import './password-visibility.mjs?v=password17';
 import {initPictureWords} from './picture-words.mjs?v=mobile-tap1';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';

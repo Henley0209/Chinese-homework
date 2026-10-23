@@ -29,7 +29,7 @@ export function initQuizMusic({doc=document,AudioClass=Audio,fetchFn=fetch}={}){
   if(track.lyricsSrc)void (async()=>{try{const response=await fetchFn(track.lyricsSrc);if(response.ok){const parsed=parseLrc(await response.text());if(token===lyricsGeneration)lines=parsed;}}catch{}})();
  }
  const ready=(async()=>{
-  try{const response=await fetchFn('./quiz-music.json?v=music21');if(!response.ok)return false;const config=await response.json();playlist=(Array.isArray(config.tracks)&&config.tracks.length?config.tracks:[config]).filter(track=>track&&typeof track.audioSrc==='string'&&track.audioSrc);if(!playlist.length)return false;
+  try{const response=await fetchFn('./quiz-music.json?v=music22',{cache:'no-store'});if(!response.ok)return false;const config=await response.json();playlist=(Array.isArray(config.tracks)&&config.tracks.length?config.tracks:[config]).filter(track=>track&&typeof track.audioSrc==='string'&&track.audioSrc);if(!playlist.length)return false;
    audio=new AudioClass();audio.preload='metadata';audio.loop=false;audio.volume=.35;selectTrack(0);
    audio.addEventListener('ended',()=>{active=false;pending=false;buttons();const next=trackIndex+1;if(next<playlist.length){selectTrack(next);if(!manualPaused)void start();}else if(config.loop!==false){selectTrack(0);if(!manualPaused)void start();}});
    audio.addEventListener('timeupdate',()=>{if(active)lyric.textContent=lyricAt(lines,audio.currentTime)||'循环播放 / Phát lặp';});

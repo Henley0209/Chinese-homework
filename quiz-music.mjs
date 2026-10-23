@@ -16,21 +16,26 @@ export function initQuizMusic({doc=document,AudioClass=Audio,fetchFn=fetch}={}){
  const play=doc.createElement('button'),pauseButton=doc.createElement('button');for(const b of [play,pauseButton]){b.type='button';b.className='quiet';}
  play.id='quiz-music-play';play.textContent='▶ 播放 / Phát';pauseButton.id='quiz-music-pause';pauseButton.textContent='Ⅱ 暂停 / Tạm dừng';play.setAttribute('aria-label','播放音乐 / Phát nhạc');pauseButton.setAttribute('aria-label','暂停音乐 / Tạm dừng nhạc');text.append(title,lyric);controls.append(play,pauseButton);panel.append(text,controls);sticky.append(panel);
  const home=doc.createElement('div');home.id='home-music';home.className='home-music';home.hidden=true;welcome?.before(home);
+ let playlist=[],trackIndex=0,lyricsGeneration=0;
  let audio,lines=[],generation=0,active=false,pending=false,manualPaused=false,needsGesture=false,view='';
  function mount(){const next=!exercise.hidden?'quiz':welcome&&!welcome.hidden?'home':'';home.hidden=next!=='home';if(next){const target=next==='quiz'?sticky:home;if(panel.parentNode!==target)target.append(panel);if(panel.hidden)panel.hidden=false;}else if(!panel.hidden)panel.hidden=true;return next;}
  function syncView(){const previous=view;view=mount();if(!view){pauseInternal();return;}if(view!==previous&&!manualPaused)void start();}
  function buttons(){play.disabled=active||pending;pauseButton.disabled=!active&&!pending;}
  function pauseInternal(){generation++;pending=false;active=false;audio?.pause();buttons();if(!panel.hidden)lyric.textContent='已暂停 · 循环播放 / Đã tạm dừng · Phát lặp';}
  function pause(){manualPaused=true;needsGesture=false;pauseInternal();}
- function stop(){needsGesture=false;pauseInternal();if(audio)audio.currentTime=0;}
+ function stop(){needsGesture=false;pauseInternal();if(audio){selectTrack(0);audio.currentTime=0;}}
+ function selectTrack(index){
+  trackIndex=index;const track=playlist[index],token=++lyricsGeneration;lines=[];title.textContent=track.title||'背景音乐';audio.src=track.audioSrc;
+  if(track.lyricsSrc)void (async()=>{try{const response=await fetchFn(track.lyricsSrc);if(response.ok){const parsed=parseLrc(await response.text());if(token===lyricsGeneration)lines=parsed;}}catch{}})();
+ }
  const ready=(async()=>{
-  try{const response=await fetchFn('./quiz-music.json?v=music20');if(!response.ok)return false;const config=await response.json();if(!config.audioSrc)return false;
-   audio=new AudioClass(config.audioSrc);audio.preload='metadata';audio.loop=true;audio.volume=.35;title.textContent=config.title||'一路生花';
+  try{const response=await fetchFn('./quiz-music.json?v=music21');if(!response.ok)return false;const config=await response.json();playlist=(Array.isArray(config.tracks)&&config.tracks.length?config.tracks:[config]).filter(track=>track&&typeof track.audioSrc==='string'&&track.audioSrc);if(!playlist.length)return false;
+   audio=new AudioClass();audio.preload='metadata';audio.loop=false;audio.volume=.35;selectTrack(0);
+   audio.addEventListener('ended',()=>{active=false;pending=false;buttons();const next=trackIndex+1;if(next<playlist.length){selectTrack(next);if(!manualPaused)void start();}else if(config.loop!==false){selectTrack(0);if(!manualPaused)void start();}});
    audio.addEventListener('timeupdate',()=>{if(active)lyric.textContent=lyricAt(lines,audio.currentTime)||'循环播放 / Phát lặp';});
    audio.addEventListener('playing',()=>{if(!mount()){audio.pause();return;}active=true;pending=false;buttons();lyric.textContent=lyricAt(lines,audio.currentTime)||'循环播放 / Phát lặp';});
    audio.addEventListener('pause',()=>{active=false;pending=false;buttons();});
    audio.addEventListener('error',()=>{active=false;pending=false;buttons();if(!panel.hidden)lyric.textContent='音乐暂时无法播放 / Tạm thời không phát được nhạc';});
-   if(config.lyricsSrc){try{const lrc=await fetchFn(config.lyricsSrc);if(lrc.ok)lines=parseLrc(await lrc.text());}catch{}}
    return true;
   }catch{return false;}
  })();

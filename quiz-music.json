@@ -1,7 +1,19 @@
 {
-  "title": "一路生花 · 温奕心",
+  "title": "阿依莫",
   "provider": "audio",
-  "audioSrc": "assets/music/yi-lu-sheng-hua-wen-yixin.mp3",
+  "audioSrc": "assets/music/a-yi-mo.mp3",
   "lyricsSrc": "",
-  "loop": true
+  "loop": true,
+  "tracks": [
+    {
+      "title": "阿依莫",
+      "audioSrc": "assets/music/a-yi-mo.mp3",
+      "lyricsSrc": ""
+    },
+    {
+      "title": "一路生花 · 温奕心",
+      "audioSrc": "assets/music/yi-lu-sheng-hua-wen-yixin.mp3",
+      "lyricsSrc": ""
+    }
+  ]
 }

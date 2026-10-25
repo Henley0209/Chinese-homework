@@ -37,7 +37,7 @@ async def generate(clip):
             for attempt in range(4):
                 temp = target.with_suffix('.tmp.mp3')
                 try:
-                    await asyncio.wait_for(edge_tts.Communicate(clip['text'], clip['voice'], rate='-15%', pitch='+0Hz').save(str(temp)), timeout=60)
+                    await asyncio.wait_for(edge_tts.Communicate(clip['text'], clip['voice'], rate='-10%', pitch='+0Hz').save(str(temp)), timeout=60)
                     duration = inspect(temp)
                     if duration is None:
                         raise RuntimeError('Generated MP3 failed audio validation')

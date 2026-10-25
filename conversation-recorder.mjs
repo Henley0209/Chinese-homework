@@ -1,4 +1,4 @@
-import {createSilenceGate} from './conversation-silence.mjs?v=auto1';
+import {createSilenceGate} from './conversation-silence.mjs?v=progress1';
 export function canRecord(){return !!(window.MediaRecorder&&navigator.mediaDevices?.getUserMedia);}
 export function createAnswerRecorder({endpoint,onStatus=()=>{}}){
  let generation=0,stream,recorder,controller,timer,settle,audioContext,source,monitor,noSpeechTimer;
@@ -20,13 +20,13 @@ export function createAnswerRecorder({endpoint,onStatus=()=>{}}){
     recorder.ondataavailable=event=>{if(event.data.size){size+=event.data.size;parts.push(event.data);}if(size>1048576){reject(Error('录音过大，请缩短回答后重试。'));finish();}};
     recorder.onerror=()=>reject(Error('录音失败，请检查麦克风后重试。'));
     recorder.onstop=()=>{clearMonitor();clearTimeout(timer);const type=recorder?.mimeType||mime||'audio/webm';stopTracks();settle=null;if(size>1048576)return;resolve(new Blob(parts,{type}));};
-    recorder.start(1000);onStatus('正在聆听，请用中文回答；说完安静3秒会自动提交。');timer=setTimeout(finish,20000);
+    recorder.start(1000);onStatus('正在聆听，请用中文回答；说完安静2秒会自动提交。');timer=setTimeout(finish,20000);
     if(!audioContext)prepare();
     if(audioContext){
      const analyser=audioContext.createAnalyser();analyser.fftSize=1024;source=audioContext.createMediaStreamSource(stream);source.connect(analyser);
      const samples=new Float32Array(analyser.fftSize),gate=createSilenceGate();
-     monitor=setInterval(()=>{if(token!==generation)return;analyser.getFloatTimeDomainData(samples);let sum=0;for(const value of samples)sum+=value*value;const result=gate.push(Math.sqrt(sum/samples.length),performance.now());if(result.heard)clearTimeout(noSpeechTimer);if(result.finished){onStatus('已检测到3秒停顿，正在提交录音…');finish();}},50);
-     noSpeechTimer=setTimeout(()=>{reject(Error('暂时没有听到说话，请点击“开始对话”重新回答。'));finish();},10000);
+     monitor=setInterval(()=>{if(token!==generation)return;analyser.getFloatTimeDomainData(samples);let sum=0;for(const value of samples)sum+=value*value;const result=gate.push(Math.sqrt(sum/samples.length),performance.now());if(result.heard)clearTimeout(noSpeechTimer);if(result.finished){onStatus('已检测到2秒停顿，正在提交录音…');finish();}},50);
+     noSpeechTimer=setTimeout(()=>{reject(Error('暂时没有听到说话，请点击“再听一次”重新回答。'));finish();},10000);
     }else onStatus('当前设备无法自动检测停顿，请说完后点击“说完了”。');
    });
    if(token!==generation||!blob)return '';

@@ -1,5 +1,5 @@
-// Require sustained speech before counting a three-second pause.
-export function createSilenceGate({silenceMs=3000,minSpeechMs=150,threshold=.012}={}){
+// Require sustained speech before counting a two-second pause.
+export function createSilenceGate({silenceMs=2000,minSpeechMs=150,threshold=.012}={}){
  let candidate=null,heard=false,lastVoice=null,noise=.002,finished=false;
  return {push(rms,now){
   if(finished)return {heard,finished:true};

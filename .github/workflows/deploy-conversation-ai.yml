@@ -1,6 +1,12 @@
 name: Deploy real conversation AI
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/enable-conversation-ai.py
+      - backend/conversation/**
+      - .github/workflows/deploy-conversation-ai.yml
 permissions:
   contents: write
 concurrency:

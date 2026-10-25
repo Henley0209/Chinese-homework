@@ -1,0 +1,17 @@
+name = "chinese-homework-conversation"
+main = "worker.mjs"
+compatibility_date = "2026-10-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://henley0209.github.io"
+OPENAI_MODEL = "gpt-4.1-mini"
+DAILY_PER_IP = "60"
+DAILY_TOTAL = "1000"
+
+[[durable_objects.bindings]]
+name = "LIMITS"
+class_name = "ConversationLimits"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["ConversationLimits"]

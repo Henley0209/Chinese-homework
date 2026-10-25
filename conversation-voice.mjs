@@ -1,8 +1,8 @@
 import {isMandarin} from './listening/speech.mjs';
 export function chooseDialogueVoice(voices){return voices.find(v=>isMandarin(v)&&/xiaoxiao|晓晓|曉曉/i.test(v.name))||voices.find(isMandarin)||voices.find(v=>/^zh|^cmn/i.test(v.lang));}
-export function createDialogueVoice({endpoint,onStatus=()=>{},onVoice=()=>{}}){
+export function createDialogueVoice({endpoint,onStatus=()=>{},onVoice=()=>{},onAudio=()=>{}}){
  let generation=0,controller,current,finish,timer,objectUrl;const cache=new Map();
- function stop(){generation++;controller?.abort();controller=null;clearTimeout(timer);if(current){current.pause();current.removeAttribute('src');current.load();current=null;}if(objectUrl){URL.revokeObjectURL(objectUrl);objectUrl=null;}window.speechSynthesis?.cancel();const done=finish;finish=null;done?.(false);}
+ function stop(){generation++;controller?.abort();controller=null;clearTimeout(timer);if(current){current.pause();current.remove?.();current.removeAttribute('src');current.load();current=null;}if(objectUrl){URL.revokeObjectURL(objectUrl);objectUrl=null;}window.speechSynthesis?.cancel();const done=finish;finish=null;done?.(false);}
  function unlock(){window.speechSynthesis?.resume?.();}
  async function native(text,voice,token){
   if(!window.speechSynthesis||!window.SpeechSynthesisUtterance)return false;
@@ -14,7 +14,7 @@ export function createDialogueVoice({endpoint,onStatus=()=>{},onVoice=()=>{}}){
   let blob=cache.get(text);
   if(!blob){const url=new URL(endpoint());url.pathname='/speech';url.search='';controller=new AbortController();const timeout=setTimeout(()=>controller?.abort(),35000);try{const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text}),signal:controller.signal,credentials:'omit'});if(!r.ok)throw Error(r.status===429?'今日语音额度已用完':'云端语音暂不可用');if(!r.headers.get('Content-Type')?.startsWith('audio/'))throw Error('语音格式无效');blob=await r.blob();if(blob.size<100)throw Error('语音内容为空');if(cache.size>=3)cache.delete(cache.keys().next().value);cache.set(text,blob);}finally{clearTimeout(timeout);}}
   if(token!==generation)return false;
-  return new Promise((resolve,reject)=>{let settled=false;const done=ok=>{if(settled)return;settled=true;clearTimeout(timer);if(finish===done)finish=null;resolve(ok);};finish=done;current=new Audio();objectUrl=URL.createObjectURL(blob);current.src=objectUrl;current.playbackRate=.9;current.onended=()=>done(true);current.onerror=()=>{done(false);};onStatus('正在朗读 · 云端中文音色 · 0.9 倍速');timer=setTimeout(()=>{current?.pause();done(false);},60000);current.play().catch(()=>{onStatus('浏览器阻止了自动播放，请点击“再听一次”。');done(false);});});
+  return new Promise((resolve,reject)=>{let settled=false;const done=ok=>{if(settled)return;settled=true;clearTimeout(timer);if(finish===done)finish=null;resolve(ok);};finish=done;current=new Audio();objectUrl=URL.createObjectURL(blob);current.src=objectUrl;current.playbackRate=.9;current.controls=true;current.style.width='100%';current.setAttribute('aria-label','播放 AI 中文语音');onAudio(current);current.onended=()=>done(true);current.onerror=()=>{done(false);};onStatus('正在朗读 · 云端中文音色 · 0.9 倍速');timer=setTimeout(()=>{current?.pause();done(false);},60000);current.play().catch(()=>{onStatus('浏览器阻止了自动播放，请点击“再听一次”。');done(false);});});
  }
  async function play(text){
   stop();const token=generation;

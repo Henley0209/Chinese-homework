@@ -1,7 +1,7 @@
 import {resolveBank} from './bank-access.mjs?v=banks-8';
 import {loadCatalog,getExercise,introExercise} from './exercise-store.mjs?v=hsk4-40';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
-import {createDialogueVoice} from './conversation-voice.mjs?v=audiofix1';
+import {createDialogueVoice} from './conversation-voice.mjs?v=audiofix2';
 import {lessonContext,validateReply,spokenReply} from './conversation-core.mjs?v=conversation1';
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fixedLesson=null,configUrl='./conversation-config.json',isTeacher=()=>document.querySelector('#user-role')?.value==='teacher'}={}){
@@ -11,7 +11,7 @@ export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fix
  let log,status,start,finish,replay,retry,answer,send,voiceLabel;
  function state(value){phase=value;const busy=['loading','speaking','listening'].includes(phase),pending=history.at(-1)?.role==='user';start.disabled=busy||pending||!Recognition||!reply;finish.hidden=phase!=='listening';replay.disabled=busy||!lastSpeech;send.disabled=busy||pending||!reply;answer.disabled=busy||pending;retry.hidden=busy||!(phase==='error'||pending);}
  function message(role,text){const n=el('div',undefined,'conversation-message '+role);n.append(el('strong',role==='student'?'你 / Bạn':role==='feedback'?'回答评估 / Nhận xét':'AI'),el('span',text));log.append(n);log.scrollTop=log.scrollHeight;}
- const voicePlayer=createDialogueVoice({endpoint:()=>endpoint,onStatus:text=>{if(status)status.textContent=text;},onVoice:text=>{if(voiceLabel)voiceLabel.textContent='当前朗读音色：'+text+' · 0.9 倍速';}});
+ const voicePlayer=createDialogueVoice({endpoint:()=>endpoint,onStatus:text=>{if(status)status.textContent=text;},onVoice:text=>{if(voiceLabel)voiceLabel.textContent='当前朗读音色：'+text+' · 0.9 倍速';},onAudio:audio=>{voiceLabel?.after(audio);}});
  function stopSpeech(){voicePlayer.stop();}
  function cancel(){generation++;controller?.abort();controller=null;if(recognition){recognition.onend=null;recognition.onerror=null;recognition.onresult=null;recognition.abort();recognition=null;}stopSpeech();}
  function close(){cancel();root.hidden=true;}

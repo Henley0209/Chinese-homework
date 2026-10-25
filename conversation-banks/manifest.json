@@ -1,0 +1,1712 @@
+{
+  "version": 1,
+  "perExercise": 200,
+  "totalExercises": 213,
+  "totalDialogues": 42600,
+  "exercises": [
+    {
+      "id": "intro-1",
+      "bank": "入门练习",
+      "title": "第一课 · 你好，中文！",
+      "sourceHash": "7c648144",
+      "file": "intro-1.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-01",
+      "bank": "HSK4",
+      "title": "HSK4 第01课 简单的爱情",
+      "sourceHash": "159fdbed",
+      "file": "hsk4-topic-01.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-02",
+      "bank": "HSK4",
+      "title": "HSK4 第02课 真正的朋友",
+      "sourceHash": "fcd716e7",
+      "file": "hsk4-topic-02.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-03",
+      "bank": "HSK4",
+      "title": "HSK4 第03课 工作再忙也别忘了锻炼",
+      "sourceHash": "946792ff",
+      "file": "hsk4-topic-03.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-04",
+      "bank": "HSK4",
+      "title": "HSK4 第04课 不要太着急买",
+      "sourceHash": "5f1669cf",
+      "file": "hsk4-topic-04.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-05",
+      "bank": "HSK4",
+      "title": "HSK4 第05课 找到适合自己的方法",
+      "sourceHash": "85fa033b",
+      "file": "hsk4-topic-05.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-06",
+      "bank": "HSK4",
+      "title": "HSK4 第06课 一分钱一分货",
+      "sourceHash": "8e2c0f64",
+      "file": "hsk4-topic-06.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-07",
+      "bank": "HSK4",
+      "title": "HSK4 第07课 最好的医生是自己",
+      "sourceHash": "f1d95320",
+      "file": "hsk4-topic-07.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-08",
+      "bank": "HSK4",
+      "title": "HSK4 第08课 生活中不缺少美",
+      "sourceHash": "33441d11",
+      "file": "hsk4-topic-08.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-09",
+      "bank": "HSK4",
+      "title": "HSK4 第09课 阳光总在风雨后",
+      "sourceHash": "dbd37246",
+      "file": "hsk4-topic-09.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-10",
+      "bank": "HSK4",
+      "title": "HSK4 第10课 幸福的标准",
+      "sourceHash": "8af642f",
+      "file": "hsk4-topic-10.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-11",
+      "bank": "HSK4",
+      "title": "HSK4 第11课 读书好，读好书，好读书",
+      "sourceHash": "206f07eb",
+      "file": "hsk4-topic-11.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-12",
+      "bank": "HSK4",
+      "title": "HSK4 第12课 用心发现世界",
+      "sourceHash": "6ca0ccc1",
+      "file": "hsk4-topic-12.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-13",
+      "bank": "HSK4",
+      "title": "HSK4 第13课 喝着茶看京剧",
+      "sourceHash": "c9316751",
+      "file": "hsk4-topic-13.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-14",
+      "bank": "HSK4",
+      "title": "HSK4 第14课 保护地球母亲",
+      "sourceHash": "31d15a8f",
+      "file": "hsk4-topic-14.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-15",
+      "bank": "HSK4",
+      "title": "HSK4 第15课 教育孩子的艺术",
+      "sourceHash": "ea6b03c2",
+      "file": "hsk4-topic-15.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-16",
+      "bank": "HSK4",
+      "title": "HSK4 第16课 生活可以更美好",
+      "sourceHash": "886fa9ab",
+      "file": "hsk4-topic-16.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-17",
+      "bank": "HSK4",
+      "title": "HSK4 第17课 人与自然",
+      "sourceHash": "f55a1588",
+      "file": "hsk4-topic-17.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-18",
+      "bank": "HSK4",
+      "title": "HSK4 第18课 科技与世界",
+      "sourceHash": "b2b74e5c",
+      "file": "hsk4-topic-18.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-19",
+      "bank": "HSK4",
+      "title": "HSK4 第19课 生活的味道",
+      "sourceHash": "c10e111",
+      "file": "hsk4-topic-19.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-20",
+      "bank": "HSK4",
+      "title": "HSK4 第20课 路上的风景",
+      "sourceHash": "60b23d69",
+      "file": "hsk4-topic-20.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-21",
+      "bank": "HSK4",
+      "title": "HSK4 第21课 向中国朋友介绍越南",
+      "sourceHash": "5318ea85",
+      "file": "hsk4-topic-21.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-22",
+      "bank": "HSK4",
+      "title": "HSK4 第22课 我的家乡值得你来看看",
+      "sourceHash": "ea289880",
+      "file": "hsk4-topic-22.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-23",
+      "bank": "HSK4",
+      "title": "HSK4 第23课 中国和越南的春节",
+      "sourceHash": "ee98f33a",
+      "file": "hsk4-topic-23.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-24",
+      "bank": "HSK4",
+      "title": "HSK4 第24课 第一次去中国朋友家做客",
+      "sourceHash": "cb561224",
+      "file": "hsk4-topic-24.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-25",
+      "bank": "HSK4",
+      "title": "HSK4 第25课 请你尝尝越南菜",
+      "sourceHash": "ecffda17",
+      "file": "hsk4-topic-25.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-26",
+      "bank": "HSK4",
+      "title": "HSK4 第26课 在中国餐厅点菜",
+      "sourceHash": "7c3ed9c7",
+      "file": "hsk4-topic-26.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-27",
+      "bank": "HSK4",
+      "title": "HSK4 第27课 在中国租一套合适的房子",
+      "sourceHash": "9b9ab290",
+      "file": "hsk4-topic-27.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-28",
+      "bank": "HSK4",
+      "title": "HSK4 第28课 这件商品可以退换吗",
+      "sourceHash": "9455e51d",
+      "file": "hsk4-topic-28.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-29",
+      "bank": "HSK4",
+      "title": "HSK4 第29课 做一个会安排生活费的人",
+      "sourceHash": "4dd7cdd8",
+      "file": "hsk4-topic-29.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-30",
+      "bank": "HSK4",
+      "title": "HSK4 第30课 一起计划一次中国旅行",
+      "sourceHash": "616f5c10",
+      "file": "hsk4-topic-30.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-31",
+      "bank": "HSK4",
+      "title": "HSK4 第31课 旅途中遇到问题怎么办",
+      "sourceHash": "a9eb983",
+      "file": "hsk4-topic-31.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-32",
+      "bank": "HSK4",
+      "title": "HSK4 第32课 我要找一份用得上汉语的工作",
+      "sourceHash": "44bcafd9",
+      "file": "hsk4-topic-32.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-33",
+      "bank": "HSK4",
+      "title": "HSK4 第33课 面试时怎样介绍自己",
+      "sourceHash": "beec1a81",
+      "file": "hsk4-topic-33.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-34",
+      "bank": "HSK4",
+      "title": "HSK4 第34课 和中国同事一起完成任务",
+      "sourceHash": "ac7cb7d7",
+      "file": "hsk4-topic-34.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-35",
+      "bank": "HSK4",
+      "title": "HSK4 第35课 工厂里的日常沟通",
+      "sourceHash": "d5d7e055",
+      "file": "hsk4-topic-35.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-36",
+      "bank": "HSK4",
+      "title": "HSK4 第36课 工作中怎样礼貌地表达不同意见",
+      "sourceHash": "10d9b7b0",
+      "file": "hsk4-topic-36.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-37",
+      "bank": "HSK4",
+      "title": "HSK4 第37课 手机方便了生活，也带来了烦恼",
+      "sourceHash": "3e97c966",
+      "file": "hsk4-topic-37.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-38",
+      "bank": "HSK4",
+      "title": "HSK4 第38课 听懂了词，为什么还是误会了",
+      "sourceHash": "8c406285",
+      "file": "hsk4-topic-38.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-39",
+      "bank": "HSK4",
+      "title": "HSK4 第39课 我的汉语学习成果分享会",
+      "sourceHash": "a03ec4ff",
+      "file": "hsk4-topic-39.json",
+      "count": 200
+    },
+    {
+      "id": "hsk4-topic-40",
+      "bank": "HSK4",
+      "title": "HSK4 第40课 用汉语介绍我的未来计划",
+      "sourceHash": "d1a1017c",
+      "file": "hsk4-topic-40.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-01",
+      "bank": "HSK5",
+      "title": "HSK5 第01课 学习策略与目标",
+      "sourceHash": "e144ef83",
+      "file": "hsk5-topic-01.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-02",
+      "bank": "HSK5",
+      "title": "HSK5 第02课 时间管理与自律",
+      "sourceHash": "4f0eac58",
+      "file": "hsk5-topic-02.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-03",
+      "bank": "HSK5",
+      "title": "HSK5 第03课 求职与职业选择",
+      "sourceHash": "f9612338",
+      "file": "hsk5-topic-03.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-04",
+      "bank": "HSK5",
+      "title": "HSK5 第04课 团队合作与沟通",
+      "sourceHash": "d516d503",
+      "file": "hsk5-topic-04.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-05",
+      "bank": "HSK5",
+      "title": "HSK5 第05课 职场压力与成长",
+      "sourceHash": "7edabc6b",
+      "file": "hsk5-topic-05.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-06",
+      "bank": "HSK5",
+      "title": "HSK5 第06课 消费观与理财",
+      "sourceHash": "2bda4cc2",
+      "file": "hsk5-topic-06.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-07",
+      "bank": "HSK5",
+      "title": "HSK5 第07课 网络购物与维权",
+      "sourceHash": "2ef1fc09",
+      "file": "hsk5-topic-07.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-08",
+      "bank": "HSK5",
+      "title": "HSK5 第08课 城市生活与住房",
+      "sourceHash": "95871594",
+      "file": "hsk5-topic-08.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-09",
+      "bank": "HSK5",
+      "title": "HSK5 第09课 健康习惯与医疗",
+      "sourceHash": "918eba61",
+      "file": "hsk5-topic-09.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-10",
+      "bank": "HSK5",
+      "title": "HSK5 第10课 运动与生活平衡",
+      "sourceHash": "66cc301b",
+      "file": "hsk5-topic-10.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-11",
+      "bank": "HSK5",
+      "title": "HSK5 第11课 家庭关系与代际沟通",
+      "sourceHash": "bd64070a",
+      "file": "hsk5-topic-11.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-12",
+      "bank": "HSK5",
+      "title": "HSK5 第12课 友谊与人际交往",
+      "sourceHash": "2f9936be",
+      "file": "hsk5-topic-12.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-13",
+      "bank": "HSK5",
+      "title": "HSK5 第13课 爱情与婚姻观",
+      "sourceHash": "17eeea16",
+      "file": "hsk5-topic-13.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-14",
+      "bank": "HSK5",
+      "title": "HSK5 第14课 教育方式与终身学习",
+      "sourceHash": "91e3559c",
+      "file": "hsk5-topic-14.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-15",
+      "bank": "HSK5",
+      "title": "HSK5 第15课 阅读与信息判断",
+      "sourceHash": "89d0511",
+      "file": "hsk5-topic-15.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-16",
+      "bank": "HSK5",
+      "title": "HSK5 第16课 科技与人工智能",
+      "sourceHash": "edaa9681",
+      "file": "hsk5-topic-16.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-17",
+      "bank": "HSK5",
+      "title": "HSK5 第17课 社交媒体与隐私",
+      "sourceHash": "5d253a37",
+      "file": "hsk5-topic-17.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-18",
+      "bank": "HSK5",
+      "title": "HSK5 第18课 环境保护与绿色生活",
+      "sourceHash": "1499a289",
+      "file": "hsk5-topic-18.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-19",
+      "bank": "HSK5",
+      "title": "HSK5 第19课 气候变化与自然灾害",
+      "sourceHash": "89aa1450",
+      "file": "hsk5-topic-19.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-20",
+      "bank": "HSK5",
+      "title": "HSK5 第20课 旅游规划与跨文化体验",
+      "sourceHash": "b45223cc",
+      "file": "hsk5-topic-20.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-21",
+      "bank": "HSK5",
+      "title": "HSK5 第21课 中越饮食文化",
+      "sourceHash": "1d0ba3b5",
+      "file": "hsk5-topic-21.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-22",
+      "bank": "HSK5",
+      "title": "HSK5 第22课 节日传统与文化传承",
+      "sourceHash": "67f87755",
+      "file": "hsk5-topic-22.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-23",
+      "bank": "HSK5",
+      "title": "HSK5 第23课 艺术欣赏与审美",
+      "sourceHash": "6d8a9e78",
+      "file": "hsk5-topic-23.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-24",
+      "bank": "HSK5",
+      "title": "HSK5 第24课 志愿服务与社会责任",
+      "sourceHash": "94f46964",
+      "file": "hsk5-topic-24.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-25",
+      "bank": "HSK5",
+      "title": "HSK5 第25课 商业合作与谈判",
+      "sourceHash": "5396ddcf",
+      "file": "hsk5-topic-25.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-26",
+      "bank": "HSK5",
+      "title": "HSK5 第26课 工厂管理与产品质量",
+      "sourceHash": "27b50009",
+      "file": "hsk5-topic-26.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-27",
+      "bank": "HSK5",
+      "title": "HSK5 第27课 交通出行与公共规则",
+      "sourceHash": "4d733af4",
+      "file": "hsk5-topic-27.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-28",
+      "bank": "HSK5",
+      "title": "HSK5 第28课 成功失败与心理韧性",
+      "sourceHash": "a4a7fe5f",
+      "file": "hsk5-topic-28.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-29",
+      "bank": "HSK5",
+      "title": "HSK5 第29课 人生选择与幸福观",
+      "sourceHash": "c45740fb",
+      "file": "hsk5-topic-29.json",
+      "count": 200
+    },
+    {
+      "id": "hsk5-topic-30",
+      "bank": "HSK5",
+      "title": "HSK5 第30课 跨文化沟通与未来计划",
+      "sourceHash": "fc0586a",
+      "file": "hsk5-topic-30.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-01",
+      "bank": "日常交际",
+      "title": "日常交际 第01课 你好，很高兴认识你",
+      "sourceHash": "c7e0cf0f",
+      "file": "daily-topic-01.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-02",
+      "bank": "日常交际",
+      "title": "日常交际 第02课 你最近怎么样",
+      "sourceHash": "671bebcc",
+      "file": "daily-topic-02.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-03",
+      "bank": "日常交际",
+      "title": "日常交际 第03课 介绍我的家人",
+      "sourceHash": "b1630762",
+      "file": "daily-topic-03.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-04",
+      "bank": "日常交际",
+      "title": "日常交际 第04课 我的兴趣爱好",
+      "sourceHash": "46e1fbaf",
+      "file": "daily-topic-04.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-05",
+      "bank": "日常交际",
+      "title": "日常交际 第05课 我的一天",
+      "sourceHash": "dc8ca8f9",
+      "file": "daily-topic-05.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-06",
+      "bank": "日常交际",
+      "title": "日常交际 第06课 你什么时候有空",
+      "sourceHash": "ccfcb0a6",
+      "file": "daily-topic-06.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-07",
+      "bank": "日常交际",
+      "title": "日常交际 第07课 今天天气怎么样",
+      "sourceHash": "b5fa7640",
+      "file": "daily-topic-07.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-08",
+      "bank": "日常交际",
+      "title": "日常交际 第08课 周末一起去哪儿",
+      "sourceHash": "8b9be352",
+      "file": "daily-topic-08.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-09",
+      "bank": "日常交际",
+      "title": "日常交际 第09课 这附近有地铁站吗",
+      "sourceHash": "f095cd1",
+      "file": "daily-topic-09.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-10",
+      "bank": "日常交际",
+      "title": "日常交际 第10课 坐公交还是坐地铁",
+      "sourceHash": "f72a3fe3",
+      "file": "daily-topic-10.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-11",
+      "bank": "日常交际",
+      "title": "日常交际 第11课 师傅，请到这个地址",
+      "sourceHash": "b7c5755",
+      "file": "daily-topic-11.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-12",
+      "bank": "日常交际",
+      "title": "日常交际 第12课 我想买一张车票",
+      "sourceHash": "818c68b5",
+      "file": "daily-topic-12.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-13",
+      "bank": "日常交际",
+      "title": "日常交际 第13课 这个多少钱",
+      "sourceHash": "cfd20b32",
+      "file": "daily-topic-13.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-14",
+      "bank": "日常交际",
+      "title": "日常交际 第14课 我想试一下这件衣服",
+      "sourceHash": "24e9e786",
+      "file": "daily-topic-14.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-15",
+      "bank": "日常交际",
+      "title": "日常交际 第15课 去超市买东西",
+      "sourceHash": "dba4cda8",
+      "file": "daily-topic-15.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-16",
+      "bank": "日常交际",
+      "title": "日常交际 第16课 这个商品可以退换吗",
+      "sourceHash": "42492e0d",
+      "file": "daily-topic-16.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-17",
+      "bank": "日常交际",
+      "title": "日常交际 第17课 服务员，我们要点菜",
+      "sourceHash": "3c9e6f34",
+      "file": "daily-topic-17.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-18",
+      "bank": "日常交际",
+      "title": "日常交际 第18课 你想喝点什么",
+      "sourceHash": "972df97f",
+      "file": "daily-topic-18.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-19",
+      "bank": "日常交际",
+      "title": "日常交际 第19课 请你尝尝越南菜",
+      "sourceHash": "a166044d",
+      "file": "daily-topic-19.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-20",
+      "bank": "日常交际",
+      "title": "日常交际 第20课 今天我们自己做饭",
+      "sourceHash": "4703cd8c",
+      "file": "daily-topic-20.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-21",
+      "bank": "日常交际",
+      "title": "日常交际 第21课 我想订一个房间",
+      "sourceHash": "4b6736f7",
+      "file": "daily-topic-21.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-22",
+      "bank": "日常交际",
+      "title": "日常交际 第22课 我想租一套房子",
+      "sourceHash": "bcdfa5b1",
+      "file": "daily-topic-22.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-23",
+      "bank": "日常交际",
+      "title": "日常交际 第23课 家里的空调坏了",
+      "sourceHash": "cfabd9ac",
+      "file": "daily-topic-23.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-24",
+      "bank": "日常交际",
+      "title": "日常交际 第24课 我的快递到哪儿了",
+      "sourceHash": "cc4e1b69",
+      "file": "daily-topic-24.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-25",
+      "bank": "日常交际",
+      "title": "日常交际 第25课 我想办一张电话卡",
+      "sourceHash": "992afca1",
+      "file": "daily-topic-25.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-26",
+      "bank": "日常交际",
+      "title": "日常交际 第26课 可以扫码付款吗",
+      "sourceHash": "17e96f5",
+      "file": "daily-topic-26.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-27",
+      "bank": "日常交际",
+      "title": "日常交际 第27课 我最近有点不舒服",
+      "sourceHash": "cefff0d3",
+      "file": "daily-topic-27.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-28",
+      "bank": "日常交际",
+      "title": "日常交际 第28课 这个药怎么吃",
+      "sourceHash": "59389d6c",
+      "file": "daily-topic-28.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-29",
+      "bank": "日常交际",
+      "title": "日常交际 第29课 我想预约理发",
+      "sourceHash": "1644e7d",
+      "file": "daily-topic-29.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-30",
+      "bank": "日常交际",
+      "title": "日常交际 第30课 喂，请问你找谁",
+      "sourceHash": "b2717946",
+      "file": "daily-topic-30.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-31",
+      "bank": "日常交际",
+      "title": "日常交际 第31课 来我家做客吧",
+      "sourceHash": "f80d208f",
+      "file": "daily-topic-31.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-32",
+      "bank": "日常交际",
+      "title": "日常交际 第32课 谢谢你，麻烦你了",
+      "sourceHash": "db9ff91",
+      "file": "daily-topic-32.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-33",
+      "bank": "日常交际",
+      "title": "日常交际 第33课 对不起，我来晚了",
+      "sourceHash": "42f8b64a",
+      "file": "daily-topic-33.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-34",
+      "bank": "日常交际",
+      "title": "日常交际 第34课 我觉得这样更合适",
+      "sourceHash": "8febfb0c",
+      "file": "daily-topic-34.json",
+      "count": 200
+    },
+    {
+      "id": "daily-topic-35",
+      "bank": "日常交际",
+      "title": "日常交际 第35课 遇到问题，怎样求助",
+      "sourceHash": "67c5f4ff",
+      "file": "daily-topic-35.json",
+      "count": 200
+    },
+    {
+      "id": "factory-3d7a8ec0-f828-4e4c-b02c-d547448a50f8",
+      "bank": "汉语工厂",
+      "title": "第11课 处理工作异常",
+      "sourceHash": "ce1e5c91",
+      "file": "factory-3d7a8ec0-f828-4e4c-b02c-d547448a50f8.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-01",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第01课 第一天到工厂报到",
+      "sourceHash": "4bfe308",
+      "file": "electronics-topic-01.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-02",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第02课 认识部门和工作岗位",
+      "sourceHash": "dc709d4b",
+      "file": "electronics-topic-02.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-03",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第03课 认识车间和厂区设施",
+      "sourceHash": "a4d9f4ea",
+      "file": "electronics-topic-03.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-04",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第04课 工作时间与考勤",
+      "sourceHash": "62189ea2",
+      "file": "electronics-topic-04.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-05",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第05课 请假、调班与加班",
+      "sourceHash": "441f763f",
+      "file": "electronics-topic-05.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-06",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第06课 穿戴工作服与防护用品",
+      "sourceHash": "3767ce09",
+      "file": "electronics-topic-06.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-07",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第07课 无尘车间与静电防护",
+      "sourceHash": "7ff5c31e",
+      "file": "electronics-topic-07.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-08",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第08课 听懂车间常用指令",
+      "sourceHash": "4b692451",
+      "file": "electronics-topic-08.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-09",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第09课 不明白时怎样确认",
+      "sourceHash": "4c55a510",
+      "file": "electronics-topic-09.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-10",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第10课 认识电子产品和零部件",
+      "sourceHash": "c793dd5f",
+      "file": "electronics-topic-10.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-11",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第11课 数字、单位与规格",
+      "sourceHash": "79d30290",
+      "file": "electronics-topic-11.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-12",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第12课 核对料号、型号与版本",
+      "sourceHash": "ad147d09",
+      "file": "electronics-topic-12.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-13",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第13课 领取物料与退回余料",
+      "sourceHash": "5a451a98",
+      "file": "electronics-topic-13.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-14",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第14课 缺料、错料与来料异常",
+      "sourceHash": "ea6022aa",
+      "file": "electronics-topic-14.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-15",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第15课 认识工单与生产任务",
+      "sourceHash": "8e292738",
+      "file": "electronics-topic-15.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-16",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第16课 看懂作业指导书",
+      "sourceHash": "34615cff",
+      "file": "electronics-topic-16.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-17",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第17课 工具、设备与工位准备",
+      "sourceHash": "253c1356",
+      "file": "electronics-topic-17.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-18",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第18课 生产线装配沟通",
+      "sourceHash": "e850905e",
+      "file": "electronics-topic-18.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-19",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第19课 螺丝锁付与连接检查",
+      "sourceHash": "c5041c6d",
+      "file": "electronics-topic-19.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-20",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第20课 焊接与焊点检查用语",
+      "sourceHash": "3818b210",
+      "file": "electronics-topic-20.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-21",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第21课 设备状态与异常报告",
+      "sourceHash": "cf22e023",
+      "file": "electronics-topic-21.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-22",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第22课 换线、换型与首件确认",
+      "sourceHash": "77147096",
+      "file": "electronics-topic-22.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-23",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第23课 首件、巡检与抽检",
+      "sourceHash": "e84880be",
+      "file": "electronics-topic-23.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-24",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第24课 外观检查与缺陷描述",
+      "sourceHash": "bb6d6247",
+      "file": "electronics-topic-24.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-25",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第25课 功能测试与结果反馈",
+      "sourceHash": "7f5ffca1",
+      "file": "electronics-topic-25.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-26",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第26课 合格品与不良品管理",
+      "sourceHash": "bac3b3e4",
+      "file": "electronics-topic-26.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-27",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第27课 返工、返修与复检",
+      "sourceHash": "bac827fd",
+      "file": "electronics-topic-27.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-28",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第28课 包装、标签与装箱",
+      "sourceHash": "435514b1",
+      "file": "electronics-topic-28.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-29",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第29课 仓储、盘点与出货",
+      "sourceHash": "4910e33a",
+      "file": "electronics-topic-29.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-30",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第30课 产量、进度与工作汇报",
+      "sourceHash": "869d3fad",
+      "file": "electronics-topic-30.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-31",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第31课 交接班与生产记录",
+      "sourceHash": "4bbcc14e",
+      "file": "electronics-topic-31.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-32",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第32课 现场整理与5S沟通",
+      "sourceHash": "7ad7e1e4",
+      "file": "electronics-topic-32.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-33",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第33课 安全提醒与紧急求助",
+      "sourceHash": "b6c78e58",
+      "file": "electronics-topic-33.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-34",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第34课 与班组长、工程师沟通",
+      "sourceHash": "57b6d5d",
+      "file": "electronics-topic-34.json",
+      "count": 200
+    },
+    {
+      "id": "electronics-topic-35",
+      "bank": "汉语工厂",
+      "title": "汉语工厂 第35课 团队合作与改善建议",
+      "sourceHash": "9cad940f",
+      "file": "electronics-topic-35.json",
+      "count": 200
+    },
+    {
+      "id": "daily-lesson12-workday",
+      "bank": "日常交际",
+      "title": "第12课 我每天的工作",
+      "sourceHash": "480071b4",
+      "file": "daily-lesson12-workday.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-01",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第01课 你好！",
+      "sourceHash": "faefedcf",
+      "file": "hsk1-2-topic-01.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-02",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第02课 你叫什么名字？",
+      "sourceHash": "6f9d7551",
+      "file": "hsk1-2-topic-02.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-03",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第03课 我是越南人",
+      "sourceHash": "9078eec8",
+      "file": "hsk1-2-topic-03.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-04",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第04课 你今年多大？",
+      "sourceHash": "4a1cb078",
+      "file": "hsk1-2-topic-04.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-05",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第05课 这是我的家人",
+      "sourceHash": "f1c4156e",
+      "file": "hsk1-2-topic-05.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-06",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第06课 你是做什么工作的？",
+      "sourceHash": "16573c71",
+      "file": "hsk1-2-topic-06.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-07",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第07课 你的电话号码是多少？",
+      "sourceHash": "eadc1a83",
+      "file": "hsk1-2-topic-07.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-08",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第08课 今天几月几号？",
+      "sourceHash": "34772908",
+      "file": "hsk1-2-topic-08.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-09",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第09课 现在几点？",
+      "sourceHash": "56e083dc",
+      "file": "hsk1-2-topic-09.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-10",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第10课 我每天七点起床",
+      "sourceHash": "5da55e7d",
+      "file": "hsk1-2-topic-10.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-11",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第11课 我在学习中文",
+      "sourceHash": "bab4b1ee",
+      "file": "hsk1-2-topic-11.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-12",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第12课 请再说一遍",
+      "sourceHash": "b1ef1ffc",
+      "file": "hsk1-2-topic-12.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-13",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第13课 你的书在哪儿？",
+      "sourceHash": "c0a7a0af",
+      "file": "hsk1-2-topic-13.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-14",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第14课 我的房间",
+      "sourceHash": "5600bc86",
+      "file": "hsk1-2-topic-14.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-15",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第15课 你想吃什么？",
+      "sourceHash": "3fb91e62",
+      "file": "hsk1-2-topic-15.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-16",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第16课 我要一杯茶",
+      "sourceHash": "d60194b2",
+      "file": "hsk1-2-topic-16.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-17",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第17课 我们去饭店吃饭吧",
+      "sourceHash": "e71036e",
+      "file": "hsk1-2-topic-17.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-18",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第18课 我去商店买东西",
+      "sourceHash": "afb618e7",
+      "file": "hsk1-2-topic-18.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-19",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第19课 这个多少钱？",
+      "sourceHash": "20773538",
+      "file": "hsk1-2-topic-19.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-20",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第20课 我喜欢这件衣服",
+      "sourceHash": "3d685443",
+      "file": "hsk1-2-topic-20.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-21",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第21课 今天的天气怎么样？",
+      "sourceHash": "c321d426",
+      "file": "hsk1-2-topic-21.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-22",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第22课 你喜欢做什么？",
+      "sourceHash": "d6eb6cba",
+      "file": "hsk1-2-topic-22.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-23",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第23课 周末一起去运动吧",
+      "sourceHash": "5c3c73df",
+      "file": "hsk1-2-topic-23.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-24",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第24课 请问，车站在哪儿？",
+      "sourceHash": "b0fd303c",
+      "file": "hsk1-2-topic-24.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-25",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第25课 你怎么去学校？",
+      "sourceHash": "8330fb5e",
+      "file": "hsk1-2-topic-25.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-26",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第26课 我有点儿不舒服",
+      "sourceHash": "a07713a9",
+      "file": "hsk1-2-topic-26.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-27",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第27课 我每天八点上班",
+      "sourceHash": "ce3756",
+      "file": "hsk1-2-topic-27.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-28",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第28课 昨天你做什么了？",
+      "sourceHash": "27fe072a",
+      "file": "hsk1-2-topic-28.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-29",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第29课 明天你有什么安排？",
+      "sourceHash": "635f17f8",
+      "file": "hsk1-2-topic-29.json",
+      "count": 200
+    },
+    {
+      "id": "hsk1-2-topic-30",
+      "bank": "HSK1-2",
+      "title": "HSK1-2 第30课 我的生活与朋友",
+      "sourceHash": "3ac66964",
+      "file": "hsk1-2-topic-30.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-01",
+      "bank": "HSK3",
+      "title": "HSK3 第01课 介绍我自己",
+      "sourceHash": "7ab74914",
+      "file": "hsk3-topic-01.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-02",
+      "bank": "HSK3",
+      "title": "HSK3 第02课 我的家人和朋友",
+      "sourceHash": "fac50d4",
+      "file": "hsk3-topic-02.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-03",
+      "bank": "HSK3",
+      "title": "HSK3 第03课 我的中文学习经历",
+      "sourceHash": "cf4a00ef",
+      "file": "hsk3-topic-03.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-04",
+      "bank": "HSK3",
+      "title": "HSK3 第04课 我的兴趣爱好",
+      "sourceHash": "ced2f6c7",
+      "file": "hsk3-topic-04.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-05",
+      "bank": "HSK3",
+      "title": "HSK3 第05课 我的生活习惯",
+      "sourceHash": "df29c24b",
+      "file": "hsk3-topic-05.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-06",
+      "bank": "HSK3",
+      "title": "HSK3 第06课 今天比昨天更忙",
+      "sourceHash": "42b8e3c4",
+      "file": "hsk3-topic-06.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-07",
+      "bank": "HSK3",
+      "title": "HSK3 第07课 我越来越喜欢运动",
+      "sourceHash": "6664e756",
+      "file": "hsk3-topic-07.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-08",
+      "bank": "HSK3",
+      "title": "HSK3 第08课 怎样保持身体健康",
+      "sourceHash": "6b12d806",
+      "file": "hsk3-topic-08.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-09",
+      "bank": "HSK3",
+      "title": "HSK3 第09课 我有点儿不舒服",
+      "sourceHash": "e125f74b",
+      "file": "hsk3-topic-09.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-10",
+      "bank": "HSK3",
+      "title": "HSK3 第10课 去医院看医生",
+      "sourceHash": "4558f2b7",
+      "file": "hsk3-topic-10.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-11",
+      "bank": "HSK3",
+      "title": "HSK3 第11课 一起去买东西",
+      "sourceHash": "35f4a668",
+      "file": "hsk3-topic-11.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-12",
+      "bank": "HSK3",
+      "title": "HSK3 第12课 这件衣服很适合你",
+      "sourceHash": "b27e2afe",
+      "file": "hsk3-topic-12.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-13",
+      "bank": "HSK3",
+      "title": "HSK3 第13课 在网上买东西",
+      "sourceHash": "35c2322c",
+      "file": "hsk3-topic-13.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-14",
+      "bank": "HSK3",
+      "title": "HSK3 第14课 这家饭店怎么样",
+      "sourceHash": "403a1b26",
+      "file": "hsk3-topic-14.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-15",
+      "bank": "HSK3",
+      "title": "HSK3 第15课 我会做一道中国菜",
+      "sourceHash": "72d101b4",
+      "file": "hsk3-topic-15.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-16",
+      "bank": "HSK3",
+      "title": "HSK3 第16课 邀请朋友来做客",
+      "sourceHash": "53216e71",
+      "file": "hsk3-topic-16.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-17",
+      "bank": "HSK3",
+      "title": "HSK3 第17课 祝你生日快乐",
+      "sourceHash": "1889c421",
+      "file": "hsk3-topic-17.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-18",
+      "bank": "HSK3",
+      "title": "HSK3 第18课 我搬到新家了",
+      "sourceHash": "88c791fa",
+      "file": "hsk3-topic-18.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-19",
+      "bank": "HSK3",
+      "title": "HSK3 第19课 我的房间很整齐",
+      "sourceHash": "687167b1",
+      "file": "hsk3-topic-19.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-20",
+      "bank": "HSK3",
+      "title": "HSK3 第20课 城市生活和家乡生活",
+      "sourceHash": "596c13fe",
+      "file": "hsk3-topic-20.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-21",
+      "bank": "HSK3",
+      "title": "HSK3 第21课 请问，这条路怎么走",
+      "sourceHash": "56a31591",
+      "file": "hsk3-topic-21.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-22",
+      "bank": "HSK3",
+      "title": "HSK3 第22课 我差点儿迟到了",
+      "sourceHash": "6a80e582",
+      "file": "hsk3-topic-22.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-23",
+      "bank": "HSK3",
+      "title": "HSK3 第23课 坐公共汽车还是坐地铁",
+      "sourceHash": "3b2fafc1",
+      "file": "hsk3-topic-23.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-24",
+      "bank": "HSK3",
+      "title": "HSK3 第24课 我的旅行计划",
+      "sourceHash": "e3a528f1",
+      "file": "hsk3-topic-24.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-25",
+      "bank": "HSK3",
+      "title": "HSK3 第25课 预订房间和办理入住",
+      "sourceHash": "158f4d12",
+      "file": "hsk3-topic-25.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-26",
+      "bank": "HSK3",
+      "title": "HSK3 第26课 一次难忘的旅行",
+      "sourceHash": "9596be1e",
+      "file": "hsk3-topic-26.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-27",
+      "bank": "HSK3",
+      "title": "HSK3 第27课 今天的天气真奇怪",
+      "sourceHash": "e3ec3310",
+      "file": "hsk3-topic-27.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-28",
+      "bank": "HSK3",
+      "title": "HSK3 第28课 春夏秋冬，我喜欢哪个季节",
+      "sourceHash": "27e09c3c",
+      "file": "hsk3-topic-28.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-29",
+      "bank": "HSK3",
+      "title": "HSK3 第29课 我的学校生活",
+      "sourceHash": "96ab21b0",
+      "file": "hsk3-topic-29.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-30",
+      "bank": "HSK3",
+      "title": "HSK3 第30课 考试前怎样复习",
+      "sourceHash": "33d12373",
+      "file": "hsk3-topic-30.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-31",
+      "bank": "HSK3",
+      "title": "HSK3 第31课 这个问题我听懂了",
+      "sourceHash": "7b2d050b",
+      "file": "hsk3-topic-31.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-32",
+      "bank": "HSK3",
+      "title": "HSK3 第32课 我终于做完作业了",
+      "sourceHash": "dc7066c8",
+      "file": "hsk3-topic-32.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-33",
+      "bank": "HSK3",
+      "title": "HSK3 第33课 我的第一份工作",
+      "sourceHash": "82bebc42",
+      "file": "hsk3-topic-33.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-34",
+      "bank": "HSK3",
+      "title": "HSK3 第34课 我每天的工作安排",
+      "sourceHash": "e05c2e5e",
+      "file": "hsk3-topic-34.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-35",
+      "bank": "HSK3",
+      "title": "HSK3 第35课 请你帮我一个忙",
+      "sourceHash": "1372d2ac",
+      "file": "hsk3-topic-35.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-36",
+      "bank": "HSK3",
+      "title": "HSK3 第36课 这件事应该怎么办",
+      "sourceHash": "cfbbd97b",
+      "file": "hsk3-topic-36.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-37",
+      "bank": "HSK3",
+      "title": "HSK3 第37课 我想请一天假",
+      "sourceHash": "298275a3",
+      "file": "hsk3-topic-37.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-38",
+      "bank": "HSK3",
+      "title": "HSK3 第38课 我和同事相处得很好",
+      "sourceHash": "270864e2",
+      "file": "hsk3-topic-38.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-39",
+      "bank": "HSK3",
+      "title": "HSK3 第39课 我的中文进步了",
+      "sourceHash": "1d65fe1",
+      "file": "hsk3-topic-39.json",
+      "count": 200
+    },
+    {
+      "id": "hsk3-topic-40",
+      "bank": "HSK3",
+      "title": "HSK3 第40课 我的未来计划",
+      "sourceHash": "eaf6f22",
+      "file": "hsk3-topic-40.json",
+      "count": 200
+    }
+  ]
+}

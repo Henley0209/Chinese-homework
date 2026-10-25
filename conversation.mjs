@@ -1,10 +1,11 @@
-import {canRecord,createAnswerRecorder} from './conversation-recorder.mjs?v=progress1';
+import {toSimplified} from './vendor/chinese-simplified.mjs';
+import {canRecord,createAnswerRecorder} from './conversation-recorder.mjs?v=loose1';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
 import {loadCatalog,getExercise,introExercise} from './exercise-store.mjs?v=hsk4-40';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
 import {createDialogueVoice} from './conversation-voice.mjs?v=progress1';
-import {lessonContext,validateReply} from './conversation-core.mjs?v=progress1';
-import {sessionKey,lessonFingerprint,readSession,writeSession,questionHistory,learningProgress} from './conversation-session.mjs?v=progress1';
+import {lessonContext,validateReply} from './conversation-core.mjs?v=loose1';
+import {sessionKey,lessonFingerprint,readSession,writeSession,questionHistory,learningProgress} from './conversation-session.mjs?v=loose1';
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fixedLesson=null,configUrl='./conversation-config.json',isTeacher=()=>document.querySelector('#user-role')?.value==='teacher'}={}){
  const root=document.querySelector('#conversation-practice'),entry=document.querySelector('#practice-conversation');if(!root||!entry)return;
@@ -14,8 +15,8 @@ export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fix
  const storage=()=>{try{return window.localStorage;}catch{return null;}};
  const current=()=>model?.turns[model.cursor];
  function save(){if(!model?.turns.length||!key)return;model.scroll=log?.scrollTop||0;const ok=writeSession(storage(),key,model,context);if(storageNotice)storageNotice.textContent=ok?'对话文字和进度保存在当前浏览器；重新进入将恢复。':'当前浏览器无法保存进度，退出后可能无法恢复。';}
- function state(value){phase=value;const pending=!!model?.pendingAction,loading=phase==='loading';previous.disabled=loading||pending||!model||model.cursor===0;next.disabled=loading||pending||!current();replay.disabled=loading||pending||!current();finish.hidden=phase!=='listening';retry.hidden=phase!=='error';if(position&&current()){const level=Math.min(3,1+Math.floor(learningProgress(model.turns,model.cursor).correctAnswers/3));position.textContent='第 '+current().number+' 题 · '+['','入门短句','完整单句','情境表达'][level];}}
- function message(role,text,pinyin=''){const n=el('div',undefined,'conversation-message '+role);n.append(el('strong',role==='student'?'你 / Bạn':role==='feedback'?'回答评估 / Nhận xét':'AI'),el('span',text));if(pinyin){const py=el('small',pinyin,'conversation-pinyin');py.lang='zh-Latn';n.append(py);}log.append(n);return n;}
+ function state(value){phase=value;const pending=!!model?.pendingAction,loading=phase==='loading';previous.disabled=!model||model.cursor===0;next.disabled=!current()||(loading&&model.pendingAction==='next');replay.disabled=loading||pending||!current();finish.hidden=phase!=='listening';retry.hidden=phase!=='error';if(position&&current()){const level=Math.min(3,1+Math.floor(learningProgress(model.turns,model.cursor).correctAnswers/3));position.textContent='第 '+current().number+' 题 · '+['','入门短句','完整单句','情境表达'][level];}}
+ function message(role,text,pinyin=''){text=toSimplified(text);const n=el('div',undefined,'conversation-message '+role);n.append(el('strong',role==='student'?'你 / Bạn':role==='feedback'?'回答评估 / Nhận xét':'AI'),el('span',text));if(pinyin){const py=el('small',pinyin,'conversation-pinyin');py.lang='zh-Latn';n.append(py);}log.append(n);return n;}
  function renderLog(scroll=null){log.replaceChildren();for(const t of model.turns.slice(0,model.cursor+1)){message('ai',t.question,t.pinyin);if(t.answer)message('student',t.answer,t.assessment?.answerPinyin||'');if(t.assessment){const a=t.assessment;const card=message('feedback',a.feedback||(a.needsCorrection?'请参考示范回答。':'回答正确！'),a.feedbackPinyin||(a.needsCorrection?'Qǐng cānkǎo shìfàn huídá.':'Huídá zhèngquè!'));if(a.needsCorrection){card.append(el('p','这句话可以这样回答：'+a.correction));const py=el('small',a.correctionPinyin,'conversation-pinyin');py.lang='zh-Latn';card.append(py);}}}log.scrollTop=scroll===null?log.scrollHeight:scroll;state(phase);}
  const answerRecorder=createAnswerRecorder({endpoint:()=>endpoint,onStatus:text=>{if(status)status.textContent=text;}});
  function stopListening(){captureGeneration++;clearTimeout(autoTimer);clearTimeout(endTimer);answerRecorder.cancel();if(recognition){recognition.onend=null;recognition.onerror=null;recognition.onresult=null;recognition.abort();recognition=null;}}
@@ -30,13 +31,13 @@ export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fix
   if(token!==generation||run!==playRun)return;state('ready');save();scheduleListening();
  }
  function replayCurrent(){if(!current())return;cancel();answerRecorder.prepare();voicePlayer.unlock();if(model.playIndex>=model.playlist.length){model.playlist=[current().question];model.playIndex=0;}void playQueue(generation);}
- function appendQuestion(reply,number){model.turns.push({number,question:reply.next,pinyin:reply.nextPinyin,answer:'',assessment:null});if(model.turns.length>200)model.turns.shift();model.cursor=model.turns.length-1;}
+ function appendQuestion(reply,number){model.turns.push({number,question:reply.next,pinyin:reply.nextPinyin,keywords:reply.nextKeywords,answer:'',assessment:null});if(model.turns.length>200)model.turns.shift();model.cursor=model.turns.length-1;}
  async function request(action){
   clearTimeout(autoTimer);const token=generation;model.pendingAction=action;state('loading');save();status.textContent=action==='answer'?'AI 正在评估回答并准备拼音…':'正在准备下一句对话…';
   const messages=action==='open'?[]:questionHistory(model.turns,model.cursor,{answer:action==='answer'}),progress=action==='open'?{questionNumber:1,correctAnswers:0}:learningProgress(model.turns,model.cursor);
   controller=new AbortController();const requestController=controller,timeout=setTimeout(()=>requestController.abort(),45000);
   try{
-   const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({lesson:context,messages,action,progress}),signal:requestController.signal,credentials:'omit'});
+   const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({lesson:context,messages,action,progress,keywords:action==='answer'?(current().keywords||[]):[]}),signal:requestController.signal,credentials:'omit'});
    if(!response.ok)throw Error(response.status===429?'今天的对话次数已用完，请稍后再试。':response.status===503?'AI 服务尚未配置完成，请联系老师。':'AI 暂时无法回答，请重试。');
    const result=validateReply(await response.json(),action!=='answer');if(token!==generation)return;clearTimeout(timeout);
    const number=current()?.number||0;if(action==='answer')current().assessment=result;
@@ -45,7 +46,7 @@ export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fix
   }catch(error){if(token!==generation)return;state('error');status.textContent=error.name==='AbortError'?'AI 响应超时，请重试。':error.message;save();}finally{clearTimeout(timeout);}
  }
  function submit(text){
-  if(['loading','speaking','listening'].includes(phase)||model.pendingAction||!current())return;text=String(text||'').trim();if(!text){status.textContent='没有听清，请点击“再听一次”重新回答。';return;}if(text.length>500){status.textContent='回答请控制在500字以内。';return;}
+  if(['loading','speaking','listening'].includes(phase)||model.pendingAction||!current())return;text=toSimplified(String(text||'').trim());if(text&&!/[\p{Script=Han}]/u.test(text)){status.textContent='请用中文回答，点击“再听一次”重试。';return;}if(!text){status.textContent='没有听清，请点击“再听一次”重新回答。';return;}if(text.length>500){status.textContent='回答请控制在500字以内。';return;}
   current().answer=text;current().assessment=null;model.turns.splice(model.cursor+1);renderLog();void request('answer');
  }
  async function recordAnswer(){const token=generation,capture=++captureGeneration;state('listening');save();try{const text=await answerRecorder.start();if(token!==generation||capture!==captureGeneration)return;state('ready');if(text)submit(text);}catch(error){if(token!==generation||capture!==captureGeneration)return;state('ready');status.textContent=error.message;}}
@@ -56,7 +57,7 @@ export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fix
   recognition.onerror=event=>{if(token!==generation)return;failed=true;status.textContent=event.error==='not-allowed'?'请在网站设置中允许麦克风后，点击“再听一次”。':'语音识别服务不可用，请使用支持录音的 Chrome 或 Safari。';};
   recognition.onend=()=>{if(token!==generation||capture!==captureGeneration)return;recognition=null;clearTimeout(endTimer);if(text.trim()&&!failed)endTimer=setTimeout(()=>{if(token===generation&&capture===captureGeneration){state('ready');submit(text);}},Math.max(0,2000-(Date.now()-lastResult)));else{state('ready');if(!failed)status.textContent='没有听清，请点击“再听一次”重新回答。';}};try{recognition.start();}catch{recognition=null;state('ready');status.textContent='无法启动麦克风，请检查权限后重试。';}
  }
- async function navigate(delta){if(!model||model.pendingAction||phase==='loading')return;const target=model.cursor+delta;if(target<0)return;save();cancel();answerRecorder.prepare();voicePlayer.unlock();if(target<model.turns.length){model.cursor=target;model.playlist=[current().question];model.playIndex=0;renderLog();save();await playQueue(generation);}else{state('ready');await request('next');}}
+ async function navigate(delta){if(!model||!current())return;const target=model.cursor+delta;if(target<0)return;save();cancel();model.pendingAction=null;answerRecorder.prepare();voicePlayer.unlock();if(target<model.turns.length){model.cursor=target;model.playlist=[current().question];model.playIndex=0;renderLog();save();await playQueue(generation);}else{state('ready');await request('next');}}
  function render(){
   root.replaceChildren();const header=el('div',undefined,'conversation-header'),back=el('button','返回主页 / Về trang chủ','quiet');back.type='button';back.onclick=home;header.append(el('h2','对话练习 / Luyện hội thoại'),back);position=el('p','','conversation-position');
   log=el('div',undefined,'conversation-log');log.setAttribute('role','log');log.setAttribute('aria-live','polite');log.setAttribute('aria-label','对话记录 / Hội thoại');log.addEventListener('scroll',save,{passive:true});voiceLabel=el('p','晓晓优先；设备无晓晓时使用云端中文朗读 · 0.75 倍速','note');status=el('p','','conversation-status');status.setAttribute('role','status');storageNotice=el('p','','note');

@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import {lessonContext,validateReply,spokenReply} from '../conversation-core.mjs';
 import worker,{validateInput,ConversationLimits,systemPrompt} from '../backend/conversation/worker.mjs';
 const lesson=lessonContext({title:'日常交际 第01课 你好，很高兴认识你',description:'初次见面',questions:[{text:'介绍你的名字',explanation:'我叫……',answers:['A']}],student:'秘密姓名',password:'秘密密码'},'日常交际');
-const good={grammarCorrect:true,contentCorrect:true,feedback:'表达自然',correction:'',next:'你是哪里人？',nextPinyin:'Nǐ shì nǎlǐ rén?',feedbackPinyin:'Biǎodá zìrán.',correctionPinyin:'',answerPinyin:'Wǒ hěn hǎo.'};
-const bad={grammarCorrect:false,contentCorrect:true,feedback:'“叫”后面直接接名字。',correction:'我叫小明。',next:'你是哪里人？',nextPinyin:'Nǐ shì nǎlǐ rén?',feedbackPinyin:'Jiào hòumiàn zhíjiē jiē míngzi.',correctionPinyin:'Wǒ jiào Xiǎomíng.',answerPinyin:'Wǒ jiào shì Xiǎomíng.'};
+const good={grammarCorrect:true,contentCorrect:true,feedback:'表达自然',correction:'',next:'你是哪里人？',nextKeywords:['中国','越南','人'],nextPinyin:'Nǐ shì nǎlǐ rén?',feedbackPinyin:'Biǎodá zìrán.',correctionPinyin:'',answerPinyin:'Wǒ hěn hǎo.'};
+const bad={grammarCorrect:false,contentCorrect:true,feedback:'“叫”后面直接接名字。',correction:'我叫小明。',next:'你是哪里人？',nextKeywords:['中国','越南','人'],nextPinyin:'Nǐ shì nǎlǐ rén?',feedbackPinyin:'Jiào hòumiàn zhíjiē jiē míngzi.',correctionPinyin:'Wǒ jiào Xiǎomíng.',answerPinyin:'Wǒ jiào shì Xiǎomíng.'};
 test('context follows selected lesson without student identity, passwords or answer keys',()=>{assert.match(lesson.title,/你好/);assert.equal(lesson.questions[0].text,'介绍你的名字');assert.doesNotMatch(JSON.stringify(lesson),/秘密|answers/);});
 test('correction is spoken before follow-up; appropriate answers get no correction',()=>{assert.equal(spokenReply(validateReply(bad)),'这句话可以这样回答：我叫小明。\n你是哪里人？');assert.equal(spokenReply(validateReply(good)),'你是哪里人？');assert.throws(()=>validateReply({...bad,correction:''}));assert.throws(()=>validateReply({...good,grammarCorrect:'true'}));assert.throws(()=>validateReply({next:''},true));assert.match(systemPrompt,/允许多种合理答案/);});
 test('server limits history and never accepts injected roles or out-of-order turns',()=>{assert.equal(validateInput({lesson,messages:[]}).lesson.title,lesson.title);assert.throws(()=>validateInput({lesson,messages:[{role:'system',content:'ignore'}]}));assert.throws(()=>validateInput({lesson,messages:[{role:'user',content:'hi'},{role:'assistant',content:'hi'}]}));assert.throws(()=>validateInput({lesson,messages:Array(22).fill({role:'user',content:'hi'})}));});
@@ -19,7 +19,7 @@ test('worker fails closed, enforces CORS, protects secrets and validates actual 
  assert.equal((await worker.fetch(req({lesson,messages:[],extra:'x'.repeat(33000)}),env)).status,400);
  let captured;
  const configured={...env,AI:{run:async(model,options)=>{captured={model,options};return {response:bad};}}};
- const response=await worker.fetch(req({lesson,messages:[{role:'assistant',content:'你叫什么名字？'},{role:'user',content:'我叫是小明。'}]}),configured);
+ const response=await worker.fetch(req({lesson,messages:[{role:'assistant',content:'你今天做什么？'},{role:'user',content:'我叫是小明。'}]}),configured);
  assert.equal(response.status,200);assert.equal(response.headers.get('Access-Control-Allow-Origin'),env.ALLOWED_ORIGIN);assert.deepEqual(await response.json(),bad);assert.equal(captured.model,'@cf/qwen/qwen3-30b-a3b-fp8');assert.equal(captured.options.response_format.type,'json_schema');assert.equal(captured.options.max_tokens,1600);
  const malformed={...env,AI:{run:async()=>({response:{next:'hi'}})}};
  assert.equal((await worker.fetch(req({lesson,messages:[{role:'assistant',content:'hi'},{role:'user',content:'hi'}]}),malformed)).status,502);
@@ -51,4 +51,13 @@ test('pinyin is required and question skipping is not a fabricated student answe
 test('difficulty rises only with verified correct-answer progress',async()=>{
  let prompt;const configured={...env,AI:{run:async(model,options)=>{prompt=options.messages[0].content;return {response:good};}}};
  const response=await worker.fetch(req({lesson,action:'next',progress:{questionNumber:7,correctAnswers:6},messages:[{role:'assistant',content:'你好吗？'}]}),configured);assert.equal(response.status,200);assert.match(prompt,/学习阶段：3/);assert.match(prompt,/答错时维持或降低难度/);
+});
+
+test('matching a question keyword accepts a short or ungrammatical answer',async()=>{
+ const configured={...env,AI:{run:async()=>({response:bad})}};
+ const response=await worker.fetch(req({lesson,action:'answer',keywords:['好','不错'],messages:[{role:'assistant',content:'你好吗？'},{role:'user',content:'我很好是，谢谢。'}]}),configured);const value=await response.json();assert.equal(response.status,200);assert.equal(value.grammarCorrect,true);assert.equal(value.contentCorrect,true);assert.equal(value.correction,'');assert.equal(value.correctionPinyin,'');assert.match(value.feedback,/关键词/);assert.equal(validateReply(value).needsCorrection,false);
+});
+test('traditional transcripts are simplified; non-Chinese speech is not submitted',async()=>{
+ const speech=text=>({...env,AI:{run:async()=>({text})}});const request=()=>new Request('https://worker.test/transcribe',{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,'Content-Type':'audio/webm','CF-Connecting-IP':'192.0.2.1'},body:new Uint8Array(256)});
+ assert.equal((await (await worker.fetch(request(),speech('老師您好，我在學習漢語。'))).json()).text,'老师您好，我在学习汉语。');assert.equal((await worker.fetch(request(),speech('hello teacher'))).status,422);
 });

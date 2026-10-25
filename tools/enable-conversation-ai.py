@@ -36,13 +36,15 @@ if not isinstance(result.get('next'), str) or not result['next'].strip():
     raise RuntimeError('AI did not provide an opening. Endpoint was not changed.')
 if not isinstance(result.get('nextPinyin'), str) or not result['nextPinyin'].strip():
     raise RuntimeError('AI did not provide question pinyin. Endpoint was not changed.')
-assessment_payload = {'lesson': context, 'action': 'answer', 'progress': {'questionNumber': 1, 'correctAnswers': 0}, 'messages': [{'role': 'assistant', 'content': '你好！你好吗？'}, {'role': 'user', 'content': '我很好是，谢谢。'}]}
+assessment_payload = {'lesson': context, 'action': 'answer', 'progress': {'questionNumber': 1, 'correctAnswers': 0}, 'keywords': ['好', '不错'], 'messages': [{'role': 'assistant', 'content': '你好！你好吗？'}, {'role': 'user', 'content': '我很好是，谢谢。'}]}
 assessment_request = Request(endpoint, data=json.dumps(assessment_payload).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0'})
 with urlopen(assessment_request, timeout=60) as response:
     assessment = json.load(response)
-if assessment.get('grammarCorrect') is not False or not all(isinstance(assessment.get(key), str) and assessment[key].strip() for key in ('feedbackPinyin', 'correction', 'correctionPinyin', 'answerPinyin', 'nextPinyin')):
-    raise RuntimeError('Real correction and pinyin verification failed for synthetic test sentence: ' + json.dumps(assessment, ensure_ascii=False))
-print('Verified real grammar correction and pinyin.', flush=True)
+if assessment.get('grammarCorrect') is not True or assessment.get('contentCorrect') is not True or not all(isinstance(assessment.get(key), str) and assessment[key].strip() for key in ('feedbackPinyin', 'answerPinyin', 'nextPinyin')) or assessment.get('correction'):
+    raise RuntimeError('Real keyword acceptance and pinyin verification failed for synthetic test sentence: ' + json.dumps(assessment, ensure_ascii=False))
+if not isinstance(result.get('nextKeywords'), list):
+    raise RuntimeError('AI did not provide the next-question keywords.')
+print('Verified real keyword acceptance and pinyin.', flush=True)
 # Verify actual cloud audio, so missing device voices will not make the site silent.
 speech_request = Request(endpoint.rsplit('/', 1)[0] + '/speech', data=json.dumps({'text': '你好！我们开始中文对话练习。'}).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0', 'Accept': 'audio/mpeg'})
 with urlopen(speech_request, timeout=60) as response:
@@ -55,6 +57,8 @@ with urlopen(transcription_request, timeout=60) as response:
     transcription = json.load(response)
 if not isinstance(transcription.get('text'), str) or not re.search(r'[\u4e00-\u9fff]{2}', transcription['text']):
     raise RuntimeError('Real Chinese audio transcription verification failed. Endpoint was not changed.')
-print('Verified real Chinese audio transcription.', flush=True)
+if any(char in transcription['text'] for char in '們開練習漢語師學聲'):
+    raise RuntimeError('Transcription was not normalized to simplified Chinese.')
+print('Verified real simplified Chinese audio transcription.', flush=True)
 Path('conversation-config.json').write_text(json.dumps({'endpoint': endpoint}, indent=2) + '\n')
 print('Verified real AI opening; website endpoint is ready for publication.')

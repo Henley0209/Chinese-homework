@@ -1,3 +1,4 @@
+import {toSimplified} from './vendor/chinese-simplified.mjs';
 import {createSilenceGate} from './conversation-silence.mjs?v=progress1';
 export function canRecord(){return !!(window.MediaRecorder&&navigator.mediaDevices?.getUserMedia);}
 export function createAnswerRecorder({endpoint,onStatus=()=>{}}){
@@ -34,10 +35,10 @@ export function createAnswerRecorder({endpoint,onStatus=()=>{}}){
    onStatus('正在识别录音中的中文…');
    const url=new URL(endpoint());url.pathname='/transcribe';url.search='';controller=new AbortController();timer=setTimeout(()=>controller?.abort(),45000);
    const response=await fetch(url,{method:'POST',headers:{'Content-Type':blob.type},body:blob,signal:controller.signal,credentials:'omit'});
-   if(!response.ok)throw Error(response.status===429?'今天的录音识别额度已用完，请稍后再试。':'录音识别服务暂不可用，请重试。');
+   if(!response.ok)throw Error(response.status===422?'请用中文回答，点击“再听一次”重试。':response.status===429?'今天的录音识别额度已用完，请稍后再试。':'录音识别服务暂不可用，请重试。');
    const result=await response.json();if(typeof result.text!=='string'||result.text.length>500)throw Error('识别结果无效，请缩短回答后重试。');
    if(!result.text.trim())throw Error('录音中没有听清中文，请靠近麦克风并重新回答。');
-   return token===generation?result.text.trim():'';
+   return token===generation?toSimplified(result.text.trim()):'';
   }catch(error){if(token!==generation)return '';if(['NotAllowedError','PermissionDeniedError'].includes(error.name))throw Error('麦克风权限未开启，请在浏览器网站设置中允许麦克风后重试。');if(error.name==='NotFoundError')throw Error('没有检测到麦克风，请检查设备输入。');if(error.name==='AbortError')throw Error('录音识别超时，请重试。');throw error;}
   finally{if(token===generation){clearTimeout(timer);stopTracks();if(recorder){recorder.onstop=null;recorder.ondataavailable=null;if(recorder.state!=='inactive')recorder.stop();recorder=null;}}}
  }

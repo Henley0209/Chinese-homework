@@ -1,3 +1,4 @@
+import {cleanKeywords} from './conversation-keywords.mjs';
 // Only learning content is sent; never include student names or course passwords.
 export function lessonContext(exercise,bank){
  if(!exercise?.title||!Array.isArray(exercise.questions))throw Error('请先选择有效的练习题。');
@@ -11,6 +12,7 @@ export function validateReply(value,opening=false){
  const pinyin=key=>{if(typeof value[key]!=='string'||value[key].length>2000)throw Error('AI 拼音格式不正确，请重试。');return value[key].trim();};
  const nextPinyin=pinyin('nextPinyin'),feedbackPinyin=pinyin('feedbackPinyin'),correctionPinyin=pinyin('correctionPinyin'),answerPinyin=pinyin('answerPinyin');
  if(!nextPinyin||(!opening&&value.feedback.trim()&&!feedbackPinyin)||(needsCorrection&&!correctionPinyin))throw Error('AI 未提供对应拼音，请重试。');
- return {next:value.next.trim(),nextPinyin,feedback:opening?'':value.feedback.trim(),feedbackPinyin:opening?'':feedbackPinyin,needsCorrection,correction:needsCorrection?value.correction.trim():'',correctionPinyin:needsCorrection?correctionPinyin:'',answerPinyin:opening?'':answerPinyin};
+ const nextKeywords=cleanKeywords(value.nextKeywords);
+ return {next:value.next.trim(),nextPinyin,nextKeywords,feedback:opening?'':value.feedback.trim(),feedbackPinyin:opening?'':feedbackPinyin,needsCorrection,correction:needsCorrection?value.correction.trim():'',correctionPinyin:needsCorrection?correctionPinyin:'',answerPinyin:opening?'':answerPinyin};
 }
 export function spokenReply(reply){return [reply.needsCorrection?'这句话可以这样回答：'+reply.correction:'',reply.next].filter(Boolean).join('\n');}

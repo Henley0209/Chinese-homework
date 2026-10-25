@@ -1,4 +1,4 @@
-import {initConversation} from './conversation.mjs?v=loose1';
+import {initConversation} from './conversation.mjs?v=bank2001';
 import {initRememberedEntry} from './remembered-entry.mjs?v=remember11';
 import {initPhonetics} from './phonetics.mjs?v=phonetics-mobile8';
 import {initQuizMusic} from './quiz-music.mjs?v=music22';

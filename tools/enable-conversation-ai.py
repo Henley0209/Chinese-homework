@@ -36,12 +36,14 @@ if not isinstance(result.get('next'), str) or not result['next'].strip():
     raise RuntimeError('AI did not provide an opening. Endpoint was not changed.')
 if not isinstance(result.get('nextPinyin'), str) or not result['nextPinyin'].strip():
     raise RuntimeError('AI did not provide question pinyin. Endpoint was not changed.')
-assessment_payload = {'lesson': context, 'action': 'answer', 'progress': {'questionNumber': 1, 'correctAnswers': 0}, 'keywords': ['好', '不错'], 'messages': [{'role': 'assistant', 'content': '你好！你好吗？'}, {'role': 'user', 'content': '我很好是，谢谢。'}]}
+assessment_payload = {'lesson': context, 'action': 'answer', 'progress': {'questionNumber': 1, 'correctAnswers': 0}, 'keywords': ['好', '不错'], 'expectedAnswer': '我很好，谢谢。', 'nextQuestion': {'question': '你今天忙吗？', 'pinyin': 'Nǐ jīntiān máng ma?', 'keywords': ['忙', '不忙']}, 'messages': [{'role': 'assistant', 'content': '你好！你好吗？'}, {'role': 'user', 'content': '我很好是，谢谢。'}]}
 assessment_request = Request(endpoint, data=json.dumps(assessment_payload).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0'})
 with urlopen(assessment_request, timeout=60) as response:
     assessment = json.load(response)
 if assessment.get('grammarCorrect') is not True or assessment.get('contentCorrect') is not True or not all(isinstance(assessment.get(key), str) and assessment[key].strip() for key in ('feedbackPinyin', 'answerPinyin', 'nextPinyin')) or assessment.get('correction'):
     raise RuntimeError('Real keyword acceptance and pinyin verification failed for synthetic test sentence: ' + json.dumps(assessment, ensure_ascii=False))
+if assessment.get('next') != '你今天忙吗？':
+    raise RuntimeError('Fixed next-question verification failed.')
 if not isinstance(result.get('nextKeywords'), list):
     raise RuntimeError('AI did not provide the next-question keywords.')
 print('Verified real keyword acceptance and pinyin.', flush=True)

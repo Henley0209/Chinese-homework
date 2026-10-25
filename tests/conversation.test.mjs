@@ -61,3 +61,11 @@ test('traditional transcripts are simplified; non-Chinese speech is not submitte
  const speech=text=>({...env,AI:{run:async()=>({text})}});const request=()=>new Request('https://worker.test/transcribe',{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,'Content-Type':'audio/webm','CF-Connecting-IP':'192.0.2.1'},body:new Uint8Array(256)});
  assert.equal((await (await worker.fetch(request(),speech('老師您好，我在學習漢語。'))).json()).text,'老师您好，我在学习汉语。');assert.equal((await worker.fetch(request(),speech('hello teacher'))).status,422);
 });
+
+test('pre-generated next questions use assessment-only output and preserve the exact bank question',async()=>{
+ let schema,prompt;const {next,nextPinyin,nextKeywords,...assessment}=good;
+ const configured={...env,AI:{run:async(model,input)=>{schema=input.response_format.json_schema;prompt=input.messages[1].content;return {response:assessment};}}};
+ const preset={question:'你今天忙吗？',pinyin:'Nǐ jīntiān máng ma?',keywords:['忙','不忙']};
+ const response=await worker.fetch(req({lesson,action:'answer',messages:[{role:'assistant',content:'你好吗？'},{role:'user',content:'好'}],keywords:['好'],expectedAnswer:'我很好，谢谢。',nextQuestion:preset}),configured);const value=await response.json();assert.equal(response.status,200);assert.equal(value.next,preset.question);assert.equal(value.nextPinyin,preset.pinyin);assert.deepEqual(value.nextKeywords,preset.keywords);assert.equal(schema.properties.next,undefined);assert.match(prompt,/我很好，谢谢/);
+ assert.equal((await worker.fetch(req({lesson,messages:[],nextQuestion:{question:'',pinyin:'',keywords:[]}}),configured)).status,400);
+});

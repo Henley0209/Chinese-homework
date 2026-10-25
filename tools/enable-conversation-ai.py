@@ -14,7 +14,7 @@ endpoint = urls[-1] + '/conversation'
 lesson = json.loads(Path('hsk1-2-30/lesson-01.json').read_text())
 context = {'title': lesson['title'], 'bank': 'HSK1-2', 'description': lesson['description'][:500], 'questions': [{'text': q.get('text', '')[:300], 'explanation': q.get('explanation', '')[:200]} for q in lesson['questions'][:30]]}
 payload = json.dumps({'lesson': context, 'messages': []}).encode()
-request = Request(endpoint, data=payload, headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io'})
+request = Request(endpoint, data=payload, headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0 (+https://github.com/Henley0209/Chinese-homework)', 'Accept': 'application/json'})
 # A newly registered workers.dev hostname can take time to obtain its TLS certificate.
 # Retry transport/readiness failures, while keeping normal TLS verification enabled.
 for attempt in range(8):

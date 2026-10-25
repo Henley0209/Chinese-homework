@@ -34,5 +34,11 @@ for attempt in range(8):
     time.sleep(min(5 * (attempt + 1), 30))
 if not isinstance(result.get('next'), str) or not result['next'].strip():
     raise RuntimeError('AI did not provide an opening. Endpoint was not changed.')
+# Verify actual cloud audio, so missing device voices will not make the site silent.
+speech_request = Request(endpoint.rsplit('/', 1)[0] + '/speech', data=json.dumps({'text': '你好！我们开始中文对话练习。'}).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0', 'Accept': 'audio/mpeg'})
+with urlopen(speech_request, timeout=60) as response:
+    if not response.headers.get('Content-Type', '').startswith('audio/') or len(response.read()) < 100:
+        raise RuntimeError('Cloud speech verification failed. Endpoint was not changed.')
+print('Verified playable cloud Chinese audio.', flush=True)
 Path('conversation-config.json').write_text(json.dumps({'endpoint': endpoint}, indent=2) + '\n')
 print('Verified real AI opening; website endpoint is ready for publication.')

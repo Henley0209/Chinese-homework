@@ -28,3 +28,9 @@ test('worker fails closed, enforces CORS, protects secrets and validates actual 
  const exhausted={...env,AI:{run:async()=>{throw Error('daily neuron quota exceeded');}}};
  assert.equal((await worker.fetch(req({lesson,messages:[]}),exhausted)).status,429);
 });
+
+test('cloud speech supports devices without Xiaoxiao and enforces input limits',async()=>{
+ let captured;const speechEnv={...env,AI:{run:async(model,input)=>{captured={model,input};return {audio:btoa('x'.repeat(256))};}}};
+ const request=text=>new Request('https://worker.test/speech',{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,'Content-Type':'application/json','CF-Connecting-IP':'192.0.2.1'},body:JSON.stringify({text})});
+ const response=await worker.fetch(request('你好！你好吗？'),speechEnv);assert.equal(response.status,200);assert.equal(response.headers.get('Content-Type'),'audio/mpeg');assert.equal((await response.arrayBuffer()).byteLength,256);assert.equal(captured.model,'@cf/myshell-ai/melotts');assert.equal(captured.input.lang,'zh');assert.equal((await worker.fetch(request('x'.repeat(1201)),speechEnv)).status,400);
+});

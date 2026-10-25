@@ -42,7 +42,7 @@ export default {
    const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(day+':'+ip));
    const client=Array.from(new Uint8Array(digest),x=>x.toString(16).padStart(2,'0')).join('');
    const limit=env.LIMITS.get(env.LIMITS.idFromName(speech?'speech-daily':transcribe?'recording-daily':'daily'));
-   const quota=await limit.fetch('https://limits/check',{method:'POST',body:JSON.stringify({day,client,perClient:(speech||transcribe)?30:Number(env.DAILY_PER_IP)||60,total:(speech||transcribe)?90:Number(env.DAILY_TOTAL)||1000})});
+   const quota=await limit.fetch('https://limits/check',{method:'POST',body:JSON.stringify({day,client,perClient:(speech||transcribe)?200:Number(env.DAILY_PER_IP)||500,total:(speech||transcribe)?500:Number(env.DAILY_TOTAL)||1000})});
    if(!quota.ok)return json({error:'今日额度已用完'},429);
    if(transcribe){const result=await env.AI.run('@cf/openai/whisper',{audio:[...input.audio]});if(typeof result?.text!=='string'||result.text.length>500)return json({error:'录音未能识别，请重试'},502);return json({text:result.text.trim()});}
    if(speech){

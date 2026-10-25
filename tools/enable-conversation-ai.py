@@ -37,8 +37,15 @@ if not isinstance(result.get('next'), str) or not result['next'].strip():
 # Verify actual cloud audio, so missing device voices will not make the site silent.
 speech_request = Request(endpoint.rsplit('/', 1)[0] + '/speech', data=json.dumps({'text': '你好！我们开始中文对话练习。'}).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0', 'Accept': 'audio/mpeg'})
 with urlopen(speech_request, timeout=60) as response:
-    if not response.headers.get('Content-Type', '').startswith('audio/') or len(response.read()) < 100:
+    sample_audio = response.read()
+    if not response.headers.get('Content-Type', '').startswith('audio/') or len(sample_audio) < 100:
         raise RuntimeError('Cloud speech verification failed. Endpoint was not changed.')
 print('Verified playable cloud Chinese audio.', flush=True)
+transcription_request = Request(endpoint.rsplit('/', 1)[0] + '/transcribe', data=sample_audio, headers={'Content-Type': 'audio/mpeg', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0'})
+with urlopen(transcription_request, timeout=60) as response:
+    transcription = json.load(response)
+if not isinstance(transcription.get('text'), str) or not re.search(r'[\u4e00-\u9fff]{2}', transcription['text']):
+    raise RuntimeError('Real Chinese audio transcription verification failed. Endpoint was not changed.')
+print('Verified real Chinese audio transcription.', flush=True)
 Path('conversation-config.json').write_text(json.dumps({'endpoint': endpoint}, indent=2) + '\n')
 print('Verified real AI opening; website endpoint is ready for publication.')

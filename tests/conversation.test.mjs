@@ -34,3 +34,9 @@ test('cloud speech supports devices without Xiaoxiao and enforces input limits',
  const request=text=>new Request('https://worker.test/speech',{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,'Content-Type':'application/json','CF-Connecting-IP':'192.0.2.1'},body:JSON.stringify({text})});
  const response=await worker.fetch(request('你好！你好吗？'),speechEnv);assert.equal(response.status,200);assert.equal(response.headers.get('Content-Type'),'audio/mpeg');assert.equal((await response.arrayBuffer()).byteLength,256);assert.equal(captured.model,'@cf/myshell-ai/melotts');assert.equal(captured.input.lang,'zh');assert.equal((await worker.fetch(request('x'.repeat(1201)),speechEnv)).status,400);
 });
+
+test('cloud transcription accepts bounded audio and rejects malformed input',async()=>{
+ let modelName;const configured={...env,AI:{run:async(model,input)=>{modelName=model;assert.equal(input.audio.length,256);return {text:'我很好，谢谢。'};}}};
+ const request=(body,type='audio/webm')=>new Request('https://worker.test/transcribe',{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,'Content-Type':type,'CF-Connecting-IP':'192.0.2.1'},body});
+ const result=await worker.fetch(request(new Uint8Array(256)),configured);assert.equal(result.status,200);assert.deepEqual(await result.json(),{text:'我很好，谢谢。'});assert.equal(modelName,'@cf/openai/whisper');assert.equal((await worker.fetch(request(new Uint8Array(256),'text/plain'),configured)).status,415);assert.equal((await worker.fetch(request(new Uint8Array(1048577)),configured)).status,400);assert.equal((await worker.fetch(request(new Uint8Array(2)),configured)).status,400);
+});

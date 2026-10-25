@@ -1,3 +1,4 @@
+import {canRecord,createAnswerRecorder} from './conversation-recorder.mjs?v=micfix1';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
 import {loadCatalog,getExercise,introExercise} from './exercise-store.mjs?v=hsk4-40';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
@@ -7,13 +8,15 @@ const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefine
 export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fixedLesson=null,configUrl='./conversation-config.json',isTeacher=()=>document.querySelector('#user-role')?.value==='teacher'}={}){
  const root=document.querySelector('#conversation-practice'),entry=document.querySelector('#practice-conversation');if(!root||!entry)return;
  const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
+ const recordSupported=canRecord();let useRecording=recordSupported&&(/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1)||!Recognition);
  let generation=0,controller,recognition,speechDone,speechTimer,phase='idle',context,history=[],reply,lastSpeech='',endpoint='',entering=false;
  let log,status,start,finish,replay,retry,answer,send,voiceLabel;
- function state(value){phase=value;const busy=['loading','speaking','listening'].includes(phase),pending=history.at(-1)?.role==='user';start.disabled=busy||pending||!Recognition||!reply;finish.hidden=phase!=='listening';replay.disabled=busy||!lastSpeech;send.disabled=busy||pending||!reply;answer.disabled=busy||pending;retry.hidden=busy||!(phase==='error'||pending);}
+ function state(value){phase=value;const busy=['loading','speaking','listening'].includes(phase),pending=history.at(-1)?.role==='user';start.disabled=busy||pending||(!Recognition&&!recordSupported)||!reply;finish.hidden=phase!=='listening';replay.disabled=busy||!lastSpeech;send.disabled=busy||pending||!reply;answer.disabled=busy||pending;retry.hidden=busy||!(phase==='error'||pending);}
  function message(role,text){const n=el('div',undefined,'conversation-message '+role);n.append(el('strong',role==='student'?'你 / Bạn':role==='feedback'?'回答评估 / Nhận xét':'AI'),el('span',text));log.append(n);log.scrollTop=log.scrollHeight;}
  const voicePlayer=createDialogueVoice({endpoint:()=>endpoint,onStatus:text=>{if(status)status.textContent=text;},onVoice:text=>{if(voiceLabel)voiceLabel.textContent='当前朗读音色：'+text+' · 0.9 倍速';},onAudio:audio=>{voiceLabel?.after(audio);}});
  function stopSpeech(){voicePlayer.stop();}
- function cancel(){generation++;controller?.abort();controller=null;if(recognition){recognition.onend=null;recognition.onerror=null;recognition.onresult=null;recognition.abort();recognition=null;}stopSpeech();}
+ const answerRecorder=createAnswerRecorder({endpoint:()=>endpoint,onStatus:text=>{if(status)status.textContent=text;}});
+ function cancel(){generation++;answerRecorder.cancel();controller?.abort();controller=null;if(recognition){recognition.onend=null;recognition.onerror=null;recognition.onresult=null;recognition.abort();recognition=null;}stopSpeech();}
  function close(){cancel();root.hidden=true;}
  function home(){close();document.querySelector('#welcome').hidden=false;entry.focus();entry.scrollIntoView({behavior:'instant'});}
  async function speak(text,token){
@@ -41,12 +44,18 @@ export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fix
   if(history.at(-1)?.role==='user')return;
   message('student',text);history.push({role:'user',content:text});answer.value='';void request();
  }
+ async function recordAnswer(){
+  if(!recordSupported)return;stopSpeech();const token=generation;state('listening');
+  try{const text=await answerRecorder.start();if(token!==generation)return;state('ready');if(text){answer.value=text;submit();}}
+  catch(error){if(token!==generation)return;state('ready');status.textContent=error.message;}
+ }
  function listen(){
-  if(phase!=='ready'||history.at(-1)?.role==='user'||!Recognition||!reply)return;
+  if(phase!=='ready'||history.at(-1)?.role==='user'||!reply)return;
+  if(useRecording){void recordAnswer();return;}if(!Recognition)return;
   stopSpeech();const token=generation;let text='',failed=false;recognition=new Recognition();recognition.lang='zh-CN';recognition.continuous=false;recognition.interimResults=true;recognition.maxAlternatives=1;state('listening');status.textContent='正在听，请用中文回答；说完稍作停顿或点击“说完了”。 / Đang nghe…';
   recognition.onresult=event=>{if(token!==generation)return;text=Array.from(event.results).map(r=>r[0].transcript).join('').slice(0,500);answer.value=text;};
-  recognition.onerror=event=>{if(token!==generation)return;failed=true;status.textContent=event.error==='not-allowed'?'麦克风权限未开启，请允许使用麦克风，或输入回答。 / Hãy cho phép micro hoặc nhập câu trả lời.':event.error==='network'?'浏览器的语音识别服务连接失败，请检查网络或输入回答。':event.error==='audio-capture'?'未检测到麦克风，请检查设备输入设置。':'没有识别到语音，请重试或输入回答。';};
-  recognition.onend=()=>{if(token!==generation)return;recognition=null;state('ready');if(text.trim()&&!failed)submit();else if(!failed)status.textContent='没有听清，请重新开始或输入回答。 / Chưa nghe rõ, hãy thử lại.';};
+  recognition.onerror=event=>{if(token!==generation)return;failed=true;if(recordSupported&&!['not-allowed','audio-capture'].includes(event.error))useRecording=true;status.textContent=event.error==='not-allowed'?'麦克风权限未开启，请允许使用麦克风，或输入回答。 / Hãy cho phép micro hoặc nhập câu trả lời.':event.error==='network'?'浏览器的语音识别服务连接失败，请检查网络或输入回答。':event.error==='audio-capture'?'未检测到麦克风，请检查设备输入设置。':'没有识别到语音，请重试或输入回答。';};
+  recognition.onend=()=>{if(token!==generation)return;recognition=null;state('ready');if(text.trim()&&!failed)submit();else if(!failed){if(recordSupported)useRecording=true;status.textContent=recordSupported?'没有听清。下次点击开始对话将切换到录音识别，说完点击“说完了”。':'没有听清，请重新开始或输入回答。';}};
   try{recognition.start();}catch{recognition=null;state('ready');status.textContent='无法启动麦克风，请重试或输入回答。';}
  }
  function render(){
@@ -56,10 +65,10 @@ export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fix
   status=el('p','','conversation-status');status.setAttribute('role','status');
   const actions=el('div',undefined,'conversation-actions');
   function button(text,action){const b=el('button',text,'quiet');b.type='button';b.onclick=action;actions.append(b);return b;}
-  start=button('开始对话 / Bắt đầu',listen);start.className='primary';finish=button('说完了 / Nói xong',()=>recognition?.stop());replay=button('再听一次 / Nghe lại',()=>{voicePlayer.unlock();void speak(lastSpeech,generation);});retry=button('重试 / Thử lại',()=>{if(endpoint)void request();else void open();});
+  start=button('开始对话 / Bắt đầu',listen);start.className='primary';finish=button('说完了 / Nói xong',()=>{if(useRecording)answerRecorder.finish();else recognition?.stop();});replay=button('再听一次 / Nghe lại',()=>{voicePlayer.unlock();void speak(lastSpeech,generation);});retry=button('重试 / Thử lại',()=>{if(endpoint)void request();else void open();});
   const form=el('form',undefined,'conversation-answer'),label=el('label','也可以输入回答 / Hoặc nhập câu trả lời');answer=el('textarea');answer.id='conversation-answer';answer.maxLength=500;label.htmlFor=answer.id;send=el('button','发送回答 / Gửi câu trả lời','primary');send.type='submit';form.append(label,answer,send);form.onsubmit=e=>{e.preventDefault();submit();};
-  root.append(header,el('p','当前主题：'+context.title+' · 中文朗读 · 0.9 倍速','conversation-topic'),el('p','AI 先说，你来回答；有误时会朗读示范，再继续对话。 / AI nói trước, bạn trả lời; AI sửa câu và tiếp tục hội thoại.','note'),log,actions,voiceLabel,form,status,el('p','语音识别可能使用浏览器提供商的在线服务；识别文字和本课内容会发送给 AI。评估针对识别文字的语法与内容，不是发音评分。对话不在本系统持久保存。 / Văn bản nhận dạng và nội dung bài học được gửi đến AI để nhận xét.','note'));
-  if(!Recognition)root.append(el('p','此浏览器不支持语音识别，可输入回答；建议使用支持语音识别的 Chrome。 / Có thể nhập câu trả lời.','note'));
+  root.append(header,el('p','当前主题：'+context.title+' · 中文朗读 · 0.9 倍速','conversation-topic'),el('p','AI 先说，你来回答；有误时会朗读示范，再继续对话。 / AI nói trước, bạn trả lời; AI sửa câu và tiếp tục hội thoại.','note'),log,actions,voiceLabel,form,status,el('p','手机回答使用录音后云端识别；录音发送到 Cloudflare，识别文字和本课内容用于 AI 评估。电脑的浏览器识别不可用时会切换录音。评估针对识别文字的语法与内容，不是发音评分。对话不在本系统持久保存。 / Văn bản nhận dạng và nội dung bài học được gửi đến AI để nhận xét.','note'));
+  if(!Recognition&&!recordSupported)root.append(el('p','此浏览器不支持语音识别，可输入回答；建议使用支持语音识别的 Chrome。 / Có thể nhập câu trả lời.','note'));
   state('loading');
  }
  async function open(){

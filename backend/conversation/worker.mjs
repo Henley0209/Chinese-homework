@@ -15,10 +15,12 @@ export function validateInput(body){
  const messages=m.map((v,i)=>{if(v?.role!==(i%2?'user':'assistant')||!text(v.content,500))throw Error('对话顺序或长度无效');return {role:v.role,content:v.content};});
  return {lesson,messages};
 }
-async function readBody(request){
+async function readBytes(request,max=32768){
  const reader=request.body?.getReader();if(!reader)throw Error('缺少请求内容');let size=0;const chunks=[];
- while(true){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>32768){await reader.cancel();throw Error('请求过大');}chunks.push(value);}
- const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length;}return JSON.parse(new TextDecoder().decode(bytes));
+ while(true){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>max){await reader.cancel();throw Error('请求过大');}chunks.push(value);}
+ const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length;}return bytes;
+}
+async function readBody(request){return JSON.parse(new TextDecoder().decode(await readBytes(request)));
 }
 export default {
  async fetch(request,env){
@@ -28,19 +30,21 @@ export default {
   const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
   if(!allowed||origin!==allowed)return json({error:'来源不允许'},403);
   if(request.method==='OPTIONS')return new Response(null,{status:204,headers});
-  const speech=new URL(request.url).pathname==='/speech';
-  if(!speech&&new URL(request.url).pathname!=='/conversation')return json({error:'路径不存在'},404);
+  const path=new URL(request.url).pathname,speech=path==='/speech',transcribe=path==='/transcribe';
+  if(!speech&&!transcribe&&path!=='/conversation')return json({error:'路径不存在'},404);
   if(request.method!=='POST')return json({error:'仅支持POST'},405);
   if(!env.AI||!env.LIMITS)return json({error:'AI服务尚未配置'},503);
-  if(!request.headers.get('Content-Type')?.startsWith('application/json'))return json({error:'需要JSON'},415);
-  let input;try{const body=await readBody(request);if(speech){if(typeof body.text!=='string'||!body.text.trim()||body.text.length>1200)throw Error();input={text:body.text.trim()};}else input=validateInput(body);}catch{return json({error:'请求格式或长度无效'},400);}
+  if(transcribe&&!/^audio\/(webm|mp4|ogg|wav|mpeg)(;|$)/i.test(request.headers.get('Content-Type')||''))return json({error:'不支持此录音格式'},415);
+  if(!transcribe&&!request.headers.get('Content-Type')?.startsWith('application/json'))return json({error:'需要JSON'},415);
+  let input;try{if(transcribe){const bytes=await readBytes(request,1048576);if(bytes.length<200)throw Error();input={audio:bytes};}else{const body=await readBody(request);if(speech){if(typeof body.text!=='string'||!body.text.trim()||body.text.length>1200)throw Error();input={text:body.text.trim()};}else input=validateInput(body);}}catch{return json({error:'请求格式或长度无效'},400);}
   try{
    const day=new Date().toISOString().slice(0,10),ip=request.headers.get('CF-Connecting-IP');if(!ip)return json({error:'无法确认请求来源'},403);
    const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(day+':'+ip));
    const client=Array.from(new Uint8Array(digest),x=>x.toString(16).padStart(2,'0')).join('');
-   const limit=env.LIMITS.get(env.LIMITS.idFromName(speech?'speech-daily':'daily'));
-   const quota=await limit.fetch('https://limits/check',{method:'POST',body:JSON.stringify({day,client,perClient:speech?30:Number(env.DAILY_PER_IP)||60,total:speech?90:Number(env.DAILY_TOTAL)||1000})});
+   const limit=env.LIMITS.get(env.LIMITS.idFromName(speech?'speech-daily':transcribe?'recording-daily':'daily'));
+   const quota=await limit.fetch('https://limits/check',{method:'POST',body:JSON.stringify({day,client,perClient:(speech||transcribe)?30:Number(env.DAILY_PER_IP)||60,total:(speech||transcribe)?90:Number(env.DAILY_TOTAL)||1000})});
    if(!quota.ok)return json({error:'今日额度已用完'},429);
+   if(transcribe){const result=await env.AI.run('@cf/openai/whisper',{audio:[...input.audio]});if(typeof result?.text!=='string'||result.text.length>500)return json({error:'录音未能识别，请重试'},502);return json({text:result.text.trim()});}
    if(speech){
     const result=await env.AI.run('@cf/myshell-ai/melotts',{prompt:input.text,lang:'zh'});
     let body=result;if(typeof result?.audio==='string')body=Uint8Array.from(atob(result.audio),c=>c.charCodeAt(0));

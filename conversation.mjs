@@ -2,7 +2,7 @@ import {resolveBank} from './bank-access.mjs?v=banks-8';
 import {loadCatalog,getExercise,introExercise} from './exercise-store.mjs?v=hsk4-40';
 import {teacherActive} from './teacher-tools.mjs?v=pageviews1';
 import {stopFeedback} from './result-feedback.mjs?v=writing21';
-import {chooseVoices} from './listening/speech.mjs';
+import {isMandarin} from './listening/speech.mjs';
 import {lessonContext,validateReply,spokenReply} from './conversation-core.mjs?v=conversation1';
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
 export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}){
@@ -20,11 +20,14 @@ export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{}}={}
   lastSpeech=text;state('speaking');
   if(!window.speechSynthesis||!window.SpeechSynthesisUtterance){status.textContent='此浏览器不支持朗读，请阅读对话文字。 / Trình duyệt không hỗ trợ giọng đọc.';state('ready');return;}
   status.textContent='AI 正在说话… / AI đang nói…';
+  if(!speechSynthesis.getVoices().length)await new Promise(resolve=>{let timer;const done=()=>{clearTimeout(timer);speechSynthesis.removeEventListener?.('voiceschanged',done);resolve();};timer=setTimeout(done,1500);speechSynthesis.addEventListener?.('voiceschanged',done,{once:true});});
+  if(token!==generation)return;
   // A complete correction and follow-up are spoken in order, before enabling the mic.
   await new Promise(resolve=>{
    const done=()=>{clearTimeout(speechTimer);if(speechDone===done)speechDone=null;resolve();};speechDone=done;
    const utterance=new SpeechSynthesisUtterance(text);utterance.lang='zh-CN';utterance.rate=.85;
-   const voice=chooseVoices(speechSynthesis.getVoices()).narrator;if(voice)utterance.voice=voice;
+   const voice=speechSynthesis.getVoices().find(v=>isMandarin(v)&&/xiaoxiao|晓晓|曉曉/i.test(v.name));
+   if(!voice){status.textContent='当前设备未提供晓晓女声，请使用支持 Microsoft Xiaoxiao 音色的设备或浏览器。';done();return;}utterance.voice=voice;
    utterance.onend=done;utterance.onerror=()=>{if(token===generation)status.textContent='朗读未完成，请点击“再听一次”。 / Chạm “Nghe lại” để nghe.';done();};
    speechTimer=setTimeout(()=>{if(token===generation)status.textContent='朗读超时，请点击“再听一次”。';speechSynthesis.cancel();done();},60000);
    try{speechSynthesis.speak(utterance);}catch{status.textContent='无法自动朗读，请点击“再听一次”。 / Chạm “Nghe lại”.';done();}

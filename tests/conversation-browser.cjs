@@ -7,7 +7,7 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
  const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
  await context.addInitScript(()=>{
   window.__spoken=[];window.__holdSpeech=false;
-  Object.defineProperty(window,'speechSynthesis',{value:{getVoices:()=>[{name:'Chinese voice',lang:'zh-CN'}],cancel(){},speak(u){window.__spoken.push(u.text);if(!window.__holdSpeech)setTimeout(()=>u.onend?.(),30);}}});
+  Object.defineProperty(window,'speechSynthesis',{value:{getVoices:()=>[{name:'Microsoft Xiaoxiao Online (Natural)',lang:'zh-CN'}],cancel(){},speak(u){window.__spoken.push(u.text);if(!window.__holdSpeech)setTimeout(()=>u.onend?.(),30);}}});
   window.SpeechSynthesisUtterance=class{constructor(text){this.text=text;}};
   window.SpeechRecognition=class {constructor(){window.__recognition=this;}start(){}abort(){this.onend?.();}stop(){this.onend?.();}};
  });

@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {runInNewContext} from 'node:vm';
+import {createHash} from 'node:crypto';
+const html=readFileSync('conversation-preview/hsk-lesson-01/index.html','utf8');
+const turns=runInNewContext(html.match(/const turns=(\[[\s\S]*?\]);\nconst \$/)[1]);
+const closing='再见！明天见！今天的问候和礼貌用语，你都练习过了。';
+const texts=new Set([turns[0].question]);
+turns.forEach((turn,i)=>{const next=turns[i+1]?.question||closing;texts.add(next);texts.add('这句话可以这样回答：'+turn.correction+'\n'+next);});
+const voice='zh-CN-XiaoxiaoNeural';
+const clips=[...texts].map(text=>{const key=JSON.stringify([voice,text]);return {key,text,voice,file:createHash('sha256').update(key).digest('hex').slice(0,32)+'.mp3'};});
+mkdirSync('work/conversation-audio',{recursive:true});writeFileSync('work/conversation-audio/corpus.json',JSON.stringify({voices:{female:voice},clips},null,2));console.log('Prepared '+clips.length+' fixed Xiaoxiao clips');

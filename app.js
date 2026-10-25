@@ -1,3 +1,4 @@
+import {initConversation} from './conversation.mjs?v=real-ai09';
 import {initRememberedEntry} from './remembered-entry.mjs?v=remember11';
 import {initPhonetics} from './phonetics.mjs?v=phonetics-mobile8';
 import {initQuizMusic} from './quiz-music.mjs?v=music22';
@@ -87,3 +88,5 @@ initWriting({onAuthenticatedEntry:()=>{rememberEntry();}});
 initPictureWords({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{rememberEntry();}});
 
 initPhonetics({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{rememberEntry();}});
+
+initConversation({onEnter:saveCurrentProgress,onAuthenticatedEntry:()=>{rememberEntry();}});

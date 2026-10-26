@@ -69,3 +69,18 @@ test('pre-generated next questions use assessment-only output and preserve the e
  const response=await worker.fetch(req({lesson,action:'answer',messages:[{role:'assistant',content:'你好吗？'},{role:'user',content:'好'}],keywords:['好'],expectedAnswer:'我很好，谢谢。',nextQuestion:preset}),configured);const value=await response.json();assert.equal(response.status,200);assert.equal(value.next,preset.question);assert.equal(value.nextPinyin,preset.pinyin);assert.deepEqual(value.nextKeywords,preset.keywords);assert.equal(schema.properties.next,undefined);assert.match(prompt,/我很好，谢谢/);
  assert.equal((await worker.fetch(req({lesson,messages:[],nextQuestion:{question:'',pinyin:'',keywords:[]}}),configured)).status,400);
 });
+
+
+test('live generation receives the selected topic and actual student replies without a preset next question',async()=>{
+ const calls=[];const configured={...env,AI:{run:async(model,input)=>{calls.push(input);return {response:good};}}};
+ const restaurant=lessonContext({title:'餐厅点菜',description:'点菜和选择饮料',questions:[{text:'你想吃什么？',explanation:'我想吃米饭。'}]},'日常交际');
+ const messages=[{role:'assistant',content:'你想吃什么？'},{role:'user',content:'我想吃米饭。'}];
+ for(const [action,history] of [['open',[]],['answer',messages],['next',messages.slice(0,1)]]){
+  const response=await worker.fetch(req({lesson:restaurant,action,messages:history}),configured);assert.equal(response.status,200);
+  const input=calls.at(-1);assert.ok(input.response_format.json_schema.properties.next);
+  assert.deepEqual(JSON.parse(input.messages[1].content.split('\n')[1]).lesson,restaurant);
+  assert.deepEqual(input.messages.slice(2),history);assert.doesNotMatch(input.messages[0].content,/本轮已有固定的下一题/);
+ }
+ assert.match(systemPrompt,/开场直接进入主题/);assert.match(systemPrompt,/学生提问时先简短回答/);
+ assert.match(systemPrompt,/不重复已经回答的问题/);assert.match(systemPrompt,/温和引回当前主题/);
+});

@@ -12,8 +12,8 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
   Object.defineProperty(window,'speechSynthesis',{value:{resume(){},getVoices:()=>[{name:'Microsoft Xiaoxiao Online (Natural)',lang:'zh-CN'}],cancel(){},speak(u){window.__utterances.push({text:u.text,rate:u.rate});u.onstart?.();setTimeout(()=>{window.__ended.push(performance.now());u.onend?.();},40);}}});window.SpeechSynthesisUtterance=class{constructor(text){this.text=text;}};
  });
  const page=await context.newPage(),errors=[],requests=[],transcriptions=[],speechCalls=[];page.on('pageerror',e=>errors.push(e.message));let fail=false,holdSpeech=false,releaseSpeech,holdAnswer=false,releaseAnswer,transcript='明天下雨。',serveBanks=false;
- const questions=['你好吗？','你今天忙吗？','你今天做什么？','你为什么学习中文？','你明天有时间吗？'];
- const pinyin=['Nǐ hǎo ma?','Nǐ jīntiān máng ma?','Nǐ jīntiān zuò shénme?','Nǐ wèishénme xuéxí Zhōngwén?','Nǐ míngtiān yǒu shíjiān ma?'];
+ const questions=['你好吗？','你叫什么名字？','你来自哪里？','认识朋友时你会怎么打招呼？','你会怎样说再见？'];
+ const pinyin=['Nǐ hǎo ma?','Nǐ jiào shénme míngzi?','Nǐ láizì nǎlǐ?','Rènshi péngyou shí nǐ huì zěnme dǎ zhāohu?','Nǐ huì zěnyàng shuō zàijiàn?'];
  function response(body){const answer=body.action==='answer',i=body.action==='open'?0:Math.min(4,body.progress.questionNumber);const result={grammarCorrect:!answer,contentCorrect:true,feedback:answer?'不用加“是”。':'',feedbackPinyin:answer?'Bú yòng jiā shì.':'',correction:answer?'我很好，谢谢。':'',correctionPinyin:answer?'Wǒ hěn hǎo, xièxie.':'',answerPinyin:answer?'Míngtiān xià yǔ.':'',next:questions[i],nextPinyin:pinyin[i],nextKeywords:['好','忙','学习']};if(body.nextQuestion){result.next=body.nextQuestion.question;result.nextPinyin=body.nextQuestion.pinyin;result.nextKeywords=body.nextQuestion.keywords;}return result;}
  await context.route('**/*',async route=>{
   const u=new URL(route.request().url());

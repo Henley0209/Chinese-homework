@@ -100,5 +100,8 @@ if any(char in transcription['text'] for char in '們開練習漢語師學聲'):
     raise RuntimeError('Transcription was not normalized to simplified Chinese.')
 print('Verified real simplified Chinese audio transcription.', flush=True)
 Path('conversation-config.json').write_text(json.dumps({'endpoint': endpoint}, indent=2) + '\n')
+# Verify representative themes with the real endpoint and the same deployed scope rules.
+import subprocess
+subprocess.run(['node', 'tools/check-conversation-topics.mjs'], check=True)
 print('Verified real AI opening; website endpoint is ready for publication.')
 

@@ -72,7 +72,7 @@ test('pre-generated next questions use assessment-only output and preserve the e
 
 
 test('live generation receives the selected topic and actual student replies without a preset next question',async()=>{
- const calls=[];const configured={...env,AI:{run:async(model,input)=>{calls.push(input);return {response:good};}}};
+ const calls=[];const configured={...env,AI:{run:async(model,input)=>{calls.push(input);return {response:{...good,next:"你想喝什么饮料？",nextPinyin:"Nǐ xiǎng hē shénme yǐnliào?"}};}}};
  const restaurant=lessonContext({title:'餐厅点菜',description:'点菜和选择饮料',questions:[{text:'你想吃什么？',explanation:'我想吃米饭。'}]},'日常交际');
  const messages=[{role:'assistant',content:'你想吃什么？'},{role:'user',content:'我想吃米饭。'}];
  for(const [action,history] of [['open',[]],['answer',messages],['next',messages.slice(0,1)]]){

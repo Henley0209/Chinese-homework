@@ -1,6 +1,8 @@
 const prefix='chinese-dialogue-session-v1:';
 function hash(text){let h=2166136261;for(const c of text)h=Math.imul(h^c.codePointAt(0),16777619)>>>0;return h.toString(16);}
 export function sessionKey(lesson,student=''){return prefix+hash(JSON.stringify([lesson.bank,lesson.title,String(student).trim().slice(0,50)]));}
+// Keep fixed-bank progress intact when entering the live topic conversation.
+export function topicSessionKey(lesson,student=''){return sessionKey(lesson,student)+':topic-v1';}
 export function lessonFingerprint(lesson){return hash(JSON.stringify(lesson));}
 const short=(s,max)=>typeof s==='string'&&s.length<=max;
 export function validateSession(value,lesson){
@@ -18,3 +20,4 @@ export function questionHistory(turns,cursor,{answer=false}={}){
  const current=turns[cursor];messages.push({role:'assistant',content:current.question});if(answer)messages.push({role:'user',content:current.answer});return messages.slice(answer?-20:-19);
 }
 export function learningProgress(turns,cursor){return {questionNumber:turns[cursor]?.number||1,correctAnswers:turns.slice(0,cursor).filter(t=>t.assessment&&!t.assessment.needsCorrection).length};}
+

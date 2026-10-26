@@ -64,6 +64,13 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
  await page.waitForFunction(()=>document.querySelector('.conversation-position')?.textContent.includes('第 1 题'));
  assert.equal(requests.length,beforeRestart+1);assert.equal(requests.at(-1).action,'open');assert.deepEqual(requests.at(-1).messages,[]);
  await root.getByRole('button',{name:'返回主页'}).click();
+ // A restored off-topic first-lesson question must not be replayed or sent to AI.
+ await page.evaluate(()=>localStorage.setItem('preserve-test-session','1'));
+ await page.addInitScript(()=>{const key=Object.keys(localStorage).find(k=>k.endsWith(':topic-v1'));const saved=JSON.parse(localStorage.getItem(key));saved.turns[0].question='你今天赚了多少钱？';saved.playlist=['你今天赚了多少钱？'];saved.playIndex=0;localStorage.setItem(key,JSON.stringify(saved));localStorage.setItem('preserve-test-session','1');});
+ const beforeRecovery=requests.length;await page.reload();await enter();
+ await page.waitForFunction(()=>document.querySelector('.conversation-position')?.textContent.includes('第 1 题'));
+ assert.equal(requests.length,beforeRecovery+1);assert.equal(requests.at(-1).action,'open');assert.deepEqual(requests.at(-1).messages,[]);
+ assert.doesNotMatch(await root.innerText(),/赚了多少钱/);await root.getByRole('button',{name:'返回主页'}).click();
  assert.deepEqual(errors,[]);console.log('PASS: pinyin, ordered correction speech, 2-second silence with continuation, 1-second capture after complete playback, cached previous/next, saved cursor/feedback and pending assessment across reloads, difficulty metadata, persistent audio element, delayed next audio, blocked-autoplay recovery, permission handling and microphone cleanup.');
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

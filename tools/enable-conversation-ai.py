@@ -47,6 +47,28 @@ if assessment.get('next') != '你今天忙吗？':
 if not isinstance(result.get('nextKeywords'), list):
     raise RuntimeError('AI did not provide the next-question keywords.')
 print('Verified real keyword acceptance and pinyin.', flush=True)
+# Exercise live follow-ups instead of only supplying a fixed next question.
+def verify_topic(value, asked):
+    question = value.get('next', '')
+    normalized = re.sub(r'[^\w]', '', question)
+    if not normalized or re.search(r'钱|赚|收入|工资|薪水|薪资|价格|消费|多少[元块]', question):
+        raise RuntimeError('HSK greeting lesson generated an off-topic question.')
+    if normalized in asked or not value.get('nextPinyin'):
+        raise RuntimeError('HSK greeting lesson repeated a question or omitted pinyin.')
+    asked.add(normalized)
+    print('Verified HSK lesson 1 topic question: ' + question, flush=True)
+asked = set()
+verify_topic(result, asked)
+history = []
+previous = result
+for number, answer in enumerate(['我很好，谢谢。', '我叫小兰，很高兴认识你。'], 1):
+    history.extend([{'role': 'assistant', 'content': previous['next']}, {'role': 'user', 'content': answer}])
+    live_request = Request(endpoint, data=json.dumps({'lesson': context, 'action': 'answer', 'messages': history, 'keywords': previous.get('nextKeywords', []), 'progress': {'questionNumber': number, 'correctAnswers': 0}}).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0'})
+    with urlopen(live_request, timeout=45) as response:
+        previous = json.load(response)
+    verify_topic(previous, asked)
+print('Verified three real, distinct HSK greeting questions.', flush=True)
+
 # Verify actual cloud audio, so missing device voices will not make the site silent.
 speech_request = Request(endpoint.rsplit('/', 1)[0] + '/speech', data=json.dumps({'text': '你好！我们开始中文对话练习。'}).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0', 'Accept': 'audio/mpeg'})
 with urlopen(speech_request, timeout=60) as response:
@@ -64,3 +86,4 @@ if any(char in transcription['text'] for char in '們開練習漢語師學聲'):
 print('Verified real simplified Chinese audio transcription.', flush=True)
 Path('conversation-config.json').write_text(json.dumps({'endpoint': endpoint}, indent=2) + '\n')
 print('Verified real AI opening; website endpoint is ready for publication.')
+

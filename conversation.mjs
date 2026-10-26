@@ -1,4 +1,4 @@
-import {topicViolation} from './conversation-topic.mjs?v=greeting1';
+import {topicViolation} from './conversation-topic.mjs?v=greeting2';
 import {toSimplified} from './vendor/chinese-simplified.mjs';
 import {canRecord,createAnswerRecorder} from './conversation-recorder.mjs?v=loose1';
 import {resolveBank} from './bank-access.mjs?v=banks-8';

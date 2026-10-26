@@ -50,7 +50,9 @@ print('Verified real keyword acceptance and pinyin.', flush=True)
 # Exercise live follow-ups instead of only supplying a fixed next question.
 def verify_topic(value, asked):
     question = value.get('next', '')
-    normalized = re.sub(r'[^\w]', '', question)
+    clause = [part for part in re.split(r'[。！？!?；;]', question) if part.strip()]
+    normalized = re.sub(r'[^\w]', '', clause[-1] if clause else question)
+    normalized = re.sub(r'^(?:你好|您好|谢谢|好的|早上好|下午好|晚上好)+', '', normalized)
     if not normalized or re.search(r'钱|赚|收入|工资|薪水|薪资|价格|消费|多少[元块]', question):
         raise RuntimeError('HSK greeting lesson generated an off-topic question.')
     if normalized in asked or not value.get('nextPinyin'):

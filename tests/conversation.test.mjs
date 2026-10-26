@@ -99,7 +99,7 @@ test('HSK lesson 1 rejects income questions and regenerates within its greeting 
 });
 test('repeated questions are regenerated and income vocabulary remains valid in a money lesson',async()=>{
  const greeting=lessonContext({title:'HSK1-2 第01课 你好！',description:'问候',questions:[]},'HSK1-2');
- let calls=0;const configured={...env,AI:{run:async()=>({response:++calls===1?{...good,next:'你好! 你好吗?'}:good})}};
+ let calls=0;const configured={...env,AI:{run:async()=>({response:++calls===1?{...good,next:'你好吗?'}:good})}};
  const response=await worker.fetch(req({lesson:greeting,action:'answer',messages:[{role:'assistant',content:'你好！你好吗？'},{role:'user',content:'好'}]}),configured);
  assert.equal(response.status,200);assert.equal(calls,2);assert.equal((await response.json()).next,good.next);
  const money=lessonContext({title:'日常交际 工资与收入',description:'收入',questions:[]},'日常交际');

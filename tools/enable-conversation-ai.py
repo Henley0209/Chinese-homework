@@ -63,7 +63,20 @@ asked = set()
 verify_topic(result, asked)
 history = []
 previous = result
-for number, answer in enumerate(['我很好，谢谢。', '我叫小兰，很高兴认识你。'], 1):
+for number in range(1, 3):
+    question = previous['next']
+    if re.search(r'名字|叫什么|怎么称呼|贵姓', question):
+        answer = '我叫小兰，很高兴认识你。'
+    elif re.search(r'哪里|哪国|来自', question):
+        answer = '我来自越南。'
+    elif re.search(r'道歉|对不起|来晚|迟到', question):
+        answer = '对不起，我来晚了。'
+    elif re.search(r'感谢|谢谢|帮', question):
+        answer = '谢谢你的帮助。'
+    elif re.search(r'告别|再见|明天见', question):
+        answer = '再见，明天见。'
+    else:
+        answer = '我很好，谢谢。'
     history.extend([{'role': 'assistant', 'content': previous['next']}, {'role': 'user', 'content': answer}])
     live_request = Request(endpoint, data=json.dumps({'lesson': context, 'action': 'answer', 'messages': history, 'keywords': previous.get('nextKeywords', []), 'progress': {'questionNumber': number, 'correctAnswers': 0}}).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0'})
     with urlopen(live_request, timeout=45) as response:

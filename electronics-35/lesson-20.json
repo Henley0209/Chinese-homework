@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第20课 焊接与焊点检查用语",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“焊接”的正确读音。",
+      "text": "【拼音选择】请选择“焊丝”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hàn qiē",
-        "B": "fàn jiē",
-        "C": "hàng jiē",
-        "D": "hàn jiē"
+        "A": "hàn shī",
+        "B": "hàng sī",
+        "C": "fàn sī",
+        "D": "hàn sī"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“焊接”读作 hàn jiē，本课词义：hàn。"
+      "explanation": "“焊丝”读作 hàn sī。注意声母、韵母、声调及轻声。",
+      "targetWord": "焊丝"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“焊点”的正确读音。",
+      "text": "【拼音选择】请选择“锡炉”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hàng diǎn",
-        "B": "hàn diǎn",
-        "C": "fàn diǎn",
-        "D": "bàn diǎn"
+        "A": "xī lú",
+        "B": "qī lú",
+        "C": "xī nú",
+        "D": "bī lú"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“焊点”读作 hàn diǎn，本课词义：mối hàn。"
+      "explanation": "“锡炉”读作 xī lú。注意声母、韵母、声调及轻声。",
+      "targetWord": "锡炉"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“虚焊”的正确读音。",
+      "text": "【拼音选择】请选择“焊盘”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xū hàn",
-        "B": "xū fàn",
-        "C": "xū hàng",
-        "D": "qū hàn"
+        "A": "hàn páng",
+        "B": "hàng pán",
+        "C": "hàn pán",
+        "D": "fàn pán"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“虚焊”读作 xū hàn，本课词义：mối hàn kém, tiếp xúc kém。"
+      "explanation": "“焊盘”读作 hàn pán。注意声母、韵母、声调及轻声。",
+      "targetWord": "焊盘"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“漏焊”的正确读音。",
+      "text": "【拼音选择】请选择“助焊剂”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lòu fàn",
-        "B": "nòu hàn",
-        "C": "lòu hàn",
-        "D": "lòu hàng"
+        "A": "zhù hàn qì",
+        "B": "zù hàn jì",
+        "C": "zhù fàn jì",
+        "D": "zhù hàn jì"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“漏焊”读作 lòu hàn，本课词义：bỏ sót mối hàn。"
+      "explanation": "“助焊剂”读作 zhù hàn jì。注意声母、韵母、声调及轻声。",
+      "targetWord": "助焊剂"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“连锡”的正确读音。",
+      "text": "【拼音选择】请选择“锡珠”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lián xī",
-        "B": "liáng xī",
-        "C": "nián xī",
-        "D": "lián qī"
+        "A": "bī zhū",
+        "B": "qī zhū",
+        "C": "xī zū",
+        "D": "xī zhū"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“连锡”读作 lián xī，本课词义：dính thiếc nối giữa các chân。"
+      "explanation": "“锡珠”读作 xī zhū。注意声母、韵母、声调及轻声。",
+      "targetWord": "锡珠"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“锡膏”的正确读音。",
+      "text": "【拼音选择】请选择“润湿”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xī gāo",
-        "B": "bī gāo",
-        "C": "qī gāo",
-        "D": "xī gōu"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“锡膏”读作 xī gāo，本课词义：kem hàn。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“烙铁”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "lòu tie",
-        "B": "lào tie",
-        "C": "nào tie",
-        "D": "bào tie"
+        "A": "rùn sī",
+        "B": "rùn shī",
+        "C": "dùn shī",
+        "D": "cùn shī"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“烙铁”读作 lào tie，本课词义：mỏ hàn。"
+      "explanation": "“润湿”读作 rùn shī。注意声母、韵母、声调及轻声。",
+      "targetWord": "润湿"
     },
     {
-      "id": 8,
+      "id": 7,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“检验”的正确读音。",
+      "text": "【拼音选择】请选择“桥接”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qiǎn yàn",
-        "B": "jiǎn yàng",
-        "C": "jiǎn yàn",
-        "D": "jiǎng yàn"
+        "A": "xiáo jiē",
+        "B": "qiáo qiē",
+        "C": "qiáo jiē",
+        "D": "jiáo jiē"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“检验”读作 jiǎn yàn，本课词义：kiểm nghiệm, kiểm tra。"
+      "explanation": "“桥接”读作 qiáo jiē。注意声母、韵母、声调及轻声。",
+      "targetWord": "桥接"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“残留”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "cán liú",
+        "B": "chán liú",
+        "C": "cáng liú",
+        "D": "cán niú"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“残留”读作 cán liú。注意声母、韵母、声调及轻声。",
+      "targetWord": "残留"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“返修”的正确读音。",
+      "text": "【拼音选择】请选择“脱焊”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fǎn xiū",
-        "B": "fǎn qiū",
-        "C": "fǎng xiū",
-        "D": "hǎn xiū"
+        "A": "tuō hàn",
+        "B": "cuō hàn",
+        "C": "tuō fàn",
+        "D": "tuō hàng"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“返修”读作 fǎn xiū，本课词义：sửa chữa lại。"
+      "explanation": "“脱焊”读作 tuō hàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "脱焊"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“授权”的正确读音。",
+      "text": "【拼音选择】请选择“烧焦”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shòu quán",
-        "B": "sòu quán",
-        "C": "shào quán",
-        "D": "shòu xuán"
+        "A": "shāo qiāo",
+        "B": "shāo jiāo",
+        "C": "sāo jiāo",
+        "D": "shōu jiāo"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“授权”读作 shòu quán，本课词义：ủy quyền。"
+      "explanation": "“烧焦”读作 shāo jiāo。注意声母、韵母、声调及轻声。",
+      "targetWord": "烧焦"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“焊接”（hàn）。完整表达：这项焊接作业需要由经过培训的人员完成。"
+      "explanation": "应填“焊接”（hàn）。完整表达：这项焊接作业需要由经过培训的人员完成。",
+      "targetWord": "焊接",
+      "completeSentence": "这项焊接作业需要由经过培训的人员完成。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“焊点”（mối hàn）。完整表达：这个焊点外观有异常请协助判定。"
+      "explanation": "应填“焊点”（mối hàn）。完整表达：这个焊点外观有异常请协助判定。",
+      "targetWord": "焊点",
+      "completeSentence": "这个焊点外观有异常请协助判定。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“虚焊”（mối hàn kém, tiếp xúc kém）。完整表达：这处连接疑似虚焊需要进一步确认。"
+      "explanation": "应填“虚焊”（mối hàn kém, tiếp xúc kém）。完整表达：这处连接疑似虚焊需要进一步确认。",
+      "targetWord": "虚焊",
+      "completeSentence": "这处连接疑似虚焊需要进一步确认。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“漏焊”（bỏ sót mối hàn）。完整表达：这个位置可能存在漏焊请检查一下。"
+      "explanation": "应填“漏焊”（bỏ sót mối hàn）。完整表达：这个位置可能存在漏焊请检查一下。",
+      "targetWord": "漏焊",
+      "completeSentence": "这个位置可能存在漏焊请检查一下。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“连锡”（dính thiếc nối giữa các chân）。完整表达：这两个焊点之间疑似连锡请按标准判定。"
+      "explanation": "应填“连锡”（dính thiếc nối giữa các chân）。完整表达：这两个焊点之间疑似连锡请按标准判定。",
+      "targetWord": "连锡",
+      "completeSentence": "这两个焊点之间疑似连锡请按标准判定。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“锡膏”（kem hàn）。完整表达：这批锡膏的使用状态请按规定确认。"
+      "explanation": "应填“锡膏”（kem hàn）。完整表达：这批锡膏的使用状态请按规定确认。",
+      "targetWord": "锡膏",
+      "completeSentence": "这批锡膏的使用状态请按规定确认。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“烙铁”（mỏ hàn）。完整表达：这把烙铁状态异常请通知负责人员。"
+      "explanation": "应填“烙铁”（mỏ hàn）。完整表达：这把烙铁状态异常请通知负责人员。",
+      "targetWord": "烙铁",
+      "completeSentence": "这把烙铁状态异常请通知负责人员。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“检验”（kiểm nghiệm, kiểm tra）。完整表达：焊接完成以后请按文件要求安排检验。"
+      "explanation": "应填“检验”（kiểm nghiệm, kiểm tra）。完整表达：焊接完成以后请按文件要求安排检验。",
+      "targetWord": "检验",
+      "completeSentence": "焊接完成以后请按文件要求安排检验。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“返修”（sửa chữa lại）。完整表达：这件产品是否需要返修应由授权人员确认。"
+      "explanation": "应填“返修”（sửa chữa lại）。完整表达：这件产品是否需要返修应由授权人员确认。",
+      "targetWord": "返修",
+      "completeSentence": "这件产品是否需要返修应由授权人员确认。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“授权”（ủy quyền）。完整表达：没有授权我不会自行处理焊接缺陷。"
+      "explanation": "应填“授权”（ủy quyền）。完整表达：没有授权我不会自行处理焊接缺陷。",
+      "targetWord": "授权",
+      "completeSentence": "没有授权我不会自行处理焊接缺陷。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明焊接需由受训人员进行，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng hàn jiē xū yóu shòu xùn rén yuán jìn xíng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“焊点检查要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ hàn diǎn jiǎn chá yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这项焊接作业需要由经过培训的人员完成",
-        "B": "这两个焊点之间疑似连锡请按标准判定",
-        "C": "这处连接疑似虚焊需要进一步确认",
-        "D": "这件产品是否需要返修应由授权人员确认"
+        "A": "我还没有收到关于焊接缺陷的核实结果的资料",
+        "B": "我还需要进一步了解焊点检查要求",
+        "C": "我还没有收到关于焊点检查要求的资料",
+        "D": "我这次只想核实焊点检查要求"
       },
       "optionPinyin": {
-        "A": "zhè xiàng hàn jiē zuò yè xū yào yóu jīng guò péi xùn de rén yuán wán chéng",
-        "B": "zhè liǎng gè hàn diǎn zhī jiān yí sì lián xī qǐng àn biāo zhǔn pàn dìng",
-        "C": "zhè chù lián jiē yí sì xū hàn xū yào jìn yí bù què rèn",
-        "D": "zhè jiàn chǎn pǐn shì fǒu xū yào fǎn xiū yīng yóu shòu quán rén yuán què rèn"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要说明焊接需由受训人员进行，应该怎么说？\n符合此任务的表达：这项焊接作业需要由经过培训的人员完成。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 22,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你发现焊点看起来不正常，需要专业判定，应该怎么说？",
-      "pinyin": "nǐ fā xiàn hàn diǎn kàn qǐ lái bú zhèng cháng ， xū yào zhuān yè pàn dìng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这个焊点外观有异常请协助判定",
-        "B": "这个位置可能存在漏焊请检查一下",
-        "C": "关于焊接缺陷的核实结果我还需要再核实一下",
-        "D": "焊接完成以后请按文件要求安排检验"
-      },
-      "optionPinyin": {
-        "A": "zhè ge hàn diǎn wài guān yǒu yì cháng qǐng xié zhù pàn dìng",
-        "B": "zhè ge wèi zhì kě néng cún zài lòu hàn qǐng jiǎn chá yí xià",
-        "C": "guān yú hàn jiē quē xiàn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "hàn jiē wán chéng yǐ hòu qǐng àn wén jiàn yāo qiú ān pái jiǎn yàn"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你发现焊点看起来不正常，需要专业判定，应该怎么说？\n符合此任务的表达：这个焊点外观有异常请协助判定。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你怀疑焊接连接不可靠，需要确认，应该怎么说？",
-      "pinyin": "nǐ huái yí hàn jiē lián jiē bù kě kào ， xū yào què rèn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "如果焊接培训安排有变化请及时通知我",
-        "B": "这处连接疑似虚焊需要进一步确认",
-        "C": "没有授权我不会自行处理焊接缺陷",
-        "D": "请帮我确认一下焊点检查要求的具体要求"
-      },
-      "optionPinyin": {
-        "A": "rú guǒ hàn jiē péi xùn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "zhè chù lián jiē yí sì xū hàn xū yào jìn yí bù què rèn",
-        "C": "méi yǒu shòu quán wǒ bú huì zì xíng chǔ lǐ hàn jiē quē xiàn",
-        "D": "qǐng bāng wǒ què rèn yí xià hàn diǎn jiǎn chá yāo qiú de jù tǐ yāo qiú"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你怀疑焊接连接不可靠，需要确认，应该怎么说？\n符合此任务的表达：这处连接疑似虚焊需要进一步确认。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 24,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你怀疑该处没有完成焊接，应该怎么报告？",
-      "pinyin": "nǐ huái yí gāi chù méi yǒu wán chéng hàn jiē ， yīng gāi zěn me bào gào ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "我们先确认焊接作业文件再继续沟通",
-        "B": "没有授权我不会自行处理焊接缺陷",
-        "C": "焊接完成以后请按文件要求安排检验",
-        "D": "这个位置可能存在漏焊请检查一下"
-      },
-      "optionPinyin": {
-        "A": "wǒ men xiān què rèn hàn jiē zuò yè wén jiàn zài jì xù gōu tōng",
-        "B": "méi yǒu shòu quán wǒ bú huì zì xíng chǔ lǐ hàn jiē quē xiàn",
-        "C": "hàn jiē wán chéng yǐ hòu qǐng àn wén jiàn yāo qiú ān pái jiǎn yàn",
-        "D": "zhè ge wèi zhì kě néng cún zài lòu hàn qǐng jiǎn chá yí xià"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你怀疑该处没有完成焊接，应该怎么报告？\n符合此任务的表达：这个位置可能存在漏焊请检查一下。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你怀疑两个焊点之间有多余焊锡相连，应该怎么说？",
-      "pinyin": "nǐ huái yí liǎng gè hàn diǎn zhī jiān yǒu duō yú hàn xī xiāng lián ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这项焊接作业需要由经过培训的人员完成",
-        "B": "这个焊点外观有异常请协助判定",
-        "C": "这两个焊点之间疑似连锡请按标准判定",
-        "D": "这件产品是否需要返修应由授权人员确认"
-      },
-      "optionPinyin": {
-        "A": "zhè xiàng hàn jiē zuò yè xū yào yóu jīng guò péi xùn de rén yuán wán chéng",
-        "B": "zhè ge hàn diǎn wài guān yǒu yì cháng qǐng xié zhù pàn dìng",
-        "C": "zhè liǎng gè hàn diǎn zhī jiān yí sì lián xī qǐng àn biāo zhǔn pàn dìng",
-        "D": "zhè jiàn chǎn pǐn shì fǒu xū yào fǎn xiū yīng yóu shòu quán rén yuán què rèn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú hàn jiē quē xiàn de hé shí jié guǒ de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě hàn diǎn jiǎn chá yāo qiú",
+        "C": "wǒ hái méi yǒu shōu dào guān yú hàn diǎn jiǎn chá yāo qiú de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí hàn diǎn jiǎn chá yāo qiú"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你怀疑两个焊点之间有多余焊锡相连，应该怎么说？\n符合此任务的表达：这两个焊点之间疑似连锡请按标准判定。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“焊点检查要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于焊点检查要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于焊点检查要求的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“焊接缺陷的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ hàn jiē quē xiàn de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实焊接缺陷的核实结果",
+        "B": "我还没有收到关于焊接培训安排的资料",
+        "C": "我还没有收到关于焊接缺陷的核实结果的资料",
+        "D": "我还需要进一步了解焊接缺陷的核实结果"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē quē xiàn de hé shí jié guǒ",
+        "B": "wǒ hái méi yǒu shōu dào guān yú hàn jiē péi xùn ān pái de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú hàn jiē quē xiàn de hé shí jié guǒ de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē quē xiàn de hé shí jié guǒ"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“焊接缺陷的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于焊接缺陷的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于焊接缺陷的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“焊接培训安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ hàn jiē péi xùn ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实焊接培训安排",
+        "B": "我还没有收到关于焊接培训安排的资料",
+        "C": "我还需要进一步了解焊接培训安排",
+        "D": "我还没有收到关于焊接异常判定的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē péi xùn ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú hàn jiē péi xùn ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē péi xùn ān pái",
+        "D": "wǒ hái méi yǒu shōu dào guān yú hàn jiē yì cháng pàn dìng de zī liào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“焊接培训安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于焊接培训安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于焊接培训安排的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“焊接异常判定”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ hàn jiē yì cháng pàn dìng ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于焊接作业文件的资料",
+        "B": "我还需要进一步了解焊接异常判定",
+        "C": "我还没有收到关于焊接异常判定的资料",
+        "D": "我这次只想核实焊接异常判定"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú hàn jiē zuò yè wén jiàn de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē yì cháng pàn dìng",
+        "C": "wǒ hái méi yǒu shōu dào guān yú hàn jiē yì cháng pàn dìng de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē yì cháng pàn dìng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“焊接异常判定”的资料，怎样说明情况？\n合适的表达：我还没有收到关于焊接异常判定的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于焊接异常判定的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“焊接作业文件”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ hàn jiē zuò yè wén jiàn ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于焊点检查要求的资料",
+        "B": "我这次只想核实焊接作业文件",
+        "C": "我还没有收到关于焊接作业文件的资料",
+        "D": "我还需要进一步了解焊接作业文件"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú hàn diǎn jiǎn chá yāo qiú de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē zuò yè wén jiàn",
+        "C": "wǒ hái méi yǒu shōu dào guān yú hàn jiē zuò yè wén jiàn de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē zuò yè wén jiàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“焊接作业文件”的资料，怎样说明情况？\n合适的表达：我还没有收到关于焊接作业文件的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于焊接作业文件的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒确认这批焊料膏的使用状态，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng què rèn zhè pī hàn liào gāo de shǐ yòng zhuàng tài ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“焊点检查要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ hàn diǎn jiǎn chá yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "关于焊接缺陷的核实结果我还需要再核实一下",
-        "B": "请帮我确认一下焊点检查要求的具体要求",
-        "C": "这个焊点外观有异常请协助判定",
-        "D": "这批锡膏的使用状态请按规定确认"
+        "A": "我这次只想核实焊点检查要求",
+        "B": "我还没有收到关于焊点检查要求的资料",
+        "C": "我这次只想核实焊接缺陷的核实结果",
+        "D": "我还需要进一步了解焊点检查要求"
       },
       "optionPinyin": {
-        "A": "guān yú hàn jiē quē xiàn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "qǐng bāng wǒ què rèn yí xià hàn diǎn jiǎn chá yāo qiú de jù tǐ yāo qiú",
-        "C": "zhè ge hàn diǎn wài guān yǒu yì cháng qǐng xié zhù pàn dìng",
-        "D": "zhè pī xī gāo de shǐ yòng zhuàng tài qǐng àn guī dìng què rèn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí hàn diǎn jiǎn chá yāo qiú",
+        "B": "wǒ hái méi yǒu shōu dào guān yú hàn diǎn jiǎn chá yāo qiú de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē quē xiàn de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě hàn diǎn jiǎn chá yāo qiú"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你要提醒确认这批焊料膏的使用状态，应该怎么说？\n符合此任务的表达：这批锡膏的使用状态请按规定确认。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“焊点检查要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实焊点检查要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实焊点检查要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】焊接工具状态异常，你要通知负责人，应该怎么说？",
-      "pinyin": "hàn jiē gōng jù zhuàng tài yì cháng ， nǐ yào tōng zhī fù zé rén ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“焊接缺陷的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ hàn jiē quē xiàn de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这把烙铁状态异常请通知负责人员",
-        "B": "这两个焊点之间疑似连锡请按标准判定",
-        "C": "这个焊点外观有异常请协助判定",
-        "D": "没有授权我不会自行处理焊接缺陷"
+        "A": "我还没有收到关于焊接缺陷的核实结果的资料",
+        "B": "我这次只想核实焊接培训安排",
+        "C": "我还需要进一步了解焊接缺陷的核实结果",
+        "D": "我这次只想核实焊接缺陷的核实结果"
       },
       "optionPinyin": {
-        "A": "zhè bǎ lào tie zhuàng tài yì cháng qǐng tōng zhī fù zé rén yuán",
-        "B": "zhè liǎng gè hàn diǎn zhī jiān yí sì lián xī qǐng àn biāo zhǔn pàn dìng",
-        "C": "zhè ge hàn diǎn wài guān yǒu yì cháng qǐng xié zhù pàn dìng",
-        "D": "méi yǒu shòu quán wǒ bú huì zì xíng chǔ lǐ hàn jiē quē xiàn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú hàn jiē quē xiàn de hé shí jié guǒ de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē péi xùn ān pái",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē quē xiàn de hé shí jié guǒ",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē quē xiàn de hé shí jié guǒ"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：焊接工具状态异常，你要通知负责人，应该怎么说？\n符合此任务的表达：这把烙铁状态异常请通知负责人员。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“焊接缺陷的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实焊接缺陷的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实焊接缺陷的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒焊完后依据文件进行检查，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng hàn wán hòu yī jù wén jiàn jìn xíng jiǎn chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“焊接培训安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ hàn jiē péi xùn ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这项焊接作业需要由经过培训的人员完成",
-        "B": "这把烙铁状态异常请通知负责人员",
-        "C": "这个焊点外观有异常请协助判定",
-        "D": "焊接完成以后请按文件要求安排检验"
+        "A": "我还需要进一步了解焊接培训安排",
+        "B": "我这次只想核实焊接培训安排",
+        "C": "我还没有收到关于焊接培训安排的资料",
+        "D": "我这次只想核实焊接异常判定"
       },
       "optionPinyin": {
-        "A": "zhè xiàng hàn jiē zuò yè xū yào yóu jīng guò péi xùn de rén yuán wán chéng",
-        "B": "zhè bǎ lào tie zhuàng tài yì cháng qǐng tōng zhī fù zé rén yuán",
-        "C": "zhè ge hàn diǎn wài guān yǒu yì cháng qǐng xié zhù pàn dìng",
-        "D": "hàn jiē wán chéng yǐ hòu qǐng àn wén jiàn yāo qiú ān pái jiǎn yàn"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē péi xùn ān pái",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē péi xùn ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú hàn jiē péi xùn ān pái de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē yì cháng pàn dìng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你要提醒焊完后依据文件进行检查，应该怎么说？\n符合此任务的表达：焊接完成以后请按文件要求安排检验。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“焊接培训安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实焊接培训安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实焊接培训安排",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明维修处理决定需授权人员确认，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng wéi xiū chǔ lǐ jué dìng xū shòu quán rén yuán què rèn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“焊接异常判定”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ hàn jiē yì cháng pàn dìng ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这把烙铁状态异常请通知负责人员",
-        "B": "这个位置可能存在漏焊请检查一下",
-        "C": "这批锡膏的使用状态请按规定确认",
-        "D": "这件产品是否需要返修应由授权人员确认"
+        "A": "我还需要进一步了解焊接异常判定",
+        "B": "我这次只想核实焊接作业文件",
+        "C": "我还没有收到关于焊接异常判定的资料",
+        "D": "我这次只想核实焊接异常判定"
       },
       "optionPinyin": {
-        "A": "zhè bǎ lào tie zhuàng tài yì cháng qǐng tōng zhī fù zé rén yuán",
-        "B": "zhè ge wèi zhì kě néng cún zài lòu hàn qǐng jiǎn chá yí xià",
-        "C": "zhè pī xī gāo de shǐ yòng zhuàng tài qǐng àn guī dìng què rèn",
-        "D": "zhè jiàn chǎn pǐn shì fǒu xū yào fǎn xiū yīng yóu shòu quán rén yuán què rèn"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē yì cháng pàn dìng",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē zuò yè wén jiàn",
+        "C": "wǒ hái méi yǒu shōu dào guān yú hàn jiē yì cháng pàn dìng de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē yì cháng pàn dìng"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你要说明维修处理决定需授权人员确认，应该怎么说？\n符合此任务的表达：这件产品是否需要返修应由授权人员确认。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“焊接异常判定”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实焊接异常判定。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实焊接异常判定",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想表明不会擅自修理焊接问题，应该怎么说？",
-      "pinyin": "nǐ xiǎng biǎo míng bú huì shàn zì xiū lǐ hàn jiē wèn tí ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“焊接作业文件”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ hàn jiē zuò yè wén jiàn ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这批锡膏的使用状态请按规定确认",
-        "B": "这把烙铁状态异常请通知负责人员",
-        "C": "这件产品是否需要返修应由授权人员确认",
-        "D": "没有授权我不会自行处理焊接缺陷"
+        "A": "我还需要进一步了解焊接作业文件",
+        "B": "我这次只想核实焊点检查要求",
+        "C": "我还没有收到关于焊接作业文件的资料",
+        "D": "我这次只想核实焊接作业文件"
       },
       "optionPinyin": {
-        "A": "zhè pī xī gāo de shǐ yòng zhuàng tài qǐng àn guī dìng què rèn",
-        "B": "zhè bǎ lào tie zhuàng tài yì cháng qǐng tōng zhī fù zé rén yuán",
-        "C": "zhè jiàn chǎn pǐn shì fǒu xū yào fǎn xiū yīng yóu shòu quán rén yuán què rèn",
-        "D": "méi yǒu shòu quán wǒ bú huì zì xíng chǔ lǐ hàn jiē quē xiàn"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē zuò yè wén jiàn",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí hàn diǎn jiǎn chá yāo qiú",
+        "C": "wǒ hái méi yǒu shōu dào guān yú hàn jiē zuò yè wén jiàn de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē zuò yè wén jiàn"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你想表明不会擅自修理焊接问题，应该怎么说？\n符合此任务的表达：没有授权我不会自行处理焊接缺陷。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“焊接作业文件”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实焊接作业文件。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实焊接作业文件",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 31,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“焊点检查要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ hàn diǎn jiǎn chá yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“焊点检查要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ hàn diǎn jiǎn chá yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这把烙铁状态异常请通知负责人员",
-        "B": "请帮我确认一下焊点检查要求的具体要求",
-        "C": "这个位置可能存在漏焊请检查一下",
-        "D": "没有授权我不会自行处理焊接缺陷"
+        "A": "我这次只想核实焊点检查要求",
+        "B": "我还需要进一步了解焊接缺陷的核实结果",
+        "C": "我还需要进一步了解焊点检查要求",
+        "D": "我还没有收到关于焊点检查要求的资料"
       },
       "optionPinyin": {
-        "A": "zhè bǎ lào tie zhuàng tài yì cháng qǐng tōng zhī fù zé rén yuán",
-        "B": "qǐng bāng wǒ què rèn yí xià hàn diǎn jiǎn chá yāo qiú de jù tǐ yāo qiú",
-        "C": "zhè ge wèi zhì kě néng cún zài lòu hàn qǐng jiǎn chá yí xià",
-        "D": "méi yǒu shòu quán wǒ bú huì zì xíng chǔ lǐ hàn jiē quē xiàn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí hàn diǎn jiǎn chá yāo qiú",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē quē xiàn de hé shí jié guǒ",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě hàn diǎn jiǎn chá yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú hàn diǎn jiǎn chá yāo qiú de zī liào"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想请同事核实“焊点检查要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下焊点检查要求的具体要求。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“焊点检查要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解焊点检查要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解焊点检查要求",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 32,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你尚未核实“焊接缺陷的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ hàn jiē quē xiàn de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“焊接缺陷的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ hàn jiē quē xiàn de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果焊接培训安排有变化请及时通知我",
-        "B": "关于焊接缺陷的核实结果我还需要再核实一下",
-        "C": "请告诉我谁负责焊接异常判定",
-        "D": "这处连接疑似虚焊需要进一步确认"
+        "A": "我还需要进一步了解焊接缺陷的核实结果",
+        "B": "我还没有收到关于焊接缺陷的核实结果的资料",
+        "C": "我这次只想核实焊接缺陷的核实结果",
+        "D": "我还需要进一步了解焊接培训安排"
       },
       "optionPinyin": {
-        "A": "rú guǒ hàn jiē péi xùn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "guān yú hàn jiē quē xiàn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "C": "qǐng gào sù wǒ shuí fù zé hàn jiē yì cháng pàn dìng",
-        "D": "zhè chù lián jiē yí sì xū hàn xū yào jìn yí bù què rèn"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē quē xiàn de hé shí jié guǒ",
+        "B": "wǒ hái méi yǒu shōu dào guān yú hàn jiē quē xiàn de hé shí jié guǒ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē quē xiàn de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē péi xùn ān pái"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你尚未核实“焊接缺陷的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于焊接缺陷的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“焊接缺陷的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解焊接缺陷的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解焊接缺陷的核实结果",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 33,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望“焊接培训安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ hàn jiē péi xùn ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“焊接培训安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ hàn jiē péi xùn ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请帮我确认一下焊点检查要求的具体要求",
-        "B": "我们先确认焊接作业文件再继续沟通",
-        "C": "这把烙铁状态异常请通知负责人员",
-        "D": "如果焊接培训安排有变化请及时通知我"
+        "A": "我还没有收到关于焊接培训安排的资料",
+        "B": "我这次只想核实焊接培训安排",
+        "C": "我还需要进一步了解焊接异常判定",
+        "D": "我还需要进一步了解焊接培训安排"
       },
       "optionPinyin": {
-        "A": "qǐng bāng wǒ què rèn yí xià hàn diǎn jiǎn chá yāo qiú de jù tǐ yāo qiú",
-        "B": "wǒ men xiān què rèn hàn jiē zuò yè wén jiàn zài jì xù gōu tōng",
-        "C": "zhè bǎ lào tie zhuàng tài yì cháng qǐng tōng zhī fù zé rén yuán",
-        "D": "rú guǒ hàn jiē péi xùn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ hái méi yǒu shōu dào guān yú hàn jiē péi xùn ān pái de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē péi xùn ān pái",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē yì cháng pàn dìng",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē péi xùn ān pái"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望“焊接培训安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果焊接培训安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“焊接培训安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解焊接培训安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解焊接培训安排",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 34,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“焊接异常判定”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ hàn jiē yì cháng pàn dìng ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“焊接异常判定”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ hàn jiē yì cháng pàn dìng ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请告诉我谁负责焊接异常判定",
-        "B": "这处连接疑似虚焊需要进一步确认",
-        "C": "我们先确认焊接作业文件再继续沟通",
-        "D": "这项焊接作业需要由经过培训的人员完成"
+        "A": "我还没有收到关于焊接异常判定的资料",
+        "B": "我还需要进一步了解焊接异常判定",
+        "C": "我还需要进一步了解焊接作业文件",
+        "D": "我这次只想核实焊接异常判定"
       },
       "optionPinyin": {
-        "A": "qǐng gào sù wǒ shuí fù zé hàn jiē yì cháng pàn dìng",
-        "B": "zhè chù lián jiē yí sì xū hàn xū yào jìn yí bù què rèn",
-        "C": "wǒ men xiān què rèn hàn jiē zuò yè wén jiàn zài jì xù gōu tōng",
-        "D": "zhè xiàng hàn jiē zuò yè xū yào yóu jīng guò péi xùn de rén yuán wán chéng"
+        "A": "wǒ hái méi yǒu shōu dào guān yú hàn jiē yì cháng pàn dìng de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē yì cháng pàn dìng",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē zuò yè wén jiàn",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē yì cháng pàn dìng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“焊接异常判定”，应该怎么说？\n符合此任务的表达：请告诉我谁负责焊接异常判定。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“焊接异常判定”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解焊接异常判定。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解焊接异常判定",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 35,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望先确认“焊接作业文件”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ hàn jiē zuò yè wén jiàn ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“焊接作业文件”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ hàn jiē zuò yè wén jiàn ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认焊接作业文件再继续沟通",
-        "B": "这个位置可能存在漏焊请检查一下",
-        "C": "这处连接疑似虚焊需要进一步确认",
-        "D": "没有授权我不会自行处理焊接缺陷"
+        "A": "我这次只想核实焊接作业文件",
+        "B": "我还没有收到关于焊接作业文件的资料",
+        "C": "我还需要进一步了解焊点检查要求",
+        "D": "我还需要进一步了解焊接作业文件"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn hàn jiē zuò yè wén jiàn zài jì xù gōu tōng",
-        "B": "zhè ge wèi zhì kě néng cún zài lòu hàn qǐng jiǎn chá yí xià",
-        "C": "zhè chù lián jiē yí sì xū hàn xū yào jìn yí bù què rèn",
-        "D": "méi yǒu shòu quán wǒ bú huì zì xíng chǔ lǐ hàn jiē quē xiàn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí hàn jiē zuò yè wén jiàn",
+        "B": "wǒ hái méi yǒu shōu dào guān yú hàn jiē zuò yè wén jiàn de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě hàn diǎn jiǎn chá yāo qiú",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě hàn jiē zuò yè wén jiàn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“焊接作业文件”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认焊接作业文件再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“焊接作业文件”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解焊接作业文件。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解焊接作业文件",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 完成 / 这项焊接作业 / 由经过培训的人员",
-      "pinyin": "xū yào / wán chéng / zhè xiàng hàn jiē zuò yè / yóu jīng guò péi xùn de rén yuán",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n关于焊点检查要求的说明 / 发给我 / 把 / 请",
+      "pinyin": "guān yú hàn diǎn jiǎn chá yāo qiú de shuō míng / fā gěi wǒ / bǎ / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这项焊接作业需要由经过培训的人员完成",
-        "这项焊接作业需要由经过培训的人员完成。",
-        "这项焊接作业需要由经过培训的人员完成.",
-        "这项焊接作业需要由经过培训的人员完成？",
-        "这项焊接作业需要由经过培训的人员完成?"
+        "请把关于焊点检查要求的说明发给我。",
+        "请把关于焊点检查要求的说明发给我",
+        "请把关于焊点检查要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：这项焊接作业需要由经过培训的人员完成。\nzhè xiàng hàn jiē zuò yè xū yào yóu jīng guò péi xùn de rén yuán wán chéng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：请把关于焊点检查要求的说明发给我。\nqǐng bǎ guān yú hàn diǎn jiǎn chá yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n外观有异常 / 协助判定 / 这个焊点 / 请",
-      "pinyin": "wài guān yǒu yì cháng / xié zhù pàn dìng / zhè ge hàn diǎn / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n已经 / 焊接缺陷的核实结果 / 我们 / 核对过",
+      "pinyin": "yǐ jīng / hàn jiē quē xiàn de hé shí jié guǒ / wǒ men / hé duì guò",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个焊点外观有异常请协助判定",
-        "这个焊点外观有异常请协助判定。",
-        "这个焊点外观有异常请协助判定.",
-        "这个焊点外观有异常请协助判定？",
-        "这个焊点外观有异常请协助判定?"
+        "我们已经核对过焊接缺陷的核实结果。",
+        "我们已经核对过焊接缺陷的核实结果",
+        "我们已经核对过焊接缺陷的核实结果."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这个焊点外观有异常请协助判定。\nzhè ge hàn diǎn wài guān yǒu yì cháng qǐng xié zhù pàn dìng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过焊接缺陷的核实结果。\nwǒ men yǐ jīng hé duì guò hàn jiē quē xiàn de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这处连接 / 进一步确认 / 疑似虚焊 / 需要",
-      "pinyin": "zhè chù lián jiē / jìn yí bù què rèn / yí sì xū hàn / xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n才能解释清楚 / 先了解焊接培训安排 / 只有 / 我们",
+      "pinyin": "cái néng jiě shì qīng chǔ / xiān liǎo jiě hàn jiē péi xùn ān pái / zhǐ yǒu / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这处连接疑似虚焊需要进一步确认",
-        "这处连接疑似虚焊需要进一步确认。",
-        "这处连接疑似虚焊需要进一步确认.",
-        "这处连接疑似虚焊需要进一步确认？",
-        "这处连接疑似虚焊需要进一步确认?"
+        "只有先了解焊接培训安排我们才能解释清楚。",
+        "只有先了解焊接培训安排我们才能解释清楚",
+        "只有先了解焊接培训安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：这处连接疑似虚焊需要进一步确认。\nzhè chù lián jiē yí sì xū hàn xū yào jìn yí bù què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：只有先了解焊接培训安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě hàn jiē péi xùn ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 这个位置 / 检查一下 / 可能存在漏焊",
-      "pinyin": "qǐng / zhè ge wèi zhì / jiǎn chá yí xià / kě néng cún zài lòu hàn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还想知道 / 不仅想了解焊接异常判定 / 我 / 具体由谁负责",
+      "pinyin": "hái xiǎng zhī dào / bù jǐn xiǎng liǎo jiě hàn jiē yì cháng pàn dìng / wǒ / jù tǐ yóu shuí fù zé",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个位置可能存在漏焊请检查一下",
-        "这个位置可能存在漏焊请检查一下。",
-        "这个位置可能存在漏焊请检查一下.",
-        "这个位置可能存在漏焊请检查一下？",
-        "这个位置可能存在漏焊请检查一下?"
+        "我不仅想了解焊接异常判定还想知道具体由谁负责。",
+        "我不仅想了解焊接异常判定还想知道具体由谁负责",
+        "我不仅想了解焊接异常判定还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：这个位置可能存在漏焊请检查一下。\nzhè ge wèi zhì kě néng cún zài lòu hàn qǐng jiǎn chá yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 22,
+      "explanation": "参考句子：我不仅想了解焊接异常判定还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě hàn jiē yì cháng pàn dìng hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n疑似连锡 / 这两个焊点之间 / 请 / 按标准判定",
-      "pinyin": "yí sì lián xī / zhè liǎng gè hàn diǎn zhī jiān / qǐng / àn biāo zhǔn pàn dìng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n讨论焊接作业文件 / 之前 / 先准备好相关记录 / 请",
+      "pinyin": "tǎo lùn hàn jiē zuò yè wén jiàn / zhī qián / xiān zhǔn bèi hǎo xiāng guān jì lù / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这两个焊点之间疑似连锡请按标准判定",
-        "这两个焊点之间疑似连锡请按标准判定。",
-        "这两个焊点之间疑似连锡请按标准判定.",
-        "这两个焊点之间疑似连锡请按标准判定？",
-        "这两个焊点之间疑似连锡请按标准判定?"
+        "讨论焊接作业文件之前请先准备好相关记录。",
+        "讨论焊接作业文件之前请先准备好相关记录",
+        "讨论焊接作业文件之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：这两个焊点之间疑似连锡请按标准判定。\nzhè liǎng gè hàn diǎn zhī jiān yí sì lián xī qǐng àn biāo zhǔn pàn dìng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论焊接作业文件之前请先准备好相关记录。\ntǎo lùn hàn jiē zuò yè wén jiàn zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n确认 / 这批锡膏的使用状态 / 请 / 按规定",
-      "pinyin": "què rèn / zhè pī xī gāo de shǐ yòng zhuàng tài / qǐng / àn guī dìng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n关于焊点检查要求 / 想请教您 / 我 / 有一个问题",
+      "pinyin": "guān yú hàn diǎn jiǎn chá yāo qiú / xiǎng qǐng jiào nín / wǒ / yǒu yí gè wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这批锡膏的使用状态请按规定确认",
-        "这批锡膏的使用状态请按规定确认。",
-        "这批锡膏的使用状态请按规定确认.",
-        "这批锡膏的使用状态请按规定确认？",
-        "这批锡膏的使用状态请按规定确认?"
+        "关于焊点检查要求我有一个问题想请教您。",
+        "关于焊点检查要求我有一个问题想请教您",
+        "关于焊点检查要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：这批锡膏的使用状态请按规定确认。\nzhè pī xī gāo de shǐ yòng zhuàng tài qǐng àn guī dìng què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：关于焊点检查要求我有一个问题想请教您。\nguān yú hàn diǎn jiǎn chá yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n通知负责人员 / 状态异常 / 请 / 这把烙铁",
-      "pinyin": "tōng zhī fù zé rén yuán / zhuàng tài yì cháng / qǐng / zhè bǎ lào tie",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先向负责人询问 / 你还不清楚焊接缺陷的核实结果 / 就 / 如果",
+      "pinyin": "xiān xiàng fù zé rén xún wèn / nǐ hái bù qīng chǔ hàn jiē quē xiàn de hé shí jié guǒ / jiù / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这把烙铁状态异常请通知负责人员",
-        "这把烙铁状态异常请通知负责人员。",
-        "这把烙铁状态异常请通知负责人员.",
-        "这把烙铁状态异常请通知负责人员？",
-        "这把烙铁状态异常请通知负责人员?"
+        "如果你还不清楚焊接缺陷的核实结果就先向负责人询问。",
+        "如果你还不清楚焊接缺陷的核实结果就先向负责人询问",
+        "如果你还不清楚焊接缺陷的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：这把烙铁状态异常请通知负责人员。\nzhè bǎ lào tie zhuàng tài yì cháng qǐng tōng zhī fù zé rén yuán。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚焊接缺陷的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ hàn jiē quē xiàn de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n按文件要求 / 安排检验 / 焊接完成以后 / 请",
-      "pinyin": "àn wén jiàn yāo qiú / ān pái jiǎn yàn / hàn jiē wán chéng yǐ hòu / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们已经讨论过焊接培训安排 / 但是 / 虽然 / 还需要核实细节",
+      "pinyin": "wǒ men yǐ jīng tǎo lùn guò hàn jiē péi xùn ān pái / dàn shì / suī rán / hái xū yào hé shí xì jié",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "焊接完成以后请按文件要求安排检验",
-        "焊接完成以后请按文件要求安排检验。",
-        "焊接完成以后请按文件要求安排检验.",
-        "焊接完成以后请按文件要求安排检验？",
-        "焊接完成以后请按文件要求安排检验?"
+        "虽然我们已经讨论过焊接培训安排但是还需要核实细节。",
+        "虽然我们已经讨论过焊接培训安排但是还需要核实细节",
+        "虽然我们已经讨论过焊接培训安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：焊接完成以后请按文件要求安排检验。\nhàn jiē wán chéng yǐ hòu qǐng àn wén jiàn yāo qiú ān pái jiǎn yàn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：虽然我们已经讨论过焊接培训安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò hàn jiē péi xùn ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这件产品 / 是否需要返修 / 授权人员确认 / 应由",
-      "pinyin": "zhè jiàn chǎn pǐn / shì fǒu xū yào fǎn xiū / shòu quán rén yuán què rèn / yīng yóu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n与其 / 查阅相关文件 / 反复猜测焊接异常判定 / 不如",
+      "pinyin": "yǔ qí / chá yuè xiāng guān wén jiàn / fǎn fù cāi cè hàn jiē yì cháng pàn dìng / bù rú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这件产品是否需要返修应由授权人员确认",
-        "这件产品是否需要返修应由授权人员确认。",
-        "这件产品是否需要返修应由授权人员确认.",
-        "这件产品是否需要返修应由授权人员确认？",
-        "这件产品是否需要返修应由授权人员确认?"
+        "与其反复猜测焊接异常判定不如查阅相关文件。",
+        "与其反复猜测焊接异常判定不如查阅相关文件",
+        "与其反复猜测焊接异常判定不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：这件产品是否需要返修应由授权人员确认。\nzhè jiàn chǎn pǐn shì fǒu xū yào fǎn xiū yīng yóu shòu quán rén yuán què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：与其反复猜测焊接异常判定不如查阅相关文件。\nyǔ qí fǎn fù cāi cè hàn jiē yì cháng pàn dìng bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n不会 / 没有授权 / 自行处理焊接缺陷 / 我",
-      "pinyin": "bú huì / méi yǒu shòu quán / zì xíng chǔ lǐ hàn jiē quē xiàn / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n准确说明焊接作业文件 / 我 / 重新整理了资料 / 为了",
+      "pinyin": "zhǔn què shuō míng hàn jiē zuò yè wén jiàn / wǒ / chóng xīn zhěng lǐ le zī liào / wèi le",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "没有授权我不会自行处理焊接缺陷",
-        "没有授权我不会自行处理焊接缺陷。",
-        "没有授权我不会自行处理焊接缺陷.",
-        "没有授权我不会自行处理焊接缺陷？",
-        "没有授权我不会自行处理焊接缺陷?"
+        "为了准确说明焊接作业文件我重新整理了资料。",
+        "为了准确说明焊接作业文件我重新整理了资料",
+        "为了准确说明焊接作业文件我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：没有授权我不会自行处理焊接缺陷。\nméi yǒu shòu quán wǒ bú huì zì xíng chǔ lǐ hàn jiē quē xiàn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明焊接作业文件我重新整理了资料。\nwèi le zhǔn què shuō míng hàn jiē zuò yè wén jiàn wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n的具体要求 / 帮我确认一下 / 请 / 焊点检查要求",
-      "pinyin": "de jù tǐ yāo qiú / bāng wǒ què rèn yí xià / qǐng / hàn diǎn jiǎn chá yāo qiú",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有疑问的话 / 大家 / 对焊点检查要求 / 可以提出来",
+      "pinyin": "yǒu yí wèn de huà / dà jiā / duì hàn diǎn jiǎn chá yāo qiú / kě yǐ tí chū lái",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下焊点检查要求的具体要求",
-        "请帮我确认一下焊点检查要求的具体要求。",
-        "请帮我确认一下焊点检查要求的具体要求.",
-        "请帮我确认一下焊点检查要求的具体要求？",
-        "请帮我确认一下焊点检查要求的具体要求?"
+        "大家对焊点检查要求有疑问的话可以提出来。",
+        "大家对焊点检查要求有疑问的话可以提出来",
+        "大家对焊点检查要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：请帮我确认一下焊点检查要求的具体要求。\nqǐng bāng wǒ què rèn yí xià hàn diǎn jiǎn chá yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：大家对焊点检查要求有疑问的话可以提出来。\ndà jiā duì hàn diǎn jiǎn chá yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 还需要 / 焊接缺陷的核实结果 / 关于 / 再核实一下",
-      "pinyin": "wǒ / hái xū yào / hàn jiē quē xiàn de hé shí jié guǒ / guān yú / zài hé shí yí xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先说明焊接缺陷的核实结果 / 回答大家的问题 / 再 / 请",
+      "pinyin": "xiān shuō míng hàn jiē quē xiàn de hé shí jié guǒ / huí dá dà jiā de wèn tí / zài / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于焊接缺陷的核实结果我还需要再核实一下",
-        "关于焊接缺陷的核实结果我还需要再核实一下。",
-        "关于焊接缺陷的核实结果我还需要再核实一下.",
-        "关于焊接缺陷的核实结果我还需要再核实一下？",
-        "关于焊接缺陷的核实结果我还需要再核实一下?"
+        "请先说明焊接缺陷的核实结果再回答大家的问题。",
+        "请先说明焊接缺陷的核实结果再回答大家的问题",
+        "请先说明焊接缺陷的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于焊接缺陷的核实结果我还需要再核实一下。\nguān yú hàn jiē quē xiàn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明焊接缺陷的核实结果再回答大家的问题。\nqǐng xiān shuō míng hàn jiē quē xiàn de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 及时通知我 / 有变化 / 焊接培训安排 / 如果",
-      "pinyin": "qǐng / jí shí tōng zhī wǒ / yǒu biàn huà / hàn jiē péi xùn ān pái / rú guǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n应该以有效文件为依据 / 都 / 谁来说明焊接培训安排 / 无论",
+      "pinyin": "yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / dōu / shuí lái shuō míng hàn jiē péi xùn ān pái / wú lùn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果焊接培训安排有变化请及时通知我",
-        "如果焊接培训安排有变化请及时通知我。",
-        "如果焊接培训安排有变化请及时通知我.",
-        "如果焊接培训安排有变化请及时通知我？",
-        "如果焊接培训安排有变化请及时通知我?"
+        "无论谁来说明焊接培训安排都应该以有效文件为依据。",
+        "无论谁来说明焊接培训安排都应该以有效文件为依据",
+        "无论谁来说明焊接培训安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：如果焊接培训安排有变化请及时通知我。\nrú guǒ hàn jiē péi xùn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：无论谁来说明焊接培训安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng hàn jiē péi xùn ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n谁 / 请 / 负责 / 焊接异常判定 / 告诉我",
-      "pinyin": "shuí / qǐng / fù zé / hàn jiē yì cháng pàn dìng / gào sù wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 涉及的问题 / 焊接异常判定 / 逐项记录清楚",
+      "pinyin": "xū yào / shè jí de wèn tí / hàn jiē yì cháng pàn dìng / zhú xiàng jì lù qīng chǔ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责焊接异常判定",
-        "请告诉我谁负责焊接异常判定。",
-        "请告诉我谁负责焊接异常判定.",
-        "请告诉我谁负责焊接异常判定？",
-        "请告诉我谁负责焊接异常判定?"
+        "焊接异常判定涉及的问题需要逐项记录清楚。",
+        "焊接异常判定涉及的问题需要逐项记录清楚",
+        "焊接异常判定涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：请告诉我谁负责焊接异常判定。\nqǐng gào sù wǒ shuí fù zé hàn jiē yì cháng pàn dìng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：焊接异常判定涉及的问题需要逐项记录清楚。\nhàn jiē yì cháng pàn dìng shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n继续沟通 / 再 / 先 / 确认 / 焊接作业文件 / 我们",
-      "pinyin": "jì xù gōu tōng / zài / xiān / què rèn / hàn jiē zuò yè wén jiàn / wǒ men",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 再补充相关记录 / 等 / 焊接作业文件确认以后",
+      "pinyin": "wǒ men / zài bǔ chōng xiāng guān jì lù / děng / hàn jiē zuò yè wén jiàn què rèn yǐ hòu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认焊接作业文件再继续沟通",
-        "我们先确认焊接作业文件再继续沟通。",
-        "我们先确认焊接作业文件再继续沟通.",
-        "我们先确认焊接作业文件再继续沟通？",
-        "我们先确认焊接作业文件再继续沟通?"
+        "等焊接作业文件确认以后我们再补充相关记录。",
+        "等焊接作业文件确认以后我们再补充相关记录",
+        "等焊接作业文件确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认焊接作业文件再继续沟通。\nwǒ men xiān què rèn hàn jiē zuò yè wén jiàn zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等焊接作业文件确认以后我们再补充相关记录。\nděng hàn jiē zuò yè wén jiàn què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

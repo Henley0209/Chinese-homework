@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第29课 我想预约理发",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“预约”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yù yuē",
-        "B": "bù yuē",
-        "C": "dù yuē",
-        "D": "cù yuē"
+        "A": "cù yuē",
+        "B": "dù yuē",
+        "C": "yù yuē",
+        "D": "bù yuē"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“预约”读作 yù yuē，本课词义：đặt lịch。"
+      "explanation": "“预约”读作 yù yuē。注意声母、韵母、声调及轻声。",
+      "targetWord": "预约"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“剪短”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiǎn duǎn",
-        "B": "jiǎng duǎn",
-        "C": "qiǎn duǎn",
-        "D": "biǎn duǎn"
+        "A": "qiǎn duǎn",
+        "B": "biǎn duǎn",
+        "C": "jiǎng duǎn",
+        "D": "jiǎn duǎn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“剪短”读作 jiǎn duǎn，本课词义：cắt ngắn。"
+      "explanation": "“剪短”读作 jiǎn duǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "剪短"
     },
     {
       "id": 3,
@@ -47,37 +49,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“长度”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chuáng dù",
-        "B": "cháng dù",
-        "C": "chán dù",
+        "A": "chán dù",
+        "B": "chuáng dù",
+        "C": "cháng dù",
         "D": "cáng dù"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“长度”读作 cháng dù，本课词义：độ dài。"
+      "explanation": "“长度”读作 cháng dù。注意声母、韵母、声调及轻声。",
+      "targetWord": "长度"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“洗头”的正确读音。",
+      "text": "【拼音选择】请选择“发尾”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xǐ táo",
-        "B": "bǐ tóu",
-        "C": "qǐ tóu",
-        "D": "xǐ tóu"
+        "A": "fā wěi",
+        "B": "bā wěi",
+        "C": "fā wǎi",
+        "D": "hā wěi"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "“洗头”读作 xǐ tóu，本课词义：gội đầu。"
+      "explanation": "“发尾”读作 fā wěi。注意声母、韵母、声调及轻声。",
+      "targetWord": "发尾"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“镜子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jìn zi",
-        "B": "jìng zi",
-        "C": "jìng zhi",
-        "D": "qìng zi"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“镜子”读作 jìng zi，本课词义：gương。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：你好我想____明天下午理发。",
-      "pinyin": "nǐ hǎo wǒ xiǎng ____ míng tiān xià wǔ lǐ fà",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đặt lịch.",
-      "options": {
-        "A": "预约",
-        "B": "镜子",
-        "C": "剪短",
-        "D": "长度"
-      },
-      "optionPinyin": {
-        "A": "yù yuē",
-        "B": "jìng zi",
-        "C": "jiǎn duǎn",
-        "D": "cháng dù"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“预约”（đặt lịch）。完整表达：你好我想预约明天下午理发。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：两边请帮我稍微____一点。",
-      "pinyin": "liǎng biān qǐng bāng wǒ shāo wēi ____ yì diǎn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: cắt ngắn.",
-      "options": {
-        "A": "预约",
-        "B": "洗头",
-        "C": "长度",
-        "D": "剪短"
-      },
-      "optionPinyin": {
-        "A": "yù yuē",
-        "B": "xǐ tóu",
-        "C": "cháng dù",
-        "D": "jiǎn duǎn"
+        "A": "jìng zhi",
+        "B": "jìn zi",
+        "C": "qìng zi",
+        "D": "jìng zi"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“剪短”（cắt ngắn）。完整表达：两边请帮我稍微剪短一点。"
+      "explanation": "“镜子”读作 jìng zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "镜子"
     },
     {
-      "id": 8,
+      "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：上面的头发请保留现在的____。",
-      "pinyin": "shàng miàn de tóu fà qǐng bǎo liú xiàn zài de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: độ dài.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我想换一个容易打理的____。",
+      "pinyin": "wǒ xiǎng huàn yí gè róng yì dǎ lǐ de ____。",
+      "vietnamese": "Gợi ý: kiểu tóc.",
       "options": {
-        "A": "剪短",
-        "B": "镜子",
-        "C": "长度",
-        "D": "预约"
-      },
-      "optionPinyin": {
-        "A": "jiǎn duǎn",
-        "B": "jìng zi",
-        "C": "cháng dù",
-        "D": "yù yuē"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“长度”（độ dài）。完整表达：上面的头发请保留现在的长度。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这个价格包括____吗。",
-      "pinyin": "qǐng wèn zhè ge jià gé bāo kuò ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: gội đầu.",
-      "options": {
-        "A": "镜子",
-        "B": "剪短",
+        "A": "发型",
+        "B": "修剪",
         "C": "洗头",
-        "D": "预约"
+        "D": "刘海"
       },
       "optionPinyin": {
-        "A": "jìng zi",
-        "B": "jiǎn duǎn",
+        "A": "fà xíng",
+        "B": "xiū jiǎn",
         "C": "xǐ tóu",
-        "D": "yù yuē"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“洗头”（gội đầu）。完整表达：请问这个价格包括洗头吗。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：麻烦您拿面____让我看看后面。",
-      "pinyin": "má fán nín ná miàn ____ ràng wǒ kàn kàn hòu miàn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: gương.",
-      "options": {
-        "A": "镜子",
-        "B": "长度",
-        "C": "剪短",
-        "D": "洗头"
-      },
-      "optionPinyin": {
-        "A": "jìng zi",
-        "B": "cháng dù",
-        "C": "jiǎn duǎn",
-        "D": "xǐ tóu"
+        "D": "liú hǎi"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“镜子”（gương）。完整表达：麻烦您拿面镜子让我看看后面。"
+      "explanation": "应填“发型”。完整句子：我想换一个容易打理的发型。\n语法与搭配：的字短语",
+      "targetWord": "发型",
+      "completeSentence": "我想换一个容易打理的发型。",
+      "grammarFocus": "的字短语"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：前面的____有点长，麻烦修一下。",
+      "pinyin": "qián miàn de ____ yǒu diǎn zhǎng ， má fán xiū yí xià 。",
+      "vietnamese": "Gợi ý: tóc mái.",
+      "options": {
+        "A": "刘海",
+        "B": "发型",
+        "C": "洗头",
+        "D": "修剪"
+      },
+      "optionPinyin": {
+        "A": "liú hǎi",
+        "B": "fà xíng",
+        "C": "xǐ tóu",
+        "D": "xiū jiǎn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“刘海”。完整句子：前面的刘海有点长，麻烦修一下。\n语法与搭配：有点；一下",
+      "targetWord": "刘海",
+      "completeSentence": "前面的刘海有点长，麻烦修一下。",
+      "grammarFocus": "有点；一下"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：剪发以前需要先____吗？",
+      "pinyin": "jiǎn fà yǐ qián xū yào xiān ____ ma ？",
+      "vietnamese": "Gợi ý: gội đầu.",
+      "options": {
+        "A": "发型",
+        "B": "洗头",
+        "C": "刘海",
+        "D": "修剪"
+      },
+      "optionPinyin": {
+        "A": "fà xíng",
+        "B": "xǐ tóu",
+        "C": "liú hǎi",
+        "D": "xiū jiǎn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“洗头”。完整句子：剪发以前需要先洗头吗？\n语法与搭配：……以前；需要……吗",
+      "targetWord": "洗头",
+      "completeSentence": "剪发以前需要先洗头吗？",
+      "grammarFocus": "……以前；需要……吗"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我不想剪短，只想____一下发尾。",
+      "pinyin": "wǒ bù xiǎng jiǎn duǎn ， zhǐ xiǎng ____ yí xià fā wěi 。",
+      "vietnamese": "Gợi ý: cắt tỉa.",
+      "options": {
+        "A": "刘海",
+        "B": "发型",
+        "C": "洗头",
+        "D": "修剪"
+      },
+      "optionPinyin": {
+        "A": "liú hǎi",
+        "B": "fà xíng",
+        "C": "xǐ tóu",
+        "D": "xiū jiǎn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“修剪”。完整句子：我不想剪短，只想修剪一下发尾。\n语法与搭配：不想；只想",
+      "targetWord": "修剪",
+      "completeSentence": "我不想剪短，只想修剪一下发尾。",
+      "grammarFocus": "不想；只想"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：到店以后，请出示您的____。",
+      "pinyin": "dào diàn yǐ hòu ， qǐng chū shì nín de ____。",
+      "vietnamese": "Gợi ý: mã đặt lịch.",
+      "options": {
+        "A": "洗头",
+        "B": "发型",
+        "C": "预约号",
+        "D": "刘海"
+      },
+      "optionPinyin": {
+        "A": "xǐ tóu",
+        "B": "fà xíng",
+        "C": "yù yuē hào",
+        "D": "liú hǎi"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“预约号”。完整句子：到店以后，请出示您的预约号。\n语法与搭配：……以后；请",
+      "targetWord": "预约号",
+      "completeSentence": "到店以后，请出示您的预约号。",
+      "grammarFocus": "……以后；请"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n想预约 / 明天下午理发 / 我 / 你好",
-      "pinyin": "xiǎng yù yuē / míng tiān xià wǔ lǐ fà / wǒ / nǐ hǎo",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 剪短一点 / 后面不要剪太多 / 帮我把两边",
+      "pinyin": "qǐng / jiǎn duǎn yì diǎn / hòu miàn bú yào jiǎn tài duō / bāng wǒ bǎ liǎng biān",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "你好我想预约明天下午理发。",
-        "你好我想预约明天下午理发",
-        "你好我想预约明天下午理发.",
-        "你好我想预约明天下午理发？",
-        "你好我想预约明天下午理发?"
+        "请帮我把两边剪短一点后面不要剪太多。",
+        "请帮我把两边剪短一点后面不要剪太多",
+        "请帮我把两边剪短一点后面不要剪太多."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：你好我想预约明天下午理发。\nnǐ hǎo wǒ xiǎng yù yuē míng tiān xià wǔ lǐ fà。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：请帮我把两边剪短一点后面不要剪太多。\nqǐng bāng wǒ bǎ liǎng biān jiǎn duǎn yì diǎn hòu miàn bú yào jiǎn tài duō\n语法与搭配：帮；把；不要",
+      "grammarFocus": "帮；把；不要"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n稍微剪短一点 / 帮我 / 请 / 两边",
-      "pinyin": "shāo wēi jiǎn duǎn yì diǎn / bāng wǒ / qǐng / liǎng biān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n这样的样子 / 想剪成 / 带了一张照片 / 我",
+      "pinyin": "zhè yàng de yàng zi / xiǎng jiǎn chéng / dài le yì zhāng zhào piān / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "两边请帮我稍微剪短一点。",
-        "两边请帮我稍微剪短一点",
-        "两边请帮我稍微剪短一点.",
-        "两边请帮我稍微剪短一点？",
-        "两边请帮我稍微剪短一点?"
+        "我带了一张照片想剪成这样的样子。",
+        "我带了一张照片想剪成这样的样子",
+        "我带了一张照片想剪成这样的样子."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：两边请帮我稍微剪短一点。\nliǎng biān qǐng bāng wǒ shāo wēi jiǎn duǎn yì diǎn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：我带了一张照片想剪成这样的样子。\nwǒ dài le yì zhāng zhào piān xiǎng jiǎn chéng zhè yàng de yàng zi\n语法与搭配：……了；成：结果补语",
+      "grammarFocus": "……了；成：结果补语"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n上面的头发 / 保留 / 现在的长度 / 请",
-      "pinyin": "shàng miàn de tóu fà / bǎo liú / xiàn zài de cháng dù / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还有时间吗 / 明天上午 / 今天已经约满 / 如果",
+      "pinyin": "hái yǒu shí jiān ma / míng tiān shàng wǔ / jīn tiān yǐ jīng yuē mǎn / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "上面的头发请保留现在的长度。",
-        "上面的头发请保留现在的长度",
-        "上面的头发请保留现在的长度.",
-        "上面的头发请保留现在的长度？",
-        "上面的头发请保留现在的长度?"
+        "如果今天已经约满明天上午还有时间吗？",
+        "如果今天已经约满明天上午还有时间吗",
+        "如果今天已经约满明天上午还有时间吗?"
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：上面的头发请保留现在的长度。\nshàng miàn de tóu fà qǐng bǎo liú xiàn zài de cháng dù。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：如果今天已经约满明天上午还有时间吗？\nrú guǒ jīn tiān yǐ jīng yuē mǎn míng tiān shàng wǔ hái yǒu shí jiān ma\n语法与搭配：如果；还有",
+      "grammarFocus": "如果；还有"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n这个价格 / 包括 / 洗头吗 / 请问",
-      "pinyin": "zhè ge jià gé / bāo kuò / xǐ tóu ma / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n染发 / 需要 / 大概 / 多长时间",
+      "pinyin": "rǎn fā / xū yào / dà gài / duō zhǎng shí jiān",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这个价格包括洗头吗。",
-        "请问这个价格包括洗头吗",
-        "请问这个价格包括洗头吗.",
-        "请问这个价格包括洗头吗？",
-        "请问这个价格包括洗头吗?"
+        "染发大概需要多长时间。",
+        "染发大概需要多长时间",
+        "染发大概需要多长时间."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请问这个价格包括洗头吗。\nqǐng wèn zhè ge jià gé bāo kuò xǐ tóu ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 10,
+      "explanation": "参考句子：染发大概需要多长时间。\nrǎn fā dà gài xū yào duō zhǎng shí jiān\n语法与搭配：大概；多长时间",
+      "grammarFocus": "大概；多长时间"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n让我 / 拿面镜子 / 麻烦您 / 看看后面",
-      "pinyin": "ràng wǒ / ná miàn jìng zi / má fán nín / kàn kàn hòu miàn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n怎么打理 / 教我 / 能不能 / 剪完以后",
+      "pinyin": "zěn me dǎ lǐ / jiào wǒ / néng bù néng / jiǎn wán yǐ hòu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦您拿面镜子让我看看后面。",
-        "麻烦您拿面镜子让我看看后面",
-        "麻烦您拿面镜子让我看看后面.",
-        "麻烦您拿面镜子让我看看后面？",
-        "麻烦您拿面镜子让我看看后面?"
+        "剪完以后能不能教我怎么打理。",
+        "剪完以后能不能教我怎么打理",
+        "剪完以后能不能教我怎么打理."
       ],
       "points": 5,
       "hanziCount": 13,
-      "explanation": "参考表达：麻烦您拿面镜子让我看看后面。\nmá fán nín ná miàn jìng zi ràng wǒ kàn kàn hòu miàn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：剪完以后能不能教我怎么打理。\njiǎn wán yǐ hòu néng bù néng jiào wǒ zěn me dǎ lǐ\n语法与搭配：……以后；能不能；怎么",
+      "grammarFocus": "……以后；能不能；怎么"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

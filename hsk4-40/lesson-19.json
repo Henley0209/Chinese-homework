@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第19课 生活的味道",
-  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“味道”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "wèi dào",
-        "B": "wèi dòu",
-        "C": "bèi dào",
+        "B": "bèi dào",
+        "C": "wèi dòu",
         "D": "wài dào"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“味道”的正确读音是 wèi dào。"
+      "explanation": "“味道”读作 wèi dào。注意声母、韵母、声调及轻声。",
+      "targetWord": "味道"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“甜”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "dián",
-        "B": "mián",
-        "C": "tián",
+        "B": "tián",
+        "C": "mián",
         "D": "lián"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“甜”的正确读音是 tián。"
+      "explanation": "“甜”读作 tián。注意声母、韵母、声调及轻声。",
+      "targetWord": "甜"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“苦”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kǔ",
-        "B": "bǔ",
+        "A": "bǔ",
+        "B": "kǔ",
         "C": "cǔ",
         "D": "dǔ"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“苦”的正确读音是 kǔ。"
+      "explanation": "“苦”读作 kǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "苦"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“酸”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shuān",
-        "B": "suān",
-        "C": "cuān",
-        "D": "duān"
+        "A": "suān",
+        "B": "cuān",
+        "C": "duān",
+        "D": "shuān"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“酸”的正确读音是 suān。"
+      "explanation": "“酸”读作 suān。注意声母、韵母、声调及轻声。",
+      "targetWord": "酸"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“辣”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bà",
-        "B": "nà",
-        "C": "là",
-        "D": "cà"
+        "A": "cà",
+        "B": "là",
+        "C": "bà",
+        "D": "nà"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“辣”的正确读音是 là。"
+      "explanation": "“辣”读作 là。注意声母、韵母、声调及轻声。",
+      "targetWord": "辣"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“咸”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xián",
-        "B": "qián",
-        "C": "dián",
+        "A": "qián",
+        "B": "dián",
+        "C": "xián",
         "D": "xiáng"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“咸”的正确读音是 xián。"
+      "explanation": "“咸”读作 xián。注意声母、韵母、声调及轻声。",
+      "targetWord": "咸"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“回忆”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "huá yì",
-        "B": "chuí yì",
-        "C": "huái yì",
-        "D": "huí yì"
+        "A": "chuí yì",
+        "B": "huí yì",
+        "C": "huá yì",
+        "D": "huái yì"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“回忆”的正确读音是 huí yì。"
+      "explanation": "“回忆”读作 huí yì。注意声母、韵母、声调及轻声。",
+      "targetWord": "回忆"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“经历”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qīng lì",
+        "A": "jīn lì",
         "B": "jīng nì",
-        "C": "jīng lì",
-        "D": "jīn lì"
+        "C": "qīng lì",
+        "D": "jīng lì"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“经历”的正确读音是 jīng lì。"
+      "explanation": "“经历”读作 jīng lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "经历"
     },
     {
       "id": 9,
@@ -161,18 +169,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“童年”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tóng nián",
-        "B": "cóng nián",
-        "C": "tóng lián",
-        "D": "tóng niáng"
+        "A": "tóng niáng",
+        "B": "tóng lián",
+        "C": "tóng nián",
+        "D": "cóng nián"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“童年”的正确读音是 tóng nián。"
+      "explanation": "“童年”读作 tóng nián。注意声母、韵母、声调及轻声。",
+      "targetWord": "童年"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“家乡”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiā xiān",
+        "A": "qiā xiāng",
         "B": "jiā xiāng",
-        "C": "qiā xiāng",
+        "C": "jiā xiān",
         "D": "jiā qiāng"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“家乡”的正确读音是 jiā xiāng。"
+      "explanation": "“家乡”读作 jiā xiāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "家乡"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“思念”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sī liàn",
-        "B": "shī niàn",
-        "C": "sī niàn",
-        "D": "sī niàng"
+        "A": "sī niàn",
+        "B": "sī niàng",
+        "C": "sī liàn",
+        "D": "shī niàn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“思念”的正确读音是 sī niàn。"
+      "explanation": "“思念”读作 sī niàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "思念"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“温暖”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wēng nuǎn",
-        "B": "bēn nuǎn",
-        "C": "wēn nuǎn",
-        "D": "wēn luǎn"
+        "A": "wēn luǎn",
+        "B": "wēn nuǎn",
+        "C": "wēng nuǎn",
+        "D": "bēn nuǎn"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“温暖”的正确读音是 wēn nuǎn。"
+      "explanation": "“温暖”读作 wēn nuǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "温暖"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“感动”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎng dòng",
-        "B": "bǎn dòng",
-        "C": "cǎn dòng",
-        "D": "gǎn dòng"
+        "A": "cǎn dòng",
+        "B": "gǎng dòng",
+        "C": "gǎn dòng",
+        "D": "bǎn dòng"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“感动”的正确读音是 gǎn dòng。"
+      "explanation": "“感动”读作 gǎn dòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "感动"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“成长”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chéng zhǎng",
-        "B": "chéng zǎng",
-        "C": "chéng zhǎn",
+        "A": "chéng zǎng",
+        "B": "chéng zhǎn",
+        "C": "chéng zhǎng",
         "D": "céng zhǎng"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“成长”的正确读音是 chéng zhǎng。"
+      "explanation": "“成长”读作 chéng zhǎng。注意声母、韵母、声调及轻声。",
+      "targetWord": "成长"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“珍贵”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zēn guì",
-        "B": "zhēng guì",
-        "C": "chēn guì",
-        "D": "zhēn guì"
+        "A": "zhēn guì",
+        "B": "zēn guì",
+        "C": "zhēng guì",
+        "D": "chēn guì"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“珍贵”的正确读音是 zhēn guì。"
+      "explanation": "“珍贵”读作 zhēn guì。注意声母、韵母、声调及轻声。",
+      "targetWord": "珍贵"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“熟悉”（quen thuộc）。完整句子：闻到厨房里熟悉的饭菜香，她想起了妈妈。"
+      "explanation": "应填“熟悉”（quen thuộc）。完整句子：闻到厨房里熟悉的饭菜香，她想起了妈妈。",
+      "targetWord": "熟悉",
+      "completeSentence": "闻到厨房里熟悉的饭菜香，她想起了妈妈。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“难忘”（khó quên）。完整句子：第一次独自旅行是一次难忘的经历。"
+      "explanation": "应填“难忘”（khó quên）。完整句子：第一次独自旅行是一次难忘的经历。",
+      "targetWord": "难忘",
+      "completeSentence": "第一次独自旅行是一次难忘的经历。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“感受”（cảm nhận）。完整句子：请用几句话写出你今天最真实的感受。"
+      "explanation": "应填“感受”（cảm nhận）。完整句子：请用几句话写出你今天最真实的感受。",
+      "targetWord": "感受",
+      "completeSentence": "请用几句话写出你今天最真实的感受。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“平凡”（bình dị）。完整句子：这些平凡的小事，组成了我们的生活。"
+      "explanation": "应填“平凡”（bình dị）。完整句子：这些平凡的小事，组成了我们的生活。",
+      "targetWord": "平凡",
+      "completeSentence": "这些平凡的小事，组成了我们的生活。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“记忆”（ký ức）。完整句子：外婆做的米饭一直留在我的记忆里。"
+      "explanation": "应填“记忆”（ký ức）。完整句子：外婆做的米饭一直留在我的记忆里。",
+      "targetWord": "记忆",
+      "completeSentence": "外婆做的米饭一直留在我的记忆里。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“珍惜”（trân trọng）。完整句子：离开家以后，我更加珍惜与家人团聚的机会。"
+      "explanation": "应填“珍惜”（trân trọng）。完整句子：离开家以后，我更加珍惜与家人团聚的机会。",
+      "targetWord": "珍惜",
+      "completeSentence": "离开家以后，我更加珍惜与家人团聚的机会。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“承担”（gánh vác）。完整句子：开始工作以后，他学会了承担更多责任。"
+      "explanation": "应填“承担”（gánh vác）。完整句子：开始工作以后，他学会了承担更多责任。",
+      "targetWord": "承担",
+      "completeSentence": "开始工作以后，他学会了承担更多责任。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“收获”（điều nhận được）。完整句子：除了成绩，我还从这次学习中得到了别的收获。"
+      "explanation": "应填“收获”（điều nhận được）。完整句子：除了成绩，我还从这次学习中得到了别的收获。",
+      "targetWord": "收获",
+      "completeSentence": "除了成绩，我还从这次学习中得到了别的收获。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“理解”（hiểu）。完整句子：有了自己的生活经历，他才理解父母的辛苦。"
+      "explanation": "应填“理解”（hiểu）。完整句子：有了自己的生活经历，他才理解父母的辛苦。",
+      "targetWord": "理解",
+      "completeSentence": "有了自己的生活经历，他才理解父母的辛苦。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“变化”（thay đổi）。完整句子：多年以后再回家乡，他发现这里有了很大变化。"
+      "explanation": "应填“变化”（thay đổi）。完整句子：多年以后再回家乡，他发现这里有了很大变化。",
+      "targetWord": "变化",
+      "completeSentence": "多年以后再回家乡，他发现这里有了很大变化。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“陪伴”（ở bên）。完整句子：真正让人怀念的，是家人在身边的陪伴。"
+      "explanation": "应填“陪伴”（ở bên）。完整句子：真正让人怀念的，是家人在身边的陪伴。",
+      "targetWord": "陪伴",
+      "completeSentence": "真正让人怀念的，是家人在身边的陪伴。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“选择”（lựa chọn）。完整句子：不同的选择，可能带来不同的人生经历。"
+      "explanation": "应填“选择”（lựa chọn）。完整句子：不同的选择，可能带来不同的人生经历。",
+      "targetWord": "选择",
+      "completeSentence": "不同的选择，可能带来不同的人生经历。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“失去”（mất đi）。完整句子：不要等到失去以后，才知道原来拥有的很重要。"
+      "explanation": "应填“失去”（mất đi）。完整句子：不要等到失去以后，才知道原来拥有的很重要。",
+      "targetWord": "失去",
+      "completeSentence": "不要等到失去以后，才知道原来拥有的很重要。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“记录”（ghi lại）。完整句子：她喜欢用日记记录生活中的喜怒哀乐。"
+      "explanation": "应填“记录”（ghi lại）。完整句子：她喜欢用日记记录生活中的喜怒哀乐。",
+      "targetWord": "记录",
+      "completeSentence": "她喜欢用日记记录生活中的喜怒哀乐。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“接受”（chấp nhận）。完整句子：长大以后，我们要学会接受生活中不完美的部分。"
+      "explanation": "应填“接受”（chấp nhận）。完整句子：长大以后，我们要学会接受生活中不完美的部分。",
+      "targetWord": "接受",
+      "completeSentence": "长大以后，我们要学会接受生活中不完美的部分。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "一碗看起来普通的米饭有时候也藏着一个人对家的思念."
       ],
       "points": 2,
-      "explanation": "参考句子：一碗看起来普通的米饭有时候也藏着一个人对家的思念。\nyī wǎn kàn qǐ lái pǔ tōng de mǐ fàn yǒu shí hòu yě cáng zhe yí gè rén duì jiā de sī niàn 。",
-      "hanziCount": 24
+      "explanation": "参考句子：一碗看起来普通的米饭有时候也藏着一个人对家的思念。\nyī wǎn kàn qǐ lái pǔ tōng de mǐ fàn yǒu shí hòu yě cáng zhe yí gè rén duì jiā de sī niàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 24,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "只有经历过生活的辛苦我们才能更加珍惜眼前的幸福."
       ],
       "points": 2,
-      "explanation": "参考句子：只有经历过生活的辛苦我们才能更加珍惜眼前的幸福。\nzhǐ yǒu jīng lì guò shēng huó de xīn kǔ wǒ men cái néng gèng jiā zhēn xī yǎn qián de xìng fú 。",
-      "hanziCount": 23
+      "explanation": "参考句子：只有经历过生活的辛苦我们才能更加珍惜眼前的幸福。\nzhǐ yǒu jīng lì guò shēng huó de xīn kǔ wǒ men cái néng gèng jiā zhēn xī yǎn qián de xìng fú 。\n语法与搭配：只有……才……：必要条件",
+      "hanziCount": 23,
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "他离开家乡多年以后仍然忘不了小时候妈妈做的饭菜."
       ],
       "points": 2,
-      "explanation": "参考句子：他离开家乡多年以后仍然忘不了小时候妈妈做的饭菜。\ntā lí kāi jiā xiāng duō nián yǐ hòu réng rán wàng bù liǎo xiǎo shí hou mā mā zuò de fàn cài 。",
-      "hanziCount": 23
+      "explanation": "参考句子：他离开家乡多年以后仍然忘不了小时候妈妈做的饭菜。\ntā lí kāi jiā xiāng duō nián yǐ hòu réng rán wàng bù liǎo xiǎo shí hou mā mā zuò de fàn cài 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 23,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "生活的味道不只是甜的也包括那些让我们成长的苦."
       ],
       "points": 2,
-      "explanation": "参考句子：生活的味道不只是甜的也包括那些让我们成长的苦。\nshēng huó de wèi dào bù zhǐ shì tián de yě bāo kuò nà xiē ràng wǒ men chéng zhǎng de kǔ 。",
-      "hanziCount": 22
+      "explanation": "参考句子：生活的味道不只是甜的也包括那些让我们成长的苦。\nshēng huó de wèi dào bù zhǐ shì tián de yě bāo kuò nà xiē ràng wǒ men chéng zhǎng de kǔ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "当我学会独立照顾自己以后才真正理解了父母的辛苦."
       ],
       "points": 2,
-      "explanation": "参考句子：当我学会独立照顾自己以后才真正理解了父母的辛苦。\ndāng wǒ xué huì dú lì zhào gù zì jǐ yǐ hòu cái zhēn zhèng lǐ jiě le fù mǔ de xīn kǔ 。",
-      "hanziCount": 23
+      "explanation": "参考句子：当我学会独立照顾自己以后才真正理解了父母的辛苦。\ndāng wǒ xué huì dú lì zhào gù zì jǐ yǐ hòu cái zhēn zhèng lǐ jiě le fù mǔ de xīn kǔ 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 23,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "这篇文章主要介绍了家乡味道带来的回忆."
       ],
       "points": 2,
-      "explanation": "参考句子：这篇文章主要介绍了家乡味道带来的回忆。\nzhè piān wén zhāng zhǔ yào jiè shào le jiā xiāng wèi dào dài lái de huí yì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：这篇文章主要介绍了家乡味道带来的回忆。\nzhè piān wén zhāng zhǔ yào jiè shào le jiā xiāng wèi dào dài lái de huí yì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "请结合例子具体说明平凡生活中的感动."
       ],
       "points": 2,
-      "explanation": "参考句子：请结合例子具体说明平凡生活中的感动。\nqǐng jié hé lì zi jù tǐ shuō míng píng fán shēng huó zhōng de gǎn dòng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：请结合例子具体说明平凡生活中的感动。\nqǐng jié hé lì zi jù tǐ shuō míng píng fán shēng huó zhōng de gǎn dòng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "我们还没有讨论清楚独自生活后的变化."
       ],
       "points": 2,
-      "explanation": "参考句子：我们还没有讨论清楚独自生活后的变化。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ dú zì shēng huó hòu de biàn huà 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我们还没有讨论清楚独自生活后的变化。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ dú zì shēng huó hòu de biàn huà 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "大家都需要认真了解童年经历留下的影响."
       ],
       "points": 2,
-      "explanation": "参考句子：大家都需要认真了解童年经历留下的影响。\ndà jiā dōu xū yào rèn zhēn liǎo jiě tóng nián jīng lì liú xià de yǐng xiǎng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：大家都需要认真了解童年经历留下的影响。\ndà jiā dōu xū yào rèn zhēn liǎo jiě tóng nián jīng lì liú xià de yǐng xiǎng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "这次活动让我们重新思考离开家乡后的真实感受."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考离开家乡后的真实感受。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo lí kāi jiā xiāng hòu de zhēn shí gǎn shòu 。",
-      "hanziCount": 21
+      "explanation": "参考句子：这次活动让我们重新思考离开家乡后的真实感受。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo lí kāi jiā xiāng hòu de zhēn shí gǎn shòu 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 21,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "老师希望大家认真分析面对不完美时的态度."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析面对不完美时的态度。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī miàn duì bù wán měi shí de tài dù 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析面对不完美时的态度。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī miàn duì bù wán měi shí de tài dù 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "我们有必要深入了解成长过程中承担的责任."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解成长过程中承担的责任。\nwǒ men yǒu bì yào shēn rù liǎo jiě chéng zhǎng guò chéng zhōng chéng dān de zé rèn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我们有必要深入了解成长过程中承担的责任。\nwǒ men yǒu bì yào shēn rù liǎo jiě chéng zhǎng guò chéng zhōng chéng dān de zé rèn 。\n语法与搭配：动词＋过：经历表达",
+      "hanziCount": 19,
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "他在报告中详细介绍了亲情与生活中的陪伴."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了亲情与生活中的陪伴。\ntā zài bào gào zhōng xiáng xì jiè shào le qīn qíng yǔ shēng huó zhōng de péi bàn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：他在报告中详细介绍了亲情与生活中的陪伴。\ntā zài bào gào zhōng xiáng xì jiè shào le qīn qíng yǔ shēng huó zhōng de péi bàn 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 19,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "请大家先讨论一下不同选择带来的收获."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下不同选择带来的收获。\nqǐng dà jiā xiān tǎo lùn yī xià bù tóng xuǎn zé dài lái de shōu huò 。",
-      "hanziCount": 17
+      "explanation": "参考句子：请大家先讨论一下不同选择带来的收获。\nqǐng dà jiā xiān tǎo lùn yī xià bù tóng xuǎn zé dài lái de shōu huò 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "我想请老师进一步解释记录生活经历的方法."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释记录生活经历的方法。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì jì lù shēng huó jīng lì de fāng fǎ 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我想请老师进一步解释记录生活经历的方法。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì jì lù shēng huó jīng lì de fāng fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "同学们正在一起讨论怎样理解父母的辛苦."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论怎样理解父母的辛苦。\ntóng xué men zhèng zài yì qǐ tǎo lùn zěn yàng lǐ jiě fù mǔ de xīn kǔ 。",
-      "hanziCount": 18
+      "explanation": "参考句子：同学们正在一起讨论怎样理解父母的辛苦。\ntóng xué men zhèng zài yì qǐ tǎo lùn zěn yàng lǐ jiě fù mǔ de xīn kǔ 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 18,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "老师请我们认真讨论生活困难带来的成长."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论生活困难带来的成长。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn shēng huó kùn nán dài lái de chéng zhǎng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：老师请我们认真讨论生活困难带来的成长。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn shēng huó kùn nán dài lái de chéng zhǎng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "我们应该提前了解与家人团聚时的心情."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解与家人团聚时的心情。\nwǒ men yīng gāi tí qián liǎo jiě yǔ jiā rén tuán jù shí de xīn qíng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我们应该提前了解与家人团聚时的心情。\nwǒ men yīng gāi tí qián liǎo jiě yǔ jiā rén tuán jù shí de xīn qíng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "大家可以一起讨论珍惜眼前幸福的理由."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论珍惜眼前幸福的理由。\ndà jiā kě yǐ yì qǐ tǎo lùn zhēn xī yǎn qián xìng fú de lǐ yóu 。",
-      "hanziCount": 17
+      "explanation": "参考句子：大家可以一起讨论珍惜眼前幸福的理由。\ndà jiā kě yǐ yì qǐ tǎo lùn zhēn xī yǎn qián xìng fú de lǐ yóu 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "我已经认真考虑过一道家常菜背后的故事."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过一道家常菜背后的故事。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò yī dào jiā cháng cài bèi hòu de gù shì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我已经认真考虑过一道家常菜背后的故事。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò yī dào jiā cháng cài bèi hòu de gù shì 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 18,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第35课 团队合作与改善建议",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“合作”的正确读音。",
+      "text": "【拼音选择】请选择“互助”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "ché zuò",
-        "B": "hé zuò",
-        "C": "hé zhuò",
-        "D": "dé zuò"
+        "A": "hù zù",
+        "B": "fù zhù",
+        "C": "bù zhù",
+        "D": "hù zhù"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“合作”读作 hé zuò，本课词义：hợp tác。"
+      "explanation": "“互助”读作 hù zhù。注意声母、韵母、声调及轻声。",
+      "targetWord": "互助"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“改善”的正确读音。",
+      "text": "【拼音选择】请选择“共享”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎi shàng",
-        "B": "gěi shàn",
-        "C": "gǎi sàn",
-        "D": "gǎi shàn"
+        "A": "gòng xiǎn",
+        "B": "gòng xiǎng",
+        "C": "gòng qiǎng",
+        "D": "bòng xiǎng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“改善”读作 gǎi shàn，本课词义：cải tiến。"
+      "explanation": "“共享”读作 gòng xiǎng。注意声母、韵母、声调及轻声。",
+      "targetWord": "共享"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“建议”的正确读音。",
+      "text": "【拼音选择】请选择“分担”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biàn yì",
-        "B": "jiàng yì",
-        "C": "jiàn yì",
-        "D": "qiàn yì"
+        "A": "fēn dān",
+        "B": "fēng dān",
+        "C": "hēn dān",
+        "D": "fēn dāng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“建议”读作 jiàn yì，本课词义：đề xuất。"
+      "explanation": "“分担”读作 fēn dān。注意声母、韵母、声调及轻声。",
+      "targetWord": "分担"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“效率”的正确读音。",
+      "text": "【拼音选择】请选择“采纳”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiào lǜ",
-        "B": "qiào lǜ",
-        "C": "xiào nù",
-        "D": "biào lǜ"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“效率”读作 xiào lǜ，本课词义：hiệu suất。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“配合”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "pèi hé",
-        "B": "bèi hé",
-        "C": "pài hé",
-        "D": "cèi hé"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“配合”读作 pèi hé，本课词义：phối hợp。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“试行”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "shì qíng",
-        "B": "shì xíng",
-        "C": "shì xín",
-        "D": "sì xíng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“试行”读作 shì xíng，本课词义：thực hiện thử。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“效果”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "xiào guǒ",
-        "B": "biào guǒ",
-        "C": "diào guǒ",
-        "D": "qiào guǒ"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“效果”读作 xiào guǒ，本课词义：hiệu quả。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“反馈”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "fǎng kuì",
-        "B": "bǎn kuì",
-        "C": "hǎn kuì",
-        "D": "fǎn kuì"
+        "A": "cǎi là",
+        "B": "bǎi nà",
+        "C": "chǎi nà",
+        "D": "cǎi nà"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“反馈”读作 fǎn kuì，本课词义：phản hồi。"
+      "explanation": "“采纳”读作 cǎi nà。注意声母、韵母、声调及轻声。",
+      "targetWord": "采纳"
     },
     {
-      "id": 9,
+      "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“评估”的正确读音。",
+      "text": "【拼音选择】请选择“建议箱”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "líng gū",
-        "B": "pín gū",
-        "C": "píng gū",
-        "D": "míng gū"
+        "A": "jiàn yì qiāng",
+        "B": "qiàn yì xiāng",
+        "C": "jiàn yì xiān",
+        "D": "jiàn yì xiāng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“建议箱”读作 jiàn yì xiāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "建议箱"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“试点”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "chì diǎn",
+        "B": "shuì diǎn",
+        "C": "shì diǎn",
+        "D": "sì diǎn"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“评估”读作 píng gū，本课词义：đánh giá。"
+      "explanation": "“试点”读作 shì diǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "试点"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“优化”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "yōu huà",
+        "B": "cōu huà",
+        "C": "dōu huà",
+        "D": "yāo huà"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“优化”读作 yōu huà。注意声母、韵母、声调及轻声。",
+      "targetWord": "优化"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“成效”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "chéng xiào",
+        "B": "chéng qiào",
+        "C": "chén xiào",
+        "D": "céng xiào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“成效”读作 chéng xiào。注意声母、韵母、声调及轻声。",
+      "targetWord": "成效"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“复盘”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "bù pán",
+        "B": "hù pán",
+        "C": "fù pán",
+        "D": "fù páng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“复盘”读作 fù pán。注意声母、韵母、声调及轻声。",
+      "targetWord": "复盘"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“总结”的正确读音。",
+      "text": "【拼音选择】请选择“持续”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhǒng jié",
-        "B": "zǒng jié",
-        "C": "zǒng qié",
-        "D": "cǒng jié"
+        "A": "chí qù",
+        "B": "chí xù",
+        "C": "cí xù",
+        "D": "chuí xù"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“总结”读作 zǒng jié，本课词义：tổng kết。"
+      "explanation": "“持续”读作 chí xù。注意声母、韵母、声调及轻声。",
+      "targetWord": "持续"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“合作”（hợp tác）。完整表达：这项任务需要几个岗位共同合作。"
+      "explanation": "应填“合作”（hợp tác）。完整表达：这项任务需要几个岗位共同合作。",
+      "targetWord": "合作",
+      "completeSentence": "这项任务需要几个岗位共同合作。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“改善”（cải tiến）。完整表达：这个改善想法我想先向组长汇报。"
+      "explanation": "应填“改善”（cải tiến）。完整表达：这个改善想法我想先向组长汇报。",
+      "targetWord": "改善",
+      "completeSentence": "这个改善想法我想先向组长汇报。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“建议”（đề xuất）。完整表达：我的建议是先核实问题再讨论方案。"
+      "explanation": "应填“建议”（đề xuất）。完整表达：我的建议是先核实问题再讨论方案。",
+      "targetWord": "建议",
+      "completeSentence": "我的建议是先核实问题再讨论方案。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“效率”（hiệu suất）。完整表达：提高效率不能以忽视质量和安全为代价。"
+      "explanation": "应填“效率”（hiệu suất）。完整表达：提高效率不能以忽视质量和安全为代价。",
+      "targetWord": "效率",
+      "completeSentence": "提高效率不能以忽视质量和安全为代价。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“配合”（phối hợp）。完整表达：请问这项调整需要哪些部门配合。"
+      "explanation": "应填“配合”（phối hợp）。完整表达：请问这项调整需要哪些部门配合。",
+      "targetWord": "配合",
+      "completeSentence": "请问这项调整需要哪些部门配合。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“试行”（thực hiện thử）。完整表达：是否可以试行需要先得到批准。"
+      "explanation": "应填“试行”（thực hiện thử）。完整表达：是否可以试行需要先得到批准。",
+      "targetWord": "试行",
+      "completeSentence": "是否可以试行需要先得到批准。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“效果”（hiệu quả）。完整表达：这次调整的效果需要根据实际数据评估。"
+      "explanation": "应填“效果”（hiệu quả）。完整表达：这次调整的效果需要根据实际数据评估。",
+      "targetWord": "效果",
+      "completeSentence": "这次调整的效果需要根据实际数据评估。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“反馈”（phản hồi）。完整表达：使用过程中的问题请及时反馈给负责人。"
+      "explanation": "应填“反馈”（phản hồi）。完整表达：使用过程中的问题请及时反馈给负责人。",
+      "targetWord": "反馈",
+      "completeSentence": "使用过程中的问题请及时反馈给负责人。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“评估”（đánh giá）。完整表达：这项风险评估我还需要请专业人员协助。"
+      "explanation": "应填“评估”（đánh giá）。完整表达：这项风险评估我还需要请专业人员协助。",
+      "targetWord": "评估",
+      "completeSentence": "这项风险评估我还需要请专业人员协助。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“总结”（tổng kết）。完整表达：活动结束以后我们一起总结经验。"
+      "explanation": "应填“总结”（tổng kết）。完整表达：活动结束以后我们一起总结经验。",
+      "targetWord": "总结",
+      "completeSentence": "活动结束以后我们一起总结经验。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明此任务需多个岗位配合，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng cǐ rèn wù xū duō gè gǎng wèi pèi hé ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“改善提案要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ gǎi shàn tí àn yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请问这项调整需要哪些部门配合",
-        "B": "这项任务需要几个岗位共同合作",
-        "C": "这个改善想法我想先向组长汇报",
-        "D": "这次调整的效果需要根据实际数据评估"
+        "A": "我这次只想核实改善提案要求",
+        "B": "我还需要进一步了解改善提案要求",
+        "C": "我还没有收到关于改善效果的核实结果的资料",
+        "D": "我还没有收到关于改善提案要求的资料"
       },
       "optionPinyin": {
-        "A": "qǐng wèn zhè xiàng tiáo zhěng xū yào nǎ xiē bù mén pèi hé",
-        "B": "zhè xiàng rèn wù xū yào jǐ gè gǎng wèi gòng tóng hé zuò",
-        "C": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "D": "zhè cì tiáo zhěng de xiào guǒ xū yào gēn jù shí jì shù jù píng gū"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn tí àn yāo qiú",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn tí àn yāo qiú",
+        "C": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn xiào guǒ de hé shí jié guǒ de zī liào",
+        "D": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn tí àn yāo qiú de zī liào"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你要说明此任务需多个岗位配合，应该怎么说？\n符合此任务的表达：这项任务需要几个岗位共同合作。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“改善提案要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于改善提案要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于改善提案要求的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你提出改进构想，准备先向负责人报告，应该怎么说？",
-      "pinyin": "nǐ tí chū gǎi jìn gòu xiǎng ， zhǔn bèi xiān xiàng fù zé rén bào gào ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“改善效果的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ gǎi shàn xiào guǒ de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请告诉我谁负责改善方案审批",
-        "B": "请帮我确认一下改善提案要求的具体要求",
-        "C": "这个改善想法我想先向组长汇报",
-        "D": "我们先确认改进任务分工再继续沟通"
+        "A": "我还需要进一步了解改善效果的核实结果",
+        "B": "我还没有收到关于改善效果的核实结果的资料",
+        "C": "我这次只想核实改善效果的核实结果",
+        "D": "我还没有收到关于团队讨论安排的资料"
       },
       "optionPinyin": {
-        "A": "qǐng gào sù wǒ shuí fù zé gǎi shàn fāng àn shěn pī",
-        "B": "qǐng bāng wǒ què rèn yí xià gǎi shàn tí àn yāo qiú de jù tǐ yāo qiú",
-        "C": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "D": "wǒ men xiān què rèn gǎi jìn rèn wù fēn gōng zài jì xù gōu tōng"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn xiào guǒ de hé shí jié guǒ",
+        "B": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn xiào guǒ de hé shí jié guǒ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn xiào guǒ de hé shí jié guǒ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú tuán duì tǎo lùn ān pái de zī liào"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你提出改进构想，准备先向负责人报告，应该怎么说？\n符合此任务的表达：这个改善想法我想先向组长汇报。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“改善效果的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于改善效果的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于改善效果的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要建议先查明情况再讨论办法，应该怎么说？",
-      "pinyin": "nǐ yào jiàn yì xiān chá míng qíng kuàng zài tǎo lùn bàn fǎ ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“团队讨论安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ tuán duì tǎo lùn ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这个改善想法我想先向组长汇报",
-        "B": "提高效率不能以忽视质量和安全为代价",
-        "C": "是否可以试行需要先得到批准",
-        "D": "我的建议是先核实问题再讨论方案"
+        "A": "我还需要进一步了解团队讨论安排",
+        "B": "我还没有收到关于改善方案审批的资料",
+        "C": "我还没有收到关于团队讨论安排的资料",
+        "D": "我这次只想核实团队讨论安排"
       },
       "optionPinyin": {
-        "A": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "B": "tí gāo xiào lǜ bù néng yǐ hū shì zhì liàng hé ān quán wèi dài jià",
-        "C": "shì fǒu kě yǐ shì xíng xū yào xiān dé dào pī zhǔn",
-        "D": "wǒ de jiàn yì shì xiān hé shí wèn tí zài tǎo lùn fāng àn"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě tuán duì tǎo lùn ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn fāng àn shěn pī de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú tuán duì tǎo lùn ān pái de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí tuán duì tǎo lùn ān pái"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你要建议先查明情况再讨论办法，应该怎么说？\n符合此任务的表达：我的建议是先核实问题再讨论方案。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“团队讨论安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于团队讨论安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于团队讨论安排的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想强调提升效率须兼顾品质与安全，应该怎么说？",
-      "pinyin": "nǐ xiǎng qiáng diào tí shēng xiào lǜ xū jiān gù pǐn zhì yǔ ān quán ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“改善方案审批”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ gǎi shàn fāng àn shěn pī ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这项风险评估我还需要请专业人员协助",
-        "B": "提高效率不能以忽视质量和安全为代价",
-        "C": "这项任务需要几个岗位共同合作",
-        "D": "使用过程中的问题请及时反馈给负责人"
+        "A": "我还没有收到关于改善方案审批的资料",
+        "B": "我这次只想核实改善方案审批",
+        "C": "我还需要进一步了解改善方案审批",
+        "D": "我还没有收到关于改进任务分工的资料"
       },
       "optionPinyin": {
-        "A": "zhè xiàng fēng xiǎn píng gū wǒ hái xū yào qǐng zhuān yè rén yuán xié zhù",
-        "B": "tí gāo xiào lǜ bù néng yǐ hū shì zhì liàng hé ān quán wèi dài jià",
-        "C": "zhè xiàng rèn wù xū yào jǐ gè gǎng wèi gòng tóng hé zuò",
-        "D": "shǐ yòng guò chéng zhōng de wèn tí qǐng jí shí fǎn kuì gěi fù zé rén"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想强调提升效率须兼顾品质与安全，应该怎么说？\n符合此任务的表达：提高效率不能以忽视质量和安全为代价。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要确认哪些部门须共同参与调整，应该怎么问？",
-      "pinyin": "nǐ yào què rèn nǎ xiē bù mén xū gòng tóng cān yù tiáo zhěng ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "提高效率不能以忽视质量和安全为代价",
-        "B": "活动结束以后我们一起总结经验",
-        "C": "如果团队讨论安排有变化请及时通知我",
-        "D": "请问这项调整需要哪些部门配合"
-      },
-      "optionPinyin": {
-        "A": "tí gāo xiào lǜ bù néng yǐ hū shì zhì liàng hé ān quán wèi dài jià",
-        "B": "huó dòng jié shù yǐ hòu wǒ men yì qǐ zǒng jié jīng yàn",
-        "C": "rú guǒ tuán duì tǎo lùn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "D": "qǐng wèn zhè xiàng tiáo zhěng xū yào nǎ xiē bù mén pèi hé"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要确认哪些部门须共同参与调整，应该怎么问？\n符合此任务的表达：请问这项调整需要哪些部门配合。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要说明试行改动前需获批准，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng shì xíng gǎi dòng qián xū huò pī zhǔn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "是否可以试行需要先得到批准",
-        "B": "这个改善想法我想先向组长汇报",
-        "C": "提高效率不能以忽视质量和安全为代价",
-        "D": "这次调整的效果需要根据实际数据评估"
-      },
-      "optionPinyin": {
-        "A": "shì fǒu kě yǐ shì xíng xū yào xiān dé dào pī zhǔn",
-        "B": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "C": "tí gāo xiào lǜ bù néng yǐ hū shì zhì liàng hé ān quán wèi dài jià",
-        "D": "zhè cì tiáo zhěng de xiào guǒ xū yào gēn jù shí jì shù jù píng gū"
+        "A": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn fāng àn shěn pī de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn fāng àn shěn pī",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn fāng àn shěn pī",
+        "D": "wǒ hái méi yǒu shōu dào guān yú gǎi jìn rèn wù fēn gōng de zī liào"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你要说明试行改动前需获批准，应该怎么说？\n符合此任务的表达：是否可以试行需要先得到批准。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“改善方案审批”的资料，怎样说明情况？\n合适的表达：我还没有收到关于改善方案审批的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于改善方案审批的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“改进任务分工”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ gǎi jìn rèn wù fēn gōng ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解改进任务分工",
+        "B": "我还没有收到关于改进任务分工的资料",
+        "C": "我还没有收到关于改善提案要求的资料",
+        "D": "我这次只想核实改进任务分工"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi jìn rèn wù fēn gōng",
+        "B": "wǒ hái méi yǒu shōu dào guān yú gǎi jìn rèn wù fēn gōng de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn tí àn yāo qiú de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí gǎi jìn rèn wù fēn gōng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“改进任务分工”的资料，怎样说明情况？\n合适的表达：我还没有收到关于改进任务分工的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于改进任务分工的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“改善提案要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ gǎi shàn tí àn yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实改善提案要求",
+        "B": "我还需要进一步了解改善提案要求",
+        "C": "我这次只想核实改善效果的核实结果",
+        "D": "我还没有收到关于改善提案要求的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn tí àn yāo qiú",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn tí àn yāo qiú",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn xiào guǒ de hé shí jié guǒ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn tí àn yāo qiú de zī liào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“改善提案要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实改善提案要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实改善提案要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明应以实测数据评价改动效果，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng yīng yǐ shí cè shù jù píng jià gǎi dòng xiào guǒ ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“改善效果的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ gǎi shàn xiào guǒ de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这个改善想法我想先向组长汇报",
-        "B": "这次调整的效果需要根据实际数据评估",
-        "C": "关于改善效果的核实结果我还需要再核实一下",
-        "D": "我的建议是先核实问题再讨论方案"
+        "A": "我还没有收到关于改善效果的核实结果的资料",
+        "B": "我这次只想核实团队讨论安排",
+        "C": "我这次只想核实改善效果的核实结果",
+        "D": "我还需要进一步了解改善效果的核实结果"
       },
       "optionPinyin": {
-        "A": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "B": "zhè cì tiáo zhěng de xiào guǒ xū yào gēn jù shí jì shù jù píng gū",
-        "C": "guān yú gǎi shàn xiào guǒ de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "wǒ de jiàn yì shì xiān hé shí wèn tí zài tǎo lùn fāng àn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn xiào guǒ de hé shí jié guǒ de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí tuán duì tǎo lùn ān pái",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn xiào guǒ de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn xiào guǒ de hé shí jié guǒ"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你要说明应以实测数据评价改动效果，应该怎么说？\n符合此任务的表达：这次调整的效果需要根据实际数据评估。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“改善效果的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实改善效果的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实改善效果的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望使用中发现的问题及时送达负责人，应该怎么说？",
-      "pinyin": "nǐ xī wàng shǐ yòng zhōng fā xiàn de wèn tí jí shí sòng dá fù zé rén ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“团队讨论安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ tuán duì tǎo lùn ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这项任务需要几个岗位共同合作",
-        "B": "如果团队讨论安排有变化请及时通知我",
-        "C": "这个改善想法我想先向组长汇报",
-        "D": "使用过程中的问题请及时反馈给负责人"
+        "A": "我还需要进一步了解团队讨论安排",
+        "B": "我还没有收到关于团队讨论安排的资料",
+        "C": "我这次只想核实团队讨论安排",
+        "D": "我这次只想核实改善方案审批"
       },
       "optionPinyin": {
-        "A": "zhè xiàng rèn wù xū yào jǐ gè gǎng wèi gòng tóng hé zuò",
-        "B": "rú guǒ tuán duì tǎo lùn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "D": "shǐ yòng guò chéng zhōng de wèn tí qǐng jí shí fǎn kuì gěi fù zé rén"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě tuán duì tǎo lùn ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú tuán duì tǎo lùn ān pái de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí tuán duì tǎo lùn ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn fāng àn shěn pī"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望使用中发现的问题及时送达负责人，应该怎么说？\n符合此任务的表达：使用过程中的问题请及时反馈给负责人。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“团队讨论安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实团队讨论安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实团队讨论安排",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你需要专业人员参与风险判断，应该怎么说？",
-      "pinyin": "nǐ xū yào zhuān yè rén yuán cān yù fēng xiǎn pàn duàn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“改善方案审批”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ gǎi shàn fāng àn shěn pī ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "使用过程中的问题请及时反馈给负责人",
-        "B": "是否可以试行需要先得到批准",
-        "C": "这个改善想法我想先向组长汇报",
-        "D": "这项风险评估我还需要请专业人员协助"
+        "A": "我这次只想核实改善方案审批",
+        "B": "我这次只想核实改进任务分工",
+        "C": "我还没有收到关于改善方案审批的资料",
+        "D": "我还需要进一步了解改善方案审批"
       },
       "optionPinyin": {
-        "A": "shǐ yòng guò chéng zhōng de wèn tí qǐng jí shí fǎn kuì gěi fù zé rén",
-        "B": "shì fǒu kě yǐ shì xíng xū yào xiān dé dào pī zhǔn",
-        "C": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "D": "zhè xiàng fēng xiǎn píng gū wǒ hái xū yào qǐng zhuān yè rén yuán xié zhù"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn fāng àn shěn pī",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí gǎi jìn rèn wù fēn gōng",
+        "C": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn fāng àn shěn pī de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn fāng àn shěn pī"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你需要专业人员参与风险判断，应该怎么说？\n符合此任务的表达：这项风险评估我还需要请专业人员协助。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“改善方案审批”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实改善方案审批。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实改善方案审批",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要邀请大家在活动后回顾经验，应该怎么说？",
-      "pinyin": "nǐ yào yāo qǐng dà jiā zài huó dòng hòu huí gù jīng yàn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“改进任务分工”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ gǎi jìn rèn wù fēn gōng ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请告诉我谁负责改善方案审批",
-        "B": "请问这项调整需要哪些部门配合",
-        "C": "请帮我确认一下改善提案要求的具体要求",
-        "D": "活动结束以后我们一起总结经验"
+        "A": "我还需要进一步了解改进任务分工",
+        "B": "我还没有收到关于改进任务分工的资料",
+        "C": "我这次只想核实改善提案要求",
+        "D": "我这次只想核实改进任务分工"
       },
       "optionPinyin": {
-        "A": "qǐng gào sù wǒ shuí fù zé gǎi shàn fāng àn shěn pī",
-        "B": "qǐng wèn zhè xiàng tiáo zhěng xū yào nǎ xiē bù mén pèi hé",
-        "C": "qǐng bāng wǒ què rèn yí xià gǎi shàn tí àn yāo qiú de jù tǐ yāo qiú",
-        "D": "huó dòng jié shù yǐ hòu wǒ men yì qǐ zǒng jié jīng yàn"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi jìn rèn wù fēn gōng",
+        "B": "wǒ hái méi yǒu shōu dào guān yú gǎi jìn rèn wù fēn gōng de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn tí àn yāo qiú",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí gǎi jìn rèn wù fēn gōng"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你要邀请大家在活动后回顾经验，应该怎么说？\n符合此任务的表达：活动结束以后我们一起总结经验。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“改进任务分工”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实改进任务分工。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实改进任务分工",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 31,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“改善提案要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ gǎi shàn tí àn yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“改善提案要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ gǎi shàn tí àn yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "提高效率不能以忽视质量和安全为代价",
-        "B": "这个改善想法我想先向组长汇报",
-        "C": "请帮我确认一下改善提案要求的具体要求",
-        "D": "我的建议是先核实问题再讨论方案"
+        "A": "我这次只想核实改善提案要求",
+        "B": "我还没有收到关于改善提案要求的资料",
+        "C": "我还需要进一步了解改善提案要求",
+        "D": "我还需要进一步了解改善效果的核实结果"
       },
       "optionPinyin": {
-        "A": "tí gāo xiào lǜ bù néng yǐ hū shì zhì liàng hé ān quán wèi dài jià",
-        "B": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "C": "qǐng bāng wǒ què rèn yí xià gǎi shàn tí àn yāo qiú de jù tǐ yāo qiú",
-        "D": "wǒ de jiàn yì shì xiān hé shí wèn tí zài tǎo lùn fāng àn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn tí àn yāo qiú",
+        "B": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn tí àn yāo qiú de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn tí àn yāo qiú",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn xiào guǒ de hé shí jié guǒ"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想请同事核实“改善提案要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下改善提案要求的具体要求。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“改善提案要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解改善提案要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解改善提案要求",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 32,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你尚未核实“改善效果的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ gǎi shàn xiào guǒ de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“改善效果的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ gǎi shàn xiào guǒ de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "活动结束以后我们一起总结经验",
-        "B": "这个改善想法我想先向组长汇报",
-        "C": "关于改善效果的核实结果我还需要再核实一下",
-        "D": "这项任务需要几个岗位共同合作"
+        "A": "我这次只想核实改善效果的核实结果",
+        "B": "我还需要进一步了解团队讨论安排",
+        "C": "我还没有收到关于改善效果的核实结果的资料",
+        "D": "我还需要进一步了解改善效果的核实结果"
       },
       "optionPinyin": {
-        "A": "huó dòng jié shù yǐ hòu wǒ men yì qǐ zǒng jié jīng yàn",
-        "B": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "C": "guān yú gǎi shàn xiào guǒ de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "zhè xiàng rèn wù xū yào jǐ gè gǎng wèi gòng tóng hé zuò"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn xiào guǒ de hé shí jié guǒ",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě tuán duì tǎo lùn ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn xiào guǒ de hé shí jié guǒ de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn xiào guǒ de hé shí jié guǒ"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你尚未核实“改善效果的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于改善效果的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“改善效果的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解改善效果的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解改善效果的核实结果",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 33,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望“团队讨论安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ tuán duì tǎo lùn ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“团队讨论安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ tuán duì tǎo lùn ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请告诉我谁负责改善方案审批",
-        "B": "这项任务需要几个岗位共同合作",
-        "C": "这个改善想法我想先向组长汇报",
-        "D": "如果团队讨论安排有变化请及时通知我"
+        "A": "我这次只想核实团队讨论安排",
+        "B": "我还需要进一步了解改善方案审批",
+        "C": "我还没有收到关于团队讨论安排的资料",
+        "D": "我还需要进一步了解团队讨论安排"
       },
       "optionPinyin": {
-        "A": "qǐng gào sù wǒ shuí fù zé gǎi shàn fāng àn shěn pī",
-        "B": "zhè xiàng rèn wù xū yào jǐ gè gǎng wèi gòng tóng hé zuò",
-        "C": "zhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào",
-        "D": "rú guǒ tuán duì tǎo lùn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí tuán duì tǎo lùn ān pái",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn fāng àn shěn pī",
+        "C": "wǒ hái méi yǒu shōu dào guān yú tuán duì tǎo lùn ān pái de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě tuán duì tǎo lùn ān pái"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望“团队讨论安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果团队讨论安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“团队讨论安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解团队讨论安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解团队讨论安排",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 34,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“改善方案审批”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ gǎi shàn fāng àn shěn pī ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“改善方案审批”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ gǎi shàn fāng àn shěn pī ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "是否可以试行需要先得到批准",
-        "B": "请告诉我谁负责改善方案审批",
-        "C": "请帮我确认一下改善提案要求的具体要求",
-        "D": "使用过程中的问题请及时反馈给负责人"
+        "A": "我还需要进一步了解改善方案审批",
+        "B": "我还没有收到关于改善方案审批的资料",
+        "C": "我还需要进一步了解改进任务分工",
+        "D": "我这次只想核实改善方案审批"
       },
       "optionPinyin": {
-        "A": "shì fǒu kě yǐ shì xíng xū yào xiān dé dào pī zhǔn",
-        "B": "qǐng gào sù wǒ shuí fù zé gǎi shàn fāng àn shěn pī",
-        "C": "qǐng bāng wǒ què rèn yí xià gǎi shàn tí àn yāo qiú de jù tǐ yāo qiú",
-        "D": "shǐ yòng guò chéng zhōng de wèn tí qǐng jí shí fǎn kuì gěi fù zé rén"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn fāng àn shěn pī",
+        "B": "wǒ hái méi yǒu shōu dào guān yú gǎi shàn fāng àn shěn pī de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi jìn rèn wù fēn gōng",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí gǎi shàn fāng àn shěn pī"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“改善方案审批”，应该怎么说？\n符合此任务的表达：请告诉我谁负责改善方案审批。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“改善方案审批”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解改善方案审批。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解改善方案审批",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 35,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望先确认“改进任务分工”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ gǎi jìn rèn wù fēn gōng ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“改进任务分工”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ gǎi jìn rèn wù fēn gōng ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这项风险评估我还需要请专业人员协助",
-        "B": "如果团队讨论安排有变化请及时通知我",
-        "C": "请告诉我谁负责改善方案审批",
-        "D": "我们先确认改进任务分工再继续沟通"
+        "A": "我还需要进一步了解改善提案要求",
+        "B": "我这次只想核实改进任务分工",
+        "C": "我还需要进一步了解改进任务分工",
+        "D": "我还没有收到关于改进任务分工的资料"
       },
       "optionPinyin": {
-        "A": "zhè xiàng fēng xiǎn píng gū wǒ hái xū yào qǐng zhuān yè rén yuán xié zhù",
-        "B": "rú guǒ tuán duì tǎo lùn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "qǐng gào sù wǒ shuí fù zé gǎi shàn fāng àn shěn pī",
-        "D": "wǒ men xiān què rèn gǎi jìn rèn wù fēn gōng zài jì xù gōu tōng"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi shàn tí àn yāo qiú",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí gǎi jìn rèn wù fēn gōng",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě gǎi jìn rèn wù fēn gōng",
+        "D": "wǒ hái méi yǒu shōu dào guān yú gǎi jìn rèn wù fēn gōng de zī liào"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“改进任务分工”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认改进任务分工再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“改进任务分工”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解改进任务分工。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解改进任务分工",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 这项任务 / 几个岗位 / 共同合作",
-      "pinyin": "xū yào / zhè xiàng rèn wù / jǐ gè gǎng wèi / gòng tóng hé zuò",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n关于改善提案要求的说明 / 把 / 请 / 发给我",
+      "pinyin": "guān yú gǎi shàn tí àn yāo qiú de shuō míng / bǎ / qǐng / fā gěi wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这项任务需要几个岗位共同合作",
-        "这项任务需要几个岗位共同合作。",
-        "这项任务需要几个岗位共同合作.",
-        "这项任务需要几个岗位共同合作？",
-        "这项任务需要几个岗位共同合作?"
+        "请把关于改善提案要求的说明发给我。",
+        "请把关于改善提案要求的说明发给我",
+        "请把关于改善提案要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这项任务需要几个岗位共同合作。\nzhè xiàng rèn wù xū yào jǐ gè gǎng wèi gòng tóng hé zuò。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：请把关于改善提案要求的说明发给我。\nqǐng bǎ guān yú gǎi shàn tí àn yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 想 / 先向组长汇报 / 这个改善想法",
-      "pinyin": "wǒ / xiǎng / xiān xiàng zǔ zhǎng huì bào / zhè ge gǎi shàn xiǎng fǎ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n已经 / 改善效果的核实结果 / 我们 / 核对过",
+      "pinyin": "yǐ jīng / gǎi shàn xiào guǒ de hé shí jié guǒ / wǒ men / hé duì guò",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个改善想法我想先向组长汇报",
-        "这个改善想法我想先向组长汇报。",
-        "这个改善想法我想先向组长汇报.",
-        "这个改善想法我想先向组长汇报？",
-        "这个改善想法我想先向组长汇报?"
+        "我们已经核对过改善效果的核实结果。",
+        "我们已经核对过改善效果的核实结果",
+        "我们已经核对过改善效果的核实结果."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这个改善想法我想先向组长汇报。\nzhè ge gǎi shàn xiǎng fǎ wǒ xiǎng xiān xiàng zǔ zhǎng huì bào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过改善效果的核实结果。\nwǒ men yǐ jīng hé duì guò gǎi shàn xiào guǒ de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我的建议 / 先核实问题 / 是 / 再讨论方案",
-      "pinyin": "wǒ de jiàn yì / xiān hé shí wèn tí / shì / zài tǎo lùn fāng àn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 只有 / 才能解释清楚 / 先了解团队讨论安排",
+      "pinyin": "wǒ men / zhǐ yǒu / cái néng jiě shì qīng chǔ / xiān liǎo jiě tuán duì tǎo lùn ān pái",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我的建议是先核实问题再讨论方案",
-        "我的建议是先核实问题再讨论方案。",
-        "我的建议是先核实问题再讨论方案.",
-        "我的建议是先核实问题再讨论方案？",
-        "我的建议是先核实问题再讨论方案?"
+        "只有先了解团队讨论安排我们才能解释清楚。",
+        "只有先了解团队讨论安排我们才能解释清楚",
+        "只有先了解团队讨论安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：我的建议是先核实问题再讨论方案。\nwǒ de jiàn yì shì xiān hé shí wèn tí zài tǎo lùn fāng àn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：只有先了解团队讨论安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě tuán duì tǎo lùn ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n以忽视质量和安全 / 提高效率 / 为代价 / 不能",
-      "pinyin": "yǐ hū shì zhì liàng hé ān quán / tí gāo xiào lǜ / wèi dài jià / bù néng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不仅想了解改善方案审批 / 具体由谁负责 / 还想知道 / 我",
+      "pinyin": "bù jǐn xiǎng liǎo jiě gǎi shàn fāng àn shěn pī / jù tǐ yóu shuí fù zé / hái xiǎng zhī dào / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "提高效率不能以忽视质量和安全为代价",
-        "提高效率不能以忽视质量和安全为代价。",
-        "提高效率不能以忽视质量和安全为代价.",
-        "提高效率不能以忽视质量和安全为代价？",
-        "提高效率不能以忽视质量和安全为代价?"
+        "我不仅想了解改善方案审批还想知道具体由谁负责。",
+        "我不仅想了解改善方案审批还想知道具体由谁负责",
+        "我不仅想了解改善方案审批还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：提高效率不能以忽视质量和安全为代价。\ntí gāo xiào lǜ bù néng yǐ hū shì zhì liàng hé ān quán wèi dài jià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 22,
+      "explanation": "参考句子：我不仅想了解改善方案审批还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě gǎi shàn fāng àn shěn pī hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 需要哪些部门 / 这项调整 / 配合",
-      "pinyin": "qǐng wèn / xū yào nǎ xiē bù mén / zhè xiàng tiáo zhěng / pèi hé",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 之前 / 先准备好相关记录 / 讨论改进任务分工",
+      "pinyin": "qǐng / zhī qián / xiān zhǔn bèi hǎo xiāng guān jì lù / tǎo lùn gǎi jìn rèn wù fēn gōng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这项调整需要哪些部门配合",
-        "请问这项调整需要哪些部门配合。",
-        "请问这项调整需要哪些部门配合.",
-        "请问这项调整需要哪些部门配合？",
-        "请问这项调整需要哪些部门配合?"
+        "讨论改进任务分工之前请先准备好相关记录。",
+        "讨论改进任务分工之前请先准备好相关记录",
+        "讨论改进任务分工之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：请问这项调整需要哪些部门配合。\nqǐng wèn zhè xiàng tiáo zhěng xū yào nǎ xiē bù mén pèi hé。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论改进任务分工之前请先准备好相关记录。\ntǎo lùn gǎi jìn rèn wù fēn gōng zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n批准 / 是否可以试行 / 先得到 / 需要",
-      "pinyin": "pī zhǔn / shì fǒu kě yǐ shì xíng / xiān dé dào / xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有一个问题 / 关于改善提案要求 / 我 / 想请教您",
+      "pinyin": "yǒu yí gè wèn tí / guān yú gǎi shàn tí àn yāo qiú / wǒ / xiǎng qǐng jiào nín",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "是否可以试行需要先得到批准",
-        "是否可以试行需要先得到批准。",
-        "是否可以试行需要先得到批准.",
-        "是否可以试行需要先得到批准？",
-        "是否可以试行需要先得到批准?"
+        "关于改善提案要求我有一个问题想请教您。",
+        "关于改善提案要求我有一个问题想请教您",
+        "关于改善提案要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：是否可以试行需要先得到批准。\nshì fǒu kě yǐ shì xíng xū yào xiān dé dào pī zhǔn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：关于改善提案要求我有一个问题想请教您。\nguān yú gǎi shàn tí àn yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n根据实际数据 / 这次调整的效果 / 需要 / 评估",
-      "pinyin": "gēn jù shí jì shù jù / zhè cì tiáo zhěng de xiào guǒ / xū yào / píng gū",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先向负责人询问 / 如果 / 就 / 你还不清楚改善效果的核实结果",
+      "pinyin": "xiān xiàng fù zé rén xún wèn / rú guǒ / jiù / nǐ hái bù qīng chǔ gǎi shàn xiào guǒ de hé shí jié guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这次调整的效果需要根据实际数据评估",
-        "这次调整的效果需要根据实际数据评估。",
-        "这次调整的效果需要根据实际数据评估.",
-        "这次调整的效果需要根据实际数据评估？",
-        "这次调整的效果需要根据实际数据评估?"
+        "如果你还不清楚改善效果的核实结果就先向负责人询问。",
+        "如果你还不清楚改善效果的核实结果就先向负责人询问",
+        "如果你还不清楚改善效果的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：这次调整的效果需要根据实际数据评估。\nzhè cì tiáo zhěng de xiào guǒ xū yào gēn jù shí jì shù jù píng gū。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚改善效果的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ gǎi shàn xiào guǒ de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n使用过程中的问题 / 及时 / 请 / 反馈给负责人",
-      "pinyin": "shǐ yòng guò chéng zhōng de wèn tí / jí shí / qǐng / fǎn kuì gěi fù zé rén",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还需要核实细节 / 但是 / 虽然 / 我们已经讨论过团队讨论安排",
+      "pinyin": "hái xū yào hé shí xì jié / dàn shì / suī rán / wǒ men yǐ jīng tǎo lùn guò tuán duì tǎo lùn ān pái",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "使用过程中的问题请及时反馈给负责人",
-        "使用过程中的问题请及时反馈给负责人。",
-        "使用过程中的问题请及时反馈给负责人.",
-        "使用过程中的问题请及时反馈给负责人？",
-        "使用过程中的问题请及时反馈给负责人?"
+        "虽然我们已经讨论过团队讨论安排但是还需要核实细节。",
+        "虽然我们已经讨论过团队讨论安排但是还需要核实细节",
+        "虽然我们已经讨论过团队讨论安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：使用过程中的问题请及时反馈给负责人。\nshǐ yòng guò chéng zhōng de wèn tí qǐng jí shí fǎn kuì gěi fù zé rén。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：虽然我们已经讨论过团队讨论安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò tuán duì tǎo lùn ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 请专业人员协助 / 还需要 / 这项风险评估",
-      "pinyin": "wǒ / qǐng zhuān yè rén yuán xié zhù / hái xū yào / zhè xiàng fēng xiǎn píng gū",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不如 / 与其 / 查阅相关文件 / 反复猜测改善方案审批",
+      "pinyin": "bù rú / yǔ qí / chá yuè xiāng guān wén jiàn / fǎn fù cāi cè gǎi shàn fāng àn shěn pī",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这项风险评估我还需要请专业人员协助",
-        "这项风险评估我还需要请专业人员协助。",
-        "这项风险评估我还需要请专业人员协助.",
-        "这项风险评估我还需要请专业人员协助？",
-        "这项风险评估我还需要请专业人员协助?"
+        "与其反复猜测改善方案审批不如查阅相关文件。",
+        "与其反复猜测改善方案审批不如查阅相关文件",
+        "与其反复猜测改善方案审批不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：这项风险评估我还需要请专业人员协助。\nzhè xiàng fēng xiǎn píng gū wǒ hái xū yào qǐng zhuān yè rén yuán xié zhù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：与其反复猜测改善方案审批不如查阅相关文件。\nyǔ qí fǎn fù cāi cè gǎi shàn fāng àn shěn pī bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n一起 / 我们 / 总结经验 / 活动结束以后",
-      "pinyin": "yì qǐ / wǒ men / zǒng jié jīng yàn / huó dòng jié shù yǐ hòu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n为了 / 我 / 准确说明改进任务分工 / 重新整理了资料",
+      "pinyin": "wèi le / wǒ / zhǔn què shuō míng gǎi jìn rèn wù fēn gōng / chóng xīn zhěng lǐ le zī liào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "活动结束以后我们一起总结经验",
-        "活动结束以后我们一起总结经验。",
-        "活动结束以后我们一起总结经验.",
-        "活动结束以后我们一起总结经验？",
-        "活动结束以后我们一起总结经验?"
+        "为了准确说明改进任务分工我重新整理了资料。",
+        "为了准确说明改进任务分工我重新整理了资料",
+        "为了准确说明改进任务分工我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：活动结束以后我们一起总结经验。\nhuó dòng jié shù yǐ hòu wǒ men yì qǐ zǒng jié jīng yàn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明改进任务分工我重新整理了资料。\nwèi le zhǔn què shuō míng gǎi jìn rèn wù fēn gōng wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n帮我确认一下 / 请 / 改善提案要求 / 的具体要求",
-      "pinyin": "bāng wǒ què rèn yí xià / qǐng / gǎi shàn tí àn yāo qiú / de jù tǐ yāo qiú",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n可以提出来 / 大家 / 有疑问的话 / 对改善提案要求",
+      "pinyin": "kě yǐ tí chū lái / dà jiā / yǒu yí wèn de huà / duì gǎi shàn tí àn yāo qiú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下改善提案要求的具体要求",
-        "请帮我确认一下改善提案要求的具体要求。",
-        "请帮我确认一下改善提案要求的具体要求.",
-        "请帮我确认一下改善提案要求的具体要求？",
-        "请帮我确认一下改善提案要求的具体要求?"
+        "大家对改善提案要求有疑问的话可以提出来。",
+        "大家对改善提案要求有疑问的话可以提出来",
+        "大家对改善提案要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：请帮我确认一下改善提案要求的具体要求。\nqǐng bāng wǒ què rèn yí xià gǎi shàn tí àn yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：大家对改善提案要求有疑问的话可以提出来。\ndà jiā duì gǎi shàn tí àn yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n改善效果的核实结果 / 我 / 再核实一下 / 还需要 / 关于",
-      "pinyin": "gǎi shàn xiào guǒ de hé shí jié guǒ / wǒ / zài hé shí yí xià / hái xū yào / guān yú",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 再 / 回答大家的问题 / 先说明改善效果的核实结果",
+      "pinyin": "qǐng / zài / huí dá dà jiā de wèn tí / xiān shuō míng gǎi shàn xiào guǒ de hé shí jié guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于改善效果的核实结果我还需要再核实一下",
-        "关于改善效果的核实结果我还需要再核实一下。",
-        "关于改善效果的核实结果我还需要再核实一下.",
-        "关于改善效果的核实结果我还需要再核实一下？",
-        "关于改善效果的核实结果我还需要再核实一下?"
+        "请先说明改善效果的核实结果再回答大家的问题。",
+        "请先说明改善效果的核实结果再回答大家的问题",
+        "请先说明改善效果的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于改善效果的核实结果我还需要再核实一下。\nguān yú gǎi shàn xiào guǒ de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明改善效果的核实结果再回答大家的问题。\nqǐng xiān shuō míng gǎi shàn xiào guǒ de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 有变化 / 及时通知我 / 团队讨论安排 / 如果",
-      "pinyin": "qǐng / yǒu biàn huà / jí shí tōng zhī wǒ / tuán duì tǎo lùn ān pái / rú guǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n谁来说明团队讨论安排 / 应该以有效文件为依据 / 无论 / 都",
+      "pinyin": "shuí lái shuō míng tuán duì tǎo lùn ān pái / yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / wú lùn / dōu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果团队讨论安排有变化请及时通知我",
-        "如果团队讨论安排有变化请及时通知我。",
-        "如果团队讨论安排有变化请及时通知我.",
-        "如果团队讨论安排有变化请及时通知我？",
-        "如果团队讨论安排有变化请及时通知我?"
+        "无论谁来说明团队讨论安排都应该以有效文件为依据。",
+        "无论谁来说明团队讨论安排都应该以有效文件为依据",
+        "无论谁来说明团队讨论安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：如果团队讨论安排有变化请及时通知我。\nrú guǒ tuán duì tǎo lùn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：无论谁来说明团队讨论安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng tuán duì tǎo lùn ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n谁 / 负责 / 请 / 告诉我 / 改善方案审批",
-      "pinyin": "shuí / fù zé / qǐng / gào sù wǒ / gǎi shàn fāng àn shěn pī",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n逐项记录清楚 / 涉及的问题 / 改善方案审批 / 需要",
+      "pinyin": "zhú xiàng jì lù qīng chǔ / shè jí de wèn tí / gǎi shàn fāng àn shěn pī / xū yào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责改善方案审批",
-        "请告诉我谁负责改善方案审批。",
-        "请告诉我谁负责改善方案审批.",
-        "请告诉我谁负责改善方案审批？",
-        "请告诉我谁负责改善方案审批?"
+        "改善方案审批涉及的问题需要逐项记录清楚。",
+        "改善方案审批涉及的问题需要逐项记录清楚",
+        "改善方案审批涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：请告诉我谁负责改善方案审批。\nqǐng gào sù wǒ shuí fù zé gǎi shàn fāng àn shěn pī。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：改善方案审批涉及的问题需要逐项记录清楚。\ngǎi shàn fāng àn shěn pī shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n继续沟通 / 先 / 确认 / 再 / 改进任务分工 / 我们",
-      "pinyin": "jì xù gōu tōng / xiān / què rèn / zài / gǎi jìn rèn wù fēn gōng / wǒ men",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n改进任务分工确认以后 / 我们 / 再补充相关记录 / 等",
+      "pinyin": "gǎi jìn rèn wù fēn gōng què rèn yǐ hòu / wǒ men / zài bǔ chōng xiāng guān jì lù / děng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认改进任务分工再继续沟通",
-        "我们先确认改进任务分工再继续沟通。",
-        "我们先确认改进任务分工再继续沟通.",
-        "我们先确认改进任务分工再继续沟通？",
-        "我们先确认改进任务分工再继续沟通?"
+        "等改进任务分工确认以后我们再补充相关记录。",
+        "等改进任务分工确认以后我们再补充相关记录",
+        "等改进任务分工确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认改进任务分工再继续沟通。\nwǒ men xiān què rèn gǎi jìn rèn wù fēn gōng zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等改进任务分工确认以后我们再补充相关记录。\nděng gǎi jìn rèn wù fēn gōng què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

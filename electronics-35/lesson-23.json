@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第23课 首件、巡检与抽检",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“首检”的正确读音。",
+      "text": "【拼音选择】请选择“样本”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sǒu jiǎn",
-        "B": "shǒu qiǎn",
-        "C": "shǒu jiǎng",
-        "D": "shǒu jiǎn"
+        "A": "yàng běn",
+        "B": "bàng běn",
+        "C": "yàng běng",
+        "D": "yàn běn"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“首检”读作 shǒu jiǎn，本课词义：kiểm tra đầu tiên。"
+      "explanation": "“样本”读作 yàng běn。注意声母、韵母、声调及轻声。",
+      "targetWord": "样本"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“巡检”的正确读音。",
+      "text": "【拼音选择】请选择“周期”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qún jiǎn",
-        "B": "xún jiǎng",
-        "C": "xún jiǎn",
-        "D": "xún qiǎn"
+        "A": "zhōu xī",
+        "B": "zōu qī",
+        "C": "zhōu jī",
+        "D": "zhōu qī"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“巡检”读作 xún jiǎn，本课词义：kiểm tra tuần tra。"
+      "explanation": "“周期”读作 zhōu qī。注意声母、韵母、声调及轻声。",
+      "targetWord": "周期"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“抽检”的正确读音。",
+      "text": "【拼音选择】请选择“比例”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chōu jiǎng",
-        "B": "cōu jiǎn",
-        "C": "chōu qiǎn",
-        "D": "chōu jiǎn"
+        "A": "běi lì",
+        "B": "biě lì",
+        "C": "bǐ nì",
+        "D": "bǐ lì"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“抽检”读作 chōu jiǎn，本课词义：kiểm tra lấy mẫu。"
+      "explanation": "“比例”读作 bǐ lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "比例"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“样品”的正确读音。",
+      "text": "【拼音选择】请选择“判据”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yàng pǐng",
-        "B": "yàn pǐn",
-        "C": "bàng pǐn",
-        "D": "yàng pǐn"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "“样品”读作 yàng pǐn，本课词义：mẫu。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“项目”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "xiàn mù",
-        "B": "xiàng mù",
-        "C": "qiàng mù",
-        "D": "biàng mù"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“项目”读作 xiàng mù，本课词义：hạng mục。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“数量”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "shù liàng",
-        "B": "shù niàng",
-        "C": "shù liàn",
-        "D": "sù liàng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“数量”读作 shù liàng，本课词义：số lượng。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“频率”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "pín nù",
-        "B": "píng lǜ",
-        "C": "pín lǜ",
-        "D": "lín lǜ"
+        "A": "bàn jù",
+        "B": "pàng jù",
+        "C": "pàn jù",
+        "D": "pàn qù"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“频率”读作 pín lǜ，本课词义：tần suất。"
+      "explanation": "“判据”读作 pàn jù。注意声母、韵母、声调及轻声。",
+      "targetWord": "判据"
     },
     {
-      "id": 8,
+      "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“进度”的正确读音。",
+      "text": "【拼音选择】请选择“测试值”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jìng dù",
-        "B": "qìn dù",
-        "C": "bìn dù",
-        "D": "jìn dù"
+        "A": "cè sì zhí",
+        "B": "chè shì zhí",
+        "C": "cè shì zí",
+        "D": "cè shì zhí"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“进度”读作 jìn dù，本课词义：tiến độ。"
+      "explanation": "“测试值”读作 cè shì zhí。注意声母、韵母、声调及轻声。",
+      "targetWord": "测试值"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“判退”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "bàn tuì",
+        "B": "pàn tuì",
+        "C": "càn tuì",
+        "D": "pàng tuì"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“判退”读作 pàn tuì。注意声母、韵母、声调及轻声。",
+      "targetWord": "判退"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“抽样计划”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "chōu yàng qì huà",
+        "B": "chōu yàng jì huà",
+        "C": "cōu yàng jì huà",
+        "D": "chōu yàn jì huà"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“抽样计划”读作 chōu yàng jì huà。注意声母、韵母、声调及轻声。",
+      "targetWord": "抽样计划"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“检验表”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "jiǎng yàn biǎo",
+        "B": "jiǎn yàn biǎo",
+        "C": "qiǎn yàn biǎo",
+        "D": "jiǎn yàng biǎo"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“检验表”读作 jiǎn yàn biǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "检验表"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“判定”的正确读音。",
+      "text": "【拼音选择】请选择“签核员”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pàn dìng",
-        "B": "pàng dìng",
-        "C": "bàn dìng",
-        "D": "pàn dìn"
+        "A": "xiān hé yuán",
+        "B": "jiān hé yuán",
+        "C": "qiāng hé yuán",
+        "D": "qiān hé yuán"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“判定”读作 pàn dìng，本课词义：phán định, đánh giá。"
+      "explanation": "“签核员”读作 qiān hé yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "签核员"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“记录”的正确读音。",
+      "text": "【拼音选择】请选择“检验员”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jì lù",
-        "B": "jì nù",
-        "C": "qì lù",
-        "D": "bì lù"
+        "A": "jiǎng yàn yuán",
+        "B": "jiǎn yàng yuán",
+        "C": "qiǎn yàn yuán",
+        "D": "jiǎn yàn yuán"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“记录”读作 jì lù，本课词义：bản ghi。"
+      "explanation": "“检验员”读作 jiǎn yàn yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "检验员"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“首检”（kiểm tra đầu tiên）。完整表达：请问这次首检需要检查哪些项目。"
+      "explanation": "应填“首检”（kiểm tra đầu tiên）。完整表达：请问这次首检需要检查哪些项目。",
+      "targetWord": "首检",
+      "completeSentence": "请问这次首检需要检查哪些项目。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“巡检”（kiểm tra tuần tra）。完整表达：这次巡检发现的问题请及时反馈。"
+      "explanation": "应填“巡检”（kiểm tra tuần tra）。完整表达：这次巡检发现的问题请及时反馈。",
+      "targetWord": "巡检",
+      "completeSentence": "这次巡检发现的问题请及时反馈。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“抽检”（kiểm tra lấy mẫu）。完整表达：抽检方案请按照有效文件执行。"
+      "explanation": "应填“抽检”（kiểm tra lấy mẫu）。完整表达：抽检方案请按照有效文件执行。",
+      "targetWord": "抽检",
+      "completeSentence": "抽检方案请按照有效文件执行。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“样品”（mẫu）。完整表达：这组样品来自今天生产的第一批产品。"
+      "explanation": "应填“样品”（mẫu）。完整表达：这组样品来自今天生产的第一批产品。",
+      "targetWord": "样品",
+      "completeSentence": "这组样品来自今天生产的第一批产品。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“项目”（hạng mục）。完整表达：这些检验项目我还需要核对一下。"
+      "explanation": "应填“项目”（hạng mục）。完整表达：这些检验项目我还需要核对一下。",
+      "targetWord": "项目",
+      "completeSentence": "这些检验项目我还需要核对一下。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“数量”（số lượng）。完整表达：抽取样本的数量请按方案确认。"
+      "explanation": "应填“数量”（số lượng）。完整表达：抽取样本的数量请按方案确认。",
+      "targetWord": "数量",
+      "completeSentence": "抽取样本的数量请按方案确认。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“频率”（tần suất）。完整表达：请问巡检的频率应该依据哪份规定。"
+      "explanation": "应填“频率”（tần suất）。完整表达：请问巡检的频率应该依据哪份规定。",
+      "targetWord": "频率",
+      "completeSentence": "请问巡检的频率应该依据哪份规定。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“进度”（tiến độ）。完整表达：请问这批产品的检验进度到哪一步了。"
+      "explanation": "应填“进度”（tiến độ）。完整表达：请问这批产品的检验进度到哪一步了。",
+      "targetWord": "进度",
+      "completeSentence": "请问这批产品的检验进度到哪一步了。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“判定”（phán định, đánh giá）。完整表达：这项结果的判定需要由授权人员完成。"
+      "explanation": "应填“判定”（phán định, đánh giá）。完整表达：这项结果的判定需要由授权人员完成。",
+      "targetWord": "判定",
+      "completeSentence": "这项结果的判定需要由授权人员完成。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“记录”（bản ghi）。完整表达：检验记录有缺项需要补充核实。"
+      "explanation": "应填“记录”（bản ghi）。完整表达：检验记录有缺项需要补充核实。",
+      "targetWord": "记录",
+      "completeSentence": "检验记录有缺项需要补充核实。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想了解首次检验应查什么，应该怎么问？",
-      "pinyin": "nǐ xiǎng liǎo jiě shǒu cì jiǎn yàn yīng chá shén me ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“抽样检验要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ chōu yàng jiǎn yàn yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请问这批产品的检验进度到哪一步了",
-        "B": "请问这次首检需要检查哪些项目",
-        "C": "我们先确认检验项目清单再继续沟通",
-        "D": "请问巡检的频率应该依据哪份规定"
+        "A": "我还没有收到关于抽样检验要求的资料",
+        "B": "我还需要进一步了解抽样检验要求",
+        "C": "我这次只想核实抽样检验要求",
+        "D": "我还没有收到关于检验进度的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "qǐng wèn zhè pī chǎn pǐn de jiǎn yàn jìn dù dào nǎ yī bù le",
-        "B": "qǐng wèn zhè cì shǒu jiǎn xū yào jiǎn chá nǎ xiē xiàng mù",
-        "C": "wǒ men xiān què rèn jiǎn yàn xiàng mù qīng dān zài jì xù gōu tōng",
-        "D": "qǐng wèn xún jiǎn de pín lǜ yīng gāi yī jù nǎ fèn guī dìng"
+        "A": "wǒ hái méi yǒu shōu dào guān yú chōu yàng jiǎn yàn yāo qiú de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě chōu yàng jiǎn yàn yāo qiú",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí chōu yàng jiǎn yàn yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jiǎn yàn jìn dù de hé shí jié guǒ de zī liào"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想了解首次检验应查什么，应该怎么问？\n符合此任务的表达：请问这次首检需要检查哪些项目。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“抽样检验要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于抽样检验要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于抽样检验要求的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望巡查发现的问题被及时上报，应该怎么说？",
-      "pinyin": "nǐ xī wàng xún chá fā xiàn de wèn tí bèi jí shí shàng bào ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“检验进度的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ jiǎn yàn jìn dù de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请问这批产品的检验进度到哪一步了",
-        "B": "这项结果的判定需要由授权人员完成",
-        "C": "这次巡检发现的问题请及时反馈",
-        "D": "这些检验项目我还需要核对一下"
+        "A": "我还没有收到关于检验进度的核实结果的资料",
+        "B": "我还没有收到关于巡检人员安排的资料",
+        "C": "我这次只想核实检验进度的核实结果",
+        "D": "我还需要进一步了解检验进度的核实结果"
       },
       "optionPinyin": {
-        "A": "qǐng wèn zhè pī chǎn pǐn de jiǎn yàn jìn dù dào nǎ yī bù le",
-        "B": "zhè xiàng jié guǒ de pàn dìng xū yào yóu shòu quán rén yuán wán chéng",
-        "C": "zhè cì xún jiǎn fā xiàn de wèn tí qǐng jí shí fǎn kuì",
-        "D": "zhè xiē jiǎn yàn xiàng mù wǒ hái xū yào hé duì yí xià"
+        "A": "wǒ hái méi yǒu shōu dào guān yú jiǎn yàn jìn dù de hé shí jié guǒ de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú xún jiǎn rén yuán ān pái de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jiǎn yàn jìn dù de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jiǎn yàn jìn dù de hé shí jié guǒ"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望巡查发现的问题被及时上报，应该怎么说？\n符合此任务的表达：这次巡检发现的问题请及时反馈。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“检验进度的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于检验进度的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于检验进度的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要强调取样检验应遵循有效文件，应该怎么说？",
-      "pinyin": "nǐ yào qiáng diào qǔ yàng jiǎn yàn yīng zūn xún yǒu xiào wén jiàn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“巡检人员安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ xún jiǎn rén yuán ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这项结果的判定需要由授权人员完成",
-        "B": "抽检方案请按照有效文件执行",
-        "C": "请帮我确认一下抽样检验要求的具体要求",
-        "D": "关于检验进度的核实结果我还需要再核实一下"
+        "A": "我还没有收到关于首检资料管理的资料",
+        "B": "我这次只想核实巡检人员安排",
+        "C": "我还没有收到关于巡检人员安排的资料",
+        "D": "我还需要进一步了解巡检人员安排"
       },
       "optionPinyin": {
-        "A": "zhè xiàng jié guǒ de pàn dìng xū yào yóu shòu quán rén yuán wán chéng",
-        "B": "chōu jiǎn fāng àn qǐng àn zhào yǒu xiào wén jiàn zhí xíng",
-        "C": "qǐng bāng wǒ què rèn yí xià chōu yàng jiǎn yàn yāo qiú de jù tǐ yāo qiú",
-        "D": "guān yú jiǎn yàn jìn dù de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+        "A": "wǒ hái méi yǒu shōu dào guān yú shǒu jiǎn zī liào guǎn lǐ de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí xún jiǎn rén yuán ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú xún jiǎn rén yuán ān pái de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě xún jiǎn rén yuán ān pái"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你要强调取样检验应遵循有效文件，应该怎么说？\n符合此任务的表达：抽检方案请按照有效文件执行。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“巡检人员安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于巡检人员安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于巡检人员安排的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】检验员问样品来自哪里，你要说明来源，应该怎么说？",
-      "pinyin": "jiǎn yàn yuán wèn yàng pǐn lái zì nǎ lǐ ， nǐ yào shuō míng lái yuán ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“首检资料管理”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ shǒu jiǎn zī liào guǎn lǐ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这组样品来自今天生产的第一批产品",
-        "B": "检验记录有缺项需要补充核实",
-        "C": "关于检验进度的核实结果我还需要再核实一下",
-        "D": "如果巡检人员安排有变化请及时通知我"
+        "A": "我还没有收到关于首检资料管理的资料",
+        "B": "我还没有收到关于检验项目清单的资料",
+        "C": "我这次只想核实首检资料管理",
+        "D": "我还需要进一步了解首检资料管理"
       },
       "optionPinyin": {
-        "A": "zhè zǔ yàng pǐn lái zì jīn tiān shēng chǎn de dì yī pī chǎn pǐn",
-        "B": "jiǎn yàn jì lù yǒu quē xiàng xū yào bǔ chōng hé shí",
-        "C": "guān yú jiǎn yàn jìn dù de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "rú guǒ xún jiǎn rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ hái méi yǒu shōu dào guān yú shǒu jiǎn zī liào guǎn lǐ de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú jiǎn yàn xiàng mù qīng dān de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí shǒu jiǎn zī liào guǎn lǐ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě shǒu jiǎn zī liào guǎn lǐ"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：检验员问样品来自哪里，你要说明来源，应该怎么说？\n符合此任务的表达：这组样品来自今天生产的第一批产品。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“首检资料管理”的资料，怎样说明情况？\n合适的表达：我还没有收到关于首检资料管理的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于首检资料管理的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你对检验项目信息不确定，需要复核，应该怎么说？",
-      "pinyin": "nǐ duì jiǎn yàn xiàng mù xìn xī bù què dìng ， xū yào fù hé ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“检验项目清单”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ jiǎn yàn xiàng mù qīng dān ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这些检验项目我还需要核对一下",
-        "B": "这次巡检发现的问题请及时反馈",
-        "C": "检验记录有缺项需要补充核实",
-        "D": "请问这次首检需要检查哪些项目"
+        "A": "我还没有收到关于抽样检验要求的资料",
+        "B": "我还需要进一步了解检验项目清单",
+        "C": "我这次只想核实检验项目清单",
+        "D": "我还没有收到关于检验项目清单的资料"
       },
       "optionPinyin": {
-        "A": "zhè xiē jiǎn yàn xiàng mù wǒ hái xū yào hé duì yí xià",
-        "B": "zhè cì xún jiǎn fā xiàn de wèn tí qǐng jí shí fǎn kuì",
-        "C": "jiǎn yàn jì lù yǒu quē xiàng xū yào bǔ chōng hé shí",
-        "D": "qǐng wèn zhè cì shǒu jiǎn xū yào jiǎn chá nǎ xiē xiàng mù"
+        "A": "wǒ hái méi yǒu shōu dào guān yú chōu yàng jiǎn yàn yāo qiú de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jiǎn yàn xiàng mù qīng dān",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jiǎn yàn xiàng mù qīng dān",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jiǎn yàn xiàng mù qīng dān de zī liào"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你对检验项目信息不确定，需要复核，应该怎么说？\n符合此任务的表达：这些检验项目我还需要核对一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“检验项目清单”的资料，怎样说明情况？\n合适的表达：我还没有收到关于检验项目清单的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于检验项目清单的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想提醒抽样数应依据检验方案，应该怎么说？",
-      "pinyin": "nǐ xiǎng tí xǐng chōu yàng shù yīng yī jù jiǎn yàn fāng àn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“抽样检验要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ chōu yàng jiǎn yàn yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请告诉我谁负责首检资料管理",
-        "B": "这次巡检发现的问题请及时反馈",
-        "C": "抽取样本的数量请按方案确认",
-        "D": "请问巡检的频率应该依据哪份规定"
+        "A": "我还需要进一步了解抽样检验要求",
+        "B": "我这次只想核实检验进度的核实结果",
+        "C": "我这次只想核实抽样检验要求",
+        "D": "我还没有收到关于抽样检验要求的资料"
       },
       "optionPinyin": {
-        "A": "qǐng gào sù wǒ shuí fù zé shǒu jiǎn zī liào guǎn lǐ",
-        "B": "zhè cì xún jiǎn fā xiàn de wèn tí qǐng jí shí fǎn kuì",
-        "C": "chōu qǔ yàng běn de shù liàng qǐng àn fāng àn què rèn",
-        "D": "qǐng wèn xún jiǎn de pín lǜ yīng gāi yī jù nǎ fèn guī dìng"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě chōu yàng jiǎn yàn yāo qiú",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí jiǎn yàn jìn dù de hé shí jié guǒ",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí chōu yàng jiǎn yàn yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú chōu yàng jiǎn yàn yāo qiú de zī liào"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想提醒抽样数应依据检验方案，应该怎么说？\n符合此任务的表达：抽取样本的数量请按方案确认。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“抽样检验要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实抽样检验要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实抽样检验要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想知道巡查间隔应参考哪项规定，应该怎么问？",
-      "pinyin": "nǐ xiǎng zhī dào xún chá jiàn gé yīng cān kǎo nǎ xiàng guī dìng ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“检验进度的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ jiǎn yàn jìn dù de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这组样品来自今天生产的第一批产品",
-        "B": "关于检验进度的核实结果我还需要再核实一下",
-        "C": "请问这次首检需要检查哪些项目",
-        "D": "请问巡检的频率应该依据哪份规定"
+        "A": "我这次只想核实巡检人员安排",
+        "B": "我还需要进一步了解检验进度的核实结果",
+        "C": "我这次只想核实检验进度的核实结果",
+        "D": "我还没有收到关于检验进度的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "zhè zǔ yàng pǐn lái zì jīn tiān shēng chǎn de dì yī pī chǎn pǐn",
-        "B": "guān yú jiǎn yàn jìn dù de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "C": "qǐng wèn zhè cì shǒu jiǎn xū yào jiǎn chá nǎ xiē xiàng mù",
-        "D": "qǐng wèn xún jiǎn de pín lǜ yīng gāi yī jù nǎ fèn guī dìng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí xún jiǎn rén yuán ān pái",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jiǎn yàn jìn dù de hé shí jié guǒ",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jiǎn yàn jìn dù de hé shí jié guǒ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jiǎn yàn jìn dù de hé shí jié guǒ de zī liào"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想知道巡查间隔应参考哪项规定，应该怎么问？\n符合此任务的表达：请问巡检的频率应该依据哪份规定。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“检验进度的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实检验进度的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实检验进度的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你需要了解检查做到了什么阶段，应该怎么问？",
-      "pinyin": "nǐ xū yào liǎo jiě jiǎn chá zuò dào le shén me jiē duàn ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“巡检人员安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ xún jiǎn rén yuán ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请问这批产品的检验进度到哪一步了",
-        "B": "抽取样本的数量请按方案确认",
-        "C": "这些检验项目我还需要核对一下",
-        "D": "请问巡检的频率应该依据哪份规定"
+        "A": "我这次只想核实巡检人员安排",
+        "B": "我这次只想核实首检资料管理",
+        "C": "我还需要进一步了解巡检人员安排",
+        "D": "我还没有收到关于巡检人员安排的资料"
       },
       "optionPinyin": {
-        "A": "qǐng wèn zhè pī chǎn pǐn de jiǎn yàn jìn dù dào nǎ yī bù le",
-        "B": "chōu qǔ yàng běn de shù liàng qǐng àn fāng àn què rèn",
-        "C": "zhè xiē jiǎn yàn xiàng mù wǒ hái xū yào hé duì yí xià",
-        "D": "qǐng wèn xún jiǎn de pín lǜ yīng gāi yī jù nǎ fèn guī dìng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí xún jiǎn rén yuán ān pái",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí shǒu jiǎn zī liào guǎn lǐ",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě xún jiǎn rén yuán ān pái",
+        "D": "wǒ hái méi yǒu shōu dào guān yú xún jiǎn rén yuán ān pái de zī liào"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你需要了解检查做到了什么阶段，应该怎么问？\n符合此任务的表达：请问这批产品的检验进度到哪一步了。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“巡检人员安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实巡检人员安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实巡检人员安排",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明该结论应由有权限人员确定，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng gāi jié lùn yīng yóu yǒu quán xiàn rén yuán què dìng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“首检资料管理”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ shǒu jiǎn zī liào guǎn lǐ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请告诉我谁负责首检资料管理",
-        "B": "抽检方案请按照有效文件执行",
-        "C": "这项结果的判定需要由授权人员完成",
-        "D": "检验记录有缺项需要补充核实"
+        "A": "我这次只想核实首检资料管理",
+        "B": "我这次只想核实检验项目清单",
+        "C": "我还需要进一步了解首检资料管理",
+        "D": "我还没有收到关于首检资料管理的资料"
       },
       "optionPinyin": {
-        "A": "qǐng gào sù wǒ shuí fù zé shǒu jiǎn zī liào guǎn lǐ",
-        "B": "chōu jiǎn fāng àn qǐng àn zhào yǒu xiào wén jiàn zhí xíng",
-        "C": "zhè xiàng jié guǒ de pàn dìng xū yào yóu shòu quán rén yuán wán chéng",
-        "D": "jiǎn yàn jì lù yǒu quē xiàng xū yào bǔ chōng hé shí"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要说明该结论应由有权限人员确定，应该怎么说？\n符合此任务的表达：这项结果的判定需要由授权人员完成。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 30,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你发现检验登记有漏填，需要补查，应该怎么说？",
-      "pinyin": "nǐ fā xiàn jiǎn yàn dēng jì yǒu lòu tián ， xū yào bǔ chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "抽取样本的数量请按方案确认",
-        "B": "请问这批产品的检验进度到哪一步了",
-        "C": "检验记录有缺项需要补充核实",
-        "D": "关于检验进度的核实结果我还需要再核实一下"
-      },
-      "optionPinyin": {
-        "A": "chōu qǔ yàng běn de shù liàng qǐng àn fāng àn què rèn",
-        "B": "qǐng wèn zhè pī chǎn pǐn de jiǎn yàn jìn dù dào nǎ yī bù le",
-        "C": "jiǎn yàn jì lù yǒu quē xiàng xū yào bǔ chōng hé shí",
-        "D": "guān yú jiǎn yàn jìn dù de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你发现检验登记有漏填，需要补查，应该怎么说？\n符合此任务的表达：检验记录有缺项需要补充核实。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 31,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“抽样检验要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ chōu yàng jiǎn yàn yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这组样品来自今天生产的第一批产品",
-        "B": "请问这批产品的检验进度到哪一步了",
-        "C": "请帮我确认一下抽样检验要求的具体要求",
-        "D": "这些检验项目我还需要核对一下"
-      },
-      "optionPinyin": {
-        "A": "zhè zǔ yàng pǐn lái zì jīn tiān shēng chǎn de dì yī pī chǎn pǐn",
-        "B": "qǐng wèn zhè pī chǎn pǐn de jiǎn yàn jìn dù dào nǎ yī bù le",
-        "C": "qǐng bāng wǒ què rèn yí xià chōu yàng jiǎn yàn yāo qiú de jù tǐ yāo qiú",
-        "D": "zhè xiē jiǎn yàn xiàng mù wǒ hái xū yào hé duì yí xià"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想请同事核实“抽样检验要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下抽样检验要求的具体要求。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 32,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你尚未核实“检验进度的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ jiǎn yàn jìn dù de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这项结果的判定需要由授权人员完成",
-        "B": "关于检验进度的核实结果我还需要再核实一下",
-        "C": "抽取样本的数量请按方案确认",
-        "D": "请问这批产品的检验进度到哪一步了"
-      },
-      "optionPinyin": {
-        "A": "zhè xiàng jié guǒ de pàn dìng xū yào yóu shòu quán rén yuán wán chéng",
-        "B": "guān yú jiǎn yàn jìn dù de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "C": "chōu qǔ yàng běn de shù liàng qǐng àn fāng àn què rèn",
-        "D": "qǐng wèn zhè pī chǎn pǐn de jiǎn yàn jìn dù dào nǎ yī bù le"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你尚未核实“检验进度的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于检验进度的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 33,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你希望“巡检人员安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ xún jiǎn rén yuán ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这组样品来自今天生产的第一批产品",
-        "B": "请帮我确认一下抽样检验要求的具体要求",
-        "C": "如果巡检人员安排有变化请及时通知我",
-        "D": "请问这批产品的检验进度到哪一步了"
-      },
-      "optionPinyin": {
-        "A": "zhè zǔ yàng pǐn lái zì jīn tiān shēng chǎn de dì yī pī chǎn pǐn",
-        "B": "qǐng bāng wǒ què rèn yí xià chōu yàng jiǎn yàn yāo qiú de jù tǐ yāo qiú",
-        "C": "rú guǒ xún jiǎn rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "D": "qǐng wèn zhè pī chǎn pǐn de jiǎn yàn jìn dù dào nǎ yī bù le"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你希望“巡检人员安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果巡检人员安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 34,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“首检资料管理”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ shǒu jiǎn zī liào guǎn lǐ ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请问这次首检需要检查哪些项目",
-        "B": "这次巡检发现的问题请及时反馈",
-        "C": "检验记录有缺项需要补充核实",
-        "D": "请告诉我谁负责首检资料管理"
-      },
-      "optionPinyin": {
-        "A": "qǐng wèn zhè cì shǒu jiǎn xū yào jiǎn chá nǎ xiē xiàng mù",
-        "B": "zhè cì xún jiǎn fā xiàn de wèn tí qǐng jí shí fǎn kuì",
-        "C": "jiǎn yàn jì lù yǒu quē xiàng xū yào bǔ chōng hé shí",
-        "D": "qǐng gào sù wǒ shuí fù zé shǒu jiǎn zī liào guǎn lǐ"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“首检资料管理”，应该怎么说？\n符合此任务的表达：请告诉我谁负责首检资料管理。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 35,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你希望先确认“检验项目清单”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ jiǎn yàn xiàng mù qīng dān ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "我们先确认检验项目清单再继续沟通",
-        "B": "这次巡检发现的问题请及时反馈",
-        "C": "请告诉我谁负责首检资料管理",
-        "D": "请帮我确认一下抽样检验要求的具体要求"
-      },
-      "optionPinyin": {
-        "A": "wǒ men xiān què rèn jiǎn yàn xiàng mù qīng dān zài jì xù gōu tōng",
-        "B": "zhè cì xún jiǎn fā xiàn de wèn tí qǐng jí shí fǎn kuì",
-        "C": "qǐng gào sù wǒ shuí fù zé shǒu jiǎn zī liào guǎn lǐ",
-        "D": "qǐng bāng wǒ què rèn yí xià chōu yàng jiǎn yàn yāo qiú de jù tǐ yāo qiú"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí shǒu jiǎn zī liào guǎn lǐ",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí jiǎn yàn xiàng mù qīng dān",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě shǒu jiǎn zī liào guǎn lǐ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú shǒu jiǎn zī liào guǎn lǐ de zī liào"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“检验项目清单”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认检验项目清单再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“首检资料管理”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实首检资料管理。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实首检资料管理",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“检验项目清单”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ jiǎn yàn xiàng mù qīng dān ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实检验项目清单",
+        "B": "我这次只想核实抽样检验要求",
+        "C": "我还需要进一步了解检验项目清单",
+        "D": "我还没有收到关于检验项目清单的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jiǎn yàn xiàng mù qīng dān",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí chōu yàng jiǎn yàn yāo qiú",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jiǎn yàn xiàng mù qīng dān",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jiǎn yàn xiàng mù qīng dān de zī liào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“检验项目清单”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实检验项目清单。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实检验项目清单",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 31,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“抽样检验要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ chōu yàng jiǎn yàn yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解抽样检验要求",
+        "B": "我这次只想核实抽样检验要求",
+        "C": "我还没有收到关于抽样检验要求的资料",
+        "D": "我还需要进一步了解检验进度的核实结果"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě chōu yàng jiǎn yàn yāo qiú",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí chōu yàng jiǎn yàn yāo qiú",
+        "C": "wǒ hái méi yǒu shōu dào guān yú chōu yàng jiǎn yàn yāo qiú de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jiǎn yàn jìn dù de hé shí jié guǒ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“抽样检验要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解抽样检验要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解抽样检验要求",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 32,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“检验进度的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ jiǎn yàn jìn dù de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实检验进度的核实结果",
+        "B": "我还需要进一步了解巡检人员安排",
+        "C": "我还没有收到关于检验进度的核实结果的资料",
+        "D": "我还需要进一步了解检验进度的核实结果"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jiǎn yàn jìn dù de hé shí jié guǒ",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě xún jiǎn rén yuán ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú jiǎn yàn jìn dù de hé shí jié guǒ de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jiǎn yàn jìn dù de hé shí jié guǒ"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“检验进度的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解检验进度的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解检验进度的核实结果",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 33,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“巡检人员安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ xún jiǎn rén yuán ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实巡检人员安排",
+        "B": "我还没有收到关于巡检人员安排的资料",
+        "C": "我还需要进一步了解巡检人员安排",
+        "D": "我还需要进一步了解首检资料管理"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí xún jiǎn rén yuán ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú xún jiǎn rén yuán ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě xún jiǎn rén yuán ān pái",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě shǒu jiǎn zī liào guǎn lǐ"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“巡检人员安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解巡检人员安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解巡检人员安排",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 34,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“首检资料管理”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ shǒu jiǎn zī liào guǎn lǐ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于首检资料管理的资料",
+        "B": "我还需要进一步了解检验项目清单",
+        "C": "我还需要进一步了解首检资料管理",
+        "D": "我这次只想核实首检资料管理"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú shǒu jiǎn zī liào guǎn lǐ de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jiǎn yàn xiàng mù qīng dān",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě shǒu jiǎn zī liào guǎn lǐ",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí shǒu jiǎn zī liào guǎn lǐ"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“首检资料管理”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解首检资料管理。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解首检资料管理",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 35,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“检验项目清单”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ jiǎn yàn xiàng mù qīng dān ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于检验项目清单的资料",
+        "B": "我还需要进一步了解抽样检验要求",
+        "C": "我这次只想核实检验项目清单",
+        "D": "我还需要进一步了解检验项目清单"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú jiǎn yàn xiàng mù qīng dān de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě chōu yàng jiǎn yàn yāo qiú",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jiǎn yàn xiàng mù qīng dān",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jiǎn yàn xiàng mù qīng dān"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“检验项目清单”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解检验项目清单。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解检验项目清单",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n需要检查 / 哪些项目 / 这次首检 / 请问",
-      "pinyin": "xū yào jiǎn chá / nǎ xiē xiàng mù / zhè cì shǒu jiǎn / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n把 / 关于抽样检验要求的说明 / 发给我 / 请",
+      "pinyin": "bǎ / guān yú chōu yàng jiǎn yàn yāo qiú de shuō míng / fā gěi wǒ / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这次首检需要检查哪些项目",
-        "请问这次首检需要检查哪些项目。",
-        "请问这次首检需要检查哪些项目.",
-        "请问这次首检需要检查哪些项目？",
-        "请问这次首检需要检查哪些项目?"
+        "请把关于抽样检验要求的说明发给我。",
+        "请把关于抽样检验要求的说明发给我",
+        "请把关于抽样检验要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：请问这次首检需要检查哪些项目。\nqǐng wèn zhè cì shǒu jiǎn xū yào jiǎn chá nǎ xiē xiàng mù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：请把关于抽样检验要求的说明发给我。\nqǐng bǎ guān yú chōu yàng jiǎn yàn yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n发现的问题 / 请 / 这次巡检 / 及时反馈",
-      "pinyin": "fā xiàn de wèn tí / qǐng / zhè cì xún jiǎn / jí shí fǎn kuì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 核对过 / 已经 / 检验进度的核实结果",
+      "pinyin": "wǒ men / hé duì guò / yǐ jīng / jiǎn yàn jìn dù de hé shí jié guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这次巡检发现的问题请及时反馈",
-        "这次巡检发现的问题请及时反馈。",
-        "这次巡检发现的问题请及时反馈.",
-        "这次巡检发现的问题请及时反馈？",
-        "这次巡检发现的问题请及时反馈?"
+        "我们已经核对过检验进度的核实结果。",
+        "我们已经核对过检验进度的核实结果",
+        "我们已经核对过检验进度的核实结果."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这次巡检发现的问题请及时反馈。\nzhè cì xún jiǎn fā xiàn de wèn tí qǐng jí shí fǎn kuì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过检验进度的核实结果。\nwǒ men yǐ jīng hé duì guò jiǎn yàn jìn dù de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 执行 / 按照有效文件 / 抽检方案",
-      "pinyin": "qǐng / zhí xíng / àn zhào yǒu xiào wén jiàn / chōu jiǎn fāng àn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 只有 / 先了解巡检人员安排 / 才能解释清楚",
+      "pinyin": "wǒ men / zhǐ yǒu / xiān liǎo jiě xún jiǎn rén yuán ān pái / cái néng jiě shì qīng chǔ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "抽检方案请按照有效文件执行",
-        "抽检方案请按照有效文件执行。",
-        "抽检方案请按照有效文件执行.",
-        "抽检方案请按照有效文件执行？",
-        "抽检方案请按照有效文件执行?"
+        "只有先了解巡检人员安排我们才能解释清楚。",
+        "只有先了解巡检人员安排我们才能解释清楚",
+        "只有先了解巡检人员安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：抽检方案请按照有效文件执行。\nchōu jiǎn fāng àn qǐng àn zhào yǒu xiào wén jiàn zhí xíng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：只有先了解巡检人员安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě xún jiǎn rén yuán ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这组样品 / 第一批产品 / 来自 / 今天生产的",
-      "pinyin": "zhè zǔ yàng pǐn / dì yī pī chǎn pǐn / lái zì / jīn tiān shēng chǎn de",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还想知道 / 具体由谁负责 / 我 / 不仅想了解首检资料管理",
+      "pinyin": "hái xiǎng zhī dào / jù tǐ yóu shuí fù zé / wǒ / bù jǐn xiǎng liǎo jiě shǒu jiǎn zī liào guǎn lǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这组样品来自今天生产的第一批产品",
-        "这组样品来自今天生产的第一批产品。",
-        "这组样品来自今天生产的第一批产品.",
-        "这组样品来自今天生产的第一批产品？",
-        "这组样品来自今天生产的第一批产品?"
+        "我不仅想了解首检资料管理还想知道具体由谁负责。",
+        "我不仅想了解首检资料管理还想知道具体由谁负责",
+        "我不仅想了解首检资料管理还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：这组样品来自今天生产的第一批产品。\nzhè zǔ yàng pǐn lái zì jīn tiān shēng chǎn de dì yī pī chǎn pǐn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 22,
+      "explanation": "参考句子：我不仅想了解首检资料管理还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě shǒu jiǎn zī liào guǎn lǐ hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 核对一下 / 还需要 / 这些检验项目",
-      "pinyin": "wǒ / hé duì yí xià / hái xū yào / zhè xiē jiǎn yàn xiàng mù",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n之前 / 讨论检验项目清单 / 请 / 先准备好相关记录",
+      "pinyin": "zhī qián / tǎo lùn jiǎn yàn xiàng mù qīng dān / qǐng / xiān zhǔn bèi hǎo xiāng guān jì lù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这些检验项目我还需要核对一下",
-        "这些检验项目我还需要核对一下。",
-        "这些检验项目我还需要核对一下.",
-        "这些检验项目我还需要核对一下？",
-        "这些检验项目我还需要核对一下?"
+        "讨论检验项目清单之前请先准备好相关记录。",
+        "讨论检验项目清单之前请先准备好相关记录",
+        "讨论检验项目清单之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这些检验项目我还需要核对一下。\nzhè xiē jiǎn yàn xiàng mù wǒ hái xū yào hé duì yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论检验项目清单之前请先准备好相关记录。\ntǎo lùn jiǎn yàn xiàng mù qīng dān zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 抽取样本的数量 / 确认 / 按方案",
-      "pinyin": "qǐng / chōu qǔ yàng běn de shù liàng / què rèn / àn fāng àn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n关于抽样检验要求 / 有一个问题 / 我 / 想请教您",
+      "pinyin": "guān yú chōu yàng jiǎn yàn yāo qiú / yǒu yí gè wèn tí / wǒ / xiǎng qǐng jiào nín",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "抽取样本的数量请按方案确认",
-        "抽取样本的数量请按方案确认。",
-        "抽取样本的数量请按方案确认.",
-        "抽取样本的数量请按方案确认？",
-        "抽取样本的数量请按方案确认?"
+        "关于抽样检验要求我有一个问题想请教您。",
+        "关于抽样检验要求我有一个问题想请教您",
+        "关于抽样检验要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：抽取样本的数量请按方案确认。\nchōu qǔ yàng běn de shù liàng qǐng àn fāng àn què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：关于抽样检验要求我有一个问题想请教您。\nguān yú chōu yàng jiǎn yàn yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n巡检的频率 / 应该 / 请问 / 依据哪份规定",
-      "pinyin": "xún jiǎn de pín lǜ / yīng gāi / qǐng wèn / yī jù nǎ fèn guī dìng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n你还不清楚检验进度的核实结果 / 如果 / 就 / 先向负责人询问",
+      "pinyin": "nǐ hái bù qīng chǔ jiǎn yàn jìn dù de hé shí jié guǒ / rú guǒ / jiù / xiān xiàng fù zé rén xún wèn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问巡检的频率应该依据哪份规定",
-        "请问巡检的频率应该依据哪份规定。",
-        "请问巡检的频率应该依据哪份规定.",
-        "请问巡检的频率应该依据哪份规定？",
-        "请问巡检的频率应该依据哪份规定?"
+        "如果你还不清楚检验进度的核实结果就先向负责人询问。",
+        "如果你还不清楚检验进度的核实结果就先向负责人询问",
+        "如果你还不清楚检验进度的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：请问巡检的频率应该依据哪份规定。\nqǐng wèn xún jiǎn de pín lǜ yīng gāi yī jù nǎ fèn guī dìng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚检验进度的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ jiǎn yàn jìn dù de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这批产品的检验进度 / 哪一步了 / 到 / 请问",
-      "pinyin": "zhè pī chǎn pǐn de jiǎn yàn jìn dù / nǎ yī bù le / dào / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n但是 / 我们已经讨论过巡检人员安排 / 虽然 / 还需要核实细节",
+      "pinyin": "dàn shì / wǒ men yǐ jīng tǎo lùn guò xún jiǎn rén yuán ān pái / suī rán / hái xū yào hé shí xì jié",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这批产品的检验进度到哪一步了",
-        "请问这批产品的检验进度到哪一步了。",
-        "请问这批产品的检验进度到哪一步了.",
-        "请问这批产品的检验进度到哪一步了？",
-        "请问这批产品的检验进度到哪一步了?"
+        "虽然我们已经讨论过巡检人员安排但是还需要核实细节。",
+        "虽然我们已经讨论过巡检人员安排但是还需要核实细节",
+        "虽然我们已经讨论过巡检人员安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：请问这批产品的检验进度到哪一步了。\nqǐng wèn zhè pī chǎn pǐn de jiǎn yàn jìn dù dào nǎ yī bù le。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：虽然我们已经讨论过巡检人员安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò xún jiǎn rén yuán ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n完成 / 需要 / 由授权人员 / 这项结果的判定",
-      "pinyin": "wán chéng / xū yào / yóu shòu quán rén yuán / zhè xiàng jié guǒ de pàn dìng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不如 / 查阅相关文件 / 反复猜测首检资料管理 / 与其",
+      "pinyin": "bù rú / chá yuè xiāng guān wén jiàn / fǎn fù cāi cè shǒu jiǎn zī liào guǎn lǐ / yǔ qí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这项结果的判定需要由授权人员完成",
-        "这项结果的判定需要由授权人员完成。",
-        "这项结果的判定需要由授权人员完成.",
-        "这项结果的判定需要由授权人员完成？",
-        "这项结果的判定需要由授权人员完成?"
+        "与其反复猜测首检资料管理不如查阅相关文件。",
+        "与其反复猜测首检资料管理不如查阅相关文件",
+        "与其反复猜测首检资料管理不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：这项结果的判定需要由授权人员完成。\nzhè xiàng jié guǒ de pàn dìng xū yào yóu shòu quán rén yuán wán chéng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：与其反复猜测首检资料管理不如查阅相关文件。\nyǔ qí fǎn fù cāi cè shǒu jiǎn zī liào guǎn lǐ bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n补充核实 / 检验记录 / 有缺项 / 需要",
-      "pinyin": "bǔ chōng hé shí / jiǎn yàn jì lù / yǒu quē xiàng / xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n为了 / 我 / 准确说明检验项目清单 / 重新整理了资料",
+      "pinyin": "wèi le / wǒ / zhǔn què shuō míng jiǎn yàn xiàng mù qīng dān / chóng xīn zhěng lǐ le zī liào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "检验记录有缺项需要补充核实",
-        "检验记录有缺项需要补充核实。",
-        "检验记录有缺项需要补充核实.",
-        "检验记录有缺项需要补充核实？",
-        "检验记录有缺项需要补充核实?"
+        "为了准确说明检验项目清单我重新整理了资料。",
+        "为了准确说明检验项目清单我重新整理了资料",
+        "为了准确说明检验项目清单我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：检验记录有缺项需要补充核实。\njiǎn yàn jì lù yǒu quē xiàng xū yào bǔ chōng hé shí。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明检验项目清单我重新整理了资料。\nwèi le zhǔn què shuō míng jiǎn yàn xiàng mù qīng dān wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n的具体要求 / 帮我确认一下 / 抽样检验要求 / 请",
-      "pinyin": "de jù tǐ yāo qiú / bāng wǒ què rèn yí xià / chōu yàng jiǎn yàn yāo qiú / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n可以提出来 / 有疑问的话 / 对抽样检验要求 / 大家",
+      "pinyin": "kě yǐ tí chū lái / yǒu yí wèn de huà / duì chōu yàng jiǎn yàn yāo qiú / dà jiā",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下抽样检验要求的具体要求",
-        "请帮我确认一下抽样检验要求的具体要求。",
-        "请帮我确认一下抽样检验要求的具体要求.",
-        "请帮我确认一下抽样检验要求的具体要求？",
-        "请帮我确认一下抽样检验要求的具体要求?"
+        "大家对抽样检验要求有疑问的话可以提出来。",
+        "大家对抽样检验要求有疑问的话可以提出来",
+        "大家对抽样检验要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：请帮我确认一下抽样检验要求的具体要求。\nqǐng bāng wǒ què rèn yí xià chōu yàng jiǎn yàn yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：大家对抽样检验要求有疑问的话可以提出来。\ndà jiā duì chōu yàng jiǎn yàn yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n关于 / 我 / 检验进度的核实结果 / 还需要 / 再核实一下",
-      "pinyin": "guān yú / wǒ / jiǎn yàn jìn dù de hé shí jié guǒ / hái xū yào / zài hé shí yí xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先说明检验进度的核实结果 / 再 / 请 / 回答大家的问题",
+      "pinyin": "xiān shuō míng jiǎn yàn jìn dù de hé shí jié guǒ / zài / qǐng / huí dá dà jiā de wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于检验进度的核实结果我还需要再核实一下",
-        "关于检验进度的核实结果我还需要再核实一下。",
-        "关于检验进度的核实结果我还需要再核实一下.",
-        "关于检验进度的核实结果我还需要再核实一下？",
-        "关于检验进度的核实结果我还需要再核实一下?"
+        "请先说明检验进度的核实结果再回答大家的问题。",
+        "请先说明检验进度的核实结果再回答大家的问题",
+        "请先说明检验进度的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于检验进度的核实结果我还需要再核实一下。\nguān yú jiǎn yàn jìn dù de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明检验进度的核实结果再回答大家的问题。\nqǐng xiān shuō míng jiǎn yàn jìn dù de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n及时通知我 / 如果 / 请 / 有变化 / 巡检人员安排",
-      "pinyin": "jí shí tōng zhī wǒ / rú guǒ / qǐng / yǒu biàn huà / xún jiǎn rén yuán ān pái",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n都 / 谁来说明巡检人员安排 / 应该以有效文件为依据 / 无论",
+      "pinyin": "dōu / shuí lái shuō míng xún jiǎn rén yuán ān pái / yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / wú lùn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果巡检人员安排有变化请及时通知我",
-        "如果巡检人员安排有变化请及时通知我。",
-        "如果巡检人员安排有变化请及时通知我.",
-        "如果巡检人员安排有变化请及时通知我？",
-        "如果巡检人员安排有变化请及时通知我?"
+        "无论谁来说明巡检人员安排都应该以有效文件为依据。",
+        "无论谁来说明巡检人员安排都应该以有效文件为依据",
+        "无论谁来说明巡检人员安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：如果巡检人员安排有变化请及时通知我。\nrú guǒ xún jiǎn rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：无论谁来说明巡检人员安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng xún jiǎn rén yuán ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 谁 / 首检资料管理 / 告诉我 / 负责",
-      "pinyin": "qǐng / shuí / shǒu jiǎn zī liào guǎn lǐ / gào sù wǒ / fù zé",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n首检资料管理 / 逐项记录清楚 / 涉及的问题 / 需要",
+      "pinyin": "shǒu jiǎn zī liào guǎn lǐ / zhú xiàng jì lù qīng chǔ / shè jí de wèn tí / xū yào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责首检资料管理",
-        "请告诉我谁负责首检资料管理。",
-        "请告诉我谁负责首检资料管理.",
-        "请告诉我谁负责首检资料管理？",
-        "请告诉我谁负责首检资料管理?"
+        "首检资料管理涉及的问题需要逐项记录清楚。",
+        "首检资料管理涉及的问题需要逐项记录清楚",
+        "首检资料管理涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：请告诉我谁负责首检资料管理。\nqǐng gào sù wǒ shuí fù zé shǒu jiǎn zī liào guǎn lǐ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：首检资料管理涉及的问题需要逐项记录清楚。\nshǒu jiǎn zī liào guǎn lǐ shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n再 / 确认 / 我们 / 继续沟通 / 先 / 检验项目清单",
-      "pinyin": "zài / què rèn / wǒ men / jì xù gōu tōng / xiān / jiǎn yàn xiàng mù qīng dān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 检验项目清单确认以后 / 再补充相关记录 / 等",
+      "pinyin": "wǒ men / jiǎn yàn xiàng mù qīng dān què rèn yǐ hòu / zài bǔ chōng xiāng guān jì lù / děng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认检验项目清单再继续沟通",
-        "我们先确认检验项目清单再继续沟通。",
-        "我们先确认检验项目清单再继续沟通.",
-        "我们先确认检验项目清单再继续沟通？",
-        "我们先确认检验项目清单再继续沟通?"
+        "等检验项目清单确认以后我们再补充相关记录。",
+        "等检验项目清单确认以后我们再补充相关记录",
+        "等检验项目清单确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认检验项目清单再继续沟通。\nwǒ men xiān què rèn jiǎn yàn xiàng mù qīng dān zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等检验项目清单确认以后我们再补充相关记录。\nděng jiǎn yàn xiàng mù qīng dān què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

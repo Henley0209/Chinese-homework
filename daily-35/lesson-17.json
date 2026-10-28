@@ -1,26 +1,27 @@
 {
   "title": "日常交际 第17课 服务员，我们要点菜",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“菜单”的正确读音。",
+      "text": "【拼音选择】请选择“餐具”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cài dān",
-        "B": "chài dān",
-        "C": "cài dāng",
-        "D": "cèi dān"
+        "A": "chān jù",
+        "B": "cān qù",
+        "C": "cāng jù",
+        "D": "cān jù"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“菜单”读作 cài dān，本课词义：thực đơn。"
+      "explanation": "“餐具”读作 cān jù。注意声母、韵母、声调及轻声。",
+      "targetWord": "餐具"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“推荐”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tuī jiàn",
-        "B": "tuī qiàn",
-        "C": "tuī jiàng",
-        "D": "cuī jiàn"
+        "A": "tuī jiàng",
+        "B": "tuī jiàn",
+        "C": "cuī jiàn",
+        "D": "tuī qiàn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“推荐”读作 tuī jiàn，本课词义：giới thiệu, đề xuất。"
+      "explanation": "“推荐”读作 tuī jiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "推荐"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“辣椒”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "là jiāo",
-        "B": "là qiāo",
-        "C": "nà jiāo",
-        "D": "bà jiāo"
+        "A": "là qiāo",
+        "B": "nà jiāo",
+        "C": "bà jiāo",
+        "D": "là jiāo"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“辣椒”读作 là jiāo，本课词义：ớt。"
+      "explanation": "“辣椒”读作 là jiāo。注意声母、韵母、声调及轻声。",
+      "targetWord": "辣椒"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“过敏”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "guò mǐng",
-        "B": "duò mǐn",
+        "A": "cuò mǐn",
+        "B": "guò mǐng",
         "C": "guò mǐn",
-        "D": "cuò mǐn"
+        "D": "duò mǐn"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“过敏”读作 guò mǐn，本课词义：dị ứng。"
+      "explanation": "“过敏”读作 guò mǐn。注意声母、韵母、声调及轻声。",
+      "targetWord": "过敏"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“买单”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "měi dān",
-        "B": "mǎi dāng",
+        "B": "mǎi dān",
         "C": "bǎi dān",
-        "D": "mǎi dān"
+        "D": "mǎi dāng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“买单”读作 mǎi dān，本课词义：tính tiền。"
+      "explanation": "“买单”读作 mǎi dān。注意声母、韵母、声调及轻声。",
+      "targetWord": "买单"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：服务员请给我们一份____。",
-      "pinyin": "fú wù yuán qǐng gěi wǒ men yí fèn ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thực đơn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：服务员，请拿一份____给我们。",
+      "pinyin": "fú wù yuán ， qǐng ná yí fèn ____ gěi wǒ men 。",
+      "vietnamese": "Gợi ý: thực đơn.",
       "options": {
-        "A": "菜单",
-        "B": "推荐",
-        "C": "辣椒",
-        "D": "买单"
+        "A": "清淡",
+        "B": "分量",
+        "C": "菜单",
+        "D": "忌口"
       },
       "optionPinyin": {
-        "A": "cài dān",
-        "B": "tuī jiàn",
-        "C": "là jiāo",
-        "D": "mǎi dān"
+        "A": "qīng dàn",
+        "B": "fèn liàng",
+        "C": "cài dān",
+        "D": "jì kǒu"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“菜单”（thực đơn）。完整表达：服务员请给我们一份菜单。"
+      "explanation": "应填“菜单”。完整句子：服务员，请拿一份菜单给我们。\n语法与搭配：拿＋宾语＋给＋人",
+      "targetWord": "菜单",
+      "completeSentence": "服务员，请拿一份菜单给我们。",
+      "grammarFocus": "拿＋宾语＋给＋人"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：你们店里有什么值得____的特色菜。",
-      "pinyin": "nǐ men diàn lǐ yǒu shén me zhí de ____ de tè sè cài",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: giới thiệu, đề xuất.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：点菜前，先问问大家有没有____。",
+      "pinyin": "diǎn cài qián ， xiān wèn wèn dà jiā yǒu méi yǒu ____。",
+      "vietnamese": "Gợi ý: kiêng ăn.",
       "options": {
-        "A": "买单",
-        "B": "辣椒",
-        "C": "推荐",
+        "A": "分量",
+        "B": "清淡",
+        "C": "忌口",
         "D": "菜单"
       },
       "optionPinyin": {
-        "A": "mǎi dān",
-        "B": "là jiāo",
-        "C": "tuī jiàn",
+        "A": "fèn liàng",
+        "B": "qīng dàn",
+        "C": "jì kǒu",
         "D": "cài dān"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“推荐”（giới thiệu, đề xuất）。完整表达：你们店里有什么值得推荐的特色菜。"
+      "explanation": "应填“忌口”。完整句子：点菜前，先问问大家有没有忌口。\n语法与搭配：……前；有没有",
+      "targetWord": "忌口",
+      "completeSentence": "点菜前，先问问大家有没有忌口。",
+      "grammarFocus": "……前；有没有"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这道菜请少放一点____。",
-      "pinyin": "zhè dào cài qǐng shǎo fàng yì diǎn ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: ớt.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：爷爷不能吃太油的，做得____一点。",
+      "pinyin": "yé yé bù néng chī tài yóu de ， zuò dé ____ yì diǎn 。",
+      "vietnamese": "Gợi ý: thanh đạm.",
       "options": {
-        "A": "辣椒",
-        "B": "买单",
-        "C": "过敏",
+        "A": "忌口",
+        "B": "分量",
+        "C": "清淡",
         "D": "菜单"
       },
       "optionPinyin": {
-        "A": "là jiāo",
-        "B": "mǎi dān",
-        "C": "guò mǐn",
+        "A": "jì kǒu",
+        "B": "fèn liàng",
+        "C": "qīng dàn",
         "D": "cài dān"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“辣椒”（ớt）。完整表达：这道菜请少放一点辣椒。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我对花生____这道菜里有花生吗。",
-      "pinyin": "wǒ duì huā shēng ____ zhè dào cài lǐ yǒu huā shēng ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: dị ứng.",
-      "options": {
-        "A": "推荐",
-        "B": "菜单",
-        "C": "过敏",
-        "D": "辣椒"
-      },
-      "optionPinyin": {
-        "A": "tuī jiàn",
-        "B": "cài dān",
-        "C": "guò mǐn",
-        "D": "là jiāo"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“过敏”（dị ứng）。完整表达：我对花生过敏这道菜里有花生吗。"
+      "explanation": "应填“清淡”。完整句子：爷爷不能吃太油的，做得清淡一点。\n语法与搭配：动词＋得；一点",
+      "targetWord": "清淡",
+      "completeSentence": "爷爷不能吃太油的，做得清淡一点。",
+      "grammarFocus": "动词＋得；一点"
     },
     {
-      "id": 10,
+      "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：服务员我们现在要____。",
-      "pinyin": "fú wù yuán wǒ men xiàn zài yào ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tính tiền.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们有五个人，这道菜的____够吗？",
+      "pinyin": "wǒ men yǒu wǔ gè rén ， zhè dào cài de ____ gòu ma ？",
+      "vietnamese": "Gợi ý: khẩu phần.",
       "options": {
-        "A": "辣椒",
-        "B": "菜单",
-        "C": "推荐",
-        "D": "买单"
+        "A": "忌口",
+        "B": "清淡",
+        "C": "菜单",
+        "D": "分量"
       },
       "optionPinyin": {
-        "A": "là jiāo",
-        "B": "cài dān",
-        "C": "tuī jiàn",
-        "D": "mǎi dān"
+        "A": "jì kǒu",
+        "B": "qīng dàn",
+        "C": "cài dān",
+        "D": "fèn liàng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“买单”（tính tiền）。完整表达：服务员我们现在要买单。"
+      "explanation": "应填“分量”。完整句子：我们有五个人，这道菜的分量够吗？\n语法与搭配：有；够吗",
+      "targetWord": "分量",
+      "completeSentence": "我们有五个人，这道菜的分量够吗？",
+      "grammarFocus": "有；够吗"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们已经吃好了，麻烦过来____。",
+      "pinyin": "wǒ men yǐ jīng chī hǎo le ， má fán guò lái ____。",
+      "vietnamese": "Gợi ý: thanh toán.",
+      "options": {
+        "A": "忌口",
+        "B": "菜单",
+        "C": "清淡",
+        "D": "结账"
+      },
+      "optionPinyin": {
+        "A": "jì kǒu",
+        "B": "cài dān",
+        "C": "qīng dàn",
+        "D": "jié zhàng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“结账”。完整句子：我们已经吃好了，麻烦过来结账。\n语法与搭配：已经……好了",
+      "targetWord": "结账",
+      "completeSentence": "我们已经吃好了，麻烦过来结账。",
+      "grammarFocus": "已经……好了"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n服务员 / 一份菜单 / 请 / 给我们",
-      "pinyin": "fú wù yuán / yí fèn cài dān / qǐng / gěi wǒ men",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n少放一点盐 / 能不能 / 不放辣椒 / 这道菜",
+      "pinyin": "shǎo fàng yì diǎn yán / néng bù néng / bù fàng là jiāo / zhè dào cài",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "服务员请给我们一份菜单。",
-        "服务员请给我们一份菜单",
-        "服务员请给我们一份菜单.",
-        "服务员请给我们一份菜单？",
-        "服务员请给我们一份菜单?"
+        "这道菜能不能少放一点盐不放辣椒。",
+        "这道菜能不能少放一点盐不放辣椒",
+        "这道菜能不能少放一点盐不放辣椒."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：服务员请给我们一份菜单。\nfú wù yuán qǐng gěi wǒ men yí fèn cài dān。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：这道菜能不能少放一点盐不放辣椒。\nzhè dào cài néng bù néng shǎo fàng yì diǎn yán bù fàng là jiāo\n语法与搭配：能不能；一点",
+      "grammarFocus": "能不能；一点"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n你们店里 / 值得推荐的 / 有什么 / 特色菜",
-      "pinyin": "nǐ men diàn lǐ / zhí de tuī jiàn de / yǒu shén me / tè sè cài",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不烫的汤 / 请 / 上一碗 / 先给孩子",
+      "pinyin": "bù tàng de tāng / qǐng / shàng yī wǎn / xiān gěi hái zi",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "你们店里有什么值得推荐的特色菜。",
-        "你们店里有什么值得推荐的特色菜",
-        "你们店里有什么值得推荐的特色菜.",
-        "你们店里有什么值得推荐的特色菜？",
-        "你们店里有什么值得推荐的特色菜?"
+        "请先给孩子上一碗不烫的汤。",
+        "请先给孩子上一碗不烫的汤",
+        "请先给孩子上一碗不烫的汤."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：你们店里有什么值得推荐的特色菜。\nnǐ men diàn lǐ yǒu shén me zhí de tuī jiàn de tè sè cài。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：请先给孩子上一碗不烫的汤。\nqǐng xiān gěi hái zi shàng yī wǎn bù tàng de tāng\n语法与搭配：先；的字短语",
+      "grammarFocus": "先；的字短语"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 这道菜 / 少放 / 一点辣椒",
-      "pinyin": "qǐng / zhè dào cài / shǎo fàng / yì diǎn là jiāo",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先点这些 / 我们 / 再加菜 / 不够的话",
+      "pinyin": "xiān diǎn zhè xiē / wǒ men / zài jiā cài / bù gòu de huà",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这道菜请少放一点辣椒。",
-        "这道菜请少放一点辣椒",
-        "这道菜请少放一点辣椒.",
-        "这道菜请少放一点辣椒？",
-        "这道菜请少放一点辣椒?"
+        "我们先点这些不够的话再加菜。",
+        "我们先点这些不够的话再加菜",
+        "我们先点这些不够的话再加菜."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：这道菜请少放一点辣椒。\nzhè dào cài qǐng shǎo fàng yì diǎn là jiāo。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：我们先点这些不够的话再加菜。\nwǒ men xiān diǎn zhè xiē bù gòu de huà zài jiā cài\n语法与搭配：……的话再……",
+      "grammarFocus": "……的话再……"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n有花生吗 / 我 / 这道菜里 / 对花生过敏",
-      "pinyin": "yǒu huā shēng ma / wǒ / zhè dào cài lǐ / duì huā shēng guò mǐn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n给那位 / 是 / 这份米饭 / 还没吃饭的朋友的",
+      "pinyin": "gěi nà wèi / shì / zhè fèn mǐ fàn / hái méi chī fàn de péng you de",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我对花生过敏这道菜里有花生吗。",
-        "我对花生过敏这道菜里有花生吗",
-        "我对花生过敏这道菜里有花生吗.",
-        "我对花生过敏这道菜里有花生吗？",
-        "我对花生过敏这道菜里有花生吗?"
+        "这份米饭是给那位还没吃饭的朋友的。",
+        "这份米饭是给那位还没吃饭的朋友的",
+        "这份米饭是给那位还没吃饭的朋友的."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：我对花生过敏这道菜里有花生吗。\nwǒ duì huā shēng guò mǐn zhè dào cài lǐ yǒu huā shēng ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：这份米饭是给那位还没吃饭的朋友的。\nzhè fèn mǐ fàn shì gěi nà wèi hái méi chī fàn de péng you de\n语法与搭配：是……的",
+      "grammarFocus": "是……的"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n要买单 / 服务员 / 我们 / 现在",
-      "pinyin": "yào mǎi dān / fú wù yuán / wǒ men / xiàn zài",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n这道菜卖完了 / 如果 / 请 / 推荐一道类似的",
+      "pinyin": "zhè dào cài mài wán le / rú guǒ / qǐng / tuī jiàn yī dào lèi sì de",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "服务员我们现在要买单。",
-        "服务员我们现在要买单",
-        "服务员我们现在要买单.",
-        "服务员我们现在要买单？",
-        "服务员我们现在要买单?"
+        "如果这道菜卖完了请推荐一道类似的。",
+        "如果这道菜卖完了请推荐一道类似的",
+        "如果这道菜卖完了请推荐一道类似的."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：服务员我们现在要买单。\nfú wù yuán wǒ men xiàn zài yào mǎi dān。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：如果这道菜卖完了请推荐一道类似的。\nrú guǒ zhè dào cài mài wán le qǐng tuī jiàn yī dào lèi sì de\n语法与搭配：如果……请……",
+      "grammarFocus": "如果……请……"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

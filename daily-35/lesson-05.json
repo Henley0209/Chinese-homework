@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第05课 我的一天",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“起床”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qǐ chuáng",
-        "B": "xǐ chuáng",
-        "C": "jǐ chuáng",
-        "D": "qǐ chuán"
+        "A": "jǐ chuáng",
+        "B": "qǐ chuán",
+        "C": "qǐ chuáng",
+        "D": "xǐ chuáng"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“起床”读作 qǐ chuáng，本课词义：thức dậy。"
+      "explanation": "“起床”读作 qǐ chuáng。注意声母、韵母、声调及轻声。",
+      "targetWord": "起床"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“早餐”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zǎo cāng",
-        "B": "zhǎo cān",
+        "B": "zǎo cān",
         "C": "zǎo chān",
-        "D": "zǎo cān"
+        "D": "zhǎo cān"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“早餐”读作 zǎo cān，本课词义：bữa sáng。"
+      "explanation": "“早餐”读作 zǎo cān。注意声母、韵母、声调及轻声。",
+      "targetWord": "早餐"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“上班”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shàn bān",
-        "B": "shàng bāng",
-        "C": "sàng bān",
-        "D": "shàng bān"
+        "A": "shàng bāng",
+        "B": "shàng bān",
+        "C": "shàn bān",
+        "D": "sàng bān"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“上班”读作 shàng bān，本课词义：đi làm。"
+      "explanation": "“上班”读作 shàng bān。注意声母、韵母、声调及轻声。",
+      "targetWord": "上班"
     },
     {
       "id": 4,
@@ -66,162 +69,179 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“复习”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bù xí",
-        "B": "fù qí",
+        "A": "fù xí",
+        "B": "bù xí",
         "C": "hù xí",
-        "D": "fù xí"
+        "D": "fù qí"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "“复习”读作 fù xí，本课词义：ôn tập。"
+      "explanation": "“复习”读作 fù xí。注意声母、韵母、声调及轻声。",
+      "targetWord": "复习"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“睡觉”的正确读音。",
+      "text": "【拼音选择】请选择“通勤”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chuì jiào",
-        "B": "suì jiào",
-        "C": "shuì jiào",
-        "D": "shuì qiào"
+        "A": "cōng qín",
+        "B": "tōng qín",
+        "C": "tōng xín",
+        "D": "tōng qíng"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "“睡觉”读作 shuì jiào，本课词义：đi ngủ。"
+      "explanation": "“通勤”读作 tōng qín。注意声母、韵母、声调及轻声。",
+      "targetWord": "通勤"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我每天早上六点半____。",
-      "pinyin": "wǒ měi tiān zǎo shàng liù diǎn bàn ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thức dậy.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：早上六点，____就响了。",
+      "pinyin": "zǎo shàng liù diǎn ，____ jiù xiǎng le 。",
+      "vietnamese": "Gợi ý: đồng hồ báo thức.",
       "options": {
-        "A": "早餐",
-        "B": "上班",
-        "C": "起床",
-        "D": "睡觉"
+        "A": "刷牙",
+        "B": "闹钟",
+        "C": "午休",
+        "D": "做家务"
       },
       "optionPinyin": {
-        "A": "zǎo cān",
-        "B": "shàng bān",
-        "C": "qǐ chuáng",
-        "D": "shuì jiào"
+        "A": "shuā yá",
+        "B": "nào zhōng",
+        "C": "wǔ xiū",
+        "D": "zuò jiā wù"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“起床”（thức dậy）。完整表达：我每天早上六点半起床。"
+      "explanation": "应填“闹钟”。完整句子：早上六点，闹钟就响了。\n语法与搭配：就：时间早",
+      "targetWord": "闹钟",
+      "completeSentence": "早上六点，闹钟就响了。",
+      "grammarFocus": "就：时间早"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我通常在家吃____。",
-      "pinyin": "wǒ tōng cháng zài jiā chī ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: bữa sáng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：起床后，我先____再洗脸。",
+      "pinyin": "qǐ chuáng hòu ， wǒ xiān ____ zài xǐ liǎn 。",
+      "vietnamese": "Gợi ý: đánh răng.",
       "options": {
-        "A": "睡觉",
-        "B": "复习",
-        "C": "早餐",
-        "D": "上班"
+        "A": "刷牙",
+        "B": "午休",
+        "C": "做家务",
+        "D": "闹钟"
       },
       "optionPinyin": {
-        "A": "shuì jiào",
-        "B": "fù xí",
-        "C": "zǎo cān",
-        "D": "shàng bān"
+        "A": "shuā yá",
+        "B": "wǔ xiū",
+        "C": "zuò jiā wù",
+        "D": "nào zhōng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“早餐”（bữa sáng）。完整表达：我通常在家吃早餐。"
+      "explanation": "应填“刷牙”。完整句子：起床后，我先刷牙再洗脸。\n语法与搭配：先……再……",
+      "targetWord": "刷牙",
+      "completeSentence": "起床后，我先刷牙再洗脸。",
+      "grammarFocus": "先……再……"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我每天坐公交车去____。",
-      "pinyin": "wǒ měi tiān zuò gōng jiāo chē qù ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đi làm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：吃完午饭，我通常____半小时。",
+      "pinyin": "chī wán wǔ fàn ， wǒ tōng cháng ____ bàn xiǎo shí 。",
+      "vietnamese": "Gợi ý: nghỉ trưa.",
       "options": {
-        "A": "睡觉",
-        "B": "上班",
-        "C": "起床",
-        "D": "早餐"
+        "A": "闹钟",
+        "B": "刷牙",
+        "C": "做家务",
+        "D": "午休"
       },
       "optionPinyin": {
-        "A": "shuì jiào",
-        "B": "shàng bān",
-        "C": "qǐ chuáng",
-        "D": "zǎo cān"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“上班”（đi làm）。完整表达：我每天坐公交车去上班。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：晚饭以后我一般____半小时汉语。",
-      "pinyin": "wǎn fàn yǐ hòu wǒ yì bān ____ bàn xiǎo shí hàn yǔ",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: ôn tập.",
-      "options": {
-        "A": "早餐",
-        "B": "复习",
-        "C": "上班",
-        "D": "睡觉"
-      },
-      "optionPinyin": {
-        "A": "zǎo cān",
-        "B": "fù xí",
-        "C": "shàng bān",
-        "D": "shuì jiào"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“复习”（ôn tập）。完整表达：晚饭以后我一般复习半小时汉语。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：为了早点____我晚上少看手机。",
-      "pinyin": "wèi le zǎo diǎn ____ wǒ wǎn shàng shǎo kàn shǒu jī",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đi ngủ.",
-      "options": {
-        "A": "早餐",
-        "B": "起床",
-        "C": "复习",
-        "D": "睡觉"
-      },
-      "optionPinyin": {
-        "A": "zǎo cān",
-        "B": "qǐ chuáng",
-        "C": "fù xí",
-        "D": "shuì jiào"
+        "A": "nào zhōng",
+        "B": "shuā yá",
+        "C": "zuò jiā wù",
+        "D": "wǔ xiū"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“睡觉”（đi ngủ）。完整表达：为了早点睡觉我晚上少看手机。"
+      "explanation": "应填“午休”。完整句子：吃完午饭，我通常午休半小时。\n语法与搭配：动词＋时量",
+      "targetWord": "午休",
+      "completeSentence": "吃完午饭，我通常午休半小时。",
+      "grammarFocus": "动词＋时量"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：晚上我们轮流____，把房间打扫干净。",
+      "pinyin": "wǎn shàng wǒ men lún liú ____， bǎ fáng jiān dǎ sǎo gān jìng 。",
+      "vietnamese": "Gợi ý: làm việc nhà.",
+      "options": {
+        "A": "刷牙",
+        "B": "午休",
+        "C": "闹钟",
+        "D": "做家务"
+      },
+      "optionPinyin": {
+        "A": "shuā yá",
+        "B": "wǔ xiū",
+        "C": "nào zhōng",
+        "D": "zuò jiā wù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“做家务”。完整句子：晚上我们轮流做家务，把房间打扫干净。\n语法与搭配：轮流；把字句",
+      "targetWord": "做家务",
+      "completeSentence": "晚上我们轮流做家务，把房间打扫干净。",
+      "grammarFocus": "轮流；把字句"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：明天要早起，今晚得早点____。",
+      "pinyin": "míng tiān yào zǎo qǐ ， jīn wǎn dé zǎo diǎn ____。",
+      "vietnamese": "Gợi ý: đi ngủ.",
+      "options": {
+        "A": "午休",
+        "B": "闹钟",
+        "C": "睡觉",
+        "D": "刷牙"
+      },
+      "optionPinyin": {
+        "A": "wǔ xiū",
+        "B": "nào zhōng",
+        "C": "shuì jiào",
+        "D": "shuā yá"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“睡觉”。完整句子：明天要早起，今晚得早点睡觉。\n语法与搭配：得：需要",
+      "targetWord": "睡觉",
+      "completeSentence": "明天要早起，今晚得早点睡觉。",
+      "grammarFocus": "得：需要"
     },
     {
       "id": 11,
@@ -352,111 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 每天早上 / 起床 / 六点半",
-      "pinyin": "wǒ / měi tiān zǎo shàng / qǐ chuáng / liù diǎn bàn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n洗完澡 / 我 / 才开始看书 / 以后",
+      "pinyin": "xǐ wán zǎo / wǒ / cái kāi shǐ kàn shū / yǐ hòu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我每天早上六点半起床。",
-        "我每天早上六点半起床",
-        "我每天早上六点半起床.",
-        "我每天早上六点半起床？",
-        "我每天早上六点半起床?",
-        "每天早上我六点半起床",
-        "每天早上我六点半起床。",
-        "每天早上我六点半起床.",
-        "每天早上我六点半起床？",
-        "每天早上我六点半起床?"
+        "我洗完澡以后才开始看书。",
+        "我洗完澡以后才开始看书",
+        "我洗完澡以后才开始看书."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：我每天早上六点半起床。\nwǒ měi tiān zǎo shàng liù diǎn bàn qǐ chuáng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 11,
+      "explanation": "参考句子：我洗完澡以后才开始看书。\nwǒ xǐ wán zǎo yǐ hòu cái kāi shǐ kàn shū\n语法与搭配：……以后才……",
+      "grammarFocus": "……以后才……"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n在家 / 吃早餐 / 我 / 通常",
-      "pinyin": "zài jiā / chī zǎo cān / wǒ / tōng cháng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n比我 / 妈妈 / 早起十分钟 / 每天",
+      "pinyin": "bǐ wǒ / mā mā / zǎo qǐ shí fēn zhōng / měi tiān",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我通常在家吃早餐。",
-        "我通常在家吃早餐",
-        "我通常在家吃早餐.",
-        "我通常在家吃早餐？",
-        "我通常在家吃早餐?",
-        "通常我在家吃早餐",
-        "通常我在家吃早餐。",
-        "通常我在家吃早餐.",
-        "通常我在家吃早餐？",
-        "通常我在家吃早餐?"
+        "妈妈每天比我早起十分钟。",
+        "妈妈每天比我早起十分钟",
+        "妈妈每天比我早起十分钟."
       ],
       "points": 5,
-      "hanziCount": 8,
-      "explanation": "参考表达：我通常在家吃早餐。\nwǒ tōng cháng zài jiā chī zǎo cān。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 11,
+      "explanation": "参考句子：妈妈每天比我早起十分钟。\nmā mā měi tiān bǐ wǒ zǎo qǐ shí fēn zhōng\n语法与搭配：比；数量差",
+      "grammarFocus": "比；数量差"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 去上班 / 坐公交车 / 每天",
-      "pinyin": "wǒ / qù shàng bān / zuò gōng jiāo chē / měi tiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n总是 / 下班回家 / 我 / 先换衣服",
+      "pinyin": "zǒng shì / xià bān huí jiā / wǒ / xiān huàn yī fú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我每天坐公交车去上班。",
-        "我每天坐公交车去上班",
-        "我每天坐公交车去上班.",
-        "我每天坐公交车去上班？",
-        "我每天坐公交车去上班?",
-        "每天我坐公交车去上班",
-        "每天我坐公交车去上班。",
-        "每天我坐公交车去上班.",
-        "每天我坐公交车去上班？",
-        "每天我坐公交车去上班?"
+        "下班回家我总是先换衣服。",
+        "下班回家我总是先换衣服",
+        "下班回家我总是先换衣服."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：我每天坐公交车去上班。\nwǒ měi tiān zuò gōng jiāo chē qù shàng bān。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 11,
+      "explanation": "参考句子：下班回家我总是先换衣服。\nxià bān huí jiā wǒ zǒng shì xiān huàn yī fú\n语法与搭配：总是；先",
+      "grammarFocus": "总是；先"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n复习半小时汉语 / 我 / 一般 / 晚饭以后",
-      "pinyin": "fù xí bàn xiǎo shí hàn yǔ / wǒ / yì bān / wǎn fàn yǐ hòu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n因为加班 / 没赶上末班车 / 昨天 / 我",
+      "pinyin": "yīn wèi jiā bān / méi gǎn shàng mò bān chē / zuó tiān / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "晚饭以后我一般复习半小时汉语。",
-        "晚饭以后我一般复习半小时汉语",
-        "晚饭以后我一般复习半小时汉语.",
-        "晚饭以后我一般复习半小时汉语？",
-        "晚饭以后我一般复习半小时汉语?",
-        "我晚饭以后一般复习半小时汉语",
-        "我晚饭以后一般复习半小时汉语。",
-        "我晚饭以后一般复习半小时汉语.",
-        "我晚饭以后一般复习半小时汉语？",
-        "我晚饭以后一般复习半小时汉语?"
+        "昨天因为加班我没赶上末班车。",
+        "昨天因为加班我没赶上末班车",
+        "昨天因为加班我没赶上末班车."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：晚饭以后我一般复习半小时汉语。\nwǎn fàn yǐ hòu wǒ yì bān fù xí bàn xiǎo shí hàn yǔ。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：昨天因为加班我没赶上末班车。\nzuó tiān yīn wèi jiā bān wǒ méi gǎn shàng mò bān chē\n语法与搭配：因为；没＋动词",
+      "grammarFocus": "因为；没＋动词"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n早点睡觉 / 我 / 晚上少看手机 / 为了",
-      "pinyin": "zǎo diǎn shuì jiào / wǒ / wǎn shàng shǎo kàn shǒu jī / wèi le",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n关掉手机 / 到了晚上十点 / 就 / 我",
+      "pinyin": "guān diào shǒu jī / dào le wǎn shàng shí diǎn / jiù / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "为了早点睡觉我晚上少看手机。",
-        "为了早点睡觉我晚上少看手机",
-        "为了早点睡觉我晚上少看手机.",
-        "为了早点睡觉我晚上少看手机？",
-        "为了早点睡觉我晚上少看手机?"
+        "到了晚上十点我就关掉手机。",
+        "到了晚上十点我就关掉手机",
+        "到了晚上十点我就关掉手机."
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：为了早点睡觉我晚上少看手机。\nwèi le zǎo diǎn shuì jiào wǒ wǎn shàng shǎo kàn shǒu jī。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：到了晚上十点我就关掉手机。\ndào le wǎn shàng shí diǎn wǒ jiù guān diào shǒu jī\n语法与搭配：到了……就……",
+      "grammarFocus": "到了……就……"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

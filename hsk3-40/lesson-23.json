@@ -1,6 +1,6 @@
 {
   "title": "HSK3 第23课 坐公共汽车还是坐地铁",
-  "description": "Đi xe buýt hay đi tàu điện?。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。",
+  "description": "Đi xe buýt hay đi tàu điện?。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "pronunciationOptionsVersion": 1,
   "questions": [
@@ -10,18 +10,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“公共汽车”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gōng gòng qì cē",
-        "B": "gēng gòng qì chē",
-        "C": "gōng gòng qì chē",
-        "D": "gōng gèng qì chē"
+        "A": "cōng gòng qì chē",
+        "B": "gōng gòng jì chē",
+        "C": "gōng gòng xì chē",
+        "D": "gōng gòng qì chē"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“公共汽车”的正确读音：gōng gòng qì chē。"
+      "explanation": "“公共汽车”读作 gōng gòng qì chē。注意声母、韵母、声调及轻声。",
+      "targetWord": "公共汽车"
     },
     {
       "id": 2,
@@ -29,18 +30,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“地铁”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dì tǐ",
-        "B": "dìn tiě",
-        "C": "dìng tiě",
-        "D": "dì tiě"
+        "A": "bì tiě",
+        "B": "cì tiě",
+        "C": "dì tiě",
+        "D": "diè tiě"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“地铁”的正确读音：dì tiě。"
+      "explanation": "“地铁”读作 dì tiě。注意声母、韵母、声调及轻声。",
+      "targetWord": "地铁"
     },
     {
       "id": 3,
@@ -48,18 +50,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“出租车”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chū zū chē",
-        "B": "cū zū chē",
-        "C": "chū zū cē",
-        "D": "chū zhū chē"
+        "A": "chū zhū chē",
+        "B": "chuā zū chē",
+        "C": "chū zū chē",
+        "D": "cū zū chē"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“出租车”的正确读音：chū zū chē。"
+      "explanation": "“出租车”读作 chū zū chē。注意声母、韵母、声调及轻声。",
+      "targetWord": "出租车"
     },
     {
       "id": 4,
@@ -67,18 +70,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“自行车”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zì xíng cē",
-        "B": "zì xíng chē",
+        "A": "zì qíng chē",
+        "B": "zì xín chē",
         "C": "zhì xíng chē",
-        "D": "zì xín chē"
+        "D": "zì xíng chē"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“自行车”的正确读音：zì xíng chē。"
+      "explanation": "“自行车”读作 zì xíng chē。注意声母、韵母、声调及轻声。",
+      "targetWord": "自行车"
     },
     {
       "id": 5,
@@ -86,18 +90,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“车票”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chē pào",
-        "B": "chā piào",
-        "C": "chē piào",
-        "D": "cē piào"
+        "A": "chā piào",
+        "B": "chēn piào",
+        "C": "chī piào",
+        "D": "chē piào"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“车票”的正确读音：chē piào。"
+      "explanation": "“车票”读作 chē piào。注意声母、韵母、声调及轻声。",
+      "targetWord": "车票"
     },
     {
       "id": 6,
@@ -105,18 +110,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“车站”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chē zhàng",
-        "B": "chē zàn",
-        "C": "cē zhàn",
+        "A": "chē zàn",
+        "B": "chē zhàng",
+        "C": "chā zhàn",
         "D": "chē zhàn"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“车站”的正确读音：chē zhàn。"
+      "explanation": "“车站”读作 chē zhàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "车站"
     },
     {
       "id": 7,
@@ -124,18 +130,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“路线”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lù xiàn",
-        "B": "lǜ xiàn",
-        "C": "nù xiàn",
+        "A": "lù qiàn",
+        "B": "nù xiàn",
+        "C": "lù xiàn",
         "D": "lù xiàng"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“路线”的正确读音：lù xiàn。"
+      "explanation": "“路线”读作 lù xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "路线"
     },
     {
       "id": 8,
@@ -143,18 +150,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“交通”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiū tōng",
-        "B": "jiāo tōng",
-        "C": "jiāo tēng",
-        "D": "jiā tōng"
+        "A": "jiāo tōng",
+        "B": "biāo tōng",
+        "C": "diāo tōng",
+        "D": "qiāo tōng"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“交通”的正确读音：jiāo tōng。"
+      "explanation": "“交通”读作 jiāo tōng。注意声母、韵母、声调及轻声。",
+      "targetWord": "交通"
     },
     {
       "id": 9,
@@ -162,18 +170,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“速度”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sù duì",
-        "B": "shù dù",
-        "C": "sù dù",
-        "D": "suì dù"
+        "A": "bù dù",
+        "B": "sù dù",
+        "C": "shù dù",
+        "D": "cù dù"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“速度”的正确读音：sù dù。"
+      "explanation": "“速度”读作 sù dù。注意声母、韵母、声调及轻声。",
+      "targetWord": "速度"
     },
     {
       "id": 10,
@@ -181,18 +190,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“距离”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jù ní",
-        "B": "jù lín",
-        "C": "qù lí",
-        "D": "jù lí"
+        "A": "jù lí",
+        "B": "jù ní",
+        "C": "bù lí",
+        "D": "qù lí"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“距离”的正确读音：jù lí。"
+      "explanation": "“距离”读作 jù lí。注意声母、韵母、声调及轻声。",
+      "targetWord": "距离"
     },
     {
       "id": 11,
@@ -200,18 +210,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“司机”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sī jī",
-        "B": "sī jīng",
-        "C": "shī jī",
-        "D": "sī jīn"
+        "A": "shī jī",
+        "B": "sī jī",
+        "C": "sī qī",
+        "D": "bī jī"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“司机”的正确读音：sī jī。"
+      "explanation": "“司机”读作 sī jī。注意声母、韵母、声调及轻声。",
+      "targetWord": "司机"
     },
     {
       "id": 12,
@@ -219,18 +230,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“乘客”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chóng kè",
-        "B": "chéng kè",
-        "C": "chén kè",
-        "D": "céng kè"
+        "A": "céng kè",
+        "B": "chén kè",
+        "C": "chéng kè",
+        "D": "cháng kè"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“乘客”的正确读音：chéng kè。"
+      "explanation": "“乘客”读作 chéng kè。注意声母、韵母、声调及轻声。",
+      "targetWord": "乘客"
     },
     {
       "id": 13,
@@ -238,18 +250,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“座位”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zhuò wèi",
-        "B": "zuò wài",
-        "C": "zuò wèi",
-        "D": "zòu wèi"
+        "B": "cuò wèi",
+        "C": "zuò wài",
+        "D": "zuò wèi"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“座位”的正确读音：zuò wèi。"
+      "explanation": "“座位”读作 zuò wèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "座位"
     },
     {
       "id": 14,
@@ -257,18 +270,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“方便”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "fāng biàng",
-        "B": "hāng biàn",
-        "C": "fān biàn",
+        "B": "fān biàn",
+        "C": "hāng biàn",
         "D": "fāng biàn"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“方便”的正确读音：fāng biàn。"
+      "explanation": "“方便”读作 fāng biàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "方便"
     },
     {
       "id": 15,
@@ -276,18 +290,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“便宜”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pián yi",
-        "B": "pán yi",
-        "C": "pié yi",
-        "D": "pián yin"
+        "A": "mián yi",
+        "B": "lián yi",
+        "C": "dián yi",
+        "D": "pián yi"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“便宜”的正确读音：pián yi。"
+      "explanation": "“便宜”读作 pián yi。注意声母、韵母、声调及轻声。",
+      "targetWord": "便宜"
     },
     {
       "id": 16,
@@ -312,7 +327,9 @@
         "B": "hái shì",
         "C": "xià chē",
         "D": "duì"
-      }
+      },
+      "targetWord": "还是",
+      "completeSentence": "你想走路还是坐车？"
     },
     {
       "id": 17,
@@ -337,7 +354,9 @@
         "B": "yuǎn",
         "C": "huò zhě",
         "D": "huàn chéng"
-      }
+      },
+      "targetWord": "或者",
+      "completeSentence": "明天或者后天我都可以。"
     },
     {
       "id": 18,
@@ -362,7 +381,9 @@
         "B": "huò zhě",
         "C": "duì",
         "D": "qí"
-      }
+      },
+      "targetWord": "骑",
+      "completeSentence": "你会骑自行车吗？"
     },
     {
       "id": 19,
@@ -387,7 +408,9 @@
         "B": "huò zhě",
         "C": "hái shì",
         "D": "páng biān"
-      }
+      },
+      "targetWord": "下车",
+      "completeSentence": "我们在下一站下车。"
     },
     {
       "id": 20,
@@ -412,7 +435,9 @@
         "B": "shàng chē",
         "C": "xià chē",
         "D": "qí"
-      }
+      },
+      "targetWord": "上车",
+      "completeSentence": "请从前门上车。"
     },
     {
       "id": 21,
@@ -437,7 +462,9 @@
         "B": "děng",
         "C": "huàn chéng",
         "D": "duì"
-      }
+      },
+      "targetWord": "换乘",
+      "completeSentence": "这里需要换乘另一条线。"
     },
     {
       "id": 22,
@@ -462,7 +489,9 @@
         "B": "qí",
         "C": "xuǎn zé",
         "D": "duì"
-      }
+      },
+      "targetWord": "队",
+      "completeSentence": "大家先排好队。"
     },
     {
       "id": 23,
@@ -487,7 +516,9 @@
         "B": "hái shì",
         "C": "xiǎo shí",
         "D": "huò zhě"
-      }
+      },
+      "targetWord": "旁边",
+      "completeSentence": "你可以坐在我旁边。"
     },
     {
       "id": 24,
@@ -512,7 +543,9 @@
         "B": "xiǎo shí",
         "C": "děng",
         "D": "páng biān"
-      }
+      },
+      "targetWord": "小时",
+      "completeSentence": "从这里过去大约要半个小时。"
     },
     {
       "id": 25,
@@ -537,7 +570,9 @@
         "B": "ān quán",
         "C": "xuǎn zé",
         "D": "xiǎo shí"
-      }
+      },
+      "targetWord": "选择",
+      "completeSentence": "我们应该选择适合自己的方法。"
     },
     {
       "id": 26,
@@ -562,7 +597,9 @@
         "B": "xuǎn zé",
         "C": "duì",
         "D": "jǐ"
-      }
+      },
+      "targetWord": "挤",
+      "completeSentence": "今天路上特别挤。"
     },
     {
       "id": 27,
@@ -587,7 +624,9 @@
         "B": "xià chē",
         "C": "shàng chē",
         "D": "huò zhě"
-      }
+      },
+      "targetWord": "远",
+      "completeSentence": "走路去那里太远了。"
     },
     {
       "id": 28,
@@ -612,7 +651,9 @@
         "B": "děng",
         "C": "páng biān",
         "D": "shàng chē"
-      }
+      },
+      "targetWord": "等",
+      "completeSentence": "你可以先在这里等。"
     },
     {
       "id": 29,
@@ -637,7 +678,9 @@
         "B": "huàn chéng",
         "C": "kōng",
         "D": "huò zhě"
-      }
+      },
+      "targetWord": "空",
+      "completeSentence": "请看看有没有空的地方。"
     },
     {
       "id": 30,
@@ -662,7 +705,9 @@
         "B": "páng biān",
         "C": "jǐ",
         "D": "ān quán"
-      }
+      },
+      "targetWord": "安全",
+      "completeSentence": "下雨天一定要注意安全。"
     },
     {
       "id": 31,
@@ -677,8 +722,9 @@
         "我现在已经学会怎样算每天出门花多少钱."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样算每天出门花多少钱。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng suàn měi tiān chū mén huā duō shǎo qián 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我现在已经学会怎样算每天出门花多少钱。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng suàn měi tiān chū mén huā duō shǎo qián 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 18,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 32,
@@ -695,8 +741,9 @@
         "我今天下课以后准备比较早上不同的出行办法。"
       ],
       "points": 2,
-      "explanation": "参考句子：今天下课以后我准备比较早上不同的出行办法。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi bǐ jiào zǎo shàng bù tóng de chū xíng bàn fǎ 。",
-      "hanziCount": 20
+      "explanation": "参考句子：今天下课以后我准备比较早上不同的出行办法。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi bǐ jiào zǎo shàng bù tóng de chū xíng bàn fǎ 。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "hanziCount": 20,
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 33,
@@ -713,8 +760,9 @@
         "我们下个星期打算一起看哪种方式更省心。"
       ],
       "points": 2,
-      "explanation": "参考句子：下个星期我们打算一起看哪种方式更省心。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ kàn nǎ zhǒng fāng shì gèng shěng xīn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：下个星期我们打算一起看哪种方式更省心。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ kàn nǎ zhǒng fāng shì gèng shěng xīn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -729,8 +777,9 @@
         "你能不能告诉我怎样给第一次坐车的人指路?"
       ],
       "points": 2,
-      "explanation": "参考句子：你能不能告诉我怎样给第一次坐车的人指路？\nnǐ néng bù néng gào su wǒ zěn yàng gěi dì yī cì zuò chē de rén zhǐ lù ？",
-      "hanziCount": 19
+      "explanation": "参考句子：你能不能告诉我怎样给第一次坐车的人指路？\nnǐ néng bù néng gào su wǒ zěn yàng gěi dì yī cì zuò chē de rén zhǐ lù ？\n语法与搭配：给＋人＋物/动作",
+      "hanziCount": 19,
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 35,
@@ -745,8 +794,9 @@
         "我现在已经学会怎样了解末班车什么时候开."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样了解末班车什么时候开。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng liǎo jiě mò bān chē shén me shí hòu kāi 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我现在已经学会怎样了解末班车什么时候开。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng liǎo jiě mò bān chē shén me shí hòu kāi 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 19,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 36,
@@ -761,8 +811,9 @@
         "如果明天有时间,我就问清买好的票能不能换."
       ],
       "points": 2,
-      "explanation": "参考句子：如果明天有时间，我就问清买好的票能不能换。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù wèn qīng mǎi hǎo de piào néng bù néng huàn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：如果明天有时间，我就问清买好的票能不能换。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù wèn qīng mǎi hǎo de piào néng bù néng huàn 。\n语法与搭配：如果……就……：假设条件",
+      "hanziCount": 19,
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 37,
@@ -777,8 +828,9 @@
         "我想请老师教我怎样看懂站里的说明."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师教我怎样看懂站里的说明。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng kàn dǒng zhàn lǐ de shuō míng 。",
-      "hanziCount": 16
+      "explanation": "参考句子：我想请老师教我怎样看懂站里的说明。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng kàn dǒng zhàn lǐ de shuō míng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 16,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -793,8 +845,9 @@
         "我现在已经学会怎样帮带孩子的人拿一下包."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样帮带孩子的人拿一下包。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng bāng dài hái zi de rén ná yí xià bāo 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我现在已经学会怎样帮带孩子的人拿一下包。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng bāng dài hái zi de rén ná yí xià bāo 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 19,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 39,
@@ -809,8 +862,9 @@
         "我希望下次可以试着提前准备回家要用的东西."
       ],
       "points": 2,
-      "explanation": "参考句子：我希望下次可以试着提前准备回家要用的东西。\nwǒ xī wàng xià cì kě yǐ shì zhe tí qián zhǔn bèi huí jiā yào yòng de dōng xi 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我希望下次可以试着提前准备回家要用的东西。\nwǒ xī wàng xià cì kě yǐ shì zhe tí qián zhǔn bèi huí jiā yào yòng de dōng xi 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -825,8 +879,9 @@
         "姐姐说提醒朋友不要忘了背包让她觉得很开心."
       ],
       "points": 2,
-      "explanation": "参考句子：姐姐说提醒朋友不要忘了背包让她觉得很开心。\njiě jiě shuō tí xǐng péng you bú yào wàng le bēi bāo ràng tā jué de hěn kāi xīn 。",
-      "hanziCount": 20
+      "explanation": "参考句子：姐姐说提醒朋友不要忘了背包让她觉得很开心。\njiě jiě shuō tí xǐng péng you bú yào wàng le bēi bāo ràng tā jué de hěn kāi xīn 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 20,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 41,
@@ -841,8 +896,9 @@
         "我和同学常常利用周末问清去机场要花多久."
       ],
       "points": 2,
-      "explanation": "参考句子：我和同学常常利用周末问清去机场要花多久。\nwǒ hé tóng xué cháng cháng lì yòng zhōu mò wèn qīng qù jī chǎng yào huā duō jiǔ 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我和同学常常利用周末问清去机场要花多久。\nwǒ hé tóng xué cháng cháng lì yòng zhōu mò wèn qīng qù jī chǎng yào huā duō jiǔ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -857,8 +913,9 @@
         "做事之前我们应该先为年纪大的人让个地方."
       ],
       "points": 2,
-      "explanation": "参考句子：做事之前我们应该先为年纪大的人让个地方。\nzuò shì zhī qián wǒ men yīng gāi xiān wèi nián jì dà de rén ràng gè dì fāng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：做事之前我们应该先为年纪大的人让个地方。\nzuò shì zhī qián wǒ men yīng gāi xiān wèi nián jì dà de rén ràng gè dì fāng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -873,8 +930,9 @@
         "昨天上课时老师教我们记住到站以前的提醒."
       ],
       "points": 2,
-      "explanation": "参考句子：昨天上课时老师教我们记住到站以前的提醒。\nzuó tiān shàng kè shí lǎo shī jiào wǒ men jì zhù dào zhàn yǐ qián de tí xǐng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：昨天上课时老师教我们记住到站以前的提醒。\nzuó tiān shàng kè shí lǎo shī jiào wǒ men jì zhù dào zhàn yǐ qián de tí xǐng 。\n语法与搭配：动作＋以前：说明时间顺序",
+      "hanziCount": 19,
+      "grammarFocus": "动作＋以前：说明时间顺序"
     },
     {
       "id": 44,
@@ -889,8 +947,9 @@
         "我和朋友商量好明天检查自己有没有走反."
       ],
       "points": 2,
-      "explanation": "参考句子：我和朋友商量好明天检查自己有没有走反。\nwǒ hé péng you shāng liáng hǎo míng tiān jiǎn chá zì jǐ yǒu méi yǒu zǒu fǎn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我和朋友商量好明天检查自己有没有走反。\nwǒ hé péng you shāng liáng hǎo míng tiān jiǎn chá zì jǐ yǒu méi yǒu zǒu fǎn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -905,8 +964,9 @@
         "我现在已经学会怎样选择不需要等太久的方式."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样选择不需要等太久的方式。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng xuǎn zé bù xū yào děng tài jiǔ de fāng shì 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我现在已经学会怎样选择不需要等太久的方式。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng xuǎn zé bù xū yào děng tài jiǔ de fāng shì 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 46,
@@ -921,8 +981,9 @@
         "我已经知道应该怎样确认同伴都已经到了了."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经知道应该怎样确认同伴都已经到了了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng què rèn tóng bàn dōu yǐ jīng dào le le 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我已经知道应该怎样确认同伴都已经到了了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng què rèn tóng bàn dōu yǐ jīng dào le le 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 19,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 47,
@@ -939,8 +1000,9 @@
         "我们今天一起讨论怎样想好遇到下雨该怎么办。"
       ],
       "points": 2,
-      "explanation": "参考句子：今天我们一起讨论怎样想好遇到下雨该怎么办。\njīn tiān wǒ men yì qǐ tǎo lùn zěn yàng xiǎng hǎo yù dào xià yǔ gāi zěn me bàn 。",
-      "hanziCount": 20
+      "explanation": "参考句子：今天我们一起讨论怎样想好遇到下雨该怎么办。\njīn tiān wǒ men yì qǐ tǎo lùn zěn yàng xiǎng hǎo yù dào xià yǔ gāi zěn me bàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -955,8 +1017,9 @@
         "他准备忙完工作以后再帮助不会看汉字的客人."
       ],
       "points": 2,
-      "explanation": "参考句子：他准备忙完工作以后再帮助不会看汉字的客人。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài bāng zhù bú huì kàn hàn zì de kè rén 。",
-      "hanziCount": 20
+      "explanation": "参考句子：他准备忙完工作以后再帮助不会看汉字的客人。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài bāng zhù bú huì kàn hàn zì de kè rén 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 20,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 49,
@@ -971,8 +1034,9 @@
         "我现在已经学会怎样注意周围人的不同需要."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样注意周围人的不同需要。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng zhù yì zhōu wéi rén de bù tóng xū yào 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我现在已经学会怎样注意周围人的不同需要。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng zhù yì zhōu wéi rén de bù tóng xū yào 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 19,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 50,
@@ -987,8 +1051,10 @@
         "我现在已经学会怎样用简单的话解释怎么走."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样用简单的话解释怎么走。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng yòng jiǎn dān de huà jiě shì zěn me zǒu 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我现在已经学会怎样用简单的话解释怎么走。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng yòng jiǎn dān de huà jiě shì zěn me zǒu 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 19,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

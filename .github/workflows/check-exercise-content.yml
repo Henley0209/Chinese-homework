@@ -1,0 +1,28 @@
+name: Check independent exercise content
+on:
+  push:
+    paths:
+      - 'exercise-catalog.json'
+      - 'exercise-content-audit.json'
+      - 'tools/exercise*'
+      - 'tools/optimize-exercises.py'
+      - 'tests/exercise-content.test.mjs'
+      - '.github/workflows/check-exercise-content.yml'
+  pull_request:
+    paths:
+      - 'exercise-catalog.json'
+      - 'tools/exercise*'
+      - 'tools/optimize-exercises.py'
+      - 'tests/exercise-content.test.mjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/exercise-content.test.mjs tests/grading.test.mjs tests/exercise-progress.test.mjs tests/daily-topics.test.mjs tests/electronics-topics.test.mjs tests/hsk3-topics.test.mjs tests/hsk4-topics.test.mjs tests/hsk5-topics.test.mjs

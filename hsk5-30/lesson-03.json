@@ -1,6 +1,6 @@
 {
   "title": "HSK5 第03课 求职与职业选择",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,37 +9,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“简历”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jiǎn lì",
         "B": "jiǎng lì",
-        "C": "qiǎn lì",
-        "D": "jiǎn nì"
+        "C": "jiǎn nì",
+        "D": "qiǎn lì"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“简历”读作 jiǎn lì，意思是 sơ yếu lý lịch。"
+      "explanation": "“简历”读作 jiǎn lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "简历"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“优势”的正确读音。",
+      "text": "【拼音选择】请选择“应聘”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yōu shì",
-        "B": "yōu sì",
-        "C": "cōu shì",
-        "D": "yāo shì"
+        "A": "yìn pìn",
+        "B": "bìng pìn",
+        "C": "yìng pìng",
+        "D": "yìng pìn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“优势”读作 yōu shì，意思是 ưu thế。"
+      "explanation": "“应聘”读作 yìng pìn。注意声母、韵母、声调及轻声。",
+      "targetWord": "应聘"
     },
     {
       "id": 3,
@@ -47,181 +49,199 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“待遇”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dài yù",
+        "A": "duì yù",
         "B": "bài yù",
-        "C": "cài yù",
-        "D": "duì yù"
+        "C": "dài yù",
+        "D": "cài yù"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“待遇”读作 dài yù，意思是 chế độ đãi ngộ。"
+      "explanation": "“待遇”读作 dài yù。注意声母、韵母、声调及轻声。",
+      "targetWord": "待遇"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“录取”的正确读音。",
+      "text": "【拼音选择】请选择“潜力”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "nù qǔ",
-        "B": "lù jǔ",
-        "C": "lù qǔ",
-        "D": "lù xǔ"
+        "A": "qián nì",
+        "B": "qiáng lì",
+        "C": "xián lì",
+        "D": "qián lì"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "“录取”读作 lù qǔ，意思是 tuyển nhận。"
+      "explanation": "“潜力”读作 qián lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "潜力"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“经验”的正确读音。",
+      "text": "【拼音选择】请选择“行业”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jīng yàn",
-        "B": "jīn yàn",
-        "C": "qīng yàn",
-        "D": "jīng yàng"
+        "A": "hán yè",
+        "B": "fáng yè",
+        "C": "cháng yè",
+        "D": "háng yè"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“经验”读作 jīng yàn，意思是 kinh nghiệm。"
+      "explanation": "“行业”读作 háng yè。注意声母、韵母、声调及轻声。",
+      "targetWord": "行业"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：她根据岗位要求重新修改了自己的____。",
-      "pinyin": "tā gēn jù gǎng wèi yāo qiú chóng xīn xiū gǎi le zì jǐ de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: sơ yếu lý lịch.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：面试时应结合具体经历说明自己的____，而不是只背优点。",
+      "pinyin": "miàn shì shí yīng jié hé jù tǐ jīng lì shuō míng zì jǐ de ____， ér bú shì zhǐ bèi yōu diǎn 。",
+      "vietnamese": "Gợi ý: ưu thế.",
       "options": {
-        "A": "录取",
-        "B": "经验",
-        "C": "简历",
-        "D": "优势"
+        "A": "优势",
+        "B": "安排",
+        "C": "发展",
+        "D": "经验"
       },
       "optionPinyin": {
-        "A": "lù qǔ",
-        "B": "jīng yàn",
-        "C": "jiǎn lì",
-        "D": "yōu shì"
+        "A": "yōu shì",
+        "B": "ān pái",
+        "C": "fā zhǎn",
+        "D": "jīng yàn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“简历”（sơ yếu lý lịch）。完整句子：她根据岗位要求重新修改了自己的简历。"
+      "explanation": "应填“优势”。完整句子：面试时应结合具体经历说明自己的优势，而不是只背优点。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "优势",
+      "completeSentence": "面试时应结合具体经历说明自己的优势，而不是只背优点。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：面试时应聘者需要清楚地介绍自己的____。",
-      "pinyin": "miàn shì shí yìng pìn zhě xū yào qīng chǔ dì jiè shào zì jǐ de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: ưu thế.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：选择工作不能只看工资，还要考虑长期____。",
+      "pinyin": "xuǎn zé gōng zuò bù néng zhǐ kàn gōng zī ， hái yào kǎo lǜ cháng qī ____。",
+      "vietnamese": "Gợi ý: phát triển.",
       "options": {
-        "A": "简历",
-        "B": "录取",
-        "C": "经验",
-        "D": "优势"
+        "A": "经验",
+        "B": "优势",
+        "C": "安排",
+        "D": "发展"
       },
       "optionPinyin": {
-        "A": "jiǎn lì",
-        "B": "lù qǔ",
-        "C": "jīng yàn",
-        "D": "yōu shì"
+        "A": "jīng yàn",
+        "B": "yōu shì",
+        "C": "ān pái",
+        "D": "fā zhǎn"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“优势”（ưu thế）。完整句子：面试时应聘者需要清楚地介绍自己的优势。"
+      "explanation": "应填“发展”。完整句子：选择工作不能只看工资，还要考虑长期发展。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "发展",
+      "completeSentence": "选择工作不能只看工资，还要考虑长期发展。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：除了工资____他还重视公司的培训机会。",
-      "pinyin": "chú le gōng zī ____ tā hái zhòng shì gōng sī de péi xùn jī huì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chế độ đãi ngộ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这份职位要求三年以上相关____，他暂时还不符合条件。",
+      "pinyin": "zhè fèn zhí wèi yāo qiú sān nián yǐ shàng xiāng guān ____， tā zàn shí hái bù fú hé tiáo jiàn 。",
+      "vietnamese": "Gợi ý: kinh nghiệm.",
       "options": {
-        "A": "录取",
-        "B": "经验",
-        "C": "待遇",
-        "D": "简历"
+        "A": "安排",
+        "B": "优势",
+        "C": "经验",
+        "D": "发展"
       },
       "optionPinyin": {
-        "A": "lù qǔ",
-        "B": "jīng yàn",
-        "C": "dài yù",
-        "D": "jiǎn lì"
+        "A": "ān pái",
+        "B": "yōu shì",
+        "C": "jīng yàn",
+        "D": "fā zhǎn"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“待遇”（chế độ đãi ngộ）。完整句子：除了工资待遇他还重视公司的培训机会。"
+      "explanation": "应填“经验”。完整句子：这份职位要求三年以上相关经验，他暂时还不符合条件。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "经验",
+      "completeSentence": "这份职位要求三年以上相关经验，他暂时还不符合条件。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：经过两轮面试她终于被这家公司____了。",
-      "pinyin": "jīng guò liǎng lún miàn shì tā zhōng yú bèi zhè jiā gōng sī ____ le",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tuyển nhận.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：公司会根据应聘者的实际能力____合适的岗位。",
+      "pinyin": "gōng sī huì gēn jù yìng pìn zhě de shí jì néng lì ____ hé shì de gǎng wèi 。",
+      "vietnamese": "Gợi ý: sắp xếp.",
       "options": {
-        "A": "待遇",
-        "B": "经验",
-        "C": "优势",
-        "D": "录取"
+        "A": "经验",
+        "B": "安排",
+        "C": "发展",
+        "D": "优势"
       },
       "optionPinyin": {
-        "A": "dài yù",
-        "B": "jīng yàn",
-        "C": "yōu shì",
-        "D": "lù qǔ"
+        "A": "jīng yàn",
+        "B": "ān pái",
+        "C": "fā zhǎn",
+        "D": "yōu shì"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“录取”（tuyển nhận）。完整句子：经过两轮面试她终于被这家公司录取了。"
+      "explanation": "应填“安排”。完整句子：公司会根据应聘者的实际能力安排合适的岗位。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "安排",
+      "completeSentence": "公司会根据应聘者的实际能力安排合适的岗位。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：这次实习使他积累了宝贵的工作____。",
-      "pinyin": "zhè cì shí xí shǐ tā jī lěi le bǎo guì de gōng zuò ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kinh nghiệm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他决定先了解行业，再____是否接受这份工作。",
+      "pinyin": "tā jué dìng xiān liǎo jiě háng yè ， zài ____ shì fǒu jiē shòu zhè fèn gōng zuò 。",
+      "vietnamese": "Gợi ý: quyết định.",
       "options": {
-        "A": "简历",
-        "B": "优势",
-        "C": "经验",
-        "D": "待遇"
+        "A": "发展",
+        "B": "决定",
+        "C": "优势",
+        "D": "经验"
       },
       "optionPinyin": {
-        "A": "jiǎn lì",
-        "B": "yōu shì",
-        "C": "jīng yàn",
-        "D": "dài yù"
+        "A": "fā zhǎn",
+        "B": "jué dìng",
+        "C": "yōu shì",
+        "D": "jīng yàn"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“经验”（kinh nghiệm）。完整句子：这次实习使他积累了宝贵的工作经验。"
+      "explanation": "应填“决定”。完整句子：他决定先了解行业，再决定是否接受这份工作。\n语法与搭配：先……再……：动作先后顺序",
+      "targetWord": "决定",
+      "completeSentence": "他决定先了解行业，再决定是否接受这份工作。",
+      "grammarFocus": "先……再……：动作先后顺序"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：她根据岗位要求重新修改了自己的简历。\ntā gēn jù gǎng wèi yāo qiú chóng xīn xiū gǎi le zì jǐ de jiǎn lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：她根据岗位要求重新修改了自己的简历。\ntā gēn jù gǎng wèi yāo qiú chóng xīn xiū gǎi le zì jǐ de jiǎn lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：面试时应聘者需要清楚地介绍自己的优势。\nmiàn shì shí yìng pìn zhě xū yào qīng chǔ dì jiè shào zì jǐ de yōu shì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：面试时应聘者需要清楚地介绍自己的优势。\nmiàn shì shí yìng pìn zhě xū yào qīng chǔ dì jiè shào zì jǐ de yōu shì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：除了工资待遇他还重视公司的培训机会。\nchú le gōng zī dài yù tā hái zhòng shì gōng sī de péi xùn jī huì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：除了工资待遇他还重视公司的培训机会。\nchú le gōng zī dài yù tā hái zhòng shì gōng sī de péi xùn jī huì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：除了……还……：补充",
+      "grammarFocus": "除了……还……：补充"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：经过两轮面试她终于被这家公司录取了。\njīng guò liǎng lún miàn shì tā zhōng yú bèi zhè jiā gōng sī lù qǔ le。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：经过两轮面试她终于被这家公司录取了。\njīng guò liǎng lún miàn shì tā zhōng yú bèi zhè jiā gōng sī lù qǔ le。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：被＋施事＋动词：被动表达",
+      "grammarFocus": "被＋施事＋动词：被动表达"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 16,
-      "explanation": "参考句子：这次实习使他积累了宝贵的工作经验。\nzhè cì shí xí shǐ tā jī lěi le bǎo guì de gōng zuò jīng yàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：这次实习使他积累了宝贵的工作经验。\nzhè cì shí xí shǐ tā jī lěi le bǎo guì de gōng zuò jīng yàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解职业选择的标准还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě zhí yè xuǎn zé de biāo zhǔn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解职业选择的标准还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě zhí yè xuǎn zé de biāo zhǔn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 25,
-      "explanation": "参考句子：无论社会如何变化面试准备的重要性都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà miàn shì zhǔn bèi de zhòng yào xìng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化面试准备的重要性都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà miàn shì zhǔn bèi de zhòng yào xìng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解实习经历的价值才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě shí xí jīng lì de jià zhí cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解实习经历的价值才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě shí xí jīng lì de jià zhí cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析求职信息的可靠性。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī qiú zhí xìn xī de kě kào xìng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析求职信息的可靠性。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī qiú zhí xìn xī de kě kào xìng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明个人能力的展示。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng gè rén néng lì de zhǎn shì。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明个人能力的展示。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng gè rén néng lì de zhǎn shì。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

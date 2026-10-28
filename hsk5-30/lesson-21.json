@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第21课 中越饮食文化",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“口味”的正确读音。",
+      "text": "【拼音选择】请选择“食谱”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kǎo wèi",
-        "B": "kǒu wèi",
-        "C": "cǒu wèi",
-        "D": "kǒu wài"
+        "A": "shí pǔ",
+        "B": "chí pǔ",
+        "C": "shuí pǔ",
+        "D": "sí pǔ"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "“口味”读作 kǒu wèi，意思是 khẩu vị。"
+      "explanation": "“食谱”读作 shí pǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "食谱"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“特色”的正确读音。",
+      "text": "【拼音选择】请选择“食材”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cè sè",
-        "B": "tè sè",
-        "C": "gè sè",
-        "D": "tè shè"
+        "A": "shí cái",
+        "B": "chí cái",
+        "C": "sí cái",
+        "D": "shí chái"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "“特色”读作 tè sè，意思是 đặc sắc。"
+      "explanation": "“食材”读作 shí cái。注意声母、韵母、声调及轻声。",
+      "targetWord": "食材"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“原料”的正确读音。",
+      "text": "【拼音选择】请选择“风味”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yuán liào",
-        "B": "yuán niào",
-        "C": "huán liào",
-        "D": "cuán liào"
+        "A": "fēng wèi",
+        "B": "fēn wèi",
+        "C": "fēng wài",
+        "D": "hēng wèi"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“原料”读作 yuán liào，意思是 nguyên liệu。"
+      "explanation": "“风味”读作 fēng wèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "风味"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“招待”的正确读音。",
+      "text": "【拼音选择】请选择“餐桌”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhōu dài",
-        "B": "chāo dài",
-        "C": "zhāo dài",
-        "D": "zāo dài"
+        "A": "chān zhuō",
+        "B": "cān zhuō",
+        "C": "cāng zhuō",
+        "D": "cān zuō"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "“招待”读作 zhāo dài，意思是 chiêu đãi。"
+      "explanation": "“餐桌”读作 cān zhuō。注意声母、韵母、声调及轻声。",
+      "targetWord": "餐桌"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“相似”的正确读音。",
+      "text": "【拼音选择】请选择“礼节”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiān sì",
-        "B": "xiāng shì",
-        "C": "qiāng sì",
-        "D": "xiāng sì"
+        "A": "bǐ jié",
+        "B": "nǐ jié",
+        "C": "lǐ jié",
+        "D": "lǐ qié"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“相似”读作 xiāng sì，意思是 tương tự。"
+      "explanation": "“礼节”读作 lǐ jié。注意声母、韵母、声调及轻声。",
+      "targetWord": "礼节"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：这家餐厅根据客人的建议适当调整了菜品的____。",
-      "pinyin": "zhè jiā cān tīng gēn jù kè rén de jiàn yì shì dàng tiáo zhěng le cài pǐn de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: khẩu vị.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：同一种食材采用不同的____方法，会呈现完全不同的味道。",
+      "pinyin": "tóng yī zhǒng shí cái cǎi yòng bù tóng de ____ fāng fǎ ， huì chéng xiàn wán quán bù tóng de wèi dào 。",
+      "vietnamese": "Gợi ý: nấu nướng.",
       "options": {
-        "A": "相似",
-        "B": "原料",
-        "C": "口味",
-        "D": "特色"
+        "A": "烹饪",
+        "B": "禁忌",
+        "C": "经历",
+        "D": "文化"
       },
       "optionPinyin": {
-        "A": "xiāng sì",
-        "B": "yuán liào",
-        "C": "kǒu wèi",
-        "D": "tè sè"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“口味”（khẩu vị）。完整句子：这家餐厅根据客人的建议适当调整了菜品的口味。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：越南朋友热情地向我们介绍了当地饮食的____。",
-      "pinyin": "yuè nán péng you rè qíng dì xiàng wǒ men jiè shào liǎo dàng dì yǐn shí de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đặc sắc.",
-      "options": {
-        "A": "原料",
-        "B": "相似",
-        "C": "特色",
-        "D": "口味"
-      },
-      "optionPinyin": {
-        "A": "yuán liào",
-        "B": "xiāng sì",
-        "C": "tè sè",
-        "D": "kǒu wèi"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“特色”（đặc sắc）。完整句子：越南朋友热情地向我们介绍了当地饮食的特色。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：制作这道菜需要先准备好新鲜的____。",
-      "pinyin": "zhì zuò zhè dào cài xū yào xiān zhǔn bèi hǎo xīn xiān de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: nguyên liệu.",
-      "options": {
-        "A": "特色",
-        "B": "招待",
-        "C": "口味",
-        "D": "原料"
-      },
-      "optionPinyin": {
-        "A": "tè sè",
-        "B": "zhāo dài",
-        "C": "kǒu wèi",
-        "D": "yuán liào"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“原料”（nguyên liệu）。完整句子：制作这道菜需要先准备好新鲜的原料。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：为了____远道而来的朋友她特意准备了几道家乡菜。",
-      "pinyin": "wèi le ____ yuǎn dào ér lái de péng you tā tè yì zhǔn bèi le jǐ dào jiā xiāng cài",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chiêu đãi.",
-      "options": {
-        "A": "口味",
-        "B": "特色",
-        "C": "招待",
-        "D": "相似"
-      },
-      "optionPinyin": {
-        "A": "kǒu wèi",
-        "B": "tè sè",
-        "C": "zhāo dài",
-        "D": "xiāng sì"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“招待”（chiêu đãi）。完整句子：为了招待远道而来的朋友她特意准备了几道家乡菜。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：虽然两国的饮食习惯有____之处但也各有特色。",
-      "pinyin": "suī rán liǎng guó de yǐn shí xí guàn yǒu ____ zhī chù dàn yě gè yǒu tè sè",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tương tự.",
-      "options": {
-        "A": "相似",
-        "B": "特色",
-        "C": "口味",
-        "D": "招待"
-      },
-      "optionPinyin": {
-        "A": "xiāng sì",
-        "B": "tè sè",
-        "C": "kǒu wèi",
-        "D": "zhāo dài"
+        "A": "pēng rèn",
+        "B": "jìn jì",
+        "C": "jīng lì",
+        "D": "wén huà"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“相似”（tương tự）。完整句子：虽然两国的饮食习惯有相似之处但也各有特色。"
+      "explanation": "应填“烹饪”。完整句子：同一种食材采用不同的烹饪方法，会呈现完全不同的味道。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "烹饪",
+      "completeSentence": "同一种食材采用不同的烹饪方法，会呈现完全不同的味道。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：介绍家乡菜时，除了做法，也可以讲讲相关的____。",
+      "pinyin": "jiè shào jiā xiāng cài shí ， chú le zuò fǎ ， yě kě yǐ jiǎng jiǎng xiāng guān de ____。",
+      "vietnamese": "Gợi ý: văn hóa.",
+      "options": {
+        "A": "禁忌",
+        "B": "经历",
+        "C": "烹饪",
+        "D": "文化"
+      },
+      "optionPinyin": {
+        "A": "jìn jì",
+        "B": "jīng lì",
+        "C": "pēng rèn",
+        "D": "wén huà"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“文化”。完整句子：介绍家乡菜时，除了做法，也可以讲讲相关的文化。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "文化",
+      "completeSentence": "介绍家乡菜时，除了做法，也可以讲讲相关的文化。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：点菜前询问客人的饮食____，是一种体贴。",
+      "pinyin": "diǎn cài qián xún wèn kè rén de yǐn shí ____， shì yī zhǒng tǐ tiē 。",
+      "vietnamese": "Gợi ý: điều kiêng kị.",
+      "options": {
+        "A": "经历",
+        "B": "文化",
+        "C": "烹饪",
+        "D": "禁忌"
+      },
+      "optionPinyin": {
+        "A": "jīng lì",
+        "B": "wén huà",
+        "C": "pēng rèn",
+        "D": "jìn jì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“禁忌”。完整句子：点菜前询问客人的饮食禁忌，是一种体贴。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "禁忌",
+      "completeSentence": "点菜前询问客人的饮食禁忌，是一种体贴。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：食物的味道往往与个人的成长____有关。",
+      "pinyin": "shí wù de wèi dào wǎng wǎng yǔ gè rén de chéng zhǎng ____ yǒu guān 。",
+      "vietnamese": "Gợi ý: trải nghiệm.",
+      "options": {
+        "A": "经历",
+        "B": "烹饪",
+        "C": "禁忌",
+        "D": "文化"
+      },
+      "optionPinyin": {
+        "A": "jīng lì",
+        "B": "pēng rèn",
+        "C": "jìn jì",
+        "D": "wén huà"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“经历”。完整句子：食物的味道往往与个人的成长经历有关。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "经历",
+      "completeSentence": "食物的味道往往与个人的成长经历有关。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：分享美食有助于增进不同文化之间的____。",
+      "pinyin": "fēn xiǎng měi shí yǒu zhù yú zēng jìn bù tóng wén huà zhī jiān de ____。",
+      "vietnamese": "Gợi ý: hiểu.",
+      "options": {
+        "A": "理解",
+        "B": "文化",
+        "C": "烹饪",
+        "D": "禁忌"
+      },
+      "optionPinyin": {
+        "A": "lǐ jiě",
+        "B": "wén huà",
+        "C": "pēng rèn",
+        "D": "jìn jì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“理解”。完整句子：分享美食有助于增进不同文化之间的理解。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "理解",
+      "completeSentence": "分享美食有助于增进不同文化之间的理解。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：这家餐厅根据客人的建议适当调整了菜品的口味。\nzhè jiā cān tīng gēn jù kè rén de jiàn yì shì dàng tiáo zhěng le cài pǐn de kǒu wèi。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：这家餐厅根据客人的建议适当调整了菜品的口味。\nzhè jiā cān tīng gēn jù kè rén de jiàn yì shì dàng tiáo zhěng le cài pǐn de kǒu wèi。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：越南朋友热情地向我们介绍了当地饮食的特色。\nyuè nán péng you rè qíng dì xiàng wǒ men jiè shào liǎo dàng dì yǐn shí de tè sè。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：越南朋友热情地向我们介绍了当地饮食的特色。\nyuè nán péng you rè qíng dì xiàng wǒ men jiè shào liǎo dàng dì yǐn shí de tè sè。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 16,
-      "explanation": "参考句子：制作这道菜需要先准备好新鲜的原料。\nzhì zuò zhè dào cài xū yào xiān zhǔn bèi hǎo xīn xiān de yuán liào。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：制作这道菜需要先准备好新鲜的原料。\nzhì zuò zhè dào cài xū yào xiān zhǔn bèi hǎo xīn xiān de yuán liào。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：为了招待远道而来的朋友她特意准备了几道家乡菜。\nwèi le zhāo dài yuǎn dào ér lái de péng you tā tè yì zhǔn bèi le jǐ dào jiā xiāng cài。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：为了招待远道而来的朋友她特意准备了几道家乡菜。\nwèi le zhāo dài yuǎn dào ér lái de péng you tā tè yì zhǔn bèi le jǐ dào jiā xiāng cài。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：虽然两国的饮食习惯有相似之处但也各有特色。\nsuī rán liǎng guó de yǐn shí xí guàn yǒu xiāng sì zhī chù dàn yě gè yǒu tè sè。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：虽然两国的饮食习惯有相似之处但也各有特色。\nsuī rán liǎng guó de yǐn shí xí guàn yǒu xiāng sì zhī chù dàn yě gè yǒu tè sè。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解中越饮食的差异还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě zhōng yuè yǐn shí de chā yì hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解中越饮食的差异还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě zhōng yuè yǐn shí de chā yì hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化地方菜肴的特色都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà dì fang cài yáo de tè sè dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化地方菜肴的特色都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà dì fang cài yáo de tè sè dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解待客礼仪的表达才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě dài kè lǐ yí de biǎo dá cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解待客礼仪的表达才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě dài kè lǐ yí de biǎo dá cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析饮食习惯的变化。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī yǐn shí xí guàn de biàn huà。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析饮食习惯的变化。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī yǐn shí xí guàn de biàn huà。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明食物背后的文化。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng shí wù bèi hòu de wén huà。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明食物背后的文化。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng shí wù bèi hòu de wén huà。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,6 +1,6 @@
 {
   "title": "HSK3 第28课 春夏秋冬，我喜欢哪个季节",
-  "description": "Tôi thích mùa nào trong năm?。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。",
+  "description": "Tôi thích mùa nào trong năm?。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "pronunciationOptionsVersion": 1,
   "questions": [
@@ -10,18 +10,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“春天”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shūn tiān",
+        "A": "chuān tiān",
         "B": "cūn tiān",
-        "C": "chūn tiē",
-        "D": "chūn tiān"
+        "C": "chūn tiān",
+        "D": "chuā tiān"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“春天”的正确读音：chūn tiān。"
+      "explanation": "“春天”读作 chūn tiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "春天"
     },
     {
       "id": 2,
@@ -29,18 +30,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“夏天”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xià tiān",
-        "B": "xià tiē",
-        "C": "xiè tiān",
-        "D": "xiào tiān"
+        "A": "qià tiān",
+        "B": "jià tiān",
+        "C": "xià tiān",
+        "D": "xiàn tiān"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“夏天”的正确读音：xià tiān。"
+      "explanation": "“夏天”读作 xià tiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "夏天"
     },
     {
       "id": 3,
@@ -48,18 +50,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“秋天”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qiū tiē",
-        "B": "qiū tiān",
-        "C": "qī tiān",
-        "D": "qiāo tiān"
+        "A": "diū tiān",
+        "B": "xiū tiān",
+        "C": "jiū tiān",
+        "D": "qiū tiān"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“秋天”的正确读音：qiū tiān。"
+      "explanation": "“秋天”读作 qiū tiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "秋天"
     },
     {
       "id": 4,
@@ -67,18 +70,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“冬天”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tōng tiān",
-        "B": "dōng tiē",
-        "C": "dōng tiān",
-        "D": "dēng tiān"
+        "A": "dōng tiān",
+        "B": "cōng tiān",
+        "C": "dēng tiān",
+        "D": "dāng tiān"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“冬天”的正确读音：dōng tiān。"
+      "explanation": "“冬天”读作 dōng tiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "冬天"
     },
     {
       "id": 5,
@@ -86,18 +90,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“季节”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jìn jié",
-        "B": "jìng jié",
-        "C": "jì jí",
-        "D": "jì jié"
+        "A": "bì jié",
+        "B": "jì jié",
+        "C": "jì qié",
+        "D": "qì jié"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“季节”的正确读音：jì jié。"
+      "explanation": "“季节”读作 jì jié。注意声母、韵母、声调及轻声。",
+      "targetWord": "季节"
     },
     {
       "id": 6,
@@ -105,18 +110,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“温度”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wēn dù",
-        "B": "wēn duì",
-        "C": "hēn dù",
-        "D": "wēng dù"
+        "A": "wēng dù",
+        "B": "bēn dù",
+        "C": "cēn dù",
+        "D": "wēn dù"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“温度”的正确读音：wēn dù。"
+      "explanation": "“温度”读作 wēn dù。注意声母、韵母、声调及轻声。",
+      "targetWord": "温度"
     },
     {
       "id": 7,
@@ -124,18 +130,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“风景”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fēng jǐn",
-        "B": "fēng jǐng",
-        "C": "hēng jǐng",
-        "D": "fēn jǐng"
+        "A": "fēng qǐng",
+        "B": "hēng jǐng",
+        "C": "fēn jǐng",
+        "D": "fēng jǐng"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“风景”的正确读音：fēng jǐng。"
+      "explanation": "“风景”读作 fēng jǐng。注意声母、韵母、声调及轻声。",
+      "targetWord": "风景"
     },
     {
       "id": 8,
@@ -143,18 +150,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“暖和”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "nuǎn hui",
-        "B": "nuǎn hou",
-        "C": "nuǎn huo",
-        "D": "luǎn huo"
+        "A": "nuǎn huo",
+        "B": "duǎn huo",
+        "C": "luǎn huo",
+        "D": "guǎn huo"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“暖和”的正确读音：nuǎn huo。"
+      "explanation": "“暖和”读作 nuǎn huo。注意声母、韵母、声调及轻声。",
+      "targetWord": "暖和"
     },
     {
       "id": 9,
@@ -162,18 +170,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“凉快”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "niáng kuài",
         "B": "lián kuài",
-        "C": "liáng kuì",
-        "D": "liáng kuài"
+        "C": "liáng kuài",
+        "D": "biáng kuài"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“凉快”的正确读音：liáng kuài。"
+      "explanation": "“凉快”读作 liáng kuài。注意声母、韵母、声调及轻声。",
+      "targetWord": "凉快"
     },
     {
       "id": 10,
@@ -181,18 +190,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“阳光”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "yáng guāng",
-        "B": "yáng guān",
-        "C": "wáng guāng",
-        "D": "yán guāng"
+        "B": "cáng guāng",
+        "C": "yán guāng",
+        "D": "yáng guān"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“阳光”的正确读音：yáng guāng。"
+      "explanation": "“阳光”读作 yáng guāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "阳光"
     },
     {
       "id": 11,
@@ -200,18 +210,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“海边”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hěi biān",
-        "B": "hǎi biān",
-        "C": "hǎn biān",
-        "D": "hǎi biāng"
+        "A": "hǎi biān",
+        "B": "bǎi biān",
+        "C": "cǎi biān",
+        "D": "chǎi biān"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“海边”的正确读音：hǎi biān。"
+      "explanation": "“海边”读作 hǎi biān。注意声母、韵母、声调及轻声。",
+      "targetWord": "海边"
     },
     {
       "id": 12,
@@ -219,18 +230,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“树叶”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shù yà",
-        "B": "sù yè",
-        "C": "shù yè",
-        "D": "shuì yè"
+        "A": "hù yè",
+        "B": "chù yè",
+        "C": "sù yè",
+        "D": "shù yè"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“树叶”的正确读音：shù yè。"
+      "explanation": "“树叶”读作 shù yè。注意声母、韵母、声调及轻声。",
+      "targetWord": "树叶"
     },
     {
       "id": 13,
@@ -238,18 +250,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“鲜花”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiāng huā",
-        "B": "xiē huā",
-        "C": "xiān huō",
-        "D": "xiān huā"
+        "A": "xiān huā",
+        "B": "qiān huā",
+        "C": "xiāng huā",
+        "D": "biān huā"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“鲜花”的正确读音：xiān huā。"
+      "explanation": "“鲜花”读作 xiān huā。注意声母、韵母、声调及轻声。",
+      "targetWord": "鲜花"
     },
     {
       "id": 14,
@@ -257,18 +270,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“雪人”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xuě rén",
-        "B": "quě rén",
-        "C": "xiě rén",
-        "D": "xuě réng"
+        "A": "lüě rén",
+        "B": "xuě réng",
+        "C": "juě rén",
+        "D": "xuě rén"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“雪人”的正确读音：xuě rén。"
+      "explanation": "“雪人”读作 xuě rén。注意声母、韵母、声调及轻声。",
+      "targetWord": "雪人"
     },
     {
       "id": 15,
@@ -276,18 +290,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“雨季”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǒ jì",
-        "B": "yǔ jì",
-        "C": "yǒu jì",
-        "D": "yǔ jìn"
+        "A": "bǔ jì",
+        "B": "cǔ jì",
+        "C": "yǔ qì",
+        "D": "yǔ jì"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“雨季”的正确读音：yǔ jì。"
+      "explanation": "“雨季”读作 yǔ jì。注意声母、韵母、声调及轻声。",
+      "targetWord": "雨季"
     },
     {
       "id": 16,
@@ -312,7 +327,9 @@
         "B": "lǚ yóu",
         "C": "zuì",
         "D": "shǎo"
-      }
+      },
+      "targetWord": "最",
+      "completeSentence": "我最喜欢春天。"
     },
     {
       "id": 17,
@@ -337,7 +354,9 @@
         "B": "má fan",
         "C": "xǐ huan",
         "D": "bǐ jiào"
-      }
+      },
+      "targetWord": "比较",
+      "completeSentence": "这里一年四季都比较热。"
     },
     {
       "id": 18,
@@ -362,7 +381,9 @@
         "B": "pāi",
         "C": "lǚ yóu",
         "D": "pá shān"
-      }
+      },
+      "targetWord": "舒服",
+      "completeSentence": "今天的温度很舒服。"
     },
     {
       "id": 19,
@@ -387,7 +408,9 @@
         "B": "pá shān",
         "C": "piào liang",
         "D": "bǐ jiào"
-      }
+      },
+      "targetWord": "爬山",
+      "completeSentence": "我想明天去爬山。"
     },
     {
       "id": 20,
@@ -412,7 +435,9 @@
         "B": "zuì",
         "C": "yī yàng",
         "D": "bǐ jiào"
-      }
+      },
+      "targetWord": "一样",
+      "completeSentence": "这两个月的天气不太一样。"
     },
     {
       "id": 21,
@@ -437,7 +462,9 @@
         "B": "yì qǐ",
         "C": "shì hé",
         "D": "xuǎn zé"
-      }
+      },
+      "targetWord": "选择",
+      "completeSentence": "你可以选择合适的衣服。"
     },
     {
       "id": 22,
@@ -462,7 +489,9 @@
         "B": "zuì",
         "C": "xǐ huan",
         "D": "yóu kè"
-      }
+      },
+      "targetWord": "旅游",
+      "completeSentence": "这个地方很适合旅游。"
     },
     {
       "id": 23,
@@ -487,7 +516,9 @@
         "B": "má fan",
         "C": "xǐ huan",
         "D": "xuǎn zé"
-      }
+      },
+      "targetWord": "麻烦",
+      "completeSentence": "下雨天出门有点麻烦。"
     },
     {
       "id": 24,
@@ -512,7 +543,9 @@
         "B": "shǎo",
         "C": "yì qǐ",
         "D": "xuǎn zé"
-      }
+      },
+      "targetWord": "一起",
+      "completeSentence": "我打算邀请朋友一起去玩。"
     },
     {
       "id": 25,
@@ -537,7 +570,9 @@
         "B": "lǚ yóu",
         "C": "yóu kè",
         "D": "shǎo"
-      }
+      },
+      "targetWord": "少",
+      "completeSentence": "这里的冬天很少下雪。"
     },
     {
       "id": 26,
@@ -562,7 +597,9 @@
         "B": "piào liang",
         "C": "xǐ huan",
         "D": "pá shān"
-      }
+      },
+      "targetWord": "适合",
+      "completeSentence": "这种活动特别适合孩子。"
     },
     {
       "id": 27,
@@ -587,7 +624,9 @@
         "B": "yóu kè",
         "C": "bǐ jiào",
         "D": "zuì"
-      }
+      },
+      "targetWord": "游客",
+      "completeSentence": "这个时候会有很多游客。"
     },
     {
       "id": 28,
@@ -612,7 +651,9 @@
         "B": "yì qǐ",
         "C": "pāi",
         "D": "bǐ jiào"
-      }
+      },
+      "targetWord": "拍",
+      "completeSentence": "我想拍一张照片。"
     },
     {
       "id": 29,
@@ -637,7 +678,9 @@
         "B": "bǐ jiào",
         "C": "xǐ huan",
         "D": "piào liang"
-      }
+      },
+      "targetWord": "漂亮",
+      "completeSentence": "这个地方特别漂亮。"
     },
     {
       "id": 30,
@@ -662,7 +705,9 @@
         "B": "pāi",
         "C": "piào liang",
         "D": "shū fu"
-      }
+      },
+      "targetWord": "喜欢",
+      "completeSentence": "我越来越喜欢这里的生活。"
     },
     {
       "id": 31,
@@ -677,8 +722,9 @@
         "我现在已经学会怎样根据不同的月份安排活动."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样根据不同的月份安排活动。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng gēn jù bù tóng de yuè fèn ān pái huó dòng 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我现在已经学会怎样根据不同的月份安排活动。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng gēn jù bù tóng de yuè fèn ān pái huó dòng 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 32,
@@ -695,8 +741,9 @@
         "我今天下课以后准备说出最想去的一个地方。"
       ],
       "points": 2,
-      "explanation": "参考句子：今天下课以后我准备说出最想去的一个地方。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi shuō chū zuì xiǎng qù de yí gè dì fāng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：今天下课以后我准备说出最想去的一个地方。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi shuō chū zuì xiǎng qù de yí gè dì fāng 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 19,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 33,
@@ -713,8 +760,9 @@
         "我们下个星期打算一起比较家乡和这里的冷暖。"
       ],
       "points": 2,
-      "explanation": "参考句子：下个星期我们打算一起比较家乡和这里的冷暖。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ bǐ jiào jiā xiāng hé zhè lǐ de lěng nuǎn 。",
-      "hanziCount": 20
+      "explanation": "参考句子：下个星期我们打算一起比较家乡和这里的冷暖。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ bǐ jiào jiā xiāng hé zhè lǐ de lěng nuǎn 。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "hanziCount": 20,
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 34,
@@ -729,8 +777,9 @@
         "你能不能告诉我怎样介绍一种当地常见的花?"
       ],
       "points": 2,
-      "explanation": "参考句子：你能不能告诉我怎样介绍一种当地常见的花？\nnǐ néng bù néng gào su wǒ zěn yàng jiè shào yī zhǒng dāng dì cháng jiàn de huā ？",
-      "hanziCount": 19
+      "explanation": "参考句子：你能不能告诉我怎样介绍一种当地常见的花？\nnǐ néng bù néng gào su wǒ zěn yàng jiè shào yī zhǒng dāng dì cháng jiàn de huā ？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -745,8 +794,9 @@
         "我们都认为记录窗外的小变化是一件重要的事."
       ],
       "points": 2,
-      "explanation": "参考句子：我们都认为记录窗外的小变化是一件重要的事。\nwǒ men dōu rèn wéi jì lù chuāng wài de xiǎo biàn huà shì yī jiàn zhòng yào de shì 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我们都认为记录窗外的小变化是一件重要的事。\nwǒ men dōu rèn wéi jì lù chuāng wài de xiǎo biàn huà shì yī jiàn zhòng yào de shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -761,8 +811,9 @@
         "如果明天有时间,我就看什么时候出门更舒服."
       ],
       "points": 2,
-      "explanation": "参考句子：如果明天有时间，我就看什么时候出门更舒服。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù kàn shén me shí hòu chū mén gèng shū fu 。",
-      "hanziCount": 19
+      "explanation": "参考句子：如果明天有时间，我就看什么时候出门更舒服。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù kàn shén me shí hòu chū mén gèng shū fu 。\n语法与搭配：如果……就……：假设条件",
+      "hanziCount": 19,
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 37,
@@ -777,8 +828,9 @@
         "我想请老师教我怎样了解什么时候可以去看海."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师教我怎样了解什么时候可以去看海。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng liǎo jiě shén me shí hòu kě yǐ qù kàn hǎi 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我想请老师教我怎样了解什么时候可以去看海。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng liǎo jiě shén me shí hòu kě yǐ qù kàn hǎi 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -793,8 +845,9 @@
         "我现在已经学会怎样给朋友推荐适当的路线."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样给朋友推荐适当的路线。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng gěi péng you tuī jiàn shì dàng de lù xiàn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我现在已经学会怎样给朋友推荐适当的路线。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng gěi péng you tuī jiàn shì dàng de lù xiàn 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 19,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 39,
@@ -809,8 +862,9 @@
         "我希望下次可以试着为晚上的活动做好准备."
       ],
       "points": 2,
-      "explanation": "参考句子：我希望下次可以试着为晚上的活动做好准备。\nwǒ xī wàng xià cì kě yǐ shì zhe wèi wǎn shàng de huó dòng zuò hǎo zhǔn bèi 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我希望下次可以试着为晚上的活动做好准备。\nwǒ xī wàng xià cì kě yǐ shì zhe wèi wǎn shàng de huó dòng zuò hǎo zhǔn bèi 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -825,8 +879,9 @@
         "我现在已经学会怎样提醒孩子多喝一点白开水."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样提醒孩子多喝一点白开水。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng tí xǐng hái zi duō hē yì diǎn bái kāi shuǐ 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我现在已经学会怎样提醒孩子多喝一点白开水。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng tí xǐng hái zi duō hē yì diǎn bái kāi shuǐ 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 41,
@@ -841,8 +896,9 @@
         "我们正准备把厚衣服放到容易找的地方."
       ],
       "points": 2,
-      "explanation": "参考句子：我们正准备把厚衣服放到容易找的地方。\nwǒ men zhèng zhǔn bèi bǎ hòu yī fu fàng dào róng yì zhǎo de dì fāng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我们正准备把厚衣服放到容易找的地方。\nwǒ men zhèng zhǔn bèi bǎ hòu yī fu fàng dào róng yì zhǎo de dì fāng 。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "hanziCount": 17,
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 42,
@@ -857,8 +913,9 @@
         "我们正准备问清公园里的树什么时候开花."
       ],
       "points": 2,
-      "explanation": "参考句子：我们正准备问清公园里的树什么时候开花。\nwǒ men zhèng zhǔn bèi wèn qīng gōng yuán lǐ de shù shén me shí hòu kāi huā 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们正准备问清公园里的树什么时候开花。\nwǒ men zhèng zhǔn bèi wèn qīng gōng yuán lǐ de shù shén me shí hòu kāi huā 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -873,8 +930,9 @@
         "我现在已经学会怎样选择适合全家的休闲方式."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样选择适合全家的休闲方式。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng xuǎn zé shì hé quán jiā de xiū xián fāng shì 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我现在已经学会怎样选择适合全家的休闲方式。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng xuǎn zé shì hé quán jiā de xiū xián fāng shì 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 44,
@@ -889,8 +947,9 @@
         "我和朋友商量好明天说哪段时间最不想出门."
       ],
       "points": 2,
-      "explanation": "参考句子：我和朋友商量好明天说哪段时间最不想出门。\nwǒ hé péng you shāng liáng hǎo míng tiān shuō nǎ duàn shí jiān zuì bù xiǎng chū mén 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我和朋友商量好明天说哪段时间最不想出门。\nwǒ hé péng you shāng liáng hǎo míng tiān shuō nǎ duàn shí jiān zuì bù xiǎng chū mén 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -905,8 +964,9 @@
         "我现在已经学会怎样听老人对今年收成的看法."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样听老人对今年收成的看法。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng tīng lǎo rén duì jīn nián shōu chéng de kàn fǎ 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我现在已经学会怎样听老人对今年收成的看法。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng tīng lǎo rén duì jīn nián shōu chéng de kàn fǎ 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 46,
@@ -921,8 +981,9 @@
         "我已经知道应该怎样写下自己最熟悉的景象了."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经知道应该怎样写下自己最熟悉的景象了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng xiě xià zì jǐ zuì shú xī de jǐng xiàng le 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我已经知道应该怎样写下自己最熟悉的景象了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng xiě xià zì jǐ zuì shú xī de jǐng xiàng le 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 47,
@@ -937,8 +998,9 @@
         "我现在已经学会怎样给初次来的人提一点建议."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样给初次来的人提一点建议。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng gěi chū cì lái de rén tí yì diǎn jiàn yì 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我现在已经学会怎样给初次来的人提一点建议。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng gěi chū cì lái de rén tí yì diǎn jiàn yì 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 48,
@@ -953,8 +1015,9 @@
         "他准备忙完工作以后再安排一次和同学的远足."
       ],
       "points": 2,
-      "explanation": "参考句子：他准备忙完工作以后再安排一次和同学的远足。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài ān pái yī cì hé tóng xué de yuǎn zú 。",
-      "hanziCount": 20
+      "explanation": "参考句子：他准备忙完工作以后再安排一次和同学的远足。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài ān pái yī cì hé tóng xué de yuǎn zú 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 20,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 49,
@@ -969,8 +1032,9 @@
         "我们正准备认识生活里常见的几种植物."
       ],
       "points": 2,
-      "explanation": "参考句子：我们正准备认识生活里常见的几种植物。\nwǒ men zhèng zhǔn bèi rèn shi shēng huó lǐ cháng jiàn de jǐ zhòng zhí wù 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我们正准备认识生活里常见的几种植物。\nwǒ men zhèng zhǔn bèi rèn shi shēng huó lǐ cháng jiàn de jǐ zhòng zhí wù 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -985,8 +1049,10 @@
         "我现在已经学会怎样说清自己喜欢这里的原因."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样说清自己喜欢这里的原因。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng shuō qīng zì jǐ xǐ huan zhè lǐ de yuán yīn 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我现在已经学会怎样说清自己喜欢这里的原因。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng shuō qīng zì jǐ xǐ huan zhè lǐ de yuán yīn 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

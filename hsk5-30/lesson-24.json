@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第24课 志愿服务与社会责任",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“志愿”的正确读音。",
+      "text": "【拼音选择】请选择“公益”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhì yuàn",
-        "B": "chì yuàn",
-        "C": "zì yuàn",
-        "D": "shì yuàn"
+        "A": "gōng yì",
+        "B": "cōng yì",
+        "C": "gāng yì",
+        "D": "dōng yì"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“志愿”读作 zhì yuàn，意思是 tình nguyện。"
+      "explanation": "“公益”读作 gōng yì。注意声母、韵母、声调及轻声。",
+      "targetWord": "公益"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“贡献”的正确读音。",
+      "text": "【拼音选择】请选择“募集”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gòng xiàng",
-        "B": "gòng qiàn",
-        "C": "bòng xiàn",
-        "D": "gòng xiàn"
+        "A": "mù qí",
+        "B": "bù jí",
+        "C": "mù jí",
+        "D": "cù jí"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“贡献”读作 gòng xiàn，意思是 đóng góp。"
+      "explanation": "“募集”读作 mù jí。注意声母、韵母、声调及轻声。",
+      "targetWord": "募集"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“组织”的正确读音。",
+      "text": "【拼音选择】请选择“志愿”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhǔ zhī",
-        "B": "zǔ zhī",
-        "C": "bǔ zhī",
-        "D": "zǔ zī"
+        "A": "shì yuàn",
+        "B": "zì yuàn",
+        "C": "zhì yuàn",
+        "D": "chì yuàn"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“组织”读作 zǔ zhī，意思是 tổ chức。"
+      "explanation": "“志愿”读作 zhì yuàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "志愿"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“关怀”的正确读音。",
+      "text": "【拼音选择】请选择“奉献”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "guān huái",
-        "B": "duān huái",
-        "C": "guāng huái",
-        "D": "cuān huái"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“关怀”读作 guān huái，意思是 quan tâm chăm sóc。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“参与”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "bān yù",
-        "B": "cāng yù",
-        "C": "chān yù",
-        "D": "cān yù"
+        "A": "hèng xiàn",
+        "B": "fèng xiàng",
+        "C": "fèng qiàn",
+        "D": "fèng xiàn"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“参与”读作 cān yù，意思是 tham gia。"
+      "explanation": "“奉献”读作 fèng xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "奉献"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“关怀”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "guāng huái",
+        "B": "cuān huái",
+        "C": "guān huái",
+        "D": "duān huái"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "“关怀”读作 guān huái。注意声母、韵母、声调及轻声。",
+      "targetWord": "关怀"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：周末她主动报名参加了社区____服务活动。",
-      "pinyin": "zhōu mò tā zhǔ dòng bào míng cān jiā le shè qū ____ fú wù huó dòng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tình nguyện.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：参加活动前，要先了解社区真正的____。",
+      "pinyin": "cān jiā huó dòng qián ， yào xiān liǎo jiě shè qū zhēn zhèng de ____。",
+      "vietnamese": "Gợi ý: nhu cầu.",
       "options": {
-        "A": "贡献",
-        "B": "志愿",
-        "C": "参与",
-        "D": "关怀"
+        "A": "服务",
+        "B": "责任",
+        "C": "需求",
+        "D": "监督"
       },
       "optionPinyin": {
-        "A": "gòng xiàn",
-        "B": "zhì yuàn",
-        "C": "cān yù",
-        "D": "guān huái"
+        "A": "fú wù",
+        "B": "zé rèn",
+        "C": "xū qiú",
+        "D": "jiān dū"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“志愿”（tình nguyện）。完整句子：周末她主动报名参加了社区志愿服务活动。"
+      "explanation": "应填“需求”。完整句子：参加活动前，要先了解社区真正的需求。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "需求",
+      "completeSentence": "参加活动前，要先了解社区真正的需求。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：每个人都可以通过自己的行动为社会作出____。",
-      "pinyin": "měi gè rén dōu kě yǐ tōng guò zì jǐ de xíng dòng wèi shè huì zuò chū ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đóng góp.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他每周抽出时间，为老人提供志愿____。",
+      "pinyin": "tā měi zhōu chōu chū shí jiān ， wèi lǎo rén tí gōng zhì yuàn ____。",
+      "vietnamese": "Gợi ý: phục vụ.",
       "options": {
-        "A": "志愿",
-        "B": "贡献",
-        "C": "关怀",
-        "D": "组织"
+        "A": "服务",
+        "B": "需求",
+        "C": "监督",
+        "D": "责任"
       },
       "optionPinyin": {
-        "A": "zhì yuàn",
-        "B": "gòng xiàn",
-        "C": "guān huái",
-        "D": "zǔ zhī"
+        "A": "fú wù",
+        "B": "xū qiú",
+        "C": "jiān dū",
+        "D": "zé rèn"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“贡献”（đóng góp）。完整句子：每个人都可以通过自己的行动为社会作出贡献。"
+      "explanation": "应填“服务”。完整句子：他每周抽出时间，为老人提供志愿服务。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "服务",
+      "completeSentence": "他每周抽出时间，为老人提供志愿服务。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：社区工作人员正在____居民帮助有需要的家庭。",
-      "pinyin": "shè qū gōng zuò rén yuán zhèng zài ____ jū mín bāng zhù yǒu xū yào de jiā tíng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tổ chức.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：公益项目应定期公开经费使用情况，接受社会____。",
+      "pinyin": "gōng yì xiàng mù yīng dìng qī gōng kāi jīng fèi shǐ yòng qíng kuàng ， jiē shòu shè huì ____。",
+      "vietnamese": "Gợi ý: giám sát.",
       "options": {
-        "A": "组织",
-        "B": "志愿",
-        "C": "贡献",
-        "D": "参与"
+        "A": "监督",
+        "B": "服务",
+        "C": "责任",
+        "D": "需求"
       },
       "optionPinyin": {
-        "A": "zǔ zhī",
-        "B": "zhì yuàn",
-        "C": "gòng xiàn",
-        "D": "cān yù"
+        "A": "jiān dū",
+        "B": "fú wù",
+        "C": "zé rèn",
+        "D": "xū qiú"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“组织”（tổ chức）。完整句子：社区工作人员正在组织居民帮助有需要的家庭。"
+      "explanation": "应填“监督”。完整句子：公益项目应定期公开经费使用情况，接受社会监督。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "监督",
+      "completeSentence": "公益项目应定期公开经费使用情况，接受社会监督。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：一次耐心的陪伴也能让老人感受到社会的____。",
-      "pinyin": "yī cì nài xīn de péi bàn yě néng ràng lǎo rén gǎn shòu dào shè huì de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: quan tâm chăm sóc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：每个参与者都需要认真承担自己的____。",
+      "pinyin": "měi gè cān yù zhě dōu xū yào rèn zhēn chéng dān zì jǐ de ____。",
+      "vietnamese": "Gợi ý: trách nhiệm.",
       "options": {
-        "A": "志愿",
-        "B": "关怀",
-        "C": "参与",
-        "D": "组织"
+        "A": "需求",
+        "B": "监督",
+        "C": "责任",
+        "D": "服务"
       },
       "optionPinyin": {
-        "A": "zhì yuàn",
-        "B": "guān huái",
-        "C": "cān yù",
-        "D": "zǔ zhī"
+        "A": "xū qiú",
+        "B": "jiān dū",
+        "C": "zé rèn",
+        "D": "fú wù"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“关怀”（quan tâm chăm sóc）。完整句子：一次耐心的陪伴也能让老人感受到社会的关怀。"
+      "explanation": "应填“责任”。完整句子：每个参与者都需要认真承担自己的责任。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "责任",
+      "completeSentence": "每个参与者都需要认真承担自己的责任。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：只有更多的人积极____公益活动才能持续开展。",
-      "pinyin": "zhǐ yǒu gèng duō de rén jī jí ____ gōng yì huó dòng cái néng chí xù kāi zhǎn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tham gia.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：帮助别人也让他获得了强烈的____感。",
+      "pinyin": "bāng zhù bié rén yě ràng tā huò dé le qiáng liè de ____ gǎn 。",
+      "vietnamese": "Gợi ý: thành tựu.",
       "options": {
-        "A": "参与",
-        "B": "组织",
-        "C": "关怀",
-        "D": "贡献"
+        "A": "需求",
+        "B": "监督",
+        "C": "服务",
+        "D": "成就"
       },
       "optionPinyin": {
-        "A": "cān yù",
-        "B": "zǔ zhī",
-        "C": "guān huái",
-        "D": "gòng xiàn"
+        "A": "xū qiú",
+        "B": "jiān dū",
+        "C": "fú wù",
+        "D": "chéng jiù"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“参与”（tham gia）。完整句子：只有更多的人积极参与公益活动才能持续开展。"
+      "explanation": "应填“成就”。完整句子：帮助别人也让他获得了强烈的成就感。\n语法与搭配：动词＋得＋程度/状态补语",
+      "targetWord": "成就",
+      "completeSentence": "帮助别人也让他获得了强烈的成就感。",
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 11,
@@ -240,7 +260,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：周末她主动报名参加了社区志愿服务活动。\nzhōu mò tā zhǔ dòng bào míng cān jiā le shè qū zhì yuàn fú wù huó dòng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：周末她主动报名参加了社区志愿服务活动。\nzhōu mò tā zhǔ dòng bào míng cān jiā le shè qū zhì yuàn fú wù huó dòng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -256,7 +277,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：每个人都可以通过自己的行动为社会作出贡献。\nměi gè rén dōu kě yǐ tōng guò zì jǐ de xíng dòng wèi shè huì zuò chū gòng xiàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：每个人都可以通过自己的行动为社会作出贡献。\nměi gè rén dōu kě yǐ tōng guò zì jǐ de xíng dòng wèi shè huì zuò chū gòng xiàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋过：经历表达",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 13,
@@ -272,7 +294,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：社区工作人员正在组织居民帮助有需要的家庭。\nshè qū gōng zuò rén yuán zhèng zài zǔ zhī jū mín bāng zhù yǒu xū yào de jiā tíng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：社区工作人员正在组织居民帮助有需要的家庭。\nshè qū gōng zuò rén yuán zhèng zài zǔ zhī jū mín bāng zhù yǒu xū yào de jiā tíng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：正在＋动词：正在进行",
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 14,
@@ -288,7 +311,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：一次耐心的陪伴也能让老人感受到社会的关怀。\nyī cì nài xīn de péi bàn yě néng ràng lǎo rén gǎn shòu dào shè huì de guān huái。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：一次耐心的陪伴也能让老人感受到社会的关怀。\nyī cì nài xīn de péi bàn yě néng ràng lǎo rén gǎn shòu dào shè huì de guān huái。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -304,7 +328,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：只有更多的人积极参与公益活动才能持续开展。\nzhǐ yǒu gèng duō de rén jī jí cān yù gōng yì huó dòng cái néng chí xù kāi zhǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：只有更多的人积极参与公益活动才能持续开展。\nzhǐ yǒu gèng duō de rén jī jí cān yù gōng yì huó dòng cái néng chí xù kāi zhǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 16,
@@ -320,7 +345,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解志愿服务的意义还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě zhì yuàn fú wù de yì yì hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解志愿服务的意义还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě zhì yuàn fú wù de yì yì hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -336,7 +362,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化社区互助的作用都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà shè qū hù zhù de zuò yòng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化社区互助的作用都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà shè qū hù zhù de zuò yòng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -352,7 +379,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解社会责任的实践才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě shè huì zé rèn de shí jiàn cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解社会责任的实践才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě shè huì zé rèn de shí jiàn cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -368,7 +396,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析公益活动的组织。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī gōng yì huó dòng de zǔ zhī。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析公益活动的组织。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī gōng yì huó dòng de zǔ zhī。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -384,7 +413,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明服务经历的收获。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng fú wù jīng lì de shōu huò。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明服务经历的收获。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng fú wù jīng lì de shōu huò。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

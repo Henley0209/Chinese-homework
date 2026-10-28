@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第18课 科技与世界",
-  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“科技”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dē jì",
-        "B": "kē qì",
-        "C": "kē jì",
-        "D": "gē jì"
+        "A": "kē jì",
+        "B": "dē jì",
+        "C": "gē jì",
+        "D": "kē qì"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“科技”的正确读音是 kē jì。"
+      "explanation": "“科技”读作 kē jì。注意声母、韵母、声调及轻声。",
+      "targetWord": "科技"
     },
     {
       "id": 2,
@@ -28,7 +29,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“技术”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jì sù",
         "B": "qì shù",
@@ -39,7 +40,8 @@
         "C"
       ],
       "points": 2,
-      "explanation": "“技术”的正确读音是 jì shù。"
+      "explanation": "“技术”读作 jì shù。注意声母、韵母、声调及轻声。",
+      "targetWord": "技术"
     },
     {
       "id": 3,
@@ -47,10 +49,10 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“网络”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wǎng nuò",
-        "B": "bǎng luò",
+        "A": "bǎng luò",
+        "B": "wǎng nuò",
         "C": "wǎn luò",
         "D": "wǎng luò"
       },
@@ -58,7 +60,8 @@
         "D"
       ],
       "points": 2,
-      "explanation": "“网络”的正确读音是 wǎng luò。"
+      "explanation": "“网络”读作 wǎng luò。注意声母、韵母、声调及轻声。",
+      "targetWord": "网络"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“信息”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xìn qī",
-        "B": "xìn xī",
-        "C": "qìn xī",
-        "D": "xìng xī"
+        "A": "qìn xī",
+        "B": "xìng xī",
+        "C": "xìn xī",
+        "D": "xìn qī"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“信息”的正确读音是 xìn xī。"
+      "explanation": "“信息”读作 xìn xī。注意声母、韵母、声调及轻声。",
+      "targetWord": "信息"
     },
     {
       "id": 5,
@@ -85,10 +89,10 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“电脑”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "diàn lǎo",
-        "B": "biàn nǎo",
+        "A": "biàn nǎo",
+        "B": "diàn lǎo",
         "C": "diàn nǎo",
         "D": "diàn nǒu"
       },
@@ -96,7 +100,8 @@
         "C"
       ],
       "points": 2,
-      "explanation": "“电脑”的正确读音是 diàn nǎo。"
+      "explanation": "“电脑”读作 diàn nǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "电脑"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“手机”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shǒu jī",
-        "B": "shǒu qī",
-        "C": "shǎo jī",
-        "D": "sǒu jī"
+        "A": "sǒu jī",
+        "B": "shǎo jī",
+        "C": "shǒu qī",
+        "D": "shǒu jī"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“手机”的正确读音是 shǒu jī。"
+      "explanation": "“手机”读作 shǒu jī。注意声母、韵母、声调及轻声。",
+      "targetWord": "手机"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“软件”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "ruǎn jiàn",
-        "B": "ruǎn qiàn",
-        "C": "ruǎn jiàng",
-        "D": "duǎn jiàn"
+        "A": "ruǎn qiàn",
+        "B": "ruǎn jiàng",
+        "C": "duǎn jiàn",
+        "D": "ruǎn jiàn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“软件”的正确读音是 ruǎn jiàn。"
+      "explanation": "“软件”读作 ruǎn jiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "软件"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“功能”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gōng léng",
-        "B": "gōng néng",
+        "A": "gōng néng",
+        "B": "gōng léng",
         "C": "cōng néng",
         "D": "dōng néng"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“功能”的正确读音是 gōng néng。"
+      "explanation": "“功能”读作 gōng néng。注意声母、韵母、声调及轻声。",
+      "targetWord": "功能"
     },
     {
       "id": 9,
@@ -161,10 +169,10 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“发明”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fā mín",
-        "B": "hā míng",
+        "A": "hā míng",
+        "B": "fā mín",
         "C": "bā míng",
         "D": "fā míng"
       },
@@ -172,7 +180,8 @@
         "D"
       ],
       "points": 2,
-      "explanation": "“发明”的正确读音是 fā míng。"
+      "explanation": "“发明”读作 fā míng。注意声母、韵母、声调及轻声。",
+      "targetWord": "发明"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“发展”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fā zhǎng",
+        "A": "fā zǎn",
         "B": "hā zhǎn",
         "C": "fā zhǎn",
-        "D": "fā zǎn"
+        "D": "fā zhǎng"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“发展”的正确读音是 fā zhǎn。"
+      "explanation": "“发展”读作 fā zhǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "发展"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“方便”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fāng biàng",
-        "B": "fān biàn",
-        "C": "hāng biàn",
-        "D": "fāng biàn"
+        "A": "fāng biàn",
+        "B": "fāng biàng",
+        "C": "fān biàn",
+        "D": "hāng biàn"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“方便”的正确读音是 fāng biàn。"
+      "explanation": "“方便”读作 fāng biàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "方便"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“智能”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chì néng",
-        "B": "zhì léng",
-        "C": "zhì néng",
-        "D": "zì néng"
+        "A": "zhì néng",
+        "B": "zì néng",
+        "C": "chì néng",
+        "D": "zhì léng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“智能”的正确读音是 zhì néng。"
+      "explanation": "“智能”读作 zhì néng。注意声母、韵母、声调及轻声。",
+      "targetWord": "智能"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“机器”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jī qì",
-        "B": "qī qì",
+        "A": "qī qì",
+        "B": "jī qì",
         "C": "jī xì",
         "D": "jī jì"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“机器”的正确读音是 jī qì。"
+      "explanation": "“机器”读作 jī qì。注意声母、韵母、声调及轻声。",
+      "targetWord": "机器"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“电子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "diàn zi",
-        "B": "diàn zhi",
-        "C": "diào zi",
-        "D": "biàn zi"
+        "A": "diàn zhi",
+        "B": "biàn zi",
+        "C": "diàn zi",
+        "D": "diào zi"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“电子”的正确读音是 diàn zi。"
+      "explanation": "“电子”读作 diàn zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "电子"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“通信”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tōng xìn",
-        "B": "tōng xìng",
-        "C": "tōng qìn",
-        "D": "cōng xìn"
+        "A": "cōng xìn",
+        "B": "tōng qìn",
+        "C": "tōng xìng",
+        "D": "tōng xìn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“通信”的正确读音是 tōng xìn。"
+      "explanation": "“通信”读作 tōng xìn。注意声母、韵母、声调及轻声。",
+      "targetWord": "通信"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“改变”（thay đổi）。完整句子：网络已经改变了人们获取信息的方式。"
+      "explanation": "应填“改变”（thay đổi）。完整句子：网络已经改变了人们获取信息的方式。",
+      "targetWord": "改变",
+      "completeSentence": "网络已经改变了人们获取信息的方式。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“提高”（nâng cao）。完整句子：新的设备能够提高工厂的生产效率。"
+      "explanation": "应填“提高”（nâng cao）。完整句子：新的设备能够提高工厂的生产效率。",
+      "targetWord": "提高",
+      "completeSentence": "新的设备能够提高工厂的生产效率。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“联系”（liên lạc）。完整句子：视频通话让远方的家人更容易保持联系。"
+      "explanation": "应填“联系”（liên lạc）。完整句子：视频通话让远方的家人更容易保持联系。",
+      "targetWord": "联系",
+      "completeSentence": "视频通话让远方的家人更容易保持联系。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“依赖”（phụ thuộc）。完整句子：我们使用手机时，也要避免过度依赖它。"
+      "explanation": "应填“依赖”（phụ thuộc）。完整句子：我们使用手机时，也要避免过度依赖它。",
+      "targetWord": "依赖",
+      "completeSentence": "我们使用手机时，也要避免过度依赖它。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“隐私”（sự riêng tư）。完整句子：不要随便在网上公开别人的个人隐私。"
+      "explanation": "应填“隐私”（sự riêng tư）。完整句子：不要随便在网上公开别人的个人隐私。",
+      "targetWord": "隐私",
+      "completeSentence": "不要随便在网上公开别人的个人隐私。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“安全”（an toàn）。完整句子：设置复杂一点的密码，可以提高账户的安全性。"
+      "explanation": "应填“安全”（an toàn）。完整句子：设置复杂一点的密码，可以提高账户的安全性。",
+      "targetWord": "安全",
+      "completeSentence": "设置复杂一点的密码，可以提高账户的安全性。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“解决”（giải quyết）。完整句子：这款软件可以帮助老师解决统计成绩的问题。"
+      "explanation": "应填“解决”（giải quyết）。完整句子：这款软件可以帮助老师解决统计成绩的问题。",
+      "targetWord": "解决",
+      "completeSentence": "这款软件可以帮助老师解决统计成绩的问题。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“代替”（thay thế）。完整句子：机器可以代替人完成一些重复的工作。"
+      "explanation": "应填“代替”（thay thế）。完整句子：机器可以代替人完成一些重复的工作。",
+      "targetWord": "代替",
+      "completeSentence": "机器可以代替人完成一些重复的工作。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“仍然”（vẫn）。完整句子：虽然有了自动翻译，我们仍然需要学习外语。"
+      "explanation": "应填“仍然”（vẫn）。完整句子：虽然有了自动翻译，我们仍然需要学习外语。",
+      "targetWord": "仍然",
+      "completeSentence": "虽然有了自动翻译，我们仍然需要学习外语。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“交流”（giao tiếp）。完整句子：网络为不同国家的人提供了交流的机会。"
+      "explanation": "应填“交流”（giao tiếp）。完整句子：网络为不同国家的人提供了交流的机会。",
+      "targetWord": "交流",
+      "completeSentence": "网络为不同国家的人提供了交流的机会。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“准确”（chính xác）。完整句子：使用网上的信息以前，需要检查它是否准确。"
+      "explanation": "应填“准确”（chính xác）。完整句子：使用网上的信息以前，需要检查它是否准确。",
+      "targetWord": "准确",
+      "completeSentence": "使用网上的信息以前，需要检查它是否准确。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“适应”（thích nghi）。完整句子：老年人也需要时间适应新的电子设备。"
+      "explanation": "应填“适应”（thích nghi）。完整句子：老年人也需要时间适应新的电子设备。",
+      "targetWord": "适应",
+      "completeSentence": "老年人也需要时间适应新的电子设备。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“操作”（thao tác）。完整句子：请先看说明书，再操作这台机器。"
+      "explanation": "应填“操作”（thao tác）。完整句子：请先看说明书，再操作这台机器。",
+      "targetWord": "操作",
+      "completeSentence": "请先看说明书，再操作这台机器。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“节省”（tiết kiệm）。完整句子：网上办理业务，可以节省来回排队的时间。"
+      "explanation": "应填“节省”（tiết kiệm）。完整句子：网上办理业务，可以节省来回排队的时间。",
+      "targetWord": "节省",
+      "completeSentence": "网上办理业务，可以节省来回排队的时间。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“创造”（sáng tạo, tạo ra）。完整句子：科技发展也会创造以前没有的工作机会。"
+      "explanation": "应填“创造”（sáng tạo, tạo ra）。完整句子：科技发展也会创造以前没有的工作机会。",
+      "targetWord": "创造",
+      "completeSentence": "科技发展也会创造以前没有的工作机会。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "科技的发展不仅改变了工作方式也影响着我们的日常生活."
       ],
       "points": 2,
-      "explanation": "参考句子：科技的发展不仅改变了工作方式也影响着我们的日常生活。\nkē jì de fā zhǎn bù jǐn gǎi biàn le gōng zuò fāng shì yě yǐng xiǎng zhe wǒ men de rì cháng shēng huó 。",
-      "hanziCount": 25
+      "explanation": "参考句子：科技的发展不仅改变了工作方式也影响着我们的日常生活。\nkē jì de fā zhǎn bù jǐn gǎi biàn le gōng zuò fāng shì yě yǐng xiǎng zhe wǒ men de rì cháng shēng huó 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 25,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "即使机器能够完成很多工作人类仍然需要独立地思考."
       ],
       "points": 2,
-      "explanation": "参考句子：即使机器能够完成很多工作人类仍然需要独立地思考。\njí shǐ jī qì néng gòu wán chéng hěn duō gōng zuò rén lèi réng rán xū yào dú lì dì sī kǎo 。",
-      "hanziCount": 23
+      "explanation": "参考句子：即使机器能够完成很多工作人类仍然需要独立地思考。\njí shǐ jī qì néng gòu wán chéng hěn duō gōng zuò rén lèi réng rán xū yào dú lì dì sī kǎo 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 23,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "在网上查找信息的时候我们应该先判断内容是否可靠."
       ],
       "points": 2,
-      "explanation": "参考句子：在网上查找信息的时候我们应该先判断内容是否可靠。\nzài wǎng shàng chá zhǎo xìn xī de shí hou wǒ men yīng gāi xiān pàn duàn nèi róng shì fǒu kě kào 。",
-      "hanziCount": 23
+      "explanation": "参考句子：在网上查找信息的时候我们应该先判断内容是否可靠。\nzài wǎng shàng chá zhǎo xìn xī de shí hou wǒ men yīng gāi xiān pàn duàn nèi róng shì fǒu kě kào 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 23,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "为了帮助父母使用新手机她把操作步骤认真写了下来."
       ],
       "points": 2,
-      "explanation": "参考句子：为了帮助父母使用新手机她把操作步骤认真写了下来。\nwèi le bāng zhù fù mǔ shǐ yòng xīn shǒu jī tā bǎ cāo zuò bù zhòu rèn zhēn xiě le xià lái 。",
-      "hanziCount": 23
+      "explanation": "参考句子：为了帮助父母使用新手机她把操作步骤认真写了下来。\nwèi le bāng zhù fù mǔ shǐ yòng xīn shǒu jī tā bǎ cāo zuò bù zhòu rèn zhēn xiě le xià lái 。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "hanziCount": 23,
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "网络让住在不同国家的家人也能够随时交流彼此的生活."
       ],
       "points": 2,
-      "explanation": "参考句子：网络让住在不同国家的家人也能够随时交流彼此的生活。\nwǎng luò ràng zhù zài bù tóng guó jiā de jiā rén yě néng gòu suí shí jiāo liú bǐ cǐ de shēng huó 。",
-      "hanziCount": 24
+      "explanation": "参考句子：网络让住在不同国家的家人也能够随时交流彼此的生活。\nwǎng luò ràng zhù zài bù tóng guó jiā de jiā rén yě néng gòu suí shí jiāo liú bǐ cǐ de shēng huó 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 24,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "我已经认真考虑过科技改变生活的方式."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过科技改变生活的方式。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò kē jì gǎi biàn shēng huó de fāng shì 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我已经认真考虑过科技改变生活的方式。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò kē jì gǎi biàn shēng huó de fāng shì 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 17,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "这篇文章主要介绍了网络交流带来的便利."
       ],
       "points": 2,
-      "explanation": "参考句子：这篇文章主要介绍了网络交流带来的便利。\nzhè piān wén zhāng zhǔ yào jiè shào le wǎng luò jiāo liú dài lái de biàn lì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：这篇文章主要介绍了网络交流带来的便利。\nzhè piān wén zhāng zhǔ yào jiè shào le wǎng luò jiāo liú dài lái de biàn lì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "请结合例子具体说明个人信息安全的问题."
       ],
       "points": 2,
-      "explanation": "参考句子：请结合例子具体说明个人信息安全的问题。\nqǐng jié hé lì zi jù tǐ shuō míng gè rén xìn xī ān quán de wèn tí 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请结合例子具体说明个人信息安全的问题。\nqǐng jié hé lì zi jù tǐ shuō míng gè rén xìn xī ān quán de wèn tí 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "我们还没有讨论清楚使用新设备的学习过程."
       ],
       "points": 2,
-      "explanation": "参考句子：我们还没有讨论清楚使用新设备的学习过程。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ shǐ yòng xīn shè bèi de xué xí guò chéng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我们还没有讨论清楚使用新设备的学习过程。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ shǐ yòng xīn shè bèi de xué xí guò chéng 。\n语法与搭配：动词＋过：经历表达",
+      "hanziCount": 19,
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "大家都需要认真了解科技发展对工作的影响."
       ],
       "points": 2,
-      "explanation": "参考句子：大家都需要认真了解科技发展对工作的影响。\ndà jiā dōu xū yào rèn zhēn liǎo jiě kē jì fā zhǎn duì gōng zuò de yǐng xiǎng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：大家都需要认真了解科技发展对工作的影响。\ndà jiā dōu xū yào rèn zhēn liǎo jiě kē jì fā zhǎn duì gōng zuò de yǐng xiǎng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "这次活动让我们重新思考自动翻译的优点和不足."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考自动翻译的优点和不足。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo zì dòng fān yì de yōu diǎn hé bù zú 。",
-      "hanziCount": 21
+      "explanation": "参考句子：这次活动让我们重新思考自动翻译的优点和不足。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo zì dòng fān yì de yōu diǎn hé bù zú 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 21,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "老师希望大家认真分析判断网络信息的方法."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析判断网络信息的方法。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī pàn duàn wǎng luò xìn xī de fāng fǎ 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析判断网络信息的方法。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī pàn duàn wǎng luò xìn xī de fāng fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "我们有必要深入了解保护个人隐私的措施."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解保护个人隐私的措施。\nwǒ men yǒu bì yào shēn rù liǎo jiě bǎo hù gè rén yǐn sī de cuò shī 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们有必要深入了解保护个人隐私的措施。\nwǒ men yǒu bì yào shēn rù liǎo jiě bǎo hù gè rén yǐn sī de cuò shī 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "他在报告中详细介绍了如何帮助老人使用手机."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了如何帮助老人使用手机。\ntā zài bào gào zhōng xiáng xì jiè shào le rú hé bāng zhù lǎo rén shǐ yòng shǒu jī 。",
-      "hanziCount": 20
+      "explanation": "参考句子：他在报告中详细介绍了如何帮助老人使用手机。\ntā zài bào gào zhōng xiáng xì jiè shào le rú hé bāng zhù lǎo rén shǐ yòng shǒu jī 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 20,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "请大家先讨论一下机器与人类各自的优势."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下机器与人类各自的优势。\nqǐng dà jiā xiān tǎo lùn yī xià jī qì yǔ rén lèi gè zì de yōu shì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请大家先讨论一下机器与人类各自的优势。\nqǐng dà jiā xiān tǎo lùn yī xià jī qì yǔ rén lèi gè zì de yōu shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "我想请老师进一步解释如何合理使用电子设备."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释如何合理使用电子设备。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì rú hé hé lǐ shǐ yòng diàn zi shè bèi 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我想请老师进一步解释如何合理使用电子设备。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì rú hé hé lǐ shǐ yòng diàn zi shè bèi 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "同学们正在一起讨论提高工作效率的工具."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论提高工作效率的工具。\ntóng xué men zhèng zài yì qǐ tǎo lùn tí gāo gōng zuò xiào lǜ de gōng jù 。",
-      "hanziCount": 18
+      "explanation": "参考句子：同学们正在一起讨论提高工作效率的工具。\ntóng xué men zhèng zài yì qǐ tǎo lùn tí gāo gōng zuò xiào lǜ de gōng jù 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 18,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "老师请我们认真讨论网上办事的实际经验."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论网上办事的实际经验。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn wǎng shàng bàn shì de shí jì jīng yàn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：老师请我们认真讨论网上办事的实际经验。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn wǎng shàng bàn shì de shí jì jīng yàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "我们应该提前了解科技发展带来的新机会."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解科技发展带来的新机会。\nwǒ men yīng gāi tí qián liǎo jiě kē jì fā zhǎn dài lái de xīn jī huì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们应该提前了解科技发展带来的新机会。\nwǒ men yīng gāi tí qián liǎo jiě kē jì fā zhǎn dài lái de xīn jī huì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "大家可以一起讨论保持独立思考的重要性."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论保持独立思考的重要性。\ndà jiā kě yǐ yì qǐ tǎo lùn bǎo chí dú lì sī kǎo de zhòng yào xìng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：大家可以一起讨论保持独立思考的重要性。\ndà jiā kě yǐ yì qǐ tǎo lùn bǎo chí dú lì sī kǎo de zhòng yào xìng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第08课 周末一起去哪儿",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“计划”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jì huà",
-        "B": "qì huà",
-        "C": "cì huà",
-        "D": "bì huà"
+        "A": "cì huà",
+        "B": "bì huà",
+        "C": "qì huà",
+        "D": "jì huà"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“计划”读作 jì huà，本课词义：kế hoạch。"
+      "explanation": "“计划”读作 jì huà。注意声母、韵母、声调及轻声。",
+      "targetWord": "计划"
     },
     {
       "id": 2,
@@ -28,7 +29,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“公园”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "gōng yuán",
         "B": "cōng yuán",
@@ -39,7 +40,8 @@
         "A"
       ],
       "points": 5,
-      "explanation": "“公园”读作 gōng yuán，本课词义：công viên。"
+      "explanation": "“公园”读作 gōng yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "公园"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“爬山”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "pá shāng",
-        "B": "pá sān",
+        "B": "bá shān",
         "C": "pá shān",
-        "D": "bá shān"
+        "D": "pá sān"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“爬山”读作 pá shān，本课词义：leo núi。"
+      "explanation": "“爬山”读作 pá shān。注意声母、韵母、声调及轻声。",
+      "targetWord": "爬山"
     },
     {
       "id": 4,
@@ -66,162 +69,179 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“同意”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lóng yì",
-        "B": "tóng yì",
-        "C": "cóng yì",
-        "D": "hóng yì"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“同意”读作 tóng yì，本课词义：đồng ý。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“集合”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "bí hé",
-        "B": "jí hé",
-        "C": "cí hé",
-        "D": "qí hé"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“集合”读作 jí hé，本课词义：tập trung。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：你这个周末有什么____。",
-      "pinyin": "nǐ zhè ge zhōu mò yǒu shén me ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kế hoạch.",
-      "options": {
-        "A": "集合",
-        "B": "同意",
-        "C": "计划",
-        "D": "爬山"
-      },
-      "optionPinyin": {
-        "A": "jí hé",
-        "B": "tóng yì",
-        "C": "jì huà",
-        "D": "pá shān"
+        "A": "hóng yì",
+        "B": "cóng yì",
+        "C": "tóng yì",
+        "D": "lóng yì"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“计划”（kế hoạch）。完整表达：你这个周末有什么计划。"
+      "explanation": "“同意”读作 tóng yì。注意声母、韵母、声调及轻声。",
+      "targetWord": "同意"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“户外”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "fù wài",
+        "B": "bù wài",
+        "C": "hù wài",
+        "D": "hù wèi"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "“户外”读作 hù wài。注意声母、韵母、声调及轻声。",
+      "targetWord": "户外"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们带上食物，去公园____吧。",
+      "pinyin": "wǒ men dài shàng shí wù ， qù gōng yuán ____ ba 。",
+      "vietnamese": "Gợi ý: dã ngoại.",
+      "options": {
+        "A": "集合",
+        "B": "门票",
+        "C": "展览",
+        "D": "野餐"
+      },
+      "optionPinyin": {
+        "A": "jí hé",
+        "B": "mén piào",
+        "C": "zhǎn lǎn",
+        "D": "yě cān"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“野餐”。完整句子：我们带上食物，去公园野餐吧。\n语法与搭配：去＋地点＋动词",
+      "targetWord": "野餐",
+      "completeSentence": "我们带上食物，去公园野餐吧。",
+      "grammarFocus": "去＋地点＋动词"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：要不我们一起去____散步吧。",
-      "pinyin": "yào bù wǒ men yì qǐ qù ____ sàn bù ba",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: công viên.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：美术馆有一个新____，一起去看看吧。",
+      "pinyin": "měi shù guǎn yǒu yí gè xīn ____， yì qǐ qù kàn kàn ba 。",
+      "vietnamese": "Gợi ý: triển lãm.",
       "options": {
-        "A": "爬山",
-        "B": "公园",
-        "C": "计划",
+        "A": "集合",
+        "B": "展览",
+        "C": "野餐",
+        "D": "门票"
+      },
+      "optionPinyin": {
+        "A": "jí hé",
+        "B": "zhǎn lǎn",
+        "C": "yě cān",
+        "D": "mén piào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“展览”。完整句子：美术馆有一个新展览，一起去看看吧。\n语法与搭配：有；动词重叠",
+      "targetWord": "展览",
+      "completeSentence": "美术馆有一个新展览，一起去看看吧。",
+      "grammarFocus": "有；动词重叠"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：大家九点在地铁口____。",
+      "pinyin": "dà jiā jiǔ diǎn zài dì tiě kǒu ____。",
+      "vietnamese": "Gợi ý: tập trung.",
+      "options": {
+        "A": "展览",
+        "B": "集合",
+        "C": "野餐",
+        "D": "门票"
+      },
+      "optionPinyin": {
+        "A": "zhǎn lǎn",
+        "B": "jí hé",
+        "C": "yě cān",
+        "D": "mén piào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“集合”。完整句子：大家九点在地铁口集合。\n语法与搭配：在＋地点＋动词",
+      "targetWord": "集合",
+      "completeSentence": "大家九点在地铁口集合。",
+      "grammarFocus": "在＋地点＋动词"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：进博物馆以前，要先预约____。",
+      "pinyin": "jìn bó wù guǎn yǐ qián ， yào xiān yù yuē ____。",
+      "vietnamese": "Gợi ý: vé vào cửa.",
+      "options": {
+        "A": "展览",
+        "B": "门票",
+        "C": "集合",
+        "D": "野餐"
+      },
+      "optionPinyin": {
+        "A": "zhǎn lǎn",
+        "B": "mén piào",
+        "C": "jí hé",
+        "D": "yě cān"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“门票”。完整句子：进博物馆以前，要先预约门票。\n语法与搭配：……以前；先",
+      "targetWord": "门票",
+      "completeSentence": "进博物馆以前，要先预约门票。",
+      "grammarFocus": "……以前；先"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：周末有暴雨，活动需要____。",
+      "pinyin": "zhōu mò yǒu bào yǔ ， huó dòng xū yào ____。",
+      "vietnamese": "Gợi ý: đổi lịch.",
+      "options": {
+        "A": "野餐",
+        "B": "改期",
+        "C": "展览",
         "D": "集合"
       },
       "optionPinyin": {
-        "A": "pá shān",
-        "B": "gōng yuán",
-        "C": "jì huà",
+        "A": "yě cān",
+        "B": "gǎi qī",
+        "C": "zhǎn lǎn",
         "D": "jí hé"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“公园”（công viên）。完整表达：要不我们一起去公园散步吧。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：如果天气好我们就去____。",
-      "pinyin": "rú guǒ tiān qì hǎo wǒ men jiù qù ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: leo núi.",
-      "options": {
-        "A": "计划",
-        "B": "公园",
-        "C": "爬山",
-        "D": "同意"
-      },
-      "optionPinyin": {
-        "A": "jì huà",
-        "B": "gōng yuán",
-        "C": "pá shān",
-        "D": "tóng yì"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“爬山”（leo núi）。完整表达：如果天气好我们就去爬山。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我____你的建议就这样定了。",
-      "pinyin": "wǒ ____ nǐ de jiàn yì jiù zhè yàng dìng le",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đồng ý.",
-      "options": {
-        "A": "集合",
-        "B": "同意",
-        "C": "爬山",
-        "D": "公园"
-      },
-      "optionPinyin": {
-        "A": "jí hé",
-        "B": "tóng yì",
-        "C": "pá shān",
-        "D": "gōng yuán"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“同意”（đồng ý）。完整表达：我同意你的建议就这样定了。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：大家周六早上八点在车站门口____。",
-      "pinyin": "dà jiā zhōu liù zǎo shàng bā diǎn zài chē zhàn mén kǒu ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tập trung.",
-      "options": {
-        "A": "公园",
-        "B": "计划",
-        "C": "集合",
-        "D": "爬山"
-      },
-      "optionPinyin": {
-        "A": "gōng yuán",
-        "B": "jì huà",
-        "C": "jí hé",
-        "D": "pá shān"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“集合”（tập trung）。完整表达：大家周六早上八点在车站门口集合。"
+      "explanation": "应填“改期”。完整句子：周末有暴雨，活动需要改期。\n语法与搭配：需要＋动词",
+      "targetWord": "改期",
+      "completeSentence": "周末有暴雨，活动需要改期。",
+      "grammarFocus": "需要＋动词"
     },
     {
       "id": 11,
@@ -352,96 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n这个周末 / 什么计划 / 有 / 你",
-      "pinyin": "zhè ge zhōu mò / shén me jì huà / yǒu / nǐ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n待在家里 / 与其 / 不如 / 出去骑车",
+      "pinyin": "dài zài jiā lǐ / yǔ qí / bù rú / chū qù qí chē",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "你这个周末有什么计划。",
-        "你这个周末有什么计划",
-        "你这个周末有什么计划.",
-        "你这个周末有什么计划？",
-        "你这个周末有什么计划?"
+        "与其待在家里不如出去骑车。",
+        "与其待在家里不如出去骑车",
+        "与其待在家里不如出去骑车."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：你这个周末有什么计划。\nnǐ zhè ge zhōu mò yǒu shén me jì huà。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：与其待在家里不如出去骑车。\nyǔ qí dài zài jiā lǐ bù rú chū qù qí chē\n语法与搭配：与其……不如……",
+      "grammarFocus": "与其……不如……"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n要不 / 一起 / 去公园散步吧 / 我们",
-      "pinyin": "yào bù / yì qǐ / qù gōng yuán sàn bù ba / wǒ men",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n去山里走走 / 还是 / 想去海边 / 你",
+      "pinyin": "qù shān lǐ zǒu zǒu / hái shì / xiǎng qù hǎi biān / nǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "要不我们一起去公园散步吧。",
-        "要不我们一起去公园散步吧",
-        "要不我们一起去公园散步吧.",
-        "要不我们一起去公园散步吧？",
-        "要不我们一起去公园散步吧?"
+        "你想去海边还是去山里走走。",
+        "你想去海边还是去山里走走",
+        "你想去海边还是去山里走走."
       ],
       "points": 5,
       "hanziCount": 12,
-      "explanation": "参考表达：要不我们一起去公园散步吧。\nyào bù wǒ men yì qǐ qù gōng yuán sàn bù ba。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：你想去海边还是去山里走走。\nnǐ xiǎng qù hǎi biān hái shì qù shān lǐ zǒu zǒu\n语法与搭配：还是：选择疑问",
+      "grammarFocus": "还是：选择疑问"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n天气好 / 就去爬山 / 我们 / 如果",
-      "pinyin": "tiān qì hǎo / jiù qù pá shān / wǒ men / rú guǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n大家都同意 / 就坐早班车 / 如果 / 我们",
+      "pinyin": "dà jiā dōu tóng yì / jiù zuò zǎo bān chē / rú guǒ / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果天气好我们就去爬山。",
-        "如果天气好我们就去爬山",
-        "如果天气好我们就去爬山.",
-        "如果天气好我们就去爬山？",
-        "如果天气好我们就去爬山?"
+        "如果大家都同意我们就坐早班车。",
+        "如果大家都同意我们就坐早班车",
+        "如果大家都同意我们就坐早班车."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：如果天气好我们就去爬山。\nrú guǒ tiān qì hǎo wǒ men jiù qù pá shān。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：如果大家都同意我们就坐早班车。\nrú guǒ dà jiā dōu tóng yì wǒ men jiù zuò zǎo bān chē\n语法与搭配：如果……就……",
+      "grammarFocus": "如果……就……"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 同意 / 就这样定了 / 你的建议",
-      "pinyin": "wǒ / tóng yì / jiù zhè yàng dìng le / nǐ de jiàn yì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n见面吧 / 约在 / 公园东门 / 我们",
+      "pinyin": "jiàn miàn ba / yuē zài / gōng yuán dōng mén / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我同意你的建议就这样定了。",
-        "我同意你的建议就这样定了",
-        "我同意你的建议就这样定了.",
-        "我同意你的建议就这样定了？",
-        "我同意你的建议就这样定了?"
+        "我们约在公园东门见面吧。",
+        "我们约在公园东门见面吧",
+        "我们约在公园东门见面吧."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：我同意你的建议就这样定了。\nwǒ tóng yì nǐ de jiàn yì jiù zhè yàng dìng le。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 11,
+      "explanation": "参考句子：我们约在公园东门见面吧。\nwǒ men yuē zài gōng yuán dōng mén jiàn miàn ba\n语法与搭配：约在＋地点",
+      "grammarFocus": "约在＋地点"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n周六早上八点 / 集合 / 大家 / 在车站门口",
-      "pinyin": "zhōu liù zǎo shàng bā diǎn / jí hé / dà jiā / zài chē zhàn mén kǒu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我负责订票 / 这次 / 你负责 / 准备午饭",
+      "pinyin": "wǒ fù zé dìng piào / zhè cì / nǐ fù zé / zhǔn bèi wǔ fàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "大家周六早上八点在车站门口集合。",
-        "大家周六早上八点在车站门口集合",
-        "大家周六早上八点在车站门口集合.",
-        "大家周六早上八点在车站门口集合？",
-        "大家周六早上八点在车站门口集合?",
-        "周六早上八点大家在车站门口集合",
-        "周六早上八点大家在车站门口集合。",
-        "周六早上八点大家在车站门口集合.",
-        "周六早上八点大家在车站门口集合？",
-        "周六早上八点大家在车站门口集合?"
+        "这次我负责订票你负责准备午饭。",
+        "这次我负责订票你负责准备午饭",
+        "这次我负责订票你负责准备午饭."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：大家周六早上八点在车站门口集合。\ndà jiā zhōu liù zǎo shàng bā diǎn zài chē zhàn mén kǒu jí hé。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：这次我负责订票你负责准备午饭。\nzhè cì wǒ fù zé dìng piào nǐ fù zé zhǔn bèi wǔ fàn\n语法与搭配：负责＋动词",
+      "grammarFocus": "负责＋动词"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

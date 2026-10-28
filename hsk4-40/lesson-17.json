@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第17课 人与自然",
-  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“自然”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zì rán",
+        "A": "zhì rán",
         "B": "bì rán",
-        "C": "zhì rán",
+        "C": "zì rán",
         "D": "zì ráng"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“自然”的正确读音是 zì rán。"
+      "explanation": "“自然”读作 zì rán。注意声母、韵母、声调及轻声。",
+      "targetWord": "自然"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“动物”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "còng wù",
-        "B": "dàng wù",
-        "C": "dòng wù",
-        "D": "bòng wù"
+        "A": "dòng wù",
+        "B": "bòng wù",
+        "C": "dàng wù",
+        "D": "còng wù"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“动物”的正确读音是 dòng wù。"
+      "explanation": "“动物”读作 dòng wù。注意声母、韵母、声调及轻声。",
+      "targetWord": "动物"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“植物”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shí wù",
-        "B": "chí wù",
+        "A": "chí wù",
+        "B": "zhí wù",
         "C": "zí wù",
-        "D": "zhí wù"
+        "D": "shí wù"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“植物”的正确读音是 zhí wù。"
+      "explanation": "“植物”读作 zhí wù。注意声母、韵母、声调及轻声。",
+      "targetWord": "植物"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“森林”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sēn lín",
-        "B": "shēn lín",
-        "C": "sēng lín",
+        "A": "shēn lín",
+        "B": "sēng lín",
+        "C": "sēn lín",
         "D": "sēn nín"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“森林”的正确读音是 sēn lín。"
+      "explanation": "“森林”读作 sēn lín。注意声母、韵母、声调及轻声。",
+      "targetWord": "森林"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“海洋”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hǎi yán",
+        "A": "chǎi yáng",
         "B": "hǎi yáng",
-        "C": "chǎi yáng",
-        "D": "bǎi yáng"
+        "C": "bǎi yáng",
+        "D": "hǎi yán"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“海洋”的正确读音是 hǎi yáng。"
+      "explanation": "“海洋”读作 hǎi yáng。注意声母、韵母、声调及轻声。",
+      "targetWord": "海洋"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“沙漠”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hā mò",
-        "B": "sā mò",
-        "C": "shā mò",
-        "D": "chā mò"
+        "A": "shā mò",
+        "B": "chā mò",
+        "C": "sā mò",
+        "D": "hā mò"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“沙漠”的正确读音是 shā mò。"
+      "explanation": "“沙漠”读作 shā mò。注意声母、韵母、声调及轻声。",
+      "targetWord": "沙漠"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“草原”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chǎo yuán",
+        "A": "bǎo yuán",
         "B": "cǎo yuán",
-        "C": "cǒu yuán",
-        "D": "bǎo yuán"
+        "C": "chǎo yuán",
+        "D": "cǒu yuán"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“草原”的正确读音是 cǎo yuán。"
+      "explanation": "“草原”读作 cǎo yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "草原"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“季节”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jì jié",
         "B": "jì qié",
-        "C": "bì jié",
-        "D": "qì jié"
+        "C": "qì jié",
+        "D": "bì jié"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“季节”的正确读音是 jì jié。"
+      "explanation": "“季节”读作 jì jié。注意声母、韵母、声调及轻声。",
+      "targetWord": "季节"
     },
     {
       "id": 9,
@@ -161,18 +169,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“生长”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shēng zǎng",
+        "A": "shēng zhǎng",
         "B": "sēng zhǎng",
-        "C": "shēng zhǎng",
+        "C": "shēng zǎng",
         "D": "shēng zhǎn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“生长”的正确读音是 shēng zhǎng。"
+      "explanation": "“生长”读作 shēng zhǎng。注意声母、韵母、声调及轻声。",
+      "targetWord": "生长"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“生物”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sēng wù",
-        "B": "chēng wù",
-        "C": "shēng wù",
+        "A": "chēng wù",
+        "B": "shēng wù",
+        "C": "sēng wù",
         "D": "shēn wù"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“生物”的正确读音是 shēng wù。"
+      "explanation": "“生物”读作 shēng wù。注意声母、韵母、声调及轻声。",
+      "targetWord": "生物"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“生态”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shēn tài",
-        "B": "shēng tài",
-        "C": "chēng tài",
-        "D": "sēng tài"
+        "A": "chēng tài",
+        "B": "sēng tài",
+        "C": "shēng tài",
+        "D": "shēn tài"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“生态”的正确读音是 shēng tài。"
+      "explanation": "“生态”读作 shēng tài。注意声母、韵母、声调及轻声。",
+      "targetWord": "生态"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“野生”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "yě shēng",
-        "B": "gě shēng",
+        "B": "yě sēng",
         "C": "yě shēn",
-        "D": "yě sēng"
+        "D": "gě shēng"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“野生”的正确读音是 yě shēng。"
+      "explanation": "“野生”读作 yě shēng。注意声母、韵母、声调及轻声。",
+      "targetWord": "野生"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“保护”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǎo fù",
-        "B": "bǎ hù",
-        "C": "bǎo hù",
+        "A": "bǎo hù",
+        "B": "bǎo fù",
+        "C": "bǎ hù",
         "D": "biǎo hù"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“保护”的正确读音是 bǎo hù。"
+      "explanation": "“保护”读作 bǎo hù。注意声母、韵母、声调及轻声。",
+      "targetWord": "保护"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“气温”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jì wēn",
-        "B": "qì wēng",
+        "A": "qì wēng",
+        "B": "qì wēn",
         "C": "xì wēn",
-        "D": "qì wēn"
+        "D": "jì wēn"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“气温”的正确读音是 qì wēn。"
+      "explanation": "“气温”读作 qì wēn。注意声母、韵母、声调及轻声。",
+      "targetWord": "气温"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“环境”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "huán qìng",
-        "B": "huán jìng",
-        "C": "huán jìn",
-        "D": "huáng jìng"
+        "B": "huán jìn",
+        "C": "huáng jìng",
+        "D": "huán jìng"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“环境”的正确读音是 huán jìng。"
+      "explanation": "“环境”读作 huán jìng。注意声母、韵母、声调及轻声。",
+      "targetWord": "环境"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“生存”（sinh tồn）。完整句子：干净的水是人和动物生存的基本条件。"
+      "explanation": "应填“生存”（sinh tồn）。完整句子：干净的水是人和动物生存的基本条件。",
+      "targetWord": "生存",
+      "completeSentence": "干净的水是人和动物生存的基本条件。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“破坏”（phá hoại）。完整句子：随意砍树会破坏动物的生活环境。"
+      "explanation": "应填“破坏”（phá hoại）。完整句子：随意砍树会破坏动物的生活环境。",
+      "targetWord": "破坏",
+      "completeSentence": "随意砍树会破坏动物的生活环境。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“影响”（ảnh hưởng）。完整句子：气温变化会影响一些植物的生长。"
+      "explanation": "应填“影响”（ảnh hưởng）。完整句子：气温变化会影响一些植物的生长。",
+      "targetWord": "影响",
+      "completeSentence": "气温变化会影响一些植物的生长。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“适应”（thích nghi）。完整句子：不同动物有不同的方法适应周围环境。"
+      "explanation": "应填“适应”（thích nghi）。完整句子：不同动物有不同的方法适应周围环境。",
+      "targetWord": "适应",
+      "completeSentence": "不同动物有不同的方法适应周围环境。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“观察”（quan sát）。完整句子：进入森林以后，请安静地观察动物。"
+      "explanation": "应填“观察”（quan sát）。完整句子：进入森林以后，请安静地观察动物。",
+      "targetWord": "观察",
+      "completeSentence": "进入森林以后，请安静地观察动物。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“尊重”（tôn trọng）。完整句子：与自然相处时，人类应该尊重生命。"
+      "explanation": "应填“尊重”（tôn trọng）。完整句子：与自然相处时，人类应该尊重生命。",
+      "targetWord": "尊重",
+      "completeSentence": "与自然相处时，人类应该尊重生命。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“减少”（giảm bớt）。完整句子：保护森林可以减少一些自然灾害带来的影响。"
+      "explanation": "应填“减少”（giảm bớt）。完整句子：保护森林可以减少一些自然灾害带来的影响。",
+      "targetWord": "减少",
+      "completeSentence": "保护森林可以减少一些自然灾害带来的影响。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“禁止”（cấm）。完整句子：公园里禁止随意喂食野生动物。"
+      "explanation": "应填“禁止”（cấm）。完整句子：公园里禁止随意喂食野生动物。",
+      "targetWord": "禁止",
+      "completeSentence": "公园里禁止随意喂食野生动物。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“距离”（khoảng cách）。完整句子：遇到野生动物时，要保持安全距离。"
+      "explanation": "应填“距离”（khoảng cách）。完整句子：遇到野生动物时，要保持安全距离。",
+      "targetWord": "距离",
+      "completeSentence": "遇到野生动物时，要保持安全距离。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“依靠”（dựa vào）。完整句子：很多动物依靠森林获得食物和住所。"
+      "explanation": "应填“依靠”（dựa vào）。完整句子：很多动物依靠森林获得食物和住所。",
+      "targetWord": "依靠",
+      "completeSentence": "很多动物依靠森林获得食物和住所。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“危险”（nguy hiểm）。完整句子：独自进入不熟悉的山区可能十分危险。"
+      "explanation": "应填“危险”（nguy hiểm）。完整句子：独自进入不熟悉的山区可能十分危险。",
+      "targetWord": "危险",
+      "completeSentence": "独自进入不熟悉的山区可能十分危险。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“平衡”（cân bằng）。完整句子：一种动物消失，可能影响整个环境的平衡。"
+      "explanation": "应填“平衡”（cân bằng）。完整句子：一种动物消失，可能影响整个环境的平衡。",
+      "targetWord": "平衡",
+      "completeSentence": "一种动物消失，可能影响整个环境的平衡。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“资源”（tài nguyên）。完整句子：人类不能没有限制地使用自然资源。"
+      "explanation": "应填“资源”（tài nguyên）。完整句子：人类不能没有限制地使用自然资源。",
+      "targetWord": "资源",
+      "completeSentence": "人类不能没有限制地使用自然资源。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“参加”（tham gia）。完整句子：这个周末，我们准备参加植树活动。"
+      "explanation": "应填“参加”（tham gia）。完整句子：这个周末，我们准备参加植树活动。",
+      "targetWord": "参加",
+      "completeSentence": "这个周末，我们准备参加植树活动。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“责任”（trách nhiệm）。完整句子：保护自然不是口号，而是每个人的责任。"
+      "explanation": "应填“责任”（trách nhiệm）。完整句子：保护自然不是口号，而是每个人的责任。",
+      "targetWord": "责任",
+      "completeSentence": "保护自然不是口号，而是每个人的责任。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "人类不是自然环境的主人而是整个自然世界的一部分."
       ],
       "points": 2,
-      "explanation": "参考句子：人类不是自然环境的主人而是整个自然世界的一部分。\nrén lèi bú shì zì rán huán jìng de zhǔ rén ér shì zhěng gè zì rán shì jiè de yī bù fèn 。",
-      "hanziCount": 23
+      "explanation": "参考句子：人类不是自然环境的主人而是整个自然世界的一部分。\nrén lèi bú shì zì rán huán jìng de zhǔ rén ér shì zhěng gè zì rán shì jiè de yī bù fèn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 23,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "如果森林遭到严重破坏许多动物就会失去生活的地方."
       ],
       "points": 2,
-      "explanation": "参考句子：如果森林遭到严重破坏许多动物就会失去生活的地方。\nrú guǒ sēn lín zāo dào yán zhòng pò huài xǔ duō dòng wù jiù huì shī qù shēng huó de dì fang 。",
-      "hanziCount": 23
+      "explanation": "参考句子：如果森林遭到严重破坏许多动物就会失去生活的地方。\nrú guǒ sēn lín zāo dào yán zhòng pò huài xǔ duō dòng wù jiù huì shī qù shēng huó de dì fang 。\n语法与搭配：如果……就……：假设条件",
+      "hanziCount": 23,
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "我们在欣赏自然风景的时候也应该注意保护周围的环境."
       ],
       "points": 2,
-      "explanation": "参考句子：我们在欣赏自然风景的时候也应该注意保护周围的环境。\nwǒ men zài xīn shǎng zì rán fēng jǐng de shí hou yě yīng gāi zhù yì bǎo hù zhōu wéi de huán jìng 。",
-      "hanziCount": 24
+      "explanation": "参考句子：我们在欣赏自然风景的时候也应该注意保护周围的环境。\nwǒ men zài xīn shǎng zì rán fēng jǐng de shí hou yě yīng gāi zhù yì bǎo hù zhōu wéi de huán jìng 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 24,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "不同的动物为了适应生活环境逐渐形成了自己的特点."
       ],
       "points": 2,
-      "explanation": "参考句子：不同的动物为了适应生活环境逐渐形成了自己的特点。\nbù tóng de dòng wù wèi le shì yìng shēng huó huán jìng zhú jiàn xíng chéng le zì jǐ de tè diǎn 。",
-      "hanziCount": 23
+      "explanation": "参考句子：不同的动物为了适应生活环境逐渐形成了自己的特点。\nbù tóng de dòng wù wèi le shì yìng shēng huó huán jìng zhú jiàn xíng chéng le zì jǐ de tè diǎn 。\n语法与搭配：为了＋目的＋行动",
+      "hanziCount": 23,
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "只有学会尊重自然的规律人类才能更好地保护自己的未来."
       ],
       "points": 2,
-      "explanation": "参考句子：只有学会尊重自然的规律人类才能更好地保护自己的未来。\nzhǐ yǒu xué huì zūn zhòng zì rán de guī lǜ rén lèi cái néng gèng hǎo dì bǎo hù zì jǐ de wèi lái 。",
-      "hanziCount": 25
+      "explanation": "参考句子：只有学会尊重自然的规律人类才能更好地保护自己的未来。\nzhǐ yǒu xué huì zūn zhòng zì rán de guī lǜ rén lèi cái néng gèng hǎo dì bǎo hù zì jǐ de wèi lái 。\n语法与搭配：只有……才……：必要条件",
+      "hanziCount": 25,
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "大家可以一起讨论人与自然之间的联系."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论人与自然之间的联系。\ndà jiā kě yǐ yì qǐ tǎo lùn rén yǔ zì rán zhī jiān de lián xì 。",
-      "hanziCount": 17
+      "explanation": "参考句子：大家可以一起讨论人与自然之间的联系。\ndà jiā kě yǐ yì qǐ tǎo lùn rén yǔ zì rán zhī jiān de lián xì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "我已经认真考虑过保护野生动物的方法."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过保护野生动物的方法。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò bǎo hù yě shēng dòng wù de fāng fǎ 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我已经认真考虑过保护野生动物的方法。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò bǎo hù yě shēng dòng wù de fāng fǎ 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 17,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "这篇文章主要介绍了森林对动物的重要性."
       ],
       "points": 2,
-      "explanation": "参考句子：这篇文章主要介绍了森林对动物的重要性。\nzhè piān wén zhāng zhǔ yào jiè shào le sēn lín duì dòng wù de zhòng yào xìng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：这篇文章主要介绍了森林对动物的重要性。\nzhè piān wén zhāng zhǔ yào jiè shào le sēn lín duì dòng wù de zhòng yào xìng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "请结合例子具体说明气温变化带来的影响."
       ],
       "points": 2,
-      "explanation": "参考句子：请结合例子具体说明气温变化带来的影响。\nqǐng jié hé lì zi jù tǐ shuō míng qì wēn biàn huà dài lái de yǐng xiǎng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请结合例子具体说明气温变化带来的影响。\nqǐng jié hé lì zi jù tǐ shuō míng qì wēn biàn huà dài lái de yǐng xiǎng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "我们还没有讨论清楚参观自然公园的规则."
       ],
       "points": 2,
-      "explanation": "参考句子：我们还没有讨论清楚参观自然公园的规则。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ cān guān zì rán gōng yuán de guī zé 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们还没有讨论清楚参观自然公园的规则。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ cān guān zì rán gōng yuán de guī zé 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "大家都需要认真了解与野生动物保持距离."
       ],
       "points": 2,
-      "explanation": "参考句子：大家都需要认真了解与野生动物保持距离。\ndà jiā dōu xū yào rèn zhēn liǎo jiě yǔ yě shēng dòng wù bǎo chí jù lí 。",
-      "hanziCount": 18
+      "explanation": "参考句子：大家都需要认真了解与野生动物保持距离。\ndà jiā dōu xū yào rèn zhēn liǎo jiě yǔ yě shēng dòng wù bǎo chí jù lí 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "这次活动让我们重新思考保护海洋环境的行动."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考保护海洋环境的行动。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo bǎo hù hǎi yáng huán jìng de xíng dòng 。",
-      "hanziCount": 20
+      "explanation": "参考句子：这次活动让我们重新思考保护海洋环境的行动。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo bǎo hù hǎi yáng huán jìng de xíng dòng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "老师希望大家认真分析不同季节的自然变化."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析不同季节的自然变化。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī bù tóng jì jié de zì rán biàn huà 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析不同季节的自然变化。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī bù tóng jì jié de zì rán biàn huà 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "我们有必要深入了解植物生长需要的条件."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解植物生长需要的条件。\nwǒ men yǒu bì yào shēn rù liǎo jiě zhí wù shēng zhǎng xū yào de tiáo jiàn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们有必要深入了解植物生长需要的条件。\nwǒ men yǒu bì yào shēn rù liǎo jiě zhí wù shēng zhǎng xū yào de tiáo jiàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "他在报告中详细介绍了自然资源的合理使用."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了自然资源的合理使用。\ntā zài bào gào zhōng xiáng xì jiè shào le zì rán zī yuán de hé lǐ shǐ yòng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：他在报告中详细介绍了自然资源的合理使用。\ntā zài bào gào zhōng xiáng xì jiè shào le zì rán zī yuán de hé lǐ shǐ yòng 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 19,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "请大家先讨论一下户外活动中的安全问题."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下户外活动中的安全问题。\nqǐng dà jiā xiān tǎo lùn yī xià hù wài huó dòng zhōng de ān quán wèn tí 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请大家先讨论一下户外活动中的安全问题。\nqǐng dà jiā xiān tǎo lùn yī xià hù wài huó dòng zhōng de ān quán wèn tí 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "我想请老师进一步解释人类活动对环境的影响."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释人类活动对环境的影响。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì rén lèi huó dòng duì huán jìng de yǐng xiǎng 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我想请老师进一步解释人类活动对环境的影响。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì rén lèi huó dòng duì huán jìng de yǐng xiǎng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "同学们正在一起讨论参加植树活动的意义."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论参加植树活动的意义。\ntóng xué men zhèng zài yì qǐ tǎo lùn cān jiā zhí shù huó dòng de yì yì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：同学们正在一起讨论参加植树活动的意义。\ntóng xué men zhèng zài yì qǐ tǎo lùn cān jiā zhí shù huó dòng de yì yì 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 18,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "老师请我们认真讨论尊重自然规律的理由."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论尊重自然规律的理由。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn zūn zhòng zì rán guī lǜ de lǐ yóu 。",
-      "hanziCount": 18
+      "explanation": "参考句子：老师请我们认真讨论尊重自然规律的理由。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn zūn zhòng zì rán guī lǜ de lǐ yóu 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "我们应该提前了解观察动物时的注意事项."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解观察动物时的注意事项。\nwǒ men yīng gāi tí qián liǎo jiě guān chá dòng wù shí de zhù yì shì xiàng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们应该提前了解观察动物时的注意事项。\nwǒ men yīng gāi tí qián liǎo jiě guān chá dòng wù shí de zhù yì shì xiàng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

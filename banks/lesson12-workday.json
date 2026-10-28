@@ -1,291 +1,306 @@
 {
   "title": "第12课 我每天的工作",
-  "description": "根据课件《我的一天出差》编写。共50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。排序题请输入完整句子，不用斜线分隔，不在汉字间添加空格；兼容句末有无句号。",
+  "description": "根据课件《我的一天出差》编写。共50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。排序题请输入完整句子，不用斜线分隔，不在汉字间添加空格；兼容句末有无句号。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "questions": [
     {
       "id": 1,
       "type": "choice",
-      "text": "【拼音选择】请选择“出差”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“会议”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cū chāi",
-        "B": "chū cāi",
-        "C": "chuī chāi",
-        "D": "chū chāi"
+        "A": "duì yì",
+        "B": "huì yì",
+        "C": "chuì yì",
+        "D": "cuì yì"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "出差：chū chāi，意思是 đi công tác。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“会议”读作 huì yì。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "会议",
+      "section": "拼音选择"
     },
     {
       "id": 2,
       "type": "choice",
-      "text": "【拼音选择】请选择“客户”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“资料”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kè fù",
-        "B": "kà hù",
-        "C": "kè hù",
-        "D": "kè huì"
+        "A": "zī liào",
+        "B": "bī liào",
+        "C": "zhī liào",
+        "D": "zī niào"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "客户：kè hù，意思是 khách hàng。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“资料”读作 zī liào。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "资料",
+      "section": "拼音选择"
     },
     {
       "id": 3,
       "type": "choice",
-      "text": "【拼音选择】请选择“对接”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“合作”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dù jiē",
-        "B": "duì jiē",
-        "C": "duì jī",
-        "D": "duò jiē"
+        "A": "hé zhuò",
+        "B": "hé zuò",
+        "C": "ché zuò",
+        "D": "dé zuò"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "对接：duì jiē，意思是 phối hợp công việc。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“合作”读作 hé zuò。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "合作",
+      "section": "拼音选择"
     },
     {
       "id": 4,
       "type": "choice",
-      "text": "【拼音选择】请选择“生产”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“负责人”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shēn chǎn",
-        "B": "shēng chǎn",
-        "C": "sēng chǎn",
-        "D": "shēng cǎn"
+        "A": "fù zé réng",
+        "B": "fù zé rén",
+        "C": "fù zhé rén",
+        "D": "hù zé rén"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "生产：shēng chǎn，意思是 sản xuất。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“负责人”读作 fù zé rén。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "负责人",
+      "section": "拼音选择"
     },
     {
       "id": 5,
       "type": "choice",
-      "text": "【拼音选择】请选择“检查”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“车间”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiǎn cá",
-        "B": "jiǎn chá",
-        "C": "jiǎng chá",
-        "D": "jiǎn ché"
+        "A": "chē jiāng",
+        "B": "chē jiān",
+        "C": "chē qiān",
+        "D": "chā jiān"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "检查：jiǎn chá，意思是 kiểm tra。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“车间”读作 chē jiān。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "车间",
+      "section": "拼音选择"
     },
     {
       "id": 6,
       "type": "choice",
-      "text": "【拼音选择】请选择“样品”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“订单”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yàng pǐng",
-        "B": "yàn pǐn",
-        "C": "yàng pǐn",
-        "D": "wàng pǐn"
+        "A": "dìng dāng",
+        "B": "bìng dān",
+        "C": "dìng dān",
+        "D": "dìn dān"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "样品：yàng pǐn，意思是 hàng mẫu。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“订单”读作 dìng dān。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "订单",
+      "section": "拼音选择"
     },
     {
       "id": 7,
       "type": "choice",
-      "text": "【拼音选择】请选择“问题”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“交货”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wèng tí",
-        "B": "wèn tíng",
-        "C": "wèn tí",
-        "D": "hèn tí"
+        "A": "biāo huò",
+        "B": "diāo huò",
+        "C": "qiāo huò",
+        "D": "jiāo huò"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "问题：wèn tí，意思是 vấn đề。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“交货”读作 jiāo huò。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "交货",
+      "section": "拼音选择"
     },
     {
       "id": 8,
       "type": "choice",
-      "text": "【拼音选择】请选择“准时”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“整理”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zǔn shí",
-        "B": "zhǔn sí",
-        "C": "shǔn shí",
-        "D": "zhǔn shí"
+        "A": "zhěn lǐ",
+        "B": "zěng lǐ",
+        "C": "zhěng lǐ",
+        "D": "zhěng nǐ"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "准时：zhǔn shí，意思是 đúng giờ。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“整理”读作 zhěng lǐ。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "整理",
+      "section": "拼音选择"
     },
     {
       "id": 9,
       "type": "choice",
-      "text": "【拼音选择】请选择“汇报”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“安排”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hù bào",
-        "B": "huì biào",
-        "C": "huì bào",
-        "D": "huò bào"
+        "A": "ān pái",
+        "B": "āng pái",
+        "C": "ān péi",
+        "D": "bān pái"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "汇报：huì bào，意思是 báo cáo。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“安排”读作 ān pái。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "安排",
+      "section": "拼音选择"
     },
     {
       "id": 10,
       "type": "choice",
-      "text": "【拼音选择】请选择“返程”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“通知”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fǎn chén",
-        "B": "fǎn céng",
-        "C": "fǎn chéng",
-        "D": "fǎng chéng"
+        "A": "tōng zhī",
+        "B": "cōng zhī",
+        "C": "tōng zī",
+        "D": "dōng zhī"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "返程：fǎn chéng，意思是 trở về sau chuyến đi。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“通知”读作 tōng zhī。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "通知",
+      "section": "拼音选择"
     },
     {
       "id": 11,
       "type": "choice",
-      "text": "【拼音选择】请选择“辛苦”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“报告”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xīng kǔ",
-        "B": "xīn kuǐ",
-        "C": "xīn kǔ",
-        "D": "xī kǔ"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "辛苦：xīn kǔ，意思是 vất vả。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
-    },
-    {
-      "id": 12,
-      "type": "choice",
-      "text": "【拼音选择】请选择“完成”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
-      "options": {
-        "A": "wán chén",
-        "B": "wán céng",
-        "C": "wáng chéng",
-        "D": "wán chéng"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "完成：wán chéng，意思是 hoàn thành。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
-    },
-    {
-      "id": 13,
-      "type": "choice",
-      "text": "【拼音选择】请选择“进度”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
-      "options": {
-        "A": "jìng dù",
-        "B": "jìn duì",
-        "C": "jìn dù",
-        "D": "jì dù"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "进度：jìn dù，意思是 tiến độ。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
-    },
-    {
-      "id": 14,
-      "type": "choice",
-      "text": "【拼音选择】请选择“质量”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
-      "options": {
-        "A": "zì liàng",
-        "B": "zhì liàng",
-        "C": "zhì liàn",
-        "D": "zhì niàng"
+        "A": "biào gào",
+        "B": "bào gào",
+        "C": "bào gòu",
+        "D": "bà gào"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "质量：zhì liàng，意思是 chất lượng。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“报告”读作 bào gào。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "报告",
+      "section": "拼音选择"
+    },
+    {
+      "id": 12,
+      "type": "choice",
+      "text": "【拼音选择】请选择“运输”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "cùn shū",
+        "B": "yùn shū",
+        "C": "yùn sū",
+        "D": "dùn shū"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“运输”读作 yùn shū。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "运输",
+      "section": "拼音选择"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "text": "【拼音选择】请选择“反馈”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "hǎn kuì",
+        "B": "bǎn kuì",
+        "C": "fǎn kuì",
+        "D": "fǎng kuì"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“反馈”读作 fǎn kuì。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "反馈",
+      "section": "拼音选择"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "text": "【拼音选择】请选择“统计”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "tǒng qì",
+        "B": "dǒng jì",
+        "C": "tǒng jì",
+        "D": "cǒng jì"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“统计”读作 tǒng jì。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "统计",
+      "section": "拼音选择"
     },
     {
       "id": 15,
       "type": "choice",
-      "text": "【拼音选择】请选择“整改”的正确读音。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "text": "【拼音选择】请选择“跟踪”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhěn gǎi",
-        "B": "zěng gǎi",
-        "C": "zhěng gěi",
-        "D": "zhěng gǎi"
+        "A": "gēng zōng",
+        "B": "gēn zhōng",
+        "C": "gēn zōng",
+        "D": "bēn zōng"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "整改：zhěng gǎi，意思是 khắc phục, cải thiện。",
-      "pinyin": "【 pīn yīn xuǎn zé 】 qǐng xuǎn zé “____” de zhèng què dú yīn 。",
-      "optionPinyin": {}
+      "explanation": "“跟踪”读作 gēn zōng。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "跟踪",
+      "section": "拼音选择"
     },
     {
       "id": 16,
@@ -309,7 +324,10 @@
         "B": "zhěng gǎi",
         "C": "chū chāi",
         "D": "fǎn chéng"
-      }
+      },
+      "targetWord": "出差",
+      "completeSentence": "明天我要去外地出差，拜访合作工厂。",
+      "section": "四选一词语填空"
     },
     {
       "id": 17,
@@ -333,7 +351,10 @@
         "B": "zhì liàng",
         "C": "kè hù",
         "D": "jìn dù"
-      }
+      },
+      "targetWord": "客户",
+      "completeSentence": "购买我们产品的那家公司，是我们的重要客户。",
+      "section": "四选一词语填空"
     },
     {
       "id": 18,
@@ -357,7 +378,10 @@
         "B": "shēng chǎn",
         "C": "fǎn chéng",
         "D": "duì jiē"
-      }
+      },
+      "targetWord": "对接",
+      "completeSentence": "这项工作需要双方协调，请你和生产部对接一下。",
+      "section": "四选一词语填空"
     },
     {
       "id": 19,
@@ -381,7 +405,10 @@
         "B": "xīn kǔ",
         "C": "fǎn chéng",
         "D": "huì bào"
-      }
+      },
+      "targetWord": "生产",
+      "completeSentence": "这家工厂每天能生产一千件产品。",
+      "section": "四选一词语填空"
     },
     {
       "id": 20,
@@ -405,7 +432,10 @@
         "B": "jiǎn chá",
         "C": "chū chāi",
         "D": "fǎn chéng"
-      }
+      },
+      "targetWord": "检查",
+      "completeSentence": "发货前，请仔细检查这批产品有没有瑕疵。",
+      "section": "四选一词语填空"
     },
     {
       "id": 21,
@@ -429,7 +459,10 @@
         "B": "yàng pǐn",
         "C": "zhì liàng",
         "D": "jìn dù"
-      }
+      },
+      "targetWord": "样品",
+      "completeSentence": "正式量产前，我们先做了一个样品，供客户测试。",
+      "section": "四选一词语填空"
     },
     {
       "id": 22,
@@ -453,7 +486,10 @@
         "B": "zī liào",
         "C": "kè hù",
         "D": "yàng pǐn"
-      }
+      },
+      "targetWord": "问题",
+      "completeSentence": "这台机器突然不能运转，可能出了问题。",
+      "section": "四选一词语填空"
     },
     {
       "id": 23,
@@ -477,7 +513,10 @@
         "B": "fǎn chéng",
         "C": "xīn kǔ",
         "D": "zhì liàng"
-      }
+      },
+      "targetWord": "准时",
+      "completeSentence": "会议九点开始，请大家准时参加，不要迟到。",
+      "section": "四选一词语填空"
     },
     {
       "id": 24,
@@ -501,7 +540,10 @@
         "B": "huì bào",
         "C": "zhěng gǎi",
         "D": "fǎn chéng"
-      }
+      },
+      "targetWord": "汇报",
+      "completeSentence": "出差结束后，我要向领导汇报工作情况。",
+      "section": "四选一词语填空"
     },
     {
       "id": 25,
@@ -525,7 +567,10 @@
         "B": "jiǎn chá",
         "C": "shēng chǎn",
         "D": "fǎn chéng"
-      }
+      },
+      "targetWord": "返程",
+      "completeSentence": "外地的工作已经结束，我们准备乘车返程。",
+      "section": "四选一词语填空"
     },
     {
       "id": 26,
@@ -549,7 +594,10 @@
         "B": "yàng pǐn",
         "C": "zhǔn shí",
         "D": "xīn kǔ"
-      }
+      },
+      "targetWord": "辛苦",
+      "completeSentence": "你忙了一整天，真辛苦了！先休息一下吧。",
+      "section": "四选一词语填空"
     },
     {
       "id": 27,
@@ -573,7 +621,10 @@
         "B": "fǎn chéng",
         "C": "shēng chǎn",
         "D": "wán chéng"
-      }
+      },
+      "targetWord": "完成",
+      "completeSentence": "今天的任务已经全部完成，可以下班了。",
+      "section": "四选一词语填空"
     },
     {
       "id": 28,
@@ -597,7 +648,10 @@
         "B": "jìn dù",
         "C": "kè hù",
         "D": "zhì liàng"
-      }
+      },
+      "targetWord": "进度",
+      "completeSentence": "这个项目一共分五个阶段，目前做到第三阶段，这是最新的工作进度。",
+      "section": "四选一词语填空"
     },
     {
       "id": 29,
@@ -621,7 +675,10 @@
         "B": "fǎn chéng",
         "C": "zhì liàng",
         "D": "jìn dù"
-      }
+      },
+      "targetWord": "质量",
+      "completeSentence": "这批产品结实耐用，质量很好，客户很满意。",
+      "section": "四选一词语填空"
     },
     {
       "id": 30,
@@ -645,7 +702,10 @@
         "B": "fǎn chéng",
         "C": "zhěng gǎi",
         "D": "huì bào"
-      }
+      },
+      "targetWord": "整改",
+      "completeSentence": "检查发现产品不合格，工厂必须按要求立即整改。",
+      "section": "四选一词语填空"
     },
     {
       "id": 31,
@@ -658,8 +718,10 @@
         "今天我要去合作工厂出差."
       ],
       "points": 2,
-      "explanation": "参考句子：今天我要去合作工厂出差。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ yào  /  jīn tiān  /  chū chāi  /  qù hé zuò gōng chǎng"
+      "explanation": "参考句子：今天我要去合作工厂出差。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ yào  /  jīn tiān  /  chū chāi  /  qù hé zuò gōng chǎng",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 32,
@@ -672,8 +734,10 @@
         "我早上七点从公司出发."
       ],
       "points": 2,
-      "explanation": "参考句子：我早上七点从公司出发。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n zǎo shàng qī diǎn  /  chū fā  /  cóng gōng sī  /  wǒ"
+      "explanation": "参考句子：我早上七点从公司出发。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n zǎo shàng qī diǎn  /  chū fā  /  cóng gōng sī  /  wǒ",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 33,
@@ -689,8 +753,10 @@
         "八点的时候,我准时到达客户工厂"
       ],
       "points": 2,
-      "explanation": "参考句子：八点的时候，我准时到达客户工厂。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n dào dá kè hù gōng chǎng  /  zhǔn shí  /  wǒ  /  bā diǎn de shí hòu"
+      "explanation": "参考句子：八点的时候，我准时到达客户工厂。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n dào dá kè hù gōng chǎng  /  zhǔn shí  /  wǒ  /  bā diǎn de shí hòu",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 34,
@@ -706,8 +772,10 @@
         "到了工厂以后,我先和客户确认今天的工作安排"
       ],
       "points": 2,
-      "explanation": "参考句子：到了工厂以后，我先和客户确认今天的工作安排。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n hé kè hù  /  wǒ xiān  /  dào le gōng chǎng yǐ hòu  /  què rèn jīn tiān de gōng zuò ān pái"
+      "explanation": "参考句子：到了工厂以后，我先和客户确认今天的工作安排。\n语法与搭配：动作＋以后：说明时间顺序",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n hé kè hù  /  wǒ xiān  /  dào le gōng chǎng yǐ hòu  /  què rèn jīn tiān de gōng zuò ān pái",
+      "grammarFocus": "动作＋以后：说明时间顺序",
+      "section": "句子排序"
     },
     {
       "id": 35,
@@ -720,8 +788,10 @@
         "然后我开始对接生产部和质检部的负责人."
       ],
       "points": 2,
-      "explanation": "参考句子：然后我开始对接生产部和质检部的负责人。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n shēng chǎn bù hé zhì jiǎn bù de fù zé rén  /  rán hòu  /  wǒ kāi shǐ  /  duì jiē"
+      "explanation": "参考句子：然后我开始对接生产部和质检部的负责人。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n shēng chǎn bù hé zhì jiǎn bù de fù zé rén  /  rán hòu  /  wǒ kāi shǐ  /  duì jiē",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 36,
@@ -734,8 +804,10 @@
         "他们向我介绍了目前的生产情况."
       ],
       "points": 2,
-      "explanation": "参考句子：他们向我介绍了目前的生产情况。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n xiàng wǒ  /  mù qián de shēng chǎn qíng kuàng  /  jiè shào le  /  tā men"
+      "explanation": "参考句子：他们向我介绍了目前的生产情况。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n xiàng wǒ  /  mù qián de shēng chǎn qíng kuàng  /  jiè shào le  /  tā men",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 37,
@@ -748,8 +820,10 @@
         "我需要了解这批订单的生产进度."
       ],
       "points": 2,
-      "explanation": "参考句子：我需要了解这批订单的生产进度。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n liǎo jiě  /  wǒ  /  xū yào  /  zhè pī dìng dān de shēng chǎn jìn dù"
+      "explanation": "参考句子：我需要了解这批订单的生产进度。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n liǎo jiě  /  wǒ  /  xū yào  /  zhè pī dìng dān de shēng chǎn jìn dù",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 38,
@@ -765,8 +839,10 @@
         "为了保证交货时间,我们每天都要跟进项目进度"
       ],
       "points": 2,
-      "explanation": "参考句子：为了保证交货时间，我们每天都要跟进项目进度。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n gēn jìn xiàng mù jìn dù  /  měi tiān dōu yào  /  wèi le bǎo zhèng jiāo huò shí jiān  /  wǒ men"
+      "explanation": "参考句子：为了保证交货时间，我们每天都要跟进项目进度。\n语法与搭配：为了＋目的＋行动",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n gēn jìn xiàng mù jìn dù  /  měi tiān dōu yào  /  wèi le bǎo zhèng jiāo huò shí jiān  /  wǒ men",
+      "grammarFocus": "为了＋目的＋行动",
+      "section": "句子排序"
     },
     {
       "id": 39,
@@ -782,8 +858,10 @@
         "随后,我来到车间检查产品质量"
       ],
       "points": 2,
-      "explanation": "参考句子：随后，我来到车间检查产品质量。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ  /  jiǎn chá chǎn pǐn zhì liàng  /  lái dào chē jiān  /  suí hòu"
+      "explanation": "参考句子：随后，我来到车间检查产品质量。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ  /  jiǎn chá chǎn pǐn zhì liàng  /  lái dào chē jiān  /  suí hòu",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 40,
@@ -799,8 +877,10 @@
         "在检查过程中,我发现一个样品存在小问题"
       ],
       "points": 2,
-      "explanation": "参考句子：在检查过程中，我发现一个样品存在小问题。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n cún zài xiǎo wèn tí  /  wǒ  /  zài jiǎn chá guò chéng zhōng  /  fā xiàn yí gè yàng pǐn"
+      "explanation": "参考句子：在检查过程中，我发现一个样品存在小问题。\n语法与搭配：动词＋过：经历表达",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n cún zài xiǎo wèn tí  /  wǒ  /  zài jiǎn chá guò chéng zhōng  /  fā xiàn yí gè yàng pǐn",
+      "grammarFocus": "动词＋过：经历表达",
+      "section": "句子排序"
     },
     {
       "id": 41,
@@ -816,8 +896,10 @@
         "这个问题虽然不严重,但是需要及时整改"
       ],
       "points": 2,
-      "explanation": "参考句子：这个问题虽然不严重，但是需要及时整改。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n xū yào jí shí zhěng gǎi  /  dàn shì  /  suī rán bù yán zhòng  /  zhè ge wèn tí"
+      "explanation": "参考句子：这个问题虽然不严重，但是需要及时整改。\n语法与搭配：虽然……但是……：转折关系",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n xū yào jí shí zhěng gǎi  /  dàn shì  /  suī rán bù yán zhòng  /  zhè ge wèn tí",
+      "grammarFocus": "虽然……但是……：转折关系",
+      "section": "句子排序"
     },
     {
       "id": 42,
@@ -830,8 +912,10 @@
         "我马上通知相关负责人处理这个问题."
       ],
       "points": 2,
-      "explanation": "参考句子：我马上通知相关负责人处理这个问题。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n chǔ lǐ zhè ge wèn tí  /  mǎ shàng  /  tōng zhī xiāng guān fù zé rén  /  wǒ"
+      "explanation": "参考句子：我马上通知相关负责人处理这个问题。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n chǔ lǐ zhè ge wèn tí  /  mǎ shàng  /  tōng zhī xiāng guān fù zé rén  /  wǒ",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 43,
@@ -847,8 +931,10 @@
         "为了不耽误整体生产计划,工厂立即安排人员进行整改"
       ],
       "points": 2,
-      "explanation": "参考句子：为了不耽误整体生产计划，工厂立即安排人员进行整改。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n jìn xíng zhěng gǎi  /  wèi le bù dān wu zhěng tǐ shēng chǎn jì huà  /  lì jí ān pái rén yuán  /  gōng chǎng"
+      "explanation": "参考句子：为了不耽误整体生产计划，工厂立即安排人员进行整改。\n语法与搭配：为了＋目的＋行动",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n jìn xíng zhěng gǎi  /  wèi le bù dān wu zhěng tǐ shēng chǎn jì huà  /  lì jí ān pái rén yuán  /  gōng chǎng",
+      "grammarFocus": "为了＋目的＋行动",
+      "section": "句子排序"
     },
     {
       "id": 44,
@@ -864,8 +950,10 @@
         "整改完成以后,我再次检查产品"
       ],
       "points": 2,
-      "explanation": "参考句子：整改完成以后，我再次检查产品。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n zhěng gǎi wán chéng yǐ hòu  /  jiǎn chá chǎn pǐn  /  zài cì  /  wǒ"
+      "explanation": "参考句子：整改完成以后，我再次检查产品。\n语法与搭配：动作＋以后：说明时间顺序",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n zhěng gǎi wán chéng yǐ hòu  /  jiǎn chá chǎn pǐn  /  zài cì  /  wǒ",
+      "grammarFocus": "动作＋以后：说明时间顺序",
+      "section": "句子排序"
     },
     {
       "id": 45,
@@ -881,8 +969,10 @@
         "经过确认,产品质量已经达到客户要求"
       ],
       "points": 2,
-      "explanation": "参考句子：经过确认，产品质量已经达到客户要求。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n jīng guò què rèn  /  yǐ jīng dá dào  /  chǎn pǐn zhì liàng  /  kè hù yāo qiú"
+      "explanation": "参考句子：经过确认，产品质量已经达到客户要求。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n jīng guò què rèn  /  yǐ jīng dá dào  /  chǎn pǐn zhì liàng  /  kè hù yāo qiú",
+      "grammarFocus": "已经……了：已完成或已达到的状态",
+      "section": "句子排序"
     },
     {
       "id": 46,
@@ -898,8 +988,10 @@
         "中午的时候,我和客户一起讨论后续生产安排"
       ],
       "points": 2,
-      "explanation": "参考句子：中午的时候，我和客户一起讨论后续生产安排。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n hé kè hù yì qǐ  /  wǒ  /  tǎo lùn hòu xù shēng chǎn ān pái  /  zhōng wǔ de shí hòu"
+      "explanation": "参考句子：中午的时候，我和客户一起讨论后续生产安排。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n hé kè hù yì qǐ  /  wǒ  /  tǎo lùn hòu xù shēng chǎn ān pái  /  zhōng wǔ de shí hòu",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 47,
@@ -912,8 +1004,10 @@
         "下午我整理了当天的工作资料和检查记录."
       ],
       "points": 2,
-      "explanation": "参考句子：下午我整理了当天的工作资料和检查记录。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n zhěng lǐ le  /  dāng tiān de gōng zuò zī liào hé jiǎn chá jì lù  /  wǒ  /  xià wǔ"
+      "explanation": "参考句子：下午我整理了当天的工作资料和检查记录。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n zhěng lǐ le  /  dāng tiān de gōng zuò zī liào hé jiǎn chá jì lù  /  wǒ  /  xià wǔ",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 48,
@@ -929,8 +1023,10 @@
         "返程之前,我向客户确认了下一批订单的生产计划"
       ],
       "points": 2,
-      "explanation": "参考句子：返程之前，我向客户确认了下一批订单的生产计划。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ  /  xiàng kè hù  /  fǎn chéng zhī qián  /  què rèn le xià yī pī dìng dān de shēng chǎn jì huà"
+      "explanation": "参考句子：返程之前，我向客户确认了下一批订单的生产计划。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ  /  xiàng kè hù  /  fǎn chéng zhī qián  /  què rèn le xià yī pī dìng dān de shēng chǎn jì huà",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "section": "句子排序"
     },
     {
       "id": 49,
@@ -946,8 +1042,10 @@
         "回到公司以后,我向领导汇报了本次出差的情况"
       ],
       "points": 2,
-      "explanation": "参考句子：回到公司以后，我向领导汇报了本次出差的情况。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ  /  huì bào le běn cì chū chāi de qíng kuàng  /  huí dào gōng sī yǐ hòu  /  xiàng lǐng dǎo"
+      "explanation": "参考句子：回到公司以后，我向领导汇报了本次出差的情况。\n语法与搭配：动作＋以后：说明时间顺序",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n wǒ  /  huì bào le běn cì chū chāi de qíng kuàng  /  huí dào gōng sī yǐ hòu  /  xiàng lǐng dǎo",
+      "grammarFocus": "动作＋以后：说明时间顺序",
+      "section": "句子排序"
     },
     {
       "id": 50,
@@ -963,11 +1061,14 @@
         "虽然这次出差很辛苦,但是我顺利完成了所有工作任务"
       ],
       "points": 2,
-      "explanation": "参考句子：虽然这次出差很辛苦，但是我顺利完成了所有工作任务。",
-      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n suǒ yǒu gōng zuò rèn wù  /  wǒ shùn lì wán chéng le  /  dàn shì  /  suī rán zhè cì chū chāi hěn xīn kǔ"
+      "explanation": "参考句子：虽然这次出差很辛苦，但是我顺利完成了所有工作任务。\n语法与搭配：虽然……但是……：转折关系",
+      "pinyin": "【 jù zi pái xù 】 jiāng xià liè cí yǔ pái liè chéng wán zhěng jù zi bìng shū rù （ bù xiě xù hào ， bù yòng xié xiàn fēn gé ）：\n suǒ yǒu gōng zuò rèn wù  /  wǒ shùn lì wán chéng le  /  dàn shì  /  suī rán zhè cì chū chāi hěn xīn kǔ",
+      "grammarFocus": "虽然……但是……：转折关系",
+      "section": "句子排序"
     }
   ],
   "annotationVersion": 1,
   "previousPronunciationHash": "deb20f1a",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

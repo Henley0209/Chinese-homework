@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第13课 爱情与婚姻观",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“感情”的正确读音。",
+      "text": "【拼音选择】请选择“承诺”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎn qíng",
-        "B": "gǎn xíng",
-        "C": "gǎn qín",
-        "D": "gǎng qíng"
+        "A": "chéng nuò",
+        "B": "chén nuò",
+        "C": "céng nuò",
+        "D": "chéng luò"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“感情”读作 gǎn qíng，意思是 tình cảm。"
+      "explanation": "“承诺”读作 chéng nuò。注意声母、韵母、声调及轻声。",
+      "targetWord": "承诺"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“婚姻”的正确读音。",
+      "text": "【拼音选择】请选择“伴侣”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hūn yīn",
-        "B": "chūn yīn",
-        "C": "hūn yīng",
-        "D": "cūn yīn"
+        "A": "bàn lǚ",
+        "B": "bàn nǔ",
+        "C": "biàn lǚ",
+        "D": "bàng lǚ"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“婚姻”读作 hūn yīn，意思是 hôn nhân。"
+      "explanation": "“伴侣”读作 bàn lǚ。注意声母、韵母、声调及轻声。",
+      "targetWord": "伴侣"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“责任”的正确读音。",
+      "text": "【拼音选择】请选择“忠诚”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zé rèn",
-        "B": "zhé rèn",
-        "C": "zé rèng",
-        "D": "dé rèn"
+        "A": "zhōng chéng",
+        "B": "zōng chéng",
+        "C": "zhōng céng",
+        "D": "zhōng chén"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“责任”读作 zé rèn，意思是 trách nhiệm。"
+      "explanation": "“忠诚”读作 zhōng chéng。注意声母、韵母、声调及轻声。",
+      "targetWord": "忠诚"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“包容”的正确读音。",
+      "text": "【拼音选择】请选择“忠贞”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bā róng",
-        "B": "biāo róng",
-        "C": "bāi róng",
-        "D": "bāo róng"
+        "A": "zhōng zhēn",
+        "B": "zōng zhēn",
+        "C": "zhōng zēn",
+        "D": "zhōng zhēng"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "“包容”读作 bāo róng，意思是 bao dung。"
+      "explanation": "“忠贞”读作 zhōng zhēn。注意声母、韵母、声调及轻声。",
+      "targetWord": "忠贞"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“现实”的正确读音。",
+      "text": "【拼音选择】请选择“争执”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiàn sí",
-        "B": "xiàng shí",
-        "C": "qiàn shí",
-        "D": "xiàn shí"
+        "A": "zhēn zhí",
+        "B": "zhēng zí",
+        "C": "zēng zhí",
+        "D": "zhēng zhí"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“现实”读作 xiàn shí，意思是 thực tế。"
+      "explanation": "“争执”读作 zhēng zhí。注意声母、韵母、声调及轻声。",
+      "targetWord": "争执"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：共同面对困难使他们之间的____变得更加深厚。",
-      "pinyin": "gòng tóng miàn duì kùn nán shǐ tā men zhī jiān de ____ biàn dé gèng jiā shēn hòu",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tình cảm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：对未来的生活安排，双方应该进行充分____。",
+      "pinyin": "duì wèi lái de shēng huó ān pái ， shuāng fāng yīng gāi jìn xíng chōng fèn ____。",
+      "vietnamese": "Gợi ý: giao tiếp.",
       "options": {
-        "A": "婚姻",
-        "B": "包容",
-        "C": "现实",
-        "D": "感情"
+        "A": "责任",
+        "B": "沟通",
+        "C": "限制",
+        "D": "包容"
       },
       "optionPinyin": {
-        "A": "hūn yīn",
-        "B": "bāo róng",
-        "C": "xiàn shí",
-        "D": "gǎn qíng"
+        "A": "zé rèn",
+        "B": "gōu tōng",
+        "C": "xiàn zhì",
+        "D": "bāo róng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“感情”（tình cảm）。完整句子：共同面对困难使他们之间的感情变得更加深厚。"
+      "explanation": "应填“沟通”。完整句子：对未来的生活安排，双方应该进行充分沟通。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "沟通",
+      "completeSentence": "对未来的生活安排，双方应该进行充分沟通。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：在她看来幸福的____需要双方长期用心经营。",
-      "pinyin": "zài tā kàn lái xìng fú de ____ xū yào shuāng fāng cháng qī yòng xīn jīng yíng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hôn nhân.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：婚姻不只是情感，也包含长期的____。",
+      "pinyin": "hūn yīn bù zhǐ shì qíng gǎn ， yě bāo hán cháng qī de ____。",
+      "vietnamese": "Gợi ý: trách nhiệm.",
       "options": {
-        "A": "包容",
-        "B": "现实",
+        "A": "沟通",
+        "B": "限制",
         "C": "责任",
-        "D": "婚姻"
+        "D": "包容"
       },
       "optionPinyin": {
-        "A": "bāo róng",
-        "B": "xiàn shí",
+        "A": "gōu tōng",
+        "B": "xiàn zhì",
         "C": "zé rèn",
-        "D": "hūn yīn"
+        "D": "bāo róng"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“婚姻”（hôn nhân）。完整句子：在她看来幸福的婚姻需要双方长期用心经营。"
+      "explanation": "应填“责任”。完整句子：婚姻不只是情感，也包含长期的责任。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "责任",
+      "completeSentence": "婚姻不只是情感，也包含长期的责任。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：两个人不仅要表达爱意还要承担共同的____。",
-      "pinyin": "liǎng gè rén bù jǐn yào biǎo dá ài yì hái yào chéng dān gòng tóng de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: trách nhiệm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：面对彼此的差异，我们需要学会理解和____。",
+      "pinyin": "miàn duì bǐ cǐ de chā yì ， wǒ men xū yào xué huì lǐ jiě hé ____。",
+      "vietnamese": "Gợi ý: bao dung.",
       "options": {
         "A": "责任",
-        "B": "感情",
+        "B": "沟通",
         "C": "包容",
-        "D": "现实"
+        "D": "限制"
       },
       "optionPinyin": {
         "A": "zé rèn",
-        "B": "gǎn qíng",
+        "B": "gōu tōng",
         "C": "bāo róng",
-        "D": "xiàn shí"
+        "D": "xiàn zhì"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“责任”（trách nhiệm）。完整句子：两个人不仅要表达爱意还要承担共同的责任。"
+      "explanation": "应填“包容”。完整句子：面对彼此的差异，我们需要学会理解和包容。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "包容",
+      "completeSentence": "面对彼此的差异，我们需要学会理解和包容。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：相处的过程中双方应该学会____彼此的不足。",
-      "pinyin": "xiāng chǔ de guò chéng zhōng shuāng fāng yīng gāi xué huì ____ bǐ cǐ de bù zú",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: bao dung.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：一个人不能以爱的名义____另一个人的自由。",
+      "pinyin": "yí gè rén bù néng yǐ ài de míng yì ____ lìng yí gè rén de zì yóu 。",
+      "vietnamese": "Gợi ý: hạn chế.",
       "options": {
-        "A": "包容",
-        "B": "现实",
-        "C": "感情",
-        "D": "责任"
+        "A": "责任",
+        "B": "包容",
+        "C": "沟通",
+        "D": "限制"
       },
       "optionPinyin": {
-        "A": "bāo róng",
-        "B": "xiàn shí",
-        "C": "gǎn qíng",
-        "D": "zé rèn"
+        "A": "zé rèn",
+        "B": "bāo róng",
+        "C": "gōu tōng",
+        "D": "xiàn zhì"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“包容”（bao dung）。完整句子：相处的过程中双方应该学会包容彼此的不足。"
+      "explanation": "应填“限制”。完整句子：一个人不能以爱的名义限制另一个人的自由。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "限制",
+      "completeSentence": "一个人不能以爱的名义限制另一个人的自由。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：他们在作决定以前认真考虑了未来生活中的____问题。",
-      "pinyin": "tā men zài zuò jué dìng yǐ qián rèn zhēn kǎo lǜ le wèi lái shēng huó zhōng de ____ wèn tí",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thực tế.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：良好的关系建立在相互信任与____的基础上。",
+      "pinyin": "liáng hǎo de guān xi jiàn lì zài xiāng hù xìn rèn yǔ ____ de jī chǔ shàng 。",
+      "vietnamese": "Gợi ý: tôn trọng.",
       "options": {
-        "A": "现实",
-        "B": "包容",
-        "C": "责任",
-        "D": "婚姻"
+        "A": "责任",
+        "B": "沟通",
+        "C": "包容",
+        "D": "尊重"
       },
       "optionPinyin": {
-        "A": "xiàn shí",
-        "B": "bāo róng",
-        "C": "zé rèn",
-        "D": "hūn yīn"
+        "A": "zé rèn",
+        "B": "gōu tōng",
+        "C": "bāo róng",
+        "D": "zūn zhòng"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“现实”（thực tế）。完整句子：他们在作决定以前认真考虑了未来生活中的现实问题。"
+      "explanation": "应填“尊重”。完整句子：良好的关系建立在相互信任与尊重的基础上。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "targetWord": "尊重",
+      "completeSentence": "良好的关系建立在相互信任与尊重的基础上。",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：共同面对困难使他们之间的感情变得更加深厚。\ngòng tóng miàn duì kùn nán shǐ tā men zhī jiān de gǎn qíng biàn dé gèng jiā shēn hòu。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：共同面对困难使他们之间的感情变得更加深厚。\ngòng tóng miàn duì kùn nán shǐ tā men zhī jiān de gǎn qíng biàn dé gèng jiā shēn hòu。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋得＋程度/状态补语",
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：在她看来幸福的婚姻需要双方长期用心经营。\nzài tā kàn lái xìng fú de hūn yīn xū yào shuāng fāng cháng qī yòng xīn jīng yíng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：在她看来幸福的婚姻需要双方长期用心经营。\nzài tā kàn lái xìng fú de hūn yīn xū yào shuāng fāng cháng qī yòng xīn jīng yíng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：两个人不仅要表达爱意还要承担共同的责任。\nliǎng gè rén bù jǐn yào biǎo dá ài yì hái yào chéng dān gòng tóng de zé rèn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：两个人不仅要表达爱意还要承担共同的责任。\nliǎng gè rén bù jǐn yào biǎo dá ài yì hái yào chéng dān gòng tóng de zé rèn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：相处的过程中双方应该学会包容彼此的不足。\nxiāng chǔ de guò chéng zhōng shuāng fāng yīng gāi xué huì bāo róng bǐ cǐ de bù zú。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：相处的过程中双方应该学会包容彼此的不足。\nxiāng chǔ de guò chéng zhōng shuāng fāng yīng gāi xué huì bāo róng bǐ cǐ de bù zú。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋过：经历表达",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：他们在作决定以前认真考虑了未来生活中的现实问题。\ntā men zài zuò jué dìng yǐ qián rèn zhēn kǎo lǜ le wèi lái shēng huó zhōng de xiàn shí wèn tí。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：他们在作决定以前认真考虑了未来生活中的现实问题。\ntā men zài zuò jué dìng yǐ qián rèn zhēn kǎo lǜ le wèi lái shēng huó zhōng de xiàn shí wèn tí。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动作＋以前：说明时间顺序",
+      "grammarFocus": "动作＋以前：说明时间顺序"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解婚姻观念的变化还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě hūn yīn guān niàn de biàn huà hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解婚姻观念的变化还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě hūn yīn guān niàn de biàn huà hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 25,
-      "explanation": "参考句子：无论社会如何变化共同目标的重要性都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà gòng tóng mù biāo de zhòng yào xìng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化共同目标的重要性都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà gòng tóng mù biāo de zhòng yào xìng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解情感表达的方式才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě qíng gǎn biǎo dá de fāng shì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解情感表达的方式才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě qíng gǎn biǎo dá de fāng shì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析个人空间的保留。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī gè rén kōng jiān de bǎo liú。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析个人空间的保留。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī gè rén kōng jiān de bǎo liú。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明生活责任的承担。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng shēng huó zé rèn de chéng dān。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明生活责任的承担。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng shēng huó zé rèn de chéng dān。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

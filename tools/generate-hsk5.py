@@ -102,3 +102,7 @@ with zipfile.ZipFile(OUT/'HSK5-30-topics.zip','w',zipfile.ZIP_DEFLATED) as z:
   if path.suffix in ['.json','.md','.txt','.html']:z.write(path,'hsk5-30/'+path.name)
  z.write(Path(__file__),'tools/generate-hsk5.py')
 print(f'Generated {len(entries)} lessons / 600 questions / {len(seen)} unique sorting answers; catalog: {len(catalog["exercises"])} entries')
+
+# Reapply authored section separation and refresh every downloadable copy.
+import subprocess,sys
+subprocess.run([sys.executable,str(ROOT/"tools/optimize-exercises.py")],check=True)

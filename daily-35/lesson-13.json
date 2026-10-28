@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第13课 这个多少钱",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“价格”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qià gé",
-        "B": "jiào gé",
-        "C": "jiàn gé",
-        "D": "jià gé"
+        "A": "jiàn gé",
+        "B": "jià gé",
+        "C": "jiào gé",
+        "D": "qià gé"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“价格”读作 jià gé，本课词义：giá cả。"
+      "explanation": "“价格”读作 jià gé。注意声母、韵母、声调及轻声。",
+      "targetWord": "价格"
     },
     {
       "id": 2,
@@ -28,37 +29,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“便宜”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "mián yi",
+        "A": "pián yi",
         "B": "dián yi",
-        "C": "pián yi",
+        "C": "mián yi",
         "D": "lián yi"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "“便宜”读作 pián yi，本课词义：rẻ。"
+      "explanation": "“便宜”读作 pián yi。注意声母、韵母、声调及轻声。",
+      "targetWord": "便宜"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“打折”的正确读音。",
+      "text": "【拼音选择】请选择“单价”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cǎ zhé",
-        "B": "dǎ zé",
-        "C": "bǎ zhé",
-        "D": "dǎ zhé"
+        "A": "bān jià",
+        "B": "dān jià",
+        "C": "dāng jià",
+        "D": "dān qià"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“打折”读作 dǎ zhé，本课词义：giảm giá。"
+      "explanation": "“单价”读作 dān jià。注意声母、韵母、声调及轻声。",
+      "targetWord": "单价"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“比较”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "bǐ jiào",
-        "B": "bǐ qiào",
-        "C": "biě jiào",
-        "D": "běi jiào"
+        "B": "biě jiào",
+        "C": "běi jiào",
+        "D": "bǐ qiào"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“比较”读作 bǐ jiào，本课词义：so sánh。"
+      "explanation": "“比较”读作 bǐ jiào。注意声母、韵母、声调及轻声。",
+      "targetWord": "比较"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“考虑”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kǎo nù",
-        "B": "kǎo lǜ",
-        "C": "bǎo lǜ",
-        "D": "kǒu lǜ"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“考虑”读作 kǎo lǜ，本课词义：cân nhắc。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这件商品的____是多少。",
-      "pinyin": "qǐng wèn zhè jiàn shāng pǐn de ____ shì duō shǎo",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: giá cả.",
-      "options": {
-        "A": "便宜",
-        "B": "价格",
-        "C": "打折",
-        "D": "比较"
-      },
-      "optionPinyin": {
-        "A": "pián yi",
-        "B": "jià gé",
-        "C": "dǎ zhé",
-        "D": "bǐ jiào"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“价格”（giá cả）。完整表达：请问这件商品的价格是多少。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：如果买两件能不能____一点。",
-      "pinyin": "rú guǒ mǎi liǎng jiàn néng bù néng ____ yì diǎn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: rẻ.",
-      "options": {
-        "A": "打折",
-        "B": "考虑",
-        "C": "比较",
-        "D": "便宜"
-      },
-      "optionPinyin": {
-        "A": "dǎ zhé",
-        "B": "kǎo lǜ",
-        "C": "bǐ jiào",
-        "D": "pián yi"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“便宜”（rẻ）。完整表达：如果买两件能不能便宜一点。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这双鞋现在____吗。",
-      "pinyin": "qǐng wèn zhè shuāng xié xiàn zài ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: giảm giá.",
-      "options": {
-        "A": "价格",
-        "B": "便宜",
-        "C": "打折",
-        "D": "考虑"
-      },
-      "optionPinyin": {
-        "A": "jià gé",
-        "B": "pián yi",
-        "C": "dǎ zhé",
-        "D": "kǎo lǜ"
+        "A": "kǒu lǜ",
+        "B": "bǎo lǜ",
+        "C": "kǎo lǜ",
+        "D": "kǎo nù"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“打折”（giảm giá）。完整表达：请问这双鞋现在打折吗。"
+      "explanation": "“考虑”读作 kǎo lǜ。注意声母、韵母、声调及轻声。",
+      "targetWord": "考虑"
     },
     {
-      "id": 9,
+      "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我想再____一下其他款式。",
-      "pinyin": "wǒ xiǎng zài ____ yī xià qí tā kuǎn shì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: so sánh.",
-      "options": {
-        "A": "价格",
-        "B": "比较",
-        "C": "考虑",
-        "D": "便宜"
-      },
-      "optionPinyin": {
-        "A": "jià gé",
-        "B": "bǐ jiào",
-        "C": "kǎo lǜ",
-        "D": "pián yi"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“比较”（so sánh）。完整表达：我想再比较一下其他款式。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：谢谢我还需要____一下。",
-      "pinyin": "xiè xiè wǒ hái xū yào ____ yī xià",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: cân nhắc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这双鞋今天____，比昨天便宜。",
+      "pinyin": "zhè shuāng xié jīn tiān ____， bǐ zuó tiān pián yi 。",
+      "vietnamese": "Gợi ý: giảm giá.",
       "options": {
         "A": "打折",
-        "B": "便宜",
-        "C": "价格",
-        "D": "考虑"
+        "B": "零售",
+        "C": "预算",
+        "D": "总共"
       },
       "optionPinyin": {
         "A": "dǎ zhé",
-        "B": "pián yi",
-        "C": "jià gé",
-        "D": "kǎo lǜ"
+        "B": "líng shòu",
+        "C": "yù suàn",
+        "D": "zǒng gòng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“打折”。完整句子：这双鞋今天打折，比昨天便宜。\n语法与搭配：比字句",
+      "targetWord": "打折",
+      "completeSentence": "这双鞋今天打折，比昨天便宜。",
+      "grammarFocus": "比字句"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：两本书加一个本子，____多少钱？",
+      "pinyin": "liǎng běn shū jiā yí gè běn zi ，____ duō shǎo qián ？",
+      "vietnamese": "Gợi ý: tổng cộng.",
+      "options": {
+        "A": "总共",
+        "B": "预算",
+        "C": "打折",
+        "D": "零售"
+      },
+      "optionPinyin": {
+        "A": "zǒng gòng",
+        "B": "yù suàn",
+        "C": "dǎ zhé",
+        "D": "líng shòu"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“总共”。完整句子：两本书加一个本子，总共多少钱？\n语法与搭配：数量合计；多少",
+      "targetWord": "总共",
+      "completeSentence": "两本书加一个本子，总共多少钱？",
+      "grammarFocus": "数量合计；多少"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这件东西超过我的____，我再看看。",
+      "pinyin": "zhè jiàn dōng xi chāo guò wǒ de ____， wǒ zài kàn kàn 。",
+      "vietnamese": "Gợi ý: ngân sách.",
+      "options": {
+        "A": "总共",
+        "B": "零售",
+        "C": "打折",
+        "D": "预算"
+      },
+      "optionPinyin": {
+        "A": "zǒng gòng",
+        "B": "líng shòu",
+        "C": "dǎ zhé",
+        "D": "yù suàn"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“考虑”（cân nhắc）。完整表达：谢谢我还需要考虑一下。"
+      "explanation": "应填“预算”。完整句子：这件东西超过我的预算，我再看看。\n语法与搭配：超过；再",
+      "targetWord": "预算",
+      "completeSentence": "这件东西超过我的预算，我再看看。",
+      "grammarFocus": "超过；再"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这里只能整箱买，还是也可以____？",
+      "pinyin": "zhè lǐ zhǐ néng zhěng xiāng mǎi ， hái shì yě kě yǐ ____？",
+      "vietnamese": "Gợi ý: bán lẻ.",
+      "options": {
+        "A": "预算",
+        "B": "零售",
+        "C": "打折",
+        "D": "总共"
+      },
+      "optionPinyin": {
+        "A": "yù suàn",
+        "B": "líng shòu",
+        "C": "dǎ zhé",
+        "D": "zǒng gòng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“零售”。完整句子：这里只能整箱买，还是也可以零售？\n语法与搭配：还是；也",
+      "targetWord": "零售",
+      "completeSentence": "这里只能整箱买，还是也可以零售？",
+      "grammarFocus": "还是；也"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我付了一百元，请帮我____。",
+      "pinyin": "wǒ fù le yì bǎi yuán ， qǐng bāng wǒ ____。",
+      "vietnamese": "Gợi ý: thối tiền.",
+      "options": {
+        "A": "总共",
+        "B": "打折",
+        "C": "预算",
+        "D": "找零"
+      },
+      "optionPinyin": {
+        "A": "zǒng gòng",
+        "B": "dǎ zhé",
+        "C": "yù suàn",
+        "D": "zhǎo líng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“找零”。完整句子：我付了一百元，请帮我找零。\n语法与搭配：付了；帮＋人＋动词",
+      "targetWord": "找零",
+      "completeSentence": "我付了一百元，请帮我找零。",
+      "grammarFocus": "付了；帮＋人＋动词"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n这件商品的价格 / 是 / 多少 / 请问",
-      "pinyin": "zhè jiàn shāng pǐn de jià gé / shì / duō shǎo / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n便宜一些 / 比买一件 / 能不能 / 买两件",
+      "pinyin": "pián yi yī xiē / bǐ mǎi yī jiàn / néng bù néng / mǎi liǎng jiàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这件商品的价格是多少。",
-        "请问这件商品的价格是多少",
-        "请问这件商品的价格是多少.",
-        "请问这件商品的价格是多少？",
-        "请问这件商品的价格是多少?"
+        "买两件能不能比买一件便宜一些。",
+        "买两件能不能比买一件便宜一些",
+        "买两件能不能比买一件便宜一些."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：请问这件商品的价格是多少。\nqǐng wèn zhè jiàn shāng pǐn de jià gé shì duō shǎo。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：买两件能不能比买一件便宜一些。\nmǎi liǎng jiàn néng bù néng bǐ mǎi yī jiàn pián yi yī xiē\n语法与搭配：能不能；比",
+      "grammarFocus": "能不能；比"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n能不能 / 便宜一点 / 如果 / 买两件",
-      "pinyin": "néng bù néng / pián yi yì diǎn / rú guǒ / mǎi liǎng jiàn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n包括 / 这个价格 / 已经 / 运费了吗",
+      "pinyin": "bāo kuò / zhè ge jià gé / yǐ jīng / yùn fèi le ma",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果买两件能不能便宜一点。",
-        "如果买两件能不能便宜一点",
-        "如果买两件能不能便宜一点.",
-        "如果买两件能不能便宜一点？",
-        "如果买两件能不能便宜一点?"
+        "这个价格已经包括运费了吗？",
+        "这个价格已经包括运费了吗",
+        "这个价格已经包括运费了吗?"
       ],
       "points": 5,
       "hanziCount": 12,
-      "explanation": "参考表达：如果买两件能不能便宜一点。\nrú guǒ mǎi liǎng jiàn néng bù néng pián yi yì diǎn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：这个价格已经包括运费了吗？\nzhè ge jià gé yǐ jīng bāo kuò yùn fèi le ma\n语法与搭配：已经；包括；吗",
+      "grammarFocus": "已经；包括；吗"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n现在 / 请问 / 打折吗 / 这双鞋",
-      "pinyin": "xiàn zài / qǐng wèn / dǎ zhé ma / zhè shuāng xié",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n卖得 / 更便宜 / 同样的商品 / 这家店",
+      "pinyin": "mài dé / gèng pián yi / tóng yàng de shāng pǐn / zhè jiā diàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这双鞋现在打折吗。",
-        "请问这双鞋现在打折吗",
-        "请问这双鞋现在打折吗.",
-        "请问这双鞋现在打折吗？",
-        "请问这双鞋现在打折吗?"
+        "同样的商品这家店卖得更便宜。",
+        "同样的商品这家店卖得更便宜",
+        "同样的商品这家店卖得更便宜."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：请问这双鞋现在打折吗。\nqǐng wèn zhè shuāng xié xiàn zài dǎ zhé ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：同样的商品这家店卖得更便宜。\ntóng yàng de shāng pǐn zhè jiā diàn mài dé gèng pián yi\n语法与搭配：动词＋得＋程度",
+      "grammarFocus": "动词＋得＋程度"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n其他款式 / 想 / 再比较一下 / 我",
-      "pinyin": "qí tā kuǎn shì / xiǎng / zài bǐ jiào yī xià / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n可以 / 送货上门吗 / 今天买 / 如果",
+      "pinyin": "kě yǐ / sòng huò shàng mén ma / jīn tiān mǎi / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我想再比较一下其他款式。",
-        "我想再比较一下其他款式",
-        "我想再比较一下其他款式.",
-        "我想再比较一下其他款式？",
-        "我想再比较一下其他款式?"
+        "如果今天买可以送货上门吗？",
+        "如果今天买可以送货上门吗",
+        "如果今天买可以送货上门吗?"
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：我想再比较一下其他款式。\nwǒ xiǎng zài bǐ jiào yī xià qí tā kuǎn shì。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：如果今天买可以送货上门吗？\nrú guǒ jīn tiān mǎi kě yǐ sòng huò shàng mén ma\n语法与搭配：如果；可以……吗",
+      "grammarFocus": "如果；可以……吗"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n还需要 / 谢谢 / 我 / 考虑一下",
-      "pinyin": "hái xū yào / xiè xiè / wǒ / kǎo lǜ yī xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再 / 我 / 先比较一下价格 / 决定买哪一个",
+      "pinyin": "zài / wǒ / xiān bǐ jiào yí xià jià gé / jué dìng mǎi nǎ yí gè",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "谢谢我还需要考虑一下。",
-        "谢谢我还需要考虑一下",
-        "谢谢我还需要考虑一下.",
-        "谢谢我还需要考虑一下？",
-        "谢谢我还需要考虑一下?"
+        "我先比较一下价格再决定买哪一个。",
+        "我先比较一下价格再决定买哪一个",
+        "我先比较一下价格再决定买哪一个."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：谢谢我还需要考虑一下。\nxiè xiè wǒ hái xū yào kǎo lǜ yī xià。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：我先比较一下价格再决定买哪一个。\nwǒ xiān bǐ jiào yí xià jià gé zài jué dìng mǎi nǎ yí gè\n语法与搭配：先……再……",
+      "grammarFocus": "先……再……"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

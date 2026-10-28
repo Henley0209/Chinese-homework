@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第10课 幸福的标准",
-  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“标准”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biāo zhǔn",
-        "B": "biān zhǔn",
-        "C": "bāo zhǔn",
-        "D": "biāo zǔn"
+        "A": "bāo zhǔn",
+        "B": "biāo zhǔn",
+        "C": "biāo zǔn",
+        "D": "biān zhǔn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“标准”的正确读音是 biāo zhǔn。"
+      "explanation": "“标准”读作 biāo zhǔn。注意声母、韵母、声调及轻声。",
+      "targetWord": "标准"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“满足”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "bǎn zú",
-        "B": "mǎng zú",
-        "C": "mǎn zhú",
-        "D": "mǎn zú"
+        "B": "mǎn zú",
+        "C": "mǎng zú",
+        "D": "mǎn zhú"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“满足”的正确读音是 mǎn zú。"
+      "explanation": "“满足”读作 mǎn zú。注意声母、韵母、声调及轻声。",
+      "targetWord": "满足"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“财富”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cái fù",
-        "B": "bái fù",
+        "A": "bái fù",
+        "B": "cái fù",
         "C": "cái hù",
         "D": "chái fù"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“财富”的正确读音是 cái fù。"
+      "explanation": "“财富”读作 cái fù。注意声母、韵母、声调及轻声。",
+      "targetWord": "财富"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“金钱”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jīn qián",
-        "B": "jīn qiáng",
-        "C": "jīn xián",
-        "D": "qīn qián"
+        "A": "jīn qiáng",
+        "B": "jīn xián",
+        "C": "qīn qián",
+        "D": "jīn qián"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“金钱”的正确读音是 jīn qián。"
+      "explanation": "“金钱”读作 jīn qián。注意声母、韵母、声调及轻声。",
+      "targetWord": "金钱"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“理想”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lǐ xiǎng",
-        "B": "lǐ xiǎn",
+        "A": "lǐ xiǎn",
+        "B": "lǐ xiǎng",
         "C": "nǐ xiǎng",
         "D": "lǐ qiǎng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“理想”的正确读音是 lǐ xiǎng。"
+      "explanation": "“理想”读作 lǐ xiǎng。注意声母、韵母、声调及轻声。",
+      "targetWord": "理想"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“愿望”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yuàn wàn",
-        "B": "duàn wàng",
-        "C": "cuàn wàng",
+        "A": "cuàn wàng",
+        "B": "yuàn wàn",
+        "C": "duàn wàng",
         "D": "yuàn wàng"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“愿望”的正确读音是 yuàn wàng。"
+      "explanation": "“愿望”读作 yuàn wàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "愿望"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“追求”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuī jiú",
+        "A": "zhuī qiú",
         "B": "zhuī xiú",
         "C": "zuī qiú",
-        "D": "zhuī qiú"
+        "D": "zhuī jiú"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“追求”的正确读音是 zhuī qiú。"
+      "explanation": "“追求”读作 zhuī qiú。注意声母、韵母、声调及轻声。",
+      "targetWord": "追求"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“价值”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiàn zhí",
-        "B": "jià zhí",
-        "C": "qià zhí",
-        "D": "jià zí"
+        "A": "jià zí",
+        "B": "jiàn zhí",
+        "C": "jià zhí",
+        "D": "qià zhí"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“价值”的正确读音是 jià zhí。"
+      "explanation": "“价值”读作 jià zhí。注意声母、韵母、声调及轻声。",
+      "targetWord": "价值"
     },
     {
       "id": 9,
@@ -161,18 +169,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“拥有”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dōng yǒu",
+        "A": "yōng yǎo",
         "B": "cōng yǒu",
         "C": "yōng yǒu",
-        "D": "yōng yǎo"
+        "D": "dōng yǒu"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“拥有”的正确读音是 yōng yǒu。"
+      "explanation": "“拥有”读作 yōng yǒu。注意声母、韵母、声调及轻声。",
+      "targetWord": "拥有"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“快乐”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "kuài nè",
-        "B": "guài lè",
-        "C": "huài lè",
-        "D": "kuài lè"
+        "B": "kuài lè",
+        "C": "guài lè",
+        "D": "huài lè"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“快乐”的正确读音是 kuài lè。"
+      "explanation": "“快乐”读作 kuài lè。注意声母、韵母、声调及轻声。",
+      "targetWord": "快乐"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“平凡”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "píng fán",
+        "A": "píng hán",
         "B": "píng fáng",
-        "C": "pín fán",
-        "D": "píng hán"
+        "C": "píng fán",
+        "D": "pín fán"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“平凡”的正确读音是 píng fán。"
+      "explanation": "“平凡”读作 píng fán。注意声母、韵母、声调及轻声。",
+      "targetWord": "平凡"
     },
     {
       "id": 12,
@@ -218,10 +229,10 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“简单”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiǎn dāng",
-        "B": "jiǎng dān",
+        "A": "jiǎng dān",
+        "B": "jiǎn dāng",
         "C": "jiǎn dān",
         "D": "qiǎn dān"
       },
@@ -229,7 +240,8 @@
         "C"
       ],
       "points": 2,
-      "explanation": "“简单”的正确读音是 jiǎn dān。"
+      "explanation": "“简单”读作 jiǎn dān。注意声母、韵母、声调及轻声。",
+      "targetWord": "简单"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“温馨”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "wēn xīn",
         "B": "wēn xīng",
-        "C": "wēn qīn",
-        "D": "wēng xīn"
+        "C": "wēng xīn",
+        "D": "wēn qīn"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“温馨”的正确读音是 wēn xīn。"
+      "explanation": "“温馨”读作 wēn xīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "温馨"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“自由”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhì yóu",
-        "B": "zì yáo",
-        "C": "bì yóu",
-        "D": "zì yóu"
+        "A": "bì yóu",
+        "B": "zì yóu",
+        "C": "zì yáo",
+        "D": "zhì yóu"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“自由”的正确读音是 zì yóu。"
+      "explanation": "“自由”读作 zì yóu。注意声母、韵母、声调及轻声。",
+      "targetWord": "自由"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“责任”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zé rèng",
-        "B": "zhé rèn",
-        "C": "dé rèn",
+        "A": "zhé rèn",
+        "B": "dé rèn",
+        "C": "zé rèng",
         "D": "zé rèn"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“责任”的正确读音是 zé rèn。"
+      "explanation": "“责任”读作 zé rèn。注意声母、韵母、声调及轻声。",
+      "targetWord": "责任"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“幸福”（hạnh phúc）。完整句子：对她来说，一家人平安就是最大的幸福。"
+      "explanation": "应填“幸福”（hạnh phúc）。完整句子：对她来说，一家人平安就是最大的幸福。",
+      "targetWord": "幸福",
+      "completeSentence": "对她来说，一家人平安就是最大的幸福。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“收入”（thu nhập）。完整句子：他换了工作以后，每个月的收入增加了。"
+      "explanation": "应填“收入”（thu nhập）。完整句子：他换了工作以后，每个月的收入增加了。",
+      "targetWord": "收入",
+      "completeSentence": "他换了工作以后，每个月的收入增加了。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“羡慕”（ngưỡng mộ）。完整句子：看到别人取得成功，他很羡慕，也想努力学习。"
+      "explanation": "应填“羡慕”（ngưỡng mộ）。完整句子：看到别人取得成功，他很羡慕，也想努力学习。",
+      "targetWord": "羡慕",
+      "completeSentence": "看到别人取得成功，他很羡慕，也想努力学习。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“比较”（so sánh）。完整句子：总是拿自己和别人比较，有时会带来烦恼。"
+      "explanation": "应填“比较”（so sánh）。完整句子：总是拿自己和别人比较，有时会带来烦恼。",
+      "targetWord": "比较",
+      "completeSentence": "总是拿自己和别人比较，有时会带来烦恼。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“珍惜”（trân trọng）。完整句子：我们应该珍惜与家人在一起的时间。"
+      "explanation": "应填“珍惜”（trân trọng）。完整句子：我们应该珍惜与家人在一起的时间。",
+      "targetWord": "珍惜",
+      "completeSentence": "我们应该珍惜与家人在一起的时间。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“陪伴”（ở bên）。完整句子：孩子需要的不只是礼物，还有父母的陪伴。"
+      "explanation": "应填“陪伴”（ở bên）。完整句子：孩子需要的不只是礼物，还有父母的陪伴。",
+      "targetWord": "陪伴",
+      "completeSentence": "孩子需要的不只是礼物，还有父母的陪伴。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“选择”（lựa chọn）。完整句子：每个人都有权利选择自己的生活方式。"
+      "explanation": "应填“选择”（lựa chọn）。完整句子：每个人都有权利选择自己的生活方式。",
+      "targetWord": "选择",
+      "completeSentence": "每个人都有权利选择自己的生活方式。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“平衡”（cân bằng）。完整句子：他努力在工作与家庭之间寻找平衡。"
+      "explanation": "应填“平衡”（cân bằng）。完整句子：他努力在工作与家庭之间寻找平衡。",
+      "targetWord": "平衡",
+      "completeSentence": "他努力在工作与家庭之间寻找平衡。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“健康”（sức khỏe）。完整句子：没有了健康，再多的钱也未必让人快乐。"
+      "explanation": "应填“健康”（sức khỏe）。完整句子：没有了健康，再多的钱也未必让人快乐。",
+      "targetWord": "健康",
+      "completeSentence": "没有了健康，再多的钱也未必让人快乐。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“感受”（cảm nhận）。完整句子：请你说说第一次参加志愿活动的感受。"
+      "explanation": "应填“感受”（cảm nhận）。完整句子：请你说说第一次参加志愿活动的感受。",
+      "targetWord": "感受",
+      "completeSentence": "请你说说第一次参加志愿活动的感受。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“能力”（năng lực）。完整句子：她希望找到能发挥自己能力的工作。"
+      "explanation": "应填“能力”（năng lực）。完整句子：她希望找到能发挥自己能力的工作。",
+      "targetWord": "能力",
+      "completeSentence": "她希望找到能发挥自己能力的工作。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“生活”（cuộc sống）。完整句子：退休以后，他们搬到乡下，过着安静的生活。"
+      "explanation": "应填“生活”（cuộc sống）。完整句子：退休以后，他们搬到乡下，过着安静的生活。",
+      "targetWord": "生活",
+      "completeSentence": "退休以后，他们搬到乡下，过着安静的生活。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“压力”（áp lực）。完整句子：为了买更大的房子，他承受着很大的经济压力。"
+      "explanation": "应填“压力”（áp lực）。完整句子：为了买更大的房子，他承受着很大的经济压力。",
+      "targetWord": "压力",
+      "completeSentence": "为了买更大的房子，他承受着很大的经济压力。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“关心”（quan tâm）。完整句子：家人的一句关心，往往比礼物更让人感动。"
+      "explanation": "应填“关心”（quan tâm）。完整句子：家人的一句关心，往往比礼物更让人感动。",
+      "targetWord": "关心",
+      "completeSentence": "家人的一句关心，往往比礼物更让人感动。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“意义”（ý nghĩa）。完整句子：帮助别人让她发现了工作的另一种意义。"
+      "explanation": "应填“意义”（ý nghĩa）。完整句子：帮助别人让她发现了工作的另一种意义。",
+      "targetWord": "意义",
+      "completeSentence": "帮助别人让她发现了工作的另一种意义。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "幸福的标准因人而异不一定每个人都追求同样的生活."
       ],
       "points": 2,
-      "explanation": "参考句子：幸福的标准因人而异不一定每个人都追求同样的生活。\nxìng fú de biāo zhǔn yīn rén ér yì bù yí dìng měi gè rén dōu zhuī qiú tóng yàng de shēng huó 。",
-      "hanziCount": 23
+      "explanation": "参考句子：幸福的标准因人而异不一定每个人都追求同样的生活。\nxìng fú de biāo zhǔn yīn rén ér yì bù yí dìng měi gè rén dōu zhuī qiú tóng yàng de shēng huó 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 23,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "对我来说能够和家人健康地生活就是一件很幸福的事."
       ],
       "points": 2,
-      "explanation": "参考句子：对我来说能够和家人健康地生活就是一件很幸福的事。\nduì wǒ lái shuō néng gòu hé jiā rén jiàn kāng dì shēng huó jiù shì yī jiàn hěn xìng fú de shì 。",
-      "hanziCount": 23
+      "explanation": "参考句子：对我来说能够和家人健康地生活就是一件很幸福的事。\nduì wǒ lái shuō néng gòu hé jiā rén jiàn kāng dì shēng huó jiù shì yī jiàn hěn xìng fú de shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 23,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "如果总是拿自己和别人比较我们就很难感到真正满足."
       ],
       "points": 2,
-      "explanation": "参考句子：如果总是拿自己和别人比较我们就很难感到真正满足。\nrú guǒ zǒng shì ná zì jǐ hé bié rén bǐ jiào wǒ men jiù hěn nán gǎn dào zhēn zhèng mǎn zú 。",
-      "hanziCount": 23
+      "explanation": "参考句子：如果总是拿自己和别人比较我们就很难感到真正满足。\nrú guǒ zǒng shì ná zì jǐ hé bié rén bǐ jiào wǒ men jiù hěn nán gǎn dào zhēn zhèng mǎn zú 。\n语法与搭配：如果……就……：假设条件",
+      "hanziCount": 23,
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "金钱虽然能带来不少便利但是不一定能买到真正的快乐."
       ],
       "points": 2,
-      "explanation": "参考句子：金钱虽然能带来不少便利但是不一定能买到真正的快乐。\njīn qián suī rán néng dài lái bù shǎo biàn lì dàn shì bù yí dìng néng mǎi dào zhēn zhèng de kuài lè 。",
-      "hanziCount": 24
+      "explanation": "参考句子：金钱虽然能带来不少便利但是不一定能买到真正的快乐。\njīn qián suī rán néng dài lái bù shǎo biàn lì dàn shì bù yí dìng néng mǎi dào zhēn zhèng de kuài lè 。\n语法与搭配：虽然……但是……：转折关系",
+      "hanziCount": 24,
+      "grammarFocus": "虽然……但是……：转折关系"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "他放弃了收入更高的工作选择留出更多时间陪伴家人."
       ],
       "points": 2,
-      "explanation": "参考句子：他放弃了收入更高的工作选择留出更多时间陪伴家人。\ntā fàng qì le shōu rù gèng gāo de gōng zuò xuǎn zé liú chū gèng duō shí jiān péi bàn jiā rén 。",
-      "hanziCount": 23
+      "explanation": "参考句子：他放弃了收入更高的工作选择留出更多时间陪伴家人。\ntā fàng qì le shōu rù gèng gāo de gōng zuò xuǎn zé liú chū gèng duō shí jiān péi bàn jiā rén 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 23,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "有时候幸福就藏在生活中那些最普通不过的小事里."
       ],
       "points": 2,
-      "explanation": "参考句子：有时候幸福就藏在生活中那些最普通不过的小事里。\nyǒu shí hòu xìng fú jiù cáng zài shēng huó zhōng nà xiē zuì pǔ tōng bù guò de xiǎo shì lǐ 。",
-      "hanziCount": 22
+      "explanation": "参考句子：有时候幸福就藏在生活中那些最普通不过的小事里。\nyǒu shí hòu xìng fú jiù cáng zài shēng huó zhōng nà xiē zuì pǔ tōng bù guò de xiǎo shì lǐ 。\n语法与搭配：动词＋过：经历表达",
+      "hanziCount": 22,
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "她终于明白自己需要什么不再盲目羡慕别人的生活."
       ],
       "points": 2,
-      "explanation": "参考句子：她终于明白自己需要什么不再盲目羡慕别人的生活。\ntā zhōng yú míng bái zì jǐ xū yào shén me bú zài máng mù xiàn mù bié rén de shēng huó 。",
-      "hanziCount": 22
+      "explanation": "参考句子：她终于明白自己需要什么不再盲目羡慕别人的生活。\ntā zhōng yú míng bái zì jǐ xū yào shén me bú zài máng mù xiàn mù bié rén de shēng huó 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "只有学会珍惜已经拥有的东西才能更好地感受现在的幸福."
       ],
       "points": 2,
-      "explanation": "参考句子：只有学会珍惜已经拥有的东西才能更好地感受现在的幸福。\nzhǐ yǒu xué huì zhēn xī yǐ jīng yōng yǒu de dōng xi cái néng gèng hǎo dì gǎn shòu xiàn zài de xìng fú 。",
-      "hanziCount": 25
+      "explanation": "参考句子：只有学会珍惜已经拥有的东西才能更好地感受现在的幸福。\nzhǐ yǒu xué huì zhēn xī yǐ jīng yōng yǒu de dōng xi cái néng gèng hǎo dì gǎn shòu xiàn zài de xìng fú 。\n语法与搭配：只有……才……：必要条件",
+      "hanziCount": 25,
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "不同年龄的人对幸福的理解可能会随着经历发生变化."
       ],
       "points": 2,
-      "explanation": "参考句子：不同年龄的人对幸福的理解可能会随着经历发生变化。\nbù tóng nián líng de rén duì xìng fú de lǐ jiě kě néng huì suí zhe jīng lì fā shēng biàn huà 。",
-      "hanziCount": 23
+      "explanation": "参考句子：不同年龄的人对幸福的理解可能会随着经历发生变化。\nbù tóng nián líng de rén duì xìng fú de lǐ jiě kě néng huì suí zhe jīng lì fā shēng biàn huà 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 23,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "我希望未来的生活既有努力的目标也有休息的时间."
       ],
       "points": 2,
-      "explanation": "参考句子：我希望未来的生活既有努力的目标也有休息的时间。\nwǒ xī wàng wèi lái de shēng huó jì yǒu nǔ lì de mù biāo yě yǒu xiū xī de shí jiān 。",
-      "hanziCount": 22
+      "explanation": "参考句子：我希望未来的生活既有努力的目标也有休息的时间。\nwǒ xī wàng wèi lái de shēng huó jì yǒu nǔ lì de mù biāo yě yǒu xiū xī de shí jiān 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "我们有必要深入了解每个人不同的幸福标准."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解每个人不同的幸福标准。\nwǒ men yǒu bì yào shēn rù liǎo jiě měi gè rén bù tóng de xìng fú biāo zhǔn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我们有必要深入了解每个人不同的幸福标准。\nwǒ men yǒu bì yào shēn rù liǎo jiě měi gè rén bù tóng de xìng fú biāo zhǔn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "他在报告中详细介绍了金钱与幸福之间的关系."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了金钱与幸福之间的关系。\ntā zài bào gào zhōng xiáng xì jiè shào le jīn qián yǔ xìng fú zhī jiān de guān xi 。",
-      "hanziCount": 20
+      "explanation": "参考句子：他在报告中详细介绍了金钱与幸福之间的关系。\ntā zài bào gào zhōng xiáng xì jiè shào le jīn qián yǔ xìng fú zhī jiān de guān xi 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 20,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "请大家先讨论一下怎样珍惜眼前的生活."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下怎样珍惜眼前的生活。\nqǐng dà jiā xiān tǎo lùn yī xià zěn yàng zhēn xī yǎn qián de shēng huó 。",
-      "hanziCount": 17
+      "explanation": "参考句子：请大家先讨论一下怎样珍惜眼前的生活。\nqǐng dà jiā xiān tǎo lùn yī xià zěn yàng zhēn xī yǎn qián de shēng huó 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "我想请老师进一步解释家人陪伴的重要作用."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释家人陪伴的重要作用。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì jiā rén péi bàn de zhòng yào zuò yòng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我想请老师进一步解释家人陪伴的重要作用。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì jiā rén péi bàn de zhòng yào zuò yòng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "同学们正在一起讨论收入提高后的生活变化."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论收入提高后的生活变化。\ntóng xué men zhèng zài yì qǐ tǎo lùn shōu rù tí gāo hòu de shēng huó biàn huà 。",
-      "hanziCount": 19
+      "explanation": "参考句子：同学们正在一起讨论收入提高后的生活变化。\ntóng xué men zhèng zài yì qǐ tǎo lùn shōu rù tí gāo hòu de shēng huó biàn huà 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 19,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "老师请我们认真讨论追求目标时付出的代价."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论追求目标时付出的代价。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn zhuī qiú mù biāo shí fù chū de dài jià 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师请我们认真讨论追求目标时付出的代价。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn zhuī qiú mù biāo shí fù chū de dài jià 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "我们应该提前了解平凡小事带来的快乐."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解平凡小事带来的快乐。\nwǒ men yīng gāi tí qián liǎo jiě píng fán xiǎo shì dài lái de kuài lè 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我们应该提前了解平凡小事带来的快乐。\nwǒ men yīng gāi tí qián liǎo jiě píng fán xiǎo shì dài lái de kuài lè 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "大家可以一起讨论怎样平衡工作和家庭."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论怎样平衡工作和家庭。\ndà jiā kě yǐ yì qǐ tǎo lùn zěn yàng píng héng gōng zuò hé jiā tíng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：大家可以一起讨论怎样平衡工作和家庭。\ndà jiā kě yǐ yì qǐ tǎo lùn zěn yàng píng héng gōng zuò hé jiā tíng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "我已经认真考虑过不同年龄对幸福的理解."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过不同年龄对幸福的理解。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò bù tóng nián líng duì xìng fú de lǐ jiě 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我已经认真考虑过不同年龄对幸福的理解。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò bù tóng nián líng duì xìng fú de lǐ jiě 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 18,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "这篇文章主要介绍了自己真正想要的生活."
       ],
       "points": 2,
-      "explanation": "参考句子：这篇文章主要介绍了自己真正想要的生活。\nzhè piān wén zhāng zhǔ yào jiè shào le zì jǐ zhēn zhèng xiǎng yào de shēng huó 。",
-      "hanziCount": 18
+      "explanation": "参考句子：这篇文章主要介绍了自己真正想要的生活。\nzhè piān wén zhāng zhǔ yào jiè shào le zì jǐ zhēn zhèng xiǎng yào de shēng huó 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

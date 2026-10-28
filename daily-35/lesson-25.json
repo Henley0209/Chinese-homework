@@ -1,26 +1,27 @@
 {
   "title": "日常交际 第25课 我想办一张电话卡",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“套餐”的正确读音。",
+      "text": "【拼音选择】请选择“运营商”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tào cān",
-        "B": "tòu cān",
-        "C": "tào chān",
-        "D": "tào cāng"
+        "A": "yùn yíng shāng",
+        "B": "yùn yín shāng",
+        "C": "yùn yíng shān",
+        "D": "yùn yíng sāng"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“套餐”读作 tào cān，本课词义：gói cước。"
+      "explanation": "“运营商”读作 yùn yíng shāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "运营商"
     },
     {
       "id": 2,
@@ -28,56 +29,59 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“流量”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "niú liàng",
         "B": "liú niàng",
-        "C": "liú liàn",
-        "D": "liú liàng"
+        "C": "liú liàng",
+        "D": "liú liàn"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“流量”读作 liú liàng，本课词义：dữ liệu di động。"
+      "explanation": "“流量”读作 liú liàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "流量"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“充值”的正确读音。",
+      "text": "【拼音选择】请选择“话费”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chāng zhí",
-        "B": "chōng zhí",
-        "C": "cōng zhí",
-        "D": "chōng zí"
+        "A": "huà fèi",
+        "B": "huài fèi",
+        "C": "guà fèi",
+        "D": "chuà fèi"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "“充值”读作 chōng zhí，本课词义：nạp tiền。"
+      "explanation": "“话费”读作 huà fèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "话费"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“信号”的正确读音。",
+      "text": "【拼音选择】请选择“网络”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xìng hào",
-        "B": "xìn hòu",
-        "C": "qìn hào",
-        "D": "xìn hào"
+        "A": "bǎng luò",
+        "B": "wǎng nuò",
+        "C": "wǎng luò",
+        "D": "wǎn luò"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“信号”读作 xìn hào，本课词义：tín hiệu。"
+      "explanation": "“网络”读作 wǎng luò。注意声母、韵母、声调及轻声。",
+      "targetWord": "网络"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“开通”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kāi tōng",
-        "B": "cāi tōng",
-        "C": "kēi tōng",
-        "D": "bāi tōng"
+        "A": "bāi tōng",
+        "B": "kāi tōng",
+        "C": "cāi tōng",
+        "D": "kēi tōng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“开通”读作 kāi tōng，本课词义：kích hoạt。"
+      "explanation": "“开通”读作 kāi tōng。注意声母、韵母、声调及轻声。",
+      "targetWord": "开通"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问有没有适合学生的手机____。",
-      "pinyin": "qǐng wèn yǒu méi yǒu shì hé xué shēng de shǒu jī ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: gói cước.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我每月用流量比较多，想换一个____。",
+      "pinyin": "wǒ měi yuè yòng liú liàng bǐ jiào duō ， xiǎng huàn yí gè ____。",
+      "vietnamese": "Gợi ý: gói cước.",
       "options": {
         "A": "套餐",
-        "B": "信号",
-        "C": "流量",
-        "D": "开通"
+        "B": "充值",
+        "C": "信号",
+        "D": "实名"
       },
       "optionPinyin": {
         "A": "tào cān",
-        "B": "xìn hào",
-        "C": "liú liàng",
-        "D": "kāi tōng"
+        "B": "chōng zhí",
+        "C": "xìn hào",
+        "D": "shí míng"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“套餐”（gói cước）。完整表达：请问有没有适合学生的手机套餐。"
+      "explanation": "应填“套餐”。完整句子：我每月用流量比较多，想换一个套餐。\n语法与搭配：比较；想",
+      "targetWord": "套餐",
+      "completeSentence": "我每月用流量比较多，想换一个套餐。",
+      "grammarFocus": "比较；想"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这个套餐每个月包含多少____。",
-      "pinyin": "zhè ge tào cān měi gè yuè bāo hán duō shǎo ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: dữ liệu di động.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：办理手机卡需要用证件做____登记。",
+      "pinyin": "bàn lǐ shǒu jī kǎ xū yào yòng zhèng jiàn zuò ____ dēng jì 。",
+      "vietnamese": "Gợi ý: xác thực tên thật.",
       "options": {
-        "A": "流量",
-        "B": "套餐",
-        "C": "开通",
+        "A": "充值",
+        "B": "实名",
+        "C": "套餐",
         "D": "信号"
       },
       "optionPinyin": {
-        "A": "liú liàng",
-        "B": "tào cān",
-        "C": "kāi tōng",
+        "A": "chōng zhí",
+        "B": "shí míng",
+        "C": "tào cān",
+        "D": "xìn hào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“实名”。完整句子：办理手机卡需要用证件做实名登记。\n语法与搭配：需要；用",
+      "targetWord": "实名",
+      "completeSentence": "办理手机卡需要用证件做实名登记。",
+      "grammarFocus": "需要；用"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：话费不足了，我要先____。",
+      "pinyin": "huà fèi bù zú le ， wǒ yào xiān ____。",
+      "vietnamese": "Gợi ý: nạp tiền.",
+      "options": {
+        "A": "充值",
+        "B": "实名",
+        "C": "套餐",
+        "D": "信号"
+      },
+      "optionPinyin": {
+        "A": "chōng zhí",
+        "B": "shí míng",
+        "C": "tào cān",
         "D": "xìn hào"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“流量”（dữ liệu di động）。完整表达：这个套餐每个月包含多少流量。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我的手机欠费了在哪里可以____。",
-      "pinyin": "wǒ de shǒu jī qiàn fèi le zài nǎ lǐ kě yǐ ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: nạp tiền.",
-      "options": {
-        "A": "开通",
-        "B": "充值",
-        "C": "信号",
-        "D": "套餐"
-      },
-      "optionPinyin": {
-        "A": "kāi tōng",
-        "B": "chōng zhí",
-        "C": "xìn hào",
-        "D": "tào cān"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“充值”（nạp tiền）。完整表达：我的手机欠费了在哪里可以充值。"
+      "explanation": "应填“充值”。完整句子：话费不足了，我要先充值。\n语法与搭配：……了；先",
+      "targetWord": "充值",
+      "completeSentence": "话费不足了，我要先充值。",
+      "grammarFocus": "……了；先"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我的手机在这里一直没有____。",
-      "pinyin": "wǒ de shǒu jī zài zhè lǐ yì zhí méi yǒu ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tín hiệu.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这间屋里____不好，电话经常断。",
+      "pinyin": "zhè jiān wū lǐ ____ bù hǎo ， diàn huà jīng cháng duàn 。",
+      "vietnamese": "Gợi ý: tín hiệu.",
       "options": {
-        "A": "充值",
-        "B": "信号",
-        "C": "流量",
+        "A": "信号",
+        "B": "充值",
+        "C": "实名",
         "D": "套餐"
       },
       "optionPinyin": {
-        "A": "chōng zhí",
-        "B": "xìn hào",
-        "C": "liú liàng",
+        "A": "xìn hào",
+        "B": "chōng zhí",
+        "C": "shí míng",
         "D": "tào cān"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“信号”（tín hiệu）。完整表达：我的手机在这里一直没有信号。"
+      "explanation": "应填“信号”。完整句子：这间屋里信号不好，电话经常断。\n语法与搭配：经常",
+      "targetWord": "信号",
+      "completeSentence": "这间屋里信号不好，电话经常断。",
+      "grammarFocus": "经常"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请帮我____国际通话服务。",
-      "pinyin": "qǐng bāng wǒ ____ guó jì tōng huà fú wù",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kích hoạt.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：除了流量费，每个月还要交____吗？",
+      "pinyin": "chú le liú liàng fèi ， měi gè yuè hái yào jiāo ____ ma ？",
+      "vietnamese": "Gợi ý: phí thuê bao tháng.",
       "options": {
-        "A": "套餐",
-        "B": "开通",
-        "C": "充值",
-        "D": "信号"
+        "A": "月租",
+        "B": "充值",
+        "C": "实名",
+        "D": "套餐"
       },
       "optionPinyin": {
-        "A": "tào cān",
-        "B": "kāi tōng",
-        "C": "chōng zhí",
-        "D": "xìn hào"
+        "A": "yuè zū",
+        "B": "chōng zhí",
+        "C": "shí míng",
+        "D": "tào cān"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“开通”（kích hoạt）。完整表达：请帮我开通国际通话服务。"
+      "explanation": "应填“月租”。完整句子：除了流量费，每个月还要交月租吗？\n语法与搭配：除了……还……",
+      "targetWord": "月租",
+      "completeSentence": "除了流量费，每个月还要交月租吗？",
+      "grammarFocus": "除了……还……"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n适合学生的 / 请问 / 有没有 / 手机套餐",
-      "pinyin": "shì hé xué shēng de / qǐng wèn / yǒu méi yǒu / shǒu jī tào cān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n能不能 / 同时 / 这张电话卡 / 在两部手机上使用",
+      "pinyin": "néng bù néng / tóng shí / zhè zhāng diàn huà kǎ / zài liǎng bù shǒu jī shàng shǐ yòng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问有没有适合学生的手机套餐。",
-        "请问有没有适合学生的手机套餐",
-        "请问有没有适合学生的手机套餐.",
-        "请问有没有适合学生的手机套餐？",
-        "请问有没有适合学生的手机套餐?"
+        "这张电话卡能不能同时在两部手机上使用。",
+        "这张电话卡能不能同时在两部手机上使用",
+        "这张电话卡能不能同时在两部手机上使用."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：请问有没有适合学生的手机套餐。\nqǐng wèn yǒu méi yǒu shì hé xué shēng de shǒu jī tào cān。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 18,
+      "explanation": "参考句子：这张电话卡能不能同时在两部手机上使用。\nzhè zhāng diàn huà kǎ néng bù néng tóng shí zài liǎng bù shǒu jī shàng shǐ yòng\n语法与搭配：能不能；同时",
+      "grammarFocus": "能不能；同时"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n这个套餐 / 多少流量 / 每个月 / 包含",
-      "pinyin": "zhè ge tào cān / duō shǎo liú liàng / měi gè yuè / bāo hán",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n怎么算 / 如果 / 这个月流量用完了 / 额外的费用",
+      "pinyin": "zěn me suàn / rú guǒ / zhè ge yuè liú liàng yòng wán le / é wài de fèi yòng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个套餐每个月包含多少流量。",
-        "这个套餐每个月包含多少流量",
-        "这个套餐每个月包含多少流量.",
-        "这个套餐每个月包含多少流量？",
-        "这个套餐每个月包含多少流量?"
+        "如果这个月流量用完了额外的费用怎么算。",
+        "如果这个月流量用完了额外的费用怎么算",
+        "如果这个月流量用完了额外的费用怎么算."
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：这个套餐每个月包含多少流量。\nzhè ge tào cān měi gè yuè bāo hán duō shǎo liú liàng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 18,
+      "explanation": "参考句子：如果这个月流量用完了额外的费用怎么算。\nrú guǒ zhè ge yuè liú liàng yòng wán le é wài de fèi yòng zěn me suàn\n语法与搭配：如果；动词＋完",
+      "grammarFocus": "如果；动词＋完"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n在哪里 / 欠费了 / 可以充值 / 我的手机",
-      "pinyin": "zài nǎ lǐ / qiàn fèi le / kě yǐ chōng zhí / wǒ de shǒu jī",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 不需要国际通话 / 暂时 / 只需要上网",
+      "pinyin": "wǒ / bù xū yào guó jì tōng huà / zàn shí / zhǐ xū yào shàng wǎng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我的手机欠费了在哪里可以充值。",
-        "我的手机欠费了在哪里可以充值",
-        "我的手机欠费了在哪里可以充值.",
-        "我的手机欠费了在哪里可以充值？",
-        "我的手机欠费了在哪里可以充值?"
+        "我只需要上网暂时不需要国际通话。",
+        "我只需要上网暂时不需要国际通话",
+        "我只需要上网暂时不需要国际通话."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：我的手机欠费了在哪里可以充值。\nwǒ de shǒu jī qiàn fèi le zài nǎ lǐ kě yǐ chōng zhí。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：我只需要上网暂时不需要国际通话。\nwǒ zhǐ xū yào shàng wǎng zàn shí bù xū yào guó jì tōng huà\n语法与搭配：只；暂时",
+      "grammarFocus": "只；暂时"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n没有信号 / 一直 / 在这里 / 我的手机",
-      "pinyin": "méi yǒu xìn hào / yì zhí / zài zhè lǐ / wǒ de shǒu jī",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还能保留吗 / 原来的号码 / 以后 / 更换套餐",
+      "pinyin": "hái néng bǎo liú ma / yuán lái de hào mǎ / yǐ hòu / gēng huàn tào cān",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我的手机在这里一直没有信号。",
-        "我的手机在这里一直没有信号",
-        "我的手机在这里一直没有信号.",
-        "我的手机在这里一直没有信号？",
-        "我的手机在这里一直没有信号?"
+        "更换套餐以后原来的号码还能保留吗？",
+        "更换套餐以后原来的号码还能保留吗",
+        "更换套餐以后原来的号码还能保留吗?"
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：我的手机在这里一直没有信号。\nwǒ de shǒu jī zài zhè lǐ yì zhí méi yǒu xìn hào。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：更换套餐以后原来的号码还能保留吗？\ngēng huàn tào cān yǐ hòu yuán lái de hào mǎ hái néng bǎo liú ma\n语法与搭配：……以后；还能",
+      "grammarFocus": "……以后；还能"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n帮我 / 开通 / 请 / 国际通话服务",
-      "pinyin": "bāng wǒ / kāi tōng / qǐng / guó jì tōng huà fú wù",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n接收短信的 / 帮我开通 / 功能 / 请",
+      "pinyin": "jiē shōu duǎn xìn de / bāng wǒ kāi tōng / gōng néng / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我开通国际通话服务。",
-        "请帮我开通国际通话服务",
-        "请帮我开通国际通话服务.",
-        "请帮我开通国际通话服务？",
-        "请帮我开通国际通话服务?"
+        "请帮我开通接收短信的功能。",
+        "请帮我开通接收短信的功能",
+        "请帮我开通接收短信的功能."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请帮我开通国际通话服务。\nqǐng bāng wǒ kāi tōng guó jì tōng huà fú wù。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：请帮我开通接收短信的功能。\nqǐng bāng wǒ kāi tōng jiē shōu duǎn xìn de gōng néng\n语法与搭配：帮＋人；的字短语",
+      "grammarFocus": "帮＋人；的字短语"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

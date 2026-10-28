@@ -1,45 +1,47 @@
 {
   "title": "HSK5 第09课 健康习惯与医疗",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“预防”的正确读音。",
+      "text": "【拼音选择】请选择“就诊”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yù háng",
-        "B": "yù fáng",
-        "C": "bù fáng",
-        "D": "yù fán"
+        "A": "jiù zěn",
+        "B": "jiù zhěng",
+        "C": "qiù zhěn",
+        "D": "jiù zhěn"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "“预防”读作 yù fáng，意思是 phòng ngừa。"
+      "explanation": "“就诊”读作 jiù zhěn。注意声母、韵母、声调及轻声。",
+      "targetWord": "就诊"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“恢复”的正确读音。",
+      "text": "【拼音选择】请选择“营养”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cuī fù",
-        "B": "huī hù",
-        "C": "huī fù",
-        "D": "chuī fù"
+        "A": "yíng yǎng",
+        "B": "yíng yǎn",
+        "C": "yín yǎng",
+        "D": "líng yǎng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "“恢复”读作 huī fù，意思是 hồi phục。"
+      "explanation": "“营养”读作 yíng yǎng。注意声母、韵母、声调及轻声。",
+      "targetWord": "营养"
     },
     {
       "id": 3,
@@ -47,181 +49,199 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“症状”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zèng zhuàng",
+        "A": "zhèng zhuàn",
         "B": "zhèng zhuàng",
-        "C": "zhèn zhuàng",
-        "D": "zhèng zhuàn"
+        "C": "zèng zhuàng",
+        "D": "zhèn zhuàng"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“症状”读作 zhèng zhuàng，意思是 triệu chứng。"
+      "explanation": "“症状”读作 zhèng zhuàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "症状"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“均衡”的正确读音。",
+      "text": "【拼音选择】请选择“医嘱”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jūn hén",
-        "B": "qūn héng",
-        "C": "jūn féng",
-        "D": "jūn héng"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "“均衡”读作 jūn héng，意思是 cân đối。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“治疗”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "zhì liáo",
-        "B": "chì liáo",
-        "C": "shì liáo",
-        "D": "zì liáo"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“治疗”读作 zhì liáo，意思是 điều trị。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：医生提醒大家保持良好的作息有助于____疾病。",
-      "pinyin": "yī shēng tí xǐng dà jiā bǎo chí liáng hǎo de zuò xī yǒu zhù yú ____ jí bìng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: phòng ngừa.",
-      "options": {
-        "A": "均衡",
-        "B": "恢复",
-        "C": "症状",
-        "D": "预防"
-      },
-      "optionPinyin": {
-        "A": "jūn héng",
-        "B": "huī fù",
-        "C": "zhèng zhuàng",
-        "D": "yù fáng"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“预防”（phòng ngừa）。完整句子：医生提醒大家保持良好的作息有助于预防疾病。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：经过一段时间的休息他的身体已经逐渐____了。",
-      "pinyin": "jīng guò yī duàn shí jiān de xiū xī tā de shēn tǐ yǐ jīng zhú jiàn ____ le",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hồi phục.",
-      "options": {
-        "A": "恢复",
-        "B": "预防",
-        "C": "均衡",
-        "D": "症状"
-      },
-      "optionPinyin": {
-        "A": "huī fù",
-        "B": "yù fáng",
-        "C": "jūn héng",
-        "D": "zhèng zhuàng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“恢复”（hồi phục）。完整句子：经过一段时间的休息他的身体已经逐渐恢复了。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：就诊时患者应该准确描述自己的____。",
-      "pinyin": "jiù zhěn shí huàn zhě yīng gāi zhǔn què miáo shù zì jǐ de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: triệu chứng.",
-      "options": {
-        "A": "恢复",
-        "B": "症状",
-        "C": "均衡",
-        "D": "治疗"
-      },
-      "optionPinyin": {
-        "A": "huī fù",
-        "B": "zhèng zhuàng",
-        "C": "jūn héng",
-        "D": "zhì liáo"
+        "A": "yī zǔ",
+        "B": "yī zhǔ",
+        "C": "cī zhǔ",
+        "D": "bī zhǔ"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“症状”（triệu chứng）。完整句子：就诊时患者应该准确描述自己的症状。"
+      "explanation": "“医嘱”读作 yī zhǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "医嘱"
     },
     {
-      "id": 9,
+      "id": 5,
       "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：保持营养____比盲目减少饭量更加重要。",
-      "pinyin": "bǎo chí yíng yǎng ____ bǐ máng mù jiǎn shǎo fàn liàng gèng jiā zhòng yào",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: cân đối.",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“保健”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "症状",
-        "B": "治疗",
-        "C": "均衡",
-        "D": "恢复"
-      },
-      "optionPinyin": {
-        "A": "zhèng zhuàng",
-        "B": "zhì liáo",
-        "C": "jūn héng",
-        "D": "huī fù"
+        "A": "bǎo jiàn",
+        "B": "biǎo jiàn",
+        "C": "bǎo jiàng",
+        "D": "bǎo qiàn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“均衡”（cân đối）。完整句子：保持营养均衡比盲目减少饭量更加重要。"
+      "explanation": "“保健”读作 bǎo jiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "保健"
     },
     {
-      "id": 10,
+      "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：他按照医生的建议积极接受____身体情况逐渐好转。",
-      "pinyin": "tā àn zhào yī shēng de jiàn yì jī jí jiē shòu ____ shēn tǐ qíng kuàng zhú jiàn hǎo zhuǎn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: điều trị.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：规律作息和均衡饮食有助于____良好的身体状态。",
+      "pinyin": "guī lǜ zuò xī hé jūn héng yǐn shí yǒu zhù yú ____ liáng hǎo de shēn tǐ zhuàng tài 。",
+      "vietnamese": "Gợi ý: duy trì.",
       "options": {
-        "A": "恢复",
-        "B": "均衡",
-        "C": "症状",
-        "D": "治疗"
+        "A": "调整",
+        "B": "保持",
+        "C": "信号",
+        "D": "咨询"
       },
       "optionPinyin": {
-        "A": "huī fù",
-        "B": "jūn héng",
-        "C": "zhèng zhuàng",
-        "D": "zhì liáo"
+        "A": "tiáo zhěng",
+        "B": "bǎo chí",
+        "C": "xìn hào",
+        "D": "zī xún"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“保持”。完整句子：规律作息和均衡饮食有助于保持良好的身体状态。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "保持",
+      "completeSentence": "规律作息和均衡饮食有助于保持良好的身体状态。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：如果症状持续不缓解，应及时向医生____。",
+      "pinyin": "rú guǒ zhèng zhuàng chí xù bù huǎn jiě ， yīng jí shí xiàng yī shēng ____。",
+      "vietnamese": "Gợi ý: tham vấn.",
+      "options": {
+        "A": "信号",
+        "B": "保持",
+        "C": "调整",
+        "D": "咨询"
+      },
+      "optionPinyin": {
+        "A": "xìn hào",
+        "B": "bǎo chí",
+        "C": "tiáo zhěng",
+        "D": "zī xún"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“治疗”（điều trị）。完整句子：他按照医生的建议积极接受治疗身体情况逐渐好转。"
+      "explanation": "应填“咨询”。完整句子：如果症状持续不缓解，应及时向医生咨询。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "咨询",
+      "completeSentence": "如果症状持续不缓解，应及时向医生咨询。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他发现身体发出的异常____后，没有再拖延就医。",
+      "pinyin": "tā fā xiàn shēn tǐ fā chū de yì cháng ____ hòu ， méi yǒu zài tuō yán jiù yī 。",
+      "vietnamese": "Gợi ý: tín hiệu.",
+      "options": {
+        "A": "信号",
+        "B": "调整",
+        "C": "保持",
+        "D": "咨询"
+      },
+      "optionPinyin": {
+        "A": "xìn hào",
+        "B": "tiáo zhěng",
+        "C": "bǎo chí",
+        "D": "zī xún"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“信号”。完整句子：他发现身体发出的异常信号后，没有再拖延就医。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "信号",
+      "completeSentence": "他发现身体发出的异常信号后，没有再拖延就医。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：运动强度应根据个人情况逐步____。",
+      "pinyin": "yùn dòng qiáng dù yīng gēn jù gè rén qíng kuàng zhú bù ____。",
+      "vietnamese": "Gợi ý: điều chỉnh.",
+      "options": {
+        "A": "咨询",
+        "B": "信号",
+        "C": "保持",
+        "D": "调整"
+      },
+      "optionPinyin": {
+        "A": "zī xún",
+        "B": "xìn hào",
+        "C": "bǎo chí",
+        "D": "tiáo zhěng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“调整”。完整句子：运动强度应根据个人情况逐步调整。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "调整",
+      "completeSentence": "运动强度应根据个人情况逐步调整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：改变生活方式需要长期____，很难靠几天就看到全部效果。",
+      "pinyin": "gǎi biàn shēng huó fāng shì xū yào cháng qī ____， hěn nán kào jǐ tiān jiù kàn dào quán bù xiào guǒ 。",
+      "vietnamese": "Gợi ý: kiên trì.",
+      "options": {
+        "A": "保持",
+        "B": "咨询",
+        "C": "信号",
+        "D": "坚持"
+      },
+      "optionPinyin": {
+        "A": "bǎo chí",
+        "B": "zī xún",
+        "C": "xìn hào",
+        "D": "jiān chí"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“坚持”。完整句子：改变生活方式需要长期坚持，很难靠几天就看到全部效果。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "坚持",
+      "completeSentence": "改变生活方式需要长期坚持，很难靠几天就看到全部效果。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：医生提醒大家保持良好的作息有助于预防疾病。\nyī shēng tí xǐng dà jiā bǎo chí liáng hǎo de zuò xī yǒu zhù yú yù fáng jí bìng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：医生提醒大家保持良好的作息有助于预防疾病。\nyī shēng tí xǐng dà jiā bǎo chí liáng hǎo de zuò xī yǒu zhù yú yù fáng jí bìng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：经过一段时间的休息他的身体已经逐渐恢复了。\njīng guò yī duàn shí jiān de xiū xī tā de shēn tǐ yǐ jīng zhú jiàn huī fù le。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：经过一段时间的休息他的身体已经逐渐恢复了。\njīng guò yī duàn shí jiān de xiū xī tā de shēn tǐ yǐ jīng zhú jiàn huī fù le。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：已经……了：已完成或已达到的状态",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 13,
@@ -272,7 +294,8 @@
       ],
       "points": 5,
       "hanziCount": 16,
-      "explanation": "参考句子：就诊时患者应该准确描述自己的症状。\njiù zhěn shí huàn zhě yīng gāi zhǔn què miáo shù zì jǐ de zhèng zhuàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：就诊时患者应该准确描述自己的症状。\njiù zhěn shí huàn zhě yīng gāi zhǔn què miáo shù zì jǐ de zhèng zhuàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 14,
@@ -288,7 +311,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：保持营养均衡比盲目减少饭量更加重要。\nbǎo chí yíng yǎng jūn héng bǐ máng mù jiǎn shǎo fàn liàng gèng jiā zhòng yào。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：保持营养均衡比盲目减少饭量更加重要。\nbǎo chí yíng yǎng jūn héng bǐ máng mù jiǎn shǎo fàn liàng gèng jiā zhòng yào。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 15,
@@ -304,7 +328,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：他按照医生的建议积极接受治疗身体情况逐渐好转。\ntā àn zhào yī shēng de jiàn yì jī jí jiē shòu zhì liáo shēn tǐ qíng kuàng zhú jiàn hǎo zhuǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：他按照医生的建议积极接受治疗身体情况逐渐好转。\ntā àn zhào yī shēng de jiàn yì jī jí jiē shòu zhì liáo shēn tǐ qíng kuàng zhú jiàn hǎo zhuǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 16,
@@ -320,7 +345,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解健康习惯的培养还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě jiàn kāng xí guàn de péi yǎng hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解健康习惯的培养还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě jiàn kāng xí guàn de péi yǎng hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -336,7 +362,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化定期检查的意义都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà dìng qī jiǎn chá de yì yì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化定期检查的意义都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà dìng qī jiǎn chá de yì yì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -352,7 +379,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：只有深入理解医患沟通的重要性才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě yī huàn gōu tōng de zhòng yào xìng cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解医患沟通的重要性才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě yī huàn gōu tōng de zhòng yào xìng cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -368,7 +396,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析饮食结构的调整。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī yǐn shí jié gòu de tiáo zhěng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析饮食结构的调整。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī yǐn shí jié gòu de tiáo zhěng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -384,7 +413,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明健康信息的判断。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng jiàn kāng xìn xī de pàn duàn。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明健康信息的判断。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng jiàn kāng xìn xī de pàn duàn。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

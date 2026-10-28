@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第11课 家庭关系与代际沟通",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“尊重”的正确读音。",
+      "text": "【拼音选择】请选择“亲情”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cūn zhòng",
-        "B": "zūn zhòng",
-        "C": "zhūn zhòng",
-        "D": "zūn zòng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“尊重”读作 zūn zhòng，意思是 tôn trọng。"
-    },
-    {
-      "id": 2,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“独立”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "bú lì",
-        "B": "dú nì",
-        "C": "cú lì",
-        "D": "dú lì"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "“独立”读作 dú lì，意思是 độc lập。"
-    },
-    {
-      "id": 3,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“期待”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "xī dài",
-        "B": "bī dài",
-        "C": "qī dài",
-        "D": "jī dài"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“期待”读作 qī dài，意思是 mong đợi。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“耐心”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "lài xīn",
-        "B": "nài xīng",
-        "C": "nài xīn",
-        "D": "nài qīn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“耐心”读作 nài xīn，意思是 kiên nhẫn。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“理解”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "lǐ qiě",
-        "B": "nǐ jiě",
-        "C": "lǐ jiě",
-        "D": "bǐ jiě"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“理解”读作 lǐ jiě，意思是 thấu hiểu。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：即使父母与孩子的想法不同也应该互相____。",
-      "pinyin": "jí shǐ fù mǔ yǔ hái zi de xiǎng fǎ bù tóng yě yīng gāi hù xiāng ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tôn trọng.",
-      "options": {
-        "A": "期待",
-        "B": "耐心",
-        "C": "理解",
-        "D": "尊重"
-      },
-      "optionPinyin": {
-        "A": "qī dài",
-        "B": "nài xīn",
-        "C": "lǐ jiě",
-        "D": "zūn zhòng"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“尊重”（tôn trọng）。完整句子：即使父母与孩子的想法不同也应该互相尊重。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：父母应该逐渐培养孩子____解决问题的能力。",
-      "pinyin": "fù mǔ yīng gāi zhú jiàn péi yǎng hái zi ____ jiě jué wèn tí de néng lì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: độc lập.",
-      "options": {
-        "A": "独立",
-        "B": "理解",
-        "C": "期待",
-        "D": "耐心"
-      },
-      "optionPinyin": {
-        "A": "dú lì",
-        "B": "lǐ jiě",
-        "C": "qī dài",
-        "D": "nài xīn"
+        "A": "qīn qíng",
+        "B": "qīn xíng",
+        "C": "xīn qíng",
+        "D": "jīn qíng"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“独立”（độc lập）。完整句子：父母应该逐渐培养孩子独立解决问题的能力。"
+      "explanation": "“亲情”读作 qīn qíng。注意声母、韵母、声调及轻声。",
+      "targetWord": "亲情"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“代沟”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "dài gōu",
+        "B": "bài gōu",
+        "C": "dài gāo",
+        "D": "cài gōu"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“代沟”读作 dài gōu。注意声母、韵母、声调及轻声。",
+      "targetWord": "代沟"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“亲属”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "qīn shǔ",
+        "B": "qīn sǔ",
+        "C": "jīn shǔ",
+        "D": "xīn shǔ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“亲属”读作 qīn shǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "亲属"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“相处”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "qiāng chǔ",
+        "B": "xiāng cǔ",
+        "C": "xiān chǔ",
+        "D": "xiāng chǔ"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“相处”读作 xiāng chǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "相处"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“界限”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "jiè qiàn",
+        "B": "qiè xiàn",
+        "C": "jiè xiàng",
+        "D": "jiè xiàn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“界限”读作 jiè xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "界限"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：与父母意见不同时，先耐心____对方的理由。",
+      "pinyin": "yǔ fù mǔ yì jiàn bù tóng shí ， xiān nài xīn ____ duì fāng de lǐ yóu 。",
+      "vietnamese": "Gợi ý: lắng nghe.",
+      "options": {
+        "A": "误会",
+        "B": "倾听",
+        "C": "分歧",
+        "D": "尊重"
+      },
+      "optionPinyin": {
+        "A": "wù huì",
+        "B": "qīng tīng",
+        "C": "fēn qí",
+        "D": "zūn zhòng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“倾听”。完整句子：与父母意见不同时，先耐心倾听对方的理由。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "倾听",
+      "completeSentence": "与父母意见不同时，先耐心倾听对方的理由。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：两代人生活经历不同，产生____并不奇怪。",
+      "pinyin": "liǎng dài rén shēng huó jīng lì bù tóng ， chǎn shēng ____ bìng bù qí guài 。",
+      "vietnamese": "Gợi ý: bất đồng.",
+      "options": {
+        "A": "倾听",
+        "B": "尊重",
+        "C": "分歧",
+        "D": "误会"
+      },
+      "optionPinyin": {
+        "A": "qīng tīng",
+        "B": "zūn zhòng",
+        "C": "fēn qí",
+        "D": "wù huì"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“分歧”。完整句子：两代人生活经历不同，产生分歧并不奇怪。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "分歧",
+      "completeSentence": "两代人生活经历不同，产生分歧并不奇怪。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：过高的____有时会给孩子带来不必要的压力。",
-      "pinyin": "guò gāo de ____ yǒu shí huì gěi hái zi dài lái bù bì yào de yā lì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: mong đợi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：家庭成员之间也需要彼此____，不能替对方决定一切。",
+      "pinyin": "jiā tíng chéng yuán zhī jiān yě xū yào bǐ cǐ ____， bù néng tì duì fāng jué dìng yī qiè 。",
+      "vietnamese": "Gợi ý: tôn trọng.",
       "options": {
-        "A": "独立",
-        "B": "理解",
-        "C": "期待",
-        "D": "耐心"
+        "A": "倾听",
+        "B": "尊重",
+        "C": "误会",
+        "D": "分歧"
       },
       "optionPinyin": {
-        "A": "dú lì",
-        "B": "lǐ jiě",
-        "C": "qī dài",
-        "D": "nài xīn"
+        "A": "qīng tīng",
+        "B": "zūn zhòng",
+        "C": "wù huì",
+        "D": "fēn qí"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“期待”（mong đợi）。完整句子：过高的期待有时会给孩子带来不必要的压力。"
+      "explanation": "应填“尊重”。完整句子：家庭成员之间也需要彼此尊重，不能替对方决定一切。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "尊重",
+      "completeSentence": "家庭成员之间也需要彼此尊重，不能替对方决定一切。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：与长辈沟通时我们应该保持足够的____。",
-      "pinyin": "yǔ zhǎng bèi gōu tōng shí wǒ men yīng gāi bǎo chí zú gòu de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kiên nhẫn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：坦诚表达需求，有助于减少不必要的____。",
+      "pinyin": "tǎn chéng biǎo dá xū qiú ， yǒu zhù yú jiǎn shǎo bù bì yào de ____。",
+      "vietnamese": "Gợi ý: hiểu lầm.",
       "options": {
-        "A": "独立",
-        "B": "期待",
-        "C": "耐心",
-        "D": "尊重"
+        "A": "分歧",
+        "B": "尊重",
+        "C": "倾听",
+        "D": "误会"
       },
       "optionPinyin": {
-        "A": "dú lì",
-        "B": "qī dài",
-        "C": "nài xīn",
-        "D": "zūn zhòng"
+        "A": "fēn qí",
+        "B": "zūn zhòng",
+        "C": "qīng tīng",
+        "D": "wù huì"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“耐心”（kiên nhẫn）。完整句子：与长辈沟通时我们应该保持足够的耐心。"
+      "explanation": "应填“误会”。完整句子：坦诚表达需求，有助于减少不必要的误会。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "误会",
+      "completeSentence": "坦诚表达需求，有助于减少不必要的误会。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：只有换个角度思考才能更好地____家人的选择。",
-      "pinyin": "zhǐ yǒu huàn gè jiǎo dù sī kǎo cái néng gèng hǎo dì ____ jiā rén de xuǎn zé",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thấu hiểu.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他开始主动分担家务，用行动承担家庭____。",
+      "pinyin": "tā kāi shǐ zhǔ dòng fēn dān jiā wù ， yòng xíng dòng chéng dān jiā tíng ____。",
+      "vietnamese": "Gợi ý: trách nhiệm.",
       "options": {
-        "A": "尊重",
-        "B": "独立",
-        "C": "理解",
-        "D": "耐心"
+        "A": "责任",
+        "B": "分歧",
+        "C": "尊重",
+        "D": "倾听"
       },
       "optionPinyin": {
-        "A": "zūn zhòng",
-        "B": "dú lì",
-        "C": "lǐ jiě",
-        "D": "nài xīn"
+        "A": "zé rèn",
+        "B": "fēn qí",
+        "C": "zūn zhòng",
+        "D": "qīng tīng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“理解”（thấu hiểu）。完整句子：只有换个角度思考才能更好地理解家人的选择。"
+      "explanation": "应填“责任”。完整句子：他开始主动分担家务，用行动承担家庭责任。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "责任",
+      "completeSentence": "他开始主动分担家务，用行动承担家庭责任。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：即使父母与孩子的想法不同也应该互相尊重。\njí shǐ fù mǔ yǔ hái zi de xiǎng fǎ bù tóng yě yīng gāi hù xiāng zūn zhòng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：即使父母与孩子的想法不同也应该互相尊重。\njí shǐ fù mǔ yǔ hái zi de xiǎng fǎ bù tóng yě yīng gāi hù xiāng zūn zhòng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：父母应该逐渐培养孩子独立解决问题的能力。\nfù mǔ yīng gāi zhú jiàn péi yǎng hái zi dú lì jiě jué wèn tí de néng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：父母应该逐渐培养孩子独立解决问题的能力。\nfù mǔ yīng gāi zhú jiàn péi yǎng hái zi dú lì jiě jué wèn tí de néng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：过高的期待有时会给孩子带来不必要的压力。\nguò gāo de qī dài yǒu shí huì gěi hái zi dài lái bù bì yào de yā lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：过高的期待有时会给孩子带来不必要的压力。\nguò gāo de qī dài yǒu shí huì gěi hái zi dài lái bù bì yào de yā lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋过：经历表达",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 14,
@@ -288,7 +311,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：与长辈沟通时我们应该保持足够的耐心。\nyǔ zhǎng bèi gōu tōng shí wǒ men yīng gāi bǎo chí zú gòu de nài xīn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：与长辈沟通时我们应该保持足够的耐心。\nyǔ zhǎng bèi gōu tōng shí wǒ men yīng gāi bǎo chí zú gòu de nài xīn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -304,7 +328,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：只有换个角度思考才能更好地理解家人的选择。\nzhǐ yǒu huàn gè jiǎo dù sī kǎo cái néng gèng hǎo dì lǐ jiě jiā rén de xuǎn zé。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：只有换个角度思考才能更好地理解家人的选择。\nzhǐ yǒu huàn gè jiǎo dù sī kǎo cái néng gèng hǎo dì lǐ jiě jiā rén de xuǎn zé。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 16,
@@ -320,7 +345,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解代际差异的原因还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě dài jì chā yì de yuán yīn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解代际差异的原因还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě dài jì chā yì de yuán yīn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -336,7 +362,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化家庭沟通的方式都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà jiā tíng gōu tōng de fāng shì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化家庭沟通的方式都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà jiā tíng gōu tōng de fāng shì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -352,7 +379,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解独立生活的意义才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě dú lì shēng huó de yì yì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解独立生活的意义才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě dú lì shēng huó de yì yì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -368,7 +396,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析父母期待的影响。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī fù mǔ qī dài de yǐng xiǎng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析父母期待的影响。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī fù mǔ qī dài de yǐng xiǎng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -384,7 +413,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明家庭责任的分担。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng jiā tíng zé rèn de fēn dān。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明家庭责任的分担。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng jiā tíng zé rèn de fēn dān。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

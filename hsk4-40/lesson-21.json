@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第21课 向中国朋友介绍越南",
-  "description": "中越生活与工作情境原创拓展练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "中越生活与工作情境原创拓展练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“越南”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "juè nán",
-        "B": "yuè lán",
-        "C": "yuè náng",
-        "D": "yuè nán"
+        "B": "yuè náng",
+        "C": "yuè nán",
+        "D": "yuè lán"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“越南”的正确读音是 yuè nán。"
+      "explanation": "“越南”读作 yuè nán。注意声母、韵母、声调及轻声。",
+      "targetWord": "越南"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“首都”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sǒu dū",
-        "B": "chǒu dū",
-        "C": "shǒu dū",
-        "D": "shǎo dū"
+        "A": "chǒu dū",
+        "B": "shǒu dū",
+        "C": "shǎo dū",
+        "D": "sǒu dū"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“首都”的正确读音是 shǒu dū。"
+      "explanation": "“首都”读作 shǒu dū。注意声母、韵母、声调及轻声。",
+      "targetWord": "首都"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“河内”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hé lèi",
-        "B": "hé nài",
-        "C": "ché nèi",
-        "D": "hé nèi"
+        "A": "hé nài",
+        "B": "hé nèi",
+        "C": "hé lèi",
+        "D": "ché nèi"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“河内”的正确读音是 hé nèi。"
+      "explanation": "“河内”读作 hé nèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "河内"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“城市”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "chéng shì",
-        "B": "chéng sì",
+        "B": "céng shì",
         "C": "chén shì",
-        "D": "céng shì"
+        "D": "chéng sì"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“城市”的正确读音是 chéng shì。"
+      "explanation": "“城市”读作 chéng shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "城市"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“地理”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cì lǐ",
-        "B": "bì lǐ",
-        "C": "dì nǐ",
+        "A": "dì nǐ",
+        "B": "cì lǐ",
+        "C": "bì lǐ",
         "D": "dì lǐ"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“地理”的正确读音是 dì lǐ。"
+      "explanation": "“地理”读作 dì lǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "地理"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“位置”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wèi zì",
+        "A": "wèi zhì",
         "B": "bèi zhì",
-        "C": "wèi zhì",
-        "D": "wài zhì"
+        "C": "wài zhì",
+        "D": "wèi zì"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“位置”的正确读音是 wèi zhì。"
+      "explanation": "“位置”读作 wèi zhì。注意声母、韵母、声调及轻声。",
+      "targetWord": "位置"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“邻国”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "nín guó",
-        "B": "lián guó",
-        "C": "lín guó",
-        "D": "líng guó"
+        "A": "líng guó",
+        "B": "nín guó",
+        "C": "lián guó",
+        "D": "lín guó"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“邻国”的正确读音是 lín guó。"
+      "explanation": "“邻国”读作 lín guó。注意声母、韵母、声调及轻声。",
+      "targetWord": "邻国"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“东南亚”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dōng náng yà",
-        "B": "dōng nán yà",
-        "C": "cōng nán yà",
-        "D": "dōng lán yà"
+        "A": "dōng lán yà",
+        "B": "cōng nán yà",
+        "C": "dōng nán yà",
+        "D": "dōng náng yà"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“东南亚”的正确读音是 dōng nán yà。"
+      "explanation": "“东南亚”读作 dōng nán yà。注意声母、韵母、声调及轻声。",
+      "targetWord": "东南亚"
     },
     {
       "id": 9,
@@ -161,18 +169,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“民族”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "mín zhú",
         "B": "míng zú",
-        "C": "lín zú",
-        "D": "mín zú"
+        "C": "mín zú",
+        "D": "lín zú"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“民族”的正确读音是 mín zú。"
+      "explanation": "“民族”读作 mín zú。注意声母、韵母、声调及轻声。",
+      "targetWord": "民族"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“语言”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǔ yán",
-        "B": "cǔ yán",
-        "C": "yǔ yán",
+        "A": "yǔ yán",
+        "B": "bǔ yán",
+        "C": "cǔ yán",
         "D": "yǔ yáng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“语言”的正确读音是 yǔ yán。"
+      "explanation": "“语言”读作 yǔ yán。注意声母、韵母、声调及轻声。",
+      "targetWord": "语言"
     },
     {
       "id": 11,
@@ -199,7 +209,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“人口”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "rén kǎo",
         "B": "réng kǒu",
@@ -210,7 +220,8 @@
         "D"
       ],
       "points": 2,
-      "explanation": "“人口”的正确读音是 rén kǒu。"
+      "explanation": "“人口”读作 rén kǒu。注意声母、韵母、声调及轻声。",
+      "targetWord": "人口"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“气候”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "xì hòu",
         "B": "jì hòu",
-        "C": "qì hòu",
-        "D": "qì hào"
+        "C": "qì hào",
+        "D": "qì hòu"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“气候”的正确读音是 qì hòu。"
+      "explanation": "“气候”读作 qì hòu。注意声母、韵母、声调及轻声。",
+      "targetWord": "气候"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“文化”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "fén huà",
-        "B": "gén huà",
+        "B": "wén huà",
         "C": "cén huà",
-        "D": "wén huà"
+        "D": "gén huà"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“文化”的正确读音是 wén huà。"
+      "explanation": "“文化”读作 wén huà。注意声母、韵母、声调及轻声。",
+      "targetWord": "文化"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“特色”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gè sè",
-        "B": "tè sè",
-        "C": "tè shè",
-        "D": "cè sè"
+        "A": "tè sè",
+        "B": "tè shè",
+        "C": "cè sè",
+        "D": "gè sè"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“特色”的正确读音是 tè sè。"
+      "explanation": "“特色”读作 tè sè。注意声母、韵母、声调及轻声。",
+      "targetWord": "特色"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“介绍”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jiè sào",
-        "B": "qiè shào",
-        "C": "jiè shòu",
-        "D": "jiè shào"
+        "B": "jiè shào",
+        "C": "qiè shào",
+        "D": "jiè shòu"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“介绍”的正确读音是 jiè shào。"
+      "explanation": "“介绍”读作 jiè shào。注意声母、韵母、声调及轻声。",
+      "targetWord": "介绍"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“位于”（nằm ở）。完整句子：越南位于亚洲的东南部。"
+      "explanation": "应填“位于”（nằm ở）。完整句子：越南位于亚洲的东南部。",
+      "targetWord": "位于",
+      "completeSentence": "越南位于亚洲的东南部。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“接壤”（giáp ranh）。完整句子：越南北部与中国接壤。"
+      "explanation": "应填“接壤”（giáp ranh）。完整句子：越南北部与中国接壤。",
+      "targetWord": "接壤",
+      "completeSentence": "越南北部与中国接壤。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“南方”（miền nam）。完整句子：胡志明市是一座位于越南南方的大城市。"
+      "explanation": "应填“南方”（miền nam）。完整句子：胡志明市是一座位于越南南方的大城市。",
+      "targetWord": "南方",
+      "completeSentence": "胡志明市是一座位于越南南方的大城市。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“季节”（mùa）。完整句子：越南不同地区的季节特点不完全相同。"
+      "explanation": "应填“季节”（mùa）。完整句子：越南不同地区的季节特点不完全相同。",
+      "targetWord": "季节",
+      "completeSentence": "越南不同地区的季节特点不完全相同。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“丰富”（phong phú）。完整句子：越南有丰富的自然景观和饮食文化。"
+      "explanation": "应填“丰富”（phong phú）。完整句子：越南有丰富的自然景观和饮食文化。",
+      "targetWord": "丰富",
+      "completeSentence": "越南有丰富的自然景观和饮食文化。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“热情”（nhiệt tình）。完整句子：这里的人们对远方来的客人十分热情。"
+      "explanation": "应填“热情”（nhiệt tình）。完整句子：这里的人们对远方来的客人十分热情。",
+      "targetWord": "热情",
+      "completeSentence": "这里的人们对远方来的客人十分热情。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“历史”（lịch sử）。完整句子：想了解一个国家，可以先了解它的历史。"
+      "explanation": "应填“历史”（lịch sử）。完整句子：想了解一个国家，可以先了解它的历史。",
+      "targetWord": "历史",
+      "completeSentence": "想了解一个国家，可以先了解它的历史。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“传统”（truyền thống）。完整句子：春节是越南重要的传统节日之一。"
+      "explanation": "应填“传统”（truyền thống）。完整句子：春节是越南重要的传统节日之一。",
+      "targetWord": "传统",
+      "completeSentence": "春节是越南重要的传统节日之一。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“习惯”（thói quen）。完整句子：来到新地方，最好先了解当地人的生活习惯。"
+      "explanation": "应填“习惯”（thói quen）。完整句子：来到新地方，最好先了解当地人的生活习惯。",
+      "targetWord": "习惯",
+      "completeSentence": "来到新地方，最好先了解当地人的生活习惯。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“吸引”（thu hút）。完整句子：美丽的海岸和美食吸引了许多外国游客。"
+      "explanation": "应填“吸引”（thu hút）。完整句子：美丽的海岸和美食吸引了许多外国游客。",
+      "targetWord": "吸引",
+      "completeSentence": "美丽的海岸和美食吸引了许多外国游客。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“方便”（thuận tiện）。完整句子：现在从河内去其他城市，交通越来越方便。"
+      "explanation": "应填“方便”（thuận tiện）。完整句子：现在从河内去其他城市，交通越来越方便。",
+      "targetWord": "方便",
+      "completeSentence": "现在从河内去其他城市，交通越来越方便。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“不同”（khác nhau）。完整句子：越南北部和南部的口音有一些不同。"
+      "explanation": "应填“不同”（khác nhau）。完整句子：越南北部和南部的口音有一些不同。",
+      "targetWord": "不同",
+      "completeSentence": "越南北部和南部的口音有一些不同。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“参观”（tham quan）。完整句子：我建议你去参观河内的历史建筑。"
+      "explanation": "应填“参观”（tham quan）。完整句子：我建议你去参观河内的历史建筑。",
+      "targetWord": "参观",
+      "completeSentence": "我建议你去参观河内的历史建筑。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“欢迎”（chào đón）。完整句子：欢迎你来我的国家旅行，我可以给你当导游。"
+      "explanation": "应填“欢迎”（chào đón）。完整句子：欢迎你来我的国家旅行，我可以给你当导游。",
+      "targetWord": "欢迎",
+      "completeSentence": "欢迎你来我的国家旅行，我可以给你当导游。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“值得”（đáng）。完整句子：越南还有很多值得慢慢了解的地方。"
+      "explanation": "应填“值得”（đáng）。完整句子：越南还有很多值得慢慢了解的地方。",
+      "targetWord": "值得",
+      "completeSentence": "越南还有很多值得慢慢了解的地方。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "如果你第一次来越南旅行我建议先了解当地的天气."
       ],
       "points": 2,
-      "explanation": "参考句子：如果你第一次来越南旅行我建议先了解当地的天气。\nrú guǒ nǐ dì yī cì lái yuè nán lǚ xíng wǒ jiàn yì xiān liǎo jiě dāng dì de tiān qì 。",
-      "hanziCount": 22
+      "explanation": "参考句子：如果你第一次来越南旅行我建议先了解当地的天气。\nrú guǒ nǐ dì yī cì lái yuè nán lǚ xíng wǒ jiàn yì xiān liǎo jiě dāng dì de tiān qì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "越南不仅有美丽的自然风景还有丰富多样的传统文化."
       ],
       "points": 2,
-      "explanation": "参考句子：越南不仅有美丽的自然风景还有丰富多样的传统文化。\nyuè nán bù jǐn yǒu měi lì de zì rán fēng jǐng hái yǒu fēng fù duō yàng de chuán tǒng wén huà 。",
-      "hanziCount": 23
+      "explanation": "参考句子：越南不仅有美丽的自然风景还有丰富多样的传统文化。\nyuè nán bù jǐn yǒu měi lì de zì rán fēng jǐng hái yǒu fēng fù duō yàng de chuán tǒng wén huà 。\n语法与搭配：不仅……还……：递进关系",
+      "hanziCount": 23,
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "我想用汉语向中国朋友介绍自己的国家和家乡."
       ],
       "points": 2,
-      "explanation": "参考句子：我想用汉语向中国朋友介绍自己的国家和家乡。\nwǒ xiǎng yòng hàn yǔ xiàng zhōng guó péng you jiè shào zì jǐ de guó jiā hé jiā xiāng 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我想用汉语向中国朋友介绍自己的国家和家乡。\nwǒ xiǎng yòng hàn yǔ xiàng zhōng guó péng you jiè shào zì jǐ de guó jiā hé jiā xiāng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "虽然两国的生活习惯有些不同但是我们有很多共同的话题."
       ],
       "points": 2,
-      "explanation": "参考句子：虽然两国的生活习惯有些不同但是我们有很多共同的话题。\nsuī rán liǎng guó de shēng huó xí guàn yǒu xiē bù tóng dàn shì wǒ men yǒu hěn duō gòng tóng de huà tí 。",
-      "hanziCount": 25
+      "explanation": "参考句子：虽然两国的生活习惯有些不同但是我们有很多共同的话题。\nsuī rán liǎng guó de shēng huó xí guàn yǒu xiē bù tóng dàn shì wǒ men yǒu hěn duō gòng tóng de huà tí 。\n语法与搭配：虽然……但是……：转折关系",
+      "hanziCount": 25,
+      "grammarFocus": "虽然……但是……：转折关系"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "来之前你最好先告诉我时间我好安排接待你的事情."
       ],
       "points": 2,
-      "explanation": "参考句子：来之前你最好先告诉我时间我好安排接待你的事情。\nlái zhī qián nǐ zuì hǎo xiān gào sù wǒ shí jiān wǒ hǎo ān pái jiē dài nǐ de shì qing 。",
-      "hanziCount": 22
+      "explanation": "参考句子：来之前你最好先告诉我时间我好安排接待你的事情。\nlái zhī qián nǐ zuì hǎo xiān gào sù wǒ shí jiān wǒ hǎo ān pái jiē dài nǐ de shì qing 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "我们还没有讨论清楚越南不同地区的气候."
       ],
       "points": 2,
-      "explanation": "参考句子：我们还没有讨论清楚越南不同地区的气候。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ yuè nán bù tóng dì qū de qì hòu 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们还没有讨论清楚越南不同地区的气候。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ yuè nán bù tóng dì qū de qì hòu 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "大家都需要认真了解介绍国家时的表达顺序."
       ],
       "points": 2,
-      "explanation": "参考句子：大家都需要认真了解介绍国家时的表达顺序。\ndà jiā dōu xū yào rèn zhēn liǎo jiě jiè shào guó jiā shí de biǎo dá shùn xù 。",
-      "hanziCount": 19
+      "explanation": "参考句子：大家都需要认真了解介绍国家时的表达顺序。\ndà jiā dōu xū yào rèn zhēn liǎo jiě jiè shào guó jiā shí de biǎo dá shùn xù 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "这次活动让我们重新思考河内吸引游客的地方."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考河内吸引游客的地方。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo hé nèi xī yǐn yóu kè de dì fang 。",
-      "hanziCount": 20
+      "explanation": "参考句子：这次活动让我们重新思考河内吸引游客的地方。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo hé nèi xī yǐn yóu kè de dì fang 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "老师希望大家认真分析中越两国相邻的地区."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析中越两国相邻的地区。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī zhōng yuè liǎng guó xiāng lín de dì qū 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析中越两国相邻的地区。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī zhōng yuè liǎng guó xiāng lín de dì qū 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "我们有必要深入了解越南日常生活的特点."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解越南日常生活的特点。\nwǒ men yǒu bì yào shēn rù liǎo jiě yuè nán rì cháng shēng huó de tè diǎn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们有必要深入了解越南日常生活的特点。\nwǒ men yǒu bì yào shēn rù liǎo jiě yuè nán rì cháng shēng huó de tè diǎn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "他在报告中详细介绍了不同城市之间的交通."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了不同城市之间的交通。\ntā zài bào gào zhōng xiáng xì jiè shào le bù tóng chéng shì zhī jiān de jiāo tōng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：他在报告中详细介绍了不同城市之间的交通。\ntā zài bào gào zhōng xiáng xì jiè shào le bù tóng chéng shì zhī jiān de jiāo tōng 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 19,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "请大家先讨论一下如何向朋友推荐旅行路线."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下如何向朋友推荐旅行路线。\nqǐng dà jiā xiān tǎo lùn yī xià rú hé xiàng péng you tuī jiàn lǚ xíng lù xiàn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：请大家先讨论一下如何向朋友推荐旅行路线。\nqǐng dà jiā xiān tǎo lùn yī xià rú hé xiàng péng you tuī jiàn lǚ xíng lù xiàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "我想请老师进一步解释越南人的待客习惯."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释越南人的待客习惯。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì yuè nán rén de dài kè xí guàn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我想请老师进一步解释越南人的待客习惯。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì yuè nán rén de dài kè xí guàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "同学们正在一起讨论介绍传统文化的方法."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论介绍传统文化的方法。\ntóng xué men zhèng zài yì qǐ tǎo lùn jiè shào chuán tǒng wén huà de fāng fǎ 。",
-      "hanziCount": 18
+      "explanation": "参考句子：同学们正在一起讨论介绍传统文化的方法。\ntóng xué men zhèng zài yì qǐ tǎo lùn jiè shào chuán tǒng wén huà de fāng fǎ 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 18,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "老师请我们认真讨论第一次来越南的准备."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论第一次来越南的准备。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn dì yī cì lái yuè nán de zhǔn bèi 。",
-      "hanziCount": 18
+      "explanation": "参考句子：老师请我们认真讨论第一次来越南的准备。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn dì yī cì lái yuè nán de zhǔn bèi 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "我们应该提前了解两国生活方式的差异."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解两国生活方式的差异。\nwǒ men yīng gāi tí qián liǎo jiě liǎng guó shēng huó fāng shì de chā yì 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我们应该提前了解两国生活方式的差异。\nwǒ men yīng gāi tí qián liǎo jiě liǎng guó shēng huó fāng shì de chā yì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "大家可以一起讨论介绍当地美食的方式."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论介绍当地美食的方式。\ndà jiā kě yǐ yì qǐ tǎo lùn jiè shào dāng dì měi shí de fāng shì 。",
-      "hanziCount": 17
+      "explanation": "参考句子：大家可以一起讨论介绍当地美食的方式。\ndà jiā kě yǐ yì qǐ tǎo lùn jiè shào dāng dì měi shí de fāng shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "我已经认真考虑过越南语言学习的特点."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过越南语言学习的特点。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò yuè nán yǔ yán xué xí de tè diǎn 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我已经认真考虑过越南语言学习的特点。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò yuè nán yǔ yán xué xí de tè diǎn 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 17,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "这篇文章主要介绍了国家介绍中的常见问题."
       ],
       "points": 2,
-      "explanation": "参考句子：这篇文章主要介绍了国家介绍中的常见问题。\nzhè piān wén zhāng zhǔ yào jiè shào le guó jiā jiè shào zhōng de cháng jiàn wèn tí 。",
-      "hanziCount": 19
+      "explanation": "参考句子：这篇文章主要介绍了国家介绍中的常见问题。\nzhè piān wén zhāng zhǔ yào jiè shào le guó jiā jiè shào zhōng de cháng jiàn wèn tí 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "请结合例子具体说明回答外国朋友的提问."
       ],
       "points": 2,
-      "explanation": "参考句子：请结合例子具体说明回答外国朋友的提问。\nqǐng jié hé lì zi jù tǐ shuō míng huí dá wài guó péng you de tí wèn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请结合例子具体说明回答外国朋友的提问。\nqǐng jié hé lì zi jù tǐ shuō míng huí dá wài guó péng you de tí wèn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

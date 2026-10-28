@@ -136,3 +136,7 @@ insert=next(i for i,e in enumerate(before) if e['bank']=='hsk4')+1
 catalog['exercises']=before[:insert]+entries+before[insert:]
 (ROOT/'exercise-catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
 print(f'Generated {len(entries)} lessons, {sum(len(e["exercise"]["questions"]) for e in entries)} questions; {len(catalog["exercises"])} total entries')
+
+# Reapply authored section separation and refresh every downloadable copy.
+import subprocess,sys
+subprocess.run([sys.executable,str(ROOT/"tools/optimize-exercises.py")],check=True)

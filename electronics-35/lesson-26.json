@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第26课 合格品与不良品管理",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“合格品”的正确读音。",
+      "text": "【拼音选择】请选择“待判”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dé gé pǐn",
-        "B": "hé gé pǐn",
-        "C": "ché gé pǐn",
-        "D": "hé gé pǐng"
+        "A": "cài pàn",
+        "B": "dài pàn",
+        "C": "dài pàng",
+        "D": "bài pàn"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“合格品”读作 hé gé pǐn，本课词义：hàng đạt。"
+      "explanation": "“待判”读作 dài pàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "待判"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“不良品”的正确读音。",
+      "text": "【拼音选择】请选择“报废”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bù liáng pǐn",
-        "B": "bù lián pǐn",
-        "C": "bù niáng pǐn",
-        "D": "bù liáng pǐng"
+        "A": "bài fèi",
+        "B": "bà fèi",
+        "C": "biào fèi",
+        "D": "bào fèi"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“不良品”读作 bù liáng pǐn，本课词义：hàng lỗi。"
+      "explanation": "“报废”读作 bào fèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "报废"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“待检”的正确读音。",
+      "text": "【拼音选择】请选择“误放”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bài jiǎn",
-        "B": "dài jiǎn",
-        "C": "dài qiǎn",
-        "D": "dài jiǎng"
+        "A": "bù fàng",
+        "B": "wù fàn",
+        "C": "wù hàng",
+        "D": "wù fàng"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“待检”读作 dài jiǎn，本课词义：chờ kiểm tra。"
+      "explanation": "“误放”读作 wù fàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "误放"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“标识”的正确读音。",
+      "text": "【拼音选择】请选择“混入”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biāo sí",
-        "B": "biāo shí",
-        "C": "bāo shí",
-        "D": "biān shí"
+        "A": "hùn rù",
+        "B": "dùn rù",
+        "C": "gùn rù",
+        "D": "cùn rù"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“标识”读作 biāo shí，本课词义：nhãn trạng thái, dấu hiệu。"
+      "explanation": "“混入”读作 hùn rù。注意声母、韵母、声调及轻声。",
+      "targetWord": "混入"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“隔离区”的正确读音。",
+      "text": "【拼音选择】请选择“合格区”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gé lí qū",
-        "B": "gé lí jū",
-        "C": "gé ní qū",
-        "D": "gé lí xū"
+        "A": "ché gé qū",
+        "B": "hé gé qū",
+        "C": "hé gé xū",
+        "D": "hé gé jū"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“隔离区”读作 gé lí qū，本课词义：khu cách ly。"
+      "explanation": "“合格区”读作 hé gé qū。注意声母、韵母、声调及轻声。",
+      "targetWord": "合格区"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“混放”的正确读音。",
+      "text": "【拼音选择】请选择“待检区”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hùn hàng",
-        "B": "cùn fàng",
-        "C": "hùn fàng",
-        "D": "hùn fàn"
+        "A": "dài qiǎn qū",
+        "B": "dài jiǎn qū",
+        "C": "dài jiǎn xū",
+        "D": "dài jiǎn jū"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“混放”读作 hùn fàng，本课词义：để lẫn。"
+      "explanation": "“待检区”读作 dài jiǎn qū。注意声母、韵母、声调及轻声。",
+      "targetWord": "待检区"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“处置”的正确读音。",
+      "text": "【拼音选择】请选择“红标”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cǔ zhì",
-        "B": "chǔ zhì",
-        "C": "chuǎ zhì",
-        "D": "chǔ zì"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“处置”读作 chǔ zhì，本课词义：xử lý。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“流转”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "liú zuǎn",
-        "B": "liú zhuǎng",
-        "C": "liú zhuǎn",
-        "D": "niú zhuǎn"
+        "A": "chóng biāo",
+        "B": "cóng biāo",
+        "C": "hóng biāo",
+        "D": "háng biāo"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“流转”读作 liú zhuǎn，本课词义：luân chuyển。"
+      "explanation": "“红标”读作 hóng biāo。注意声母、韵母、声调及轻声。",
+      "targetWord": "红标"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“绿标”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "nù biāo",
+        "B": "cù biāo",
+        "C": "bù biāo",
+        "D": "lǜ biāo"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“绿标”读作 lǜ biāo。注意声母、韵母、声调及轻声。",
+      "targetWord": "绿标"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“追溯”的正确读音。",
+      "text": "【拼音选择】请选择“橙标”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuī shù",
-        "B": "zhuī sù",
-        "C": "zuī sù",
-        "D": "chuī sù"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“追溯”读作 zhuī sù，本课词义：truy xuất。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“状态”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "zhuàng tài",
-        "B": "chuàng tài",
-        "C": "zhuàn tài",
-        "D": "huàng tài"
+        "A": "chéng biāo",
+        "B": "chén biāo",
+        "C": "cháng biāo",
+        "D": "céng biāo"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“状态”读作 zhuàng tài，本课词义：trạng thái。"
+      "explanation": "“橙标”读作 chéng biāo。注意声母、韵母、声调及轻声。",
+      "targetWord": "橙标"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“防混”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "háng hùn",
+        "B": "fáng hùn",
+        "C": "cáng hùn",
+        "D": "fán hùn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“防混”读作 fáng hùn。注意声母、韵母、声调及轻声。",
+      "targetWord": "防混"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“合格品”（hàng đạt）。完整表达：这批合格品请放到指定区域。"
+      "explanation": "应填“合格品”（hàng đạt）。完整表达：这批合格品请放到指定区域。",
+      "targetWord": "合格品",
+      "completeSentence": "这批合格品请放到指定区域。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“不良品”（hàng lỗi）。完整表达：发现不良品以后请按照规定标识和隔离。"
+      "explanation": "应填“不良品”（hàng lỗi）。完整表达：发现不良品以后请按照规定标识和隔离。",
+      "targetWord": "不良品",
+      "completeSentence": "发现不良品以后请按照规定标识和隔离。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“待检”（chờ kiểm tra）。完整表达：这批产品目前处于待检状态不能当作合格品流转。"
+      "explanation": "应填“待检”（chờ kiểm tra）。完整表达：这批产品目前处于待检状态不能当作合格品流转。",
+      "targetWord": "待检",
+      "completeSentence": "这批产品目前处于待检状态不能当作合格品流转。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“标识”（nhãn trạng thái, dấu hiệu）。完整表达：产品状态的标识不清楚请先核实。"
+      "explanation": "应填“标识”（nhãn trạng thái, dấu hiệu）。完整表达：产品状态的标识不清楚请先核实。",
+      "targetWord": "标识",
+      "completeSentence": "产品状态的标识不清楚请先核实。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“隔离区”（khu cách ly）。完整表达：请问异常产品应该放到哪个隔离区。"
+      "explanation": "应填“隔离区”（khu cách ly）。完整表达：请问异常产品应该放到哪个隔离区。",
+      "targetWord": "隔离区",
+      "completeSentence": "请问异常产品应该放到哪个隔离区。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“混放”（để lẫn）。完整表达：不同状态的产品请不要混放。"
+      "explanation": "应填“混放”（để lẫn）。完整表达：不同状态的产品请不要混放。",
+      "targetWord": "混放",
+      "completeSentence": "不同状态的产品请不要混放。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“处置”（xử lý）。完整表达：这批产品的处置还需要授权人员决定。"
+      "explanation": "应填“处置”（xử lý）。完整表达：这批产品的处置还需要授权人员决定。",
+      "targetWord": "处置",
+      "completeSentence": "这批产品的处置还需要授权人员决定。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“流转”（luân chuyển）。完整表达：这批货是否可以流转请先确认状态。"
+      "explanation": "应填“流转”（luân chuyển）。完整表达：这批货是否可以流转请先确认状态。",
+      "targetWord": "流转",
+      "completeSentence": "这批货是否可以流转请先确认状态。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“追溯”（truy xuất）。完整表达：这些批次信息需要保留以便追溯。"
+      "explanation": "应填“追溯”（truy xuất）。完整表达：这些批次信息需要保留以便追溯。",
+      "targetWord": "追溯",
+      "completeSentence": "这些批次信息需要保留以便追溯。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“状态”（trạng thái）。完整表达：系统中的产品状态和实物标识需要保持一致。"
+      "explanation": "应填“状态”（trạng thái）。完整表达：系统中的产品状态和实物标识需要保持一致。",
+      "targetWord": "状态",
+      "completeSentence": "系统中的产品状态和实物标识需要保持一致。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想让同事将合格产品放到规定位置，应该怎么说？",
-      "pinyin": "nǐ xiǎng ràng tóng shì jiāng hé gé chǎn pǐn fàng dào guī dìng wèi zhì ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“产品状态管理要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ chǎn pǐn zhuàng tài guǎn lǐ yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果产品隔离安排有变化请及时通知我",
-        "B": "这批合格品请放到指定区域",
-        "C": "这些批次信息需要保留以便追溯",
-        "D": "这批产品目前处于待检状态不能当作合格品流转"
+        "A": "我还没有收到关于产品状态管理要求的资料",
+        "B": "我这次只想核实产品状态管理要求",
+        "C": "我还需要进一步了解产品状态管理要求",
+        "D": "我还没有收到关于不良品去向的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "rú guǒ chǎn pǐn gé lí ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "zhè pī hé gé pǐn qǐng fàng dào zhǐ dìng qū yù",
-        "C": "zhè xiē pī cì xìn xī xū yào bǎo liú yǐ biàn zhuī sù",
-        "D": "zhè pī chǎn pǐn mù qián chǔ yú dài jiǎn zhuàng tài bù néng dàng zuò hé gé pǐn liú zhuǎn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn zhuàng tài guǎn lǐ yāo qiú de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn zhuàng tài guǎn lǐ yāo qiú",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn zhuàng tài guǎn lǐ yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú bù liáng pǐn qù xiàng de hé shí jié guǒ de zī liào"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想让同事将合格产品放到规定位置，应该怎么说？\n符合此任务的表达：这批合格品请放到指定区域。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“产品状态管理要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于产品状态管理要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于产品状态管理要求的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒不合格产品需按规定标识区隔，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng bù hé gé chǎn pǐn xū àn guī dìng biāo shí qū gé ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“不良品去向的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ bù liáng pǐn qù xiàng de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "产品状态的标识不清楚请先核实",
-        "B": "不同状态的产品请不要混放",
-        "C": "发现不良品以后请按照规定标识和隔离",
-        "D": "请告诉我谁负责异常品处置跟踪"
+        "A": "我这次只想核实不良品去向的核实结果",
+        "B": "我还没有收到关于不良品去向的核实结果的资料",
+        "C": "我还没有收到关于产品隔离安排的资料",
+        "D": "我还需要进一步了解不良品去向的核实结果"
       },
       "optionPinyin": {
-        "A": "chǎn pǐn zhuàng tài de biāo shí bù qīng chǔ qǐng xiān hé shí",
-        "B": "bù tóng zhuàng tài de chǎn pǐn qǐng bú yào hùn fàng",
-        "C": "fā xiàn bù liáng pǐn yǐ hòu qǐng àn zhào guī dìng biāo shí hé gé lí",
-        "D": "qǐng gào sù wǒ shuí fù zé yì cháng pǐn chǔ zhì gēn zōng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí bù liáng pǐn qù xiàng de hé shí jié guǒ",
+        "B": "wǒ hái méi yǒu shōu dào guān yú bù liáng pǐn qù xiàng de hé shí jié guǒ de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn gé lí ān pái de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě bù liáng pǐn qù xiàng de hé shí jié guǒ"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你要提醒不合格产品需按规定标识区隔，应该怎么说？\n符合此任务的表达：发现不良品以后请按照规定标识和隔离。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“不良品去向的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于不良品去向的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于不良品去向的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明未检产品不能当作合格品转出，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng wèi jiǎn chǎn pǐn bù néng dàng zuò hé gé pǐn zhuǎn chū ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“产品隔离安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ chǎn pǐn gé lí ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这批产品的处置还需要授权人员决定",
-        "B": "请告诉我谁负责异常品处置跟踪",
-        "C": "这批产品目前处于待检状态不能当作合格品流转",
-        "D": "这批合格品请放到指定区域"
+        "A": "我还没有收到关于产品隔离安排的资料",
+        "B": "我还需要进一步了解产品隔离安排",
+        "C": "我这次只想核实产品隔离安排",
+        "D": "我还没有收到关于异常品处置跟踪的资料"
       },
       "optionPinyin": {
-        "A": "zhè pī chǎn pǐn de chǔ zhì hái xū yào shòu quán rén yuán jué dìng",
-        "B": "qǐng gào sù wǒ shuí fù zé yì cháng pǐn chǔ zhì gēn zōng",
-        "C": "zhè pī chǎn pǐn mù qián chǔ yú dài jiǎn zhuàng tài bù néng dàng zuò hé gé pǐn liú zhuǎn",
-        "D": "zhè pī hé gé pǐn qǐng fàng dào zhǐ dìng qū yù"
+        "A": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn gé lí ān pái de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn gé lí ān pái",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn gé lí ān pái",
+        "D": "wǒ hái méi yǒu shōu dào guān yú yì cháng pǐn chǔ zhì gēn zōng de zī liào"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你要说明未检产品不能当作合格品转出，应该怎么说？\n符合此任务的表达：这批产品目前处于待检状态不能当作合格品流转。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“产品隔离安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于产品隔离安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于产品隔离安排的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】产品状态标签看不清，你想提醒先确认，应该怎么说？",
-      "pinyin": "chǎn pǐn zhuàng tài biāo qiān kàn bù qīng ， nǐ xiǎng tí xǐng xiān què rèn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“异常品处置跟踪”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ yì cháng pǐn chǔ zhì gēn zōng ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "发现不良品以后请按照规定标识和隔离",
-        "B": "系统中的产品状态和实物标识需要保持一致",
-        "C": "关于不良品去向的核实结果我还需要再核实一下",
-        "D": "产品状态的标识不清楚请先核实"
+        "A": "我这次只想核实异常品处置跟踪",
+        "B": "我还需要进一步了解异常品处置跟踪",
+        "C": "我还没有收到关于状态标签内容的资料",
+        "D": "我还没有收到关于异常品处置跟踪的资料"
       },
       "optionPinyin": {
-        "A": "fā xiàn bù liáng pǐn yǐ hòu qǐng àn zhào guī dìng biāo shí hé gé lí",
-        "B": "xì tǒng zhōng de chǎn pǐn zhuàng tài hé shí wù biāo shí xū yào bǎo chí yí zhì",
-        "C": "guān yú bù liáng pǐn qù xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "chǎn pǐn zhuàng tài de biāo shí bù qīng chǔ qǐng xiān hé shí"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí yì cháng pǐn chǔ zhì gēn zōng",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě yì cháng pǐn chǔ zhì gēn zōng",
+        "C": "wǒ hái méi yǒu shōu dào guān yú zhuàng tài biāo qiān nèi róng de zī liào",
+        "D": "wǒ hái méi yǒu shōu dào guān yú yì cháng pǐn chǔ zhì gēn zōng de zī liào"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：产品状态标签看不清，你想提醒先确认，应该怎么说？\n符合此任务的表达：产品状态的标识不清楚请先核实。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“异常品处置跟踪”的资料，怎样说明情况？\n合适的表达：我还没有收到关于异常品处置跟踪的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于异常品处置跟踪的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你需要确认异常品的存放区，应该怎么问？",
-      "pinyin": "nǐ xū yào què rèn yì cháng pǐn de cún fàng qū ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“状态标签内容”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ zhuàng tài biāo qiān nèi róng ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "产品状态的标识不清楚请先核实",
-        "B": "请问异常产品应该放到哪个隔离区",
-        "C": "这些批次信息需要保留以便追溯",
-        "D": "系统中的产品状态和实物标识需要保持一致"
+        "A": "我还没有收到关于产品状态管理要求的资料",
+        "B": "我这次只想核实状态标签内容",
+        "C": "我还没有收到关于状态标签内容的资料",
+        "D": "我还需要进一步了解状态标签内容"
       },
       "optionPinyin": {
-        "A": "chǎn pǐn zhuàng tài de biāo shí bù qīng chǔ qǐng xiān hé shí",
-        "B": "qǐng wèn yì cháng chǎn pǐn yīng gāi fàng dào nǎ ge gé lí qū",
-        "C": "zhè xiē pī cì xìn xī xū yào bǎo liú yǐ biàn zhuī sù",
-        "D": "xì tǒng zhōng de chǎn pǐn zhuàng tài hé shí wù biāo shí xū yào bǎo chí yí zhì"
+        "A": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn zhuàng tài guǎn lǐ yāo qiú de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí zhuàng tài biāo qiān nèi róng",
+        "C": "wǒ hái méi yǒu shōu dào guān yú zhuàng tài biāo qiān nèi róng de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě zhuàng tài biāo qiān nèi róng"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你需要确认异常品的存放区，应该怎么问？\n符合此任务的表达：请问异常产品应该放到哪个隔离区。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“状态标签内容”的资料，怎样说明情况？\n合适的表达：我还没有收到关于状态标签内容的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于状态标签内容的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒不同检验状态产品不应混在一起，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng bù tóng jiǎn yàn zhuàng tài chǎn pǐn bù yīng hùn zài yì qǐ ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“产品状态管理要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ chǎn pǐn zhuàng tài guǎn lǐ yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果产品隔离安排有变化请及时通知我",
-        "B": "系统中的产品状态和实物标识需要保持一致",
-        "C": "不同状态的产品请不要混放",
-        "D": "这些批次信息需要保留以便追溯"
+        "A": "我还需要进一步了解产品状态管理要求",
+        "B": "我还没有收到关于产品状态管理要求的资料",
+        "C": "我这次只想核实不良品去向的核实结果",
+        "D": "我这次只想核实产品状态管理要求"
       },
       "optionPinyin": {
-        "A": "rú guǒ chǎn pǐn gé lí ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "xì tǒng zhōng de chǎn pǐn zhuàng tài hé shí wù biāo shí xū yào bǎo chí yí zhì",
-        "C": "bù tóng zhuàng tài de chǎn pǐn qǐng bú yào hùn fàng",
-        "D": "zhè xiē pī cì xìn xī xū yào bǎo liú yǐ biàn zhuī sù"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn zhuàng tài guǎn lǐ yāo qiú",
+        "B": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn zhuàng tài guǎn lǐ yāo qiú de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí bù liáng pǐn qù xiàng de hé shí jié guǒ",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn zhuàng tài guǎn lǐ yāo qiú"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你要提醒不同检验状态产品不应混在一起，应该怎么说？\n符合此任务的表达：不同状态的产品请不要混放。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“产品状态管理要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实产品状态管理要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实产品状态管理要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想说明该批产品的处理还待授权人员决定，应该怎么说？",
-      "pinyin": "nǐ xiǎng shuō míng gāi pī chǎn pǐn de chǔ lǐ hái dài shòu quán rén yuán jué dìng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“不良品去向的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ bù liáng pǐn qù xiàng de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认状态标签内容再继续沟通",
-        "B": "系统中的产品状态和实物标识需要保持一致",
-        "C": "关于不良品去向的核实结果我还需要再核实一下",
-        "D": "这批产品的处置还需要授权人员决定"
+        "A": "我这次只想核实不良品去向的核实结果",
+        "B": "我这次只想核实产品隔离安排",
+        "C": "我还没有收到关于不良品去向的核实结果的资料",
+        "D": "我还需要进一步了解不良品去向的核实结果"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn zhuàng tài biāo qiān nèi róng zài jì xù gōu tōng",
-        "B": "xì tǒng zhōng de chǎn pǐn zhuàng tài hé shí wù biāo shí xū yào bǎo chí yí zhì",
-        "C": "guān yú bù liáng pǐn qù xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "zhè pī chǎn pǐn de chǔ zhì hái xū yào shòu quán rén yuán jué dìng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí bù liáng pǐn qù xiàng de hé shí jié guǒ",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn gé lí ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú bù liáng pǐn qù xiàng de hé shí jié guǒ de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě bù liáng pǐn qù xiàng de hé shí jié guǒ"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想说明该批产品的处理还待授权人员决定，应该怎么说？\n符合此任务的表达：这批产品的处置还需要授权人员决定。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“不良品去向的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实不良品去向的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实不良品去向的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想在转送产品前先确认是否允许，应该怎么说？",
-      "pinyin": "nǐ xiǎng zài zhuǎn sòng chǎn pǐn qián xiān què rèn shì fǒu yǔn xǔ ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“产品隔离安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ chǎn pǐn gé lí ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "发现不良品以后请按照规定标识和隔离",
-        "B": "这批产品目前处于待检状态不能当作合格品流转",
-        "C": "这批货是否可以流转请先确认状态",
-        "D": "请帮我确认一下产品状态管理要求的具体要求"
+        "A": "我还没有收到关于产品隔离安排的资料",
+        "B": "我还需要进一步了解产品隔离安排",
+        "C": "我这次只想核实产品隔离安排",
+        "D": "我这次只想核实异常品处置跟踪"
       },
       "optionPinyin": {
-        "A": "fā xiàn bù liáng pǐn yǐ hòu qǐng àn zhào guī dìng biāo shí hé gé lí",
-        "B": "zhè pī chǎn pǐn mù qián chǔ yú dài jiǎn zhuàng tài bù néng dàng zuò hé gé pǐn liú zhuǎn",
-        "C": "zhè pī huò shì fǒu kě yǐ liú zhuǎn qǐng xiān què rèn zhuàng tài",
-        "D": "qǐng bāng wǒ què rèn yí xià chǎn pǐn zhuàng tài guǎn lǐ yāo qiú de jù tǐ yāo qiú"
+        "A": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn gé lí ān pái de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn gé lí ān pái",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn gé lí ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí yì cháng pǐn chǔ zhì gēn zōng"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想在转送产品前先确认是否允许，应该怎么说？\n符合此任务的表达：这批货是否可以流转请先确认状态。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“产品隔离安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实产品隔离安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实产品隔离安排",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒保存批次资料便于事后查询，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng bǎo cún pī cì zī liào biàn yú shì hòu chá xún ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“异常品处置跟踪”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ yì cháng pǐn chǔ zhì gēn zōng ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这批合格品请放到指定区域",
-        "B": "产品状态的标识不清楚请先核实",
-        "C": "这些批次信息需要保留以便追溯",
-        "D": "发现不良品以后请按照规定标识和隔离"
+        "A": "我还需要进一步了解异常品处置跟踪",
+        "B": "我这次只想核实异常品处置跟踪",
+        "C": "我这次只想核实状态标签内容",
+        "D": "我还没有收到关于异常品处置跟踪的资料"
       },
       "optionPinyin": {
-        "A": "zhè pī hé gé pǐn qǐng fàng dào zhǐ dìng qū yù",
-        "B": "chǎn pǐn zhuàng tài de biāo shí bù qīng chǔ qǐng xiān hé shí",
-        "C": "zhè xiē pī cì xìn xī xū yào bǎo liú yǐ biàn zhuī sù",
-        "D": "fā xiàn bù liáng pǐn yǐ hòu qǐng àn zhào guī dìng biāo shí hé gé lí"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要提醒保存批次资料便于事后查询，应该怎么说？\n符合此任务的表达：这些批次信息需要保留以便追溯。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 30,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要强调系统状态应与实物标签相符，应该怎么说？",
-      "pinyin": "nǐ yào qiáng diào xì tǒng zhuàng tài yīng yǔ shí wù biāo qiān xiāng fú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "系统中的产品状态和实物标识需要保持一致",
-        "B": "不同状态的产品请不要混放",
-        "C": "发现不良品以后请按照规定标识和隔离",
-        "D": "这批货是否可以流转请先确认状态"
-      },
-      "optionPinyin": {
-        "A": "xì tǒng zhōng de chǎn pǐn zhuàng tài hé shí wù biāo shí xū yào bǎo chí yí zhì",
-        "B": "bù tóng zhuàng tài de chǎn pǐn qǐng bú yào hùn fàng",
-        "C": "fā xiàn bù liáng pǐn yǐ hòu qǐng àn zhào guī dìng biāo shí hé gé lí",
-        "D": "zhè pī huò shì fǒu kě yǐ liú zhuǎn qǐng xiān què rèn zhuàng tài"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要强调系统状态应与实物标签相符，应该怎么说？\n符合此任务的表达：系统中的产品状态和实物标识需要保持一致。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 31,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“产品状态管理要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ chǎn pǐn zhuàng tài guǎn lǐ yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "不同状态的产品请不要混放",
-        "B": "请帮我确认一下产品状态管理要求的具体要求",
-        "C": "这批合格品请放到指定区域",
-        "D": "产品状态的标识不清楚请先核实"
-      },
-      "optionPinyin": {
-        "A": "bù tóng zhuàng tài de chǎn pǐn qǐng bú yào hùn fàng",
-        "B": "qǐng bāng wǒ què rèn yí xià chǎn pǐn zhuàng tài guǎn lǐ yāo qiú de jù tǐ yāo qiú",
-        "C": "zhè pī hé gé pǐn qǐng fàng dào zhǐ dìng qū yù",
-        "D": "chǎn pǐn zhuàng tài de biāo shí bù qīng chǔ qǐng xiān hé shí"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě yì cháng pǐn chǔ zhì gēn zōng",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí yì cháng pǐn chǔ zhì gēn zōng",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí zhuàng tài biāo qiān nèi róng",
+        "D": "wǒ hái méi yǒu shōu dào guān yú yì cháng pǐn chǔ zhì gēn zōng de zī liào"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你想请同事核实“产品状态管理要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下产品状态管理要求的具体要求。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“异常品处置跟踪”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实异常品处置跟踪。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实异常品处置跟踪",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“状态标签内容”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ zhuàng tài biāo qiān nèi róng ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实状态标签内容",
+        "B": "我还需要进一步了解状态标签内容",
+        "C": "我这次只想核实产品状态管理要求",
+        "D": "我还没有收到关于状态标签内容的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí zhuàng tài biāo qiān nèi róng",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě zhuàng tài biāo qiān nèi róng",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn zhuàng tài guǎn lǐ yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú zhuàng tài biāo qiān nèi róng de zī liào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“状态标签内容”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实状态标签内容。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实状态标签内容",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 31,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“产品状态管理要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ chǎn pǐn zhuàng tài guǎn lǐ yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解不良品去向的核实结果",
+        "B": "我还需要进一步了解产品状态管理要求",
+        "C": "我这次只想核实产品状态管理要求",
+        "D": "我还没有收到关于产品状态管理要求的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě bù liáng pǐn qù xiàng de hé shí jié guǒ",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn zhuàng tài guǎn lǐ yāo qiú",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn zhuàng tài guǎn lǐ yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn zhuàng tài guǎn lǐ yāo qiú de zī liào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“产品状态管理要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解产品状态管理要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解产品状态管理要求",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 32,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你尚未核实“不良品去向的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ bù liáng pǐn qù xiàng de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“不良品去向的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ bù liáng pǐn qù xiàng de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "发现不良品以后请按照规定标识和隔离",
-        "B": "我们先确认状态标签内容再继续沟通",
-        "C": "关于不良品去向的核实结果我还需要再核实一下",
-        "D": "这批合格品请放到指定区域"
+        "A": "我还需要进一步了解产品隔离安排",
+        "B": "我这次只想核实不良品去向的核实结果",
+        "C": "我还没有收到关于不良品去向的核实结果的资料",
+        "D": "我还需要进一步了解不良品去向的核实结果"
       },
       "optionPinyin": {
-        "A": "fā xiàn bù liáng pǐn yǐ hòu qǐng àn zhào guī dìng biāo shí hé gé lí",
-        "B": "wǒ men xiān què rèn zhuàng tài biāo qiān nèi róng zài jì xù gōu tōng",
-        "C": "guān yú bù liáng pǐn qù xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "zhè pī hé gé pǐn qǐng fàng dào zhǐ dìng qū yù"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你尚未核实“不良品去向的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于不良品去向的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 33,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你希望“产品隔离安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ chǎn pǐn gé lí ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "如果产品隔离安排有变化请及时通知我",
-        "B": "产品状态的标识不清楚请先核实",
-        "C": "这些批次信息需要保留以便追溯",
-        "D": "请问异常产品应该放到哪个隔离区"
-      },
-      "optionPinyin": {
-        "A": "rú guǒ chǎn pǐn gé lí ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "chǎn pǐn zhuàng tài de biāo shí bù qīng chǔ qǐng xiān hé shí",
-        "C": "zhè xiē pī cì xìn xī xū yào bǎo liú yǐ biàn zhuī sù",
-        "D": "qǐng wèn yì cháng chǎn pǐn yīng gāi fàng dào nǎ ge gé lí qū"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你希望“产品隔离安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果产品隔离安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 34,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“异常品处置跟踪”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ yì cháng pǐn chǔ zhì gēn zōng ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请告诉我谁负责异常品处置跟踪",
-        "B": "产品状态的标识不清楚请先核实",
-        "C": "这批产品目前处于待检状态不能当作合格品流转",
-        "D": "关于不良品去向的核实结果我还需要再核实一下"
-      },
-      "optionPinyin": {
-        "A": "qǐng gào sù wǒ shuí fù zé yì cháng pǐn chǔ zhì gēn zōng",
-        "B": "chǎn pǐn zhuàng tài de biāo shí bù qīng chǔ qǐng xiān hé shí",
-        "C": "zhè pī chǎn pǐn mù qián chǔ yú dài jiǎn zhuàng tài bù néng dàng zuò hé gé pǐn liú zhuǎn",
-        "D": "guān yú bù liáng pǐn qù xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“异常品处置跟踪”，应该怎么说？\n符合此任务的表达：请告诉我谁负责异常品处置跟踪。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 35,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你希望先确认“状态标签内容”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ zhuàng tài biāo qiān nèi róng ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请问异常产品应该放到哪个隔离区",
-        "B": "产品状态的标识不清楚请先核实",
-        "C": "这批货是否可以流转请先确认状态",
-        "D": "我们先确认状态标签内容再继续沟通"
-      },
-      "optionPinyin": {
-        "A": "qǐng wèn yì cháng chǎn pǐn yīng gāi fàng dào nǎ ge gé lí qū",
-        "B": "chǎn pǐn zhuàng tài de biāo shí bù qīng chǔ qǐng xiān hé shí",
-        "C": "zhè pī huò shì fǒu kě yǐ liú zhuǎn qǐng xiān què rèn zhuàng tài",
-        "D": "wǒ men xiān què rèn zhuàng tài biāo qiān nèi róng zài jì xù gōu tōng"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn gé lí ān pái",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí bù liáng pǐn qù xiàng de hé shí jié guǒ",
+        "C": "wǒ hái méi yǒu shōu dào guān yú bù liáng pǐn qù xiàng de hé shí jié guǒ de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě bù liáng pǐn qù xiàng de hé shí jié guǒ"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“状态标签内容”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认状态标签内容再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“不良品去向的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解不良品去向的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解不良品去向的核实结果",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 33,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“产品隔离安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ chǎn pǐn gé lí ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解产品隔离安排",
+        "B": "我还没有收到关于产品隔离安排的资料",
+        "C": "我还需要进一步了解异常品处置跟踪",
+        "D": "我这次只想核实产品隔离安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn gé lí ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn gé lí ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě yì cháng pǐn chǔ zhì gēn zōng",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn gé lí ān pái"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“产品隔离安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解产品隔离安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解产品隔离安排",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 34,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“异常品处置跟踪”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ yì cháng pǐn chǔ zhì gēn zōng ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于异常品处置跟踪的资料",
+        "B": "我还需要进一步了解异常品处置跟踪",
+        "C": "我还需要进一步了解状态标签内容",
+        "D": "我这次只想核实异常品处置跟踪"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú yì cháng pǐn chǔ zhì gēn zōng de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě yì cháng pǐn chǔ zhì gēn zōng",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě zhuàng tài biāo qiān nèi róng",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí yì cháng pǐn chǔ zhì gēn zōng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“异常品处置跟踪”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解异常品处置跟踪。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解异常品处置跟踪",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 35,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“状态标签内容”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ zhuàng tài biāo qiān nèi róng ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解状态标签内容",
+        "B": "我还没有收到关于状态标签内容的资料",
+        "C": "我还需要进一步了解产品状态管理要求",
+        "D": "我这次只想核实状态标签内容"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě zhuàng tài biāo qiān nèi róng",
+        "B": "wǒ hái méi yǒu shōu dào guān yú zhuàng tài biāo qiān nèi róng de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn zhuàng tài guǎn lǐ yāo qiú",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí zhuàng tài biāo qiān nèi róng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“状态标签内容”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解状态标签内容。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解状态标签内容",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n放到 / 指定区域 / 这批合格品 / 请",
-      "pinyin": "fàng dào / zhǐ dìng qū yù / zhè pī hé gé pǐn / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n发给我 / 请 / 把 / 关于产品状态管理要求的说明",
+      "pinyin": "fā gěi wǒ / qǐng / bǎ / guān yú chǎn pǐn zhuàng tài guǎn lǐ yāo qiú de shuō míng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这批合格品请放到指定区域",
-        "这批合格品请放到指定区域。",
-        "这批合格品请放到指定区域.",
-        "这批合格品请放到指定区域？",
-        "这批合格品请放到指定区域?"
+        "请把关于产品状态管理要求的说明发给我。",
+        "请把关于产品状态管理要求的说明发给我",
+        "请把关于产品状态管理要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：这批合格品请放到指定区域。\nzhè pī hé gé pǐn qǐng fàng dào zhǐ dìng qū yù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：请把关于产品状态管理要求的说明发给我。\nqǐng bǎ guān yú chǎn pǐn zhuàng tài guǎn lǐ yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n标识和隔离 / 请 / 按照规定 / 发现不良品以后",
-      "pinyin": "biāo shí hé gé lí / qǐng / àn zhào guī dìng / fā xiàn bù liáng pǐn yǐ hòu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不良品去向的核实结果 / 已经 / 我们 / 核对过",
+      "pinyin": "bù liáng pǐn qù xiàng de hé shí jié guǒ / yǐ jīng / wǒ men / hé duì guò",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "发现不良品以后请按照规定标识和隔离",
-        "发现不良品以后请按照规定标识和隔离。",
-        "发现不良品以后请按照规定标识和隔离.",
-        "发现不良品以后请按照规定标识和隔离？",
-        "发现不良品以后请按照规定标识和隔离?"
+        "我们已经核对过不良品去向的核实结果。",
+        "我们已经核对过不良品去向的核实结果",
+        "我们已经核对过不良品去向的核实结果."
       ],
       "points": 2,
       "hanziCount": 17,
-      "explanation": "参考表达：发现不良品以后请按照规定标识和隔离。\nfā xiàn bù liáng pǐn yǐ hòu qǐng àn zhào guī dìng biāo shí hé gé lí。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "explanation": "参考句子：我们已经核对过不良品去向的核实结果。\nwǒ men yǐ jīng hé duì guò bù liáng pǐn qù xiàng de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n当作合格品流转 / 目前处于待检状态 / 不能 / 这批产品",
-      "pinyin": "dàng zuò hé gé pǐn liú zhuǎn / mù qián chǔ yú dài jiǎn zhuàng tài / bù néng / zhè pī chǎn pǐn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n只有 / 先了解产品隔离安排 / 才能解释清楚 / 我们",
+      "pinyin": "zhǐ yǒu / xiān liǎo jiě chǎn pǐn gé lí ān pái / cái néng jiě shì qīng chǔ / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这批产品目前处于待检状态不能当作合格品流转",
-        "这批产品目前处于待检状态不能当作合格品流转。",
-        "这批产品目前处于待检状态不能当作合格品流转.",
-        "这批产品目前处于待检状态不能当作合格品流转？",
-        "这批产品目前处于待检状态不能当作合格品流转?"
+        "只有先了解产品隔离安排我们才能解释清楚。",
+        "只有先了解产品隔离安排我们才能解释清楚",
+        "只有先了解产品隔离安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 21,
-      "explanation": "参考表达：这批产品目前处于待检状态不能当作合格品流转。\nzhè pī chǎn pǐn mù qián chǔ yú dài jiǎn zhuàng tài bù néng dàng zuò hé gé pǐn liú zhuǎn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：只有先了解产品隔离安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě chǎn pǐn gé lí ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n先核实 / 不清楚 / 产品状态的标识 / 请",
-      "pinyin": "xiān hé shí / bù qīng chǔ / chǎn pǐn zhuàng tài de biāo shí / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不仅想了解异常品处置跟踪 / 还想知道 / 具体由谁负责 / 我",
+      "pinyin": "bù jǐn xiǎng liǎo jiě yì cháng pǐn chǔ zhì gēn zōng / hái xiǎng zhī dào / jù tǐ yóu shuí fù zé / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "产品状态的标识不清楚请先核实",
-        "产品状态的标识不清楚请先核实。",
-        "产品状态的标识不清楚请先核实.",
-        "产品状态的标识不清楚请先核实？",
-        "产品状态的标识不清楚请先核实?"
+        "我不仅想了解异常品处置跟踪还想知道具体由谁负责。",
+        "我不仅想了解异常品处置跟踪还想知道具体由谁负责",
+        "我不仅想了解异常品处置跟踪还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：产品状态的标识不清楚请先核实。\nchǎn pǐn zhuàng tài de biāo shí bù qīng chǔ qǐng xiān hé shí。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：我不仅想了解异常品处置跟踪还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě yì cháng pǐn chǔ zhì gēn zōng hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n异常产品 / 哪个隔离区 / 请问 / 应该放到",
-      "pinyin": "yì cháng chǎn pǐn / nǎ ge gé lí qū / qǐng wèn / yīng gāi fàng dào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n讨论状态标签内容 / 请 / 之前 / 先准备好相关记录",
+      "pinyin": "tǎo lùn zhuàng tài biāo qiān nèi róng / qǐng / zhī qián / xiān zhǔn bèi hǎo xiāng guān jì lù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问异常产品应该放到哪个隔离区",
-        "请问异常产品应该放到哪个隔离区。",
-        "请问异常产品应该放到哪个隔离区.",
-        "请问异常产品应该放到哪个隔离区？",
-        "请问异常产品应该放到哪个隔离区?"
+        "讨论状态标签内容之前请先准备好相关记录。",
+        "讨论状态标签内容之前请先准备好相关记录",
+        "讨论状态标签内容之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：请问异常产品应该放到哪个隔离区。\nqǐng wèn yì cháng chǎn pǐn yīng gāi fàng dào nǎ ge gé lí qū。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论状态标签内容之前请先准备好相关记录。\ntǎo lùn zhuàng tài biāo qiān nèi róng zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 不要 / 不同状态的产品 / 混放",
-      "pinyin": "qǐng / bú yào / bù tóng zhuàng tài de chǎn pǐn / hùn fàng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n关于产品状态管理要求 / 我 / 想请教您 / 有一个问题",
+      "pinyin": "guān yú chǎn pǐn zhuàng tài guǎn lǐ yāo qiú / wǒ / xiǎng qǐng jiào nín / yǒu yí gè wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "不同状态的产品请不要混放",
-        "不同状态的产品请不要混放。",
-        "不同状态的产品请不要混放.",
-        "不同状态的产品请不要混放？",
-        "不同状态的产品请不要混放?"
+        "关于产品状态管理要求我有一个问题想请教您。",
+        "关于产品状态管理要求我有一个问题想请教您",
+        "关于产品状态管理要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：不同状态的产品请不要混放。\nbù tóng zhuàng tài de chǎn pǐn qǐng bú yào hùn fàng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：关于产品状态管理要求我有一个问题想请教您。\nguān yú chǎn pǐn zhuàng tài guǎn lǐ yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这批产品的处置 / 决定 / 授权人员 / 还需要",
-      "pinyin": "zhè pī chǎn pǐn de chǔ zhì / jué dìng / shòu quán rén yuán / hái xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n你还不清楚不良品去向的核实结果 / 如果 / 先向负责人询问 / 就",
+      "pinyin": "nǐ hái bù qīng chǔ bù liáng pǐn qù xiàng de hé shí jié guǒ / rú guǒ / xiān xiàng fù zé rén xún wèn / jiù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这批产品的处置还需要授权人员决定",
-        "这批产品的处置还需要授权人员决定。",
-        "这批产品的处置还需要授权人员决定.",
-        "这批产品的处置还需要授权人员决定？",
-        "这批产品的处置还需要授权人员决定?"
+        "如果你还不清楚不良品去向的核实结果就先向负责人询问。",
+        "如果你还不清楚不良品去向的核实结果就先向负责人询问",
+        "如果你还不清楚不良品去向的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：这批产品的处置还需要授权人员决定。\nzhè pī chǎn pǐn de chǔ zhì hái xū yào shòu quán rén yuán jué dìng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 25,
+      "explanation": "参考句子：如果你还不清楚不良品去向的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ bù liáng pǐn qù xiàng de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这批货 / 请 / 先确认状态 / 是否可以流转",
-      "pinyin": "zhè pī huò / qǐng / xiān què rèn zhuàng tài / shì fǒu kě yǐ liú zhuǎn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n但是 / 虽然 / 我们已经讨论过产品隔离安排 / 还需要核实细节",
+      "pinyin": "dàn shì / suī rán / wǒ men yǐ jīng tǎo lùn guò chǎn pǐn gé lí ān pái / hái xū yào hé shí xì jié",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这批货是否可以流转请先确认状态",
-        "这批货是否可以流转请先确认状态。",
-        "这批货是否可以流转请先确认状态.",
-        "这批货是否可以流转请先确认状态？",
-        "这批货是否可以流转请先确认状态?"
+        "虽然我们已经讨论过产品隔离安排但是还需要核实细节。",
+        "虽然我们已经讨论过产品隔离安排但是还需要核实细节",
+        "虽然我们已经讨论过产品隔离安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：这批货是否可以流转请先确认状态。\nzhè pī huò shì fǒu kě yǐ liú zhuǎn qǐng xiān què rèn zhuàng tài。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：虽然我们已经讨论过产品隔离安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò chǎn pǐn gé lí ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这些批次信息 / 以便追溯 / 保留 / 需要",
-      "pinyin": "zhè xiē pī cì xìn xī / yǐ biàn zhuī sù / bǎo liú / xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不如 / 与其 / 查阅相关文件 / 反复猜测异常品处置跟踪",
+      "pinyin": "bù rú / yǔ qí / chá yuè xiāng guān wén jiàn / fǎn fù cāi cè yì cháng pǐn chǔ zhì gēn zōng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这些批次信息需要保留以便追溯",
-        "这些批次信息需要保留以便追溯。",
-        "这些批次信息需要保留以便追溯.",
-        "这些批次信息需要保留以便追溯？",
-        "这些批次信息需要保留以便追溯?"
+        "与其反复猜测异常品处置跟踪不如查阅相关文件。",
+        "与其反复猜测异常品处置跟踪不如查阅相关文件",
+        "与其反复猜测异常品处置跟踪不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这些批次信息需要保留以便追溯。\nzhè xiē pī cì xìn xī xū yào bǎo liú yǐ biàn zhuī sù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：与其反复猜测异常品处置跟踪不如查阅相关文件。\nyǔ qí fǎn fù cāi cè yì cháng pǐn chǔ zhì gēn zōng bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n保持一致 / 需要 / 和实物标识 / 系统中的产品状态",
-      "pinyin": "bǎo chí yí zhì / xū yào / hé shí wù biāo shí / xì tǒng zhōng de chǎn pǐn zhuàng tài",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 重新整理了资料 / 准确说明状态标签内容 / 为了",
+      "pinyin": "wǒ / chóng xīn zhěng lǐ le zī liào / zhǔn què shuō míng zhuàng tài biāo qiān nèi róng / wèi le",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "系统中的产品状态和实物标识需要保持一致",
-        "系统中的产品状态和实物标识需要保持一致。",
-        "系统中的产品状态和实物标识需要保持一致.",
-        "系统中的产品状态和实物标识需要保持一致？",
-        "系统中的产品状态和实物标识需要保持一致?"
+        "为了准确说明状态标签内容我重新整理了资料。",
+        "为了准确说明状态标签内容我重新整理了资料",
+        "为了准确说明状态标签内容我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 19,
-      "explanation": "参考表达：系统中的产品状态和实物标识需要保持一致。\nxì tǒng zhōng de chǎn pǐn zhuàng tài hé shí wù biāo shí xū yào bǎo chí yí zhì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明状态标签内容我重新整理了资料。\nwèi le zhǔn què shuō míng zhuàng tài biāo qiān nèi róng wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n的具体要求 / 产品状态管理要求 / 帮我确认一下 / 请",
-      "pinyin": "de jù tǐ yāo qiú / chǎn pǐn zhuàng tài guǎn lǐ yāo qiú / bāng wǒ què rèn yí xià / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n大家 / 可以提出来 / 有疑问的话 / 对产品状态管理要求",
+      "pinyin": "dà jiā / kě yǐ tí chū lái / yǒu yí wèn de huà / duì chǎn pǐn zhuàng tài guǎn lǐ yāo qiú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下产品状态管理要求的具体要求",
-        "请帮我确认一下产品状态管理要求的具体要求。",
-        "请帮我确认一下产品状态管理要求的具体要求.",
-        "请帮我确认一下产品状态管理要求的具体要求？",
-        "请帮我确认一下产品状态管理要求的具体要求?"
+        "大家对产品状态管理要求有疑问的话可以提出来。",
+        "大家对产品状态管理要求有疑问的话可以提出来",
+        "大家对产品状态管理要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：请帮我确认一下产品状态管理要求的具体要求。\nqǐng bāng wǒ què rèn yí xià chǎn pǐn zhuàng tài guǎn lǐ yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：大家对产品状态管理要求有疑问的话可以提出来。\ndà jiā duì chǎn pǐn zhuàng tài guǎn lǐ yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n还需要 / 我 / 关于 / 不良品去向的核实结果 / 再核实一下",
-      "pinyin": "hái xū yào / wǒ / guān yú / bù liáng pǐn qù xiàng de hé shí jié guǒ / zài hé shí yí xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n回答大家的问题 / 请 / 再 / 先说明不良品去向的核实结果",
+      "pinyin": "huí dá dà jiā de wèn tí / qǐng / zài / xiān shuō míng bù liáng pǐn qù xiàng de hé shí jié guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于不良品去向的核实结果我还需要再核实一下",
-        "关于不良品去向的核实结果我还需要再核实一下。",
-        "关于不良品去向的核实结果我还需要再核实一下.",
-        "关于不良品去向的核实结果我还需要再核实一下？",
-        "关于不良品去向的核实结果我还需要再核实一下?"
+        "请先说明不良品去向的核实结果再回答大家的问题。",
+        "请先说明不良品去向的核实结果再回答大家的问题",
+        "请先说明不良品去向的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 21,
-      "explanation": "参考表达：关于不良品去向的核实结果我还需要再核实一下。\nguān yú bù liáng pǐn qù xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 22,
+      "explanation": "参考句子：请先说明不良品去向的核实结果再回答大家的问题。\nqǐng xiān shuō míng bù liáng pǐn qù xiàng de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n及时通知我 / 有变化 / 如果 / 产品隔离安排 / 请",
-      "pinyin": "jí shí tōng zhī wǒ / yǒu biàn huà / rú guǒ / chǎn pǐn gé lí ān pái / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n谁来说明产品隔离安排 / 都 / 无论 / 应该以有效文件为依据",
+      "pinyin": "shuí lái shuō míng chǎn pǐn gé lí ān pái / dōu / wú lùn / yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果产品隔离安排有变化请及时通知我",
-        "如果产品隔离安排有变化请及时通知我。",
-        "如果产品隔离安排有变化请及时通知我.",
-        "如果产品隔离安排有变化请及时通知我？",
-        "如果产品隔离安排有变化请及时通知我?"
+        "无论谁来说明产品隔离安排都应该以有效文件为依据。",
+        "无论谁来说明产品隔离安排都应该以有效文件为依据",
+        "无论谁来说明产品隔离安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：如果产品隔离安排有变化请及时通知我。\nrú guǒ chǎn pǐn gé lí ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：无论谁来说明产品隔离安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng chǎn pǐn gé lí ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 异常品处置跟踪 / 谁 / 告诉我 / 负责",
-      "pinyin": "qǐng / yì cháng pǐn chǔ zhì gēn zōng / shuí / gào sù wǒ / fù zé",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n逐项记录清楚 / 需要 / 异常品处置跟踪 / 涉及的问题",
+      "pinyin": "zhú xiàng jì lù qīng chǔ / xū yào / yì cháng pǐn chǔ zhì gēn zōng / shè jí de wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责异常品处置跟踪",
-        "请告诉我谁负责异常品处置跟踪。",
-        "请告诉我谁负责异常品处置跟踪.",
-        "请告诉我谁负责异常品处置跟踪？",
-        "请告诉我谁负责异常品处置跟踪?"
+        "异常品处置跟踪涉及的问题需要逐项记录清楚。",
+        "异常品处置跟踪涉及的问题需要逐项记录清楚",
+        "异常品处置跟踪涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：请告诉我谁负责异常品处置跟踪。\nqǐng gào sù wǒ shuí fù zé yì cháng pǐn chǔ zhì gēn zōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：异常品处置跟踪涉及的问题需要逐项记录清楚。\nyì cháng pǐn chǔ zhì gēn zōng shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n先 / 我们 / 继续沟通 / 再 / 状态标签内容 / 确认",
-      "pinyin": "xiān / wǒ men / jì xù gōu tōng / zài / zhuàng tài biāo qiān nèi róng / què rèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n等 / 再补充相关记录 / 状态标签内容确认以后 / 我们",
+      "pinyin": "děng / zài bǔ chōng xiāng guān jì lù / zhuàng tài biāo qiān nèi róng què rèn yǐ hòu / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认状态标签内容再继续沟通",
-        "我们先确认状态标签内容再继续沟通。",
-        "我们先确认状态标签内容再继续沟通.",
-        "我们先确认状态标签内容再继续沟通？",
-        "我们先确认状态标签内容再继续沟通?"
+        "等状态标签内容确认以后我们再补充相关记录。",
+        "等状态标签内容确认以后我们再补充相关记录",
+        "等状态标签内容确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认状态标签内容再继续沟通。\nwǒ men xiān què rèn zhuàng tài biāo qiān nèi róng zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等状态标签内容确认以后我们再补充相关记录。\nděng zhuàng tài biāo qiān nèi róng què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第11课 师傅，请到这个地址",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,10 +9,10 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“地址”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cì zhǐ",
-        "B": "bì zhǐ",
+        "A": "bì zhǐ",
+        "B": "cì zhǐ",
         "C": "dì zǐ",
         "D": "dì zhǐ"
       },
@@ -20,26 +20,28 @@
         "D"
       ],
       "points": 5,
-      "explanation": "“地址”读作 dì zhǐ，本课词义：địa chỉ。"
+      "explanation": "“地址”读作 dì zhǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "地址"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“后备箱”的正确读音。",
+      "text": "【拼音选择】请选择“计价器”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hòu bèi qiāng",
-        "B": "hào bèi xiāng",
-        "C": "hòu bèi xiāng",
-        "D": "hòu bèi xiān"
+        "A": "jì jià qì",
+        "B": "qì jià qì",
+        "C": "jì jià jì",
+        "D": "jì qià qì"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "“后备箱”读作 hòu bèi xiāng，本课词义：cốp xe。"
+      "explanation": "“计价器”读作 jì jià qì。注意声母、韵母、声调及轻声。",
+      "targetWord": "计价器"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“堵车”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǔ chē",
+        "A": "cǔ chē",
         "B": "dǔ chē",
         "C": "duǐ chē",
-        "D": "cǔ chē"
+        "D": "bǔ chē"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“堵车”读作 dǔ chē，本课词义：tắc đường。"
+      "explanation": "“堵车”读作 dǔ chē。注意声母、韵母、声调及轻声。",
+      "targetWord": "堵车"
     },
     {
       "id": 4,
@@ -66,162 +69,179 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“停车”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "tíng chē",
         "B": "líng chē",
-        "C": "míng chē",
-        "D": "níng chē"
+        "C": "níng chē",
+        "D": "míng chē"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“停车”读作 tíng chē，本课词义：dừng xe。"
+      "explanation": "“停车”读作 tíng chē。注意声母、韵母、声调及轻声。",
+      "targetWord": "停车"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“发票”的正确读音。",
+      "text": "【拼音选择】请选择“起步价”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fā piào",
-        "B": "cā piào",
-        "C": "hā piào",
-        "D": "bā piào"
+        "A": "jǐ bù jià",
+        "B": "qǐ bù jià",
+        "C": "xǐ bù jià",
+        "D": "qǐ bù qià"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“发票”读作 fā piào，本课词义：hóa đơn。"
+      "explanation": "“起步价”读作 qǐ bù jià。注意声母、韵母、声调及轻声。",
+      "targetWord": "起步价"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：师傅请送我到这个____。",
-      "pinyin": "shī fù qǐng sòng wǒ dào zhè ge ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: địa chỉ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：行李比较多，可以放在____里吗？",
+      "pinyin": "xíng lǐ bǐ jiào duō ， kě yǐ fàng zài ____ lǐ ma ？",
+      "vietnamese": "Gợi ý: cốp xe.",
       "options": {
-        "A": "地址",
+        "A": "导航",
         "B": "发票",
-        "C": "堵车",
-        "D": "停车"
+        "C": "绕路",
+        "D": "后备箱"
       },
       "optionPinyin": {
-        "A": "dì zhǐ",
+        "A": "dǎo háng",
         "B": "fā piào",
-        "C": "dǔ chē",
-        "D": "tíng chē"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“地址”（địa chỉ）。完整表达：师傅请送我到这个地址。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：麻烦您帮我打开一下____。",
-      "pinyin": "má fán nín bāng wǒ dǎ kāi yī xià ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: cốp xe.",
-      "options": {
-        "A": "停车",
-        "B": "后备箱",
-        "C": "发票",
-        "D": "堵车"
-      },
-      "optionPinyin": {
-        "A": "tíng chē",
-        "B": "hòu bèi xiāng",
-        "C": "fā piào",
-        "D": "dǔ chē"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“后备箱”（cốp xe）。完整表达：麻烦您帮我打开一下后备箱。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：前面有点____可以换条路吗。",
-      "pinyin": "qián miàn yǒu diǎn ____ kě yǐ huàn tiáo lù ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tắc đường.",
-      "options": {
-        "A": "后备箱",
-        "B": "发票",
-        "C": "地址",
-        "D": "堵车"
-      },
-      "optionPinyin": {
-        "A": "hòu bèi xiāng",
-        "B": "fā piào",
-        "C": "dì zhǐ",
-        "D": "dǔ chē"
+        "C": "rào lù",
+        "D": "hòu bèi xiāng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“堵车”（tắc đường）。完整表达：前面有点堵车可以换条路吗。"
+      "explanation": "应填“后备箱”。完整句子：行李比较多，可以放在后备箱里吗？\n语法与搭配：可以……吗",
+      "targetWord": "后备箱",
+      "completeSentence": "行李比较多，可以放在后备箱里吗？",
+      "grammarFocus": "可以……吗"
     },
     {
-      "id": 9,
+      "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：麻烦您在前面的路口靠边____。",
-      "pinyin": "má fán nín zài qián miàn de lù kǒu kào biān ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: dừng xe.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：师傅，请按____推荐的路线走。",
+      "pinyin": "shī fù ， qǐng àn ____ tuī jiàn de lù xiàn zǒu 。",
+      "vietnamese": "Gợi ý: dẫn đường.",
       "options": {
-        "A": "堵车",
-        "B": "停车",
-        "C": "地址",
-        "D": "发票"
+        "A": "后备箱",
+        "B": "导航",
+        "C": "发票",
+        "D": "绕路"
       },
       "optionPinyin": {
-        "A": "dǔ chē",
-        "B": "tíng chē",
-        "C": "dì zhǐ",
-        "D": "fā piào"
+        "A": "hòu bèi xiāng",
+        "B": "dǎo háng",
+        "C": "fā piào",
+        "D": "rào lù"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“停车”（dừng xe）。完整表达：麻烦您在前面的路口靠边停车。"
+      "explanation": "应填“导航”。完整句子：师傅，请按导航推荐的路线走。\n语法与搭配：按＋依据",
+      "targetWord": "导航",
+      "completeSentence": "师傅，请按导航推荐的路线走。",
+      "grammarFocus": "按＋依据"
     },
     {
-      "id": 10,
+      "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问您能给我开____吗。",
-      "pinyin": "qǐng wèn nín néng gěi wǒ kāi ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hóa đơn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这边修路，我们可能得____。",
+      "pinyin": "zhè biān xiū lù ， wǒ men kě néng dé ____。",
+      "vietnamese": "Gợi ý: đi đường vòng.",
       "options": {
-        "A": "后备箱",
-        "B": "堵车",
-        "C": "发票",
-        "D": "地址"
+        "A": "导航",
+        "B": "发票",
+        "C": "绕路",
+        "D": "后备箱"
       },
       "optionPinyin": {
-        "A": "hòu bèi xiāng",
-        "B": "dǔ chē",
-        "C": "fā piào",
-        "D": "dì zhǐ"
+        "A": "dǎo háng",
+        "B": "fā piào",
+        "C": "rào lù",
+        "D": "hòu bèi xiāng"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“发票”（hóa đơn）。完整表达：请问您能给我开发票吗。"
+      "explanation": "应填“绕路”。完整句子：这边修路，我们可能得绕路。\n语法与搭配：可能得＋动词",
+      "targetWord": "绕路",
+      "completeSentence": "这边修路，我们可能得绕路。",
+      "grammarFocus": "可能得＋动词"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：到站以后，麻烦给我一张____。",
+      "pinyin": "dào zhàn yǐ hòu ， má fán gěi wǒ yì zhāng ____。",
+      "vietnamese": "Gợi ý: hóa đơn.",
+      "options": {
+        "A": "后备箱",
+        "B": "发票",
+        "C": "绕路",
+        "D": "导航"
+      },
+      "optionPinyin": {
+        "A": "hòu bèi xiāng",
+        "B": "fā piào",
+        "C": "rào lù",
+        "D": "dǎo háng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“发票”。完整句子：到站以后，麻烦给我一张发票。\n语法与搭配：给＋人＋数量＋名词",
+      "targetWord": "发票",
+      "completeSentence": "到站以后，麻烦给我一张发票。",
+      "grammarFocus": "给＋人＋数量＋名词"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：上车后请系好____。",
+      "pinyin": "shàng chē hòu qǐng jì hǎo ____。",
+      "vietnamese": "Gợi ý: dây an toàn.",
+      "options": {
+        "A": "后备箱",
+        "B": "安全带",
+        "C": "导航",
+        "D": "绕路"
+      },
+      "optionPinyin": {
+        "A": "hòu bèi xiāng",
+        "B": "ān quán dài",
+        "C": "dǎo háng",
+        "D": "rào lù"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“安全带”。完整句子：上车后请系好安全带。\n语法与搭配：动词＋好：结果",
+      "targetWord": "安全带",
+      "completeSentence": "上车后请系好安全带。",
+      "grammarFocus": "动词＋好：结果"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 送我 / 师傅 / 到这个地址",
-      "pinyin": "qǐng / sòng wǒ / shī fù / dào zhè ge dì zhǐ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 师傅 / 可以停车的地方停一下 / 在前面",
+      "pinyin": "qǐng / shī fù / kě yǐ tíng chē de dì fang tíng yí xià / zài qián miàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "师傅请送我到这个地址。",
-        "师傅请送我到这个地址",
-        "师傅请送我到这个地址.",
-        "师傅请送我到这个地址？",
-        "师傅请送我到这个地址?"
+        "师傅请在前面可以停车的地方停一下。",
+        "师傅请在前面可以停车的地方停一下",
+        "师傅请在前面可以停车的地方停一下."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：师傅请送我到这个地址。\nshī fù qǐng sòng wǒ dào zhè ge dì zhǐ。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：师傅请在前面可以停车的地方停一下。\nshī fù qǐng zài qián miàn kě yǐ tíng chē de dì fang tíng yí xià\n语法与搭配：在……地方；一下",
+      "grammarFocus": "在……地方；一下"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n帮我 / 打开一下 / 麻烦您 / 后备箱",
-      "pinyin": "bāng wǒ / dǎ kāi yī xià / má fán nín / hòu bèi xiāng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n能不能 / 我 / 走快一点的路线 / 赶时间",
+      "pinyin": "néng bù néng / wǒ / zǒu kuài yì diǎn de lù xiàn / gǎn shí jiān",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦您帮我打开一下后备箱。",
-        "麻烦您帮我打开一下后备箱",
-        "麻烦您帮我打开一下后备箱.",
-        "麻烦您帮我打开一下后备箱？",
-        "麻烦您帮我打开一下后备箱?"
+        "我赶时间能不能走快一点的路线。",
+        "我赶时间能不能走快一点的路线",
+        "我赶时间能不能走快一点的路线."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：麻烦您帮我打开一下后备箱。\nmá fán nín bāng wǒ dǎ kāi yī xià hòu bèi xiāng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：我赶时间能不能走快一点的路线。\nwǒ gǎn shí jiān néng bù néng zǒu kuài yì diǎn de lù xiàn\n语法与搭配：能不能；一点",
+      "grammarFocus": "能不能；一点"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n可以 / 前面 / 换条路吗 / 有点堵车",
-      "pinyin": "kě yǐ / qián miàn / huàn tiáo lù ma / yǒu diǎn dǔ chē",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n如果 / 请 / 这里不能停车 / 开到前面的路口",
+      "pinyin": "rú guǒ / qǐng / zhè lǐ bù néng tíng chē / kāi dào qián miàn de lù kǒu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "前面有点堵车可以换条路吗。",
-        "前面有点堵车可以换条路吗",
-        "前面有点堵车可以换条路吗.",
-        "前面有点堵车可以换条路吗？",
-        "前面有点堵车可以换条路吗?"
+        "如果这里不能停车请开到前面的路口。",
+        "如果这里不能停车请开到前面的路口",
+        "如果这里不能停车请开到前面的路口."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：前面有点堵车可以换条路吗。\nqián miàn yǒu diǎn dǔ chē kě yǐ huàn tiáo lù ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：如果这里不能停车请开到前面的路口。\nrú guǒ zhè lǐ bù néng tíng chē qǐng kāi dào qián miàn de lù kǒu\n语法与搭配：如果……请……",
+      "grammarFocus": "如果……请……"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n在前面的路口 / 麻烦您 / 靠边 / 停车",
-      "pinyin": "zài qián miàn de lù kǒu / má fán nín / kào biān / tíng chē",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n已经 / 发到您手机上了 / 我 / 这个地址",
+      "pinyin": "yǐ jīng / fā dào nín shǒu jī shàng le / wǒ / zhè ge dì zhǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦您在前面的路口靠边停车。",
-        "麻烦您在前面的路口靠边停车",
-        "麻烦您在前面的路口靠边停车.",
-        "麻烦您在前面的路口靠边停车？",
-        "麻烦您在前面的路口靠边停车?"
+        "这个地址我已经发到您手机上了。",
+        "这个地址我已经发到您手机上了",
+        "这个地址我已经发到您手机上了."
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：麻烦您在前面的路口靠边停车。\nmá fán nín zài qián miàn de lù kǒu kào biān tíng chē。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：这个地址我已经发到您手机上了。\nzhè ge dì zhǐ wǒ yǐ jīng fā dào nín shǒu jī shàng le\n语法与搭配：已经；到＋处所补语",
+      "grammarFocus": "已经；到＋处所补语"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n您 / 开发票吗 / 请问 / 能给我",
-      "pinyin": "nín / kāi fā piào ma / qǐng wèn / néng gěi wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n要检查 / 有没有落下东西 / 下车前 / 我",
+      "pinyin": "yào jiǎn chá / yǒu méi yǒu là xià dōng xi / xià chē qián / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问您能给我开发票吗。",
-        "请问您能给我开发票吗",
-        "请问您能给我开发票吗.",
-        "请问您能给我开发票吗？",
-        "请问您能给我开发票吗?"
+        "下车前我要检查有没有落下东西。",
+        "下车前我要检查有没有落下东西",
+        "下车前我要检查有没有落下东西."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：请问您能给我开发票吗。\nqǐng wèn nín néng gěi wǒ kāi fā piào ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：下车前我要检查有没有落下东西。\nxià chē qián wǒ yào jiǎn chá yǒu méi yǒu là xià dōng xi\n语法与搭配：……前；有没有",
+      "grammarFocus": "……前；有没有"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

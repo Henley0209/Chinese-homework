@@ -111,3 +111,7 @@ with zipfile.ZipFile(OUT/'electronics-35-topics.zip','w',zipfile.ZIP_DEFLATED) a
   if path.suffix in ['.json','.md','.txt','.html']:z.write(path,'electronics-35/'+path.name)
  z.write(Path(__file__),'tools/generate-electronics.py')
 print(f'Generated {len(entries)} lessons / 1750 questions / {len(seen)} distinct sorting expressions; catalog {len(catalog["exercises"])} entries; bank=factory')
+
+# Reapply authored section separation and refresh every downloadable copy.
+import subprocess,sys
+subprocess.run([sys.executable,str(ROOT/"tools/optimize-exercises.py")],check=True)

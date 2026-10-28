@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第03课 我是越南人",
-  "description": "Tôi là người Việt Nam；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Tôi là người Việt Nam；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“越南”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yuè náng",
-        "B": "yuè lán",
-        "C": "yuè nán",
-        "D": "juè nán"
+        "A": "yuè nán",
+        "B": "juè nán",
+        "C": "yuè lán",
+        "D": "yuè náng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“越南”的正确读音是 yuè nán。"
+      "explanation": "“越南”读作 yuè nán。注意声母、韵母、声调及轻声。",
+      "targetWord": "越南"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“中国”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhōng guó",
+        "A": "hōng guó",
         "B": "zōng guó",
-        "C": "zhēng guó",
-        "D": "zhōng góu"
+        "C": "chōng guó",
+        "D": "zhōng guó"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“中国”的正确读音是 zhōng guó。"
+      "explanation": "“中国”读作 zhōng guó。注意声母、韵母、声调及轻声。",
+      "targetWord": "中国"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“美国”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "mǎi guó",
-        "B": "měi góu",
+        "A": "děi guó",
+        "B": "mǎi guó",
         "C": "měi guó",
-        "D": "mě guó"
+        "D": "běi guó"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“美国”的正确读音是 měi guó。"
+      "explanation": "“美国”读作 měi guó。注意声母、韵母、声调及轻声。",
+      "targetWord": "美国"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“日本”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "rì běn",
+        "A": "bì běn",
         "B": "rì běng",
-        "C": "lì běn",
-        "D": "shì běn"
+        "C": "cì běn",
+        "D": "rì běn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“日本”的正确读音是 rì běn。"
+      "explanation": "“日本”读作 rì běn。注意声母、韵母、声调及轻声。",
+      "targetWord": "日本"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“国家”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "guó jiā",
-        "B": "góu jiā",
-        "C": "guó jiāo",
-        "D": "guí jiā"
+        "A": "cuó jiā",
+        "B": "guó qiā",
+        "C": "duó jiā",
+        "D": "guó jiā"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“国家”的正确读音是 guó jiā。"
+      "explanation": "“国家”读作 guó jiā。注意声母、韵母、声调及轻声。",
+      "targetWord": "国家"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“哪”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "lǎ",
-        "B": "mǎ",
-        "C": "nǒu",
+        "B": "cǎ",
+        "C": "bǎ",
         "D": "nǎ"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“哪”的正确读音是 nǎ。"
+      "explanation": "“哪”读作 nǎ。注意声母、韵母、声调及轻声。",
+      "targetWord": "哪"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“中文”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhōng wéng",
-        "B": "zōng wén",
-        "C": "zhēng wén",
-        "D": "zhōng wén"
+        "A": "hōng wén",
+        "B": "chōng wén",
+        "C": "zhōng wén",
+        "D": "zōng wén"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“中文”的正确读音是 zhōng wén。"
+      "explanation": "“中文”读作 zhōng wén。注意声母、韵母、声调及轻声。",
+      "targetWord": "中文"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“越南语”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yuè náng yǔ",
-        "B": "yuè lán yǔ",
-        "C": "juè nán yǔ",
-        "D": "yuè nán yǔ"
+        "A": "yuè lán yǔ",
+        "B": "juè nán yǔ",
+        "C": "yuè nán yǔ",
+        "D": "yuè náng yǔ"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“越南语”的正确读音是 yuè nán yǔ。"
+      "explanation": "“越南语”读作 yuè nán yǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "越南语"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“英语”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yīn yǔ",
-        "B": "yīng yǒ",
-        "C": "yīng yǔ",
-        "D": "yī yǔ"
+        "A": "yīng yǔ",
+        "B": "yīn yǔ",
+        "C": "bīng yǔ",
+        "D": "dīng yǔ"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“英语”的正确读音是 yīng yǔ。"
+      "explanation": "“英语”读作 yīng yǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "英语"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“北京”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "běi jīn",
-        "B": "běi jīng",
-        "C": "bǎi jīng",
-        "D": "pěi jīng"
+        "A": "běi jīng",
+        "B": "bǎi jīng",
+        "C": "běi jīn",
+        "D": "běi qīng"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“北京”的正确读音是 běi jīng。"
+      "explanation": "“北京”读作 běi jīng。注意声母、韵母、声调及轻声。",
+      "targetWord": "北京"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“河内”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "hé nài",
-        "B": "hé lèi",
-        "C": "há nèi",
-        "D": "hé nèi"
+        "B": "hé nèi",
+        "C": "hé lèi",
+        "D": "ché nèi"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“河内”的正确读音是 hé nèi。"
+      "explanation": "“河内”读作 hé nèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "河内"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“城市”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "chéng shì",
         "B": "chén shì",
-        "C": "chéng sì",
-        "D": "céng shì"
+        "C": "céng shì",
+        "D": "chéng sì"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“城市”的正确读音是 chéng shì。"
+      "explanation": "“城市”读作 chéng shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "城市"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“学习”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xié xí",
-        "B": "xué xí",
-        "C": "xué xín",
-        "D": "qué xí"
+        "A": "qué xí",
+        "B": "xué qí",
+        "C": "xué xí",
+        "D": "jué xí"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“学习”的正确读音是 xué xí。"
+      "explanation": "“学习”读作 xué xí。注意声母、韵母、声调及轻声。",
+      "targetWord": "学习"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“会”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "huì",
-        "B": "hù",
-        "C": "huò",
-        "D": "huài"
+        "A": "duì",
+        "B": "cuì",
+        "C": "huì",
+        "D": "chuì"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“会”的正确读音是 huì。"
+      "explanation": "“会”读作 huì。注意声母、韵母、声调及轻声。",
+      "targetWord": "会"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“说”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "suō",
-        "B": "shōu",
-        "C": "shuā",
-        "D": "shuō"
+        "A": "shuō",
+        "B": "suō",
+        "C": "chuō",
+        "D": "huō"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“说”的正确读音是 shuō。"
+      "explanation": "“说”读作 shuō。注意声母、韵母、声调及轻声。",
+      "targetWord": "说"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我是____人。",
-      "pinyin": "wǒ shì ____ rén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi là người Việt Nam.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：河内____越南的首都。",
+      "pinyin": "hé nèi ____ yuè nán de shǒu dū 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "越南",
-        "B": "会",
-        "C": "日本",
-        "D": "说"
+        "A": "有",
+        "B": "去",
+        "C": "在",
+        "D": "是"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“越南”。完整句子：我是越南人。",
+      "explanation": "应填“是”。完整句子：河内是越南的首都。\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "yuè nán",
-        "B": "huì",
-        "C": "rì běn",
-        "D": "shuō"
-      }
+        "A": "yǒu",
+        "B": "qù",
+        "C": "zài",
+        "D": "shì"
+      },
+      "targetWord": "是",
+      "completeSentence": "河内是越南的首都。",
+      "grammarFocus": "是＋名词：判断或说明身份"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：王老师是____人。",
-      "pinyin": "wáng lǎo shī shì ____ rén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Thầy Vương là người Trung Quốc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____上海住了半年。",
+      "pinyin": "wǒ ____ shàng hǎi zhù le bàn nián 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
       "options": {
-        "A": "国家",
-        "B": "中国",
-        "C": "英语",
-        "D": "日本"
+        "A": "在",
+        "B": "给",
+        "C": "从",
+        "D": "比"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“中国”。完整句子：王老师是中国人。",
+      "explanation": "应填“在”。完整句子：我在上海住了半年。\n语法与搭配：在＋地点＋动词/名词",
       "optionPinyin": {
-        "A": "guó jiā",
-        "B": "zhōng guó",
-        "C": "yīng yǔ",
-        "D": "rì běn"
-      }
+        "A": "zài",
+        "B": "gěi",
+        "C": "cóng",
+        "D": "bǐ"
+      },
+      "targetWord": "在",
+      "completeSentence": "我在上海住了半年。",
+      "grammarFocus": "在＋地点＋动词/名词"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他是____人。",
-      "pinyin": "tā shì ____ rén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy là người Mỹ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他____中国来，到越南学习。",
+      "pinyin": "tā ____ zhōng guó lái ， dào yuè nán xué xí 。",
+      "vietnamese": "Gợi ý: từ; chỉ điểm xuất phát.",
       "options": {
-        "A": "国家",
-        "B": "说",
-        "C": "学习",
-        "D": "美国"
+        "A": "比",
+        "B": "从",
+        "C": "给",
+        "D": "的"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“美国”。完整句子：他是美国人。",
+      "explanation": "应填“从”。完整句子：他从中国来，到越南学习。\n语法与搭配：从＋起点",
       "optionPinyin": {
-        "A": "guó jiā",
-        "B": "shuō",
-        "C": "xué xí",
-        "D": "měi guó"
-      }
+        "A": "bǐ",
+        "B": "cóng",
+        "C": "gěi",
+        "D": "de"
+      },
+      "targetWord": "从",
+      "completeSentence": "他从中国来，到越南学习。",
+      "grammarFocus": "从＋起点"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：她是____人。",
-      "pinyin": "tā shì ____ rén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy là người Nhật Bản.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是朋友____护照。",
+      "pinyin": "zhè shì péng you ____ hù zhào 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "中文",
-        "B": "美国",
-        "C": "越南",
-        "D": "日本"
+        "A": "得",
+        "B": "的",
+        "C": "吗",
+        "D": "地"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“日本”。完整句子：她是日本人。",
+      "explanation": "应填“的”。完整句子：这是朋友的护照。\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "zhōng wén",
-        "B": "měi guó",
-        "C": "yuè nán",
-        "D": "rì běn"
-      }
+        "A": "dé",
+        "B": "de",
+        "C": "ma",
+        "D": "dì"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是朋友的护照。",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我喜欢我的____。",
-      "pinyin": "wǒ xǐ huan wǒ de ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi yêu đất nước của mình.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：她____来自亚洲。",
+      "pinyin": "tā ____ lái zì yà zhōu 。",
+      "vietnamese": "Gợi ý: cũng; bổ sung điểm giống nhau.",
       "options": {
-        "A": "城市",
-        "B": "国家",
-        "C": "英语",
-        "D": "会"
+        "A": "也",
+        "B": "从",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“国家”。完整句子：我喜欢我的国家。",
+      "explanation": "应填“也”。完整句子：她也来自亚洲。\n语法与搭配：也＋谓语：也有相同情况",
       "optionPinyin": {
-        "A": "chéng shì",
-        "B": "guó jiā",
-        "C": "yīng yǔ",
-        "D": "huì"
-      }
+        "A": "yě",
+        "B": "cóng",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "也",
+      "completeSentence": "她也来自亚洲。",
+      "grammarFocus": "也＋谓语：也有相同情况"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你是____国人？",
-      "pinyin": "nǐ shì ____ guó rén ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn là người nước nào?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们____喜欢自己的家乡。",
+      "pinyin": "wǒ men ____ xǐ huān zì jǐ de jiā xiāng 。",
+      "vietnamese": "Gợi ý: đều; bao quát toàn bộ chủ thể.",
       "options": {
-        "A": "说",
-        "B": "会",
-        "C": "城市",
-        "D": "哪"
+        "A": "都",
+        "B": "的",
+        "C": "从",
+        "D": "把"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“哪”。完整句子：你是哪国人？",
+      "explanation": "应填“都”。完整句子：我们都喜欢自己的家乡。\n语法与搭配：复数主语＋都＋谓语",
       "optionPinyin": {
-        "A": "shuō",
-        "B": "huì",
-        "C": "chéng shì",
-        "D": "nǎ"
-      }
+        "A": "dōu",
+        "B": "de",
+        "C": "cóng",
+        "D": "bǎ"
+      },
+      "targetWord": "都",
+      "completeSentence": "我们都喜欢自己的家乡。",
+      "grammarFocus": "复数主语＋都＋谓语"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我会说____。",
-      "pinyin": "wǒ huì shuō ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi biết nói tiếng Trung.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你是韩国人____？",
+      "pinyin": "nǐ shì hán guó rén ____？",
+      "vietnamese": "Gợi ý: trợ từ đặt câu hỏi có/không.",
       "options": {
-        "A": "越南",
-        "B": "英语",
-        "C": "中文",
-        "D": "国家"
+        "A": "得",
+        "B": "吗",
+        "C": "地",
+        "D": "的"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“中文”。完整句子：我会说中文。",
+      "explanation": "应填“吗”。完整句子：你是韩国人吗？\n语法与搭配：陈述内容＋吗：是非疑问",
       "optionPinyin": {
-        "A": "yuè nán",
-        "B": "yīng yǔ",
-        "C": "zhōng wén",
-        "D": "guó jiā"
-      }
+        "A": "dé",
+        "B": "ma",
+        "C": "dì",
+        "D": "de"
+      },
+      "targetWord": "吗",
+      "completeSentence": "你是韩国人吗？",
+      "grammarFocus": "陈述内容＋吗：是非疑问"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：妈妈说____。",
-      "pinyin": "mā ma shuō ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ nói tiếng Việt.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我住在河内，你____？",
+      "pinyin": "wǒ zhù zài hé nèi ， nǐ ____？",
+      "vietnamese": "Gợi ý: còn… thì sao; hỏi tiếp chủ đề.",
       "options": {
-        "A": "越南语",
-        "B": "河内",
-        "C": "会",
-        "D": "日本"
+        "A": "地",
+        "B": "得",
+        "C": "呢",
+        "D": "的"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“越南语”。完整句子：妈妈说越南语。",
+      "explanation": "应填“呢”。完整句子：我住在河内，你呢？\n语法与搭配：名词/代词＋呢：追问相同话题",
       "optionPinyin": {
-        "A": "yuè nán yǔ",
-        "B": "hé nèi",
-        "C": "huì",
-        "D": "rì běn"
-      }
+        "A": "dì",
+        "B": "dé",
+        "C": "ne",
+        "D": "de"
+      },
+      "targetWord": "呢",
+      "completeSentence": "我住在河内，你呢？",
+      "grammarFocus": "名词/代词＋呢：追问相同话题"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他也会说____。",
-      "pinyin": "tā yě huì shuō ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy cũng biết nói tiếng Anh.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他____是我的同乡。",
+      "pinyin": "tā ____ shì wǒ de tóng xiāng 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
       "options": {
-        "A": "中文",
-        "B": "英语",
-        "C": "城市",
-        "D": "会"
+        "A": "的",
+        "B": "把",
+        "C": "比",
+        "D": "不"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“英语”。完整句子：他也会说英语。",
+      "explanation": "应填“不”。完整句子：他不是我的同乡。\n语法与搭配：不＋动词/形容词",
       "optionPinyin": {
-        "A": "zhōng wén",
-        "B": "yīng yǔ",
-        "C": "chéng shì",
-        "D": "huì"
-      }
+        "A": "de",
+        "B": "bǎ",
+        "C": "bǐ",
+        "D": "bù"
+      },
+      "targetWord": "不",
+      "completeSentence": "他不是我的同乡。",
+      "grammarFocus": "不＋动词/形容词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我想去____。",
-      "pinyin": "wǒ xiǎng qù ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn đi Bắc Kinh.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：她____很多外国朋友。",
+      "pinyin": "tā ____ hěn duō wài guó péng you 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
       "options": {
-        "A": "会",
-        "B": "北京",
-        "C": "国家",
-        "D": "城市"
+        "A": "比",
+        "B": "有",
+        "C": "是",
+        "D": "去"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“北京”。完整句子：我想去北京。",
+      "explanation": "应填“有”。完整句子：她有很多外国朋友。\n语法与搭配：有＋名词：拥有或存在",
       "optionPinyin": {
-        "A": "huì",
-        "B": "běi jīng",
-        "C": "guó jiā",
-        "D": "chéng shì"
-      }
+        "A": "bǐ",
+        "B": "yǒu",
+        "C": "shì",
+        "D": "qù"
+      },
+      "targetWord": "有",
+      "completeSentence": "她有很多外国朋友。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：她住在____。",
-      "pinyin": "tā zhù zài ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy sống ở Hà Nội.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____小林来自同一个地方。",
+      "pinyin": "wǒ ____ xiǎo lín lái zì tóng yī gè dì fang 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
       "options": {
-        "A": "城市",
-        "B": "哪",
-        "C": "河内",
-        "D": "日本"
+        "A": "很",
+        "B": "吗",
+        "C": "把",
+        "D": "和"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“河内”。完整句子：她住在河内。",
+      "explanation": "应填“和”。完整句子：我和小林来自同一个地方。\n语法与搭配：名词/代词＋和＋名词/代词",
       "optionPinyin": {
-        "A": "chéng shì",
-        "B": "nǎ",
-        "C": "hé nèi",
-        "D": "rì běn"
-      }
+        "A": "hěn",
+        "B": "ma",
+        "C": "bǎ",
+        "D": "hé"
+      },
+      "targetWord": "和",
+      "completeSentence": "我和小林来自同一个地方。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你现在住在哪个____？",
-      "pinyin": "nǐ xiàn zài zhù zài nǎ ge ____？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hiện giờ bạn sống ở thành phố nào?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____了解我的家乡吗？",
+      "pinyin": "nǐ ____ liǎo jiě wǒ de jiā xiāng ma ？",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "城市",
-        "B": "学习",
-        "C": "美国",
-        "D": "中文"
+        "A": "想",
+        "B": "的",
+        "C": "把",
+        "D": "比"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“城市”。完整句子：你现在住在哪个城市？",
+      "explanation": "应填“想”。完整句子：你想了解我的家乡吗？\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "chéng shì",
-        "B": "xué xí",
-        "C": "měi guó",
-        "D": "zhōng wén"
-      }
+        "A": "xiǎng",
+        "B": "de",
+        "C": "bǎ",
+        "D": "bǐ"
+      },
+      "targetWord": "想",
+      "completeSentence": "你想了解我的家乡吗？",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我喜欢____中文。",
-      "pinyin": "wǒ xǐ huan ____ zhōng wén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi thích học tiếng Trung.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我可以____汉语介绍河内。",
+      "pinyin": "wǒ kě yǐ ____ hàn yǔ jiè shào hé nèi 。",
+      "vietnamese": "Gợi ý: dùng; chỉ công cụ hoặc ngôn ngữ.",
       "options": {
-        "A": "学习",
-        "B": "美国",
-        "C": "越南",
-        "D": "哪"
+        "A": "比",
+        "B": "吗",
+        "C": "的",
+        "D": "用"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“学习”。完整句子：我喜欢学习中文。",
+      "explanation": "应填“用”。完整句子：我可以用汉语介绍河内。\n语法与搭配：用＋工具/语言＋动词",
       "optionPinyin": {
-        "A": "xué xí",
-        "B": "měi guó",
-        "C": "yuè nán",
-        "D": "nǎ"
-      }
+        "A": "bǐ",
+        "B": "ma",
+        "C": "de",
+        "D": "yòng"
+      },
+      "targetWord": "用",
+      "completeSentence": "我可以用汉语介绍河内。",
+      "grammarFocus": "用＋工具/语言＋动词"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你____说中文吗？",
-      "pinyin": "nǐ ____ shuō zhōng wén ma ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn có biết nói tiếng Trung không?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他____给朋友看家乡的照片。",
+      "pinyin": "tā ____ gěi péng you kān jiā xiāng de zhào piān 。",
+      "vietnamese": "Gợi ý: đang; hành động đang diễn ra.",
       "options": {
-        "A": "中国",
-        "B": "会",
-        "C": "河内",
-        "D": "英语"
+        "A": "正在",
+        "B": "比",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“会”。完整句子：你会说中文吗？",
+      "explanation": "应填“正在”。完整句子：他正在给朋友看家乡的照片。\n语法与搭配：正在＋动词",
       "optionPinyin": {
-        "A": "zhōng guó",
-        "B": "huì",
-        "C": "hé nèi",
-        "D": "yīng yǔ"
-      }
+        "A": "zhèng zài",
+        "B": "bǐ",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "正在",
+      "completeSentence": "他正在给朋友看家乡的照片。",
+      "grammarFocus": "正在＋动词"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请用中文____。",
-      "pinyin": "qǐng yòng zhōng wén ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy nói bằng tiếng Trung.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：欢迎大家来这里____。",
+      "pinyin": "huān yíng dà jiā lái zhè lǐ ____。",
+      "vietnamese": "Gợi ý: du lịch.",
       "options": {
-        "A": "北京",
-        "B": "中国",
-        "C": "说",
-        "D": "学习"
+        "A": "刷牙",
+        "B": "下雨",
+        "C": "睡觉",
+        "D": "旅游"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“说”。完整句子：请用中文说。",
+      "explanation": "应填“旅游”。完整句子：欢迎大家来这里旅游。\n语法与搭配：来/去＋地点＋旅游",
       "optionPinyin": {
-        "A": "běi jīng",
-        "B": "zhōng guó",
-        "C": "shuō",
-        "D": "xué xí"
-      }
+        "A": "shuā yá",
+        "B": "xià yǔ",
+        "C": "shuì jiào",
+        "D": "lǚ yóu"
+      },
+      "targetWord": "旅游",
+      "completeSentence": "欢迎大家来这里旅游。",
+      "grammarFocus": "来/去＋地点＋旅游"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "我是越南人."
       ],
       "points": 2,
-      "explanation": "参考句子：我是越南人。"
+      "explanation": "参考句子：我是越南人。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "王老师是中国人."
       ],
       "points": 2,
-      "explanation": "参考句子：王老师是中国人。"
+      "explanation": "参考句子：王老师是中国人。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "他是美国人."
       ],
       "points": 2,
-      "explanation": "参考句子：他是美国人。"
+      "explanation": "参考句子：他是美国人。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -721,7 +784,8 @@
         "她是日本人."
       ],
       "points": 2,
-      "explanation": "参考句子：她是日本人。"
+      "explanation": "参考句子：她是日本人。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -736,7 +800,8 @@
         "我喜欢我的国家."
       ],
       "points": 2,
-      "explanation": "参考句子：我喜欢我的国家。"
+      "explanation": "参考句子：我喜欢我的国家。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -751,7 +816,8 @@
         "你是哪国人?"
       ],
       "points": 2,
-      "explanation": "参考句子：你是哪国人？"
+      "explanation": "参考句子：你是哪国人？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -766,7 +832,8 @@
         "我会说中文."
       ],
       "points": 2,
-      "explanation": "参考句子：我会说中文。"
+      "explanation": "参考句子：我会说中文。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -781,7 +848,8 @@
         "妈妈说越南语."
       ],
       "points": 2,
-      "explanation": "参考句子：妈妈说越南语。"
+      "explanation": "参考句子：妈妈说越南语。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -796,7 +864,8 @@
         "他也会说英语."
       ],
       "points": 2,
-      "explanation": "参考句子：他也会说英语。"
+      "explanation": "参考句子：他也会说英语。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -811,7 +880,8 @@
         "我想去北京."
       ],
       "points": 2,
-      "explanation": "参考句子：我想去北京。"
+      "explanation": "参考句子：我想去北京。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -826,7 +896,8 @@
         "她住在河内."
       ],
       "points": 2,
-      "explanation": "参考句子：她住在河内。"
+      "explanation": "参考句子：她住在河内。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 42,
@@ -842,7 +913,8 @@
         "你现在住在哪个城市?"
       ],
       "points": 2,
-      "explanation": "参考句子：你现在住在哪个城市？"
+      "explanation": "参考句子：你现在住在哪个城市？\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 43,
@@ -857,7 +929,8 @@
         "我喜欢学习中文."
       ],
       "points": 2,
-      "explanation": "参考句子：我喜欢学习中文。"
+      "explanation": "参考句子：我喜欢学习中文。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -872,7 +945,8 @@
         "你会说中文吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：你会说中文吗？"
+      "explanation": "参考句子：你会说中文吗？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -887,7 +961,8 @@
         "请用中文说."
       ],
       "points": 2,
-      "explanation": "参考句子：请用中文说。"
+      "explanation": "参考句子：请用中文说。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -902,7 +977,8 @@
         "我的朋友来自越南."
       ],
       "points": 2,
-      "explanation": "参考句子：我的朋友来自越南。"
+      "explanation": "参考句子：我的朋友来自越南。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -917,7 +993,8 @@
         "我们在中国学习."
       ],
       "points": 2,
-      "explanation": "参考句子：我们在中国学习。"
+      "explanation": "参考句子：我们在中国学习。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 48,
@@ -932,7 +1009,8 @@
         "你的中文说得很好."
       ],
       "points": 2,
-      "explanation": "参考句子：你的中文说得很好。"
+      "explanation": "参考句子：你的中文说得很好。\n语法与搭配：动词＋得＋程度/状态补语",
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 49,
@@ -947,7 +1025,8 @@
         "我不会说日语."
       ],
       "points": 2,
-      "explanation": "参考句子：我不会说日语。"
+      "explanation": "参考句子：我不会说日语。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -962,9 +1041,11 @@
         "你想去哪个国家?"
       ],
       "points": 2,
-      "explanation": "参考句子：你想去哪个国家？"
+      "explanation": "参考句子：你想去哪个国家？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "0d47096d",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

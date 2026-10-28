@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第27课 返工、返修与复检",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“返工”的正确读音。",
+      "text": "【拼音选择】请选择“修复”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fǎn gōng",
-        "B": "bǎn gōng",
-        "C": "fǎng gōng",
-        "D": "hǎn gōng"
+        "A": "xiū fù",
+        "B": "qiū fù",
+        "C": "xiū hù",
+        "D": "diū fù"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“返工”读作 fǎn gōng，本课词义：làm lại để đạt yêu cầu。"
+      "explanation": "“修复”读作 xiū fù。注意声母、韵母、声调及轻声。",
+      "targetWord": "修复"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“返修”的正确读音。",
+      "text": "【拼音选择】请选择“重测”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hǎn xiū",
-        "B": "fǎng xiū",
-        "C": "fǎn xiū",
-        "D": "fǎn qiū"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“返修”读作 fǎn xiū，本课词义：sửa chữa lại。"
-    },
-    {
-      "id": 3,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“复检”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "fù jiǎng",
-        "B": "fù qiǎn",
-        "C": "fù jiǎn",
-        "D": "hù jiǎn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“复检”读作 fù jiǎn，本课词义：kiểm tra lại。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“方案”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "fāng àng",
-        "B": "hāng àn",
-        "C": "fāng àn",
-        "D": "fān àn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“方案”读作 fāng àn，本课词义：phương án。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“范围”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "hàn wéi",
-        "B": "bàn wéi",
-        "C": "fàng wéi",
-        "D": "fàn wéi"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "“范围”读作 fàn wéi，本课词义：phạm vi。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“原因”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "cuán yīn",
-        "B": "yuán yīng",
-        "C": "huán yīn",
-        "D": "yuán yīn"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "“原因”读作 yuán yīn，本课词义：nguyên nhân。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“批准”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "cī zhǔn",
-        "B": "pī zhǔn",
-        "C": "pī zǔn",
-        "D": "bī zhǔn"
+        "A": "zòng cè",
+        "B": "zhòng cè",
+        "C": "zhòng chè",
+        "D": "chòng cè"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“批准”读作 pī zhǔn，本课词义：phê duyệt。"
+      "explanation": "“重测”读作 zhòng cè。注意声母、韵母、声调及轻声。",
+      "targetWord": "重测"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“工艺”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "gōng yì",
+        "B": "dōng yì",
+        "C": "gāng yì",
+        "D": "cōng yì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“工艺”读作 gōng yì。注意声母、韵母、声调及轻声。",
+      "targetWord": "工艺"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“缺陷点”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "juē xiàn diǎn",
+        "B": "quē xiàn diǎn",
+        "C": "xuē xiàn diǎn",
+        "D": "quē qiàn diǎn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“缺陷点”读作 quē xiàn diǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "缺陷点"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“更换”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "gēng huàng",
+        "B": "gēng huàn",
+        "C": "gēn huàn",
+        "D": "bēng huàn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“更换”读作 gēng huàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "更换"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“返修单”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "fǎn xiū dān",
+        "B": "hǎn xiū dān",
+        "C": "fǎng xiū dān",
+        "D": "fǎn qiū dān"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“返修单”读作 fǎn xiū dān。注意声母、韵母、声调及轻声。",
+      "targetWord": "返修单"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“复判”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "fù pàng",
+        "B": "bù pàn",
+        "C": "fù pàn",
+        "D": "hù pàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“复判”读作 fù pàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "复判"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“数量”的正确读音。",
+      "text": "【拼音选择】请选择“验收”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shù liàng",
-        "B": "shù liàn",
-        "C": "sù liàng",
-        "D": "shù niàng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“数量”读作 shù liàng，本课词义：số lượng。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“结果”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "bié guǒ",
-        "B": "dié guǒ",
-        "C": "qié guǒ",
-        "D": "jié guǒ"
+        "A": "yàn shāo",
+        "B": "yàn sōu",
+        "C": "yàng shōu",
+        "D": "yàn shōu"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“结果”读作 jié guǒ，本课词义：kết quả。"
+      "explanation": "“验收”读作 yàn shōu。注意声母、韵母、声调及轻声。",
+      "targetWord": "验收"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“复发”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "bù fā",
+        "B": "hù fā",
+        "C": "fù hā",
+        "D": "fù fā"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“复发”读作 fù fā。注意声母、韵母、声调及轻声。",
+      "targetWord": "复发"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“记录”的正确读音。",
+      "text": "【拼音选择】请选择“闭环”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jì lù",
-        "B": "bì lù",
-        "C": "qì lù",
-        "D": "jì nù"
+        "A": "biè huán",
+        "B": "bà huán",
+        "C": "bì huáng",
+        "D": "bì huán"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“记录”读作 jì lù，本课词义：hồ sơ, bản ghi。"
+      "explanation": "“闭环”读作 bì huán。注意声母、韵母、声调及轻声。",
+      "targetWord": "闭环"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“返工”（làm lại để đạt yêu cầu）。完整表达：这批产品需要返工请先确认处理方案。"
+      "explanation": "应填“返工”（làm lại để đạt yêu cầu）。完整表达：这批产品需要返工请先确认处理方案。",
+      "targetWord": "返工",
+      "completeSentence": "这批产品需要返工请先确认处理方案。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“返修”（sửa chữa lại）。完整表达：这项返修需要由授权人员操作。"
+      "explanation": "应填“返修”（sửa chữa lại）。完整表达：这项返修需要由授权人员操作。",
+      "targetWord": "返修",
+      "completeSentence": "这项返修需要由授权人员操作。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“复检”（kiểm tra lại）。完整表达：处理完成以后是否需要安排复检。"
+      "explanation": "应填“复检”（kiểm tra lại）。完整表达：处理完成以后是否需要安排复检。",
+      "targetWord": "复检",
+      "completeSentence": "处理完成以后是否需要安排复检。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“方案”（phương án）。完整表达：这份处理方案还没有批准请等待确认。"
+      "explanation": "应填“方案”（phương án）。完整表达：这份处理方案还没有批准请等待确认。",
+      "targetWord": "方案",
+      "completeSentence": "这份处理方案还没有批准请等待确认。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“范围”（phạm vi）。完整表达：请问这次返工涉及的范围有多大。"
+      "explanation": "应填“范围”（phạm vi）。完整表达：请问这次返工涉及的范围有多大。",
+      "targetWord": "范围",
+      "completeSentence": "请问这次返工涉及的范围有多大。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“原因”（nguyên nhân）。完整表达：问题产生的原因还需要进一步分析。"
+      "explanation": "应填“原因”（nguyên nhân）。完整表达：问题产生的原因还需要进一步分析。",
+      "targetWord": "原因",
+      "completeSentence": "问题产生的原因还需要进一步分析。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“批准”（phê duyệt）。完整表达：批准记录在哪里请帮我确认一下。"
+      "explanation": "应填“批准”（phê duyệt）。完整表达：批准记录在哪里请帮我确认一下。",
+      "targetWord": "批准",
+      "completeSentence": "批准记录在哪里请帮我确认一下。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“数量”（số lượng）。完整表达：实际处理的数量请如实填写。"
+      "explanation": "应填“数量”（số lượng）。完整表达：实际处理的数量请如实填写。",
+      "targetWord": "数量",
+      "completeSentence": "实际处理的数量请如实填写。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“结果”（kết quả）。完整表达：复检结果出来以后请通知产线。"
+      "explanation": "应填“结果”（kết quả）。完整表达：复检结果出来以后请通知产线。",
+      "targetWord": "结果",
+      "completeSentence": "复检结果出来以后请通知产线。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“记录”（hồ sơ, bản ghi）。完整表达：返工过程中的记录需要保持完整。"
+      "explanation": "应填“记录”（hồ sơ, bản ghi）。完整表达：返工过程中的记录需要保持完整。",
+      "targetWord": "记录",
+      "completeSentence": "返工过程中的记录需要保持完整。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明需要重做且应先确认方案，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng xū yào zhòng zuò qiě yīng xiān què rèn fāng àn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“返工复检要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ fǎn gōng fù jiǎn yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "问题产生的原因还需要进一步分析",
-        "B": "如果复检人员安排有变化请及时通知我",
-        "C": "请告诉我谁负责返工批准管理",
-        "D": "这批产品需要返工请先确认处理方案"
+        "A": "我这次只想核实返工复检要求",
+        "B": "我还需要进一步了解返工复检要求",
+        "C": "我还没有收到关于返工复检要求的资料",
+        "D": "我还没有收到关于返修方案的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "wèn tí chǎn shēng de yuán yīn hái xū yào jìn yí bù fēn xī",
-        "B": "rú guǒ fù jiǎn rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "qǐng gào sù wǒ shuí fù zé fǎn gōng pī zhǔn guǎn lǐ",
-        "D": "zhè pī chǎn pǐn xū yào fǎn gōng qǐng xiān què rèn chǔ lǐ fāng àn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng fù jiǎn yāo qiú",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng fù jiǎn yāo qiú",
+        "C": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng fù jiǎn yāo qiú de zī liào",
+        "D": "wǒ hái méi yǒu shōu dào guān yú fǎn xiū fāng àn de hé shí jié guǒ de zī liào"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你要说明需要重做且应先确认方案，应该怎么说？\n符合此任务的表达：这批产品需要返工请先确认处理方案。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“返工复检要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于返工复检要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于返工复检要求的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明维修处理只能由获授权人员进行，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng wéi xiū chǔ lǐ zhǐ néng yóu huò shòu quán rén yuán jìn xíng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“返修方案的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ fǎn xiū fāng àn de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这份处理方案还没有批准请等待确认",
-        "B": "这项返修需要由授权人员操作",
-        "C": "请问这次返工涉及的范围有多大",
-        "D": "实际处理的数量请如实填写"
+        "A": "我还没有收到关于返修方案的核实结果的资料",
+        "B": "我还没有收到关于复检人员安排的资料",
+        "C": "我还需要进一步了解返修方案的核实结果",
+        "D": "我这次只想核实返修方案的核实结果"
       },
       "optionPinyin": {
-        "A": "zhè fèn chǔ lǐ fāng àn hái méi yǒu pī zhǔn qǐng děng dài què rèn",
-        "B": "zhè xiàng fǎn xiū xū yào yóu shòu quán rén yuán cāo zuò",
-        "C": "qǐng wèn zhè cì fǎn gōng shè jí de fàn wéi yǒu duō dà",
-        "D": "shí jì chǔ lǐ de shù liàng qǐng rú shí tián xiě"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要说明维修处理只能由获授权人员进行，应该怎么说？\n符合此任务的表达：这项返修需要由授权人员操作。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想确认处理后是否应再次检验，应该怎么问？",
-      "pinyin": "nǐ xiǎng què rèn chǔ lǐ hòu shì fǒu yīng zài cì jiǎn yàn ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "处理完成以后是否需要安排复检",
-        "B": "实际处理的数量请如实填写",
-        "C": "返工过程中的记录需要保持完整",
-        "D": "这份处理方案还没有批准请等待确认"
-      },
-      "optionPinyin": {
-        "A": "chǔ lǐ wán chéng yǐ hòu shì fǒu xū yào ān pái fù jiǎn",
-        "B": "shí jì chǔ lǐ de shù liàng qǐng rú shí tián xiě",
-        "C": "fǎn gōng guò chéng zhōng de jì lù xū yào bǎo chí wán zhěng",
-        "D": "zhè fèn chǔ lǐ fāng àn hái méi yǒu pī zhǔn qǐng děng dài què rèn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú fǎn xiū fāng àn de hé shí jié guǒ de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú fù jiǎn rén yuán ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn xiū fāng àn de hé shí jié guǒ",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí fǎn xiū fāng àn de hé shí jié guǒ"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想确认处理后是否应再次检验，应该怎么问？\n符合此任务的表达：处理完成以后是否需要安排复检。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“返修方案的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于返修方案的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于返修方案的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“复检人员安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ fù jiǎn rén yuán ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解复检人员安排",
+        "B": "我这次只想核实复检人员安排",
+        "C": "我还没有收到关于返工批准管理的资料",
+        "D": "我还没有收到关于复检人员安排的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě fù jiǎn rén yuán ān pái",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí fù jiǎn rén yuán ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng pī zhǔn guǎn lǐ de zī liào",
+        "D": "wǒ hái méi yǒu shōu dào guān yú fù jiǎn rén yuán ān pái de zī liào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“复检人员安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于复检人员安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于复检人员安排的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明方案尚未获批，应等待，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng fāng àn shàng wèi huò pī ， yīng děng dài ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“返工批准管理”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ fǎn gōng pī zhǔn guǎn lǐ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "批准记录在哪里请帮我确认一下",
-        "B": "这项返修需要由授权人员操作",
-        "C": "这份处理方案还没有批准请等待确认",
-        "D": "关于返修方案的核实结果我还需要再核实一下"
+        "A": "我还没有收到关于返工产品范围的资料",
+        "B": "我还没有收到关于返工批准管理的资料",
+        "C": "我这次只想核实返工批准管理",
+        "D": "我还需要进一步了解返工批准管理"
       },
       "optionPinyin": {
-        "A": "pī zhǔn jì lù zài nǎ lǐ qǐng bāng wǒ què rèn yí xià",
-        "B": "zhè xiàng fǎn xiū xū yào yóu shòu quán rén yuán cāo zuò",
-        "C": "zhè fèn chǔ lǐ fāng àn hái méi yǒu pī zhǔn qǐng děng dài què rèn",
-        "D": "guān yú fǎn xiū fāng àn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+        "A": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng chǎn pǐn fàn wéi de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng pī zhǔn guǎn lǐ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng pī zhǔn guǎn lǐ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng pī zhǔn guǎn lǐ"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你要说明方案尚未获批，应等待，应该怎么说？\n符合此任务的表达：这份处理方案还没有批准请等待确认。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“返工批准管理”的资料，怎样说明情况？\n合适的表达：我还没有收到关于返工批准管理的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于返工批准管理的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要了解哪些产品包含在返工任务内，应该怎么问？",
-      "pinyin": "nǐ yào liǎo jiě nǎ xiē chǎn pǐn bāo hán zài fǎn gōng rèn wù nèi ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“返工产品范围”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ fǎn gōng chǎn pǐn fàn wéi ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "问题产生的原因还需要进一步分析",
-        "B": "请问这次返工涉及的范围有多大",
-        "C": "实际处理的数量请如实填写",
-        "D": "复检结果出来以后请通知产线"
+        "A": "我还没有收到关于返工产品范围的资料",
+        "B": "我这次只想核实返工产品范围",
+        "C": "我还需要进一步了解返工产品范围",
+        "D": "我还没有收到关于返工复检要求的资料"
       },
       "optionPinyin": {
-        "A": "wèn tí chǎn shēng de yuán yīn hái xū yào jìn yí bù fēn xī",
-        "B": "qǐng wèn zhè cì fǎn gōng shè jí de fàn wéi yǒu duō dà",
-        "C": "shí jì chǔ lǐ de shù liàng qǐng rú shí tián xiě",
-        "D": "fù jiǎn jié guǒ chū lái yǐ hòu qǐng tōng zhī chǎn xiàn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng chǎn pǐn fàn wéi de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng chǎn pǐn fàn wéi",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng chǎn pǐn fàn wéi",
+        "D": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng fù jiǎn yāo qiú de zī liào"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你要了解哪些产品包含在返工任务内，应该怎么问？\n符合此任务的表达：请问这次返工涉及的范围有多大。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“返工产品范围”的资料，怎样说明情况？\n合适的表达：我还没有收到关于返工产品范围的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于返工产品范围的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明问题成因还没有查明，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng wèn tí chéng yīn hái méi yǒu chá míng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“返工复检要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ fǎn gōng fù jiǎn yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请帮我确认一下返工复检要求的具体要求",
-        "B": "问题产生的原因还需要进一步分析",
-        "C": "请问这次返工涉及的范围有多大",
-        "D": "这份处理方案还没有批准请等待确认"
+        "A": "我还没有收到关于返工复检要求的资料",
+        "B": "我还需要进一步了解返工复检要求",
+        "C": "我这次只想核实返修方案的核实结果",
+        "D": "我这次只想核实返工复检要求"
       },
       "optionPinyin": {
-        "A": "qǐng bāng wǒ què rèn yí xià fǎn gōng fù jiǎn yāo qiú de jù tǐ yāo qiú",
-        "B": "wèn tí chǎn shēng de yuán yīn hái xū yào jìn yí bù fēn xī",
-        "C": "qǐng wèn zhè cì fǎn gōng shè jí de fàn wéi yǒu duō dà",
-        "D": "zhè fèn chǔ lǐ fāng àn hái méi yǒu pī zhǔn qǐng děng dài què rèn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng fù jiǎn yāo qiú de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng fù jiǎn yāo qiú",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí fǎn xiū fāng àn de hé shí jié guǒ",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng fù jiǎn yāo qiú"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你要说明问题成因还没有查明，应该怎么说？\n符合此任务的表达：问题产生的原因还需要进一步分析。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“返工复检要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实返工复检要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实返工复检要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想找本次处理的批准凭据，应该怎么请求？",
-      "pinyin": "nǐ xiǎng zhǎo běn cì chǔ lǐ de pī zhǔn píng jù ， yīng gāi zěn me qǐng qiú ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“返修方案的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ fǎn xiū fāng àn de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请帮我确认一下返工复检要求的具体要求",
-        "B": "处理完成以后是否需要安排复检",
-        "C": "这份处理方案还没有批准请等待确认",
-        "D": "批准记录在哪里请帮我确认一下"
+        "A": "我这次只想核实复检人员安排",
+        "B": "我还需要进一步了解返修方案的核实结果",
+        "C": "我这次只想核实返修方案的核实结果",
+        "D": "我还没有收到关于返修方案的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "qǐng bāng wǒ què rèn yí xià fǎn gōng fù jiǎn yāo qiú de jù tǐ yāo qiú",
-        "B": "chǔ lǐ wán chéng yǐ hòu shì fǒu xū yào ān pái fù jiǎn",
-        "C": "zhè fèn chǔ lǐ fāng àn hái méi yǒu pī zhǔn qǐng děng dài què rèn",
-        "D": "pī zhǔn jì lù zài nǎ lǐ qǐng bāng wǒ què rèn yí xià"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí fù jiǎn rén yuán ān pái",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn xiū fāng àn de hé shí jié guǒ",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí fǎn xiū fāng àn de hé shí jié guǒ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú fǎn xiū fāng àn de hé shí jié guǒ de zī liào"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想找本次处理的批准凭据，应该怎么请求？\n符合此任务的表达：批准记录在哪里请帮我确认一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“返修方案的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实返修方案的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实返修方案的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒真实登记已处理件数，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng zhēn shí dēng jì yǐ chǔ lǐ jiàn shù ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“复检人员安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ fù jiǎn rén yuán ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "处理完成以后是否需要安排复检",
-        "B": "实际处理的数量请如实填写",
-        "C": "请帮我确认一下返工复检要求的具体要求",
-        "D": "请问这次返工涉及的范围有多大"
+        "A": "我还需要进一步了解复检人员安排",
+        "B": "我这次只想核实复检人员安排",
+        "C": "我这次只想核实返工批准管理",
+        "D": "我还没有收到关于复检人员安排的资料"
       },
       "optionPinyin": {
-        "A": "chǔ lǐ wán chéng yǐ hòu shì fǒu xū yào ān pái fù jiǎn",
-        "B": "shí jì chǔ lǐ de shù liàng qǐng rú shí tián xiě",
-        "C": "qǐng bāng wǒ què rèn yí xià fǎn gōng fù jiǎn yāo qiú de jù tǐ yāo qiú",
-        "D": "qǐng wèn zhè cì fǎn gōng shè jí de fàn wéi yǒu duō dà"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě fù jiǎn rén yuán ān pái",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí fù jiǎn rén yuán ān pái",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng pī zhǔn guǎn lǐ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú fù jiǎn rén yuán ān pái de zī liào"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你要提醒真实登记已处理件数，应该怎么说？\n符合此任务的表达：实际处理的数量请如实填写。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“复检人员安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实复检人员安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实复检人员安排",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望再检结论出来后告知生产线，应该怎么说？",
-      "pinyin": "nǐ xī wàng zài jiǎn jié lùn chū lái hòu gào zhī shēng chǎn xiàn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“返工批准管理”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ fǎn gōng pī zhǔn guǎn lǐ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认返工产品范围再继续沟通",
-        "B": "请问这次返工涉及的范围有多大",
-        "C": "复检结果出来以后请通知产线",
-        "D": "这批产品需要返工请先确认处理方案"
+        "A": "我这次只想核实返工产品范围",
+        "B": "我还没有收到关于返工批准管理的资料",
+        "C": "我这次只想核实返工批准管理",
+        "D": "我还需要进一步了解返工批准管理"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn fǎn gōng chǎn pǐn fàn wéi zài jì xù gōu tōng",
-        "B": "qǐng wèn zhè cì fǎn gōng shè jí de fàn wéi yǒu duō dà",
-        "C": "fù jiǎn jié guǒ chū lái yǐ hòu qǐng tōng zhī chǎn xiàn",
-        "D": "zhè pī chǎn pǐn xū yào fǎn gōng qǐng xiān què rèn chǔ lǐ fāng àn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng chǎn pǐn fàn wéi",
+        "B": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng pī zhǔn guǎn lǐ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng pī zhǔn guǎn lǐ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng pī zhǔn guǎn lǐ"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望再检结论出来后告知生产线，应该怎么说？\n符合此任务的表达：复检结果出来以后请通知产线。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“返工批准管理”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实返工批准管理。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实返工批准管理",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒完整保留返工过程资料，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng wán zhěng bǎo liú fǎn gōng guò chéng zī liào ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“返工产品范围”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ fǎn gōng chǎn pǐn fàn wéi ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果复检人员安排有变化请及时通知我",
-        "B": "关于返修方案的核实结果我还需要再核实一下",
-        "C": "请问这次返工涉及的范围有多大",
-        "D": "返工过程中的记录需要保持完整"
+        "A": "我还需要进一步了解返工产品范围",
+        "B": "我这次只想核实返工产品范围",
+        "C": "我还没有收到关于返工产品范围的资料",
+        "D": "我这次只想核实返工复检要求"
       },
       "optionPinyin": {
-        "A": "rú guǒ fù jiǎn rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "guān yú fǎn xiū fāng àn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "C": "qǐng wèn zhè cì fǎn gōng shè jí de fàn wéi yǒu duō dà",
-        "D": "fǎn gōng guò chéng zhōng de jì lù xū yào bǎo chí wán zhěng"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng chǎn pǐn fàn wéi",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng chǎn pǐn fàn wéi",
+        "C": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng chǎn pǐn fàn wéi de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng fù jiǎn yāo qiú"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你要提醒完整保留返工过程资料，应该怎么说？\n符合此任务的表达：返工过程中的记录需要保持完整。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“返工产品范围”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实返工产品范围。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实返工产品范围",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 31,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“返工复检要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ fǎn gōng fù jiǎn yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“返工复检要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ fǎn gōng fù jiǎn yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这份处理方案还没有批准请等待确认",
-        "B": "这项返修需要由授权人员操作",
-        "C": "处理完成以后是否需要安排复检",
-        "D": "请帮我确认一下返工复检要求的具体要求"
+        "A": "我还没有收到关于返工复检要求的资料",
+        "B": "我这次只想核实返工复检要求",
+        "C": "我还需要进一步了解返修方案的核实结果",
+        "D": "我还需要进一步了解返工复检要求"
       },
       "optionPinyin": {
-        "A": "zhè fèn chǔ lǐ fāng àn hái méi yǒu pī zhǔn qǐng děng dài què rèn",
-        "B": "zhè xiàng fǎn xiū xū yào yóu shòu quán rén yuán cāo zuò",
-        "C": "chǔ lǐ wán chéng yǐ hòu shì fǒu xū yào ān pái fù jiǎn",
-        "D": "qǐng bāng wǒ què rèn yí xià fǎn gōng fù jiǎn yāo qiú de jù tǐ yāo qiú"
+        "A": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng fù jiǎn yāo qiú de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng fù jiǎn yāo qiú",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn xiū fāng àn de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng fù jiǎn yāo qiú"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你想请同事核实“返工复检要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下返工复检要求的具体要求。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“返工复检要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解返工复检要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解返工复检要求",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 32,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你尚未核实“返修方案的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ fǎn xiū fāng àn de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“返修方案的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ fǎn xiū fāng àn de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "实际处理的数量请如实填写",
-        "B": "这批产品需要返工请先确认处理方案",
-        "C": "关于返修方案的核实结果我还需要再核实一下",
-        "D": "请问这次返工涉及的范围有多大"
+        "A": "我还需要进一步了解复检人员安排",
+        "B": "我这次只想核实返修方案的核实结果",
+        "C": "我还需要进一步了解返修方案的核实结果",
+        "D": "我还没有收到关于返修方案的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "shí jì chǔ lǐ de shù liàng qǐng rú shí tián xiě",
-        "B": "zhè pī chǎn pǐn xū yào fǎn gōng qǐng xiān què rèn chǔ lǐ fāng àn",
-        "C": "guān yú fǎn xiū fāng àn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "qǐng wèn zhè cì fǎn gōng shè jí de fàn wéi yǒu duō dà"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě fù jiǎn rén yuán ān pái",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí fǎn xiū fāng àn de hé shí jié guǒ",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn xiū fāng àn de hé shí jié guǒ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú fǎn xiū fāng àn de hé shí jié guǒ de zī liào"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你尚未核实“返修方案的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于返修方案的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“返修方案的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解返修方案的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解返修方案的核实结果",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 33,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望“复检人员安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ fù jiǎn rén yuán ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“复检人员安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ fù jiǎn rén yuán ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "批准记录在哪里请帮我确认一下",
-        "B": "处理完成以后是否需要安排复检",
-        "C": "请帮我确认一下返工复检要求的具体要求",
-        "D": "如果复检人员安排有变化请及时通知我"
+        "A": "我还没有收到关于复检人员安排的资料",
+        "B": "我还需要进一步了解返工批准管理",
+        "C": "我还需要进一步了解复检人员安排",
+        "D": "我这次只想核实复检人员安排"
       },
       "optionPinyin": {
-        "A": "pī zhǔn jì lù zài nǎ lǐ qǐng bāng wǒ què rèn yí xià",
-        "B": "chǔ lǐ wán chéng yǐ hòu shì fǒu xū yào ān pái fù jiǎn",
-        "C": "qǐng bāng wǒ què rèn yí xià fǎn gōng fù jiǎn yāo qiú de jù tǐ yāo qiú",
-        "D": "rú guǒ fù jiǎn rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ hái méi yǒu shōu dào guān yú fù jiǎn rén yuán ān pái de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng pī zhǔn guǎn lǐ",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě fù jiǎn rén yuán ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí fù jiǎn rén yuán ān pái"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望“复检人员安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果复检人员安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“复检人员安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解复检人员安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解复检人员安排",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 34,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“返工批准管理”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ fǎn gōng pī zhǔn guǎn lǐ ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“返工批准管理”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ fǎn gōng pī zhǔn guǎn lǐ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认返工产品范围再继续沟通",
-        "B": "如果复检人员安排有变化请及时通知我",
-        "C": "请告诉我谁负责返工批准管理",
-        "D": "这份处理方案还没有批准请等待确认"
+        "A": "我这次只想核实返工批准管理",
+        "B": "我还需要进一步了解返工产品范围",
+        "C": "我还需要进一步了解返工批准管理",
+        "D": "我还没有收到关于返工批准管理的资料"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn fǎn gōng chǎn pǐn fàn wéi zài jì xù gōu tōng",
-        "B": "rú guǒ fù jiǎn rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "qǐng gào sù wǒ shuí fù zé fǎn gōng pī zhǔn guǎn lǐ",
-        "D": "zhè fèn chǔ lǐ fāng àn hái méi yǒu pī zhǔn qǐng děng dài què rèn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng pī zhǔn guǎn lǐ",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng chǎn pǐn fàn wéi",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng pī zhǔn guǎn lǐ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng pī zhǔn guǎn lǐ de zī liào"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“返工批准管理”，应该怎么说？\n符合此任务的表达：请告诉我谁负责返工批准管理。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“返工批准管理”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解返工批准管理。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解返工批准管理",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 35,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望先确认“返工产品范围”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ fǎn gōng chǎn pǐn fàn wéi ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“返工产品范围”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ fǎn gōng chǎn pǐn fàn wéi ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这份处理方案还没有批准请等待确认",
-        "B": "复检结果出来以后请通知产线",
-        "C": "我们先确认返工产品范围再继续沟通",
-        "D": "请帮我确认一下返工复检要求的具体要求"
+        "A": "我这次只想核实返工产品范围",
+        "B": "我还没有收到关于返工产品范围的资料",
+        "C": "我还需要进一步了解返工产品范围",
+        "D": "我还需要进一步了解返工复检要求"
       },
       "optionPinyin": {
-        "A": "zhè fèn chǔ lǐ fāng àn hái méi yǒu pī zhǔn qǐng děng dài què rèn",
-        "B": "fù jiǎn jié guǒ chū lái yǐ hòu qǐng tōng zhī chǎn xiàn",
-        "C": "wǒ men xiān què rèn fǎn gōng chǎn pǐn fàn wéi zài jì xù gōu tōng",
-        "D": "qǐng bāng wǒ què rèn yí xià fǎn gōng fù jiǎn yāo qiú de jù tǐ yāo qiú"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí fǎn gōng chǎn pǐn fàn wéi",
+        "B": "wǒ hái méi yǒu shōu dào guān yú fǎn gōng chǎn pǐn fàn wéi de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng chǎn pǐn fàn wéi",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě fǎn gōng fù jiǎn yāo qiú"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“返工产品范围”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认返工产品范围再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“返工产品范围”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解返工产品范围。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解返工产品范围",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 先确认处理方案 / 需要返工 / 这批产品",
-      "pinyin": "qǐng / xiān què rèn chǔ lǐ fāng àn / xū yào fǎn gōng / zhè pī chǎn pǐn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n关于返工复检要求的说明 / 请 / 把 / 发给我",
+      "pinyin": "guān yú fǎn gōng fù jiǎn yāo qiú de shuō míng / qǐng / bǎ / fā gěi wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这批产品需要返工请先确认处理方案",
-        "这批产品需要返工请先确认处理方案。",
-        "这批产品需要返工请先确认处理方案.",
-        "这批产品需要返工请先确认处理方案？",
-        "这批产品需要返工请先确认处理方案?"
+        "请把关于返工复检要求的说明发给我。",
+        "请把关于返工复检要求的说明发给我",
+        "请把关于返工复检要求的说明发给我."
       ],
       "points": 2,
       "hanziCount": 16,
-      "explanation": "参考表达：这批产品需要返工请先确认处理方案。\nzhè pī chǎn pǐn xū yào fǎn gōng qǐng xiān què rèn chǔ lǐ fāng àn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "explanation": "参考句子：请把关于返工复检要求的说明发给我。\nqǐng bǎ guān yú fǎn gōng fù jiǎn yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这项返修 / 由授权人员 / 需要 / 操作",
-      "pinyin": "zhè xiàng fǎn xiū / yóu shòu quán rén yuán / xū yào / cāo zuò",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n返修方案的核实结果 / 我们 / 核对过 / 已经",
+      "pinyin": "fǎn xiū fāng àn de hé shí jié guǒ / wǒ men / hé duì guò / yǐ jīng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这项返修需要由授权人员操作",
-        "这项返修需要由授权人员操作。",
-        "这项返修需要由授权人员操作.",
-        "这项返修需要由授权人员操作？",
-        "这项返修需要由授权人员操作?"
+        "我们已经核对过返修方案的核实结果。",
+        "我们已经核对过返修方案的核实结果",
+        "我们已经核对过返修方案的核实结果."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：这项返修需要由授权人员操作。\nzhè xiàng fǎn xiū xū yào yóu shòu quán rén yuán cāo zuò。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过返修方案的核实结果。\nwǒ men yǐ jīng hé duì guò fǎn xiū fāng àn de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n是否 / 处理完成以后 / 需要 / 安排复检",
-      "pinyin": "shì fǒu / chǔ lǐ wán chéng yǐ hòu / xū yào / ān pái fù jiǎn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先了解复检人员安排 / 只有 / 我们 / 才能解释清楚",
+      "pinyin": "xiān liǎo jiě fù jiǎn rén yuán ān pái / zhǐ yǒu / wǒ men / cái néng jiě shì qīng chǔ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "处理完成以后是否需要安排复检",
-        "处理完成以后是否需要安排复检。",
-        "处理完成以后是否需要安排复检.",
-        "处理完成以后是否需要安排复检？",
-        "处理完成以后是否需要安排复检?"
+        "只有先了解复检人员安排我们才能解释清楚。",
+        "只有先了解复检人员安排我们才能解释清楚",
+        "只有先了解复检人员安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：处理完成以后是否需要安排复检。\nchǔ lǐ wán chéng yǐ hòu shì fǒu xū yào ān pái fù jiǎn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：只有先了解复检人员安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě fù jiǎn rén yuán ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n等待确认 / 还没有批准 / 请 / 这份处理方案",
-      "pinyin": "děng dài què rèn / hái méi yǒu pī zhǔn / qǐng / zhè fèn chǔ lǐ fāng àn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n具体由谁负责 / 我 / 还想知道 / 不仅想了解返工批准管理",
+      "pinyin": "jù tǐ yóu shuí fù zé / wǒ / hái xiǎng zhī dào / bù jǐn xiǎng liǎo jiě fǎn gōng pī zhǔn guǎn lǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这份处理方案还没有批准请等待确认",
-        "这份处理方案还没有批准请等待确认。",
-        "这份处理方案还没有批准请等待确认.",
-        "这份处理方案还没有批准请等待确认？",
-        "这份处理方案还没有批准请等待确认?"
+        "我不仅想了解返工批准管理还想知道具体由谁负责。",
+        "我不仅想了解返工批准管理还想知道具体由谁负责",
+        "我不仅想了解返工批准管理还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：这份处理方案还没有批准请等待确认。\nzhè fèn chǔ lǐ fāng àn hái méi yǒu pī zhǔn qǐng děng dài què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 22,
+      "explanation": "参考句子：我不仅想了解返工批准管理还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě fǎn gōng pī zhǔn guǎn lǐ hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n有多大 / 这次返工 / 涉及的范围 / 请问",
-      "pinyin": "yǒu duō dà / zhè cì fǎn gōng / shè jí de fàn wéi / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n之前 / 讨论返工产品范围 / 请 / 先准备好相关记录",
+      "pinyin": "zhī qián / tǎo lùn fǎn gōng chǎn pǐn fàn wéi / qǐng / xiān zhǔn bèi hǎo xiāng guān jì lù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这次返工涉及的范围有多大",
-        "请问这次返工涉及的范围有多大。",
-        "请问这次返工涉及的范围有多大.",
-        "请问这次返工涉及的范围有多大？",
-        "请问这次返工涉及的范围有多大?"
+        "讨论返工产品范围之前请先准备好相关记录。",
+        "讨论返工产品范围之前请先准备好相关记录",
+        "讨论返工产品范围之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：请问这次返工涉及的范围有多大。\nqǐng wèn zhè cì fǎn gōng shè jí de fàn wéi yǒu duō dà。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论返工产品范围之前请先准备好相关记录。\ntǎo lùn fǎn gōng chǎn pǐn fàn wéi zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n进一步 / 问题产生的原因 / 还需要 / 分析",
-      "pinyin": "jìn yí bù / wèn tí chǎn shēng de yuán yīn / hái xū yào / fēn xī",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有一个问题 / 我 / 想请教您 / 关于返工复检要求",
+      "pinyin": "yǒu yí gè wèn tí / wǒ / xiǎng qǐng jiào nín / guān yú fǎn gōng fù jiǎn yāo qiú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "问题产生的原因还需要进一步分析",
-        "问题产生的原因还需要进一步分析。",
-        "问题产生的原因还需要进一步分析.",
-        "问题产生的原因还需要进一步分析？",
-        "问题产生的原因还需要进一步分析?"
+        "关于返工复检要求我有一个问题想请教您。",
+        "关于返工复检要求我有一个问题想请教您",
+        "关于返工复检要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：问题产生的原因还需要进一步分析。\nwèn tí chǎn shēng de yuán yīn hái xū yào jìn yí bù fēn xī。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：关于返工复检要求我有一个问题想请教您。\nguān yú fǎn gōng fù jiǎn yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n在哪里 / 批准记录 / 请 / 帮我确认一下",
-      "pinyin": "zài nǎ lǐ / pī zhǔn jì lù / qǐng / bāng wǒ què rèn yí xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先向负责人询问 / 你还不清楚返修方案的核实结果 / 就 / 如果",
+      "pinyin": "xiān xiàng fù zé rén xún wèn / nǐ hái bù qīng chǔ fǎn xiū fāng àn de hé shí jié guǒ / jiù / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "批准记录在哪里请帮我确认一下",
-        "批准记录在哪里请帮我确认一下。",
-        "批准记录在哪里请帮我确认一下.",
-        "批准记录在哪里请帮我确认一下？",
-        "批准记录在哪里请帮我确认一下?"
+        "如果你还不清楚返修方案的核实结果就先向负责人询问。",
+        "如果你还不清楚返修方案的核实结果就先向负责人询问",
+        "如果你还不清楚返修方案的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：批准记录在哪里请帮我确认一下。\npī zhǔn jì lù zài nǎ lǐ qǐng bāng wǒ què rèn yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚返修方案的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ fǎn xiū fāng àn de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n实际处理的数量 / 填写 / 如实 / 请",
-      "pinyin": "shí jì chǔ lǐ de shù liàng / tián xiě / rú shí / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还需要核实细节 / 虽然 / 我们已经讨论过复检人员安排 / 但是",
+      "pinyin": "hái xū yào hé shí xì jié / suī rán / wǒ men yǐ jīng tǎo lùn guò fù jiǎn rén yuán ān pái / dàn shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "实际处理的数量请如实填写",
-        "实际处理的数量请如实填写。",
-        "实际处理的数量请如实填写.",
-        "实际处理的数量请如实填写？",
-        "实际处理的数量请如实填写?"
+        "虽然我们已经讨论过复检人员安排但是还需要核实细节。",
+        "虽然我们已经讨论过复检人员安排但是还需要核实细节",
+        "虽然我们已经讨论过复检人员安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：实际处理的数量请如实填写。\nshí jì chǔ lǐ de shù liàng qǐng rú shí tián xiě。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：虽然我们已经讨论过复检人员安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò fù jiǎn rén yuán ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n出来以后 / 请 / 通知产线 / 复检结果",
-      "pinyin": "chū lái yǐ hòu / qǐng / tōng zhī chǎn xiàn / fù jiǎn jié guǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n与其 / 不如 / 查阅相关文件 / 反复猜测返工批准管理",
+      "pinyin": "yǔ qí / bù rú / chá yuè xiāng guān wén jiàn / fǎn fù cāi cè fǎn gōng pī zhǔn guǎn lǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "复检结果出来以后请通知产线",
-        "复检结果出来以后请通知产线。",
-        "复检结果出来以后请通知产线.",
-        "复检结果出来以后请通知产线？",
-        "复检结果出来以后请通知产线?"
+        "与其反复猜测返工批准管理不如查阅相关文件。",
+        "与其反复猜测返工批准管理不如查阅相关文件",
+        "与其反复猜测返工批准管理不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：复检结果出来以后请通知产线。\nfù jiǎn jié guǒ chū lái yǐ hòu qǐng tōng zhī chǎn xiàn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：与其反复猜测返工批准管理不如查阅相关文件。\nyǔ qí fǎn fù cāi cè fǎn gōng pī zhǔn guǎn lǐ bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n完整 / 保持 / 返工过程中的记录 / 需要",
-      "pinyin": "wán zhěng / bǎo chí / fǎn gōng guò chéng zhōng de jì lù / xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n重新整理了资料 / 为了 / 准确说明返工产品范围 / 我",
+      "pinyin": "chóng xīn zhěng lǐ le zī liào / wèi le / zhǔn què shuō míng fǎn gōng chǎn pǐn fàn wéi / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "返工过程中的记录需要保持完整",
-        "返工过程中的记录需要保持完整。",
-        "返工过程中的记录需要保持完整.",
-        "返工过程中的记录需要保持完整？",
-        "返工过程中的记录需要保持完整?"
+        "为了准确说明返工产品范围我重新整理了资料。",
+        "为了准确说明返工产品范围我重新整理了资料",
+        "为了准确说明返工产品范围我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：返工过程中的记录需要保持完整。\nfǎn gōng guò chéng zhōng de jì lù xū yào bǎo chí wán zhěng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明返工产品范围我重新整理了资料。\nwèi le zhǔn què shuō míng fǎn gōng chǎn pǐn fàn wéi wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 的具体要求 / 返工复检要求 / 帮我确认一下",
-      "pinyin": "qǐng / de jù tǐ yāo qiú / fǎn gōng fù jiǎn yāo qiú / bāng wǒ què rèn yí xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n大家 / 可以提出来 / 对返工复检要求 / 有疑问的话",
+      "pinyin": "dà jiā / kě yǐ tí chū lái / duì fǎn gōng fù jiǎn yāo qiú / yǒu yí wèn de huà",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下返工复检要求的具体要求",
-        "请帮我确认一下返工复检要求的具体要求。",
-        "请帮我确认一下返工复检要求的具体要求.",
-        "请帮我确认一下返工复检要求的具体要求？",
-        "请帮我确认一下返工复检要求的具体要求?"
+        "大家对返工复检要求有疑问的话可以提出来。",
+        "大家对返工复检要求有疑问的话可以提出来",
+        "大家对返工复检要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：请帮我确认一下返工复检要求的具体要求。\nqǐng bāng wǒ què rèn yí xià fǎn gōng fù jiǎn yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：大家对返工复检要求有疑问的话可以提出来。\ndà jiā duì fǎn gōng fù jiǎn yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 返修方案的核实结果 / 关于 / 再核实一下 / 还需要",
-      "pinyin": "wǒ / fǎn xiū fāng àn de hé shí jié guǒ / guān yú / zài hé shí yí xià / hái xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先说明返修方案的核实结果 / 再 / 回答大家的问题 / 请",
+      "pinyin": "xiān shuō míng fǎn xiū fāng àn de hé shí jié guǒ / zài / huí dá dà jiā de wèn tí / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于返修方案的核实结果我还需要再核实一下",
-        "关于返修方案的核实结果我还需要再核实一下。",
-        "关于返修方案的核实结果我还需要再核实一下.",
-        "关于返修方案的核实结果我还需要再核实一下？",
-        "关于返修方案的核实结果我还需要再核实一下?"
+        "请先说明返修方案的核实结果再回答大家的问题。",
+        "请先说明返修方案的核实结果再回答大家的问题",
+        "请先说明返修方案的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于返修方案的核实结果我还需要再核实一下。\nguān yú fǎn xiū fāng àn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明返修方案的核实结果再回答大家的问题。\nqǐng xiān shuō míng fǎn xiū fāng àn de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 复检人员安排 / 如果 / 有变化 / 及时通知我",
-      "pinyin": "qǐng / fù jiǎn rén yuán ān pái / rú guǒ / yǒu biàn huà / jí shí tōng zhī wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n都 / 应该以有效文件为依据 / 无论 / 谁来说明复检人员安排",
+      "pinyin": "dōu / yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / wú lùn / shuí lái shuō míng fù jiǎn rén yuán ān pái",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果复检人员安排有变化请及时通知我",
-        "如果复检人员安排有变化请及时通知我。",
-        "如果复检人员安排有变化请及时通知我.",
-        "如果复检人员安排有变化请及时通知我？",
-        "如果复检人员安排有变化请及时通知我?"
+        "无论谁来说明复检人员安排都应该以有效文件为依据。",
+        "无论谁来说明复检人员安排都应该以有效文件为依据",
+        "无论谁来说明复检人员安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：如果复检人员安排有变化请及时通知我。\nrú guǒ fù jiǎn rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：无论谁来说明复检人员安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng fù jiǎn rén yuán ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n告诉我 / 请 / 谁 / 返工批准管理 / 负责",
-      "pinyin": "gào sù wǒ / qǐng / shuí / fǎn gōng pī zhǔn guǎn lǐ / fù zé",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n涉及的问题 / 需要 / 返工批准管理 / 逐项记录清楚",
+      "pinyin": "shè jí de wèn tí / xū yào / fǎn gōng pī zhǔn guǎn lǐ / zhú xiàng jì lù qīng chǔ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责返工批准管理",
-        "请告诉我谁负责返工批准管理。",
-        "请告诉我谁负责返工批准管理.",
-        "请告诉我谁负责返工批准管理？",
-        "请告诉我谁负责返工批准管理?"
+        "返工批准管理涉及的问题需要逐项记录清楚。",
+        "返工批准管理涉及的问题需要逐项记录清楚",
+        "返工批准管理涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：请告诉我谁负责返工批准管理。\nqǐng gào sù wǒ shuí fù zé fǎn gōng pī zhǔn guǎn lǐ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：返工批准管理涉及的问题需要逐项记录清楚。\nfǎn gōng pī zhǔn guǎn lǐ shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n再 / 我们 / 确认 / 返工产品范围 / 继续沟通 / 先",
-      "pinyin": "zài / wǒ men / què rèn / fǎn gōng chǎn pǐn fàn wéi / jì xù gōu tōng / xiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再补充相关记录 / 返工产品范围确认以后 / 我们 / 等",
+      "pinyin": "zài bǔ chōng xiāng guān jì lù / fǎn gōng chǎn pǐn fàn wéi què rèn yǐ hòu / wǒ men / děng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认返工产品范围再继续沟通",
-        "我们先确认返工产品范围再继续沟通。",
-        "我们先确认返工产品范围再继续沟通.",
-        "我们先确认返工产品范围再继续沟通？",
-        "我们先确认返工产品范围再继续沟通?"
+        "等返工产品范围确认以后我们再补充相关记录。",
+        "等返工产品范围确认以后我们再补充相关记录",
+        "等返工产品范围确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认返工产品范围再继续沟通。\nwǒ men xiān què rèn fǎn gōng chǎn pǐn fàn wéi zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等返工产品范围确认以后我们再补充相关记录。\nděng fǎn gōng chǎn pǐn fàn wéi què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第16课 科技与人工智能",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“技术”的正确读音。",
+      "text": "【拼音选择】请选择“算法”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jì shù",
-        "B": "bì shù",
-        "C": "qì shù",
-        "D": "jì sù"
+        "A": "shuàn fǎ",
+        "B": "suàn fǎ",
+        "C": "suàn hǎ",
+        "D": "cuàn fǎ"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“技术”读作 jì shù，意思是 công nghệ。"
+      "explanation": "“算法”读作 suàn fǎ。注意声母、韵母、声调及轻声。",
+      "targetWord": "算法"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“代替”的正确读音。",
+      "text": "【拼音选择】请选择“智能”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dài tì",
-        "B": "bài tì",
-        "C": "duì tì",
-        "D": "cài tì"
+        "A": "zhì néng",
+        "B": "chì néng",
+        "C": "zhì léng",
+        "D": "zì néng"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“代替”读作 dài tì，意思是 thay thế。"
+      "explanation": "“智能”读作 zhì néng。注意声母、韵母、声调及轻声。",
+      "targetWord": "智能"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“准确”的正确读音。",
+      "text": "【拼音选择】请选择“应用”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhǔn juè",
-        "B": "zǔn què",
-        "C": "zhǔn xuè",
-        "D": "zhǔn què"
+        "A": "yìng yòng",
+        "B": "yìn yòng",
+        "C": "bìng yòng",
+        "D": "dìng yòng"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "“准确”读作 zhǔn què，意思是 chính xác。"
+      "explanation": "“应用”读作 yìng yòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "应用"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“依赖”的正确读音。",
+      "text": "【拼音选择】请选择“创新”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bī lài",
-        "B": "yī nài",
-        "C": "yī lèi",
-        "D": "yī lài"
+        "A": "chuàng xīng",
+        "B": "chuàng xīn",
+        "C": "chuàng qīn",
+        "D": "chuàn xīn"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“依赖”读作 yī lài，意思是 phụ thuộc。"
+      "explanation": "“创新”读作 chuàng xīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "创新"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“创造”的正确读音。",
+      "text": "【拼音选择】请选择“自动化”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chuàng zhào",
-        "B": "chuàn zào",
-        "C": "chuàng zòu",
-        "D": "chuàng zào"
+        "A": "zhì dòng huà",
+        "B": "zì dòng huà",
+        "C": "cì dòng huà",
+        "D": "bì dòng huà"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“创造”读作 chuàng zào，意思是 sáng tạo。"
+      "explanation": "“自动化”读作 zì dòng huà。注意声母、韵母、声调及轻声。",
+      "targetWord": "自动化"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：新____的应用正在逐渐改变人们的工作方式。",
-      "pinyin": "xīn ____ de yìng yòng zhèng zài zhú jiàn gǎi biàn rén men de gōng zuò fāng shì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: công nghệ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这项新____已经用于帮助工人检查产品。",
+      "pinyin": "zhè xiàng xīn ____ yǐ jīng yòng yú bāng zhù gōng rén jiǎn chá chǎn pǐn 。",
+      "vietnamese": "Gợi ý: kỹ thuật.",
       "options": {
-        "A": "技术",
-        "B": "创造",
-        "C": "准确",
-        "D": "代替"
+        "A": "数据",
+        "B": "技术",
+        "C": "代替",
+        "D": "需求"
       },
       "optionPinyin": {
-        "A": "jì shù",
-        "B": "chuàng zào",
-        "C": "zhǔn què",
-        "D": "dài tì"
+        "A": "shù jù",
+        "B": "jì shù",
+        "C": "dài tì",
+        "D": "xū qiú"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“技术”（công nghệ）。完整句子：新技术的应用正在逐渐改变人们的工作方式。"
+      "explanation": "应填“技术”。完整句子：这项新技术已经用于帮助工人检查产品。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "targetWord": "技术",
+      "completeSentence": "这项新技术已经用于帮助工人检查产品。",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：机器能够____人类完成部分重复性的工作。",
-      "pinyin": "jī qì néng gòu ____ rén lèi wán chéng bù fèn chóng fù xìng de gōng zuò",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thay thế.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：人工智能可以处理重复任务，却不能完全____人的判断。",
+      "pinyin": "rén gōng zhì néng kě yǐ chǔ lǐ chóng fù rèn wù ， què bù néng wán quán ____ rén de pàn duàn 。",
+      "vietnamese": "Gợi ý: thay thế.",
       "options": {
         "A": "代替",
-        "B": "准确",
-        "C": "依赖",
-        "D": "技术"
+        "B": "数据",
+        "C": "技术",
+        "D": "需求"
       },
       "optionPinyin": {
         "A": "dài tì",
-        "B": "zhǔn què",
-        "C": "yī lài",
-        "D": "jì shù"
+        "B": "shù jù",
+        "C": "jì shù",
+        "D": "xū qiú"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“代替”（thay thế）。完整句子：机器能够代替人类完成部分重复性的工作。"
+      "explanation": "应填“代替”。完整句子：人工智能可以处理重复任务，却不能完全代替人的判断。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "代替",
+      "completeSentence": "人工智能可以处理重复任务，却不能完全代替人的判断。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：使用自动翻译时我们仍然需要检查表达是否____。",
-      "pinyin": "shǐ yòng zì dòng fān yì shí wǒ men réng rán xū yào jiǎn chá biǎo dá shì fǒu ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chính xác.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：设计产品时，应充分考虑实际使用者的____。",
+      "pinyin": "shè jì chǎn pǐn shí ， yīng chōng fèn kǎo lǜ shí jì shǐ yòng zhě de ____。",
+      "vietnamese": "Gợi ý: nhu cầu.",
       "options": {
         "A": "代替",
-        "B": "依赖",
-        "C": "准确",
-        "D": "创造"
+        "B": "需求",
+        "C": "数据",
+        "D": "技术"
       },
       "optionPinyin": {
         "A": "dài tì",
-        "B": "yī lài",
-        "C": "zhǔn què",
-        "D": "chuàng zào"
+        "B": "xū qiú",
+        "C": "shù jù",
+        "D": "jì shù"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“准确”（chính xác）。完整句子：使用自动翻译时我们仍然需要检查表达是否准确。"
+      "explanation": "应填“需求”。完整句子：设计产品时，应充分考虑实际使用者的需求。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "需求",
+      "completeSentence": "设计产品时，应充分考虑实际使用者的需求。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：如果过分____软件就可能忽视独立思考的重要性。",
-      "pinyin": "rú guǒ guò fèn ____ ruǎn jiàn jiù kě néng hū shì dú lì sī kǎo de zhòng yào xìng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: phụ thuộc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：系统在大量____的基础上进行训练。",
+      "pinyin": "xì tǒng zài dà liàng ____ de jī chǔ shàng jìn xíng xùn liàn 。",
+      "vietnamese": "Gợi ý: dữ liệu.",
       "options": {
-        "A": "技术",
-        "B": "准确",
-        "C": "创造",
-        "D": "依赖"
+        "A": "需求",
+        "B": "数据",
+        "C": "技术",
+        "D": "代替"
       },
       "optionPinyin": {
-        "A": "jì shù",
-        "B": "zhǔn què",
-        "C": "chuàng zào",
-        "D": "yī lài"
+        "A": "xū qiú",
+        "B": "shù jù",
+        "C": "jì shù",
+        "D": "dài tì"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“依赖”（phụ thuộc）。完整句子：如果过分依赖软件就可能忽视独立思考的重要性。"
+      "explanation": "应填“数据”。完整句子：系统在大量数据的基础上进行训练。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "targetWord": "数据",
+      "completeSentence": "系统在大量数据的基础上进行训练。",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：技术的价值不仅在于提高效率还在于____新的机会。",
-      "pinyin": "jì shù de jià zhí bù jǐn zài yú tí gāo xiào lǜ hái zài yú ____ xīn de jī huì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: sáng tạo.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：技术发展带来便利的同时，也提出了新的____问题。",
+      "pinyin": "jì shù fā zhǎn dài lái biàn lì de tóng shí ， yě tí chū le xīn de ____ wèn tí 。",
+      "vietnamese": "Gợi ý: đạo đức.",
       "options": {
-        "A": "依赖",
-        "B": "技术",
-        "C": "准确",
-        "D": "创造"
+        "A": "技术",
+        "B": "伦理",
+        "C": "代替",
+        "D": "需求"
       },
       "optionPinyin": {
-        "A": "yī lài",
-        "B": "jì shù",
-        "C": "zhǔn què",
-        "D": "chuàng zào"
+        "A": "jì shù",
+        "B": "lún lǐ",
+        "C": "dài tì",
+        "D": "xū qiú"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“创造”（sáng tạo）。完整句子：技术的价值不仅在于提高效率还在于创造新的机会。"
+      "explanation": "应填“伦理”。完整句子：技术发展带来便利的同时，也提出了新的伦理问题。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "伦理",
+      "completeSentence": "技术发展带来便利的同时，也提出了新的伦理问题。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：新技术的应用正在逐渐改变人们的工作方式。\nxīn jì shù de yìng yòng zhèng zài zhú jiàn gǎi biàn rén men de gōng zuò fāng shì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：新技术的应用正在逐渐改变人们的工作方式。\nxīn jì shù de yìng yòng zhèng zài zhú jiàn gǎi biàn rén men de gōng zuò fāng shì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：正在＋动词：正在进行",
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：机器能够代替人类完成部分重复性的工作。\njī qì néng gòu dài tì rén lèi wán chéng bù fèn chóng fù xìng de gōng zuò。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：机器能够代替人类完成部分重复性的工作。\njī qì néng gòu dài tì rén lèi wán chéng bù fèn chóng fù xìng de gōng zuò。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 13,
@@ -272,7 +294,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：使用自动翻译时我们仍然需要检查表达是否准确。\nshǐ yòng zì dòng fān yì shí wǒ men réng rán xū yào jiǎn chá biǎo dá shì fǒu zhǔn què。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：使用自动翻译时我们仍然需要检查表达是否准确。\nshǐ yòng zì dòng fān yì shí wǒ men réng rán xū yào jiǎn chá biǎo dá shì fǒu zhǔn què。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 14,
@@ -288,7 +311,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：如果过分依赖软件就可能忽视独立思考的重要性。\nrú guǒ guò fèn yī lài ruǎn jiàn jiù kě néng hū shì dú lì sī kǎo de zhòng yào xìng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：如果过分依赖软件就可能忽视独立思考的重要性。\nrú guǒ guò fèn yī lài ruǎn jiàn jiù kě néng hū shì dú lì sī kǎo de zhòng yào xìng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：如果……就……：假设条件",
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 15,
@@ -304,7 +328,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：技术的价值不仅在于提高效率还在于创造新的机会。\njì shù de jià zhí bù jǐn zài yú tí gāo xiào lǜ hái zài yú chuàng zào xīn de jī huì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：技术的价值不仅在于提高效率还在于创造新的机会。\njì shù de jià zhí bù jǐn zài yú tí gāo xiào lǜ hái zài yú chuàng zào xīn de jī huì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 16,
@@ -320,7 +345,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解人工智能的应用还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě rén gōng zhì néng de yìng yòng hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解人工智能的应用还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě rén gōng zhì néng de yìng yòng hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -336,7 +362,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化技术发展的影响都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà jì shù fā zhǎn de yǐng xiǎng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化技术发展的影响都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà jì shù fā zhǎn de yǐng xiǎng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -352,7 +379,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解翻译工具的局限才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě fān yì gōng jù de jú xiàn cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解翻译工具的局限才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě fān yì gōng jù de jú xiàn cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -368,7 +396,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析创造能力的培养。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī chuàng zào néng lì de péi yǎng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析创造能力的培养。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī chuàng zào néng lì de péi yǎng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -384,7 +413,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明人机合作的前景。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng rén jī hé zuò de qián jǐng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明人机合作的前景。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng rén jī hé zuò de qián jǐng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第16课 这个商品可以退换吗",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,37 +9,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“退货”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tuì huò",
-        "B": "cuì huò",
-        "C": "duì huò",
-        "D": "guì huò"
+        "A": "cuì huò",
+        "B": "guì huò",
+        "C": "tuì huò",
+        "D": "duì huò"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“退货”读作 tuì huò，本课词义：trả hàng。"
+      "explanation": "“退货”读作 tuì huò。注意声母、韵母、声调及轻声。",
+      "targetWord": "退货"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“收据”的正确读音。",
+      "text": "【拼音选择】请选择“瑕疵”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shōu qù",
-        "B": "shōu jù",
-        "C": "sōu jù",
-        "D": "shāo jù"
+        "A": "xiá chī",
+        "B": "qiá cī",
+        "C": "xiá cī",
+        "D": "jiá cī"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“收据”读作 shōu jù，本课词义：biên lai。"
+      "explanation": "“瑕疵”读作 xiá cī。注意声母、韵母、声调及轻声。",
+      "targetWord": "瑕疵"
     },
     {
       "id": 3,
@@ -47,37 +49,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“更换”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gēng huàng",
+        "A": "bēng huàn",
         "B": "gēn huàn",
         "C": "gēng huàn",
-        "D": "bēng huàn"
+        "D": "gēng huàng"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“更换”读作 gēng huàn，本课词义：đổi。"
+      "explanation": "“更换”读作 gēng huàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "更换"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“退款”的正确读音。",
+      "text": "【拼音选择】请选择“凭据”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tuì kuǎn",
-        "B": "cuì kuǎn",
-        "C": "tuì kuǎng",
-        "D": "duì kuǎn"
+        "A": "líng jù",
+        "B": "píng jù",
+        "C": "píng qù",
+        "D": "pín jù"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“退款”读作 tuì kuǎn，本课词义：hoàn tiền。"
+      "explanation": "“凭据”读作 píng jù。注意声母、韵母、声调及轻声。",
+      "targetWord": "凭据"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“损坏”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cǔn huài",
-        "B": "shǔn huài",
-        "C": "dǔn huài",
-        "D": "sǔn huài"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "“损坏”读作 sǔn huài，本课词义：hư hỏng。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这件商品有质量问题我想申请____。",
-      "pinyin": "zhè jiàn shāng pǐn yǒu zhì liàng wèn tí wǒ xiǎng shēn qǐng ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: trả hàng.",
-      "options": {
-        "A": "收据",
-        "B": "损坏",
-        "C": "更换",
-        "D": "退货"
-      },
-      "optionPinyin": {
-        "A": "shōu jù",
-        "B": "sǔn huài",
-        "C": "gēng huàn",
-        "D": "tuì huò"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“退货”（trả hàng）。完整表达：这件商品有质量问题我想申请退货。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这是我买东西时拿到的____。",
-      "pinyin": "zhè shì wǒ mǎi dōng xi shí ná dào de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: biên lai.",
-      "options": {
-        "A": "退款",
-        "B": "收据",
-        "C": "损坏",
-        "D": "更换"
-      },
-      "optionPinyin": {
-        "A": "tuì kuǎn",
-        "B": "shōu jù",
+        "A": "shǔn huài",
+        "B": "cǔn huài",
         "C": "sǔn huài",
-        "D": "gēng huàn"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“收据”（biên lai）。完整表达：这是我买东西时拿到的收据。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这件衣服太小了能____大一号的吗。",
-      "pinyin": "zhè jiàn yī fu tài xiǎo le néng ____ dà yī hào de ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đổi.",
-      "options": {
-        "A": "退款",
-        "B": "退货",
-        "C": "更换",
-        "D": "损坏"
-      },
-      "optionPinyin": {
-        "A": "tuì kuǎn",
-        "B": "tuì huò",
-        "C": "gēng huàn",
-        "D": "sǔn huài"
+        "D": "dǔn huài"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“更换”（đổi）。完整表达：这件衣服太小了能更换大一号的吗。"
+      "explanation": "“损坏”读作 sǔn huài。注意声母、韵母、声调及轻声。",
+      "targetWord": "损坏"
     },
     {
-      "id": 9,
+      "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问____大概需要几天。",
-      "pinyin": "qǐng wèn ____ dà gài xū yào jǐ tiān",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hoàn tiền.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：办理退货时，请带上购买____。",
+      "pinyin": "bàn lǐ tuì huò shí ， qǐng dài shàng gòu mǎi ____。",
+      "vietnamese": "Gợi ý: biên lai.",
       "options": {
-        "A": "更换",
-        "B": "退款",
-        "C": "损坏",
-        "D": "退货"
+        "A": "原包装",
+        "B": "收据",
+        "C": "退款",
+        "D": "质量"
       },
       "optionPinyin": {
-        "A": "gēng huàn",
-        "B": "tuì kuǎn",
-        "C": "sǔn huài",
-        "D": "tuì huò"
+        "A": "yuán bāo zhuāng",
+        "B": "shōu jù",
+        "C": "tuì kuǎn",
+        "D": "zhì liàng"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“退款”（hoàn tiền）。完整表达：请问退款大概需要几天。"
+      "explanation": "应填“收据”。完整句子：办理退货时，请带上购买收据。\n语法与搭配：……时；带上",
+      "targetWord": "收据",
+      "completeSentence": "办理退货时，请带上购买收据。",
+      "grammarFocus": "……时；带上"
     },
     {
-      "id": 10,
+      "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我收到包裹时里面的杯子已经____了。",
-      "pinyin": "wǒ shōu dào bāo guǒ shí lǐ miàn de bēi zi yǐ jīng ____ le",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hư hỏng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：商品不是尺寸问题，而是____有问题。",
+      "pinyin": "shāng pǐn bú shì chǐ cùn wèn tí ， ér shì ____ yǒu wèn tí 。",
+      "vietnamese": "Gợi ý: chất lượng.",
       "options": {
-        "A": "收据",
-        "B": "更换",
-        "C": "退款",
-        "D": "损坏"
+        "A": "原包装",
+        "B": "退款",
+        "C": "收据",
+        "D": "质量"
       },
       "optionPinyin": {
-        "A": "shōu jù",
-        "B": "gēng huàn",
-        "C": "tuì kuǎn",
-        "D": "sǔn huài"
+        "A": "yuán bāo zhuāng",
+        "B": "tuì kuǎn",
+        "C": "shōu jù",
+        "D": "zhì liàng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“损坏”（hư hỏng）。完整表达：我收到包裹时里面的杯子已经损坏了。"
+      "explanation": "应填“质量”。完整句子：商品不是尺寸问题，而是质量有问题。\n语法与搭配：不是……而是……",
+      "targetWord": "质量",
+      "completeSentence": "商品不是尺寸问题，而是质量有问题。",
+      "grammarFocus": "不是……而是……"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：退货通过以后，____会原路返回。",
+      "pinyin": "tuì huò tōng guò yǐ hòu ，____ huì yuán lù fǎn huí 。",
+      "vietnamese": "Gợi ý: hoàn tiền.",
+      "options": {
+        "A": "质量",
+        "B": "收据",
+        "C": "退款",
+        "D": "原包装"
+      },
+      "optionPinyin": {
+        "A": "zhì liàng",
+        "B": "shōu jù",
+        "C": "tuì kuǎn",
+        "D": "yuán bāo zhuāng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“退款”。完整句子：退货通过以后，退款会原路返回。\n语法与搭配：……以后；会",
+      "targetWord": "退款",
+      "completeSentence": "退货通过以后，退款会原路返回。",
+      "grammarFocus": "……以后；会"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：退换商品时需要保留____。",
+      "pinyin": "tuì huàn shāng pǐn shí xū yào bǎo liú ____。",
+      "vietnamese": "Gợi ý: bao bì gốc.",
+      "options": {
+        "A": "退款",
+        "B": "质量",
+        "C": "原包装",
+        "D": "收据"
+      },
+      "optionPinyin": {
+        "A": "tuì kuǎn",
+        "B": "zhì liàng",
+        "C": "yuán bāo zhuāng",
+        "D": "shōu jù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“原包装”。完整句子：退换商品时需要保留原包装。\n语法与搭配：需要＋动词",
+      "targetWord": "原包装",
+      "completeSentence": "退换商品时需要保留原包装。",
+      "grammarFocus": "需要＋动词"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：如果机器有故障，请联系____客服。",
+      "pinyin": "rú guǒ jī qì yǒu gù zhàng ， qǐng lián xì ____ kè fú 。",
+      "vietnamese": "Gợi ý: hậu mãi.",
+      "options": {
+        "A": "退款",
+        "B": "售后",
+        "C": "质量",
+        "D": "收据"
+      },
+      "optionPinyin": {
+        "A": "tuì kuǎn",
+        "B": "shòu hòu",
+        "C": "zhì liàng",
+        "D": "shōu jù"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“售后”。完整句子：如果机器有故障，请联系售后客服。\n语法与搭配：如果……请……",
+      "targetWord": "售后",
+      "completeSentence": "如果机器有故障，请联系售后客服。",
+      "grammarFocus": "如果……请……"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 想申请退货 / 这件商品 / 有质量问题",
-      "pinyin": "wǒ / xiǎng shēn qǐng tuì huò / zhè jiàn shāng pǐn / yǒu zhì liàng wèn tí",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n今天 / 就漏水了 / 昨天买的水壶 / 我",
+      "pinyin": "jīn tiān / jiù lòu shuǐ le / zuó tiān mǎi de shuǐ hú / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这件商品有质量问题我想申请退货。",
-        "这件商品有质量问题我想申请退货",
-        "这件商品有质量问题我想申请退货.",
-        "这件商品有质量问题我想申请退货？",
-        "这件商品有质量问题我想申请退货?"
+        "我昨天买的水壶今天就漏水了。",
+        "我昨天买的水壶今天就漏水了",
+        "我昨天买的水壶今天就漏水了."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：这件商品有质量问题我想申请退货。\nzhè jiàn shāng pǐn yǒu zhì liàng wèn tí wǒ xiǎng shēn qǐng tuì huò。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：我昨天买的水壶今天就漏水了。\nwǒ zuó tiān mǎi de shuǐ hú jīn tiān jiù lòu shuǐ le\n语法与搭配：……的；就……了",
+      "grammarFocus": "……的；就……了"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n拿到的收据 / 买东西时 / 这是 / 我",
-      "pinyin": "ná dào de shōu jù / mǎi dōng xi shí / zhè shì / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n换个颜色 / 这双鞋 / 还没穿过 / 能不能",
+      "pinyin": "huàn gè yán sè / zhè shuāng xié / hái méi chuān guò / néng bù néng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这是我买东西时拿到的收据。",
-        "这是我买东西时拿到的收据",
-        "这是我买东西时拿到的收据.",
-        "这是我买东西时拿到的收据？",
-        "这是我买东西时拿到的收据?"
+        "这双鞋还没穿过能不能换个颜色。",
+        "这双鞋还没穿过能不能换个颜色",
+        "这双鞋还没穿过能不能换个颜色."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：这是我买东西时拿到的收据。\nzhè shì wǒ mǎi dōng xi shí ná dào de shōu jù。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：这双鞋还没穿过能不能换个颜色。\nzhè shuāng xié hái méi chuān guò néng bù néng huàn gè yán sè\n语法与搭配：还没……过；能不能",
+      "grammarFocus": "还没……过；能不能"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n太小了 / 更换大一号的吗 / 能 / 这件衣服",
-      "pinyin": "tài xiǎo le / gēng huàn dà yī hào de ma / néng / zhè jiàn yī fu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n退货产生的运费 / 由 / 哪一方承担 / 请问",
+      "pinyin": "tuì huò chǎn shēng de yùn fèi / yóu / nǎ yī fāng chéng dān / qǐng wèn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这件衣服太小了能更换大一号的吗。",
-        "这件衣服太小了能更换大一号的吗",
-        "这件衣服太小了能更换大一号的吗.",
-        "这件衣服太小了能更换大一号的吗？",
-        "这件衣服太小了能更换大一号的吗?"
+        "请问退货产生的运费由哪一方承担。",
+        "请问退货产生的运费由哪一方承担",
+        "请问退货产生的运费由哪一方承担."
       ],
       "points": 5,
       "hanziCount": 15,
-      "explanation": "参考表达：这件衣服太小了能更换大一号的吗。\nzhè jiàn yī fu tài xiǎo le néng gēng huàn dà yī hào de ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：请问退货产生的运费由哪一方承担。\nqǐng wèn tuì huò chǎn shēng de yùn fèi yóu nǎ yī fāng chéng dān\n语法与搭配：由＋人＋动词",
+      "grammarFocus": "由＋人＋动词"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 大概 / 退款 / 需要几天",
-      "pinyin": "qǐng wèn / dà gài / tuì kuǎn / xū yào jǐ tiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n你们 / 我 / 再把商品寄回 / 答应换货以后",
+      "pinyin": "nǐ men / wǒ / zài bǎ shāng pǐn jì huí / dā yìng huàn huò yǐ hòu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问退款大概需要几天。",
-        "请问退款大概需要几天",
-        "请问退款大概需要几天.",
-        "请问退款大概需要几天？",
-        "请问退款大概需要几天?"
+        "你们答应换货以后我再把商品寄回。",
+        "你们答应换货以后我再把商品寄回",
+        "你们答应换货以后我再把商品寄回."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：请问退款大概需要几天。\nqǐng wèn tuì kuǎn dà gài xū yào jǐ tiān。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：你们答应换货以后我再把商品寄回。\nnǐ men dā yìng huàn huò yǐ hòu wǒ zài bǎ shāng pǐn jì huí\n语法与搭配：……以后再……",
+      "grammarFocus": "……以后再……"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n收到包裹时 / 我 / 已经损坏了 / 里面的杯子",
-      "pinyin": "shōu dào bāo guǒ shí / wǒ / yǐ jīng sǔn huài le / lǐ miàn de bēi zi",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n同款已经卖完 / 换别的款式吗 / 可以 / 如果",
+      "pinyin": "tóng kuǎn yǐ jīng mài wán / huàn bié de kuǎn shì ma / kě yǐ / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我收到包裹时里面的杯子已经损坏了。",
-        "我收到包裹时里面的杯子已经损坏了",
-        "我收到包裹时里面的杯子已经损坏了.",
-        "我收到包裹时里面的杯子已经损坏了？",
-        "我收到包裹时里面的杯子已经损坏了?"
+        "如果同款已经卖完可以换别的款式吗？",
+        "如果同款已经卖完可以换别的款式吗",
+        "如果同款已经卖完可以换别的款式吗?"
       ],
       "points": 5,
       "hanziCount": 16,
-      "explanation": "参考表达：我收到包裹时里面的杯子已经损坏了。\nwǒ shōu dào bāo guǒ shí lǐ miàn de bēi zi yǐ jīng sǔn huài le。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：如果同款已经卖完可以换别的款式吗？\nrú guǒ tóng kuǎn yǐ jīng mài wán kě yǐ huàn bié de kuǎn shì ma\n语法与搭配：如果；可以……吗",
+      "grammarFocus": "如果；可以……吗"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,276 +1,306 @@
 {
   "title": "第11课 处理工作异常",
-  "description": "共50题，满分100分，每题2分。第一部分：15题拼音选择；第二部分：15题词语四选一填空；第三部分：20题句子排序。排序题请按课件原句作答，不加空格，标点可保留或省略。",
+  "description": "共50题，满分100分，每题2分。第一部分：15题拼音选择；第二部分：15题词语四选一填空；第三部分：20题句子排序。排序题请按课件原句作答，不加空格，标点可保留或省略。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“彩盒”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“油墨”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cǎi hé",
-        "B": "chǎi hé",
-        "C": "cěi hé",
-        "D": "cǎi há"
+        "A": "fóu mò",
+        "B": "yóu mò",
+        "C": "cóu mò",
+        "D": "yáo mò"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "彩盒：cǎi hé；越南语：hộp màu, hộp in màu。"
+      "explanation": "“油墨”读作 yóu mò。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "油墨"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“印刷”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“饱和度”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yìng shuā",
-        "B": "yìn shuā",
-        "C": "yìn shuō",
-        "D": "yì shuā"
+        "A": "bǎi hé dù",
+        "B": "bǎ hé dù",
+        "C": "bǎo hé dù",
+        "D": "biǎo hé dù"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "印刷：yìn shuā；越南语：in ấn。"
+      "explanation": "“饱和度”读作 bǎo hé dù。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "饱和度"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“颜色”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“纸板”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yán shè",
-        "B": "yáng sè",
-        "C": "yán sè",
-        "D": "yán sà"
+        "A": "zhǐ bǎng",
+        "B": "zhǐ bǎn",
+        "C": "zǐ bǎn",
+        "D": "chǐ bǎn"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "颜色：yán sè；越南语：màu sắc。"
+      "explanation": "“纸板”读作 zhǐ bǎn。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "纸板"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“异常”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“对照”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yì cáng",
-        "B": "yì chán",
-        "C": "yìn cháng",
-        "D": "yì cháng"
+        "A": "duì zhòu",
+        "B": "duì zào",
+        "C": "cuì zhào",
+        "D": "duì zhào"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "异常：yì cháng；越南语：bất thường。"
+      "explanation": "“对照”读作 duì zhào。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "对照"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“色差”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“稳定性”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sè chā",
-        "B": "shè chā",
-        "C": "sè cā",
-        "D": "sà chā"
+        "A": "wěn dìng xìng",
+        "B": "wěn dìng qìng",
+        "C": "wěng dìng xìng",
+        "D": "wěn dìn xìng"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "色差：sè chā；越南语：độ lệch màu。"
+      "explanation": "“稳定性”读作 wěn dìng xìng。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "稳定性"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“样品”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“偏浅”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yàng pǐng",
-        "B": "yàng pǐn",
-        "C": "yàn pǐn",
-        "D": "wàng pǐn"
+        "A": "piān xiǎn",
+        "B": "piān qiǎn",
+        "C": "piān jiǎn",
+        "D": "piān qiǎng"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "样品：yàng pǐn；越南语：mẫu。"
+      "explanation": "“偏浅”读作 piān qiǎn。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "偏浅"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“标准”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“偏深”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biāo zǔn",
-        "B": "bāo zhǔn",
-        "C": "biāo zhǔn",
-        "D": "piāo zhǔn"
+        "A": "piān shēng",
+        "B": "piān shēn",
+        "C": "piān sēn",
+        "D": "biān shēn"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "标准：biāo zhǔn；越南语：tiêu chuẩn。"
+      "explanation": "“偏深”读作 piān shēn。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "偏深"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“检查”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“光源”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiǎn cá",
-        "B": "jiǎng chá",
-        "C": "jiǎn ché",
-        "D": "jiǎn chá"
+        "A": "gāng yuán",
+        "B": "guāng yuán",
+        "C": "huāng yuán",
+        "D": "guān yuán"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "检查：jiǎn chá；越南语：kiểm tra。"
+      "explanation": "“光源”读作 guāng yuán。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "光源"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“确认”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“留样”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "què rèn",
-        "B": "què rèng",
-        "C": "qiè rèn",
-        "D": "juè rèn"
+        "A": "liú yàng",
+        "B": "liú yàn",
+        "C": "jiú yàng",
+        "D": "niú yàng"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "确认：què rèn；越南语：xác nhận。"
+      "explanation": "“留样”读作 liú yàng。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "留样"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“原因”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“追溯”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yuán yīng",
-        "B": "yuán yīn",
-        "C": "juán yīn",
-        "D": "quán yīn"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "原因：yuán yīn；越南语：nguyên nhân。"
-    },
-    {
-      "id": 11,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【一、拼音选择】“调整”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
-      "options": {
-        "A": "tiáo zhěn",
-        "B": "tiáo zěng",
-        "C": "tiáo zhěng",
-        "D": "tiáo zhǒng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "调整：tiáo zhěng；越南语：điều chỉnh。"
-    },
-    {
-      "id": 12,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【一、拼音选择】“批次”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
-      "options": {
-        "A": "pī chì",
-        "B": "pīn cì",
-        "C": "pīng cì",
-        "D": "pī cì"
+        "A": "zuī sù",
+        "B": "chuī sù",
+        "C": "zhuī shù",
+        "D": "zhuī sù"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "批次：pī cì；越南语：lô hàng。"
+      "explanation": "“追溯”读作 zhuī sù。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "追溯"
     },
     {
-      "id": 13,
+      "id": 11,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“影响”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“混色”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǐng xiǎng",
-        "B": "yǐn xiǎng",
-        "C": "yǐng xiǎn",
-        "D": "yǐ xiǎng"
+        "A": "dùn sè",
+        "B": "cùn sè",
+        "C": "hùn shè",
+        "D": "hùn sè"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "影响：yǐng xiǎng；越南语：ảnh hưởng。"
+      "explanation": "“混色”读作 hùn sè。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "混色"
     },
     {
-      "id": 14,
+      "id": 12,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【一、拼音选择】“处理”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
+      "text": "【拼音选择】请选择“测量”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cǔ lǐ",
-        "B": "chǔ lǐ",
-        "C": "chǔ nǐ",
-        "D": "chuǐ lǐ"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "处理：chǔ lǐ；越南语：xử lý。"
-    },
-    {
-      "id": 15,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【一、拼音选择】“改善”的正确读音是？",
-      "vietnamese": "Chọn cách đọc đúng của từ trong dấu ngoặc.",
-      "options": {
-        "A": "gǎi sàn",
-        "B": "gěi shàn",
-        "C": "gǎi shàn",
-        "D": "gǎi shàng"
+        "A": "cè lián",
+        "B": "cè niáng",
+        "C": "cè liáng",
+        "D": "chè liáng"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "改善：gǎi shàn；越南语：cải thiện, khắc phục。"
+      "explanation": "“测量”读作 cè liáng。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "测量"
+    },
+    {
+      "id": 13,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“记录”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "bì lù",
+        "B": "jì nù",
+        "C": "jì lù",
+        "D": "qì lù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“记录”读作 jì lù。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "记录"
+    },
+    {
+      "id": 14,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“返工”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "fǎng gōng",
+        "B": "fǎn gōng",
+        "C": "hǎn gōng",
+        "D": "bǎn gōng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“返工”读作 fǎn gōng。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "返工"
+    },
+    {
+      "id": 15,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“预防”的正确读音。",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "yù fáng",
+        "B": "bù fáng",
+        "C": "yù fán",
+        "D": "yù háng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“预防”读作 yù fáng。注意声母、韵母、声调及轻声。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "targetWord": "预防"
     },
     {
       "id": 16,
@@ -288,7 +318,16 @@
         "A"
       ],
       "points": 2,
-      "explanation": "正确词语：彩盒。“彩盒”是包装产品的盒子，句子说明盒子上的印刷颜色。"
+      "explanation": "正确词语：彩盒。“彩盒”是包装产品的盒子，句子说明盒子上的印刷颜色。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè pī shǒu jī bāo zhuāng ___ shàng de lán sè bǐ kè hù yāo qiú de gēng shēn 。",
+      "optionPinyin": {
+        "A": "cǎi hé",
+        "B": "yuán yīn",
+        "C": "biāo zhǔn",
+        "D": "pī cì"
+      },
+      "targetWord": "彩盒",
+      "completeSentence": "这批手机包装彩盒上的蓝色比客户要求的更深。"
     },
     {
       "id": 17,
@@ -306,7 +345,16 @@
         "C"
       ],
       "points": 2,
-      "explanation": "正确词语：印刷。“印刷工作”指在彩盒上印制图文的工作。"
+      "explanation": "正确词语：印刷。“印刷工作”指在彩盒上印制图文的工作。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè pī cǎi hé de ___ gōng zuò yǐ jīng wán chéng ， kě yǐ kāi shǐ jiǎn chá le 。",
+      "optionPinyin": {
+        "A": "yán sè",
+        "B": "pī cì",
+        "C": "yìn shuā",
+        "D": "yuán yīn"
+      },
+      "targetWord": "印刷",
+      "completeSentence": "这批彩盒的印刷工作已经完成，可以开始检查了。"
     },
     {
       "id": 18,
@@ -324,7 +372,16 @@
         "B"
       ],
       "points": 2,
-      "explanation": "正确词语：颜色。“颜色”可以用“深、浅”来描述。"
+      "explanation": "正确词语：颜色。“颜色”可以用“深、浅”来描述。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè ge ___ yǒu diǎn shēn ， qǐng hé kè hù què rèn de yàng pǐn bǐ jiào yī xià 。",
+      "optionPinyin": {
+        "A": "pī cì",
+        "B": "yán sè",
+        "C": "yuán yīn",
+        "D": "yǐng xiǎng"
+      },
+      "targetWord": "颜色",
+      "completeSentence": "这个颜色有点深，请和客户确认的样品比较一下。"
     },
     {
       "id": 19,
@@ -342,7 +399,16 @@
         "D"
       ],
       "points": 2,
-      "explanation": "正确词语：异常。“出现异常”表示出现不正常的情况。"
+      "explanation": "正确词语：异常。“出现异常”表示出现不正常的情况。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 pǐn zhì bù fā xiàn shēng chǎn guò chéng chū xiàn le ___， xū yào mǎ shàng bào gào 。",
+      "optionPinyin": {
+        "A": "yìn shuā",
+        "B": "yàng pǐn",
+        "C": "biāo zhǔn",
+        "D": "yì cháng"
+      },
+      "targetWord": "异常",
+      "completeSentence": "品质部发现生产过程出现了异常，需要马上报告。"
     },
     {
       "id": 20,
@@ -360,7 +426,16 @@
         "A"
       ],
       "points": 2,
-      "explanation": "正确词语：色差。“色差”表示两个颜色之间的差别。"
+      "explanation": "正确词语：色差。“色差”表示两个颜色之间的差别。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè liǎng gè cǎi hé de lán sè bù yí yàng ， cún zài míng xiǎn de ___。",
+      "optionPinyin": {
+        "A": "sè chà",
+        "B": "pī cì",
+        "C": "yìn shuā",
+        "D": "biāo zhǔn"
+      },
+      "targetWord": "色差",
+      "completeSentence": "这两个彩盒的蓝色不一样，存在明显的色差。"
     },
     {
       "id": 21,
@@ -378,7 +453,16 @@
         "C"
       ],
       "points": 2,
-      "explanation": "正确词语：样品。“样品”是用来比较和确认的实物样本。"
+      "explanation": "正确词语：样品。“样品”是用来比较和确认的实物样本。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 qǐng bǎ kè hù què rèn de ___ ná guò lái ， fāng biàn wǒ men bǐ jiào 。",
+      "optionPinyin": {
+        "A": "yuán yīn",
+        "B": "yìn shuā",
+        "C": "yàng pǐn",
+        "D": "yǐng xiǎng"
+      },
+      "targetWord": "样品",
+      "completeSentence": "请把客户确认的样品拿过来，方便我们比较。"
     },
     {
       "id": 22,
@@ -396,7 +480,16 @@
         "B"
       ],
       "points": 2,
-      "explanation": "正确词语：标准。“质量标准”表示客户规定的质量要求。"
+      "explanation": "正确词语：标准。“质量标准”表示客户规定的质量要求。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 suǒ yǒu chǎn pǐn dōu bì xū fú hé kè hù de zhì liàng ___。",
+      "optionPinyin": {
+        "A": "pī cì",
+        "B": "biāo zhǔn",
+        "C": "yán sè",
+        "D": "yuán yīn"
+      },
+      "targetWord": "标准",
+      "completeSentence": "所有产品都必须符合客户的质量标准。"
     },
     {
       "id": 23,
@@ -414,7 +507,16 @@
         "D"
       ],
       "points": 2,
-      "explanation": "正确词语：检查。“检查设备”表示查看设备是否正常。"
+      "explanation": "正确词语：检查。“检查设备”表示查看设备是否正常。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 kāi jī qián ， qǐng àn zhào diǎn jiǎn biǎo ___ yìn shuā shè bèi 。",
+      "optionPinyin": {
+        "A": "yìn shuā",
+        "B": "yǐng xiǎng",
+        "C": "gǎi shàn",
+        "D": "jiǎn chá"
+      },
+      "targetWord": "检查",
+      "completeSentence": "开机前，请按照点检表检查印刷设备。"
     },
     {
       "id": 24,
@@ -432,7 +534,16 @@
         "A"
       ],
       "points": 2,
-      "explanation": "正确词语：确认。“确认”表示核实、确定具体情况。"
+      "explanation": "正确词语：确认。“确认”表示核实、确定具体情况。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 qǐng gōng chéng bù ___ zhè cì yán sè biàn huà de jù tǐ qíng kuàng 。",
+      "optionPinyin": {
+        "A": "què rèn",
+        "B": "yìn shuā",
+        "C": "gǎi shàn",
+        "D": "yǐng xiǎng"
+      },
+      "targetWord": "确认",
+      "completeSentence": "请工程部确认这次颜色变化的具体情况。"
     },
     {
       "id": 25,
@@ -450,7 +561,16 @@
         "C"
       ],
       "points": 2,
-      "explanation": "正确词语：原因。“原因”表示导致颜色变化的因素。"
+      "explanation": "正确词语：原因。“原因”表示导致颜色变化的因素。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 wǒ men hái bù zhī dào yán sè biàn shēn de ___， xū yào jìn yí bù fēn xī 。",
+      "optionPinyin": {
+        "A": "yàng pǐn",
+        "B": "pī cì",
+        "C": "yuán yīn",
+        "D": "cǎi hé"
+      },
+      "targetWord": "原因",
+      "completeSentence": "我们还不知道颜色变深的原因，需要进一步分析。"
     },
     {
       "id": 26,
@@ -468,7 +588,16 @@
         "B"
       ],
       "points": 2,
-      "explanation": "正确词语：调整。“调整参数”表示改变设备的设置。"
+      "explanation": "正确词语：调整。“调整参数”表示改变设备的设置。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 qǐng gōng chéng shī gēn jù jiǎn chá jié guǒ ___ yìn shuā jī de cān shù 。",
+      "optionPinyin": {
+        "A": "yìn shuā",
+        "B": "tiáo zhěng",
+        "C": "yǐng xiǎng",
+        "D": "pī cì"
+      },
+      "targetWord": "调整",
+      "completeSentence": "请工程师根据检查结果调整印刷机的参数。"
     },
     {
       "id": 27,
@@ -486,7 +615,16 @@
         "D"
       ],
       "points": 2,
-      "explanation": "正确词语：批次。“批次”区分不同批生产的产品。"
+      "explanation": "正确词语：批次。“批次”区分不同批生产的产品。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 qǐng bǎ bù tóng ___ de chǎn pǐn fēn kāi fàng zhì ， bìng zuò hǎo jì lù 。",
+      "optionPinyin": {
+        "A": "jiǎn chá",
+        "B": "yuán yīn",
+        "C": "yǐng xiǎng",
+        "D": "pī cì"
+      },
+      "targetWord": "批次",
+      "completeSentence": "请把不同批次的产品分开放置，并做好记录。"
     },
     {
       "id": 28,
@@ -504,7 +642,16 @@
         "A"
       ],
       "points": 2,
-      "explanation": "正确词语：影响。“影响后续生产”表示对后续生产产生作用。"
+      "explanation": "正确词语：影响。“影响后续生产”表示对后续生产产生作用。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 rú guǒ bù jí shí chǔ lǐ ， zhè ge wèn tí kě néng huì ___ hòu xù shēng chǎn 。",
+      "optionPinyin": {
+        "A": "yǐng xiǎng",
+        "B": "yìn shuā",
+        "C": "què rèn",
+        "D": "jiǎn chá"
+      },
+      "targetWord": "影响",
+      "completeSentence": "如果不及时处理，这个问题可能会影响后续生产。"
     },
     {
       "id": 29,
@@ -522,7 +669,16 @@
         "C"
       ],
       "points": 2,
-      "explanation": "正确词语：处理。“处理”在这里指决定如何处置不合格产品。"
+      "explanation": "正确词语：处理。“处理”在这里指决定如何处置不合格产品。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 zhè xiē bù hé gé chǎn pǐn gāi rú hé ___？ qǐng zhǔ guǎn gěi chū tuì huò huò fǎn gōng yì jiàn 。",
+      "optionPinyin": {
+        "A": "què rèn",
+        "B": "yǐng xiǎng",
+        "C": "chǔ lǐ",
+        "D": "yìn shuā"
+      },
+      "targetWord": "处理",
+      "completeSentence": "这些不合格产品该如何处理？请主管给出退货或返工意见。"
     },
     {
       "id": 30,
@@ -540,7 +696,16 @@
         "B"
       ],
       "points": 2,
-      "explanation": "正确词语：改善。“改善措施”用于减少问题或防止问题再次发生。"
+      "explanation": "正确词语：改善。“改善措施”用于减少问题或防止问题再次发生。",
+      "pinyin": "【 èr 、 sì xuǎn yī tián kòng 】 wèi le bì miǎn wèn tí zài cì fā shēng ， gōng chéng bù xū yào tí chū ___ cuò shī 。",
+      "optionPinyin": {
+        "A": "cǎi hé",
+        "B": "gǎi shàn",
+        "C": "yán sè",
+        "D": "pī cì"
+      },
+      "targetWord": "改善",
+      "completeSentence": "为了避免问题再次发生，工程部需要提出改善措施。"
     },
     {
       "id": 31,
@@ -560,7 +725,9 @@
         "我们刚才检查这批手机包装彩盒时,发现印刷颜色有异常."
       ],
       "points": 2,
-      "explanation": "课件原句（李主管）：我们刚才检查这批手机包装彩盒时，发现印刷颜色有异常。\n“我们”作主语，“刚才”表示时间；“……时”引出发现问题的情境。"
+      "explanation": "课件原句（李主管）：我们刚才检查这批手机包装彩盒时，发现印刷颜色有异常。\n“我们”作主语，“刚才”表示时间；“……时”引出发现问题的情境。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n gāng cái  /  fā xiàn  /  wǒ men  /  yìn shuā yán sè yǒu yì cháng  /  jiǎn chá zhè pī shǒu jī bāo zhuāng cǎi hé shí",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -580,7 +747,9 @@
         "你看一下,这个彩盒的蓝色明显比客户确认的样品深."
       ],
       "points": 2,
-      "explanation": "课件原句（李主管）：你看一下，这个彩盒的蓝色明显比客户确认的样品深。\n“比客户确认的样品”是比较结构，“深”放在比较结构后。"
+      "explanation": "课件原句（李主管）：你看一下，这个彩盒的蓝色明显比客户确认的样品深。\n“比客户确认的样品”是比较结构，“深”放在比较结构后。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bǐ kè hù què rèn de yàng pǐn  /  zhè ge cǎi hé de lán sè  /  nǐ kàn yī xià  /  shēn  /  míng xiǎn",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 33,
@@ -594,7 +763,9 @@
         "请把样品和刚生产的彩盒放在一起比较一下."
       ],
       "points": 2,
-      "explanation": "课件原句（王工）：请把样品和刚生产的彩盒放在一起比较一下。\n“请＋把＋对象＋动作”，先放在一起，再比较。"
+      "explanation": "课件原句（王工）：请把样品和刚生产的彩盒放在一起比较一下。\n“请＋把＋对象＋动作”，先放在一起，再比较。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bǎ yàng pǐn hé gāng shēng chǎn de cǎi hé  /  bǐ jiào yī xià  /  qǐng  /  fàng zài yì qǐ",
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 34,
@@ -614,7 +785,9 @@
         "按照我们的标准,颜色应该基本一致,不能有明显的色差."
       ],
       "points": 2,
-      "explanation": "课件原句（王工）：按照我们的标准，颜色应该基本一致，不能有明显的色差。\n先说明依据，再说明颜色应当一致以及不能有明显色差。"
+      "explanation": "课件原句（王工）：按照我们的标准，颜色应该基本一致，不能有明显的色差。\n先说明依据，再说明颜色应当一致以及不能有明显色差。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n jī běn yí zhì  /  yán sè  /  yīng gāi  /  bù néng yǒu  /  àn zhào wǒ men de biāo zhǔn  /  míng xiǎn de sè chà",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -634,7 +807,9 @@
         "这批产品今天上午开始生产,到现在已经完成三千个."
       ],
       "points": 2,
-      "explanation": "课件原句（陈组长）：这批产品今天上午开始生产，到现在已经完成三千个。\n先交代生产开始的时间，再说明到现在完成的数量。"
+      "explanation": "课件原句（陈组长）：这批产品今天上午开始生产，到现在已经完成三千个。\n先交代生产开始的时间，再说明到现在完成的数量。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n zhè pī chǎn pǐn  /  dào xiàn zài  /  jīn tiān shàng wǔ  /  kāi shǐ shēng chǎn  /  yǐ jīng wán chéng sān qiān gè",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 36,
@@ -654,7 +829,9 @@
         "前面检查的时候没有发现问题,刚才换了一批纸板以后,颜色好像变深了."
       ],
       "points": 2,
-      "explanation": "课件原句（陈组长）：前面检查的时候没有发现问题，刚才换了一批纸板以后，颜色好像变深了。\n按时间顺序说明前面没有问题、更换纸板后颜色变深。"
+      "explanation": "课件原句（陈组长）：前面检查的时候没有发现问题，刚才换了一批纸板以后，颜色好像变深了。\n按时间顺序说明前面没有问题、更换纸板后颜色变深。\n语法与搭配：动作＋以后：说明时间顺序",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n méi yǒu fā xiàn wèn tí  /  qián miàn jiǎn chá de shí hòu  /  yán sè  /  hǎo xiàng biàn shēn le  /  gāng cái huàn le yī pī zhǐ bǎn yǐ hòu",
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 37,
@@ -674,7 +851,9 @@
         "这可能会影响产品外观,也可能不符合客户的要求."
       ],
       "points": 2,
-      "explanation": "课件原句（李主管）：这可能会影响产品外观，也可能不符合客户的要求。\n“可能……也可能……”说明异常带来的两种潜在影响。"
+      "explanation": "课件原句（李主管）：这可能会影响产品外观，也可能不符合客户的要求。\n“可能……也可能……”说明异常带来的两种潜在影响。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n yě kě néng  /  bù fú hé kè hù de yāo qiú  /  zhè  /  kě néng huì yǐng xiǎng chǎn pǐn wài guān",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -694,7 +873,9 @@
         "我们需要先确认异常从什么时候开始,再检查已经生产的产品."
       ],
       "points": 2,
-      "explanation": "课件原句（李主管）：我们需要先确认异常从什么时候开始，再检查已经生产的产品。\n“先……再……”表示确认与检查的处理顺序。"
+      "explanation": "课件原句（李主管）：我们需要先确认异常从什么时候开始，再检查已经生产的产品。\n“先……再……”表示确认与检查的处理顺序。\n语法与搭配：先……再……：动作先后顺序",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n xiān què rèn yì cháng cóng shén me shí hòu kāi shǐ  /  wǒ men  /  yǐ jīng shēng chǎn de chǎn pǐn  /  zài jiǎn chá  /  xū yào",
+      "grammarFocus": "先……再……：动作先后顺序"
     },
     {
       "id": 39,
@@ -714,7 +895,9 @@
         "我建议先暂停这台印刷机,避免继续生产不合格的彩盒."
       ],
       "points": 2,
-      "explanation": "课件原句（王工）：我建议先暂停这台印刷机，避免继续生产不合格的彩盒。\n先提出暂停设备的建议，再用“避免”说明目的。"
+      "explanation": "课件原句（王工）：我建议先暂停这台印刷机，避免继续生产不合格的彩盒。\n先提出暂停设备的建议，再用“避免”说明目的。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bù hé gé de cǎi hé  /  jì xù shēng chǎn  /  xiān zàn tíng zhè tái yìn shuā jī  /  wǒ jiàn yì  /  bì miǎn",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -734,7 +917,9 @@
         "同时,请陈组长把不同批次的产品分开放好,并做好标记."
       ],
       "points": 2,
-      "explanation": "课件原句（王工）：同时，请陈组长把不同批次的产品分开放好，并做好标记。\n“请＋人＋把＋产品＋动作”，最后用“并”连接做好标记。"
+      "explanation": "课件原句（王工）：同时，请陈组长把不同批次的产品分开放好，并做好标记。\n“请＋人＋把＋产品＋动作”，最后用“并”连接做好标记。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bìng zuò hǎo biāo jì  /  tóng shí  /  bǎ bù tóng pī cì de chǎn pǐn  /  fēn kāi fàng hǎo  /  qǐng chén zǔ zhǎng",
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 41,
@@ -754,7 +939,9 @@
         "我会把颜色正常和颜色异常的产品分开,记录每个批次的数量."
       ],
       "points": 2,
-      "explanation": "课件原句（陈组长）：我会把颜色正常和颜色异常的产品分开，记录每个批次的数量。\n先说明把不同状态的产品分开，再说明记录每批数量。"
+      "explanation": "课件原句（陈组长）：我会把颜色正常和颜色异常的产品分开，记录每个批次的数量。\n先说明把不同状态的产品分开，再说明记录每批数量。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bǎ yán sè zhèng cháng hé yán sè yì cháng de chǎn pǐn  /  jì lù  /  wǒ huì  /  fēn kāi  /  měi gè pī cì de shù liàng",
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 42,
@@ -774,7 +961,9 @@
         "另外,需要检查刚才更换的纸板有没有问题吗?"
       ],
       "points": 2,
-      "explanation": "课件原句（陈组长）：另外，需要检查刚才更换的纸板有没有问题吗？\n“刚才更换的纸板”是检查对象，句末用“吗”表示询问。"
+      "explanation": "课件原句（陈组长）：另外，需要检查刚才更换的纸板有没有问题吗？\n“刚才更换的纸板”是检查对象，句末用“吗”表示询问。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n lìng wài  /  ma  /  gāng cái gēng huàn de zhǐ bǎn  /  yǒu méi yǒu wèn tí  /  xū yào jiǎn chá",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -812,7 +1001,9 @@
         "我们要检查纸板的表面,油墨的使用情况,以及印刷机的参数."
       ],
       "points": 2,
-      "explanation": "课件原句（王工）：我们要检查纸板的表面、油墨的使用情况，以及印刷机的参数。\n按课件原句的列举顺序：纸板表面、油墨使用情况、印刷机参数。"
+      "explanation": "课件原句（王工）：我们要检查纸板的表面、油墨的使用情况，以及印刷机的参数。\n按课件原句的列举顺序：纸板表面、油墨使用情况、印刷机参数。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n yìn shuā jī de cān shù  /  yóu mò de shǐ yòng qíng kuàng  /  zhǐ bǎn de biǎo miàn  /  yǐ jí  /  yào jiǎn chá  /  wǒ men",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -850,7 +1041,9 @@
         "颜色变深可能与油墨浓度,设备设置或材料差异有关,但现在还不能确定具体原因."
       ],
       "points": 2,
-      "explanation": "课件原句（王工）：颜色变深可能与油墨浓度、设备设置或材料差异有关，但现在还不能确定具体原因。\n“可能与……有关”表示推测，“但现在……”说明尚未确定原因。"
+      "explanation": "课件原句（王工）：颜色变深可能与油墨浓度、设备设置或材料差异有关，但现在还不能确定具体原因。\n“可能与……有关”表示推测，“但现在……”说明尚未确定原因。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n yóu mò nóng dù  /  shè bèi shè zhì  /  kě néng yǔ  /  dàn xiàn zài  /  hái bù néng què dìng jù tǐ yuán yīn  /  yán sè biàn shēn  /  huò cái liào chā yì yǒu guān",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 45,
@@ -870,7 +1063,9 @@
         "品质部会重新检查这批产品,并与客户确认的样品进行比较."
       ],
       "points": 2,
-      "explanation": "课件原句（李主管）：品质部会重新检查这批产品，并与客户确认的样品进行比较。\n“品质部”作主语，“并”连接重新检查与比较两个动作。"
+      "explanation": "课件原句（李主管）：品质部会重新检查这批产品，并与客户确认的样品进行比较。\n“品质部”作主语，“并”连接重新检查与比较两个动作。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n pǐn zhì bù  /  jìn xíng bǐ jiào  /  huì chóng xīn jiǎn chá zhè pī chǎn pǐn  /  bìng yǔ  /  kè hù què rèn de yàng pǐn",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 46,
@@ -890,7 +1085,9 @@
         "如果发现不符合标准的产品,我们会单独标记,不能直接送到包装工序."
       ],
       "points": 2,
-      "explanation": "课件原句（李主管）：如果发现不符合标准的产品，我们会单独标记，不能直接送到包装工序。\n先给出“如果……”条件，再说明标记与禁止送往包装工序。"
+      "explanation": "课件原句（李主管）：如果发现不符合标准的产品，我们会单独标记，不能直接送到包装工序。\n先给出“如果……”条件，再说明标记与禁止送往包装工序。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n bù fú hé biāo zhǔn de chǎn pǐn  /  rú guǒ fā xiàn  /  sòng dào bāo zhuāng gōng xù  /  wǒ men huì dān dú biāo jì  /  bù néng zhí jiē",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -910,7 +1107,9 @@
         "那调整以后,我们是不是要先印刷几个彩盒,再交给品质部确认?"
       ],
       "points": 2,
-      "explanation": "课件原句（陈组长）：那调整以后，我们是不是要先印刷几个彩盒，再交给品质部确认？\n时间条件放前面，“先……再……”表示试印与品质确认的顺序。"
+      "explanation": "课件原句（陈组长）：那调整以后，我们是不是要先印刷几个彩盒，再交给品质部确认？\n时间条件放前面，“先……再……”表示试印与品质确认的顺序。\n语法与搭配：先……再……：动作先后顺序",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n zài jiāo gěi  /  nà tiáo zhěng yǐ hòu  /  yào xiān yìn shuā jǐ gè cǎi hé  /  pǐn zhì bù què rèn  /  wǒ men shì bú shì",
+      "grammarFocus": "先……再……：动作先后顺序"
     },
     {
       "id": 48,
@@ -930,7 +1129,9 @@
         "工程部调整设备参数后,先试印少量产品."
       ],
       "points": 2,
-      "explanation": "课件原句（王工）：工程部调整设备参数后，先试印少量产品。\n先说明工程部调整参数，之后再试印少量产品。"
+      "explanation": "课件原句（王工）：工程部调整设备参数后，先试印少量产品。\n先说明工程部调整参数，之后再试印少量产品。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n shǎo liàng chǎn pǐn  /  xiān shì yìn  /  gōng chéng bù  /  tiáo zhěng shè bèi cān shù hòu",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -950,7 +1151,9 @@
         "品质部确认颜色符合标准以后,才能恢复正常生产."
       ],
       "points": 2,
-      "explanation": "课件原句（王工）：品质部确认颜色符合标准以后，才能恢复正常生产。\n“……以后，才能……”表示恢复生产所需的先决条件。"
+      "explanation": "课件原句（王工）：品质部确认颜色符合标准以后，才能恢复正常生产。\n“……以后，才能……”表示恢复生产所需的先决条件。\n语法与搭配：动作＋以后：说明时间顺序",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n cái néng  /  què rèn yán sè fú hé biāo zhǔn yǐ hòu  /  pǐn zhì bù  /  huī fù zhèng cháng shēng chǎn",
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 50,
@@ -964,9 +1167,13 @@
         "请工程部记录调整前后的参数和检查结果."
       ],
       "points": 2,
-      "explanation": "课件原句（李主管）：请工程部记录调整前后的参数和检查结果。\n“请工程部记录”后接两个记录对象：参数和检查结果。"
+      "explanation": "课件原句（李主管）：请工程部记录调整前后的参数和检查结果。\n“请工程部记录”后接两个记录对象：参数和检查结果。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "pinyin": "【 sān 、 jù zi pái xù 】 qǐng àn kè jiàn yuán jù bǎ cí kuài lián chéng wán zhěng jù zi （ bù jiā kòng gé ， biāo diǎn kě bǎo liú huò shěng lüè ）。\n jì lù  /  tiáo zhěng qián hòu de cān shù  /  qǐng gōng chéng bù  /  hé jiǎn chá jié guǒ",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
-  "previousPronunciationHash": "358a9cb4",
-  "pronunciationOptionsVersion": 1
+  "annotationVersion": 1,
+  "previousPronunciationHash": "51d1cec7",
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第31课 交接班与生产记录",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“交接班”的正确读音。",
+      "text": "【拼音选择】请选择“接班人”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiāo jiē bāng",
-        "B": "jiāo jiē bān",
-        "C": "jiāo qiē bān",
-        "D": "qiāo jiē bān"
+        "A": "jiē bān réng",
+        "B": "jiē bān rén",
+        "C": "qiē bān rén",
+        "D": "jiē bāng rén"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“交接班”读作 jiāo jiē bān，本课词义：bàn giao ca。"
+      "explanation": "“接班人”读作 jiē bān rén。注意声母、韵母、声调及轻声。",
+      "targetWord": "接班人"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“待办”的正确读音。",
+      "text": "【拼音选择】请选择“交班人”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dài bàn",
-        "B": "cài bàn",
-        "C": "bài bàn",
-        "D": "dài bàng"
+        "A": "jiāo bān rén",
+        "B": "jiāo bān réng",
+        "C": "qiāo bān rén",
+        "D": "jiāo bāng rén"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“待办”读作 dài bàn，本课词义：việc chờ xử lý。"
+      "explanation": "“交班人”读作 jiāo bān rén。注意声母、韵母、声调及轻声。",
+      "targetWord": "交班人"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“签字”的正确读音。",
+      "text": "【拼音选择】请选择“日志”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiān zì",
-        "B": "qiān zì",
-        "C": "qiān zhì",
-        "D": "xiān zì"
+        "A": "rì zì",
+        "B": "rì zhì",
+        "C": "cì zhì",
+        "D": "bì zhì"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“签字”读作 qiān zì，本课词义：ký tên。"
+      "explanation": "“日志”读作 rì zhì。注意声母、韵母、声调及轻声。",
+      "targetWord": "日志"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“异常”的正确读音。",
+      "text": "【拼音选择】请选择“未结事项”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yì cáng",
-        "B": "bì cháng",
-        "C": "yì cháng",
-        "D": "yì chán"
+        "A": "wèi jié shì xiàng",
+        "B": "wèi jié shì qiàng",
+        "C": "wèi jié sì xiàng",
+        "D": "wèi qié shì xiàng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“异常”读作 yì cháng，本课词义：bất thường。"
+      "explanation": "“未结事项”读作 wèi jié shì xiàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "未结事项"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“余料”的正确读音。",
+      "text": "【拼音选择】请选择“待确认”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yú liào",
-        "B": "yú niào",
-        "C": "cú liào",
-        "D": "bú liào"
+        "A": "dài xuè rèn",
+        "B": "dài què rèng",
+        "C": "dài juè rèn",
+        "D": "dài què rèn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“余料”读作 yú liào，本课词义：vật tư còn dư。"
+      "explanation": "“待确认”读作 dài què rèn。注意声母、韵母、声调及轻声。",
+      "targetWord": "待确认"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“设备”的正确读音。",
+      "text": "【拼音选择】请选择“跟踪”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shè bài",
-        "B": "shè bèi",
-        "C": "chè bèi",
-        "D": "sè bèi"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“设备”读作 shè bèi，本课词义：thiết bị。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“批次”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "pī cì",
-        "B": "pī chì",
-        "C": "bī cì",
-        "D": "cī cì"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“批次”读作 pī cì，本课词义：lô。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“时间”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "shí jiāng",
-        "B": "shí jiān",
-        "C": "sí jiān",
-        "D": "shí qiān"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“时间”读作 shí jiān，本课词义：thời gian。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“遗漏”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "yí lào",
-        "B": "bí lòu",
-        "C": "yí lòu",
-        "D": "yí nòu"
+        "A": "gēng zōng",
+        "B": "gēn zhōng",
+        "C": "gēn zōng",
+        "D": "bēn zōng"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“遗漏”读作 yí lòu，本课词义：bỏ sót。"
+      "explanation": "“跟踪”读作 gēn zōng。注意声母、韵母、声调及轻声。",
+      "targetWord": "跟踪"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“遗留”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "yí niú",
+        "B": "bí liú",
+        "C": "cí liú",
+        "D": "yí liú"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“遗留”读作 yí liú。注意声母、韵母、声调及轻声。",
+      "targetWord": "遗留"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“时间戳”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "shí jiān cuō",
+        "B": "sí jiān chuō",
+        "C": "shí jiān chuō",
+        "D": "shí qiān chuō"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“时间戳”读作 shí jiān chuō。注意声母、韵母、声调及轻声。",
+      "targetWord": "时间戳"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“核阅”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "ché yuè",
+        "B": "gé yuè",
+        "C": "dé yuè",
+        "D": "hé yuè"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“核阅”读作 hé yuè。注意声母、韵母、声调及轻声。",
+      "targetWord": "核阅"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“记录”的正确读音。",
+      "text": "【拼音选择】请选择“承接”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jì lù",
-        "B": "jì nù",
-        "C": "qì lù",
-        "D": "bì lù"
+        "A": "chén jiē",
+        "B": "chéng jiē",
+        "C": "chéng qiē",
+        "D": "céng jiē"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“记录”读作 jì lù，本课词义：bản ghi。"
+      "explanation": "“承接”读作 chéng jiē。注意声母、韵母、声调及轻声。",
+      "targetWord": "承接"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“交接班”（bàn giao ca）。完整表达：请问今天的交接班由谁负责组织。"
+      "explanation": "应填“交接班”（bàn giao ca）。完整表达：请问今天的交接班由谁负责组织。",
+      "targetWord": "交接班",
+      "completeSentence": "请问今天的交接班由谁负责组织。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“待办”（việc chờ xử lý）。完整表达：这些待办事项请向下一班说明清楚。"
+      "explanation": "应填“待办”（việc chờ xử lý）。完整表达：这些待办事项请向下一班说明清楚。",
+      "targetWord": "待办",
+      "completeSentence": "这些待办事项请向下一班说明清楚。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“签字”（ký tên）。完整表达：双方确认无误以后请再签字。"
+      "explanation": "应填“签字”（ký tên）。完整表达：双方确认无误以后请再签字。",
+      "targetWord": "签字",
+      "completeSentence": "双方确认无误以后请再签字。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“异常”（bất thường）。完整表达：上一班的异常还没有解决请继续关注。"
+      "explanation": "应填“异常”（bất thường）。完整表达：上一班的异常还没有解决请继续关注。",
+      "targetWord": "异常",
+      "completeSentence": "上一班的异常还没有解决请继续关注。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“余料”（vật tư còn dư）。完整表达：工位上的余料已经清点数量写在这里。"
+      "explanation": "应填“余料”（vật tư còn dư）。完整表达：工位上的余料已经清点数量写在这里。",
+      "targetWord": "余料",
+      "completeSentence": "工位上的余料已经清点数量写在这里。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“设备”（thiết bị）。完整表达：这台设备当前的状态请向接班人员说明。"
+      "explanation": "应填“设备”（thiết bị）。完整表达：这台设备当前的状态请向接班人员说明。",
+      "targetWord": "设备",
+      "completeSentence": "这台设备当前的状态请向接班人员说明。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“批次”（lô）。完整表达：正在生产的批次请在交接时说明。"
+      "explanation": "应填“批次”（lô）。完整表达：正在生产的批次请在交接时说明。",
+      "targetWord": "批次",
+      "completeSentence": "正在生产的批次请在交接时说明。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“时间”（thời gian）。完整表达：这次交接的时间我已经记好了。"
+      "explanation": "应填“时间”（thời gian）。完整表达：这次交接的时间我已经记好了。",
+      "targetWord": "时间",
+      "completeSentence": "这次交接的时间我已经记好了。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“遗漏”（bỏ sót）。完整表达：请检查交接内容有没有遗漏。"
+      "explanation": "应填“遗漏”（bỏ sót）。完整表达：请检查交接内容有没有遗漏。",
+      "targetWord": "遗漏",
+      "completeSentence": "请检查交接内容有没有遗漏。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“记录”（bản ghi）。完整表达：交接记录需要双方确认。"
+      "explanation": "应填“记录”（bản ghi）。完整表达：交接记录需要双方确认。",
+      "targetWord": "记录",
+      "completeSentence": "交接记录需要双方确认。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要确认今天谁负责组织班次交接，应该怎么问？",
-      "pinyin": "nǐ yào què rèn jīn tiān shuí fù zé zǔ zhī bān cì jiāo jiē ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“班次交接要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ bān cì jiāo jiē yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "交接记录需要双方确认",
-        "B": "这些待办事项请向下一班说明清楚",
-        "C": "请问今天的交接班由谁负责组织",
-        "D": "这台设备当前的状态请向接班人员说明"
+        "A": "我还没有收到关于班次交接要求的资料",
+        "B": "我还没有收到关于待办事项的核实结果的资料",
+        "C": "我这次只想核实班次交接要求",
+        "D": "我还需要进一步了解班次交接要求"
       },
       "optionPinyin": {
-        "A": "jiāo jiē jì lù xū yào shuāng fāng què rèn",
-        "B": "zhè xiē dài bàn shì xiàng qǐng xiàng xià yī bān shuō míng qīng chǔ",
-        "C": "qǐng wèn jīn tiān de jiāo jiē bān yóu shuí fù zé zǔ zhī",
-        "D": "zhè tái shè bèi dāng qián de zhuàng tài qǐng xiàng jiē bān rén yuán shuō míng"
+        "A": "wǒ hái méi yǒu shōu dào guān yú bān cì jiāo jiē yāo qiú de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú dài bàn shì xiàng de hé shí jié guǒ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí bān cì jiāo jiē yāo qiú",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě bān cì jiāo jiē yāo qiú"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你要确认今天谁负责组织班次交接，应该怎么问？\n符合此任务的表达：请问今天的交接班由谁负责组织。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“班次交接要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于班次交接要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于班次交接要求的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒将未结事项明确告诉接班人员，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng jiāng wèi jié shì xiàng míng què gào sù jiē bān rén yuán ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“待办事项的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ dài bàn shì xiàng de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这些待办事项请向下一班说明清楚",
-        "B": "工位上的余料已经清点数量写在这里",
-        "C": "请告诉我谁负责交接本维护",
-        "D": "正在生产的批次请在交接时说明"
+        "A": "我这次只想核实待办事项的核实结果",
+        "B": "我还没有收到关于接班人员安排的资料",
+        "C": "我还需要进一步了解待办事项的核实结果",
+        "D": "我还没有收到关于待办事项的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "zhè xiē dài bàn shì xiàng qǐng xiàng xià yī bān shuō míng qīng chǔ",
-        "B": "gōng wèi shàng de yú liào yǐ jīng qīng diǎn shù liàng xiě zài zhè lǐ",
-        "C": "qǐng gào sù wǒ shuí fù zé jiāo jiē běn wéi hù",
-        "D": "zhèng zài shēng chǎn de pī cì qǐng zài jiāo jiē shí shuō míng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要提醒将未结事项明确告诉接班人员，应该怎么说？\n符合此任务的表达：这些待办事项请向下一班说明清楚。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要提醒交接内容无误后双方再签名，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng jiāo jiē nèi róng wú wù hòu shuāng fāng zài qiān míng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "双方确认无误以后请再签字",
-        "B": "工位上的余料已经清点数量写在这里",
-        "C": "如果接班人员安排有变化请及时通知我",
-        "D": "这些待办事项请向下一班说明清楚"
-      },
-      "optionPinyin": {
-        "A": "shuāng fāng què rèn wú wù yǐ hòu qǐng zài qiān zì",
-        "B": "gōng wèi shàng de yú liào yǐ jīng qīng diǎn shù liàng xiě zài zhè lǐ",
-        "C": "rú guǒ jiē bān rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "D": "zhè xiē dài bàn shì xiàng qǐng xiàng xià yī bān shuō míng qīng chǔ"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要提醒交接内容无误后双方再签名，应该怎么说？\n符合此任务的表达：双方确认无误以后请再签字。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 24,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要说明上班次的问题未处理完，需继续留意，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng shàng bān cì de wèn tí wèi chǔ lǐ wán ， xū jì xù liú yì ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "上一班的异常还没有解决请继续关注",
-        "B": "我们先确认未结问题清单再继续沟通",
-        "C": "请帮我确认一下班次交接要求的具体要求",
-        "D": "正在生产的批次请在交接时说明"
-      },
-      "optionPinyin": {
-        "A": "shàng yī bān de yì cháng hái méi yǒu jiě jué qǐng jì xù guān zhù",
-        "B": "wǒ men xiān què rèn wèi jié wèn tí qīng dān zài jì xù gōu tōng",
-        "C": "qǐng bāng wǒ què rèn yí xià bān cì jiāo jiē yāo qiú de jù tǐ yāo qiú",
-        "D": "zhèng zài shēng chǎn de pī cì qǐng zài jiāo jiē shí shuō míng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要说明上班次的问题未处理完，需继续留意，应该怎么说？\n符合此任务的表达：上一班的异常还没有解决请继续关注。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要说明余料已数清且数量有登记，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng yú liào yǐ shù qīng qiě shù liàng yǒu dēng jì ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "工位上的余料已经清点数量写在这里",
-        "B": "关于待办事项的核实结果我还需要再核实一下",
-        "C": "请告诉我谁负责交接本维护",
-        "D": "正在生产的批次请在交接时说明"
-      },
-      "optionPinyin": {
-        "A": "gōng wèi shàng de yú liào yǐ jīng qīng diǎn shù liàng xiě zài zhè lǐ",
-        "B": "guān yú dài bàn shì xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "C": "qǐng gào sù wǒ shuí fù zé jiāo jiē běn wéi hù",
-        "D": "zhèng zài shēng chǎn de pī cì qǐng zài jiāo jiē shí shuō míng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要说明余料已数清且数量有登记，应该怎么说？\n符合此任务的表达：工位上的余料已经清点数量写在这里。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要提醒将设备现状告知下一班，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng jiāng shè bèi xiàn zhuàng gào zhī xià yī bān ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "正在生产的批次请在交接时说明",
-        "B": "这台设备当前的状态请向接班人员说明",
-        "C": "双方确认无误以后请再签字",
-        "D": "这次交接的时间我已经记好了"
-      },
-      "optionPinyin": {
-        "A": "zhèng zài shēng chǎn de pī cì qǐng zài jiāo jiē shí shuō míng",
-        "B": "zhè tái shè bèi dāng qián de zhuàng tài qǐng xiàng jiē bān rén yuán shuō míng",
-        "C": "shuāng fāng què rèn wú wù yǐ hòu qǐng zài qiān zì",
-        "D": "zhè cì jiāo jiē de shí jiān wǒ yǐ jīng jì hǎo le"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要提醒将设备现状告知下一班，应该怎么说？\n符合此任务的表达：这台设备当前的状态请向接班人员说明。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要提醒交班时说明当前生产批次，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng jiāo bān shí shuō míng dāng qián shēng chǎn pī cì ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "正在生产的批次请在交接时说明",
-        "B": "请问今天的交接班由谁负责组织",
-        "C": "双方确认无误以后请再签字",
-        "D": "交接记录需要双方确认"
-      },
-      "optionPinyin": {
-        "A": "zhèng zài shēng chǎn de pī cì qǐng zài jiāo jiē shí shuō míng",
-        "B": "qǐng wèn jīn tiān de jiāo jiē bān yóu shuí fù zé zǔ zhī",
-        "C": "shuāng fāng què rèn wú wù yǐ hòu qǐng zài qiān zì",
-        "D": "jiāo jiē jì lù xū yào shuāng fāng què rèn"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要提醒交班时说明当前生产批次，应该怎么说？\n符合此任务的表达：正在生产的批次请在交接时说明。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】负责人问交接时间是否记录，你已记下，应该怎么说？",
-      "pinyin": "fù zé rén wèn jiāo jiē shí jiān shì fǒu jì lù ， nǐ yǐ jì xià ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这次交接的时间我已经记好了",
-        "B": "这台设备当前的状态请向接班人员说明",
-        "C": "上一班的异常还没有解决请继续关注",
-        "D": "请检查交接内容有没有遗漏"
-      },
-      "optionPinyin": {
-        "A": "zhè cì jiāo jiē de shí jiān wǒ yǐ jīng jì hǎo le",
-        "B": "zhè tái shè bèi dāng qián de zhuàng tài qǐng xiàng jiē bān rén yuán shuō míng",
-        "C": "shàng yī bān de yì cháng hái méi yǒu jiě jué qǐng jì xù guān zhù",
-        "D": "qǐng jiǎn chá jiāo jiē nèi róng yǒu méi yǒu yí lòu"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：负责人问交接时间是否记录，你已记下，应该怎么说？\n符合此任务的表达：这次交接的时间我已经记好了。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 29,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要请同事检查是否有没交代的事项，应该怎么说？",
-      "pinyin": "nǐ yào qǐng tóng shì jiǎn chá shì fǒu yǒu méi jiāo dài de shì xiàng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "上一班的异常还没有解决请继续关注",
-        "B": "请检查交接内容有没有遗漏",
-        "C": "这次交接的时间我已经记好了",
-        "D": "正在生产的批次请在交接时说明"
-      },
-      "optionPinyin": {
-        "A": "shàng yī bān de yì cháng hái méi yǒu jiě jué qǐng jì xù guān zhù",
-        "B": "qǐng jiǎn chá jiāo jiē nèi róng yǒu méi yǒu yí lòu",
-        "C": "zhè cì jiāo jiē de shí jiān wǒ yǐ jīng jì hǎo le",
-        "D": "zhèng zài shēng chǎn de pī cì qǐng zài jiāo jiē shí shuō míng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要请同事检查是否有没交代的事项，应该怎么说？\n符合此任务的表达：请检查交接内容有没有遗漏。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 30,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要强调交接资料需两边共同核实，应该怎么说？",
-      "pinyin": "nǐ yào qiáng diào jiāo jiē zī liào xū liǎng biān gòng tóng hé shí ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "关于待办事项的核实结果我还需要再核实一下",
-        "B": "交接记录需要双方确认",
-        "C": "请帮我确认一下班次交接要求的具体要求",
-        "D": "上一班的异常还没有解决请继续关注"
-      },
-      "optionPinyin": {
-        "A": "guān yú dài bàn shì xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "jiāo jiē jì lù xū yào shuāng fāng què rèn",
-        "C": "qǐng bāng wǒ què rèn yí xià bān cì jiāo jiē yāo qiú de jù tǐ yāo qiú",
-        "D": "shàng yī bān de yì cháng hái méi yǒu jiě jué qǐng jì xù guān zhù"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要强调交接资料需两边共同核实，应该怎么说？\n符合此任务的表达：交接记录需要双方确认。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 31,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“班次交接要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ bān cì jiāo jiē yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请帮我确认一下班次交接要求的具体要求",
-        "B": "这次交接的时间我已经记好了",
-        "C": "我们先确认未结问题清单再继续沟通",
-        "D": "关于待办事项的核实结果我还需要再核实一下"
-      },
-      "optionPinyin": {
-        "A": "qǐng bāng wǒ què rèn yí xià bān cì jiāo jiē yāo qiú de jù tǐ yāo qiú",
-        "B": "zhè cì jiāo jiē de shí jiān wǒ yǐ jīng jì hǎo le",
-        "C": "wǒ men xiān què rèn wèi jié wèn tí qīng dān zài jì xù gōu tōng",
-        "D": "guān yú dài bàn shì xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想请同事核实“班次交接要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下班次交接要求的具体要求。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 32,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你尚未核实“待办事项的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ dài bàn shì xiàng de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "如果接班人员安排有变化请及时通知我",
-        "B": "请帮我确认一下班次交接要求的具体要求",
-        "C": "这些待办事项请向下一班说明清楚",
-        "D": "关于待办事项的核实结果我还需要再核实一下"
-      },
-      "optionPinyin": {
-        "A": "rú guǒ jiē bān rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "qǐng bāng wǒ què rèn yí xià bān cì jiāo jiē yāo qiú de jù tǐ yāo qiú",
-        "C": "zhè xiē dài bàn shì xiàng qǐng xiàng xià yī bān shuō míng qīng chǔ",
-        "D": "guān yú dài bàn shì xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí dài bàn shì xiàng de hé shí jié guǒ",
+        "B": "wǒ hái méi yǒu shōu dào guān yú jiē bān rén yuán ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě dài bàn shì xiàng de hé shí jié guǒ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú dài bàn shì xiàng de hé shí jié guǒ de zī liào"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你尚未核实“待办事项的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于待办事项的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“待办事项的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于待办事项的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于待办事项的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
-      "id": 33,
+      "id": 23,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望“接班人员安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ jiē bān rén yuán ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“接班人员安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ jiē bān rén yuán ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果接班人员安排有变化请及时通知我",
-        "B": "请帮我确认一下班次交接要求的具体要求",
-        "C": "交接记录需要双方确认",
-        "D": "请检查交接内容有没有遗漏"
+        "A": "我还没有收到关于交接本维护的资料",
+        "B": "我还没有收到关于接班人员安排的资料",
+        "C": "我还需要进一步了解接班人员安排",
+        "D": "我这次只想核实接班人员安排"
       },
       "optionPinyin": {
-        "A": "rú guǒ jiē bān rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "qǐng bāng wǒ què rèn yí xià bān cì jiāo jiē yāo qiú de jù tǐ yāo qiú",
-        "C": "jiāo jiē jì lù xū yào shuāng fāng què rèn",
-        "D": "qǐng jiǎn chá jiāo jiē nèi róng yǒu méi yǒu yí lòu"
+        "A": "wǒ hái méi yǒu shōu dào guān yú jiāo jiē běn wéi hù de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú jiē bān rén yuán ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jiē bān rén yuán ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí jiē bān rén yuán ān pái"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“接班人员安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于接班人员安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于接班人员安排的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“交接本维护”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ jiāo jiē běn wéi hù ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实交接本维护",
+        "B": "我还需要进一步了解交接本维护",
+        "C": "我还没有收到关于未结问题清单的资料",
+        "D": "我还没有收到关于交接本维护的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jiāo jiē běn wéi hù",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jiāo jiē běn wéi hù",
+        "C": "wǒ hái méi yǒu shōu dào guān yú wèi jié wèn tí qīng dān de zī liào",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jiāo jiē běn wéi hù de zī liào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“交接本维护”的资料，怎样说明情况？\n合适的表达：我还没有收到关于交接本维护的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于交接本维护的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“未结问题清单”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ wèi jié wèn tí qīng dān ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实未结问题清单",
+        "B": "我还没有收到关于未结问题清单的资料",
+        "C": "我还没有收到关于班次交接要求的资料",
+        "D": "我还需要进一步了解未结问题清单"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí wèi jié wèn tí qīng dān",
+        "B": "wǒ hái méi yǒu shōu dào guān yú wèi jié wèn tí qīng dān de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú bān cì jiāo jiē yāo qiú de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě wèi jié wèn tí qīng dān"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“未结问题清单”的资料，怎样说明情况？\n合适的表达：我还没有收到关于未结问题清单的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于未结问题清单的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“班次交接要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ bān cì jiāo jiē yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实班次交接要求",
+        "B": "我还没有收到关于班次交接要求的资料",
+        "C": "我还需要进一步了解班次交接要求",
+        "D": "我这次只想核实待办事项的核实结果"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí bān cì jiāo jiē yāo qiú",
+        "B": "wǒ hái méi yǒu shōu dào guān yú bān cì jiāo jiē yāo qiú de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě bān cì jiāo jiē yāo qiú",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí dài bàn shì xiàng de hé shí jié guǒ"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望“接班人员安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果接班人员安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“班次交接要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实班次交接要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实班次交接要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
-      "id": 34,
+      "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“交接本维护”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ jiāo jiē běn wéi hù ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“待办事项的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ dài bàn shì xiàng de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果接班人员安排有变化请及时通知我",
-        "B": "这台设备当前的状态请向接班人员说明",
-        "C": "请告诉我谁负责交接本维护",
-        "D": "上一班的异常还没有解决请继续关注"
+        "A": "我这次只想核实接班人员安排",
+        "B": "我还没有收到关于待办事项的核实结果的资料",
+        "C": "我这次只想核实待办事项的核实结果",
+        "D": "我还需要进一步了解待办事项的核实结果"
       },
       "optionPinyin": {
-        "A": "rú guǒ jiē bān rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "zhè tái shè bèi dāng qián de zhuàng tài qǐng xiàng jiē bān rén yuán shuō míng",
-        "C": "qǐng gào sù wǒ shuí fù zé jiāo jiē běn wéi hù",
-        "D": "shàng yī bān de yì cháng hái méi yǒu jiě jué qǐng jì xù guān zhù"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jiē bān rén yuán ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú dài bàn shì xiàng de hé shí jié guǒ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí dài bàn shì xiàng de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě dài bàn shì xiàng de hé shí jié guǒ"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“交接本维护”，应该怎么说？\n符合此任务的表达：请告诉我谁负责交接本维护。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“待办事项的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实待办事项的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实待办事项的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
-      "id": 35,
+      "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望先确认“未结问题清单”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ wèi jié wèn tí qīng dān ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“接班人员安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ jiē bān rén yuán ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认未结问题清单再继续沟通",
-        "B": "这些待办事项请向下一班说明清楚",
-        "C": "工位上的余料已经清点数量写在这里",
-        "D": "请告诉我谁负责交接本维护"
+        "A": "我这次只想核实接班人员安排",
+        "B": "我还需要进一步了解接班人员安排",
+        "C": "我还没有收到关于接班人员安排的资料",
+        "D": "我这次只想核实交接本维护"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn wèi jié wèn tí qīng dān zài jì xù gōu tōng",
-        "B": "zhè xiē dài bàn shì xiàng qǐng xiàng xià yī bān shuō míng qīng chǔ",
-        "C": "gōng wèi shàng de yú liào yǐ jīng qīng diǎn shù liàng xiě zài zhè lǐ",
-        "D": "qǐng gào sù wǒ shuí fù zé jiāo jiē běn wéi hù"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jiē bān rén yuán ān pái",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jiē bān rén yuán ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú jiē bān rén yuán ān pái de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí jiāo jiē běn wéi hù"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“未结问题清单”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认未结问题清单再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“接班人员安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实接班人员安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实接班人员安排",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“交接本维护”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ jiāo jiē běn wéi hù ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实交接本维护",
+        "B": "我还需要进一步了解交接本维护",
+        "C": "我这次只想核实未结问题清单",
+        "D": "我还没有收到关于交接本维护的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jiāo jiē běn wéi hù",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jiāo jiē běn wéi hù",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí wèi jié wèn tí qīng dān",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jiāo jiē běn wéi hù de zī liào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“交接本维护”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实交接本维护。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实交接本维护",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“未结问题清单”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ wèi jié wèn tí qīng dān ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解未结问题清单",
+        "B": "我这次只想核实未结问题清单",
+        "C": "我还没有收到关于未结问题清单的资料",
+        "D": "我这次只想核实班次交接要求"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě wèi jié wèn tí qīng dān",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí wèi jié wèn tí qīng dān",
+        "C": "wǒ hái méi yǒu shōu dào guān yú wèi jié wèn tí qīng dān de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí bān cì jiāo jiē yāo qiú"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“未结问题清单”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实未结问题清单。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实未结问题清单",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 31,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“班次交接要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ bān cì jiāo jiē yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解班次交接要求",
+        "B": "我还需要进一步了解待办事项的核实结果",
+        "C": "我这次只想核实班次交接要求",
+        "D": "我还没有收到关于班次交接要求的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě bān cì jiāo jiē yāo qiú",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě dài bàn shì xiàng de hé shí jié guǒ",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí bān cì jiāo jiē yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú bān cì jiāo jiē yāo qiú de zī liào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“班次交接要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解班次交接要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解班次交接要求",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 32,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“待办事项的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ dài bàn shì xiàng de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于待办事项的核实结果的资料",
+        "B": "我还需要进一步了解待办事项的核实结果",
+        "C": "我还需要进一步了解接班人员安排",
+        "D": "我这次只想核实待办事项的核实结果"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú dài bàn shì xiàng de hé shí jié guǒ de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě dài bàn shì xiàng de hé shí jié guǒ",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jiē bān rén yuán ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí dài bàn shì xiàng de hé shí jié guǒ"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“待办事项的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解待办事项的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解待办事项的核实结果",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 33,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“接班人员安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ jiē bān rén yuán ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解交接本维护",
+        "B": "我还需要进一步了解接班人员安排",
+        "C": "我这次只想核实接班人员安排",
+        "D": "我还没有收到关于接班人员安排的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě jiāo jiē běn wéi hù",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jiē bān rén yuán ān pái",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jiē bān rén yuán ān pái",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jiē bān rén yuán ān pái de zī liào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“接班人员安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解接班人员安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解接班人员安排",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 34,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“交接本维护”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ jiāo jiē běn wéi hù ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解未结问题清单",
+        "B": "我还没有收到关于交接本维护的资料",
+        "C": "我这次只想核实交接本维护",
+        "D": "我还需要进一步了解交接本维护"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě wèi jié wèn tí qīng dān",
+        "B": "wǒ hái méi yǒu shōu dào guān yú jiāo jiē běn wéi hù de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jiāo jiē běn wéi hù",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jiāo jiē běn wéi hù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“交接本维护”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解交接本维护。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解交接本维护",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 35,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“未结问题清单”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ wèi jié wèn tí qīng dān ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解未结问题清单",
+        "B": "我这次只想核实未结问题清单",
+        "C": "我还需要进一步了解班次交接要求",
+        "D": "我还没有收到关于未结问题清单的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě wèi jié wèn tí qīng dān",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí wèi jié wèn tí qīng dān",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě bān cì jiāo jiē yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú wèi jié wèn tí qīng dān de zī liào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“未结问题清单”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解未结问题清单。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解未结问题清单",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n负责组织 / 由谁 / 今天的交接班 / 请问",
-      "pinyin": "fù zé zǔ zhī / yóu shuí / jīn tiān de jiāo jiē bān / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n把 / 请 / 关于班次交接要求的说明 / 发给我",
+      "pinyin": "bǎ / qǐng / guān yú bān cì jiāo jiē yāo qiú de shuō míng / fā gěi wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问今天的交接班由谁负责组织",
-        "请问今天的交接班由谁负责组织。",
-        "请问今天的交接班由谁负责组织.",
-        "请问今天的交接班由谁负责组织？",
-        "请问今天的交接班由谁负责组织?"
+        "请把关于班次交接要求的说明发给我。",
+        "请把关于班次交接要求的说明发给我",
+        "请把关于班次交接要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：请问今天的交接班由谁负责组织。\nqǐng wèn jīn tiān de jiāo jiē bān yóu shuí fù zé zǔ zhī。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：请把关于班次交接要求的说明发给我。\nqǐng bǎ guān yú bān cì jiāo jiē yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n向下一班 / 说明清楚 / 请 / 这些待办事项",
-      "pinyin": "xiàng xià yī bān / shuō míng qīng chǔ / qǐng / zhè xiē dài bàn shì xiàng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 待办事项的核实结果 / 核对过 / 已经",
+      "pinyin": "wǒ men / dài bàn shì xiàng de hé shí jié guǒ / hé duì guò / yǐ jīng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这些待办事项请向下一班说明清楚",
-        "这些待办事项请向下一班说明清楚。",
-        "这些待办事项请向下一班说明清楚.",
-        "这些待办事项请向下一班说明清楚？",
-        "这些待办事项请向下一班说明清楚?"
+        "我们已经核对过待办事项的核实结果。",
+        "我们已经核对过待办事项的核实结果",
+        "我们已经核对过待办事项的核实结果."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：这些待办事项请向下一班说明清楚。\nzhè xiē dài bàn shì xiàng qǐng xiàng xià yī bān shuō míng qīng chǔ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过待办事项的核实结果。\nwǒ men yǐ jīng hé duì guò dài bàn shì xiàng de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n再 / 签字 / 请 / 双方确认无误以后",
-      "pinyin": "zài / qiān zì / qǐng / shuāng fāng què rèn wú wù yǐ hòu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先了解接班人员安排 / 才能解释清楚 / 我们 / 只有",
+      "pinyin": "xiān liǎo jiě jiē bān rén yuán ān pái / cái néng jiě shì qīng chǔ / wǒ men / zhǐ yǒu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "双方确认无误以后请再签字",
-        "双方确认无误以后请再签字。",
-        "双方确认无误以后请再签字.",
-        "双方确认无误以后请再签字？",
-        "双方确认无误以后请再签字?"
+        "只有先了解接班人员安排我们才能解释清楚。",
+        "只有先了解接班人员安排我们才能解释清楚",
+        "只有先了解接班人员安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：双方确认无误以后请再签字。\nshuāng fāng què rèn wú wù yǐ hòu qǐng zài qiān zì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：只有先了解接班人员安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě jiē bān rén yuán ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 还没有解决 / 上一班的异常 / 继续关注",
-      "pinyin": "qǐng / hái méi yǒu jiě jué / shàng yī bān de yì cháng / jì xù guān zhù",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不仅想了解交接本维护 / 具体由谁负责 / 还想知道 / 我",
+      "pinyin": "bù jǐn xiǎng liǎo jiě jiāo jiē běn wéi hù / jù tǐ yóu shuí fù zé / hái xiǎng zhī dào / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "上一班的异常还没有解决请继续关注",
-        "上一班的异常还没有解决请继续关注。",
-        "上一班的异常还没有解决请继续关注.",
-        "上一班的异常还没有解决请继续关注？",
-        "上一班的异常还没有解决请继续关注?"
+        "我不仅想了解交接本维护还想知道具体由谁负责。",
+        "我不仅想了解交接本维护还想知道具体由谁负责",
+        "我不仅想了解交接本维护还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：上一班的异常还没有解决请继续关注。\nshàng yī bān de yì cháng hái méi yǒu jiě jué qǐng jì xù guān zhù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：我不仅想了解交接本维护还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě jiāo jiē běn wéi hù hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n工位上的余料 / 已经清点 / 写在这里 / 数量",
-      "pinyin": "gōng wèi shàng de yú liào / yǐ jīng qīng diǎn / xiě zài zhè lǐ / shù liàng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n讨论未结问题清单 / 先准备好相关记录 / 之前 / 请",
+      "pinyin": "tǎo lùn wèi jié wèn tí qīng dān / xiān zhǔn bèi hǎo xiāng guān jì lù / zhī qián / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "工位上的余料已经清点数量写在这里",
-        "工位上的余料已经清点数量写在这里。",
-        "工位上的余料已经清点数量写在这里.",
-        "工位上的余料已经清点数量写在这里？",
-        "工位上的余料已经清点数量写在这里?"
+        "讨论未结问题清单之前请先准备好相关记录。",
+        "讨论未结问题清单之前请先准备好相关记录",
+        "讨论未结问题清单之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：工位上的余料已经清点数量写在这里。\ngōng wèi shàng de yú liào yǐ jīng qīng diǎn shù liàng xiě zài zhè lǐ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论未结问题清单之前请先准备好相关记录。\ntǎo lùn wèi jié wèn tí qīng dān zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这台设备 / 请 / 当前的状态 / 向接班人员说明",
-      "pinyin": "zhè tái shè bèi / qǐng / dāng qián de zhuàng tài / xiàng jiē bān rén yuán shuō míng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有一个问题 / 想请教您 / 关于班次交接要求 / 我",
+      "pinyin": "yǒu yí gè wèn tí / xiǎng qǐng jiào nín / guān yú bān cì jiāo jiē yāo qiú / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这台设备当前的状态请向接班人员说明",
-        "这台设备当前的状态请向接班人员说明。",
-        "这台设备当前的状态请向接班人员说明.",
-        "这台设备当前的状态请向接班人员说明？",
-        "这台设备当前的状态请向接班人员说明?"
+        "关于班次交接要求我有一个问题想请教您。",
+        "关于班次交接要求我有一个问题想请教您",
+        "关于班次交接要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：这台设备当前的状态请向接班人员说明。\nzhè tái shè bèi dāng qián de zhuàng tài qǐng xiàng jiē bān rén yuán shuō míng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：关于班次交接要求我有一个问题想请教您。\nguān yú bān cì jiāo jiē yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n在交接时 / 正在生产的批次 / 请 / 说明",
-      "pinyin": "zài jiāo jiē shí / zhèng zài shēng chǎn de pī cì / qǐng / shuō míng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n你还不清楚待办事项的核实结果 / 先向负责人询问 / 如果 / 就",
+      "pinyin": "nǐ hái bù qīng chǔ dài bàn shì xiàng de hé shí jié guǒ / xiān xiàng fù zé rén xún wèn / rú guǒ / jiù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "正在生产的批次请在交接时说明",
-        "正在生产的批次请在交接时说明。",
-        "正在生产的批次请在交接时说明.",
-        "正在生产的批次请在交接时说明？",
-        "正在生产的批次请在交接时说明?"
+        "如果你还不清楚待办事项的核实结果就先向负责人询问。",
+        "如果你还不清楚待办事项的核实结果就先向负责人询问",
+        "如果你还不清楚待办事项的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：正在生产的批次请在交接时说明。\nzhèng zài shēng chǎn de pī cì qǐng zài jiāo jiē shí shuō míng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚待办事项的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ dài bàn shì xiàng de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 记好了 / 这次交接的时间 / 已经",
-      "pinyin": "wǒ / jì hǎo le / zhè cì jiāo jiē de shí jiān / yǐ jīng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n但是 / 我们已经讨论过接班人员安排 / 还需要核实细节 / 虽然",
+      "pinyin": "dàn shì / wǒ men yǐ jīng tǎo lùn guò jiē bān rén yuán ān pái / hái xū yào hé shí xì jié / suī rán",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这次交接的时间我已经记好了",
-        "这次交接的时间我已经记好了。",
-        "这次交接的时间我已经记好了.",
-        "这次交接的时间我已经记好了？",
-        "这次交接的时间我已经记好了?"
+        "虽然我们已经讨论过接班人员安排但是还需要核实细节。",
+        "虽然我们已经讨论过接班人员安排但是还需要核实细节",
+        "虽然我们已经讨论过接班人员安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：这次交接的时间我已经记好了。\nzhè cì jiāo jiē de shí jiān wǒ yǐ jīng jì hǎo le。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：虽然我们已经讨论过接班人员安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò jiē bān rén yuán ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n有没有 / 检查交接内容 / 遗漏 / 请",
-      "pinyin": "yǒu méi yǒu / jiǎn chá jiāo jiē nèi róng / yí lòu / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不如 / 查阅相关文件 / 与其 / 反复猜测交接本维护",
+      "pinyin": "bù rú / chá yuè xiāng guān wén jiàn / yǔ qí / fǎn fù cāi cè jiāo jiē běn wéi hù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请检查交接内容有没有遗漏",
-        "请检查交接内容有没有遗漏。",
-        "请检查交接内容有没有遗漏.",
-        "请检查交接内容有没有遗漏？",
-        "请检查交接内容有没有遗漏?"
+        "与其反复猜测交接本维护不如查阅相关文件。",
+        "与其反复猜测交接本维护不如查阅相关文件",
+        "与其反复猜测交接本维护不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：请检查交接内容有没有遗漏。\nqǐng jiǎn chá jiāo jiē nèi róng yǒu méi yǒu yí lòu。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：与其反复猜测交接本维护不如查阅相关文件。\nyǔ qí fǎn fù cāi cè jiāo jiē běn wéi hù bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n双方 / 需要 / 交接记录 / 确认",
-      "pinyin": "shuāng fāng / xū yào / jiāo jiē jì lù / què rèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 准确说明未结问题清单 / 重新整理了资料 / 为了",
+      "pinyin": "wǒ / zhǔn què shuō míng wèi jié wèn tí qīng dān / chóng xīn zhěng lǐ le zī liào / wèi le",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "交接记录需要双方确认",
-        "交接记录需要双方确认。",
-        "交接记录需要双方确认.",
-        "交接记录需要双方确认？",
-        "交接记录需要双方确认?"
+        "为了准确说明未结问题清单我重新整理了资料。",
+        "为了准确说明未结问题清单我重新整理了资料",
+        "为了准确说明未结问题清单我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 10,
-      "explanation": "参考表达：交接记录需要双方确认。\njiāo jiē jì lù xū yào shuāng fāng què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明未结问题清单我重新整理了资料。\nwèi le zhǔn què shuō míng wèi jié wèn tí qīng dān wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 帮我确认一下 / 的具体要求 / 班次交接要求",
-      "pinyin": "qǐng / bāng wǒ què rèn yí xià / de jù tǐ yāo qiú / bān cì jiāo jiē yāo qiú",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有疑问的话 / 对班次交接要求 / 可以提出来 / 大家",
+      "pinyin": "yǒu yí wèn de huà / duì bān cì jiāo jiē yāo qiú / kě yǐ tí chū lái / dà jiā",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下班次交接要求的具体要求",
-        "请帮我确认一下班次交接要求的具体要求。",
-        "请帮我确认一下班次交接要求的具体要求.",
-        "请帮我确认一下班次交接要求的具体要求？",
-        "请帮我确认一下班次交接要求的具体要求?"
+        "大家对班次交接要求有疑问的话可以提出来。",
+        "大家对班次交接要求有疑问的话可以提出来",
+        "大家对班次交接要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：请帮我确认一下班次交接要求的具体要求。\nqǐng bāng wǒ què rèn yí xià bān cì jiāo jiē yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：大家对班次交接要求有疑问的话可以提出来。\ndà jiā duì bān cì jiāo jiē yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n还需要 / 再核实一下 / 待办事项的核实结果 / 我 / 关于",
-      "pinyin": "hái xū yào / zài hé shí yí xià / dài bàn shì xiàng de hé shí jié guǒ / wǒ / guān yú",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再 / 先说明待办事项的核实结果 / 回答大家的问题 / 请",
+      "pinyin": "zài / xiān shuō míng dài bàn shì xiàng de hé shí jié guǒ / huí dá dà jiā de wèn tí / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于待办事项的核实结果我还需要再核实一下",
-        "关于待办事项的核实结果我还需要再核实一下。",
-        "关于待办事项的核实结果我还需要再核实一下.",
-        "关于待办事项的核实结果我还需要再核实一下？",
-        "关于待办事项的核实结果我还需要再核实一下?"
+        "请先说明待办事项的核实结果再回答大家的问题。",
+        "请先说明待办事项的核实结果再回答大家的问题",
+        "请先说明待办事项的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于待办事项的核实结果我还需要再核实一下。\nguān yú dài bàn shì xiàng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明待办事项的核实结果再回答大家的问题。\nqǐng xiān shuō míng dài bàn shì xiàng de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n及时通知我 / 有变化 / 如果 / 接班人员安排 / 请",
-      "pinyin": "jí shí tōng zhī wǒ / yǒu biàn huà / rú guǒ / jiē bān rén yuán ān pái / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n都 / 应该以有效文件为依据 / 无论 / 谁来说明接班人员安排",
+      "pinyin": "dōu / yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / wú lùn / shuí lái shuō míng jiē bān rén yuán ān pái",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果接班人员安排有变化请及时通知我",
-        "如果接班人员安排有变化请及时通知我。",
-        "如果接班人员安排有变化请及时通知我.",
-        "如果接班人员安排有变化请及时通知我？",
-        "如果接班人员安排有变化请及时通知我?"
+        "无论谁来说明接班人员安排都应该以有效文件为依据。",
+        "无论谁来说明接班人员安排都应该以有效文件为依据",
+        "无论谁来说明接班人员安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：如果接班人员安排有变化请及时通知我。\nrú guǒ jiē bān rén yuán ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：无论谁来说明接班人员安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng jiē bān rén yuán ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n交接本维护 / 请 / 谁 / 负责 / 告诉我",
-      "pinyin": "jiāo jiē běn wéi hù / qǐng / shuí / fù zé / gào sù wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 交接本维护 / 逐项记录清楚 / 涉及的问题",
+      "pinyin": "xū yào / jiāo jiē běn wéi hù / zhú xiàng jì lù qīng chǔ / shè jí de wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责交接本维护",
-        "请告诉我谁负责交接本维护。",
-        "请告诉我谁负责交接本维护.",
-        "请告诉我谁负责交接本维护？",
-        "请告诉我谁负责交接本维护?"
+        "交接本维护涉及的问题需要逐项记录清楚。",
+        "交接本维护涉及的问题需要逐项记录清楚",
+        "交接本维护涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：请告诉我谁负责交接本维护。\nqǐng gào sù wǒ shuí fù zé jiāo jiē běn wéi hù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：交接本维护涉及的问题需要逐项记录清楚。\njiāo jiē běn wéi hù shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n确认 / 先 / 再 / 我们 / 未结问题清单 / 继续沟通",
-      "pinyin": "què rèn / xiān / zài / wǒ men / wèi jié wèn tí qīng dān / jì xù gōu tōng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再补充相关记录 / 未结问题清单确认以后 / 等 / 我们",
+      "pinyin": "zài bǔ chōng xiāng guān jì lù / wèi jié wèn tí qīng dān què rèn yǐ hòu / děng / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认未结问题清单再继续沟通",
-        "我们先确认未结问题清单再继续沟通。",
-        "我们先确认未结问题清单再继续沟通.",
-        "我们先确认未结问题清单再继续沟通？",
-        "我们先确认未结问题清单再继续沟通?"
+        "等未结问题清单确认以后我们再补充相关记录。",
+        "等未结问题清单确认以后我们再补充相关记录",
+        "等未结问题清单确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认未结问题清单再继续沟通。\nwǒ men xiān què rèn wèi jié wèn tí qīng dān zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等未结问题清单确认以后我们再补充相关记录。\nděng wèi jié wèn tí qīng dān què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

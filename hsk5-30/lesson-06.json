@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第06课 消费观与理财",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“预算”的正确读音。",
+      "text": "【拼音选择】请选择“定期”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cù suàn",
-        "B": "yù suàn",
-        "C": "bù suàn",
-        "D": "yù shuàn"
+        "A": "dìng xī",
+        "B": "dìng jī",
+        "C": "dìng qī",
+        "D": "dìn qī"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“预算”读作 yù suàn，意思是 dự toán。"
+      "explanation": "“定期”读作 dìng qī。注意声母、韵母、声调及轻声。",
+      "targetWord": "定期"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“冲动”的正确读音。",
+      "text": "【拼音选择】请选择“利息”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cōng dòng",
-        "B": "chēng dòng",
-        "C": "chāng dòng",
-        "D": "chōng dòng"
+        "A": "nì xī",
+        "B": "lì xī",
+        "C": "lì qī",
+        "D": "bì xī"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“冲动”读作 chōng dòng，意思是 bốc đồng。"
+      "explanation": "“利息”读作 lì xī。注意声母、韵母、声调及轻声。",
+      "targetWord": "利息"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“节省”的正确读音。",
+      "text": "【拼音选择】请选择“账单”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jié shěn",
-        "B": "jié shěng",
-        "C": "bié shěng",
-        "D": "qié shěng"
+        "A": "zhàn dān",
+        "B": "zhàng dān",
+        "C": "zàng dān",
+        "D": "zhàng dāng"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“节省”读作 jié shěng，意思是 tiết kiệm。"
+      "explanation": "“账单”读作 zhàng dān。注意声母、韵母、声调及轻声。",
+      "targetWord": "账单"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“投资”的正确读音。",
+      "text": "【拼音选择】请选择“分配”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "táo zī",
-        "B": "cóu zī",
-        "C": "tóu zhī",
-        "D": "tóu zī"
+        "A": "fēng pèi",
+        "B": "hēn pèi",
+        "C": "fēn pèi",
+        "D": "fēn pài"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“投资”读作 tóu zī，意思是 đầu tư。"
+      "explanation": "“分配”读作 fēn pèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "分配"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“合理”的正确读音。",
+      "text": "【拼音选择】请选择“节制”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dé lǐ",
-        "B": "hé lǐ",
-        "C": "hé nǐ",
-        "D": "ché lǐ"
+        "A": "jié zì",
+        "B": "jié zhì",
+        "C": "bié zhì",
+        "D": "qié zhì"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“合理”读作 hé lǐ，意思是 hợp lý。"
+      "explanation": "“节制”读作 jié zhì。注意声母、韵母、声调及轻声。",
+      "targetWord": "节制"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：购买大件商品以前我们最好先制定详细的____。",
-      "pinyin": "gòu mǎi dà jiàn shāng pǐn yǐ qián wǒ men zuì hǎo xiān zhì dìng xiáng xì de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: dự toán.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：制定每月____时，应先列出房租和必要的生活开支。",
+      "pinyin": "zhì dìng měi yuè ____ shí ， yīng xiān liè chū fáng zū hé bì yào de shēng huó kāi zhī 。",
+      "vietnamese": "Gợi ý: ngân sách.",
       "options": {
-        "A": "冲动",
-        "B": "节省",
-        "C": "投资",
-        "D": "预算"
+        "A": "预算",
+        "B": "支出",
+        "C": "冲动",
+        "D": "储蓄"
       },
       "optionPinyin": {
-        "A": "chōng dòng",
-        "B": "jié shěng",
-        "C": "tóu zī",
-        "D": "yù suàn"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“预算”（dự toán）。完整句子：购买大件商品以前我们最好先制定详细的预算。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：他因为一时____买了许多并不需要的东西。",
-      "pinyin": "tā yīn wèi yī shí ____ mǎi le xǔ duō bìng bù xū yào de dōng xi",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: bốc đồng.",
-      "options": {
-        "A": "冲动",
-        "B": "合理",
-        "C": "预算",
-        "D": "投资"
-      },
-      "optionPinyin": {
-        "A": "chōng dòng",
-        "B": "hé lǐ",
-        "C": "yù suàn",
-        "D": "tóu zī"
+        "A": "yù suàn",
+        "B": "zhī chū",
+        "C": "chōng dòng",
+        "D": "chǔ xù"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“冲动”（bốc đồng）。完整句子：他因为一时冲动买了许多并不需要的东西。"
+      "explanation": "应填“预算”。完整句子：制定每月预算时，应先列出房租和必要的生活开支。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "预算",
+      "completeSentence": "制定每月预算时，应先列出房租和必要的生活开支。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
-      "id": 8,
+      "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：提前比较价格能够为消费者____不少开支。",
-      "pinyin": "tí qián bǐ jiào jià gé néng gòu wèi xiāo fèi zhě ____ bù shǎo kāi zhī",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiết kiệm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他学会记录____以后，才发现许多钱花在了不必要的地方。",
+      "pinyin": "tā xué huì jì lù ____ yǐ hòu ， cái fā xiàn xǔ duō qián huā zài le bù bì yào de dì fang 。",
+      "vietnamese": "Gợi ý: chi tiêu.",
       "options": {
-        "A": "节省",
-        "B": "投资",
-        "C": "合理",
+        "A": "支出",
+        "B": "预算",
+        "C": "储蓄",
         "D": "冲动"
       },
       "optionPinyin": {
-        "A": "jié shěng",
-        "B": "tóu zī",
-        "C": "hé lǐ",
+        "A": "zhī chū",
+        "B": "yù suàn",
+        "C": "chǔ xù",
         "D": "chōng dòng"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“节省”（tiết kiệm）。完整句子：提前比较价格能够为消费者节省不少开支。"
+      "explanation": "应填“支出”。完整句子：他学会记录支出以后，才发现许多钱花在了不必要的地方。\n语法与搭配：动作＋以后：说明时间顺序",
+      "targetWord": "支出",
+      "completeSentence": "他学会记录支出以后，才发现许多钱花在了不必要的地方。",
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
-      "id": 9,
+      "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：在决定____之前必须认真了解可能出现的风险。",
-      "pinyin": "zài jué dìng ____ zhī qián bì xū rèn zhēn liǎo jiě kě néng chū xiàn de fēng xiǎn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đầu tư.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：购买大件商品前，最好先比较价格，避免____消费。",
+      "pinyin": "gòu mǎi dà jiàn shāng pǐn qián ， zuì hǎo xiān bǐ jiào jià gé ， bì miǎn ____ xiāo fèi 。",
+      "vietnamese": "Gợi ý: bốc đồng.",
       "options": {
-        "A": "投资",
-        "B": "预算",
-        "C": "冲动",
-        "D": "合理"
+        "A": "预算",
+        "B": "储蓄",
+        "C": "支出",
+        "D": "冲动"
       },
       "optionPinyin": {
-        "A": "tóu zī",
-        "B": "yù suàn",
-        "C": "chōng dòng",
-        "D": "hé lǐ"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“投资”（đầu tư）。完整句子：在决定投资之前必须认真了解可能出现的风险。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：大学生应该养成____消费的习惯。",
-      "pinyin": "dà xué shēng yīng gāi yǎng chéng ____ xiāo fèi de xí guàn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hợp lý.",
-      "options": {
-        "A": "投资",
-        "B": "预算",
-        "C": "节省",
-        "D": "合理"
-      },
-      "optionPinyin": {
-        "A": "tóu zī",
-        "B": "yù suàn",
-        "C": "jié shěng",
-        "D": "hé lǐ"
+        "A": "yù suàn",
+        "B": "chǔ xù",
+        "C": "zhī chū",
+        "D": "chōng dòng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“合理”（hợp lý）。完整句子：大学生应该养成合理消费的习惯。"
+      "explanation": "应填“冲动”。完整句子：购买大件商品前，最好先比较价格，避免冲动消费。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "targetWord": "冲动",
+      "completeSentence": "购买大件商品前，最好先比较价格，避免冲动消费。",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：为了应对突发情况，她每月都会____一部分收入。",
+      "pinyin": "wèi le yìng duì tū fā qíng kuàng ， tā měi yuè dū huì ____ yī bù fèn shōu rù 。",
+      "vietnamese": "Gợi ý: tiết kiệm.",
+      "options": {
+        "A": "冲动",
+        "B": "支出",
+        "C": "储蓄",
+        "D": "预算"
+      },
+      "optionPinyin": {
+        "A": "chōng dòng",
+        "B": "zhī chū",
+        "C": "chǔ xù",
+        "D": "yù suàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“储蓄”。完整句子：为了应对突发情况，她每月都会储蓄一部分收入。\n语法与搭配：为了＋目的＋行动",
+      "targetWord": "储蓄",
+      "completeSentence": "为了应对突发情况，她每月都会储蓄一部分收入。",
+      "grammarFocus": "为了＋目的＋行动"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：一种投资如果承诺高收益却不说明____，就需要仔细核实。",
+      "pinyin": "yī zhǒng tóu zī rú guǒ chéng nuò gāo shōu yì què bù shuō míng ____， jiù xū yào zǐ xì hé shí 。",
+      "vietnamese": "Gợi ý: rủi ro.",
+      "options": {
+        "A": "支出",
+        "B": "冲动",
+        "C": "风险",
+        "D": "预算"
+      },
+      "optionPinyin": {
+        "A": "zhī chū",
+        "B": "chōng dòng",
+        "C": "fēng xiǎn",
+        "D": "yù suàn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“风险”。完整句子：一种投资如果承诺高收益却不说明风险，就需要仔细核实。\n语法与搭配：如果……就……：假设条件",
+      "targetWord": "风险",
+      "completeSentence": "一种投资如果承诺高收益却不说明风险，就需要仔细核实。",
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 11,
@@ -240,7 +260,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：购买大件商品以前我们最好先制定详细的预算。\ngòu mǎi dà jiàn shāng pǐn yǐ qián wǒ men zuì hǎo xiān zhì dìng xiáng xì de yù suàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：购买大件商品以前我们最好先制定详细的预算。\ngòu mǎi dà jiàn shāng pǐn yǐ qián wǒ men zuì hǎo xiān zhì dìng xiáng xì de yù suàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动作＋以前：说明时间顺序",
+      "grammarFocus": "动作＋以前：说明时间顺序"
     },
     {
       "id": 12,
@@ -256,7 +277,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：他因为一时冲动买了许多并不需要的东西。\ntā yīn wèi yī shí chōng dòng mǎi le xǔ duō bìng bù xū yào de dōng xi。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：他因为一时冲动买了许多并不需要的东西。\ntā yīn wèi yī shí chōng dòng mǎi le xǔ duō bìng bù xū yào de dōng xi。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 13,
@@ -272,7 +294,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：提前比较价格能够为消费者节省不少开支。\ntí qián bǐ jiào jià gé néng gòu wèi xiāo fèi zhě jié shěng bù shǎo kāi zhī。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：提前比较价格能够为消费者节省不少开支。\ntí qián bǐ jiào jià gé néng gòu wèi xiāo fèi zhě jié shěng bù shǎo kāi zhī。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 14,
@@ -288,7 +311,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：在决定投资之前必须认真了解可能出现的风险。\nzài jué dìng tóu zī zhī qián bì xū rèn zhēn liǎo jiě kě néng chū xiàn de fēng xiǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：在决定投资之前必须认真了解可能出现的风险。\nzài jué dìng tóu zī zhī qián bì xū rèn zhēn liǎo jiě kě néng chū xiàn de fēng xiǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 15,
@@ -304,7 +328,8 @@
       ],
       "points": 5,
       "hanziCount": 14,
-      "explanation": "参考句子：大学生应该养成合理消费的习惯。\ndà xué shēng yīng gāi yǎng chéng hé lǐ xiāo fèi de xí guàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：大学生应该养成合理消费的习惯。\ndà xué shēng yīng gāi yǎng chéng hé lǐ xiāo fèi de xí guàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 16,
@@ -320,7 +345,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解消费观念的变化还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě xiāo fèi guān niàn de biàn huà hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解消费观念的变化还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě xiāo fèi guān niàn de biàn huà hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -336,7 +362,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化家庭预算的作用都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà jiā tíng yù suàn de zuò yòng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化家庭预算的作用都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà jiā tíng yù suàn de zuò yòng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -352,7 +379,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解冲动购物的原因才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě chōng dòng gòu wù de yuán yīn cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解冲动购物的原因才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě chōng dòng gòu wù de yuán yīn cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -368,7 +396,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析理财知识的必要性。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī lǐ cái zhī shí de bì yào xìng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析理财知识的必要性。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī lǐ cái zhī shí de bì yào xìng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -384,7 +413,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明促销活动的影响。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng cù xiāo huó dòng de yǐng xiǎng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明促销活动的影响。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng cù xiāo huó dòng de yǐng xiǎng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

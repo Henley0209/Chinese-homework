@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第07课 无尘车间与静电防护",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“无尘”的正确读音。",
+      "text": "【拼音选择】请选择“净化”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bú chén",
-        "B": "wú cén",
-        "C": "wú chén",
-        "D": "wú chéng"
+        "A": "qìng huà",
+        "B": "bìng huà",
+        "C": "jìng huà",
+        "D": "jìn huà"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“无尘”读作 wú chén，本课词义：không bụi, phòng sạch。"
+      "explanation": "“净化”读作 jìng huà。注意声母、韵母、声调及轻声。",
+      "targetWord": "净化"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“静电”的正确读音。",
+      "text": "【拼音选择】请选择“静电计”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jìn diàn",
-        "B": "bìng diàn",
-        "C": "jìng diàn",
-        "D": "qìng diàn"
+        "A": "jìn diàn jì",
+        "B": "jìng diàn qì",
+        "C": "jìng diàn jì",
+        "D": "qìng diàn jì"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“静电”读作 jìng diàn，本课词义：tĩnh điện。"
+      "explanation": "“静电计”读作 jìng diàn jì。注意声母、韵母、声调及轻声。",
+      "targetWord": "静电计"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“手环”的正确读音。",
+      "text": "【拼音选择】请选择“测试仪”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sǒu huán",
-        "B": "shǒu huán",
-        "C": "shǒu huáng",
-        "D": "shǎo huán"
+        "A": "chè shì yí",
+        "B": "cè shì yí",
+        "C": "cà shì yí",
+        "D": "cè sì yí"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“手环”读作 shǒu huán，本课词义：vòng đeo tay。"
+      "explanation": "“测试仪”读作 cè shì yí。注意声母、韵母、声调及轻声。",
+      "targetWord": "测试仪"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“接地”的正确读音。",
+      "text": "【拼音选择】请选择“湿度”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiē dì",
-        "B": "biē dì",
-        "C": "diē dì",
-        "D": "qiē dì"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“接地”读作 jiē dì，本课词义：nối đất。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“洁净”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "jié qìng",
-        "B": "jié jìng",
-        "C": "jié jìn",
-        "D": "qié jìng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“洁净”读作 jié jìng，本课词义：sạch, độ sạch。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“检测”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "qiǎn cè",
-        "B": "jiǎn chè",
-        "C": "jiǎn cè",
-        "D": "jiǎng cè"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“检测”读作 jiǎn cè，本课词义：kiểm tra, đo kiểm。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“灰尘”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "huī cén",
-        "B": "chuī chén",
-        "C": "huī chén",
-        "D": "huī chéng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“灰尘”读作 huī chén，本课词义：bụi。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“规定”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "duī dìng",
-        "B": "cuī dìng",
-        "C": "guī dìn",
-        "D": "guī dìng"
+        "A": "chī dù",
+        "B": "sī dù",
+        "C": "shā dù",
+        "D": "shī dù"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“规定”读作 guī dìng，本课词义：quy định。"
+      "explanation": "“湿度”读作 shī dù。注意声母、韵母、声调及轻声。",
+      "targetWord": "湿度"
     },
     {
-      "id": 9,
+      "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“异常”的正确读音。",
+      "text": "【拼音选择】请选择“测量”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yì cáng",
-        "B": "bì cháng",
-        "C": "yì cháng",
-        "D": "yì chán"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“异常”读作 yì cháng，本课词义：bất thường。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“确认”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "què rèn",
-        "B": "juè rèn",
-        "C": "xuè rèn",
-        "D": "què rèng"
+        "A": "cè liáng",
+        "B": "cè niáng",
+        "C": "cè lián",
+        "D": "chè liáng"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“确认”读作 què rèn，本课词义：xác nhận。"
+      "explanation": "“测量”读作 cè liáng。注意声母、韵母、声调及轻声。",
+      "targetWord": "测量"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“阻值”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "zǔ zhí",
+        "B": "zhǔ zhí",
+        "C": "zǔ zí",
+        "D": "bǔ zhí"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“阻值”读作 zǔ zhí。注意声母、韵母、声调及轻声。",
+      "targetWord": "阻值"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“污染”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "bū rǎn",
+        "B": "cū rǎn",
+        "C": "wū rǎn",
+        "D": "wū rǎng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“污染”读作 wū rǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "污染"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“粉尘”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "hěn chén",
+        "B": "fěn chén",
+        "C": "fěn cén",
+        "D": "fěng chén"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“粉尘”读作 fěn chén。注意声母、韵母、声调及轻声。",
+      "targetWord": "粉尘"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“离子风”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "lí zhi fēng",
+        "B": "lí zi hēng",
+        "C": "ní zi fēng",
+        "D": "lí zi fēng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“离子风”读作 lí zi fēng。注意声母、韵母、声调及轻声。",
+      "targetWord": "离子风"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“绝缘”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "jié yuán",
+        "B": "qué yuán",
+        "C": "jú yuán",
+        "D": "jué yuán"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“绝缘”读作 jué yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "绝缘"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“无尘”（không bụi, phòng sạch）。完整表达：请问进入无尘车间需要遵守哪些规定。"
+      "explanation": "应填“无尘”（không bụi, phòng sạch）。完整表达：请问进入无尘车间需要遵守哪些规定。",
+      "targetWord": "无尘",
+      "completeSentence": "请问进入无尘车间需要遵守哪些规定。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“静电”（tĩnh điện）。完整表达：这里的电子元件需要采取静电防护措施。"
+      "explanation": "应填“静电”（tĩnh điện）。完整表达：这里的电子元件需要采取静电防护措施。",
+      "targetWord": "静电",
+      "completeSentence": "这里的电子元件需要采取静电防护措施。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“手环”（vòng đeo tay）。完整表达：我的防静电手环检测不通过请协助确认。"
+      "explanation": "应填“手环”（vòng đeo tay）。完整表达：我的防静电手环检测不通过请协助确认。",
+      "targetWord": "手环",
+      "completeSentence": "我的防静电手环检测不通过请协助确认。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“接地”（nối đất）。完整表达：接地状态我需要请专业人员检查确认。"
+      "explanation": "应填“接地”（nối đất）。完整表达：接地状态我需要请专业人员检查确认。",
+      "targetWord": "接地",
+      "completeSentence": "接地状态我需要请专业人员检查确认。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“洁净”（sạch, độ sạch）。完整表达：这个区域对洁净程度有明确要求。"
+      "explanation": "应填“洁净”（sạch, độ sạch）。完整表达：这个区域对洁净程度有明确要求。",
+      "targetWord": "洁净",
+      "completeSentence": "这个区域对洁净程度有明确要求。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“检测”（kiểm tra, đo kiểm）。完整表达：进入指定区域前请先完成规定的检测。"
+      "explanation": "应填“检测”（kiểm tra, đo kiểm）。完整表达：进入指定区域前请先完成规定的检测。",
+      "targetWord": "检测",
+      "completeSentence": "进入指定区域前请先完成规定的检测。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“灰尘”（bụi）。完整表达：这个包装表面有灰尘请先按规定处理。"
+      "explanation": "应填“灰尘”（bụi）。完整表达：这个包装表面有灰尘请先按规定处理。",
+      "targetWord": "灰尘",
+      "completeSentence": "这个包装表面有灰尘请先按规定处理。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“规定”（quy định）。完整表达：请按照现场规定使用防静电用品。"
+      "explanation": "应填“规定”（quy định）。完整表达：请按照现场规定使用防静电用品。",
+      "targetWord": "规定",
+      "completeSentence": "请按照现场规定使用防静电用品。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“异常”（bất thường）。完整表达：检测结果出现异常我已经向组长报告。"
+      "explanation": "应填“异常”（bất thường）。完整表达：检测结果出现异常我已经向组长报告。",
+      "targetWord": "异常",
+      "completeSentence": "检测结果出现异常我已经向组长报告。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“确认”（xác nhận）。完整表达：没有完成确认以前我不会擅自进入。"
+      "explanation": "应填“确认”（xác nhận）。完整表达：没有完成确认以前我不会擅自进入。",
+      "targetWord": "确认",
+      "completeSentence": "没有完成确认以前我不会擅自进入。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想了解洁净车间的进入规则，应该怎么问？",
-      "pinyin": "nǐ xiǎng liǎo jiě jié jìng chē jiān de jìn rù guī zé ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“洁净区域进入要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ jié jìng qū yù jìn rù yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "进入指定区域前请先完成规定的检测",
-        "B": "请帮我确认一下洁净区域进入要求的具体要求",
-        "C": "请问进入无尘车间需要遵守哪些规定",
-        "D": "我的防静电手环检测不通过请协助确认"
+        "A": "我还没有收到关于洁净区域进入要求的资料",
+        "B": "我这次只想核实洁净区域进入要求",
+        "C": "我还需要进一步了解洁净区域进入要求",
+        "D": "我还没有收到关于静电检测的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "jìn rù zhǐ dìng qū yù qián qǐng xiān wán chéng guī dìng de jiǎn cè",
-        "B": "qǐng bāng wǒ què rèn yí xià jié jìng qū yù jìn rù yāo qiú de jù tǐ yāo qiú",
-        "C": "qǐng wèn jìn rù wú chén chē jiān xū yào zūn shǒu nǎ xiē guī dìng",
-        "D": "wǒ de fáng jìng diàn shǒu huán jiǎn cè bù tōng guò qǐng xié zhù què rèn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú jié jìng qū yù jìn rù yāo qiú de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí jié jìng qū yù jìn rù yāo qiú",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jié jìng qū yù jìn rù yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jìng diàn jiǎn cè de hé shí jié guǒ de zī liào"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想了解洁净车间的进入规则，应该怎么问？\n符合此任务的表达：请问进入无尘车间需要遵守哪些规定。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“洁净区域进入要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于洁净区域进入要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于洁净区域进入要求的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想提醒同事此处元件需要防静电保护，应该怎么说？",
-      "pinyin": "nǐ xiǎng tí xǐng tóng shì cǐ chù yuán jiàn xū yào fáng jìng diàn bǎo hù ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“静电检测的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ jìng diàn jiǎn cè de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果防静电检查安排有变化请及时通知我",
-        "B": "请帮我确认一下洁净区域进入要求的具体要求",
-        "C": "我的防静电手环检测不通过请协助确认",
-        "D": "这里的电子元件需要采取静电防护措施"
+        "A": "我还没有收到关于防静电检查安排的资料",
+        "B": "我还没有收到关于静电检测的核实结果的资料",
+        "C": "我这次只想核实静电检测的核实结果",
+        "D": "我还需要进一步了解静电检测的核实结果"
       },
       "optionPinyin": {
-        "A": "rú guǒ fáng jìng diàn jiǎn chá ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "qǐng bāng wǒ què rèn yí xià jié jìng qū yù jìn rù yāo qiú de jù tǐ yāo qiú",
-        "C": "wǒ de fáng jìng diàn shǒu huán jiǎn cè bù tōng guò qǐng xié zhù què rèn",
-        "D": "zhè lǐ de diàn zi yuán jiàn xū yào cǎi qǔ jìng diàn fáng hù cuò shī"
+        "A": "wǒ hái méi yǒu shōu dào guān yú fáng jìng diàn jiǎn chá ān pái de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú jìng diàn jiǎn cè de hé shí jié guǒ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jìng diàn jiǎn cè de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jìng diàn jiǎn cè de hé shí jié guǒ"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你想提醒同事此处元件需要防静电保护，应该怎么说？\n符合此任务的表达：这里的电子元件需要采取静电防护措施。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“静电检测的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于静电检测的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于静电检测的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你的防静电腕带未通过检测，需要协助，应该怎么报告？",
-      "pinyin": "nǐ de fáng jìng diàn wàn dài wèi tōng guò jiǎn cè ， xū yào xié zhù ， yīng gāi zěn me bào gào ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“防静电检查安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ fáng jìng diàn jiǎn chá ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请告诉我谁负责洁净区准入",
-        "B": "我的防静电手环检测不通过请协助确认",
-        "C": "进入指定区域前请先完成规定的检测",
-        "D": "如果防静电检查安排有变化请及时通知我"
+        "A": "我还没有收到关于洁净区准入的资料",
+        "B": "我这次只想核实防静电检查安排",
+        "C": "我还没有收到关于防静电检查安排的资料",
+        "D": "我还需要进一步了解防静电检查安排"
       },
       "optionPinyin": {
-        "A": "qǐng gào sù wǒ shuí fù zé jié jìng qū zhǔn rù",
-        "B": "wǒ de fáng jìng diàn shǒu huán jiǎn cè bù tōng guò qǐng xié zhù què rèn",
-        "C": "jìn rù zhǐ dìng qū yù qián qǐng xiān wán chéng guī dìng de jiǎn cè",
-        "D": "rú guǒ fáng jìng diàn jiǎn chá ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ hái méi yǒu shōu dào guān yú jié jìng qū zhǔn rù de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí fáng jìng diàn jiǎn chá ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú fáng jìng diàn jiǎn chá ān pái de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě fáng jìng diàn jiǎn chá ān pái"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你的防静电腕带未通过检测，需要协助，应该怎么报告？\n符合此任务的表达：我的防静电手环检测不通过请协助确认。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“防静电检查安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于防静电检查安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于防静电检查安排的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你无法确认接地状态，想请专业人员核实，应该怎么说？",
-      "pinyin": "nǐ wú fǎ què rèn jiē dì zhuàng tài ， xiǎng qǐng zhuān yè rén yuán hé shí ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“洁净区准入”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ jié jìng qū zhǔn rù ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "接地状态我需要请专业人员检查确认",
-        "B": "请告诉我谁负责洁净区准入",
-        "C": "这个包装表面有灰尘请先按规定处理",
-        "D": "我们先确认腕带检测记录再继续沟通"
+        "A": "我这次只想核实洁净区准入",
+        "B": "我还没有收到关于洁净区准入的资料",
+        "C": "我还没有收到关于腕带检测记录的资料",
+        "D": "我还需要进一步了解洁净区准入"
       },
       "optionPinyin": {
-        "A": "jiē dì zhuàng tài wǒ xū yào qǐng zhuān yè rén yuán jiǎn chá què rèn",
-        "B": "qǐng gào sù wǒ shuí fù zé jié jìng qū zhǔn rù",
-        "C": "zhè ge bāo zhuāng biǎo miàn yǒu huī chén qǐng xiān àn guī dìng chǔ lǐ",
-        "D": "wǒ men xiān què rèn wàn dài jiǎn cè jì lù zài jì xù gōu tōng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jié jìng qū zhǔn rù",
+        "B": "wǒ hái méi yǒu shōu dào guān yú jié jìng qū zhǔn rù de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú wàn dài jiǎn cè jì lù de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jié jìng qū zhǔn rù"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你无法确认接地状态，想请专业人员核实，应该怎么说？\n符合此任务的表达：接地状态我需要请专业人员检查确认。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“洁净区准入”的资料，怎样说明情况？\n合适的表达：我还没有收到关于洁净区准入的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于洁净区准入的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】新员工问该区域是否有清洁等级要求，你想表示有明确规定，应该怎么说？",
-      "pinyin": "xīn yuán gōng wèn gāi qū yù shì fǒu yǒu qīng jié děng jí yāo qiú ， nǐ xiǎng biǎo shì yǒu míng què guī dìng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“腕带检测记录”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ wàn dài jiǎn cè jì lù ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请按照现场规定使用防静电用品",
-        "B": "这个区域对洁净程度有明确要求",
-        "C": "请问进入无尘车间需要遵守哪些规定",
-        "D": "进入指定区域前请先完成规定的检测"
+        "A": "我这次只想核实腕带检测记录",
+        "B": "我还没有收到关于腕带检测记录的资料",
+        "C": "我还没有收到关于洁净区域进入要求的资料",
+        "D": "我还需要进一步了解腕带检测记录"
       },
       "optionPinyin": {
-        "A": "qǐng àn zhào xiàn chǎng guī dìng shǐ yòng fáng jìng diàn yòng pǐn",
-        "B": "zhè ge qū yù duì jié jìng chéng dù yǒu míng què yāo qiú",
-        "C": "qǐng wèn jìn rù wú chén chē jiān xū yào zūn shǒu nǎ xiē guī dìng",
-        "D": "jìn rù zhǐ dìng qū yù qián qǐng xiān wán chéng guī dìng de jiǎn cè"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí wàn dài jiǎn cè jì lù",
+        "B": "wǒ hái méi yǒu shōu dào guān yú wàn dài jiǎn cè jì lù de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú jié jìng qū yù jìn rù yāo qiú de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě wàn dài jiǎn cè jì lù"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：新员工问该区域是否有清洁等级要求，你想表示有明确规定，应该怎么说？\n符合此任务的表达：这个区域对洁净程度有明确要求。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“腕带检测记录”的资料，怎样说明情况？\n合适的表达：我还没有收到关于腕带检测记录的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于腕带检测记录的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想提醒同事入区前完成要求的测试，应该怎么说？",
-      "pinyin": "nǐ xiǎng tí xǐng tóng shì rù qū qián wán chéng yāo qiú de cè shì ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“洁净区域进入要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ jié jìng qū yù jìn rù yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "没有完成确认以前我不会擅自进入",
-        "B": "请告诉我谁负责洁净区准入",
-        "C": "进入指定区域前请先完成规定的检测",
-        "D": "我的防静电手环检测不通过请协助确认"
+        "A": "我这次只想核实洁净区域进入要求",
+        "B": "我还需要进一步了解洁净区域进入要求",
+        "C": "我这次只想核实静电检测的核实结果",
+        "D": "我还没有收到关于洁净区域进入要求的资料"
       },
       "optionPinyin": {
-        "A": "méi yǒu wán chéng què rèn yǐ qián wǒ bú huì shàn zì jìn rù",
-        "B": "qǐng gào sù wǒ shuí fù zé jié jìng qū zhǔn rù",
-        "C": "jìn rù zhǐ dìng qū yù qián qǐng xiān wán chéng guī dìng de jiǎn cè",
-        "D": "wǒ de fáng jìng diàn shǒu huán jiǎn cè bù tōng guò qǐng xié zhù què rèn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jié jìng qū yù jìn rù yāo qiú",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jié jìng qū yù jìn rù yāo qiú",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jìng diàn jiǎn cè de hé shí jié guǒ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jié jìng qū yù jìn rù yāo qiú de zī liào"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想提醒同事入区前完成要求的测试，应该怎么说？\n符合此任务的表达：进入指定区域前请先完成规定的检测。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“洁净区域进入要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实洁净区域进入要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实洁净区域进入要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你看到包装外表有灰尘，想提醒同事按规定处置，应该怎么说？",
-      "pinyin": "nǐ kàn dào bāo zhuāng wài biǎo yǒu huī chén ， xiǎng tí xǐng tóng shì àn guī dìng chǔ zhì ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“静电检测的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ jìng diàn jiǎn cè de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "进入指定区域前请先完成规定的检测",
-        "B": "这个包装表面有灰尘请先按规定处理",
-        "C": "请帮我确认一下洁净区域进入要求的具体要求",
-        "D": "请问进入无尘车间需要遵守哪些规定"
+        "A": "我这次只想核实静电检测的核实结果",
+        "B": "我还需要进一步了解静电检测的核实结果",
+        "C": "我这次只想核实防静电检查安排",
+        "D": "我还没有收到关于静电检测的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "jìn rù zhǐ dìng qū yù qián qǐng xiān wán chéng guī dìng de jiǎn cè",
-        "B": "zhè ge bāo zhuāng biǎo miàn yǒu huī chén qǐng xiān àn guī dìng chǔ lǐ",
-        "C": "qǐng bāng wǒ què rèn yí xià jié jìng qū yù jìn rù yāo qiú de jù tǐ yāo qiú",
-        "D": "qǐng wèn jìn rù wú chén chē jiān xū yào zūn shǒu nǎ xiē guī dìng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jìng diàn jiǎn cè de hé shí jié guǒ",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jìng diàn jiǎn cè de hé shí jié guǒ",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí fáng jìng diàn jiǎn chá ān pái",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jìng diàn jiǎn cè de hé shí jié guǒ de zī liào"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你看到包装外表有灰尘，想提醒同事按规定处置，应该怎么说？\n符合此任务的表达：这个包装表面有灰尘请先按规定处理。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“静电检测的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实静电检测的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实静电检测的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想强调防静电用品应依厂内规则使用，应该怎么说？",
-      "pinyin": "nǐ xiǎng qiáng diào fáng jìng diàn yòng pǐn yīng yī chǎng nèi guī zé shǐ yòng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“防静电检查安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ fáng jìng diàn jiǎn chá ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "没有完成确认以前我不会擅自进入",
-        "B": "请按照现场规定使用防静电用品",
-        "C": "请告诉我谁负责洁净区准入",
-        "D": "检测结果出现异常我已经向组长报告"
+        "A": "我还没有收到关于防静电检查安排的资料",
+        "B": "我这次只想核实洁净区准入",
+        "C": "我这次只想核实防静电检查安排",
+        "D": "我还需要进一步了解防静电检查安排"
       },
       "optionPinyin": {
-        "A": "méi yǒu wán chéng què rèn yǐ qián wǒ bú huì shàn zì jìn rù",
-        "B": "qǐng àn zhào xiàn chǎng guī dìng shǐ yòng fáng jìng diàn yòng pǐn",
-        "C": "qǐng gào sù wǒ shuí fù zé jié jìng qū zhǔn rù",
-        "D": "jiǎn cè jié guǒ chū xiàn yì cháng wǒ yǐ jīng xiàng zǔ zhǎng bào gào"
+        "A": "wǒ hái méi yǒu shōu dào guān yú fáng jìng diàn jiǎn chá ān pái de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí jié jìng qū zhǔn rù",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí fáng jìng diàn jiǎn chá ān pái",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě fáng jìng diàn jiǎn chá ān pái"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想强调防静电用品应依厂内规则使用，应该怎么说？\n符合此任务的表达：请按照现场规定使用防静电用品。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“防静电检查安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实防静电检查安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实防静电检查安排",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】检测发现不正常，你已向组长汇报，应该怎么说？",
-      "pinyin": "jiǎn cè fā xiàn bú zhèng cháng ， nǐ yǐ xiàng zǔ zhǎng huì bào ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“洁净区准入”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ jié jìng qū zhǔn rù ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认腕带检测记录再继续沟通",
-        "B": "接地状态我需要请专业人员检查确认",
-        "C": "检测结果出现异常我已经向组长报告",
-        "D": "进入指定区域前请先完成规定的检测"
+        "A": "我还没有收到关于洁净区准入的资料",
+        "B": "我这次只想核实腕带检测记录",
+        "C": "我还需要进一步了解洁净区准入",
+        "D": "我这次只想核实洁净区准入"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn wàn dài jiǎn cè jì lù zài jì xù gōu tōng",
-        "B": "jiē dì zhuàng tài wǒ xū yào qǐng zhuān yè rén yuán jiǎn chá què rèn",
-        "C": "jiǎn cè jié guǒ chū xiàn yì cháng wǒ yǐ jīng xiàng zǔ zhǎng bào gào",
-        "D": "jìn rù zhǐ dìng qū yù qián qǐng xiān wán chéng guī dìng de jiǎn cè"
+        "A": "wǒ hái méi yǒu shōu dào guān yú jié jìng qū zhǔn rù de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí wàn dài jiǎn cè jì lù",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jié jìng qū zhǔn rù",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí jié jìng qū zhǔn rù"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：检测发现不正常，你已向组长汇报，应该怎么说？\n符合此任务的表达：检测结果出现异常我已经向组长报告。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“洁净区准入”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实洁净区准入。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实洁净区准入",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想表明未确认符合要求前不会自行入区，应该怎么说？",
-      "pinyin": "nǐ xiǎng biǎo míng wèi què rèn fú hé yāo qiú qián bú huì zì xíng rù qū ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“腕带检测记录”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ wàn dài jiǎn cè jì lù ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这里的电子元件需要采取静电防护措施",
-        "B": "我的防静电手环检测不通过请协助确认",
-        "C": "没有完成确认以前我不会擅自进入",
-        "D": "我们先确认腕带检测记录再继续沟通"
+        "A": "我这次只想核实洁净区域进入要求",
+        "B": "我还需要进一步了解腕带检测记录",
+        "C": "我还没有收到关于腕带检测记录的资料",
+        "D": "我这次只想核实腕带检测记录"
       },
       "optionPinyin": {
-        "A": "zhè lǐ de diàn zi yuán jiàn xū yào cǎi qǔ jìng diàn fáng hù cuò shī",
-        "B": "wǒ de fáng jìng diàn shǒu huán jiǎn cè bù tōng guò qǐng xié zhù què rèn",
-        "C": "méi yǒu wán chéng què rèn yǐ qián wǒ bú huì shàn zì jìn rù",
-        "D": "wǒ men xiān què rèn wàn dài jiǎn cè jì lù zài jì xù gōu tōng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jié jìng qū yù jìn rù yāo qiú",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě wàn dài jiǎn cè jì lù",
+        "C": "wǒ hái méi yǒu shōu dào guān yú wàn dài jiǎn cè jì lù de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí wàn dài jiǎn cè jì lù"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你想表明未确认符合要求前不会自行入区，应该怎么说？\n符合此任务的表达：没有完成确认以前我不会擅自进入。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“腕带检测记录”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实腕带检测记录。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实腕带检测记录",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 31,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“洁净区域进入要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ jié jìng qū yù jìn rù yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“洁净区域进入要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ jié jìng qū yù jìn rù yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请帮我确认一下洁净区域进入要求的具体要求",
-        "B": "进入指定区域前请先完成规定的检测",
-        "C": "检测结果出现异常我已经向组长报告",
-        "D": "这里的电子元件需要采取静电防护措施"
+        "A": "我还需要进一步了解静电检测的核实结果",
+        "B": "我这次只想核实洁净区域进入要求",
+        "C": "我还需要进一步了解洁净区域进入要求",
+        "D": "我还没有收到关于洁净区域进入要求的资料"
       },
       "optionPinyin": {
-        "A": "qǐng bāng wǒ què rèn yí xià jié jìng qū yù jìn rù yāo qiú de jù tǐ yāo qiú",
-        "B": "jìn rù zhǐ dìng qū yù qián qǐng xiān wán chéng guī dìng de jiǎn cè",
-        "C": "jiǎn cè jié guǒ chū xiàn yì cháng wǒ yǐ jīng xiàng zǔ zhǎng bào gào",
-        "D": "zhè lǐ de diàn zi yuán jiàn xū yào cǎi qǔ jìng diàn fáng hù cuò shī"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě jìng diàn jiǎn cè de hé shí jié guǒ",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí jié jìng qū yù jìn rù yāo qiú",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jié jìng qū yù jìn rù yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jié jìng qū yù jìn rù yāo qiú de zī liào"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想请同事核实“洁净区域进入要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下洁净区域进入要求的具体要求。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“洁净区域进入要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解洁净区域进入要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解洁净区域进入要求",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 32,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你尚未核实“静电检测的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ jìng diàn jiǎn cè de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“静电检测的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ jìng diàn jiǎn cè de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请按照现场规定使用防静电用品",
-        "B": "没有完成确认以前我不会擅自进入",
-        "C": "这个包装表面有灰尘请先按规定处理",
-        "D": "关于静电检测的核实结果我还需要再核实一下"
+        "A": "我这次只想核实静电检测的核实结果",
+        "B": "我还需要进一步了解静电检测的核实结果",
+        "C": "我还没有收到关于静电检测的核实结果的资料",
+        "D": "我还需要进一步了解防静电检查安排"
       },
       "optionPinyin": {
-        "A": "qǐng àn zhào xiàn chǎng guī dìng shǐ yòng fáng jìng diàn yòng pǐn",
-        "B": "méi yǒu wán chéng què rèn yǐ qián wǒ bú huì shàn zì jìn rù",
-        "C": "zhè ge bāo zhuāng biǎo miàn yǒu huī chén qǐng xiān àn guī dìng chǔ lǐ",
-        "D": "guān yú jìng diàn jiǎn cè de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你尚未核实“静电检测的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于静电检测的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 33,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你希望“防静电检查安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ fáng jìng diàn jiǎn chá ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "如果防静电检查安排有变化请及时通知我",
-        "B": "请问进入无尘车间需要遵守哪些规定",
-        "C": "进入指定区域前请先完成规定的检测",
-        "D": "检测结果出现异常我已经向组长报告"
-      },
-      "optionPinyin": {
-        "A": "rú guǒ fáng jìng diàn jiǎn chá ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "qǐng wèn jìn rù wú chén chē jiān xū yào zūn shǒu nǎ xiē guī dìng",
-        "C": "jìn rù zhǐ dìng qū yù qián qǐng xiān wán chéng guī dìng de jiǎn cè",
-        "D": "jiǎn cè jié guǒ chū xiàn yì cháng wǒ yǐ jīng xiàng zǔ zhǎng bào gào"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你希望“防静电检查安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果防静电检查安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 34,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“洁净区准入”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ jié jìng qū zhǔn rù ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "没有完成确认以前我不会擅自进入",
-        "B": "我们先确认腕带检测记录再继续沟通",
-        "C": "这个区域对洁净程度有明确要求",
-        "D": "请告诉我谁负责洁净区准入"
-      },
-      "optionPinyin": {
-        "A": "méi yǒu wán chéng què rèn yǐ qián wǒ bú huì shàn zì jìn rù",
-        "B": "wǒ men xiān què rèn wàn dài jiǎn cè jì lù zài jì xù gōu tōng",
-        "C": "zhè ge qū yù duì jié jìng chéng dù yǒu míng què yāo qiú",
-        "D": "qǐng gào sù wǒ shuí fù zé jié jìng qū zhǔn rù"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“洁净区准入”，应该怎么说？\n符合此任务的表达：请告诉我谁负责洁净区准入。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 35,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你希望先确认“腕带检测记录”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ wàn dài jiǎn cè jì lù ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "关于静电检测的核实结果我还需要再核实一下",
-        "B": "我们先确认腕带检测记录再继续沟通",
-        "C": "没有完成确认以前我不会擅自进入",
-        "D": "接地状态我需要请专业人员检查确认"
-      },
-      "optionPinyin": {
-        "A": "guān yú jìng diàn jiǎn cè de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "wǒ men xiān què rèn wàn dài jiǎn cè jì lù zài jì xù gōu tōng",
-        "C": "méi yǒu wán chéng què rèn yǐ qián wǒ bú huì shàn zì jìn rù",
-        "D": "jiē dì zhuàng tài wǒ xū yào qǐng zhuān yè rén yuán jiǎn chá què rèn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jìng diàn jiǎn cè de hé shí jié guǒ",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jìng diàn jiǎn cè de hé shí jié guǒ",
+        "C": "wǒ hái méi yǒu shōu dào guān yú jìng diàn jiǎn cè de hé shí jié guǒ de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě fáng jìng diàn jiǎn chá ān pái"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“腕带检测记录”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认腕带检测记录再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“静电检测的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解静电检测的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解静电检测的核实结果",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 33,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“防静电检查安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ fáng jìng diàn jiǎn chá ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解洁净区准入",
+        "B": "我还需要进一步了解防静电检查安排",
+        "C": "我还没有收到关于防静电检查安排的资料",
+        "D": "我这次只想核实防静电检查安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě jié jìng qū zhǔn rù",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě fáng jìng diàn jiǎn chá ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú fáng jìng diàn jiǎn chá ān pái de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí fáng jìng diàn jiǎn chá ān pái"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“防静电检查安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解防静电检查安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解防静电检查安排",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 34,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“洁净区准入”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ jié jìng qū zhǔn rù ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实洁净区准入",
+        "B": "我还需要进一步了解腕带检测记录",
+        "C": "我还需要进一步了解洁净区准入",
+        "D": "我还没有收到关于洁净区准入的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jié jìng qū zhǔn rù",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě wàn dài jiǎn cè jì lù",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jié jìng qū zhǔn rù",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jié jìng qū zhǔn rù de zī liào"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“洁净区准入”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解洁净区准入。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解洁净区准入",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 35,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“腕带检测记录”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ wàn dài jiǎn cè jì lù ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实腕带检测记录",
+        "B": "我还没有收到关于腕带检测记录的资料",
+        "C": "我还需要进一步了解洁净区域进入要求",
+        "D": "我还需要进一步了解腕带检测记录"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí wàn dài jiǎn cè jì lù",
+        "B": "wǒ hái méi yǒu shōu dào guān yú wàn dài jiǎn cè jì lù de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jié jìng qū yù jìn rù yāo qiú",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě wàn dài jiǎn cè jì lù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“腕带检测记录”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解腕带检测记录。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解腕带检测记录",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 进入无尘车间 / 遵守哪些规定 / 需要",
-      "pinyin": "qǐng wèn / jìn rù wú chén chē jiān / zūn shǒu nǎ xiē guī dìng / xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 发给我 / 把 / 关于洁净区域进入要求的说明",
+      "pinyin": "qǐng / fā gěi wǒ / bǎ / guān yú jié jìng qū yù jìn rù yāo qiú de shuō míng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问进入无尘车间需要遵守哪些规定",
-        "请问进入无尘车间需要遵守哪些规定。",
-        "请问进入无尘车间需要遵守哪些规定.",
-        "请问进入无尘车间需要遵守哪些规定？",
-        "请问进入无尘车间需要遵守哪些规定?"
+        "请把关于洁净区域进入要求的说明发给我。",
+        "请把关于洁净区域进入要求的说明发给我",
+        "请把关于洁净区域进入要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：请问进入无尘车间需要遵守哪些规定。\nqǐng wèn jìn rù wú chén chē jiān xū yào zūn shǒu nǎ xiē guī dìng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：请把关于洁净区域进入要求的说明发给我。\nqǐng bǎ guān yú jié jìng qū yù jìn rù yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n静电防护措施 / 需要 / 采取 / 这里的电子元件",
-      "pinyin": "jìng diàn fáng hù cuò shī / xū yào / cǎi qǔ / zhè lǐ de diàn zi yuán jiàn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n静电检测的核实结果 / 核对过 / 已经 / 我们",
+      "pinyin": "jìng diàn jiǎn cè de hé shí jié guǒ / hé duì guò / yǐ jīng / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这里的电子元件需要采取静电防护措施",
-        "这里的电子元件需要采取静电防护措施。",
-        "这里的电子元件需要采取静电防护措施.",
-        "这里的电子元件需要采取静电防护措施？",
-        "这里的电子元件需要采取静电防护措施?"
+        "我们已经核对过静电检测的核实结果。",
+        "我们已经核对过静电检测的核实结果",
+        "我们已经核对过静电检测的核实结果."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：这里的电子元件需要采取静电防护措施。\nzhè lǐ de diàn zi yuán jiàn xū yào cǎi qǔ jìng diàn fáng hù cuò shī。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过静电检测的核实结果。\nwǒ men yǐ jīng hé duì guò jìng diàn jiǎn cè de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n协助确认 / 请 / 我的防静电手环 / 检测不通过",
-      "pinyin": "xié zhù què rèn / qǐng / wǒ de fáng jìng diàn shǒu huán / jiǎn cè bù tōng guò",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先了解防静电检查安排 / 只有 / 才能解释清楚 / 我们",
+      "pinyin": "xiān liǎo jiě fáng jìng diàn jiǎn chá ān pái / zhǐ yǒu / cái néng jiě shì qīng chǔ / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我的防静电手环检测不通过请协助确认",
-        "我的防静电手环检测不通过请协助确认。",
-        "我的防静电手环检测不通过请协助确认.",
-        "我的防静电手环检测不通过请协助确认？",
-        "我的防静电手环检测不通过请协助确认?"
+        "只有先了解防静电检查安排我们才能解释清楚。",
+        "只有先了解防静电检查安排我们才能解释清楚",
+        "只有先了解防静电检查安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：我的防静电手环检测不通过请协助确认。\nwǒ de fáng jìng diàn shǒu huán jiǎn cè bù tōng guò qǐng xié zhù què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：只有先了解防静电检查安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě fáng jìng diàn jiǎn chá ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n检查确认 / 接地状态 / 我 / 需要请专业人员",
-      "pinyin": "jiǎn chá què rèn / jiē dì zhuàng tài / wǒ / xū yào qǐng zhuān yè rén yuán",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还想知道 / 不仅想了解洁净区准入 / 我 / 具体由谁负责",
+      "pinyin": "hái xiǎng zhī dào / bù jǐn xiǎng liǎo jiě jié jìng qū zhǔn rù / wǒ / jù tǐ yóu shuí fù zé",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "接地状态我需要请专业人员检查确认",
-        "接地状态我需要请专业人员检查确认。",
-        "接地状态我需要请专业人员检查确认.",
-        "接地状态我需要请专业人员检查确认？",
-        "接地状态我需要请专业人员检查确认?"
+        "我不仅想了解洁净区准入还想知道具体由谁负责。",
+        "我不仅想了解洁净区准入还想知道具体由谁负责",
+        "我不仅想了解洁净区准入还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：接地状态我需要请专业人员检查确认。\njiē dì zhuàng tài wǒ xū yào qǐng zhuān yè rén yuán jiǎn chá què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：我不仅想了解洁净区准入还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě jié jìng qū zhǔn rù hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n明确要求 / 有 / 这个区域 / 对洁净程度",
-      "pinyin": "míng què yāo qiú / yǒu / zhè ge qū yù / duì jié jìng chéng dù",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n讨论腕带检测记录 / 之前 / 先准备好相关记录 / 请",
+      "pinyin": "tǎo lùn wàn dài jiǎn cè jì lù / zhī qián / xiān zhǔn bèi hǎo xiāng guān jì lù / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个区域对洁净程度有明确要求",
-        "这个区域对洁净程度有明确要求。",
-        "这个区域对洁净程度有明确要求.",
-        "这个区域对洁净程度有明确要求？",
-        "这个区域对洁净程度有明确要求?"
+        "讨论腕带检测记录之前请先准备好相关记录。",
+        "讨论腕带检测记录之前请先准备好相关记录",
+        "讨论腕带检测记录之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这个区域对洁净程度有明确要求。\nzhè ge qū yù duì jié jìng chéng dù yǒu míng què yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论腕带检测记录之前请先准备好相关记录。\ntǎo lùn wàn dài jiǎn cè jì lù zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n规定的检测 / 进入指定区域前 / 请 / 先完成",
-      "pinyin": "guī dìng de jiǎn cè / jìn rù zhǐ dìng qū yù qián / qǐng / xiān wán chéng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 关于洁净区域进入要求 / 有一个问题 / 想请教您",
+      "pinyin": "wǒ / guān yú jié jìng qū yù jìn rù yāo qiú / yǒu yí gè wèn tí / xiǎng qǐng jiào nín",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "进入指定区域前请先完成规定的检测",
-        "进入指定区域前请先完成规定的检测。",
-        "进入指定区域前请先完成规定的检测.",
-        "进入指定区域前请先完成规定的检测？",
-        "进入指定区域前请先完成规定的检测?"
+        "关于洁净区域进入要求我有一个问题想请教您。",
+        "关于洁净区域进入要求我有一个问题想请教您",
+        "关于洁净区域进入要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：进入指定区域前请先完成规定的检测。\njìn rù zhǐ dìng qū yù qián qǐng xiān wán chéng guī dìng de jiǎn cè。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：关于洁净区域进入要求我有一个问题想请教您。\nguān yú jié jìng qū yù jìn rù yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 先按规定处理 / 这个包装 / 表面有灰尘",
-      "pinyin": "qǐng / xiān àn guī dìng chǔ lǐ / zhè ge bāo zhuāng / biǎo miàn yǒu huī chén",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n如果 / 你还不清楚静电检测的核实结果 / 先向负责人询问 / 就",
+      "pinyin": "rú guǒ / nǐ hái bù qīng chǔ jìng diàn jiǎn cè de hé shí jié guǒ / xiān xiàng fù zé rén xún wèn / jiù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个包装表面有灰尘请先按规定处理",
-        "这个包装表面有灰尘请先按规定处理。",
-        "这个包装表面有灰尘请先按规定处理.",
-        "这个包装表面有灰尘请先按规定处理？",
-        "这个包装表面有灰尘请先按规定处理?"
+        "如果你还不清楚静电检测的核实结果就先向负责人询问。",
+        "如果你还不清楚静电检测的核实结果就先向负责人询问",
+        "如果你还不清楚静电检测的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：这个包装表面有灰尘请先按规定处理。\nzhè ge bāo zhuāng biǎo miàn yǒu huī chén qǐng xiān àn guī dìng chǔ lǐ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚静电检测的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ jìng diàn jiǎn cè de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n使用 / 请 / 按照现场规定 / 防静电用品",
-      "pinyin": "shǐ yòng / qǐng / àn zhào xiàn chǎng guī dìng / fáng jìng diàn yòng pǐn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n虽然 / 我们已经讨论过防静电检查安排 / 还需要核实细节 / 但是",
+      "pinyin": "suī rán / wǒ men yǐ jīng tǎo lùn guò fáng jìng diàn jiǎn chá ān pái / hái xū yào hé shí xì jié / dàn shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请按照现场规定使用防静电用品",
-        "请按照现场规定使用防静电用品。",
-        "请按照现场规定使用防静电用品.",
-        "请按照现场规定使用防静电用品？",
-        "请按照现场规定使用防静电用品?"
+        "虽然我们已经讨论过防静电检查安排但是还需要核实细节。",
+        "虽然我们已经讨论过防静电检查安排但是还需要核实细节",
+        "虽然我们已经讨论过防静电检查安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：请按照现场规定使用防静电用品。\nqǐng àn zhào xiàn chǎng guī dìng shǐ yòng fáng jìng diàn yòng pǐn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 25,
+      "explanation": "参考句子：虽然我们已经讨论过防静电检查安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò fáng jìng diàn jiǎn chá ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 已经向组长报告 / 检测结果 / 出现异常",
-      "pinyin": "wǒ / yǐ jīng xiàng zǔ zhǎng bào gào / jiǎn cè jié guǒ / chū xiàn yì cháng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n查阅相关文件 / 与其 / 反复猜测洁净区准入 / 不如",
+      "pinyin": "chá yuè xiāng guān wén jiàn / yǔ qí / fǎn fù cāi cè jié jìng qū zhǔn rù / bù rú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "检测结果出现异常我已经向组长报告",
-        "检测结果出现异常我已经向组长报告。",
-        "检测结果出现异常我已经向组长报告.",
-        "检测结果出现异常我已经向组长报告？",
-        "检测结果出现异常我已经向组长报告?"
+        "与其反复猜测洁净区准入不如查阅相关文件。",
+        "与其反复猜测洁净区准入不如查阅相关文件",
+        "与其反复猜测洁净区准入不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：检测结果出现异常我已经向组长报告。\njiǎn cè jié guǒ chū xiàn yì cháng wǒ yǐ jīng xiàng zǔ zhǎng bào gào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：与其反复猜测洁净区准入不如查阅相关文件。\nyǔ qí fǎn fù cāi cè jié jìng qū zhǔn rù bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 擅自进入 / 没有完成确认以前 / 不会",
-      "pinyin": "wǒ / shàn zì jìn rù / méi yǒu wán chéng què rèn yǐ qián / bú huì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n重新整理了资料 / 准确说明腕带检测记录 / 为了 / 我",
+      "pinyin": "chóng xīn zhěng lǐ le zī liào / zhǔn què shuō míng wàn dài jiǎn cè jì lù / wèi le / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "没有完成确认以前我不会擅自进入",
-        "没有完成确认以前我不会擅自进入。",
-        "没有完成确认以前我不会擅自进入.",
-        "没有完成确认以前我不会擅自进入？",
-        "没有完成确认以前我不会擅自进入?"
+        "为了准确说明腕带检测记录我重新整理了资料。",
+        "为了准确说明腕带检测记录我重新整理了资料",
+        "为了准确说明腕带检测记录我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：没有完成确认以前我不会擅自进入。\nméi yǒu wán chéng què rèn yǐ qián wǒ bú huì shàn zì jìn rù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明腕带检测记录我重新整理了资料。\nwèi le zhǔn què shuō míng wàn dài jiǎn cè jì lù wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n帮我确认一下 / 请 / 洁净区域进入要求 / 的具体要求",
-      "pinyin": "bāng wǒ què rèn yí xià / qǐng / jié jìng qū yù jìn rù yāo qiú / de jù tǐ yāo qiú",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n可以提出来 / 大家 / 对洁净区域进入要求 / 有疑问的话",
+      "pinyin": "kě yǐ tí chū lái / dà jiā / duì jié jìng qū yù jìn rù yāo qiú / yǒu yí wèn de huà",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下洁净区域进入要求的具体要求",
-        "请帮我确认一下洁净区域进入要求的具体要求。",
-        "请帮我确认一下洁净区域进入要求的具体要求.",
-        "请帮我确认一下洁净区域进入要求的具体要求？",
-        "请帮我确认一下洁净区域进入要求的具体要求?"
+        "大家对洁净区域进入要求有疑问的话可以提出来。",
+        "大家对洁净区域进入要求有疑问的话可以提出来",
+        "大家对洁净区域进入要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：请帮我确认一下洁净区域进入要求的具体要求。\nqǐng bāng wǒ què rèn yí xià jié jìng qū yù jìn rù yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：大家对洁净区域进入要求有疑问的话可以提出来。\ndà jiā duì jié jìng qū yù jìn rù yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 再核实一下 / 关于 / 还需要 / 静电检测的核实结果",
-      "pinyin": "wǒ / zài hé shí yí xià / guān yú / hái xū yào / jìng diàn jiǎn cè de hé shí jié guǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先说明静电检测的核实结果 / 请 / 再 / 回答大家的问题",
+      "pinyin": "xiān shuō míng jìng diàn jiǎn cè de hé shí jié guǒ / qǐng / zài / huí dá dà jiā de wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于静电检测的核实结果我还需要再核实一下",
-        "关于静电检测的核实结果我还需要再核实一下。",
-        "关于静电检测的核实结果我还需要再核实一下.",
-        "关于静电检测的核实结果我还需要再核实一下？",
-        "关于静电检测的核实结果我还需要再核实一下?"
+        "请先说明静电检测的核实结果再回答大家的问题。",
+        "请先说明静电检测的核实结果再回答大家的问题",
+        "请先说明静电检测的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于静电检测的核实结果我还需要再核实一下。\nguān yú jìng diàn jiǎn cè de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明静电检测的核实结果再回答大家的问题。\nqǐng xiān shuō míng jìng diàn jiǎn cè de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 防静电检查安排 / 如果 / 及时通知我 / 有变化",
-      "pinyin": "qǐng / fáng jìng diàn jiǎn chá ān pái / rú guǒ / jí shí tōng zhī wǒ / yǒu biàn huà",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n应该以有效文件为依据 / 都 / 谁来说明防静电检查安排 / 无论",
+      "pinyin": "yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / dōu / shuí lái shuō míng fáng jìng diàn jiǎn chá ān pái / wú lùn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果防静电检查安排有变化请及时通知我",
-        "如果防静电检查安排有变化请及时通知我。",
-        "如果防静电检查安排有变化请及时通知我.",
-        "如果防静电检查安排有变化请及时通知我？",
-        "如果防静电检查安排有变化请及时通知我?"
+        "无论谁来说明防静电检查安排都应该以有效文件为依据。",
+        "无论谁来说明防静电检查安排都应该以有效文件为依据",
+        "无论谁来说明防静电检查安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：如果防静电检查安排有变化请及时通知我。\nrú guǒ fáng jìng diàn jiǎn chá ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：无论谁来说明防静电检查安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng fáng jìng diàn jiǎn chá ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 负责 / 洁净区准入 / 告诉我 / 谁",
-      "pinyin": "qǐng / fù zé / jié jìng qū zhǔn rù / gào sù wǒ / shuí",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n逐项记录清楚 / 需要 / 涉及的问题 / 洁净区准入",
+      "pinyin": "zhú xiàng jì lù qīng chǔ / xū yào / shè jí de wèn tí / jié jìng qū zhǔn rù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责洁净区准入",
-        "请告诉我谁负责洁净区准入。",
-        "请告诉我谁负责洁净区准入.",
-        "请告诉我谁负责洁净区准入？",
-        "请告诉我谁负责洁净区准入?"
+        "洁净区准入涉及的问题需要逐项记录清楚。",
+        "洁净区准入涉及的问题需要逐项记录清楚",
+        "洁净区准入涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：请告诉我谁负责洁净区准入。\nqǐng gào sù wǒ shuí fù zé jié jìng qū zhǔn rù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：洁净区准入涉及的问题需要逐项记录清楚。\njié jìng qū zhǔn rù shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n腕带检测记录 / 我们 / 再 / 确认 / 先 / 继续沟通",
-      "pinyin": "wàn dài jiǎn cè jì lù / wǒ men / zài / què rèn / xiān / jì xù gōu tōng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 等 / 再补充相关记录 / 腕带检测记录确认以后",
+      "pinyin": "wǒ men / děng / zài bǔ chōng xiāng guān jì lù / wàn dài jiǎn cè jì lù què rèn yǐ hòu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认腕带检测记录再继续沟通",
-        "我们先确认腕带检测记录再继续沟通。",
-        "我们先确认腕带检测记录再继续沟通.",
-        "我们先确认腕带检测记录再继续沟通？",
-        "我们先确认腕带检测记录再继续沟通?"
+        "等腕带检测记录确认以后我们再补充相关记录。",
+        "等腕带检测记录确认以后我们再补充相关记录",
+        "等腕带检测记录确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认腕带检测记录再继续沟通。\nwǒ men xiān què rèn wàn dài jiǎn cè jì lù zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等腕带检测记录确认以后我们再补充相关记录。\nděng wàn dài jiǎn cè jì lù què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

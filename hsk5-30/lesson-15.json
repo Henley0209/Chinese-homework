@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第15课 阅读与信息判断",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“观点”的正确读音。",
+      "text": "【拼音选择】请选择“核实”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "duān diǎn",
-        "B": "guān diǎn",
-        "C": "guāng diǎn",
-        "D": "cuān diǎn"
+        "A": "ché shí",
+        "B": "hé shí",
+        "C": "dé shí",
+        "D": "hé sí"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“观点”读作 guān diǎn，意思是 quan điểm。"
+      "explanation": "“核实”读作 hé shí。注意声母、韵母、声调及轻声。",
+      "targetWord": "核实"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“证实”的正确读音。",
+      "text": "【拼音选择】请选择“论据”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zèng shí",
-        "B": "zhèng sí",
-        "C": "zhèng shí",
-        "D": "zhèn shí"
+        "A": "lùn jù",
+        "B": "cùn jù",
+        "C": "nùn jù",
+        "D": "lùn qù"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "“证实”读作 zhèng shí，意思是 chứng thực。"
+      "explanation": "“论据”读作 lùn jù。注意声母、韵母、声调及轻声。",
+      "targetWord": "论据"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“可靠”的正确读音。",
+      "text": "【拼音选择】请选择“来源”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hě kào",
-        "B": "gě kào",
-        "C": "kě kòu",
-        "D": "kě kào"
+        "A": "léi yuán",
+        "B": "lái yuán",
+        "C": "nái yuán",
+        "D": "bái yuán"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“可靠”读作 kě kào，意思是 đáng tin cậy。"
+      "explanation": "“来源”读作 lái yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "来源"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“分析”的正确读音。",
+      "text": "【拼音选择】请选择“推理”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hēn xī",
-        "B": "fēng xī",
-        "C": "fēn qī",
-        "D": "fēn xī"
+        "A": "duī lǐ",
+        "B": "tuī nǐ",
+        "C": "tuī lǐ",
+        "D": "cuī lǐ"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“分析”读作 fēn xī，意思是 phân tích。"
+      "explanation": "“推理”读作 tuī lǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "推理"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“结论”的正确读音。",
+      "text": "【拼音选择】请选择“事实”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qié lùn",
-        "B": "jié lùn",
-        "C": "bié lùn",
-        "D": "jié nùn"
+        "A": "sì shí",
+        "B": "chì shí",
+        "C": "shì sí",
+        "D": "shì shí"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "“结论”读作 jié lùn，意思是 kết luận。"
+      "explanation": "“事实”读作 shì shí。注意声母、韵母、声调及轻声。",
+      "targetWord": "事实"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：阅读评论时我们应该区分事实与作者的____。",
-      "pinyin": "yuè dú píng lùn shí wǒ men yīng gāi qū fēn shì shí yǔ zuò zhě de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: quan điểm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：转发消息之前，应先判断信息来源是否____。",
+      "pinyin": "zhuǎn fā xiāo xi zhī qián ， yīng xiān pàn duàn xìn xī lái yuán shì fǒu ____。",
+      "vietnamese": "Gợi ý: đáng tin cậy.",
       "options": {
-        "A": "证实",
-        "B": "分析",
-        "C": "观点",
+        "A": "证据",
+        "B": "观点",
+        "C": "角度",
         "D": "可靠"
       },
       "optionPinyin": {
-        "A": "zhèng shí",
-        "B": "fēn xī",
-        "C": "guān diǎn",
+        "A": "zhèng jù",
+        "B": "guān diǎn",
+        "C": "jiǎo dù",
         "D": "kě kào"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“观点”（quan điểm）。完整句子：阅读评论时我们应该区分事实与作者的观点。"
+      "explanation": "应填“可靠”。完整句子：转发消息之前，应先判断信息来源是否可靠。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "可靠",
+      "completeSentence": "转发消息之前，应先判断信息来源是否可靠。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：这条消息目前还没有得到可靠的____。",
-      "pinyin": "zhè tiáo xiāo xi mù qián hái méi yǒu dé dào kě kào de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chứng thực.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：文章的结论缺乏足够的____，暂时不能接受。",
+      "pinyin": "wén zhāng de jié lùn quē fá zú gòu de ____， zàn shí bù néng jiē shòu 。",
+      "vietnamese": "Gợi ý: bằng chứng.",
       "options": {
-        "A": "分析",
+        "A": "证据",
         "B": "观点",
-        "C": "证实",
-        "D": "结论"
+        "C": "角度",
+        "D": "可靠"
       },
       "optionPinyin": {
-        "A": "fēn xī",
+        "A": "zhèng jù",
         "B": "guān diǎn",
-        "C": "zhèng shí",
-        "D": "jié lùn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“证实”（chứng thực）。完整句子：这条消息目前还没有得到可靠的证实。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：作出判断以前最好查阅多个____的信息来源。",
-      "pinyin": "zuò chū pàn duàn yǐ qián zuì hǎo chá yuè duō gè ____ de xìn xī lái yuán",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đáng tin cậy.",
-      "options": {
-        "A": "观点",
-        "B": "可靠",
-        "C": "结论",
-        "D": "证实"
-      },
-      "optionPinyin": {
-        "A": "guān diǎn",
-        "B": "kě kào",
-        "C": "jié lùn",
-        "D": "zhèng shí"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“可靠”（đáng tin cậy）。完整句子：作出判断以前最好查阅多个可靠的信息来源。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：他通过比较不同的材料____了问题出现的原因。",
-      "pinyin": "tā tōng guò bǐ jiào bù tóng de cái liào ____ le wèn tí chū xiàn de yuán yīn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: phân tích.",
-      "options": {
-        "A": "观点",
-        "B": "分析",
-        "C": "证实",
-        "D": "可靠"
-      },
-      "optionPinyin": {
-        "A": "guān diǎn",
-        "B": "fēn xī",
-        "C": "zhèng shí",
-        "D": "kě kào"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“分析”（phân tích）。完整句子：他通过比较不同的材料分析了问题出现的原因。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：如果证据不够充分就不应该过早地得出____。",
-      "pinyin": "rú guǒ zhèng jù bù gòu chōng fèn jiù bù yīng gāi guò zǎo dì dé chū ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kết luận.",
-      "options": {
-        "A": "结论",
-        "B": "证实",
-        "C": "观点",
-        "D": "可靠"
-      },
-      "optionPinyin": {
-        "A": "jié lùn",
-        "B": "zhèng shí",
-        "C": "guān diǎn",
+        "C": "jiǎo dù",
         "D": "kě kào"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“结论”（kết luận）。完整句子：如果证据不够充分就不应该过早地得出结论。"
+      "explanation": "应填“证据”。完整句子：文章的结论缺乏足够的证据，暂时不能接受。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "证据",
+      "completeSentence": "文章的结论缺乏足够的证据，暂时不能接受。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：同一件事可以从不同____进行分析。",
+      "pinyin": "tóng yī jiàn shì kě yǐ cóng bù tóng ____ jìn xíng fēn xī 。",
+      "vietnamese": "Gợi ý: góc độ.",
+      "options": {
+        "A": "可靠",
+        "B": "角度",
+        "C": "证据",
+        "D": "观点"
+      },
+      "optionPinyin": {
+        "A": "kě kào",
+        "B": "jiǎo dù",
+        "C": "zhèng jù",
+        "D": "guān diǎn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“角度”。完整句子：同一件事可以从不同角度进行分析。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "角度",
+      "completeSentence": "同一件事可以从不同角度进行分析。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：读者应区分作者的个人____与可核实的事实。",
+      "pinyin": "dú zhě yīng qū fēn zuò zhě de gè rén ____ yǔ kě hé shí de shì shí 。",
+      "vietnamese": "Gợi ý: quan điểm.",
+      "options": {
+        "A": "观点",
+        "B": "角度",
+        "C": "证据",
+        "D": "可靠"
+      },
+      "optionPinyin": {
+        "A": "guān diǎn",
+        "B": "jiǎo dù",
+        "C": "zhèng jù",
+        "D": "kě kào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“观点”。完整句子：读者应区分作者的个人观点与可核实的事实。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "观点",
+      "completeSentence": "读者应区分作者的个人观点与可核实的事实。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：只有理解上下文，才能准确____这句话的含义。",
+      "pinyin": "zhǐ yǒu lǐ jiě shàng xià wén ， cái néng zhǔn què ____ zhè jù huà de hán yì 。",
+      "vietnamese": "Gợi ý: hiểu.",
+      "options": {
+        "A": "证据",
+        "B": "可靠",
+        "C": "理解",
+        "D": "角度"
+      },
+      "optionPinyin": {
+        "A": "zhèng jù",
+        "B": "kě kào",
+        "C": "lǐ jiě",
+        "D": "jiǎo dù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“理解”。完整句子：只有理解上下文，才能准确理解这句话的含义。\n语法与搭配：只有……才……：必要条件",
+      "targetWord": "理解",
+      "completeSentence": "只有理解上下文，才能准确理解这句话的含义。",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 11,
@@ -240,7 +260,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：阅读评论时我们应该区分事实与作者的观点。\nyuè dú píng lùn shí wǒ men yīng gāi qū fēn shì shí yǔ zuò zhě de guān diǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：阅读评论时我们应该区分事实与作者的观点。\nyuè dú píng lùn shí wǒ men yīng gāi qū fēn shì shí yǔ zuò zhě de guān diǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -256,7 +277,8 @@
       ],
       "points": 5,
       "hanziCount": 16,
-      "explanation": "参考句子：这条消息目前还没有得到可靠的证实。\nzhè tiáo xiāo xi mù qián hái méi yǒu dé dào kě kào de zhèng shí。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：这条消息目前还没有得到可靠的证实。\nzhè tiáo xiāo xi mù qián hái méi yǒu dé dào kě kào de zhèng shí。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋得＋程度/状态补语",
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 13,
@@ -272,7 +294,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：作出判断以前最好查阅多个可靠的信息来源。\nzuò chū pàn duàn yǐ qián zuì hǎo chá yuè duō gè kě kào de xìn xī lái yuán。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：作出判断以前最好查阅多个可靠的信息来源。\nzuò chū pàn duàn yǐ qián zuì hǎo chá yuè duō gè kě kào de xìn xī lái yuán。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动作＋以前：说明时间顺序",
+      "grammarFocus": "动作＋以前：说明时间顺序"
     },
     {
       "id": 14,
@@ -288,7 +311,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：他通过比较不同的材料分析了问题出现的原因。\ntā tōng guò bǐ jiào bù tóng de cái liào fēn xī le wèn tí chū xiàn de yuán yīn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：他通过比较不同的材料分析了问题出现的原因。\ntā tōng guò bǐ jiào bù tóng de cái liào fēn xī le wèn tí chū xiàn de yuán yīn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 15,
@@ -304,7 +328,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：如果证据不够充分就不应该过早地得出结论。\nrú guǒ zhèng jù bù gòu chōng fèn jiù bù yīng gāi guò zǎo dì dé chū jié lùn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：如果证据不够充分就不应该过早地得出结论。\nrú guǒ zhèng jù bù gòu chōng fèn jiù bù yīng gāi guò zǎo dì dé chū jié lùn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：如果……就……：假设条件",
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 16,
@@ -320,7 +345,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解信息来源的核实还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě xìn xī lái yuán de hé shí hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解信息来源的核实还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě xìn xī lái yuán de hé shí hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -336,7 +362,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化阅读习惯的形成都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà yuè dú xí guàn de xíng chéng dū zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化阅读习惯的形成都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà yuè dú xí guàn de xíng chéng dū zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -352,7 +379,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解独立判断的能力才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě dú lì pàn duàn de néng lì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解独立判断的能力才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě dú lì pàn duàn de néng lì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -368,7 +396,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析事实与观点的区别。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī shì shí yǔ guān diǎn de qū bié。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析事实与观点的区别。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī shì shí yǔ guān diǎn de qū bié。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -384,7 +413,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明证据使用的原则。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng zhèng jù shǐ yòng de yuán zé。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明证据使用的原则。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng zhèng jù shǐ yòng de yuán zé。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

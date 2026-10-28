@@ -1,26 +1,27 @@
 {
   "title": "日常交际 第15课 去超市买东西",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“货架”的正确读音。",
+      "text": "【拼音选择】请选择“生鲜”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "huò jià",
-        "B": "chuò jià",
-        "C": "huò qià",
-        "D": "cuò jià"
+        "A": "shēng xiān",
+        "B": "shēng xiāng",
+        "C": "shēng qiān",
+        "D": "sēng xiān"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“货架”读作 huò jià，本课词义：kệ hàng。"
+      "explanation": "“生鲜”读作 shēng xiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "生鲜"
     },
     {
       "id": 2,
@@ -28,37 +29,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“公斤”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cōng jīn",
-        "B": "gōng qīn",
-        "C": "gōng jīng",
-        "D": "gōng jīn"
+        "A": "gōng jīn",
+        "B": "gōng jīng",
+        "C": "gōng qīn",
+        "D": "cōng jīn"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "“公斤”读作 gōng jīn，本课词义：ki-lô-gam。"
+      "explanation": "“公斤”读作 gōng jīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "公斤"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“保质期”的正确读音。",
+      "text": "【拼音选择】请选择“冷藏”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǎo zì qī",
-        "B": "bǎo zhì jī",
-        "C": "bǎo zhì xī",
-        "D": "bǎo zhì qī"
+        "A": "lěng cáng",
+        "B": "něng cáng",
+        "C": "lěng cháng",
+        "D": "lěng cán"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "“保质期”读作 bǎo zhì qī，本课词义：hạn sử dụng。"
+      "explanation": "“冷藏”读作 lěng cáng。注意声母、韵母、声调及轻声。",
+      "targetWord": "冷藏"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“袋子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bài zi",
+        "A": "dài zhi",
         "B": "dài zi",
-        "C": "dài zhi",
+        "C": "bài zi",
         "D": "cài zi"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“袋子”读作 dài zi，本课词义：túi。"
+      "explanation": "“袋子”读作 dài zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "袋子"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“结账”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jié zhàng",
-        "B": "jié zàng",
-        "C": "qié zhàng",
+        "B": "qié zhàng",
+        "C": "jié zàng",
         "D": "jié zhàn"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“结账”读作 jié zhàng，本课词义：thanh toán。"
+      "explanation": "“结账”读作 jié zhàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "结账"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问牛奶在哪一排____上。",
-      "pinyin": "qǐng wèn niú nǎi zài nǎ yì pái ____ shàng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kệ hàng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：买牛奶以前，要看清____。",
+      "pinyin": "mǎi niú nǎi yǐ qián ， yào kàn qīng ____。",
+      "vietnamese": "Gợi ý: hạn sử dụng.",
       "options": {
-        "A": "公斤",
-        "B": "结账",
-        "C": "货架",
-        "D": "袋子"
+        "A": "称重",
+        "B": "货架",
+        "C": "保质期",
+        "D": "购物袋"
       },
       "optionPinyin": {
-        "A": "gōng jīn",
-        "B": "jié zhàng",
-        "C": "huò jià",
-        "D": "dài zi"
+        "A": "chēng zhòng",
+        "B": "huò jià",
+        "C": "bǎo zhì qī",
+        "D": "gòu wù dài"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“货架”（kệ hàng）。完整表达：请问牛奶在哪一排货架上。"
+      "explanation": "应填“保质期”。完整句子：买牛奶以前，要看清保质期。\n语法与搭配：……以前；动词＋清",
+      "targetWord": "保质期",
+      "completeSentence": "买牛奶以前，要看清保质期。",
+      "grammarFocus": "……以前；动词＋清"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：麻烦给我称两____苹果。",
-      "pinyin": "má fán gěi wǒ chēng liǎng ____ píng guǒ",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: ki-lô-gam.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：为了少用塑料，我自己带了____。",
+      "pinyin": "wèi le shǎo yòng sù liào ， wǒ zì jǐ dài le ____。",
+      "vietnamese": "Gợi ý: túi mua hàng.",
       "options": {
-        "A": "袋子",
-        "B": "公斤",
-        "C": "结账",
+        "A": "购物袋",
+        "B": "称重",
+        "C": "货架",
         "D": "保质期"
       },
       "optionPinyin": {
-        "A": "dài zi",
-        "B": "gōng jīn",
-        "C": "jié zhàng",
+        "A": "gòu wù dài",
+        "B": "chēng zhòng",
+        "C": "huò jià",
+        "D": "bǎo zhì qī"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“购物袋”。完整句子：为了少用塑料，我自己带了购物袋。\n语法与搭配：为了；自己",
+      "targetWord": "购物袋",
+      "completeSentence": "为了少用塑料，我自己带了购物袋。",
+      "grammarFocus": "为了；自己"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：洗发水放在最里面的____上。",
+      "pinyin": "xǐ fà shuǐ fàng zài zuì lǐ miàn de ____ shàng 。",
+      "vietnamese": "Gợi ý: kệ hàng.",
+      "options": {
+        "A": "称重",
+        "B": "保质期",
+        "C": "购物袋",
+        "D": "货架"
+      },
+      "optionPinyin": {
+        "A": "chēng zhòng",
+        "B": "bǎo zhì qī",
+        "C": "gòu wù dài",
+        "D": "huò jià"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“货架”。完整句子：洗发水放在最里面的货架上。\n语法与搭配：在……上",
+      "targetWord": "货架",
+      "completeSentence": "洗发水放在最里面的货架上。",
+      "grammarFocus": "在……上"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这些水果要先____再付款。",
+      "pinyin": "zhè xiē shuǐ guǒ yào xiān ____ zài fù kuǎn 。",
+      "vietnamese": "Gợi ý: cân trọng lượng.",
+      "options": {
+        "A": "货架",
+        "B": "称重",
+        "C": "购物袋",
+        "D": "保质期"
+      },
+      "optionPinyin": {
+        "A": "huò jià",
+        "B": "chēng zhòng",
+        "C": "gòu wù dài",
         "D": "bǎo zhì qī"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“公斤”（ki-lô-gam）。完整表达：麻烦给我称两公斤苹果。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这盒酸奶的____到什么时候。",
-      "pinyin": "qǐng wèn zhè hé suān nǎi de ____ dào shén me shí hòu",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hạn sử dụng.",
-      "options": {
-        "A": "货架",
-        "B": "结账",
-        "C": "保质期",
-        "D": "袋子"
-      },
-      "optionPinyin": {
-        "A": "huò jià",
-        "B": "jié zhàng",
-        "C": "bǎo zhì qī",
-        "D": "dài zi"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“保质期”（hạn sử dụng）。完整表达：请问这盒酸奶的保质期到什么时候。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：不用给我____我自己带了。",
-      "pinyin": "bù yòng gěi wǒ ____ wǒ zì jǐ dài le",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: túi.",
-      "options": {
-        "A": "货架",
-        "B": "保质期",
-        "C": "袋子",
-        "D": "结账"
-      },
-      "optionPinyin": {
-        "A": "huò jià",
-        "B": "bǎo zhì qī",
-        "C": "dài zi",
-        "D": "jié zhàng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“袋子”（túi）。完整表达：不用给我袋子我自己带了。"
+      "explanation": "应填“称重”。完整句子：这些水果要先称重再付款。\n语法与搭配：先……再……",
+      "targetWord": "称重",
+      "completeSentence": "这些水果要先称重再付款。",
+      "grammarFocus": "先……再……"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问我可以在这里____吗。",
-      "pinyin": "qǐng wèn wǒ kě yǐ zài zhè lǐ ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thanh toán.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这款饼干正在____，买二送一。",
+      "pinyin": "zhè kuǎn bǐng gān zhèng zài ____， mǎi èr sòng yī 。",
+      "vietnamese": "Gợi ý: khuyến mãi.",
       "options": {
-        "A": "公斤",
-        "B": "袋子",
-        "C": "结账",
-        "D": "货架"
+        "A": "保质期",
+        "B": "货架",
+        "C": "购物袋",
+        "D": "促销"
       },
       "optionPinyin": {
-        "A": "gōng jīn",
-        "B": "dài zi",
-        "C": "jié zhàng",
-        "D": "huò jià"
+        "A": "bǎo zhì qī",
+        "B": "huò jià",
+        "C": "gòu wù dài",
+        "D": "cù xiāo"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“结账”（thanh toán）。完整表达：请问我可以在这里结账吗。"
+      "explanation": "应填“促销”。完整句子：这款饼干正在促销，买二送一。\n语法与搭配：正在",
+      "targetWord": "促销",
+      "completeSentence": "这款饼干正在促销，买二送一。",
+      "grammarFocus": "正在"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n在哪一排 / 货架上 / 请问 / 牛奶",
-      "pinyin": "zài nǎ yì pái / huò jià shàng / qǐng wèn / niú nǎi",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 放在一起吗 / 和普通酸奶 / 无糖的酸奶",
+      "pinyin": "qǐng wèn / fàng zài yì qǐ ma / hé pǔ tōng suān nǎi / wú táng de suān nǎi",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问牛奶在哪一排货架上。",
-        "请问牛奶在哪一排货架上",
-        "请问牛奶在哪一排货架上.",
-        "请问牛奶在哪一排货架上？",
-        "请问牛奶在哪一排货架上?"
+        "请问无糖的酸奶和普通酸奶放在一起吗？",
+        "请问无糖的酸奶和普通酸奶放在一起吗",
+        "请问无糖的酸奶和普通酸奶放在一起吗?"
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请问牛奶在哪一排货架上。\nqǐng wèn niú nǎi zài nǎ yì pái huò jià shàng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：请问无糖的酸奶和普通酸奶放在一起吗？\nqǐng wèn wú táng de suān nǎi hé pǔ tōng suān nǎi fàng zài yì qǐ ma\n语法与搭配：和；在一起",
+      "grammarFocus": "和；在一起"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n给我 / 苹果 / 麻烦 / 称两公斤",
-      "pinyin": "gěi wǒ / píng guǒ / má fán / chēng liǎng gōng jīn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n找齐了 / 把要买的东西 / 照着购物清单 / 我",
+      "pinyin": "zhǎo qí le / bǎ yào mǎi de dōng xi / zhào zhe gòu wù qīng dān / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦给我称两公斤苹果。",
-        "麻烦给我称两公斤苹果",
-        "麻烦给我称两公斤苹果.",
-        "麻烦给我称两公斤苹果？",
-        "麻烦给我称两公斤苹果?"
+        "我照着购物清单把要买的东西找齐了。",
+        "我照着购物清单把要买的东西找齐了",
+        "我照着购物清单把要买的东西找齐了."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：麻烦给我称两公斤苹果。\nmá fán gěi wǒ chēng liǎng gōng jīn píng guǒ。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：我照着购物清单把要买的东西找齐了。\nwǒ zhào zhe gòu wù qīng dān bǎ yào mǎi de dōng xi zhǎo qí le\n语法与搭配：照着；把；结果补语",
+      "grammarFocus": "照着；把；结果补语"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n这盒酸奶的保质期 / 什么时候 / 到 / 请问",
-      "pinyin": "zhè hé suān nǎi de bǎo zhì qī / shén me shí hòu / dào / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n只买 / 我们 / 新鲜蔬菜 / 这周能吃完的",
+      "pinyin": "zhǐ mǎi / wǒ men / xīn xiān shū cài / zhè zhōu néng chī wán de",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这盒酸奶的保质期到什么时候。",
-        "请问这盒酸奶的保质期到什么时候",
-        "请问这盒酸奶的保质期到什么时候.",
-        "请问这盒酸奶的保质期到什么时候？",
-        "请问这盒酸奶的保质期到什么时候?"
+        "我们只买这周能吃完的新鲜蔬菜。",
+        "我们只买这周能吃完的新鲜蔬菜",
+        "我们只买这周能吃完的新鲜蔬菜."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：请问这盒酸奶的保质期到什么时候。\nqǐng wèn zhè hé suān nǎi de bǎo zhì qī dào shén me shí hòu。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：我们只买这周能吃完的新鲜蔬菜。\nwǒ men zhǐ mǎi zhè zhōu néng chī wán de xīn xiān shū cài\n语法与搭配：只；能……完的",
+      "grammarFocus": "只；能……完的"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 自己带了 / 不用 / 给我袋子",
-      "pinyin": "wǒ / zì jǐ dài le / bù yòng / gěi wǒ dài zi",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n单独装好 / 结账的时候 / 请 / 把鸡蛋",
+      "pinyin": "dān dú zhuāng hǎo / jié zhàng de shí hou / qǐng / bǎ jī dàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "不用给我袋子我自己带了。",
-        "不用给我袋子我自己带了",
-        "不用给我袋子我自己带了.",
-        "不用给我袋子我自己带了？",
-        "不用给我袋子我自己带了?"
+        "结账的时候请把鸡蛋单独装好。",
+        "结账的时候请把鸡蛋单独装好",
+        "结账的时候请把鸡蛋单独装好."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：不用给我袋子我自己带了。\nbù yòng gěi wǒ dài zi wǒ zì jǐ dài le。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：结账的时候请把鸡蛋单独装好。\njié zhàng de shí hou qǐng bǎ jī dàn dān dú zhuāng hǎo\n语法与搭配：……的时候；把",
+      "grammarFocus": "……的时候；把"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 结账吗 / 请问 / 可以在这里",
-      "pinyin": "wǒ / jié zhàng ma / qǐng wèn / kě yǐ zài zhè lǐ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n价格比较低 / 快过期了 / 这盒牛奶 / 所以",
+      "pinyin": "jià gé bǐ jiào dī / kuài guò qī le / zhè hé niú nǎi / suǒ yǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问我可以在这里结账吗。",
-        "请问我可以在这里结账吗",
-        "请问我可以在这里结账吗.",
-        "请问我可以在这里结账吗？",
-        "请问我可以在这里结账吗?"
+        "这盒牛奶快过期了所以价格比较低。",
+        "这盒牛奶快过期了所以价格比较低",
+        "这盒牛奶快过期了所以价格比较低."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请问我可以在这里结账吗。\nqǐng wèn wǒ kě yǐ zài zhè lǐ jié zhàng ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：这盒牛奶快过期了所以价格比较低。\nzhè hé niú nǎi kuài guò qī le suǒ yǐ jià gé bǐ jiào dī\n语法与搭配：快……了；所以",
+      "grammarFocus": "快……了；所以"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

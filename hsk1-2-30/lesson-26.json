@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第26课 我有点儿不舒服",
-  "description": "Tôi hơi khó chịu trong người；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Tôi hơi khó chịu trong người；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,27 +8,28 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“舒服”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sū fu",
-        "B": "shū hu",
-        "C": "shū fu",
-        "D": "shuī fu"
+        "A": "chū fú",
+        "B": "sū fú",
+        "C": "shū fú",
+        "D": "shū hú"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“舒服”的正确读音是 shū fu。"
+      "explanation": "“舒服”读作 shū fú。注意声母、韵母、声调及轻声。",
+      "targetWord": "舒服"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“生病”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "shēng bìng",
         "B": "shēn bìng",
@@ -39,629 +40,688 @@
         "A"
       ],
       "points": 2,
-      "explanation": "“生病”的正确读音是 shēng bìng。"
+      "explanation": "“生病”读作 shēng bìng。注意声母、韵母、声调及轻声。",
+      "targetWord": "生病"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“医院”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yīn yuàn",
-        "B": "yī yuàn",
-        "C": "yī juàn",
-        "D": "yīng yuàn"
+        "A": "yī yuàn",
+        "B": "cī yuàn",
+        "C": "bī yuàn",
+        "D": "dī yuàn"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“医院”的正确读音是 yī yuàn。"
+      "explanation": "“医院”读作 yī yuàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "医院"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“医生”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yī shēn",
-        "B": "yī sēng",
-        "C": "yī shēng",
-        "D": "yīn shēng"
+        "A": "yī sēng",
+        "B": "bī shēng",
+        "C": "yī shēn",
+        "D": "yī shēng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“医生”的正确读音是 yī shēng。"
+      "explanation": "“医生”读作 yī shēng。注意声母、韵母、声调及轻声。",
+      "targetWord": "医生"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“头疼”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tóu téng",
-        "B": "tuó téng",
-        "C": "tóu tóng",
-        "D": "táo téng"
+        "A": "cóu téng",
+        "B": "táo téng",
+        "C": "fóu téng",
+        "D": "tóu téng"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“头疼”的正确读音是 tóu téng。"
+      "explanation": "“头疼”读作 tóu téng。注意声母、韵母、声调及轻声。",
+      "targetWord": "头疼"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“肚子”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dù zi",
-        "B": "dù zhi",
-        "C": "duì zi",
-        "D": "dòu zi"
+        "A": "dǔ zhi",
+        "B": "bǔ zi",
+        "C": "cǔ zi",
+        "D": "dǔ zi"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“肚子”的正确读音是 dù zi。"
+      "explanation": "“肚子”读作 dǔ zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "肚子"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“感冒”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎng mào",
-        "B": "gǎn mòu",
-        "C": "gǎn mào",
-        "D": "gǎi mào"
+        "A": "gǎn mào",
+        "B": "bǎn mào",
+        "C": "gǎn mòu",
+        "D": "gǎng mào"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“感冒”的正确读音是 gǎn mào。"
+      "explanation": "“感冒”读作 gǎn mào。注意声母、韵母、声调及轻声。",
+      "targetWord": "感冒"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“发烧”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fā sāo",
+        "A": "fā shāo",
         "B": "fā shōu",
-        "C": "fā shāo",
-        "D": "hā shāo"
+        "C": "hā shāo",
+        "D": "fā sāo"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“发烧”的正确读音是 fā shāo。"
+      "explanation": "“发烧”读作 fā shāo。注意声母、韵母、声调及轻声。",
+      "targetWord": "发烧"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“休息”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiāo xi",
-        "B": "xiū xi",
-        "C": "xiū xin",
-        "D": "xī xi"
+        "A": "xiū qī",
+        "B": "qiū xī",
+        "C": "diū xī",
+        "D": "xiū xī"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“休息”的正确读音是 xiū xi。"
+      "explanation": "“休息”读作 xiū xī。注意声母、韵母、声调及轻声。",
+      "targetWord": "休息"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“药”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "yào",
         "B": "yòu",
-        "C": "yù",
-        "D": "yè"
+        "C": "cào",
+        "D": "bào"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“药”的正确读音是 yào。"
+      "explanation": "“药”读作 yào。注意声母、韵母、声调及轻声。",
+      "targetWord": "药"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“水”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "suǐ",
-        "B": "shǔ",
-        "C": "shuǐ",
-        "D": "shuǒ"
+        "A": "shuǐ",
+        "B": "suǐ",
+        "C": "chuǐ",
+        "D": "huǐ"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“水”的正确读音是 shuǐ。"
+      "explanation": "“水”读作 shuǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "水"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“眼睛”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǎn jin",
-        "B": "yǎn jing",
-        "C": "yǎng jing",
-        "D": "wǎn jing"
+        "A": "yǎn qīng",
+        "B": "yǎn jīng",
+        "C": "yǎng jīng",
+        "D": "yǎn jīn"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“眼睛”的正确读音是 yǎn jing。"
+      "explanation": "“眼睛”读作 yǎn jīng。注意声母、韵母、声调及轻声。",
+      "targetWord": "眼睛"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“手”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "sǒu",
-        "B": "shǒu",
-        "C": "shuǒ",
-        "D": "shǎo"
+        "B": "shǎo",
+        "C": "shǒu",
+        "D": "chǒu"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“手”的正确读音是 shǒu。"
+      "explanation": "“手”读作 shǒu。注意声母、韵母、声调及轻声。",
+      "targetWord": "手"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“牙”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yó",
-        "B": "yé",
-        "C": "wá",
-        "D": "yá"
+        "A": "fá",
+        "B": "bá",
+        "C": "yá",
+        "D": "dá"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“牙”的正确读音是 yá。"
+      "explanation": "“牙”读作 yá。注意声母、韵母、声调及轻声。",
+      "targetWord": "牙"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“身体”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shēn tǐ",
-        "B": "shēng tǐ",
+        "A": "shēng tǐ",
+        "B": "chēn tǐ",
         "C": "sēn tǐ",
-        "D": "shēn tǐng"
+        "D": "shēn tǐ"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“身体”的正确读音是 shēn tǐ。"
+      "explanation": "“身体”读作 shēn tǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "身体"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：今天我不太____。",
-      "pinyin": "jīn tiān wǒ bú tài ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay tôi không được khỏe lắm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____昨晚开始咳嗽。",
+      "pinyin": "wǒ ____ zuó wǎn kāi shǐ ké sòu 。",
+      "vietnamese": "Gợi ý: từ; chỉ điểm xuất phát.",
       "options": {
-        "A": "肚子",
-        "B": "医院",
-        "C": "牙",
-        "D": "舒服"
+        "A": "从",
+        "B": "的",
+        "C": "给",
+        "D": "比"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“舒服”。完整句子：今天我不太舒服。",
+      "explanation": "应填“从”。完整句子：我从昨晚开始咳嗽。\n语法与搭配：从＋起点",
       "optionPinyin": {
-        "A": "dù zi",
-        "B": "yī yuàn",
-        "C": "yá",
-        "D": "shū fu"
-      }
+        "A": "cóng",
+        "B": "de",
+        "C": "gěi",
+        "D": "bǐ"
+      },
+      "targetWord": "从",
+      "completeSentence": "我从昨晚开始咳嗽。",
+      "grammarFocus": "从＋起点"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他____了。",
-      "pinyin": "tā ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy bị ốm rồi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____一点儿发热。",
+      "pinyin": "wǒ ____ yì diǎn ér fā rè 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
       "options": {
-        "A": "生病",
-        "B": "医生",
-        "C": "手",
-        "D": "休息"
+        "A": "去",
+        "B": "比",
+        "C": "有",
+        "D": "是"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“生病”。完整句子：他生病了。",
+      "explanation": "应填“有”。完整句子：我有一点儿发热。\n语法与搭配：有＋名词：拥有或存在",
       "optionPinyin": {
-        "A": "shēng bìng",
-        "B": "yī shēng",
-        "C": "shǒu",
-        "D": "xiū xi"
-      }
+        "A": "qù",
+        "B": "bǐ",
+        "C": "yǒu",
+        "D": "shì"
+      },
+      "targetWord": "有",
+      "completeSentence": "我有一点儿发热。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我想去____。",
-      "pinyin": "wǒ xiǎng qù ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn đến bệnh viện.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这____我的检查报告。",
+      "pinyin": "zhè ____ wǒ de jiǎn chá bào gào 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "医院",
-        "B": "生病",
-        "C": "感冒",
-        "D": "肚子"
+        "A": "去",
+        "B": "在",
+        "C": "是",
+        "D": "有"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“医院”。完整句子：我想去医院。",
+      "explanation": "应填“是”。完整句子：这是我的检查报告。\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "yī yuàn",
-        "B": "shēng bìng",
-        "C": "gǎn mào",
-        "D": "dù zi"
-      }
+        "A": "qù",
+        "B": "zài",
+        "C": "shì",
+        "D": "yǒu"
+      },
+      "targetWord": "是",
+      "completeSentence": "这是我的检查报告。",
+      "grammarFocus": "是＋名词：判断或说明身份"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：____请帮我看看。",
-      "pinyin": "____ qǐng bāng wǒ kàn kàn 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bác sĩ vui lòng khám giúp tôi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是医生开____检查单。",
+      "pinyin": "zhè shì yī shēng kāi ____ jiǎn chá dān 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "医生",
-        "B": "头疼",
-        "C": "牙",
-        "D": "医院"
+        "A": "的",
+        "B": "得",
+        "C": "地",
+        "D": "吗"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“医生”。完整句子：医生请帮我看看。",
+      "explanation": "应填“的”。完整句子：这是医生开的检查单。\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "yī shēng",
-        "B": "tóu téng",
-        "C": "yá",
-        "D": "yī yuàn"
-      }
+        "A": "de",
+        "B": "dé",
+        "C": "dì",
+        "D": "ma"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是医生开的检查单。",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我今天有点儿____。",
-      "pinyin": "wǒ jīn tiān yǒu diǎn ér ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay tôi hơi đau đầu.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：护士____给我量体温。",
+      "pinyin": "hù shì ____ gěi wǒ liáng tǐ wēn 。",
+      "vietnamese": "Gợi ý: đang; hành động đang diễn ra.",
       "options": {
-        "A": "生病",
-        "B": "感冒",
-        "C": "头疼",
-        "D": "休息"
+        "A": "正在",
+        "B": "比",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“头疼”。完整句子：我今天有点儿头疼。",
+      "explanation": "应填“正在”。完整句子：护士正在给我量体温。\n语法与搭配：正在＋动词",
       "optionPinyin": {
-        "A": "shēng bìng",
-        "B": "gǎn mào",
-        "C": "tóu téng",
-        "D": "xiū xi"
-      }
+        "A": "zhèng zài",
+        "B": "bǐ",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "正在",
+      "completeSentence": "护士正在给我量体温。",
+      "grammarFocus": "正在＋动词"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：弟弟的____不舒服。",
-      "pinyin": "dì di de ____ bù shū fú 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bụng của em trai khó chịu.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____挂好号了。",
+      "pinyin": "wǒ ____ guà hǎo hào le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
       "options": {
-        "A": "水",
-        "B": "休息",
-        "C": "肚子",
-        "D": "手"
+        "A": "从",
+        "B": "的",
+        "C": "把",
+        "D": "已经"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“肚子”。完整句子：弟弟的肚子不舒服。",
+      "explanation": "应填“已经”。完整句子：我已经挂好号了。\n语法与搭配：已经……了",
       "optionPinyin": {
-        "A": "shuǐ",
-        "B": "xiū xi",
-        "C": "dù zi",
-        "D": "shǒu"
-      }
+        "A": "cóng",
+        "B": "de",
+        "C": "bǎ",
+        "D": "yǐ jīng"
+      },
+      "targetWord": "已经",
+      "completeSentence": "我已经挂好号了。",
+      "grammarFocus": "已经……了"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我好像____了。",
-      "pinyin": "wǒ hǎo xiàng ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hình như tôi bị cảm rồi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____能吃花生，会过敏。",
+      "pinyin": "wǒ ____ néng chī huā shēng ， huì guò mǐn 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
       "options": {
-        "A": "感冒",
-        "B": "发烧",
-        "C": "肚子",
-        "D": "牙"
+        "A": "不",
+        "B": "把",
+        "C": "的",
+        "D": "比"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“感冒”。完整句子：我好像感冒了。",
+      "explanation": "应填“不”。完整句子：我不能吃花生，会过敏。\n语法与搭配：不＋动词/形容词",
       "optionPinyin": {
-        "A": "gǎn mào",
-        "B": "fā shāo",
-        "C": "dù zi",
-        "D": "yá"
-      }
+        "A": "bù",
+        "B": "bǎ",
+        "C": "de",
+        "D": "bǐ"
+      },
+      "targetWord": "不",
+      "completeSentence": "我不能吃花生，会过敏。",
+      "grammarFocus": "不＋动词/形容词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：她今天____了。",
-      "pinyin": "tā jīn tiān ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay cô ấy bị sốt.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____陪我去看病吗？",
+      "pinyin": "nǐ ____ péi wǒ qù kàn bìng ma ？",
+      "vietnamese": "Gợi ý: có thể; xin phép hoặc cho phép.",
       "options": {
-        "A": "生病",
-        "B": "发烧",
-        "C": "头疼",
-        "D": "休息"
+        "A": "把",
+        "B": "比",
+        "C": "可以",
+        "D": "的"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“发烧”。完整句子：她今天发烧了。",
+      "explanation": "应填“可以”。完整句子：你可以陪我去看病吗？\n语法与搭配：可以＋动词",
       "optionPinyin": {
-        "A": "shēng bìng",
-        "B": "fā shāo",
-        "C": "tóu téng",
-        "D": "xiū xi"
-      }
+        "A": "bǎ",
+        "B": "bǐ",
+        "C": "kě yǐ",
+        "D": "de"
+      },
+      "targetWord": "可以",
+      "completeSentence": "你可以陪我去看病吗？",
+      "grammarFocus": "可以＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：医生说要多____。",
-      "pinyin": "yī shēng shuō yào duō ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bác sĩ nói cần nghỉ ngơi nhiều.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____先坐一会儿。",
+      "pinyin": "wǒ ____ xiān zuò yí huì r 。",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "感冒",
-        "B": "休息",
-        "C": "水",
-        "D": "生病"
+        "A": "比",
+        "B": "想",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“休息”。完整句子：医生说要多休息。",
+      "explanation": "应填“想”。完整句子：我想先坐一会儿。\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "gǎn mào",
-        "B": "xiū xi",
-        "C": "shuǐ",
-        "D": "shēng bìng"
-      }
+        "A": "bǐ",
+        "B": "xiǎng",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "想",
+      "completeSentence": "我想先坐一会儿。",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我去药店买____。",
-      "pinyin": "wǒ qù yào diàn mǎi ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đến hiệu thuốc mua thuốc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：吃东西____，要洗干净手。",
+      "pinyin": "chī dōng xi ____， yào xǐ gān jìng shǒu 。",
+      "vietnamese": "Gợi ý: trước khi.",
       "options": {
-        "A": "药",
-        "B": "头疼",
-        "C": "医生",
-        "D": "感冒"
+        "A": "以外",
+        "B": "以内",
+        "C": "以前",
+        "D": "之间"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“药”。完整句子：我去药店买药。",
+      "explanation": "应填“以前”。完整句子：吃东西以前，要洗干净手。\n语法与搭配：动作/时间＋以前",
       "optionPinyin": {
-        "A": "yào",
-        "B": "tóu téng",
-        "C": "yī shēng",
-        "D": "gǎn mào"
-      }
+        "A": "yǐ wài",
+        "B": "yǐ nèi",
+        "C": "yǐ qián",
+        "D": "zhī jiān"
+      },
+      "targetWord": "以前",
+      "completeSentence": "吃东西以前，要洗干净手。",
+      "grammarFocus": "动作/时间＋以前"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这几天你要多喝____。",
-      "pinyin": "zhè jǐ tiān nǐ yào duō hē ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mấy ngày này bạn cần uống nhiều nước.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：检查结束____，再问医生。",
+      "pinyin": "jiǎn chá jié shù ____， zài wèn yī shēng 。",
+      "vietnamese": "Gợi ý: sau khi.",
       "options": {
-        "A": "水",
-        "B": "休息",
-        "C": "肚子",
-        "D": "发烧"
+        "A": "以外",
+        "B": "以后",
+        "C": "以内",
+        "D": "之间"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“水”。完整句子：这几天你要多喝水。",
+      "explanation": "应填“以后”。完整句子：检查结束以后，再问医生。\n语法与搭配：动作/时间＋以后",
       "optionPinyin": {
-        "A": "shuǐ",
-        "B": "xiū xi",
-        "C": "dù zi",
-        "D": "fā shāo"
-      }
+        "A": "yǐ wài",
+        "B": "yǐ hòu",
+        "C": "yǐ nèi",
+        "D": "zhī jiān"
+      },
+      "targetWord": "以后",
+      "completeSentence": "检查结束以后，再问医生。",
+      "grammarFocus": "动作/时间＋以后"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的____有点儿不舒服。",
-      "pinyin": "wǒ de ____ yǒu diǎn ér bù shū fú 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mắt của tôi hơi khó chịu.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____以前的检查报告带上。",
+      "pinyin": "qǐng ____ yǐ qián de jiǎn chá bào gào dài shàng 。",
+      "vietnamese": "Gợi ý: đưa tân ngữ lên trước động từ để nói cách xử lý.",
       "options": {
-        "A": "舒服",
-        "B": "药",
-        "C": "牙",
-        "D": "眼睛"
+        "A": "把",
+        "B": "的",
+        "C": "从",
+        "D": "比"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“眼睛”。完整句子：我的眼睛有点儿不舒服。",
+      "explanation": "应填“把”。完整句子：请把以前的检查报告带上。\n语法与搭配：把＋宾语＋动作及结果/位置",
       "optionPinyin": {
-        "A": "shū fu",
-        "B": "yào",
-        "C": "yá",
-        "D": "yǎn jing"
-      }
+        "A": "bǎ",
+        "B": "de",
+        "C": "cóng",
+        "D": "bǐ"
+      },
+      "targetWord": "把",
+      "completeSentence": "请把以前的检查报告带上。",
+      "grammarFocus": "把＋宾语＋动作及结果/位置"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我洗干净了____。",
-      "pinyin": "wǒ xǐ gān jìng le ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đã rửa tay sạch rồi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这几天____早点睡。",
+      "pinyin": "zhè jǐ tiān ____ zǎo diǎn shuì 。",
+      "vietnamese": "Gợi ý: cần/sẽ; chỉ yêu cầu hoặc dự định.",
       "options": {
-        "A": "舒服",
-        "B": "医院",
-        "C": "牙",
-        "D": "手"
+        "A": "的",
+        "B": "比",
+        "C": "要",
+        "D": "把"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“手”。完整句子：我洗干净了手。",
+      "explanation": "应填“要”。完整句子：这几天要早点睡。\n语法与搭配：要＋动词",
       "optionPinyin": {
-        "A": "shū fu",
-        "B": "yī yuàn",
-        "C": "yá",
-        "D": "shǒu"
-      }
+        "A": "de",
+        "B": "bǐ",
+        "C": "yào",
+        "D": "bǎ"
+      },
+      "targetWord": "要",
+      "completeSentence": "这几天要早点睡。",
+      "grammarFocus": "要＋动词"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的____有点儿疼。",
-      "pinyin": "wǒ de ____ yǒu diǎn ér téng 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Răng của tôi hơi đau.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____早上感觉好多了。",
+      "pinyin": "wǒ ____ zǎo shàng gǎn jué hǎo duō le 。",
+      "vietnamese": "Gợi ý: hơn; chỉ đối tượng so sánh.",
       "options": {
-        "A": "感冒",
-        "B": "牙",
-        "C": "生病",
-        "D": "药"
+        "A": "把",
+        "B": "比",
+        "C": "给",
+        "D": "从"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“牙”。完整句子：我的牙有点儿疼。",
+      "explanation": "应填“比”。完整句子：我比早上感觉好多了。\n语法与搭配：甲＋比＋乙＋形容词",
       "optionPinyin": {
-        "A": "gǎn mào",
-        "B": "yá",
-        "C": "shēng bìng",
-        "D": "yào"
-      }
+        "A": "bǎ",
+        "B": "bǐ",
+        "C": "gěi",
+        "D": "cóng"
+      },
+      "targetWord": "比",
+      "completeSentence": "我比早上感觉好多了。",
+      "grammarFocus": "甲＋比＋乙＋形容词"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你要注意____。",
-      "pinyin": "nǐ yào zhù yì ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn cần chú ý sức khỏe.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____我一张纸巾。",
+      "pinyin": "qǐng ____ wǒ yì zhāng zhǐ jīn 。",
+      "vietnamese": "Gợi ý: cho; chỉ người nhận.",
       "options": {
-        "A": "眼睛",
-        "B": "身体",
-        "C": "休息",
-        "D": "头疼"
+        "A": "给",
+        "B": "比",
+        "C": "的",
+        "D": "吗"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“身体”。完整句子：你要注意身体。",
+      "explanation": "应填“给”。完整句子：请给我一张纸巾。\n语法与搭配：给＋人＋物/动词",
       "optionPinyin": {
-        "A": "yǎn jing",
-        "B": "shēn tǐ",
-        "C": "xiū xi",
-        "D": "tóu téng"
-      }
+        "A": "gěi",
+        "B": "bǐ",
+        "C": "de",
+        "D": "ma"
+      },
+      "targetWord": "给",
+      "completeSentence": "请给我一张纸巾。",
+      "grammarFocus": "给＋人＋物/动词"
     },
     {
       "id": 31,
@@ -677,7 +737,8 @@
         "今天我不太舒服."
       ],
       "points": 2,
-      "explanation": "参考句子：今天我不太舒服。"
+      "explanation": "参考句子：今天我不太舒服。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,7 +753,8 @@
         "他生病了."
       ],
       "points": 2,
-      "explanation": "参考句子：他生病了。"
+      "explanation": "参考句子：他生病了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -707,7 +769,8 @@
         "我想去医院."
       ],
       "points": 2,
-      "explanation": "参考句子：我想去医院。"
+      "explanation": "参考句子：我想去医院。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -722,7 +785,8 @@
         "医生请帮我看看."
       ],
       "points": 2,
-      "explanation": "参考句子：医生请帮我看看。"
+      "explanation": "参考句子：医生请帮我看看。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -738,7 +802,8 @@
         "我今天有点儿头疼."
       ],
       "points": 2,
-      "explanation": "参考句子：我今天有点儿头疼。"
+      "explanation": "参考句子：我今天有点儿头疼。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -753,7 +818,8 @@
         "弟弟的肚子不舒服."
       ],
       "points": 2,
-      "explanation": "参考句子：弟弟的肚子不舒服。"
+      "explanation": "参考句子：弟弟的肚子不舒服。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -768,7 +834,8 @@
         "我好像感冒了."
       ],
       "points": 2,
-      "explanation": "参考句子：我好像感冒了。"
+      "explanation": "参考句子：我好像感冒了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -784,7 +851,8 @@
         "她今天发烧了."
       ],
       "points": 2,
-      "explanation": "参考句子：她今天发烧了。"
+      "explanation": "参考句子：她今天发烧了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -799,7 +867,8 @@
         "医生说要多休息."
       ],
       "points": 2,
-      "explanation": "参考句子：医生说要多休息。"
+      "explanation": "参考句子：医生说要多休息。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -814,7 +883,8 @@
         "我去药店买药."
       ],
       "points": 2,
-      "explanation": "参考句子：我去药店买药。"
+      "explanation": "参考句子：我去药店买药。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -829,7 +899,8 @@
         "这几天你要多喝水."
       ],
       "points": 2,
-      "explanation": "参考句子：这几天你要多喝水。"
+      "explanation": "参考句子：这几天你要多喝水。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -844,7 +915,8 @@
         "我的眼睛有点儿不舒服."
       ],
       "points": 2,
-      "explanation": "参考句子：我的眼睛有点儿不舒服。"
+      "explanation": "参考句子：我的眼睛有点儿不舒服。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -859,7 +931,8 @@
         "我洗干净了手."
       ],
       "points": 2,
-      "explanation": "参考句子：我洗干净了手。"
+      "explanation": "参考句子：我洗干净了手。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -874,7 +947,8 @@
         "我的牙有点儿疼."
       ],
       "points": 2,
-      "explanation": "参考句子：我的牙有点儿疼。"
+      "explanation": "参考句子：我的牙有点儿疼。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -889,7 +963,8 @@
         "你要注意身体."
       ],
       "points": 2,
-      "explanation": "参考句子：你要注意身体。"
+      "explanation": "参考句子：你要注意身体。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -904,7 +979,8 @@
         "你哪里不舒服?"
       ],
       "points": 2,
-      "explanation": "参考句子：你哪里不舒服？"
+      "explanation": "参考句子：你哪里不舒服？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -920,7 +996,8 @@
         "我今天想早点睡觉."
       ],
       "points": 2,
-      "explanation": "参考句子：我今天想早点睡觉。"
+      "explanation": "参考句子：我今天想早点睡觉。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -936,7 +1013,8 @@
         "他昨天去看医生了."
       ],
       "points": 2,
-      "explanation": "参考句子：他昨天去看医生了。"
+      "explanation": "参考句子：他昨天去看医生了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -951,7 +1029,8 @@
         "我已经好多了."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经好多了。"
+      "explanation": "参考句子：我已经好多了。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 50,
@@ -967,9 +1046,11 @@
         "明天我不能去上班."
       ],
       "points": 2,
-      "explanation": "参考句子：明天我不能去上班。"
+      "explanation": "参考句子：明天我不能去上班。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "64c24296",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

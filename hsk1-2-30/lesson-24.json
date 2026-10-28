@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第24课 请问，车站在哪儿？",
-  "description": "Xin hỏi, bến xe ở đâu?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Xin hỏi, bến xe ở đâu?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“车站”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cē zhàn",
-        "B": "chē zhàn",
-        "C": "chē zàn",
-        "D": "chē zhàng"
+        "A": "chē zàn",
+        "B": "chā zhàn",
+        "C": "chē zhàng",
+        "D": "chē zhàn"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“车站”的正确读音是 chē zhàn。"
+      "explanation": "“车站”读作 chē zhàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "车站"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“商店”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sāng diàn",
+        "A": "chāng diàn",
         "B": "shān diàn",
         "C": "shāng diàn",
-        "D": "shāng diè"
+        "D": "sāng diàn"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“商店”的正确读音是 shāng diàn。"
+      "explanation": "“商店”读作 shāng diàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "商店"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“左边”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuǒ biān",
-        "B": "zǒu biān",
-        "C": "zuǒ biān",
-        "D": "zuǒ biāng"
+        "A": "cuǒ biān",
+        "B": "zuǒ biān",
+        "C": "guǒ biān",
+        "D": "duǒ biān"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“左边”的正确读音是 zuǒ biān。"
+      "explanation": "“左边”读作 zuǒ biān。注意声母、韵母、声调及轻声。",
+      "targetWord": "左边"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“右边”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yào biān",
-        "B": "yòu biān",
-        "C": "yòu biāng",
-        "D": "yù biān"
+        "A": "yòu biān",
+        "B": "còu biān",
+        "C": "yào biān",
+        "D": "dòu biān"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“右边”的正确读音是 yòu biān。"
+      "explanation": "“右边”读作 yòu biān。注意声母、韵母、声调及轻声。",
+      "targetWord": "右边"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“前”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "qiáng",
-        "B": "qián",
-        "C": "qié",
-        "D": "xián"
+        "B": "xián",
+        "C": "dián",
+        "D": "qián"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“前”的正确读音是 qián。"
+      "explanation": "“前”读作 qián。注意声母、韵母、声调及轻声。",
+      "targetWord": "前"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“后面”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hòu miàn",
-        "B": "huò miàn",
-        "C": "hào miàn",
-        "D": "fòu miàn"
+        "A": "còu miàn",
+        "B": "hòu miàn",
+        "C": "chòu miàn",
+        "D": "hào miàn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“后面”的正确读音是 hòu miàn。"
+      "explanation": "“后面”读作 hòu miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "后面"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“远”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "juǎn",
-        "B": "quǎn",
-        "C": "yuǎn",
-        "D": "xuǎn"
+        "A": "guǎn",
+        "B": "duǎn",
+        "C": "huǎn",
+        "D": "yuǎn"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“远”的正确读音是 yuǎn。"
+      "explanation": "“远”读作 yuǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "远"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“近”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jìng",
-        "B": "jìn",
-        "C": "jì",
-        "D": "qìn"
+        "A": "jìn",
+        "B": "jìng",
+        "C": "qìn",
+        "D": "bìn"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“近”的正确读音是 jìn。"
+      "explanation": "“近”读作 jìn。注意声母、韵母、声调及轻声。",
+      "targetWord": "近"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“走”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zǒu",
-        "B": "zhǒu",
-        "C": "zuǒ",
-        "D": "zǎo"
+        "B": "cǒu",
+        "C": "zǎo",
+        "D": "zhǒu"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“走”的正确读音是 zǒu。"
+      "explanation": "“走”读作 zǒu。注意声母、韵母、声调及轻声。",
+      "targetWord": "走"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“路口”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "lù kǒu",
-        "B": "lǜ kǒu",
-        "C": "lù kuǒ",
-        "D": "lù kǎo"
+        "B": "lù kǎo",
+        "C": "bù kǒu",
+        "D": "nù kǒu"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“路口”的正确读音是 lù kǒu。"
+      "explanation": "“路口”读作 lù kǒu。注意声母、韵母、声调及轻声。",
+      "targetWord": "路口"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“对面”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dù miàn",
+        "A": "duò miàn",
         "B": "duì miàn",
-        "C": "duì miè",
-        "D": "duò miàn"
+        "C": "dài miàn",
+        "D": "cuì miàn"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“对面”的正确读音是 duì miàn。"
+      "explanation": "“对面”读作 duì miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "对面"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“银行”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yíng háng",
-        "B": "yín háng",
-        "C": "yín hán",
-        "D": "yín fáng"
+        "A": "yín háng",
+        "B": "yíng háng",
+        "C": "yín fáng",
+        "D": "yín hán"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“银行”的正确读音是 yín háng。"
+      "explanation": "“银行”读作 yín háng。注意声母、韵母、声调及轻声。",
+      "targetWord": "银行"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“医院”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yīn yuàn",
-        "B": "yī juàn",
-        "C": "yīng yuàn",
-        "D": "yī yuàn"
+        "A": "yī yuàn",
+        "B": "dī yuàn",
+        "C": "cī yuàn",
+        "D": "bī yuàn"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“医院”的正确读音是 yī yuàn。"
+      "explanation": "“医院”读作 yī yuàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "医院"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“分钟”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fēn zhōng",
-        "B": "fēng zhōng",
-        "C": "fēn zōng",
-        "D": "fēn zhēng"
+        "A": "fēng zhōng",
+        "B": "fēn zōng",
+        "C": "fēn zhōng",
+        "D": "hēn zhōng"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“分钟”的正确读音是 fēn zhōng。"
+      "explanation": "“分钟”读作 fēn zhōng。注意声母、韵母、声调及轻声。",
+      "targetWord": "分钟"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“请问”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qǐn wèn",
-        "B": "qǐng wèn",
-        "C": "qǐng wèng",
-        "D": "qiǒng wèn"
+        "A": "xǐng wèn",
+        "B": "qǐng wèng",
+        "C": "jǐng wèn",
+        "D": "qǐng wèn"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“请问”的正确读音是 qǐng wèn。"
+      "explanation": "“请问”读作 qǐng wèn。注意声母、韵母、声调及轻声。",
+      "targetWord": "请问"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请问____在哪儿？",
-      "pinyin": "qǐng wèn ____ zài nǎ ér ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin hỏi, bến xe ở đâu?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：邮局____学校旁边。",
+      "pinyin": "yóu jú ____ xué xiào páng biān 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
       "options": {
-        "A": "银行",
-        "B": "左边",
-        "C": "走",
-        "D": "车站"
+        "A": "给",
+        "B": "比",
+        "C": "在",
+        "D": "从"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“车站”。完整句子：请问车站在哪儿？",
+      "explanation": "应填“在”。完整句子：邮局在学校旁边。\n语法与搭配：在＋地点＋动词/名词",
       "optionPinyin": {
-        "A": "yín háng",
-        "B": "zuǒ biān",
-        "C": "zǒu",
-        "D": "chē zhàn"
-      }
+        "A": "gěi",
+        "B": "bǐ",
+        "C": "zài",
+        "D": "cóng"
+      },
+      "targetWord": "在",
+      "completeSentence": "邮局在学校旁边。",
+      "grammarFocus": "在＋地点＋动词/名词"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：前面有一家____。",
-      "pinyin": "qián miàn yǒu yī jiā ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Phía trước có một cửa hàng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这____去市中心的路吗？",
+      "pinyin": "zhè ____ qù shì zhōng xīn de lù ma ？",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "银行",
-        "B": "商店",
-        "C": "后面",
-        "D": "走"
+        "A": "去",
+        "B": "是",
+        "C": "在",
+        "D": "有"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“商店”。完整句子：前面有一家商店。",
+      "explanation": "应填“是”。完整句子：这是去市中心的路吗？\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "yín háng",
-        "B": "shāng diàn",
-        "C": "hòu miàn",
-        "D": "zǒu"
-      }
+        "A": "qù",
+        "B": "shì",
+        "C": "zài",
+        "D": "yǒu"
+      },
+      "targetWord": "是",
+      "completeSentence": "这是去市中心的路吗？",
+      "grammarFocus": "是＋名词：判断或说明身份"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：学校的____是医院。",
-      "pinyin": "xué xiào de ____ shì yī yuàn 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bên trái trường học là bệnh viện.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这里____去火车站的公交车。",
+      "pinyin": "zhè lǐ ____ qù huǒ chē zhàn de gōng jiāo chē 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
       "options": {
-        "A": "右边",
-        "B": "走",
-        "C": "商店",
-        "D": "左边"
+        "A": "比",
+        "B": "去",
+        "C": "是",
+        "D": "有"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "应填“左边”。完整句子：学校的左边是医院。",
+      "explanation": "应填“有”。完整句子：这里有去火车站的公交车。\n语法与搭配：有＋名词：拥有或存在",
       "optionPinyin": {
-        "A": "yòu biān",
-        "B": "zǒu",
-        "C": "shāng diàn",
-        "D": "zuǒ biān"
-      }
+        "A": "bǐ",
+        "B": "qù",
+        "C": "shì",
+        "D": "yǒu"
+      },
+      "targetWord": "有",
+      "completeSentence": "这里有去火车站的公交车。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：饭店在学校____。",
-      "pinyin": "fàn diàn zài xué xiào ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà hàng ở bên phải trường.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____去最近的地铁站。",
+      "pinyin": "wǒ ____ qù zuì jìn de dì tiě zhàn 。",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "右边",
-        "B": "分钟",
-        "C": "车站",
-        "D": "请问"
+        "A": "把",
+        "B": "的",
+        "C": "比",
+        "D": "想"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“右边”。完整句子：饭店在学校右边。",
+      "explanation": "应填“想”。完整句子：我想去最近的地铁站。\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "yòu biān",
-        "B": "fēn zhōng",
-        "C": "chē zhàn",
-        "D": "qǐng wèn"
-      }
+        "A": "bǎ",
+        "B": "de",
+        "C": "bǐ",
+        "D": "xiǎng"
+      },
+      "targetWord": "想",
+      "completeSentence": "我想去最近的地铁站。",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请往____走。",
-      "pinyin": "qǐng wǎng ____ zǒu 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy đi về phía trước.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____我指一下方向。",
+      "pinyin": "qǐng ____ wǒ zhǐ yí xià fāng xiàng 。",
+      "vietnamese": "Gợi ý: cho; chỉ người nhận.",
       "options": {
-        "A": "车站",
-        "B": "前",
-        "C": "医院",
-        "D": "左边"
+        "A": "给",
+        "B": "比",
+        "C": "吗",
+        "D": "的"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“前”。完整句子：请往前走。",
+      "explanation": "应填“给”。完整句子：请给我指一下方向。\n语法与搭配：给＋人＋物/动词",
       "optionPinyin": {
-        "A": "chē zhàn",
-        "B": "qián",
-        "C": "yī yuàn",
-        "D": "zuǒ biān"
-      }
+        "A": "gěi",
+        "B": "bǐ",
+        "C": "ma",
+        "D": "de"
+      },
+      "targetWord": "给",
+      "completeSentence": "请给我指一下方向。",
+      "grammarFocus": "给＋人＋物/动词"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：超市在____。",
-      "pinyin": "chāo shì zài ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Siêu thị ở phía sau.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：地图上____红点是我们现在的位置。",
+      "pinyin": "dì tú shàng ____ hóng diǎn shì wǒ men xiàn zài de wèi zhì 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "商店",
-        "B": "右边",
-        "C": "车站",
-        "D": "后面"
+        "A": "的",
+        "B": "吗",
+        "C": "得",
+        "D": "地"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“后面”。完整句子：超市在后面。",
+      "explanation": "应填“的”。完整句子：地图上的红点是我们现在的位置。\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "shāng diàn",
-        "B": "yòu biān",
-        "C": "chē zhàn",
-        "D": "hòu miàn"
-      }
+        "A": "de",
+        "B": "ma",
+        "C": "dé",
+        "D": "dì"
+      },
+      "targetWord": "的",
+      "completeSentence": "地图上的红点是我们现在的位置。",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：医院离这里很____。",
-      "pinyin": "yī yuàn lí zhè lǐ hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bệnh viện rất xa đây.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____知道该在哪儿转弯。",
+      "pinyin": "wǒ ____ zhī dào gāi zài nǎ ér zhuǎn wān 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
       "options": {
-        "A": "右边",
-        "B": "前",
-        "C": "远",
-        "D": "左边"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“远”。完整句子：医院离这里很远。",
-      "optionPinyin": {
-        "A": "yòu biān",
-        "B": "qián",
-        "C": "yuǎn",
-        "D": "zuǒ biān"
-      }
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我家离车站很____。",
-      "pinyin": "wǒ jiā lí chē zhàn hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà tôi rất gần bến xe.",
-      "options": {
-        "A": "请问",
-        "B": "近",
-        "C": "商店",
-        "D": "前"
+        "A": "比",
+        "B": "不",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“近”。完整句子：我家离车站很近。",
+      "explanation": "应填“不”。完整句子：我不知道该在哪儿转弯。\n语法与搭配：不＋动词/形容词",
       "optionPinyin": {
-        "A": "qǐng wèn",
-        "B": "jìn",
-        "C": "shāng diàn",
-        "D": "qián"
-      }
+        "A": "bǐ",
+        "B": "bù",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "不",
+      "completeSentence": "我不知道该在哪儿转弯。",
+      "grammarFocus": "不＋动词/形容词"
     },
     {
-      "id": 24,
+      "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请一直____。",
-      "pinyin": "qǐng yì zhí ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy đi thẳng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____带我走一段吗？",
+      "pinyin": "nǐ ____ dài wǒ zǒu yī duàn ma ？",
+      "vietnamese": "Gợi ý: có thể; xin phép hoặc cho phép.",
       "options": {
-        "A": "商店",
-        "B": "前",
-        "C": "车站",
-        "D": "走"
+        "A": "比",
+        "B": "的",
+        "C": "把",
+        "D": "可以"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "应填“走”。完整句子：请一直走。",
+      "explanation": "应填“可以”。完整句子：你可以带我走一段吗？\n语法与搭配：可以＋动词",
       "optionPinyin": {
-        "A": "shāng diàn",
-        "B": "qián",
-        "C": "chē zhàn",
-        "D": "zǒu"
-      }
+        "A": "bǐ",
+        "B": "de",
+        "C": "bǎ",
+        "D": "kě yǐ"
+      },
+      "targetWord": "可以",
+      "completeSentence": "你可以带我走一段吗？",
+      "grammarFocus": "可以＋动词"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____看到站牌了。",
+      "pinyin": "wǒ ____ kàn dào zhàn pái le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
+      "options": {
+        "A": "把",
+        "B": "的",
+        "C": "从",
+        "D": "已经"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“已经”。完整句子：我已经看到站牌了。\n语法与搭配：已经……了",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "de",
+        "C": "cóng",
+        "D": "yǐ jīng"
+      },
+      "targetWord": "已经",
+      "completeSentence": "我已经看到站牌了。",
+      "grammarFocus": "已经……了"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我们在____见。",
-      "pinyin": "wǒ men zài ____ jiàn 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng ta gặp nhau ở ngã đường.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：过桥____，就能看见学校。",
+      "pinyin": "guò qiáo ____， jiù néng kàn jiàn xué xiào 。",
+      "vietnamese": "Gợi ý: sau khi.",
       "options": {
-        "A": "路口",
-        "B": "车站",
-        "C": "请问",
-        "D": "右边"
+        "A": "以后",
+        "B": "之间",
+        "C": "以内",
+        "D": "以外"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“路口”。完整句子：我们在路口见。",
+      "explanation": "应填“以后”。完整句子：过桥以后，就能看见学校。\n语法与搭配：动作/时间＋以后",
       "optionPinyin": {
-        "A": "lù kǒu",
-        "B": "chē zhàn",
-        "C": "qǐng wèn",
-        "D": "yòu biān"
-      }
+        "A": "yǐ hòu",
+        "B": "zhī jiān",
+        "C": "yǐ nèi",
+        "D": "yǐ wài"
+      },
+      "targetWord": "以后",
+      "completeSentence": "过桥以后，就能看见学校。",
+      "grammarFocus": "动作/时间＋以后"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：商店在学校的____。",
-      "pinyin": "shāng diàn zài xué xiào de ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cửa hàng ở đối diện trường.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：坐车____，请先确认方向。",
+      "pinyin": "zuò chē ____， qǐng xiān què rèn fāng xiàng 。",
+      "vietnamese": "Gợi ý: trước khi.",
       "options": {
-        "A": "商店",
-        "B": "走",
-        "C": "对面",
-        "D": "后面"
+        "A": "之间",
+        "B": "以外",
+        "C": "以内",
+        "D": "以前"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“对面”。完整句子：商店在学校的对面。",
+      "explanation": "应填“以前”。完整句子：坐车以前，请先确认方向。\n语法与搭配：动作/时间＋以前",
       "optionPinyin": {
-        "A": "shāng diàn",
-        "B": "zǒu",
-        "C": "duì miàn",
-        "D": "hòu miàn"
-      }
+        "A": "zhī jiān",
+        "B": "yǐ wài",
+        "C": "yǐ nèi",
+        "D": "yǐ qián"
+      },
+      "targetWord": "以前",
+      "completeSentence": "坐车以前，请先确认方向。",
+      "grammarFocus": "动作/时间＋以前"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你怎么去____？",
-      "pinyin": "nǐ zěn me qù ____？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn đến ngân hàng bằng cách nào?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____朋友在地铁口见面。",
+      "pinyin": "wǒ ____ péng you zài dì tiě kǒu jiàn miàn 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
       "options": {
-        "A": "走",
-        "B": "远",
-        "C": "银行",
-        "D": "商店"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“银行”。完整句子：你怎么去银行？",
-      "optionPinyin": {
-        "A": "zǒu",
-        "B": "yuǎn",
-        "C": "yín háng",
-        "D": "shāng diàn"
-      }
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我要去____。",
-      "pinyin": "wǒ yào qù ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn đến bệnh viện.",
-      "options": {
-        "A": "走",
-        "B": "分钟",
-        "C": "医院",
-        "D": "近"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“医院”。完整句子：我要去医院。",
-      "optionPinyin": {
-        "A": "zǒu",
-        "B": "fēn zhōng",
-        "C": "yī yuàn",
-        "D": "jìn"
-      }
-    },
-    {
-      "id": 29,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：从这里到学校要五____。",
-      "pinyin": "cóng zhè lǐ dào xué xiào yào wǔ ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Từ đây đến trường mất năm phút.",
-      "options": {
-        "A": "分钟",
-        "B": "请问",
-        "C": "商店",
-        "D": "前"
+        "A": "和",
+        "B": "吗",
+        "C": "把",
+        "D": "很"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“分钟”。完整句子：从这里到学校要五分钟。",
+      "explanation": "应填“和”。完整句子：我和朋友在地铁口见面。\n语法与搭配：名词/代词＋和＋名词/代词",
       "optionPinyin": {
-        "A": "fēn zhōng",
-        "B": "qǐng wèn",
-        "C": "shāng diàn",
-        "D": "qián"
-      }
+        "A": "hé",
+        "B": "ma",
+        "C": "bǎ",
+        "D": "hěn"
+      },
+      "targetWord": "和",
+      "completeSentence": "我和朋友在地铁口见面。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：地铁站____这里只有两百米。",
+      "pinyin": "dì tiě zhàn ____ zhè lǐ zhǐ yǒu liǎng bǎi mǐ 。",
+      "vietnamese": "Gợi ý: cách; chỉ khoảng cách.",
+      "options": {
+        "A": "给",
+        "B": "离",
+        "C": "把",
+        "D": "的"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“离”。完整句子：地铁站离这里只有两百米。\n语法与搭配：甲＋离＋乙＋远/近/距离",
+      "optionPinyin": {
+        "A": "gěi",
+        "B": "lí",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "离",
+      "completeSentence": "地铁站离这里只有两百米。",
+      "grammarFocus": "甲＋离＋乙＋远/近/距离"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____这个门出去。",
+      "pinyin": "qǐng ____ zhè ge mén chū qù 。",
+      "vietnamese": "Gợi ý: từ; chỉ điểm xuất phát.",
+      "options": {
+        "A": "的",
+        "B": "从",
+        "C": "给",
+        "D": "比"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“从”。完整句子：请从这个门出去。\n语法与搭配：从＋起点",
+      "optionPinyin": {
+        "A": "de",
+        "B": "cóng",
+        "C": "gěi",
+        "D": "bǐ"
+      },
+      "targetWord": "从",
+      "completeSentence": "请从这个门出去。",
+      "grammarFocus": "从＋起点"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：____洗手间在哪里？",
-      "pinyin": "____ xǐ shǒu jiān zài nǎ lǐ ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Xin hỏi, nhà vệ sinh ở đâu?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：沿着这条路____走就到了。",
+      "pinyin": "yán zhe zhè tiáo lù ____ zǒu jiù dào le 。",
+      "vietnamese": "Gợi ý: cứ, liên tục.",
       "options": {
-        "A": "医院",
-        "B": "右边",
-        "C": "请问",
-        "D": "远"
+        "A": "一件",
+        "B": "一直",
+        "C": "一张",
+        "D": "一本"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“请问”。完整句子：请问洗手间在哪里？",
+      "explanation": "应填“一直”。完整句子：沿着这条路一直走就到了。\n语法与搭配：一直＋动词",
       "optionPinyin": {
-        "A": "yī yuàn",
-        "B": "yòu biān",
-        "C": "qǐng wèn",
-        "D": "yuǎn"
-      }
+        "A": "yī jiàn",
+        "B": "yì zhí",
+        "C": "yì zhāng",
+        "D": "yī běn"
+      },
+      "targetWord": "一直",
+      "completeSentence": "沿着这条路一直走就到了。",
+      "grammarFocus": "一直＋动词"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "请问车站在哪儿?"
       ],
       "points": 2,
-      "explanation": "参考句子：请问车站在哪儿？"
+      "explanation": "参考句子：请问车站在哪儿？\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "前面有一家商店."
       ],
       "points": 2,
-      "explanation": "参考句子：前面有一家商店。"
+      "explanation": "参考句子：前面有一家商店。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "学校的左边是医院."
       ],
       "points": 2,
-      "explanation": "参考句子：学校的左边是医院。"
+      "explanation": "参考句子：学校的左边是医院。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -721,7 +784,8 @@
         "饭店在学校右边."
       ],
       "points": 2,
-      "explanation": "参考句子：饭店在学校右边。"
+      "explanation": "参考句子：饭店在学校右边。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 35,
@@ -736,7 +800,8 @@
         "请往前走."
       ],
       "points": 2,
-      "explanation": "参考句子：请往前走。"
+      "explanation": "参考句子：请往前走。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -751,7 +816,8 @@
         "超市在后面."
       ],
       "points": 2,
-      "explanation": "参考句子：超市在后面。"
+      "explanation": "参考句子：超市在后面。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 37,
@@ -766,7 +832,8 @@
         "医院离这里很远."
       ],
       "points": 2,
-      "explanation": "参考句子：医院离这里很远。"
+      "explanation": "参考句子：医院离这里很远。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -781,7 +848,8 @@
         "我家离车站很近."
       ],
       "points": 2,
-      "explanation": "参考句子：我家离车站很近。"
+      "explanation": "参考句子：我家离车站很近。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -796,7 +864,8 @@
         "请一直走."
       ],
       "points": 2,
-      "explanation": "参考句子：请一直走。"
+      "explanation": "参考句子：请一直走。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -811,7 +880,8 @@
         "我们在路口见."
       ],
       "points": 2,
-      "explanation": "参考句子：我们在路口见。"
+      "explanation": "参考句子：我们在路口见。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 41,
@@ -826,7 +896,8 @@
         "商店在学校的对面."
       ],
       "points": 2,
-      "explanation": "参考句子：商店在学校的对面。"
+      "explanation": "参考句子：商店在学校的对面。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 42,
@@ -841,7 +912,8 @@
         "你怎么去银行?"
       ],
       "points": 2,
-      "explanation": "参考句子：你怎么去银行？"
+      "explanation": "参考句子：你怎么去银行？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -856,7 +928,8 @@
         "我要去医院."
       ],
       "points": 2,
-      "explanation": "参考句子：我要去医院。"
+      "explanation": "参考句子：我要去医院。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -871,7 +944,8 @@
         "从这里到学校要五分钟."
       ],
       "points": 2,
-      "explanation": "参考句子：从这里到学校要五分钟。"
+      "explanation": "参考句子：从这里到学校要五分钟。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -886,7 +960,8 @@
         "请问洗手间在哪里?"
       ],
       "points": 2,
-      "explanation": "参考句子：请问洗手间在哪里？"
+      "explanation": "参考句子：请问洗手间在哪里？\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 46,
@@ -901,7 +976,8 @@
         "你知道去车站的路吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：你知道去车站的路吗？"
+      "explanation": "参考句子：你知道去车站的路吗？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -916,7 +992,8 @@
         "到前面的路口向左走."
       ],
       "points": 2,
-      "explanation": "参考句子：到前面的路口向左走。"
+      "explanation": "参考句子：到前面的路口向左走。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -931,7 +1008,8 @@
         "学校就在那家商店旁边."
       ],
       "points": 2,
-      "explanation": "参考句子：学校就在那家商店旁边。"
+      "explanation": "参考句子：学校就在那家商店旁边。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 49,
@@ -946,7 +1024,8 @@
         "我们走路去公园吧."
       ],
       "points": 2,
-      "explanation": "参考句子：我们走路去公园吧。"
+      "explanation": "参考句子：我们走路去公园吧。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -961,9 +1040,11 @@
         "谢谢你告诉我怎么走."
       ],
       "points": 2,
-      "explanation": "参考句子：谢谢你告诉我怎么走。"
+      "explanation": "参考句子：谢谢你告诉我怎么走。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "fead90bb",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

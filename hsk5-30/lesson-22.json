@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第22课 节日传统与文化传承",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“传统”的正确读音。",
+      "text": "【拼音选择】请选择“习俗”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chuán tǒng",
-        "B": "chuái tǒng",
-        "C": "chuáng tǒng",
-        "D": "cuán tǒng"
+        "A": "xí sú",
+        "B": "bí sú",
+        "C": "xí shú",
+        "D": "qí sú"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“传统”读作 chuán tǒng，意思是 truyền thống。"
+      "explanation": "“习俗”读作 xí sú。注意声母、韵母、声调及轻声。",
+      "targetWord": "习俗"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“象征”的正确读音。",
+      "text": "【拼音选择】请选择“仪式”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiàn zhēng",
-        "B": "xiàng zēng",
-        "C": "qiàng zhēng",
-        "D": "xiàng zhēng"
+        "A": "cí shì",
+        "B": "yí sì",
+        "C": "yí shì",
+        "D": "bí shì"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“象征”读作 xiàng zhēng，意思是 tượng trưng。"
+      "explanation": "“仪式”读作 yí shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "仪式"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“保留”的正确读音。",
+      "text": "【拼音选择】请选择“节庆”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǎ liú",
-        "B": "bǎo niú",
-        "C": "biǎo liú",
-        "D": "bǎo liú"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "“保留”读作 bǎo liú，意思是 giữ lại。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“传承”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "chuáng chéng",
-        "B": "chuán céng",
-        "C": "chuán chéng",
-        "D": "cuán chéng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“传承”读作 chuán chéng，意思是 kế thừa。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“纪念”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "jì niàn",
-        "B": "jì liàn",
-        "C": "qì niàn",
-        "D": "jì niàng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“纪念”读作 jì niàn，意思是 kỷ niệm。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：年轻人通过参加节日活动加深了对____文化的了解。",
-      "pinyin": "nián qīng rén tōng guò cān jiā jié rì huó dòng jiā shēn le duì ____ wén huà de liǎo jiě",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: truyền thống.",
-      "options": {
-        "A": "传承",
-        "B": "传统",
-        "C": "保留",
-        "D": "纪念"
-      },
-      "optionPinyin": {
-        "A": "chuán chéng",
-        "B": "chuán tǒng",
-        "C": "bǎo liú",
-        "D": "jì niàn"
+        "A": "jié xìng",
+        "B": "jié qìng",
+        "C": "qié qìng",
+        "D": "jié jìng"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“传统”（truyền thống）。完整句子：年轻人通过参加节日活动加深了对传统文化的了解。"
+      "explanation": "“节庆”读作 jié qìng。注意声母、韵母、声调及轻声。",
+      "targetWord": "节庆"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“祖辈”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "zǔ bài",
+        "B": "zǔ bèi",
+        "C": "bǔ bèi",
+        "D": "zhǔ bèi"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "“祖辈”读作 zǔ bèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "祖辈"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“民俗”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "lín sú",
+        "B": "míng sú",
+        "C": "mín sú",
+        "D": "mín shú"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "“民俗”读作 mín sú。注意声母、韵母、声调及轻声。",
+      "targetWord": "民俗"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：年轻人可以用新的方式____传统文化。",
+      "pinyin": "nián qīng rén kě yǐ yòng xīn de fāng shì ____ chuán tǒng wén huà 。",
+      "vietnamese": "Gợi ý: kế thừa.",
+      "options": {
+        "A": "延续",
+        "B": "团聚",
+        "C": "传承",
+        "D": "特色"
+      },
+      "optionPinyin": {
+        "A": "yán xù",
+        "B": "tuán jù",
+        "C": "chuán chéng",
+        "D": "tè sè"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“传承”。完整句子：年轻人可以用新的方式传承传统文化。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "传承",
+      "completeSentence": "年轻人可以用新的方式传承传统文化。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：在这种节日习俗中红色通常____喜庆与祝福。",
-      "pinyin": "zài zhè zhǒng jié rì xí sú zhōng hóng sè tōng cháng ____ xǐ qìng yǔ zhù fú",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tượng trưng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：每逢春节，全家人都会尽量回家____。",
+      "pinyin": "měi féng chūn jié ， quán jiā rén dū huì jǐn liàng huí jiā ____。",
+      "vietnamese": "Gợi ý: đoàn tụ.",
       "options": {
-        "A": "传承",
-        "B": "传统",
-        "C": "象征",
-        "D": "保留"
+        "A": "团聚",
+        "B": "特色",
+        "C": "延续",
+        "D": "传承"
       },
       "optionPinyin": {
-        "A": "chuán chéng",
-        "B": "chuán tǒng",
-        "C": "xiàng zhēng",
-        "D": "bǎo liú"
+        "A": "tuán jù",
+        "B": "tè sè",
+        "C": "yán xù",
+        "D": "chuán chéng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“象征”（tượng trưng）。完整句子：在这种节日习俗中红色通常象征喜庆与祝福。"
+      "explanation": "应填“团聚”。完整句子：每逢春节，全家人都会尽量回家团聚。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "团聚",
+      "completeSentence": "每逢春节，全家人都会尽量回家团聚。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：随着生活方式的变化有些家庭仍然____着传统习惯。",
-      "pinyin": "suí zhe shēng huó fāng shì de biàn huà yǒu xiē jiā tíng réng rán ____ zhe chuán tǒng xí guàn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: giữ lại.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这项节日活动已经在当地____了几百年。",
+      "pinyin": "zhè xiàng jié rì huó dòng yǐ jīng zài dāng dì ____ le jǐ bǎi nián 。",
+      "vietnamese": "Gợi ý: tiếp nối.",
       "options": {
-        "A": "纪念",
-        "B": "传统",
-        "C": "传承",
-        "D": "保留"
+        "A": "团聚",
+        "B": "延续",
+        "C": "特色",
+        "D": "传承"
       },
       "optionPinyin": {
-        "A": "jì niàn",
-        "B": "chuán tǒng",
-        "C": "chuán chéng",
-        "D": "bǎo liú"
+        "A": "tuán jù",
+        "B": "yán xù",
+        "C": "tè sè",
+        "D": "chuán chéng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“保留”（giữ lại）。完整句子：随着生活方式的变化有些家庭仍然保留着传统习惯。"
+      "explanation": "应填“延续”。完整句子：这项节日活动已经在当地延续了几百年。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "targetWord": "延续",
+      "completeSentence": "这项节日活动已经在当地延续了几百年。",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：文化的____不仅需要记录更需要人们积极参与。",
-      "pinyin": "wén huà de ____ bù jǐn xū yào jì lù gèng xū yào rén men jī jí cān yù",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kế thừa.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：不同地区的庆祝方式各有____。",
+      "pinyin": "bù tóng dì qū de qìng zhù fāng shì gè yǒu ____。",
+      "vietnamese": "Gợi ý: đặc sắc.",
       "options": {
-        "A": "传统",
-        "B": "保留",
-        "C": "传承",
-        "D": "纪念"
+        "A": "团聚",
+        "B": "特色",
+        "C": "延续",
+        "D": "传承"
       },
       "optionPinyin": {
-        "A": "chuán tǒng",
-        "B": "bǎo liú",
-        "C": "chuán chéng",
-        "D": "jì niàn"
+        "A": "tuán jù",
+        "B": "tè sè",
+        "C": "yán xù",
+        "D": "chuán chéng"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“传承”（kế thừa）。完整句子：文化的传承不仅需要记录更需要人们积极参与。"
+      "explanation": "应填“特色”。完整句子：不同地区的庆祝方式各有特色。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "特色",
+      "completeSentence": "不同地区的庆祝方式各有特色。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：人们通过举办各种活动____这位作出贡献的诗人。",
-      "pinyin": "rén men tōng guò jǔ bàn gè zhǒng huó dòng ____ zhè wèi zuò chū gòng xiàn de shī rén",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kỷ niệm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：了解习俗的由来，才能理解它对当地人的____。",
+      "pinyin": "liǎo jiě xí sú de yóu lái ， cái néng lǐ jiě tā duì dāng dì rén de ____。",
+      "vietnamese": "Gợi ý: ý nghĩa.",
       "options": {
-        "A": "保留",
-        "B": "象征",
-        "C": "纪念",
+        "A": "延续",
+        "B": "团聚",
+        "C": "意义",
         "D": "传承"
       },
       "optionPinyin": {
-        "A": "bǎo liú",
-        "B": "xiàng zhēng",
-        "C": "jì niàn",
+        "A": "yán xù",
+        "B": "tuán jù",
+        "C": "yì yì",
         "D": "chuán chéng"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“纪念”（kỷ niệm）。完整句子：人们通过举办各种活动纪念这位作出贡献的诗人。"
+      "explanation": "应填“意义”。完整句子：了解习俗的由来，才能理解它对当地人的意义。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "意义",
+      "completeSentence": "了解习俗的由来，才能理解它对当地人的意义。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：年轻人通过参加节日活动加深了对传统文化的了解。\nnián qīng rén tōng guò cān jiā jié rì huó dòng jiā shēn le duì chuán tǒng wén huà de liǎo jiě。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：年轻人通过参加节日活动加深了对传统文化的了解。\nnián qīng rén tōng guò cān jiā jié rì huó dòng jiā shēn le duì chuán tǒng wén huà de liǎo jiě。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋过：经历表达",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：在这种节日习俗中红色通常象征喜庆与祝福。\nzài zhè zhǒng jié rì xí sú zhōng hóng sè tōng cháng xiàng zhēng xǐ qìng yǔ zhù fú。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：在这种节日习俗中红色通常象征喜庆与祝福。\nzài zhè zhǒng jié rì xí sú zhōng hóng sè tōng cháng xiàng zhēng xǐ qìng yǔ zhù fú。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：随着生活方式的变化有些家庭仍然保留着传统习惯。\nsuí zhe shēng huó fāng shì de biàn huà yǒu xiē jiā tíng réng rán bǎo liú zhe chuán tǒng xí guàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：随着生活方式的变化有些家庭仍然保留着传统习惯。\nsuí zhe shēng huó fāng shì de biàn huà yǒu xiē jiā tíng réng rán bǎo liú zhe chuán tǒng xí guàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：文化的传承不仅需要记录更需要人们积极参与。\nwén huà de chuán chéng bù jǐn xū yào jì lù gèng xū yào rén men jī jí cān yù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：文化的传承不仅需要记录更需要人们积极参与。\nwén huà de chuán chéng bù jǐn xū yào jì lù gèng xū yào rén men jī jí cān yù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：人们通过举办各种活动纪念这位作出贡献的诗人。\nrén men tōng guò jǔ bàn gè zhǒng huó dòng jì niàn zhè wèi zuò chū gòng xiàn de shī rén。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：人们通过举办各种活动纪念这位作出贡献的诗人。\nrén men tōng guò jǔ bàn gè zhǒng huó dòng jì niàn zhè wèi zuò chū gòng xiàn de shī rén。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋过：经历表达",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解节日习俗的演变还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě jié rì xí sú de yǎn biàn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解节日习俗的演变还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě jié rì xí sú de yǎn biàn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化文化传承的方式都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà wén huà chuán chéng de fāng shì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化文化传承的方式都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà wén huà chuán chéng de fāng shì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解传统活动的意义才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě chuán tǒng huó dòng de yì yì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解传统活动的意义才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě chuán tǒng huó dòng de yì yì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析中越节日的比较。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī zhōng yuè jié rì de bǐ jiào。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析中越节日的比较。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī zhōng yuè jié rì de bǐ jiào。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明年轻人的文化认同。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng nián qīng rén de wén huà rèn tóng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明年轻人的文化认同。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng nián qīng rén de wén huà rèn tóng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

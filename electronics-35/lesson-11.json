@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第11课 数字、单位与规格",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“数量”的正确读音。",
+      "text": "【拼音选择】请选择“微米”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sù liàng",
-        "B": "shù liàng",
-        "C": "shù liàn",
-        "D": "shù niàng"
+        "A": "wāi mǐ",
+        "B": "bēi mǐ",
+        "C": "dēi mǐ",
+        "D": "wēi mǐ"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“数量”读作 shù liàng，本课词义：số lượng。"
+      "explanation": "“微米”读作 wēi mǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "微米"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“毫米”的正确读音。",
+      "text": "【拼音选择】请选择“伏特”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cháo mǐ",
-        "B": "háo mǐ",
-        "C": "báo mǐ",
-        "D": "hóu mǐ"
+        "A": "cú tè",
+        "B": "hú tè",
+        "C": "bú tè",
+        "D": "fú tè"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“毫米”读作 háo mǐ，本课词义：mi-li-mét。"
+      "explanation": "“伏特”读作 fú tè。注意声母、韵母、声调及轻声。",
+      "targetWord": "伏特"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“厘米”的正确读音。",
+      "text": "【拼音选择】请选择“毫升”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bí mǐ",
-        "B": "cí mǐ",
-        "C": "lí mǐ",
-        "D": "ní mǐ"
+        "A": "háo sēng",
+        "B": "háo shēng",
+        "C": "háo shēn",
+        "D": "hóu shēng"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“厘米”读作 lí mǐ，本课词义：xăng-ti-mét。"
+      "explanation": "“毫升”读作 háo shēng。注意声母、韵母、声调及轻声。",
+      "targetWord": "毫升"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“公斤”的正确读音。",
+      "text": "【拼音选择】请选择“千克”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gōng jīng",
-        "B": "cōng jīn",
-        "C": "gōng jīn",
-        "D": "gōng qīn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“公斤”读作 gōng jīn，本课词义：ki-lô-gam。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“小数”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "xiǎo sù",
-        "B": "biǎo shù",
-        "C": "qiǎo shù",
-        "D": "xiǎo shù"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "“小数”读作 xiǎo shù，本课词义：số thập phân。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“规格”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "guī gé",
-        "B": "duī gé",
-        "C": "guā gé",
-        "D": "cuī gé"
+        "A": "qiān kè",
+        "B": "jiān kè",
+        "C": "qiāng kè",
+        "D": "xiān kè"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“规格”读作 guī gé，本课词义：quy cách。"
+      "explanation": "“千克”读作 qiān kè。注意声母、韵母、声调及轻声。",
+      "targetWord": "千克"
     },
     {
-      "id": 7,
+      "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“单位”的正确读音。",
+      "text": "【拼音选择】请选择“电压”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bān wèi",
-        "B": "dān wài",
-        "C": "dāng wèi",
-        "D": "dān wèi"
+        "A": "biàn yā",
+        "B": "diào yā",
+        "C": "duàn yā",
+        "D": "diàn yā"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“单位”读作 dān wèi，本课词义：đơn vị。"
+      "explanation": "“电压”读作 diàn yā。注意声母、韵母、声调及轻声。",
+      "targetWord": "电压"
     },
     {
-      "id": 8,
+      "id": 6,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“尺寸”的正确读音。",
+      "text": "【拼音选择】请选择“电流”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chuǐ cùn",
-        "B": "chǐ cùn",
-        "C": "cǐ cùn",
-        "D": "chě cùn"
+        "A": "diàn liú",
+        "B": "diàn niú",
+        "C": "diào liú",
+        "D": "biàn liú"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“尺寸”读作 chǐ cùn，本课词义：kích thước。"
+      "explanation": "“电流”读作 diàn liú。注意声母、韵母、声调及轻声。",
+      "targetWord": "电流"
     },
     {
-      "id": 9,
+      "id": 7,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“误差”的正确读音。",
+      "text": "【拼音选择】请选择“公差”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wù cā",
-        "B": "wù chā",
-        "C": "cù chā",
-        "D": "bù chā"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“误差”读作 wù chā，本课词义：sai số。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“核实”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "hé sí",
-        "B": "ché shí",
-        "C": "hé shí",
-        "D": "dé shí"
+        "A": "cōng chāi",
+        "B": "dōng chāi",
+        "C": "gōng chāi",
+        "D": "gōng cāi"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“核实”读作 hé shí，本课词义：xác minh。"
+      "explanation": "“公差”读作 gōng chāi。注意声母、韵母、声调及轻声。",
+      "targetWord": "公差"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“范围”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "fàn wéi",
+        "B": "bàn wéi",
+        "C": "hàn wéi",
+        "D": "fàng wéi"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“范围”读作 fàn wéi。注意声母、韵母、声调及轻声。",
+      "targetWord": "范围"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“上限”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "sàng xiàn",
+        "B": "shàn xiàn",
+        "C": "shàng qiàn",
+        "D": "shàng xiàn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“上限”读作 shàng xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "上限"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“下限”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "xià qiàn",
+        "B": "xià xiàn",
+        "C": "qià xiàn",
+        "D": "xià xiàng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“下限”读作 xià xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "下限"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“数量”（số lượng）。完整表达：请问这张工单要求的数量是多少。"
+      "explanation": "应填“数量”（số lượng）。完整表达：请问这张工单要求的数量是多少。",
+      "targetWord": "数量",
+      "completeSentence": "请问这张工单要求的数量是多少。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“毫米”（mi-li-mét）。完整表达：请问图纸上的尺寸是用毫米表示的吗。"
+      "explanation": "应填“毫米”（mi-li-mét）。完整表达：请问图纸上的尺寸是用毫米表示的吗。",
+      "targetWord": "毫米",
+      "completeSentence": "请问图纸上的尺寸是用毫米表示的吗。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“厘米”（xăng-ti-mét）。完整表达：这个包装盒长度标注的单位是厘米。"
+      "explanation": "应填“厘米”（xăng-ti-mét）。完整表达：这个包装盒长度标注的单位是厘米。",
+      "targetWord": "厘米",
+      "completeSentence": "这个包装盒长度标注的单位是厘米。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“公斤”（ki-lô-gam）。完整表达：这箱货物的重量需要用公斤记录。"
+      "explanation": "应填“公斤”（ki-lô-gam）。完整表达：这箱货物的重量需要用公斤记录。",
+      "targetWord": "公斤",
+      "completeSentence": "这箱货物的重量需要用公斤记录。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“小数”（số thập phân）。完整表达：这个小数我没有听清请再读一遍。"
+      "explanation": "应填“小数”（số thập phân）。完整表达：这个小数我没有听清请再读一遍。",
+      "targetWord": "小数",
+      "completeSentence": "这个小数我没有听清请再读一遍。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“规格”（quy cách）。完整表达：请帮我确认这批材料的规格。"
+      "explanation": "应填“规格”（quy cách）。完整表达：请帮我确认这批材料的规格。",
+      "targetWord": "规格",
+      "completeSentence": "请帮我确认这批材料的规格。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“单位”（đơn vị）。完整表达：记录数值时请同时写明单位。"
+      "explanation": "应填“单位”（đơn vị）。完整表达：记录数值时请同时写明单位。",
+      "targetWord": "单位",
+      "completeSentence": "记录数值时请同时写明单位。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“尺寸”（kích thước）。完整表达：这个尺寸是否合格需要按照图纸判断。"
+      "explanation": "应填“尺寸”（kích thước）。完整表达：这个尺寸是否合格需要按照图纸判断。",
+      "targetWord": "尺寸",
+      "completeSentence": "这个尺寸是否合格需要按照图纸判断。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“误差”（sai số）。完整表达：测量误差的允许范围请向负责人员确认。"
+      "explanation": "应填“误差”（sai số）。完整表达：测量误差的允许范围请向负责人员确认。",
+      "targetWord": "误差",
+      "completeSentence": "测量误差的允许范围请向负责人员确认。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“核实”（xác minh）。完整表达：这个数值我还需要重新核实。"
+      "explanation": "应填“核实”（xác minh）。完整表达：这个数值我还需要重新核实。",
+      "targetWord": "核实",
+      "completeSentence": "这个数值我还需要重新核实。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想确认工单要求生产多少件，应该怎么问？",
-      "pinyin": "nǐ xiǎng què rèn gōng dān yāo qiú shēng chǎn duō shǎo jiàn ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“数字读写要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ shù zì dú xiě yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请问这张工单要求的数量是多少",
-        "B": "这个包装盒长度标注的单位是厘米",
-        "C": "请告诉我谁负责数值信息确认",
-        "D": "记录数值时请同时写明单位"
+        "A": "我还没有收到关于数字读写要求的资料",
+        "B": "我还需要进一步了解数字读写要求",
+        "C": "我这次只想核实数字读写要求",
+        "D": "我还没有收到关于计量单位的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "qǐng wèn zhè zhāng gōng dān yāo qiú de shù liàng shì duō shǎo",
-        "B": "zhè ge bāo zhuāng hé cháng dù biāo zhù de dān wèi shì lí mǐ",
-        "C": "qǐng gào sù wǒ shuí fù zé shù zhí xìn xī què rèn",
-        "D": "jì lù shù zhí shí qǐng tóng shí xiě míng dān wèi"
+        "A": "wǒ hái méi yǒu shōu dào guān yú shù zì dú xiě yāo qiú de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě shù zì dú xiě yāo qiú",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí shù zì dú xiě yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú jì liàng dān wèi de hé shí jié guǒ de zī liào"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想确认工单要求生产多少件，应该怎么问？\n符合此任务的表达：请问这张工单要求的数量是多少。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“数字读写要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于数字读写要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于数字读写要求的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想核实图纸尺寸单位是否为毫米，应该怎么问？",
-      "pinyin": "nǐ xiǎng hé shí tú zhǐ chǐ cùn dān wèi shì fǒu wèi háo mǐ ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“计量单位的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ jì liàng dān wèi de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "测量误差的允许范围请向负责人员确认",
-        "B": "请问图纸上的尺寸是用毫米表示的吗",
-        "C": "这箱货物的重量需要用公斤记录",
-        "D": "如果尺寸复核安排有变化请及时通知我"
+        "A": "我还没有收到关于计量单位的核实结果的资料",
+        "B": "我还没有收到关于尺寸复核安排的资料",
+        "C": "我这次只想核实计量单位的核实结果",
+        "D": "我还需要进一步了解计量单位的核实结果"
       },
       "optionPinyin": {
-        "A": "cè liáng wù chā de yǔn xǔ fàn wéi qǐng xiàng fù zé rén yuán què rèn",
-        "B": "qǐng wèn tú zhǐ shàng de chǐ cùn shì yòng háo mǐ biǎo shì de ma",
-        "C": "zhè xiāng huò wù de zhòng liàng xū yào yòng gōng jīn jì lù",
-        "D": "rú guǒ chǐ cùn fù hé ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ hái méi yǒu shōu dào guān yú jì liàng dān wèi de hé shí jié guǒ de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú chǐ cùn fù hé ān pái de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jì liàng dān wèi de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jì liàng dān wèi de hé shí jié guǒ"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想核实图纸尺寸单位是否为毫米，应该怎么问？\n符合此任务的表达：请问图纸上的尺寸是用毫米表示的吗。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“计量单位的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于计量单位的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于计量单位的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】同事问包装盒长度用什么单位表示，你想说明是厘米，应该怎么说？",
-      "pinyin": "tóng shì wèn bāo zhuāng hé cháng dù yòng shén me dān wèi biǎo shì ， nǐ xiǎng shuō míng shì lí mǐ ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“尺寸复核安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ chǐ cùn fù hé ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这个包装盒长度标注的单位是厘米",
-        "B": "这箱货物的重量需要用公斤记录",
-        "C": "这个数值我还需要重新核实",
-        "D": "请帮我确认一下数字读写要求的具体要求"
+        "A": "我这次只想核实尺寸复核安排",
+        "B": "我还没有收到关于尺寸复核安排的资料",
+        "C": "我还需要进一步了解尺寸复核安排",
+        "D": "我还没有收到关于数值信息确认的资料"
       },
       "optionPinyin": {
-        "A": "zhè ge bāo zhuāng hé cháng dù biāo zhù de dān wèi shì lí mǐ",
-        "B": "zhè xiāng huò wù de zhòng liàng xū yào yòng gōng jīn jì lù",
-        "C": "zhè ge shù zhí wǒ hái xū yào chóng xīn hé shí",
-        "D": "qǐng bāng wǒ què rèn yí xià shù zì dú xiě yāo qiú de jù tǐ yāo qiú"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí chǐ cùn fù hé ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú chǐ cùn fù hé ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě chǐ cùn fù hé ān pái",
+        "D": "wǒ hái méi yǒu shōu dào guān yú shù zhí xìn xī què rèn de zī liào"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：同事问包装盒长度用什么单位表示，你想说明是厘米，应该怎么说？\n符合此任务的表达：这个包装盒长度标注的单位是厘米。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“尺寸复核安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于尺寸复核安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于尺寸复核安排的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒记录货物重量所用的单位，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng jì lù huò wù zhòng liàng suǒ yòng de dān wèi ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“数值信息确认”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ shù zhí xìn xī què rèn ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果尺寸复核安排有变化请及时通知我",
-        "B": "这个包装盒长度标注的单位是厘米",
-        "C": "测量误差的允许范围请向负责人员确认",
-        "D": "这箱货物的重量需要用公斤记录"
+        "A": "我还没有收到关于数值信息确认的资料",
+        "B": "我还没有收到关于规格标注方式的资料",
+        "C": "我这次只想核实数值信息确认",
+        "D": "我还需要进一步了解数值信息确认"
       },
       "optionPinyin": {
-        "A": "rú guǒ chǐ cùn fù hé ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "zhè ge bāo zhuāng hé cháng dù biāo zhù de dān wèi shì lí mǐ",
-        "C": "cè liáng wù chā de yǔn xǔ fàn wéi qǐng xiàng fù zé rén yuán què rèn",
-        "D": "zhè xiāng huò wù de zhòng liàng xū yào yòng gōng jīn jì lù"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要提醒记录货物重量所用的单位，应该怎么说？\n符合此任务的表达：这箱货物的重量需要用公斤记录。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】对方报了带小数的数值，你没听清，应该怎么请求？",
-      "pinyin": "duì fāng bào le dài xiǎo shù de shù zhí ， nǐ méi tīng qīng ， yīng gāi zěn me qǐng qiú ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这箱货物的重量需要用公斤记录",
-        "B": "请问图纸上的尺寸是用毫米表示的吗",
-        "C": "请告诉我谁负责数值信息确认",
-        "D": "这个小数我没有听清请再读一遍"
-      },
-      "optionPinyin": {
-        "A": "zhè xiāng huò wù de zhòng liàng xū yào yòng gōng jīn jì lù",
-        "B": "qǐng wèn tú zhǐ shàng de chǐ cùn shì yòng háo mǐ biǎo shì de ma",
-        "C": "qǐng gào sù wǒ shuí fù zé shù zhí xìn xī què rèn",
-        "D": "zhè ge xiǎo shù wǒ méi yǒu tīng qīng qǐng zài dú yí biàn"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：对方报了带小数的数值，你没听清，应该怎么请求？\n符合此任务的表达：这个小数我没有听清请再读一遍。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你需要核实这批材料的规格信息，应该怎么说？",
-      "pinyin": "nǐ xū yào hé shí zhè pī cái liào de guī gé xìn xī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "记录数值时请同时写明单位",
-        "B": "请帮我确认这批材料的规格",
-        "C": "这个数值我还需要重新核实",
-        "D": "我们先确认规格标注方式再继续沟通"
-      },
-      "optionPinyin": {
-        "A": "jì lù shù zhí shí qǐng tóng shí xiě míng dān wèi",
-        "B": "qǐng bāng wǒ què rèn zhè pī cái liào de guī gé",
-        "C": "zhè ge shù zhí wǒ hái xū yào chóng xīn hé shí",
-        "D": "wǒ men xiān què rèn guī gé biāo zhù fāng shì zài jì xù gōu tōng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你需要核实这批材料的规格信息，应该怎么说？\n符合此任务的表达：请帮我确认这批材料的规格。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想提醒同事填写数字时注明计量单位，应该怎么说？",
-      "pinyin": "nǐ xiǎng tí xǐng tóng shì tián xiě shù zì shí zhù míng jì liàng dān wèi ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "关于计量单位的核实结果我还需要再核实一下",
-        "B": "请告诉我谁负责数值信息确认",
-        "C": "这个包装盒长度标注的单位是厘米",
-        "D": "记录数值时请同时写明单位"
-      },
-      "optionPinyin": {
-        "A": "guān yú jì liàng dān wèi de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "qǐng gào sù wǒ shuí fù zé shù zhí xìn xī què rèn",
-        "C": "zhè ge bāo zhuāng hé cháng dù biāo zhù de dān wèi shì lí mǐ",
-        "D": "jì lù shù zhí shí qǐng tóng shí xiě míng dān wèi"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想提醒同事填写数字时注明计量单位，应该怎么说？\n符合此任务的表达：记录数值时请同时写明单位。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】同事问尺寸是否符合要求，你想说明应依据图纸判断，应该怎么说？",
-      "pinyin": "tóng shì wèn chǐ cùn shì fǒu fú hé yāo qiú ， nǐ xiǎng shuō míng yīng yī jù tú zhǐ pàn duàn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请帮我确认这批材料的规格",
-        "B": "这个尺寸是否合格需要按照图纸判断",
-        "C": "请告诉我谁负责数值信息确认",
-        "D": "测量误差的允许范围请向负责人员确认"
-      },
-      "optionPinyin": {
-        "A": "qǐng bāng wǒ què rèn zhè pī cái liào de guī gé",
-        "B": "zhè ge chǐ cùn shì fǒu hé gé xū yào àn zhào tú zhǐ pàn duàn",
-        "C": "qǐng gào sù wǒ shuí fù zé shù zhí xìn xī què rèn",
-        "D": "cè liáng wù chā de yǔn xǔ fàn wéi qǐng xiàng fù zé rén yuán què rèn"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：同事问尺寸是否符合要求，你想说明应依据图纸判断，应该怎么说？\n符合此任务的表达：这个尺寸是否合格需要按照图纸判断。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 29,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你不知道测量允许误差，想让同事咨询负责人，应该怎么说？",
-      "pinyin": "nǐ bù zhī dào cè liáng yǔn xǔ wù chā ， xiǎng ràng tóng shì zī xún fù zé rén ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请问这张工单要求的数量是多少",
-        "B": "这箱货物的重量需要用公斤记录",
-        "C": "记录数值时请同时写明单位",
-        "D": "测量误差的允许范围请向负责人员确认"
-      },
-      "optionPinyin": {
-        "A": "qǐng wèn zhè zhāng gōng dān yāo qiú de shù liàng shì duō shǎo",
-        "B": "zhè xiāng huò wù de zhòng liàng xū yào yòng gōng jīn jì lù",
-        "C": "jì lù shù zhí shí qǐng tóng shí xiě míng dān wèi",
-        "D": "cè liáng wù chā de yǔn xǔ fàn wéi qǐng xiàng fù zé rén yuán què rèn"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你不知道测量允许误差，想让同事咨询负责人，应该怎么说？\n符合此任务的表达：测量误差的允许范围请向负责人员确认。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 30,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你对一个数据不确定，想说明需要再查，应该怎么说？",
-      "pinyin": "nǐ duì yí gè shù jù bù què dìng ， xiǎng shuō míng xū yào zài chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "记录数值时请同时写明单位",
-        "B": "请问图纸上的尺寸是用毫米表示的吗",
-        "C": "这个数值我还需要重新核实",
-        "D": "我们先确认规格标注方式再继续沟通"
-      },
-      "optionPinyin": {
-        "A": "jì lù shù zhí shí qǐng tóng shí xiě míng dān wèi",
-        "B": "qǐng wèn tú zhǐ shàng de chǐ cùn shì yòng háo mǐ biǎo shì de ma",
-        "C": "zhè ge shù zhí wǒ hái xū yào chóng xīn hé shí",
-        "D": "wǒ men xiān què rèn guī gé biāo zhù fāng shì zài jì xù gōu tōng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你对一个数据不确定，想说明需要再查，应该怎么说？\n符合此任务的表达：这个数值我还需要重新核实。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 31,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“数字读写要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ shù zì dú xiě yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这箱货物的重量需要用公斤记录",
-        "B": "请问这张工单要求的数量是多少",
-        "C": "请帮我确认一下数字读写要求的具体要求",
-        "D": "这个小数我没有听清请再读一遍"
-      },
-      "optionPinyin": {
-        "A": "zhè xiāng huò wù de zhòng liàng xū yào yòng gōng jīn jì lù",
-        "B": "qǐng wèn zhè zhāng gōng dān yāo qiú de shù liàng shì duō shǎo",
-        "C": "qǐng bāng wǒ què rèn yí xià shù zì dú xiě yāo qiú de jù tǐ yāo qiú",
-        "D": "zhè ge xiǎo shù wǒ méi yǒu tīng qīng qǐng zài dú yí biàn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想请同事核实“数字读写要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下数字读写要求的具体要求。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 32,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你尚未核实“计量单位的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ jì liàng dān wèi de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "关于计量单位的核实结果我还需要再核实一下",
-        "B": "这个小数我没有听清请再读一遍",
-        "C": "请问图纸上的尺寸是用毫米表示的吗",
-        "D": "这个包装盒长度标注的单位是厘米"
-      },
-      "optionPinyin": {
-        "A": "guān yú jì liàng dān wèi de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "zhè ge xiǎo shù wǒ méi yǒu tīng qīng qǐng zài dú yí biàn",
-        "C": "qǐng wèn tú zhǐ shàng de chǐ cùn shì yòng háo mǐ biǎo shì de ma",
-        "D": "zhè ge bāo zhuāng hé cháng dù biāo zhù de dān wèi shì lí mǐ"
+        "A": "wǒ hái méi yǒu shōu dào guān yú shù zhí xìn xī què rèn de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú guī gé biāo zhù fāng shì de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí shù zhí xìn xī què rèn",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě shù zhí xìn xī què rèn"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你尚未核实“计量单位的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于计量单位的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“数值信息确认”的资料，怎样说明情况？\n合适的表达：我还没有收到关于数值信息确认的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于数值信息确认的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
-      "id": 33,
+      "id": 25,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望“尺寸复核安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ chǐ cùn fù hé ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“规格标注方式”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ guī gé biāo zhù fāng shì ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这个尺寸是否合格需要按照图纸判断",
-        "B": "我们先确认规格标注方式再继续沟通",
-        "C": "这个数值我还需要重新核实",
-        "D": "如果尺寸复核安排有变化请及时通知我"
+        "A": "我还没有收到关于数字读写要求的资料",
+        "B": "我还没有收到关于规格标注方式的资料",
+        "C": "我还需要进一步了解规格标注方式",
+        "D": "我这次只想核实规格标注方式"
       },
       "optionPinyin": {
-        "A": "zhè ge chǐ cùn shì fǒu hé gé xū yào àn zhào tú zhǐ pàn duàn",
-        "B": "wǒ men xiān què rèn guī gé biāo zhù fāng shì zài jì xù gōu tōng",
-        "C": "zhè ge shù zhí wǒ hái xū yào chóng xīn hé shí",
-        "D": "rú guǒ chǐ cùn fù hé ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你希望“尺寸复核安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果尺寸复核安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 34,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“数值信息确认”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ shù zhí xìn xī què rèn ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "记录数值时请同时写明单位",
-        "B": "请告诉我谁负责数值信息确认",
-        "C": "这个包装盒长度标注的单位是厘米",
-        "D": "这个尺寸是否合格需要按照图纸判断"
-      },
-      "optionPinyin": {
-        "A": "jì lù shù zhí shí qǐng tóng shí xiě míng dān wèi",
-        "B": "qǐng gào sù wǒ shuí fù zé shù zhí xìn xī què rèn",
-        "C": "zhè ge bāo zhuāng hé cháng dù biāo zhù de dān wèi shì lí mǐ",
-        "D": "zhè ge chǐ cùn shì fǒu hé gé xū yào àn zhào tú zhǐ pàn duàn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú shù zì dú xiě yāo qiú de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú guī gé biāo zhù fāng shì de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě guī gé biāo zhù fāng shì",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí guī gé biāo zhù fāng shì"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“数值信息确认”，应该怎么说？\n符合此任务的表达：请告诉我谁负责数值信息确认。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“规格标注方式”的资料，怎样说明情况？\n合适的表达：我还没有收到关于规格标注方式的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于规格标注方式的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
-      "id": 35,
+      "id": 26,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望先确认“规格标注方式”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ guī gé biāo zhù fāng shì ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“数字读写要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ shù zì dú xiě yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这个尺寸是否合格需要按照图纸判断",
-        "B": "请问图纸上的尺寸是用毫米表示的吗",
-        "C": "如果尺寸复核安排有变化请及时通知我",
-        "D": "我们先确认规格标注方式再继续沟通"
+        "A": "我这次只想核实计量单位的核实结果",
+        "B": "我还需要进一步了解数字读写要求",
+        "C": "我还没有收到关于数字读写要求的资料",
+        "D": "我这次只想核实数字读写要求"
       },
       "optionPinyin": {
-        "A": "zhè ge chǐ cùn shì fǒu hé gé xū yào àn zhào tú zhǐ pàn duàn",
-        "B": "qǐng wèn tú zhǐ shàng de chǐ cùn shì yòng háo mǐ biǎo shì de ma",
-        "C": "rú guǒ chǐ cùn fù hé ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "D": "wǒ men xiān què rèn guī gé biāo zhù fāng shì zài jì xù gōu tōng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jì liàng dān wèi de hé shí jié guǒ",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě shù zì dú xiě yāo qiú",
+        "C": "wǒ hái méi yǒu shōu dào guān yú shù zì dú xiě yāo qiú de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí shù zì dú xiě yāo qiú"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“规格标注方式”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认规格标注方式再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“数字读写要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实数字读写要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实数字读写要求",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“计量单位的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ jì liàng dān wèi de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于计量单位的核实结果的资料",
+        "B": "我还需要进一步了解计量单位的核实结果",
+        "C": "我这次只想核实计量单位的核实结果",
+        "D": "我这次只想核实尺寸复核安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú jì liàng dān wèi de hé shí jié guǒ de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě jì liàng dān wèi de hé shí jié guǒ",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jì liàng dān wèi de hé shí jié guǒ",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí chǐ cùn fù hé ān pái"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“计量单位的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实计量单位的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实计量单位的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“尺寸复核安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ chǐ cùn fù hé ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实尺寸复核安排",
+        "B": "我还没有收到关于尺寸复核安排的资料",
+        "C": "我这次只想核实数值信息确认",
+        "D": "我还需要进一步了解尺寸复核安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí chǐ cùn fù hé ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú chǐ cùn fù hé ān pái de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí shù zhí xìn xī què rèn",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě chǐ cùn fù hé ān pái"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“尺寸复核安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实尺寸复核安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实尺寸复核安排",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“数值信息确认”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ shù zhí xìn xī què rèn ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实数值信息确认",
+        "B": "我还需要进一步了解数值信息确认",
+        "C": "我还没有收到关于数值信息确认的资料",
+        "D": "我这次只想核实规格标注方式"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí shù zhí xìn xī què rèn",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě shù zhí xìn xī què rèn",
+        "C": "wǒ hái méi yǒu shōu dào guān yú shù zhí xìn xī què rèn de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí guī gé biāo zhù fāng shì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“数值信息确认”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实数值信息确认。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实数值信息确认",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“规格标注方式”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ guī gé biāo zhù fāng shì ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实规格标注方式",
+        "B": "我还没有收到关于规格标注方式的资料",
+        "C": "我这次只想核实数字读写要求",
+        "D": "我还需要进一步了解规格标注方式"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí guī gé biāo zhù fāng shì",
+        "B": "wǒ hái méi yǒu shōu dào guān yú guī gé biāo zhù fāng shì de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí shù zì dú xiě yāo qiú",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě guī gé biāo zhù fāng shì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“规格标注方式”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实规格标注方式。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实规格标注方式",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 31,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“数字读写要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ shù zì dú xiě yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解数字读写要求",
+        "B": "我还没有收到关于数字读写要求的资料",
+        "C": "我还需要进一步了解计量单位的核实结果",
+        "D": "我这次只想核实数字读写要求"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě shù zì dú xiě yāo qiú",
+        "B": "wǒ hái méi yǒu shōu dào guān yú shù zì dú xiě yāo qiú de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jì liàng dān wèi de hé shí jié guǒ",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí shù zì dú xiě yāo qiú"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“数字读写要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解数字读写要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解数字读写要求",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 32,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“计量单位的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ jì liàng dān wèi de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实计量单位的核实结果",
+        "B": "我还没有收到关于计量单位的核实结果的资料",
+        "C": "我还需要进一步了解计量单位的核实结果",
+        "D": "我还需要进一步了解尺寸复核安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí jì liàng dān wèi de hé shí jié guǒ",
+        "B": "wǒ hái méi yǒu shōu dào guān yú jì liàng dān wèi de hé shí jié guǒ de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě jì liàng dān wèi de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě chǐ cùn fù hé ān pái"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“计量单位的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解计量单位的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解计量单位的核实结果",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 33,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“尺寸复核安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ chǐ cùn fù hé ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于尺寸复核安排的资料",
+        "B": "我还需要进一步了解数值信息确认",
+        "C": "我还需要进一步了解尺寸复核安排",
+        "D": "我这次只想核实尺寸复核安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú chǐ cùn fù hé ān pái de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě shù zhí xìn xī què rèn",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě chǐ cùn fù hé ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí chǐ cùn fù hé ān pái"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“尺寸复核安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解尺寸复核安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解尺寸复核安排",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 34,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“数值信息确认”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ shù zhí xìn xī què rèn ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解数值信息确认",
+        "B": "我还没有收到关于数值信息确认的资料",
+        "C": "我这次只想核实数值信息确认",
+        "D": "我还需要进一步了解规格标注方式"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě shù zhí xìn xī què rèn",
+        "B": "wǒ hái méi yǒu shōu dào guān yú shù zhí xìn xī què rèn de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí shù zhí xìn xī què rèn",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě guī gé biāo zhù fāng shì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“数值信息确认”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解数值信息确认。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解数值信息确认",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 35,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“规格标注方式”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ guī gé biāo zhù fāng shì ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实规格标注方式",
+        "B": "我还需要进一步了解规格标注方式",
+        "C": "我还没有收到关于规格标注方式的资料",
+        "D": "我还需要进一步了解数字读写要求"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí guī gé biāo zhù fāng shì",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě guī gé biāo zhù fāng shì",
+        "C": "wǒ hái méi yǒu shōu dào guān yú guī gé biāo zhù fāng shì de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě shù zì dú xiě yāo qiú"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“规格标注方式”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解规格标注方式。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解规格标注方式",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n要求的数量 / 这张工单 / 是多少 / 请问",
-      "pinyin": "yāo qiú de shù liàng / zhè zhāng gōng dān / shì duō shǎo / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n把 / 关于数字读写要求的说明 / 请 / 发给我",
+      "pinyin": "bǎ / guān yú shù zì dú xiě yāo qiú de shuō míng / qǐng / fā gěi wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这张工单要求的数量是多少",
-        "请问这张工单要求的数量是多少。",
-        "请问这张工单要求的数量是多少.",
-        "请问这张工单要求的数量是多少？",
-        "请问这张工单要求的数量是多少?"
+        "请把关于数字读写要求的说明发给我。",
+        "请把关于数字读写要求的说明发给我",
+        "请把关于数字读写要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：请问这张工单要求的数量是多少。\nqǐng wèn zhè zhāng gōng dān yāo qiú de shù liàng shì duō shǎo。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：请把关于数字读写要求的说明发给我。\nqǐng bǎ guān yú shù zì dú xiě yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n表示的吗 / 请问 / 是用毫米 / 图纸上的尺寸",
-      "pinyin": "biǎo shì de ma / qǐng wèn / shì yòng háo mǐ / tú zhǐ shàng de chǐ cùn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 核对过 / 计量单位的核实结果 / 已经",
+      "pinyin": "wǒ men / hé duì guò / jì liàng dān wèi de hé shí jié guǒ / yǐ jīng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问图纸上的尺寸是用毫米表示的吗",
-        "请问图纸上的尺寸是用毫米表示的吗。",
-        "请问图纸上的尺寸是用毫米表示的吗.",
-        "请问图纸上的尺寸是用毫米表示的吗？",
-        "请问图纸上的尺寸是用毫米表示的吗?"
+        "我们已经核对过计量单位的核实结果。",
+        "我们已经核对过计量单位的核实结果",
+        "我们已经核对过计量单位的核实结果."
       ],
       "points": 2,
       "hanziCount": 16,
-      "explanation": "参考表达：请问图纸上的尺寸是用毫米表示的吗。\nqǐng wèn tú zhǐ shàng de chǐ cùn shì yòng háo mǐ biǎo shì de ma。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "explanation": "参考句子：我们已经核对过计量单位的核实结果。\nwǒ men yǐ jīng hé duì guò jì liàng dān wèi de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n长度标注的单位 / 这个包装盒 / 厘米 / 是",
-      "pinyin": "cháng dù biāo zhù de dān wèi / zhè ge bāo zhuāng hé / lí mǐ / shì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 才能解释清楚 / 只有 / 先了解尺寸复核安排",
+      "pinyin": "wǒ men / cái néng jiě shì qīng chǔ / zhǐ yǒu / xiān liǎo jiě chǐ cùn fù hé ān pái",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个包装盒长度标注的单位是厘米",
-        "这个包装盒长度标注的单位是厘米。",
-        "这个包装盒长度标注的单位是厘米.",
-        "这个包装盒长度标注的单位是厘米？",
-        "这个包装盒长度标注的单位是厘米?"
+        "只有先了解尺寸复核安排我们才能解释清楚。",
+        "只有先了解尺寸复核安排我们才能解释清楚",
+        "只有先了解尺寸复核安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：这个包装盒长度标注的单位是厘米。\nzhè ge bāo zhuāng hé cháng dù biāo zhù de dān wèi shì lí mǐ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：只有先了解尺寸复核安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě chǐ cùn fù hé ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 这箱货物的重量 / 记录 / 用公斤",
-      "pinyin": "xū yào / zhè xiāng huò wù de zhòng liàng / jì lù / yòng gōng jīn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还想知道 / 具体由谁负责 / 不仅想了解数值信息确认 / 我",
+      "pinyin": "hái xiǎng zhī dào / jù tǐ yóu shuí fù zé / bù jǐn xiǎng liǎo jiě shù zhí xìn xī què rèn / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这箱货物的重量需要用公斤记录",
-        "这箱货物的重量需要用公斤记录。",
-        "这箱货物的重量需要用公斤记录.",
-        "这箱货物的重量需要用公斤记录？",
-        "这箱货物的重量需要用公斤记录?"
+        "我不仅想了解数值信息确认还想知道具体由谁负责。",
+        "我不仅想了解数值信息确认还想知道具体由谁负责",
+        "我不仅想了解数值信息确认还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这箱货物的重量需要用公斤记录。\nzhè xiāng huò wù de zhòng liàng xū yào yòng gōng jīn jì lù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 22,
+      "explanation": "参考句子：我不仅想了解数值信息确认还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě shù zhí xìn xī què rèn hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我没有听清 / 这个小数 / 再读一遍 / 请",
-      "pinyin": "wǒ méi yǒu tīng qīng / zhè ge xiǎo shù / zài dú yí biàn / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 讨论规格标注方式 / 先准备好相关记录 / 之前",
+      "pinyin": "qǐng / tǎo lùn guī gé biāo zhù fāng shì / xiān zhǔn bèi hǎo xiāng guān jì lù / zhī qián",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个小数我没有听清请再读一遍",
-        "这个小数我没有听清请再读一遍。",
-        "这个小数我没有听清请再读一遍.",
-        "这个小数我没有听清请再读一遍？",
-        "这个小数我没有听清请再读一遍?"
+        "讨论规格标注方式之前请先准备好相关记录。",
+        "讨论规格标注方式之前请先准备好相关记录",
+        "讨论规格标注方式之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这个小数我没有听清请再读一遍。\nzhè ge xiǎo shù wǒ méi yǒu tīng qīng qǐng zài dú yí biàn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论规格标注方式之前请先准备好相关记录。\ntǎo lùn guī gé biāo zhù fāng shì zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n规格 / 请 / 这批材料的 / 帮我确认",
-      "pinyin": "guī gé / qǐng / zhè pī cái liào de / bāng wǒ què rèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有一个问题 / 我 / 想请教您 / 关于数字读写要求",
+      "pinyin": "yǒu yí gè wèn tí / wǒ / xiǎng qǐng jiào nín / guān yú shù zì dú xiě yāo qiú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认这批材料的规格",
-        "请帮我确认这批材料的规格。",
-        "请帮我确认这批材料的规格.",
-        "请帮我确认这批材料的规格？",
-        "请帮我确认这批材料的规格?"
+        "关于数字读写要求我有一个问题想请教您。",
+        "关于数字读写要求我有一个问题想请教您",
+        "关于数字读写要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：请帮我确认这批材料的规格。\nqǐng bāng wǒ què rèn zhè pī cái liào de guī gé。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：关于数字读写要求我有一个问题想请教您。\nguān yú shù zì dú xiě yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 同时写明 / 记录数值时 / 单位",
-      "pinyin": "qǐng / tóng shí xiě míng / jì lù shù zhí shí / dān wèi",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n你还不清楚计量单位的核实结果 / 如果 / 先向负责人询问 / 就",
+      "pinyin": "nǐ hái bù qīng chǔ jì liàng dān wèi de hé shí jié guǒ / rú guǒ / xiān xiàng fù zé rén xún wèn / jiù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "记录数值时请同时写明单位",
-        "记录数值时请同时写明单位。",
-        "记录数值时请同时写明单位.",
-        "记录数值时请同时写明单位？",
-        "记录数值时请同时写明单位?"
+        "如果你还不清楚计量单位的核实结果就先向负责人询问。",
+        "如果你还不清楚计量单位的核实结果就先向负责人询问",
+        "如果你还不清楚计量单位的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：记录数值时请同时写明单位。\njì lù shù zhí shí qǐng tóng shí xiě míng dān wèi。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚计量单位的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ jì liàng dān wèi de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 是否合格 / 这个尺寸 / 按照图纸判断",
-      "pinyin": "xū yào / shì fǒu hé gé / zhè ge chǐ cùn / àn zhào tú zhǐ pàn duàn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还需要核实细节 / 虽然 / 但是 / 我们已经讨论过尺寸复核安排",
+      "pinyin": "hái xū yào hé shí xì jié / suī rán / dàn shì / wǒ men yǐ jīng tǎo lùn guò chǐ cùn fù hé ān pái",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个尺寸是否合格需要按照图纸判断",
-        "这个尺寸是否合格需要按照图纸判断。",
-        "这个尺寸是否合格需要按照图纸判断.",
-        "这个尺寸是否合格需要按照图纸判断？",
-        "这个尺寸是否合格需要按照图纸判断?"
+        "虽然我们已经讨论过尺寸复核安排但是还需要核实细节。",
+        "虽然我们已经讨论过尺寸复核安排但是还需要核实细节",
+        "虽然我们已经讨论过尺寸复核安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：这个尺寸是否合格需要按照图纸判断。\nzhè ge chǐ cùn shì fǒu hé gé xū yào àn zhào tú zhǐ pàn duàn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：虽然我们已经讨论过尺寸复核安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò chǐ cùn fù hé ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n测量误差的允许范围 / 向负责人员 / 请 / 确认",
-      "pinyin": "cè liáng wù chā de yǔn xǔ fàn wéi / xiàng fù zé rén yuán / qǐng / què rèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n与其 / 不如 / 查阅相关文件 / 反复猜测数值信息确认",
+      "pinyin": "yǔ qí / bù rú / chá yuè xiāng guān wén jiàn / fǎn fù cāi cè shù zhí xìn xī què rèn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "测量误差的允许范围请向负责人员确认",
-        "测量误差的允许范围请向负责人员确认。",
-        "测量误差的允许范围请向负责人员确认.",
-        "测量误差的允许范围请向负责人员确认？",
-        "测量误差的允许范围请向负责人员确认?"
+        "与其反复猜测数值信息确认不如查阅相关文件。",
+        "与其反复猜测数值信息确认不如查阅相关文件",
+        "与其反复猜测数值信息确认不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：测量误差的允许范围请向负责人员确认。\ncè liáng wù chā de yǔn xǔ fàn wéi qǐng xiàng fù zé rén yuán què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：与其反复猜测数值信息确认不如查阅相关文件。\nyǔ qí fǎn fù cāi cè shù zhí xìn xī què rèn bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这个数值 / 还需要 / 我 / 重新核实",
-      "pinyin": "zhè ge shù zhí / hái xū yào / wǒ / chóng xīn hé shí",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n准确说明规格标注方式 / 重新整理了资料 / 为了 / 我",
+      "pinyin": "zhǔn què shuō míng guī gé biāo zhù fāng shì / chóng xīn zhěng lǐ le zī liào / wèi le / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个数值我还需要重新核实",
-        "这个数值我还需要重新核实。",
-        "这个数值我还需要重新核实.",
-        "这个数值我还需要重新核实？",
-        "这个数值我还需要重新核实?"
+        "为了准确说明规格标注方式我重新整理了资料。",
+        "为了准确说明规格标注方式我重新整理了资料",
+        "为了准确说明规格标注方式我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：这个数值我还需要重新核实。\nzhè ge shù zhí wǒ hái xū yào chóng xīn hé shí。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明规格标注方式我重新整理了资料。\nwèi le zhǔn què shuō míng guī gé biāo zhù fāng shì wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 的具体要求 / 帮我确认一下 / 数字读写要求",
-      "pinyin": "qǐng / de jù tǐ yāo qiú / bāng wǒ què rèn yí xià / shù zì dú xiě yāo qiú",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有疑问的话 / 可以提出来 / 大家 / 对数字读写要求",
+      "pinyin": "yǒu yí wèn de huà / kě yǐ tí chū lái / dà jiā / duì shù zì dú xiě yāo qiú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下数字读写要求的具体要求",
-        "请帮我确认一下数字读写要求的具体要求。",
-        "请帮我确认一下数字读写要求的具体要求.",
-        "请帮我确认一下数字读写要求的具体要求？",
-        "请帮我确认一下数字读写要求的具体要求?"
+        "大家对数字读写要求有疑问的话可以提出来。",
+        "大家对数字读写要求有疑问的话可以提出来",
+        "大家对数字读写要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：请帮我确认一下数字读写要求的具体要求。\nqǐng bāng wǒ què rèn yí xià shù zì dú xiě yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：大家对数字读写要求有疑问的话可以提出来。\ndà jiā duì shù zì dú xiě yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 还需要 / 关于 / 再核实一下 / 计量单位的核实结果",
-      "pinyin": "wǒ / hái xū yào / guān yú / zài hé shí yí xià / jì liàng dān wèi de hé shí jié guǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先说明计量单位的核实结果 / 请 / 再 / 回答大家的问题",
+      "pinyin": "xiān shuō míng jì liàng dān wèi de hé shí jié guǒ / qǐng / zài / huí dá dà jiā de wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于计量单位的核实结果我还需要再核实一下",
-        "关于计量单位的核实结果我还需要再核实一下。",
-        "关于计量单位的核实结果我还需要再核实一下.",
-        "关于计量单位的核实结果我还需要再核实一下？",
-        "关于计量单位的核实结果我还需要再核实一下?"
+        "请先说明计量单位的核实结果再回答大家的问题。",
+        "请先说明计量单位的核实结果再回答大家的问题",
+        "请先说明计量单位的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于计量单位的核实结果我还需要再核实一下。\nguān yú jì liàng dān wèi de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明计量单位的核实结果再回答大家的问题。\nqǐng xiān shuō míng jì liàng dān wèi de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n尺寸复核安排 / 有变化 / 如果 / 及时通知我 / 请",
-      "pinyin": "chǐ cùn fù hé ān pái / yǒu biàn huà / rú guǒ / jí shí tōng zhī wǒ / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n无论 / 谁来说明尺寸复核安排 / 应该以有效文件为依据 / 都",
+      "pinyin": "wú lùn / shuí lái shuō míng chǐ cùn fù hé ān pái / yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / dōu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果尺寸复核安排有变化请及时通知我",
-        "如果尺寸复核安排有变化请及时通知我。",
-        "如果尺寸复核安排有变化请及时通知我.",
-        "如果尺寸复核安排有变化请及时通知我？",
-        "如果尺寸复核安排有变化请及时通知我?"
+        "无论谁来说明尺寸复核安排都应该以有效文件为依据。",
+        "无论谁来说明尺寸复核安排都应该以有效文件为依据",
+        "无论谁来说明尺寸复核安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：如果尺寸复核安排有变化请及时通知我。\nrú guǒ chǐ cùn fù hé ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：无论谁来说明尺寸复核安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng chǐ cùn fù hé ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n数值信息确认 / 负责 / 谁 / 告诉我 / 请",
-      "pinyin": "shù zhí xìn xī què rèn / fù zé / shuí / gào sù wǒ / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n逐项记录清楚 / 需要 / 涉及的问题 / 数值信息确认",
+      "pinyin": "zhú xiàng jì lù qīng chǔ / xū yào / shè jí de wèn tí / shù zhí xìn xī què rèn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责数值信息确认",
-        "请告诉我谁负责数值信息确认。",
-        "请告诉我谁负责数值信息确认.",
-        "请告诉我谁负责数值信息确认？",
-        "请告诉我谁负责数值信息确认?"
+        "数值信息确认涉及的问题需要逐项记录清楚。",
+        "数值信息确认涉及的问题需要逐项记录清楚",
+        "数值信息确认涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：请告诉我谁负责数值信息确认。\nqǐng gào sù wǒ shuí fù zé shù zhí xìn xī què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：数值信息确认涉及的问题需要逐项记录清楚。\nshù zhí xìn xī què rèn shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n再 / 确认 / 我们 / 继续沟通 / 先 / 规格标注方式",
-      "pinyin": "zài / què rèn / wǒ men / jì xù gōu tōng / xiān / guī gé biāo zhù fāng shì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再补充相关记录 / 我们 / 等 / 规格标注方式确认以后",
+      "pinyin": "zài bǔ chōng xiāng guān jì lù / wǒ men / děng / guī gé biāo zhù fāng shì què rèn yǐ hòu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认规格标注方式再继续沟通",
-        "我们先确认规格标注方式再继续沟通。",
-        "我们先确认规格标注方式再继续沟通.",
-        "我们先确认规格标注方式再继续沟通？",
-        "我们先确认规格标注方式再继续沟通?"
+        "等规格标注方式确认以后我们再补充相关记录。",
+        "等规格标注方式确认以后我们再补充相关记录",
+        "等规格标注方式确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认规格标注方式再继续沟通。\nwǒ men xiān què rèn guī gé biāo zhù fāng shì zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等规格标注方式确认以后我们再补充相关记录。\nděng guī gé biāo zhù fāng shì què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,26 +1,27 @@
 {
   "title": "日常交际 第10课 坐公交还是坐地铁",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“换乘”的正确读音。",
+      "text": "【拼音选择】请选择“高峰”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "huàng chéng",
-        "B": "huàn chéng",
-        "C": "huàn céng",
-        "D": "huàn chén"
+        "A": "gōu fēng",
+        "B": "gāo fēng",
+        "C": "gāo hēng",
+        "D": "gāo fēn"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“换乘”读作 huàn chéng，本课词义：chuyển tuyến。"
+      "explanation": "“高峰”读作 gāo fēng。注意声母、韵母、声调及轻声。",
+      "targetWord": "高峰"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“票价”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "biào jià",
-        "B": "diào jià",
-        "C": "piào qià",
+        "B": "piào qià",
+        "C": "diào jià",
         "D": "piào jià"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“票价”读作 piào jià，本课词义：giá vé。"
+      "explanation": "“票价”读作 piào jià。注意声母、韵母、声调及轻声。",
+      "targetWord": "票价"
     },
     {
       "id": 3,
@@ -47,7 +49,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“到站”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "dào zhàng",
         "B": "dào zhàn",
@@ -58,7 +60,8 @@
         "B"
       ],
       "points": 5,
-      "explanation": "“到站”读作 dào zhàn，本课词义：đến trạm。"
+      "explanation": "“到站”读作 dào zhàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "到站"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“方向”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fāng qiàng",
-        "B": "fān xiàng",
-        "C": "hāng xiàng",
-        "D": "fāng xiàng"
+        "A": "fān xiàng",
+        "B": "fāng qiàng",
+        "C": "fāng xiàng",
+        "D": "hāng xiàng"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“方向”读作 fāng xiàng，本课词义：hướng。"
+      "explanation": "“方向”读作 fāng xiàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "方向"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“方便”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fāng biàn",
-        "B": "hāng biàn",
-        "C": "fāng biàng",
-        "D": "fān biàn"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“方便”读作 fāng biàn，本课词义：thuận tiện。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：去火车站需要在哪一站____。",
-      "pinyin": "qù huǒ chē zhàn xū yào zài nǎ yī zhàn ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chuyển tuyến.",
-      "options": {
-        "A": "方便",
-        "B": "换乘",
-        "C": "方向",
-        "D": "票价"
-      },
-      "optionPinyin": {
-        "A": "fāng biàn",
-        "B": "huàn chéng",
-        "C": "fāng xiàng",
-        "D": "piào jià"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“换乘”（chuyển tuyến）。完整表达：去火车站需要在哪一站换乘。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这条线路的____是多少。",
-      "pinyin": "qǐng wèn zhè tiáo xiàn lù de ____ shì duō shǎo",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: giá vé.",
-      "options": {
-        "A": "方便",
-        "B": "票价",
-        "C": "方向",
-        "D": "换乘"
-      },
-      "optionPinyin": {
-        "A": "fāng biàn",
-        "B": "piào jià",
-        "C": "fāng xiàng",
-        "D": "huàn chéng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“票价”（giá vé）。完整表达：请问这条线路的票价是多少。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：____以后请提醒我一下。",
-      "pinyin": "____ yǐ hòu qǐng tí xǐng wǒ yī xià",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đến trạm.",
-      "options": {
-        "A": "到站",
-        "B": "票价",
-        "C": "方向",
-        "D": "换乘"
-      },
-      "optionPinyin": {
-        "A": "dào zhàn",
-        "B": "piào jià",
-        "C": "fāng xiàng",
-        "D": "huàn chéng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“到站”（đến trạm）。完整表达：到站以后请提醒我一下。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这班车开往哪个____。",
-      "pinyin": "qǐng wèn zhè bān chē kāi wǎng nǎ ge ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hướng.",
-      "options": {
-        "A": "换乘",
-        "B": "到站",
-        "C": "方向",
-        "D": "票价"
-      },
-      "optionPinyin": {
-        "A": "huàn chéng",
-        "B": "dào zhàn",
-        "C": "fāng xiàng",
-        "D": "piào jià"
+        "A": "hāng biàn",
+        "B": "fān biàn",
+        "C": "fāng biàn",
+        "D": "fāng biàng"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“方向”（hướng）。完整表达：请问这班车开往哪个方向。"
+      "explanation": "“方便”读作 fāng biàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "方便"
     },
     {
-      "id": 10,
+      "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：坐地铁不用担心堵车会更____一些。",
-      "pinyin": "zuò dì tiě bù yòng dān xīn dǔ chē huì gèng ____ yī xiē",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thuận tiện.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：到市中心要先坐二号线，再____一号线。",
+      "pinyin": "dào shì zhōng xīn yào xiān zuò èr hào xiàn ， zài ____ yī hào xiàn 。",
+      "vietnamese": "Gợi ý: chuyển tuyến.",
       "options": {
-        "A": "方便",
-        "B": "方向",
-        "C": "到站",
+        "A": "末班车",
+        "B": "拥挤",
+        "C": "站台",
         "D": "换乘"
       },
       "optionPinyin": {
-        "A": "fāng biàn",
-        "B": "fāng xiàng",
-        "C": "dào zhàn",
+        "A": "mò bān chē",
+        "B": "yōng jǐ",
+        "C": "zhàn tái",
         "D": "huàn chéng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“换乘”。完整句子：到市中心要先坐二号线，再换乘一号线。\n语法与搭配：先……再……",
+      "targetWord": "换乘",
+      "completeSentence": "到市中心要先坐二号线，再换乘一号线。",
+      "grammarFocus": "先……再……"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：早高峰的公交车非常____。",
+      "pinyin": "zǎo gāo fēng de gōng jiāo chē fēi cháng ____。",
+      "vietnamese": "Gợi ý: đông đúc.",
+      "options": {
+        "A": "站台",
+        "B": "换乘",
+        "C": "拥挤",
+        "D": "末班车"
+      },
+      "optionPinyin": {
+        "A": "zhàn tái",
+        "B": "huàn chéng",
+        "C": "yōng jǐ",
+        "D": "mò bān chē"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“拥挤”。完整句子：早高峰的公交车非常拥挤。\n语法与搭配：非常＋形容词",
+      "targetWord": "拥挤",
+      "completeSentence": "早高峰的公交车非常拥挤。",
+      "grammarFocus": "非常＋形容词"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请在指定____排队等车。",
+      "pinyin": "qǐng zài zhǐ dìng ____ pái duì děng chē 。",
+      "vietnamese": "Gợi ý: sân ga, bến đợi.",
+      "options": {
+        "A": "站台",
+        "B": "末班车",
+        "C": "换乘",
+        "D": "拥挤"
+      },
+      "optionPinyin": {
+        "A": "zhàn tái",
+        "B": "mò bān chē",
+        "C": "huàn chéng",
+        "D": "yōng jǐ"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“方便”（thuận tiện）。完整表达：坐地铁不用担心堵车会更方便一些。"
+      "explanation": "应填“站台”。完整句子：请在指定站台排队等车。\n语法与搭配：在＋地点",
+      "targetWord": "站台",
+      "completeSentence": "请在指定站台排队等车。",
+      "grammarFocus": "在＋地点"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：已经很晚了，别错过____。",
+      "pinyin": "yǐ jīng hěn wǎn le ， bié cuò guò ____。",
+      "vietnamese": "Gợi ý: chuyến cuối.",
+      "options": {
+        "A": "拥挤",
+        "B": "站台",
+        "C": "换乘",
+        "D": "末班车"
+      },
+      "optionPinyin": {
+        "A": "yōng jǐ",
+        "B": "zhàn tái",
+        "C": "huàn chéng",
+        "D": "mò bān chē"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“末班车”。完整句子：已经很晚了，别错过末班车。\n语法与搭配：别＋动词",
+      "targetWord": "末班车",
+      "completeSentence": "已经很晚了，别错过末班车。",
+      "grammarFocus": "别＋动词"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这两条____都能到学校。",
+      "pinyin": "zhè liǎng tiáo ____ dōu néng dào xué xiào 。",
+      "vietnamese": "Gợi ý: tuyến đường.",
+      "options": {
+        "A": "换乘",
+        "B": "拥挤",
+        "C": "路线",
+        "D": "站台"
+      },
+      "optionPinyin": {
+        "A": "huàn chéng",
+        "B": "yōng jǐ",
+        "C": "lù xiàn",
+        "D": "zhàn tái"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“路线”。完整句子：这两条路线都能到学校。\n语法与搭配：都；能",
+      "targetWord": "路线",
+      "completeSentence": "这两条路线都能到学校。",
+      "grammarFocus": "都；能"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 去火车站 / 在哪一站 / 换乘",
-      "pinyin": "xū yào / qù huǒ chē zhàn / zài nǎ yī zhàn / huàn chéng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 也不想 / 在路上着急 / 宁愿早点出门",
+      "pinyin": "wǒ / yě bù xiǎng / zài lù shàng zháo jí / nìng yuàn zǎo diǎn chū mén",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "去火车站需要在哪一站换乘。",
-        "去火车站需要在哪一站换乘",
-        "去火车站需要在哪一站换乘.",
-        "去火车站需要在哪一站换乘？",
-        "去火车站需要在哪一站换乘?"
+        "我宁愿早点出门也不想在路上着急。",
+        "我宁愿早点出门也不想在路上着急",
+        "我宁愿早点出门也不想在路上着急."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：去火车站需要在哪一站换乘。\nqù huǒ chē zhàn xū yào zài nǎ yī zhàn huàn chéng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：我宁愿早点出门也不想在路上着急。\nwǒ nìng yuàn zǎo diǎn chū mén yě bù xiǎng zài lù shàng zháo jí\n语法与搭配：宁愿……也不……",
+      "grammarFocus": "宁愿……也不……"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n多少 / 请问 / 这条线路的票价 / 是",
-      "pinyin": "duō shǎo / qǐng wèn / zhè tiáo xiàn lù de piào jià / shì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n但是 / 虽然要换乘 / 不用担心堵车 / 坐地铁",
+      "pinyin": "dàn shì / suī rán yào huàn chéng / bù yòng dān xīn dǔ chē / zuò dì tiě",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这条线路的票价是多少。",
-        "请问这条线路的票价是多少",
-        "请问这条线路的票价是多少.",
-        "请问这条线路的票价是多少？",
-        "请问这条线路的票价是多少?"
+        "坐地铁虽然要换乘但是不用担心堵车。",
+        "坐地铁虽然要换乘但是不用担心堵车",
+        "坐地铁虽然要换乘但是不用担心堵车."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：请问这条线路的票价是多少。\nqǐng wèn zhè tiáo xiàn lù de piào jià shì duō shǎo。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：坐地铁虽然要换乘但是不用担心堵车。\nzuò dì tiě suī rán yào huàn chéng dàn shì bù yòng dān xīn dǔ chē\n语法与搭配：虽然……但是……",
+      "grammarFocus": "虽然……但是……"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 提醒我 / 一下 / 到站以后",
-      "pinyin": "qǐng / tí xǐng wǒ / yī xià / dào zhàn yǐ hòu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n公交车吗 / 这条线路的 / 坐过 / 你",
+      "pinyin": "gōng jiāo chē ma / zhè tiáo xiàn lù de / zuò guò / nǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "到站以后请提醒我一下。",
-        "到站以后请提醒我一下",
-        "到站以后请提醒我一下.",
-        "到站以后请提醒我一下？",
-        "到站以后请提醒我一下?"
+        "你坐过这条线路的公交车吗？",
+        "你坐过这条线路的公交车吗",
+        "你坐过这条线路的公交车吗?"
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：到站以后请提醒我一下。\ndào zhàn yǐ hòu qǐng tí xǐng wǒ yī xià。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：你坐过这条线路的公交车吗？\nnǐ zuò guò zhè tiáo xiàn lù de gōng jiāo chē ma\n语法与搭配：……过……吗",
+      "grammarFocus": "……过……吗"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 哪个方向 / 这班车 / 开往",
-      "pinyin": "qǐng wèn / nǎ ge fāng xiàng / zhè bān chē / kāi wǎng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请别坐反了 / 开往 / 这辆车 / 火车站",
+      "pinyin": "qǐng bié zuò fǎn le / kāi wǎng / zhè liàng chē / huǒ chē zhàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这班车开往哪个方向。",
-        "请问这班车开往哪个方向",
-        "请问这班车开往哪个方向.",
-        "请问这班车开往哪个方向？",
-        "请问这班车开往哪个方向?"
+        "这辆车开往火车站请别坐反了。",
+        "这辆车开往火车站请别坐反了",
+        "这辆车开往火车站请别坐反了."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请问这班车开往哪个方向。\nqǐng wèn zhè bān chē kāi wǎng nǎ ge fāng xiàng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：这辆车开往火车站请别坐反了。\nzhè liàng chē kāi wǎng huǒ chē zhàn qǐng bié zuò fǎn le\n语法与搭配：开往；别",
+      "grammarFocus": "开往；别"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n坐地铁 / 不用担心堵车 / 更方便一些 / 会",
-      "pinyin": "zuò dì tiě / bù yòng dān xīn dǔ chē / gèng fāng biàn yī xiē / huì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n下一站 / 我们 / 到了 / 就下车",
+      "pinyin": "xià yī zhàn / wǒ men / dào le / jiù xià chē",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "坐地铁不用担心堵车会更方便一些。",
-        "坐地铁不用担心堵车会更方便一些",
-        "坐地铁不用担心堵车会更方便一些.",
-        "坐地铁不用担心堵车会更方便一些？",
-        "坐地铁不用担心堵车会更方便一些?"
+        "到了下一站我们就下车。",
+        "到了下一站我们就下车",
+        "到了下一站我们就下车."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：坐地铁不用担心堵车会更方便一些。\nzuò dì tiě bù yòng dān xīn dǔ chē huì gèng fāng biàn yī xiē。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 10,
+      "explanation": "参考句子：到了下一站我们就下车。\ndào le xià yī zhàn wǒ men jiù xià chē\n语法与搭配：到了……就……",
+      "grammarFocus": "到了……就……"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

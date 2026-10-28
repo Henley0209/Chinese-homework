@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第04课 我的兴趣爱好",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“爱好”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "ài hòu",
-        "B": "èi hào",
-        "C": "bài hào",
+        "A": "èi hào",
+        "B": "bài hào",
+        "C": "ài hòu",
         "D": "ài hào"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“爱好”读作 ài hào，本课词义：sở thích。"
+      "explanation": "“爱好”读作 ài hào。注意声母、韵母、声调及轻声。",
+      "targetWord": "爱好"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“打球”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǎ qiú",
+        "A": "dǎ jiú",
         "B": "dǎ xiú",
-        "C": "dǎ jiú",
-        "D": "dǎ qiú"
+        "C": "dǎ qiú",
+        "D": "bǎ qiú"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“打球”读作 dǎ qiú，本课词义：chơi bóng。"
+      "explanation": "“打球”读作 dǎ qiú。注意声母、韵母、声调及轻声。",
+      "targetWord": "打球"
     },
     {
       "id": 3,
@@ -47,37 +49,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“音乐”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yīn yuè",
+        "A": "yīng yuè",
         "B": "jīn yuè",
-        "C": "bīn yuè",
-        "D": "yīng yuè"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“音乐”读作 yīn yuè，本课词义：âm nhạc。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“游泳”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "yáo yǒng",
-        "B": "cóu yǒng",
-        "C": "yóu yǒng",
-        "D": "fóu yǒng"
+        "C": "yīn yuè",
+        "D": "bīn yuè"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“游泳”读作 yóu yǒng，本课词义：bơi lội。"
+      "explanation": "“音乐”读作 yīn yuè。注意声母、韵母、声调及轻声。",
+      "targetWord": "音乐"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“书法”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "shū fǎ",
+        "B": "sū fǎ",
+        "C": "shū hǎ",
+        "D": "chū fǎ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“书法”读作 shū fǎ。注意声母、韵母、声调及轻声。",
+      "targetWord": "书法"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“共同”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bòng tóng",
-        "B": "gòng tóng",
+        "A": "còng tóng",
+        "B": "bòng tóng",
         "C": "dòng tóng",
-        "D": "còng tóng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“共同”读作 gòng tóng，本课词义：chung。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我的____是听音乐和看电影。",
-      "pinyin": "wǒ de ____ shì tīng yīn yuè hé kàn diàn yǐng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: sở thích.",
-      "options": {
-        "A": "打球",
-        "B": "共同",
-        "C": "爱好",
-        "D": "音乐"
-      },
-      "optionPinyin": {
-        "A": "dǎ qiú",
-        "B": "gòng tóng",
-        "C": "ài hào",
-        "D": "yīn yuè"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“爱好”（sở thích）。完整表达：我的爱好是听音乐和看电影。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：你平时喜欢____吗。",
-      "pinyin": "nǐ píng shí xǐ huān ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chơi bóng.",
-      "options": {
-        "A": "爱好",
-        "B": "打球",
-        "C": "共同",
-        "D": "游泳"
-      },
-      "optionPinyin": {
-        "A": "ài hào",
-        "B": "dǎ qiú",
-        "C": "gòng tóng",
-        "D": "yóu yǒng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“打球”（chơi bóng）。完整表达：你平时喜欢打球吗。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我对中国传统____很感兴趣。",
-      "pinyin": "wǒ duì zhōng guó chuán tǒng ____ hěn gǎn xìng qù",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: âm nhạc.",
-      "options": {
-        "A": "音乐",
-        "B": "游泳",
-        "C": "爱好",
-        "D": "打球"
-      },
-      "optionPinyin": {
-        "A": "yīn yuè",
-        "B": "yóu yǒng",
-        "C": "ài hào",
-        "D": "dǎ qiú"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“音乐”（âm nhạc）。完整表达：我对中国传统音乐很感兴趣。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我还不会____你能教我吗。",
-      "pinyin": "wǒ hái bú huì ____ nǐ néng jiào wǒ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: bơi lội.",
-      "options": {
-        "A": "爱好",
-        "B": "打球",
-        "C": "共同",
-        "D": "游泳"
-      },
-      "optionPinyin": {
-        "A": "ài hào",
-        "B": "dǎ qiú",
-        "C": "gòng tóng",
-        "D": "yóu yǒng"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“游泳”（bơi lội）。完整表达：我还不会游泳你能教我吗。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：原来我们有这么多____的爱好。",
-      "pinyin": "yuán lái wǒ men yǒu zhè me duō ____ de ài hào",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chung.",
-      "options": {
-        "A": "爱好",
-        "B": "游泳",
-        "C": "音乐",
-        "D": "共同"
-      },
-      "optionPinyin": {
-        "A": "ài hào",
-        "B": "yóu yǒng",
-        "C": "yīn yuè",
         "D": "gòng tóng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“共同”（chung）。完整表达：原来我们有这么多共同的爱好。"
+      "explanation": "“共同”读作 gòng tóng。注意声母、韵母、声调及轻声。",
+      "targetWord": "共同"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他旅行时爱拍照片，____是他的爱好。",
+      "pinyin": "tā lǚ xíng shí ài pāi zhào piān ，____ shì tā de ài hào 。",
+      "vietnamese": "Gợi ý: nhiếp ảnh.",
+      "options": {
+        "A": "摄影",
+        "B": "放松",
+        "C": "游泳",
+        "D": "吉他"
+      },
+      "optionPinyin": {
+        "A": "shè yǐng",
+        "B": "fàng sōng",
+        "C": "yóu yǒng",
+        "D": "jí tā"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“摄影”。完整句子：他旅行时爱拍照片，摄影是他的爱好。\n语法与搭配：是：说明爱好",
+      "targetWord": "摄影",
+      "completeSentence": "他旅行时爱拍照片，摄影是他的爱好。",
+      "grammarFocus": "是：说明爱好"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：夏天我常去泳池____。",
+      "pinyin": "xià tiān wǒ cháng qù yǒng chí ____。",
+      "vietnamese": "Gợi ý: bơi.",
+      "options": {
+        "A": "摄影",
+        "B": "游泳",
+        "C": "放松",
+        "D": "吉他"
+      },
+      "optionPinyin": {
+        "A": "shè yǐng",
+        "B": "yóu yǒng",
+        "C": "fàng sōng",
+        "D": "jí tā"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“游泳”。完整句子：夏天我常去泳池游泳。\n语法与搭配：去＋地点＋动词",
+      "targetWord": "游泳",
+      "completeSentence": "夏天我常去泳池游泳。",
+      "grammarFocus": "去＋地点＋动词"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：她每天练习弹____。",
+      "pinyin": "tā měi tiān liàn xí dàn ____。",
+      "vietnamese": "Gợi ý: đàn ghi-ta.",
+      "options": {
+        "A": "游泳",
+        "B": "摄影",
+        "C": "吉他",
+        "D": "放松"
+      },
+      "optionPinyin": {
+        "A": "yóu yǒng",
+        "B": "shè yǐng",
+        "C": "jí tā",
+        "D": "fàng sōng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“吉他”。完整句子：她每天练习弹吉他。\n语法与搭配：弹＋乐器",
+      "targetWord": "吉他",
+      "completeSentence": "她每天练习弹吉他。",
+      "grammarFocus": "弹＋乐器"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：下班后听音乐能让我____。",
+      "pinyin": "xià bān hòu tīng yīn yuè néng ràng wǒ ____。",
+      "vietnamese": "Gợi ý: thư giãn.",
+      "options": {
+        "A": "游泳",
+        "B": "摄影",
+        "C": "放松",
+        "D": "吉他"
+      },
+      "optionPinyin": {
+        "A": "yóu yǒng",
+        "B": "shè yǐng",
+        "C": "fàng sōng",
+        "D": "jí tā"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“放松”。完整句子：下班后听音乐能让我放松。\n语法与搭配：让＋人＋动词",
+      "targetWord": "放松",
+      "completeSentence": "下班后听音乐能让我放松。",
+      "grammarFocus": "让＋人＋动词"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我对中国书法很____。",
+      "pinyin": "wǒ duì zhōng guó shū fǎ hěn ____。",
+      "vietnamese": "Gợi ý: có hứng thú.",
+      "options": {
+        "A": "吉他",
+        "B": "游泳",
+        "C": "摄影",
+        "D": "感兴趣"
+      },
+      "optionPinyin": {
+        "A": "jí tā",
+        "B": "yóu yǒng",
+        "C": "shè yǐng",
+        "D": "gǎn xìng qù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“感兴趣”。完整句子：我对中国书法很感兴趣。\n语法与搭配：对……感兴趣",
+      "targetWord": "感兴趣",
+      "completeSentence": "我对中国书法很感兴趣。",
+      "grammarFocus": "对……感兴趣"
     },
     {
       "id": 11,
@@ -352,91 +372,90 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n和看电影 / 我的爱好 / 是 / 听音乐",
-      "pinyin": "hé kàn diàn yǐng / wǒ de ài hào / shì / tīng yīn yuè",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n看电影 / 除了 / 还喜欢爬山 / 我",
+      "pinyin": "kàn diàn yǐng / chú le / hái xǐ huān pá shān / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我的爱好是听音乐和看电影。",
-        "我的爱好是听音乐和看电影",
-        "我的爱好是听音乐和看电影.",
-        "我的爱好是听音乐和看电影？",
-        "我的爱好是听音乐和看电影?"
+        "除了看电影我还喜欢爬山。",
+        "除了看电影我还喜欢爬山",
+        "除了看电影我还喜欢爬山."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：我的爱好是听音乐和看电影。\nwǒ de ài hào shì tīng yīn yuè hé kàn diàn yǐng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 11,
+      "explanation": "参考句子：除了看电影我还喜欢爬山。\nchú le kàn diàn yǐng wǒ hái xǐ huān pá shān\n语法与搭配：除了……还……",
+      "grammarFocus": "除了……还……"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n打球吗 / 喜欢 / 你 / 平时",
-      "pinyin": "dǎ qiú ma / xǐ huān / nǐ / píng shí",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n这本小说 / 看了两遍 / 我 / 已经",
+      "pinyin": "zhè běn xiǎo shuō / kàn le liǎng biàn / wǒ / yǐ jīng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "你平时喜欢打球吗。",
-        "你平时喜欢打球吗",
-        "你平时喜欢打球吗.",
-        "你平时喜欢打球吗？",
-        "你平时喜欢打球吗?"
+        "这本小说我已经看了两遍。",
+        "这本小说我已经看了两遍",
+        "这本小说我已经看了两遍."
       ],
       "points": 5,
-      "hanziCount": 8,
-      "explanation": "参考表达：你平时喜欢打球吗。\nnǐ píng shí xǐ huān dǎ qiú ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 11,
+      "explanation": "参考句子：这本小说我已经看了两遍。\nzhè běn xiǎo shuō wǒ yǐ jīng kàn le liǎng biàn\n语法与搭配：已经；动量补语",
+      "grammarFocus": "已经；动量补语"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n中国传统音乐 / 我 / 很感兴趣 / 对",
-      "pinyin": "zhōng guó chuán tǒng yīn yuè / wǒ / hěn gǎn xìng qù / duì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n一边 / 他 / 一边听歌 / 做饭",
+      "pinyin": "yī biān / tā / yī biān tīng gē / zuò fàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我对中国传统音乐很感兴趣。",
-        "我对中国传统音乐很感兴趣",
-        "我对中国传统音乐很感兴趣.",
-        "我对中国传统音乐很感兴趣？",
-        "我对中国传统音乐很感兴趣?"
+        "他一边做饭一边听歌。",
+        "他一边做饭一边听歌",
+        "他一边做饭一边听歌."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：我对中国传统音乐很感兴趣。\nwǒ duì zhōng guó chuán tǒng yīn yuè hěn gǎn xìng qù。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 9,
+      "explanation": "参考句子：他一边做饭一边听歌。\ntā yī biān zuò fàn yī biān tīng gē\n语法与搭配：一边……一边……",
+      "grammarFocus": "一边……一边……"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n还不会游泳 / 能教我吗 / 你 / 我",
-      "pinyin": "hái bú huì yóu yǒng / néng jiào wǒ ma / nǐ / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 约好 / 去打羽毛球 / 周日下午",
+      "pinyin": "wǒ men / yuē hǎo / qù dǎ yǔ máo qiú / zhōu rì xià wǔ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我还不会游泳你能教我吗。",
-        "我还不会游泳你能教我吗",
-        "我还不会游泳你能教我吗.",
-        "我还不会游泳你能教我吗？",
-        "我还不会游泳你能教我吗?"
+        "周日下午我们约好去打羽毛球。",
+        "周日下午我们约好去打羽毛球",
+        "周日下午我们约好去打羽毛球.",
+        "我们周日下午约好去打羽毛球。",
+        "我们周日下午约好去打羽毛球",
+        "我们周日下午约好去打羽毛球."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：我还不会游泳你能教我吗。\nwǒ hái bú huì yóu yǒng nǐ néng jiào wǒ ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：周日下午我们约好去打羽毛球。\nzhōu rì xià wǔ wǒ men yuē hǎo qù dǎ yǔ máo qiú\n语法与搭配：约好＋行动",
+      "grammarFocus": "约好＋行动"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n原来 / 我们 / 共同的爱好 / 有这么多",
-      "pinyin": "yuán lái / wǒ men / gòng tóng de ài hào / yǒu zhè me duō",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n更有耐心 / 练习书法 / 坚持 / 使我",
+      "pinyin": "gèng yǒu nài xīn / liàn xí shū fǎ / jiān chí / shǐ wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "原来我们有这么多共同的爱好。",
-        "原来我们有这么多共同的爱好",
-        "原来我们有这么多共同的爱好.",
-        "原来我们有这么多共同的爱好？",
-        "原来我们有这么多共同的爱好?"
+        "坚持练习书法使我更有耐心。",
+        "坚持练习书法使我更有耐心",
+        "坚持练习书法使我更有耐心."
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：原来我们有这么多共同的爱好。\nyuán lái wǒ men yǒu zhè me duō gòng tóng de ài hào。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：坚持练习书法使我更有耐心。\njiān chí liàn xí shū fǎ shǐ wǒ gèng yǒu nài xīn\n语法与搭配：使＋人＋形容词",
+      "grammarFocus": "使＋人＋形容词"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

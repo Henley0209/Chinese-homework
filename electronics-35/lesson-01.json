@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第01课 第一天到工厂报到",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“报到”的正确读音。",
+      "text": "【拼音选择】请选择“接待”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bào dòu",
-        "B": "biào dào",
-        "C": "bào dào",
-        "D": "bà dào"
+        "A": "jiē dài",
+        "B": "qiē dài",
+        "C": "biē dài",
+        "D": "diē dài"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“报到”读作 bào dào，本课词义：trình diện, nhận việc。"
+      "explanation": "“接待”读作 jiē dài。注意声母、韵母、声调及轻声。",
+      "targetWord": "接待"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“姓名”的正确读音。",
+      "text": "【拼音选择】请选择“登记”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xìng míng",
-        "B": "xìng mín",
-        "C": "xìn míng",
-        "D": "qìng míng"
+        "A": "bēng jì",
+        "B": "dēng jì",
+        "C": "dēng qì",
+        "D": "cēng jì"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“姓名”读作 xìng míng，本课词义：họ tên。"
+      "explanation": "“登记”读作 dēng jì。注意声母、韵母、声调及轻声。",
+      "targetWord": "登记"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“证件”的正确读音。",
+      "text": "【拼音选择】请选择“入职”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhèng jiàng",
-        "B": "zèng jiàn",
-        "C": "zhèng jiàn",
-        "D": "zhèng qiàn"
+        "A": "bù zhí",
+        "B": "rù zhí",
+        "C": "rù zí",
+        "D": "cù zhí"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“证件”读作 zhèng jiàn，本课词义：giấy tờ tùy thân。"
+      "explanation": "“入职”读作 rù zhí。注意声母、韵母、声调及轻声。",
+      "targetWord": "入职"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“手续”的正确读音。",
+      "text": "【拼音选择】请选择“人事”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sǒu xù",
-        "B": "shǎo xù",
-        "C": "shǒu qù",
-        "D": "shǒu xù"
+        "A": "cén shì",
+        "B": "rén sì",
+        "C": "rén shì",
+        "D": "réng shì"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“手续”读作 shǒu xù，本课词义：thủ tục。"
+      "explanation": "“人事”读作 rén shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "人事"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“岗位”的正确读音。",
+      "text": "【拼音选择】请选择“面试”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǎng wèi",
-        "B": "gǎn wèi",
-        "C": "gǎng wài",
-        "D": "gǎng wèi"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "“岗位”读作 gǎng wèi，本课词义：vị trí công việc。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“工号”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "cōng hào",
-        "B": "gōng hào",
-        "C": "dōng hào",
-        "D": "gōng hòu"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“工号”读作 gōng hào，本课词义：mã nhân viên。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“培训”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "léi xùn",
-        "B": "pái xùn",
-        "C": "féi xùn",
-        "D": "péi xùn"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "“培训”读作 péi xùn，本课词义：đào tạo。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“资料”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "zī liào",
-        "B": "bī liào",
-        "C": "zhī liào",
-        "D": "zī niào"
+        "A": "miàn shì",
+        "B": "biàn shì",
+        "C": "diàn shì",
+        "D": "miàn sì"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“资料”读作 zī liào，本课词义：hồ sơ, tài liệu。"
+      "explanation": "“面试”读作 miàn shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "面试"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“录用”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "bù yòng",
+        "B": "cù yòng",
+        "C": "lù yòng",
+        "D": "nù yòng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“录用”读作 lù yòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "录用"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“档案”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "dàng àn",
+        "B": "bàng àn",
+        "C": "dàng àng",
+        "D": "dàn àn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“档案”读作 dàng àn。注意声母、韵母、声调及轻声。",
+      "targetWord": "档案"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“劳务”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "báo wù",
+        "B": "lóu wù",
+        "C": "láo wù",
+        "D": "náo wù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“劳务”读作 láo wù。注意声母、韵母、声调及轻声。",
+      "targetWord": "劳务"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“签字”的正确读音。",
+      "text": "【拼音选择】请选择“通知”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiān zì",
-        "B": "qiān zì",
-        "C": "jiān zì",
-        "D": "qiān zhì"
+        "A": "dōng zhī",
+        "B": "tōng zhī",
+        "C": "tōng zī",
+        "D": "cōng zhī"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“签字”读作 qiān zì，本课词义：ký tên。"
+      "explanation": "“通知”读作 tōng zhī。注意声母、韵母、声调及轻声。",
+      "targetWord": "通知"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“负责人”的正确读音。",
+      "text": "【拼音选择】请选择“身份”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fù zhé rén",
-        "B": "fù zé réng",
-        "C": "hù zé rén",
-        "D": "fù zé rén"
+        "A": "shēng fèn",
+        "B": "sēn fèn",
+        "C": "shēn hèn",
+        "D": "shēn fèn"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“负责人”读作 fù zé rén，本课词义：người phụ trách。"
+      "explanation": "“身份”读作 shēn fèn。注意声母、韵母、声调及轻声。",
+      "targetWord": "身份"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“报到”（trình diện, nhận việc）。完整表达：您好我今天来报到。"
+      "explanation": "应填“报到”（trình diện, nhận việc）。完整表达：您好我今天来报到。",
+      "targetWord": "报到",
+      "completeSentence": "您好我今天来报到。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“姓名”（họ tên）。完整表达：登记表上需要填写真实姓名。"
+      "explanation": "应填“姓名”（họ tên）。完整表达：登记表上需要填写真实姓名。",
+      "targetWord": "姓名",
+      "completeSentence": "登记表上需要填写真实姓名。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“证件”（giấy tờ tùy thân）。完整表达：请问办理入职需要哪些证件。"
+      "explanation": "应填“证件”（giấy tờ tùy thân）。完整表达：请问办理入职需要哪些证件。",
+      "targetWord": "证件",
+      "completeSentence": "请问办理入职需要哪些证件。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“手续”（thủ tục）。完整表达：我还没有办完入职手续。"
+      "explanation": "应填“手续”（thủ tục）。完整表达：我还没有办完入职手续。",
+      "targetWord": "手续",
+      "completeSentence": "我还没有办完入职手续。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“岗位”（vị trí công việc）。完整表达：请问我被安排在哪个岗位。"
+      "explanation": "应填“岗位”（vị trí công việc）。完整表达：请问我被安排在哪个岗位。",
+      "targetWord": "岗位",
+      "completeSentence": "请问我被安排在哪个岗位。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“工号”（mã nhân viên）。完整表达：这是公司分配给我的工号。"
+      "explanation": "应填“工号”（mã nhân viên）。完整表达：这是公司分配给我的工号。",
+      "targetWord": "工号",
+      "completeSentence": "这是公司分配给我的工号。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“培训”（đào tạo）。完整表达：正式上岗以前我需要先参加培训。"
+      "explanation": "应填“培训”（đào tạo）。完整表达：正式上岗以前我需要先参加培训。",
+      "targetWord": "培训",
+      "completeSentence": "正式上岗以前我需要先参加培训。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“资料”（hồ sơ, tài liệu）。完整表达：这些资料我已经准备好了。"
+      "explanation": "应填“资料”（hồ sơ, tài liệu）。完整表达：这些资料我已经准备好了。",
+      "targetWord": "资料",
+      "completeSentence": "这些资料我已经准备好了。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“签字”（ký tên）。完整表达：请问我应该在哪里签字。"
+      "explanation": "应填“签字”（ký tên）。完整表达：请问我应该在哪里签字。",
+      "targetWord": "签字",
+      "completeSentence": "请问我应该在哪里签字。"
     },
     {
       "id": 20,
@@ -441,657 +469,670 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“负责人”（người phụ trách）。完整表达：麻烦您帮我联系负责新员工报到的负责人。"
+      "explanation": "应填“负责人”（người phụ trách）。完整表达：麻烦您帮我联系负责新员工报到的负责人。",
+      "targetWord": "负责人",
+      "completeSentence": "麻烦您帮我联系负责新员工报到的负责人。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你第一天到厂，需要告诉接待人员来意，应该怎么说？",
-      "pinyin": "nǐ dì yī tiān dào chǎng ， xū yào gào sù jiē dài rén yuán lái yì ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“报到时间”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ bào dào shí jiān ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "您好我今天来报到",
-        "B": "请问我应该在哪里签字",
-        "C": "正式上岗以前我需要先参加培训",
-        "D": "我们先确认报到地点再继续沟通"
+        "A": "我还没有收到关于报到时间的资料",
+        "B": "我还没有收到关于入职资料的核实结果的资料",
+        "C": "我还需要进一步了解报到时间",
+        "D": "我这次只想核实报到时间"
       },
       "optionPinyin": {
-        "A": "nín hǎo wǒ jīn tiān lái bào dào",
-        "B": "qǐng wèn wǒ yīng gāi zài nǎ lǐ qiān zì",
-        "C": "zhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn",
-        "D": "wǒ men xiān què rèn bào dào dì diǎn zài jì xù gōu tōng"
+        "A": "wǒ hái méi yǒu shōu dào guān yú bào dào shí jiān de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú rù zhí zī liào de hé shí jié guǒ de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě bào dào shí jiān",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí bào dào shí jiān"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你第一天到厂，需要告诉接待人员来意，应该怎么说？\n符合此任务的表达：您好我今天来报到。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“报到时间”的资料，怎样说明情况？\n合适的表达：我还没有收到关于报到时间的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于报到时间的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】同事问登记表应填写什么姓名，你想说明必须如实填写，应该怎么说？",
-      "pinyin": "tóng shì wèn dēng jì biǎo yīng tián xiě shén me xìng míng ， nǐ xiǎng shuō míng bì xū rú shí tián xiě ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“入职资料的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ rù zhí zī liào de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这是公司分配给我的工号",
-        "B": "正式上岗以前我需要先参加培训",
-        "C": "请问我应该在哪里签字",
-        "D": "登记表上需要填写真实姓名"
+        "A": "我还没有收到关于入职资料的核实结果的资料",
+        "B": "我这次只想核实入职资料的核实结果",
+        "C": "我还需要进一步了解入职资料的核实结果",
+        "D": "我还没有收到关于新员工接待安排的资料"
       },
       "optionPinyin": {
-        "A": "zhè shì gōng sī fēn pèi gěi wǒ de gōng hào",
-        "B": "zhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn",
-        "C": "qǐng wèn wǒ yīng gāi zài nǎ lǐ qiān zì",
-        "D": "dēng jì biǎo shàng xū yào tián xiě zhēn shí xìng míng"
+        "A": "wǒ hái méi yǒu shōu dào guān yú rù zhí zī liào de hé shí jié guǒ de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí rù zhí zī liào de hé shí jié guǒ",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě rù zhí zī liào de hé shí jié guǒ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú xīn yuán gōng jiē dài ān pái de zī liào"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：同事问登记表应填写什么姓名，你想说明必须如实填写，应该怎么说？\n符合此任务的表达：登记表上需要填写真实姓名。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“入职资料的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于入职资料的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于入职资料的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想确认入职所需的身份证明材料，应该怎么问？",
-      "pinyin": "nǐ xiǎng què rèn rù zhí suǒ xū de shēn fèn zhèng míng cái liào ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“新员工接待安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ xīn yuán gōng jiē dài ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果新员工接待安排有变化请及时通知我",
-        "B": "麻烦您帮我联系负责新员工报到的负责人",
-        "C": "登记表上需要填写真实姓名",
-        "D": "请问办理入职需要哪些证件"
+        "A": "我还没有收到关于新员工接待安排的资料",
+        "B": "我还需要进一步了解新员工接待安排",
+        "C": "我还没有收到关于入职登记的资料",
+        "D": "我这次只想核实新员工接待安排"
       },
       "optionPinyin": {
-        "A": "rú guǒ xīn yuán gōng jiē dài ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "má fán nín bāng wǒ lián xì fù zé xīn yuán gōng bào dào de fù zé rén",
-        "C": "dēng jì biǎo shàng xū yào tián xiě zhēn shí xìng míng",
-        "D": "qǐng wèn bàn lǐ rù zhí xū yào nǎ xiē zhèng jiàn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú xīn yuán gōng jiē dài ān pái de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě xīn yuán gōng jiē dài ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú rù zhí dēng jì de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí xīn yuán gōng jiē dài ān pái"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想确认入职所需的身份证明材料，应该怎么问？\n符合此任务的表达：请问办理入职需要哪些证件。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“新员工接待安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于新员工接待安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于新员工接待安排的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】组长问你入职办理情况，你尚未全部办完，应该怎么说？",
-      "pinyin": "zǔ zhǎng wèn nǐ rù zhí bàn lǐ qíng kuàng ， nǐ shàng wèi quán bù bàn wán ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“入职登记”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ rù zhí dēng jì ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我还没有办完入职手续",
-        "B": "正式上岗以前我需要先参加培训",
-        "C": "请帮我确认一下报到时间的具体要求",
-        "D": "请问我应该在哪里签字"
+        "A": "我还没有收到关于入职登记的资料",
+        "B": "我这次只想核实入职登记",
+        "C": "我还没有收到关于报到地点的资料",
+        "D": "我还需要进一步了解入职登记"
       },
       "optionPinyin": {
-        "A": "wǒ hái méi yǒu bàn wán rù zhí shǒu xù",
-        "B": "zhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn",
-        "C": "qǐng bāng wǒ què rèn yí xià bào dào shí jiān de jù tǐ yāo qiú",
-        "D": "qǐng wèn wǒ yīng gāi zài nǎ lǐ qiān zì"
+        "A": "wǒ hái méi yǒu shōu dào guān yú rù zhí dēng jì de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí rù zhí dēng jì",
+        "C": "wǒ hái méi yǒu shōu dào guān yú bào dào dì diǎn de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě rù zhí dēng jì"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：组长问你入职办理情况，你尚未全部办完，应该怎么说？\n符合此任务的表达：我还没有办完入职手续。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“入职登记”的资料，怎样说明情况？\n合适的表达：我还没有收到关于入职登记的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于入职登记的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想知道自己被分配的工作岗位，应该怎么问？",
-      "pinyin": "nǐ xiǎng zhī dào zì jǐ bèi fēn pèi de gōng zuò gǎng wèi ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“报到地点”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ bào dào dì diǎn ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "正式上岗以前我需要先参加培训",
-        "B": "如果新员工接待安排有变化请及时通知我",
-        "C": "请问我被安排在哪个岗位",
-        "D": "登记表上需要填写真实姓名"
+        "A": "我还没有收到关于报到时间的资料",
+        "B": "我还没有收到关于报到地点的资料",
+        "C": "我还需要进一步了解报到地点",
+        "D": "我这次只想核实报到地点"
       },
       "optionPinyin": {
-        "A": "zhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn",
-        "B": "rú guǒ xīn yuán gōng jiē dài ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "qǐng wèn wǒ bèi ān pái zài nǎ ge gǎng wèi",
-        "D": "dēng jì biǎo shàng xū yào tián xiě zhēn shí xìng míng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想知道自己被分配的工作岗位，应该怎么问？\n符合此任务的表达：请问我被安排在哪个岗位。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】同事问你的员工编号从哪里来，你想说明是公司分配的，应该怎么说？",
-      "pinyin": "tóng shì wèn nǐ de yuán gōng biān hào cóng nǎ lǐ lái ， nǐ xiǎng shuō míng shì gōng sī fēn pèi de ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这是公司分配给我的工号",
-        "B": "您好我今天来报到",
-        "C": "这些资料我已经准备好了",
-        "D": "正式上岗以前我需要先参加培训"
-      },
-      "optionPinyin": {
-        "A": "zhè shì gōng sī fēn pèi gěi wǒ de gōng hào",
-        "B": "nín hǎo wǒ jīn tiān lái bào dào",
-        "C": "zhè xiē zī liào wǒ yǐ jīng zhǔn bèi hǎo le",
-        "D": "zhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：同事问你的员工编号从哪里来，你想说明是公司分配的，应该怎么说？\n符合此任务的表达：这是公司分配给我的工号。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想说明不能立即上岗，还要先接受培训，应该怎么说？",
-      "pinyin": "nǐ xiǎng shuō míng bù néng lì jí shàng gǎng ， hái yào xiān jiē shòu péi xùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "您好我今天来报到",
-        "B": "如果新员工接待安排有变化请及时通知我",
-        "C": "正式上岗以前我需要先参加培训",
-        "D": "请问办理入职需要哪些证件"
-      },
-      "optionPinyin": {
-        "A": "nín hǎo wǒ jīn tiān lái bào dào",
-        "B": "rú guǒ xīn yuán gōng jiē dài ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "zhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn",
-        "D": "qǐng wèn bàn lǐ rù zhí xū yào nǎ xiē zhèng jiàn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想说明不能立即上岗，还要先接受培训，应该怎么说？\n符合此任务的表达：正式上岗以前我需要先参加培训。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】人事问资料是否齐全，你想表示已准备好，应该怎么回答？",
-      "pinyin": "rén shì wèn zī liào shì fǒu qí quán ， nǐ xiǎng biǎo shì yǐ zhǔn bèi hǎo ， yīng gāi zěn me huí dá ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "正式上岗以前我需要先参加培训",
-        "B": "请问办理入职需要哪些证件",
-        "C": "请告诉我谁负责入职登记",
-        "D": "这些资料我已经准备好了"
-      },
-      "optionPinyin": {
-        "A": "zhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn",
-        "B": "qǐng wèn bàn lǐ rù zhí xū yào nǎ xiē zhèng jiàn",
-        "C": "qǐng gào sù wǒ shuí fù zé rù zhí dēng jì",
-        "D": "zhè xiē zī liào wǒ yǐ jīng zhǔn bèi hǎo le"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：人事问资料是否齐全，你想表示已准备好，应该怎么回答？\n符合此任务的表达：这些资料我已经准备好了。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 29,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你不清楚签名的位置，应该怎么问？",
-      "pinyin": "nǐ bù qīng chǔ qiān míng de wèi zhì ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这些资料我已经准备好了",
-        "B": "请问我应该在哪里签字",
-        "C": "麻烦您帮我联系负责新员工报到的负责人",
-        "D": "请问办理入职需要哪些证件"
-      },
-      "optionPinyin": {
-        "A": "zhè xiē zī liào wǒ yǐ jīng zhǔn bèi hǎo le",
-        "B": "qǐng wèn wǒ yīng gāi zài nǎ lǐ qiān zì",
-        "C": "má fán nín bāng wǒ lián xì fù zé xīn yuán gōng bào dào de fù zé rén",
-        "D": "qǐng wèn bàn lǐ rù zhí xū yào nǎ xiē zhèng jiàn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú bào dào shí jiān de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú bào dào dì diǎn de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě bào dào dì diǎn",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí bào dào dì diǎn"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你不清楚签名的位置，应该怎么问？\n符合此任务的表达：请问我应该在哪里签字。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“报到地点”的资料，怎样说明情况？\n合适的表达：我还没有收到关于报到地点的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于报到地点的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“报到时间”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ bào dào shí jiān ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实报到时间",
+        "B": "我这次只想核实入职资料的核实结果",
+        "C": "我还需要进一步了解报到时间",
+        "D": "我还没有收到关于报到时间的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí bào dào shí jiān",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí rù zhí zī liào de hé shí jié guǒ",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě bào dào shí jiān",
+        "D": "wǒ hái méi yǒu shōu dào guān yú bào dào shí jiān de zī liào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“报到时间”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实报到时间。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实报到时间",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“入职资料的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ rù zhí zī liào de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实入职资料的核实结果",
+        "B": "我还需要进一步了解入职资料的核实结果",
+        "C": "我这次只想核实新员工接待安排",
+        "D": "我还没有收到关于入职资料的核实结果的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí rù zhí zī liào de hé shí jié guǒ",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě rù zhí zī liào de hé shí jié guǒ",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí xīn yuán gōng jiē dài ān pái",
+        "D": "wǒ hái méi yǒu shōu dào guān yú rù zhí zī liào de hé shí jié guǒ de zī liào"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“入职资料的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实入职资料的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实入职资料的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“新员工接待安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ xīn yuán gōng jiē dài ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实入职登记",
+        "B": "我还没有收到关于新员工接待安排的资料",
+        "C": "我还需要进一步了解新员工接待安排",
+        "D": "我这次只想核实新员工接待安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí rù zhí dēng jì",
+        "B": "wǒ hái méi yǒu shōu dào guān yú xīn yuán gōng jiē dài ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě xīn yuán gōng jiē dài ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí xīn yuán gōng jiē dài ān pái"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“新员工接待安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实新员工接待安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实新员工接待安排",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“入职登记”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ rù zhí dēng jì ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解入职登记",
+        "B": "我这次只想核实报到地点",
+        "C": "我还没有收到关于入职登记的资料",
+        "D": "我这次只想核实入职登记"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě rù zhí dēng jì",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí bào dào dì diǎn",
+        "C": "wǒ hái méi yǒu shōu dào guān yú rù zhí dēng jì de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí rù zhí dēng jì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“入职登记”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实入职登记。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实入职登记",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你需要找到负责接收新员工的人，应该怎么请求？",
-      "pinyin": "nǐ xū yào zhǎo dào fù zé jiē shōu xīn yuán gōng de rén ， yīng gāi zěn me qǐng qiú ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“报到地点”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ bào dào dì diǎn ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "关于入职资料的核实结果我还需要再核实一下",
-        "B": "请告诉我谁负责入职登记",
-        "C": "麻烦您帮我联系负责新员工报到的负责人",
-        "D": "登记表上需要填写真实姓名"
+        "A": "我还没有收到关于报到地点的资料",
+        "B": "我这次只想核实报到时间",
+        "C": "我这次只想核实报到地点",
+        "D": "我还需要进一步了解报到地点"
       },
       "optionPinyin": {
-        "A": "guān yú rù zhí zī liào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "qǐng gào sù wǒ shuí fù zé rù zhí dēng jì",
-        "C": "má fán nín bāng wǒ lián xì fù zé xīn yuán gōng bào dào de fù zé rén",
-        "D": "dēng jì biǎo shàng xū yào tián xiě zhēn shí xìng míng"
+        "A": "wǒ hái méi yǒu shōu dào guān yú bào dào dì diǎn de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí bào dào shí jiān",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí bào dào dì diǎn",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě bào dào dì diǎn"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你需要找到负责接收新员工的人，应该怎么请求？\n符合此任务的表达：麻烦您帮我联系负责新员工报到的负责人。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“报到地点”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实报到地点。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实报到地点",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 31,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“报到时间”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ bào dào shí jiān ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“报到时间”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ bào dào shí jiān ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请问办理入职需要哪些证件",
-        "B": "关于入职资料的核实结果我还需要再核实一下",
-        "C": "请帮我确认一下报到时间的具体要求",
-        "D": "正式上岗以前我需要先参加培训"
+        "A": "我还需要进一步了解报到时间",
+        "B": "我这次只想核实报到时间",
+        "C": "我还没有收到关于报到时间的资料",
+        "D": "我还需要进一步了解入职资料的核实结果"
       },
       "optionPinyin": {
-        "A": "qǐng wèn bàn lǐ rù zhí xū yào nǎ xiē zhèng jiàn",
-        "B": "guān yú rù zhí zī liào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "C": "qǐng bāng wǒ què rèn yí xià bào dào shí jiān de jù tǐ yāo qiú",
-        "D": "zhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě bào dào shí jiān",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí bào dào shí jiān",
+        "C": "wǒ hái méi yǒu shōu dào guān yú bào dào shí jiān de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě rù zhí zī liào de hé shí jié guǒ"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想请同事核实“报到时间”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下报到时间的具体要求。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“报到时间”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解报到时间。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解报到时间",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 32,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你尚未核实“入职资料的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ rù zhí zī liào de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“入职资料的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ rù zhí zī liào de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "关于入职资料的核实结果我还需要再核实一下",
-        "B": "如果新员工接待安排有变化请及时通知我",
-        "C": "这是公司分配给我的工号",
-        "D": "请问办理入职需要哪些证件"
+        "A": "我这次只想核实入职资料的核实结果",
+        "B": "我还没有收到关于入职资料的核实结果的资料",
+        "C": "我还需要进一步了解入职资料的核实结果",
+        "D": "我还需要进一步了解新员工接待安排"
       },
       "optionPinyin": {
-        "A": "guān yú rù zhí zī liào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "rú guǒ xīn yuán gōng jiē dài ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "zhè shì gōng sī fēn pèi gěi wǒ de gōng hào",
-        "D": "qǐng wèn bàn lǐ rù zhí xū yào nǎ xiē zhèng jiàn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí rù zhí zī liào de hé shí jié guǒ",
+        "B": "wǒ hái méi yǒu shōu dào guān yú rù zhí zī liào de hé shí jié guǒ de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě rù zhí zī liào de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě xīn yuán gōng jiē dài ān pái"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你尚未核实“入职资料的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于入职资料的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“入职资料的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解入职资料的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解入职资料的核实结果",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 33,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望“新员工接待安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ xīn yuán gōng jiē dài ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“新员工接待安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ xīn yuán gōng jiē dài ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果新员工接待安排有变化请及时通知我",
-        "B": "登记表上需要填写真实姓名",
-        "C": "这是公司分配给我的工号",
-        "D": "这些资料我已经准备好了"
+        "A": "我这次只想核实新员工接待安排",
+        "B": "我还需要进一步了解新员工接待安排",
+        "C": "我还需要进一步了解入职登记",
+        "D": "我还没有收到关于新员工接待安排的资料"
       },
       "optionPinyin": {
-        "A": "rú guǒ xīn yuán gōng jiē dài ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "dēng jì biǎo shàng xū yào tián xiě zhēn shí xìng míng",
-        "C": "zhè shì gōng sī fēn pèi gěi wǒ de gōng hào",
-        "D": "zhè xiē zī liào wǒ yǐ jīng zhǔn bèi hǎo le"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí xīn yuán gōng jiē dài ān pái",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě xīn yuán gōng jiē dài ān pái",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě rù zhí dēng jì",
+        "D": "wǒ hái méi yǒu shōu dào guān yú xīn yuán gōng jiē dài ān pái de zī liào"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望“新员工接待安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果新员工接待安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“新员工接待安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解新员工接待安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解新员工接待安排",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 34,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“入职登记”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ rù zhí dēng jì ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“入职登记”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ rù zhí dēng jì ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果新员工接待安排有变化请及时通知我",
-        "B": "我们先确认报到地点再继续沟通",
-        "C": "请告诉我谁负责入职登记",
-        "D": "请问我被安排在哪个岗位"
+        "A": "我还需要进一步了解入职登记",
+        "B": "我还需要进一步了解报到地点",
+        "C": "我这次只想核实入职登记",
+        "D": "我还没有收到关于入职登记的资料"
       },
       "optionPinyin": {
-        "A": "rú guǒ xīn yuán gōng jiē dài ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "wǒ men xiān què rèn bào dào dì diǎn zài jì xù gōu tōng",
-        "C": "qǐng gào sù wǒ shuí fù zé rù zhí dēng jì",
-        "D": "qǐng wèn wǒ bèi ān pái zài nǎ ge gǎng wèi"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě rù zhí dēng jì",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě bào dào dì diǎn",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí rù zhí dēng jì",
+        "D": "wǒ hái méi yǒu shōu dào guān yú rù zhí dēng jì de zī liào"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“入职登记”，应该怎么说？\n符合此任务的表达：请告诉我谁负责入职登记。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“入职登记”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解入职登记。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解入职登记",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 35,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望先确认“报到地点”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ bào dào dì diǎn ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“报到地点”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ bào dào dì diǎn ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "正式上岗以前我需要先参加培训",
-        "B": "请帮我确认一下报到时间的具体要求",
-        "C": "我们先确认报到地点再继续沟通",
-        "D": "登记表上需要填写真实姓名"
+        "A": "我这次只想核实报到地点",
+        "B": "我还需要进一步了解报到地点",
+        "C": "我还需要进一步了解报到时间",
+        "D": "我还没有收到关于报到地点的资料"
       },
       "optionPinyin": {
-        "A": "zhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn",
-        "B": "qǐng bāng wǒ què rèn yí xià bào dào shí jiān de jù tǐ yāo qiú",
-        "C": "wǒ men xiān què rèn bào dào dì diǎn zài jì xù gōu tōng",
-        "D": "dēng jì biǎo shàng xū yào tián xiě zhēn shí xìng míng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí bào dào dì diǎn",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě bào dào dì diǎn",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě bào dào shí jiān",
+        "D": "wǒ hái méi yǒu shōu dào guān yú bào dào dì diǎn de zī liào"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“报到地点”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认报到地点再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“报到地点”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解报到地点。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解报到地点",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n今天 / 来报到 / 您好 / 我",
-      "pinyin": "jīn tiān / lái bào dào / nín hǎo / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n把 / 请 / 发给我 / 关于报到时间的说明",
+      "pinyin": "bǎ / qǐng / fā gěi wǒ / guān yú bào dào shí jiān de shuō míng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "您好我今天来报到",
-        "您好我今天来报到。",
-        "您好我今天来报到.",
-        "您好我今天来报到？",
-        "您好我今天来报到?"
+        "请把关于报到时间的说明发给我。",
+        "请把关于报到时间的说明发给我",
+        "请把关于报到时间的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 8,
-      "explanation": "参考表达：您好我今天来报到。\nnín hǎo wǒ jīn tiān lái bào dào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 14,
+      "explanation": "参考句子：请把关于报到时间的说明发给我。\nqǐng bǎ guān yú bào dào shí jiān de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n登记表上 / 填写 / 需要 / 真实姓名",
-      "pinyin": "dēng jì biǎo shàng / tián xiě / xū yào / zhēn shí xìng míng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n核对过 / 入职资料的核实结果 / 已经 / 我们",
+      "pinyin": "hé duì guò / rù zhí zī liào de hé shí jié guǒ / yǐ jīng / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "登记表上需要填写真实姓名",
-        "登记表上需要填写真实姓名。",
-        "登记表上需要填写真实姓名.",
-        "登记表上需要填写真实姓名？",
-        "登记表上需要填写真实姓名?"
+        "我们已经核对过入职资料的核实结果。",
+        "我们已经核对过入职资料的核实结果",
+        "我们已经核对过入职资料的核实结果."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：登记表上需要填写真实姓名。\ndēng jì biǎo shàng xū yào tián xiě zhēn shí xìng míng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过入职资料的核实结果。\nwǒ men yǐ jīng hé duì guò rù zhí zī liào de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n哪些证件 / 办理入职 / 请问 / 需要",
-      "pinyin": "nǎ xiē zhèng jiàn / bàn lǐ rù zhí / qǐng wèn / xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 只有 / 先了解新员工接待安排 / 才能解释清楚",
+      "pinyin": "wǒ men / zhǐ yǒu / xiān liǎo jiě xīn yuán gōng jiē dài ān pái / cái néng jiě shì qīng chǔ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问办理入职需要哪些证件",
-        "请问办理入职需要哪些证件。",
-        "请问办理入职需要哪些证件.",
-        "请问办理入职需要哪些证件？",
-        "请问办理入职需要哪些证件?"
+        "只有先了解新员工接待安排我们才能解释清楚。",
+        "只有先了解新员工接待安排我们才能解释清楚",
+        "只有先了解新员工接待安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：请问办理入职需要哪些证件。\nqǐng wèn bàn lǐ rù zhí xū yào nǎ xiē zhèng jiàn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：只有先了解新员工接待安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě xīn yuán gōng jiē dài ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 办完 / 入职手续 / 还没有",
-      "pinyin": "wǒ / bàn wán / rù zhí shǒu xù / hái méi yǒu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n具体由谁负责 / 我 / 还想知道 / 不仅想了解入职登记",
+      "pinyin": "jù tǐ yóu shuí fù zé / wǒ / hái xiǎng zhī dào / bù jǐn xiǎng liǎo jiě rù zhí dēng jì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我还没有办完入职手续",
-        "我还没有办完入职手续。",
-        "我还没有办完入职手续.",
-        "我还没有办完入职手续？",
-        "我还没有办完入职手续?"
+        "我不仅想了解入职登记还想知道具体由谁负责。",
+        "我不仅想了解入职登记还想知道具体由谁负责",
+        "我不仅想了解入职登记还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 10,
-      "explanation": "参考表达：我还没有办完入职手续。\nwǒ hái méi yǒu bàn wán rù zhí shǒu xù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：我不仅想了解入职登记还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě rù zhí dēng jì hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n哪个岗位 / 请问 / 被安排在 / 我",
-      "pinyin": "nǎ ge gǎng wèi / qǐng wèn / bèi ān pái zài / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n讨论报到地点 / 请 / 先准备好相关记录 / 之前",
+      "pinyin": "tǎo lùn bào dào dì diǎn / qǐng / xiān zhǔn bèi hǎo xiāng guān jì lù / zhī qián",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问我被安排在哪个岗位",
-        "请问我被安排在哪个岗位。",
-        "请问我被安排在哪个岗位.",
-        "请问我被安排在哪个岗位？",
-        "请问我被安排在哪个岗位?"
+        "讨论报到地点之前请先准备好相关记录。",
+        "讨论报到地点之前请先准备好相关记录",
+        "讨论报到地点之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 11,
-      "explanation": "参考表达：请问我被安排在哪个岗位。\nqǐng wèn wǒ bèi ān pái zài nǎ ge gǎng wèi。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 17,
+      "explanation": "参考句子：讨论报到地点之前请先准备好相关记录。\ntǎo lùn bào dào dì diǎn zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这是 / 分配给我的 / 工号 / 公司",
-      "pinyin": "zhè shì / fēn pèi gěi wǒ de / gōng hào / gōng sī",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 有一个问题 / 关于报到时间 / 想请教您",
+      "pinyin": "wǒ / yǒu yí gè wèn tí / guān yú bào dào shí jiān / xiǎng qǐng jiào nín",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这是公司分配给我的工号",
-        "这是公司分配给我的工号。",
-        "这是公司分配给我的工号.",
-        "这是公司分配给我的工号？",
-        "这是公司分配给我的工号?"
+        "关于报到时间我有一个问题想请教您。",
+        "关于报到时间我有一个问题想请教您",
+        "关于报到时间我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 11,
-      "explanation": "参考表达：这是公司分配给我的工号。\nzhè shì gōng sī fēn pèi gěi wǒ de gōng hào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：关于报到时间我有一个问题想请教您。\nguān yú bào dào shí jiān wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 需要 / 正式上岗以前 / 先参加培训",
-      "pinyin": "wǒ / xū yào / zhèng shì shàng gǎng yǐ qián / xiān cān jiā péi xùn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n就 / 你还不清楚入职资料的核实结果 / 先向负责人询问 / 如果",
+      "pinyin": "jiù / nǐ hái bù qīng chǔ rù zhí zī liào de hé shí jié guǒ / xiān xiàng fù zé rén xún wèn / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "正式上岗以前我需要先参加培训",
-        "正式上岗以前我需要先参加培训。",
-        "正式上岗以前我需要先参加培训.",
-        "正式上岗以前我需要先参加培训？",
-        "正式上岗以前我需要先参加培训?",
-        "我正式上岗以前需要先参加培训",
-        "我正式上岗以前需要先参加培训。",
-        "我正式上岗以前需要先参加培训.",
-        "我正式上岗以前需要先参加培训？",
-        "我正式上岗以前需要先参加培训?"
+        "如果你还不清楚入职资料的核实结果就先向负责人询问。",
+        "如果你还不清楚入职资料的核实结果就先向负责人询问",
+        "如果你还不清楚入职资料的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：正式上岗以前我需要先参加培训。\nzhèng shì shàng gǎng yǐ qián wǒ xū yào xiān cān jiā péi xùn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚入职资料的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ rù zhí zī liào de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 已经 / 这些资料 / 准备好了",
-      "pinyin": "wǒ / yǐ jīng / zhè xiē zī liào / zhǔn bèi hǎo le",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还需要核实细节 / 我们已经讨论过新员工接待安排 / 虽然 / 但是",
+      "pinyin": "hái xū yào hé shí xì jié / wǒ men yǐ jīng tǎo lùn guò xīn yuán gōng jiē dài ān pái / suī rán / dàn shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这些资料我已经准备好了",
-        "这些资料我已经准备好了。",
-        "这些资料我已经准备好了.",
-        "这些资料我已经准备好了？",
-        "这些资料我已经准备好了?"
+        "虽然我们已经讨论过新员工接待安排但是还需要核实细节。",
+        "虽然我们已经讨论过新员工接待安排但是还需要核实细节",
+        "虽然我们已经讨论过新员工接待安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 11,
-      "explanation": "参考表达：这些资料我已经准备好了。\nzhè xiē zī liào wǒ yǐ jīng zhǔn bèi hǎo le。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 25,
+      "explanation": "参考句子：虽然我们已经讨论过新员工接待安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò xīn yuán gōng jiē dài ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 哪里签字 / 应该在 / 请问",
-      "pinyin": "wǒ / nǎ lǐ qiān zì / yīng gāi zài / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n与其 / 反复猜测入职登记 / 查阅相关文件 / 不如",
+      "pinyin": "yǔ qí / fǎn fù cāi cè rù zhí dēng jì / chá yuè xiāng guān wén jiàn / bù rú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问我应该在哪里签字",
-        "请问我应该在哪里签字。",
-        "请问我应该在哪里签字.",
-        "请问我应该在哪里签字？",
-        "请问我应该在哪里签字?"
+        "与其反复猜测入职登记不如查阅相关文件。",
+        "与其反复猜测入职登记不如查阅相关文件",
+        "与其反复猜测入职登记不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 10,
-      "explanation": "参考表达：请问我应该在哪里签字。\nqǐng wèn wǒ yīng gāi zài nǎ lǐ qiān zì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：与其反复猜测入职登记不如查阅相关文件。\nyǔ qí fǎn fù cāi cè rù zhí dēng jì bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n帮我联系 / 负责人 / 负责新员工报到的 / 麻烦您",
-      "pinyin": "bāng wǒ lián xì / fù zé rén / fù zé xīn yuán gōng bào dào de / má fán nín",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n为了 / 我 / 准确说明报到地点 / 重新整理了资料",
+      "pinyin": "wèi le / wǒ / zhǔn què shuō míng bào dào dì diǎn / chóng xīn zhěng lǐ le zī liào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦您帮我联系负责新员工报到的负责人",
-        "麻烦您帮我联系负责新员工报到的负责人。",
-        "麻烦您帮我联系负责新员工报到的负责人.",
-        "麻烦您帮我联系负责新员工报到的负责人？",
-        "麻烦您帮我联系负责新员工报到的负责人?"
+        "为了准确说明报到地点我重新整理了资料。",
+        "为了准确说明报到地点我重新整理了资料",
+        "为了准确说明报到地点我重新整理了资料."
       ],
       "points": 2,
       "hanziCount": 18,
-      "explanation": "参考表达：麻烦您帮我联系负责新员工报到的负责人。\nmá fán nín bāng wǒ lián xì fù zé xīn yuán gōng bào dào de fù zé rén。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "explanation": "参考句子：为了准确说明报到地点我重新整理了资料。\nwèi le zhǔn què shuō míng bào dào dì diǎn wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 的具体要求 / 帮我确认一下 / 报到时间",
-      "pinyin": "qǐng / de jù tǐ yāo qiú / bāng wǒ què rèn yí xià / bào dào shí jiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有疑问的话 / 可以提出来 / 对报到时间 / 大家",
+      "pinyin": "yǒu yí wèn de huà / kě yǐ tí chū lái / duì bào dào shí jiān / dà jiā",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下报到时间的具体要求",
-        "请帮我确认一下报到时间的具体要求。",
-        "请帮我确认一下报到时间的具体要求.",
-        "请帮我确认一下报到时间的具体要求？",
-        "请帮我确认一下报到时间的具体要求?"
+        "大家对报到时间有疑问的话可以提出来。",
+        "大家对报到时间有疑问的话可以提出来",
+        "大家对报到时间有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：请帮我确认一下报到时间的具体要求。\nqǐng bāng wǒ què rèn yí xià bào dào shí jiān de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 17,
+      "explanation": "参考句子：大家对报到时间有疑问的话可以提出来。\ndà jiā duì bào dào shí jiān yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 入职资料的核实结果 / 再核实一下 / 关于 / 还需要",
-      "pinyin": "wǒ / rù zhí zī liào de hé shí jié guǒ / zài hé shí yí xià / guān yú / hái xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 再 / 先说明入职资料的核实结果 / 回答大家的问题",
+      "pinyin": "qǐng / zài / xiān shuō míng rù zhí zī liào de hé shí jié guǒ / huí dá dà jiā de wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于入职资料的核实结果我还需要再核实一下",
-        "关于入职资料的核实结果我还需要再核实一下。",
-        "关于入职资料的核实结果我还需要再核实一下.",
-        "关于入职资料的核实结果我还需要再核实一下？",
-        "关于入职资料的核实结果我还需要再核实一下?"
+        "请先说明入职资料的核实结果再回答大家的问题。",
+        "请先说明入职资料的核实结果再回答大家的问题",
+        "请先说明入职资料的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于入职资料的核实结果我还需要再核实一下。\nguān yú rù zhí zī liào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明入职资料的核实结果再回答大家的问题。\nqǐng xiān shuō míng rù zhí zī liào de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n及时通知我 / 新员工接待安排 / 请 / 如果 / 有变化",
-      "pinyin": "jí shí tōng zhī wǒ / xīn yuán gōng jiē dài ān pái / qǐng / rú guǒ / yǒu biàn huà",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n无论 / 都 / 谁来说明新员工接待安排 / 应该以有效文件为依据",
+      "pinyin": "wú lùn / dōu / shuí lái shuō míng xīn yuán gōng jiē dài ān pái / yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果新员工接待安排有变化请及时通知我",
-        "如果新员工接待安排有变化请及时通知我。",
-        "如果新员工接待安排有变化请及时通知我.",
-        "如果新员工接待安排有变化请及时通知我？",
-        "如果新员工接待安排有变化请及时通知我?"
+        "无论谁来说明新员工接待安排都应该以有效文件为依据。",
+        "无论谁来说明新员工接待安排都应该以有效文件为依据",
+        "无论谁来说明新员工接待安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：如果新员工接待安排有变化请及时通知我。\nrú guǒ xīn yuán gōng jiē dài ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：无论谁来说明新员工接待安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng xīn yuán gōng jiē dài ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n谁 / 请 / 负责 / 告诉我 / 入职登记",
-      "pinyin": "shuí / qǐng / fù zé / gào sù wǒ / rù zhí dēng jì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 逐项记录清楚 / 入职登记 / 涉及的问题",
+      "pinyin": "xū yào / zhú xiàng jì lù qīng chǔ / rù zhí dēng jì / shè jí de wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责入职登记",
-        "请告诉我谁负责入职登记。",
-        "请告诉我谁负责入职登记.",
-        "请告诉我谁负责入职登记？",
-        "请告诉我谁负责入职登记?"
+        "入职登记涉及的问题需要逐项记录清楚。",
+        "入职登记涉及的问题需要逐项记录清楚",
+        "入职登记涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 11,
-      "explanation": "参考表达：请告诉我谁负责入职登记。\nqǐng gào sù wǒ shuí fù zé rù zhí dēng jì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 17,
+      "explanation": "参考句子：入职登记涉及的问题需要逐项记录清楚。\nrù zhí dēng jì shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n继续沟通 / 确认 / 我们 / 再 / 先 / 报到地点",
-      "pinyin": "jì xù gōu tōng / què rèn / wǒ men / zài / xiān / bào dào dì diǎn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再补充相关记录 / 我们 / 报到地点确认以后 / 等",
+      "pinyin": "zài bǔ chōng xiāng guān jì lù / wǒ men / bào dào dì diǎn què rèn yǐ hòu / děng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认报到地点再继续沟通",
-        "我们先确认报到地点再继续沟通。",
-        "我们先确认报到地点再继续沟通.",
-        "我们先确认报到地点再继续沟通？",
-        "我们先确认报到地点再继续沟通?"
+        "等报到地点确认以后我们再补充相关记录。",
+        "等报到地点确认以后我们再补充相关记录",
+        "等报到地点确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：我们先确认报到地点再继续沟通。\nwǒ men xiān què rèn bào dào dì diǎn zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：等报到地点确认以后我们再补充相关记录。\nděng bào dào dì diǎn què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

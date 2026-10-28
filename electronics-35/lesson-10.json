@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第10课 认识电子产品和零部件",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“电路板”的正确读音。",
+      "text": "【拼音选择】请选择“二极管”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "diàn lù bǎn",
-        "B": "biàn lù bǎn",
-        "C": "diàn nù bǎn",
-        "D": "diàn lù bǎng"
+        "A": "èr jí guǎng",
+        "B": "èr jí guǎn",
+        "C": "è jí guǎn",
+        "D": "èr qí guǎn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“电路板”读作 diàn lù bǎn，本课词义：bo mạch。"
+      "explanation": "“二极管”读作 èr jí guǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "二极管"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“连接器”的正确读音。",
+      "text": "【拼音选择】请选择“三极管”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lián qiē qì",
-        "B": "lián jiē jì",
-        "C": "lián jiē qì",
-        "D": "nián jiē qì"
+        "A": "sāng jí guǎn",
+        "B": "sān jí guǎn",
+        "C": "sān qí guǎn",
+        "D": "shān jí guǎn"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“连接器”读作 lián jiē qì，本课词义：đầu nối。"
+      "explanation": "“三极管”读作 sān jí guǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "三极管"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“外壳”的正确读音。",
+      "text": "【拼音选择】请选择“芯片”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wèi ké",
-        "B": "bài ké",
-        "C": "cài ké",
-        "D": "wài ké"
+        "A": "bīn piàn",
+        "B": "qīn piàn",
+        "C": "xīn piàn",
+        "D": "xīng piàn"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“外壳”读作 wài ké，本课词义：vỏ。"
+      "explanation": "“芯片”读作 xīn piàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "芯片"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“螺丝”的正确读音。",
+      "text": "【拼音选择】请选择“插座”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cuó sī",
-        "B": "luó sī",
-        "C": "luó shī",
-        "D": "nuó sī"
+        "A": "chā zhuò",
+        "B": "chuā zuò",
+        "C": "cā zuò",
+        "D": "chā zuò"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“螺丝”读作 luó sī，本课词义：vít。"
+      "explanation": "“插座”读作 chā zuò。注意声母、韵母、声调及轻声。",
+      "targetWord": "插座"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“电阻”的正确读音。",
+      "text": "【拼音选择】请选择“排线”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "diàn zǔ",
-        "B": "diào zǔ",
-        "C": "biàn zǔ",
-        "D": "diàn zhǔ"
+        "A": "pái xiàn",
+        "B": "pái xiàng",
+        "C": "pái qiàn",
+        "D": "péi xiàn"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“电阻”读作 diàn zǔ，本课词义：điện trở。"
+      "explanation": "“排线”读作 pái xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "排线"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“电容”的正确读音。",
+      "text": "【拼音选择】请选择“导线”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "diàn róng",
-        "B": "biàn róng",
-        "C": "diào róng",
-        "D": "duàn róng"
+        "A": "dǒu xiàn",
+        "B": "dǎo xiàn",
+        "C": "dǎo xiàng",
+        "D": "dǎo qiàn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“电容”读作 diàn róng，本课词义：tụ điện。"
+      "explanation": "“导线”读作 dǎo xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "导线"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“线束”的正确读音。",
+      "text": "【拼音选择】请选择“开关”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiàn shù",
-        "B": "qiàn shù",
-        "C": "xiàng shù",
-        "D": "xiàn sù"
+        "A": "kāi guāng",
+        "B": "kēi guān",
+        "C": "kāi guān",
+        "D": "bāi guān"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“线束”读作 xiàn shù，本课词义：bó dây điện。"
+      "explanation": "“开关”读作 kāi guān。注意声母、韵母、声调及轻声。",
+      "targetWord": "开关"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“屏幕”的正确读音。",
+      "text": "【拼音选择】请选择“电池”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "míng mù",
-        "B": "píng mù",
-        "C": "pín mù",
-        "D": "líng mù"
+        "A": "diàn cí",
+        "B": "diào chí",
+        "C": "diàn chí",
+        "D": "biàn chí"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“屏幕”读作 píng mù，本课词义：màn hình。"
+      "explanation": "“电池”读作 diàn chí。注意声母、韵母、声调及轻声。",
+      "targetWord": "电池"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“按键”的正确读音。",
+      "text": "【拼音选择】请选择“显示屏”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "àn jiàn",
-        "B": "àn jiàng",
-        "C": "àng jiàn",
-        "D": "àn qiàn"
+        "A": "xiǎn shì píng",
+        "B": "xiǎn sì píng",
+        "C": "xiǎng shì píng",
+        "D": "qiǎn shì píng"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“按键”读作 àn jiàn，本课词义：nút bấm。"
+      "explanation": "“显示屏”读作 xiǎn shì píng。注意声母、韵母、声调及轻声。",
+      "targetWord": "显示屏"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“零部件”的正确读音。",
+      "text": "【拼音选择】请选择“触点”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "líng bù jiàng",
-        "B": "líng bù jiàn",
-        "C": "líng bù qiàn",
-        "D": "níng bù jiàn"
+        "A": "chuì diǎn",
+        "B": "cù diǎn",
+        "C": "chuà diǎn",
+        "D": "chù diǎn"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“零部件”读作 líng bù jiàn，本课词义：linh kiện, bộ phận。"
+      "explanation": "“触点”读作 chù diǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "触点"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“电路板”（bo mạch）。完整表达：请问这块电路板属于哪个产品型号。"
+      "explanation": "应填“电路板”（bo mạch）。完整表达：请问这块电路板属于哪个产品型号。",
+      "targetWord": "电路板",
+      "completeSentence": "请问这块电路板属于哪个产品型号。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“连接器”（đầu nối）。完整表达：这个连接器外观有异常请协助确认。"
+      "explanation": "应填“连接器”（đầu nối）。完整表达：这个连接器外观有异常请协助确认。",
+      "targetWord": "连接器",
+      "completeSentence": "这个连接器外观有异常请协助确认。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“外壳”（vỏ）。完整表达：这批外壳颜色不一致我已经报告了。"
+      "explanation": "应填“外壳”（vỏ）。完整表达：这批外壳颜色不一致我已经报告了。",
+      "targetWord": "外壳",
+      "completeSentence": "这批外壳颜色不一致我已经报告了。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“螺丝”（vít）。完整表达：请问这款产品需要使用哪一种螺丝。"
+      "explanation": "应填“螺丝”（vít）。完整表达：请问这款产品需要使用哪一种螺丝。",
+      "targetWord": "螺丝",
+      "completeSentence": "请问这款产品需要使用哪一种螺丝。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“电阻”（điện trở）。完整表达：请按物料清单核对电阻的料号。"
+      "explanation": "应填“电阻”（điện trở）。完整表达：请按物料清单核对电阻的料号。",
+      "targetWord": "电阻",
+      "completeSentence": "请按物料清单核对电阻的料号。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“电容”（tụ điện）。完整表达：这包电容标签不清楚需要先核实。"
+      "explanation": "应填“电容”（tụ điện）。完整表达：这包电容标签不清楚需要先核实。",
+      "targetWord": "电容",
+      "completeSentence": "这包电容标签不清楚需要先核实。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“线束”（bó dây điện）。完整表达：请确认这套线束是否与工单一致。"
+      "explanation": "应填“线束”（bó dây điện）。完整表达：请确认这套线束是否与工单一致。",
+      "targetWord": "线束",
+      "completeSentence": "请确认这套线束是否与工单一致。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“屏幕”（màn hình）。完整表达：这块屏幕表面有划痕请做好标记。"
+      "explanation": "应填“屏幕”（màn hình）。完整表达：这块屏幕表面有划痕请做好标记。",
+      "targetWord": "屏幕",
+      "completeSentence": "这块屏幕表面有划痕请做好标记。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“按键”（nút bấm）。完整表达：这个按键按下以后没有正常回弹。"
+      "explanation": "应填“按键”（nút bấm）。完整表达：这个按键按下以后没有正常回弹。",
+      "targetWord": "按键",
+      "completeSentence": "这个按键按下以后没有正常回弹。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“零部件”（linh kiện, bộ phận）。完整表达：不同型号的零部件请分开存放。"
+      "explanation": "应填“零部件”（linh kiện, bộ phận）。完整表达：不同型号的零部件请分开存放。",
+      "targetWord": "零部件",
+      "completeSentence": "不同型号的零部件请分开存放。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想确认电路板对应的产品型号，应该怎么问？",
-      "pinyin": "nǐ xiǎng què rèn diàn lù bǎn duì yìng de chǎn pǐn xíng hào ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“电子部件识别要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ diàn zi bù jiàn shí bié yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果零部件展示安排有变化请及时通知我",
-        "B": "请确认这套线束是否与工单一致",
-        "C": "请问这款产品需要使用哪一种螺丝",
-        "D": "请问这块电路板属于哪个产品型号"
+        "A": "我还没有收到关于部件型号的核实结果的资料",
+        "B": "我还需要进一步了解电子部件识别要求",
+        "C": "我这次只想核实电子部件识别要求",
+        "D": "我还没有收到关于电子部件识别要求的资料"
       },
       "optionPinyin": {
-        "A": "rú guǒ líng bù jiàn zhǎn shì ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "qǐng què rèn zhè tào xiàn shù shì fǒu yǔ gōng dān yī zhì",
-        "C": "qǐng wèn zhè kuǎn chǎn pǐn xū yào shǐ yòng nǎ yī zhǒng luó sī",
-        "D": "qǐng wèn zhè kuài diàn lù bǎn shǔ yú nǎ ge chǎn pǐn xíng hào"
+        "A": "wǒ hái méi yǒu shōu dào guān yú bù jiàn xíng hào de hé shí jié guǒ de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě diàn zi bù jiàn shí bié yāo qiú",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí diàn zi bù jiàn shí bié yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú diàn zi bù jiàn shí bié yāo qiú de zī liào"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你想确认电路板对应的产品型号，应该怎么问？\n符合此任务的表达：请问这块电路板属于哪个产品型号。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“电子部件识别要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于电子部件识别要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于电子部件识别要求的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你发现连接器外观异常，需要协助判断，应该怎么说？",
-      "pinyin": "nǐ fā xiàn lián jiē qì wài guān yì cháng ， xū yào xié zhù pàn duàn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“部件型号的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ bù jiàn xíng hào de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果零部件展示安排有变化请及时通知我",
-        "B": "请问这款产品需要使用哪一种螺丝",
-        "C": "这个连接器外观有异常请协助确认",
-        "D": "这包电容标签不清楚需要先核实"
+        "A": "我还没有收到关于部件型号的核实结果的资料",
+        "B": "我这次只想核实部件型号的核实结果",
+        "C": "我还没有收到关于零部件展示安排的资料",
+        "D": "我还需要进一步了解部件型号的核实结果"
       },
       "optionPinyin": {
-        "A": "rú guǒ líng bù jiàn zhǎn shì ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "qǐng wèn zhè kuǎn chǎn pǐn xū yào shǐ yòng nǎ yī zhǒng luó sī",
-        "C": "zhè ge lián jiē qì wài guān yǒu yì cháng qǐng xié zhù què rèn",
-        "D": "zhè bāo diàn róng biāo qiān bù qīng chǔ xū yào xiān hé shí"
+        "A": "wǒ hái méi yǒu shōu dào guān yú bù jiàn xíng hào de hé shí jié guǒ de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí bù jiàn xíng hào de hé shí jié guǒ",
+        "C": "wǒ hái méi yǒu shōu dào guān yú líng bù jiàn zhǎn shì ān pái de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě bù jiàn xíng hào de hé shí jié guǒ"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你发现连接器外观异常，需要协助判断，应该怎么说？\n符合此任务的表达：这个连接器外观有异常请协助确认。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“部件型号的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于部件型号的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于部件型号的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要说明这批产品外壳有色差且已上报，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng zhè pī chǎn pǐn wài ké yǒu sè chà qiě yǐ shàng bào ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“零部件展示安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ líng bù jiàn zhǎn shì ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认产品零件清单再继续沟通",
-        "B": "如果零部件展示安排有变化请及时通知我",
-        "C": "请告诉我谁负责部件信息维护",
-        "D": "这批外壳颜色不一致我已经报告了"
+        "A": "我这次只想核实零部件展示安排",
+        "B": "我还没有收到关于部件信息维护的资料",
+        "C": "我还需要进一步了解零部件展示安排",
+        "D": "我还没有收到关于零部件展示安排的资料"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn chǎn pǐn líng jiàn qīng dān zài jì xù gōu tōng",
-        "B": "rú guǒ líng bù jiàn zhǎn shì ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "qǐng gào sù wǒ shuí fù zé bù jiàn xìn xī wéi hù",
-        "D": "zhè pī wài ké yán sè bù yí zhì wǒ yǐ jīng bào gào le"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí líng bù jiàn zhǎn shì ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú bù jiàn xìn xī wéi hù de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě líng bù jiàn zhǎn shì ān pái",
+        "D": "wǒ hái méi yǒu shōu dào guān yú líng bù jiàn zhǎn shì ān pái de zī liào"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你要说明这批产品外壳有色差且已上报，应该怎么说？\n符合此任务的表达：这批外壳颜色不一致我已经报告了。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“零部件展示安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于零部件展示安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于零部件展示安排的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想确认该产品所用紧固件种类，应该怎么问？",
-      "pinyin": "nǐ xiǎng què rèn gāi chǎn pǐn suǒ yòng jǐn gù jiàn zhǒng lèi ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“部件信息维护”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ bù jiàn xìn xī wéi hù ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果零部件展示安排有变化请及时通知我",
-        "B": "请问这款产品需要使用哪一种螺丝",
-        "C": "请确认这套线束是否与工单一致",
-        "D": "这个连接器外观有异常请协助确认"
+        "A": "我这次只想核实部件信息维护",
+        "B": "我还没有收到关于部件信息维护的资料",
+        "C": "我还没有收到关于产品零件清单的资料",
+        "D": "我还需要进一步了解部件信息维护"
       },
       "optionPinyin": {
-        "A": "rú guǒ líng bù jiàn zhǎn shì ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "qǐng wèn zhè kuǎn chǎn pǐn xū yào shǐ yòng nǎ yī zhǒng luó sī",
-        "C": "qǐng què rèn zhè tào xiàn shù shì fǒu yǔ gōng dān yī zhì",
-        "D": "zhè ge lián jiē qì wài guān yǒu yì cháng qǐng xié zhù què rèn"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí bù jiàn xìn xī wéi hù",
+        "B": "wǒ hái méi yǒu shōu dào guān yú bù jiàn xìn xī wéi hù de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn líng jiàn qīng dān de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě bù jiàn xìn xī wéi hù"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你想确认该产品所用紧固件种类，应该怎么问？\n符合此任务的表达：请问这款产品需要使用哪一种螺丝。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“部件信息维护”的资料，怎样说明情况？\n合适的表达：我还没有收到关于部件信息维护的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于部件信息维护的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想提醒同事按清单确认电阻编号，应该怎么说？",
-      "pinyin": "nǐ xiǎng tí xǐng tóng shì àn qīng dān què rèn diàn zǔ biān hào ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“产品零件清单”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ chǎn pǐn líng jiàn qīng dān ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请按物料清单核对电阻的料号",
-        "B": "不同型号的零部件请分开存放",
-        "C": "我们先确认产品零件清单再继续沟通",
-        "D": "请确认这套线束是否与工单一致"
+        "A": "我还没有收到关于产品零件清单的资料",
+        "B": "我这次只想核实产品零件清单",
+        "C": "我还需要进一步了解产品零件清单",
+        "D": "我还没有收到关于电子部件识别要求的资料"
       },
       "optionPinyin": {
-        "A": "qǐng àn wù liào qīng dān hé duì diàn zǔ de liào hào",
-        "B": "bù tóng xíng hào de líng bù jiàn qǐng fēn kāi cún fàng",
-        "C": "wǒ men xiān què rèn chǎn pǐn líng jiàn qīng dān zài jì xù gōu tōng",
-        "D": "qǐng què rèn zhè tào xiàn shù shì fǒu yǔ gōng dān yī zhì"
+        "A": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn líng jiàn qīng dān de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn líng jiàn qīng dān",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn líng jiàn qīng dān",
+        "D": "wǒ hái méi yǒu shōu dào guān yú diàn zi bù jiàn shí bié yāo qiú de zī liào"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想提醒同事按清单确认电阻编号，应该怎么说？\n符合此任务的表达：请按物料清单核对电阻的料号。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“产品零件清单”的资料，怎样说明情况？\n合适的表达：我还没有收到关于产品零件清单的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于产品零件清单的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】电容包装标签看不清，你想说明应先核实，应该怎么说？",
-      "pinyin": "diàn róng bāo zhuāng biāo qiān kàn bù qīng ， nǐ xiǎng shuō míng yīng xiān hé shí ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“电子部件识别要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ diàn zi bù jiàn shí bié yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请按物料清单核对电阻的料号",
-        "B": "请问这款产品需要使用哪一种螺丝",
-        "C": "不同型号的零部件请分开存放",
-        "D": "这包电容标签不清楚需要先核实"
+        "A": "我这次只想核实电子部件识别要求",
+        "B": "我这次只想核实部件型号的核实结果",
+        "C": "我还没有收到关于电子部件识别要求的资料",
+        "D": "我还需要进一步了解电子部件识别要求"
       },
       "optionPinyin": {
-        "A": "qǐng àn wù liào qīng dān hé duì diàn zǔ de liào hào",
-        "B": "qǐng wèn zhè kuǎn chǎn pǐn xū yào shǐ yòng nǎ yī zhǒng luó sī",
-        "C": "bù tóng xíng hào de líng bù jiàn qǐng fēn kāi cún fàng",
-        "D": "zhè bāo diàn róng biāo qiān bù qīng chǔ xū yào xiān hé shí"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí diàn zi bù jiàn shí bié yāo qiú",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí bù jiàn xíng hào de hé shí jié guǒ",
+        "C": "wǒ hái méi yǒu shōu dào guān yú diàn zi bù jiàn shí bié yāo qiú de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě diàn zi bù jiàn shí bié yāo qiú"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "交际任务：电容包装标签看不清，你想说明应先核实，应该怎么说？\n符合此任务的表达：这包电容标签不清楚需要先核实。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“电子部件识别要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实电子部件识别要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实电子部件识别要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想核实线束和工单要求是否匹配，应该怎么说？",
-      "pinyin": "nǐ xiǎng hé shí xiàn shù hé gōng dān yāo qiú shì fǒu pǐ pèi ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“部件型号的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ bù jiàn xíng hào de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果零部件展示安排有变化请及时通知我",
-        "B": "请确认这套线束是否与工单一致",
-        "C": "请按物料清单核对电阻的料号",
-        "D": "这个连接器外观有异常请协助确认"
+        "A": "我还需要进一步了解部件型号的核实结果",
+        "B": "我这次只想核实零部件展示安排",
+        "C": "我这次只想核实部件型号的核实结果",
+        "D": "我还没有收到关于部件型号的核实结果的资料"
       },
       "optionPinyin": {
-        "A": "rú guǒ líng bù jiàn zhǎn shì ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "qǐng què rèn zhè tào xiàn shù shì fǒu yǔ gōng dān yī zhì",
-        "C": "qǐng àn wù liào qīng dān hé duì diàn zǔ de liào hào",
-        "D": "zhè ge lián jiē qì wài guān yǒu yì cháng qǐng xié zhù què rèn"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě bù jiàn xíng hào de hé shí jié guǒ",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí líng bù jiàn zhǎn shì ān pái",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí bù jiàn xíng hào de hé shí jié guǒ",
+        "D": "wǒ hái méi yǒu shōu dào guān yú bù jiàn xíng hào de hé shí jié guǒ de zī liào"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想核实线束和工单要求是否匹配，应该怎么说？\n符合此任务的表达：请确认这套线束是否与工单一致。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“部件型号的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实部件型号的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实部件型号的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你发现显示部件表面有划痕，想要求标记，应该怎么说？",
-      "pinyin": "nǐ fā xiàn xiǎn shì bù jiàn biǎo miàn yǒu huà hén ， xiǎng yào qiú biāo jì ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“零部件展示安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ líng bù jiàn zhǎn shì ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这包电容标签不清楚需要先核实",
-        "B": "关于部件型号的核实结果我还需要再核实一下",
-        "C": "这个连接器外观有异常请协助确认",
-        "D": "这块屏幕表面有划痕请做好标记"
+        "A": "我这次只想核实部件信息维护",
+        "B": "我这次只想核实零部件展示安排",
+        "C": "我还需要进一步了解零部件展示安排",
+        "D": "我还没有收到关于零部件展示安排的资料"
       },
       "optionPinyin": {
-        "A": "zhè bāo diàn róng biāo qiān bù qīng chǔ xū yào xiān hé shí",
-        "B": "guān yú bù jiàn xíng hào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "C": "zhè ge lián jiē qì wài guān yǒu yì cháng qǐng xié zhù què rèn",
-        "D": "zhè kuài píng mù biǎo miàn yǒu huà hén qǐng zuò hǎo biāo jì"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí bù jiàn xìn xī wéi hù",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí líng bù jiàn zhǎn shì ān pái",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě líng bù jiàn zhǎn shì ān pái",
+        "D": "wǒ hái méi yǒu shōu dào guān yú líng bù jiàn zhǎn shì ān pái de zī liào"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你发现显示部件表面有划痕，想要求标记，应该怎么说？\n符合此任务的表达：这块屏幕表面有划痕请做好标记。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“零部件展示安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实零部件展示安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实零部件展示安排",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想说明按键不能正常弹回的现象，应该怎么说？",
-      "pinyin": "nǐ xiǎng shuō míng àn jiàn bù néng zhèng cháng dàn huí de xiàn xiàng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“部件信息维护”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ bù jiàn xìn xī wéi hù ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这个按键按下以后没有正常回弹",
-        "B": "我们先确认产品零件清单再继续沟通",
-        "C": "请问这块电路板属于哪个产品型号",
-        "D": "不同型号的零部件请分开存放"
+        "A": "我这次只想核实产品零件清单",
+        "B": "我还需要进一步了解部件信息维护",
+        "C": "我这次只想核实部件信息维护",
+        "D": "我还没有收到关于部件信息维护的资料"
       },
       "optionPinyin": {
-        "A": "zhè ge àn jiàn àn xià yǐ hòu méi yǒu zhèng cháng huí tán",
-        "B": "wǒ men xiān què rèn chǎn pǐn líng jiàn qīng dān zài jì xù gōu tōng",
-        "C": "qǐng wèn zhè kuài diàn lù bǎn shǔ yú nǎ ge chǎn pǐn xíng hào",
-        "D": "bù tóng xíng hào de líng bù jiàn qǐng fēn kāi cún fàng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn líng jiàn qīng dān",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě bù jiàn xìn xī wéi hù",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí bù jiàn xìn xī wéi hù",
+        "D": "wǒ hái méi yǒu shōu dào guān yú bù jiàn xìn xī wéi hù de zī liào"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想说明按键不能正常弹回的现象，应该怎么说？\n符合此任务的表达：这个按键按下以后没有正常回弹。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“部件信息维护”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实部件信息维护。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实部件信息维护",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想提醒不同机型的配件应分类保存，应该怎么说？",
-      "pinyin": "nǐ xiǎng tí xǐng bù tóng jī xíng de pèi jiàn yīng fèn lèi bǎo cún ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“产品零件清单”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ chǎn pǐn líng jiàn qīng dān ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这个连接器外观有异常请协助确认",
-        "B": "不同型号的零部件请分开存放",
-        "C": "这块屏幕表面有划痕请做好标记",
-        "D": "关于部件型号的核实结果我还需要再核实一下"
+        "A": "我这次只想核实产品零件清单",
+        "B": "我这次只想核实电子部件识别要求",
+        "C": "我还没有收到关于产品零件清单的资料",
+        "D": "我还需要进一步了解产品零件清单"
       },
       "optionPinyin": {
-        "A": "zhè ge lián jiē qì wài guān yǒu yì cháng qǐng xié zhù què rèn",
-        "B": "bù tóng xíng hào de líng bù jiàn qǐng fēn kāi cún fàng",
-        "C": "zhè kuài píng mù biǎo miàn yǒu huà hén qǐng zuò hǎo biāo jì",
-        "D": "guān yú bù jiàn xíng hào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想提醒不同机型的配件应分类保存，应该怎么说？\n符合此任务的表达：不同型号的零部件请分开存放。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 31,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“电子部件识别要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ diàn zi bù jiàn shí bié yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请帮我确认一下电子部件识别要求的具体要求",
-        "B": "请按物料清单核对电阻的料号",
-        "C": "请告诉我谁负责部件信息维护",
-        "D": "这批外壳颜色不一致我已经报告了"
-      },
-      "optionPinyin": {
-        "A": "qǐng bāng wǒ què rèn yí xià diàn zi bù jiàn shí bié yāo qiú de jù tǐ yāo qiú",
-        "B": "qǐng àn wù liào qīng dān hé duì diàn zǔ de liào hào",
-        "C": "qǐng gào sù wǒ shuí fù zé bù jiàn xìn xī wéi hù",
-        "D": "zhè pī wài ké yán sè bù yí zhì wǒ yǐ jīng bào gào le"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn líng jiàn qīng dān",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí diàn zi bù jiàn shí bié yāo qiú",
+        "C": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn líng jiàn qīng dān de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn líng jiàn qīng dān"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你想请同事核实“电子部件识别要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下电子部件识别要求的具体要求。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“产品零件清单”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实产品零件清单。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实产品零件清单",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 31,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“电子部件识别要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ diàn zi bù jiàn shí bié yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于电子部件识别要求的资料",
+        "B": "我这次只想核实电子部件识别要求",
+        "C": "我还需要进一步了解部件型号的核实结果",
+        "D": "我还需要进一步了解电子部件识别要求"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú diàn zi bù jiàn shí bié yāo qiú de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí diàn zi bù jiàn shí bié yāo qiú",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě bù jiàn xíng hào de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě diàn zi bù jiàn shí bié yāo qiú"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“电子部件识别要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解电子部件识别要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解电子部件识别要求",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 32,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你尚未核实“部件型号的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ bù jiàn xíng hào de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“部件型号的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ bù jiàn xíng hào de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请问这款产品需要使用哪一种螺丝",
-        "B": "不同型号的零部件请分开存放",
-        "C": "这批外壳颜色不一致我已经报告了",
-        "D": "关于部件型号的核实结果我还需要再核实一下"
+        "A": "我还没有收到关于部件型号的核实结果的资料",
+        "B": "我这次只想核实部件型号的核实结果",
+        "C": "我还需要进一步了解部件型号的核实结果",
+        "D": "我还需要进一步了解零部件展示安排"
       },
       "optionPinyin": {
-        "A": "qǐng wèn zhè kuǎn chǎn pǐn xū yào shǐ yòng nǎ yī zhǒng luó sī",
-        "B": "bù tóng xíng hào de líng bù jiàn qǐng fēn kāi cún fàng",
-        "C": "zhè pī wài ké yán sè bù yí zhì wǒ yǐ jīng bào gào le",
-        "D": "guān yú bù jiàn xíng hào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+        "A": "wǒ hái méi yǒu shōu dào guān yú bù jiàn xíng hào de hé shí jié guǒ de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí bù jiàn xíng hào de hé shí jié guǒ",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě bù jiàn xíng hào de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě líng bù jiàn zhǎn shì ān pái"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你尚未核实“部件型号的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于部件型号的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“部件型号的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解部件型号的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解部件型号的核实结果",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 33,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望“零部件展示安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ líng bù jiàn zhǎn shì ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“零部件展示安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ líng bù jiàn zhǎn shì ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "关于部件型号的核实结果我还需要再核实一下",
-        "B": "请问这块电路板属于哪个产品型号",
-        "C": "我们先确认产品零件清单再继续沟通",
-        "D": "如果零部件展示安排有变化请及时通知我"
+        "A": "我还需要进一步了解部件信息维护",
+        "B": "我还没有收到关于零部件展示安排的资料",
+        "C": "我这次只想核实零部件展示安排",
+        "D": "我还需要进一步了解零部件展示安排"
       },
       "optionPinyin": {
-        "A": "guān yú bù jiàn xíng hào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "qǐng wèn zhè kuài diàn lù bǎn shǔ yú nǎ ge chǎn pǐn xíng hào",
-        "C": "wǒ men xiān què rèn chǎn pǐn líng jiàn qīng dān zài jì xù gōu tōng",
-        "D": "rú guǒ líng bù jiàn zhǎn shì ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě bù jiàn xìn xī wéi hù",
+        "B": "wǒ hái méi yǒu shōu dào guān yú líng bù jiàn zhǎn shì ān pái de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí líng bù jiàn zhǎn shì ān pái",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě líng bù jiàn zhǎn shì ān pái"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望“零部件展示安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果零部件展示安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“零部件展示安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解零部件展示安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解零部件展示安排",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 34,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“部件信息维护”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ bù jiàn xìn xī wéi hù ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“部件信息维护”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ bù jiàn xìn xī wéi hù ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认产品零件清单再继续沟通",
-        "B": "请告诉我谁负责部件信息维护",
-        "C": "请问这块电路板属于哪个产品型号",
-        "D": "关于部件型号的核实结果我还需要再核实一下"
+        "A": "我还没有收到关于部件信息维护的资料",
+        "B": "我还需要进一步了解部件信息维护",
+        "C": "我这次只想核实部件信息维护",
+        "D": "我还需要进一步了解产品零件清单"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn chǎn pǐn líng jiàn qīng dān zài jì xù gōu tōng",
-        "B": "qǐng gào sù wǒ shuí fù zé bù jiàn xìn xī wéi hù",
-        "C": "qǐng wèn zhè kuài diàn lù bǎn shǔ yú nǎ ge chǎn pǐn xíng hào",
-        "D": "guān yú bù jiàn xíng hào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+        "A": "wǒ hái méi yǒu shōu dào guān yú bù jiàn xìn xī wéi hù de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě bù jiàn xìn xī wéi hù",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí bù jiàn xìn xī wéi hù",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn líng jiàn qīng dān"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“部件信息维护”，应该怎么说？\n符合此任务的表达：请告诉我谁负责部件信息维护。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“部件信息维护”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解部件信息维护。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解部件信息维护",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 35,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望先确认“产品零件清单”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ chǎn pǐn líng jiàn qīng dān ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】对方问你是否还关心“产品零件清单”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ chǎn pǐn líng jiàn qīng dān ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "关于部件型号的核实结果我还需要再核实一下",
-        "B": "请问这款产品需要使用哪一种螺丝",
-        "C": "这包电容标签不清楚需要先核实",
-        "D": "我们先确认产品零件清单再继续沟通"
+        "A": "我这次只想核实产品零件清单",
+        "B": "我还需要进一步了解产品零件清单",
+        "C": "我还需要进一步了解电子部件识别要求",
+        "D": "我还没有收到关于产品零件清单的资料"
       },
       "optionPinyin": {
-        "A": "guān yú bù jiàn xíng hào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "qǐng wèn zhè kuǎn chǎn pǐn xū yào shǐ yòng nǎ yī zhǒng luó sī",
-        "C": "zhè bāo diàn róng biāo qiān bù qīng chǔ xū yào xiān hé shí",
-        "D": "wǒ men xiān què rèn chǎn pǐn líng jiàn qīng dān zài jì xù gōu tōng"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí chǎn pǐn líng jiàn qīng dān",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě chǎn pǐn líng jiàn qīng dān",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě diàn zi bù jiàn shí bié yāo qiú",
+        "D": "wǒ hái méi yǒu shōu dào guān yú chǎn pǐn líng jiàn qīng dān de zī liào"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“产品零件清单”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认产品零件清单再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“产品零件清单”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解产品零件清单。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解产品零件清单",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n属于 / 哪个产品型号 / 请问 / 这块电路板",
-      "pinyin": "shǔ yú / nǎ ge chǎn pǐn xíng hào / qǐng wèn / zhè kuài diàn lù bǎn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n把 / 发给我 / 关于电子部件识别要求的说明 / 请",
+      "pinyin": "bǎ / fā gěi wǒ / guān yú diàn zi bù jiàn shí bié yāo qiú de shuō míng / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这块电路板属于哪个产品型号",
-        "请问这块电路板属于哪个产品型号。",
-        "请问这块电路板属于哪个产品型号.",
-        "请问这块电路板属于哪个产品型号？",
-        "请问这块电路板属于哪个产品型号?"
+        "请把关于电子部件识别要求的说明发给我。",
+        "请把关于电子部件识别要求的说明发给我",
+        "请把关于电子部件识别要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：请问这块电路板属于哪个产品型号。\nqǐng wèn zhè kuài diàn lù bǎn shǔ yú nǎ ge chǎn pǐn xíng hào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：请把关于电子部件识别要求的说明发给我。\nqǐng bǎ guān yú diàn zi bù jiàn shí bié yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n协助确认 / 请 / 这个连接器 / 外观有异常",
-      "pinyin": "xié zhù què rèn / qǐng / zhè ge lián jiē qì / wài guān yǒu yì cháng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n部件型号的核实结果 / 核对过 / 我们 / 已经",
+      "pinyin": "bù jiàn xíng hào de hé shí jié guǒ / hé duì guò / wǒ men / yǐ jīng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个连接器外观有异常请协助确认",
-        "这个连接器外观有异常请协助确认。",
-        "这个连接器外观有异常请协助确认.",
-        "这个连接器外观有异常请协助确认？",
-        "这个连接器外观有异常请协助确认?"
+        "我们已经核对过部件型号的核实结果。",
+        "我们已经核对过部件型号的核实结果",
+        "我们已经核对过部件型号的核实结果."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：这个连接器外观有异常请协助确认。\nzhè ge lián jiē qì wài guān yǒu yì cháng qǐng xié zhù què rèn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过部件型号的核实结果。\nwǒ men yǐ jīng hé duì guò bù jiàn xíng hào de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 颜色不一致 / 这批外壳 / 已经报告了",
-      "pinyin": "wǒ / yán sè bù yí zhì / zhè pī wài ké / yǐ jīng bào gào le",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先了解零部件展示安排 / 我们 / 才能解释清楚 / 只有",
+      "pinyin": "xiān liǎo jiě líng bù jiàn zhǎn shì ān pái / wǒ men / cái néng jiě shì qīng chǔ / zhǐ yǒu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这批外壳颜色不一致我已经报告了",
-        "这批外壳颜色不一致我已经报告了。",
-        "这批外壳颜色不一致我已经报告了.",
-        "这批外壳颜色不一致我已经报告了？",
-        "这批外壳颜色不一致我已经报告了?"
+        "只有先了解零部件展示安排我们才能解释清楚。",
+        "只有先了解零部件展示安排我们才能解释清楚",
+        "只有先了解零部件展示安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：这批外壳颜色不一致我已经报告了。\nzhè pī wài ké yán sè bù yí zhì wǒ yǐ jīng bào gào le。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：只有先了解零部件展示安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě líng bù jiàn zhǎn shì ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n需要使用 / 这款产品 / 请问 / 哪一种螺丝",
-      "pinyin": "xū yào shǐ yòng / zhè kuǎn chǎn pǐn / qǐng wèn / nǎ yī zhǒng luó sī",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还想知道 / 具体由谁负责 / 不仅想了解部件信息维护 / 我",
+      "pinyin": "hái xiǎng zhī dào / jù tǐ yóu shuí fù zé / bù jǐn xiǎng liǎo jiě bù jiàn xìn xī wéi hù / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这款产品需要使用哪一种螺丝",
-        "请问这款产品需要使用哪一种螺丝。",
-        "请问这款产品需要使用哪一种螺丝.",
-        "请问这款产品需要使用哪一种螺丝？",
-        "请问这款产品需要使用哪一种螺丝?"
+        "我不仅想了解部件信息维护还想知道具体由谁负责。",
+        "我不仅想了解部件信息维护还想知道具体由谁负责",
+        "我不仅想了解部件信息维护还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：请问这款产品需要使用哪一种螺丝。\nqǐng wèn zhè kuǎn chǎn pǐn xū yào shǐ yòng nǎ yī zhǒng luó sī。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 22,
+      "explanation": "参考句子：我不仅想了解部件信息维护还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě bù jiàn xìn xī wéi hù hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n电阻的料号 / 请 / 核对 / 按物料清单",
-      "pinyin": "diàn zǔ de liào hào / qǐng / hé duì / àn wù liào qīng dān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n之前 / 讨论产品零件清单 / 请 / 先准备好相关记录",
+      "pinyin": "zhī qián / tǎo lùn chǎn pǐn líng jiàn qīng dān / qǐng / xiān zhǔn bèi hǎo xiāng guān jì lù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请按物料清单核对电阻的料号",
-        "请按物料清单核对电阻的料号。",
-        "请按物料清单核对电阻的料号.",
-        "请按物料清单核对电阻的料号？",
-        "请按物料清单核对电阻的料号?"
+        "讨论产品零件清单之前请先准备好相关记录。",
+        "讨论产品零件清单之前请先准备好相关记录",
+        "讨论产品零件清单之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：请按物料清单核对电阻的料号。\nqǐng àn wù liào qīng dān hé duì diàn zǔ de liào hào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论产品零件清单之前请先准备好相关记录。\ntǎo lùn chǎn pǐn líng jiàn qīng dān zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n先核实 / 标签不清楚 / 需要 / 这包电容",
-      "pinyin": "xiān hé shí / biāo qiān bù qīng chǔ / xū yào / zhè bāo diàn róng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有一个问题 / 关于电子部件识别要求 / 我 / 想请教您",
+      "pinyin": "yǒu yí gè wèn tí / guān yú diàn zi bù jiàn shí bié yāo qiú / wǒ / xiǎng qǐng jiào nín",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这包电容标签不清楚需要先核实",
-        "这包电容标签不清楚需要先核实。",
-        "这包电容标签不清楚需要先核实.",
-        "这包电容标签不清楚需要先核实？",
-        "这包电容标签不清楚需要先核实?"
+        "关于电子部件识别要求我有一个问题想请教您。",
+        "关于电子部件识别要求我有一个问题想请教您",
+        "关于电子部件识别要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这包电容标签不清楚需要先核实。\nzhè bāo diàn róng biāo qiān bù qīng chǔ xū yào xiān hé shí。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：关于电子部件识别要求我有一个问题想请教您。\nguān yú diàn zi bù jiàn shí bié yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n是否 / 请 / 与工单一致 / 确认这套线束",
-      "pinyin": "shì fǒu / qǐng / yǔ gōng dān yī zhì / què rèn zhè tào xiàn shù",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n如果 / 你还不清楚部件型号的核实结果 / 先向负责人询问 / 就",
+      "pinyin": "rú guǒ / nǐ hái bù qīng chǔ bù jiàn xíng hào de hé shí jié guǒ / xiān xiàng fù zé rén xún wèn / jiù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请确认这套线束是否与工单一致",
-        "请确认这套线束是否与工单一致。",
-        "请确认这套线束是否与工单一致.",
-        "请确认这套线束是否与工单一致？",
-        "请确认这套线束是否与工单一致?"
+        "如果你还不清楚部件型号的核实结果就先向负责人询问。",
+        "如果你还不清楚部件型号的核实结果就先向负责人询问",
+        "如果你还不清楚部件型号的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：请确认这套线束是否与工单一致。\nqǐng què rèn zhè tào xiàn shù shì fǒu yǔ gōng dān yī zhì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚部件型号的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ bù jiàn xíng hào de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 做好标记 / 表面有划痕 / 这块屏幕",
-      "pinyin": "qǐng / zuò hǎo biāo jì / biǎo miàn yǒu huà hén / zhè kuài píng mù",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n虽然 / 还需要核实细节 / 我们已经讨论过零部件展示安排 / 但是",
+      "pinyin": "suī rán / hái xū yào hé shí xì jié / wǒ men yǐ jīng tǎo lùn guò líng bù jiàn zhǎn shì ān pái / dàn shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这块屏幕表面有划痕请做好标记",
-        "这块屏幕表面有划痕请做好标记。",
-        "这块屏幕表面有划痕请做好标记.",
-        "这块屏幕表面有划痕请做好标记？",
-        "这块屏幕表面有划痕请做好标记?"
+        "虽然我们已经讨论过零部件展示安排但是还需要核实细节。",
+        "虽然我们已经讨论过零部件展示安排但是还需要核实细节",
+        "虽然我们已经讨论过零部件展示安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这块屏幕表面有划痕请做好标记。\nzhè kuài píng mù biǎo miàn yǒu huà hén qǐng zuò hǎo biāo jì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 25,
+      "explanation": "参考句子：虽然我们已经讨论过零部件展示安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò líng bù jiàn zhǎn shì ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n按下以后 / 正常回弹 / 这个按键 / 没有",
-      "pinyin": "àn xià yǐ hòu / zhèng cháng huí tán / zhè ge àn jiàn / méi yǒu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n查阅相关文件 / 不如 / 反复猜测部件信息维护 / 与其",
+      "pinyin": "chá yuè xiāng guān wén jiàn / bù rú / fǎn fù cāi cè bù jiàn xìn xī wéi hù / yǔ qí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个按键按下以后没有正常回弹",
-        "这个按键按下以后没有正常回弹。",
-        "这个按键按下以后没有正常回弹.",
-        "这个按键按下以后没有正常回弹？",
-        "这个按键按下以后没有正常回弹?"
+        "与其反复猜测部件信息维护不如查阅相关文件。",
+        "与其反复猜测部件信息维护不如查阅相关文件",
+        "与其反复猜测部件信息维护不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：这个按键按下以后没有正常回弹。\nzhè ge àn jiàn àn xià yǐ hòu méi yǒu zhèng cháng huí tán。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：与其反复猜测部件信息维护不如查阅相关文件。\nyǔ qí fǎn fù cāi cè bù jiàn xìn xī wéi hù bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n不同型号的零部件 / 请 / 存放 / 分开",
-      "pinyin": "bù tóng xíng hào de líng bù jiàn / qǐng / cún fàng / fēn kāi",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n重新整理了资料 / 我 / 为了 / 准确说明产品零件清单",
+      "pinyin": "chóng xīn zhěng lǐ le zī liào / wǒ / wèi le / zhǔn què shuō míng chǎn pǐn líng jiàn qīng dān",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "不同型号的零部件请分开存放",
-        "不同型号的零部件请分开存放。",
-        "不同型号的零部件请分开存放.",
-        "不同型号的零部件请分开存放？",
-        "不同型号的零部件请分开存放?"
+        "为了准确说明产品零件清单我重新整理了资料。",
+        "为了准确说明产品零件清单我重新整理了资料",
+        "为了准确说明产品零件清单我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：不同型号的零部件请分开存放。\nbù tóng xíng hào de líng bù jiàn qǐng fēn kāi cún fàng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明产品零件清单我重新整理了资料。\nwèi le zhǔn què shuō míng chǎn pǐn líng jiàn qīng dān wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n电子部件识别要求 / 的具体要求 / 请 / 帮我确认一下",
-      "pinyin": "diàn zi bù jiàn shí bié yāo qiú / de jù tǐ yāo qiú / qǐng / bāng wǒ què rèn yí xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n可以提出来 / 大家 / 有疑问的话 / 对电子部件识别要求",
+      "pinyin": "kě yǐ tí chū lái / dà jiā / yǒu yí wèn de huà / duì diàn zi bù jiàn shí bié yāo qiú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下电子部件识别要求的具体要求",
-        "请帮我确认一下电子部件识别要求的具体要求。",
-        "请帮我确认一下电子部件识别要求的具体要求.",
-        "请帮我确认一下电子部件识别要求的具体要求？",
-        "请帮我确认一下电子部件识别要求的具体要求?"
+        "大家对电子部件识别要求有疑问的话可以提出来。",
+        "大家对电子部件识别要求有疑问的话可以提出来",
+        "大家对电子部件识别要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：请帮我确认一下电子部件识别要求的具体要求。\nqǐng bāng wǒ què rèn yí xià diàn zi bù jiàn shí bié yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：大家对电子部件识别要求有疑问的话可以提出来。\ndà jiā duì diàn zi bù jiàn shí bié yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n部件型号的核实结果 / 还需要 / 关于 / 我 / 再核实一下",
-      "pinyin": "bù jiàn xíng hào de hé shí jié guǒ / hái xū yào / guān yú / wǒ / zài hé shí yí xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先说明部件型号的核实结果 / 请 / 回答大家的问题 / 再",
+      "pinyin": "xiān shuō míng bù jiàn xíng hào de hé shí jié guǒ / qǐng / huí dá dà jiā de wèn tí / zài",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于部件型号的核实结果我还需要再核实一下",
-        "关于部件型号的核实结果我还需要再核实一下。",
-        "关于部件型号的核实结果我还需要再核实一下.",
-        "关于部件型号的核实结果我还需要再核实一下？",
-        "关于部件型号的核实结果我还需要再核实一下?"
+        "请先说明部件型号的核实结果再回答大家的问题。",
+        "请先说明部件型号的核实结果再回答大家的问题",
+        "请先说明部件型号的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于部件型号的核实结果我还需要再核实一下。\nguān yú bù jiàn xíng hào de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明部件型号的核实结果再回答大家的问题。\nqǐng xiān shuō míng bù jiàn xíng hào de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n零部件展示安排 / 有变化 / 请 / 如果 / 及时通知我",
-      "pinyin": "líng bù jiàn zhǎn shì ān pái / yǒu biàn huà / qǐng / rú guǒ / jí shí tōng zhī wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n应该以有效文件为依据 / 无论 / 谁来说明零部件展示安排 / 都",
+      "pinyin": "yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / wú lùn / shuí lái shuō míng líng bù jiàn zhǎn shì ān pái / dōu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果零部件展示安排有变化请及时通知我",
-        "如果零部件展示安排有变化请及时通知我。",
-        "如果零部件展示安排有变化请及时通知我.",
-        "如果零部件展示安排有变化请及时通知我？",
-        "如果零部件展示安排有变化请及时通知我?"
+        "无论谁来说明零部件展示安排都应该以有效文件为依据。",
+        "无论谁来说明零部件展示安排都应该以有效文件为依据",
+        "无论谁来说明零部件展示安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：如果零部件展示安排有变化请及时通知我。\nrú guǒ líng bù jiàn zhǎn shì ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：无论谁来说明零部件展示安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng líng bù jiàn zhǎn shì ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n部件信息维护 / 负责 / 谁 / 告诉我 / 请",
-      "pinyin": "bù jiàn xìn xī wéi hù / fù zé / shuí / gào sù wǒ / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n涉及的问题 / 逐项记录清楚 / 需要 / 部件信息维护",
+      "pinyin": "shè jí de wèn tí / zhú xiàng jì lù qīng chǔ / xū yào / bù jiàn xìn xī wéi hù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责部件信息维护",
-        "请告诉我谁负责部件信息维护。",
-        "请告诉我谁负责部件信息维护.",
-        "请告诉我谁负责部件信息维护？",
-        "请告诉我谁负责部件信息维护?"
+        "部件信息维护涉及的问题需要逐项记录清楚。",
+        "部件信息维护涉及的问题需要逐项记录清楚",
+        "部件信息维护涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：请告诉我谁负责部件信息维护。\nqǐng gào sù wǒ shuí fù zé bù jiàn xìn xī wéi hù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：部件信息维护涉及的问题需要逐项记录清楚。\nbù jiàn xìn xī wéi hù shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n再 / 我们 / 继续沟通 / 产品零件清单 / 先 / 确认",
-      "pinyin": "zài / wǒ men / jì xù gōu tōng / chǎn pǐn líng jiàn qīng dān / xiān / què rèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n产品零件清单确认以后 / 我们 / 等 / 再补充相关记录",
+      "pinyin": "chǎn pǐn líng jiàn qīng dān què rèn yǐ hòu / wǒ men / děng / zài bǔ chōng xiāng guān jì lù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认产品零件清单再继续沟通",
-        "我们先确认产品零件清单再继续沟通。",
-        "我们先确认产品零件清单再继续沟通.",
-        "我们先确认产品零件清单再继续沟通？",
-        "我们先确认产品零件清单再继续沟通?"
+        "等产品零件清单确认以后我们再补充相关记录。",
+        "等产品零件清单确认以后我们再补充相关记录",
+        "等产品零件清单确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认产品零件清单再继续沟通。\nwǒ men xiān què rèn chǎn pǐn líng jiàn qīng dān zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等产品零件清单确认以后我们再补充相关记录。\nděng chǎn pǐn líng jiàn qīng dān què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

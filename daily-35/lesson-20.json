@@ -1,26 +1,27 @@
 {
   "title": "日常交际 第20课 今天我们自己做饭",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“食材”的正确读音。",
+      "text": "【拼音选择】请选择“炖汤”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chí cái",
-        "B": "shí cái",
-        "C": "sí cái",
-        "D": "shí chái"
+        "A": "cùn tāng",
+        "B": "dùn tāng",
+        "C": "duàn tāng",
+        "D": "dùn tān"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“食材”读作 shí cái，本课词义：nguyên liệu。"
+      "explanation": "“炖汤”读作 dùn tāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "炖汤"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“切菜”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qiè chài",
+        "A": "jiè cài",
         "B": "xiè cài",
-        "C": "qiè cài",
-        "D": "jiè cài"
+        "C": "qiè chài",
+        "D": "qiè cài"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "“切菜”读作 qiè cài，本课词义：thái rau。"
+      "explanation": "“切菜”读作 qiè cài。注意声母、韵母、声调及轻声。",
+      "targetWord": "切菜"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“盐”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yáng",
-        "B": "cán",
-        "C": "yán",
+        "A": "cán",
+        "B": "yán",
+        "C": "yáng",
         "D": "fán"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "“盐”读作 yán，本课词义：muối。"
+      "explanation": "“盐”读作 yán。注意声母、韵母、声调及轻声。",
+      "targetWord": "盐"
     },
     {
       "id": 4,
@@ -66,162 +69,179 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“煮熟”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zhǔ shú",
-        "B": "zǔ shú",
-        "C": "zhǔ sú",
+        "B": "zhǔ sú",
+        "C": "zǔ shú",
         "D": "chǔ shú"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“煮熟”读作 zhǔ shú，本课词义：nấu chín。"
+      "explanation": "“煮熟”读作 zhǔ shú。注意声母、韵母、声调及轻声。",
+      "targetWord": "煮熟"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“洗碗”的正确读音。",
+      "text": "【拼音选择】请选择“翻炒”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xǐ wǎng",
-        "B": "xǐ wǎn",
-        "C": "bǐ wǎn",
-        "D": "qǐ wǎn"
+        "A": "fāng chǎo",
+        "B": "fān chǎo",
+        "C": "fān cǎo",
+        "D": "hān chǎo"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“洗碗”读作 xǐ wǎn，本课词义：rửa bát。"
+      "explanation": "“翻炒”读作 fān chǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "翻炒"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：做饭以前我们先去超市买____吧。",
-      "pinyin": "zuò fàn yǐ qián wǒ men xiān qù chāo shì mǎi ____ ba",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: nguyên liệu.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：做饭之前，先把需要的____准备好。",
+      "pinyin": "zuò fàn zhī qián ， xiān bǎ xū yào de ____ zhǔn bèi hǎo 。",
+      "vietnamese": "Gợi ý: nguyên liệu.",
       "options": {
-        "A": "洗碗",
-        "B": "盐",
+        "A": "小火",
+        "B": "熟",
         "C": "食材",
-        "D": "煮熟"
+        "D": "切片"
       },
       "optionPinyin": {
-        "A": "xǐ wǎn",
-        "B": "yán",
+        "A": "xiǎo huǒ",
+        "B": "shú",
         "C": "shí cái",
-        "D": "zhǔ shú"
+        "D": "qiē piàn"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“食材”（nguyên liệu）。完整表达：做饭以前我们先去超市买食材吧。"
+      "explanation": "应填“食材”。完整句子：做饭之前，先把需要的食材准备好。\n语法与搭配：把；好：结果补语",
+      "targetWord": "食材",
+      "completeSentence": "做饭之前，先把需要的食材准备好。",
+      "grammarFocus": "把；好：结果补语"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：你负责____我负责炒菜。",
-      "pinyin": "nǐ fù zé ____ wǒ fù zé chǎo cài",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thái rau.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这块肉要____，不要切成块。",
+      "pinyin": "zhè kuài ròu yào ____， bú yào qiè chéng kuài 。",
+      "vietnamese": "Gợi ý: thái lát.",
       "options": {
-        "A": "煮熟",
-        "B": "盐",
+        "A": "小火",
+        "B": "切片",
         "C": "食材",
-        "D": "切菜"
+        "D": "熟"
       },
       "optionPinyin": {
-        "A": "zhǔ shú",
-        "B": "yán",
+        "A": "xiǎo huǒ",
+        "B": "qiē piàn",
         "C": "shí cái",
-        "D": "qiè cài"
+        "D": "shú"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“切菜”（thái rau）。完整表达：你负责切菜我负责炒菜。"
+      "explanation": "应填“切片”。完整句子：这块肉要切片，不要切成块。\n语法与搭配：要；不要",
+      "targetWord": "切片",
+      "completeSentence": "这块肉要切片，不要切成块。",
+      "grammarFocus": "要；不要"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这道菜有点淡请再加一点____。",
-      "pinyin": "zhè dào cài yǒu diǎn dàn qǐng zài jiā yì diǎn ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: muối.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：汤烧开以后，转成____慢慢煮。",
+      "pinyin": "tāng shāo kāi yǐ hòu ， zhuǎn chéng ____ màn màn zhǔ 。",
+      "vietnamese": "Gợi ý: lửa nhỏ.",
       "options": {
-        "A": "盐",
-        "B": "食材",
-        "C": "洗碗",
-        "D": "煮熟"
+        "A": "小火",
+        "B": "切片",
+        "C": "熟",
+        "D": "食材"
       },
       "optionPinyin": {
-        "A": "yán",
-        "B": "shí cái",
-        "C": "xǐ wǎn",
-        "D": "zhǔ shú"
+        "A": "xiǎo huǒ",
+        "B": "qiē piàn",
+        "C": "shú",
+        "D": "shí cái"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“盐”（muối）。完整表达：这道菜有点淡请再加一点盐。"
+      "explanation": "应填“小火”。完整句子：汤烧开以后，转成小火慢慢煮。\n语法与搭配：……以后；转成",
+      "targetWord": "小火",
+      "completeSentence": "汤烧开以后，转成小火慢慢煮。",
+      "grammarFocus": "……以后；转成"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这些鸡肉需要完全____以后再吃。",
-      "pinyin": "zhè xiē jī ròu xū yào wán quán ____ yǐ hòu zài chī",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: nấu chín.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：鸡肉还没____，需要再煮一会儿。",
+      "pinyin": "jī ròu hái méi ____， xū yào zài zhǔ yí huì r 。",
+      "vietnamese": "Gợi ý: chín.",
       "options": {
-        "A": "切菜",
-        "B": "洗碗",
-        "C": "煮熟",
-        "D": "食材"
+        "A": "熟",
+        "B": "食材",
+        "C": "小火",
+        "D": "切片"
       },
       "optionPinyin": {
-        "A": "qiè cài",
-        "B": "xǐ wǎn",
-        "C": "zhǔ shú",
-        "D": "shí cái"
+        "A": "shú",
+        "B": "shí cái",
+        "C": "xiǎo huǒ",
+        "D": "qiē piàn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“煮熟”（nấu chín）。完整表达：这些鸡肉需要完全煮熟以后再吃。"
+      "explanation": "应填“熟”。完整句子：鸡肉还没熟，需要再煮一会儿。\n语法与搭配：还没；再",
+      "targetWord": "熟",
+      "completeSentence": "鸡肉还没熟，需要再煮一会儿。",
+      "grammarFocus": "还没；再"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：今天你做饭吃完以后我来____。",
-      "pinyin": "jīn tiān nǐ zuò fàn chī wán yǐ hòu wǒ lái ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: rửa bát.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你负责做饭，我负责____。",
+      "pinyin": "nǐ fù zé zuò fàn ， wǒ fù zé ____。",
+      "vietnamese": "Gợi ý: rửa bát.",
       "options": {
-        "A": "切菜",
-        "B": "煮熟",
-        "C": "洗碗",
+        "A": "洗碗",
+        "B": "切片",
+        "C": "小火",
         "D": "食材"
       },
       "optionPinyin": {
-        "A": "qiè cài",
-        "B": "zhǔ shú",
-        "C": "xǐ wǎn",
+        "A": "xǐ wǎn",
+        "B": "qiē piàn",
+        "C": "xiǎo huǒ",
         "D": "shí cái"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“洗碗”（rửa bát）。完整表达：今天你做饭吃完以后我来洗碗。"
+      "explanation": "应填“洗碗”。完整句子：你负责做饭，我负责洗碗。\n语法与搭配：负责＋动词",
+      "targetWord": "洗碗",
+      "completeSentence": "你负责做饭，我负责洗碗。",
+      "grammarFocus": "负责＋动词"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n先去超市 / 做饭以前 / 买食材吧 / 我们",
-      "pinyin": "xiān qù chāo shì / zuò fàn yǐ qián / mǎi shí cái ba / wǒ men",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再 / 等水 / 烧开了 / 把面条放进去",
+      "pinyin": "zài / děng shuǐ / shāo kāi le / bǎ miàn tiáo fàng jìn qù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "做饭以前我们先去超市买食材吧。",
-        "做饭以前我们先去超市买食材吧",
-        "做饭以前我们先去超市买食材吧.",
-        "做饭以前我们先去超市买食材吧？",
-        "做饭以前我们先去超市买食材吧?"
+        "等水烧开了再把面条放进去。",
+        "等水烧开了再把面条放进去",
+        "等水烧开了再把面条放进去."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：做饭以前我们先去超市买食材吧。\nzuò fàn yǐ qián wǒ men xiān qù chāo shì mǎi shí cái ba。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：等水烧开了再把面条放进去。\nděng shuǐ shāo kāi le zài bǎ miàn tiáo fàng jìn qù\n语法与搭配：等……再……；把",
+      "grammarFocus": "等……再……；把"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n负责切菜 / 你 / 我 / 负责炒菜",
-      "pinyin": "fù zé qiè cài / nǐ / wǒ / fù zé chǎo cài",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n已经把蔬菜 / 放在篮子里了 / 洗干净 / 我",
+      "pinyin": "yǐ jīng bǎ shū cài / fàng zài lán zi lǐ le / xǐ gān jìng / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "你负责切菜我负责炒菜。",
-        "你负责切菜我负责炒菜",
-        "你负责切菜我负责炒菜.",
-        "你负责切菜我负责炒菜？",
-        "你负责切菜我负责炒菜?"
+        "我已经把蔬菜洗干净放在篮子里了。",
+        "我已经把蔬菜洗干净放在篮子里了",
+        "我已经把蔬菜洗干净放在篮子里了."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：你负责切菜我负责炒菜。\nnǐ fù zé qiè cài wǒ fù zé chǎo cài。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：我已经把蔬菜洗干净放在篮子里了。\nwǒ yǐ jīng bǎ shū cài xǐ gān jìng fàng zài lán zi lǐ le\n语法与搭配：已经；把；结果补语",
+      "grammarFocus": "已经；把；结果补语"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 有点淡 / 再加一点盐 / 这道菜",
-      "pinyin": "qǐng / yǒu diǎn dàn / zài jiā yì diǎn yán / zhè dào cài",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n太热了 / 锅里的油 / 先 / 把火关小一点",
+      "pinyin": "tài rè le / guō lǐ de yóu / xiān / bǎ huǒ guān xiǎo yì diǎn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这道菜有点淡请再加一点盐。",
-        "这道菜有点淡请再加一点盐",
-        "这道菜有点淡请再加一点盐.",
-        "这道菜有点淡请再加一点盐？",
-        "这道菜有点淡请再加一点盐?"
+        "锅里的油太热了先把火关小一点。",
+        "锅里的油太热了先把火关小一点",
+        "锅里的油太热了先把火关小一点."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：这道菜有点淡请再加一点盐。\nzhè dào cài yǒu diǎn dàn qǐng zài jiā yì diǎn yán。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：锅里的油太热了先把火关小一点。\nguō lǐ de yóu tài rè le xiān bǎ huǒ guān xiǎo yì diǎn\n语法与搭配：太……了；把",
+      "grammarFocus": "太……了；把"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n完全煮熟以后 / 再吃 / 这些鸡肉 / 需要",
-      "pinyin": "wán quán zhǔ shú yǐ hòu / zài chī / zhè xiē jī ròu / xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n做起来方便 / 而且很有营养 / 这道汤 / 不但",
+      "pinyin": "zuò qǐ lái fāng biàn / ér qiě hěn yǒu yíng yǎng / zhè dào tāng / bú dàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这些鸡肉需要完全煮熟以后再吃。",
-        "这些鸡肉需要完全煮熟以后再吃",
-        "这些鸡肉需要完全煮熟以后再吃.",
-        "这些鸡肉需要完全煮熟以后再吃？",
-        "这些鸡肉需要完全煮熟以后再吃?"
+        "这道汤不但做起来方便而且很有营养。",
+        "这道汤不但做起来方便而且很有营养",
+        "这道汤不但做起来方便而且很有营养."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：这些鸡肉需要完全煮熟以后再吃。\nzhè xiē jī ròu xū yào wán quán zhǔ shú yǐ hòu zài chī。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：这道汤不但做起来方便而且很有营养。\nzhè dào tāng bú dàn zuò qǐ lái fāng biàn ér qiě hěn yǒu yíng yǎng\n语法与搭配：不但……而且……",
+      "grammarFocus": "不但……而且……"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我来洗碗 / 今天 / 你做饭 / 吃完以后",
-      "pinyin": "wǒ lái xǐ wǎn / jīn tiān / nǐ zuò fàn / chī wán yǐ hòu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n盐 / 才容易控制味道 / 最后再放 / 要",
+      "pinyin": "yán / cái róng yì kòng zhì wèi dào / zuì hòu zài fàng / yào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "今天你做饭吃完以后我来洗碗。",
-        "今天你做饭吃完以后我来洗碗",
-        "今天你做饭吃完以后我来洗碗.",
-        "今天你做饭吃完以后我来洗碗？",
-        "今天你做饭吃完以后我来洗碗?"
+        "盐要最后再放才容易控制味道。",
+        "盐要最后再放才容易控制味道",
+        "盐要最后再放才容易控制味道."
       ],
       "points": 5,
       "hanziCount": 13,
-      "explanation": "参考表达：今天你做饭吃完以后我来洗碗。\njīn tiān nǐ zuò fàn chī wán yǐ hòu wǒ lái xǐ wǎn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：盐要最后再放才容易控制味道。\nyán yào zuì hòu zài fàng cái róng yì kòng zhì wèi dào\n语法与搭配：要……才……",
+      "grammarFocus": "要……才……"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

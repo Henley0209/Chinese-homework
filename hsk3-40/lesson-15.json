@@ -1,6 +1,6 @@
 {
   "title": "HSK3 第15课 我会做一道中国菜",
-  "description": "Tôi biết nấu một món ăn Trung Quốc。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。",
+  "description": "Tôi biết nấu một món ăn Trung Quốc。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "pronunciationOptionsVersion": 1,
   "questions": [
@@ -10,18 +10,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“厨房”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "cú fáng",
-        "B": "chú háng",
+        "B": "chú fán",
         "C": "chú fáng",
-        "D": "chú fán"
+        "D": "chú háng"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“厨房”的正确读音：chú fáng。"
+      "explanation": "“厨房”读作 chú fáng。注意声母、韵母、声调及轻声。",
+      "targetWord": "厨房"
     },
     {
       "id": 2,
@@ -29,18 +30,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“厨师”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "chú sī",
-        "B": "chuí shī",
+        "B": "chú shī",
         "C": "cú shī",
-        "D": "chú shī"
+        "D": "chuí shī"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“厨师”的正确读音：chú shī。"
+      "explanation": "“厨师”读作 chú shī。注意声母、韵母、声调及轻声。",
+      "targetWord": "厨师"
     },
     {
       "id": 3,
@@ -48,18 +50,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“做饭”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zuò fàn",
-        "B": "zòu fàn",
-        "C": "zhuò fàn",
-        "D": "zuò fàng"
+        "A": "zuò fàng",
+        "B": "zuò fàn",
+        "C": "zuò hàn",
+        "D": "zhuò fàn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“做饭”的正确读音：zuò fàn。"
+      "explanation": "“做饭”读作 zuò fàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "做饭"
     },
     {
       "id": 4,
@@ -67,18 +70,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“食谱”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "sí pǔ",
-        "B": "shí pǔ",
-        "C": "shí pǒ",
-        "D": "rí pǔ"
+        "B": "shuí pǔ",
+        "C": "chí pǔ",
+        "D": "shí pǔ"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“食谱”的正确读音：shí pǔ。"
+      "explanation": "“食谱”读作 shí pǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "食谱"
     },
     {
       "id": 5,
@@ -86,18 +90,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“材料”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chái liào",
+        "A": "bái liào",
         "B": "cái niào",
         "C": "cái liào",
-        "D": "céi liào"
+        "D": "chái liào"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“材料”的正确读音：cái liào。"
+      "explanation": "“材料”读作 cái liào。注意声母、韵母、声调及轻声。",
+      "targetWord": "材料"
     },
     {
       "id": 6,
@@ -105,18 +110,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“蔬菜”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "shū chài",
-        "B": "sū cài",
-        "C": "shū cèi",
+        "B": "shū cèi",
+        "C": "sū cài",
         "D": "shū cài"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“蔬菜”的正确读音：shū cài。"
+      "explanation": "“蔬菜”读作 shū cài。注意声母、韵母、声调及轻声。",
+      "targetWord": "蔬菜"
     },
     {
       "id": 7,
@@ -124,18 +130,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“鸡蛋”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jī dàn",
-        "B": "jīng dàn",
+        "B": "bī dàn",
         "C": "jī dàng",
-        "D": "jīn dàn"
+        "D": "qī dàn"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“鸡蛋”的正确读音：jī dàn。"
+      "explanation": "“鸡蛋”读作 jī dàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "鸡蛋"
     },
     {
       "id": 8,
@@ -143,18 +150,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“牛肉”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "niú rào",
-        "B": "niú ròu",
-        "C": "liú ròu",
-        "D": "niú ruò"
+        "A": "niú ròu",
+        "B": "liú ròu",
+        "C": "jiú ròu",
+        "D": "niú rào"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“牛肉”的正确读音：niú ròu。"
+      "explanation": "“牛肉”读作 niú ròu。注意声母、韵母、声调及轻声。",
+      "targetWord": "牛肉"
     },
     {
       "id": 9,
@@ -162,18 +170,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“面条”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "miàn táo",
-        "B": "miè tiáo",
-        "C": "miàn tiáo",
-        "D": "màn tiáo"
+        "A": "miàn tiáo",
+        "B": "diàn tiáo",
+        "C": "jiàn tiáo",
+        "D": "biàn tiáo"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“面条”的正确读音：miàn tiáo。"
+      "explanation": "“面条”读作 miàn tiáo。注意声母、韵母、声调及轻声。",
+      "targetWord": "面条"
     },
     {
       "id": 10,
@@ -181,18 +190,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“饺子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiǎo zhi",
-        "B": "jiǎ zi",
-        "C": "jiǔ zi",
-        "D": "jiǎo zi"
+        "A": "jiǎo zi",
+        "B": "jiǎo zhi",
+        "C": "qiǎo zi",
+        "D": "biǎo zi"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“饺子”的正确读音：jiǎo zi。"
+      "explanation": "“饺子”读作 jiǎo zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "饺子"
     },
     {
       "id": 11,
@@ -200,18 +210,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“米饭”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "mǐ fàn",
-        "B": "mǐ fàng",
-        "C": "mǐ hàn",
-        "D": "mǐn fàn"
+        "B": "mǐ hàn",
+        "C": "bǐ fàn",
+        "D": "mǐ fàng"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“米饭”的正确读音：mǐ fàn。"
+      "explanation": "“米饭”读作 mǐ fàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "米饭"
     },
     {
       "id": 12,
@@ -219,18 +230,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“盘子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "páng zi",
-        "B": "pán zi",
-        "C": "pái zi",
+        "B": "cán zi",
+        "C": "pán zi",
         "D": "pán zhi"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“盘子”的正确读音：pán zi。"
+      "explanation": "“盘子”读作 pán zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "盘子"
     },
     {
       "id": 13,
@@ -238,18 +250,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“筷子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kuì zi",
-        "B": "kuàn zi",
-        "C": "kuài zi",
-        "D": "kuài zhi"
+        "A": "huài zi",
+        "B": "kuài zhi",
+        "C": "guài zi",
+        "D": "kuài zi"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“筷子”的正确读音：kuài zi。"
+      "explanation": "“筷子”读作 kuài zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "筷子"
     },
     {
       "id": 14,
@@ -257,18 +270,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“公斤”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gōng jīng",
-        "B": "kōng jīn",
-        "C": "gēng jīn",
+        "A": "gōng qīn",
+        "B": "gōng jīng",
+        "C": "cōng jīn",
         "D": "gōng jīn"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“公斤”的正确读音：gōng jīn。"
+      "explanation": "“公斤”读作 gōng jīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "公斤"
     },
     {
       "id": 15,
@@ -276,18 +290,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“味道”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wèi dào",
-        "B": "wài dào",
-        "C": "hèi dào",
-        "D": "wèi dòu"
+        "A": "wèi dòu",
+        "B": "wèi dào",
+        "C": "wài dào",
+        "D": "bèi dào"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“味道”的正确读音：wèi dào。"
+      "explanation": "“味道”读作 wèi dào。注意声母、韵母、声调及轻声。",
+      "targetWord": "味道"
     },
     {
       "id": 16,
@@ -312,7 +327,9 @@
         "B": "xǐ",
         "C": "zuò hǎo",
         "D": "xián"
-      }
+      },
+      "targetWord": "洗",
+      "completeSentence": "请先把手洗干净。"
     },
     {
       "id": 17,
@@ -337,7 +354,9 @@
         "B": "xián",
         "C": "qiè",
         "D": "xīn xiān"
-      }
+      },
+      "targetWord": "切",
+      "completeSentence": "把这些东西切成小块。"
     },
     {
       "id": 18,
@@ -362,7 +381,9 @@
         "B": "cháng",
         "C": "guān",
         "D": "shāo kāi"
-      }
+      },
+      "targetWord": "烧开",
+      "completeSentence": "水已经烧开了。"
     },
     {
       "id": 19,
@@ -387,7 +408,9 @@
         "B": "xǐ",
         "C": "xīn xiān",
         "D": "zuò hǎo"
-      }
+      },
+      "targetWord": "煮",
+      "completeSentence": "锅里的东西需要再煮一会儿。"
     },
     {
       "id": 20,
@@ -412,7 +435,9 @@
         "B": "fàng",
         "C": "zhǔn bèi",
         "D": "tián"
-      }
+      },
+      "targetWord": "放",
+      "completeSentence": "请再放一点糖。"
     },
     {
       "id": 21,
@@ -437,7 +462,9 @@
         "B": "xián",
         "C": "jiā",
         "D": "xǐ"
-      }
+      },
+      "targetWord": "加",
+      "completeSentence": "你可以少加一点盐。"
     },
     {
       "id": 22,
@@ -462,7 +489,9 @@
         "B": "zhǔ",
         "C": "guān",
         "D": "zhǔn bèi"
-      }
+      },
+      "targetWord": "准备",
+      "completeSentence": "我们先准备好需要的东西。"
     },
     {
       "id": 23,
@@ -487,7 +516,9 @@
         "B": "shāo kāi",
         "C": "qiè",
         "D": "cháng"
-      }
+      },
+      "targetWord": "关",
+      "completeSentence": "等饭好了再关火。"
     },
     {
       "id": 24,
@@ -512,7 +543,9 @@
         "B": "tián",
         "C": "qiè",
         "D": "cháng"
-      }
+      },
+      "targetWord": "甜",
+      "completeSentence": "这个苹果的味道很甜。"
     },
     {
       "id": 25,
@@ -537,7 +570,9 @@
         "B": "xǐ",
         "C": "xián",
         "D": "cháng"
-      }
+      },
+      "targetWord": "咸",
+      "completeSentence": "这个汤有一点咸。"
     },
     {
       "id": 26,
@@ -562,7 +597,9 @@
         "B": "xǐ",
         "C": "zhǔ",
         "D": "cháng"
-      }
+      },
+      "targetWord": "尝",
+      "completeSentence": "我先尝一口看看。"
     },
     {
       "id": 27,
@@ -587,7 +624,9 @@
         "B": "zuò hǎo",
         "C": "cháng",
         "D": "xǐ"
-      }
+      },
+      "targetWord": "新鲜",
+      "completeSentence": "这些水果特别新鲜。"
     },
     {
       "id": 28,
@@ -612,7 +651,9 @@
         "B": "jiǎn dān",
         "C": "shāo kāi",
         "D": "xǐ"
-      }
+      },
+      "targetWord": "简单",
+      "completeSentence": "做这道菜很简单。"
     },
     {
       "id": 29,
@@ -637,7 +678,9 @@
         "B": "xǐ",
         "C": "zuò hǎo",
         "D": "zhǔn bèi"
-      }
+      },
+      "targetWord": "做好",
+      "completeSentence": "今天的饭已经全部做好了。"
     },
     {
       "id": 30,
@@ -662,7 +705,9 @@
         "B": "tián",
         "C": "xián",
         "D": "ná"
-      }
+      },
+      "targetWord": "拿",
+      "completeSentence": "请把这个杯子拿过来。"
     },
     {
       "id": 31,
@@ -677,8 +722,9 @@
         "我现在已经学会怎样安排今天晚上的吃饭时间."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样安排今天晚上的吃饭时间。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng ān pái jīn tiān wǎn shàng de chī fàn shí jiān 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我现在已经学会怎样安排今天晚上的吃饭时间。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng ān pái jīn tiān wǎn shàng de chī fàn shí jiān 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 32,
@@ -695,8 +741,9 @@
         "我今天下课以后准备使用家里的电器。"
       ],
       "points": 2,
-      "explanation": "参考句子：今天下课以后我准备使用家里的电器。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi shǐ yòng jiā lǐ de diàn qì 。",
-      "hanziCount": 16
+      "explanation": "参考句子：今天下课以后我准备使用家里的电器。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi shǐ yòng jiā lǐ de diàn qì 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 16,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 33,
@@ -713,8 +760,9 @@
         "我们下个星期打算一起看冰箱里面有什么。"
       ],
       "points": 2,
-      "explanation": "参考句子：下个星期我们打算一起看冰箱里面有什么。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ kàn bīng xiāng lǐ miàn yǒu shén me 。",
-      "hanziCount": 18
+      "explanation": "参考句子：下个星期我们打算一起看冰箱里面有什么。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ kàn bīng xiāng lǐ miàn yǒu shén me 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -729,8 +777,9 @@
         "你能不能告诉我怎样决定先从哪一步开始?"
       ],
       "points": 2,
-      "explanation": "参考句子：你能不能告诉我怎样决定先从哪一步开始？\nnǐ néng bù néng gào su wǒ zěn yàng jué dìng xiān cóng nǎ yī bù kāi shǐ ？",
-      "hanziCount": 18
+      "explanation": "参考句子：你能不能告诉我怎样决定先从哪一步开始？\nnǐ néng bù néng gào su wǒ zěn yàng jué dìng xiān cóng nǎ yī bù kāi shǐ ？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -745,8 +794,9 @@
         "我现在已经学会怎样问清每一步要做多久."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样问清每一步要做多久。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng wèn qīng měi yī bù yào zuò duō jiǔ 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我现在已经学会怎样问清每一步要做多久。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng wèn qīng měi yī bù yào zuò duō jiǔ 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 18,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 36,
@@ -761,8 +811,9 @@
         "如果明天有时间,我就把不会做的地方记下."
       ],
       "points": 2,
-      "explanation": "参考句子：如果明天有时间，我就把不会做的地方记下。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù bǎ bú huì zuò de dì fāng jì xià 。",
-      "hanziCount": 18
+      "explanation": "参考句子：如果明天有时间，我就把不会做的地方记下。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù bǎ bú huì zuò de dì fāng jì xià 。\n语法与搭配：如果……就……：假设条件",
+      "hanziCount": 18,
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 37,
@@ -777,8 +828,9 @@
         "我想请老师教我怎样请妈妈教一个小办法."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师教我怎样请妈妈教一个小办法。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng qǐng mā mā jiào yí gè xiǎo bàn fǎ 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我想请老师教我怎样请妈妈教一个小办法。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng qǐng mā mā jiào yí gè xiǎo bàn fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -793,8 +845,9 @@
         "我以前不太会控制每天花费的时间,现在好多了."
       ],
       "points": 2,
-      "explanation": "参考句子：我以前不太会控制每天花费的时间，现在好多了。\nwǒ yǐ qián bú tài huì kòng zhì měi tiān huā fèi de shí jiān ， xiàn zài hǎo duō le 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我以前不太会控制每天花费的时间，现在好多了。\nwǒ yǐ qián bú tài huì kòng zhì měi tiān huā fèi de shí jiān ， xiàn zài hǎo duō le 。\n语法与搭配：动作＋以前：说明时间顺序",
+      "hanziCount": 20,
+      "grammarFocus": "动作＋以前：说明时间顺序"
     },
     {
       "id": 39,
@@ -809,8 +862,9 @@
         "我希望下次可以试着给朋友介绍具体步骤."
       ],
       "points": 2,
-      "explanation": "参考句子：我希望下次可以试着给朋友介绍具体步骤。\nwǒ xī wàng xià cì kě yǐ shì zhe gěi péng you jiè shào jù tǐ bù zhòu 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我希望下次可以试着给朋友介绍具体步骤。\nwǒ xī wàng xià cì kě yǐ shì zhe gěi péng you jiè shào jù tǐ bù zhòu 。\n语法与搭配：给＋人＋物/动作",
+      "hanziCount": 18,
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 40,
@@ -825,8 +879,9 @@
         "姐姐说判断是否可以吃让她觉得很开心."
       ],
       "points": 2,
-      "explanation": "参考句子：姐姐说判断是否可以吃让她觉得很开心。\njiě jiě shuō pàn duàn shì fǒu kě yǐ chī ràng tā jué de hěn kāi xīn 。",
-      "hanziCount": 17
+      "explanation": "参考句子：姐姐说判断是否可以吃让她觉得很开心。\njiě jiě shuō pàn duàn shì fǒu kě yǐ chī ràng tā jué de hěn kāi xīn 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 17,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 41,
@@ -841,8 +896,9 @@
         "我和同学常常利用周末把用过的东西收起来."
       ],
       "points": 2,
-      "explanation": "参考句子：我和同学常常利用周末把用过的东西收起来。\nwǒ hé tóng xué cháng cháng lì yòng zhōu mò bǎ yòng guò de dōng xi shōu qǐ lái 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我和同学常常利用周末把用过的东西收起来。\nwǒ hé tóng xué cháng cháng lì yòng zhōu mò bǎ yòng guò de dōng xi shōu qǐ lái 。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "hanziCount": 19,
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 42,
@@ -857,8 +913,9 @@
         "做事之前我们应该先给来家里的人倒杯茶."
       ],
       "points": 2,
-      "explanation": "参考句子：做事之前我们应该先给来家里的人倒杯茶。\nzuò shì zhī qián wǒ men yīng gāi xiān gěi lái jiā lǐ de rén dào bēi chá 。",
-      "hanziCount": 18
+      "explanation": "参考句子：做事之前我们应该先给来家里的人倒杯茶。\nzuò shì zhī qián wǒ men yīng gāi xiān gěi lái jiā lǐ de rén dào bēi chá 。\n语法与搭配：给＋人＋物/动作",
+      "hanziCount": 18,
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 43,
@@ -873,8 +930,9 @@
         "昨天上课时老师教我们邀请朋友分享劳动成果."
       ],
       "points": 2,
-      "explanation": "参考句子：昨天上课时老师教我们邀请朋友分享劳动成果。\nzuó tiān shàng kè shí lǎo shī jiào wǒ men yāo qǐng péng you fēn xiǎng láo dòng chéng guǒ 。",
-      "hanziCount": 20
+      "explanation": "参考句子：昨天上课时老师教我们邀请朋友分享劳动成果。\nzuó tiān shàng kè shí lǎo shī jiào wǒ men yāo qǐng péng you fēn xiǎng láo dòng chéng guǒ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -889,8 +947,9 @@
         "我和朋友商量好明天记录这次成功的经验."
       ],
       "points": 2,
-      "explanation": "参考句子：我和朋友商量好明天记录这次成功的经验。\nwǒ hé péng you shāng liáng hǎo míng tiān jì lù zhè cì chéng gōng de jīng yàn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我和朋友商量好明天记录这次成功的经验。\nwǒ hé péng you shāng liáng hǎo míng tiān jì lù zhè cì chéng gōng de jīng yàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -905,8 +964,9 @@
         "听说你很会了解不同地方的吃法,可以教我吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：听说你很会了解不同地方的吃法，可以教我吗？\ntīng shuō nǐ hěn huì liǎo jiě bù tóng dì fāng de chī fǎ ， kě yǐ jiào wǒ ma ？",
-      "hanziCount": 19
+      "explanation": "参考句子：听说你很会了解不同地方的吃法，可以教我吗？\ntīng shuō nǐ hěn huì liǎo jiě bù tóng dì fāng de chī fǎ ， kě yǐ jiào wǒ ma ？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -921,8 +981,9 @@
         "我已经知道应该怎样注意使用工具时的安全了."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经知道应该怎样注意使用工具时的安全了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng zhù yì shǐ yòng gōng jù shí de ān quán le 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我已经知道应该怎样注意使用工具时的安全了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng zhù yì shǐ yòng gōng jù shí de ān quán le 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 20,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 47,
@@ -939,8 +1000,9 @@
         "我们今天一起讨论怎样把剩下的东西保存好。"
       ],
       "points": 2,
-      "explanation": "参考句子：今天我们一起讨论怎样把剩下的东西保存好。\njīn tiān wǒ men yì qǐ tǎo lùn zěn yàng bǎ shèng xià de dōng xi bǎo cún hǎo 。",
-      "hanziCount": 19
+      "explanation": "参考句子：今天我们一起讨论怎样把剩下的东西保存好。\njīn tiān wǒ men yì qǐ tǎo lùn zěn yàng bǎ shèng xià de dōng xi bǎo cún hǎo 。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "hanziCount": 19,
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 48,
@@ -955,8 +1017,9 @@
         "他准备忙完工作以后再选择适合全家的口味."
       ],
       "points": 2,
-      "explanation": "参考句子：他准备忙完工作以后再选择适合全家的口味。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài xuǎn zé shì hé quán jiā de kǒu wèi 。",
-      "hanziCount": 19
+      "explanation": "参考句子：他准备忙完工作以后再选择适合全家的口味。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài xuǎn zé shì hé quán jiā de kǒu wèi 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 19,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 49,
@@ -971,8 +1034,9 @@
         "我觉得我们可以试着一起让家人帮忙提点意见."
       ],
       "points": 2,
-      "explanation": "参考句子：我觉得我们可以试着一起让家人帮忙提点意见。\nwǒ jué de wǒ men kě yǐ shì zhe yì qǐ ràng jiā rén bāng máng tí diǎn yì jiàn 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我觉得我们可以试着一起让家人帮忙提点意见。\nwǒ jué de wǒ men kě yǐ shì zhe yì qǐ ràng jiā rén bāng máng tí diǎn yì jiàn 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 20,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 50,
@@ -987,8 +1051,10 @@
         "请先等我一下,然后我们再说下次还想试什么."
       ],
       "points": 2,
-      "explanation": "参考句子：请先等我一下，然后我们再说下次还想试什么。\nqǐng xiān děng wǒ yí xià ， rán hòu wǒ men zài shuō xià cì hái xiǎng shì shén me 。",
-      "hanziCount": 19
+      "explanation": "参考句子：请先等我一下，然后我们再说下次还想试什么。\nqǐng xiān děng wǒ yí xià ， rán hòu wǒ men zài shuō xià cì hái xiǎng shì shén me 。\n语法与搭配：先……再……：动作先后顺序",
+      "hanziCount": 19,
+      "grammarFocus": "先……再……：动作先后顺序"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第28课 这个药怎么吃",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“用法”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "bòng fǎ",
-        "B": "yòng fǎ",
-        "C": "còng fǎ",
-        "D": "yòng hǎ"
+        "B": "còng fǎ",
+        "C": "yòng hǎ",
+        "D": "yòng fǎ"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "“用法”读作 yòng fǎ，本课词义：cách dùng。"
+      "explanation": "“用法”读作 yòng fǎ。注意声母、韵母、声调及轻声。",
+      "targetWord": "用法"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“饭后”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fàng hòu",
-        "B": "fàn hào",
-        "C": "fàn hòu",
-        "D": "hàn hòu"
+        "A": "hàn hòu",
+        "B": "fàn hòu",
+        "C": "fàng hòu",
+        "D": "fàn hào"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "“饭后”读作 fàn hòu，本课词义：sau bữa ăn。"
+      "explanation": "“饭后”读作 fàn hòu。注意声母、韵母、声调及轻声。",
+      "targetWord": "饭后"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“次数”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cì sù",
-        "B": "chì shù",
-        "C": "bì shù",
-        "D": "cì shù"
+        "A": "chì shù",
+        "B": "bì shù",
+        "C": "cì shù",
+        "D": "cì sù"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“次数”读作 cì shù，本课词义：số lần。"
+      "explanation": "“次数”读作 cì shù。注意声母、韵母、声调及轻声。",
+      "targetWord": "次数"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“困”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cùn",
-        "B": "dùn",
-        "C": "kùn",
-        "D": "gùn"
+        "A": "kùn",
+        "B": "gùn",
+        "C": "cùn",
+        "D": "dùn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "“困”读作 kùn，本课词义：buồn ngủ。"
+      "explanation": "“困”读作 kùn。注意声母、韵母、声调及轻声。",
+      "targetWord": "困"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“注意”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zù yì",
-        "B": "chù yì",
-        "C": "hù yì",
-        "D": "zhù yì"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "“注意”读作 zhù yì，本课词义：chú ý。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：麻烦您告诉我这个药的具体____。",
-      "pinyin": "má fán nín gào sù wǒ zhè ge yào de jù tǐ ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: cách dùng.",
-      "options": {
-        "A": "用法",
-        "B": "饭后",
-        "C": "次数",
-        "D": "困"
-      },
-      "optionPinyin": {
-        "A": "yòng fǎ",
-        "B": "fàn hòu",
-        "C": "cì shù",
-        "D": "kùn"
+        "A": "zhù yì",
+        "B": "zù yì",
+        "C": "chù yì",
+        "D": "hù yì"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“用法”（cách dùng）。完整表达：麻烦您告诉我这个药的具体用法。"
+      "explanation": "“注意”读作 zhù yì。注意声母、韵母、声调及轻声。",
+      "targetWord": "注意"
     },
     {
-      "id": 7,
+      "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这个药应该____吃吗。",
-      "pinyin": "qǐng wèn zhè ge yào yīng gāi ____ chī ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: sau bữa ăn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：服药前，请认真阅读____。",
+      "pinyin": "fú yào qián ， qǐng rèn zhēn yuè dú ____。",
+      "vietnamese": "Gợi ý: tờ hướng dẫn.",
       "options": {
-        "A": "注意",
-        "B": "饭后",
-        "C": "用法",
-        "D": "困"
+        "A": "剂量",
+        "B": "说明书",
+        "C": "服用",
+        "D": "禁忌"
       },
       "optionPinyin": {
-        "A": "zhù yì",
-        "B": "fàn hòu",
-        "C": "yòng fǎ",
-        "D": "kùn"
+        "A": "jì liàng",
+        "B": "shuō míng shū",
+        "C": "fú yòng",
+        "D": "jìn jì"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“饭后”（sau bữa ăn）。完整表达：请问这个药应该饭后吃吗。"
+      "explanation": "应填“说明书”。完整句子：服药前，请认真阅读说明书。\n语法与搭配：……前；请",
+      "targetWord": "说明书",
+      "completeSentence": "服药前，请认真阅读说明书。",
+      "grammarFocus": "……前；请"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我不确定每次吃多少，要向医生确认____。",
+      "pinyin": "wǒ bù què dìng měi cì chī duō shǎo ， yào xiàng yī shēng què rèn ____。",
+      "vietnamese": "Gợi ý: liều lượng.",
+      "options": {
+        "A": "剂量",
+        "B": "服用",
+        "C": "禁忌",
+        "D": "说明书"
+      },
+      "optionPinyin": {
+        "A": "jì liàng",
+        "B": "fú yòng",
+        "C": "jìn jì",
+        "D": "shuō míng shū"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“剂量”。完整句子：我不确定每次吃多少，要向医生确认剂量。\n语法与搭配：不确定；向",
+      "targetWord": "剂量",
+      "completeSentence": "我不确定每次吃多少，要向医生确认剂量。",
+      "grammarFocus": "不确定；向"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问每天服药的____是多少。",
-      "pinyin": "qǐng wèn měi tiān fú yào de ____ shì duō shǎo",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: số lần.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这种药应该饭前还是饭后____？",
+      "pinyin": "zhè zhǒng yào yīng gāi fàn qián hái shì fàn hòu ____？",
+      "vietnamese": "Gợi ý: dùng (thuốc).",
       "options": {
-        "A": "用法",
-        "B": "饭后",
-        "C": "次数",
-        "D": "注意"
+        "A": "剂量",
+        "B": "禁忌",
+        "C": "说明书",
+        "D": "服用"
       },
       "optionPinyin": {
-        "A": "yòng fǎ",
-        "B": "fàn hòu",
-        "C": "cì shù",
-        "D": "zhù yì"
+        "A": "jì liàng",
+        "B": "jìn jì",
+        "C": "shuō míng shū",
+        "D": "fú yòng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“次数”（số lần）。完整表达：请问每天服药的次数是多少。"
+      "explanation": "应填“服用”。完整句子：这种药应该饭前还是饭后服用？\n语法与搭配：应该；还是",
+      "targetWord": "服用",
+      "completeSentence": "这种药应该饭前还是饭后服用？",
+      "grammarFocus": "应该；还是"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：吃了这个药以后我会不会觉得____。",
-      "pinyin": "chī le zhè ge yào yǐ hòu wǒ huì bú huì jué de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: buồn ngủ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：买药时要问清楚用药____。",
+      "pinyin": "mǎi yào shí yào wèn qīng chǔ yòng yào ____。",
+      "vietnamese": "Gợi ý: chống chỉ định.",
       "options": {
-        "A": "用法",
-        "B": "注意",
-        "C": "困",
-        "D": "次数"
+        "A": "服用",
+        "B": "剂量",
+        "C": "禁忌",
+        "D": "说明书"
       },
       "optionPinyin": {
-        "A": "yòng fǎ",
-        "B": "zhù yì",
-        "C": "kùn",
-        "D": "cì shù"
+        "A": "fú yòng",
+        "B": "jì liàng",
+        "C": "jìn jì",
+        "D": "shuō míng shū"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“困”（buồn ngủ）。完整表达：吃了这个药以后我会不会觉得困。"
+      "explanation": "应填“禁忌”。完整句子：买药时要问清楚用药禁忌。\n语法与搭配：要；动词＋清楚",
+      "targetWord": "禁忌",
+      "completeSentence": "买药时要问清楚用药禁忌。",
+      "grammarFocus": "要；动词＋清楚"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：服药期间饮食方面需要____什么。",
-      "pinyin": "fú yào qī jiān yǐn shí fāng miàn xū yào ____ shén me",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chú ý.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：如果看不懂用法，可以请____解释。",
+      "pinyin": "rú guǒ kàn bù dǒng yòng fǎ ， kě yǐ qǐng ____ jiě shì 。",
+      "vietnamese": "Gợi ý: dược sĩ.",
       "options": {
-        "A": "饭后",
-        "B": "困",
-        "C": "注意",
-        "D": "用法"
+        "A": "药师",
+        "B": "服用",
+        "C": "说明书",
+        "D": "剂量"
       },
       "optionPinyin": {
-        "A": "fàn hòu",
-        "B": "kùn",
-        "C": "zhù yì",
-        "D": "yòng fǎ"
+        "A": "yào shī",
+        "B": "fú yòng",
+        "C": "shuō míng shū",
+        "D": "jì liàng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“注意”（chú ý）。完整表达：服药期间饮食方面需要注意什么。"
+      "explanation": "应填“药师”。完整句子：如果看不懂用法，可以请药师解释。\n语法与搭配：如果；请＋人＋动词",
+      "targetWord": "药师",
+      "completeSentence": "如果看不懂用法，可以请药师解释。",
+      "grammarFocus": "如果；请＋人＋动词"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n这个药的 / 告诉我 / 麻烦您 / 具体用法",
-      "pinyin": "zhè ge yào de / gào sù wǒ / má fán nín / jù tǐ yòng fǎ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n用温水 / 送服吗 / 这种药 / 需要",
+      "pinyin": "yòng wēn shuǐ / sòng fú ma / zhè zhǒng yào / xū yào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦您告诉我这个药的具体用法。",
-        "麻烦您告诉我这个药的具体用法",
-        "麻烦您告诉我这个药的具体用法.",
-        "麻烦您告诉我这个药的具体用法？",
-        "麻烦您告诉我这个药的具体用法?"
+        "这种药需要用温水送服吗？",
+        "这种药需要用温水送服吗",
+        "这种药需要用温水送服吗?"
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：麻烦您告诉我这个药的具体用法。\nmá fán nín gào sù wǒ zhè ge yào de jù tǐ yòng fǎ。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 11,
+      "explanation": "参考句子：这种药需要用温水送服吗？\nzhè zhǒng yào xū yào yòng wēn shuǐ sòng fú ma\n语法与搭配：需要……吗",
+      "grammarFocus": "需要……吗"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 饭后吃吗 / 应该 / 这个药",
-      "pinyin": "qǐng wèn / fàn hòu chī ma / yīng gāi / zhè ge yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n能否一起用 / 想请医生确认 / 我 / 正在吃别的药",
+      "pinyin": "néng fǒu yì qǐ yòng / xiǎng qǐng yī shēng què rèn / wǒ / zhèng zài chī bié de yào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这个药应该饭后吃吗。",
-        "请问这个药应该饭后吃吗",
-        "请问这个药应该饭后吃吗.",
-        "请问这个药应该饭后吃吗？",
-        "请问这个药应该饭后吃吗?"
+        "我正在吃别的药想请医生确认能否一起用。",
+        "我正在吃别的药想请医生确认能否一起用",
+        "我正在吃别的药想请医生确认能否一起用."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请问这个药应该饭后吃吗。\nqǐng wèn zhè ge yào yīng gāi fàn hòu chī ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 18,
+      "explanation": "参考句子：我正在吃别的药想请医生确认能否一起用。\nwǒ zhèng zài chī bié de yào xiǎng qǐng yī shēng què rèn néng fǒu yì qǐ yòng\n语法与搭配：正在；能否",
+      "grammarFocus": "正在；能否"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n多少 / 请问 / 每天服药的次数 / 是",
-      "pinyin": "duō shǎo / qǐng wèn / měi tiān fú yào de cì shù / shì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n漏服了一次 / 先咨询医生或药师 / 如果 / 应该",
+      "pinyin": "lòu fú le yī cì / xiān zī xún yī shēng huò yào shī / rú guǒ / yīng gāi",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问每天服药的次数是多少。",
-        "请问每天服药的次数是多少",
-        "请问每天服药的次数是多少.",
-        "请问每天服药的次数是多少？",
-        "请问每天服药的次数是多少?"
+        "如果漏服了一次应该先咨询医生或药师。",
+        "如果漏服了一次应该先咨询医生或药师",
+        "如果漏服了一次应该先咨询医生或药师."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：请问每天服药的次数是多少。\nqǐng wèn měi tiān fú yào de cì shù shì duō shǎo。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：如果漏服了一次应该先咨询医生或药师。\nrú guǒ lòu fú le yī cì yīng gāi xiān zī xún yī shēng huò yào shī\n语法与搭配：如果；应该先",
+      "grammarFocus": "如果；应该先"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n觉得困 / 会不会 / 我 / 吃了这个药以后",
-      "pinyin": "jué de kùn / huì bú huì / wǒ / chī le zhè ge yào yǐ hòu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n吃药以后 / 会及时联系医生 / 我 / 出现不舒服",
+      "pinyin": "chī yào yǐ hòu / huì jí shí lián xì yī shēng / wǒ / chū xiàn bù shū fú",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "吃了这个药以后我会不会觉得困。",
-        "吃了这个药以后我会不会觉得困",
-        "吃了这个药以后我会不会觉得困.",
-        "吃了这个药以后我会不会觉得困？",
-        "吃了这个药以后我会不会觉得困?"
+        "吃药以后出现不舒服我会及时联系医生。",
+        "吃药以后出现不舒服我会及时联系医生",
+        "吃药以后出现不舒服我会及时联系医生."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：吃了这个药以后我会不会觉得困。\nchī le zhè ge yào yǐ hòu wǒ huì bú huì jué de kùn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：吃药以后出现不舒服我会及时联系医生。\nchī yào yǐ hòu chū xiàn bù shū fú wǒ huì jí shí lián xì yī shēng\n语法与搭配：……以后；会",
+      "grammarFocus": "……以后；会"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n服药期间 / 需要 / 饮食方面 / 注意什么",
-      "pinyin": "fú yào qī jiān / xū yào / yǐn shí fāng miàn / zhù yì shén me",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n记在 / 把医生写的用法 / 手机里了 / 我",
+      "pinyin": "jì zài / bǎ yī shēng xiě de yòng fǎ / shǒu jī lǐ le / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "服药期间饮食方面需要注意什么。",
-        "服药期间饮食方面需要注意什么",
-        "服药期间饮食方面需要注意什么.",
-        "服药期间饮食方面需要注意什么？",
-        "服药期间饮食方面需要注意什么?"
+        "我把医生写的用法记在手机里了。",
+        "我把医生写的用法记在手机里了",
+        "我把医生写的用法记在手机里了."
       ],
       "points": 5,
       "hanziCount": 14,
-      "explanation": "参考表达：服药期间饮食方面需要注意什么。\nfú yào qī jiān yǐn shí fāng miàn xū yào zhù yì shén me。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：我把医生写的用法记在手机里了。\nwǒ bǎ yī shēng xiě de yòng fǎ jì zài shǒu jī lǐ le\n语法与搭配：把；在＋处所补语",
+      "grammarFocus": "把；在＋处所补语"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,6 +1,6 @@
 {
   "title": "HSK5 第30课 跨文化沟通与未来计划",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,219 +9,239 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“差异”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cā yì",
+        "A": "chāi yì",
         "B": "chā yì",
-        "C": "chāi yì",
+        "C": "cā yì",
         "D": "chuā yì"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“差异”读作 chā yì，意思是 khác biệt。"
+      "explanation": "“差异”读作 chā yì。注意声母、韵母、声调及轻声。",
+      "targetWord": "差异"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“交流”的正确读音。",
+      "text": "【拼音选择】请选择“误解”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qiāo liú",
-        "B": "jiāo niú",
-        "C": "jiāo liú",
-        "D": "biāo liú"
+        "A": "cù jiě",
+        "B": "bù jiě",
+        "C": "wù jiě",
+        "D": "wù qiě"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“交流”读作 jiāo liú，意思是 giao lưu。"
+      "explanation": "“误解”读作 wù jiě。注意声母、韵母、声调及轻声。",
+      "targetWord": "误解"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“适应”的正确读音。",
+      "text": "【拼音选择】请选择“语境”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shì yìn",
-        "B": "chì yìng",
-        "C": "sì yìng",
-        "D": "shì yìng"
+        "A": "yǔ jìn",
+        "B": "yǔ jìng",
+        "C": "bǔ jìng",
+        "D": "yǔ qìng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“适应”读作 shì yìng，意思是 thích nghi。"
+      "explanation": "“语境”读作 yǔ jìng。注意声母、韵母、声调及轻声。",
+      "targetWord": "语境"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“规划”的正确读音。",
+      "text": "【拼音选择】请选择“愿景”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "guī huà",
-        "B": "guā huà",
-        "C": "duī huà",
-        "D": "cuī huà"
+        "A": "cuàn jǐng",
+        "B": "yuàn jǐng",
+        "C": "yuàn qǐng",
+        "D": "yuàn jǐn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“规划”读作 guī huà，意思是 quy hoạch, lên kế hoạch。"
+      "explanation": "“愿景”读作 yuàn jǐng。注意声母、韵母、声调及轻声。",
+      "targetWord": "愿景"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“实现”的正确读音。",
+      "text": "【拼音选择】请选择“互鉴”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shí xiàn",
-        "B": "shí qiàn",
-        "C": "shí xiàng",
-        "D": "sí xiàn"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“实现”读作 shí xiàn，意思是 thực hiện。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：了解文化____能够帮助我们减少跨文化交流中的误解。",
-      "pinyin": "liǎo jiě wén huà ____ néng gòu bāng zhù wǒ men jiǎn shǎo kuà wén huà jiāo liú zhōng de wù jiě",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: khác biệt.",
-      "options": {
-        "A": "实现",
-        "B": "交流",
-        "C": "规划",
-        "D": "差异"
-      },
-      "optionPinyin": {
-        "A": "shí xiàn",
-        "B": "jiāo liú",
-        "C": "guī huà",
-        "D": "chā yì"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“差异”（khác biệt）。完整句子：了解文化差异能够帮助我们减少跨文化交流中的误解。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：这次活动为中越学生提供了面对面____的机会。",
-      "pinyin": "zhè cì huó dòng wèi zhōng yuè xué shēng tí gōng le miàn duì miàn ____ de jī huì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: giao lưu.",
-      "options": {
-        "A": "交流",
-        "B": "差异",
-        "C": "规划",
-        "D": "适应"
-      },
-      "optionPinyin": {
-        "A": "jiāo liú",
-        "B": "chā yì",
-        "C": "guī huà",
-        "D": "shì yìng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“交流”（giao lưu）。完整句子：这次活动为中越学生提供了面对面交流的机会。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：刚到国外时他花了几个月才逐渐____新的生活环境。",
-      "pinyin": "gāng dào guó wài shí tā huā le jǐ gè yuè cái zhú jiàn ____ xīn de shēng huó huán jìng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thích nghi.",
-      "options": {
-        "A": "适应",
-        "B": "差异",
-        "C": "实现",
-        "D": "交流"
-      },
-      "optionPinyin": {
-        "A": "shì yìng",
-        "B": "chā yì",
-        "C": "shí xiàn",
-        "D": "jiāo liú"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“适应”（thích nghi）。完整句子：刚到国外时他花了几个月才逐渐适应新的生活环境。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：毕业以前她认真____了未来三年的学习和工作方向。",
-      "pinyin": "bì yè yǐ qián tā rèn zhēn ____ le wèi lái sān nián de xué xí hé gōng zuò fāng xiàng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: quy hoạch, lên kế hoạch.",
-      "options": {
-        "A": "实现",
-        "B": "交流",
-        "C": "规划",
-        "D": "适应"
-      },
-      "optionPinyin": {
-        "A": "shí xiàn",
-        "B": "jiāo liú",
-        "C": "guī huà",
-        "D": "shì yìng"
+        "A": "hù qiàn",
+        "B": "hù jiàng",
+        "C": "hù jiàn",
+        "D": "fù jiàn"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“规划”（quy hoạch, lên kế hoạch）。完整句子：毕业以前她认真规划了未来三年的学习和工作方向。"
+      "explanation": "“互鉴”读作 hù jiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "互鉴"
     },
     {
-      "id": 10,
+      "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：只有把计划变成行动我们才有可能____自己的目标。",
-      "pinyin": "zhǐ yǒu bǎ jì huà biàn chéng háng dòng wǒ men cái yǒu kě néng ____ zì jǐ de mù biāo",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thực hiện.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：同一句话在不同文化中，可能引起不同的____。",
+      "pinyin": "tóng yī jù huà zài bù tóng wén huà zhōng ， kě néng yǐn qǐ bù tóng de ____。",
+      "vietnamese": "Gợi ý: hiểu.",
       "options": {
-        "A": "实现",
-        "B": "交流",
-        "C": "规划",
-        "D": "差异"
+        "A": "理解",
+        "B": "调整",
+        "C": "立场",
+        "D": "信任"
       },
       "optionPinyin": {
-        "A": "shí xiàn",
-        "B": "jiāo liú",
-        "C": "guī huà",
-        "D": "chā yì"
+        "A": "lǐ jiě",
+        "B": "tiáo zhěng",
+        "C": "lì chǎng",
+        "D": "xìn rèn"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“实现”（thực hiện）。完整句子：只有把计划变成行动我们才有可能实现自己的目标。"
+      "explanation": "应填“理解”。完整句子：同一句话在不同文化中，可能引起不同的理解。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "targetWord": "理解",
+      "completeSentence": "同一句话在不同文化中，可能引起不同的理解。",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：沟通时发现对方不理解，应及时____自己的表达。",
+      "pinyin": "gōu tōng shí fā xiàn duì fāng bù lǐ jiě ， yīng jí shí ____ zì jǐ de biǎo dá 。",
+      "vietnamese": "Gợi ý: điều chỉnh.",
+      "options": {
+        "A": "信任",
+        "B": "理解",
+        "C": "立场",
+        "D": "调整"
+      },
+      "optionPinyin": {
+        "A": "xìn rèn",
+        "B": "lǐ jiě",
+        "C": "lì chǎng",
+        "D": "tiáo zhěng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“调整”。完整句子：沟通时发现对方不理解，应及时调整自己的表达。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "调整",
+      "completeSentence": "沟通时发现对方不理解，应及时调整自己的表达。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：尊重差异不等于放弃自己的____。",
+      "pinyin": "zūn zhòng chā yì bù děng yú fàng qì zì jǐ de ____。",
+      "vietnamese": "Gợi ý: lập trường.",
+      "options": {
+        "A": "理解",
+        "B": "调整",
+        "C": "立场",
+        "D": "信任"
+      },
+      "optionPinyin": {
+        "A": "lǐ jiě",
+        "B": "tiáo zhěng",
+        "C": "lì chǎng",
+        "D": "xìn rèn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“立场”。完整句子：尊重差异不等于放弃自己的立场。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "立场",
+      "completeSentence": "尊重差异不等于放弃自己的立场。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：共同完成项目的经历，加深了双方的____。",
+      "pinyin": "gòng tóng wán chéng xiàng mù dì jīng lì ， jiā shēn le shuāng fāng de ____。",
+      "vietnamese": "Gợi ý: tin tưởng.",
+      "options": {
+        "A": "立场",
+        "B": "调整",
+        "C": "理解",
+        "D": "信任"
+      },
+      "optionPinyin": {
+        "A": "lì chǎng",
+        "B": "tiáo zhěng",
+        "C": "lǐ jiě",
+        "D": "xìn rèn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“信任”。完整句子：共同完成项目的经历，加深了双方的信任。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "信任",
+      "completeSentence": "共同完成项目的经历，加深了双方的信任。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：制定未来计划时，应给新的机会留出一定____。",
+      "pinyin": "zhì dìng wèi lái jì huà shí ， yīng gěi xīn de jī huì liú chū yí dìng ____。",
+      "vietnamese": "Gợi ý: không gian.",
+      "options": {
+        "A": "空间",
+        "B": "理解",
+        "C": "立场",
+        "D": "调整"
+      },
+      "optionPinyin": {
+        "A": "kōng jiān",
+        "B": "lǐ jiě",
+        "C": "lì chǎng",
+        "D": "tiáo zhěng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“空间”。完整句子：制定未来计划时，应给新的机会留出一定空间。\n语法与搭配：给＋人＋物/动作",
+      "targetWord": "空间",
+      "completeSentence": "制定未来计划时，应给新的机会留出一定空间。",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：了解文化差异能够帮助我们减少跨文化交流中的误解。\nliǎo jiě wén huà chā yì néng gòu bāng zhù wǒ men jiǎn shǎo kuà wén huà jiāo liú zhōng de wù jiě。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：了解文化差异能够帮助我们减少跨文化交流中的误解。\nliǎo jiě wén huà chā yì néng gòu bāng zhù wǒ men jiǎn shǎo kuà wén huà jiāo liú zhōng de wù jiě。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：这次活动为中越学生提供了面对面交流的机会。\nzhè cì huó dòng wèi zhōng yuè xué shēng tí gōng le miàn duì miàn jiāo liú de jī huì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：这次活动为中越学生提供了面对面交流的机会。\nzhè cì huó dòng wèi zhōng yuè xué shēng tí gōng le miàn duì miàn jiāo liú de jī huì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 13,
@@ -272,7 +294,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：刚到国外时他花了几个月才逐渐适应新的生活环境。\ngāng dào guó wài shí tā huā le jǐ gè yuè cái zhú jiàn shì yìng xīn de shēng huó huán jìng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：刚到国外时他花了几个月才逐渐适应新的生活环境。\ngāng dào guó wài shí tā huā le jǐ gè yuè cái zhú jiàn shì yìng xīn de shēng huó huán jìng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 14,
@@ -291,7 +314,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：毕业以前她认真规划了未来三年的学习和工作方向。\nbì yè yǐ qián tā rèn zhēn guī huà le wèi lái sān nián de xué xí hé gōng zuò fāng xiàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：毕业以前她认真规划了未来三年的学习和工作方向。\nbì yè yǐ qián tā rèn zhēn guī huà le wèi lái sān nián de xué xí hé gōng zuò fāng xiàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动作＋以前：说明时间顺序",
+      "grammarFocus": "动作＋以前：说明时间顺序"
     },
     {
       "id": 15,
@@ -307,7 +331,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：只有把计划变成行动我们才有可能实现自己的目标。\nzhǐ yǒu bǎ jì huà biàn chéng háng dòng wǒ men cái yǒu kě néng shí xiàn zì jǐ de mù biāo。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：只有把计划变成行动我们才有可能实现自己的目标。\nzhǐ yǒu bǎ jì huà biàn chéng háng dòng wǒ men cái yǒu kě néng shí xiàn zì jǐ de mù biāo。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 16,
@@ -323,7 +348,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：我们不仅要了解跨文化沟通的障碍还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě kuà wén huà gōu tōng de zhàng ài hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解跨文化沟通的障碍还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě kuà wén huà gōu tōng de zhàng ài hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -339,7 +365,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化未来计划的制定都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà wèi lái jì huà de zhì dìng dū zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化未来计划的制定都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà wèi lái jì huà de zhì dìng dū zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -355,7 +382,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解国际交流的意义才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě guó jì jiāo liú de yì yì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解国际交流的意义才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě guó jì jiāo liú de yì yì cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -371,7 +399,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析语言学习的长期价值。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī yǔ yán xué xí de cháng qī jià zhí。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析语言学习的长期价值。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī yǔ yán xué xí de cháng qī jià zhí。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -387,7 +416,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明个人目标的实现。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng gè rén mù biāo de shí xiàn。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明个人目标的实现。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng gè rén mù biāo de shí xiàn。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

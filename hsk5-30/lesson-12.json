@@ -1,6 +1,6 @@
 {
   "title": "HSK5 第12课 友谊与人际交往",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,219 +9,239 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“真诚”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zēn chéng",
-        "B": "zhēn chén",
+        "A": "zhēn chén",
+        "B": "zhēn chéng",
         "C": "zhēn céng",
-        "D": "zhēn chéng"
+        "D": "zēn chéng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“真诚”读作 zhēn chéng，意思是 chân thành。"
+      "explanation": "“真诚”读作 zhēn chéng。注意声母、韵母、声调及轻声。",
+      "targetWord": "真诚"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“信任”的正确读音。",
+      "text": "【拼音选择】请选择“信赖”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qìn rèn",
-        "B": "xìn rèn",
-        "C": "xìng rèn",
-        "D": "xìn rèng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“信任”读作 xìn rèn，意思是 tin tưởng。"
-    },
-    {
-      "id": 3,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“误会”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "bù huì",
-        "B": "dù huì",
-        "C": "cù huì",
-        "D": "wù huì"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "“误会”读作 wù huì，意思是 hiểu lầm。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“主动”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "hǔ dòng",
-        "B": "chǔ dòng",
-        "C": "zhǔ dòng",
-        "D": "zǔ dòng"
+        "A": "qìn lài",
+        "B": "xìng lài",
+        "C": "xìn lài",
+        "D": "xìn nài"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“主动”读作 zhǔ dòng，意思是 chủ động。"
+      "explanation": "“信赖”读作 xìn lài。注意声母、韵母、声调及轻声。",
+      "targetWord": "信赖"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“交情”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "jiāo qín",
+        "B": "qiāo qíng",
+        "C": "jiāo xíng",
+        "D": "jiāo qíng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“交情”读作 jiāo qíng。注意声母、韵母、声调及轻声。",
+      "targetWord": "交情"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“陪伴”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "péi bàn",
+        "B": "péi bàng",
+        "C": "pái bàn",
+        "D": "féi bàn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“陪伴”读作 péi bàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "陪伴"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“承诺”的正确读音。",
+      "text": "【拼音选择】请选择“包容”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chéng luò",
-        "B": "céng nuò",
-        "C": "chén nuò",
-        "D": "chéng nuò"
+        "A": "biāo róng",
+        "B": "bā róng",
+        "C": "bāi róng",
+        "D": "bāo róng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“承诺”读作 chéng nuò，意思是 cam kết。"
+      "explanation": "“包容”读作 bāo róng。注意声母、韵母、声调及轻声。",
+      "targetWord": "包容"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：真正的友谊建立在彼此____相待的基础上。",
-      "pinyin": "zhēn zhèng de yǒu yì jiàn lì zài bǐ cǐ ____ xiāng dài de jī chǔ shàng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chân thành.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：真正的____是在困难时仍愿意彼此支持。",
+      "pinyin": "zhēn zhèng de ____ shì zài kùn nán shí réng yuàn yì bǐ cǐ zhī chí 。",
+      "vietnamese": "Gợi ý: tình bạn.",
       "options": {
-        "A": "真诚",
-        "B": "误会",
-        "C": "承诺",
-        "D": "主动"
-      },
-      "optionPinyin": {
-        "A": "zhēn chéng",
-        "B": "wù huì",
-        "C": "chéng nuò",
-        "D": "zhǔ dòng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“真诚”（chân thành）。完整句子：真正的友谊建立在彼此真诚相待的基础上。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：如果总是怀疑对方双方就很难建立____。",
-      "pinyin": "rú guǒ zǒng shì huái yí duì fāng shuāng fāng jiù hěn nán jiàn lì ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tin tưởng.",
-      "options": {
-        "A": "主动",
-        "B": "误会",
-        "C": "真诚",
+        "A": "感受",
+        "B": "友谊",
+        "C": "距离",
         "D": "信任"
       },
       "optionPinyin": {
-        "A": "zhǔ dòng",
-        "B": "wù huì",
-        "C": "zhēn chéng",
+        "A": "gǎn shòu",
+        "B": "yǒu yì",
+        "C": "jù lí",
         "D": "xìn rèn"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“信任”（tin tưởng）。完整句子：如果总是怀疑对方双方就很难建立信任。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：听完解释以后她才发现这件事只是一个____。",
-      "pinyin": "tīng wán jiě shì yǐ hòu tā cái fā xiàn zhè jiàn shì zhǐ shì yí gè ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hiểu lầm.",
-      "options": {
-        "A": "真诚",
-        "B": "主动",
-        "C": "信任",
-        "D": "误会"
-      },
-      "optionPinyin": {
-        "A": "zhēn chéng",
-        "B": "zhǔ dòng",
-        "C": "xìn rèn",
-        "D": "wù huì"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“误会”（hiểu lầm）。完整句子：听完解释以后她才发现这件事只是一个误会。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：当朋友遇到困难时他总是____提供帮助。",
-      "pinyin": "dāng péng you yù dào kùn nán shí tā zǒng shì ____ tí gōng bāng zhù",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chủ động.",
-      "options": {
-        "A": "真诚",
-        "B": "主动",
-        "C": "承诺",
-        "D": "误会"
-      },
-      "optionPinyin": {
-        "A": "zhēn chéng",
-        "B": "zhǔ dòng",
-        "C": "chéng nuò",
-        "D": "wù huì"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“主动”（chủ động）。完整句子：当朋友遇到困难时他总是主动提供帮助。"
+      "explanation": "应填“友谊”。完整句子：真正的友谊是在困难时仍愿意彼此支持。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "targetWord": "友谊",
+      "completeSentence": "真正的友谊是在困难时仍愿意彼此支持。",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
-      "id": 10,
+      "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：既然已经作出____就应该尽最大的努力去实现。",
-      "pinyin": "jì rán yǐ jīng zuò chū ____ jiù yīng gāi jǐn zuì dà de nǔ lì qù shí xiàn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: cam kết.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：承诺如果总是不兑现，就会失去朋友的____。",
+      "pinyin": "chéng nuò rú guǒ zǒng shì bù duì xiàn ， jiù huì shī qù péng you de ____。",
+      "vietnamese": "Gợi ý: tin tưởng.",
       "options": {
-        "A": "承诺",
-        "B": "主动",
-        "C": "真诚",
-        "D": "信任"
+        "A": "友谊",
+        "B": "距离",
+        "C": "信任",
+        "D": "感受"
       },
       "optionPinyin": {
-        "A": "chéng nuò",
-        "B": "zhǔ dòng",
-        "C": "zhēn chéng",
-        "D": "xìn rèn"
+        "A": "yǒu yì",
+        "B": "jù lí",
+        "C": "xìn rèn",
+        "D": "gǎn shòu"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“信任”。完整句子：承诺如果总是不兑现，就会失去朋友的信任。\n语法与搭配：如果……就……：假设条件",
+      "targetWord": "信任",
+      "completeSentence": "承诺如果总是不兑现，就会失去朋友的信任。",
+      "grammarFocus": "如果……就……：假设条件"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：朋友之间需要保持适当的____，也要尊重各自的生活。",
+      "pinyin": "péng you zhī jiān xū yào bǎo chí shì dàng de ____， yě yào zūn zhòng gè zì de shēng huó 。",
+      "vietnamese": "Gợi ý: khoảng cách.",
+      "options": {
+        "A": "距离",
+        "B": "信任",
+        "C": "友谊",
+        "D": "感受"
+      },
+      "optionPinyin": {
+        "A": "jù lí",
+        "B": "xìn rèn",
+        "C": "yǒu yì",
+        "D": "gǎn shòu"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“承诺”（cam kết）。完整句子：既然已经作出承诺就应该尽最大的努力去实现。"
+      "explanation": "应填“距离”。完整句子：朋友之间需要保持适当的距离，也要尊重各自的生活。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "距离",
+      "completeSentence": "朋友之间需要保持适当的距离，也要尊重各自的生活。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他没有急着反驳，而是先表达了自己的____。",
+      "pinyin": "tā méi yǒu jí zhe fǎn bó ， ér shì xiān biǎo dá le zì jǐ de ____。",
+      "vietnamese": "Gợi ý: cảm nhận.",
+      "options": {
+        "A": "感受",
+        "B": "信任",
+        "C": "友谊",
+        "D": "距离"
+      },
+      "optionPinyin": {
+        "A": "gǎn shòu",
+        "B": "xìn rèn",
+        "C": "yǒu yì",
+        "D": "jù lí"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“感受”。完整句子：他没有急着反驳，而是先表达了自己的感受。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "感受",
+      "completeSentence": "他没有急着反驳，而是先表达了自己的感受。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：双方愿意站在对方的角度思考，关系才可能更加____。",
+      "pinyin": "shuāng fāng yuàn yì zhàn zài duì fāng de jiǎo dù sī kǎo ， guān xi cái kě néng gèng jiā ____。",
+      "vietnamese": "Gợi ý: ổn định.",
+      "options": {
+        "A": "友谊",
+        "B": "距离",
+        "C": "信任",
+        "D": "稳定"
+      },
+      "optionPinyin": {
+        "A": "yǒu yì",
+        "B": "jù lí",
+        "C": "xìn rèn",
+        "D": "wěn dìng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“稳定”。完整句子：双方愿意站在对方的角度思考，关系才可能更加稳定。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "targetWord": "稳定",
+      "completeSentence": "双方愿意站在对方的角度思考，关系才可能更加稳定。",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：真正的友谊建立在彼此真诚相待的基础上。\nzhēn zhèng de yǒu yì jiàn lì zài bǐ cǐ zhēn chéng xiāng dài de jī chǔ shàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：真正的友谊建立在彼此真诚相待的基础上。\nzhēn zhèng de yǒu yì jiàn lì zài bǐ cǐ zhēn chéng xiāng dài de jī chǔ shàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：如果总是怀疑对方双方就很难建立信任。\nrú guǒ zǒng shì huái yí duì fāng shuāng fāng jiù hěn nán jiàn lì xìn rèn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：如果总是怀疑对方双方就很难建立信任。\nrú guǒ zǒng shì huái yí duì fāng shuāng fāng jiù hěn nán jiàn lì xìn rèn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：如果……就……：假设条件",
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 13,
@@ -272,7 +294,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：听完解释以后她才发现这件事只是一个误会。\ntīng wán jiě shì yǐ hòu tā cái fā xiàn zhè jiàn shì zhǐ shì yí gè wù huì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：听完解释以后她才发现这件事只是一个误会。\ntīng wán jiě shì yǐ hòu tā cái fā xiàn zhè jiàn shì zhǐ shì yí gè wù huì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动作＋以后：说明时间顺序",
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 14,
@@ -291,7 +314,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：当朋友遇到困难时他总是主动提供帮助。\ndāng péng you yù dào kùn nán shí tā zǒng shì zhǔ dòng tí gōng bāng zhù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：当朋友遇到困难时他总是主动提供帮助。\ndāng péng you yù dào kùn nán shí tā zǒng shì zhǔ dòng tí gōng bāng zhù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -307,7 +331,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：既然已经作出承诺就应该尽最大的努力去实现。\njì rán yǐ jīng zuò chū chéng nuò jiù yīng gāi jǐn zuì dà de nǔ lì qù shí xiàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：既然已经作出承诺就应该尽最大的努力去实现。\njì rán yǐ jīng zuò chū chéng nuò jiù yīng gāi jǐn zuì dà de nǔ lì qù shí xiàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：已经……了：已完成或已达到的状态",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 16,
@@ -323,7 +348,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解友谊维持的方法还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě yǒu yì wéi chí de fāng fǎ hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解友谊维持的方法还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě yǒu yì wéi chí de fāng fǎ hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -339,7 +365,8 @@
       ],
       "points": 5,
       "hanziCount": 25,
-      "explanation": "参考句子：无论社会如何变化个人界限的必要性都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà gè rén jiè xiàn de bì yào xìng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化个人界限的必要性都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà gè rén jiè xiàn de bì yào xìng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -355,7 +382,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解社交礼仪的作用才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě shè jiāo lǐ yí de zuò yòng cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解社交礼仪的作用才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě shè jiāo lǐ yí de zuò yòng cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -371,7 +399,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析人际误会的消除。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī rén jì wù huì de xiāo chú。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析人际误会的消除。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī rén jì wù huì de xiāo chú。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -387,7 +416,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明诚实守信的意义。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng chéng shí shǒu xìn de yì yì。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明诚实守信的意义。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng chéng shí shǒu xìn de yì yì。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

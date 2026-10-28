@@ -1,26 +1,27 @@
 {
   "title": "日常交际 第19课 请你尝尝越南菜",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“春卷”的正确读音。",
+      "text": "【拼音选择】请选择“鱼露”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chūn juǎn",
-        "B": "chuā juǎn",
-        "C": "cūn juǎn",
-        "D": "chūn quǎn"
+        "A": "yú lù",
+        "B": "cú lù",
+        "C": "yú nù",
+        "D": "bú lù"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“春卷”读作 chūn juǎn，本课词义：nem, chả giò。"
+      "explanation": "“鱼露”读作 yú lù。注意声母、韵母、声调及轻声。",
+      "targetWord": "鱼露"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“味道”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bèi dào",
-        "B": "wèi dào",
-        "C": "wèi dòu",
-        "D": "wài dào"
+        "A": "wài dào",
+        "B": "wèi dòu",
+        "C": "wèi dào",
+        "D": "bèi dào"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“味道”读作 wèi dào，本课词义：hương vị。"
+      "explanation": "“味道”读作 wèi dào。注意声母、韵母、声调及轻声。",
+      "targetWord": "味道"
     },
     {
       "id": 3,
@@ -47,37 +49,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“清淡”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jīng dàn",
-        "B": "qīng dàn",
-        "C": "qīng dàng",
-        "D": "xīng dàn"
+        "A": "qīng dàng",
+        "B": "xīng dàn",
+        "C": "jīng dàn",
+        "D": "qīng dàn"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "“清淡”读作 qīng dàn，本课词义：thanh đạm。"
+      "explanation": "“清淡”读作 qīng dàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "清淡"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“蘸料”的正确读音。",
+      "text": "【拼音选择】请选择“香草”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zàn liào",
-        "B": "zhàng liào",
-        "C": "zhàn liào",
-        "D": "zhàn niào"
+        "A": "xiān cǎo",
+        "B": "qiāng cǎo",
+        "C": "xiāng cǎo",
+        "D": "xiāng chǎo"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“蘸料”读作 zhàn liào，本课词义：nước chấm。"
+      "explanation": "“香草”读作 xiāng cǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "香草"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“河粉”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "ché fěn",
-        "B": "hé fěn",
-        "C": "hé hěn",
-        "D": "hé fěng"
+        "A": "hé fěng",
+        "B": "hé hěn",
+        "C": "hé fěn",
+        "D": "ché fěn"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“河粉”读作 hé fěn，本课词义：phở。"
+      "explanation": "“河粉”读作 hé fěn。注意声母、韵母、声调及轻声。",
+      "targetWord": "河粉"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这是我亲手做的越南____。",
-      "pinyin": "zhè shì wǒ qīn shǒu zuò de yuè nán ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: nem, chả giò.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这盘____可以蘸着酱吃。",
+      "pinyin": "zhè pán ____ kě yǐ zhàn zhe jiàng chī 。",
+      "vietnamese": "Gợi ý: nem cuốn, chả giò.",
       "options": {
-        "A": "蘸料",
-        "B": "春卷",
-        "C": "河粉",
-        "D": "清淡"
-      },
-      "optionPinyin": {
-        "A": "zhàn liào",
-        "B": "chūn juǎn",
-        "C": "hé fěn",
-        "D": "qīng dàn"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“春卷”（nem, chả giò）。完整表达：这是我亲手做的越南春卷。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：你觉得这道菜的____怎么样。",
-      "pinyin": "nǐ jué de zhè dào cài de ____ zěn me yàng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hương vị.",
-      "options": {
-        "A": "河粉",
-        "B": "味道",
-        "C": "蘸料",
+        "A": "酸甜",
+        "B": "香茅",
+        "C": "特色",
         "D": "春卷"
       },
       "optionPinyin": {
-        "A": "hé fěn",
-        "B": "wèi dào",
-        "C": "zhàn liào",
+        "A": "suān tián",
+        "B": "xiāng máo",
+        "C": "tè sè",
         "D": "chūn juǎn"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“味道”（hương vị）。完整表达：你觉得这道菜的味道怎么样。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这道汤味道比较____你可以尝尝。",
-      "pinyin": "zhè dào tāng wèi dào bǐ jiào ____ nǐ kě yǐ cháng cháng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thanh đạm.",
-      "options": {
-        "A": "清淡",
-        "B": "河粉",
-        "C": "味道",
-        "D": "春卷"
-      },
-      "optionPinyin": {
-        "A": "qīng dàn",
-        "B": "hé fěn",
-        "C": "wèi dào",
-        "D": "chūn juǎn"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“清淡”（thanh đạm）。完整表达：这道汤味道比较清淡你可以尝尝。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：吃的时候可以蘸一点旁边的____。",
-      "pinyin": "chī de shí hou kě yǐ zhàn yì diǎn páng biān de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: nước chấm.",
-      "options": {
-        "A": "春卷",
-        "B": "河粉",
-        "C": "清淡",
-        "D": "蘸料"
-      },
-      "optionPinyin": {
-        "A": "chūn juǎn",
-        "B": "hé fěn",
-        "C": "qīng dàn",
-        "D": "zhàn liào"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“蘸料”（nước chấm）。完整表达：吃的时候可以蘸一点旁边的蘸料。"
+      "explanation": "应填“春卷”。完整句子：这盘春卷可以蘸着酱吃。\n语法与搭配：可以；着",
+      "targetWord": "春卷",
+      "completeSentence": "这盘春卷可以蘸着酱吃。",
+      "grammarFocus": "可以；着"
     },
     {
-      "id": 10,
+      "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：去越南旅游一定要尝尝当地的____。",
-      "pinyin": "qù yuè nán lǚ yóu yí dìng yào cháng cháng dāng dì de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: phở.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这道菜的香味来自一种叫____的植物。",
+      "pinyin": "zhè dào cài de xiāng wèi lái zì yī zhǒng jiào ____ de zhí wù 。",
+      "vietnamese": "Gợi ý: sả.",
       "options": {
-        "A": "春卷",
-        "B": "河粉",
-        "C": "清淡",
-        "D": "蘸料"
+        "A": "特色",
+        "B": "香茅",
+        "C": "春卷",
+        "D": "酸甜"
       },
       "optionPinyin": {
-        "A": "chūn juǎn",
-        "B": "hé fěn",
-        "C": "qīng dàn",
-        "D": "zhàn liào"
+        "A": "tè sè",
+        "B": "xiāng máo",
+        "C": "chūn juǎn",
+        "D": "suān tián"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“河粉”（phở）。完整表达：去越南旅游一定要尝尝当地的河粉。"
+      "explanation": "应填“香茅”。完整句子：这道菜的香味来自一种叫香茅的植物。\n语法与搭配：叫……的",
+      "targetWord": "香茅",
+      "completeSentence": "这道菜的香味来自一种叫香茅的植物。",
+      "grammarFocus": "叫……的"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这个酱汁既有酸味又有甜味，口感____。",
+      "pinyin": "zhè ge jiàng zhī jì yǒu suān wèi yòu yǒu tián wèi ， kǒu gǎn ____。",
+      "vietnamese": "Gợi ý: chua ngọt.",
+      "options": {
+        "A": "春卷",
+        "B": "酸甜",
+        "C": "特色",
+        "D": "香茅"
+      },
+      "optionPinyin": {
+        "A": "chūn juǎn",
+        "B": "suān tián",
+        "C": "tè sè",
+        "D": "xiāng máo"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“酸甜”。完整句子：这个酱汁既有酸味又有甜味，口感酸甜。\n语法与搭配：既……又……",
+      "targetWord": "酸甜",
+      "completeSentence": "这个酱汁既有酸味又有甜味，口感酸甜。",
+      "grammarFocus": "既……又……"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是河内很有____的一道菜。",
+      "pinyin": "zhè shì hé nèi hěn yǒu ____ de yī dào cài 。",
+      "vietnamese": "Gợi ý: đặc sắc.",
+      "options": {
+        "A": "香茅",
+        "B": "特色",
+        "C": "春卷",
+        "D": "酸甜"
+      },
+      "optionPinyin": {
+        "A": "xiāng máo",
+        "B": "tè sè",
+        "C": "chūn juǎn",
+        "D": "suān tián"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“特色”。完整句子：这是河内很有特色的一道菜。\n语法与搭配：很有＋名词",
+      "targetWord": "特色",
+      "completeSentence": "这是河内很有特色的一道菜。",
+      "grammarFocus": "很有＋名词"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：吃这道菜以前，可以先调一碗____。",
+      "pinyin": "chī zhè dào cài yǐ qián ， kě yǐ xiān diào yī wǎn ____。",
+      "vietnamese": "Gợi ý: nước chấm.",
+      "options": {
+        "A": "香茅",
+        "B": "酸甜",
+        "C": "蘸料",
+        "D": "春卷"
+      },
+      "optionPinyin": {
+        "A": "xiāng máo",
+        "B": "suān tián",
+        "C": "zhàn liào",
+        "D": "chūn juǎn"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“蘸料”。完整句子：吃这道菜以前，可以先调一碗蘸料。\n语法与搭配：……以前；一碗",
+      "targetWord": "蘸料",
+      "completeSentence": "吃这道菜以前，可以先调一碗蘸料。",
+      "grammarFocus": "……以前；一碗"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n亲手做的 / 越南春卷 / 我 / 这是",
-      "pinyin": "qīn shǒu zuò de / yuè nán chūn juǎn / wǒ / zhè shì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n配着香草 / 越南河粉 / 一般 / 一起吃",
+      "pinyin": "pèi zhe xiāng cǎo / yuè nán hé fěn / yì bān / yì qǐ chī",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这是我亲手做的越南春卷。",
-        "这是我亲手做的越南春卷",
-        "这是我亲手做的越南春卷.",
-        "这是我亲手做的越南春卷？",
-        "这是我亲手做的越南春卷?"
+        "越南河粉一般配着香草一起吃。",
+        "越南河粉一般配着香草一起吃",
+        "越南河粉一般配着香草一起吃."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：这是我亲手做的越南春卷。\nzhè shì wǒ qīn shǒu zuò de yuè nán chūn juǎn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：越南河粉一般配着香草一起吃。\nyuè nán hé fěn yì bān pèi zhe xiāng cǎo yì qǐ chī\n语法与搭配：一般；着",
+      "grammarFocus": "一般；着"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n怎么样 / 觉得 / 这道菜的味道 / 你",
-      "pinyin": "zěn me yàng / jué de / zhè dào cài de wèi dào / nǐ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n做法很讲究 / 虽然看起来简单 / 这道菜 / 但是",
+      "pinyin": "zuò fǎ hěn jiǎng jiū / suī rán kàn qi lai jiǎn dān / zhè dào cài / dàn shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "你觉得这道菜的味道怎么样。",
-        "你觉得这道菜的味道怎么样",
-        "你觉得这道菜的味道怎么样.",
-        "你觉得这道菜的味道怎么样？",
-        "你觉得这道菜的味道怎么样?"
+        "这道菜虽然看起来简单但是做法很讲究。",
+        "这道菜虽然看起来简单但是做法很讲究",
+        "这道菜虽然看起来简单但是做法很讲究."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：你觉得这道菜的味道怎么样。\nnǐ jué de zhè dào cài de wèi dào zěn me yàng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：这道菜虽然看起来简单但是做法很讲究。\nzhè dào cài suī rán kàn qi lai jiǎn dān dàn shì zuò fǎ hěn jiǎng jiū\n语法与搭配：虽然……但是……",
+      "grammarFocus": "虽然……但是……"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n味道比较清淡 / 可以尝尝 / 这道汤 / 你",
-      "pinyin": "wèi dào bǐ jiào qīng dàn / kě yǐ cháng cháng / zhè dào tāng / nǐ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n可以 / 要是吃不惯鱼露 / 少放一点 / 你",
+      "pinyin": "kě yǐ / yào shì chī bù guàn yú lù / shǎo fàng yì diǎn / nǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这道汤味道比较清淡你可以尝尝。",
-        "这道汤味道比较清淡你可以尝尝",
-        "这道汤味道比较清淡你可以尝尝.",
-        "这道汤味道比较清淡你可以尝尝？",
-        "这道汤味道比较清淡你可以尝尝?"
+        "你要是吃不惯鱼露可以少放一点。",
+        "你要是吃不惯鱼露可以少放一点",
+        "你要是吃不惯鱼露可以少放一点."
       ],
       "points": 5,
       "hanziCount": 14,
-      "explanation": "参考表达：这道汤味道比较清淡你可以尝尝。\nzhè dào tāng wèi dào bǐ jiào qīng dàn nǐ kě yǐ cháng cháng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：你要是吃不惯鱼露可以少放一点。\nnǐ yào shì chī bù guàn yú lù kě yǐ shǎo fàng yì diǎn\n语法与搭配：要是；动词＋不惯",
+      "grammarFocus": "要是；动词＋不惯"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n吃的时候 / 旁边的蘸料 / 蘸一点 / 可以",
-      "pinyin": "chī de shí hou / páng biān de zhàn liào / zhàn yì diǎn / kě yǐ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n就能 / 泡软以后 / 这些米纸 / 用来包菜了",
+      "pinyin": "jiù néng / pào ruǎn yǐ hòu / zhè xiē mǐ zhǐ / yòng lái bāo cài le",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "吃的时候可以蘸一点旁边的蘸料。",
-        "吃的时候可以蘸一点旁边的蘸料",
-        "吃的时候可以蘸一点旁边的蘸料.",
-        "吃的时候可以蘸一点旁边的蘸料？",
-        "吃的时候可以蘸一点旁边的蘸料?"
+        "这些米纸泡软以后就能用来包菜了。",
+        "这些米纸泡软以后就能用来包菜了",
+        "这些米纸泡软以后就能用来包菜了."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：吃的时候可以蘸一点旁边的蘸料。\nchī de shí hou kě yǐ zhàn yì diǎn páng biān de zhàn liào。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：这些米纸泡软以后就能用来包菜了。\nzhè xiē mǐ zhǐ pào ruǎn yǐ hòu jiù néng yòng lái bāo cài le\n语法与搭配：……以后就……；用来",
+      "grammarFocus": "……以后就……；用来"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n尝尝 / 去越南旅游 / 一定要 / 当地的河粉",
-      "pinyin": "cháng cháng / qù yuè nán lǚ yóu / yí dìng yào / dāng dì de hé fěn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n喜欢上了它 / 就 / 我 / 第一次吃这种水果",
+      "pinyin": "xǐ huān shàng le tā / jiù / wǒ / dì yī cì chī zhè zhǒng shuǐ guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "去越南旅游一定要尝尝当地的河粉。",
-        "去越南旅游一定要尝尝当地的河粉",
-        "去越南旅游一定要尝尝当地的河粉.",
-        "去越南旅游一定要尝尝当地的河粉？",
-        "去越南旅游一定要尝尝当地的河粉?"
+        "我第一次吃这种水果就喜欢上了它。",
+        "我第一次吃这种水果就喜欢上了它",
+        "我第一次吃这种水果就喜欢上了它."
       ],
       "points": 5,
       "hanziCount": 15,
-      "explanation": "参考表达：去越南旅游一定要尝尝当地的河粉。\nqù yuè nán lǚ yóu yí dìng yào cháng cháng dāng dì de hé fěn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：我第一次吃这种水果就喜欢上了它。\nwǒ dì yī cì chī zhè zhǒng shuǐ guǒ jiù xǐ huān shàng le tā\n语法与搭配：第一次；动词＋上",
+      "grammarFocus": "第一次；动词＋上"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

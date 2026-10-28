@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第08课 今天几月几号？",
-  "description": "Hôm nay là ngày mấy tháng mấy?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Hôm nay là ngày mấy tháng mấy?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“今天”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jīng tiān",
-        "B": "jīn tiē",
-        "C": "jī tiān",
-        "D": "jīn tiān"
+        "A": "jīn tiān",
+        "B": "qīn tiān",
+        "C": "bīn tiān",
+        "D": "jīng tiān"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“今天”的正确读音是 jīn tiān。"
+      "explanation": "“今天”读作 jīn tiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "今天"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“明天”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "mín tiān",
-        "B": "míng tiān",
-        "C": "míng tiē",
-        "D": "mí tiān"
+        "A": "máng tiān",
+        "B": "mín tiān",
+        "C": "míng tiān",
+        "D": "líng tiān"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“明天”的正确读音是 míng tiān。"
+      "explanation": "“明天”读作 míng tiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "明天"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“昨天”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuó tiān",
-        "B": "zóu tiān",
-        "C": "zuó tiē",
-        "D": "zuó tiān"
+        "A": "duó tiān",
+        "B": "zuó tiān",
+        "C": "zhuó tiān",
+        "D": "cuó tiān"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“昨天”的正确读音是 zuó tiān。"
+      "explanation": "“昨天”读作 zuó tiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "昨天"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“几”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jǐ",
-        "B": "jǐn",
-        "C": "jǐng",
-        "D": "jiě"
+        "A": "bǐ",
+        "B": "jǐ",
+        "C": "cǐ",
+        "D": "qǐ"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“几”的正确读音是 jǐ。"
+      "explanation": "“几”读作 jǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "几"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“月”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yuè",
-        "B": "juè",
-        "C": "què",
-        "D": "xuè"
+        "A": "juè",
+        "B": "yuè",
+        "C": "nüè",
+        "D": "lüè"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“月”的正确读音是 yuè。"
+      "explanation": "“月”读作 yuè。注意声母、韵母、声调及轻声。",
+      "targetWord": "月"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“号”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hòu",
-        "B": "huò",
-        "C": "hào",
-        "D": "hù"
+        "A": "bào",
+        "B": "hào",
+        "C": "hòu",
+        "D": "chào"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“号”的正确读音是 hào。"
+      "explanation": "“号”读作 hào。注意声母、韵母、声调及轻声。",
+      "targetWord": "号"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“年”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "niáng",
-        "B": "lián",
-        "C": "nián",
-        "D": "nié"
+        "A": "nián",
+        "B": "niáng",
+        "C": "lián",
+        "D": "dián"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“年”的正确读音是 nián。"
+      "explanation": "“年”读作 nián。注意声母、韵母、声调及轻声。",
+      "targetWord": "年"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“星期”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xīn qī",
-        "B": "xīng qīn",
-        "C": "xiōng qī",
-        "D": "xīng qī"
+        "A": "xīng jī",
+        "B": "xīng xī",
+        "C": "xīng qī",
+        "D": "qīng qī"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“星期”的正确读音是 xīng qī。"
+      "explanation": "“星期”读作 xīng qī。注意声母、韵母、声调及轻声。",
+      "targetWord": "星期"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“周末”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zōu mò",
-        "B": "zhuō mò",
-        "C": "zhōu mò",
-        "D": "zhāo mò"
+        "A": "chōu mò",
+        "B": "zōu mò",
+        "C": "zhāo mò",
+        "D": "zhōu mò"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“周末”的正确读音是 zhōu mò。"
+      "explanation": "“周末”读作 zhōu mò。注意声母、韵母、声调及轻声。",
+      "targetWord": "周末"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“今年”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jīn nián",
-        "B": "jīng nián",
-        "C": "jīn niáng",
-        "D": "jīn lián"
+        "A": "jīn lián",
+        "B": "jīn niáng",
+        "C": "qīn nián",
+        "D": "jīn nián"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“今年”的正确读音是 jīn nián。"
+      "explanation": "“今年”读作 jīn nián。注意声母、韵母、声调及轻声。",
+      "targetWord": "今年"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“明年”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "mín nián",
-        "B": "míng niáng",
-        "C": "míng nián",
-        "D": "míng lián"
+        "A": "míng lián",
+        "B": "míng nián",
+        "C": "mín nián",
+        "D": "míng niáng"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“明年”的正确读音是 míng nián。"
+      "explanation": "“明年”读作 míng nián。注意声母、韵母、声调及轻声。",
+      "targetWord": "明年"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“去年”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qù niáng",
-        "B": "qù lián",
-        "C": "jù nián",
-        "D": "qù nián"
+        "A": "qù nián",
+        "B": "jù nián",
+        "C": "xù nián",
+        "D": "qù lián"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“去年”的正确读音是 qù nián。"
+      "explanation": "“去年”读作 qù nián。注意声母、韵母、声调及轻声。",
+      "targetWord": "去年"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“日历”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "rì lì",
-        "B": "rì nì",
-        "C": "lì lì",
-        "D": "rì lìn"
+        "B": "bì lì",
+        "C": "rì nì",
+        "D": "cì lì"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“日历”的正确读音是 rì lì。"
+      "explanation": "“日历”读作 rì lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "日历"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“二”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "è",
-        "B": "èn",
+        "A": "èn",
+        "B": "èi",
         "C": "èr",
-        "D": "èng"
+        "D": "è"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“二”的正确读音是 èr。"
+      "explanation": "“二”读作 èr。注意声母、韵母、声调及轻声。",
+      "targetWord": "二"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“日”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lì",
-        "B": "rì",
-        "C": "shì",
-        "D": "lìn"
+        "A": "rì",
+        "B": "cì",
+        "C": "bì",
+        "D": "dì"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“日”的正确读音是 rì。"
+      "explanation": "“日”读作 rì。注意声母、韵母、声调及轻声。",
+      "targetWord": "日"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：____是星期一。",
-      "pinyin": "____ shì xīng qī yī 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay là thứ hai.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我的生日____五月十二日。",
+      "pinyin": "wǒ de shēng rì ____ wǔ yuè shí èr rì 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "周末",
-        "B": "明年",
-        "C": "今天",
-        "D": "年"
+        "A": "是",
+        "B": "在",
+        "C": "去",
+        "D": "有"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“今天”。完整句子：今天是星期一。",
+      "explanation": "应填“是”。完整句子：我的生日是五月十二日。\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "zhōu mò",
-        "B": "míng nián",
-        "C": "jīn tiān",
-        "D": "nián"
-      }
+        "A": "shì",
+        "B": "zài",
+        "C": "qù",
+        "D": "yǒu"
+      },
+      "targetWord": "是",
+      "completeSentence": "我的生日是五月十二日。",
+      "grammarFocus": "是＋名词：判断或说明身份"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：____我们有课。",
-      "pinyin": "____ wǒ men yǒu kè 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Ngày mai chúng tôi có tiết học.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：会议____下周一举行。",
+      "pinyin": "huì yì ____ xià zhōu yī jǔ xíng 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
       "options": {
-        "A": "日历",
-        "B": "明天",
-        "C": "今天",
-        "D": "今年"
+        "A": "在",
+        "B": "给",
+        "C": "从",
+        "D": "比"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“明天”。完整句子：明天我们有课。",
+      "explanation": "应填“在”。完整句子：会议在下周一举行。\n语法与搭配：在＋地点＋动词/名词",
       "optionPinyin": {
-        "A": "rì lì",
-        "B": "míng tiān",
-        "C": "jīn tiān",
-        "D": "jīn nián"
-      }
+        "A": "zài",
+        "B": "gěi",
+        "C": "cóng",
+        "D": "bǐ"
+      },
+      "targetWord": "在",
+      "completeSentence": "会议在下周一举行。",
+      "grammarFocus": "在＋地点＋动词/名词"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：____我没上班。",
-      "pinyin": "____ wǒ méi shàng bān 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm qua tôi không đi làm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：下课____，我们再看日历。",
+      "pinyin": "xià kè ____， wǒ men zài kàn rì lì 。",
+      "vietnamese": "Gợi ý: sau khi.",
       "options": {
-        "A": "今年",
-        "B": "昨天",
-        "C": "星期",
-        "D": "日"
+        "A": "之间",
+        "B": "以外",
+        "C": "以后",
+        "D": "以内"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“昨天”。完整句子：昨天我没上班。",
+      "explanation": "应填“以后”。完整句子：下课以后，我们再看日历。\n语法与搭配：动作/时间＋以后",
       "optionPinyin": {
-        "A": "jīn nián",
-        "B": "zuó tiān",
-        "C": "xīng qī",
-        "D": "rì"
-      }
+        "A": "zhī jiān",
+        "B": "yǐ wài",
+        "C": "yǐ hòu",
+        "D": "yǐ nèi"
+      },
+      "targetWord": "以后",
+      "completeSentence": "下课以后，我们再看日历。",
+      "grammarFocus": "动作/时间＋以后"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你星期____有时间？",
-      "pinyin": "nǐ xīng qī ____ yǒu shí jiān ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn rảnh vào thứ mấy?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：放假____，老师会告诉我们开学日期。",
+      "pinyin": "fàng jià ____， lǎo shī huì gào sù wǒ men kāi xué rì qī 。",
+      "vietnamese": "Gợi ý: trước khi.",
       "options": {
-        "A": "明年",
-        "B": "日历",
-        "C": "几",
-        "D": "年"
+        "A": "以外",
+        "B": "以前",
+        "C": "之间",
+        "D": "以内"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“几”。完整句子：你星期几有时间？",
+      "explanation": "应填“以前”。完整句子：放假以前，老师会告诉我们开学日期。\n语法与搭配：动作/时间＋以前",
       "optionPinyin": {
-        "A": "míng nián",
-        "B": "rì lì",
-        "C": "jǐ",
-        "D": "nián"
-      }
+        "A": "yǐ wài",
+        "B": "yǐ qián",
+        "C": "zhī jiān",
+        "D": "yǐ nèi"
+      },
+      "targetWord": "以前",
+      "completeSentence": "放假以前，老师会告诉我们开学日期。",
+      "grammarFocus": "动作/时间＋以前"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：今天是三____五号。",
-      "pinyin": "jīn tiān shì sān ____ wǔ hào 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay là ngày năm tháng ba.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：一月____三十一天。",
+      "pinyin": "yí yuè ____ sān shí yī tiān 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
       "options": {
-        "A": "月",
-        "B": "明年",
-        "C": "今天",
-        "D": "日"
+        "A": "比",
+        "B": "有",
+        "C": "去",
+        "D": "是"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“月”。完整句子：今天是三月五号。",
+      "explanation": "应填“有”。完整句子：一月有三十一天。\n语法与搭配：有＋名词：拥有或存在",
       "optionPinyin": {
-        "A": "yuè",
-        "B": "míng nián",
-        "C": "jīn tiān",
-        "D": "rì"
-      }
+        "A": "bǐ",
+        "B": "yǒu",
+        "C": "qù",
+        "D": "shì"
+      },
+      "targetWord": "有",
+      "completeSentence": "一月有三十一天。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你的生日是几____？",
-      "pinyin": "nǐ de shēng rì shì jǐ ____？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Sinh nhật của bạn là ngày mấy?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____生日是哪一天？",
+      "pinyin": "nǐ ____ shēng rì shì nǎ yī tiān ？",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "明年",
-        "B": "号",
-        "C": "日历",
-        "D": "日"
+        "A": "得",
+        "B": "吗",
+        "C": "地",
+        "D": "的"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“号”。完整句子：你的生日是几号？",
+      "explanation": "应填“的”。完整句子：你的生日是哪一天？\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "míng nián",
-        "B": "hào",
-        "C": "rì lì",
-        "D": "rì"
-      }
+        "A": "dé",
+        "B": "ma",
+        "C": "dì",
+        "D": "de"
+      },
+      "targetWord": "的",
+      "completeSentence": "你的生日是哪一天？",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：一____有十二个月。",
-      "pinyin": "yī ____ yǒu shí èr gè yuè 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Một năm có mười hai tháng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们____记得妈妈的生日。",
+      "pinyin": "wǒ men ____ jì de mā mā de shēng rì 。",
+      "vietnamese": "Gợi ý: đều; bao quát toàn bộ chủ thể.",
       "options": {
-        "A": "昨天",
-        "B": "年",
-        "C": "月",
-        "D": "明天"
+        "A": "从",
+        "B": "把",
+        "C": "都",
+        "D": "的"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“年”。完整句子：一年有十二个月。",
+      "explanation": "应填“都”。完整句子：我们都记得妈妈的生日。\n语法与搭配：复数主语＋都＋谓语",
       "optionPinyin": {
-        "A": "zuó tiān",
-        "B": "nián",
-        "C": "yuè",
-        "D": "míng tiān"
-      }
+        "A": "cóng",
+        "B": "bǎ",
+        "C": "dōu",
+        "D": "de"
+      },
+      "targetWord": "都",
+      "completeSentence": "我们都记得妈妈的生日。",
+      "grammarFocus": "复数主语＋都＋谓语"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：____六我去看朋友。",
-      "pinyin": "____ liù wǒ qù kàn péng you 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Thứ bảy tôi đi thăm bạn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这次活动____周二开始。",
+      "pinyin": "zhè cì huó dòng ____ zhōu èr kāi shǐ 。",
+      "vietnamese": "Gợi ý: từ; chỉ điểm xuất phát.",
       "options": {
-        "A": "几",
-        "B": "二",
-        "C": "星期",
-        "D": "日"
+        "A": "从",
+        "B": "的",
+        "C": "比",
+        "D": "给"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“星期”。完整句子：星期六我去看朋友。",
+      "explanation": "应填“从”。完整句子：这次活动从周二开始。\n语法与搭配：从＋起点",
       "optionPinyin": {
-        "A": "jǐ",
-        "B": "èr",
-        "C": "xīng qī",
-        "D": "rì"
-      }
+        "A": "cóng",
+        "B": "de",
+        "C": "bǐ",
+        "D": "gěi"
+      },
+      "targetWord": "从",
+      "completeSentence": "这次活动从周二开始。",
+      "grammarFocus": "从＋起点"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：____我们一起学习。",
-      "pinyin": "____ wǒ men yì qǐ xué xí 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cuối tuần chúng tôi học cùng nhau.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：展览____周日结束。",
+      "pinyin": "zhǎn lǎn ____ zhōu rì jié shù 。",
+      "vietnamese": "Gợi ý: đến; chỉ mốc kết thúc.",
       "options": {
-        "A": "周末",
-        "B": "昨天",
-        "C": "日历",
-        "D": "二"
+        "A": "比",
+        "B": "把",
+        "C": "的",
+        "D": "到"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“周末”。完整句子：周末我们一起学习。",
+      "explanation": "应填“到”。完整句子：展览到周日结束。\n语法与搭配：到＋终点/时间",
       "optionPinyin": {
-        "A": "zhōu mò",
-        "B": "zuó tiān",
-        "C": "rì lì",
-        "D": "èr"
-      }
+        "A": "bǐ",
+        "B": "bǎ",
+        "C": "de",
+        "D": "dào"
+      },
+      "targetWord": "到",
+      "completeSentence": "展览到周日结束。",
+      "grammarFocus": "到＋终点/时间"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我____二十岁。",
-      "pinyin": "wǒ ____ èr shí suì 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay tôi hai mươi tuổi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：活动还有____才开始。",
+      "pinyin": "huó dòng hái yǒu ____ cái kāi shǐ 。",
+      "vietnamese": "Gợi ý: ba ngày; khoảng thời gian.",
       "options": {
-        "A": "日",
-        "B": "明天",
-        "C": "昨天",
-        "D": "今年"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“今年”。完整句子：我今年二十岁。",
-      "optionPinyin": {
-        "A": "rì",
-        "B": "míng tiān",
-        "C": "zuó tiān",
-        "D": "jīn nián"
-      }
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我们____去中国。",
-      "pinyin": "wǒ men ____ qù zhōng guó 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm sau chúng tôi đi Trung Quốc.",
-      "options": {
-        "A": "去年",
-        "B": "几",
-        "C": "明年",
-        "D": "明天"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“明年”。完整句子：我们明年去中国。",
-      "optionPinyin": {
-        "A": "qù nián",
-        "B": "jǐ",
-        "C": "míng nián",
-        "D": "míng tiān"
-      }
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他____来到越南。",
-      "pinyin": "tā ____ lái dào yuè nán 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm ngoái anh ấy đến Việt Nam.",
-      "options": {
-        "A": "日",
-        "B": "二",
-        "C": "明天",
-        "D": "去年"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“去年”。完整句子：他去年来到越南。",
-      "optionPinyin": {
-        "A": "rì",
-        "B": "èr",
-        "C": "míng tiān",
-        "D": "qù nián"
-      }
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这本____是我的。",
-      "pinyin": "zhè běn ____ shì wǒ de 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Quyển lịch này là của tôi.",
-      "options": {
-        "A": "昨天",
-        "B": "日历",
-        "C": "明天",
-        "D": "明年"
+        "A": "三本",
+        "B": "三天",
+        "C": "三件",
+        "D": "三张"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“日历”。完整句子：这本日历是我的。",
+      "explanation": "应填“三天”。完整句子：活动还有三天才开始。\n语法与搭配：数量＋时间单位",
       "optionPinyin": {
-        "A": "zuó tiān",
-        "B": "rì lì",
-        "C": "míng tiān",
-        "D": "míng nián"
-      }
-    },
-    {
-      "id": 29,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：今天是星期____。",
-      "pinyin": "jīn tiān shì xīng qī ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay là thứ ba.",
-      "options": {
-        "A": "明天",
-        "B": "今年",
-        "C": "今天",
-        "D": "二"
+        "A": "sān běn",
+        "B": "sān tiān",
+        "C": "sān jiàn",
+        "D": "sān zhāng"
       },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“二”。完整句子：今天是星期二。",
-      "optionPinyin": {
-        "A": "míng tiān",
-        "B": "jīn nián",
-        "C": "jīn tiān",
-        "D": "èr"
-      }
+      "targetWord": "三天",
+      "completeSentence": "活动还有三天才开始。",
+      "grammarFocus": "数量＋时间单位"
     },
     {
-      "id": 30,
+      "id": 26,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：星期____我们不上课。",
-      "pinyin": "xīng qī ____ wǒ men bù shàng kè 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chủ nhật chúng tôi không học.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____把约会改到周三。",
+      "pinyin": "wǒ ____ bǎ yuē huì gǎi dào zhōu sān 。",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "日",
-        "B": "明天",
-        "C": "今年",
-        "D": "今天"
+        "A": "想",
+        "B": "的",
+        "C": "把",
+        "D": "比"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“日”。完整句子：星期日我们不上课。",
+      "explanation": "应填“想”。完整句子：我想把约会改到周三。\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "rì",
-        "B": "míng tiān",
-        "C": "jīn nián",
-        "D": "jīn tiān"
-      }
+        "A": "xiǎng",
+        "B": "de",
+        "C": "bǎ",
+        "D": "bǐ"
+      },
+      "targetWord": "想",
+      "completeSentence": "我想把约会改到周三。",
+      "grammarFocus": "想＋动词"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你周五____来吗？",
+      "pinyin": "nǐ zhōu wǔ ____ lái ma ？",
+      "vietnamese": "Gợi ý: có thể; xin phép hoặc cho phép.",
+      "options": {
+        "A": "的",
+        "B": "把",
+        "C": "可以",
+        "D": "比"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“可以”。完整句子：你周五可以来吗？\n语法与搭配：可以＋动词",
+      "optionPinyin": {
+        "A": "de",
+        "B": "bǎ",
+        "C": "kě yǐ",
+        "D": "bǐ"
+      },
+      "targetWord": "可以",
+      "completeSentence": "你周五可以来吗？",
+      "grammarFocus": "可以＋动词"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____知道具体的日期。",
+      "pinyin": "wǒ ____ zhī dào jù tǐ de rì qī 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
+      "options": {
+        "A": "的",
+        "B": "把",
+        "C": "不",
+        "D": "比"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“不”。完整句子：我不知道具体的日期。\n语法与搭配：不＋动词/形容词",
+      "optionPinyin": {
+        "A": "de",
+        "B": "bǎ",
+        "C": "bù",
+        "D": "bǐ"
+      },
+      "targetWord": "不",
+      "completeSentence": "我不知道具体的日期。",
+      "grammarFocus": "不＋动词/形容词"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____正确的日期圈出来。",
+      "pinyin": "qǐng ____ zhèng què de rì qī quān chū lái 。",
+      "vietnamese": "Gợi ý: đưa tân ngữ lên trước động từ để nói cách xử lý.",
+      "options": {
+        "A": "比",
+        "B": "的",
+        "C": "从",
+        "D": "把"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“把”。完整句子：请把正确的日期圈出来。\n语法与搭配：把＋宾语＋动作及结果/位置",
+      "optionPinyin": {
+        "A": "bǐ",
+        "B": "de",
+        "C": "cóng",
+        "D": "bǎ"
+      },
+      "targetWord": "把",
+      "completeSentence": "请把正确的日期圈出来。",
+      "grammarFocus": "把＋宾语＋动作及结果/位置"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他____在日历上做好标记了。",
+      "pinyin": "tā ____ zài rì lì shàng zuò hǎo biāo jì le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
+      "options": {
+        "A": "已经",
+        "B": "把",
+        "C": "的",
+        "D": "从"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“已经”。完整句子：他已经在日历上做好标记了。\n语法与搭配：已经……了",
+      "optionPinyin": {
+        "A": "yǐ jīng",
+        "B": "bǎ",
+        "C": "de",
+        "D": "cóng"
+      },
+      "targetWord": "已经",
+      "completeSentence": "他已经在日历上做好标记了。",
+      "grammarFocus": "已经……了"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "今天是星期一."
       ],
       "points": 2,
-      "explanation": "参考句子：今天是星期一。"
+      "explanation": "参考句子：今天是星期一。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,7 +753,8 @@
         "明天我们有课."
       ],
       "points": 2,
-      "explanation": "参考句子：明天我们有课。"
+      "explanation": "参考句子：明天我们有课。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -708,7 +770,8 @@
         "昨天我没上班."
       ],
       "points": 2,
-      "explanation": "参考句子：昨天我没上班。"
+      "explanation": "参考句子：昨天我没上班。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -724,7 +787,8 @@
         "你星期几有时间?"
       ],
       "points": 2,
-      "explanation": "参考句子：你星期几有时间？"
+      "explanation": "参考句子：你星期几有时间？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -739,7 +803,8 @@
         "今天是三月五号."
       ],
       "points": 2,
-      "explanation": "参考句子：今天是三月五号。"
+      "explanation": "参考句子：今天是三月五号。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -754,7 +819,8 @@
         "你的生日是几号?"
       ],
       "points": 2,
-      "explanation": "参考句子：你的生日是几号？"
+      "explanation": "参考句子：你的生日是几号？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -769,7 +835,8 @@
         "一年有十二个月."
       ],
       "points": 2,
-      "explanation": "参考句子：一年有十二个月。"
+      "explanation": "参考句子：一年有十二个月。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -784,7 +851,8 @@
         "星期六我去看朋友."
       ],
       "points": 2,
-      "explanation": "参考句子：星期六我去看朋友。"
+      "explanation": "参考句子：星期六我去看朋友。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -800,7 +868,8 @@
         "周末我们一起学习."
       ],
       "points": 2,
-      "explanation": "参考句子：周末我们一起学习。"
+      "explanation": "参考句子：周末我们一起学习。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -815,7 +884,8 @@
         "我今年二十岁."
       ],
       "points": 2,
-      "explanation": "参考句子：我今年二十岁。"
+      "explanation": "参考句子：我今年二十岁。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -830,7 +900,8 @@
         "我们明年去中国."
       ],
       "points": 2,
-      "explanation": "参考句子：我们明年去中国。"
+      "explanation": "参考句子：我们明年去中国。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -845,7 +916,8 @@
         "他去年来到越南."
       ],
       "points": 2,
-      "explanation": "参考句子：他去年来到越南。"
+      "explanation": "参考句子：他去年来到越南。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -860,7 +932,8 @@
         "这本日历是我的."
       ],
       "points": 2,
-      "explanation": "参考句子：这本日历是我的。"
+      "explanation": "参考句子：这本日历是我的。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -875,7 +948,8 @@
         "今天是星期二."
       ],
       "points": 2,
-      "explanation": "参考句子：今天是星期二。"
+      "explanation": "参考句子：今天是星期二。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -891,7 +965,8 @@
         "星期日我们不上课."
       ],
       "points": 2,
-      "explanation": "参考句子：星期日我们不上课。"
+      "explanation": "参考句子：星期日我们不上课。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -906,7 +981,8 @@
         "一个星期有七天."
       ],
       "points": 2,
-      "explanation": "参考句子：一个星期有七天。"
+      "explanation": "参考句子：一个星期有七天。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -922,7 +998,8 @@
         "下个星期我回家."
       ],
       "points": 2,
-      "explanation": "参考句子：下个星期我回家。"
+      "explanation": "参考句子：下个星期我回家。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -937,7 +1014,8 @@
         "这周我们有三次中文课."
       ],
       "points": 2,
-      "explanation": "参考句子：这周我们有三次中文课。"
+      "explanation": "参考句子：这周我们有三次中文课。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -952,7 +1030,8 @@
         "请问今天几月几号?"
       ],
       "points": 2,
-      "explanation": "参考句子：请问今天几月几号？"
+      "explanation": "参考句子：请问今天几月几号？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -967,9 +1046,11 @@
         "我的生日是六月十号."
       ],
       "points": 2,
-      "explanation": "参考句子：我的生日是六月十号。"
+      "explanation": "参考句子：我的生日是六月十号。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "74b827ec",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

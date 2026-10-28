@@ -1,6 +1,6 @@
 {
   "title": "HSK3 第03课 我的中文学习经历",
-  "description": "Quá trình học tiếng Trung của tôi。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。",
+  "description": "Quá trình học tiếng Trung của tôi。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "pronunciationOptionsVersion": 1,
   "questions": [
@@ -10,18 +10,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“语言”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǒu yán",
-        "B": "yǔ yáng",
-        "C": "yǔ yán",
-        "D": "yǒ yán"
+        "A": "yǔ yáng",
+        "B": "yǔ yán",
+        "C": "bǔ yán",
+        "D": "cǔ yán"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“语言”的正确读音：yǔ yán。"
+      "explanation": "“语言”读作 yǔ yán。注意声母、韵母、声调及轻声。",
+      "targetWord": "语言"
     },
     {
       "id": 2,
@@ -29,18 +30,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“汉字”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hàng zì",
-        "B": "hàn zhì",
-        "C": "fàn zì",
+        "A": "hàn zhì",
+        "B": "fàn zì",
+        "C": "hàng zì",
         "D": "hàn zì"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“汉字”的正确读音：hàn zì。"
+      "explanation": "“汉字”读作 hàn zì。注意声母、韵母、声调及轻声。",
+      "targetWord": "汉字"
     },
     {
       "id": 3,
@@ -48,18 +50,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“拼音”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "pīn yīn",
-        "B": "pīn yīng",
-        "C": "pī yīn",
-        "D": "pīng yīn"
+        "B": "bīn yīn",
+        "C": "pīng yīn",
+        "D": "pīn yīng"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“拼音”的正确读音：pīn yīn。"
+      "explanation": "“拼音”读作 pīn yīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "拼音"
     },
     {
       "id": 4,
@@ -67,18 +70,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“词语”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zí yǔ",
-        "B": "cí yǔ",
-        "C": "cí yǒ",
+        "A": "bí yǔ",
+        "B": "cái yǔ",
+        "C": "cí yǔ",
         "D": "chí yǔ"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“词语”的正确读音：cí yǔ。"
+      "explanation": "“词语”读作 cí yǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "词语"
     },
     {
       "id": 5,
@@ -86,18 +90,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“语法”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǒ fǎ",
-        "B": "yǔ fǒ",
-        "C": "yǔ fǎ",
-        "D": "yǔ hǎ"
+        "A": "yǔ hǎ",
+        "B": "bǔ fǎ",
+        "C": "cǔ fǎ",
+        "D": "yǔ fǎ"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“语法”的正确读音：yǔ fǎ。"
+      "explanation": "“语法”读作 yǔ fǎ。注意声母、韵母、声调及轻声。",
+      "targetWord": "语法"
     },
     {
       "id": 6,
@@ -105,18 +110,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“句子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jù zhi",
-        "B": "qù zi",
-        "C": "xù zi",
-        "D": "jù zi"
+        "B": "jù zi",
+        "C": "qù zi",
+        "D": "bù zi"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“句子”的正确读音：jù zi。"
+      "explanation": "“句子”读作 jù zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "句子"
     },
     {
       "id": 7,
@@ -124,18 +130,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“课文”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "kè wén",
-        "B": "kè wéng",
-        "C": "kà wén",
-        "D": "kèi wén"
+        "B": "cè wén",
+        "C": "hè wén",
+        "D": "gè wén"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“课文”的正确读音：kè wén。"
+      "explanation": "“课文”读作 kè wén。注意声母、韵母、声调及轻声。",
+      "targetWord": "课文"
     },
     {
       "id": 8,
@@ -143,18 +150,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“发音”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hā yīn",
-        "B": "fā yīn",
+        "A": "fā yīn",
+        "B": "hā yīn",
         "C": "fā yīng",
-        "D": "fō yīn"
+        "D": "bā yīn"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“发音”的正确读音：fā yīn。"
+      "explanation": "“发音”读作 fā yīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "发音"
     },
     {
       "id": 9,
@@ -162,10 +170,10 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“声调”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "shēn diào",
-        "B": "shēng dào",
+        "B": "chēng diào",
         "C": "shēng diào",
         "D": "sēng diào"
       },
@@ -173,7 +181,8 @@
         "C"
       ],
       "points": 2,
-      "explanation": "“声调”的正确读音：shēng diào。"
+      "explanation": "“声调”读作 shēng diào。注意声母、韵母、声调及轻声。",
+      "targetWord": "声调"
     },
     {
       "id": 10,
@@ -181,18 +190,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“听力”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tī lì",
-        "B": "tīng nì",
-        "C": "tīng lìn",
-        "D": "tīng lì"
+        "A": "bīng lì",
+        "B": "dīng lì",
+        "C": "tīng lì",
+        "D": "tīng nì"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“听力”的正确读音：tīng lì。"
+      "explanation": "“听力”读作 tīng lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "听力"
     },
     {
       "id": 11,
@@ -200,18 +210,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“口语”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kǒu yǔ",
-        "B": "kǒu yǒ",
-        "C": "kuǒ yǔ",
-        "D": "kǎo yǔ"
+        "A": "kǎo yǔ",
+        "B": "cǒu yǔ",
+        "C": "dǒu yǔ",
+        "D": "kǒu yǔ"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“口语”的正确读音：kǒu yǔ。"
+      "explanation": "“口语”读作 kǒu yǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "口语"
     },
     {
       "id": 12,
@@ -219,18 +230,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“阅读”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yuè duí",
+        "A": "lüè dú",
         "B": "yuè dú",
         "C": "juè dú",
-        "D": "què dú"
+        "D": "nüè dú"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“阅读”的正确读音：yuè dú。"
+      "explanation": "“阅读”读作 yuè dú。注意声母、韵母、声调及轻声。",
+      "targetWord": "阅读"
     },
     {
       "id": 13,
@@ -238,18 +250,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“练习”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "liàng xí",
-        "B": "niàn xí",
+        "B": "liàn qí",
         "C": "liàn xí",
-        "D": "liàn xín"
+        "D": "niàn xí"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“练习”的正确读音：liàn xí。"
+      "explanation": "“练习”读作 liàn xí。注意声母、韵母、声调及轻声。",
+      "targetWord": "练习"
     },
     {
       "id": 14,
@@ -257,18 +270,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“复习”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fù xín",
+        "A": "bù xí",
         "B": "hù xí",
-        "C": "fò xí",
-        "D": "fù xí"
+        "C": "fù xí",
+        "D": "fù qí"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“复习”的正确读音：fù xí。"
+      "explanation": "“复习”读作 fù xí。注意声母、韵母、声调及轻声。",
+      "targetWord": "复习"
     },
     {
       "id": 15,
@@ -276,18 +290,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“预习”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "yù xí",
-        "B": "yò xí",
-        "C": "yù xín",
-        "D": "yòu xí"
+        "B": "bù xí",
+        "C": "yù qí",
+        "D": "cù xí"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“预习”的正确读音：yù xí。"
+      "explanation": "“预习”读作 yù xí。注意声母、韵母、声调及轻声。",
+      "targetWord": "预习"
     },
     {
       "id": 16,
@@ -312,7 +327,9 @@
         "B": "kāi shǐ",
         "C": "huí dá",
         "D": "jiān chí"
-      }
+      },
+      "targetWord": "开始",
+      "completeSentence": "我从去年开始学中文。"
     },
     {
       "id": 17,
@@ -337,7 +354,9 @@
         "B": "yì si",
         "C": "xiǎo shí",
         "D": "fāng fǎ"
-      }
+      },
+      "targetWord": "小时",
+      "completeSentence": "她每天学汉语两个小时。"
     },
     {
       "id": 18,
@@ -362,7 +381,9 @@
         "B": "cuò",
         "C": "huí dá",
         "D": "yì si"
-      }
+      },
+      "targetWord": "意思",
+      "completeSentence": "我不明白这个词的意思。"
     },
     {
       "id": 19,
@@ -387,7 +408,9 @@
         "B": "zì diǎn",
         "C": "nǔ lì",
         "D": "kāi shǐ"
-      }
+      },
+      "targetWord": "注意",
+      "completeSentence": "请注意这个字的写法。"
     },
     {
       "id": 20,
@@ -412,7 +435,9 @@
         "B": "míng bai",
         "C": "jìn bù",
         "D": "yì si"
-      }
+      },
+      "targetWord": "明白",
+      "completeSentence": "这个问题我终于明白了。"
     },
     {
       "id": 21,
@@ -437,7 +462,9 @@
         "B": "huí dá",
         "C": "jìn bù",
         "D": "zhù yì"
-      }
+      },
+      "targetWord": "进步",
+      "completeSentence": "你的中文水平有很大进步。"
     },
     {
       "id": 22,
@@ -462,7 +489,9 @@
         "B": "jiǎn chá",
         "C": "huí dá",
         "D": "zì diǎn"
-      }
+      },
+      "targetWord": "字典",
+      "completeSentence": "不懂的时候可以查字典。"
     },
     {
       "id": 23,
@@ -487,7 +516,9 @@
         "B": "huí dá",
         "C": "cuò",
         "D": "jiǎn chá"
-      }
+      },
+      "targetWord": "方法",
+      "completeSentence": "我找到了适合自己的学习方法。"
     },
     {
       "id": 24,
@@ -512,7 +543,9 @@
         "B": "jiān chí",
         "C": "xiǎo shí",
         "D": "huí dá"
-      }
+      },
+      "targetWord": "坚持",
+      "completeSentence": "老师要求我们坚持每天读书。"
     },
     {
       "id": 25,
@@ -537,7 +570,9 @@
         "B": "fāng fǎ",
         "C": "cuò",
         "D": "zhù yì"
-      }
+      },
+      "targetWord": "错",
+      "completeSentence": "这道题我做错了。"
     },
     {
       "id": 26,
@@ -562,7 +597,9 @@
         "B": "wèn tí",
         "C": "zì diǎn",
         "D": "jiǎn chá"
-      }
+      },
+      "targetWord": "检查",
+      "completeSentence": "请先检查一下答案。"
     },
     {
       "id": 27,
@@ -587,7 +624,9 @@
         "B": "jìn bù",
         "C": "zhù yì",
         "D": "kāi shǐ"
-      }
+      },
+      "targetWord": "问题",
+      "completeSentence": "我想再问一个问题。"
     },
     {
       "id": 28,
@@ -612,7 +651,9 @@
         "B": "huí dá",
         "C": "zì diǎn",
         "D": "kāi shǐ"
-      }
+      },
+      "targetWord": "回答",
+      "completeSentence": "你能回答我的提问吗？"
     },
     {
       "id": 29,
@@ -637,7 +678,9 @@
         "B": "kāi shǐ",
         "C": "fàng qì",
         "D": "nǔ lì"
-      }
+      },
+      "targetWord": "放弃",
+      "completeSentence": "遇到困难也不要放弃。"
     },
     {
       "id": 30,
@@ -662,7 +705,9 @@
         "B": "jiǎn chá",
         "C": "zhù yì",
         "D": "nǔ lì"
-      }
+      },
+      "targetWord": "努力",
+      "completeSentence": "他每天都很努力。"
     },
     {
       "id": 31,
@@ -677,8 +722,9 @@
         "我现在已经学会怎样听懂老师说的话."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样听懂老师说的话。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng tīng dǒng lǎo shī shuō de huà 。",
-      "hanziCount": 16
+      "explanation": "参考句子：我现在已经学会怎样听懂老师说的话。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng tīng dǒng lǎo shī shuō de huà 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 16,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 32,
@@ -695,8 +741,9 @@
         "我今天下课以后准备读完一本中文书。"
       ],
       "points": 2,
-      "explanation": "参考句子：今天下课以后我准备读完一本中文书。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi dú wán yī běn zhōng wén shū 。",
-      "hanziCount": 16
+      "explanation": "参考句子：今天下课以后我准备读完一本中文书。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi dú wán yī běn zhōng wén shū 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 16,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 33,
@@ -713,8 +760,9 @@
         "我们下个星期打算一起写一篇简单的日记。"
       ],
       "points": 2,
-      "explanation": "参考句子：下个星期我们打算一起写一篇简单的日记。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ xiě yī piān jiǎn dān de rì jì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：下个星期我们打算一起写一篇简单的日记。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ xiě yī piān jiǎn dān de rì jì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -729,8 +777,9 @@
         "你能不能告诉我怎样说出完整的想法?"
       ],
       "points": 2,
-      "explanation": "参考句子：你能不能告诉我怎样说出完整的想法？\nnǐ néng bù néng gào su wǒ zěn yàng shuō chū wán zhěng de xiǎng fǎ ？",
-      "hanziCount": 16
+      "explanation": "参考句子：你能不能告诉我怎样说出完整的想法？\nnǐ néng bù néng gào su wǒ zěn yàng shuō chū wán zhěng de xiǎng fǎ ？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 16,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -745,8 +794,9 @@
         "我们都认为记住常见的表达是一件重要的事."
       ],
       "points": 2,
-      "explanation": "参考句子：我们都认为记住常见的表达是一件重要的事。\nwǒ men dōu rèn wéi jì zhù cháng jiàn de biǎo dá shì yī jiàn zhòng yào de shì 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我们都认为记住常见的表达是一件重要的事。\nwǒ men dōu rèn wéi jì zhù cháng jiàn de biǎo dá shì yī jiàn zhòng yào de shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -761,8 +811,9 @@
         "如果明天有时间,我就讲述自己的故事."
       ],
       "points": 2,
-      "explanation": "参考句子：如果明天有时间，我就讲述自己的故事。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù jiǎng shù zì jǐ de gù shì 。",
-      "hanziCount": 16
+      "explanation": "参考句子：如果明天有时间，我就讲述自己的故事。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù jiǎng shù zì jǐ de gù shì 。\n语法与搭配：如果……就……：假设条件",
+      "hanziCount": 16,
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 37,
@@ -777,8 +828,9 @@
         "我想请老师教我怎样改正过去的错误."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师教我怎样改正过去的错误。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng gǎi zhèng guò qù de cuò wù 。",
-      "hanziCount": 16
+      "explanation": "参考句子：我想请老师教我怎样改正过去的错误。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng gǎi zhèng guò qù de cuò wù 。\n语法与搭配：动词＋过：经历表达",
+      "hanziCount": 16,
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 38,
@@ -793,8 +845,9 @@
         "我以前不太会参加班里的讨论,现在好多了."
       ],
       "points": 2,
-      "explanation": "参考句子：我以前不太会参加班里的讨论，现在好多了。\nwǒ yǐ qián bú tài huì cān jiā bān lǐ de tǎo lùn ， xiàn zài hǎo duō le 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我以前不太会参加班里的讨论，现在好多了。\nwǒ yǐ qián bú tài huì cān jiā bān lǐ de tǎo lùn ， xiàn zài hǎo duō le 。\n语法与搭配：动作＋以前：说明时间顺序",
+      "hanziCount": 18,
+      "grammarFocus": "动作＋以前：说明时间顺序"
     },
     {
       "id": 39,
@@ -809,8 +862,9 @@
         "我希望下次可以试着理解文章的内容."
       ],
       "points": 2,
-      "explanation": "参考句子：我希望下次可以试着理解文章的内容。\nwǒ xī wàng xià cì kě yǐ shì zhe lǐ jiě wén zhāng de nèi róng 。",
-      "hanziCount": 16
+      "explanation": "参考句子：我希望下次可以试着理解文章的内容。\nwǒ xī wàng xià cì kě yǐ shì zhe lǐ jiě wén zhāng de nèi róng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 16,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -825,8 +879,9 @@
         "姐姐说用新学的词造句让她觉得很开心."
       ],
       "points": 2,
-      "explanation": "参考句子：姐姐说用新学的词造句让她觉得很开心。\njiě jiě shuō yòng xīn xué de cí zào jù ràng tā jué de hěn kāi xīn 。",
-      "hanziCount": 17
+      "explanation": "参考句子：姐姐说用新学的词造句让她觉得很开心。\njiě jiě shuō yòng xīn xué de cí zào jù ràng tā jué de hěn kāi xīn 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 17,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 41,
@@ -841,8 +896,9 @@
         "我和同学常常利用周末和同伴用汉语交谈."
       ],
       "points": 2,
-      "explanation": "参考句子：我和同学常常利用周末和同伴用汉语交谈。\nwǒ hé tóng xué cháng cháng lì yòng zhōu mò hé tóng bàn yòng hàn yǔ jiāo tán 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我和同学常常利用周末和同伴用汉语交谈。\nwǒ hé tóng xué cháng cháng lì yòng zhōu mò hé tóng bàn yòng hàn yǔ jiāo tán 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -857,8 +913,9 @@
         "做事之前我们应该先按时完成课后作业."
       ],
       "points": 2,
-      "explanation": "参考句子：做事之前我们应该先按时完成课后作业。\nzuò shì zhī qián wǒ men yīng gāi xiān àn shí wán chéng kè hòu zuò yè 。",
-      "hanziCount": 17
+      "explanation": "参考句子：做事之前我们应该先按时完成课后作业。\nzuò shì zhī qián wǒ men yīng gāi xiān àn shí wán chéng kè hòu zuò yè 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -873,8 +930,9 @@
         "昨天上课时老师教我们准备课堂上的发言."
       ],
       "points": 2,
-      "explanation": "参考句子：昨天上课时老师教我们准备课堂上的发言。\nzuó tiān shàng kè shí lǎo shī jiào wǒ men zhǔn bèi kè táng shàng de fā yán 。",
-      "hanziCount": 18
+      "explanation": "参考句子：昨天上课时老师教我们准备课堂上的发言。\nzuó tiān shàng kè shí lǎo shī jiào wǒ men zhǔn bèi kè táng shàng de fā yán 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -889,8 +947,9 @@
         "我和朋友商量好明天把重点记在本子上."
       ],
       "points": 2,
-      "explanation": "参考句子：我和朋友商量好明天把重点记在本子上。\nwǒ hé péng you shāng liáng hǎo míng tiān bǎ zhòng diǎn jì zài běn zi shàng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我和朋友商量好明天把重点记在本子上。\nwǒ hé péng you shāng liáng hǎo míng tiān bǎ zhòng diǎn jì zài běn zi shàng 。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "hanziCount": 17,
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 45,
@@ -905,8 +964,9 @@
         "听说你很会比较两句话的区别,可以教我吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：听说你很会比较两句话的区别，可以教我吗？\ntīng shuō nǐ hěn huì bǐ jiào liǎng jù huà de qū bié ， kě yǐ jiào wǒ ma ？",
-      "hanziCount": 18
+      "explanation": "参考句子：听说你很会比较两句话的区别，可以教我吗？\ntīng shuō nǐ hěn huì bǐ jiào liǎng jù huà de qū bié ， kě yǐ jiào wǒ ma ？\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "hanziCount": 18,
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 46,
@@ -921,8 +981,9 @@
         "我已经知道应该怎样选择合适的读物了."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经知道应该怎样选择合适的读物了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng xuǎn zé hé shì de dú wù le 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我已经知道应该怎样选择合适的读物了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng xuǎn zé hé shì de dú wù le 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 17,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 47,
@@ -939,8 +1000,9 @@
         "我们今天一起讨论怎样利用路上的时间。"
       ],
       "points": 2,
-      "explanation": "参考句子：今天我们一起讨论怎样利用路上的时间。\njīn tiān wǒ men yì qǐ tǎo lùn zěn yàng lì yòng lù shàng de shí jiān 。",
-      "hanziCount": 17
+      "explanation": "参考句子：今天我们一起讨论怎样利用路上的时间。\njīn tiān wǒ men yì qǐ tǎo lùn zěn yàng lì yòng lù shàng de shí jiān 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -955,8 +1017,9 @@
         "他准备忙完工作以后再安排每天的任务."
       ],
       "points": 2,
-      "explanation": "参考句子：他准备忙完工作以后再安排每天的任务。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài ān pái měi tiān de rèn wù 。",
-      "hanziCount": 17
+      "explanation": "参考句子：他准备忙完工作以后再安排每天的任务。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài ān pái měi tiān de rèn wù 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 17,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 49,
@@ -971,8 +1034,9 @@
         "我觉得我们可以试着一起给朋友写一张卡片."
       ],
       "points": 2,
-      "explanation": "参考句子：我觉得我们可以试着一起给朋友写一张卡片。\nwǒ jué de wǒ men kě yǐ shì zhe yì qǐ gěi péng you xiě yī zhāng kǎ piàn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我觉得我们可以试着一起给朋友写一张卡片。\nwǒ jué de wǒ men kě yǐ shì zhe yì qǐ gěi péng you xiě yī zhāng kǎ piàn 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 19,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 50,
@@ -987,8 +1051,10 @@
         "请先等我一下,然后我们再向别人解释原因."
       ],
       "points": 2,
-      "explanation": "参考句子：请先等我一下，然后我们再向别人解释原因。\nqǐng xiān děng wǒ yí xià ， rán hòu wǒ men zài xiàng bié rén jiě shì yuán yīn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请先等我一下，然后我们再向别人解释原因。\nqǐng xiān děng wǒ yí xià ， rán hòu wǒ men zài xiàng bié rén jiě shì yuán yīn 。\n语法与搭配：先……再……：动作先后顺序",
+      "hanziCount": 18,
+      "grammarFocus": "先……再……：动作先后顺序"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

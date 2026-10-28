@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第02课 你最近怎么样",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,7 +9,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“最近”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zuì jìn",
         "B": "zuì jìng",
@@ -20,7 +20,8 @@
         "A"
       ],
       "points": 5,
-      "explanation": "“最近”读作 zuì jìn，本课词义：gần đây。"
+      "explanation": "“最近”读作 zuì jìn。注意声母、韵母、声调及轻声。",
+      "targetWord": "最近"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“身体”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chēn tǐ",
-        "B": "sēn tǐ",
-        "C": "shēng tǐ",
-        "D": "shēn tǐ"
+        "A": "shēng tǐ",
+        "B": "shēn tǐ",
+        "C": "chēn tǐ",
+        "D": "sēn tǐ"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“身体”读作 shēn tǐ，本课词义：sức khỏe。"
+      "explanation": "“身体”读作 shēn tǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "身体"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“顺利”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "sùn lì",
-        "B": "shùn lì",
-        "C": "hùn lì",
+        "B": "hùn lì",
+        "C": "shùn lì",
         "D": "shùn nì"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“顺利”读作 shùn lì，本课词义：thuận lợi。"
+      "explanation": "“顺利”读作 shùn lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "顺利"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“照顾”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhào gù",
-        "B": "zào gù",
-        "C": "zhòu gù",
-        "D": "chào gù"
+        "A": "chào gù",
+        "B": "zhòu gù",
+        "C": "zào gù",
+        "D": "zhào gù"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“照顾”读作 zhào gù，本课词义：chăm sóc。"
+      "explanation": "“照顾”读作 zhào gù。注意声母、韵母、声调及轻声。",
+      "targetWord": "照顾"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“下次”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jià cì",
-        "B": "xià cì",
-        "C": "qià cì",
-        "D": "xià chì"
+        "B": "xià chì",
+        "C": "xià cì",
+        "D": "qià cì"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“下次”读作 xià cì，本课词义：lần sau。"
+      "explanation": "“下次”读作 xià cì。注意声母、韵母、声调及轻声。",
+      "targetWord": "下次"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：你____工作忙不忙。",
-      "pinyin": "nǐ ____ gōng zuò máng bù máng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: gần đây.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：听到这个好消息，我的____好多了。",
+      "pinyin": "tīng dào zhè ge hǎo xiāo xī ， wǒ de ____ hǎo duō le 。",
+      "vietnamese": "Gợi ý: tâm trạng.",
       "options": {
-        "A": "下次",
-        "B": "身体",
-        "C": "照顾",
-        "D": "最近"
+        "A": "习惯",
+        "B": "压力",
+        "C": "心情",
+        "D": "休息"
       },
       "optionPinyin": {
-        "A": "xià cì",
-        "B": "shēn tǐ",
-        "C": "zhào gù",
-        "D": "zuì jìn"
+        "A": "xí guàn",
+        "B": "yā lì",
+        "C": "xīn qíng",
+        "D": "xiū xī"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“最近”（gần đây）。完整表达：你最近工作忙不忙。"
+      "explanation": "应填“心情”。完整句子：听到这个好消息，我的心情好多了。\n语法与搭配：形容词＋多了：变化",
+      "targetWord": "心情",
+      "completeSentence": "听到这个好消息，我的心情好多了。",
+      "grammarFocus": "形容词＋多了：变化"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：谢谢关心我的____已经好多了。",
-      "pinyin": "xiè xiè guān xīn wǒ de ____ yǐ jīng hǎo duō le",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: sức khỏe.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：最近任务太多，我觉得____有点大。",
+      "pinyin": "zuì jìn rèn wù tài duō ， wǒ jué de ____ yǒu diǎn dà 。",
+      "vietnamese": "Gợi ý: áp lực.",
       "options": {
-        "A": "顺利",
-        "B": "身体",
-        "C": "下次",
-        "D": "照顾"
+        "A": "休息",
+        "B": "心情",
+        "C": "压力",
+        "D": "习惯"
       },
       "optionPinyin": {
-        "A": "shùn lì",
-        "B": "shēn tǐ",
-        "C": "xià cì",
-        "D": "zhào gù"
+        "A": "xiū xī",
+        "B": "xīn qíng",
+        "C": "yā lì",
+        "D": "xí guàn"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“身体”（sức khỏe）。完整表达：谢谢关心我的身体已经好多了。"
+      "explanation": "应填“压力”。完整句子：最近任务太多，我觉得压力有点大。\n语法与搭配：觉得；有点＋形容词",
+      "targetWord": "压力",
+      "completeSentence": "最近任务太多，我觉得压力有点大。",
+      "grammarFocus": "觉得；有点＋形容词"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我最近一切都很____。",
-      "pinyin": "wǒ zuì jìn yí qiè dōu hěn ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thuận lợi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：累了就早点____，别熬夜。",
+      "pinyin": "lèi le jiù zǎo diǎn ____， bié áo yè 。",
+      "vietnamese": "Gợi ý: nghỉ ngơi.",
       "options": {
-        "A": "照顾",
-        "B": "身体",
-        "C": "下次",
-        "D": "顺利"
+        "A": "心情",
+        "B": "压力",
+        "C": "休息",
+        "D": "习惯"
       },
       "optionPinyin": {
-        "A": "zhào gù",
-        "B": "shēn tǐ",
-        "C": "xià cì",
-        "D": "shùn lì"
+        "A": "xīn qíng",
+        "B": "yā lì",
+        "C": "xiū xī",
+        "D": "xí guàn"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“顺利”（thuận lợi）。完整表达：我最近一切都很顺利。"
+      "explanation": "应填“休息”。完整句子：累了就早点休息，别熬夜。\n语法与搭配：……了就……；别",
+      "targetWord": "休息",
+      "completeSentence": "累了就早点休息，别熬夜。",
+      "grammarFocus": "……了就……；别"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：出门在外你要____好自己。",
-      "pinyin": "chū mén zài wài nǐ yào ____ hǎo zì jǐ",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chăm sóc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：搬来一个月了，你____这里的生活了吗？",
+      "pinyin": "bān lái yí gè yuè le ， nǐ ____ zhè lǐ de shēng huó le ma ？",
+      "vietnamese": "Gợi ý: quen.",
       "options": {
-        "A": "照顾",
-        "B": "下次",
-        "C": "身体",
-        "D": "最近"
+        "A": "心情",
+        "B": "习惯",
+        "C": "压力",
+        "D": "休息"
       },
       "optionPinyin": {
-        "A": "zhào gù",
-        "B": "xià cì",
-        "C": "shēn tǐ",
-        "D": "zuì jìn"
+        "A": "xīn qíng",
+        "B": "xí guàn",
+        "C": "yā lì",
+        "D": "xiū xī"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“照顾”（chăm sóc）。完整表达：出门在外你要照顾好自己。"
+      "explanation": "应填“习惯”。完整句子：搬来一个月了，你习惯这里的生活了吗？\n语法与搭配：动词＋了＋吗",
+      "targetWord": "习惯",
+      "completeSentence": "搬来一个月了，你习惯这里的生活了吗？",
+      "grammarFocus": "动词＋了＋吗"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我先去上课了我们____再聊。",
-      "pinyin": "wǒ xiān qù shàng kè le wǒ men ____ zài liáo",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: lần sau.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他的手机一直关机，我____他。",
+      "pinyin": "tā de shǒu jī yì zhí guān jī ， wǒ ____ tā 。",
+      "vietnamese": "Gợi ý: không liên lạc được.",
       "options": {
-        "A": "最近",
-        "B": "身体",
-        "C": "顺利",
-        "D": "下次"
+        "A": "休息",
+        "B": "压力",
+        "C": "联系不上",
+        "D": "心情"
       },
       "optionPinyin": {
-        "A": "zuì jìn",
-        "B": "shēn tǐ",
-        "C": "shùn lì",
-        "D": "xià cì"
+        "A": "xiū xī",
+        "B": "yā lì",
+        "C": "lián xì bù shàng",
+        "D": "xīn qíng"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“下次”（lần sau）。完整表达：我先去上课了我们下次再聊。"
+      "explanation": "应填“联系不上”。完整句子：他的手机一直关机，我联系不上他。\n语法与搭配：结果可能补语：联系不上",
+      "targetWord": "联系不上",
+      "completeSentence": "他的手机一直关机，我联系不上他。",
+      "grammarFocus": "结果可能补语：联系不上"
     },
     {
       "id": 11,
@@ -352,106 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n忙不忙 / 你 / 工作 / 最近",
-      "pinyin": "máng bù máng / nǐ / gōng zuò / zuì jìn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n虽然 / 但是 / 最近很忙 / 我过得很充实",
+      "pinyin": "suī rán / dàn shì / zuì jìn hěn máng / wǒ guò dé hěn chōng shí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "你最近工作忙不忙。",
-        "你最近工作忙不忙",
-        "你最近工作忙不忙.",
-        "你最近工作忙不忙？",
-        "你最近工作忙不忙?",
-        "最近你工作忙不忙",
-        "最近你工作忙不忙。",
-        "最近你工作忙不忙.",
-        "最近你工作忙不忙？",
-        "最近你工作忙不忙?"
+        "虽然最近很忙但是我过得很充实。",
+        "虽然最近很忙但是我过得很充实",
+        "虽然最近很忙但是我过得很充实."
       ],
       "points": 5,
-      "hanziCount": 8,
-      "explanation": "参考表达：你最近工作忙不忙。\nnǐ zuì jìn gōng zuò máng bù máng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：虽然最近很忙但是我过得很充实。\nsuī rán zuì jìn hěn máng dàn shì wǒ guò dé hěn chōng shí\n语法与搭配：虽然……但是……",
+      "grammarFocus": "虽然……但是……"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n谢谢 / 已经好多了 / 我的身体 / 关心",
-      "pinyin": "xiè xiè / yǐ jīng hǎo duō le / wǒ de shēn tǐ / guān xīn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n你换工作了 / 新公司 / 怎么样 / 听说",
+      "pinyin": "nǐ huàn gōng zuò le / xīn gōng sī / zěn me yàng / tīng shuō",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "谢谢关心我的身体已经好多了。",
-        "谢谢关心我的身体已经好多了",
-        "谢谢关心我的身体已经好多了.",
-        "谢谢关心我的身体已经好多了？",
-        "谢谢关心我的身体已经好多了?"
+        "听说你换工作了新公司怎么样。",
+        "听说你换工作了新公司怎么样",
+        "听说你换工作了新公司怎么样."
       ],
       "points": 5,
       "hanziCount": 13,
-      "explanation": "参考表达：谢谢关心我的身体已经好多了。\nxiè xiè guān xīn wǒ de shēn tǐ yǐ jīng hǎo duō le。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：听说你换工作了新公司怎么样。\ntīng shuō nǐ huàn gōng zuò le xīn gōng sī zěn me yàng\n语法与搭配：听说；怎么样",
+      "grammarFocus": "听说；怎么样"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n一切 / 我 / 都很顺利 / 最近",
-      "pinyin": "yí qiè / wǒ / dōu hěn shùn lì / zuì jìn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n等你 / 再聚一聚 / 我们 / 不忙的时候",
+      "pinyin": "děng nǐ / zài jù yī jù / wǒ men / bù máng de shí hou",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我最近一切都很顺利。",
-        "我最近一切都很顺利",
-        "我最近一切都很顺利.",
-        "我最近一切都很顺利？",
-        "我最近一切都很顺利?",
-        "最近我一切都很顺利",
-        "最近我一切都很顺利。",
-        "最近我一切都很顺利.",
-        "最近我一切都很顺利？",
-        "最近我一切都很顺利?"
+        "等你不忙的时候我们再聚一聚。",
+        "等你不忙的时候我们再聚一聚",
+        "等你不忙的时候我们再聚一聚."
       ],
       "points": 5,
-      "hanziCount": 9,
-      "explanation": "参考表达：我最近一切都很顺利。\nwǒ zuì jìn yí qiè dōu hěn shùn lì。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：等你不忙的时候我们再聚一聚。\nděng nǐ bù máng de shí hou wǒ men zài jù yī jù\n语法与搭配：……的时候；再",
+      "grammarFocus": "……的时候；再"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n你 / 照顾好自己 / 要 / 出门在外",
-      "pinyin": "nǐ / zhào gù hǎo zì jǐ / yào / chū mén zài wài",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n精神多了 / 你 / 比上个月 / 看起来",
+      "pinyin": "jīng shén duō le / nǐ / bǐ shàng gè yuè / kàn qi lai",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "出门在外你要照顾好自己。",
-        "出门在外你要照顾好自己",
-        "出门在外你要照顾好自己.",
-        "出门在外你要照顾好自己？",
-        "出门在外你要照顾好自己?",
-        "你出门在外要照顾好自己",
-        "你出门在外要照顾好自己。",
-        "你出门在外要照顾好自己.",
-        "你出门在外要照顾好自己？",
-        "你出门在外要照顾好自己?"
+        "你看起来比上个月精神多了。",
+        "你看起来比上个月精神多了",
+        "你看起来比上个月精神多了."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：出门在外你要照顾好自己。\nchū mén zài wài nǐ yào zhào gù hǎo zì jǐ。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：你看起来比上个月精神多了。\nnǐ kàn qi lai bǐ shàng gè yuè jīng shén duō le\n语法与搭配：看起来；比字句",
+      "grammarFocus": "看起来；比字句"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 下次再聊 / 我 / 先去上课了",
-      "pinyin": "wǒ men / xià cì zài liáo / wǒ / xiān qù shàng kè le",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n跟我说说 / 不开心的事 / 有什么 / 可以",
+      "pinyin": "gēn wǒ shuō shuō / bù kāi xīn de shì / yǒu shén me / kě yǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我先去上课了我们下次再聊。",
-        "我先去上课了我们下次再聊",
-        "我先去上课了我们下次再聊.",
-        "我先去上课了我们下次再聊？",
-        "我先去上课了我们下次再聊?"
+        "有什么不开心的事可以跟我说说。",
+        "有什么不开心的事可以跟我说说",
+        "有什么不开心的事可以跟我说说."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：我先去上课了我们下次再聊。\nwǒ xiān qù shàng kè le wǒ men xià cì zài liáo。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：有什么不开心的事可以跟我说说。\nyǒu shén me bù kāi xīn de shì kě yǐ gēn wǒ shuō shuō\n语法与搭配：有什么；跟＋人＋说",
+      "grammarFocus": "有什么；跟＋人＋说"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

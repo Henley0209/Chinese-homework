@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第33课 安全提醒与紧急求助",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“危险”的正确读音。",
+      "text": "【拼音选择】请选择“疏散”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wāi xiǎn",
-        "B": "wēi xiǎn",
-        "C": "wēi qiǎn",
-        "D": "wēi xiǎng"
+        "A": "shū sàn",
+        "B": "shū sàng",
+        "C": "sū sàn",
+        "D": "shū shàn"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“危险”读作 wēi xiǎn，本课词义：nguy hiểm。"
+      "explanation": "“疏散”读作 shū sàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "疏散"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“撤离”的正确读音。",
+      "text": "【拼音选择】请选择“出口”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cè lí",
-        "B": "chè lí",
-        "C": "chà lí",
-        "D": "chè ní"
+        "A": "chū kǒu",
+        "B": "cū kǒu",
+        "C": "chū kǎo",
+        "D": "chuā kǒu"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“撤离”读作 chè lí，本课词义：sơ tán。"
+      "explanation": "“出口”读作 chū kǒu。注意声母、韵母、声调及轻声。",
+      "targetWord": "出口"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“求助”的正确读音。",
+      "text": "【拼音选择】请选择“疏散图”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qiú zhù",
-        "B": "qiú zù",
-        "C": "xiú zhù",
-        "D": "jiú zhù"
+        "A": "shū shàn tú",
+        "B": "sū sàn tú",
+        "C": "shū sàn tú",
+        "D": "shū sàng tú"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“求助”读作 qiú zhù，本课词义：nhờ trợ giúp。"
+      "explanation": "“疏散图”读作 shū sàn tú。注意声母、韵母、声调及轻声。",
+      "targetWord": "疏散图"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“位置”的正确读音。",
+      "text": "【拼音选择】请选择“救援”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wèi zhì",
-        "B": "wài zhì",
-        "C": "wèi zì",
-        "D": "bèi zhì"
+        "A": "jiù yuán",
+        "B": "qiù yuán",
+        "C": "jià yuán",
+        "D": "jiè yuán"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“位置”读作 wèi zhì，本课词义：vị trí。"
+      "explanation": "“救援”读作 jiù yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "救援"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“受伤”的正确读音。",
+      "text": "【拼音选择】请选择“烫伤”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shòu shān",
-        "B": "shòu sāng",
-        "C": "shòu shāng",
-        "D": "sòu shāng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“受伤”读作 shòu shāng，本课词义：bị thương。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“急救”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "jí jiù",
-        "B": "jí qiù",
-        "C": "qí jiù",
-        "D": "bí jiù"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“急救”读作 jí jiù，本课词义：sơ cứu, cấp cứu。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“烟雾”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "yāng wù",
-        "B": "yān wù",
-        "C": "bān wù",
-        "D": "cān wù"
+        "A": "tàng sāng",
+        "B": "tàng shāng",
+        "C": "tàn shāng",
+        "D": "tàng shān"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“烟雾”读作 yān wù，本课词义：khói。"
+      "explanation": "“烫伤”读作 tàng shāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "烫伤"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“夹伤”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "jiā sāng",
+        "B": "qiā shāng",
+        "C": "jiā shāng",
+        "D": "jiā shān"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "“夹伤”读作 jiā shāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "夹伤"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“漏电”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "lòu diàn",
+        "B": "lào diàn",
+        "C": "nòu diàn",
+        "D": "còu diàn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“漏电”读作 lòu diàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "漏电"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“集合点”的正确读音。",
+      "text": "【拼音选择】请选择“警戒”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bí hé diǎn",
-        "B": "qí hé diǎn",
-        "C": "cí hé diǎn",
-        "D": "jí hé diǎn"
+        "A": "jǐng jiè",
+        "B": "jǐng qiè",
+        "C": "jǐn jiè",
+        "D": "qǐng jiè"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“集合点”读作 jí hé diǎn，本课词义：điểm tập kết。"
+      "explanation": "“警戒”读作 jǐng jiè。注意声母、韵母、声调及轻声。",
+      "targetWord": "警戒"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“通道”的正确读音。",
+      "text": "【拼音选择】请选择“隐患”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tōng dòu",
-        "B": "dōng dào",
-        "C": "tōng dào",
-        "D": "cōng dào"
+        "A": "yǐn huàng",
+        "B": "bǐn huàn",
+        "C": "yǐn huàn",
+        "D": "yǐng huàn"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“通道”读作 tōng dào，本课词义：lối đi。"
+      "explanation": "“隐患”读作 yǐn huàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "隐患"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“演练”的正确读音。",
+      "text": "【拼音选择】请选择“撤退”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǎn liàng",
-        "B": "yǎng liàn",
-        "C": "yǎn liàn",
-        "D": "yǎn niàn"
+        "A": "chà tuì",
+        "B": "cè tuì",
+        "C": "chè tuì",
+        "D": "chèn tuì"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“演练”读作 yǎn liàn，本课词义：diễn tập。"
+      "explanation": "“撤退”读作 chè tuì。注意声母、韵母、声调及轻声。",
+      "targetWord": "撤退"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“危险”（nguy hiểm）。完整表达：前面有危险请先远离这个区域。"
+      "explanation": "应填“危险”（nguy hiểm）。完整表达：前面有危险请先远离这个区域。",
+      "targetWord": "危险",
+      "completeSentence": "前面有危险请先远离这个区域。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“撤离”（sơ tán）。完整表达：请按照现场指令有序撤离。"
+      "explanation": "应填“撤离”（sơ tán）。完整表达：请按照现场指令有序撤离。",
+      "targetWord": "撤离",
+      "completeSentence": "请按照现场指令有序撤离。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“求助”（nhờ trợ giúp）。完整表达：这里有人受伤我需要立即求助。"
+      "explanation": "应填“求助”（nhờ trợ giúp）。完整表达：这里有人受伤我需要立即求助。",
+      "targetWord": "求助",
+      "completeSentence": "这里有人受伤我需要立即求助。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“位置”（vị trí）。完整表达：事故的位置在装配车间东侧入口。"
+      "explanation": "应填“位置”（vị trí）。完整表达：事故的位置在装配车间东侧入口。",
+      "targetWord": "位置",
+      "completeSentence": "事故的位置在装配车间东侧入口。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“受伤”（bị thương）。完整表达：这位同事手部受伤了请联系现场急救人员。"
+      "explanation": "应填“受伤”（bị thương）。完整表达：这位同事手部受伤了请联系现场急救人员。",
+      "targetWord": "受伤",
+      "completeSentence": "这位同事手部受伤了请联系现场急救人员。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“急救”（sơ cứu, cấp cứu）。完整表达：请问现场急救人员怎样联系。"
+      "explanation": "应填“急救”（sơ cứu, cấp cứu）。完整表达：请问现场急救人员怎样联系。",
+      "targetWord": "急救",
+      "completeSentence": "请问现场急救人员怎样联系。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“烟雾”（khói）。完整表达：这个区域出现烟雾请立即按应急流程报告。"
+      "explanation": "应填“烟雾”（khói）。完整表达：这个区域出现烟雾请立即按应急流程报告。",
+      "targetWord": "烟雾",
+      "completeSentence": "这个区域出现烟雾请立即按应急流程报告。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“集合点”（điểm tập kết）。完整表达：撤离以后请到指定的集合点。"
+      "explanation": "应填“集合点”（điểm tập kết）。完整表达：撤离以后请到指定的集合点。",
+      "targetWord": "集合点",
+      "completeSentence": "撤离以后请到指定的集合点。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“通道”（lối đi）。完整表达：请不要堵塞紧急疏散通道。"
+      "explanation": "应填“通道”（lối đi）。完整表达：请不要堵塞紧急疏散通道。",
+      "targetWord": "通道",
+      "completeSentence": "请不要堵塞紧急疏散通道。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“演练”（diễn tập）。完整表达：请问这次演练需要注意哪些事项。"
+      "explanation": "应填“演练”（diễn tập）。完整表达：请问这次演练需要注意哪些事项。",
+      "targetWord": "演练",
+      "completeSentence": "请问这次演练需要注意哪些事项。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你看到前方有危险，要提醒同事避开，应该怎么说？",
-      "pinyin": "nǐ kàn dào qián fāng yǒu wēi xiǎn ， yào tí xǐng tóng shì bì kāi ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“应急沟通要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ yìng jí gōu tōng yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认疏散集合位置再继续沟通",
-        "B": "这位同事手部受伤了请联系现场急救人员",
-        "C": "前面有危险请先远离这个区域",
-        "D": "请不要堵塞紧急疏散通道"
+        "A": "我还没有收到关于应急沟通要求的资料",
+        "B": "我还没有收到关于事故地点的核实结果的资料",
+        "C": "我这次只想核实应急沟通要求",
+        "D": "我还需要进一步了解应急沟通要求"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn shū sàn jí hé wèi zhì zài jì xù gōu tōng",
-        "B": "zhè wèi tóng shì shǒu bù shòu shāng le qǐng lián xì xiàn chǎng jí jiù rén yuán",
-        "C": "qián miàn yǒu wēi xiǎn qǐng xiān yuǎn lí zhè ge qū yù",
-        "D": "qǐng bú yào dǔ sè jǐn jí shū sàn tōng dào"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你看到前方有危险，要提醒同事避开，应该怎么说？\n符合此任务的表达：前面有危险请先远离这个区域。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 22,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要传达遵从现场指令有序离开的要求，应该怎么说？",
-      "pinyin": "nǐ yào chuán dá zūn cóng xiàn chǎng zhǐ lìng yǒu xù lí kāi de yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "撤离以后请到指定的集合点",
-        "B": "我们先确认疏散集合位置再继续沟通",
-        "C": "事故的位置在装配车间东侧入口",
-        "D": "请按照现场指令有序撤离"
-      },
-      "optionPinyin": {
-        "A": "chè lí yǐ hòu qǐng dào zhǐ dìng de jí hé diǎn",
-        "B": "wǒ men xiān què rèn shū sàn jí hé wèi zhì zài jì xù gōu tōng",
-        "C": "shì gù de wèi zhì zài zhuāng pèi chē jiān dōng cè rù kǒu",
-        "D": "qǐng àn zhào xiàn chǎng zhǐ lìng yǒu xù chè lí"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要传达遵从现场指令有序离开的要求，应该怎么说？\n符合此任务的表达：请按照现场指令有序撤离。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你发现有人受伤，需要及时请求帮助，应该怎么说？",
-      "pinyin": "nǐ fā xiàn yǒu rén shòu shāng ， xū yào jí shí qǐng qiú bāng zhù ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请问现场急救人员怎样联系",
-        "B": "事故的位置在装配车间东侧入口",
-        "C": "这里有人受伤我需要立即求助",
-        "D": "关于事故地点的核实结果我还需要再核实一下"
-      },
-      "optionPinyin": {
-        "A": "qǐng wèn xiàn chǎng jí jiù rén yuán zěn yàng lián xì",
-        "B": "shì gù de wèi zhì zài zhuāng pèi chē jiān dōng cè rù kǒu",
-        "C": "zhè lǐ yǒu rén shòu shāng wǒ xū yào lì jí qiú zhù",
-        "D": "guān yú shì gù dì diǎn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你发现有人受伤，需要及时请求帮助，应该怎么说？\n符合此任务的表达：这里有人受伤我需要立即求助。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 24,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你要说明事故发生地点在装配车间东侧，应该怎么说？",
-      "pinyin": "nǐ yào shuō míng shì gù fā shēng dì diǎn zài zhuāng pèi chē jiān dōng cè ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请问这次演练需要注意哪些事项",
-        "B": "事故的位置在装配车间东侧入口",
-        "C": "这里有人受伤我需要立即求助",
-        "D": "请按照现场指令有序撤离"
-      },
-      "optionPinyin": {
-        "A": "qǐng wèn zhè cì yǎn liàn xū yào zhù yì nǎ xiē shì xiàng",
-        "B": "shì gù de wèi zhì zài zhuāng pèi chē jiān dōng cè rù kǒu",
-        "C": "zhè lǐ yǒu rén shòu shāng wǒ xū yào lì jí qiú zhù",
-        "D": "qǐng àn zhào xiàn chǎng zhǐ lìng yǒu xù chè lí"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要说明事故发生地点在装配车间东侧，应该怎么说？\n符合此任务的表达：事故的位置在装配车间东侧入口。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你发现同事手受伤，需要联系受训急救人员，应该怎么说？",
-      "pinyin": "nǐ fā xiàn tóng shì shǒu shòu shāng ， xū yào lián xì shòu xùn jí jiù rén yuán ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请帮我确认一下应急沟通要求的具体要求",
-        "B": "这位同事手部受伤了请联系现场急救人员",
-        "C": "请告诉我谁负责紧急联络信息",
-        "D": "请问这次演练需要注意哪些事项"
-      },
-      "optionPinyin": {
-        "A": "qǐng bāng wǒ què rèn yí xià yìng jí gōu tōng yāo qiú de jù tǐ yāo qiú",
-        "B": "zhè wèi tóng shì shǒu bù shòu shāng le qǐng lián xì xiàn chǎng jí jiù rén yuán",
-        "C": "qǐng gào sù wǒ shuí fù zé jǐn jí lián luò xìn xī",
-        "D": "qǐng wèn zhè cì yǎn liàn xū yào zhù yì nǎ xiē shì xiàng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你发现同事手受伤，需要联系受训急救人员，应该怎么说？\n符合此任务的表达：这位同事手部受伤了请联系现场急救人员。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你需要找到厂内急救人员的联系方式，应该怎么问？",
-      "pinyin": "nǐ xū yào zhǎo dào chǎng nèi jí jiù rén yuán de lián xì fāng shì ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请问现场急救人员怎样联系",
-        "B": "这里有人受伤我需要立即求助",
-        "C": "前面有危险请先远离这个区域",
-        "D": "请告诉我谁负责紧急联络信息"
-      },
-      "optionPinyin": {
-        "A": "qǐng wèn xiàn chǎng jí jiù rén yuán zěn yàng lián xì",
-        "B": "zhè lǐ yǒu rén shòu shāng wǒ xū yào lì jí qiú zhù",
-        "C": "qián miàn yǒu wēi xiǎn qǐng xiān yuǎn lí zhè ge qū yù",
-        "D": "qǐng gào sù wǒ shuí fù zé jǐn jí lián luò xìn xī"
+        "A": "wǒ hái méi yǒu shōu dào guān yú yìng jí gōu tōng yāo qiú de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú shì gù dì diǎn de hé shí jié guǒ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí yìng jí gōu tōng yāo qiú",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě yìng jí gōu tōng yāo qiú"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你需要找到厂内急救人员的联系方式，应该怎么问？\n符合此任务的表达：请问现场急救人员怎样联系。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“应急沟通要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于应急沟通要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于应急沟通要求的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“事故地点的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ shì gù dì diǎn de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解事故地点的核实结果",
+        "B": "我还没有收到关于事故地点的核实结果的资料",
+        "C": "我还没有收到关于应急演练安排的资料",
+        "D": "我这次只想核实事故地点的核实结果"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě shì gù dì diǎn de hé shí jié guǒ",
+        "B": "wǒ hái méi yǒu shōu dào guān yú shì gù dì diǎn de hé shí jié guǒ de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú yìng jí yǎn liàn ān pái de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí shì gù dì diǎn de hé shí jié guǒ"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“事故地点的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于事故地点的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于事故地点的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“应急演练安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ yìng jí yǎn liàn ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于应急演练安排的资料",
+        "B": "我还没有收到关于紧急联络信息的资料",
+        "C": "我这次只想核实应急演练安排",
+        "D": "我还需要进一步了解应急演练安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú yìng jí yǎn liàn ān pái de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú jǐn jí lián luò xìn xī de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí yìng jí yǎn liàn ān pái",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě yìng jí yǎn liàn ān pái"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“应急演练安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于应急演练安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于应急演练安排的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“紧急联络信息”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ jǐn jí lián luò xìn xī ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于紧急联络信息的资料",
+        "B": "我还没有收到关于疏散集合位置的资料",
+        "C": "我这次只想核实紧急联络信息",
+        "D": "我还需要进一步了解紧急联络信息"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú jǐn jí lián luò xìn xī de zī liào",
+        "B": "wǒ hái méi yǒu shōu dào guān yú shū sàn jí hé wèi zhì de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jǐn jí lián luò xìn xī",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jǐn jí lián luò xìn xī"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“紧急联络信息”的资料，怎样说明情况？\n合适的表达：我还没有收到关于紧急联络信息的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于紧急联络信息的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你尚未拿到“疏散集合位置”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ shū sàn jí hé wèi zhì ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实疏散集合位置",
+        "B": "我还没有收到关于应急沟通要求的资料",
+        "C": "我还需要进一步了解疏散集合位置",
+        "D": "我还没有收到关于疏散集合位置的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí shū sàn jí hé wèi zhì",
+        "B": "wǒ hái méi yǒu shōu dào guān yú yìng jí gōu tōng yāo qiú de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě shū sàn jí hé wèi zhì",
+        "D": "wǒ hái méi yǒu shōu dào guān yú shū sàn jí hé wèi zhì de zī liào"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你尚未拿到“疏散集合位置”的资料，怎样说明情况？\n合适的表达：我还没有收到关于疏散集合位置的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于疏散集合位置的资料",
+      "grammarFocus": "还没有＋动词"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“应急沟通要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ yìng jí gōu tōng yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实应急沟通要求",
+        "B": "我这次只想核实事故地点的核实结果",
+        "C": "我还没有收到关于应急沟通要求的资料",
+        "D": "我还需要进一步了解应急沟通要求"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí yìng jí gōu tōng yāo qiú",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí shì gù dì diǎn de hé shí jié guǒ",
+        "C": "wǒ hái méi yǒu shōu dào guān yú yìng jí gōu tōng yāo qiú de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě yìng jí gōu tōng yāo qiú"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“应急沟通要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实应急沟通要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实应急沟通要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你发现现场冒烟，要按应急流程报告，应该怎么说？",
-      "pinyin": "nǐ fā xiàn xiàn chǎng mào yān ， yào àn yìng jí liú chéng bào gào ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“事故地点的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ shì gù dì diǎn de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "请帮我确认一下应急沟通要求的具体要求",
-        "B": "这个区域出现烟雾请立即按应急流程报告",
-        "C": "关于事故地点的核实结果我还需要再核实一下",
-        "D": "请问现场急救人员怎样联系"
+        "A": "我还没有收到关于事故地点的核实结果的资料",
+        "B": "我这次只想核实事故地点的核实结果",
+        "C": "我这次只想核实应急演练安排",
+        "D": "我还需要进一步了解事故地点的核实结果"
       },
       "optionPinyin": {
-        "A": "qǐng bāng wǒ què rèn yí xià yìng jí gōu tōng yāo qiú de jù tǐ yāo qiú",
-        "B": "zhè ge qū yù chū xiàn yān wù qǐng lì jí àn yìng jí liú chéng bào gào",
-        "C": "guān yú shì gù dì diǎn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "qǐng wèn xiàn chǎng jí jiù rén yuán zěn yàng lián xì"
+        "A": "wǒ hái méi yǒu shōu dào guān yú shì gù dì diǎn de hé shí jié guǒ de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí shì gù dì diǎn de hé shí jié guǒ",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí yìng jí yǎn liàn ān pái",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě shì gù dì diǎn de hé shí jié guǒ"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你发现现场冒烟，要按应急流程报告，应该怎么说？\n符合此任务的表达：这个区域出现烟雾请立即按应急流程报告。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“事故地点的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实事故地点的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实事故地点的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒撤离后前往规定集合位置，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng chè lí hòu qián wǎng guī dìng jí hé wèi zhì ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“应急演练安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ yìng jí yǎn liàn ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认疏散集合位置再继续沟通",
-        "B": "撤离以后请到指定的集合点",
-        "C": "请不要堵塞紧急疏散通道",
-        "D": "如果应急演练安排有变化请及时通知我"
+        "A": "我还没有收到关于应急演练安排的资料",
+        "B": "我还需要进一步了解应急演练安排",
+        "C": "我这次只想核实应急演练安排",
+        "D": "我这次只想核实紧急联络信息"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn shū sàn jí hé wèi zhì zài jì xù gōu tōng",
-        "B": "chè lí yǐ hòu qǐng dào zhǐ dìng de jí hé diǎn",
-        "C": "qǐng bú yào dǔ sè jǐn jí shū sàn tōng dào",
-        "D": "rú guǒ yìng jí yǎn liàn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ hái méi yǒu shōu dào guān yú yìng jí yǎn liàn ān pái de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě yìng jí yǎn liàn ān pái",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí yìng jí yǎn liàn ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí jǐn jí lián luò xìn xī"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你要提醒撤离后前往规定集合位置，应该怎么说？\n符合此任务的表达：撤离以后请到指定的集合点。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“应急演练安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实应急演练安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实应急演练安排",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你要提醒不要占用紧急疏散路线，应该怎么说？",
-      "pinyin": "nǐ yào tí xǐng bú yào zhàn yòng jǐn jí shū sàn lù xiàn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“紧急联络信息”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ jǐn jí lián luò xìn xī ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "撤离以后请到指定的集合点",
-        "B": "这里有人受伤我需要立即求助",
-        "C": "如果应急演练安排有变化请及时通知我",
-        "D": "请不要堵塞紧急疏散通道"
+        "A": "我这次只想核实疏散集合位置",
+        "B": "我这次只想核实紧急联络信息",
+        "C": "我还没有收到关于紧急联络信息的资料",
+        "D": "我还需要进一步了解紧急联络信息"
       },
       "optionPinyin": {
-        "A": "chè lí yǐ hòu qǐng dào zhǐ dìng de jí hé diǎn",
-        "B": "zhè lǐ yǒu rén shòu shāng wǒ xū yào lì jí qiú zhù",
-        "C": "rú guǒ yìng jí yǎn liàn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "D": "qǐng bú yào dǔ sè jǐn jí shū sàn tōng dào"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你要提醒不要占用紧急疏散路线，应该怎么说？\n符合此任务的表达：请不要堵塞紧急疏散通道。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 30,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】参加应急练习前，你要了解注意点，应该怎么问？",
-      "pinyin": "cān jiā yìng jí liàn xí qián ， nǐ yào liǎo jiě zhù yì diǎn ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "前面有危险请先远离这个区域",
-        "B": "撤离以后请到指定的集合点",
-        "C": "请按照现场指令有序撤离",
-        "D": "请问这次演练需要注意哪些事项"
-      },
-      "optionPinyin": {
-        "A": "qián miàn yǒu wēi xiǎn qǐng xiān yuǎn lí zhè ge qū yù",
-        "B": "chè lí yǐ hòu qǐng dào zhǐ dìng de jí hé diǎn",
-        "C": "qǐng àn zhào xiàn chǎng zhǐ lìng yǒu xù chè lí",
-        "D": "qǐng wèn zhè cì yǎn liàn xū yào zhù yì nǎ xiē shì xiàng"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "交际任务：参加应急练习前，你要了解注意点，应该怎么问？\n符合此任务的表达：请问这次演练需要注意哪些事项。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 31,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“应急沟通要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ yìng jí gōu tōng yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "撤离以后请到指定的集合点",
-        "B": "请按照现场指令有序撤离",
-        "C": "请帮我确认一下应急沟通要求的具体要求",
-        "D": "前面有危险请先远离这个区域"
-      },
-      "optionPinyin": {
-        "A": "chè lí yǐ hòu qǐng dào zhǐ dìng de jí hé diǎn",
-        "B": "qǐng àn zhào xiàn chǎng zhǐ lìng yǒu xù chè lí",
-        "C": "qǐng bāng wǒ què rèn yí xià yìng jí gōu tōng yāo qiú de jù tǐ yāo qiú",
-        "D": "qián miàn yǒu wēi xiǎn qǐng xiān yuǎn lí zhè ge qū yù"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想请同事核实“应急沟通要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下应急沟通要求的具体要求。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 32,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你尚未核实“事故地点的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ shì gù dì diǎn de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这里有人受伤我需要立即求助",
-        "B": "请不要堵塞紧急疏散通道",
-        "C": "关于事故地点的核实结果我还需要再核实一下",
-        "D": "我们先确认疏散集合位置再继续沟通"
-      },
-      "optionPinyin": {
-        "A": "zhè lǐ yǒu rén shòu shāng wǒ xū yào lì jí qiú zhù",
-        "B": "qǐng bú yào dǔ sè jǐn jí shū sàn tōng dào",
-        "C": "guān yú shì gù dì diǎn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "wǒ men xiān què rèn shū sàn jí hé wèi zhì zài jì xù gōu tōng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你尚未核实“事故地点的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于事故地点的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 33,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你希望“应急演练安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ yìng jí yǎn liàn ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请按照现场指令有序撤离",
-        "B": "这位同事手部受伤了请联系现场急救人员",
-        "C": "如果应急演练安排有变化请及时通知我",
-        "D": "请告诉我谁负责紧急联络信息"
-      },
-      "optionPinyin": {
-        "A": "qǐng àn zhào xiàn chǎng zhǐ lìng yǒu xù chè lí",
-        "B": "zhè wèi tóng shì shǒu bù shòu shāng le qǐng lián xì xiàn chǎng jí jiù rén yuán",
-        "C": "rú guǒ yìng jí yǎn liàn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "D": "qǐng gào sù wǒ shuí fù zé jǐn jí lián luò xìn xī"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你希望“应急演练安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果应急演练安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 34,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“紧急联络信息”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ jǐn jí lián luò xìn xī ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请问现场急救人员怎样联系",
-        "B": "请告诉我谁负责紧急联络信息",
-        "C": "请不要堵塞紧急疏散通道",
-        "D": "如果应急演练安排有变化请及时通知我"
-      },
-      "optionPinyin": {
-        "A": "qǐng wèn xiàn chǎng jí jiù rén yuán zěn yàng lián xì",
-        "B": "qǐng gào sù wǒ shuí fù zé jǐn jí lián luò xìn xī",
-        "C": "qǐng bú yào dǔ sè jǐn jí shū sàn tōng dào",
-        "D": "rú guǒ yìng jí yǎn liàn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí shū sàn jí hé wèi zhì",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí jǐn jí lián luò xìn xī",
+        "C": "wǒ hái méi yǒu shōu dào guān yú jǐn jí lián luò xìn xī de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jǐn jí lián luò xìn xī"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“紧急联络信息”，应该怎么说？\n符合此任务的表达：请告诉我谁负责紧急联络信息。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“紧急联络信息”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实紧急联络信息。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实紧急联络信息",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
-      "id": 35,
+      "id": 30,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望先确认“疏散集合位置”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ shū sàn jí hé wèi zhì ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“疏散集合位置”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ shū sàn jí hé wèi zhì ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "关于事故地点的核实结果我还需要再核实一下",
-        "B": "如果应急演练安排有变化请及时通知我",
-        "C": "我们先确认疏散集合位置再继续沟通",
-        "D": "这个区域出现烟雾请立即按应急流程报告"
+        "A": "我还没有收到关于疏散集合位置的资料",
+        "B": "我这次只想核实应急沟通要求",
+        "C": "我还需要进一步了解疏散集合位置",
+        "D": "我这次只想核实疏散集合位置"
       },
       "optionPinyin": {
-        "A": "guān yú shì gù dì diǎn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "rú guǒ yìng jí yǎn liàn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "wǒ men xiān què rèn shū sàn jí hé wèi zhì zài jì xù gōu tōng",
-        "D": "zhè ge qū yù chū xiàn yān wù qǐng lì jí àn yìng jí liú chéng bào gào"
+        "A": "wǒ hái méi yǒu shōu dào guān yú shū sàn jí hé wèi zhì de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí yìng jí gōu tōng yāo qiú",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě shū sàn jí hé wèi zhì",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí shū sàn jí hé wèi zhì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“疏散集合位置”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实疏散集合位置。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实疏散集合位置",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 31,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“应急沟通要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ yìng jí gōu tōng yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于应急沟通要求的资料",
+        "B": "我还需要进一步了解事故地点的核实结果",
+        "C": "我这次只想核实应急沟通要求",
+        "D": "我还需要进一步了解应急沟通要求"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú yìng jí gōu tōng yāo qiú de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě shì gù dì diǎn de hé shí jié guǒ",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí yìng jí gōu tōng yāo qiú",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě yìng jí gōu tōng yāo qiú"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“应急沟通要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解应急沟通要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解应急沟通要求",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 32,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“事故地点的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ shì gù dì diǎn de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解应急演练安排",
+        "B": "我还没有收到关于事故地点的核实结果的资料",
+        "C": "我这次只想核实事故地点的核实结果",
+        "D": "我还需要进一步了解事故地点的核实结果"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě yìng jí yǎn liàn ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú shì gù dì diǎn de hé shí jié guǒ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí shì gù dì diǎn de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě shì gù dì diǎn de hé shí jié guǒ"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“事故地点的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解事故地点的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解事故地点的核实结果",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 33,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“应急演练安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ yìng jí yǎn liàn ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解紧急联络信息",
+        "B": "我还没有收到关于应急演练安排的资料",
+        "C": "我还需要进一步了解应急演练安排",
+        "D": "我这次只想核实应急演练安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě jǐn jí lián luò xìn xī",
+        "B": "wǒ hái méi yǒu shōu dào guān yú yìng jí yǎn liàn ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě yìng jí yǎn liàn ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí yìng jí yǎn liàn ān pái"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“疏散集合位置”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认疏散集合位置再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“应急演练安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解应急演练安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解应急演练安排",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 34,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“紧急联络信息”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ jǐn jí lián luò xìn xī ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还没有收到关于紧急联络信息的资料",
+        "B": "我还需要进一步了解疏散集合位置",
+        "C": "我这次只想核实紧急联络信息",
+        "D": "我还需要进一步了解紧急联络信息"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái méi yǒu shōu dào guān yú jǐn jí lián luò xìn xī de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě shū sàn jí hé wèi zhì",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí jǐn jí lián luò xìn xī",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě jǐn jí lián luò xìn xī"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“紧急联络信息”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解紧急联络信息。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解紧急联络信息",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 35,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“疏散集合位置”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ shū sàn jí hé wèi zhì ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解疏散集合位置",
+        "B": "我还需要进一步了解应急沟通要求",
+        "C": "我还没有收到关于疏散集合位置的资料",
+        "D": "我这次只想核实疏散集合位置"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě shū sàn jí hé wèi zhì",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě yìng jí gōu tōng yāo qiú",
+        "C": "wǒ hái méi yǒu shōu dào guān yú shū sàn jí hé wèi zhì de zī liào",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí shū sàn jí hé wèi zhì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“疏散集合位置”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解疏散集合位置。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解疏散集合位置",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n前面有危险 / 先远离 / 请 / 这个区域",
-      "pinyin": "qián miàn yǒu wēi xiǎn / xiān yuǎn lí / qǐng / zhè ge qū yù",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n关于应急沟通要求的说明 / 发给我 / 把 / 请",
+      "pinyin": "guān yú yìng jí gōu tōng yāo qiú de shuō míng / fā gěi wǒ / bǎ / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "前面有危险请先远离这个区域",
-        "前面有危险请先远离这个区域。",
-        "前面有危险请先远离这个区域.",
-        "前面有危险请先远离这个区域？",
-        "前面有危险请先远离这个区域?"
+        "请把关于应急沟通要求的说明发给我。",
+        "请把关于应急沟通要求的说明发给我",
+        "请把关于应急沟通要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：前面有危险请先远离这个区域。\nqián miàn yǒu wēi xiǎn qǐng xiān yuǎn lí zhè ge qū yù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：请把关于应急沟通要求的说明发给我。\nqǐng bǎ guān yú yìng jí gōu tōng yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 有序 / 撤离 / 按照现场指令",
-      "pinyin": "qǐng / yǒu xù / chè lí / àn zhào xiàn chǎng zhǐ lìng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n事故地点的核实结果 / 我们 / 已经 / 核对过",
+      "pinyin": "shì gù dì diǎn de hé shí jié guǒ / wǒ men / yǐ jīng / hé duì guò",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请按照现场指令有序撤离",
-        "请按照现场指令有序撤离。",
-        "请按照现场指令有序撤离.",
-        "请按照现场指令有序撤离？",
-        "请按照现场指令有序撤离?"
+        "我们已经核对过事故地点的核实结果。",
+        "我们已经核对过事故地点的核实结果",
+        "我们已经核对过事故地点的核实结果."
       ],
       "points": 2,
-      "hanziCount": 11,
-      "explanation": "参考表达：请按照现场指令有序撤离。\nqǐng àn zhào xiàn chǎng zhǐ lìng yǒu xù chè lí。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过事故地点的核实结果。\nwǒ men yǐ jīng hé duì guò shì gù dì diǎn de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 我 / 这里有人受伤 / 立即求助",
-      "pinyin": "xū yào / wǒ / zhè lǐ yǒu rén shòu shāng / lì jí qiú zhù",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n才能解释清楚 / 我们 / 先了解应急演练安排 / 只有",
+      "pinyin": "cái néng jiě shì qīng chǔ / wǒ men / xiān liǎo jiě yìng jí yǎn liàn ān pái / zhǐ yǒu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这里有人受伤我需要立即求助",
-        "这里有人受伤我需要立即求助。",
-        "这里有人受伤我需要立即求助.",
-        "这里有人受伤我需要立即求助？",
-        "这里有人受伤我需要立即求助?"
+        "只有先了解应急演练安排我们才能解释清楚。",
+        "只有先了解应急演练安排我们才能解释清楚",
+        "只有先了解应急演练安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：这里有人受伤我需要立即求助。\nzhè lǐ yǒu rén shòu shāng wǒ xū yào lì jí qiú zhù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：只有先了解应急演练安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě yìng jí yǎn liàn ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n东侧入口 / 事故的位置 / 装配车间 / 在",
-      "pinyin": "dōng cè rù kǒu / shì gù de wèi zhì / zhuāng pèi chē jiān / zài",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 还想知道 / 不仅想了解紧急联络信息 / 具体由谁负责",
+      "pinyin": "wǒ / hái xiǎng zhī dào / bù jǐn xiǎng liǎo jiě jǐn jí lián luò xìn xī / jù tǐ yóu shuí fù zé",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "事故的位置在装配车间东侧入口",
-        "事故的位置在装配车间东侧入口。",
-        "事故的位置在装配车间东侧入口.",
-        "事故的位置在装配车间东侧入口？",
-        "事故的位置在装配车间东侧入口?"
+        "我不仅想了解紧急联络信息还想知道具体由谁负责。",
+        "我不仅想了解紧急联络信息还想知道具体由谁负责",
+        "我不仅想了解紧急联络信息还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：事故的位置在装配车间东侧入口。\nshì gù de wèi zhì zài zhuāng pèi chē jiān dōng cè rù kǒu。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 22,
+      "explanation": "参考句子：我不仅想了解紧急联络信息还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě jǐn jí lián luò xìn xī hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 联系现场急救人员 / 手部受伤了 / 这位同事",
-      "pinyin": "qǐng / lián xì xiàn chǎng jí jiù rén yuán / shǒu bù shòu shāng le / zhè wèi tóng shì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n之前 / 讨论疏散集合位置 / 请 / 先准备好相关记录",
+      "pinyin": "zhī qián / tǎo lùn shū sàn jí hé wèi zhì / qǐng / xiān zhǔn bèi hǎo xiāng guān jì lù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这位同事手部受伤了请联系现场急救人员",
-        "这位同事手部受伤了请联系现场急救人员。",
-        "这位同事手部受伤了请联系现场急救人员.",
-        "这位同事手部受伤了请联系现场急救人员？",
-        "这位同事手部受伤了请联系现场急救人员?"
+        "讨论疏散集合位置之前请先准备好相关记录。",
+        "讨论疏散集合位置之前请先准备好相关记录",
+        "讨论疏散集合位置之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：这位同事手部受伤了请联系现场急救人员。\nzhè wèi tóng shì shǒu bù shòu shāng le qǐng lián xì xiàn chǎng jí jiù rén yuán。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：讨论疏散集合位置之前请先准备好相关记录。\ntǎo lùn shū sàn jí hé wèi zhì zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n怎样 / 现场急救人员 / 联系 / 请问",
-      "pinyin": "zěn yàng / xiàn chǎng jí jiù rén yuán / lián xì / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 关于应急沟通要求 / 有一个问题 / 想请教您",
+      "pinyin": "wǒ / guān yú yìng jí gōu tōng yāo qiú / yǒu yí gè wèn tí / xiǎng qǐng jiào nín",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问现场急救人员怎样联系",
-        "请问现场急救人员怎样联系。",
-        "请问现场急救人员怎样联系.",
-        "请问现场急救人员怎样联系？",
-        "请问现场急救人员怎样联系?"
+        "关于应急沟通要求我有一个问题想请教您。",
+        "关于应急沟通要求我有一个问题想请教您",
+        "关于应急沟通要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：请问现场急救人员怎样联系。\nqǐng wèn xiàn chǎng jí jiù rén yuán zěn yàng lián xì。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：关于应急沟通要求我有一个问题想请教您。\nguān yú yìng jí gōu tōng yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n立即按应急流程报告 / 请 / 这个区域 / 出现烟雾",
-      "pinyin": "lì jí àn yìng jí liú chéng bào gào / qǐng / zhè ge qū yù / chū xiàn yān wù",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n就 / 你还不清楚事故地点的核实结果 / 先向负责人询问 / 如果",
+      "pinyin": "jiù / nǐ hái bù qīng chǔ shì gù dì diǎn de hé shí jié guǒ / xiān xiàng fù zé rén xún wèn / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个区域出现烟雾请立即按应急流程报告",
-        "这个区域出现烟雾请立即按应急流程报告。",
-        "这个区域出现烟雾请立即按应急流程报告.",
-        "这个区域出现烟雾请立即按应急流程报告？",
-        "这个区域出现烟雾请立即按应急流程报告?"
+        "如果你还不清楚事故地点的核实结果就先向负责人询问。",
+        "如果你还不清楚事故地点的核实结果就先向负责人询问",
+        "如果你还不清楚事故地点的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：这个区域出现烟雾请立即按应急流程报告。\nzhè ge qū yù chū xiàn yān wù qǐng lì jí àn yìng jí liú chéng bào gào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚事故地点的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ shì gù dì diǎn de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n集合点 / 到指定的 / 请 / 撤离以后",
-      "pinyin": "jí hé diǎn / dào zhǐ dìng de / qǐng / chè lí yǐ hòu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们已经讨论过应急演练安排 / 还需要核实细节 / 虽然 / 但是",
+      "pinyin": "wǒ men yǐ jīng tǎo lùn guò yìng jí yǎn liàn ān pái / hái xū yào hé shí xì jié / suī rán / dàn shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "撤离以后请到指定的集合点",
-        "撤离以后请到指定的集合点。",
-        "撤离以后请到指定的集合点.",
-        "撤离以后请到指定的集合点？",
-        "撤离以后请到指定的集合点?"
+        "虽然我们已经讨论过应急演练安排但是还需要核实细节。",
+        "虽然我们已经讨论过应急演练安排但是还需要核实细节",
+        "虽然我们已经讨论过应急演练安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：撤离以后请到指定的集合点。\nchè lí yǐ hòu qǐng dào zhǐ dìng de jí hé diǎn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：虽然我们已经讨论过应急演练安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò yìng jí yǎn liàn ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n紧急疏散 / 不要堵塞 / 请 / 通道",
-      "pinyin": "jǐn jí shū sàn / bú yào dǔ sè / qǐng / tōng dào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不如 / 反复猜测紧急联络信息 / 与其 / 查阅相关文件",
+      "pinyin": "bù rú / fǎn fù cāi cè jǐn jí lián luò xìn xī / yǔ qí / chá yuè xiāng guān wén jiàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请不要堵塞紧急疏散通道",
-        "请不要堵塞紧急疏散通道。",
-        "请不要堵塞紧急疏散通道.",
-        "请不要堵塞紧急疏散通道？",
-        "请不要堵塞紧急疏散通道?"
+        "与其反复猜测紧急联络信息不如查阅相关文件。",
+        "与其反复猜测紧急联络信息不如查阅相关文件",
+        "与其反复猜测紧急联络信息不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 11,
-      "explanation": "参考表达：请不要堵塞紧急疏散通道。\nqǐng bú yào dǔ sè jǐn jí shū sàn tōng dào。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：与其反复猜测紧急联络信息不如查阅相关文件。\nyǔ qí fǎn fù cāi cè jǐn jí lián luò xìn xī bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n这次演练 / 需要 / 注意哪些事项 / 请问",
-      "pinyin": "zhè cì yǎn liàn / xū yào / zhù yì nǎ xiē shì xiàng / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n重新整理了资料 / 准确说明疏散集合位置 / 为了 / 我",
+      "pinyin": "chóng xīn zhěng lǐ le zī liào / zhǔn què shuō míng shū sàn jí hé wèi zhì / wèi le / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这次演练需要注意哪些事项",
-        "请问这次演练需要注意哪些事项。",
-        "请问这次演练需要注意哪些事项.",
-        "请问这次演练需要注意哪些事项？",
-        "请问这次演练需要注意哪些事项?"
+        "为了准确说明疏散集合位置我重新整理了资料。",
+        "为了准确说明疏散集合位置我重新整理了资料",
+        "为了准确说明疏散集合位置我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：请问这次演练需要注意哪些事项。\nqǐng wèn zhè cì yǎn liàn xū yào zhù yì nǎ xiē shì xiàng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：为了准确说明疏散集合位置我重新整理了资料。\nwèi le zhǔn què shuō míng shū sàn jí hé wèi zhì wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n帮我确认一下 / 的具体要求 / 应急沟通要求 / 请",
-      "pinyin": "bāng wǒ què rèn yí xià / de jù tǐ yāo qiú / yìng jí gōu tōng yāo qiú / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n对应急沟通要求 / 可以提出来 / 有疑问的话 / 大家",
+      "pinyin": "duì yìng jí gōu tōng yāo qiú / kě yǐ tí chū lái / yǒu yí wèn de huà / dà jiā",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下应急沟通要求的具体要求",
-        "请帮我确认一下应急沟通要求的具体要求。",
-        "请帮我确认一下应急沟通要求的具体要求.",
-        "请帮我确认一下应急沟通要求的具体要求？",
-        "请帮我确认一下应急沟通要求的具体要求?"
+        "大家对应急沟通要求有疑问的话可以提出来。",
+        "大家对应急沟通要求有疑问的话可以提出来",
+        "大家对应急沟通要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：请帮我确认一下应急沟通要求的具体要求。\nqǐng bāng wǒ què rèn yí xià yìng jí gōu tōng yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：大家对应急沟通要求有疑问的话可以提出来。\ndà jiā duì yìng jí gōu tōng yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n还需要 / 再核实一下 / 事故地点的核实结果 / 关于 / 我",
-      "pinyin": "hái xū yào / zài hé shí yí xià / shì gù dì diǎn de hé shí jié guǒ / guān yú / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请 / 回答大家的问题 / 再 / 先说明事故地点的核实结果",
+      "pinyin": "qǐng / huí dá dà jiā de wèn tí / zài / xiān shuō míng shì gù dì diǎn de hé shí jié guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于事故地点的核实结果我还需要再核实一下",
-        "关于事故地点的核实结果我还需要再核实一下。",
-        "关于事故地点的核实结果我还需要再核实一下.",
-        "关于事故地点的核实结果我还需要再核实一下？",
-        "关于事故地点的核实结果我还需要再核实一下?"
+        "请先说明事故地点的核实结果再回答大家的问题。",
+        "请先说明事故地点的核实结果再回答大家的问题",
+        "请先说明事故地点的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于事故地点的核实结果我还需要再核实一下。\nguān yú shì gù dì diǎn de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明事故地点的核实结果再回答大家的问题。\nqǐng xiān shuō míng shì gù dì diǎn de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n应急演练安排 / 有变化 / 及时通知我 / 请 / 如果",
-      "pinyin": "yìng jí yǎn liàn ān pái / yǒu biàn huà / jí shí tōng zhī wǒ / qǐng / rú guǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n都 / 应该以有效文件为依据 / 谁来说明应急演练安排 / 无论",
+      "pinyin": "dōu / yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / shuí lái shuō míng yìng jí yǎn liàn ān pái / wú lùn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果应急演练安排有变化请及时通知我",
-        "如果应急演练安排有变化请及时通知我。",
-        "如果应急演练安排有变化请及时通知我.",
-        "如果应急演练安排有变化请及时通知我？",
-        "如果应急演练安排有变化请及时通知我?"
+        "无论谁来说明应急演练安排都应该以有效文件为依据。",
+        "无论谁来说明应急演练安排都应该以有效文件为依据",
+        "无论谁来说明应急演练安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：如果应急演练安排有变化请及时通知我。\nrú guǒ yìng jí yǎn liàn ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：无论谁来说明应急演练安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng yìng jí yǎn liàn ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n谁 / 紧急联络信息 / 告诉我 / 请 / 负责",
-      "pinyin": "shuí / jǐn jí lián luò xìn xī / gào sù wǒ / qǐng / fù zé",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n逐项记录清楚 / 需要 / 紧急联络信息 / 涉及的问题",
+      "pinyin": "zhú xiàng jì lù qīng chǔ / xū yào / jǐn jí lián luò xìn xī / shè jí de wèn tí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责紧急联络信息",
-        "请告诉我谁负责紧急联络信息。",
-        "请告诉我谁负责紧急联络信息.",
-        "请告诉我谁负责紧急联络信息？",
-        "请告诉我谁负责紧急联络信息?"
+        "紧急联络信息涉及的问题需要逐项记录清楚。",
+        "紧急联络信息涉及的问题需要逐项记录清楚",
+        "紧急联络信息涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：请告诉我谁负责紧急联络信息。\nqǐng gào sù wǒ shuí fù zé jǐn jí lián luò xìn xī。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：紧急联络信息涉及的问题需要逐项记录清楚。\njǐn jí lián luò xìn xī shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n继续沟通 / 再 / 疏散集合位置 / 确认 / 我们 / 先",
-      "pinyin": "jì xù gōu tōng / zài / shū sàn jí hé wèi zhì / què rèn / wǒ men / xiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再补充相关记录 / 疏散集合位置确认以后 / 我们 / 等",
+      "pinyin": "zài bǔ chōng xiāng guān jì lù / shū sàn jí hé wèi zhì què rèn yǐ hòu / wǒ men / děng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认疏散集合位置再继续沟通",
-        "我们先确认疏散集合位置再继续沟通。",
-        "我们先确认疏散集合位置再继续沟通.",
-        "我们先确认疏散集合位置再继续沟通？",
-        "我们先确认疏散集合位置再继续沟通?"
+        "等疏散集合位置确认以后我们再补充相关记录。",
+        "等疏散集合位置确认以后我们再补充相关记录",
+        "等疏散集合位置确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 16,
-      "explanation": "参考表达：我们先确认疏散集合位置再继续沟通。\nwǒ men xiān què rèn shū sàn jí hé wèi zhì zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：等疏散集合位置确认以后我们再补充相关记录。\nděng shū sàn jí hé wèi zhì què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

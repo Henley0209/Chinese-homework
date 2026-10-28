@@ -1,26 +1,27 @@
 {
   "title": "日常交际 第22课 我想租一套房子",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“租金”的正确读音。",
+      "text": "【拼音选择】请选择“中介”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zū qīn",
-        "B": "zū jīn",
-        "C": "zhū jīn",
-        "D": "zū jīng"
+        "A": "chōng jiè",
+        "B": "zhōng qiè",
+        "C": "zōng jiè",
+        "D": "zhōng jiè"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "“租金”读作 zū jīn，本课词义：tiền thuê。"
+      "explanation": "“中介”读作 zhōng jiè。注意声母、韵母、声调及轻声。",
+      "targetWord": "中介"
     },
     {
       "id": 2,
@@ -28,37 +29,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“押金”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bā jīn",
-        "B": "yā jīng",
-        "C": "yā jīn",
-        "D": "yā qīn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“押金”读作 yā jīn，本课词义：tiền đặt cọc。"
-    },
-    {
-      "id": 3,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“家具”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "qiā jù",
-        "B": "jiān jù",
-        "C": "jiā qù",
-        "D": "jiā jù"
+        "A": "yā qīn",
+        "B": "bā jīn",
+        "C": "yā jīng",
+        "D": "yā jīn"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“家具”读作 jiā jù，本课词义：nội thất。"
+      "explanation": "“押金”读作 yā jīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "押金"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“卧室”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "wò shì",
+        "B": "bò shì",
+        "C": "mò shì",
+        "D": "wò sì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“卧室”读作 wò shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "卧室"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“水电费”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "suǐ diàn fèi",
-        "B": "huǐ diàn fèi",
-        "C": "shuǐ diàn fèi",
-        "D": "chuǐ diàn fèi"
+        "A": "huǐ diàn fèi",
+        "B": "shuǐ diàn fèi",
+        "C": "chuǐ diàn fèi",
+        "D": "suǐ diàn fèi"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "“水电费”读作 shuǐ diàn fèi，本课词义：tiền điện nước。"
+      "explanation": "“水电费”读作 shuǐ diàn fèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "水电费"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“搬家”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bān jiā",
-        "B": "bāng jiā",
-        "C": "biān jiā",
-        "D": "bān qiā"
+        "A": "biān jiā",
+        "B": "bān qiā",
+        "C": "bān jiā",
+        "D": "bāng jiā"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“搬家”读作 bān jiā，本课词义：chuyển nhà。"
+      "explanation": "“搬家”读作 bān jiā。注意声母、韵母、声调及轻声。",
+      "targetWord": "搬家"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这套房子每个月的____是多少。",
-      "pinyin": "qǐng wèn zhè tào fáng zi měi gè yuè de ____ shì duō shǎo",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiền thuê.",
-      "options": {
-        "A": "租金",
-        "B": "搬家",
-        "C": "押金",
-        "D": "水电费"
-      },
-      "optionPinyin": {
-        "A": "zū jīn",
-        "B": "bān jiā",
-        "C": "yā jīn",
-        "D": "shuǐ diàn fèi"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“租金”（tiền thuê）。完整表达：请问这套房子每个月的租金是多少。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：签合同的时候需要交多少____。",
-      "pinyin": "qiān hé tóng de shí hou xū yào jiāo duō shǎo ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiền đặt cọc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：房子的水管坏了，我先联系____。",
+      "pinyin": "fáng zi de shuǐ guǎn huài le ， wǒ xiān lián xì ____。",
+      "vietnamese": "Gợi ý: chủ nhà.",
       "options": {
         "A": "家具",
-        "B": "押金",
-        "C": "水电费",
-        "D": "搬家"
-      },
-      "optionPinyin": {
-        "A": "jiā jù",
-        "B": "yā jīn",
-        "C": "shuǐ diàn fèi",
-        "D": "bān jiā"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“押金”（tiền đặt cọc）。完整表达：签合同的时候需要交多少押金。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这套房子里有没有现成的____。",
-      "pinyin": "zhè tào fáng zi lǐ yǒu méi yǒu xiàn chéng de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: nội thất.",
-      "options": {
-        "A": "租金",
-        "B": "押金",
-        "C": "水电费",
-        "D": "家具"
-      },
-      "optionPinyin": {
-        "A": "zū jīn",
-        "B": "yā jīn",
-        "C": "shuǐ diàn fèi",
-        "D": "jiā jù"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“家具”（nội thất）。完整表达：这套房子里有没有现成的家具。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问____是另外计算的吗。",
-      "pinyin": "qǐng wèn ____ shì lìng wài jì suàn de ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiền điện nước.",
-      "options": {
-        "A": "家具",
-        "B": "水电费",
-        "C": "押金",
+        "B": "房东",
+        "C": "合同",
         "D": "租金"
       },
       "optionPinyin": {
         "A": "jiā jù",
-        "B": "shuǐ diàn fèi",
-        "C": "yā jīn",
+        "B": "fáng dōng",
+        "C": "hé tóng",
         "D": "zū jīn"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“水电费”（tiền điện nước）。完整表达：请问水电费是另外计算的吗。"
+      "explanation": "应填“房东”。完整句子：房子的水管坏了，我先联系房东。\n语法与搭配：……了；先",
+      "targetWord": "房东",
+      "completeSentence": "房子的水管坏了，我先联系房东。",
+      "grammarFocus": "……了；先"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这套房子每个月的____是多少？",
+      "pinyin": "zhè tào fáng zi měi gè yuè de ____ shì duō shǎo ？",
+      "vietnamese": "Gợi ý: tiền thuê.",
+      "options": {
+        "A": "房东",
+        "B": "合同",
+        "C": "家具",
+        "D": "租金"
+      },
+      "optionPinyin": {
+        "A": "fáng dōng",
+        "B": "hé tóng",
+        "C": "jiā jù",
+        "D": "zū jīn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“租金”。完整句子：这套房子每个月的租金是多少？\n语法与搭配：每；多少",
+      "targetWord": "租金",
+      "completeSentence": "这套房子每个月的租金是多少？",
+      "grammarFocus": "每；多少"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：交押金以前，请先看清租房____。",
+      "pinyin": "jiāo yā jīn yǐ qián ， qǐng xiān kàn qīng zū fáng ____。",
+      "vietnamese": "Gợi ý: hợp đồng.",
+      "options": {
+        "A": "租金",
+        "B": "家具",
+        "C": "合同",
+        "D": "房东"
+      },
+      "optionPinyin": {
+        "A": "zū jīn",
+        "B": "jiā jù",
+        "C": "hé tóng",
+        "D": "fáng dōng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“合同”。完整句子：交押金以前，请先看清租房合同。\n语法与搭配：……以前；先",
+      "targetWord": "合同",
+      "completeSentence": "交押金以前，请先看清租房合同。",
+      "grammarFocus": "……以前；先"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这个房间里有床和桌子，不用再买____。",
+      "pinyin": "zhè ge fáng jiān lǐ yǒu chuáng hé zhuō zi ， bù yòng zài mǎi ____。",
+      "vietnamese": "Gợi ý: đồ nội thất.",
+      "options": {
+        "A": "租金",
+        "B": "合同",
+        "C": "房东",
+        "D": "家具"
+      },
+      "optionPinyin": {
+        "A": "zū jīn",
+        "B": "hé tóng",
+        "C": "fáng dōng",
+        "D": "jiā jù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“家具”。完整句子：这个房间里有床和桌子，不用再买家具。\n语法与搭配：不用再＋动词",
+      "targetWord": "家具",
+      "completeSentence": "这个房间里有床和桌子，不用再买家具。",
+      "grammarFocus": "不用再＋动词"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：如果手续办好了我下周就____。",
-      "pinyin": "rú guǒ shǒu xù bàn hǎo le wǒ xià zhōu jiù ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chuyển nhà.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：为了节省房租，我想和朋友____。",
+      "pinyin": "wèi le jié shěng fáng zū ， wǒ xiǎng hé péng you ____。",
+      "vietnamese": "Gợi ý: thuê chung.",
       "options": {
-        "A": "租金",
-        "B": "搬家",
-        "C": "押金",
-        "D": "家具"
+        "A": "房东",
+        "B": "合同",
+        "C": "租金",
+        "D": "合租"
       },
       "optionPinyin": {
-        "A": "zū jīn",
-        "B": "bān jiā",
-        "C": "yā jīn",
-        "D": "jiā jù"
+        "A": "fáng dōng",
+        "B": "hé tóng",
+        "C": "zū jīn",
+        "D": "hé zū"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“搬家”（chuyển nhà）。完整表达：如果手续办好了我下周就搬家。"
+      "explanation": "应填“合租”。完整句子：为了节省房租，我想和朋友合租。\n语法与搭配：为了；和",
+      "targetWord": "合租",
+      "completeSentence": "为了节省房租，我想和朋友合租。",
+      "grammarFocus": "为了；和"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n这套房子 / 是多少 / 每个月的租金 / 请问",
-      "pinyin": "zhè tào fáng zi / shì duō shǎo / měi gè yuè de zū jīn / qǐng wèn",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n离公司很近 / 但是 / 虽然小一点 / 这套房子",
+      "pinyin": "lí gōng sī hěn jìn / dàn shì / suī rán xiǎo yì diǎn / zhè tào fáng zi",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这套房子每个月的租金是多少。",
-        "请问这套房子每个月的租金是多少",
-        "请问这套房子每个月的租金是多少.",
-        "请问这套房子每个月的租金是多少？",
-        "请问这套房子每个月的租金是多少?"
+        "这套房子虽然小一点但是离公司很近。",
+        "这套房子虽然小一点但是离公司很近",
+        "这套房子虽然小一点但是离公司很近."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：请问这套房子每个月的租金是多少。\nqǐng wèn zhè tào fáng zi měi gè yuè de zū jīn shì duō shǎo。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：这套房子虽然小一点但是离公司很近。\nzhè tào fáng zi suī rán xiǎo yì diǎn dàn shì lí gōng sī hěn jìn\n语法与搭配：虽然……但是……",
+      "grammarFocus": "虽然……但是……"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n交多少 / 押金 / 需要 / 签合同的时候",
-      "pinyin": "jiāo duō shǎo / yā jīn / xū yào / qiān hé tóng de shí hou",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 还是包含在房租里 / 水电费 / 是单独交",
+      "pinyin": "qǐng wèn / hái shì bāo hán zài fáng zū lǐ / shuǐ diàn fèi / shì dān dú jiāo",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "签合同的时候需要交多少押金。",
-        "签合同的时候需要交多少押金",
-        "签合同的时候需要交多少押金.",
-        "签合同的时候需要交多少押金？",
-        "签合同的时候需要交多少押金?"
+        "请问水电费是单独交还是包含在房租里。",
+        "请问水电费是单独交还是包含在房租里",
+        "请问水电费是单独交还是包含在房租里."
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：签合同的时候需要交多少押金。\nqiān hé tóng de shí hou xū yào jiāo duō shǎo yā jīn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：请问水电费是单独交还是包含在房租里。\nqǐng wèn shuǐ diàn fèi shì dān dú jiāo huán shì bāo hán zài fáng zū lǐ\n语法与搭配：是……还是……",
+      "grammarFocus": "是……还是……"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n这套房子里 / 家具 / 现成的 / 有没有",
-      "pinyin": "zhè tào fáng zi lǐ / jiā jù / xiàn chéng de / yǒu méi yǒu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n签合同前 / 房间里的设备 / 想先看看 / 我",
+      "pinyin": "qiān hé tóng qián / fáng jiān lǐ de shè bèi / xiǎng xiān kàn kàn / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这套房子里有没有现成的家具。",
-        "这套房子里有没有现成的家具",
-        "这套房子里有没有现成的家具.",
-        "这套房子里有没有现成的家具？",
-        "这套房子里有没有现成的家具?"
+        "签合同前我想先看看房间里的设备。",
+        "签合同前我想先看看房间里的设备",
+        "签合同前我想先看看房间里的设备."
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：这套房子里有没有现成的家具。\nzhè tào fáng zi lǐ yǒu méi yǒu xiàn chéng de jiā jù。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：签合同前我想先看看房间里的设备。\nqiān hé tóng qián wǒ xiǎng xiān kàn kàn fáng jiān lǐ de shè bèi\n语法与搭配：……前；先",
+      "grammarFocus": "……前；先"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n是 / 水电费 / 请问 / 另外计算的吗",
-      "pinyin": "shì / shuǐ diàn fèi / qǐng wèn / lìng wài jì suàn de ma",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n要 / 明年不续租 / 提前多久告诉您 / 如果",
+      "pinyin": "yào / míng nián bù xù zū / tí qián duō jiǔ gào sù nín / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问水电费是另外计算的吗。",
-        "请问水电费是另外计算的吗",
-        "请问水电费是另外计算的吗.",
-        "请问水电费是另外计算的吗？",
-        "请问水电费是另外计算的吗?"
+        "如果明年不续租要提前多久告诉您。",
+        "如果明年不续租要提前多久告诉您",
+        "如果明年不续租要提前多久告诉您."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：请问水电费是另外计算的吗。\nqǐng wèn shuǐ diàn fèi shì lìng wài jì suàn de ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：如果明年不续租要提前多久告诉您。\nrú guǒ míng nián bù xù zū yào tí qián duō jiǔ gào sù nín\n语法与搭配：如果；提前多久",
+      "grammarFocus": "如果；提前多久"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n如果 / 我 / 下周就搬家 / 手续办好了",
-      "pinyin": "rú guǒ / wǒ / xià zhōu jiù bān jiā / shǒu xù bàn hǎo le",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n希望 / 把漏水的问题修好 / 搬进去之前 / 我们",
+      "pinyin": "xī wàng / bǎ lòu shuǐ de wèn tí xiū hǎo / bān jìn qù zhī qián / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果手续办好了我下周就搬家。",
-        "如果手续办好了我下周就搬家",
-        "如果手续办好了我下周就搬家.",
-        "如果手续办好了我下周就搬家？",
-        "如果手续办好了我下周就搬家?"
+        "我们希望搬进去之前把漏水的问题修好。",
+        "我们希望搬进去之前把漏水的问题修好",
+        "我们希望搬进去之前把漏水的问题修好."
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：如果手续办好了我下周就搬家。\nrú guǒ shǒu xù bàn hǎo le wǒ xià zhōu jiù bān jiā。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：我们希望搬进去之前把漏水的问题修好。\nwǒ men xī wàng bān jìn qù zhī qián bǎ lòu shuǐ de wèn tí xiū hǎo\n语法与搭配：……之前；把；好",
+      "grammarFocus": "……之前；把；好"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

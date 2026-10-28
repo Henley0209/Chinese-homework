@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第18课 我去商店买东西",
-  "description": "Tôi đi mua đồ ở cửa hàng；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Tôi đi mua đồ ở cửa hàng；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,182 +8,191 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“商店”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "shāng diàn",
-        "B": "sāng diàn",
+        "B": "chāng diàn",
         "C": "shān diàn",
-        "D": "shāng diè"
+        "D": "sāng diàn"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“商店”的正确读音是 shāng diàn。"
+      "explanation": "“商店”读作 shāng diàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "商店"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“买”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "měi",
-        "B": "mǎi",
-        "C": "mǎn",
-        "D": "nǎi"
+        "A": "bǎi",
+        "B": "cǎi",
+        "C": "mǎi",
+        "D": "měi"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“买”的正确读音是 mǎi。"
+      "explanation": "“买”读作 mǎi。注意声母、韵母、声调及轻声。",
+      "targetWord": "买"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“卖”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "mèi",
+        "A": "cài",
         "B": "mài",
-        "C": "màn",
-        "D": "nài"
+        "C": "bài",
+        "D": "mèi"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“卖”的正确读音是 mài。"
+      "explanation": "“卖”读作 mài。注意声母、韵母、声调及轻声。",
+      "targetWord": "卖"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“东西”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dēng xi",
-        "B": "dōng xi",
-        "C": "dōng xin",
-        "D": "tōng xi"
+        "A": "cōng xi",
+        "B": "dōng qi",
+        "C": "dōng xi",
+        "D": "dāng xi"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“东西”的正确读音是 dōng xi。"
+      "explanation": "“东西”读作 dōng xi。注意声母、韵母、声调及轻声。",
+      "targetWord": "东西"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“杯子”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bēi zhi",
-        "B": "bāi zi",
-        "C": "bēi zi",
-        "D": "pēi zi"
+        "A": "bāi zi",
+        "B": "bēi zhi",
+        "C": "bēn zi",
+        "D": "bēi zi"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“杯子”的正确读音是 bēi zi。"
+      "explanation": "“杯子”读作 bēi zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "杯子"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“手表”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sǒu biǎo",
-        "B": "shuǒ biǎo",
-        "C": "shǎo biǎo",
-        "D": "shǒu biǎo"
+        "A": "chǒu biǎo",
+        "B": "shǎo biǎo",
+        "C": "shǒu biǎo",
+        "D": "sǒu biǎo"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“手表”的正确读音是 shǒu biǎo。"
+      "explanation": "“手表”读作 shǒu biǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "手表"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“衣服”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yī fu",
-        "B": "yī hu",
-        "C": "yīn fu",
-        "D": "yī fo"
+        "A": "yī hu",
+        "B": "bī fu",
+        "C": "cī fu",
+        "D": "yī fu"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“衣服”的正确读音是 yī fu。"
+      "explanation": "“衣服”读作 yī fu。注意声母、韵母、声调及轻声。",
+      "targetWord": "衣服"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“书包”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sū bāo",
-        "B": "shū bāo",
-        "C": "shuī bāo",
-        "D": "shū biāo"
+        "A": "shū bāo",
+        "B": "sū bāo",
+        "C": "chū bāo",
+        "D": "hū bāo"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“书包”的正确读音是 shū bāo。"
+      "explanation": "“书包”读作 shū bāo。注意声母、韵母、声调及轻声。",
+      "targetWord": "书包"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“大”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dà",
-        "B": "dè",
-        "C": "tà",
-        "D": "dèi"
+        "A": "bà",
+        "B": "dà",
+        "C": "cà",
+        "D": "dài"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“大”的正确读音是 dà。"
+      "explanation": "“大”读作 dà。注意声母、韵母、声调及轻声。",
+      "targetWord": "大"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“小”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiǔ",
-        "B": "xiǎ",
+        "A": "biǎo",
+        "B": "diǎo",
         "C": "qiǎo",
         "D": "xiǎo"
       },
@@ -191,477 +200,528 @@
         "D"
       ],
       "points": 2,
-      "explanation": "“小”的正确读音是 xiǎo。"
+      "explanation": "“小”读作 xiǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "小"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“个”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "gà",
-        "B": "gè",
-        "C": "gèi",
-        "D": "gòu"
+        "B": "gèn",
+        "C": "gè",
+        "D": "cè"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“个”的正确读音是 gè。"
+      "explanation": "“个”读作 gè。注意声母、韵母、声调及轻声。",
+      "targetWord": "个"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“本”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "běn",
+        "A": "běi",
         "B": "běng",
-        "C": "pěn",
-        "D": "měn"
+        "C": "běn",
+        "D": "bǎn"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“本”的正确读音是 běn。"
+      "explanation": "“本”读作 běn。注意声母、韵母、声调及轻声。",
+      "targetWord": "本"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“件”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiàng",
-        "B": "jiè",
-        "C": "qiàn",
-        "D": "jiàn"
+        "A": "biàn",
+        "B": "jiàng",
+        "C": "jiàn",
+        "D": "qiàn"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“件”的正确读音是 jiàn。"
+      "explanation": "“件”读作 jiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "件"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“还”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hái",
-        "B": "héi",
-        "C": "hán",
-        "D": "huái"
+        "A": "cái",
+        "B": "hái",
+        "C": "bái",
+        "D": "chái"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“还”的正确读音是 hái。"
+      "explanation": "“还”读作 hái。注意声母、韵母、声调及轻声。",
+      "targetWord": "还"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“只”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zǐ",
-        "B": "shǐ",
-        "C": "chǐ",
-        "D": "zhǐ"
+        "A": "chǐ",
+        "B": "zhǐ",
+        "C": "zǐ",
+        "D": "shǐ"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“只”的正确读音是 zhǐ。"
+      "explanation": "“只”读作 zhǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "只"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我去____买东西。",
-      "pinyin": "wǒ qù ____ mǎi dōng xi 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đến cửa hàng mua đồ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：超市里____很多新鲜蔬菜。",
+      "pinyin": "chāo shì lǐ ____ hěn duō xīn xiān shū cài 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
       "options": {
-        "A": "商店",
-        "B": "还",
-        "C": "大",
-        "D": "个"
+        "A": "比",
+        "B": "是",
+        "C": "去",
+        "D": "有"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“商店”。完整句子：我去商店买东西。",
+      "explanation": "应填“有”。完整句子：超市里有很多新鲜蔬菜。\n语法与搭配：有＋名词：拥有或存在",
       "optionPinyin": {
-        "A": "shāng diàn",
-        "B": "hái",
-        "C": "dà",
-        "D": "gè"
-      }
+        "A": "bǐ",
+        "B": "shì",
+        "C": "qù",
+        "D": "yǒu"
+      },
+      "targetWord": "有",
+      "completeSentence": "超市里有很多新鲜蔬菜。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你想____什么？",
-      "pinyin": "nǐ xiǎng ____ shén me ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn muốn mua gì?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____买一把雨伞。",
+      "pinyin": "wǒ ____ mǎi yī bǎ yǔ sǎn 。",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "买",
-        "B": "手表",
-        "C": "件",
-        "D": "还"
+        "A": "比",
+        "B": "想",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“买”。完整句子：你想买什么？",
+      "explanation": "应填“想”。完整句子：我想买一把雨伞。\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "mǎi",
-        "B": "shǒu biǎo",
-        "C": "jiàn",
-        "D": "hái"
-      }
+        "A": "bǐ",
+        "B": "xiǎng",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "想",
+      "completeSentence": "我想买一把雨伞。",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这家店不____水果。",
-      "pinyin": "zhè jiā diàn bù ____ shuǐ guǒ 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cửa hàng này không bán trái cây.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这____新到的商品。",
+      "pinyin": "zhè ____ xīn dào de shāng pǐn 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "买",
-        "B": "卖",
-        "C": "杯子",
-        "D": "个"
+        "A": "去",
+        "B": "是",
+        "C": "在",
+        "D": "有"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“卖”。完整句子：这家店不卖水果。",
+      "explanation": "应填“是”。完整句子：这是新到的商品。\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "mǎi",
-        "B": "mài",
-        "C": "bēi zi",
-        "D": "gè"
-      }
+        "A": "qù",
+        "B": "shì",
+        "C": "zài",
+        "D": "yǒu"
+      },
+      "targetWord": "是",
+      "completeSentence": "这是新到的商品。",
+      "grammarFocus": "是＋名词：判断或说明身份"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这些____都是我的。",
-      "pinyin": "zhè xiē ____ dōu shì wǒ de 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Những đồ này đều là của tôi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是弟弟____购物袋。",
+      "pinyin": "zhè shì dì di ____ gòu wù dài 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "东西",
-        "B": "卖",
-        "C": "个",
-        "D": "本"
+        "A": "得",
+        "B": "的",
+        "C": "地",
+        "D": "吗"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“东西”。完整句子：这些东西都是我的。",
+      "explanation": "应填“的”。完整句子：这是弟弟的购物袋。\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "dōng xi",
-        "B": "mài",
-        "C": "gè",
-        "D": "běn"
-      }
+        "A": "dé",
+        "B": "de",
+        "C": "dì",
+        "D": "ma"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是弟弟的购物袋。",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我要买一个____。",
-      "pinyin": "wǒ yào mǎi yí gè ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn mua một chiếc cốc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：妹妹____挑选礼物。",
+      "pinyin": "mèi mèi ____ tiāo xuǎn lǐ wù 。",
+      "vietnamese": "Gợi ý: đang; hành động đang diễn ra.",
       "options": {
-        "A": "大",
-        "B": "个",
-        "C": "东西",
-        "D": "杯子"
+        "A": "正在",
+        "B": "比",
+        "C": "的",
+        "D": "把"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“杯子”。完整句子：我要买一个杯子。",
+      "explanation": "应填“正在”。完整句子：妹妹正在挑选礼物。\n语法与搭配：正在＋动词",
       "optionPinyin": {
-        "A": "dà",
-        "B": "gè",
-        "C": "dōng xi",
-        "D": "bēi zi"
-      }
+        "A": "zhèng zài",
+        "B": "bǐ",
+        "C": "de",
+        "D": "bǎ"
+      },
+      "targetWord": "正在",
+      "completeSentence": "妹妹正在挑选礼物。",
+      "grammarFocus": "正在＋动词"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这只____很好看。",
-      "pinyin": "zhè zhǐ ____ hěn hǎo kàn 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chiếc đồng hồ đeo tay này rất đẹp.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____买好今天要用的东西了。",
+      "pinyin": "wǒ ____ mǎi hǎo jīn tiān yào yòng de dōng xi le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
       "options": {
-        "A": "买",
-        "B": "手表",
-        "C": "本",
-        "D": "商店"
+        "A": "的",
+        "B": "把",
+        "C": "已经",
+        "D": "从"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“手表”。完整句子：这只手表很好看。",
+      "explanation": "应填“已经”。完整句子：我已经买好今天要用的东西了。\n语法与搭配：已经……了",
       "optionPinyin": {
-        "A": "mǎi",
-        "B": "shǒu biǎo",
-        "C": "běn",
-        "D": "shāng diàn"
-      }
+        "A": "de",
+        "B": "bǎ",
+        "C": "yǐ jīng",
+        "D": "cóng"
+      },
+      "targetWord": "已经",
+      "completeSentence": "我已经买好今天要用的东西了。",
+      "grammarFocus": "已经……了"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：妈妈买了一件____。",
-      "pinyin": "mā ma mǎi le yī jiàn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ đã mua một bộ quần áo.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____我看看另一种颜色。",
+      "pinyin": "qǐng ____ wǒ kàn kàn lìng yī zhǒng yán sè 。",
+      "vietnamese": "Gợi ý: cho; chỉ người nhận.",
       "options": {
-        "A": "衣服",
-        "B": "大",
-        "C": "件",
-        "D": "东西"
+        "A": "给",
+        "B": "的",
+        "C": "吗",
+        "D": "比"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“衣服”。完整句子：妈妈买了一件衣服。",
+      "explanation": "应填“给”。完整句子：请给我看看另一种颜色。\n语法与搭配：给＋人＋物/动词",
       "optionPinyin": {
-        "A": "yī fu",
-        "B": "dà",
-        "C": "jiàn",
-        "D": "dōng xi"
-      }
+        "A": "gěi",
+        "B": "de",
+        "C": "ma",
+        "D": "bǐ"
+      },
+      "targetWord": "给",
+      "completeSentence": "请给我看看另一种颜色。",
+      "grammarFocus": "给＋人＋物/动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我想买一个新____。",
-      "pinyin": "wǒ xiǎng mǎi yí gè xīn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn mua một chiếc cặp sách mới.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____需要塑料袋。",
+      "pinyin": "wǒ ____ xū yào sù liào dài 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
       "options": {
-        "A": "书包",
-        "B": "手表",
-        "C": "件",
-        "D": "还"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“书包”。完整句子：我想买一个新书包。",
-      "optionPinyin": {
-        "A": "shū bāo",
-        "B": "shǒu biǎo",
-        "C": "jiàn",
-        "D": "hái"
-      }
-    },
-    {
-      "id": 24,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这个杯子太____了。",
-      "pinyin": "zhè ge bēi zi tài ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chiếc cốc này to quá.",
-      "options": {
-        "A": "手表",
-        "B": "件",
-        "C": "大",
-        "D": "本"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“大”。完整句子：这个杯子太大了。",
-      "optionPinyin": {
-        "A": "shǒu biǎo",
-        "B": "jiàn",
-        "C": "dà",
-        "D": "běn"
-      }
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我想要那个____的。",
-      "pinyin": "wǒ xiǎng yào nà ge ____ de 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn cái nhỏ kia.",
-      "options": {
-        "A": "大",
-        "B": "东西",
-        "C": "小",
-        "D": "杯子"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“小”。完整句子：我想要那个小的。",
-      "optionPinyin": {
-        "A": "dà",
-        "B": "dōng xi",
-        "C": "xiǎo",
-        "D": "bēi zi"
-      }
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请给我三____苹果。",
-      "pinyin": "qǐng gěi wǒ sān ____ píng guǒ 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy cho tôi ba quả táo.",
-      "options": {
-        "A": "买",
-        "B": "大",
-        "C": "个",
-        "D": "件"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“个”。完整句子：请给我三个苹果。",
-      "optionPinyin": {
-        "A": "mǎi",
-        "B": "dà",
-        "C": "gè",
-        "D": "jiàn"
-      }
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我买了两____书。",
-      "pinyin": "wǒ mǎi le liǎng ____ shū 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đã mua hai quyển sách.",
-      "options": {
-        "A": "书包",
-        "B": "本",
-        "C": "卖",
-        "D": "手表"
+        "A": "比",
+        "B": "不",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“本”。完整句子：我买了两本书。",
+      "explanation": "应填“不”。完整句子：我不需要塑料袋。\n语法与搭配：不＋动词/形容词",
       "optionPinyin": {
-        "A": "shū bāo",
-        "B": "běn",
-        "C": "mài",
-        "D": "shǒu biǎo"
-      }
+        "A": "bǐ",
+        "B": "bù",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "不",
+      "completeSentence": "我不需要塑料袋。",
+      "grammarFocus": "不＋动词/形容词"
     },
     {
-      "id": 28,
+      "id": 24,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我要一____白色的衣服。",
-      "pinyin": "wǒ yào yī ____ bái sè de yī fu 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn một bộ quần áo màu trắng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____妈妈周日去超市。",
+      "pinyin": "wǒ ____ mā mā zhōu rì qù chāo shì 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
       "options": {
-        "A": "只",
-        "B": "小",
-        "C": "件",
-        "D": "买"
+        "A": "把",
+        "B": "和",
+        "C": "很",
+        "D": "吗"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“件”。完整句子：我要一件白色的衣服。",
+      "explanation": "应填“和”。完整句子：我和妈妈周日去超市。\n语法与搭配：名词/代词＋和＋名词/代词",
       "optionPinyin": {
-        "A": "zhǐ",
-        "B": "xiǎo",
-        "C": "jiàn",
-        "D": "mǎi"
-      }
+        "A": "bǎ",
+        "B": "hé",
+        "C": "hěn",
+        "D": "ma"
+      },
+      "targetWord": "和",
+      "completeSentence": "我和妈妈周日去超市。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
     },
     {
-      "id": 29,
+      "id": 25,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你____要别的吗？",
-      "pinyin": "nǐ ____ yào bié de ma ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn còn muốn thứ khác không?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这家店____那家店便宜。",
+      "pinyin": "zhè jiā diàn ____ nà jiā diàn pián yi 。",
+      "vietnamese": "Gợi ý: hơn; chỉ đối tượng so sánh.",
       "options": {
-        "A": "还",
-        "B": "件",
-        "C": "只",
-        "D": "卖"
+        "A": "比",
+        "B": "把",
+        "C": "给",
+        "D": "从"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“还”。完整句子：你还要别的吗？",
+      "explanation": "应填“比”。完整句子：这家店比那家店便宜。\n语法与搭配：甲＋比＋乙＋形容词",
       "optionPinyin": {
-        "A": "hái",
-        "B": "jiàn",
-        "C": "zhǐ",
-        "D": "mài"
-      }
+        "A": "bǐ",
+        "B": "bǎ",
+        "C": "gěi",
+        "D": "cóng"
+      },
+      "targetWord": "比",
+      "completeSentence": "这家店比那家店便宜。",
+      "grammarFocus": "甲＋比＋乙＋形容词"
     },
     {
-      "id": 30,
+      "id": 26,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我____买这一个。",
-      "pinyin": "wǒ ____ mǎi zhè yí gè 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi chỉ mua cái này.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们____看看价格再决定。",
+      "pinyin": "wǒ men ____ kàn kàn jià gé zài jué dìng 。",
+      "vietnamese": "Gợi ý: trước; hành động đầu tiên.",
       "options": {
-        "A": "杯子",
-        "B": "卖",
-        "C": "衣服",
-        "D": "只"
+        "A": "先",
+        "B": "把",
+        "C": "的",
+        "D": "从"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“先”。完整句子：我们先看看价格再决定。\n语法与搭配：先……再……",
+      "optionPinyin": {
+        "A": "xiān",
+        "B": "bǎ",
+        "C": "de",
+        "D": "cóng"
+      },
+      "targetWord": "先",
+      "completeSentence": "我们先看看价格再决定。",
+      "grammarFocus": "先……再……"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这家超市____我家很近。",
+      "pinyin": "zhè jiā chāo shì ____ wǒ jiā hěn jìn 。",
+      "vietnamese": "Gợi ý: cách; chỉ khoảng cách.",
+      "options": {
+        "A": "把",
+        "B": "给",
+        "C": "离",
+        "D": "的"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“离”。完整句子：这家超市离我家很近。\n语法与搭配：甲＋离＋乙＋远/近/距离",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "gěi",
+        "C": "lí",
+        "D": "de"
+      },
+      "targetWord": "离",
+      "completeSentence": "这家超市离我家很近。",
+      "grammarFocus": "甲＋离＋乙＋远/近/距离"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____帮我拿一下这个盒子吗？",
+      "pinyin": "nǐ ____ bāng wǒ ná yí xià zhè ge hé zi ma ？",
+      "vietnamese": "Gợi ý: có thể; xin phép hoặc cho phép.",
+      "options": {
+        "A": "比",
+        "B": "把",
+        "C": "的",
+        "D": "可以"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "应填“只”。完整句子：我只买这一个。",
+      "explanation": "应填“可以”。完整句子：你可以帮我拿一下这个盒子吗？\n语法与搭配：可以＋动词",
       "optionPinyin": {
-        "A": "bēi zi",
-        "B": "mài",
-        "C": "yī fu",
-        "D": "zhǐ"
-      }
+        "A": "bǐ",
+        "B": "bǎ",
+        "C": "de",
+        "D": "kě yǐ"
+      },
+      "targetWord": "可以",
+      "completeSentence": "你可以帮我拿一下这个盒子吗？",
+      "grammarFocus": "可以＋动词"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：今天买这些____够了。",
+      "pinyin": "jīn tiān mǎi zhè xiē ____ gòu le 。",
+      "vietnamese": "Gợi ý: thì/liền; kết quả hoặc hành động tiếp theo.",
+      "options": {
+        "A": "的",
+        "B": "就",
+        "C": "把",
+        "D": "从"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“就”。完整句子：今天买这些就够了。\n语法与搭配：条件/时间＋就＋结果",
+      "optionPinyin": {
+        "A": "de",
+        "B": "jiù",
+        "C": "bǎ",
+        "D": "cóng"
+      },
+      "targetWord": "就",
+      "completeSentence": "今天买这些就够了。",
+      "grammarFocus": "条件/时间＋就＋结果"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____容易破的东西放在最上面。",
+      "pinyin": "qǐng ____ róng yì pò de dōng xi fàng zài zuì shàng miàn 。",
+      "vietnamese": "Gợi ý: đưa tân ngữ lên trước động từ để nói cách xử lý.",
+      "options": {
+        "A": "比",
+        "B": "把",
+        "C": "从",
+        "D": "的"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“把”。完整句子：请把容易破的东西放在最上面。\n语法与搭配：把＋宾语＋动作及结果/位置",
+      "optionPinyin": {
+        "A": "bǐ",
+        "B": "bǎ",
+        "C": "cóng",
+        "D": "de"
+      },
+      "targetWord": "把",
+      "completeSentence": "请把容易破的东西放在最上面。",
+      "grammarFocus": "把＋宾语＋动作及结果/位置"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "我去商店买东西."
       ],
       "points": 2,
-      "explanation": "参考句子：我去商店买东西。"
+      "explanation": "参考句子：我去商店买东西。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "你想买什么?"
       ],
       "points": 2,
-      "explanation": "参考句子：你想买什么？"
+      "explanation": "参考句子：你想买什么？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "这家店不卖水果."
       ],
       "points": 2,
-      "explanation": "参考句子：这家店不卖水果。"
+      "explanation": "参考句子：这家店不卖水果。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -721,7 +784,8 @@
         "这些东西都是我的."
       ],
       "points": 2,
-      "explanation": "参考句子：这些东西都是我的。"
+      "explanation": "参考句子：这些东西都是我的。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -736,7 +800,8 @@
         "我要买一个杯子."
       ],
       "points": 2,
-      "explanation": "参考句子：我要买一个杯子。"
+      "explanation": "参考句子：我要买一个杯子。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -751,7 +816,8 @@
         "这只手表很好看."
       ],
       "points": 2,
-      "explanation": "参考句子：这只手表很好看。"
+      "explanation": "参考句子：这只手表很好看。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -766,7 +832,8 @@
         "妈妈买了一件衣服."
       ],
       "points": 2,
-      "explanation": "参考句子：妈妈买了一件衣服。"
+      "explanation": "参考句子：妈妈买了一件衣服。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -781,7 +848,8 @@
         "我想买一个新书包."
       ],
       "points": 2,
-      "explanation": "参考句子：我想买一个新书包。"
+      "explanation": "参考句子：我想买一个新书包。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -796,7 +864,8 @@
         "这个杯子太大了."
       ],
       "points": 2,
-      "explanation": "参考句子：这个杯子太大了。"
+      "explanation": "参考句子：这个杯子太大了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -811,7 +880,8 @@
         "我想要那个小的."
       ],
       "points": 2,
-      "explanation": "参考句子：我想要那个小的。"
+      "explanation": "参考句子：我想要那个小的。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -826,7 +896,8 @@
         "请给我三个苹果."
       ],
       "points": 2,
-      "explanation": "参考句子：请给我三个苹果。"
+      "explanation": "参考句子：请给我三个苹果。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 42,
@@ -841,7 +912,8 @@
         "我买了两本书."
       ],
       "points": 2,
-      "explanation": "参考句子：我买了两本书。"
+      "explanation": "参考句子：我买了两本书。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -856,7 +928,8 @@
         "我要一件白色的衣服."
       ],
       "points": 2,
-      "explanation": "参考句子：我要一件白色的衣服。"
+      "explanation": "参考句子：我要一件白色的衣服。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -871,7 +944,8 @@
         "你还要别的吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：你还要别的吗？"
+      "explanation": "参考句子：你还要别的吗？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -886,7 +960,8 @@
         "我只买这一个."
       ],
       "points": 2,
-      "explanation": "参考句子：我只买这一个。"
+      "explanation": "参考句子：我只买这一个。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -901,7 +976,8 @@
         "这个商店今天不开门."
       ],
       "points": 2,
-      "explanation": "参考句子：这个商店今天不开门。"
+      "explanation": "参考句子：这个商店今天不开门。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -916,7 +992,8 @@
         "我们一起去买水果."
       ],
       "points": 2,
-      "explanation": "参考句子：我们一起去买水果。"
+      "explanation": "参考句子：我们一起去买水果。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -931,7 +1008,8 @@
         "我想看看那只手表."
       ],
       "points": 2,
-      "explanation": "参考句子：我想看看那只手表。"
+      "explanation": "参考句子：我想看看那只手表。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -946,7 +1024,8 @@
         "你买了多少东西?"
       ],
       "points": 2,
-      "explanation": "参考句子：你买了多少东西？"
+      "explanation": "参考句子：你买了多少东西？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -961,9 +1040,11 @@
         "这些东西一共多少钱?"
       ],
       "points": 2,
-      "explanation": "参考句子：这些东西一共多少钱？"
+      "explanation": "参考句子：这些东西一共多少钱？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "114b66ac",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

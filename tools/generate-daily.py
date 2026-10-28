@@ -101,3 +101,7 @@ with zipfile.ZipFile(OUT/'daily-35-topics.zip','w',zipfile.ZIP_DEFLATED) as z:
   if path.suffix in ['.json','.md','.txt','.html']:z.write(path,'daily-35/'+path.name)
  z.write(Path(__file__),'tools/generate-daily.py')
 print(f'Generated {len(entries)} daily lessons / 700 questions / {len(all_sentences)} distinct expressions; {len(catalog["exercises"])} catalog entries')
+
+# Reapply authored section separation and refresh every downloadable copy.
+import subprocess,sys
+subprocess.run([sys.executable,str(ROOT/"tools/optimize-exercises.py")],check=True)

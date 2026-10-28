@@ -1,6 +1,6 @@
 {
   "title": "HSK5 第14课 教育方式与终身学习",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,37 +9,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“启发”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jǐ fā",
-        "B": "xǐ fā",
-        "C": "qǐ fā",
-        "D": "qǐ hā"
+        "A": "qǐ fā",
+        "B": "jǐ fā",
+        "C": "qǐ hā",
+        "D": "xǐ fā"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "“启发”读作 qǐ fā，意思是 gợi mở。"
+      "explanation": "“启发”读作 qǐ fā。注意声母、韵母、声调及轻声。",
+      "targetWord": "启发"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“培养”的正确读音。",
+      "text": "【拼音选择】请选择“好奇”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "péi yǎn",
-        "B": "péi yǎng",
-        "C": "féi yǎng",
-        "D": "pái yǎng"
+        "A": "hòu qí",
+        "B": "hào xí",
+        "C": "hào qí",
+        "D": "hào jí"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“培养”读作 péi yǎng，意思是 bồi dưỡng。"
+      "explanation": "“好奇”读作 hào qí。注意声母、韵母、声调及轻声。",
+      "targetWord": "好奇"
     },
     {
       "id": 3,
@@ -47,37 +49,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“实践”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shí jiàn",
+        "A": "shí qiàn",
         "B": "sí jiàn",
-        "C": "shí qiàn",
-        "D": "shí jiàng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“实践”读作 shí jiàn，意思是 thực hành。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“评价”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "pín jià",
-        "B": "píng qià",
-        "C": "líng jià",
-        "D": "píng jià"
+        "C": "shí jiàng",
+        "D": "shí jiàn"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“评价”读作 píng jià，意思是 đánh giá。"
+      "explanation": "“实践”读作 shí jiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "实践"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“素质”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "sù zhì",
+        "B": "bù zhì",
+        "C": "shù zhì",
+        "D": "sù zì"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“素质”读作 sù zhì。注意声母、韵母、声调及轻声。",
+      "targetWord": "素质"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“终身”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhōng sēn",
+        "A": "zōng shēn",
         "B": "zhōng shēn",
-        "C": "zōng shēn",
-        "D": "zhōng shēng"
+        "C": "zhōng shēng",
+        "D": "zhōng sēn"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“终身”读作 zhōng shēn，意思是 suốt đời。"
+      "explanation": "“终身”读作 zhōng shēn。注意声母、韵母、声调及轻声。",
+      "targetWord": "终身"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：好的老师善于用问题____学生独立思考。",
-      "pinyin": "hǎo de lǎo shī shàn yú yòng wèn tí ____ xué shēng dú lì sī kǎo",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: gợi mở.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：老师鼓励学生自己提问，逐渐____独立思考的能力。",
+      "pinyin": "lǎo shī gǔ lì xué shēng zì jǐ tí wèn ， zhú jiàn ____ dú lì sī kǎo de néng lì 。",
+      "vietnamese": "Gợi ý: bồi dưỡng.",
       "options": {
-        "A": "启发",
-        "B": "实践",
-        "C": "培养",
-        "D": "终身"
+        "A": "掌握",
+        "B": "培养",
+        "C": "自由",
+        "D": "兴趣"
       },
       "optionPinyin": {
-        "A": "qǐ fā",
-        "B": "shí jiàn",
-        "C": "péi yǎng",
-        "D": "zhōng shēn"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“启发”（gợi mở）。完整句子：好的老师善于用问题启发学生独立思考。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：学校不仅传授知识还重视____学生的合作能力。",
-      "pinyin": "xué xiào bù jǐn chuán shòu zhī shí hái zhòng shì ____ xué shēng de hé zuò néng lì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: bồi dưỡng.",
-      "options": {
-        "A": "终身",
-        "B": "评价",
-        "C": "培养",
-        "D": "启发"
-      },
-      "optionPinyin": {
-        "A": "zhōng shēn",
-        "B": "píng jià",
-        "C": "péi yǎng",
-        "D": "qǐ fā"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“培养”（bồi dưỡng）。完整句子：学校不仅传授知识还重视培养学生的合作能力。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：只有把理论知识运用到____中才能发现真正的问题。",
-      "pinyin": "zhǐ yǒu bǎ lǐ lùn zhī shí yùn yòng dào ____ zhōng cái néng fā xiàn zhēn zhèng de wèn tí",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thực hành.",
-      "options": {
-        "A": "实践",
-        "B": "启发",
-        "C": "培养",
-        "D": "终身"
-      },
-      "optionPinyin": {
-        "A": "shí jiàn",
-        "B": "qǐ fā",
-        "C": "péi yǎng",
-        "D": "zhōng shēn"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“实践”（thực hành）。完整句子：只有把理论知识运用到实践中才能发现真正的问题。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：我们不能只根据一次成绩就____学生的全部能力。",
-      "pinyin": "wǒ men bù néng zhǐ gēn jù yī cì chéng jì jiù ____ xué shēng de quán bù néng lì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đánh giá.",
-      "options": {
-        "A": "培养",
-        "B": "启发",
-        "C": "评价",
-        "D": "实践"
-      },
-      "optionPinyin": {
-        "A": "péi yǎng",
-        "B": "qǐ fā",
-        "C": "píng jià",
-        "D": "shí jiàn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“评价”（đánh giá）。完整句子：我们不能只根据一次成绩就评价学生的全部能力。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：随着技术不断发展____学习已经成为许多人的选择。",
-      "pinyin": "suí zhe jì shù bù duàn fā zhǎn ____ xué xí yǐ jīng chéng wéi xǔ duō rén de xuǎn zé",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: suốt đời.",
-      "options": {
-        "A": "启发",
-        "B": "终身",
-        "C": "培养",
-        "D": "评价"
-      },
-      "optionPinyin": {
-        "A": "qǐ fā",
-        "B": "zhōng shēn",
-        "C": "péi yǎng",
-        "D": "píng jià"
+        "A": "zhǎng wò",
+        "B": "péi yǎng",
+        "C": "zì yóu",
+        "D": "xìng qù"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“终身”（suốt đời）。完整句子：随着技术不断发展终身学习已经成为许多人的选择。"
+      "explanation": "应填“培养”。完整句子：老师鼓励学生自己提问，逐渐培养独立思考的能力。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "培养",
+      "completeSentence": "老师鼓励学生自己提问，逐渐培养独立思考的能力。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：家长应尊重孩子的____，而不是只比较考试分数。",
+      "pinyin": "jiā zhǎng yīng zūn zhòng hái zi de ____， ér bú shì zhǐ bǐ jiào kǎo shì fēn shù 。",
+      "vietnamese": "Gợi ý: hứng thú.",
+      "options": {
+        "A": "自由",
+        "B": "掌握",
+        "C": "培养",
+        "D": "兴趣"
+      },
+      "optionPinyin": {
+        "A": "zì yóu",
+        "B": "zhǎng wò",
+        "C": "péi yǎng",
+        "D": "xìng qù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“兴趣”。完整句子：家长应尊重孩子的兴趣，而不是只比较考试分数。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "targetWord": "兴趣",
+      "completeSentence": "家长应尊重孩子的兴趣，而不是只比较考试分数。",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他参加夜校，是为了继续____新的专业知识。",
+      "pinyin": "tā cān jiā yè xiào ， shì wèi le jì xù ____ xīn de zhuān yè zhī shí 。",
+      "vietnamese": "Gợi ý: nắm vững.",
+      "options": {
+        "A": "自由",
+        "B": "掌握",
+        "C": "兴趣",
+        "D": "培养"
+      },
+      "optionPinyin": {
+        "A": "zì yóu",
+        "B": "zhǎng wò",
+        "C": "xìng qù",
+        "D": "péi yǎng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“掌握”。完整句子：他参加夜校，是为了继续掌握新的专业知识。\n语法与搭配：为了＋目的＋行动",
+      "targetWord": "掌握",
+      "completeSentence": "他参加夜校，是为了继续掌握新的专业知识。",
+      "grammarFocus": "为了＋目的＋行动"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：有效的教育既需要指导，也需要适当的____。",
+      "pinyin": "yǒu xiào de jiào yù jì xū yào zhǐ dǎo ， yě xū yào shì dàng de ____。",
+      "vietnamese": "Gợi ý: tự do.",
+      "options": {
+        "A": "自由",
+        "B": "掌握",
+        "C": "培养",
+        "D": "兴趣"
+      },
+      "optionPinyin": {
+        "A": "zì yóu",
+        "B": "zhǎng wò",
+        "C": "péi yǎng",
+        "D": "xìng qù"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“自由”。完整句子：有效的教育既需要指导，也需要适当的自由。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "自由",
+      "completeSentence": "有效的教育既需要指导，也需要适当的自由。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：面对不断变化的社会，人们必须保持学习的____。",
+      "pinyin": "miàn duì bù duàn biàn huà de shè huì ， rén men bì xū bǎo chí xué xí de ____。",
+      "vietnamese": "Gợi ý: nhiệt tình.",
+      "options": {
+        "A": "热情",
+        "B": "掌握",
+        "C": "培养",
+        "D": "兴趣"
+      },
+      "optionPinyin": {
+        "A": "rè qíng",
+        "B": "zhǎng wò",
+        "C": "péi yǎng",
+        "D": "xìng qù"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“热情”。完整句子：面对不断变化的社会，人们必须保持学习的热情。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "热情",
+      "completeSentence": "面对不断变化的社会，人们必须保持学习的热情。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：好的老师善于用问题启发学生独立思考。\nhǎo de lǎo shī shàn yú yòng wèn tí qǐ fā xué shēng dú lì sī kǎo。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：好的老师善于用问题启发学生独立思考。\nhǎo de lǎo shī shàn yú yòng wèn tí qǐ fā xué shēng dú lì sī kǎo。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：学校不仅传授知识还重视培养学生的合作能力。\nxué xiào bù jǐn chuán shòu zhī shí hái zhòng shì péi yǎng xué shēng de hé zuò néng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：学校不仅传授知识还重视培养学生的合作能力。\nxué xiào bù jǐn chuán shòu zhī shí hái zhòng shì péi yǎng xué shēng de hé zuò néng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：只有把理论知识运用到实践中才能发现真正的问题。\nzhǐ yǒu bǎ lǐ lùn zhī shí yùn yòng dào shí jiàn zhōng cái néng fā xiàn zhēn zhèng de wèn tí。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：只有把理论知识运用到实践中才能发现真正的问题。\nzhǐ yǒu bǎ lǐ lùn zhī shí yùn yòng dào shí jiàn zhōng cái néng fā xiàn zhēn zhèng de wèn tí。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：我们不能只根据一次成绩就评价学生的全部能力。\nwǒ men bù néng zhǐ gēn jù yī cì chéng jì jiù píng jià xué shēng de quán bù néng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：我们不能只根据一次成绩就评价学生的全部能力。\nwǒ men bù néng zhǐ gēn jù yī cì chéng jì jiù píng jià xué shēng de quán bù néng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：随着技术不断发展终身学习已经成为许多人的选择。\nsuí zhe jì shù bù duàn fā zhǎn zhōng shēn xué xí yǐ jīng chéng wéi xǔ duō rén de xuǎn zé。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：随着技术不断发展终身学习已经成为许多人的选择。\nsuí zhe jì shù bù duàn fā zhǎn zhōng shēn xué xí yǐ jīng chéng wéi xǔ duō rén de xuǎn zé。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：已经……了：已完成或已达到的状态",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解教育评价的标准还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě jiào yù píng jià de biāo zhǔn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解教育评价的标准还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě jiào yù píng jià de biāo zhǔn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化课堂讨论的作用都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà kè táng tǎo lùn de zuò yòng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化课堂讨论的作用都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà kè táng tǎo lùn de zuò yòng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：只有深入理解理论与实践的关系才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě lǐ lùn yǔ shí jiàn de guān xi cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解理论与实践的关系才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě lǐ lùn yǔ shí jiàn de guān xi cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析学习兴趣的保护。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī xué xí xìng qù de bǎo hù。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析学习兴趣的保护。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī xué xí xìng qù de bǎo hù。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明终身学习的价值。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng zhōng shēn xué xí de jià zhí。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明终身学习的价值。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng zhōng shēn xué xí de jià zhí。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

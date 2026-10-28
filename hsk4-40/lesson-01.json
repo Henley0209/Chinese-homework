@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第01课 简单的爱情",
-  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“浪漫”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "nàng màn",
+        "A": "làn màn",
         "B": "làng màn",
-        "C": "làn màn",
+        "C": "nàng màn",
         "D": "làng màng"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“浪漫”的正确读音是 làng màn。"
+      "explanation": "“浪漫”读作 làng màn。注意声母、韵母、声调及轻声。",
+      "targetWord": "浪漫"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“爱情”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "ài qín",
-        "B": "ài xíng",
-        "C": "ài qíng",
+        "A": "ài xíng",
+        "B": "ài qíng",
+        "C": "ài qín",
         "D": "èi qíng"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“爱情”的正确读音是 ài qíng。"
+      "explanation": "“爱情”读作 ài qíng。注意声母、韵母、声调及轻声。",
+      "targetWord": "爱情"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“印象”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yìn xiàng",
-        "B": "yìn qiàng",
-        "C": "yìn xiàn",
-        "D": "yìng xiàng"
+        "A": "yìn qiàng",
+        "B": "yìn xiàn",
+        "C": "yìng xiàng",
+        "D": "yìn xiàng"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“印象”的正确读音是 yìn xiàng。"
+      "explanation": "“印象”读作 yìn xiàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "印象"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“性格”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xìng gé",
-        "B": "xìn gé",
-        "C": "bìng gé",
+        "A": "xìn gé",
+        "B": "bìng gé",
+        "C": "xìng gé",
         "D": "qìng gé"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“性格”的正确读音是 xìng gé。"
+      "explanation": "“性格”读作 xìng gé。注意声母、韵母、声调及轻声。",
+      "targetWord": "性格"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“感动”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎn dòng",
-        "B": "gǎng dòng",
-        "C": "bǎn dòng",
+        "A": "bǎn dòng",
+        "B": "gǎn dòng",
+        "C": "gǎng dòng",
         "D": "cǎn dòng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“感动”的正确读音是 gǎn dòng。"
+      "explanation": "“感动”读作 gǎn dòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "感动"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“共同”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dòng tóng",
-        "B": "còng tóng",
-        "C": "gòng tóng",
-        "D": "bòng tóng"
+        "A": "gòng tóng",
+        "B": "bòng tóng",
+        "C": "còng tóng",
+        "D": "dòng tóng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“共同”的正确读音是 gòng tóng。"
+      "explanation": "“共同”读作 gòng tóng。注意声母、韵母、声调及轻声。",
+      "targetWord": "共同"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“适合”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sì hé",
-        "B": "chì hé",
+        "A": "shuì hé",
+        "B": "sì hé",
         "C": "shì hé",
-        "D": "shuì hé"
+        "D": "chì hé"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“适合”的正确读音是 shì hé。"
+      "explanation": "“适合”读作 shì hé。注意声母、韵母、声调及轻声。",
+      "targetWord": "适合"
     },
     {
       "id": 8,
@@ -142,10 +149,10 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“幸福”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xìng hú",
-        "B": "xìn fú",
+        "A": "xìn fú",
+        "B": "xìng hú",
         "C": "xìng fú",
         "D": "qìng fú"
       },
@@ -153,7 +160,8 @@
         "C"
       ],
       "points": 2,
-      "explanation": "“幸福”的正确读音是 xìng fú。"
+      "explanation": "“幸福”读作 xìng fú。注意声母、韵母、声调及轻声。",
+      "targetWord": "幸福"
     },
     {
       "id": 9,
@@ -161,10 +169,10 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“生活”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shēn huó",
-        "B": "sēng huó",
+        "A": "sēng huó",
+        "B": "shēn huó",
         "C": "chēng huó",
         "D": "shēng huó"
       },
@@ -172,7 +180,8 @@
         "D"
       ],
       "points": 2,
-      "explanation": "“生活”的正确读音是 shēng huó。"
+      "explanation": "“生活”读作 shēng huó。注意声母、韵母、声调及轻声。",
+      "targetWord": "生活"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“羡慕”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biàn mù",
-        "B": "xiàng mù",
-        "C": "qiàn mù",
+        "A": "qiàn mù",
+        "B": "biàn mù",
+        "C": "xiàng mù",
         "D": "xiàn mù"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“羡慕”的正确读音是 xiàn mù。"
+      "explanation": "“羡慕”读作 xiàn mù。注意声母、韵母、声调及轻声。",
+      "targetWord": "羡慕"
     },
     {
       "id": 11,
@@ -199,7 +209,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“互相”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "hù qiāng",
         "B": "fù xiāng",
@@ -210,7 +220,8 @@
         "D"
       ],
       "points": 2,
-      "explanation": "“互相”的正确读音是 hù xiāng。"
+      "explanation": "“互相”读作 hù xiāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "互相"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“吸引”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "xī yǐng",
-        "B": "bī yǐn",
-        "C": "qī yǐn",
+        "B": "qī yǐn",
+        "C": "bī yǐn",
         "D": "xī yǐn"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“吸引”的正确读音是 xī yǐn。"
+      "explanation": "“吸引”读作 xī yǐn。注意声母、韵母、声调及轻声。",
+      "targetWord": "吸引"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“幽默”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yāo mò",
+        "A": "cōu mò",
         "B": "yōu mò",
-        "C": "cōu mò",
+        "C": "yāo mò",
         "D": "dōu mò"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“幽默”的正确读音是 yōu mò。"
+      "explanation": "“幽默”读作 yōu mò。注意声母、韵母、声调及轻声。",
+      "targetWord": "幽默"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“脾气”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pí xì",
-        "B": "pí qì",
-        "C": "bí qì",
-        "D": "pí jì"
+        "A": "pí qì",
+        "B": "pí xì",
+        "C": "pí jì",
+        "D": "bí qì"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“脾气”的正确读音是 pí qì。"
+      "explanation": "“脾气”读作 pí qì。注意声母、韵母、声调及轻声。",
+      "targetWord": "脾气"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“开玩笑”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kāi wán qiào",
-        "B": "kāi wáng xiào",
-        "C": "kāi wán xiào",
-        "D": "kēi wán xiào"
+        "A": "kēi wán xiào",
+        "B": "kāi wán xiào",
+        "C": "kāi wán qiào",
+        "D": "kāi wáng xiào"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“开玩笑”的正确读音是 kāi wán xiào。"
+      "explanation": "“开玩笑”读作 kāi wán xiào。注意声母、韵母、声调及轻声。",
+      "targetWord": "开玩笑"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“理解”（thấu hiểu）。完整句子：两个人生活在一起，需要互相理解。"
+      "explanation": "应填“理解”（thấu hiểu）。完整句子：两个人生活在一起，需要互相理解。",
+      "targetWord": "理解",
+      "completeSentence": "两个人生活在一起，需要互相理解。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“尊重”（tôn trọng）。完整句子：即使意见不同，也应该尊重对方的选择。"
+      "explanation": "应填“尊重”（tôn trọng）。完整句子：即使意见不同，也应该尊重对方的选择。",
+      "targetWord": "尊重",
+      "completeSentence": "即使意见不同，也应该尊重对方的选择。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“信任”（tin tưởng）。完整句子：她从来不说假话，所以我很信任她。"
+      "explanation": "应填“信任”（tin tưởng）。完整句子：她从来不说假话，所以我很信任她。",
+      "targetWord": "信任",
+      "completeSentence": "她从来不说假话，所以我很信任她。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“陪伴”（ở bên）。完整句子：生病的时候，他一直在身边陪伴我。"
+      "explanation": "应填“陪伴”（ở bên）。完整句子：生病的时候，他一直在身边陪伴我。",
+      "targetWord": "陪伴",
+      "completeSentence": "生病的时候，他一直在身边陪伴我。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“关系”（mối quan hệ）。完整句子：我们虽然住得很远，但是关系一直很好。"
+      "explanation": "应填“关系”（mối quan hệ）。完整句子：我们虽然住得很远，但是关系一直很好。",
+      "targetWord": "关系",
+      "completeSentence": "我们虽然住得很远，但是关系一直很好。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“距离”（khoảng cách）。完整句子：两座城市之间的距离并没有影响他们的感情。"
+      "explanation": "应填“距离”（khoảng cách）。完整句子：两座城市之间的距离并没有影响他们的感情。",
+      "targetWord": "距离",
+      "completeSentence": "两座城市之间的距离并没有影响他们的感情。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“决定”（quyết định）。完整句子：考虑了很久以后，他们决定明年结婚。"
+      "explanation": "应填“决定”（quyết định）。完整句子：考虑了很久以后，他们决定明年结婚。",
+      "targetWord": "决定",
+      "completeSentence": "考虑了很久以后，他们决定明年结婚。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“改变”（thay đổi）。完整句子：认识她以后，我改变了以前不好的生活习惯。"
+      "explanation": "应填“改变”（thay đổi）。完整句子：认识她以后，我改变了以前不好的生活习惯。",
+      "targetWord": "改变",
+      "completeSentence": "认识她以后，我改变了以前不好的生活习惯。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“表达”（bày tỏ）。完整句子：他不太会用语言表达自己对家人的爱。"
+      "explanation": "应填“表达”（bày tỏ）。完整句子：他不太会用语言表达自己对家人的爱。",
+      "targetWord": "表达",
+      "completeSentence": "他不太会用语言表达自己对家人的爱。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“愿意”（sẵn lòng）。完整句子：如果你遇到困难，我愿意帮助你。"
+      "explanation": "应填“愿意”（sẵn lòng）。完整句子：如果你遇到困难，我愿意帮助你。",
+      "targetWord": "愿意",
+      "completeSentence": "如果你遇到困难，我愿意帮助你。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“接受”（chấp nhận）。完整句子：他向她道歉以后，她接受了他的道歉。"
+      "explanation": "应填“接受”（chấp nhận）。完整句子：他向她道歉以后，她接受了他的道歉。",
+      "targetWord": "接受",
+      "completeSentence": "他向她道歉以后，她接受了他的道歉。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“相处”（chung sống, hòa hợp）。完整句子：他们在一起相处了三年，很了解对方。"
+      "explanation": "应填“相处”（chung sống, hòa hợp）。完整句子：他们在一起相处了三年，很了解对方。",
+      "targetWord": "相处",
+      "completeSentence": "他们在一起相处了三年，很了解对方。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“缺点”（khuyết điểm）。完整句子：每个人都有缺点，我们不能要求别人十全十美。"
+      "explanation": "应填“缺点”（khuyết điểm）。完整句子：每个人都有缺点，我们不能要求别人十全十美。",
+      "targetWord": "缺点",
+      "completeSentence": "每个人都有缺点，我们不能要求别人十全十美。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“优点”（ưu điểm）。完整句子：认真负责是他的优点之一。"
+      "explanation": "应填“优点”（ưu điểm）。完整句子：认真负责是他的优点之一。",
+      "targetWord": "优点",
+      "completeSentence": "认真负责是他的优点之一。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“原因”（nguyên nhân）。完整句子：她向我解释了昨天没有来的原因。"
+      "explanation": "应填“原因”（nguyên nhân）。完整句子：她向我解释了昨天没有来的原因。",
+      "targetWord": "原因",
+      "completeSentence": "她向我解释了昨天没有来的原因。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "真正的爱情需要两个人共同认真地经营和维护."
       ],
       "points": 2,
-      "explanation": "参考句子：真正的爱情需要两个人共同认真地经营和维护。\nzhēn zhèng de ài qíng xū yào liǎng gè rén gòng tóng rèn zhēn dì jīng yíng hé wéi hù 。",
-      "hanziCount": 20
+      "explanation": "参考句子：真正的爱情需要两个人共同认真地经营和维护。\nzhēn zhèng de ài qíng xū yào liǎng gè rén gòng tóng rèn zhēn dì jīng yíng hé wéi hù 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "他虽然不太会说话但是总是默默地关心我."
       ],
       "points": 2,
-      "explanation": "参考句子：他虽然不太会说话但是总是默默地关心我。\ntā suī rán bù tài huì shuō huà dàn shì zǒng shì mò mò dì guān xīn wǒ 。",
-      "hanziCount": 18
+      "explanation": "参考句子：他虽然不太会说话但是总是默默地关心我。\ntā suī rán bù tài huì shuō huà dàn shì zǒng shì mò mò dì guān xīn wǒ 。\n语法与搭配：虽然……但是……：转折关系",
+      "hanziCount": 18,
+      "grammarFocus": "虽然……但是……：转折关系"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "我们不仅兴趣相同而且对未来有共同的计划."
       ],
       "points": 2,
-      "explanation": "参考句子：我们不仅兴趣相同而且对未来有共同的计划。\nwǒ men bù jǐn xìng qù xiāng tóng ér qiě duì wèi lái yǒu gòng tóng de jì huà 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我们不仅兴趣相同而且对未来有共同的计划。\nwǒ men bù jǐn xìng qù xiāng tóng ér qiě duì wèi lái yǒu gòng tóng de jì huà 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "如果遇到意见不同的时候我们应该先冷静下来."
       ],
       "points": 2,
-      "explanation": "参考句子：如果遇到意见不同的时候我们应该先冷静下来。\nrú guǒ yù dào yì jiàn bù tóng de shí hou wǒ men yīng gāi xiān lěng jìng xià lái 。",
-      "hanziCount": 20
+      "explanation": "参考句子：如果遇到意见不同的时候我们应该先冷静下来。\nrú guǒ yù dào yì jiàn bù tóng de shí hou wǒ men yīng gāi xiān lěng jìng xià lái 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "她最看重的并不是礼物的价格而是对方的心意."
       ],
       "points": 2,
-      "explanation": "参考句子：她最看重的并不是礼物的价格而是对方的心意。\ntā zuì kàn zhòng de bìng bú shì lǐ wù de jià gé ér shì duì fāng de xīn yì 。",
-      "hanziCount": 20
+      "explanation": "参考句子：她最看重的并不是礼物的价格而是对方的心意。\ntā zuì kàn zhòng de bìng bú shì lǐ wù de jià gé ér shì duì fāng de xīn yì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "无论生活遇到多少困难他们都愿意一起面对."
       ],
       "points": 2,
-      "explanation": "参考句子：无论生活遇到多少困难他们都愿意一起面对。\nwú lùn shēng huó yù dào duō shǎo kùn nán tā men dōu yuàn yì yì qǐ miàn duì 。",
-      "hanziCount": 19
+      "explanation": "参考句子：无论生活遇到多少困难他们都愿意一起面对。\nwú lùn shēng huó yù dào duō shǎo kùn nán tā men dōu yuàn yì yì qǐ miàn duì 。\n语法与搭配：无论……都……：无条件关系",
+      "hanziCount": 19,
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "两个人只有学会互相理解才能相处得更加愉快."
       ],
       "points": 2,
-      "explanation": "参考句子：两个人只有学会互相理解才能相处得更加愉快。\nliǎng gè rén zhǐ yǒu xué huì hù xiāng lǐ jiě cái néng xiāng chǔ dé gèng jiā yú kuài 。",
-      "hanziCount": 20
+      "explanation": "参考句子：两个人只有学会互相理解才能相处得更加愉快。\nliǎng gè rén zhǐ yǒu xué huì hù xiāng lǐ jiě cái néng xiāng chǔ dé gèng jiā yú kuài 。\n语法与搭配：只有……才……：必要条件",
+      "hanziCount": 20,
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 38,
@@ -791,8 +843,9 @@
         "他们结婚以后仍然保持着每天一起散步的习惯."
       ],
       "points": 2,
-      "explanation": "参考句子：结婚以后他们仍然保持着每天一起散步的习惯。\njié hūn yǐ hòu tā men réng rán bǎo chí zhe měi tiān yì qǐ sàn bù de xí guàn 。",
-      "hanziCount": 20
+      "explanation": "参考句子：结婚以后他们仍然保持着每天一起散步的习惯。\njié hūn yǐ hòu tā men réng rán bǎo chí zhe měi tiān yì qǐ sàn bù de xí guàn 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 20,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 39,
@@ -807,8 +860,9 @@
         "他从来不随便答应别人答应以后就一定会做到."
       ],
       "points": 2,
-      "explanation": "参考句子：他从来不随便答应别人答应以后就一定会做到。\ntā cóng lái bù suí biàn dā yìng bié rén dā yìng yǐ hòu jiù yí dìng huì zuò dào 。",
-      "hanziCount": 20
+      "explanation": "参考句子：他从来不随便答应别人答应以后就一定会做到。\ntā cóng lái bù suí biàn dā yìng bié rén dā yìng yǐ hòu jiù yí dìng huì zuò dào 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 20,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 40,
@@ -823,8 +877,9 @@
         "这份简单而真诚的感情使她每天都觉得很幸福."
       ],
       "points": 2,
-      "explanation": "参考句子：这份简单而真诚的感情使她每天都觉得很幸福。\nzhè fèn jiǎn dān ér zhēn chéng de gǎn qíng shǐ tā měi tiān dōu jué de hěn xìng fú 。",
-      "hanziCount": 20
+      "explanation": "参考句子：这份简单而真诚的感情使她每天都觉得很幸福。\nzhè fèn jiǎn dān ér zhēn chéng de gǎn qíng shǐ tā měi tiān dōu jué de hěn xìng fú 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 20,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 41,
@@ -839,8 +894,9 @@
         "我们应该提前了解对方真正需要什么."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解对方真正需要什么。\nwǒ men yīng gāi tí qián liǎo jiě duì fāng zhēn zhèng xū yào shén me 。",
-      "hanziCount": 16
+      "explanation": "参考句子：我们应该提前了解对方真正需要什么。\nwǒ men yīng gāi tí qián liǎo jiě duì fāng zhēn zhèng xū yào shén me 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 16,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -855,8 +911,9 @@
         "大家可以一起讨论两个人共同的目标."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论两个人共同的目标。\ndà jiā kě yǐ yì qǐ tǎo lùn liǎng gè rén gòng tóng de mù biāo 。",
-      "hanziCount": 16
+      "explanation": "参考句子：大家可以一起讨论两个人共同的目标。\ndà jiā kě yǐ yì qǐ tǎo lùn liǎng gè rén gòng tóng de mù biāo 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 16,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -871,8 +928,9 @@
         "我已经认真考虑过怎样表达自己的感情."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过怎样表达自己的感情。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò zěn yàng biǎo dá zì jǐ de gǎn qíng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我已经认真考虑过怎样表达自己的感情。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò zěn yàng biǎo dá zì jǐ de gǎn qíng 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 17,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 44,
@@ -887,8 +945,9 @@
         "这篇文章主要介绍了对方不同的生活习惯."
       ],
       "points": 2,
-      "explanation": "参考句子：这篇文章主要介绍了对方不同的生活习惯。\nzhè piān wén zhāng zhǔ yào jiè shào le duì fāng bù tóng de shēng huó xí guàn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：这篇文章主要介绍了对方不同的生活习惯。\nzhè piān wén zhāng zhǔ yào jiè shào le duì fāng bù tóng de shēng huó xí guàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -903,8 +962,9 @@
         "请结合例子具体说明遇到矛盾时的做法."
       ],
       "points": 2,
-      "explanation": "参考句子：请结合例子具体说明遇到矛盾时的做法。\nqǐng jié hé lì zi jù tǐ shuō míng yù dào máo dùn shí de zuò fǎ 。",
-      "hanziCount": 17
+      "explanation": "参考句子：请结合例子具体说明遇到矛盾时的做法。\nqǐng jié hé lì zi jù tǐ shuō míng yù dào máo dùn shí de zuò fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -919,8 +979,9 @@
         "我们还没有讨论清楚彼此之间的信任问题."
       ],
       "points": 2,
-      "explanation": "参考句子：我们还没有讨论清楚彼此之间的信任问题。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ bǐ cǐ zhī jiān de xìn rèn wèn tí 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们还没有讨论清楚彼此之间的信任问题。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ bǐ cǐ zhī jiān de xìn rèn wèn tí 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -935,8 +996,9 @@
         "大家都需要认真了解陪伴家人的重要性."
       ],
       "points": 2,
-      "explanation": "参考句子：大家都需要认真了解陪伴家人的重要性。\ndà jiā dōu xū yào rèn zhēn liǎo jiě péi bàn jiā rén de zhòng yào xìng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：大家都需要认真了解陪伴家人的重要性。\ndà jiā dōu xū yào rèn zhēn liǎo jiě péi bàn jiā rén de zhòng yào xìng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -951,8 +1013,9 @@
         "这次活动让我们重新思考选择伴侣时的标准."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考选择伴侣时的标准。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo xuǎn zé bàn lǚ shí de biāo zhǔn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：这次活动让我们重新思考选择伴侣时的标准。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo xuǎn zé bàn lǚ shí de biāo zhǔn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -967,8 +1030,9 @@
         "老师希望大家认真分析对爱情和婚姻的理解."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析对爱情和婚姻的理解。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī duì ài qíng hé hūn yīn de lǐ jiě 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析对爱情和婚姻的理解。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī duì ài qíng hé hūn yīn de lǐ jiě 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -983,8 +1047,10 @@
         "我们有必要深入了解认真听取对方的意见."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解认真听取对方的意见。\nwǒ men yǒu bì yào shēn rù liǎo jiě rèn zhēn tīng qǔ duì fāng de yì jiàn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们有必要深入了解认真听取对方的意见。\nwǒ men yǒu bì yào shēn rù liǎo jiě rèn zhēn tīng qǔ duì fāng de yì jiàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

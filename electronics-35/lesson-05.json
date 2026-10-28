@@ -1,197 +1,207 @@
 {
   "title": "汉语工厂 第05课 请假、调班与加班",
-  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准",
+  "description": "面向越南学习者的汉语工厂原创课堂练习 · 10道拼音选择＋10道词语填空＋15道情境应答＋15道句子排序 · 每题2分，满分100分 · 沿用HSK作业格式，非官方试卷；现场操作以有效文件和授权要求为准 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“请假”的正确读音。",
+      "text": "【拼音选择】请选择“事假”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qǐng qià",
-        "B": "jǐng jià",
-        "C": "qǐng jià",
-        "D": "xǐng jià"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“请假”读作 qǐng jià，本课词义：xin nghỉ。"
-    },
-    {
-      "id": 2,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“调班”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "diào bān",
-        "B": "biào bān",
-        "C": "diào bāng",
-        "D": "diàn bān"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“调班”读作 diào bān，本课词义：đổi ca。"
-    },
-    {
-      "id": 3,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“加班”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "qiā bān",
-        "B": "jiā bān",
-        "C": "jiā bāng",
-        "D": "jiān bān"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“加班”读作 jiā bān，本课词义：tăng ca。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“申请”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "shēn jǐng",
-        "B": "shēn qǐng",
-        "C": "sēn qǐng",
-        "D": "shēn xǐng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“申请”读作 shēn qǐng，本课词义：đơn xin, đăng ký。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“批准”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "pī zǔn",
-        "B": "pī zhǔn",
-        "C": "cī zhǔn",
-        "D": "bī zhǔn"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "“批准”读作 pī zhǔn，本课词义：phê duyệt。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“原因”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "huán yīn",
-        "B": "cuán yīn",
-        "C": "yuán yīng",
-        "D": "yuán yīn"
+        "A": "shì qià",
+        "B": "sì jià",
+        "C": "chì jià",
+        "D": "shì jià"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“原因”读作 yuán yīn，本课词义：lý do。"
+      "explanation": "“事假”读作 shì jià。注意声母、韵母、声调及轻声。",
+      "targetWord": "事假"
     },
     {
-      "id": 7,
+      "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“时间”的正确读音。",
+      "text": "【拼音选择】请选择“病假”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shí qiān",
-        "B": "shí jiān",
-        "C": "sí jiān",
-        "D": "shí jiāng"
+        "A": "bìn jià",
+        "B": "bìng qià",
+        "C": "biàng jià",
+        "D": "bìng jià"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“病假”读作 bìng jià。注意声母、韵母、声调及轻声。",
+      "targetWord": "病假"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“年假”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "lián jià",
+        "B": "niáng jià",
+        "C": "nián qià",
+        "D": "nián jià"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“年假”读作 nián jià。注意声母、韵母、声调及轻声。",
+      "targetWord": "年假"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“请假条”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "qǐng qià tiáo",
+        "B": "qǐng jià tiáo",
+        "C": "jǐng jià tiáo",
+        "D": "xǐng jià tiáo"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“时间”读作 shí jiān，本课词义：thời gian。"
+      "explanation": "“请假条”读作 qǐng jià tiáo。注意声母、韵母、声调及轻声。",
+      "targetWord": "请假条"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“审批”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "sěn pī",
+        "B": "chěn pī",
+        "C": "shěng pī",
+        "D": "shěn pī"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“审批”读作 shěn pī。注意声母、韵母、声调及轻声。",
+      "targetWord": "审批"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“审核”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "shěng hé",
+        "B": "sěn hé",
+        "C": "chěn hé",
+        "D": "shěn hé"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "“审核”读作 shěn hé。注意声母、韵母、声调及轻声。",
+      "targetWord": "审核"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“驳回”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "bá huí",
+        "B": "bó huí",
+        "C": "báo huí",
+        "D": "bí huí"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "“驳回”读作 bó huí。注意声母、韵母、声调及轻声。",
+      "targetWord": "驳回"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“交接”的正确读音。",
+      "text": "【拼音选择】请选择“代班”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biāo jiē",
-        "B": "qiāo jiē",
-        "C": "jiāo jiē",
-        "D": "jiāo qiē"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "“交接”读作 jiāo jiē，本课词义：bàn giao。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“安排”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "ān pái",
-        "B": "āng pái",
-        "C": "ān péi",
-        "D": "bān pái"
+        "A": "dài bān",
+        "B": "bài bān",
+        "C": "dài bāng",
+        "D": "cài bān"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“安排”读作 ān pái，本课词义：sắp xếp。"
+      "explanation": "“代班”读作 dài bān。注意声母、韵母、声调及轻声。",
+      "targetWord": "代班"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“排班”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "pái bān",
+        "B": "péi bān",
+        "C": "bái bān",
+        "D": "pái bāng"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "“排班”读作 pái bān。注意声母、韵母、声调及轻声。",
+      "targetWord": "排班"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“提前”的正确读音。",
+      "text": "【拼音选择】请选择“补休”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tí qiáng",
-        "B": "bí qián",
-        "C": "tí qián",
-        "D": "tí xián"
+        "A": "bǎ xiū",
+        "B": "bǔ qiū",
+        "C": "bǔ xiū",
+        "D": "bǐ xiū"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“提前”读作 tí qián，本课词义：trước, sớm。"
+      "explanation": "“补休”读作 bǔ xiū。注意声母、韵母、声调及轻声。",
+      "targetWord": "补休"
     },
     {
       "id": 11,
@@ -216,7 +226,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“请假”（xin nghỉ）。完整表达：组长我想申请明天下午请假。"
+      "explanation": "应填“请假”（xin nghỉ）。完整表达：组长我想申请明天下午请假。",
+      "targetWord": "请假",
+      "completeSentence": "组长我想申请明天下午请假。"
     },
     {
       "id": 12,
@@ -241,7 +253,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“调班”（đổi ca）。完整表达：我有临时安排可以申请调班吗。"
+      "explanation": "应填“调班”（đổi ca）。完整表达：我有临时安排可以申请调班吗。",
+      "targetWord": "调班",
+      "completeSentence": "我有临时安排可以申请调班吗。"
     },
     {
       "id": 13,
@@ -266,7 +280,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“加班”（tăng ca）。完整表达：请问今天是否需要加班。"
+      "explanation": "应填“加班”（tăng ca）。完整表达：请问今天是否需要加班。",
+      "targetWord": "加班",
+      "completeSentence": "请问今天是否需要加班。"
     },
     {
       "id": 14,
@@ -291,7 +307,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“申请”（đơn xin, đăng ký）。完整表达：这份申请我已经提交了。"
+      "explanation": "应填“申请”（đơn xin, đăng ký）。完整表达：这份申请我已经提交了。",
+      "targetWord": "申请",
+      "completeSentence": "这份申请我已经提交了。"
     },
     {
       "id": 15,
@@ -316,7 +334,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“批准”（phê duyệt）。完整表达：我的请假申请还没有得到批准。"
+      "explanation": "应填“批准”（phê duyệt）。完整表达：我的请假申请还没有得到批准。",
+      "targetWord": "批准",
+      "completeSentence": "我的请假申请还没有得到批准。"
     },
     {
       "id": 16,
@@ -341,7 +361,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“原因”（lý do）。完整表达：我会在申请表上写清楚请假的原因。"
+      "explanation": "应填“原因”（lý do）。完整表达：我会在申请表上写清楚请假的原因。",
+      "targetWord": "原因",
+      "completeSentence": "我会在申请表上写清楚请假的原因。"
     },
     {
       "id": 17,
@@ -366,7 +388,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“时间”（thời gian）。完整表达：麻烦确认一下调班后的上班时间。"
+      "explanation": "应填“时间”（thời gian）。完整表达：麻烦确认一下调班后的上班时间。",
+      "targetWord": "时间",
+      "completeSentence": "麻烦确认一下调班后的上班时间。"
     },
     {
       "id": 18,
@@ -391,7 +415,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“交接”（bàn giao）。完整表达：离开岗位以前我会做好工作交接。"
+      "explanation": "应填“交接”（bàn giao）。完整表达：离开岗位以前我会做好工作交接。",
+      "targetWord": "交接",
+      "completeSentence": "离开岗位以前我会做好工作交接。"
     },
     {
       "id": 19,
@@ -416,7 +442,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“安排”（sắp xếp）。完整表达：这项安排我需要再确认一下。"
+      "explanation": "应填“安排”（sắp xếp）。完整表达：这项安排我需要再确认一下。",
+      "targetWord": "安排",
+      "completeSentence": "这项安排我需要再确认一下。"
     },
     {
       "id": 20,
@@ -441,652 +469,670 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“提前”（trước, sớm）。完整表达：如果需要请假请按照规定提前办理。"
+      "explanation": "应填“提前”（trước, sớm）。完整表达：如果需要请假请按照规定提前办理。",
+      "targetWord": "提前",
+      "completeSentence": "如果需要请假请按照规定提前办理。"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你明天下午不能来，想向组长提出休假申请，应该怎么说？",
-      "pinyin": "nǐ míng tiān xià wǔ bù néng lái ， xiǎng xiàng zǔ zhǎng tí chū xiū jià shēn qǐng ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“请假办理要求”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ qǐng jià bàn lǐ yāo qiú ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我有临时安排可以申请调班吗",
-        "B": "组长我想申请明天下午请假",
-        "C": "请告诉我谁负责请假手续",
-        "D": "我会在申请表上写清楚请假的原因"
+        "A": "我还没有收到关于调班申请的核实结果的资料",
+        "B": "我这次只想核实请假办理要求",
+        "C": "我还没有收到关于请假办理要求的资料",
+        "D": "我还需要进一步了解请假办理要求"
       },
       "optionPinyin": {
-        "A": "wǒ yǒu lín shí ān pái kě yǐ shēn qǐng diào bān ma",
-        "B": "zǔ zhǎng wǒ xiǎng shēn qǐng míng tiān xià wǔ qǐng jià",
-        "C": "qǐng gào sù wǒ shuí fù zé qǐng jià shǒu xù",
-        "D": "wǒ huì zài shēn qǐng biǎo shàng xiě qīng chǔ qǐng jià de yuán yīn"
+        "A": "wǒ hái méi yǒu shōu dào guān yú diào bān shēn qǐng de hé shí jié guǒ de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí qǐng jià bàn lǐ yāo qiú",
+        "C": "wǒ hái méi yǒu shōu dào guān yú qǐng jià bàn lǐ yāo qiú de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě qǐng jià bàn lǐ yāo qiú"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你明天下午不能来，想向组长提出休假申请，应该怎么说？\n符合此任务的表达：组长我想申请明天下午请假。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“请假办理要求”的资料，怎样说明情况？\n合适的表达：我还没有收到关于请假办理要求的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于请假办理要求的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你因临时事情想变换班次，应该怎么问？",
-      "pinyin": "nǐ yīn lín shí shì qing xiǎng biàn huàn bān cì ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“调班申请的核实结果”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ diào bān shēn qǐng de hé shí jié guǒ ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "关于调班申请的核实结果我还需要再核实一下",
-        "B": "我有临时安排可以申请调班吗",
-        "C": "我们先确认休假期间的工作移交再继续沟通",
-        "D": "如果临时加班安排有变化请及时通知我"
+        "A": "我还没有收到关于临时加班安排的资料",
+        "B": "我这次只想核实调班申请的核实结果",
+        "C": "我还没有收到关于调班申请的核实结果的资料",
+        "D": "我还需要进一步了解调班申请的核实结果"
       },
       "optionPinyin": {
-        "A": "guān yú diào bān shēn qǐng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "B": "wǒ yǒu lín shí ān pái kě yǐ shēn qǐng diào bān ma",
-        "C": "wǒ men xiān què rèn xiū jià qī jiān de gōng zuò yí jiāo zài jì xù gōu tōng",
-        "D": "rú guǒ lín shí jiā bān ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ"
+        "A": "wǒ hái méi yǒu shōu dào guān yú lín shí jiā bān ān pái de zī liào",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí diào bān shēn qǐng de hé shí jié guǒ",
+        "C": "wǒ hái méi yǒu shōu dào guān yú diào bān shēn qǐng de hé shí jié guǒ de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě diào bān shēn qǐng de hé shí jié guǒ"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你因临时事情想变换班次，应该怎么问？\n符合此任务的表达：我有临时安排可以申请调班吗。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“调班申请的核实结果”的资料，怎样说明情况？\n合适的表达：我还没有收到关于调班申请的核实结果的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于调班申请的核实结果的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想确认今天是否要延长工作时间，应该怎么问？",
-      "pinyin": "nǐ xiǎng què rèn jīn tiān shì fǒu yào yán cháng gōng zuò shí jiān ， yīng gāi zěn me wèn ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“临时加班安排”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ lín shí jiā bān ān pái ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这项安排我需要再确认一下",
-        "B": "这份申请我已经提交了",
-        "C": "请问今天是否需要加班",
-        "D": "请告诉我谁负责请假手续"
+        "A": "我这次只想核实临时加班安排",
+        "B": "我还需要进一步了解临时加班安排",
+        "C": "我还没有收到关于临时加班安排的资料",
+        "D": "我还没有收到关于请假手续的资料"
       },
       "optionPinyin": {
-        "A": "zhè xiàng ān pái wǒ xū yào zài què rèn yí xià",
-        "B": "zhè fèn shēn qǐng wǒ yǐ jīng tí jiāo le",
-        "C": "qǐng wèn jīn tiān shì fǒu xū yào jiā bān",
-        "D": "qǐng gào sù wǒ shuí fù zé qǐng jià shǒu xù"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí lín shí jiā bān ān pái",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě lín shí jiā bān ān pái",
+        "C": "wǒ hái méi yǒu shōu dào guān yú lín shí jiā bān ān pái de zī liào",
+        "D": "wǒ hái méi yǒu shōu dào guān yú qǐng jià shǒu xù de zī liào"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "交际任务：你想确认今天是否要延长工作时间，应该怎么问？\n符合此任务的表达：请问今天是否需要加班。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“临时加班安排”的资料，怎样说明情况？\n合适的表达：我还没有收到关于临时加班安排的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于临时加班安排的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】主管问你是否递交了书面申请，你已提交，应该怎么说？",
-      "pinyin": "zhǔ guǎn wèn nǐ shì fǒu dì jiāo le shū miàn shēn qǐng ， nǐ yǐ tí jiāo ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“请假手续”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ qǐng jià shǒu xù ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "这份申请我已经提交了",
-        "B": "这项安排我需要再确认一下",
-        "C": "请问今天是否需要加班",
-        "D": "关于调班申请的核实结果我还需要再核实一下"
+        "A": "我这次只想核实请假手续",
+        "B": "我还没有收到关于请假手续的资料",
+        "C": "我还没有收到关于休假期间的工作移交的资料",
+        "D": "我还需要进一步了解请假手续"
       },
       "optionPinyin": {
-        "A": "zhè fèn shēn qǐng wǒ yǐ jīng tí jiāo le",
-        "B": "zhè xiàng ān pái wǒ xū yào zài què rèn yí xià",
-        "C": "qǐng wèn jīn tiān shì fǒu xū yào jiā bān",
-        "D": "guān yú diào bān shēn qǐng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí qǐng jià shǒu xù",
+        "B": "wǒ hái méi yǒu shōu dào guān yú qǐng jià shǒu xù de zī liào",
+        "C": "wǒ hái méi yǒu shōu dào guān yú xiū jià qī jiān de gōng zuò yí jiāo de zī liào",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě qǐng jià shǒu xù"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：主管问你是否递交了书面申请，你已提交，应该怎么说？\n符合此任务的表达：这份申请我已经提交了。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“请假手续”的资料，怎样说明情况？\n合适的表达：我还没有收到关于请假手续的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于请假手续的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】同事问你假期是否确定，你想说明尚未获批，应该怎么说？",
-      "pinyin": "tóng shì wèn nǐ jià qī shì fǒu què dìng ， nǐ xiǎng shuō míng shàng wèi huò pī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你尚未拿到“休假期间的工作移交”的资料，怎样说明情况？",
+      "pinyin": "nǐ shàng wèi ná dào “ xiū jià qī jiān de gōng zuò yí jiāo ” de zī liào ， zěn yàng shuō míng qíng kuàng ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我有临时安排可以申请调班吗",
-        "B": "我们先确认休假期间的工作移交再继续沟通",
-        "C": "我的请假申请还没有得到批准",
-        "D": "关于调班申请的核实结果我还需要再核实一下"
+        "A": "我这次只想核实休假期间的工作移交",
+        "B": "我还没有收到关于休假期间的工作移交的资料",
+        "C": "我还需要进一步了解休假期间的工作移交",
+        "D": "我还没有收到关于请假办理要求的资料"
       },
       "optionPinyin": {
-        "A": "wǒ yǒu lín shí ān pái kě yǐ shēn qǐng diào bān ma",
-        "B": "wǒ men xiān què rèn xiū jià qī jiān de gōng zuò yí jiāo zài jì xù gōu tōng",
-        "C": "wǒ de qǐng jià shēn qǐng hái méi yǒu dé dào pī zhǔn",
-        "D": "guān yú diào bān shēn qǐng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí xiū jià qī jiān de gōng zuò yí jiāo",
+        "B": "wǒ hái méi yǒu shōu dào guān yú xiū jià qī jiān de gōng zuò yí jiāo de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě xiū jià qī jiān de gōng zuò yí jiāo",
+        "D": "wǒ hái méi yǒu shōu dào guān yú qǐng jià bàn lǐ yāo qiú de zī liào"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "交际任务：同事问你假期是否确定，你想说明尚未获批，应该怎么说？\n符合此任务的表达：我的请假申请还没有得到批准。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你尚未拿到“休假期间的工作移交”的资料，怎样说明情况？\n合适的表达：我还没有收到关于休假期间的工作移交的资料。\n语法：还没有＋动词",
+      "completeSentence": "我还没有收到关于休假期间的工作移交的资料",
+      "grammarFocus": "还没有＋动词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想说明会如实填写休假理由，应该怎么说？",
-      "pinyin": "nǐ xiǎng shuō míng huì rú shí tián xiě xiū jià lǐ yóu ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“请假办理要求”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ qǐng jià bàn lǐ yāo qiú ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果需要请假请按照规定提前办理",
-        "B": "我会在申请表上写清楚请假的原因",
-        "C": "关于调班申请的核实结果我还需要再核实一下",
-        "D": "麻烦确认一下调班后的上班时间"
+        "A": "我还没有收到关于请假办理要求的资料",
+        "B": "我还需要进一步了解请假办理要求",
+        "C": "我这次只想核实调班申请的核实结果",
+        "D": "我这次只想核实请假办理要求"
       },
       "optionPinyin": {
-        "A": "rú guǒ xū yào qǐng jià qǐng àn zhào guī dìng tí qián bàn lǐ",
-        "B": "wǒ huì zài shēn qǐng biǎo shàng xiě qīng chǔ qǐng jià de yuán yīn",
-        "C": "guān yú diào bān shēn qǐng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "D": "má fán què rèn yí xià diào bān hòu de shàng bān shí jiān"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想说明会如实填写休假理由，应该怎么说？\n符合此任务的表达：我会在申请表上写清楚请假的原因。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想核实变更班次后的到岗时刻，应该怎么请求？",
-      "pinyin": "nǐ xiǎng hé shí biàn gēng bān cì hòu de dào gǎng shí kè ， yīng gāi zěn me qǐng qiú ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "麻烦确认一下调班后的上班时间",
-        "B": "这份申请我已经提交了",
-        "C": "离开岗位以前我会做好工作交接",
-        "D": "请问今天是否需要加班"
-      },
-      "optionPinyin": {
-        "A": "má fán què rèn yí xià diào bān hòu de shàng bān shí jiān",
-        "B": "zhè fèn shēn qǐng wǒ yǐ jīng tí jiāo le",
-        "C": "lí kāi gǎng wèi yǐ qián wǒ huì zuò hǎo gōng zuò jiāo jiē",
-        "D": "qǐng wèn jīn tiān shì fǒu xū yào jiā bān"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想核实变更班次后的到岗时刻，应该怎么请求？\n符合此任务的表达：麻烦确认一下调班后的上班时间。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想向组长保证离岗前会移交工作，应该怎么说？",
-      "pinyin": "nǐ xiǎng xiàng zǔ zhǎng bǎo zhèng lí gǎng qián huì yí jiāo gōng zuò ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "这项安排我需要再确认一下",
-        "B": "如果临时加班安排有变化请及时通知我",
-        "C": "离开岗位以前我会做好工作交接",
-        "D": "我会在申请表上写清楚请假的原因"
-      },
-      "optionPinyin": {
-        "A": "zhè xiàng ān pái wǒ xū yào zài què rèn yí xià",
-        "B": "rú guǒ lín shí jiā bān ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "C": "lí kāi gǎng wèi yǐ qián wǒ huì zuò hǎo gōng zuò jiāo jiē",
-        "D": "wǒ huì zài shēn qǐng biǎo shàng xiě qīng chǔ qǐng jià de yuán yīn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想向组长保证离岗前会移交工作，应该怎么说？\n符合此任务的表达：离开岗位以前我会做好工作交接。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 29,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】同事询问是否接受临时工作安排，你还需要核实，应该怎么说？",
-      "pinyin": "tóng shì xún wèn shì fǒu jiē shòu lín shí gōng zuò ān pái ， nǐ hái xū yào hé shí ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请问今天是否需要加班",
-        "B": "这项安排我需要再确认一下",
-        "C": "麻烦确认一下调班后的上班时间",
-        "D": "离开岗位以前我会做好工作交接"
-      },
-      "optionPinyin": {
-        "A": "qǐng wèn jīn tiān shì fǒu xū yào jiā bān",
-        "B": "zhè xiàng ān pái wǒ xū yào zài què rèn yí xià",
-        "C": "má fán què rèn yí xià diào bān hòu de shàng bān shí jiān",
-        "D": "lí kāi gǎng wèi yǐ qián wǒ huì zuò hǎo gōng zuò jiāo jiē"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：同事询问是否接受临时工作安排，你还需要核实，应该怎么说？\n符合此任务的表达：这项安排我需要再确认一下。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 30,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想提醒同事按厂内规定事先申请休假，应该怎么说？",
-      "pinyin": "nǐ xiǎng tí xǐng tóng shì àn chǎng nèi guī dìng shì xiān shēn qǐng xiū jià ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请问今天是否需要加班",
-        "B": "如果需要请假请按照规定提前办理",
-        "C": "我有临时安排可以申请调班吗",
-        "D": "关于调班申请的核实结果我还需要再核实一下"
-      },
-      "optionPinyin": {
-        "A": "qǐng wèn jīn tiān shì fǒu xū yào jiā bān",
-        "B": "rú guǒ xū yào qǐng jià qǐng àn zhào guī dìng tí qián bàn lǐ",
-        "C": "wǒ yǒu lín shí ān pái kě yǐ shēn qǐng diào bān ma",
-        "D": "guān yú diào bān shēn qǐng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想提醒同事按厂内规定事先申请休假，应该怎么说？\n符合此任务的表达：如果需要请假请按照规定提前办理。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 31,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你想请同事核实“请假办理要求”的具体要求，应该怎么说？",
-      "pinyin": "nǐ xiǎng qǐng tóng shì hé shí “ qǐng jià bàn lǐ yāo qiú ” de jù tǐ yāo qiú ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "我有临时安排可以申请调班吗",
-        "B": "关于调班申请的核实结果我还需要再核实一下",
-        "C": "请帮我确认一下请假办理要求的具体要求",
-        "D": "我会在申请表上写清楚请假的原因"
-      },
-      "optionPinyin": {
-        "A": "wǒ yǒu lín shí ān pái kě yǐ shēn qǐng diào bān ma",
-        "B": "guān yú diào bān shēn qǐng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià",
-        "C": "qǐng bāng wǒ què rèn yí xià qǐng jià bàn lǐ yāo qiú de jù tǐ yāo qiú",
-        "D": "wǒ huì zài shēn qǐng biǎo shàng xiě qīng chǔ qǐng jià de yuán yīn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "交际任务：你想请同事核实“请假办理要求”的具体要求，应该怎么说？\n符合此任务的表达：请帮我确认一下请假办理要求的具体要求。其他选项未直接完成题目指定的交际目的。"
-    },
-    {
-      "id": 32,
-      "type": "choice",
-      "section": "情境应答",
-      "text": "【情境应答】你尚未核实“调班申请的核实结果”，需要明确表示仍待核查，应该怎么说？",
-      "pinyin": "nǐ shàng wèi hé shí “ diào bān shēn qǐng de hé shí jié guǒ ”， xū yào míng què biǎo shì réng dài hé chá ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
-      "options": {
-        "A": "请告诉我谁负责请假手续",
-        "B": "这项安排我需要再确认一下",
-        "C": "请帮我确认一下请假办理要求的具体要求",
-        "D": "关于调班申请的核实结果我还需要再核实一下"
-      },
-      "optionPinyin": {
-        "A": "qǐng gào sù wǒ shuí fù zé qǐng jià shǒu xù",
-        "B": "zhè xiàng ān pái wǒ xū yào zài què rèn yí xià",
-        "C": "qǐng bāng wǒ què rèn yí xià qǐng jià bàn lǐ yāo qiú de jù tǐ yāo qiú",
-        "D": "guān yú diào bān shēn qǐng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià"
+        "A": "wǒ hái méi yǒu shōu dào guān yú qǐng jià bàn lǐ yāo qiú de zī liào",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě qǐng jià bàn lǐ yāo qiú",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí diào bān shēn qǐng de hé shí jié guǒ",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí qǐng jià bàn lǐ yāo qiú"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你尚未核实“调班申请的核实结果”，需要明确表示仍待核查，应该怎么说？\n符合此任务的表达：关于调班申请的核实结果我还需要再核实一下。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“请假办理要求”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实请假办理要求。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实请假办理要求",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
-      "id": 33,
+      "id": 27,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望“临时加班安排”变化时及时获知，应该怎么说？",
-      "pinyin": "nǐ xī wàng “ lín shí jiā bān ān pái ” biàn huà shí jí shí huò zhī ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“调班申请的核实结果”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ diào bān shēn qǐng de hé shí jié guǒ ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "如果临时加班安排有变化请及时通知我",
-        "B": "组长我想申请明天下午请假",
-        "C": "麻烦确认一下调班后的上班时间",
-        "D": "请帮我确认一下请假办理要求的具体要求"
+        "A": "我这次只想核实临时加班安排",
+        "B": "我还没有收到关于调班申请的核实结果的资料",
+        "C": "我还需要进一步了解调班申请的核实结果",
+        "D": "我这次只想核实调班申请的核实结果"
       },
       "optionPinyin": {
-        "A": "rú guǒ lín shí jiā bān ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ",
-        "B": "zǔ zhǎng wǒ xiǎng shēn qǐng míng tiān xià wǔ qǐng jià",
-        "C": "má fán què rèn yí xià diào bān hòu de shàng bān shí jiān",
-        "D": "qǐng bāng wǒ què rèn yí xià qǐng jià bàn lǐ yāo qiú de jù tǐ yāo qiú"
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí lín shí jiā bān ān pái",
+        "B": "wǒ hái méi yǒu shōu dào guān yú diào bān shēn qǐng de hé shí jié guǒ de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě diào bān shēn qǐng de hé shí jié guǒ",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí diào bān shēn qǐng de hé shí jié guǒ"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望“临时加班安排”变化时及时获知，应该怎么说？\n符合此任务的表达：如果临时加班安排有变化请及时通知我。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“调班申请的核实结果”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实调班申请的核实结果。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实调班申请的核实结果",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
-      "id": 34,
+      "id": 28,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你想询问由谁负责“请假手续”，应该怎么说？",
-      "pinyin": "nǐ xiǎng xún wèn yóu shuí fù zé “ qǐng jià shǒu xù ”， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“临时加班安排”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ lín shí jiā bān ān pái ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我会在申请表上写清楚请假的原因",
-        "B": "请告诉我谁负责请假手续",
-        "C": "组长我想申请明天下午请假",
-        "D": "如果需要请假请按照规定提前办理"
+        "A": "我还需要进一步了解临时加班安排",
+        "B": "我这次只想核实临时加班安排",
+        "C": "我这次只想核实请假手续",
+        "D": "我还没有收到关于临时加班安排的资料"
       },
       "optionPinyin": {
-        "A": "wǒ huì zài shēn qǐng biǎo shàng xiě qīng chǔ qǐng jià de yuán yīn",
-        "B": "qǐng gào sù wǒ shuí fù zé qǐng jià shǒu xù",
-        "C": "zǔ zhǎng wǒ xiǎng shēn qǐng míng tiān xià wǔ qǐng jià",
-        "D": "rú guǒ xū yào qǐng jià qǐng àn zhào guī dìng tí qián bàn lǐ"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě lín shí jiā bān ān pái",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí lín shí jiā bān ān pái",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí qǐng jià shǒu xù",
+        "D": "wǒ hái méi yǒu shōu dào guān yú lín shí jiā bān ān pái de zī liào"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "交际任务：你想询问由谁负责“请假手续”，应该怎么说？\n符合此任务的表达：请告诉我谁负责请假手续。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：你只想核实“临时加班安排”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实临时加班安排。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实临时加班安排",
+      "grammarFocus": "只＋动词：限定范围"
     },
     {
-      "id": 35,
+      "id": 29,
       "type": "choice",
       "section": "情境应答",
-      "text": "【情境应答】你希望先确认“休假期间的工作移交”再继续讨论，应该怎么说？",
-      "pinyin": "nǐ xī wàng xiān què rèn “ xiū jià qī jiān de gōng zuò yí jiāo ” zài jì xù tǎo lùn ， yīng gāi zěn me shuō ？",
-      "vietnamese": "Chọn cách nói đúng nhất với mục đích giao tiếp đã nêu trong tình huống tại nhà máy điện tử.",
+      "text": "【情境应答】你只想核实“请假手续”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ qǐng jià shǒu xù ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
       "options": {
-        "A": "我们先确认休假期间的工作移交再继续沟通",
-        "B": "这项安排我需要再确认一下",
-        "C": "我有临时安排可以申请调班吗",
-        "D": "这份申请我已经提交了"
+        "A": "我还需要进一步了解请假手续",
+        "B": "我这次只想核实请假手续",
+        "C": "我这次只想核实休假期间的工作移交",
+        "D": "我还没有收到关于请假手续的资料"
       },
       "optionPinyin": {
-        "A": "wǒ men xiān què rèn xiū jià qī jiān de gōng zuò yí jiāo zài jì xù gōu tōng",
-        "B": "zhè xiàng ān pái wǒ xū yào zài què rèn yí xià",
-        "C": "wǒ yǒu lín shí ān pái kě yǐ shēn qǐng diào bān ma",
-        "D": "zhè fèn shēn qǐng wǒ yǐ jīng tí jiāo le"
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě qǐng jià shǒu xù",
+        "B": "wǒ zhè cì zhǐ xiǎng hé shí qǐng jià shǒu xù",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí xiū jià qī jiān de gōng zuò yí jiāo",
+        "D": "wǒ hái méi yǒu shōu dào guān yú qǐng jià shǒu xù de zī liào"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“请假手续”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实请假手续。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实请假手续",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】你只想核实“休假期间的工作移交”，怎样礼貌地限定本次沟通范围？",
+      "pinyin": "nǐ zhǐ xiǎng hé shí “ xiū jià qī jiān de gōng zuò yí jiāo ”， zěn yàng lǐ mào dì xiàn dìng běn cì gōu tōng fàn wéi ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实请假办理要求",
+        "B": "我还需要进一步了解休假期间的工作移交",
+        "C": "我这次只想核实休假期间的工作移交",
+        "D": "我还没有收到关于休假期间的工作移交的资料"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí qǐng jià bàn lǐ yāo qiú",
+        "B": "wǒ hái xū yào jìn yí bù liǎo jiě xiū jià qī jiān de gōng zuò yí jiāo",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí xiū jià qī jiān de gōng zuò yí jiāo",
+        "D": "wǒ hái méi yǒu shōu dào guān yú xiū jià qī jiān de gōng zuò yí jiāo de zī liào"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：你只想核实“休假期间的工作移交”，怎样礼貌地限定本次沟通范围？\n合适的表达：我这次只想核实休假期间的工作移交。\n语法：只＋动词：限定范围",
+      "completeSentence": "我这次只想核实休假期间的工作移交",
+      "grammarFocus": "只＋动词：限定范围"
+    },
+    {
+      "id": 31,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“请假办理要求”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ qǐng jià bàn lǐ yāo qiú ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我这次只想核实请假办理要求",
+        "B": "我还没有收到关于请假办理要求的资料",
+        "C": "我还需要进一步了解请假办理要求",
+        "D": "我还需要进一步了解调班申请的核实结果"
+      },
+      "optionPinyin": {
+        "A": "wǒ zhè cì zhǐ xiǎng hé shí qǐng jià bàn lǐ yāo qiú",
+        "B": "wǒ hái méi yǒu shōu dào guān yú qǐng jià bàn lǐ yāo qiú de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě qǐng jià bàn lǐ yāo qiú",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě diào bān shēn qǐng de hé shí jié guǒ"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“请假办理要求”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解请假办理要求。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解请假办理要求",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 32,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“调班申请的核实结果”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ diào bān shēn qǐng de hé shí jié guǒ ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解调班申请的核实结果",
+        "B": "我还没有收到关于调班申请的核实结果的资料",
+        "C": "我这次只想核实调班申请的核实结果",
+        "D": "我还需要进一步了解临时加班安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě diào bān shēn qǐng de hé shí jié guǒ",
+        "B": "wǒ hái méi yǒu shōu dào guān yú diào bān shēn qǐng de hé shí jié guǒ de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí diào bān shēn qǐng de hé shí jié guǒ",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě lín shí jiā bān ān pái"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "交际任务：你希望先确认“休假期间的工作移交”再继续讨论，应该怎么说？\n符合此任务的表达：我们先确认休假期间的工作移交再继续沟通。其他选项未直接完成题目指定的交际目的。"
+      "explanation": "本题要求：对方问你是否还关心“调班申请的核实结果”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解调班申请的核实结果。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解调班申请的核实结果",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 33,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“临时加班安排”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ lín shí jiā bān ān pái ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解请假手续",
+        "B": "我还没有收到关于临时加班安排的资料",
+        "C": "我还需要进一步了解临时加班安排",
+        "D": "我这次只想核实临时加班安排"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě qǐng jià shǒu xù",
+        "B": "wǒ hái méi yǒu shōu dào guān yú lín shí jiā bān ān pái de zī liào",
+        "C": "wǒ hái xū yào jìn yí bù liǎo jiě lín shí jiā bān ān pái",
+        "D": "wǒ zhè cì zhǐ xiǎng hé shí lín shí jiā bān ān pái"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“临时加班安排”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解临时加班安排。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解临时加班安排",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 34,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“请假手续”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ qǐng jià shǒu xù ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解请假手续",
+        "B": "我还没有收到关于请假手续的资料",
+        "C": "我这次只想核实请假手续",
+        "D": "我还需要进一步了解休假期间的工作移交"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě qǐng jià shǒu xù",
+        "B": "wǒ hái méi yǒu shōu dào guān yú qǐng jià shǒu xù de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí qǐng jià shǒu xù",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě xiū jià qī jiān de gōng zuò yí jiāo"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“请假手续”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解请假手续。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解请假手续",
+      "grammarFocus": "还需要＋动词"
+    },
+    {
+      "id": 35,
+      "type": "choice",
+      "section": "情境应答",
+      "text": "【情境应答】对方问你是否还关心“休假期间的工作移交”，你想表示还需要继续了解，怎样回答？",
+      "pinyin": "duì fāng wèn nǐ shì fǒu hái guān xīn “ xiū jià qī jiān de gōng zuò yí jiāo ”， nǐ xiǎng biǎo shì hái xū yào jì xù liǎo jiě ， zěn yàng huí dá ？",
+      "vietnamese": "Chọn câu đáp ứng đúng tình huống và đúng chủ đề được nêu.",
+      "options": {
+        "A": "我还需要进一步了解休假期间的工作移交",
+        "B": "我还没有收到关于休假期间的工作移交的资料",
+        "C": "我这次只想核实休假期间的工作移交",
+        "D": "我还需要进一步了解请假办理要求"
+      },
+      "optionPinyin": {
+        "A": "wǒ hái xū yào jìn yí bù liǎo jiě xiū jià qī jiān de gōng zuò yí jiāo",
+        "B": "wǒ hái méi yǒu shōu dào guān yú xiū jià qī jiān de gōng zuò yí jiāo de zī liào",
+        "C": "wǒ zhè cì zhǐ xiǎng hé shí xiū jià qī jiān de gōng zuò yí jiāo",
+        "D": "wǒ hái xū yào jìn yí bù liǎo jiě qǐng jià bàn lǐ yāo qiú"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "本题要求：对方问你是否还关心“休假期间的工作移交”，你想表示还需要继续了解，怎样回答？\n合适的表达：我还需要进一步了解休假期间的工作移交。\n语法：还需要＋动词",
+      "completeSentence": "我还需要进一步了解休假期间的工作移交",
+      "grammarFocus": "还需要＋动词"
     },
     {
       "id": 36,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 组长 / 想申请 / 明天下午请假",
-      "pinyin": "wǒ / zǔ zhǎng / xiǎng shēn qǐng / míng tiān xià wǔ qǐng jià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n关于请假办理要求的说明 / 把 / 发给我 / 请",
+      "pinyin": "guān yú qǐng jià bàn lǐ yāo qiú de shuō míng / bǎ / fā gěi wǒ / qǐng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "组长我想申请明天下午请假",
-        "组长我想申请明天下午请假。",
-        "组长我想申请明天下午请假.",
-        "组长我想申请明天下午请假？",
-        "组长我想申请明天下午请假?"
+        "请把关于请假办理要求的说明发给我。",
+        "请把关于请假办理要求的说明发给我",
+        "请把关于请假办理要求的说明发给我."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：组长我想申请明天下午请假。\nzǔ zhǎng wǒ xiǎng shēn qǐng míng tiān xià wǔ qǐng jià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：请把关于请假办理要求的说明发给我。\nqǐng bǎ guān yú qǐng jià bàn lǐ yāo qiú de shuō míng fā gěi wǒ\n语法与搭配：把＋宾语＋动作＋接收对象",
+      "grammarFocus": "把＋宾语＋动作＋接收对象"
     },
     {
       "id": 37,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n可以 / 有临时安排 / 申请调班吗 / 我",
-      "pinyin": "kě yǐ / yǒu lín shí ān pái / shēn qǐng diào bān ma / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n核对过 / 已经 / 调班申请的核实结果 / 我们",
+      "pinyin": "hé duì guò / yǐ jīng / diào bān shēn qǐng de hé shí jié guǒ / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我有临时安排可以申请调班吗",
-        "我有临时安排可以申请调班吗。",
-        "我有临时安排可以申请调班吗.",
-        "我有临时安排可以申请调班吗？",
-        "我有临时安排可以申请调班吗?"
+        "我们已经核对过调班申请的核实结果。",
+        "我们已经核对过调班申请的核实结果",
+        "我们已经核对过调班申请的核实结果."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：我有临时安排可以申请调班吗。\nwǒ yǒu lín shí ān pái kě yǐ shēn qǐng diào bān ma。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 16,
+      "explanation": "参考句子：我们已经核对过调班申请的核实结果。\nwǒ men yǐ jīng hé duì guò diào bān shēn qǐng de hé shí jié guǒ\n语法与搭配：已经＋动词＋过：已完成的核对",
+      "grammarFocus": "已经＋动词＋过：已完成的核对"
     },
     {
       "id": 38,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n今天 / 是否 / 请问 / 需要加班",
-      "pinyin": "jīn tiān / shì fǒu / qǐng wèn / xū yào jiā bān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n才能解释清楚 / 只有 / 先了解临时加班安排 / 我们",
+      "pinyin": "cái néng jiě shì qīng chǔ / zhǐ yǒu / xiān liǎo jiě lín shí jiā bān ān pái / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问今天是否需要加班",
-        "请问今天是否需要加班。",
-        "请问今天是否需要加班.",
-        "请问今天是否需要加班？",
-        "请问今天是否需要加班?"
+        "只有先了解临时加班安排我们才能解释清楚。",
+        "只有先了解临时加班安排我们才能解释清楚",
+        "只有先了解临时加班安排我们才能解释清楚."
       ],
       "points": 2,
-      "hanziCount": 10,
-      "explanation": "参考表达：请问今天是否需要加班。\nqǐng wèn jīn tiān shì fǒu xū yào jiā bān。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：只有先了解临时加班安排我们才能解释清楚。\nzhǐ yǒu xiān liǎo jiě lín shí jiā bān ān pái wǒ men cái néng jiě shì qīng chǔ\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 39,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n已经 / 提交了 / 我 / 这份申请",
-      "pinyin": "yǐ jīng / tí jiāo le / wǒ / zhè fèn shēn qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还想知道 / 具体由谁负责 / 不仅想了解请假手续 / 我",
+      "pinyin": "hái xiǎng zhī dào / jù tǐ yóu shuí fù zé / bù jǐn xiǎng liǎo jiě qǐng jià shǒu xù / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这份申请我已经提交了",
-        "这份申请我已经提交了。",
-        "这份申请我已经提交了.",
-        "这份申请我已经提交了？",
-        "这份申请我已经提交了?"
+        "我不仅想了解请假手续还想知道具体由谁负责。",
+        "我不仅想了解请假手续还想知道具体由谁负责",
+        "我不仅想了解请假手续还想知道具体由谁负责."
       ],
       "points": 2,
-      "hanziCount": 10,
-      "explanation": "参考表达：这份申请我已经提交了。\nzhè fèn shēn qǐng wǒ yǐ jīng tí jiāo le。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 20,
+      "explanation": "参考句子：我不仅想了解请假手续还想知道具体由谁负责。\nwǒ bù jǐn xiǎng liǎo jiě qǐng jià shǒu xù hái xiǎng zhī dào jù tǐ yóu shuí fù zé\n语法与搭配：不仅……还……：递进",
+      "grammarFocus": "不仅……还……：递进"
     },
     {
       "id": 40,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n得到 / 还没有 / 批准 / 我的请假申请",
-      "pinyin": "dé dào / hái méi yǒu / pī zhǔn / wǒ de qǐng jià shēn qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n先准备好相关记录 / 请 / 之前 / 讨论休假期间的工作移交",
+      "pinyin": "xiān zhǔn bèi hǎo xiāng guān jì lù / qǐng / zhī qián / tǎo lùn xiū jià qī jiān de gōng zuò yí jiāo",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我的请假申请还没有得到批准",
-        "我的请假申请还没有得到批准。",
-        "我的请假申请还没有得到批准.",
-        "我的请假申请还没有得到批准？",
-        "我的请假申请还没有得到批准?"
+        "讨论休假期间的工作移交之前请先准备好相关记录。",
+        "讨论休假期间的工作移交之前请先准备好相关记录",
+        "讨论休假期间的工作移交之前请先准备好相关记录."
       ],
       "points": 2,
-      "hanziCount": 13,
-      "explanation": "参考表达：我的请假申请还没有得到批准。\nwǒ de qǐng jià shēn qǐng hái méi yǒu dé dào pī zhǔn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 22,
+      "explanation": "参考句子：讨论休假期间的工作移交之前请先准备好相关记录。\ntǎo lùn xiū jià qī jiān de gōng zuò yí jiāo zhī qián qǐng xiān zhǔn bèi hǎo xiāng guān jì lù\n语法与搭配：……之前；先；结果补语",
+      "grammarFocus": "……之前；先；结果补语"
     },
     {
       "id": 41,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 请假的原因 / 写清楚 / 会在申请表上",
-      "pinyin": "wǒ / qǐng jià de yuán yīn / xiě qīng chǔ / huì zài shēn qǐng biǎo shàng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有一个问题 / 关于请假办理要求 / 想请教您 / 我",
+      "pinyin": "yǒu yí gè wèn tí / guān yú qǐng jià bàn lǐ yāo qiú / xiǎng qǐng jiào nín / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我会在申请表上写清楚请假的原因",
-        "我会在申请表上写清楚请假的原因。",
-        "我会在申请表上写清楚请假的原因.",
-        "我会在申请表上写清楚请假的原因？",
-        "我会在申请表上写清楚请假的原因?"
+        "关于请假办理要求我有一个问题想请教您。",
+        "关于请假办理要求我有一个问题想请教您",
+        "关于请假办理要求我有一个问题想请教您."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：我会在申请表上写清楚请假的原因。\nwǒ huì zài shēn qǐng biǎo shàng xiě qīng chǔ qǐng jià de yuán yīn。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：关于请假办理要求我有一个问题想请教您。\nguān yú qǐng jià bàn lǐ yāo qiú wǒ yǒu yí gè wèn tí xiǎng qǐng jiào nín\n语法与搭配：关于＋话题；想＋动词",
+      "grammarFocus": "关于＋话题；想＋动词"
     },
     {
       "id": 42,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n确认一下 / 麻烦 / 上班时间 / 调班后的",
-      "pinyin": "què rèn yí xià / má fán / shàng bān shí jiān / diào bān hòu de",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n如果 / 就 / 你还不清楚调班申请的核实结果 / 先向负责人询问",
+      "pinyin": "rú guǒ / jiù / nǐ hái bù qīng chǔ diào bān shēn qǐng de hé shí jié guǒ / xiān xiàng fù zé rén xún wèn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦确认一下调班后的上班时间",
-        "麻烦确认一下调班后的上班时间。",
-        "麻烦确认一下调班后的上班时间.",
-        "麻烦确认一下调班后的上班时间？",
-        "麻烦确认一下调班后的上班时间?"
+        "如果你还不清楚调班申请的核实结果就先向负责人询问。",
+        "如果你还不清楚调班申请的核实结果就先向负责人询问",
+        "如果你还不清楚调班申请的核实结果就先向负责人询问."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：麻烦确认一下调班后的上班时间。\nmá fán què rèn yí xià diào bān hòu de shàng bān shí jiān。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：如果你还不清楚调班申请的核实结果就先向负责人询问。\nrú guǒ nǐ hái bù qīng chǔ diào bān shēn qǐng de hé shí jié guǒ jiù xiān xiàng fù zé rén xún wèn\n语法与搭配：如果……就……：假设",
+      "grammarFocus": "如果……就……：假设"
     },
     {
       "id": 43,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n离开岗位以前 / 我 / 做好工作交接 / 会",
-      "pinyin": "lí kāi gǎng wèi yǐ qián / wǒ / zuò hǎo gōng zuò jiāo jiē / huì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还需要核实细节 / 虽然 / 我们已经讨论过临时加班安排 / 但是",
+      "pinyin": "hái xū yào hé shí xì jié / suī rán / wǒ men yǐ jīng tǎo lùn guò lín shí jiā bān ān pái / dàn shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "离开岗位以前我会做好工作交接",
-        "离开岗位以前我会做好工作交接。",
-        "离开岗位以前我会做好工作交接.",
-        "离开岗位以前我会做好工作交接？",
-        "离开岗位以前我会做好工作交接?"
+        "虽然我们已经讨论过临时加班安排但是还需要核实细节。",
+        "虽然我们已经讨论过临时加班安排但是还需要核实细节",
+        "虽然我们已经讨论过临时加班安排但是还需要核实细节."
       ],
       "points": 2,
-      "hanziCount": 14,
-      "explanation": "参考表达：离开岗位以前我会做好工作交接。\nlí kāi gǎng wèi yǐ qián wǒ huì zuò hǎo gōng zuò jiāo jiē。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 24,
+      "explanation": "参考句子：虽然我们已经讨论过临时加班安排但是还需要核实细节。\nsuī rán wǒ men yǐ jīng tǎo lùn guò lín shí jiā bān ān pái dàn shì hái xū yào hé shí xì jié\n语法与搭配：虽然……但是……：转折",
+      "grammarFocus": "虽然……但是……：转折"
     },
     {
       "id": 44,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 我 / 这项安排 / 再确认一下",
-      "pinyin": "xū yào / wǒ / zhè xiàng ān pái / zài què rèn yí xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n不如 / 与其 / 查阅相关文件 / 反复猜测请假手续",
+      "pinyin": "bù rú / yǔ qí / chá yuè xiāng guān wén jiàn / fǎn fù cāi cè qǐng jià shǒu xù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这项安排我需要再确认一下",
-        "这项安排我需要再确认一下。",
-        "这项安排我需要再确认一下.",
-        "这项安排我需要再确认一下？",
-        "这项安排我需要再确认一下?"
+        "与其反复猜测请假手续不如查阅相关文件。",
+        "与其反复猜测请假手续不如查阅相关文件",
+        "与其反复猜测请假手续不如查阅相关文件."
       ],
       "points": 2,
-      "hanziCount": 12,
-      "explanation": "参考表达：这项安排我需要再确认一下。\nzhè xiàng ān pái wǒ xū yào zài què rèn yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 18,
+      "explanation": "参考句子：与其反复猜测请假手续不如查阅相关文件。\nyǔ qí fǎn fù cāi cè qǐng jià shǒu xù bù rú chá yuè xiāng guān wén jiàn\n语法与搭配：与其……不如……：建议",
+      "grammarFocus": "与其……不如……：建议"
     },
     {
       "id": 45,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n提前办理 / 按照规定 / 如果需要请假 / 请",
-      "pinyin": "tí qián bàn lǐ / àn zhào guī dìng / rú guǒ xū yào qǐng jià / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n重新整理了资料 / 准确说明休假期间的工作移交 / 为了 / 我",
+      "pinyin": "chóng xīn zhěng lǐ le zī liào / zhǔn què shuō míng xiū jià qī jiān de gōng zuò yí jiāo / wèi le / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果需要请假请按照规定提前办理",
-        "如果需要请假请按照规定提前办理。",
-        "如果需要请假请按照规定提前办理.",
-        "如果需要请假请按照规定提前办理？",
-        "如果需要请假请按照规定提前办理?"
+        "为了准确说明休假期间的工作移交我重新整理了资料。",
+        "为了准确说明休假期间的工作移交我重新整理了资料",
+        "为了准确说明休假期间的工作移交我重新整理了资料."
       ],
       "points": 2,
-      "hanziCount": 15,
-      "explanation": "参考表达：如果需要请假请按照规定提前办理。\nrú guǒ xū yào qǐng jià qǐng àn zhào guī dìng tí qián bàn lǐ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：为了准确说明休假期间的工作移交我重新整理了资料。\nwèi le zhǔn què shuō míng xiū jià qī jiān de gōng zuò yí jiāo wǒ chóng xīn zhěng lǐ le zī liào\n语法与搭配：为了＋目的＋行动",
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 46,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n帮我确认一下 / 请假办理要求 / 的具体要求 / 请",
-      "pinyin": "bāng wǒ què rèn yí xià / qǐng jià bàn lǐ yāo qiú / de jù tǐ yāo qiú / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n可以提出来 / 对请假办理要求 / 有疑问的话 / 大家",
+      "pinyin": "kě yǐ tí chū lái / duì qǐng jià bàn lǐ yāo qiú / yǒu yí wèn de huà / dà jiā",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请帮我确认一下请假办理要求的具体要求",
-        "请帮我确认一下请假办理要求的具体要求。",
-        "请帮我确认一下请假办理要求的具体要求.",
-        "请帮我确认一下请假办理要求的具体要求？",
-        "请帮我确认一下请假办理要求的具体要求?"
+        "大家对请假办理要求有疑问的话可以提出来。",
+        "大家对请假办理要求有疑问的话可以提出来",
+        "大家对请假办理要求有疑问的话可以提出来."
       ],
       "points": 2,
-      "hanziCount": 18,
-      "explanation": "参考表达：请帮我确认一下请假办理要求的具体要求。\nqǐng bāng wǒ què rèn yí xià qǐng jià bàn lǐ yāo qiú de jù tǐ yāo qiú。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 19,
+      "explanation": "参考句子：大家对请假办理要求有疑问的话可以提出来。\ndà jiā duì qǐng jià bàn lǐ yāo qiú yǒu yí wèn de huà kě yǐ tí chū lái\n语法与搭配：对＋话题；……的话；趋向补语",
+      "grammarFocus": "对＋话题；……的话；趋向补语"
     },
     {
       "id": 47,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n关于 / 调班申请的核实结果 / 再核实一下 / 我 / 还需要",
-      "pinyin": "guān yú / diào bān shēn qǐng de hé shí jié guǒ / zài hé shí yí xià / wǒ / hái xū yào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n回答大家的问题 / 先说明调班申请的核实结果 / 请 / 再",
+      "pinyin": "huí dá dà jiā de wèn tí / xiān shuō míng diào bān shēn qǐng de hé shí jié guǒ / qǐng / zài",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "关于调班申请的核实结果我还需要再核实一下",
-        "关于调班申请的核实结果我还需要再核实一下。",
-        "关于调班申请的核实结果我还需要再核实一下.",
-        "关于调班申请的核实结果我还需要再核实一下？",
-        "关于调班申请的核实结果我还需要再核实一下?"
+        "请先说明调班申请的核实结果再回答大家的问题。",
+        "请先说明调班申请的核实结果再回答大家的问题",
+        "请先说明调班申请的核实结果再回答大家的问题."
       ],
       "points": 2,
-      "hanziCount": 20,
-      "explanation": "参考表达：关于调班申请的核实结果我还需要再核实一下。\nguān yú diào bān shēn qǐng de hé shí jié guǒ wǒ hái xū yào zài hé shí yí xià。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 21,
+      "explanation": "参考句子：请先说明调班申请的核实结果再回答大家的问题。\nqǐng xiān shuō míng diào bān shēn qǐng de hé shí jié guǒ zài huí dá dà jiā de wèn tí\n语法与搭配：先……再……：顺序",
+      "grammarFocus": "先……再……：顺序"
     },
     {
       "id": 48,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n有变化 / 临时加班安排 / 及时通知我 / 请 / 如果",
-      "pinyin": "yǒu biàn huà / lín shí jiā bān ān pái / jí shí tōng zhī wǒ / qǐng / rú guǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n无论 / 应该以有效文件为依据 / 都 / 谁来说明临时加班安排",
+      "pinyin": "wú lùn / yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù / dōu / shuí lái shuō míng lín shí jiā bān ān pái",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果临时加班安排有变化请及时通知我",
-        "如果临时加班安排有变化请及时通知我。",
-        "如果临时加班安排有变化请及时通知我.",
-        "如果临时加班安排有变化请及时通知我？",
-        "如果临时加班安排有变化请及时通知我?"
+        "无论谁来说明临时加班安排都应该以有效文件为依据。",
+        "无论谁来说明临时加班安排都应该以有效文件为依据",
+        "无论谁来说明临时加班安排都应该以有效文件为依据."
       ],
       "points": 2,
-      "hanziCount": 17,
-      "explanation": "参考表达：如果临时加班安排有变化请及时通知我。\nrú guǒ lín shí jiā bān ān pái yǒu biàn huà qǐng jí shí tōng zhī wǒ。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：无论谁来说明临时加班安排都应该以有效文件为依据。\nwú lùn shuí lái shuō míng lín shí jiā bān ān pái dōu yīng gāi yǐ yǒu xiào wén jiàn wèi yī jù\n语法与搭配：无论……都……：无条件",
+      "grammarFocus": "无论……都……：无条件"
     },
     {
       "id": 49,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n谁 / 告诉我 / 负责 / 请假手续 / 请",
-      "pinyin": "shuí / gào sù wǒ / fù zé / qǐng jià shǒu xù / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n逐项记录清楚 / 涉及的问题 / 请假手续 / 需要",
+      "pinyin": "zhú xiàng jì lù qīng chǔ / shè jí de wèn tí / qǐng jià shǒu xù / xū yào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请告诉我谁负责请假手续",
-        "请告诉我谁负责请假手续。",
-        "请告诉我谁负责请假手续.",
-        "请告诉我谁负责请假手续？",
-        "请告诉我谁负责请假手续?"
+        "请假手续涉及的问题需要逐项记录清楚。",
+        "请假手续涉及的问题需要逐项记录清楚",
+        "请假手续涉及的问题需要逐项记录清楚."
       ],
       "points": 2,
-      "hanziCount": 11,
-      "explanation": "参考表达：请告诉我谁负责请假手续。\nqǐng gào sù wǒ shuí fù zé qǐng jià shǒu xù。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 17,
+      "explanation": "参考句子：请假手续涉及的问题需要逐项记录清楚。\nqǐng jià shǒu xù shè jí de wèn tí xū yào zhú xiàng jì lù qīng chǔ\n语法与搭配：的字短语；需要；结果补语",
+      "grammarFocus": "的字短语；需要；结果补语"
     },
     {
       "id": 50,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为完整表达（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 确认 / 再 / 继续沟通 / 休假期间的工作移交 / 先",
-      "pinyin": "wǒ men / què rèn / zài / jì xù gōu tōng / xiū jià qī jiān de gōng zuò yí jiāo / xiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh; không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 再补充相关记录 / 等 / 休假期间的工作移交确认以后",
+      "pinyin": "wǒ men / zài bǔ chōng xiāng guān jì lù / děng / xiū jià qī jiān de gōng zuò yí jiāo què rèn yǐ hòu",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们先确认休假期间的工作移交再继续沟通",
-        "我们先确认休假期间的工作移交再继续沟通。",
-        "我们先确认休假期间的工作移交再继续沟通.",
-        "我们先确认休假期间的工作移交再继续沟通？",
-        "我们先确认休假期间的工作移交再继续沟通?"
+        "等休假期间的工作移交确认以后我们再补充相关记录。",
+        "等休假期间的工作移交确认以后我们再补充相关记录",
+        "等休假期间的工作移交确认以后我们再补充相关记录."
       ],
       "points": 2,
-      "hanziCount": 19,
-      "explanation": "参考表达：我们先确认休假期间的工作移交再继续沟通。\nwǒ men xiān què rèn xiū jià qī jiān de gōng zuò yí jiāo zài jì xù gōu tōng。\n根据交际目的确定语序，注意主语、时间、条件和谓语的位置。Xác định trật tự câu theo mục đích giao tiếp."
+      "hanziCount": 23,
+      "explanation": "参考句子：等休假期间的工作移交确认以后我们再补充相关记录。\nděng xiū jià qī jiān de gōng zuò yí jiāo què rèn yǐ hòu wǒ men zài bǔ chōng xiāng guān jì lù\n语法与搭配：等……以后再……：先后",
+      "grammarFocus": "等……以后再……：先后"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

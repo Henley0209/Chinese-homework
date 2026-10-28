@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第11课 我在学习中文",
-  "description": "Tôi đang học tiếng Trung；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Tôi đang học tiếng Trung；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“学习”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xié xí",
-        "B": "xué xín",
-        "C": "xué xí",
-        "D": "qué xí"
+        "A": "qué xí",
+        "B": "xué xí",
+        "C": "xué qí",
+        "D": "jué xí"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“学习”的正确读音是 xué xí。"
+      "explanation": "“学习”读作 xué xí。注意声母、韵母、声调及轻声。",
+      "targetWord": "学习"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“说”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "suō",
-        "B": "shōu",
-        "C": "shuā",
-        "D": "shuō"
+        "A": "shuō",
+        "B": "suō",
+        "C": "huō",
+        "D": "chuō"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“说”的正确读音是 shuō。"
+      "explanation": "“说”读作 shuō。注意声母、韵母、声调及轻声。",
+      "targetWord": "说"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“读”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "duí",
+        "A": "bú",
         "B": "dú",
-        "C": "tú",
-        "D": "duó"
+        "C": "duó",
+        "D": "cú"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“读”的正确读音是 dú。"
+      "explanation": "“读”读作 dú。注意声母、韵母、声调及轻声。",
+      "targetWord": "读"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“写”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xǐ",
-        "B": "xiě",
-        "C": "xiǎ",
-        "D": "xiǎn"
+        "A": "diě",
+        "B": "biě",
+        "C": "qiě",
+        "D": "xiě"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“写”的正确读音是 xiě。"
+      "explanation": "“写”读作 xiě。注意声母、韵母、声调及轻声。",
+      "targetWord": "写"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“听”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tī",
-        "B": "tīng",
+        "A": "jīng",
+        "B": "bīng",
         "C": "dīng",
-        "D": "tiē"
+        "D": "tīng"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“听”的正确读音是 tīng。"
+      "explanation": "“听”读作 tīng。注意声母、韵母、声调及轻声。",
+      "targetWord": "听"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“看”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "kàng",
         "B": "kàn",
-        "C": "kài",
-        "D": "gàn"
+        "C": "bàn",
+        "D": "càn"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“看”的正确读音是 kàn。"
+      "explanation": "“看”读作 kàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "看"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“汉字”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "hàn zì",
-        "B": "hàn zhì",
-        "C": "hàng zì",
-        "D": "fàn zì"
+        "B": "fàn zì",
+        "C": "hàn zhì",
+        "D": "hàng zì"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“汉字”的正确读音是 hàn zì。"
+      "explanation": "“汉字”读作 hàn zì。注意声母、韵母、声调及轻声。",
+      "targetWord": "汉字"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“拼音”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "pīng yīn",
         "B": "pīn yīn",
         "C": "pīn yīng",
-        "D": "pī yīn"
+        "D": "bīn yīn"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“拼音”的正确读音是 pīn yīn。"
+      "explanation": "“拼音”读作 pīn yīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "拼音"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“作业”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuò yè",
-        "B": "zuò yè",
-        "C": "zòu yè",
-        "D": "zuò yà"
+        "A": "cuò yè",
+        "B": "zhuò yè",
+        "C": "zuò yè",
+        "D": "duò yè"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“作业”的正确读音是 zuò yè。"
+      "explanation": "“作业”读作 zuò yè。注意声母、韵母、声调及轻声。",
+      "targetWord": "作业"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“上课”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sàng kè",
+        "A": "shàng kè",
         "B": "shàn kè",
-        "C": "shàng kà",
-        "D": "shàng kè"
+        "C": "sàng kè",
+        "D": "chàng kè"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“上课”的正确读音是 shàng kè。"
+      "explanation": "“上课”读作 shàng kè。注意声母、韵母、声调及轻声。",
+      "targetWord": "上课"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“下课”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiào kè",
-        "B": "xià kà",
-        "C": "xiè kè",
-        "D": "xià kè"
+        "A": "qià kè",
+        "B": "xià kè",
+        "C": "xiàn kè",
+        "D": "jià kè"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“下课”的正确读音是 xià kè。"
+      "explanation": "“下课”读作 xià kè。注意声母、韵母、声调及轻声。",
+      "targetWord": "下课"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“问题”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "wèng tí",
-        "B": "wèn tí",
-        "C": "wèn tíng",
-        "D": "hèn tí"
+        "B": "bèn tí",
+        "C": "dèn tí",
+        "D": "wèn tí"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“问题”的正确读音是 wèn tí。"
+      "explanation": "“问题”读作 wèn tí。注意声母、韵母、声调及轻声。",
+      "targetWord": "问题"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“练习”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "liàn xí",
+        "A": "niàn xí",
         "B": "liàng xí",
-        "C": "niàn xí",
-        "D": "liàn xín"
+        "C": "liàn qí",
+        "D": "liàn xí"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“练习”的正确读音是 liàn xí。"
+      "explanation": "“练习”读作 liàn xí。注意声母、韵母、声调及轻声。",
+      "targetWord": "练习"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“懂”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "děng",
-        "B": "dǒng",
-        "C": "tǒng",
-        "D": "děn"
+        "B": "dǎng",
+        "C": "cǒng",
+        "D": "dǒng"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“懂”的正确读音是 dǒng。"
+      "explanation": "“懂”读作 dǒng。注意声母、韵母、声调及轻声。",
+      "targetWord": "懂"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“好”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hǒu",
-        "B": "huǒ",
-        "C": "hǔ",
+        "A": "chǎo",
+        "B": "hǒu",
+        "C": "bǎo",
         "D": "hǎo"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“好”的正确读音是 hǎo。"
+      "explanation": "“好”读作 hǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "好"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我正在____中文。",
-      "pinyin": "wǒ zhèng zài ____ zhōng wén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đang học tiếng Trung.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是老师____课本。",
+      "pinyin": "zhè shì lǎo shī ____ kè běn 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "问题",
-        "B": "学习",
-        "C": "听",
-        "D": "写"
+        "A": "地",
+        "B": "得",
+        "C": "吗",
+        "D": "的"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“学习”。完整句子：我正在学习中文。",
+      "explanation": "应填“的”。完整句子：这是老师的课本。\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "wèn tí",
-        "B": "xué xí",
-        "C": "tīng",
-        "D": "xiě"
-      }
+        "A": "dì",
+        "B": "dé",
+        "C": "ma",
+        "D": "de"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是老师的课本。",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请听老师____。",
-      "pinyin": "qǐng tīng lǎo shī ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy nghe giáo viên nói.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____教室里记笔记。",
+      "pinyin": "wǒ ____ jiào shì lǐ jì bǐ jì 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
       "options": {
-        "A": "汉字",
-        "B": "说",
-        "C": "读",
-        "D": "学习"
+        "A": "给",
+        "B": "在",
+        "C": "从",
+        "D": "比"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“说”。完整句子：请听老师说。",
+      "explanation": "应填“在”。完整句子：我在教室里记笔记。\n语法与搭配：在＋地点＋动词/名词",
       "optionPinyin": {
-        "A": "hàn zì",
-        "B": "shuō",
-        "C": "dú",
-        "D": "xué xí"
-      }
+        "A": "gěi",
+        "B": "zài",
+        "C": "cóng",
+        "D": "bǐ"
+      },
+      "targetWord": "在",
+      "completeSentence": "我在教室里记笔记。",
+      "grammarFocus": "在＋地点＋动词/名词"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我们一起____课文。",
-      "pinyin": "wǒ men yì qǐ ____ kè wén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng ta cùng đọc bài khóa.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：她____复习昨天的课文。",
+      "pinyin": "tā ____ fù xí zuó tiān de kè wén 。",
+      "vietnamese": "Gợi ý: đang; hành động đang diễn ra.",
       "options": {
-        "A": "汉字",
-        "B": "读",
-        "C": "拼音",
-        "D": "说"
+        "A": "的",
+        "B": "比",
+        "C": "正在",
+        "D": "把"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“读”。完整句子：我们一起读课文。",
+      "explanation": "应填“正在”。完整句子：她正在复习昨天的课文。\n语法与搭配：正在＋动词",
       "optionPinyin": {
-        "A": "hàn zì",
-        "B": "dú",
-        "C": "pīn yīn",
-        "D": "shuō"
-      }
+        "A": "de",
+        "B": "bǐ",
+        "C": "zhèng zài",
+        "D": "bǎ"
+      },
+      "targetWord": "正在",
+      "completeSentence": "她正在复习昨天的课文。",
+      "grammarFocus": "正在＋动词"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请____你的名字。",
-      "pinyin": "qǐng ____ nǐ de míng zi 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy viết tên của bạn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____完成今天的任务了。",
+      "pinyin": "wǒ ____ wán chéng jīn tiān de rèn wù le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
       "options": {
-        "A": "懂",
-        "B": "写",
-        "C": "汉字",
-        "D": "说"
+        "A": "从",
+        "B": "已经",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“写”。完整句子：请写你的名字。",
+      "explanation": "应填“已经”。完整句子：我已经完成今天的任务了。\n语法与搭配：已经……了",
       "optionPinyin": {
-        "A": "dǒng",
-        "B": "xiě",
-        "C": "hàn zì",
-        "D": "shuō"
-      }
+        "A": "cóng",
+        "B": "yǐ jīng",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "已经",
+      "completeSentence": "我已经完成今天的任务了。",
+      "grammarFocus": "已经……了"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我每天____中文。",
-      "pinyin": "wǒ měi tiān ____ zhōng wén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi nghe tiếng Trung mỗi ngày.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____用这个词造句吗？",
+      "pinyin": "nǐ ____ yòng zhè ge cí zào jù ma ？",
+      "vietnamese": "Gợi ý: biết; có kỹ năng hoặc dự đoán.",
       "options": {
-        "A": "听",
-        "B": "汉字",
-        "C": "看",
-        "D": "练习"
+        "A": "会",
+        "B": "把",
+        "C": "比",
+        "D": "的"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“听”。完整句子：我每天听中文。",
+      "explanation": "应填“会”。完整句子：你会用这个词造句吗？\n语法与搭配：会＋动词",
       "optionPinyin": {
-        "A": "tīng",
-        "B": "hàn zì",
-        "C": "kàn",
-        "D": "liàn xí"
-      }
+        "A": "huì",
+        "B": "bǎ",
+        "C": "bǐ",
+        "D": "de"
+      },
+      "targetWord": "会",
+      "completeSentence": "你会用这个词造句吗？",
+      "grammarFocus": "会＋动词"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他喜欢____中文书。",
-      "pinyin": "tā xǐ huan ____ zhōng wén shū 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy thích đọc sách tiếng Trung.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____参加口语班。",
+      "pinyin": "wǒ ____ cān jiā kǒu yǔ bān 。",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "拼音",
-        "B": "下课",
-        "C": "看",
-        "D": "听"
+        "A": "的",
+        "B": "想",
+        "C": "比",
+        "D": "把"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“看”。完整句子：他喜欢看中文书。",
+      "explanation": "应填“想”。完整句子：我想参加口语班。\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "pīn yīn",
-        "B": "xià kè",
-        "C": "kàn",
-        "D": "tīng"
-      }
+        "A": "de",
+        "B": "xiǎng",
+        "C": "bǐ",
+        "D": "bǎ"
+      },
+      "targetWord": "想",
+      "completeSentence": "我想参加口语班。",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这个____怎么读？",
-      "pinyin": "zhè ge ____ zěn me dú ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chữ Hán này đọc thế nào?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这个字____念？",
+      "pinyin": "zhè ge zì ____ niàn ？",
+      "vietnamese": "Gợi ý: như thế nào; hỏi cách thức.",
       "options": {
-        "A": "写",
-        "B": "懂",
-        "C": "下课",
-        "D": "汉字"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“汉字”。完整句子：这个汉字怎么读？",
-      "optionPinyin": {
-        "A": "xiě",
-        "B": "dǒng",
-        "C": "xià kè",
-        "D": "hàn zì"
-      }
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我会读____。",
-      "pinyin": "wǒ huì dú ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi biết đọc phiên âm pinyin.",
-      "options": {
-        "A": "懂",
-        "B": "拼音",
-        "C": "汉字",
-        "D": "好"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "应填“拼音”。完整句子：我会读拼音。",
-      "optionPinyin": {
-        "A": "dǒng",
-        "B": "pīn yīn",
-        "C": "hàn zì",
-        "D": "hǎo"
-      }
-    },
-    {
-      "id": 24,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：今天的____很多。",
-      "pinyin": "jīn tiān de ____ hěn duō 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bài tập hôm nay rất nhiều.",
-      "options": {
-        "A": "拼音",
-        "B": "懂",
-        "C": "作业",
-        "D": "好"
+        "A": "几点",
+        "B": "谁的",
+        "C": "怎么",
+        "D": "多少"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "应填“作业”。完整句子：今天的作业很多。",
+      "explanation": "应填“怎么”。完整句子：这个字怎么念？\n语法与搭配：怎么＋动词",
       "optionPinyin": {
-        "A": "pīn yīn",
-        "B": "dǒng",
-        "C": "zuò yè",
-        "D": "hǎo"
-      }
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：老师在教室里____。",
-      "pinyin": "lǎo shī zài jiào shì lǐ ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Giáo viên đang dạy học trong lớp.",
-      "options": {
-        "A": "听",
-        "B": "上课",
-        "C": "写",
-        "D": "读"
+        "A": "jǐ diǎn",
+        "B": "shéi de",
+        "C": "zěn me",
+        "D": "duō shǎo"
       },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "应填“上课”。完整句子：老师在教室里上课。",
-      "optionPinyin": {
-        "A": "tīng",
-        "B": "shàng kè",
-        "C": "xiě",
-        "D": "dú"
-      }
+      "targetWord": "怎么",
+      "completeSentence": "这个字怎么念？",
+      "grammarFocus": "怎么＋动词"
     },
     {
-      "id": 26,
+      "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我们十点____。",
-      "pinyin": "wǒ men shí diǎn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi kết thúc tiết học lúc mười giờ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这句话我____明白。",
+      "pinyin": "zhè jù huà wǒ ____ míng bái 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
       "options": {
-        "A": "下课",
-        "B": "听",
-        "C": "上课",
-        "D": "懂"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“下课”。完整句子：我们十点下课。",
-      "optionPinyin": {
-        "A": "xià kè",
-        "B": "tīng",
-        "C": "shàng kè",
-        "D": "dǒng"
-      }
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我想问一个____。",
-      "pinyin": "wǒ xiǎng wèn yí gè ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn hỏi một câu hỏi.",
-      "options": {
-        "A": "练习",
-        "B": "下课",
-        "C": "汉字",
-        "D": "问题"
+        "A": "比",
+        "B": "把",
+        "C": "的",
+        "D": "不"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "应填“问题”。完整句子：我想问一个问题。",
+      "explanation": "应填“不”。完整句子：这句话我不明白。\n语法与搭配：不＋动词/形容词",
       "optionPinyin": {
-        "A": "liàn xí",
-        "B": "xià kè",
-        "C": "hàn zì",
-        "D": "wèn tí"
-      }
+        "A": "bǐ",
+        "B": "bǎ",
+        "C": "de",
+        "D": "bù"
+      },
+      "targetWord": "不",
+      "completeSentence": "这句话我不明白。",
+      "grammarFocus": "不＋动词/形容词"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：下课____，我再来问老师。",
+      "pinyin": "xià kè ____， wǒ zài lái wèn lǎo shī 。",
+      "vietnamese": "Gợi ý: sau khi.",
+      "options": {
+        "A": "以外",
+        "B": "以内",
+        "C": "以后",
+        "D": "之间"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“以后”。完整句子：下课以后，我再来问老师。\n语法与搭配：动作/时间＋以后",
+      "optionPinyin": {
+        "A": "yǐ wài",
+        "B": "yǐ nèi",
+        "C": "yǐ hòu",
+        "D": "zhī jiān"
+      },
+      "targetWord": "以后",
+      "completeSentence": "下课以后，我再来问老师。",
+      "grammarFocus": "动作/时间＋以后"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：考试____，我们一起复习。",
+      "pinyin": "kǎo shì ____， wǒ men yì qǐ fù xí 。",
+      "vietnamese": "Gợi ý: trước khi.",
+      "options": {
+        "A": "以外",
+        "B": "之间",
+        "C": "以前",
+        "D": "以内"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“以前”。完整句子：考试以前，我们一起复习。\n语法与搭配：动作/时间＋以前",
+      "optionPinyin": {
+        "A": "yǐ wài",
+        "B": "zhī jiān",
+        "C": "yǐ qián",
+        "D": "yǐ nèi"
+      },
+      "targetWord": "以前",
+      "completeSentence": "考试以前，我们一起复习。",
+      "grammarFocus": "动作/时间＋以前"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____借我一本词典吗？",
+      "pinyin": "nǐ ____ jiè wǒ yī běn cí diǎn ma ？",
+      "vietnamese": "Gợi ý: có thể; xin phép hoặc cho phép.",
+      "options": {
+        "A": "可以",
+        "B": "比",
+        "C": "的",
+        "D": "把"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“可以”。完整句子：你可以借我一本词典吗？\n语法与搭配：可以＋动词",
+      "optionPinyin": {
+        "A": "kě yǐ",
+        "B": "bǐ",
+        "C": "de",
+        "D": "bǎ"
+      },
+      "targetWord": "可以",
+      "completeSentence": "你可以借我一本词典吗？",
+      "grammarFocus": "可以＋动词"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____同桌轮流读课文。",
+      "pinyin": "wǒ ____ tóng zhuō lún liú dú kè wén 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
+      "options": {
+        "A": "把",
+        "B": "很",
+        "C": "吗",
+        "D": "和"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“和”。完整句子：我和同桌轮流读课文。\n语法与搭配：名词/代词＋和＋名词/代词",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "hěn",
+        "C": "ma",
+        "D": "hé"
+      },
+      "targetWord": "和",
+      "completeSentence": "我和同桌轮流读课文。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请再____一次。",
-      "pinyin": "qǐng zài ____ yī cì 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy luyện tập thêm một lần nữa.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：老师每天____检查笔记。",
+      "pinyin": "lǎo shī měi tiān ____ jiǎn chá bǐ jì 。",
+      "vietnamese": "Gợi ý: đều; bao quát toàn bộ chủ thể.",
       "options": {
-        "A": "练习",
-        "B": "读",
-        "C": "看",
-        "D": "汉字"
+        "A": "从",
+        "B": "都",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“练习”。完整句子：请再练习一次。",
+      "explanation": "应填“都”。完整句子：老师每天都检查笔记。\n语法与搭配：复数主语＋都＋谓语",
       "optionPinyin": {
-        "A": "liàn xí",
-        "B": "dú",
-        "C": "kàn",
-        "D": "hàn zì"
-      }
+        "A": "cóng",
+        "B": "dōu",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "都",
+      "completeSentence": "老师每天都检查笔记。",
+      "grammarFocus": "复数主语＋都＋谓语"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我不____这个词。",
-      "pinyin": "wǒ bù ____ zhè ge cí 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi không hiểu từ này.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____正确的句子画出来。",
+      "pinyin": "qǐng ____ zhèng què de jù zi huà chū lái 。",
+      "vietnamese": "Gợi ý: đưa tân ngữ lên trước động từ để nói cách xử lý.",
       "options": {
-        "A": "懂",
-        "B": "好",
-        "C": "拼音",
-        "D": "读"
+        "A": "的",
+        "B": "把",
+        "C": "从",
+        "D": "比"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“懂”。完整句子：我不懂这个词。",
+      "explanation": "应填“把”。完整句子：请把正确的句子画出来。\n语法与搭配：把＋宾语＋动作及结果/位置",
       "optionPinyin": {
-        "A": "dǒng",
-        "B": "hǎo",
-        "C": "pīn yīn",
-        "D": "dú"
-      }
+        "A": "de",
+        "B": "bǎ",
+        "C": "cóng",
+        "D": "bǐ"
+      },
+      "targetWord": "把",
+      "completeSentence": "请把正确的句子画出来。",
+      "grammarFocus": "把＋宾语＋动作及结果/位置"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你说得很____。",
-      "pinyin": "nǐ shuō dé hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn nói rất tốt.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：今天我又学____五个新词。",
+      "pinyin": "jīn tiān wǒ yòu xué ____ wǔ gè xīn cí 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ hoàn thành hoặc thay đổi.",
       "options": {
-        "A": "好",
-        "B": "拼音",
-        "C": "下课",
-        "D": "写"
+        "A": "地",
+        "B": "的",
+        "C": "了",
+        "D": "得"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“好”。完整句子：你说得很好。",
+      "explanation": "应填“了”。完整句子：今天我又学了五个新词。\n语法与搭配：动词＋了＋数量/宾语",
       "optionPinyin": {
-        "A": "hǎo",
-        "B": "pīn yīn",
-        "C": "xià kè",
-        "D": "xiě"
-      }
+        "A": "dì",
+        "B": "de",
+        "C": "le",
+        "D": "dé"
+      },
+      "targetWord": "了",
+      "completeSentence": "今天我又学了五个新词。",
+      "grammarFocus": "动词＋了＋数量/宾语"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "我正在学习中文."
       ],
       "points": 2,
-      "explanation": "参考句子：我正在学习中文。"
+      "explanation": "参考句子：我正在学习中文。\n语法与搭配：正在＋动词：正在进行",
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "请听老师说."
       ],
       "points": 2,
-      "explanation": "参考句子：请听老师说。"
+      "explanation": "参考句子：请听老师说。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "我们一起读课文."
       ],
       "points": 2,
-      "explanation": "参考句子：我们一起读课文。"
+      "explanation": "参考句子：我们一起读课文。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -721,7 +784,8 @@
         "请写你的名字."
       ],
       "points": 2,
-      "explanation": "参考句子：请写你的名字。"
+      "explanation": "参考句子：请写你的名字。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -736,7 +800,8 @@
         "我每天听中文."
       ],
       "points": 2,
-      "explanation": "参考句子：我每天听中文。"
+      "explanation": "参考句子：我每天听中文。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -751,7 +816,8 @@
         "他喜欢看中文书."
       ],
       "points": 2,
-      "explanation": "参考句子：他喜欢看中文书。"
+      "explanation": "参考句子：他喜欢看中文书。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -766,7 +832,8 @@
         "这个汉字怎么读?"
       ],
       "points": 2,
-      "explanation": "参考句子：这个汉字怎么读？"
+      "explanation": "参考句子：这个汉字怎么读？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -781,7 +848,8 @@
         "我会读拼音."
       ],
       "points": 2,
-      "explanation": "参考句子：我会读拼音。"
+      "explanation": "参考句子：我会读拼音。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -796,7 +864,8 @@
         "今天的作业很多."
       ],
       "points": 2,
-      "explanation": "参考句子：今天的作业很多。"
+      "explanation": "参考句子：今天的作业很多。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -811,7 +880,8 @@
         "老师在教室里上课."
       ],
       "points": 2,
-      "explanation": "参考句子：老师在教室里上课。"
+      "explanation": "参考句子：老师在教室里上课。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 41,
@@ -827,7 +897,8 @@
         "我们十点下课."
       ],
       "points": 2,
-      "explanation": "参考句子：我们十点下课。"
+      "explanation": "参考句子：我们十点下课。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -842,7 +913,8 @@
         "我想问一个问题."
       ],
       "points": 2,
-      "explanation": "参考句子：我想问一个问题。"
+      "explanation": "参考句子：我想问一个问题。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -857,7 +929,8 @@
         "请再练习一次."
       ],
       "points": 2,
-      "explanation": "参考句子：请再练习一次。"
+      "explanation": "参考句子：请再练习一次。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -872,7 +945,8 @@
         "我不懂这个词."
       ],
       "points": 2,
-      "explanation": "参考句子：我不懂这个词。"
+      "explanation": "参考句子：我不懂这个词。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -887,7 +961,8 @@
         "你说得很好."
       ],
       "points": 2,
-      "explanation": "参考句子：你说得很好。"
+      "explanation": "参考句子：你说得很好。\n语法与搭配：动词＋得＋程度/状态补语",
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 46,
@@ -902,7 +977,8 @@
         "我每天学五个汉字."
       ],
       "points": 2,
-      "explanation": "参考句子：我每天学五个汉字。"
+      "explanation": "参考句子：我每天学五个汉字。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -917,7 +993,8 @@
         "他正在做中文作业."
       ],
       "points": 2,
-      "explanation": "参考句子：他正在做中文作业。"
+      "explanation": "参考句子：他正在做中文作业。\n语法与搭配：正在＋动词：正在进行",
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 48,
@@ -932,7 +1009,8 @@
         "我们在学校学习中文."
       ],
       "points": 2,
-      "explanation": "参考句子：我们在学校学习中文。"
+      "explanation": "参考句子：我们在学校学习中文。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 49,
@@ -947,7 +1025,8 @@
         "这句话我会读."
       ],
       "points": 2,
-      "explanation": "参考句子：这句话我会读。"
+      "explanation": "参考句子：这句话我会读。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -962,9 +1041,11 @@
         "学中文很有意思,我很喜欢."
       ],
       "points": 2,
-      "explanation": "参考句子：学中文很有意思，我很喜欢。"
+      "explanation": "参考句子：学中文很有意思，我很喜欢。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "0dec590a",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

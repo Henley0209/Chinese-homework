@@ -1,26 +1,27 @@
 {
   "title": "HSK5 第29课 人生选择与幸福观",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“选择”的正确读音。",
+      "text": "【拼音选择】请选择“取舍”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xuǎn zé",
-        "B": "quǎn zé",
-        "C": "duǎn zé",
-        "D": "xuǎn zhé"
+        "A": "jǔ shě",
+        "B": "xǔ shě",
+        "C": "qǔ shě",
+        "D": "bǔ shě"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“选择”读作 xuǎn zé，意思是 lựa chọn。"
+      "explanation": "“取舍”读作 qǔ shě。注意声母、韵母、声调及轻声。",
+      "targetWord": "取舍"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“价值”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiàn zhí",
-        "B": "jià zhí",
-        "C": "jià zí",
-        "D": "qià zhí"
+        "A": "jià zhí",
+        "B": "qià zhí",
+        "C": "jiàn zhí",
+        "D": "jià zí"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "“价值”读作 jià zhí，意思是 giá trị。"
+      "explanation": "“价值”读作 jià zhí。注意声母、韵母、声调及轻声。",
+      "targetWord": "价值"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“满足”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "mǎn zú",
-        "B": "bǎn zú",
-        "C": "mǎng zú",
-        "D": "mǎn zhú"
+        "A": "mǎng zú",
+        "B": "mǎn zú",
+        "C": "mǎn zhú",
+        "D": "bǎn zú"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“满足”读作 mǎn zú，意思是 hài lòng。"
+      "explanation": "“满足”读作 mǎn zú。注意声母、韵母、声调及轻声。",
+      "targetWord": "满足"
     },
     {
       "id": 4,
@@ -66,162 +69,179 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“追求”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuī jiú",
-        "B": "zhuī qiú",
-        "C": "zuī qiú",
+        "A": "zhuī qiú",
+        "B": "zuī qiú",
+        "C": "zhuī jiú",
         "D": "zhuī xiú"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "“追求”读作 zhuī qiú，意思是 theo đuổi。"
+      "explanation": "“追求”读作 zhuī qiú。注意声母、韵母、声调及轻声。",
+      "targetWord": "追求"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“平衡”的正确读音。",
+      "text": "【拼音选择】请选择“自主”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pín héng",
-        "B": "píng féng",
-        "C": "píng hén",
-        "D": "píng héng"
+        "A": "zì zǔ",
+        "B": "bì zhǔ",
+        "C": "zì zhǔ",
+        "D": "zhì zhǔ"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“平衡”读作 píng héng，意思是 cân bằng。"
+      "explanation": "“自主”读作 zì zhǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "自主"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：面对不同的机会我们需要作出适合自己的____。",
-      "pinyin": "miàn duì bù tóng de jī huì wǒ men xū yào zuò chū shì hé zì jǐ de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: lựa chọn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：作出人生____前，应先弄清自己真正重视什么。",
+      "pinyin": "zuò chū rén shēng ____ qián ， yīng xiān nòng qīng zì jǐ zhēn zhèng zhòng shì shén me 。",
+      "vietnamese": "Gợi ý: lựa chọn.",
       "options": {
-        "A": "选择",
-        "B": "追求",
-        "C": "平衡",
-        "D": "满足"
+        "A": "标准",
+        "B": "选择",
+        "C": "平静",
+        "D": "幸福"
       },
       "optionPinyin": {
-        "A": "xuǎn zé",
-        "B": "zhuī qiú",
-        "C": "píng héng",
-        "D": "mǎn zú"
+        "A": "biāo zhǔn",
+        "B": "xuǎn zé",
+        "C": "píng jìng",
+        "D": "xìng fú"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“选择”（lựa chọn）。完整句子：面对不同的机会我们需要作出适合自己的选择。"
+      "explanation": "应填“选择”。完整句子：作出人生选择前，应先弄清自己真正重视什么。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "选择",
+      "completeSentence": "作出人生选择前，应先弄清自己真正重视什么。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：工作的____不仅体现在收入上也体现在个人的成长中。",
-      "pinyin": "gōng zuò de ____ bù jǐn tǐ xiàn zài shōu rù shàng yě tǐ xiàn zài gè rén de chéng zhǎng zhōng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: giá trị.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：每个人对____的理解都可能不同。",
+      "pinyin": "měi gè rén duì ____ de lǐ jiě dōu kě néng bù tóng 。",
+      "vietnamese": "Gợi ý: hạnh phúc.",
       "options": {
-        "A": "追求",
-        "B": "满足",
-        "C": "价值",
-        "D": "选择"
+        "A": "幸福",
+        "B": "标准",
+        "C": "选择",
+        "D": "平静"
       },
       "optionPinyin": {
-        "A": "zhuī qiú",
-        "B": "mǎn zú",
-        "C": "jià zhí",
-        "D": "xuǎn zé"
+        "A": "xìng fú",
+        "B": "biāo zhǔn",
+        "C": "xuǎn zé",
+        "D": "píng jìng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“价值”（giá trị）。完整句子：工作的价值不仅体现在收入上也体现在个人的成长中。"
+      "explanation": "应填“幸福”。完整句子：每个人对幸福的理解都可能不同。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "幸福",
+      "completeSentence": "每个人对幸福的理解都可能不同。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：学会珍惜已有的生活往往更容易获得内心的____。",
-      "pinyin": "xué huì zhēn xī yǐ yǒu de shēng huó wǎng wǎng gèng róng yì huò dé nèi xīn de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: hài lòng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：物质条件改善以后，他开始更加重视内心的____。",
+      "pinyin": "wù zhì tiáo jiàn gǎi shàn yǐ hòu ， tā kāi shǐ gèng jiā zhòng shì nèi xīn de ____。",
+      "vietnamese": "Gợi ý: bình yên.",
       "options": {
-        "A": "平衡",
+        "A": "平静",
         "B": "选择",
-        "C": "满足",
-        "D": "追求"
+        "C": "幸福",
+        "D": "标准"
       },
       "optionPinyin": {
-        "A": "píng héng",
+        "A": "píng jìng",
         "B": "xuǎn zé",
-        "C": "mǎn zú",
-        "D": "zhuī qiú"
+        "C": "xìng fú",
+        "D": "biāo zhǔn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“满足”（hài lòng）。完整句子：学会珍惜已有的生活往往更容易获得内心的满足。"
+      "explanation": "应填“平静”。完整句子：物质条件改善以后，他开始更加重视内心的平静。\n语法与搭配：动作＋以后：说明时间顺序",
+      "targetWord": "平静",
+      "completeSentence": "物质条件改善以后，他开始更加重视内心的平静。",
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：每个人都有权利按照自己的方式____理想的生活。",
-      "pinyin": "měi gè rén dōu yǒu quán lì àn zhào zì jǐ de fāng shì ____ lǐ xiǎng de shēng huó",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: theo đuổi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：人不能只按别人的____来安排自己的生活。",
+      "pinyin": "rén bù néng zhǐ àn bié rén de ____ lái ān pái zì jǐ de shēng huó 。",
+      "vietnamese": "Gợi ý: tiêu chuẩn.",
       "options": {
-        "A": "追求",
-        "B": "选择",
-        "C": "平衡",
-        "D": "满足"
+        "A": "选择",
+        "B": "平静",
+        "C": "幸福",
+        "D": "标准"
       },
       "optionPinyin": {
-        "A": "zhuī qiú",
-        "B": "xuǎn zé",
-        "C": "píng héng",
-        "D": "mǎn zú"
+        "A": "xuǎn zé",
+        "B": "píng jìng",
+        "C": "xìng fú",
+        "D": "biāo zhǔn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“追求”（theo đuổi）。完整句子：每个人都有权利按照自己的方式追求理想的生活。"
+      "explanation": "应填“标准”。完整句子：人不能只按别人的标准来安排自己的生活。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "标准",
+      "completeSentence": "人不能只按别人的标准来安排自己的生活。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：她逐渐学会了在工作和家庭之间寻找适合自己的____。",
-      "pinyin": "tā zhú jiàn xué huì le zài gōng zuò hé jiā tíng zhī jiān xún zhǎo shì hé zì jǐ de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: cân bằng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：认真承担决定带来的后果，是一种成熟的____。",
+      "pinyin": "rèn zhēn chéng dān jué dìng dài lái de hòu guǒ ， shì yī zhǒng chéng shú de ____。",
+      "vietnamese": "Gợi ý: trách nhiệm.",
       "options": {
-        "A": "平衡",
-        "B": "满足",
-        "C": "选择",
-        "D": "价值"
+        "A": "责任",
+        "B": "平静",
+        "C": "幸福",
+        "D": "选择"
       },
       "optionPinyin": {
-        "A": "píng héng",
-        "B": "mǎn zú",
-        "C": "xuǎn zé",
-        "D": "jià zhí"
+        "A": "zé rèn",
+        "B": "píng jìng",
+        "C": "xìng fú",
+        "D": "xuǎn zé"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“平衡”（cân bằng）。完整句子：她逐渐学会了在工作和家庭之间寻找适合自己的平衡。"
+      "explanation": "应填“责任”。完整句子：认真承担决定带来的后果，是一种成熟的责任。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "责任",
+      "completeSentence": "认真承担决定带来的后果，是一种成熟的责任。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：面对不同的机会我们需要作出适合自己的选择。\nmiàn duì bù tóng de jī huì wǒ men xū yào zuò chū shì hé zì jǐ de xuǎn zé。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：面对不同的机会我们需要作出适合自己的选择。\nmiàn duì bù tóng de jī huì wǒ men xū yào zuò chū shì hé zì jǐ de xuǎn zé。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：工作的价值不仅体现在收入上也体现在个人的成长中。\ngōng zuò de jià zhí bù jǐn tǐ xiàn zài shōu rù shàng yě tǐ xiàn zài gè rén de chéng zhǎng zhōng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：工作的价值不仅体现在收入上也体现在个人的成长中。\ngōng zuò de jià zhí bù jǐn tǐ xiàn zài shōu rù shàng yě tǐ xiàn zài gè rén de chéng zhǎng zhōng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：学会珍惜已有的生活往往更容易获得内心的满足。\nxué huì zhēn xī yǐ yǒu de shēng huó wǎng wǎng gèng róng yì huò dé nèi xīn de mǎn zú。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：学会珍惜已有的生活往往更容易获得内心的满足。\nxué huì zhēn xī yǐ yǒu de shēng huó wǎng wǎng gèng róng yì huò dé nèi xīn de mǎn zú。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋得＋程度/状态补语",
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：每个人都有权利按照自己的方式追求理想的生活。\nměi gè rén dōu yǒu quán lì àn zhào zì jǐ de fāng shì zhuī qiú lǐ xiǎng de shēng huó。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：每个人都有权利按照自己的方式追求理想的生活。\nměi gè rén dōu yǒu quán lì àn zhào zì jǐ de fāng shì zhuī qiú lǐ xiǎng de shēng huó。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：她逐渐学会了在工作和家庭之间寻找适合自己的平衡。\ntā zhú jiàn xué huì le zài gōng zuò hé jiā tíng zhī jiān xún zhǎo shì hé zì jǐ de píng héng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：她逐渐学会了在工作和家庭之间寻找适合自己的平衡。\ntā zhú jiàn xué huì le zài gōng zuò hé jiā tíng zhī jiān xún zhǎo shì hé zì jǐ de píng héng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解幸福标准的差异还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě xìng fú biāo zhǔn de chā yì hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解幸福标准的差异还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě xìng fú biāo zhǔn de chā yì hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化人生选择的依据都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà rén shēng xuǎn zé de yī jù dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化人生选择的依据都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà rén shēng xuǎn zé de yī jù dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解个人价值的实现才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě gè rén jià zhí de shí xiàn cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解个人价值的实现才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě gè rén jià zhí de shí xiàn cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析理想与现实的关系。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī lǐ xiǎng yǔ xiàn shí de guān xi。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析理想与现实的关系。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī lǐ xiǎng yǔ xiàn shí de guān xi。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明生活满意度的提升。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng shēng huó mǎn yì dù de tí shēng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明生活满意度的提升。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng shēng huó mǎn yì dù de tí shēng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

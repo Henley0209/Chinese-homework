@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第30课 喂，请问你找谁",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“哪位”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "nǎ wèi",
-        "B": "lǎ wèi",
+        "A": "lǎ wèi",
+        "B": "bǎ wèi",
         "C": "nǎ wài",
-        "D": "bǎ wèi"
+        "D": "nǎ wèi"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“哪位”读作 nǎ wèi，本课词义：ai, vị nào。"
+      "explanation": "“哪位”读作 nǎ wèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "哪位"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“转告”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuǎn gòu",
-        "B": "zuǎn gào",
-        "C": "zhuǎn gào",
-        "D": "zhuǎng gào"
+        "A": "zhuǎn gào",
+        "B": "zhuǎng gào",
+        "C": "zuǎn gào",
+        "D": "zhuǎn gòu"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "“转告”读作 zhuǎn gào，本课词义：nhắn lại。"
+      "explanation": "“转告”读作 zhuǎn gào。注意声母、韵母、声调及轻声。",
+      "targetWord": "转告"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“听清”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tīng jīng",
-        "B": "tīng qīn",
+        "A": "tīng xīng",
+        "B": "tīng jīng",
         "C": "tīng qīng",
-        "D": "tīng xīng"
+        "D": "tīng qīn"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“听清”读作 tīng qīng，本课词义：nghe rõ。"
+      "explanation": "“听清”读作 tīng qīng。注意声母、韵母、声调及轻声。",
+      "targetWord": "听清"
     },
     {
       "id": 4,
@@ -66,162 +69,179 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“号码”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chào mǎ",
-        "B": "bào mǎ",
-        "C": "hòu mǎ",
-        "D": "hào mǎ"
+        "A": "hòu mǎ",
+        "B": "chào mǎ",
+        "C": "hào mǎ",
+        "D": "bào mǎ"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“号码”读作 hào mǎ，本课词义：số điện thoại。"
+      "explanation": "“号码”读作 hào mǎ。注意声母、韵母、声调及轻声。",
+      "targetWord": "号码"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“回电”的正确读音。",
+      "text": "【拼音选择】请选择“占线”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "huá diàn",
-        "B": "huái diàn",
-        "C": "huí diàn",
-        "D": "chuí diàn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“回电”读作 huí diàn，本课词义：gọi lại。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：您好请问您是____。",
-      "pinyin": "nín hǎo qǐng wèn nín shì ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: ai, vị nào.",
-      "options": {
-        "A": "转告",
-        "B": "号码",
-        "C": "听清",
-        "D": "哪位"
-      },
-      "optionPinyin": {
-        "A": "zhuǎn gào",
-        "B": "hào mǎ",
-        "C": "tīng qīng",
-        "D": "nǎ wèi"
+        "A": "zàn xiàn",
+        "B": "zhàn qiàn",
+        "C": "zhàng xiàn",
+        "D": "zhàn xiàn"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“哪位”（ai, vị nào）。完整表达：您好请问您是哪位。"
+      "explanation": "“占线”读作 zhàn xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "占线"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他在会议室，请稍等，我帮您____。",
+      "pinyin": "tā zài huì yì shì ， qǐng shāo děng ， wǒ bāng nín ____。",
+      "vietnamese": "Gợi ý: chuyển máy.",
+      "options": {
+        "A": "免提",
+        "B": "拨错",
+        "C": "留言",
+        "D": "转接"
+      },
+      "optionPinyin": {
+        "A": "miǎn tí",
+        "B": "bō cuò",
+        "C": "liú yán",
+        "D": "zhuǎn jiē"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“转接”。完整句子：他在会议室，请稍等，我帮您转接。\n语法与搭配：帮＋人＋动词",
+      "targetWord": "转接",
+      "completeSentence": "他在会议室，请稍等，我帮您转接。",
+      "grammarFocus": "帮＋人＋动词"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：麻烦您帮我____他下午给我回电话。",
-      "pinyin": "má fán nín bāng wǒ ____ tā xià wǔ gěi wǒ huí diàn huà",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: nhắn lại.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他现在不方便接电话，您需要____吗？",
+      "pinyin": "tā xiàn zài bù fāng biàn jiē diàn huà ， nín xū yào ____ ma ？",
+      "vietnamese": "Gợi ý: để lại lời nhắn.",
       "options": {
-        "A": "转告",
-        "B": "回电",
-        "C": "听清",
-        "D": "哪位"
+        "A": "留言",
+        "B": "拨错",
+        "C": "转接",
+        "D": "免提"
       },
       "optionPinyin": {
-        "A": "zhuǎn gào",
-        "B": "huí diàn",
-        "C": "tīng qīng",
-        "D": "nǎ wèi"
+        "A": "liú yán",
+        "B": "bō cuò",
+        "C": "zhuǎn jiē",
+        "D": "miǎn tí"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“转告”（nhắn lại）。完整表达：麻烦您帮我转告他下午给我回电话。"
+      "explanation": "应填“留言”。完整句子：他现在不方便接电话，您需要留言吗？\n语法与搭配：不方便；需要……吗",
+      "targetWord": "留言",
+      "completeSentence": "他现在不方便接电话，您需要留言吗？",
+      "grammarFocus": "不方便；需要……吗"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：不好意思我刚才没有____。",
-      "pinyin": "bù hǎo yì sī wǒ gāng cái méi yǒu ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: nghe rõ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这里不是医院，您可能____号码了。",
+      "pinyin": "zhè lǐ bú shì yī yuàn ， nín kě néng ____ hào mǎ le 。",
+      "vietnamese": "Gợi ý: gọi nhầm.",
       "options": {
-        "A": "回电",
-        "B": "哪位",
-        "C": "听清",
-        "D": "转告"
+        "A": "免提",
+        "B": "留言",
+        "C": "转接",
+        "D": "拨错"
       },
       "optionPinyin": {
-        "A": "huí diàn",
-        "B": "nǎ wèi",
-        "C": "tīng qīng",
-        "D": "zhuǎn gào"
+        "A": "miǎn tí",
+        "B": "liú yán",
+        "C": "zhuǎn jiē",
+        "D": "bō cuò"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“听清”（nghe rõ）。完整表达：不好意思我刚才没有听清。"
+      "explanation": "应填“拨错”。完整句子：这里不是医院，您可能拨错号码了。\n语法与搭配：可能；结果补语",
+      "targetWord": "拨错",
+      "completeSentence": "这里不是医院，您可能拨错号码了。",
+      "grammarFocus": "可能；结果补语"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：麻烦您把电话____再说一遍。",
-      "pinyin": "má fán nín bǎ diàn huà ____ zài shuō yí biàn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: số điện thoại.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：房间里很安静，你可以打开____。",
+      "pinyin": "fáng jiān lǐ hěn ān jìng ， nǐ kě yǐ dǎ kāi ____。",
+      "vietnamese": "Gợi ý: loa ngoài.",
       "options": {
-        "A": "转告",
-        "B": "听清",
-        "C": "号码",
-        "D": "回电"
+        "A": "转接",
+        "B": "免提",
+        "C": "拨错",
+        "D": "留言"
       },
       "optionPinyin": {
-        "A": "zhuǎn gào",
-        "B": "tīng qīng",
-        "C": "hào mǎ",
-        "D": "huí diàn"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“号码”（số điện thoại）。完整表达：麻烦您把电话号码再说一遍。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我现在不方便说话稍后给您____。",
-      "pinyin": "wǒ xiàn zài bù fāng biàn shuō huà shāo hòu gěi nín ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: gọi lại.",
-      "options": {
-        "A": "转告",
-        "B": "回电",
-        "C": "号码",
-        "D": "听清"
-      },
-      "optionPinyin": {
-        "A": "zhuǎn gào",
-        "B": "huí diàn",
-        "C": "hào mǎ",
-        "D": "tīng qīng"
+        "A": "zhuǎn jiē",
+        "B": "miǎn tí",
+        "C": "bō cuò",
+        "D": "liú yán"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“回电”（gọi lại）。完整表达：我现在不方便说话稍后给您回电。"
+      "explanation": "应填“免提”。完整句子：房间里很安静，你可以打开免提。\n语法与搭配：可以；打开",
+      "targetWord": "免提",
+      "completeSentence": "房间里很安静，你可以打开免提。",
+      "grammarFocus": "可以；打开"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他开完会以后会给您____。",
+      "pinyin": "tā kāi wán huì yǐ hòu huì gěi nín ____。",
+      "vietnamese": "Gợi ý: gọi lại.",
+      "options": {
+        "A": "转接",
+        "B": "回电",
+        "C": "拨错",
+        "D": "留言"
+      },
+      "optionPinyin": {
+        "A": "zhuǎn jiē",
+        "B": "huí diàn",
+        "C": "bō cuò",
+        "D": "liú yán"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“回电”。完整句子：他开完会以后会给您回电。\n语法与搭配：……以后会……",
+      "targetWord": "回电",
+      "completeSentence": "他开完会以后会给您回电。",
+      "grammarFocus": "……以后会……"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 您好 / 您 / 是哪位",
-      "pinyin": "qǐng wèn / nín hǎo / nín / shì nǎ wèi",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我是小陈 / 李老师方便接电话吗 / 请问 / 您好",
+      "pinyin": "wǒ shì xiǎo chén / lǐ lǎo shī fāng biàn jiē diàn huà ma / qǐng wèn / nín hǎo",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "您好请问您是哪位。",
-        "您好请问您是哪位",
-        "您好请问您是哪位.",
-        "您好请问您是哪位？",
-        "您好请问您是哪位?"
+        "您好我是小陈请问李老师方便接电话吗？",
+        "您好我是小陈请问李老师方便接电话吗",
+        "您好我是小陈请问李老师方便接电话吗?"
       ],
       "points": 5,
-      "hanziCount": 8,
-      "explanation": "参考表达：您好请问您是哪位。\nnín hǎo qǐng wèn nín shì nǎ wèi。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：您好我是小陈请问李老师方便接电话吗？\nnín hǎo wǒ shì xiǎo chén qǐng wèn lǐ lǎo shī fāng biàn jiē diàn huà ma\n语法与搭配：自报身份；方便……吗",
+      "grammarFocus": "自报身份；方便……吗"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n转告他 / 麻烦您 / 下午给我回电话 / 帮我",
-      "pinyin": "zhuǎn gào tā / má fán nín / xià wǔ gěi wǒ huí diàn huà / bāng wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n如果 / 他一会儿回来 / 请他给我打电话 / 麻烦",
+      "pinyin": "rú guǒ / tā yí huì r huí lái / qǐng tā gěi wǒ dǎ diàn huà / má fán",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦您帮我转告他下午给我回电话。",
-        "麻烦您帮我转告他下午给我回电话",
-        "麻烦您帮我转告他下午给我回电话.",
-        "麻烦您帮我转告他下午给我回电话？",
-        "麻烦您帮我转告他下午给我回电话?"
+        "如果他一会儿回来麻烦请他给我打电话。",
+        "如果他一会儿回来麻烦请他给我打电话",
+        "如果他一会儿回来麻烦请他给我打电话."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：麻烦您帮我转告他下午给我回电话。\nmá fán nín bāng wǒ zhuǎn gào tā xià wǔ gěi wǒ huí diàn huà。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：如果他一会儿回来麻烦请他给我打电话。\nrú guǒ tā yí huì r huí lái má fán qǐng tā gěi wǒ dǎ diàn huà\n语法与搭配：如果；请＋人＋动词",
+      "grammarFocus": "如果；请＋人＋动词"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 不好意思 / 刚才 / 没有听清",
-      "pinyin": "wǒ / bù hǎo yì sī / gāng cái / méi yǒu tīng qīng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 刚才 / 没听清您的名字 / 信号不太好",
+      "pinyin": "wǒ / gāng cái / méi tīng qīng nín de míng zi / xìn hào bù tài hǎo",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "不好意思我刚才没有听清。",
-        "不好意思我刚才没有听清",
-        "不好意思我刚才没有听清.",
-        "不好意思我刚才没有听清？",
-        "不好意思我刚才没有听清?"
+        "刚才信号不太好我没听清您的名字。",
+        "刚才信号不太好我没听清您的名字",
+        "刚才信号不太好我没听清您的名字."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：不好意思我刚才没有听清。\nbù hǎo yì sī wǒ gāng cái méi yǒu tīng qīng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：刚才信号不太好我没听清您的名字。\ngāng cái xìn hào bù tài hǎo wǒ méi tīng qīng nín de míng zi\n语法与搭配：不太；没……清",
+      "grammarFocus": "不太；没……清"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n一遍 / 麻烦您 / 再说 / 把电话号码",
-      "pinyin": "yí biàn / má fán nín / zài shuō / bǎ diàn huà hào mǎ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n把您的号码 / 请 / 再说一遍 / 我记一下",
+      "pinyin": "bǎ nín de hào mǎ / qǐng / zài shuō yí biàn / wǒ jì yí xià",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦您把电话号码再说一遍。",
-        "麻烦您把电话号码再说一遍",
-        "麻烦您把电话号码再说一遍.",
-        "麻烦您把电话号码再说一遍？",
-        "麻烦您把电话号码再说一遍?"
+        "请把您的号码再说一遍我记一下。",
+        "请把您的号码再说一遍我记一下",
+        "请把您的号码再说一遍我记一下."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：麻烦您把电话号码再说一遍。\nmá fán nín bǎ diàn huà hào mǎ zài shuō yí biàn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：请把您的号码再说一遍我记一下。\nqǐng bǎ nín de hào mǎ zài shuō yí biàn wǒ jì yí xià\n语法与搭配：把；再；遍",
+      "grammarFocus": "把；再；遍"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n给您回电 / 稍后 / 我 / 现在不方便说话",
-      "pinyin": "gěi nín huí diàn / shāo hòu / wǒ / xiàn zài bù fāng biàn shuō huà",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 明天的会议改时间了 / 说 / 替您转告他",
+      "pinyin": "wǒ / míng tiān de huì yì gǎi shí jiān le / shuō / tì nín zhuǎn gào tā",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我现在不方便说话稍后给您回电。",
-        "我现在不方便说话稍后给您回电",
-        "我现在不方便说话稍后给您回电.",
-        "我现在不方便说话稍后给您回电？",
-        "我现在不方便说话稍后给您回电?"
+        "我替您转告他说明天的会议改时间了。",
+        "我替您转告他说明天的会议改时间了",
+        "我替您转告他说明天的会议改时间了."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：我现在不方便说话稍后给您回电。\nwǒ xiàn zài bù fāng biàn shuō huà shāo hòu gěi nín huí diàn。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：我替您转告他说明天的会议改时间了。\nwǒ tì nín zhuǎn gào tā shuō míng tiān de huì yì gǎi shí jiān le\n语法与搭配：替＋人；说：引述",
+      "grammarFocus": "替＋人；说：引述"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

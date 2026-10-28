@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第14课 我的房间",
-  "description": "Phòng của tôi；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Phòng của tôi；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,220 +8,231 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“房间”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fáng jiān",
-        "B": "fán jiān",
-        "C": "fáng jiāng",
-        "D": "háng jiān"
+        "A": "fáng qiān",
+        "B": "fáng jiān",
+        "C": "háng jiān",
+        "D": "fán jiān"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“房间”的正确读音是 fáng jiān。"
+      "explanation": "“房间”读作 fáng jiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "房间"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“床”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chuán",
-        "B": "chuáng",
-        "C": "shuáng",
-        "D": "zhuáng"
+        "A": "chuáng",
+        "B": "cháng",
+        "C": "chuán",
+        "D": "huáng"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“床”的正确读音是 chuáng。"
+      "explanation": "“床”读作 chuáng。注意声母、韵母、声调及轻声。",
+      "targetWord": "床"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“桌子”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuō zhi",
+        "A": "chuō zi",
         "B": "zuō zi",
         "C": "zhuō zi",
-        "D": "zhōu zi"
+        "D": "zhuō zhi"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“桌子”的正确读音是 zhuō zi。"
+      "explanation": "“桌子”读作 zhuō zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "桌子"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“椅子”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǐ zi",
-        "B": "yǐ zhi",
-        "C": "yǐn zi",
-        "D": "yǐng zi"
+        "A": "yǐ zhi",
+        "B": "yǐ zi",
+        "C": "bǐ zi",
+        "D": "cǐ zi"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“椅子”的正确读音是 yǐ zi。"
+      "explanation": "“椅子”读作 yǐ zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "椅子"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“门”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "méng",
-        "B": "mén",
-        "C": "nén",
-        "D": "bén"
+        "A": "cén",
+        "B": "méng",
+        "C": "mén",
+        "D": "fén"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“门”的正确读音是 mén。"
+      "explanation": "“门”读作 mén。注意声母、韵母、声调及轻声。",
+      "targetWord": "门"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“窗户”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chuān hu",
-        "B": "chuāng fu",
-        "C": "chuāng hui",
-        "D": "chuāng hu"
+        "A": "chuāng hù",
+        "B": "chuān hù",
+        "C": "chuāng fù",
+        "D": "chāng hù"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“窗户”的正确读音是 chuāng hu。"
+      "explanation": "“窗户”读作 chuāng hù。注意声母、韵母、声调及轻声。",
+      "targetWord": "窗户"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“电视”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "diàn sì",
         "B": "diàn shì",
-        "C": "diè shì",
-        "D": "dàn shì"
+        "C": "biàn shì",
+        "D": "diào shì"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“电视”的正确读音是 diàn shì。"
+      "explanation": "“电视”读作 diàn shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "电视"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“电脑”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "diàn nǒu",
-        "B": "diàn nǎo",
+        "A": "diàn nǎo",
+        "B": "diàn nǒu",
         "C": "diàn lǎo",
-        "D": "diè nǎo"
+        "D": "biàn nǎo"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“电脑”的正确读音是 diàn nǎo。"
+      "explanation": "“电脑”读作 diàn nǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "电脑"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“灯”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dēn",
-        "B": "dēng",
-        "C": "dōng",
-        "D": "tēng"
+        "A": "cēng",
+        "B": "dāng",
+        "C": "bēng",
+        "D": "dēng"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“灯”的正确读音是 dēng。"
+      "explanation": "“灯”读作 dēng。注意声母、韵母、声调及轻声。",
+      "targetWord": "灯"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“旁边”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pán biān",
-        "B": "páng biāng",
+        "A": "cáng biān",
+        "B": "pán biān",
         "C": "páng biān",
-        "D": "báng biān"
+        "D": "fáng biān"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“旁边”的正确读音是 páng biān。"
+      "explanation": "“旁边”读作 páng biān。注意声母、韵母、声调及轻声。",
+      "targetWord": "旁边"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“客厅”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kà tīng",
+        "A": "cè tīng",
         "B": "kè tīng",
-        "C": "kè tī",
-        "D": "kèi tīng"
+        "C": "hè tīng",
+        "D": "gè tīng"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“客厅”的正确读音是 kè tīng。"
+      "explanation": "“客厅”读作 kè tīng。注意声母、韵母、声调及轻声。",
+      "targetWord": "客厅"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“厨房”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cú fáng",
-        "B": "chú fán",
+        "A": "chú fán",
+        "B": "cú fáng",
         "C": "chú háng",
         "D": "chú fáng"
       },
@@ -229,439 +240,488 @@
         "D"
       ],
       "points": 2,
-      "explanation": "“厨房”的正确读音是 chú fáng。"
+      "explanation": "“厨房”读作 chú fáng。注意声母、韵母、声调及轻声。",
+      "targetWord": "厨房"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“干净”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gān jìn",
+        "A": "gān qìng",
         "B": "gān jìng",
         "C": "gāng jìng",
-        "D": "gāi jìng"
+        "D": "gān jìn"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“干净”的正确读音是 gān jìng。"
+      "explanation": "“干净”读作 gān jìng。注意声母、韵母、声调及轻声。",
+      "targetWord": "干净"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“小”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiǔ",
-        "B": "xiǎo",
-        "C": "xiǎ",
-        "D": "qiǎo"
+        "A": "xiǎo",
+        "B": "diǎo",
+        "C": "qiǎo",
+        "D": "biǎo"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“小”的正确读音是 xiǎo。"
+      "explanation": "“小”读作 xiǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "小"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“近”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jìn",
         "B": "jìng",
-        "C": "jì",
+        "C": "bìn",
         "D": "qìn"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“近”的正确读音是 jìn。"
+      "explanation": "“近”读作 jìn。注意声母、韵母、声调及轻声。",
+      "targetWord": "近"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的____不大。",
-      "pinyin": "wǒ de ____ bù dà 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Phòng của tôi không lớn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：卧室里____一张大床。",
+      "pinyin": "wò shì lǐ ____ yì zhāng dà chuáng 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
       "options": {
-        "A": "床",
-        "B": "窗户",
-        "C": "桌子",
-        "D": "房间"
+        "A": "去",
+        "B": "比",
+        "C": "有",
+        "D": "是"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“房间”。完整句子：我的房间不大。",
+      "explanation": "应填“有”。完整句子：卧室里有一张大床。\n语法与搭配：有＋名词：拥有或存在",
       "optionPinyin": {
-        "A": "chuáng",
-        "B": "chuāng hu",
-        "C": "zhuō zi",
-        "D": "fáng jiān"
-      }
+        "A": "qù",
+        "B": "bǐ",
+        "C": "yǒu",
+        "D": "shì"
+      },
+      "targetWord": "有",
+      "completeSentence": "卧室里有一张大床。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：房间里有一张____。",
-      "pinyin": "fáng jiān lǐ yǒu yī zhāng ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Trong phòng có một chiếc giường.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____阳台上养花。",
+      "pinyin": "wǒ ____ yáng tái shàng yǎng huā 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
       "options": {
-        "A": "小",
-        "B": "干净",
-        "C": "近",
-        "D": "床"
+        "A": "从",
+        "B": "给",
+        "C": "比",
+        "D": "在"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "应填“床”。完整句子：房间里有一张床。",
+      "explanation": "应填“在”。完整句子：我在阳台上养花。\n语法与搭配：在＋地点＋动词/名词",
       "optionPinyin": {
-        "A": "xiǎo",
-        "B": "gān jìng",
-        "C": "jìn",
-        "D": "chuáng"
-      }
+        "A": "cóng",
+        "B": "gěi",
+        "C": "bǐ",
+        "D": "zài"
+      },
+      "targetWord": "在",
+      "completeSentence": "我在阳台上养花。",
+      "grammarFocus": "在＋地点＋动词/名词"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：床旁边有一张____。",
-      "pinyin": "chuáng páng biān yǒu yī zhāng ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bên cạnh giường có một chiếc bàn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这____我们的餐厅。",
+      "pinyin": "zhè ____ wǒ men de cān tīng 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "旁边",
-        "B": "门",
-        "C": "桌子",
-        "D": "电视"
+        "A": "去",
+        "B": "是",
+        "C": "有",
+        "D": "在"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“桌子”。完整句子：床旁边有一张桌子。",
+      "explanation": "应填“是”。完整句子：这是我们的餐厅。\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "páng biān",
-        "B": "mén",
-        "C": "zhuō zi",
-        "D": "diàn shì"
-      }
+        "A": "qù",
+        "B": "shì",
+        "C": "yǒu",
+        "D": "zài"
+      },
+      "targetWord": "是",
+      "completeSentence": "这是我们的餐厅。",
+      "grammarFocus": "是＋名词：判断或说明身份"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我坐在____上。",
-      "pinyin": "wǒ zuò zài ____ shàng 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi ngồi trên ghế.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是妹妹____书架。",
+      "pinyin": "zhè shì mèi mèi ____ shū jià 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "窗户",
-        "B": "客厅",
-        "C": "椅子",
-        "D": "厨房"
+        "A": "得",
+        "B": "地",
+        "C": "的",
+        "D": "吗"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "应填“椅子”。完整句子：我坐在椅子上。",
+      "explanation": "应填“的”。完整句子：这是妹妹的书架。\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "chuāng hu",
-        "B": "kè tīng",
-        "C": "yǐ zi",
-        "D": "chú fáng"
-      }
+        "A": "dé",
+        "B": "dì",
+        "C": "de",
+        "D": "ma"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是妹妹的书架。",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请打开____。",
-      "pinyin": "qǐng dǎ kāi ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy mở cửa ra.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：房间不大，____很明亮。",
+      "pinyin": "fáng jiān bù dà ，____ hěn míng liàng 。",
+      "vietnamese": "Gợi ý: nhưng; quan hệ chuyển ý.",
       "options": {
-        "A": "干净",
-        "B": "门",
-        "C": "椅子",
-        "D": "电脑"
+        "A": "的",
+        "B": "但是",
+        "C": "把",
+        "D": "从"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“门”。完整句子：请打开门。",
+      "explanation": "应填“但是”。完整句子：房间不大，但是很明亮。\n语法与搭配：前一分句＋但是＋转折内容",
       "optionPinyin": {
-        "A": "gān jìng",
-        "B": "mén",
-        "C": "yǐ zi",
-        "D": "diàn nǎo"
-      }
+        "A": "de",
+        "B": "dàn shì",
+        "C": "bǎ",
+        "D": "cóng"
+      },
+      "targetWord": "但是",
+      "completeSentence": "房间不大，但是很明亮。",
+      "grammarFocus": "前一分句＋但是＋转折内容"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请关上____。",
-      "pinyin": "qǐng guān shàng ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy đóng cửa sổ lại.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____空调关掉。",
+      "pinyin": "qǐng ____ kōng tiáo guān diào 。",
+      "vietnamese": "Gợi ý: đưa tân ngữ lên trước động từ để nói cách xử lý.",
       "options": {
-        "A": "窗户",
-        "B": "床",
-        "C": "电视",
-        "D": "桌子"
+        "A": "把",
+        "B": "从",
+        "C": "比",
+        "D": "的"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“窗户”。完整句子：请关上窗户。",
+      "explanation": "应填“把”。完整句子：请把空调关掉。\n语法与搭配：把＋宾语＋动作及结果/位置",
       "optionPinyin": {
-        "A": "chuāng hu",
-        "B": "chuáng",
-        "C": "diàn shì",
-        "D": "zhuō zi"
-      }
+        "A": "bǎ",
+        "B": "cóng",
+        "C": "bǐ",
+        "D": "de"
+      },
+      "targetWord": "把",
+      "completeSentence": "请把空调关掉。",
+      "grammarFocus": "把＋宾语＋动作及结果/位置"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：房间里有一个____。",
-      "pinyin": "fáng jiān lǐ yǒu yí gè ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Trong phòng có một chiếc ti vi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____换一张床单。",
+      "pinyin": "wǒ ____ huàn yì zhāng chuáng dān 。",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "桌子",
-        "B": "小",
-        "C": "近",
-        "D": "电视"
+        "A": "比",
+        "B": "把",
+        "C": "想",
+        "D": "的"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“电视”。完整句子：房间里有一个电视。",
+      "explanation": "应填“想”。完整句子：我想换一张床单。\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "zhuō zi",
-        "B": "xiǎo",
-        "C": "jìn",
-        "D": "diàn shì"
-      }
+        "A": "bǐ",
+        "B": "bǎ",
+        "C": "xiǎng",
+        "D": "de"
+      },
+      "targetWord": "想",
+      "completeSentence": "我想换一张床单。",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的____在桌上。",
-      "pinyin": "wǒ de ____ zài zhuō shàng 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Máy tính của tôi ở trên bàn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：弟弟____打扫卫生。",
+      "pinyin": "dì di ____ dǎ sǎo wèi shēng 。",
+      "vietnamese": "Gợi ý: đang; hành động đang diễn ra.",
       "options": {
-        "A": "干净",
-        "B": "客厅",
-        "C": "床",
-        "D": "电脑"
+        "A": "正在",
+        "B": "比",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“电脑”。完整句子：我的电脑在桌上。",
+      "explanation": "应填“正在”。完整句子：弟弟正在打扫卫生。\n语法与搭配：正在＋动词",
       "optionPinyin": {
-        "A": "gān jìng",
-        "B": "kè tīng",
-        "C": "chuáng",
-        "D": "diàn nǎo"
-      }
+        "A": "zhèng zài",
+        "B": "bǐ",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "正在",
+      "completeSentence": "弟弟正在打扫卫生。",
+      "grammarFocus": "正在＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：桌上有一盏____。",
-      "pinyin": "zhuō shàng yǒu yī zhǎn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Trên bàn có một chiếc đèn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____收拾好衣柜了。",
+      "pinyin": "wǒ ____ shōu shí hǎo yī guì le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
       "options": {
-        "A": "灯",
-        "B": "门",
-        "C": "干净",
-        "D": "近"
+        "A": "的",
+        "B": "已经",
+        "C": "把",
+        "D": "从"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“灯”。完整句子：桌上有一盏灯。",
+      "explanation": "应填“已经”。完整句子：我已经收拾好衣柜了。\n语法与搭配：已经……了",
       "optionPinyin": {
-        "A": "dēng",
-        "B": "mén",
-        "C": "gān jìng",
-        "D": "jìn"
-      }
+        "A": "de",
+        "B": "yǐ jīng",
+        "C": "bǎ",
+        "D": "cóng"
+      },
+      "targetWord": "已经",
+      "completeSentence": "我已经收拾好衣柜了。",
+      "grammarFocus": "已经……了"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：杯子在电脑____。",
-      "pinyin": "bēi zi zài diàn nǎo ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cốc ở bên cạnh máy tính.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这间卧室____那间安静。",
+      "pinyin": "zhè jiān wò shì ____ nà jiān ān jìng 。",
+      "vietnamese": "Gợi ý: hơn; chỉ đối tượng so sánh.",
       "options": {
-        "A": "电脑",
-        "B": "灯",
-        "C": "旁边",
-        "D": "电视"
+        "A": "把",
+        "B": "给",
+        "C": "从",
+        "D": "比"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“旁边”。完整句子：杯子在电脑旁边。",
+      "explanation": "应填“比”。完整句子：这间卧室比那间安静。\n语法与搭配：甲＋比＋乙＋形容词",
       "optionPinyin": {
-        "A": "diàn nǎo",
-        "B": "dēng",
-        "C": "páng biān",
-        "D": "diàn shì"
-      }
+        "A": "bǎ",
+        "B": "gěi",
+        "C": "cóng",
+        "D": "bǐ"
+      },
+      "targetWord": "比",
+      "completeSentence": "这间卧室比那间安静。",
+      "grammarFocus": "甲＋比＋乙＋形容词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我家有一个大____。",
-      "pinyin": "wǒ jiā yǒu yí gè dà ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà tôi có một phòng khách lớn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____弟弟住在同一个房间。",
+      "pinyin": "wǒ ____ dì di zhù zài tóng yī gè fáng jiān 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
       "options": {
-        "A": "灯",
-        "B": "客厅",
-        "C": "干净",
-        "D": "电脑"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "应填“客厅”。完整句子：我家有一个大客厅。",
-      "optionPinyin": {
-        "A": "dēng",
-        "B": "kè tīng",
-        "C": "gān jìng",
-        "D": "diàn nǎo"
-      }
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：妈妈在____做饭。",
-      "pinyin": "mā ma zài ____ zuò fàn 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ đang nấu cơm trong bếp.",
-      "options": {
-        "A": "电视",
-        "B": "房间",
-        "C": "厨房",
-        "D": "干净"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“厨房”。完整句子：妈妈在厨房做饭。",
-      "optionPinyin": {
-        "A": "diàn shì",
-        "B": "fáng jiān",
-        "C": "chú fáng",
-        "D": "gān jìng"
-      }
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这个房间很____。",
-      "pinyin": "zhè ge fáng jiān hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Căn phòng này rất sạch sẽ.",
-      "options": {
-        "A": "干净",
-        "B": "小",
-        "C": "窗户",
-        "D": "桌子"
+        "A": "和",
+        "B": "吗",
+        "C": "把",
+        "D": "很"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“干净”。完整句子：这个房间很干净。",
+      "explanation": "应填“和”。完整句子：我和弟弟住在同一个房间。\n语法与搭配：名词/代词＋和＋名词/代词",
       "optionPinyin": {
-        "A": "gān jìng",
-        "B": "xiǎo",
-        "C": "chuāng hu",
-        "D": "zhuō zi"
-      }
+        "A": "hé",
+        "B": "ma",
+        "C": "bǎ",
+        "D": "hěn"
+      },
+      "targetWord": "和",
+      "completeSentence": "我和弟弟住在同一个房间。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
     },
     {
-      "id": 29,
+      "id": 27,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：桌子有点儿____。",
-      "pinyin": "zhuō zi yǒu diǎn ér ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chiếc bàn hơi nhỏ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：房子____学校很远。",
+      "pinyin": "fáng zi ____ xué xiào hěn yuǎn 。",
+      "vietnamese": "Gợi ý: cách; chỉ khoảng cách.",
       "options": {
-        "A": "客厅",
-        "B": "小",
-        "C": "灯",
-        "D": "电视"
+        "A": "把",
+        "B": "的",
+        "C": "给",
+        "D": "离"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“小”。完整句子：桌子有点儿小。",
+      "explanation": "应填“离”。完整句子：房子离学校很远。\n语法与搭配：甲＋离＋乙＋远/近/距离",
       "optionPinyin": {
-        "A": "kè tīng",
-        "B": "xiǎo",
-        "C": "dēng",
-        "D": "diàn shì"
-      }
+        "A": "bǎ",
+        "B": "de",
+        "C": "gěi",
+        "D": "lí"
+      },
+      "targetWord": "离",
+      "completeSentence": "房子离学校很远。",
+      "grammarFocus": "甲＋离＋乙＋远/近/距离"
     },
     {
-      "id": 30,
+      "id": 28,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的家离学校很____。",
-      "pinyin": "wǒ de jiā lí xué xiào hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà tôi rất gần trường.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：客厅里放着____沙发。",
+      "pinyin": "kè tīng lǐ fàng zhe ____ shā fā 。",
+      "vietnamese": "Gợi ý: một; lượng từ cho vật có bề mặt như ghế sô pha.",
       "options": {
-        "A": "电脑",
-        "B": "电视",
-        "C": "近",
-        "D": "小"
+        "A": "一条",
+        "B": "一只",
+        "C": "一张",
+        "D": "一支"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "应填“近”。完整句子：我的家离学校很近。",
+      "explanation": "应填“一张”。完整句子：客厅里放着一张沙发。\n语法与搭配：数词＋张＋家具",
       "optionPinyin": {
-        "A": "diàn nǎo",
-        "B": "diàn shì",
-        "C": "jìn",
-        "D": "xiǎo"
-      }
+        "A": "yī tiáo",
+        "B": "yī zhī",
+        "C": "yì zhāng",
+        "D": "yī zhī"
+      },
+      "targetWord": "一张",
+      "completeSentence": "客厅里放着一张沙发。",
+      "grammarFocus": "数词＋张＋家具"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____住在这间卧室。",
+      "pinyin": "nǐ ____ zhù zài zhè jiān wò shì 。",
+      "vietnamese": "Gợi ý: có thể; xin phép hoặc cho phép.",
+      "options": {
+        "A": "比",
+        "B": "的",
+        "C": "可以",
+        "D": "把"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“可以”。完整句子：你可以住在这间卧室。\n语法与搭配：可以＋动词",
+      "optionPinyin": {
+        "A": "bǐ",
+        "B": "de",
+        "C": "kě yǐ",
+        "D": "bǎ"
+      },
+      "targetWord": "可以",
+      "completeSentence": "你可以住在这间卧室。",
+      "grammarFocus": "可以＋动词"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：晚上我____开空调。",
+      "pinyin": "wǎn shàng wǒ ____ kāi kōng tiáo 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
+      "options": {
+        "A": "把",
+        "B": "的",
+        "C": "不",
+        "D": "比"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“不”。完整句子：晚上我不开空调。\n语法与搭配：不＋动词/形容词",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "de",
+        "C": "bù",
+        "D": "bǐ"
+      },
+      "targetWord": "不",
+      "completeSentence": "晚上我不开空调。",
+      "grammarFocus": "不＋动词/形容词"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "我的房间不大."
       ],
       "points": 2,
-      "explanation": "参考句子：我的房间不大。"
+      "explanation": "参考句子：我的房间不大。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "房间里有一张床."
       ],
       "points": 2,
-      "explanation": "参考句子：房间里有一张床。"
+      "explanation": "参考句子：房间里有一张床。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "床旁边有一张桌子."
       ],
       "points": 2,
-      "explanation": "参考句子：床旁边有一张桌子。"
+      "explanation": "参考句子：床旁边有一张桌子。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -721,7 +784,8 @@
         "我坐在椅子上."
       ],
       "points": 2,
-      "explanation": "参考句子：我坐在椅子上。"
+      "explanation": "参考句子：我坐在椅子上。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 35,
@@ -736,7 +800,8 @@
         "请打开门."
       ],
       "points": 2,
-      "explanation": "参考句子：请打开门。"
+      "explanation": "参考句子：请打开门。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -751,7 +816,8 @@
         "请关上窗户."
       ],
       "points": 2,
-      "explanation": "参考句子：请关上窗户。"
+      "explanation": "参考句子：请关上窗户。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -766,7 +832,8 @@
         "房间里有一个电视."
       ],
       "points": 2,
-      "explanation": "参考句子：房间里有一个电视。"
+      "explanation": "参考句子：房间里有一个电视。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -781,7 +848,8 @@
         "我的电脑在桌上."
       ],
       "points": 2,
-      "explanation": "参考句子：我的电脑在桌上。"
+      "explanation": "参考句子：我的电脑在桌上。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 39,
@@ -796,7 +864,8 @@
         "桌上有一盏灯."
       ],
       "points": 2,
-      "explanation": "参考句子：桌上有一盏灯。"
+      "explanation": "参考句子：桌上有一盏灯。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -811,7 +880,8 @@
         "杯子在电脑旁边."
       ],
       "points": 2,
-      "explanation": "参考句子：杯子在电脑旁边。"
+      "explanation": "参考句子：杯子在电脑旁边。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 41,
@@ -826,7 +896,8 @@
         "我家有一个大客厅."
       ],
       "points": 2,
-      "explanation": "参考句子：我家有一个大客厅。"
+      "explanation": "参考句子：我家有一个大客厅。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -841,7 +912,8 @@
         "妈妈在厨房做饭."
       ],
       "points": 2,
-      "explanation": "参考句子：妈妈在厨房做饭。"
+      "explanation": "参考句子：妈妈在厨房做饭。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 43,
@@ -856,7 +928,8 @@
         "这个房间很干净."
       ],
       "points": 2,
-      "explanation": "参考句子：这个房间很干净。"
+      "explanation": "参考句子：这个房间很干净。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -871,7 +944,8 @@
         "桌子有点儿小."
       ],
       "points": 2,
-      "explanation": "参考句子：桌子有点儿小。"
+      "explanation": "参考句子：桌子有点儿小。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -886,7 +960,8 @@
         "我的家离学校很近."
       ],
       "points": 2,
-      "explanation": "参考句子：我的家离学校很近。"
+      "explanation": "参考句子：我的家离学校很近。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -901,7 +976,8 @@
         "我们住在三楼."
       ],
       "points": 2,
-      "explanation": "参考句子：我们住在三楼。"
+      "explanation": "参考句子：我们住在三楼。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 47,
@@ -916,7 +992,8 @@
         "这间房子有两个房间."
       ],
       "points": 2,
-      "explanation": "参考句子：这间房子有两个房间。"
+      "explanation": "参考句子：这间房子有两个房间。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -931,7 +1008,8 @@
         "我每天打扫房间."
       ],
       "points": 2,
-      "explanation": "参考句子：我每天打扫房间。"
+      "explanation": "参考句子：我每天打扫房间。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -946,7 +1024,8 @@
         "你的房间在左边."
       ],
       "points": 2,
-      "explanation": "参考句子：你的房间在左边。"
+      "explanation": "参考句子：你的房间在左边。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 50,
@@ -961,9 +1040,11 @@
         "床上没有书包."
       ],
       "points": 2,
-      "explanation": "参考句子：床上没有书包。"
+      "explanation": "参考句子：床上没有书包。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "f73c41e0",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

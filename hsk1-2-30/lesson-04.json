@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第04课 你今年多大？",
-  "description": "Năm nay bạn bao nhiêu tuổi?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Năm nay bạn bao nhiêu tuổi?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“今年”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jīng nián",
+        "A": "jīn lián",
         "B": "jīn niáng",
-        "C": "jīn nián",
-        "D": "jīn lián"
+        "C": "qīn nián",
+        "D": "jīn nián"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“今年”的正确读音是 jīn nián。"
+      "explanation": "“今年”读作 jīn nián。注意声母、韵母、声调及轻声。",
+      "targetWord": "今年"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“二十”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "èr sí",
-        "B": "èr shí",
-        "C": "è shí",
-        "D": "èn shí"
+        "A": "è shí",
+        "B": "èi shí",
+        "C": "èr sí",
+        "D": "èr shí"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“二十”的正确读音是 èr shí。"
+      "explanation": "“二十”读作 èr shí。注意声母、韵母、声调及轻声。",
+      "targetWord": "二十"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“岁”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "suì",
-        "B": "shuì",
-        "C": "sù",
-        "D": "suò"
+        "A": "cuì",
+        "B": "duì",
+        "C": "suì",
+        "D": "shuì"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“岁”的正确读音是 suì。"
+      "explanation": "“岁”读作 suì。注意声母、韵母、声调及轻声。",
+      "targetWord": "岁"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“生日”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shēng rì",
+        "A": "chēng rì",
         "B": "shēn rì",
         "C": "sēng rì",
-        "D": "shēng lì"
+        "D": "shēng rì"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“生日”的正确读音是 shēng rì。"
+      "explanation": "“生日”读作 shēng rì。注意声母、韵母、声调及轻声。",
+      "targetWord": "生日"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“三”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "shān",
-        "B": "sāng",
-        "C": "sān",
-        "D": "sāi"
+        "B": "bān",
+        "C": "sāng",
+        "D": "sān"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“三”的正确读音是 sān。"
+      "explanation": "“三”读作 sān。注意声母、韵母、声调及轻声。",
+      "targetWord": "三"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“大”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dè",
-        "B": "dà",
-        "C": "tà",
-        "D": "dèi"
+        "A": "cà",
+        "B": "dài",
+        "C": "dà",
+        "D": "bà"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“大”的正确读音是 dà。"
+      "explanation": "“大”读作 dà。注意声母、韵母、声调及轻声。",
+      "targetWord": "大"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“小”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiǔ",
-        "B": "xiǎ",
-        "C": "qiǎo",
-        "D": "xiǎo"
+        "A": "xiǎo",
+        "B": "biǎo",
+        "C": "diǎo",
+        "D": "qiǎo"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“小”的正确读音是 xiǎo。"
+      "explanation": "“小”读作 xiǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "小"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“七十”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qī sí",
-        "B": "qīn shí",
-        "C": "qī shí",
-        "D": "qīng shí"
+        "A": "qī shí",
+        "B": "jī shí",
+        "C": "xī shí",
+        "D": "qī sí"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“七十”的正确读音是 qī shí。"
+      "explanation": "“七十”读作 qī shí。注意声母、韵母、声调及轻声。",
+      "targetWord": "七十"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“两个”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "liǎng gè",
-        "B": "liǎn gè",
-        "C": "niǎng gè",
-        "D": "liǎng gà"
+        "B": "niǎng gè",
+        "C": "jiǎng gè",
+        "D": "liǎn gè"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“两个”的正确读音是 liǎng gè。"
+      "explanation": "“两个”读作 liǎng gè。注意声母、韵母、声调及轻声。",
+      "targetWord": "两个"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“五”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wǒ",
-        "B": "yǔ",
+        "A": "dǔ",
+        "B": "cǔ",
         "C": "wǔ",
-        "D": "hǔ"
+        "D": "bǔ"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“五”的正确读音是 wǔ。"
+      "explanation": "“五”读作 wǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "五"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“六”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "niù",
-        "B": "lòu",
-        "C": "liù",
-        "D": "liào"
+        "A": "liù",
+        "B": "liè",
+        "C": "jiù",
+        "D": "niù"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“六”的正确读音是 liù。"
+      "explanation": "“六”读作 liù。注意声母、韵母、声调及轻声。",
+      "targetWord": "六"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“十月”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sí yuè",
-        "B": "shí juè",
-        "C": "shí yuè",
-        "D": "rí yuè"
+        "A": "chí yuè",
+        "B": "shuí yuè",
+        "C": "sí yuè",
+        "D": "shí yuè"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“十月”的正确读音是 shí yuè。"
+      "explanation": "“十月”读作 shí yuè。注意声母、韵母、声调及轻声。",
+      "targetWord": "十月"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“十八”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sí bā",
-        "B": "shí bō",
-        "C": "shí bā",
-        "D": "rí bā"
+        "A": "shuí bā",
+        "B": "shí bā",
+        "C": "sí bā",
+        "D": "chí bā"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“十八”的正确读音是 shí bā。"
+      "explanation": "“十八”读作 shí bā。注意声母、韵母、声调及轻声。",
+      "targetWord": "十八"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“几”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jǐn",
-        "B": "jǐ",
-        "C": "jǐng",
-        "D": "jiě"
+        "A": "qǐ",
+        "B": "cǐ",
+        "C": "jǐ",
+        "D": "bǐ"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“几”的正确读音是 jǐ。"
+      "explanation": "“几”读作 jǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "几"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“快乐”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "kuài nè",
-        "B": "kuì lè",
-        "C": "kuài là",
-        "D": "kuài lè"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "“快乐”的正确读音是 kuài lè。"
-    },
-    {
-      "id": 16,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你____多大？",
-      "pinyin": "nǐ ____ duō dà ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay bạn bao nhiêu tuổi?",
-      "options": {
-        "A": "今年",
-        "B": "快乐",
-        "C": "五",
-        "D": "六"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“今年”。完整句子：你今年多大？",
-      "optionPinyin": {
-        "A": "jīn nián",
         "B": "kuài lè",
-        "C": "wǔ",
-        "D": "liù"
-      }
-    },
-    {
-      "id": 17,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我____岁。",
-      "pinyin": "wǒ ____ suì 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi hai mươi tuổi.",
-      "options": {
-        "A": "二十",
-        "B": "岁",
-        "C": "十八",
-        "D": "快乐"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“二十”。完整句子：我二十岁。",
-      "optionPinyin": {
-        "A": "èr shí",
-        "B": "suì",
-        "C": "shí bā",
-        "D": "kuài lè"
-      }
-    },
-    {
-      "id": 18,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：妹妹今年十____。",
-      "pinyin": "mèi mei jīn nián shí ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay em gái mười tuổi.",
-      "options": {
-        "A": "岁",
-        "B": "两个",
-        "C": "今年",
-        "D": "小"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“岁”。完整句子：妹妹今年十岁。",
-      "optionPinyin": {
-        "A": "suì",
-        "B": "liǎng gè",
-        "C": "jīn nián",
-        "D": "xiǎo"
-      }
-    },
-    {
-      "id": 19,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你的____是几月几号？",
-      "pinyin": "nǐ de ____ shì jǐ yuè jǐ hào ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Sinh nhật của bạn là ngày mấy tháng mấy?",
-      "options": {
-        "A": "十月",
-        "B": "小",
-        "C": "六",
-        "D": "生日"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“生日”。完整句子：你的生日是几月几号？",
-      "optionPinyin": {
-        "A": "shí yuè",
-        "B": "xiǎo",
-        "C": "liù",
-        "D": "shēng rì"
-      }
-    },
-    {
-      "id": 20,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我是五月____号出生的。",
-      "pinyin": "wǒ shì wǔ yuè ____ hào chū shēng de 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi sinh ngày ba tháng năm.",
-      "options": {
-        "A": "快乐",
-        "B": "七十",
-        "C": "大",
-        "D": "三"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“三”。完整句子：我是五月三号出生的。",
-      "optionPinyin": {
-        "A": "kuài lè",
-        "B": "qī shí",
-        "C": "dà",
-        "D": "sān"
-      }
-    },
-    {
-      "id": 21,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：哥哥比我____两岁。",
-      "pinyin": "gē ge bǐ wǒ ____ liǎng suì 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh trai lớn hơn tôi hai tuổi.",
-      "options": {
-        "A": "大",
-        "B": "小",
-        "C": "十八",
-        "D": "几"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“大”。完整句子：哥哥比我大两岁。",
-      "optionPinyin": {
-        "A": "dà",
-        "B": "xiǎo",
-        "C": "shí bā",
-        "D": "jǐ"
-      }
-    },
-    {
-      "id": 22,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：妹妹比我____五岁。",
-      "pinyin": "mèi mei bǐ wǒ ____ wǔ suì 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Em gái nhỏ hơn tôi năm tuổi.",
-      "options": {
-        "A": "五",
-        "B": "六",
-        "C": "小",
-        "D": "快乐"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“小”。完整句子：妹妹比我小五岁。",
-      "optionPinyin": {
-        "A": "wǔ",
-        "B": "liù",
-        "C": "xiǎo",
-        "D": "kuài lè"
-      }
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：奶奶今年____岁。",
-      "pinyin": "nǎi nai jīn nián ____ suì 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay bà nội bảy mươi tuổi.",
-      "options": {
-        "A": "六",
-        "B": "小",
-        "C": "七十",
-        "D": "三"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“七十”。完整句子：奶奶今年七十岁。",
-      "optionPinyin": {
-        "A": "liù",
-        "B": "xiǎo",
-        "C": "qī shí",
-        "D": "sān"
-      }
-    },
-    {
-      "id": 24,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我有____弟弟。",
-      "pinyin": "wǒ yǒu ____ dì di 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi có hai em trai.",
-      "options": {
-        "A": "两个",
-        "B": "三",
-        "C": "几",
-        "D": "五"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“两个”。完整句子：我有两个弟弟。",
-      "optionPinyin": {
-        "A": "liǎng gè",
-        "B": "sān",
-        "C": "jǐ",
-        "D": "wǔ"
-      }
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这里有____个人。",
-      "pinyin": "zhè lǐ yǒu ____ gè rén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Ở đây có năm người.",
-      "options": {
-        "A": "生日",
-        "B": "今年",
-        "C": "二十",
-        "D": "五"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“五”。完整句子：这里有五个人。",
-      "optionPinyin": {
-        "A": "shēng rì",
-        "B": "jīn nián",
-        "C": "èr shí",
-        "D": "wǔ"
-      }
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：弟弟今年____岁。",
-      "pinyin": "dì di jīn nián ____ suì 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay em trai sáu tuổi.",
-      "options": {
-        "A": "五",
-        "B": "岁",
-        "C": "六",
-        "D": "七十"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“六”。完整句子：弟弟今年六岁。",
-      "optionPinyin": {
-        "A": "wǔ",
-        "B": "suì",
-        "C": "liù",
-        "D": "qī shí"
-      }
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的生日在____。",
-      "pinyin": "wǒ de shēng rì zài ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Sinh nhật của tôi vào tháng mười.",
-      "options": {
-        "A": "五",
-        "B": "二十",
-        "C": "十月",
-        "D": "十八"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“十月”。完整句子：我的生日在十月。",
-      "optionPinyin": {
-        "A": "wǔ",
-        "B": "èr shí",
-        "C": "shí yuè",
-        "D": "shí bā"
-      }
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：姐姐今年____岁。",
-      "pinyin": "jiě jie jīn nián ____ suì 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Năm nay chị gái mười tám tuổi.",
-      "options": {
-        "A": "十月",
-        "B": "两个",
-        "C": "十八",
-        "D": "大"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“十八”。完整句子：姐姐今年十八岁。",
-      "optionPinyin": {
-        "A": "shí yuè",
-        "B": "liǎng gè",
-        "C": "shí bā",
-        "D": "dà"
-      }
-    },
-    {
-      "id": 29,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你家有____口人？",
-      "pinyin": "nǐ jiā yǒu ____ kǒu rén ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhà bạn có mấy người?",
-      "options": {
-        "A": "大",
-        "B": "生日",
-        "C": "几",
-        "D": "十月"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“几”。完整句子：你家有几口人？",
-      "optionPinyin": {
-        "A": "dà",
-        "B": "shēng rì",
-        "C": "jǐ",
-        "D": "shí yuè"
-      }
-    },
-    {
-      "id": 30,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：祝你生日____！",
-      "pinyin": "zhù nǐ shēng rì ____！",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúc bạn sinh nhật vui vẻ!",
-      "options": {
-        "A": "大",
-        "B": "快乐",
-        "C": "十八",
-        "D": "六"
+        "C": "guài lè",
+        "D": "huài lè"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“快乐”。完整句子：祝你生日快乐！",
+      "explanation": "“快乐”读作 kuài lè。注意声母、韵母、声调及轻声。",
+      "targetWord": "快乐"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____妹妹大两岁。",
+      "pinyin": "wǒ ____ mèi mèi dà liǎng suì 。",
+      "vietnamese": "Gợi ý: hơn; chỉ đối tượng so sánh.",
+      "options": {
+        "A": "从",
+        "B": "给",
+        "C": "把",
+        "D": "比"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“比”。完整句子：我比妹妹大两岁。\n语法与搭配：甲＋比＋乙＋形容词",
       "optionPinyin": {
-        "A": "dà",
-        "B": "kuài lè",
-        "C": "shí bā",
-        "D": "liù"
-      }
+        "A": "cóng",
+        "B": "gěi",
+        "C": "bǎ",
+        "D": "bǐ"
+      },
+      "targetWord": "比",
+      "completeSentence": "我比妹妹大两岁。",
+      "grammarFocus": "甲＋比＋乙＋形容词"
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：今年他____上小学了。",
+      "pinyin": "jīn nián tā ____ shàng xiǎo xué le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
+      "options": {
+        "A": "把",
+        "B": "从",
+        "C": "的",
+        "D": "已经"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“已经”。完整句子：今年他已经上小学了。\n语法与搭配：已经……了",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "cóng",
+        "C": "de",
+        "D": "yǐ jīng"
+      },
+      "targetWord": "已经",
+      "completeSentence": "今年他已经上小学了。",
+      "grammarFocus": "已经……了"
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这____送给你的生日礼物。",
+      "pinyin": "zhè ____ sòng gěi nǐ de shēng rì lǐ wù 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
+      "options": {
+        "A": "在",
+        "B": "有",
+        "C": "去",
+        "D": "是"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“是”。完整句子：这是送给你的生日礼物。\n语法与搭配：是＋名词：判断或说明身份",
+      "optionPinyin": {
+        "A": "zài",
+        "B": "yǒu",
+        "C": "qù",
+        "D": "shì"
+      },
+      "targetWord": "是",
+      "completeSentence": "这是送给你的生日礼物。",
+      "grammarFocus": "是＋名词：判断或说明身份"
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：今天____几位朋友来庆祝生日。",
+      "pinyin": "jīn tiān ____ jǐ wèi péng you lái qìng zhù shēng rì 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
+      "options": {
+        "A": "是",
+        "B": "去",
+        "C": "比",
+        "D": "有"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“有”。完整句子：今天有几位朋友来庆祝生日。\n语法与搭配：有＋名词：拥有或存在",
+      "optionPinyin": {
+        "A": "shì",
+        "B": "qù",
+        "C": "bǐ",
+        "D": "yǒu"
+      },
+      "targetWord": "有",
+      "completeSentence": "今天有几位朋友来庆祝生日。",
+      "grammarFocus": "有＋名词：拥有或存在"
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____怎么过生日？",
+      "pinyin": "nǐ ____ zěn me guò shēng rì ？",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
+      "options": {
+        "A": "比",
+        "B": "的",
+        "C": "想",
+        "D": "把"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“想”。完整句子：你想怎么过生日？\n语法与搭配：想＋动词",
+      "optionPinyin": {
+        "A": "bǐ",
+        "B": "de",
+        "C": "xiǎng",
+        "D": "bǎ"
+      },
+      "targetWord": "想",
+      "completeSentence": "你想怎么过生日？",
+      "grammarFocus": "想＋动词"
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们____给爷爷唱生日歌。",
+      "pinyin": "wǒ men ____ gěi yé yé chàng shēng rì gē 。",
+      "vietnamese": "Gợi ý: cùng nhau.",
+      "options": {
+        "A": "一本",
+        "B": "一起",
+        "C": "一件",
+        "D": "一张"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“一起”。完整句子：我们一起给爷爷唱生日歌。\n语法与搭配：一起＋动词",
+      "optionPinyin": {
+        "A": "yī běn",
+        "B": "yì qǐ",
+        "C": "yī jiàn",
+        "D": "yì zhāng"
+      },
+      "targetWord": "一起",
+      "completeSentence": "我们一起给爷爷唱生日歌。",
+      "grammarFocus": "一起＋动词"
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是妹妹____生日蛋糕。",
+      "pinyin": "zhè shì mèi mèi ____ shēng rì dàn gāo 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
+      "options": {
+        "A": "的",
+        "B": "吗",
+        "C": "得",
+        "D": "地"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“的”。完整句子：这是妹妹的生日蛋糕。\n语法与搭配：修饰语＋的＋名词",
+      "optionPinyin": {
+        "A": "de",
+        "B": "ma",
+        "C": "dé",
+        "D": "dì"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是妹妹的生日蛋糕。",
+      "grammarFocus": "修饰语＋的＋名词"
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：她____是这个月过生日。",
+      "pinyin": "tā ____ shì zhè ge yuè guò shēng rì 。",
+      "vietnamese": "Gợi ý: cũng; bổ sung điểm giống nhau.",
+      "options": {
+        "A": "从",
+        "B": "把",
+        "C": "的",
+        "D": "也"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“也”。完整句子：她也是这个月过生日。\n语法与搭配：也＋谓语：也有相同情况",
+      "optionPinyin": {
+        "A": "cóng",
+        "B": "bǎ",
+        "C": "de",
+        "D": "yě"
+      },
+      "targetWord": "也",
+      "completeSentence": "她也是这个月过生日。",
+      "grammarFocus": "也＋谓语：也有相同情况"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他____不到十八岁。",
+      "pinyin": "tā ____ bú dào shí bā suì 。",
+      "vietnamese": "Gợi ý: vẫn/còn; chỉ sự tiếp tục hoặc bổ sung.",
+      "options": {
+        "A": "把",
+        "B": "还",
+        "C": "从",
+        "D": "的"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“还”。完整句子：他还不到十八岁。\n语法与搭配：还＋谓语",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "hái",
+        "C": "cóng",
+        "D": "de"
+      },
+      "targetWord": "还",
+      "completeSentence": "他还不到十八岁。",
+      "grammarFocus": "还＋谓语"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____弟弟是同一天生日。",
+      "pinyin": "wǒ ____ dì di shì tóng yī tiān shēng rì 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
+      "options": {
+        "A": "和",
+        "B": "吗",
+        "C": "很",
+        "D": "把"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“和”。完整句子：我和弟弟是同一天生日。\n语法与搭配：名词/代词＋和＋名词/代词",
+      "optionPinyin": {
+        "A": "hé",
+        "B": "ma",
+        "C": "hěn",
+        "D": "bǎ"
+      },
+      "targetWord": "和",
+      "completeSentence": "我和弟弟是同一天生日。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：孩子们____在等切蛋糕。",
+      "pinyin": "hái zi men ____ zài děng qiè dàn gāo 。",
+      "vietnamese": "Gợi ý: đều; bao quát toàn bộ chủ thể.",
+      "options": {
+        "A": "从",
+        "B": "的",
+        "C": "把",
+        "D": "都"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“都”。完整句子：孩子们都在等切蛋糕。\n语法与搭配：复数主语＋都＋谓语",
+      "optionPinyin": {
+        "A": "cóng",
+        "B": "de",
+        "C": "bǎ",
+        "D": "dōu"
+      },
+      "targetWord": "都",
+      "completeSentence": "孩子们都在等切蛋糕。",
+      "grammarFocus": "复数主语＋都＋谓语"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：可以____我看看你小时候的照片吗？",
+      "pinyin": "kě yǐ ____ wǒ kàn kàn nǐ xiǎo shí hou de zhào piān ma ？",
+      "vietnamese": "Gợi ý: cho; chỉ người nhận.",
+      "options": {
+        "A": "比",
+        "B": "吗",
+        "C": "的",
+        "D": "给"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“给”。完整句子：可以给我看看你小时候的照片吗？\n语法与搭配：给＋人＋物/动词",
+      "optionPinyin": {
+        "A": "bǐ",
+        "B": "ma",
+        "C": "de",
+        "D": "gěi"
+      },
+      "targetWord": "给",
+      "completeSentence": "可以给我看看你小时候的照片吗？",
+      "grammarFocus": "给＋人＋物/动词"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：生日会____晚上六点开始。",
+      "pinyin": "shēng rì huì ____ wǎn shàng liù diǎn kāi shǐ 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
+      "options": {
+        "A": "在",
+        "B": "从",
+        "C": "给",
+        "D": "比"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“在”。完整句子：生日会在晚上六点开始。\n语法与搭配：在＋地点＋动词/名词",
+      "optionPinyin": {
+        "A": "zài",
+        "B": "cóng",
+        "C": "gěi",
+        "D": "bǐ"
+      },
+      "targetWord": "在",
+      "completeSentence": "生日会在晚上六点开始。",
+      "grammarFocus": "在＋地点＋动词/名词"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你想要哪____生日礼物？",
+      "pinyin": "nǐ xiǎng yào nǎ ____ shēng rì lǐ wù ？",
+      "vietnamese": "Gợi ý: loại; lượng từ chỉ chủng loại.",
+      "options": {
+        "A": "岁",
+        "B": "遍",
+        "C": "点",
+        "D": "种"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“种”。完整句子：你想要哪种生日礼物？\n语法与搭配：数词/疑问词＋种＋名词",
+      "optionPinyin": {
+        "A": "suì",
+        "B": "biàn",
+        "C": "diǎn",
+        "D": "zhǒng"
+      },
+      "targetWord": "种",
+      "completeSentence": "你想要哪种生日礼物？",
+      "grammarFocus": "数词/疑问词＋种＋名词"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是我____在国外过生日。",
+      "pinyin": "zhè shì wǒ ____ zài guó wài guò shēng rì 。",
+      "vietnamese": "Gợi ý: lần đầu tiên.",
+      "options": {
+        "A": "第一张",
+        "B": "第一次",
+        "C": "第一件",
+        "D": "第一本"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“第一次”。完整句子：这是我第一次在国外过生日。\n语法与搭配：第一次＋动词",
+      "optionPinyin": {
+        "A": "dì yì zhāng",
+        "B": "dì yī cì",
+        "C": "dì yī jiàn",
+        "D": "dì yī běn"
+      },
+      "targetWord": "第一次",
+      "completeSentence": "这是我第一次在国外过生日。",
+      "grammarFocus": "第一次＋动词"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "你今年多大?"
       ],
       "points": 2,
-      "explanation": "参考句子：你今年多大？"
+      "explanation": "参考句子：你今年多大？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "我二十岁."
       ],
       "points": 2,
-      "explanation": "参考句子：我二十岁。"
+      "explanation": "参考句子：我二十岁。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "妹妹今年十岁."
       ],
       "points": 2,
-      "explanation": "参考句子：妹妹今年十岁。"
+      "explanation": "参考句子：妹妹今年十岁。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -721,7 +784,8 @@
         "你的生日是几月几号?"
       ],
       "points": 2,
-      "explanation": "参考句子：你的生日是几月几号？"
+      "explanation": "参考句子：你的生日是几月几号？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -736,7 +800,8 @@
         "我是五月三号出生的."
       ],
       "points": 2,
-      "explanation": "参考句子：我是五月三号出生的。"
+      "explanation": "参考句子：我是五月三号出生的。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -751,7 +816,8 @@
         "哥哥比我大两岁."
       ],
       "points": 2,
-      "explanation": "参考句子：哥哥比我大两岁。"
+      "explanation": "参考句子：哥哥比我大两岁。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 37,
@@ -766,7 +832,8 @@
         "妹妹比我小五岁."
       ],
       "points": 2,
-      "explanation": "参考句子：妹妹比我小五岁。"
+      "explanation": "参考句子：妹妹比我小五岁。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 38,
@@ -781,7 +848,8 @@
         "奶奶今年七十岁."
       ],
       "points": 2,
-      "explanation": "参考句子：奶奶今年七十岁。"
+      "explanation": "参考句子：奶奶今年七十岁。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -796,7 +864,8 @@
         "我有两个弟弟."
       ],
       "points": 2,
-      "explanation": "参考句子：我有两个弟弟。"
+      "explanation": "参考句子：我有两个弟弟。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -811,7 +880,8 @@
         "这里有五个人."
       ],
       "points": 2,
-      "explanation": "参考句子：这里有五个人。"
+      "explanation": "参考句子：这里有五个人。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -826,7 +896,8 @@
         "弟弟今年六岁."
       ],
       "points": 2,
-      "explanation": "参考句子：弟弟今年六岁。"
+      "explanation": "参考句子：弟弟今年六岁。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -841,7 +912,8 @@
         "我的生日在十月."
       ],
       "points": 2,
-      "explanation": "参考句子：我的生日在十月。"
+      "explanation": "参考句子：我的生日在十月。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 43,
@@ -856,7 +928,8 @@
         "姐姐今年十八岁."
       ],
       "points": 2,
-      "explanation": "参考句子：姐姐今年十八岁。"
+      "explanation": "参考句子：姐姐今年十八岁。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -871,7 +944,8 @@
         "你家有几口人?"
       ],
       "points": 2,
-      "explanation": "参考句子：你家有几口人？"
+      "explanation": "参考句子：你家有几口人？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -886,7 +960,8 @@
         "祝你生日快乐!"
       ],
       "points": 2,
-      "explanation": "参考句子：祝你生日快乐！"
+      "explanation": "参考句子：祝你生日快乐！\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -901,7 +976,8 @@
         "爸爸比妈妈大三岁."
       ],
       "points": 2,
-      "explanation": "参考句子：爸爸比妈妈大三岁。"
+      "explanation": "参考句子：爸爸比妈妈大三岁。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 47,
@@ -916,7 +992,8 @@
         "今天是我的生日."
       ],
       "points": 2,
-      "explanation": "参考句子：今天是我的生日。"
+      "explanation": "参考句子：今天是我的生日。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -931,7 +1008,8 @@
         "你弟弟今年多大了?"
       ],
       "points": 2,
-      "explanation": "参考句子：你弟弟今年多大了？"
+      "explanation": "参考句子：你弟弟今年多大了？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -946,7 +1024,8 @@
         "我们都是二十岁."
       ],
       "points": 2,
-      "explanation": "参考句子：我们都是二十岁。"
+      "explanation": "参考句子：我们都是二十岁。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -961,9 +1040,11 @@
         "桌上有一个生日蛋糕."
       ],
       "points": 2,
-      "explanation": "参考句子：桌上有一个生日蛋糕。"
+      "explanation": "参考句子：桌上有一个生日蛋糕。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "5416885b",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

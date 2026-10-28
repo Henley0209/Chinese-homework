@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第01课 你好，很高兴认识你",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“名字”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "mín zì",
-        "B": "líng zì",
-        "C": "míng zì",
-        "D": "míng zhì"
+        "A": "míng zi",
+        "B": "líng zi",
+        "C": "míng zhi",
+        "D": "mín zi"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "“名字”读作 míng zì，本课词义：tên。"
+      "explanation": "“名字”读作 míng zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "名字"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“越南”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yuè nán",
-        "B": "yuè náng",
-        "C": "juè nán",
-        "D": "yuè lán"
+        "A": "yuè náng",
+        "B": "juè nán",
+        "C": "yuè lán",
+        "D": "yuè nán"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“越南”读作 yuè nán，本课词义：Việt Nam。"
+      "explanation": "“越南”读作 yuè nán。注意声母、韵母、声调及轻声。",
+      "targetWord": "越南"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“认识”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "rèn shí",
-        "B": "bèn shí",
-        "C": "rèn sí",
-        "D": "rèng shí"
+        "A": "rèn shi",
+        "B": "bèn shi",
+        "C": "rèn si",
+        "D": "rèng shi"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“认识”读作 rèn shí，本课词义：quen biết。"
+      "explanation": "“认识”读作 rèn shi。注意声母、韵母、声调及轻声。",
+      "targetWord": "认识"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“介绍”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiè shào",
-        "B": "qiè shào",
-        "C": "jiè shòu",
-        "D": "jiè sào"
+        "A": "jiè sào",
+        "B": "jiè shào",
+        "C": "qiè shào",
+        "D": "jiè shòu"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“介绍”读作 jiè shào，本课词义：giới thiệu。"
+      "explanation": "“介绍”读作 jiè shào。注意声母、韵母、声调及轻声。",
+      "targetWord": "介绍"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“联系”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "nián xì",
-        "B": "liáng xì",
-        "C": "lián qì",
-        "D": "lián xì"
+        "A": "lián qì",
+        "B": "nián xì",
+        "C": "lián xì",
+        "D": "liáng xì"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“联系”读作 lián xì，本课词义：liên lạc。"
+      "explanation": "“联系”读作 lián xì。注意声母、韵母、声调及轻声。",
+      "targetWord": "联系"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问你叫什么____。",
-      "pinyin": "qǐng wèn nǐ jiào shén me ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tên.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请问您____？",
+      "pinyin": "qǐng wèn nín ____？",
+      "vietnamese": "Gợi ý: họ (cách hỏi lịch sự).",
       "options": {
-        "A": "名字",
-        "B": "联系",
-        "C": "认识",
-        "D": "介绍"
+        "A": "贵姓",
+        "B": "互相",
+        "C": "同学",
+        "D": "来自"
       },
       "optionPinyin": {
-        "A": "míng zì",
-        "B": "lián xì",
-        "C": "rèn shí",
-        "D": "jiè shào"
+        "A": "guì xìng",
+        "B": "hù xiāng",
+        "C": "tóng xué",
+        "D": "lái zì"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“名字”（tên）。完整表达：请问你叫什么名字。"
+      "explanation": "应填“贵姓”。完整句子：请问您贵姓？\n语法与搭配：您贵姓：礼貌询问姓氏",
+      "targetWord": "贵姓",
+      "completeSentence": "请问您贵姓？",
+      "grammarFocus": "您贵姓：礼貌询问姓氏"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我是来自____的学生。",
-      "pinyin": "wǒ shì lái zì ____ de xué shēng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: Việt Nam.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们在一个班，是____。",
+      "pinyin": "wǒ men zài yí gè bān ， shì ____。",
+      "vietnamese": "Gợi ý: bạn học.",
       "options": {
-        "A": "联系",
-        "B": "认识",
-        "C": "介绍",
-        "D": "越南"
+        "A": "贵姓",
+        "B": "同学",
+        "C": "来自",
+        "D": "互相"
       },
       "optionPinyin": {
-        "A": "lián xì",
-        "B": "rèn shí",
-        "C": "jiè shào",
-        "D": "yuè nán"
+        "A": "guì xìng",
+        "B": "tóng xué",
+        "C": "lái zì",
+        "D": "hù xiāng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“越南”（Việt Nam）。完整表达：我是来自越南的学生。"
+      "explanation": "应填“同学”。完整句子：我们在一个班，是同学。\n语法与搭配：是：说明身份关系",
+      "targetWord": "同学",
+      "completeSentence": "我们在一个班，是同学。",
+      "grammarFocus": "是：说明身份关系"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：很高兴在这里____大家。",
-      "pinyin": "hěn gāo xìng zài zhè lǐ ____ dà jiā",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: quen biết.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：她____河内，现在住在北京。",
+      "pinyin": "tā ____ hé nèi ， xiàn zài zhù zài běi jīng 。",
+      "vietnamese": "Gợi ý: đến từ.",
       "options": {
-        "A": "认识",
-        "B": "介绍",
-        "C": "联系",
-        "D": "越南"
+        "A": "互相",
+        "B": "来自",
+        "C": "贵姓",
+        "D": "同学"
       },
       "optionPinyin": {
-        "A": "rèn shí",
-        "B": "jiè shào",
-        "C": "lián xì",
-        "D": "yuè nán"
+        "A": "hù xiāng",
+        "B": "lái zì",
+        "C": "guì xìng",
+        "D": "tóng xué"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“认识”（quen biết）。完整表达：很高兴在这里认识大家。"
+      "explanation": "应填“来自”。完整句子：她来自河内，现在住在北京。\n语法与搭配：来自＋地点",
+      "targetWord": "来自",
+      "completeSentence": "她来自河内，现在住在北京。",
+      "grammarFocus": "来自＋地点"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请允许我先____一下自己。",
-      "pinyin": "qǐng yǔn xǔ wǒ xiān ____ yī xià zì jǐ",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: giới thiệu.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：新朋友应该____帮助。",
+      "pinyin": "xīn péng you yīng gāi ____ bāng zhù 。",
+      "vietnamese": "Gợi ý: lẫn nhau.",
       "options": {
-        "A": "联系",
-        "B": "认识",
-        "C": "介绍",
-        "D": "名字"
+        "A": "互相",
+        "B": "贵姓",
+        "C": "来自",
+        "D": "同学"
       },
       "optionPinyin": {
-        "A": "lián xì",
-        "B": "rèn shí",
-        "C": "jiè shào",
-        "D": "míng zì"
+        "A": "hù xiāng",
+        "B": "guì xìng",
+        "C": "lái zì",
+        "D": "tóng xué"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“介绍”（giới thiệu）。完整表达：请允许我先介绍一下自己。"
+      "explanation": "应填“互相”。完整句子：新朋友应该互相帮助。\n语法与搭配：互相＋动词",
+      "targetWord": "互相",
+      "completeSentence": "新朋友应该互相帮助。",
+      "grammarFocus": "互相＋动词"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我们以后可以用微信____。",
-      "pinyin": "wǒ men yǐ hòu kě yǐ yòng wēi xìn ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: liên lạc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你可以加我的____吗？",
+      "pinyin": "nǐ kě yǐ jiā wǒ de ____ ma ？",
+      "vietnamese": "Gợi ý: WeChat.",
       "options": {
-        "A": "介绍",
-        "B": "认识",
-        "C": "联系",
-        "D": "名字"
+        "A": "同学",
+        "B": "微信",
+        "C": "来自",
+        "D": "贵姓"
       },
       "optionPinyin": {
-        "A": "jiè shào",
-        "B": "rèn shí",
-        "C": "lián xì",
-        "D": "míng zì"
+        "A": "tóng xué",
+        "B": "wēi xìn",
+        "C": "lái zì",
+        "D": "guì xìng"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“联系”（liên lạc）。完整表达：我们以后可以用微信联系。"
+      "explanation": "应填“微信”。完整句子：你可以加我的微信吗？\n语法与搭配：可以……吗：请求许可",
+      "targetWord": "微信",
+      "completeSentence": "你可以加我的微信吗？",
+      "grammarFocus": "可以……吗：请求许可"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n你 / 请问 / 名字 / 叫什么",
-      "pinyin": "nǐ / qǐng wèn / míng zì / jiào shén me",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n怎么称呼 / 你 / 姓陈 / 我",
+      "pinyin": "zěn me chēng hū / nǐ / xìng chén / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问你叫什么名字。",
-        "请问你叫什么名字",
-        "请问你叫什么名字.",
-        "请问你叫什么名字？",
-        "请问你叫什么名字?"
+        "我姓陈你怎么称呼。",
+        "我姓陈你怎么称呼",
+        "我姓陈你怎么称呼."
       ],
       "points": 5,
       "hanziCount": 8,
-      "explanation": "参考表达：请问你叫什么名字。\nqǐng wèn nǐ jiào shén me míng zì。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：我姓陈你怎么称呼。\nwǒ xìng chén nǐ zěn me chēng hū\n语法与搭配：姓＋姓氏；怎么称呼",
+      "grammarFocus": "姓＋姓氏；怎么称呼"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n来自越南的 / 学生 / 是 / 我",
-      "pinyin": "lái zì yuè nán de / xué shēng / shì / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n是 / 新同事 / 刚来的 / 这位",
+      "pinyin": "shì / xīn tóng shì / gāng lái de / zhè wèi",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我是来自越南的学生。",
-        "我是来自越南的学生",
-        "我是来自越南的学生.",
-        "我是来自越南的学生？",
-        "我是来自越南的学生?"
+        "这位是刚来的新同事。",
+        "这位是刚来的新同事",
+        "这位是刚来的新同事."
       ],
       "points": 5,
       "hanziCount": 9,
-      "explanation": "参考表达：我是来自越南的学生。\nwǒ shì lái zì yuè nán de xué shēng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：这位是刚来的新同事。\nzhè wèi shì gāng lái de xīn tóng shì\n语法与搭配：这位；的字短语修饰名词",
+      "grammarFocus": "这位；的字短语修饰名词"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n认识 / 在这里 / 很高兴 / 大家",
-      "pinyin": "rèn shí / zài zhè lǐ / hěn gāo xìng / dà jiā",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n他 / 会说 / 也会说越南语 / 中文",
+      "pinyin": "tā / huì shuō / yě huì shuō yuè nán yǔ / zhōng wén",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "很高兴在这里认识大家。",
-        "很高兴在这里认识大家",
-        "很高兴在这里认识大家.",
-        "很高兴在这里认识大家？",
-        "很高兴在这里认识大家?"
+        "他会说中文也会说越南语。",
+        "他会说中文也会说越南语",
+        "他会说中文也会说越南语."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：很高兴在这里认识大家。\nhěn gāo xìng zài zhè lǐ rèn shí dà jiā。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 11,
+      "explanation": "参考句子：他会说中文也会说越南语。\ntā huì shuō zhōng wén yě huì shuō yuè nán yǔ\n语法与搭配：也：补充相同情况",
+      "grammarFocus": "也：补充相同情况"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n先 / 请 / 介绍一下自己 / 允许我",
-      "pinyin": "xiān / qǐng / jiè shào yī xià zì jǐ / yǔn xǔ wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n就聊了很久 / 见面 / 第一次 / 我们",
+      "pinyin": "jiù liáo le hěn jiǔ / jiàn miàn / dì yī cì / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请允许我先介绍一下自己。",
-        "请允许我先介绍一下自己",
-        "请允许我先介绍一下自己.",
-        "请允许我先介绍一下自己？",
-        "请允许我先介绍一下自己?"
+        "我们第一次见面就聊了很久。",
+        "我们第一次见面就聊了很久",
+        "我们第一次见面就聊了很久."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请允许我先介绍一下自己。\nqǐng yǔn xǔ wǒ xiān jiè shào yī xià zì jǐ。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：我们第一次见面就聊了很久。\nwǒ men dì yī cì jiàn miàn jiù liáo le hěn jiǔ\n语法与搭配：第一次＋动词；就",
+      "grammarFocus": "第一次＋动词；就"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n以后 / 可以 / 用微信联系 / 我们",
-      "pinyin": "yǐ hòu / kě yǐ / yòng wēi xìn lián xì / wǒ men",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n以后 / 我们 / 一起练口语吧 / 有时间",
+      "pinyin": "yǐ hòu / wǒ men / yì qǐ liàn kǒu yǔ ba / yǒu shí jiān",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们以后可以用微信联系。",
-        "我们以后可以用微信联系",
-        "我们以后可以用微信联系.",
-        "我们以后可以用微信联系？",
-        "我们以后可以用微信联系?"
+        "以后有时间我们一起练口语吧。",
+        "以后有时间我们一起练口语吧",
+        "以后有时间我们一起练口语吧."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：我们以后可以用微信联系。\nwǒ men yǐ hòu kě yǐ yòng wēi xìn lián xì。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：以后有时间我们一起练口语吧。\nyǐ hòu yǒu shí jiān wǒ men yì qǐ liàn kǒu yǔ ba\n语法与搭配：有时间；吧：提议",
+      "grammarFocus": "有时间；吧：提议"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

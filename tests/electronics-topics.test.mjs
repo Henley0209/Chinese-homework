@@ -29,7 +29,7 @@ for(const m of manifest){
    if(i<10)assert.ok(q.pinyin.includes('____'));
    else for(const key of 'ABCD')assert.ok(q.optionPinyin[key]);
    if(i>=10&&i<20)assert.equal((q.text.match(/____/g)||[]).length,1);
-   if(i>=20)assert.equal(q.options[q.answers[0]],m.sortingSentences[i-20]);
+   if(i>=20)assert.equal(q.options[q.answers[0]],m.responseSentences[i-20]);
   }else{
    assert.ok(!sentences.has(q.answers[0]));sentences.add(q.answers[0]);
    const chunks=q.text.split('\n')[1].split(' / ');assert.ok(chunks.length>=4);assert.notEqual(chunks.join(''),q.answers[0]);

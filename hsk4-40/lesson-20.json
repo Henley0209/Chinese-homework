@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第20课 路上的风景",
-  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“旅行”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lǚ xín",
-        "B": "lǚ xíng",
+        "A": "lǚ xíng",
+        "B": "nǔ xíng",
         "C": "lǚ qíng",
-        "D": "nǔ xíng"
+        "D": "lǚ xín"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“旅行”的正确读音是 lǚ xíng。"
+      "explanation": "“旅行”读作 lǚ xíng。注意声母、韵母、声调及轻声。",
+      "targetWord": "旅行"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“风景”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "fēng jǐng",
-        "B": "fēng qǐng",
-        "C": "hēng jǐng",
-        "D": "fēn jǐng"
+        "B": "fēn jǐng",
+        "C": "fēng qǐng",
+        "D": "hēng jǐng"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“风景”的正确读音是 fēng jǐng。"
+      "explanation": "“风景”读作 fēng jǐng。注意声母、韵母、声调及轻声。",
+      "targetWord": "风景"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“沿途”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cán tú",
+        "A": "fán tú",
         "B": "yáng tú",
-        "C": "fán tú",
+        "C": "cán tú",
         "D": "yán tú"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“沿途”的正确读音是 yán tú。"
+      "explanation": "“沿途”读作 yán tú。注意声母、韵母、声调及轻声。",
+      "targetWord": "沿途"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“出发”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chū hā",
-        "B": "chū fā",
-        "C": "chuā fā",
-        "D": "cū fā"
+        "A": "cū fā",
+        "B": "chuā fā",
+        "C": "chū fā",
+        "D": "chū hā"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“出发”的正确读音是 chū fā。"
+      "explanation": "“出发”读作 chū fā。注意声母、韵母、声调及轻声。",
+      "targetWord": "出发"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“目的地”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dù dì dì",
+        "A": "bù dì dì",
         "B": "cù dì dì",
-        "C": "bù dì dì",
-        "D": "mù dì dì"
+        "C": "mù dì dì",
+        "D": "dù dì dì"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“目的地”的正确读音是 mù dì dì。"
+      "explanation": "“目的地”读作 mù dì dì。注意声母、韵母、声调及轻声。",
+      "targetWord": "目的地"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“路线”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "lù xiàng",
-        "B": "lù qiàn",
-        "C": "lù xiàn",
-        "D": "nù xiàn"
+        "B": "nù xiàn",
+        "C": "lù qiàn",
+        "D": "lù xiàn"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“路线”的正确读音是 lù xiàn。"
+      "explanation": "“路线”读作 lù xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "路线"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“导游”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dǒu yóu",
+        "A": "bǎo yóu",
         "B": "dǎo yáo",
-        "C": "bǎo yóu",
-        "D": "dǎo yóu"
+        "C": "dǎo yóu",
+        "D": "dǒu yóu"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“导游”的正确读音是 dǎo yóu。"
+      "explanation": "“导游”读作 dǎo yóu。注意声母、韵母、声调及轻声。",
+      "targetWord": "导游"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“行李”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qíng lǐ",
-        "B": "xíng nǐ",
-        "C": "xín lǐ",
+        "A": "xín lǐ",
+        "B": "qíng lǐ",
+        "C": "xíng nǐ",
         "D": "xíng lǐ"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“行李”的正确读音是 xíng lǐ。"
+      "explanation": "“行李”读作 xíng lǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "行李"
     },
     {
       "id": 9,
@@ -161,18 +169,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“游客”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "yóu kè",
         "B": "fóu kè",
-        "C": "cóu kè",
-        "D": "yáo kè"
+        "C": "yáo kè",
+        "D": "cóu kè"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“游客”的正确读音是 yóu kè。"
+      "explanation": "“游客”读作 yóu kè。注意声母、韵母、声调及轻声。",
+      "targetWord": "游客"
     },
     {
       "id": 10,
@@ -180,10 +189,10 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“景点”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǐng diǎn",
-        "B": "qǐng diǎn",
+        "A": "qǐng diǎn",
+        "B": "bǐng diǎn",
         "C": "jǐng diǎn",
         "D": "jǐn diǎn"
       },
@@ -191,7 +200,8 @@
         "C"
       ],
       "points": 2,
-      "explanation": "“景点”的正确读音是 jǐng diǎn。"
+      "explanation": "“景点”读作 jǐng diǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "景点"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“体验”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cǐ yàn",
-        "B": "tǐ yàn",
-        "C": "bǐ yàn",
-        "D": "tǐ yàng"
+        "A": "tǐ yàng",
+        "B": "cǐ yàn",
+        "C": "tǐ yàn",
+        "D": "bǐ yàn"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“体验”的正确读音是 tǐ yàn。"
+      "explanation": "“体验”读作 tǐ yàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "体验"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“难忘”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "náng wàng",
-        "B": "lán wàng",
-        "C": "nán wàn",
-        "D": "nán wàng"
+        "A": "lán wàng",
+        "B": "nán wàn",
+        "C": "nán wàng",
+        "D": "náng wàng"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“难忘”的正确读音是 nán wàng。"
+      "explanation": "“难忘”读作 nán wàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "难忘"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“旅程”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "nǔ chéng",
-        "B": "lǚ chén",
-        "C": "lǚ céng",
-        "D": "lǚ chéng"
+        "A": "lǚ chéng",
+        "B": "lǚ céng",
+        "C": "lǚ chén",
+        "D": "nǔ chéng"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“旅程”的正确读音是 lǚ chéng。"
+      "explanation": "“旅程”读作 lǚ chéng。注意声母、韵母、声调及轻声。",
+      "targetWord": "旅程"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“照片”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zào piān",
-        "B": "zhào piān",
-        "C": "zhòu piān",
-        "D": "chào piān"
+        "A": "chào piān",
+        "B": "zhòu piān",
+        "C": "zào piān",
+        "D": "zhào piān"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“照片”的正确读音是 zhào piān。"
+      "explanation": "“照片”读作 zhào piān。注意声母、韵母、声调及轻声。",
+      "targetWord": "照片"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“收获”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "shōu huò",
         "B": "sōu huò",
-        "C": "chōu huò",
-        "D": "shāo huò"
+        "C": "shāo huò",
+        "D": "chōu huò"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“收获”的正确读音是 shōu huò。"
+      "explanation": "“收获”读作 shōu huò。注意声母、韵母、声调及轻声。",
+      "targetWord": "收获"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“计划”（kế hoạch）。完整句子：出发之前，我们认真讨论了旅行计划。"
+      "explanation": "应填“计划”（kế hoạch）。完整句子：出发之前，我们认真讨论了旅行计划。",
+      "targetWord": "计划",
+      "completeSentence": "出发之前，我们认真讨论了旅行计划。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“安排”（sắp xếp）。完整句子：导游已经安排好了明天参观的顺序。"
+      "explanation": "应填“安排”（sắp xếp）。完整句子：导游已经安排好了明天参观的顺序。",
+      "targetWord": "安排",
+      "completeSentence": "导游已经安排好了明天参观的顺序。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“提前”（trước, sớm）。完整句子：旅游旺季最好提前预订酒店。"
+      "explanation": "应填“提前”（trước, sớm）。完整句子：旅游旺季最好提前预订酒店。",
+      "targetWord": "提前",
+      "completeSentence": "旅游旺季最好提前预订酒店。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“当地”（địa phương）。完整句子：到了一个新地方，我喜欢尝尝当地的食物。"
+      "explanation": "应填“当地”（địa phương）。完整句子：到了一个新地方，我喜欢尝尝当地的食物。",
+      "targetWord": "当地",
+      "completeSentence": "到了一个新地方，我喜欢尝尝当地的食物。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“文化”（văn hóa）。完整句子：旅行不仅能看风景，还能了解不同的文化。"
+      "explanation": "应填“文化”（văn hóa）。完整句子：旅行不仅能看风景，还能了解不同的文化。",
+      "targetWord": "文化",
+      "completeSentence": "旅行不仅能看风景，还能了解不同的文化。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“经历”（trải nghiệm）。完整句子：这次迷路的经历，后来成了有趣的回忆。"
+      "explanation": "应填“经历”（trải nghiệm）。完整句子：这次迷路的经历，后来成了有趣的回忆。",
+      "targetWord": "经历",
+      "completeSentence": "这次迷路的经历，后来成了有趣的回忆。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“发现”（phát hiện）。完整句子：走进小巷以后，我们发现了一家很特别的书店。"
+      "explanation": "应填“发现”（phát hiện）。完整句子：走进小巷以后，我们发现了一家很特别的书店。",
+      "targetWord": "发现",
+      "completeSentence": "走进小巷以后，我们发现了一家很特别的书店。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“放慢”（chậm lại）。完整句子：为了欣赏沿路的景色，我们决定放慢脚步。"
+      "explanation": "应填“放慢”（chậm lại）。完整句子：为了欣赏沿路的景色，我们决定放慢脚步。",
+      "targetWord": "放慢",
+      "completeSentence": "为了欣赏沿路的景色，我们决定放慢脚步。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“方向”（phương hướng）。完整句子：找不到路时，可以向当地人询问方向。"
+      "explanation": "应填“方向”（phương hướng）。完整句子：找不到路时，可以向当地人询问方向。",
+      "targetWord": "方向",
+      "completeSentence": "找不到路时，可以向当地人询问方向。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“帮助”（giúp đỡ）。完整句子：旅途中，陌生人的帮助让她觉得很温暖。"
+      "explanation": "应填“帮助”（giúp đỡ）。完整句子：旅途中，陌生人的帮助让她觉得很温暖。",
+      "targetWord": "帮助",
+      "completeSentence": "旅途中，陌生人的帮助让她觉得很温暖。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“安全”（an toàn）。完整句子：外出旅行时，最重要的是注意安全。"
+      "explanation": "应填“安全”（an toàn）。完整句子：外出旅行时，最重要的是注意安全。",
+      "targetWord": "安全",
+      "completeSentence": "外出旅行时，最重要的是注意安全。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“尊重”（tôn trọng）。完整句子：参观当地村庄时，要尊重居民的生活习惯。"
+      "explanation": "应填“尊重”（tôn trọng）。完整句子：参观当地村庄时，要尊重居民的生活习惯。",
+      "targetWord": "尊重",
+      "completeSentence": "参观当地村庄时，要尊重居民的生活习惯。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“记录”（ghi lại）。完整句子：他用相机记录了旅途中的美好时刻。"
+      "explanation": "应填“记录”（ghi lại）。完整句子：他用相机记录了旅途中的美好时刻。",
+      "targetWord": "记录",
+      "completeSentence": "他用相机记录了旅途中的美好时刻。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“改变”（thay đổi）。完整句子：这次旅行改变了她对乡村生活的看法。"
+      "explanation": "应填“改变”（thay đổi）。完整句子：这次旅行改变了她对乡村生活的看法。",
+      "targetWord": "改变",
+      "completeSentence": "这次旅行改变了她对乡村生活的看法。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“值得”（đáng）。完整句子：虽然路程很远，但是这些风景值得我们来看。"
+      "explanation": "应填“值得”（đáng）。完整句子：虽然路程很远，但是这些风景值得我们来看。",
+      "targetWord": "值得",
+      "completeSentence": "虽然路程很远，但是这些风景值得我们来看。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "旅行的意义不只是到达目的地还包括欣赏沿途的风景."
       ],
       "points": 2,
-      "explanation": "参考句子：旅行的意义不只是到达目的地还包括欣赏沿途的风景。\nlǚ xíng de yì yì bù zhǐ shì dào dá mù dì dì hái bāo kuò xīn shǎng yán tú de fēng jǐng 。",
-      "hanziCount": 23
+      "explanation": "参考句子：旅行的意义不只是到达目的地还包括欣赏沿途的风景。\nlǚ xíng de yì yì bù zhǐ shì dào dá mù dì dì hái bāo kuò xīn shǎng yán tú de fēng jǐng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 23,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "与其匆匆忙忙地赶路不如放慢脚步认真看看身边的世界."
       ],
       "points": 2,
-      "explanation": "参考句子：与其匆匆忙忙地赶路不如放慢脚步认真看看身边的世界。\nyǔ qí cōng cōng máng máng dì gǎn lù bù rú fàng màn jiǎo bù rèn zhēn kàn kàn shēn biān de shì jiè 。",
-      "hanziCount": 24
+      "explanation": "参考句子：与其匆匆忙忙地赶路不如放慢脚步认真看看身边的世界。\nyǔ qí cōng cōng máng máng dì gǎn lù bù rú fàng màn jiǎo bù rèn zhēn kàn kàn shēn biān de shì jiè 。\n语法与搭配：与其……不如……：比较并提出选择",
+      "hanziCount": 24,
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "这次旅行虽然遇到了不少麻烦却让我们收获了难忘的回忆."
       ],
       "points": 2,
-      "explanation": "参考句子：这次旅行虽然遇到了不少麻烦却让我们收获了难忘的回忆。\nzhè cì lǚ xíng suī rán yù dào le bù shǎo má fán què ràng wǒ men shōu huò le nán wàng de huí yì 。",
-      "hanziCount": 25
+      "explanation": "参考句子：这次旅行虽然遇到了不少麻烦却让我们收获了难忘的回忆。\nzhè cì lǚ xíng suī rán yù dào le bù shǎo má fán què ràng wǒ men shōu huò le nán wàng de huí yì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 25,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "我们原本只打算停留一天后来却被这里的风景吸引住了."
       ],
       "points": 2,
-      "explanation": "参考句子：我们原本只打算停留一天后来却被这里的风景吸引住了。\nwǒ men yuán běn zhǐ dǎ suàn tíng liú yī tiān hòu lái què bèi zhè lǐ de fēng jǐng xī yǐn zhù le 。",
-      "hanziCount": 24
+      "explanation": "参考句子：我们原本只打算停留一天后来却被这里的风景吸引住了。\nwǒ men yuán běn zhǐ dǎ suàn tíng liú yī tiān hòu lái què bèi zhè lǐ de fēng jǐng xī yǐn zhù le 。\n语法与搭配：被＋施事＋动词：被动表达",
+      "hanziCount": 24,
+      "grammarFocus": "被＋施事＋动词：被动表达"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "在路上遇见的陌生人用真诚的帮助改变了我的心情."
       ],
       "points": 2,
-      "explanation": "参考句子：在路上遇见的陌生人用真诚的帮助改变了我的心情。\nzài lù shàng yù jiàn de mò shēng rén yòng zhēn chéng de bāng zhù gǎi biàn le wǒ de xīn qíng 。",
-      "hanziCount": 22
+      "explanation": "参考句子：在路上遇见的陌生人用真诚的帮助改变了我的心情。\nzài lù shàng yù jiàn de mò shēng rén yòng zhēn chéng de bāng zhù gǎi biàn le wǒ de xīn qíng 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 22,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "请结合例子具体说明旅行之前的准备工作."
       ],
       "points": 2,
-      "explanation": "参考句子：请结合例子具体说明旅行之前的准备工作。\nqǐng jié hé lì zi jù tǐ shuō míng lǚ xíng zhī qián de zhǔn bèi gōng zuò 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请结合例子具体说明旅行之前的准备工作。\nqǐng jié hé lì zi jù tǐ shuō míng lǚ xíng zhī qián de zhǔn bèi gōng zuò 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "我们还没有讨论清楚沿途风景带来的感受."
       ],
       "points": 2,
-      "explanation": "参考句子：我们还没有讨论清楚沿途风景带来的感受。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ yán tú fēng jǐng dài lái de gǎn shòu 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们还没有讨论清楚沿途风景带来的感受。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ yán tú fēng jǐng dài lái de gǎn shòu 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "大家都需要认真了解旅行计划改变的原因."
       ],
       "points": 2,
-      "explanation": "参考句子：大家都需要认真了解旅行计划改变的原因。\ndà jiā dōu xū yào rèn zhēn liǎo jiě lǚ xíng jì huà gǎi biàn de yuán yīn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：大家都需要认真了解旅行计划改变的原因。\ndà jiā dōu xū yào rèn zhēn liǎo jiě lǚ xíng jì huà gǎi biàn de yuán yīn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "这次活动让我们重新思考当地文化吸引人的地方."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考当地文化吸引人的地方。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo dāng dì wén huà xī yǐn rén de dì fang 。",
-      "hanziCount": 21
+      "explanation": "参考句子：这次活动让我们重新思考当地文化吸引人的地方。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo dāng dì wén huà xī yǐn rén de dì fang 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 21,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "老师希望大家认真分析独自旅行的安全问题."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析独自旅行的安全问题。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī dú zì lǚ xíng de ān quán wèn tí 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析独自旅行的安全问题。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī dú zì lǚ xíng de ān quán wèn tí 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "我们有必要深入了解向当地居民问路的方法."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解向当地居民问路的方法。\nwǒ men yǒu bì yào shēn rù liǎo jiě xiàng dāng dì jū mín wèn lù de fāng fǎ 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我们有必要深入了解向当地居民问路的方法。\nwǒ men yǒu bì yào shēn rù liǎo jiě xiàng dāng dì jū mín wèn lù de fāng fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "他在报告中详细介绍了放慢脚步的实际收获."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了放慢脚步的实际收获。\ntā zài bào gào zhōng xiáng xì jiè shào le fàng màn jiǎo bù de shí jì shōu huò 。",
-      "hanziCount": 19
+      "explanation": "参考句子：他在报告中详细介绍了放慢脚步的实际收获。\ntā zài bào gào zhōng xiáng xì jiè shào le fàng màn jiǎo bù de shí jì shōu huò 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 19,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "请大家先讨论一下旅途中遇到的温暖故事."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下旅途中遇到的温暖故事。\nqǐng dà jiā xiān tǎo lùn yī xià lǚ tú zhōng yù dào de wēn nuǎn gù shì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请大家先讨论一下旅途中遇到的温暖故事。\nqǐng dà jiā xiān tǎo lùn yī xià lǚ tú zhōng yù dào de wēn nuǎn gù shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "我想请老师进一步解释不同旅行方式的特点."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释不同旅行方式的特点。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì bù tóng lǚ xíng fāng shì de tè diǎn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我想请老师进一步解释不同旅行方式的特点。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì bù tóng lǚ xíng fāng shì de tè diǎn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "同学们正在一起讨论尊重当地习俗的理由."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论尊重当地习俗的理由。\ntóng xué men zhèng zài yì qǐ tǎo lùn zūn zhòng dāng dì xí sú de lǐ yóu 。",
-      "hanziCount": 18
+      "explanation": "参考句子：同学们正在一起讨论尊重当地习俗的理由。\ntóng xué men zhèng zài yì qǐ tǎo lùn zūn zhòng dāng dì xí sú de lǐ yóu 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 18,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "老师请我们认真讨论拍照记录旅程的方法."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论拍照记录旅程的方法。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn pāi zhào jì lù lǚ chéng de fāng fǎ 。",
-      "hanziCount": 18
+      "explanation": "参考句子：老师请我们认真讨论拍照记录旅程的方法。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn pāi zhào jì lù lǚ chéng de fāng fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "我们应该提前了解处理旅行意外的经验."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解处理旅行意外的经验。\nwǒ men yīng gāi tí qián liǎo jiě chǔ lǐ lǚ xíng yì wài de jīng yàn 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我们应该提前了解处理旅行意外的经验。\nwǒ men yīng gāi tí qián liǎo jiě chǔ lǐ lǚ xíng yì wài de jīng yàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "大家可以一起讨论自然风景与城市风景."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论自然风景与城市风景。\ndà jiā kě yǐ yì qǐ tǎo lùn zì rán fēng jǐng yǔ chéng shì fēng jǐng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：大家可以一起讨论自然风景与城市风景。\ndà jiā kě yǐ yì qǐ tǎo lùn zì rán fēng jǐng yǔ chéng shì fēng jǐng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "我已经认真考虑过旅行结束后的真实感受."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过旅行结束后的真实感受。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò lǚ xíng jié shù hòu de zhēn shí gǎn shòu 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我已经认真考虑过旅行结束后的真实感受。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò lǚ xíng jié shù hòu de zhēn shí gǎn shòu 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 18,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "这篇文章主要介绍了选择旅行目的地的标准."
       ],
       "points": 2,
-      "explanation": "参考句子：这篇文章主要介绍了选择旅行目的地的标准。\nzhè piān wén zhāng zhǔ yào jiè shào le xuǎn zé lǚ xíng mù dì dì de biāo zhǔn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：这篇文章主要介绍了选择旅行目的地的标准。\nzhè piān wén zhāng zhǔ yào jiè shào le xuǎn zé lǚ xíng mù dì dì de biāo zhǔn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

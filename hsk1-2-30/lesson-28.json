@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第28课 昨天你做什么了？",
-  "description": "Hôm qua bạn đã làm gì?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Hôm qua bạn đã làm gì?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“昨天”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuó tiān",
-        "B": "zuó tiān",
-        "C": "zóu tiān",
-        "D": "zuó tiē"
+        "A": "cuó tiān",
+        "B": "zhuó tiān",
+        "C": "duó tiān",
+        "D": "zuó tiān"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“昨天”的正确读音是 zuó tiān。"
+      "explanation": "“昨天”读作 zuó tiān。注意声母、韵母、声调及轻声。",
+      "targetWord": "昨天"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“了”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "ne",
-        "B": "la",
-        "C": "lei",
-        "D": "le"
+        "A": "de",
+        "B": "e",
+        "C": "le",
+        "D": "ne"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“了”的正确读音是 le。"
+      "explanation": "“了”读作 le。注意声母、韵母、声调及轻声。",
+      "targetWord": "了"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“水果”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shuǐ guǒ",
+        "A": "chuǐ guǒ",
         "B": "suǐ guǒ",
-        "C": "shuǐ gǒu",
-        "D": "shǔ guǒ"
+        "C": "huǐ guǒ",
+        "D": "shuǐ guǒ"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“水果”的正确读音是 shuǐ guǒ。"
+      "explanation": "“水果”读作 shuǐ guǒ。注意声母、韵母、声调及轻声。",
+      "targetWord": "水果"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“看电影”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kàn diàn yǐn",
-        "B": "kàng diàn yǐng",
-        "C": "kàn diàn yǐng",
-        "D": "kàn diè yǐng"
+        "A": "kàn diàn yǐng",
+        "B": "kàn diàn yǐn",
+        "C": "bàn diàn yǐng",
+        "D": "kàng diàn yǐng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“看电影”的正确读音是 kàn diàn yǐng。"
+      "explanation": "“看电影”读作 kàn diàn yǐng。注意声母、韵母、声调及轻声。",
+      "targetWord": "看电影"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“回家”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hú jiā",
-        "B": "huí jiāo",
-        "C": "huí jiā",
-        "D": "huó jiā"
+        "A": "huí jiā",
+        "B": "huá jiā",
+        "C": "huí qiā",
+        "D": "chuí jiā"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“回家”的正确读音是 huí jiā。"
+      "explanation": "“回家”读作 huí jiā。注意声母、韵母、声调及轻声。",
+      "targetWord": "回家"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“上班”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "sàng bān",
-        "B": "shàn bān",
-        "C": "shàng bāng",
+        "B": "shàng bāng",
+        "C": "shàn bān",
         "D": "shàng bān"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“上班”的正确读音是 shàng bān。"
+      "explanation": "“上班”读作 shàng bān。注意声母、韵母、声调及轻声。",
+      "targetWord": "上班"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“做”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuò",
-        "B": "zòu",
-        "C": "zuì",
-        "D": "zuò"
+        "A": "duò",
+        "B": "zuò",
+        "C": "zhuò",
+        "D": "cuò"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“做”的正确读音是 zuò。"
+      "explanation": "“做”读作 zuò。注意声母、韵母、声调及轻声。",
+      "targetWord": "做"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“买”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "měi",
-        "B": "mǎn",
-        "C": "mǎi",
-        "D": "nǎi"
+        "A": "cǎi",
+        "B": "mǎi",
+        "C": "měi",
+        "D": "bǎi"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“买”的正确读音是 mǎi。"
+      "explanation": "“买”读作 mǎi。注意声母、韵母、声调及轻声。",
+      "targetWord": "买"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“见面”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiàng miàn",
-        "B": "jiàn miàn",
-        "C": "jiàn miè",
-        "D": "jiè miàn"
+        "A": "biàn miàn",
+        "B": "jiàng miàn",
+        "C": "qiàn miàn",
+        "D": "jiàn miàn"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“见面”的正确读音是 jiàn miàn。"
+      "explanation": "“见面”读作 jiàn miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "见面"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“听”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tī",
-        "B": "dīng",
-        "C": "tiē",
+        "A": "jīng",
+        "B": "bīng",
+        "C": "dīng",
         "D": "tīng"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“听”的正确读音是 tīng。"
+      "explanation": "“听”读作 tīng。注意声母、韵母、声调及轻声。",
+      "targetWord": "听"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“休息”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiāo xi",
-        "B": "xiū xin",
-        "C": "xiū xi",
-        "D": "xī xi"
+        "A": "qiū xī",
+        "B": "xiū qī",
+        "C": "xiū xī",
+        "D": "diū xī"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“休息”的正确读音是 xiū xi。"
+      "explanation": "“休息”读作 xiū xī。注意声母、韵母、声调及轻声。",
+      "targetWord": "休息"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“睡觉”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "suì jiào",
-        "B": "shù jiào",
-        "C": "shuì jiù",
-        "D": "shuì jiào"
+        "A": "chuì jiào",
+        "B": "shuì jiào",
+        "C": "shuì qiào",
+        "D": "suì jiào"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“睡觉”的正确读音是 shuì jiào。"
+      "explanation": "“睡觉”读作 shuì jiào。注意声母、韵母、声调及轻声。",
+      "targetWord": "睡觉"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“完”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "wáng",
-        "B": "wái",
-        "C": "yán",
+        "B": "fán",
+        "C": "cán",
         "D": "wán"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“完”的正确读音是 wán。"
+      "explanation": "“完”读作 wán。注意声母、韵母、声调及轻声。",
+      "targetWord": "完"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“高兴”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gāo xìng",
-        "B": "gāo xìn",
-        "C": "gōu xìng",
-        "D": "kāo xìng"
+        "A": "gōu xìng",
+        "B": "gāo xìng",
+        "C": "gāo xìn",
+        "D": "gāo qìng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“高兴”的正确读音是 gāo xìng。"
+      "explanation": "“高兴”读作 gāo xìng。注意声母、韵母、声调及轻声。",
+      "targetWord": "高兴"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“回来”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "huí lei",
-        "B": "huí lai",
-        "C": "huí nai",
-        "D": "hú lai"
+        "A": "huí léi",
+        "B": "huí lái",
+        "C": "chuí lái",
+        "D": "huí nái"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“回来”的正确读音是 huí lai。"
+      "explanation": "“回来”读作 huí lái。注意声母、韵母、声调及轻声。",
+      "targetWord": "回来"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：____我去学校了。",
-      "pinyin": "____ wǒ qù xué xiào le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm qua tôi đã đến trường.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我周末____了一次博物馆。",
+      "pinyin": "wǒ zhōu mò ____ le yī cì bó wù guǎn 。",
+      "vietnamese": "Gợi ý: đi.",
       "options": {
-        "A": "回来",
-        "B": "昨天",
-        "C": "休息",
-        "D": "完"
+        "A": "写",
+        "B": "喝",
+        "C": "吃",
+        "D": "去"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“昨天”。完整句子：昨天我去学校了。",
+      "explanation": "应填“去”。完整句子：我周末去了一次博物馆。\n语法与搭配：去＋地点",
       "optionPinyin": {
-        "A": "huí lai",
-        "B": "zuó tiān",
-        "C": "xiū xi",
-        "D": "wán"
-      }
+        "A": "xiě",
+        "B": "hē",
+        "C": "chī",
+        "D": "qù"
+      },
+      "targetWord": "去",
+      "completeSentence": "我周末去了一次博物馆。",
+      "grammarFocus": "去＋地点"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我已经吃饭____。",
-      "pinyin": "wǒ yǐ jīng chī fàn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đã ăn cơm rồi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____朋友在门口聊了很久。",
+      "pinyin": "wǒ ____ péng you zài mén kǒu liáo le hěn jiǔ 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
       "options": {
-        "A": "高兴",
-        "B": "昨天",
-        "C": "看电影",
-        "D": "了"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“了”。完整句子：我已经吃饭了。",
-      "optionPinyin": {
-        "A": "gāo xìng",
-        "B": "zuó tiān",
-        "C": "kàn diàn yǐng",
-        "D": "le"
-      }
-    },
-    {
-      "id": 18,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：妈妈买了很多____。",
-      "pinyin": "mā ma mǎi le hěn duō ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ đã mua rất nhiều trái cây.",
-      "options": {
-        "A": "见面",
-        "B": "高兴",
-        "C": "回家",
-        "D": "水果"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“水果”。完整句子：妈妈买了很多水果。",
-      "optionPinyin": {
-        "A": "jiàn miàn",
-        "B": "gāo xìng",
-        "C": "huí jiā",
-        "D": "shuǐ guǒ"
-      }
-    },
-    {
-      "id": 19,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我们昨天去____了。",
-      "pinyin": "wǒ men zuó tiān qù ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm qua chúng tôi đã đi xem phim.",
-      "options": {
-        "A": "休息",
-        "B": "回家",
-        "C": "看电影",
-        "D": "完"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“看电影”。完整句子：我们昨天去看电影了。",
-      "optionPinyin": {
-        "A": "xiū xi",
-        "B": "huí jiā",
-        "C": "kàn diàn yǐng",
-        "D": "wán"
-      }
-    },
-    {
-      "id": 20,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我上个星期____了。",
-      "pinyin": "wǒ shàng gè xīng qī ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tuần trước tôi đã về nhà.",
-      "options": {
-        "A": "听",
-        "B": "回来",
-        "C": "上班",
-        "D": "回家"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“回家”。完整句子：我上个星期回家了。",
-      "optionPinyin": {
-        "A": "tīng",
-        "B": "huí lai",
-        "C": "shàng bān",
-        "D": "huí jiā"
-      }
-    },
-    {
-      "id": 21,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他昨天没有____。",
-      "pinyin": "tā zuó tiān méi yǒu ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm qua anh ấy không đi làm.",
-      "options": {
-        "A": "上班",
-        "B": "休息",
-        "C": "了",
-        "D": "回家"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“上班”。完整句子：他昨天没有上班。",
-      "optionPinyin": {
-        "A": "shàng bān",
-        "B": "xiū xi",
-        "C": "le",
-        "D": "huí jiā"
-      }
-    },
-    {
-      "id": 22,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你昨天____什么了？",
-      "pinyin": "nǐ zuó tiān ____ shén me le ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm qua bạn đã làm gì?",
-      "options": {
-        "A": "上班",
-        "B": "看电影",
-        "C": "做",
-        "D": "买"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“做”。完整句子：你昨天做什么了？",
-      "optionPinyin": {
-        "A": "shàng bān",
-        "B": "kàn diàn yǐng",
-        "C": "zuò",
-        "D": "mǎi"
-      }
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我在商店____了一本书。",
-      "pinyin": "wǒ zài shāng diàn ____ le yī běn shū 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đã mua một quyển sách ở cửa hàng.",
-      "options": {
-        "A": "买",
-        "B": "了",
-        "C": "做",
-        "D": "见面"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“买”。完整句子：我在商店买了一本书。",
-      "optionPinyin": {
-        "A": "mǎi",
-        "B": "le",
-        "C": "zuò",
-        "D": "jiàn miàn"
-      }
-    },
-    {
-      "id": 24,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我们下午____了。",
-      "pinyin": "wǒ men xià wǔ ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chiều nay chúng tôi đã gặp nhau.",
-      "options": {
-        "A": "见面",
-        "B": "看电影",
-        "C": "了",
-        "D": "回家"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“见面”。完整句子：我们下午见面了。",
-      "optionPinyin": {
-        "A": "jiàn miàn",
-        "B": "kàn diàn yǐng",
-        "C": "le",
-        "D": "huí jiā"
-      }
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：昨天晚上我____音乐了。",
-      "pinyin": "zuó tiān wǎn shang wǒ ____ yīn yuè le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tối qua tôi đã nghe nhạc.",
-      "options": {
-        "A": "睡觉",
-        "B": "水果",
-        "C": "听",
-        "D": "高兴"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“听”。完整句子：昨天晚上我听音乐了。",
-      "optionPinyin": {
-        "A": "shuì jiào",
-        "B": "shuǐ guǒ",
-        "C": "tīng",
-        "D": "gāo xìng"
-      }
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我在家____了一天。",
-      "pinyin": "wǒ zài jiā ____ le yī tiān 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đã nghỉ ngơi ở nhà một ngày.",
-      "options": {
-        "A": "休息",
-        "B": "完",
-        "C": "买",
-        "D": "回家"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“休息”。完整句子：我在家休息了一天。",
-      "optionPinyin": {
-        "A": "xiū xi",
-        "B": "wán",
-        "C": "mǎi",
-        "D": "huí jiā"
-      }
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你昨晚几点____？",
-      "pinyin": "nǐ zuó wǎn jǐ diǎn ____？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tối qua bạn ngủ lúc mấy giờ?",
-      "options": {
-        "A": "睡觉",
-        "B": "了",
-        "C": "回来",
-        "D": "上班"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“睡觉”。完整句子：你昨晚几点睡觉？",
-      "optionPinyin": {
-        "A": "shuì jiào",
-        "B": "le",
-        "C": "huí lai",
-        "D": "shàng bān"
-      }
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的作业已经写____了。",
-      "pinyin": "wǒ de zuò yè yǐ jīng xiě ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bài tập của tôi đã viết xong rồi.",
-      "options": {
-        "A": "回家",
-        "B": "上班",
-        "C": "完",
-        "D": "看电影"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“完”。完整句子：我的作业已经写完了。",
-      "optionPinyin": {
-        "A": "huí jiā",
-        "B": "shàng bān",
-        "C": "wán",
-        "D": "kàn diàn yǐng"
-      }
-    },
-    {
-      "id": 29,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：昨天我很____。",
-      "pinyin": "zuó tiān wǒ hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm qua tôi rất vui.",
-      "options": {
-        "A": "休息",
-        "B": "高兴",
-        "C": "完",
-        "D": "了"
+        "A": "把",
+        "B": "和",
+        "C": "很",
+        "D": "吗"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“高兴”。完整句子：昨天我很高兴。",
+      "explanation": "应填“和”。完整句子：我和朋友在门口聊了很久。\n语法与搭配：名词/代词＋和＋名词/代词",
       "optionPinyin": {
-        "A": "xiū xi",
-        "B": "gāo xìng",
-        "C": "wán",
-        "D": "le"
-      }
+        "A": "bǎ",
+        "B": "hé",
+        "C": "hěn",
+        "D": "ma"
+      },
+      "targetWord": "和",
+      "completeSentence": "我和朋友在门口聊了很久。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
     },
     {
-      "id": 30,
+      "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他已经____了。",
-      "pinyin": "tā yǐ jīng ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy đã quay về rồi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：那家餐厅____河边。",
+      "pinyin": "nà jiā cān tīng ____ hé biān 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
       "options": {
-        "A": "听",
-        "B": "买",
-        "C": "见面",
-        "D": "回来"
+        "A": "给",
+        "B": "比",
+        "C": "从",
+        "D": "在"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "应填“回来”。完整句子：他已经回来了。",
+      "explanation": "应填“在”。完整句子：那家餐厅在河边。\n语法与搭配：在＋地点＋动词/名词",
       "optionPinyin": {
-        "A": "tīng",
-        "B": "mǎi",
-        "C": "jiàn miàn",
-        "D": "huí lai"
-      }
+        "A": "gěi",
+        "B": "bǐ",
+        "C": "cóng",
+        "D": "zài"
+      },
+      "targetWord": "在",
+      "completeSentence": "那家餐厅在河边。",
+      "grammarFocus": "在＋地点＋动词/名词"
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是我们一起拍____照片。",
+      "pinyin": "zhè shì wǒ men yì qǐ pāi ____ zhào piān 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
+      "options": {
+        "A": "吗",
+        "B": "得",
+        "C": "的",
+        "D": "地"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“的”。完整句子：这是我们一起拍的照片。\n语法与搭配：修饰语＋的＋名词",
+      "optionPinyin": {
+        "A": "ma",
+        "B": "dé",
+        "C": "de",
+        "D": "dì"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是我们一起拍的照片。",
+      "grammarFocus": "修饰语＋的＋名词"
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：那____我第一次坐地铁。",
+      "pinyin": "nà ____ wǒ dì yī cì zuò dì tiě 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
+      "options": {
+        "A": "去",
+        "B": "是",
+        "C": "在",
+        "D": "有"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“是”。完整句子：那是我第一次坐地铁。\n语法与搭配：是＋名词：判断或说明身份",
+      "optionPinyin": {
+        "A": "qù",
+        "B": "shì",
+        "C": "zài",
+        "D": "yǒu"
+      },
+      "targetWord": "是",
+      "completeSentence": "那是我第一次坐地铁。",
+      "grammarFocus": "是＋名词：判断或说明身份"
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____把照片发给你了。",
+      "pinyin": "wǒ ____ bǎ zhào piān fā gěi nǐ le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
+      "options": {
+        "A": "从",
+        "B": "的",
+        "C": "把",
+        "D": "已经"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“已经”。完整句子：我已经把照片发给你了。\n语法与搭配：已经……了",
+      "optionPinyin": {
+        "A": "cóng",
+        "B": "de",
+        "C": "bǎ",
+        "D": "yǐ jīng"
+      },
+      "targetWord": "已经",
+      "completeSentence": "我已经把照片发给你了。",
+      "grammarFocus": "已经……了"
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：晚上我____出去玩。",
+      "pinyin": "wǎn shàng wǒ ____ chū qù wán 。",
+      "vietnamese": "Gợi ý: không có hoặc chưa thực hiện.",
+      "options": {
+        "A": "很",
+        "B": "比",
+        "C": "没有",
+        "D": "把"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“没有”。完整句子：晚上我没有出去玩。\n语法与搭配：没有＋名词/动词",
+      "optionPinyin": {
+        "A": "hěn",
+        "B": "bǐ",
+        "C": "méi yǒu",
+        "D": "bǎ"
+      },
+      "targetWord": "没有",
+      "completeSentence": "晚上我没有出去玩。",
+      "grammarFocus": "没有＋名词/动词"
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：旅行结束____，我们整理了照片。",
+      "pinyin": "lǚ xíng jié shù ____， wǒ men zhěng lǐ le zhào piān 。",
+      "vietnamese": "Gợi ý: sau khi.",
+      "options": {
+        "A": "之间",
+        "B": "以外",
+        "C": "以后",
+        "D": "以内"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“以后”。完整句子：旅行结束以后，我们整理了照片。\n语法与搭配：动作/时间＋以后",
+      "optionPinyin": {
+        "A": "zhī jiān",
+        "B": "yǐ wài",
+        "C": "yǐ hòu",
+        "D": "yǐ nèi"
+      },
+      "targetWord": "以后",
+      "completeSentence": "旅行结束以后，我们整理了照片。",
+      "grammarFocus": "动作/时间＋以后"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：出发____，我先查了天气。",
+      "pinyin": "chū fā ____， wǒ xiān chá le tiān qì 。",
+      "vietnamese": "Gợi ý: trước khi.",
+      "options": {
+        "A": "之间",
+        "B": "以内",
+        "C": "以前",
+        "D": "以外"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“以前”。完整句子：出发以前，我先查了天气。\n语法与搭配：动作/时间＋以前",
+      "optionPinyin": {
+        "A": "zhī jiān",
+        "B": "yǐ nèi",
+        "C": "yǐ qián",
+        "D": "yǐ wài"
+      },
+      "targetWord": "以前",
+      "completeSentence": "出发以前，我先查了天气。",
+      "grammarFocus": "动作/时间＋以前"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____姐姐带了一份礼物。",
+      "pinyin": "wǒ ____ jiě jiě dài le yí fèn lǐ wù 。",
+      "vietnamese": "Gợi ý: cho; chỉ người nhận.",
+      "options": {
+        "A": "比",
+        "B": "吗",
+        "C": "给",
+        "D": "的"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“给”。完整句子：我给姐姐带了一份礼物。\n语法与搭配：给＋人＋物/动词",
+      "optionPinyin": {
+        "A": "bǐ",
+        "B": "ma",
+        "C": "gěi",
+        "D": "de"
+      },
+      "targetWord": "给",
+      "completeSentence": "我给姐姐带了一份礼物。",
+      "grammarFocus": "给＋人＋物/动词"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这次旅行____上次更轻松。",
+      "pinyin": "zhè cì lǚ xíng ____ shàng cì gèng qīng sōng 。",
+      "vietnamese": "Gợi ý: hơn; chỉ đối tượng so sánh.",
+      "options": {
+        "A": "从",
+        "B": "给",
+        "C": "比",
+        "D": "把"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“比”。完整句子：这次旅行比上次更轻松。\n语法与搭配：甲＋比＋乙＋形容词",
+      "optionPinyin": {
+        "A": "cóng",
+        "B": "gěi",
+        "C": "bǐ",
+        "D": "bǎ"
+      },
+      "targetWord": "比",
+      "completeSentence": "这次旅行比上次更轻松。",
+      "grammarFocus": "甲＋比＋乙＋形容词"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们____尝了当地的小吃。",
+      "pinyin": "wǒ men ____ cháng liǎo dàng dì de xiǎo chī 。",
+      "vietnamese": "Gợi ý: đều; bao quát toàn bộ chủ thể.",
+      "options": {
+        "A": "从",
+        "B": "把",
+        "C": "的",
+        "D": "都"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“都”。完整句子：我们都尝了当地的小吃。\n语法与搭配：复数主语＋都＋谓语",
+      "optionPinyin": {
+        "A": "cóng",
+        "B": "bǎ",
+        "C": "de",
+        "D": "dōu"
+      },
+      "targetWord": "都",
+      "completeSentence": "我们都尝了当地的小吃。",
+      "grammarFocus": "复数主语＋都＋谓语"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：她____参加了那次活动。",
+      "pinyin": "tā ____ cān jiā le nà cì huó dòng 。",
+      "vietnamese": "Gợi ý: cũng; bổ sung điểm giống nhau.",
+      "options": {
+        "A": "的",
+        "B": "也",
+        "C": "从",
+        "D": "把"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“也”。完整句子：她也参加了那次活动。\n语法与搭配：也＋谓语：也有相同情况",
+      "optionPinyin": {
+        "A": "de",
+        "B": "yě",
+        "C": "cóng",
+        "D": "bǎ"
+      },
+      "targetWord": "也",
+      "completeSentence": "她也参加了那次活动。",
+      "grammarFocus": "也＋谓语：也有相同情况"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：展览____早上九点开放到下午五点。",
+      "pinyin": "zhǎn lǎn ____ zǎo shàng jiǔ diǎn kāi fàng dào xià wǔ wǔ diǎn 。",
+      "vietnamese": "Gợi ý: từ; chỉ điểm xuất phát.",
+      "options": {
+        "A": "比",
+        "B": "从",
+        "C": "的",
+        "D": "给"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“从”。完整句子：展览从早上九点开放到下午五点。\n语法与搭配：从＋起点",
+      "optionPinyin": {
+        "A": "bǐ",
+        "B": "cóng",
+        "C": "de",
+        "D": "gěi"
+      },
+      "targetWord": "从",
+      "completeSentence": "展览从早上九点开放到下午五点。",
+      "grammarFocus": "从＋起点"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：门口____很多游客。",
+      "pinyin": "mén kǒu ____ hěn duō yóu kè 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
+      "options": {
+        "A": "比",
+        "B": "有",
+        "C": "是",
+        "D": "去"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“有”。完整句子：门口有很多游客。\n语法与搭配：有＋名词：拥有或存在",
+      "optionPinyin": {
+        "A": "bǐ",
+        "B": "yǒu",
+        "C": "shì",
+        "D": "qù"
+      },
+      "targetWord": "有",
+      "completeSentence": "门口有很多游客。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 31,
@@ -677,7 +737,8 @@
         "昨天我去学校了."
       ],
       "points": 2,
-      "explanation": "参考句子：昨天我去学校了。"
+      "explanation": "参考句子：昨天我去学校了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,7 +753,8 @@
         "我已经吃饭了."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经吃饭了。"
+      "explanation": "参考句子：我已经吃饭了。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 33,
@@ -707,7 +769,8 @@
         "妈妈买了很多水果."
       ],
       "points": 2,
-      "explanation": "参考句子：妈妈买了很多水果。"
+      "explanation": "参考句子：妈妈买了很多水果。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -723,7 +786,8 @@
         "我们昨天去看电影了."
       ],
       "points": 2,
-      "explanation": "参考句子：我们昨天去看电影了。"
+      "explanation": "参考句子：我们昨天去看电影了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -739,7 +803,8 @@
         "我上个星期回家了."
       ],
       "points": 2,
-      "explanation": "参考句子：我上个星期回家了。"
+      "explanation": "参考句子：我上个星期回家了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -755,7 +820,8 @@
         "他昨天没有上班."
       ],
       "points": 2,
-      "explanation": "参考句子：他昨天没有上班。"
+      "explanation": "参考句子：他昨天没有上班。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -771,7 +837,8 @@
         "你昨天做什么了?"
       ],
       "points": 2,
-      "explanation": "参考句子：你昨天做什么了？"
+      "explanation": "参考句子：你昨天做什么了？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -786,7 +853,8 @@
         "我在商店买了一本书."
       ],
       "points": 2,
-      "explanation": "参考句子：我在商店买了一本书。"
+      "explanation": "参考句子：我在商店买了一本书。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 39,
@@ -802,7 +870,8 @@
         "我们下午见面了."
       ],
       "points": 2,
-      "explanation": "参考句子：我们下午见面了。"
+      "explanation": "参考句子：我们下午见面了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -818,7 +887,8 @@
         "昨天晚上我听音乐了."
       ],
       "points": 2,
-      "explanation": "参考句子：昨天晚上我听音乐了。"
+      "explanation": "参考句子：昨天晚上我听音乐了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -833,7 +903,8 @@
         "我在家休息了一天."
       ],
       "points": 2,
-      "explanation": "参考句子：我在家休息了一天。"
+      "explanation": "参考句子：我在家休息了一天。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 42,
@@ -849,7 +920,8 @@
         "你昨晚几点睡觉?"
       ],
       "points": 2,
-      "explanation": "参考句子：你昨晚几点睡觉？"
+      "explanation": "参考句子：你昨晚几点睡觉？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -864,7 +936,8 @@
         "我的作业已经写完了."
       ],
       "points": 2,
-      "explanation": "参考句子：我的作业已经写完了。"
+      "explanation": "参考句子：我的作业已经写完了。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 44,
@@ -880,7 +953,8 @@
         "昨天我很高兴."
       ],
       "points": 2,
-      "explanation": "参考句子：昨天我很高兴。"
+      "explanation": "参考句子：昨天我很高兴。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -895,7 +969,8 @@
         "他已经回来了."
       ],
       "points": 2,
-      "explanation": "参考句子：他已经回来了。"
+      "explanation": "参考句子：他已经回来了。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 46,
@@ -910,7 +985,8 @@
         "昨天的天气比今天好."
       ],
       "points": 2,
-      "explanation": "参考句子：昨天的天气比今天好。"
+      "explanation": "参考句子：昨天的天气比今天好。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 47,
@@ -926,7 +1002,8 @@
         "我昨天没有买衣服."
       ],
       "points": 2,
-      "explanation": "参考句子：我昨天没有买衣服。"
+      "explanation": "参考句子：我昨天没有买衣服。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -941,7 +1018,8 @@
         "我们一起吃了晚饭."
       ],
       "points": 2,
-      "explanation": "参考句子：我们一起吃了晚饭。"
+      "explanation": "参考句子：我们一起吃了晚饭。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -956,7 +1034,8 @@
         "你看见小明了吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：你看见小明了吗？"
+      "explanation": "参考句子：你看见小明了吗？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -972,9 +1051,11 @@
         "我今天早上给妈妈打电话了."
       ],
       "points": 2,
-      "explanation": "参考句子：我今天早上给妈妈打电话了。"
+      "explanation": "参考句子：我今天早上给妈妈打电话了。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     }
   ],
   "previousPronunciationHash": "0eb1911b",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

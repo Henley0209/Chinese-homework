@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第10课 运动与生活平衡",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“锻炼”的正确读音。",
+      "text": "【拼音选择】请选择“耐力”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cuàn liàn",
-        "B": "duàn niàn",
-        "C": "duàn liàn",
-        "D": "duàn liàng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“锻炼”读作 duàn liàn，意思是 rèn luyện。"
-    },
-    {
-      "id": 2,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“适当”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "chì dàng",
-        "B": "shì dàng",
-        "C": "shì dàn",
-        "D": "sì dàng"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“适当”读作 shì dàng，意思是 thích hợp。"
-    },
-    {
-      "id": 3,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“程度”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "cháng dù",
-        "B": "chéng dù",
-        "C": "céng dù",
-        "D": "chén dù"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“程度”读作 chéng dù，意思是 mức độ。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“精力”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "jīng lì",
-        "B": "jīn lì",
-        "C": "jīng nì",
-        "D": "qīng lì"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“精力”读作 jīng lì，意思是 tinh lực。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“过度”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "guò dù",
-        "B": "guà dù",
-        "C": "duò dù",
-        "D": "cuò dù"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“过度”读作 guò dù，意思是 quá mức。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：即使工作十分繁忙他也坚持每周____三次。",
-      "pinyin": "jí shǐ gōng zuò shí fēn fán máng tā yě jiān chí měi zhōu ____ sān cì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: rèn luyện.",
-      "options": {
-        "A": "锻炼",
-        "B": "过度",
-        "C": "精力",
-        "D": "适当"
-      },
-      "optionPinyin": {
-        "A": "duàn liàn",
-        "B": "guò dù",
-        "C": "jīng lì",
-        "D": "shì dàng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“锻炼”（rèn luyện）。完整句子：即使工作十分繁忙他也坚持每周锻炼三次。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：运动以后进行____的休息有助于身体恢复。",
-      "pinyin": "yùn dòng yǐ hòu jìn xíng ____ de xiū xī yǒu zhù yú shēn tǐ huī fù",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thích hợp.",
-      "options": {
-        "A": "过度",
-        "B": "精力",
-        "C": "程度",
-        "D": "适当"
-      },
-      "optionPinyin": {
-        "A": "guò dù",
-        "B": "jīng lì",
-        "C": "chéng dù",
-        "D": "shì dàng"
+        "A": "nài nì",
+        "B": "nèi lì",
+        "C": "lài lì",
+        "D": "nài lì"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“适当”（thích hợp）。完整句子：运动以后进行适当的休息有助于身体恢复。"
+      "explanation": "“耐力”读作 nài lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "耐力"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“强度”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "biáng dù",
+        "B": "qián dù",
+        "C": "xiáng dù",
+        "D": "qiáng dù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“强度”读作 qiáng dù。注意声母、韵母、声调及轻声。",
+      "targetWord": "强度"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“协调”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "dié tiáo",
+        "B": "xié tiáo",
+        "C": "qié tiáo",
+        "D": "bié tiáo"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "“协调”读作 xié tiáo。注意声母、韵母、声调及轻声。",
+      "targetWord": "协调"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“恢复”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "chuī fù",
+        "B": "huī hù",
+        "C": "cuī fù",
+        "D": "huī fù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“恢复”读作 huī fù。注意声母、韵母、声调及轻声。",
+      "targetWord": "恢复"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“节奏”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "jié zhòu",
+        "B": "qié zòu",
+        "C": "jié zào",
+        "D": "jié zòu"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“节奏”读作 jié zòu。注意声母、韵母、声调及轻声。",
+      "targetWord": "节奏"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：安排训练时，要注意工作、休息与运动之间的____。",
+      "pinyin": "ān pái xùn liàn shí ， yào zhù yì gōng zuò 、 xiū xī yǔ yùn dòng zhī jiān de ____。",
+      "vietnamese": "Gợi ý: cân bằng.",
+      "options": {
+        "A": "平衡",
+        "B": "方式",
+        "C": "反思",
+        "D": "训练"
+      },
+      "optionPinyin": {
+        "A": "píng héng",
+        "B": "fāng shì",
+        "C": "fǎn sī",
+        "D": "xùn liàn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“平衡”。完整句子：安排训练时，要注意工作、休息与运动之间的平衡。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "平衡",
+      "completeSentence": "安排训练时，要注意工作、休息与运动之间的平衡。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：刚开始跑步的人应循序渐进，不宜过度____。",
+      "pinyin": "gāng kāi shǐ pǎo bù de rén yīng xún xù jiàn jìn ， bù yí guò dù ____。",
+      "vietnamese": "Gợi ý: tập luyện.",
+      "options": {
+        "A": "方式",
+        "B": "反思",
+        "C": "平衡",
+        "D": "训练"
+      },
+      "optionPinyin": {
+        "A": "fāng shì",
+        "B": "fǎn sī",
+        "C": "píng héng",
+        "D": "xùn liàn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“训练”。完整句子：刚开始跑步的人应循序渐进，不宜过度训练。\n语法与搭配：动词＋过：经历表达",
+      "targetWord": "训练",
+      "completeSentence": "刚开始跑步的人应循序渐进，不宜过度训练。",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：每个人都应该根据自己的身体情况控制运动的____。",
-      "pinyin": "měi gè rén dōu yīng gāi gēn jù zì jǐ de shēn tǐ qíng kuàng kòng zhì yùn dòng de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: mức độ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：她把运动当成缓解压力的____，而不是额外的负担。",
+      "pinyin": "tā bǎ yùn dòng dàng chéng huǎn jiě yā lì de ____， ér bú shì é wài de fù dān 。",
+      "vietnamese": "Gợi ý: phương thức.",
       "options": {
-        "A": "锻炼",
-        "B": "过度",
-        "C": "程度",
-        "D": "适当"
+        "A": "方式",
+        "B": "平衡",
+        "C": "反思",
+        "D": "训练"
       },
       "optionPinyin": {
-        "A": "duàn liàn",
-        "B": "guò dù",
-        "C": "chéng dù",
-        "D": "shì dàng"
+        "A": "fāng shì",
+        "B": "píng héng",
+        "C": "fǎn sī",
+        "D": "xùn liàn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“程度”（mức độ）。完整句子：每个人都应该根据自己的身体情况控制运动的程度。"
+      "explanation": "应填“方式”。完整句子：她把运动当成缓解压力的方式，而不是额外的负担。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "targetWord": "方式",
+      "completeSentence": "她把运动当成缓解压力的方式，而不是额外的负担。",
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：充足的睡眠能够使我们保持旺盛的____。",
-      "pinyin": "chōng zú de shuì mián néng gòu shǐ wǒ men bǎo chí wàng shèng de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tinh lực.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这次受伤使他重新____自己的训练方法。",
+      "pinyin": "zhè cì shòu shāng shǐ tā chóng xīn ____ zì jǐ de xùn liàn fāng fǎ 。",
+      "vietnamese": "Gợi ý: suy ngẫm.",
       "options": {
-        "A": "过度",
-        "B": "锻炼",
-        "C": "精力",
-        "D": "程度"
+        "A": "反思",
+        "B": "平衡",
+        "C": "方式",
+        "D": "训练"
       },
       "optionPinyin": {
-        "A": "guò dù",
-        "B": "duàn liàn",
-        "C": "jīng lì",
-        "D": "chéng dù"
+        "A": "fǎn sī",
+        "B": "píng héng",
+        "C": "fāng shì",
+        "D": "xùn liàn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“精力”（tinh lực）。完整句子：充足的睡眠能够使我们保持旺盛的精力。"
+      "explanation": "应填“反思”。完整句子：这次受伤使他重新反思自己的训练方法。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "反思",
+      "completeSentence": "这次受伤使他重新反思自己的训练方法。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：医生不建议缺少经验的人突然进行____的训练。",
-      "pinyin": "yī shēng bù jiàn yì quē shǎo jīng yàn de rén tū rán jìn xíng ____ de xùn liàn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: quá mức.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：每天活动半小时，已经成为他稳定的生活____。",
+      "pinyin": "měi tiān huó dòng bàn xiǎo shí ， yǐ jīng chéng wéi tā wěn dìng de shēng huó ____。",
+      "vietnamese": "Gợi ý: thói quen.",
       "options": {
-        "A": "适当",
-        "B": "程度",
-        "C": "过度",
-        "D": "锻炼"
+        "A": "方式",
+        "B": "习惯",
+        "C": "训练",
+        "D": "平衡"
       },
       "optionPinyin": {
-        "A": "shì dàng",
-        "B": "chéng dù",
-        "C": "guò dù",
-        "D": "duàn liàn"
+        "A": "fāng shì",
+        "B": "xí guàn",
+        "C": "xùn liàn",
+        "D": "píng héng"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“过度”（quá mức）。完整句子：医生不建议缺少经验的人突然进行过度的训练。"
+      "explanation": "应填“习惯”。完整句子：每天活动半小时，已经成为他稳定的生活习惯。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "targetWord": "习惯",
+      "completeSentence": "每天活动半小时，已经成为他稳定的生活习惯。",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：即使工作十分繁忙他也坚持每周锻炼三次。\njí shǐ gōng zuò shí fēn fán máng tā yě jiān chí měi zhōu duàn liàn sān cì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：即使工作十分繁忙他也坚持每周锻炼三次。\njí shǐ gōng zuò shí fēn fán máng tā yě jiān chí měi zhōu duàn liàn sān cì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：运动以后进行适当的休息有助于身体恢复。\nyùn dòng yǐ hòu jìn xíng shì dàng de xiū xī yǒu zhù yú shēn tǐ huī fù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：运动以后进行适当的休息有助于身体恢复。\nyùn dòng yǐ hòu jìn xíng shì dàng de xiū xī yǒu zhù yú shēn tǐ huī fù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动作＋以后：说明时间顺序",
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：每个人都应该根据自己的身体情况控制运动的程度。\nměi gè rén dōu yīng gāi gēn jù zì jǐ de shēn tǐ qíng kuàng kòng zhì yùn dòng de chéng dù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：每个人都应该根据自己的身体情况控制运动的程度。\nměi gè rén dōu yīng gāi gēn jù zì jǐ de shēn tǐ qíng kuàng kòng zhì yùn dòng de chéng dù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：充足的睡眠能够使我们保持旺盛的精力。\nchōng zú de shuì mián néng gòu shǐ wǒ men bǎo chí wàng shèng de jīng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：充足的睡眠能够使我们保持旺盛的精力。\nchōng zú de shuì mián néng gòu shǐ wǒ men bǎo chí wàng shèng de jīng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：医生不建议缺少经验的人突然进行过度的训练。\nyī shēng bù jiàn yì quē shǎo jīng yàn de rén tū rán jìn xíng guò dù de xùn liàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：医生不建议缺少经验的人突然进行过度的训练。\nyī shēng bù jiàn yì quē shǎo jīng yàn de rén tū rán jìn xíng guò dù de xùn liàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋过：经历表达",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解运动方式的选择还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě yùn dòng fāng shì de xuǎn zé hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解运动方式的选择还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě yùn dòng fāng shì de xuǎn zé hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化生活节奏的调整都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà shēng huó jié zòu de tiáo zhěng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化生活节奏的调整都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà shēng huó jié zòu de tiáo zhěng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解身体信号的理解才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě shēn tǐ xìn hào de lǐ jiě cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解身体信号的理解才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě shēn tǐ xìn hào de lǐ jiě cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析运动计划的执行。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī yùn dòng jì huà de zhí xíng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析运动计划的执行。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī yùn dòng jì huà de zhí xíng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明工作与休息的平衡。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng gōng zuò yǔ xiū xī de píng héng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明工作与休息的平衡。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng gōng zuò yǔ xiū xī de píng héng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

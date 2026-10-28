@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第28课 成功失败与心理韧性",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“失败”的正确读音。",
+      "text": "【拼音选择】请选择“坚韧”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shī bèi",
-        "B": "chī bài",
-        "C": "sī bài",
-        "D": "shī bài"
+        "A": "jiān rèng",
+        "B": "qiān rèn",
+        "C": "jiān rèn",
+        "D": "jiāng rèn"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“失败”读作 shī bài，意思是 thất bại。"
+      "explanation": "“坚韧”读作 jiān rèn。注意声母、韵母、声调及轻声。",
+      "targetWord": "坚韧"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“总结”的正确读音。",
+      "text": "【拼音选择】请选择“反思”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhǒng jié",
-        "B": "zǒng qié",
-        "C": "cǒng jié",
-        "D": "zǒng jié"
+        "A": "fǎng sī",
+        "B": "fǎn sī",
+        "C": "hǎn sī",
+        "D": "fǎn shī"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“总结”读作 zǒng jié，意思是 tổng kết。"
+      "explanation": "“反思”读作 fǎn sī。注意声母、韵母、声调及轻声。",
+      "targetWord": "反思"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“信心”的正确读音。",
+      "text": "【拼音选择】请选择“心态”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xìn qīn",
-        "B": "xìn xīn",
-        "C": "qìn xīn",
-        "D": "xìng xīn"
+        "A": "qīn tài",
+        "B": "bīn tài",
+        "C": "xīn tài",
+        "D": "xīng tài"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“信心”读作 xìn xīn，意思是 niềm tin。"
+      "explanation": "“心态”读作 xīn tài。注意声母、韵母、声调及轻声。",
+      "targetWord": "心态"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“克服”的正确读音。",
+      "text": "【拼音选择】请选择“挫败”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kè fú",
-        "B": "cè fú",
-        "C": "kè hú",
-        "D": "gè fú"
+        "A": "cuò bài",
+        "B": "cuì bài",
+        "C": "chuò bài",
+        "D": "cuò bèi"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“克服”读作 kè fú，意思是 khắc phục。"
+      "explanation": "“挫败”读作 cuò bài。注意声母、韵母、声调及轻声。",
+      "targetWord": "挫败"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“态度”的正确读音。",
+      "text": "【拼音选择】请选择“激励”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dài dù",
-        "B": "cài dù",
-        "C": "tài dù",
-        "D": "bài dù"
+        "A": "jī nì",
+        "B": "qī lì",
+        "C": "jī lì",
+        "D": "bī lì"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“态度”读作 tài dù，意思是 thái độ。"
+      "explanation": "“激励”读作 jī lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "激励"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：一次____并不能证明一个人没有成功的能力。",
-      "pinyin": "yī cì ____ bìng bù néng zhèng míng yí gè rén méi yǒu chéng gōng de néng lì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thất bại.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这次____并不意味着以后都不会成功。",
+      "pinyin": "zhè cì ____ bìng bù yì wèi zhe yǐ hòu dōu bú huì chéng gōng 。",
+      "vietnamese": "Gợi ý: thất bại.",
       "options": {
-        "A": "态度",
-        "B": "信心",
-        "C": "失败",
-        "D": "总结"
+        "A": "建立",
+        "B": "机会",
+        "C": "回应",
+        "D": "失败"
       },
       "optionPinyin": {
-        "A": "tài dù",
-        "B": "xìn xīn",
-        "C": "shī bài",
-        "D": "zǒng jié"
+        "A": "jiàn lì",
+        "B": "jī huì",
+        "C": "huí yìng",
+        "D": "shī bài"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“失败”（thất bại）。完整句子：一次失败并不能证明一个人没有成功的能力。"
+      "explanation": "应填“失败”。完整句子：这次失败并不意味着以后都不会成功。\n语法与搭配：动作＋以后：说明时间顺序",
+      "targetWord": "失败",
+      "completeSentence": "这次失败并不意味着以后都不会成功。",
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：比赛结束以后教练带领队员认真____了失败的原因。",
-      "pinyin": "bǐ sài jié shù yǐ hòu jiào liàn dài lǐng duì yuán rèn zhēn ____ le shī bài de yuán yīn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tổng kết.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他在一次次尝试中逐渐____了自信。",
+      "pinyin": "tā zài yī cì cì cháng shì zhōng zhú jiàn ____ le zì xìn 。",
+      "vietnamese": "Gợi ý: xây dựng.",
       "options": {
-        "A": "克服",
-        "B": "总结",
-        "C": "失败",
-        "D": "信心"
+        "A": "回应",
+        "B": "失败",
+        "C": "机会",
+        "D": "建立"
       },
       "optionPinyin": {
-        "A": "kè fú",
-        "B": "zǒng jié",
-        "C": "shī bài",
-        "D": "xìn xīn"
+        "A": "huí yìng",
+        "B": "shī bài",
+        "C": "jī huì",
+        "D": "jiàn lì"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“总结”（tổng kết）。完整句子：比赛结束以后教练带领队员认真总结了失败的原因。"
+      "explanation": "应填“建立”。完整句子：他在一次次尝试中逐渐建立了自信。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "targetWord": "建立",
+      "completeSentence": "他在一次次尝试中逐渐建立了自信。",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：老师的鼓励使他重新找回了继续学习的____。",
-      "pinyin": "lǎo shī de gǔ lì shǐ tā chóng xīn zhǎo huí le jì xù xué xí de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: niềm tin.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：面对批评，先区分事实与情绪，再作出____。",
+      "pinyin": "miàn duì pī píng ， xiān qū fēn shì shí yǔ qíng xù ， zài zuò chū ____。",
+      "vietnamese": "Gợi ý: phản hồi.",
       "options": {
-        "A": "信心",
-        "B": "态度",
-        "C": "克服",
-        "D": "失败"
+        "A": "失败",
+        "B": "机会",
+        "C": "回应",
+        "D": "建立"
       },
       "optionPinyin": {
-        "A": "xìn xīn",
-        "B": "tài dù",
-        "C": "kè fú",
-        "D": "shī bài"
+        "A": "shī bài",
+        "B": "jī huì",
+        "C": "huí yìng",
+        "D": "jiàn lì"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“信心”（niềm tin）。完整句子：老师的鼓励使他重新找回了继续学习的信心。"
+      "explanation": "应填“回应”。完整句子：面对批评，先区分事实与情绪，再作出回应。\n语法与搭配：先……再……：动作先后顺序",
+      "targetWord": "回应",
+      "completeSentence": "面对批评，先区分事实与情绪，再作出回应。",
+      "grammarFocus": "先……再……：动作先后顺序"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：面对困难她没有退缩而是努力寻找____困难的方法。",
-      "pinyin": "miàn duì kùn nán tā méi yǒu tuì suō ér shì nǔ lì xún zhǎo ____ kùn nán de fāng fǎ",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: khắc phục.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：及时总结教训，才能把困难转化为成长的____。",
+      "pinyin": "jí shí zǒng jié jiào xùn ， cái néng bǎ kùn nán zhuǎn huà wèi chéng zhǎng de ____。",
+      "vietnamese": "Gợi ý: cơ hội.",
       "options": {
-        "A": "克服",
-        "B": "总结",
-        "C": "态度",
-        "D": "信心"
+        "A": "回应",
+        "B": "建立",
+        "C": "失败",
+        "D": "机会"
       },
       "optionPinyin": {
-        "A": "kè fú",
-        "B": "zǒng jié",
-        "C": "tài dù",
-        "D": "xìn xīn"
+        "A": "huí yìng",
+        "B": "jiàn lì",
+        "C": "shī bài",
+        "D": "jī huì"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“克服”（khắc phục）。完整句子：面对困难她没有退缩而是努力寻找克服困难的方法。"
+      "explanation": "应填“机会”。完整句子：及时总结教训，才能把困难转化为成长的机会。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "targetWord": "机会",
+      "completeSentence": "及时总结教训，才能把困难转化为成长的机会。",
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：对待失败的____往往比失败本身更能影响一个人的成长。",
-      "pinyin": "duì dài shī bài de ____ wǎng wǎng bǐ shī bài běn shēn gèng néng yǐng xiǎng yí gè rén de chéng zhǎng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thái độ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：一个人能走多远，往往取决于能否继续____。",
+      "pinyin": "yí gè rén néng zǒu duō yuǎn ， wǎng wǎng qǔ jué yú néng fǒu jì xù ____。",
+      "vietnamese": "Gợi ý: kiên trì.",
       "options": {
-        "A": "信心",
-        "B": "态度",
-        "C": "失败",
-        "D": "总结"
+        "A": "失败",
+        "B": "坚持",
+        "C": "回应",
+        "D": "建立"
       },
       "optionPinyin": {
-        "A": "xìn xīn",
-        "B": "tài dù",
-        "C": "shī bài",
-        "D": "zǒng jié"
+        "A": "shī bài",
+        "B": "jiān chí",
+        "C": "huí yìng",
+        "D": "jiàn lì"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“态度”（thái độ）。完整句子：对待失败的态度往往比失败本身更能影响一个人的成长。"
+      "explanation": "应填“坚持”。完整句子：一个人能走多远，往往取决于能否继续坚持。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "坚持",
+      "completeSentence": "一个人能走多远，往往取决于能否继续坚持。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：一次失败并不能证明一个人没有成功的能力。\nyī cì shī bài bìng bù néng zhèng míng yí gè rén méi yǒu chéng gōng de néng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：一次失败并不能证明一个人没有成功的能力。\nyī cì shī bài bìng bù néng zhèng míng yí gè rén méi yǒu chéng gōng de néng lì。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：比赛结束以后教练带领队员认真总结了失败的原因。\nbǐ sài jié shù yǐ hòu jiào liàn dài lǐng duì yuán rèn zhēn zǒng jié le shī bài de yuán yīn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：比赛结束以后教练带领队员认真总结了失败的原因。\nbǐ sài jié shù yǐ hòu jiào liàn dài lǐng duì yuán rèn zhēn zǒng jié le shī bài de yuán yīn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：老师的鼓励使他重新找回了继续学习的信心。\nlǎo shī de gǔ lì shǐ tā chóng xīn zhǎo huí le jì xù xué xí de xìn xīn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：老师的鼓励使他重新找回了继续学习的信心。\nlǎo shī de gǔ lì shǐ tā chóng xīn zhǎo huí le jì xù xué xí de xìn xīn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：面对困难她没有退缩而是努力寻找克服困难的方法。\nmiàn duì kùn nán tā méi yǒu tuì suō ér shì nǔ lì xún zhǎo kè fú kùn nán de fāng fǎ。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：面对困难她没有退缩而是努力寻找克服困难的方法。\nmiàn duì kùn nán tā méi yǒu tuì suō ér shì nǔ lì xún zhǎo kè fú kùn nán de fāng fǎ。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：对待失败的态度往往比失败本身更能影响一个人的成长。\nduì dài shī bài de tài dù wǎng wǎng bǐ shī bài běn shēn gèng néng yǐng xiǎng yí gè rén de chéng zhǎng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：对待失败的态度往往比失败本身更能影响一个人的成长。\nduì dài shī bài de tài dù wǎng wǎng bǐ shī bài běn shēn gèng néng yǐng xiǎng yí gè rén de chéng zhǎng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解失败经历的价值还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě shī bài jīng lì de jià zhí hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解失败经历的价值还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě shī bài jīng lì de jià zhí hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化积极心态的培养都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà jī jí xīn tài de péi yǎng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化积极心态的培养都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà jī jí xīn tài de péi yǎng dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解困难应对的方法才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě kùn nán yìng duì de fāng fǎ cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解困难应对的方法才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě kùn nán yìng duì de fāng fǎ cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析成功标准的差异。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī chéng gōng biāo zhǔn de chā yì。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析成功标准的差异。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī chéng gōng biāo zhǔn de chā yì。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明心理韧性的形成。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng xīn lǐ rèn xìng de xíng chéng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明心理韧性的形成。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng xīn lǐ rèn xìng de xíng chéng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

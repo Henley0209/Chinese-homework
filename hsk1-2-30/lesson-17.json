@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第17课 我们去饭店吃饭吧",
-  "description": "Chúng ta đi ăn ở nhà hàng nhé；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Chúng ta đi ăn ở nhà hàng nhé；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“饭店”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "fàn diàn",
-        "B": "fàng diàn",
-        "C": "hàn diàn",
-        "D": "fàn diè"
+        "B": "bàn diàn",
+        "C": "fàng diàn",
+        "D": "hàn diàn"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“饭店”的正确读音是 fàn diàn。"
+      "explanation": "“饭店”读作 fàn diàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "饭店"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“服务员”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "hú wù yuán",
         "B": "fú wù yuán",
-        "C": "fó wù yuán",
-        "D": "fú wò yuán"
+        "C": "cú wù yuán",
+        "D": "bú wù yuán"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“服务员”的正确读音是 fú wù yuán。"
+      "explanation": "“服务员”读作 fú wù yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "服务员"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“菜单”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cài dān",
-        "B": "chài dān",
-        "C": "cèi dān",
-        "D": "cài dāng"
+        "A": "chài dān",
+        "B": "cài dāng",
+        "C": "cài dān",
+        "D": "cèi dān"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“菜单”的正确读音是 cài dān。"
+      "explanation": "“菜单”读作 cài dān。注意声母、韵母、声调及轻声。",
+      "targetWord": "菜单"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“点菜”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "diǎn chài",
-        "B": "diǎn cèi",
-        "C": "diǎn cài",
-        "D": "diě cài"
+        "A": "diǎn cèi",
+        "B": "biǎn cài",
+        "C": "diǎn chài",
+        "D": "diǎn cài"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“点菜”的正确读音是 diǎn cài。"
+      "explanation": "“点菜”读作 diǎn cài。注意声母、韵母、声调及轻声。",
+      "targetWord": "点菜"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“碗”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wǎng",
-        "B": "wǎi",
-        "C": "yǎn",
-        "D": "wǎn"
+        "A": "wǎn",
+        "B": "bǎn",
+        "C": "wǎng",
+        "D": "cǎn"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“碗”的正确读音是 wǎn。"
+      "explanation": "“碗”读作 wǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "碗"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“筷子”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kuài zhi",
-        "B": "kuài zi",
-        "C": "kuì zi",
-        "D": "kuàn zi"
+        "A": "huài zi",
+        "B": "kuài zhi",
+        "C": "kuài zi",
+        "D": "guài zi"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“筷子”的正确读音是 kuài zi。"
+      "explanation": "“筷子”读作 kuài zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "筷子"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“辣”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "nà",
-        "B": "lò",
-        "C": "lè",
+        "B": "bà",
+        "C": "cà",
         "D": "là"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“辣”的正确读音是 là。"
+      "explanation": "“辣”读作 là。注意声母、韵母、声调及轻声。",
+      "targetWord": "辣"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“盐”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yán",
-        "B": "yáng",
-        "C": "wán",
-        "D": "wáng"
+        "A": "cán",
+        "B": "yán",
+        "C": "fán",
+        "D": "yáng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“盐”的正确读音是 yán。"
+      "explanation": "“盐”读作 yán。注意声母、韵母、声调及轻声。",
+      "targetWord": "盐"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“好吃”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hǎo cī",
-        "B": "hǒu chī",
-        "C": "hǎo chī",
-        "D": "hǎo shī"
+        "A": "bǎo chī",
+        "B": "hǎo chī",
+        "C": "hǎo cī",
+        "D": "hǒu chī"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“好吃”的正确读音是 hǎo chī。"
+      "explanation": "“好吃”读作 hǎo chī。注意声母、韵母、声调及轻声。",
+      "targetWord": "好吃"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“一共”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yí gèng",
-        "B": "yín gòng",
-        "C": "yí gòng",
-        "D": "yíng gòng"
+        "A": "bī gòng",
+        "B": "dī gòng",
+        "C": "yī gòng",
+        "D": "cī gòng"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“一共”的正确读音是 yí gòng。"
+      "explanation": "“一共”读作 yī gòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "一共"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“坐”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuò",
-        "B": "zòu",
-        "C": "zuì",
+        "A": "duò",
+        "B": "cuò",
+        "C": "zhuò",
         "D": "zuò"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“坐”的正确读音是 zuò。"
+      "explanation": "“坐”读作 zuò。注意声母、韵母、声调及轻声。",
+      "targetWord": "坐"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“给”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎi",
-        "B": "gě",
-        "C": "gěi",
-        "D": "kěi"
+        "A": "děi",
+        "B": "gǎi",
+        "C": "běi",
+        "D": "gěi"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“给”的正确读音是 gěi。"
+      "explanation": "“给”读作 gěi。注意声母、韵母、声调及轻声。",
+      "targetWord": "给"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“结账”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jié zàng",
-        "B": "jié zhàn",
-        "C": "jí zhàng",
-        "D": "jié zhàng"
+        "B": "jié zhàng",
+        "C": "jié zhàn",
+        "D": "qié zhàng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“结账”的正确读音是 jié zhàng。"
+      "explanation": "“结账”读作 jié zhàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "结账"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“买单”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "měi dān",
         "B": "mǎi dāng",
-        "C": "mǎn dān",
-        "D": "mǎi dān"
+        "C": "mǎi dān",
+        "D": "bǎi dān"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“买单”的正确读音是 mǎi dān。"
+      "explanation": "“买单”读作 mǎi dān。注意声母、韵母、声调及轻声。",
+      "targetWord": "买单"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“请客”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qǐng kè",
-        "B": "qǐn kè",
-        "C": "qǐng kà",
-        "D": "qiǒng kè"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "“请客”的正确读音是 qǐng kè。"
-    },
-    {
-      "id": 16,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这家____的菜很好吃。",
-      "pinyin": "zhè jiā ____ de cài hěn hǎo chī 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Món ăn của nhà hàng này rất ngon.",
-      "options": {
-        "A": "饭店",
-        "B": "好吃",
-        "C": "结账",
-        "D": "给"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“饭店”。完整句子：这家饭店的菜很好吃。",
-      "optionPinyin": {
-        "A": "fàn diàn",
-        "B": "hǎo chī",
-        "C": "jié zhàng",
-        "D": "gěi"
-      }
-    },
-    {
-      "id": 17,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：____，请过来一下。",
-      "pinyin": "____， qǐng guò lái yí xià 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhân viên phục vụ ơi, vui lòng qua đây một chút.",
-      "options": {
-        "A": "盐",
-        "B": "菜单",
-        "C": "给",
-        "D": "服务员"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“服务员”。完整句子：服务员，请过来一下。",
-      "optionPinyin": {
-        "A": "yán",
-        "B": "cài dān",
-        "C": "gěi",
-        "D": "fú wù yuán"
-      }
-    },
-    {
-      "id": 18,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请给我一份____。",
-      "pinyin": "qǐng gěi wǒ yī fèn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy cho tôi một thực đơn.",
-      "options": {
-        "A": "给",
-        "B": "辣",
-        "C": "坐",
-        "D": "菜单"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“菜单”。完整句子：请给我一份菜单。",
-      "optionPinyin": {
-        "A": "gěi",
-        "B": "là",
-        "C": "zuò",
-        "D": "cài dān"
-      }
-    },
-    {
-      "id": 19,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我们现在可以____吗？",
-      "pinyin": "wǒ men xiàn zài kě yǐ ____ ma ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bây giờ chúng tôi có thể gọi món không?",
-      "options": {
-        "A": "盐",
-        "B": "坐",
-        "C": "点菜",
-        "D": "结账"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“点菜”。完整句子：我们现在可以点菜吗？",
-      "optionPinyin": {
-        "A": "yán",
-        "B": "zuò",
-        "C": "diǎn cài",
-        "D": "jié zhàng"
-      }
-    },
-    {
-      "id": 20,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我要一____面条。",
-      "pinyin": "wǒ yào yī ____ miàn tiáo 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn một bát mì.",
-      "options": {
-        "A": "碗",
-        "B": "辣",
-        "C": "给",
-        "D": "好吃"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 2,
-      "explanation": "应填“碗”。完整句子：我要一碗面条。",
-      "optionPinyin": {
-        "A": "wǎn",
-        "B": "là",
-        "C": "gěi",
-        "D": "hǎo chī"
-      }
-    },
-    {
-      "id": 21,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请给我一双____。",
-      "pinyin": "qǐng gěi wǒ yī shuāng ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy cho tôi một đôi đũa.",
-      "options": {
-        "A": "坐",
-        "B": "筷子",
-        "C": "辣",
-        "D": "一共"
+        "A": "jǐng kè",
+        "B": "qǐng kè",
+        "C": "xǐng kè",
+        "D": "qǐn kè"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“筷子”。完整句子：请给我一双筷子。",
+      "explanation": "“请客”读作 qǐng kè。注意声母、韵母、声调及轻声。",
+      "targetWord": "请客"
+    },
+    {
+      "id": 16,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____订一个靠窗的座位。",
+      "pinyin": "wǒ ____ dìng yí gè kào chuāng de zuò wèi 。",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
+      "options": {
+        "A": "想",
+        "B": "的",
+        "C": "把",
+        "D": "比"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“想”。完整句子：我想订一个靠窗的座位。\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "zuò",
-        "B": "kuài zi",
-        "C": "là",
-        "D": "yí gòng"
-      }
+        "A": "xiǎng",
+        "B": "de",
+        "C": "bǎ",
+        "D": "bǐ"
+      },
+      "targetWord": "想",
+      "completeSentence": "我想订一个靠窗的座位。",
+      "grammarFocus": "想＋动词"
+    },
+    {
+      "id": 17,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们____二楼吃晚餐。",
+      "pinyin": "wǒ men ____ èr lóu chī wǎn cān 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
+      "options": {
+        "A": "从",
+        "B": "比",
+        "C": "给",
+        "D": "在"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“在”。完整句子：我们在二楼吃晚餐。\n语法与搭配：在＋地点＋动词/名词",
+      "optionPinyin": {
+        "A": "cóng",
+        "B": "bǐ",
+        "C": "gěi",
+        "D": "zài"
+      },
+      "targetWord": "在",
+      "completeSentence": "我们在二楼吃晚餐。",
+      "grammarFocus": "在＋地点＋动词/名词"
+    },
+    {
+      "id": 18,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这____我们订的餐桌。",
+      "pinyin": "zhè ____ wǒ men dìng de cān zhuō 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
+      "options": {
+        "A": "在",
+        "B": "是",
+        "C": "去",
+        "D": "有"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“是”。完整句子：这是我们订的餐桌。\n语法与搭配：是＋名词：判断或说明身份",
+      "optionPinyin": {
+        "A": "zài",
+        "B": "shì",
+        "C": "qù",
+        "D": "yǒu"
+      },
+      "targetWord": "是",
+      "completeSentence": "这是我们订的餐桌。",
+      "grammarFocus": "是＋名词：判断或说明身份"
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是孩子用____小勺子。",
+      "pinyin": "zhè shì hái zi yòng ____ xiǎo sháo zi 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
+      "options": {
+        "A": "得",
+        "B": "吗",
+        "C": "的",
+        "D": "地"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“的”。完整句子：这是孩子用的小勺子。\n语法与搭配：修饰语＋的＋名词",
+      "optionPinyin": {
+        "A": "dé",
+        "B": "ma",
+        "C": "de",
+        "D": "dì"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是孩子用的小勺子。",
+      "grammarFocus": "修饰语＋的＋名词"
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这家餐厅____儿童座椅。",
+      "pinyin": "zhè jiā cān tīng ____ ér tóng zuò yǐ 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
+      "options": {
+        "A": "有",
+        "B": "是",
+        "C": "比",
+        "D": "去"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“有”。完整句子：这家餐厅有儿童座椅。\n语法与搭配：有＋名词：拥有或存在",
+      "optionPinyin": {
+        "A": "yǒu",
+        "B": "shì",
+        "C": "bǐ",
+        "D": "qù"
+      },
+      "targetWord": "有",
+      "completeSentence": "这家餐厅有儿童座椅。",
+      "grammarFocus": "有＋名词：拥有或存在"
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____能吃花生。",
+      "pinyin": "wǒ ____ néng chī huā shēng 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
+      "options": {
+        "A": "不",
+        "B": "把",
+        "C": "的",
+        "D": "比"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“不”。完整句子：我不能吃花生。\n语法与搭配：不＋动词/形容词",
+      "optionPinyin": {
+        "A": "bù",
+        "B": "bǎ",
+        "C": "de",
+        "D": "bǐ"
+      },
+      "targetWord": "不",
+      "completeSentence": "我不能吃花生。",
+      "grammarFocus": "不＋动词/形容词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这个菜太____了。",
-      "pinyin": "zhè ge cài tài ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Món này cay quá.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们____订好座位了。",
+      "pinyin": "wǒ men ____ dìng hǎo zuò wèi le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
       "options": {
-        "A": "辣",
-        "B": "筷子",
-        "C": "请客",
-        "D": "盐"
+        "A": "从",
+        "B": "已经",
+        "C": "的",
+        "D": "把"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“辣”。完整句子：这个菜太辣了。",
+      "explanation": "应填“已经”。完整句子：我们已经订好座位了。\n语法与搭配：已经……了",
       "optionPinyin": {
-        "A": "là",
-        "B": "kuài zi",
-        "C": "qǐng kè",
-        "D": "yán"
-      }
+        "A": "cóng",
+        "B": "yǐ jīng",
+        "C": "de",
+        "D": "bǎ"
+      },
+      "targetWord": "已经",
+      "completeSentence": "我们已经订好座位了。",
+      "grammarFocus": "已经……了"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请少放一点____。",
-      "pinyin": "qǐng shǎo fàng yì diǎn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Vui lòng cho ít muối một chút.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：厨房____准备我们的菜。",
+      "pinyin": "chú fáng ____ zhǔn bèi wǒ men de cài 。",
+      "vietnamese": "Gợi ý: đang; hành động đang diễn ra.",
       "options": {
-        "A": "饭店",
-        "B": "辣",
-        "C": "盐",
-        "D": "给"
+        "A": "把",
+        "B": "比",
+        "C": "的",
+        "D": "正在"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“盐”。完整句子：请少放一点盐。",
+      "explanation": "应填“正在”。完整句子：厨房正在准备我们的菜。\n语法与搭配：正在＋动词",
       "optionPinyin": {
-        "A": "fàn diàn",
-        "B": "là",
-        "C": "yán",
-        "D": "gěi"
-      }
+        "A": "bǎ",
+        "B": "bǐ",
+        "C": "de",
+        "D": "zhèng zài"
+      },
+      "targetWord": "正在",
+      "completeSentence": "厨房正在准备我们的菜。",
+      "grammarFocus": "正在＋动词"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这个菜很____。",
-      "pinyin": "zhè ge cài hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Món này rất ngon.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他____姐姐都爱喝汤。",
+      "pinyin": "tā ____ jiě jiě dōu ài hē tāng 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
       "options": {
-        "A": "辣",
-        "B": "坐",
-        "C": "好吃",
-        "D": "请客"
+        "A": "很",
+        "B": "把",
+        "C": "吗",
+        "D": "和"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“好吃”。完整句子：这个菜很好吃。",
+      "explanation": "应填“和”。完整句子：他和姐姐都爱喝汤。\n语法与搭配：名词/代词＋和＋名词/代词",
       "optionPinyin": {
-        "A": "là",
-        "B": "zuò",
-        "C": "hǎo chī",
-        "D": "qǐng kè"
-      }
+        "A": "hěn",
+        "B": "bǎ",
+        "C": "ma",
+        "D": "hé"
+      },
+      "targetWord": "和",
+      "completeSentence": "他和姐姐都爱喝汤。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我们____有四个人。",
-      "pinyin": "wǒ men ____ yǒu sì gè rén 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi có tổng cộng bốn người.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这道汤____上次的淡一点。",
+      "pinyin": "zhè dào tāng ____ shàng cì de dàn yì diǎn 。",
+      "vietnamese": "Gợi ý: hơn; chỉ đối tượng so sánh.",
       "options": {
-        "A": "碗",
-        "B": "好吃",
-        "C": "一共",
-        "D": "结账"
+        "A": "给",
+        "B": "把",
+        "C": "从",
+        "D": "比"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“一共”。完整句子：我们一共有四个人。",
+      "explanation": "应填“比”。完整句子：这道汤比上次的淡一点。\n语法与搭配：甲＋比＋乙＋形容词",
       "optionPinyin": {
-        "A": "wǎn",
-        "B": "hǎo chī",
-        "C": "yí gòng",
-        "D": "jié zhàng"
-      }
+        "A": "gěi",
+        "B": "bǎ",
+        "C": "cóng",
+        "D": "bǐ"
+      },
+      "targetWord": "比",
+      "completeSentence": "这道汤比上次的淡一点。",
+      "grammarFocus": "甲＋比＋乙＋形容词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我们想____在这里。",
-      "pinyin": "wǒ men xiǎng ____ zài zhè lǐ 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chúng tôi muốn ngồi ở đây.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：吃完____，我们再去散步。",
+      "pinyin": "chī wán ____， wǒ men zài qù sàn bù 。",
+      "vietnamese": "Gợi ý: sau khi.",
       "options": {
-        "A": "服务员",
-        "B": "辣",
-        "C": "坐",
-        "D": "盐"
+        "A": "以内",
+        "B": "以外",
+        "C": "以后",
+        "D": "之间"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "应填“坐”。完整句子：我们想坐在这里。",
+      "explanation": "应填“以后”。完整句子：吃完以后，我们再去散步。\n语法与搭配：动作/时间＋以后",
       "optionPinyin": {
-        "A": "fú wù yuán",
-        "B": "là",
-        "C": "zuò",
-        "D": "yán"
-      }
+        "A": "yǐ nèi",
+        "B": "yǐ wài",
+        "C": "yǐ hòu",
+        "D": "zhī jiān"
+      },
+      "targetWord": "以后",
+      "completeSentence": "吃完以后，我们再去散步。",
+      "grammarFocus": "动作/时间＋以后"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请____我一杯水。",
-      "pinyin": "qǐng ____ wǒ yī bēi shuǐ 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy cho tôi một cốc nước.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：上菜____，请先上茶。",
+      "pinyin": "shàng cài ____， qǐng xiān shàng chá 。",
+      "vietnamese": "Gợi ý: trước khi.",
       "options": {
-        "A": "点菜",
-        "B": "饭店",
-        "C": "给",
-        "D": "好吃"
+        "A": "之间",
+        "B": "以外",
+        "C": "以前",
+        "D": "以内"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "应填“给”。完整句子：请给我一杯水。",
+      "explanation": "应填“以前”。完整句子：上菜以前，请先上茶。\n语法与搭配：动作/时间＋以前",
       "optionPinyin": {
-        "A": "diǎn cài",
-        "B": "fàn diàn",
-        "C": "gěi",
-        "D": "hǎo chī"
-      }
+        "A": "zhī jiān",
+        "B": "yǐ wài",
+        "C": "yǐ qián",
+        "D": "yǐ nèi"
+      },
+      "targetWord": "以前",
+      "completeSentence": "上菜以前，请先上茶。",
+      "grammarFocus": "动作/时间＋以前"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：饭后我们一起____。",
-      "pinyin": "fàn hòu wǒ men yì qǐ ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Sau bữa ăn chúng tôi cùng thanh toán.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我们____想加一份青菜。",
+      "pinyin": "wǒ men ____ xiǎng jiā yí fèn qīng cài 。",
+      "vietnamese": "Gợi ý: vẫn/còn; chỉ sự tiếp tục hoặc bổ sung.",
       "options": {
-        "A": "点菜",
-        "B": "给",
-        "C": "结账",
-        "D": "一共"
+        "A": "还",
+        "B": "把",
+        "C": "从",
+        "D": "的"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“结账”。完整句子：饭后我们一起结账。",
+      "explanation": "应填“还”。完整句子：我们还想加一份青菜。\n语法与搭配：还＋谓语",
       "optionPinyin": {
-        "A": "diǎn cài",
-        "B": "gěi",
-        "C": "jié zhàng",
-        "D": "yí gòng"
-      }
+        "A": "hái",
+        "B": "bǎ",
+        "C": "cóng",
+        "D": "de"
+      },
+      "targetWord": "还",
+      "completeSentence": "我们还想加一份青菜。",
+      "grammarFocus": "还＋谓语"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：服务员，请____。",
-      "pinyin": "fú wù yuán ， qǐng ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Nhân viên phục vụ ơi, cho tôi thanh toán.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____帮我们换一个盘子吗？",
+      "pinyin": "nǐ ____ bāng wǒ men huàn yí gè pán zi ma ？",
+      "vietnamese": "Gợi ý: có thể; chỉ năng lực hoặc điều kiện.",
       "options": {
-        "A": "买单",
-        "B": "请客",
-        "C": "盐",
-        "D": "筷子"
+        "A": "比",
+        "B": "把",
+        "C": "能",
+        "D": "的"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“买单”。完整句子：服务员，请买单。",
+      "explanation": "应填“能”。完整句子：你能帮我们换一个盘子吗？\n语法与搭配：能＋动词",
       "optionPinyin": {
-        "A": "mǎi dān",
-        "B": "qǐng kè",
-        "C": "yán",
-        "D": "kuài zi"
-      }
+        "A": "bǐ",
+        "B": "bǎ",
+        "C": "néng",
+        "D": "de"
+      },
+      "targetWord": "能",
+      "completeSentence": "你能帮我们换一个盘子吗？",
+      "grammarFocus": "能＋动词"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：今天我____。",
-      "pinyin": "jīn tiān wǒ ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay tôi mời.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____热汤放在桌子中间。",
+      "pinyin": "qǐng ____ rè tāng fàng zài zhuō zi zhōng jiān 。",
+      "vietnamese": "Gợi ý: đưa tân ngữ lên trước động từ để nói cách xử lý.",
       "options": {
-        "A": "请客",
-        "B": "辣",
-        "C": "给",
-        "D": "点菜"
+        "A": "比",
+        "B": "把",
+        "C": "从",
+        "D": "的"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“请客”。完整句子：今天我请客。",
+      "explanation": "应填“把”。完整句子：请把热汤放在桌子中间。\n语法与搭配：把＋宾语＋动作及结果/位置",
       "optionPinyin": {
-        "A": "qǐng kè",
-        "B": "là",
-        "C": "gěi",
-        "D": "diǎn cài"
-      }
+        "A": "bǐ",
+        "B": "bǎ",
+        "C": "cóng",
+        "D": "de"
+      },
+      "targetWord": "把",
+      "completeSentence": "请把热汤放在桌子中间。",
+      "grammarFocus": "把＋宾语＋动作及结果/位置"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "这家饭店的菜很好吃."
       ],
       "points": 2,
-      "explanation": "参考句子：这家饭店的菜很好吃。"
+      "explanation": "参考句子：这家饭店的菜很好吃。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "服务员,请过来一下."
       ],
       "points": 2,
-      "explanation": "参考句子：服务员，请过来一下。"
+      "explanation": "参考句子：服务员，请过来一下。\n语法与搭配：动词＋过：经历表达",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "请给我一份菜单."
       ],
       "points": 2,
-      "explanation": "参考句子：请给我一份菜单。"
+      "explanation": "参考句子：请给我一份菜单。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 34,
@@ -722,7 +785,8 @@
         "我们现在可以点菜吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：我们现在可以点菜吗？"
+      "explanation": "参考句子：我们现在可以点菜吗？\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 35,
@@ -737,7 +801,8 @@
         "我要一碗面条."
       ],
       "points": 2,
-      "explanation": "参考句子：我要一碗面条。"
+      "explanation": "参考句子：我要一碗面条。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -752,7 +817,8 @@
         "请给我一双筷子."
       ],
       "points": 2,
-      "explanation": "参考句子：请给我一双筷子。"
+      "explanation": "参考句子：请给我一双筷子。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 37,
@@ -767,7 +833,8 @@
         "这个菜太辣了."
       ],
       "points": 2,
-      "explanation": "参考句子：这个菜太辣了。"
+      "explanation": "参考句子：这个菜太辣了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -782,7 +849,8 @@
         "请少放一点盐."
       ],
       "points": 2,
-      "explanation": "参考句子：请少放一点盐。"
+      "explanation": "参考句子：请少放一点盐。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -797,7 +865,8 @@
         "这个菜很好吃."
       ],
       "points": 2,
-      "explanation": "参考句子：这个菜很好吃。"
+      "explanation": "参考句子：这个菜很好吃。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -812,7 +881,8 @@
         "我们一共有四个人."
       ],
       "points": 2,
-      "explanation": "参考句子：我们一共有四个人。"
+      "explanation": "参考句子：我们一共有四个人。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -827,7 +897,8 @@
         "我们想坐在这里."
       ],
       "points": 2,
-      "explanation": "参考句子：我们想坐在这里。"
+      "explanation": "参考句子：我们想坐在这里。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 42,
@@ -842,7 +913,8 @@
         "请给我一杯水."
       ],
       "points": 2,
-      "explanation": "参考句子：请给我一杯水。"
+      "explanation": "参考句子：请给我一杯水。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 43,
@@ -857,7 +929,8 @@
         "饭后我们一起结账."
       ],
       "points": 2,
-      "explanation": "参考句子：饭后我们一起结账。"
+      "explanation": "参考句子：饭后我们一起结账。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -872,7 +945,8 @@
         "服务员,请买单."
       ],
       "points": 2,
-      "explanation": "参考句子：服务员，请买单。"
+      "explanation": "参考句子：服务员，请买单。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -888,7 +962,8 @@
         "今天我请客."
       ],
       "points": 2,
-      "explanation": "参考句子：今天我请客。"
+      "explanation": "参考句子：今天我请客。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -903,7 +978,8 @@
         "你们想坐里面还是外面?"
       ],
       "points": 2,
-      "explanation": "参考句子：你们想坐里面还是外面？"
+      "explanation": "参考句子：你们想坐里面还是外面？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -918,7 +994,8 @@
         "这家饭店离公司很近."
       ],
       "points": 2,
-      "explanation": "参考句子：这家饭店离公司很近。"
+      "explanation": "参考句子：这家饭店离公司很近。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -933,7 +1010,8 @@
         "我已经吃好了."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经吃好了。"
+      "explanation": "参考句子：我已经吃好了。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 49,
@@ -948,7 +1026,8 @@
         "这碗面是我的."
       ],
       "points": 2,
-      "explanation": "参考句子：这碗面是我的。"
+      "explanation": "参考句子：这碗面是我的。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -963,9 +1042,11 @@
         "我们下次再来吃吧."
       ],
       "points": 2,
-      "explanation": "参考句子：我们下次再来吃吧。"
+      "explanation": "参考句子：我们下次再来吃吧。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "a5fa4bc6",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

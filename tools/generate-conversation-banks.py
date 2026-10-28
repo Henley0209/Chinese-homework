@@ -90,7 +90,12 @@ def keywords_for(answer,words):
             clean = re.sub(r'^(?:请问|请|我们|我|你|他|她|今天|明天|昨天|已经|正在|可以|需要|应该|很|也|是)+','',piece)
             if len(clean)>=2:
                 values.append(clean[:min(6,len(clean))])
-    return list(dict.fromkeys(values))[:6] or [re.sub(r'[^\u3400-\u9fff]','',answer)[:6]]
+    if values:
+        return list(dict.fromkeys(values))[:6]
+    # Keep the fallback contiguous in the actual reference. Joining clauses across
+    # punctuation can invent a keyword that cannot be blanked out or found there.
+    pieces = re.findall(r'[\u3400-\u9fff]+',answer)
+    return [max(pieces,key=len)[:6]] if pieces else []
 
 def natural_question(sentence):
     rules = [(r'^我的名字是.{1,5}[。！]$', '你叫什么名字？'),(r'^我叫[^来去帮进出过]{1,4}[。！]$', '你叫什么名字？'),(r'^我是(?:中国|越南|泰国|日本|韩国|美国|英国|法国|德国|新加坡|马来西亚|缅甸|柬埔寨|老挝|加拿大|澳大利亚)人[。！]$', '你是哪里人？'),(r'^我今年.+岁', '你今年多大？'),(r'^我(?:很|也|最|特别|非常)?喜欢', '你喜欢什么？'),(r'^我每天', '你每天通常做什么？'),(r'^我(?:已经|现在已经)', '现在的情况怎么样？'),(r'^我(?:正|正在|已经|也|还)?准备', '你准备做什么？'),(r'^我(?:也|一直|还是)?觉得', '你有什么看法？'),(r'^我们.*先.*再', '你们准备按什么顺序做？'),(r'^虽然.*但是', '你能说说这件事的两个方面吗？'),(r'^因为.*所以', '你能说明原因和结果吗？')]

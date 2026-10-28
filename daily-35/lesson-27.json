@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第27课 我最近有点不舒服",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“头疼”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fóu téng",
-        "B": "cóu téng",
-        "C": "táo téng",
-        "D": "tóu téng"
+        "A": "táo téng",
+        "B": "tóu téng",
+        "C": "cóu téng",
+        "D": "fóu téng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“头疼”读作 tóu téng，本课词义：đau đầu。"
+      "explanation": "“头疼”读作 tóu téng。注意声母、韵母、声调及轻声。",
+      "targetWord": "头疼"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“发烧”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fā shāo",
-        "B": "fā sāo",
-        "C": "fā shōu",
-        "D": "hā shāo"
+        "A": "fā sāo",
+        "B": "hā shāo",
+        "C": "fā shāo",
+        "D": "fā shōu"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“发烧”读作 fā shāo，本课词义：sốt。"
+      "explanation": "“发烧”读作 fā shāo。注意声母、韵母、声调及轻声。",
+      "targetWord": "发烧"
     },
     {
       "id": 3,
@@ -47,37 +49,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“咳嗽”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "ké sòu",
-        "B": "ké sào",
+        "A": "ké sào",
+        "B": "dé sòu",
         "C": "ké shòu",
-        "D": "dé sòu"
+        "D": "ké sòu"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“咳嗽”读作 ké sòu，本课词义：ho。"
+      "explanation": "“咳嗽”读作 ké sòu。注意声母、韵母、声调及轻声。",
+      "targetWord": "咳嗽"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“挂号”的正确读音。",
+      "text": "【拼音选择】请选择“咽喉”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "guà hòu",
-        "B": "guài hào",
-        "C": "guà hào",
-        "D": "guàn hào"
+        "A": "yān háo",
+        "B": "yāng hóu",
+        "C": "yān fóu",
+        "D": "yān hóu"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "“挂号”读作 guà hào，本课词义：đăng ký khám。"
+      "explanation": "“咽喉”读作 yān hóu。注意声母、韵母、声调及轻声。",
+      "targetWord": "咽喉"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“检查”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qiǎn chá",
-        "B": "biǎn chá",
-        "C": "jiǎn chá",
-        "D": "jiǎng chá"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“检查”读作 jiǎn chá，本课词义：kiểm tra, khám。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：医生我从昨天晚上开始____。",
-      "pinyin": "yī shēng wǒ cóng zuó tiān wǎn shàng kāi shǐ ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đau đầu.",
-      "options": {
-        "A": "头疼",
-        "B": "咳嗽",
-        "C": "挂号",
-        "D": "检查"
-      },
-      "optionPinyin": {
-        "A": "tóu téng",
-        "B": "ké sòu",
-        "C": "guà hào",
-        "D": "jiǎn chá"
+        "A": "jiǎn chá",
+        "B": "jiǎng chá",
+        "C": "qiǎn chá",
+        "D": "biǎn chá"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“头疼”（đau đầu）。完整表达：医生我从昨天晚上开始头疼。"
+      "explanation": "“检查”读作 jiǎn chá。注意声母、韵母、声调及轻声。",
+      "targetWord": "检查"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：看医生时，请说清楚自己的____。",
+      "pinyin": "kàn yī shēng shí ， qǐng shuō qīng chǔ zì jǐ de ____。",
+      "vietnamese": "Gợi ý: triệu chứng.",
+      "options": {
+        "A": "挂号",
+        "B": "症状",
+        "C": "体温",
+        "D": "头晕"
+      },
+      "optionPinyin": {
+        "A": "guà hào",
+        "B": "zhèng zhuàng",
+        "C": "tǐ wēn",
+        "D": "tóu yūn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“症状”。完整句子：看医生时，请说清楚自己的症状。\n语法与搭配：……时；自己的",
+      "targetWord": "症状",
+      "completeSentence": "看医生时，请说清楚自己的症状。",
+      "grammarFocus": "……时；自己的"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我今天早上开始____了。",
-      "pinyin": "wǒ jīn tiān zǎo shàng kāi shǐ ____ le",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: sốt.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：去医院看病，通常需要先____。",
+      "pinyin": "qù yī yuàn kàn bìng ， tōng cháng xū yào xiān ____。",
+      "vietnamese": "Gợi ý: đăng ký khám.",
       "options": {
-        "A": "检查",
-        "B": "发烧",
-        "C": "头疼",
-        "D": "挂号"
+        "A": "头晕",
+        "B": "挂号",
+        "C": "症状",
+        "D": "体温"
       },
       "optionPinyin": {
-        "A": "jiǎn chá",
-        "B": "fā shāo",
-        "C": "tóu téng",
-        "D": "guà hào"
+        "A": "tóu yūn",
+        "B": "guà hào",
+        "C": "zhèng zhuàng",
+        "D": "tǐ wēn"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“发烧”（sốt）。完整表达：我今天早上开始发烧了。"
+      "explanation": "应填“挂号”。完整句子：去医院看病，通常需要先挂号。\n语法与搭配：需要先＋动词",
+      "targetWord": "挂号",
+      "completeSentence": "去医院看病，通常需要先挂号。",
+      "grammarFocus": "需要先＋动词"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我____了三天晚上比较严重。",
-      "pinyin": "wǒ ____ le sān tiān wǎn shàng bǐ jiào yán zhòng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: ho.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我觉得发热，想先量一下____。",
+      "pinyin": "wǒ jué de fā rè ， xiǎng xiān liàng yí xià ____。",
+      "vietnamese": "Gợi ý: thân nhiệt.",
       "options": {
-        "A": "发烧",
-        "B": "咳嗽",
+        "A": "体温",
+        "B": "症状",
         "C": "挂号",
-        "D": "检查"
+        "D": "头晕"
       },
       "optionPinyin": {
-        "A": "fā shāo",
-        "B": "ké sòu",
+        "A": "tǐ wēn",
+        "B": "zhèng zhuàng",
         "C": "guà hào",
-        "D": "jiǎn chá"
+        "D": "tóu yūn"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“咳嗽”（ho）。完整表达：我咳嗽了三天晚上比较严重。"
+      "explanation": "应填“体温”。完整句子：我觉得发热，想先量一下体温。\n语法与搭配：觉得；想先",
+      "targetWord": "体温",
+      "completeSentence": "我觉得发热，想先量一下体温。",
+      "grammarFocus": "觉得；想先"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问看内科应该在哪里____。",
-      "pinyin": "qǐng wèn kàn nèi kē yīng gāi zài nǎ lǐ ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đăng ký khám.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我站起来就觉得____，需要坐一会儿。",
+      "pinyin": "wǒ zhàn qǐ lái jiù jué de ____， xū yào zuò yí huì r 。",
+      "vietnamese": "Gợi ý: chóng mặt.",
       "options": {
-        "A": "咳嗽",
-        "B": "头疼",
-        "C": "发烧",
-        "D": "挂号"
+        "A": "头晕",
+        "B": "体温",
+        "C": "挂号",
+        "D": "症状"
       },
       "optionPinyin": {
-        "A": "ké sòu",
-        "B": "tóu téng",
-        "C": "fā shāo",
-        "D": "guà hào"
+        "A": "tóu yūn",
+        "B": "tǐ wēn",
+        "C": "guà hào",
+        "D": "zhèng zhuàng"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“挂号”（đăng ký khám）。完整表达：请问看内科应该在哪里挂号。"
+      "explanation": "应填“头晕”。完整句子：我站起来就觉得头晕，需要坐一会儿。\n语法与搭配：……就……；一会儿",
+      "targetWord": "头晕",
+      "completeSentence": "我站起来就觉得头晕，需要坐一会儿。",
+      "grammarFocus": "……就……；一会儿"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：医生我还需要做什么____。",
-      "pinyin": "yī shēng wǒ hái xū yào zuò shén me ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kiểm tra, khám.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：看病时要告诉医生自己有没有药物____。",
+      "pinyin": "kàn bìng shí yào gào sù yī shēng zì jǐ yǒu méi yǒu yào wù ____。",
+      "vietnamese": "Gợi ý: dị ứng.",
       "options": {
-        "A": "咳嗽",
-        "B": "挂号",
-        "C": "头疼",
-        "D": "检查"
+        "A": "过敏",
+        "B": "症状",
+        "C": "体温",
+        "D": "挂号"
       },
       "optionPinyin": {
-        "A": "ké sòu",
-        "B": "guà hào",
-        "C": "tóu téng",
-        "D": "jiǎn chá"
+        "A": "guò mǐn",
+        "B": "zhèng zhuàng",
+        "C": "tǐ wēn",
+        "D": "guà hào"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“检查”（kiểm tra, khám）。完整表达：医生我还需要做什么检查。"
+      "explanation": "应填“过敏”。完整句子：看病时要告诉医生自己有没有药物过敏。\n语法与搭配：有没有",
+      "targetWord": "过敏",
+      "completeSentence": "看病时要告诉医生自己有没有药物过敏。",
+      "grammarFocus": "有没有"
     },
     {
       "id": 11,
@@ -352,96 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n从昨天晚上开始 / 头疼 / 医生 / 我",
-      "pinyin": "cóng zuó tiān wǎn shàng kāi shǐ / tóu téng / yī shēng / wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n一直咳嗽 / 从昨天晚上开始 / 我 / 就",
+      "pinyin": "yì zhí ké sòu / cóng zuó tiān wǎn shàng kāi shǐ / wǒ / jiù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "医生我从昨天晚上开始头疼。",
-        "医生我从昨天晚上开始头疼",
-        "医生我从昨天晚上开始头疼.",
-        "医生我从昨天晚上开始头疼？",
-        "医生我从昨天晚上开始头疼?"
+        "我从昨天晚上开始就一直咳嗽。",
+        "我从昨天晚上开始就一直咳嗽",
+        "我从昨天晚上开始就一直咳嗽."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：医生我从昨天晚上开始头疼。\nyī shēng wǒ cóng zuó tiān wǎn shàng kāi shǐ tóu téng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：我从昨天晚上开始就一直咳嗽。\nwǒ cóng zuó tiān wǎn shàng kāi shǐ jiù yì zhí ké sòu\n语法与搭配：从……开始就……；一直",
+      "grammarFocus": "从……开始就……；一直"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n开始 / 我 / 今天早上 / 发烧了",
-      "pinyin": "kāi shǐ / wǒ / jīn tiān zǎo shàng / fā shāo le",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n这几天 / 吃不下东西 / 睡不好觉 / 也",
+      "pinyin": "zhè jǐ tiān / chī bù xià dōng xi / shuì bù hǎo jué / yě",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我今天早上开始发烧了。",
-        "我今天早上开始发烧了",
-        "我今天早上开始发烧了.",
-        "我今天早上开始发烧了？",
-        "我今天早上开始发烧了?",
-        "今天早上我开始发烧了",
-        "今天早上我开始发烧了。",
-        "今天早上我开始发烧了.",
-        "今天早上我开始发烧了？",
-        "今天早上我开始发烧了?"
+        "这几天吃不下东西也睡不好觉。",
+        "这几天吃不下东西也睡不好觉",
+        "这几天吃不下东西也睡不好觉."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：我今天早上开始发烧了。\nwǒ jīn tiān zǎo shàng kāi shǐ fā shāo le。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：这几天吃不下东西也睡不好觉。\nzhè jǐ tiān chī bù xià dōng xi yě shuì bù hǎo jué\n语法与搭配：动词＋不下；动词＋不好",
+      "grammarFocus": "动词＋不下；动词＋不好"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 比较严重 / 晚上 / 咳嗽了三天",
-      "pinyin": "wǒ / bǐ jiào yán zhòng / wǎn shàng / ké sòu le sān tiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 会及时去就医 / 如果 / 不舒服一直没有好转",
+      "pinyin": "wǒ / huì jí shí qù jiù yī / rú guǒ / bù shū fú yì zhí méi yǒu hǎo zhuǎn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我咳嗽了三天晚上比较严重。",
-        "我咳嗽了三天晚上比较严重",
-        "我咳嗽了三天晚上比较严重.",
-        "我咳嗽了三天晚上比较严重？",
-        "我咳嗽了三天晚上比较严重?"
+        "如果不舒服一直没有好转我会及时去就医。",
+        "如果不舒服一直没有好转我会及时去就医",
+        "如果不舒服一直没有好转我会及时去就医."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：我咳嗽了三天晚上比较严重。\nwǒ ké sòu le sān tiān wǎn shàng bǐ jiào yán zhòng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 18,
+      "explanation": "参考句子：如果不舒服一直没有好转我会及时去就医。\nrú guǒ bù shū fú yì zhí méi yǒu hǎo zhuǎn wǒ huì jí shí qù jiù yī\n语法与搭配：如果；一直",
+      "grammarFocus": "如果；一直"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n在哪里挂号 / 请问 / 看内科 / 应该",
-      "pinyin": "zài nǎ lǐ guà hào / qǐng wèn / kàn nèi kē / yīng gāi",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有没有出现过这种情况 / 以前 / 问我 / 医生",
+      "pinyin": "yǒu méi yǒu chū xiàn guò zhè zhǒng qíng kuàng / yǐ qián / wèn wǒ / yī shēng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问看内科应该在哪里挂号。",
-        "请问看内科应该在哪里挂号",
-        "请问看内科应该在哪里挂号.",
-        "请问看内科应该在哪里挂号？",
-        "请问看内科应该在哪里挂号?"
+        "医生问我以前有没有出现过这种情况。",
+        "医生问我以前有没有出现过这种情况",
+        "医生问我以前有没有出现过这种情况."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：请问看内科应该在哪里挂号。\nqǐng wèn kàn nèi kē yīng gāi zài nǎ lǐ guà hào。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：医生问我以前有没有出现过这种情况。\nyī shēng wèn wǒ yǐ qián yǒu méi yǒu chū xiàn guò zhè zhǒng qíng kuàng\n语法与搭配：问；有没有……过",
+      "grammarFocus": "问；有没有……过"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n还需要 / 做什么检查 / 我 / 医生",
-      "pinyin": "hái xū yào / zuò shén me jiǎn chá / wǒ / yī shēng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再向医生确认 / 请 / 出来以后 / 检查结果",
+      "pinyin": "zài xiàng yī shēng què rèn / qǐng / chū lái yǐ hòu / jiǎn chá jié guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "医生我还需要做什么检查。",
-        "医生我还需要做什么检查",
-        "医生我还需要做什么检查.",
-        "医生我还需要做什么检查？",
-        "医生我还需要做什么检查?"
+        "检查结果出来以后请再向医生确认。",
+        "检查结果出来以后请再向医生确认",
+        "检查结果出来以后请再向医生确认."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：医生我还需要做什么检查。\nyī shēng wǒ hái xū yào zuò shén me jiǎn chá。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：检查结果出来以后请再向医生确认。\njiǎn chá jié guǒ chū lái yǐ hòu qǐng zài xiàng yī shēng què rèn\n语法与搭配：……以后；再",
+      "grammarFocus": "……以后；再"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

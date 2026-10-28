@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第23课 家里的空调坏了",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“空调”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gōng tiáo",
-        "B": "kōng tiáo",
-        "C": "dōng tiáo",
-        "D": "cōng tiáo"
+        "A": "cōng tiáo",
+        "B": "dōng tiáo",
+        "C": "kōng tiáo",
+        "D": "gōng tiáo"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“空调”读作 kōng tiáo，本课词义：điều hòa。"
+      "explanation": "“空调”读作 kōng tiáo。注意声母、韵母、声调及轻声。",
+      "targetWord": "空调"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“维修”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "féi xiū",
-        "B": "léi xiū",
-        "C": "wéi xiū",
-        "D": "wéi qiū"
+        "A": "wéi qiū",
+        "B": "wéi xiū",
+        "C": "léi xiū",
+        "D": "féi xiū"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "“维修”读作 wéi xiū，本课词义：sửa chữa。"
+      "explanation": "“维修”读作 wéi xiū。注意声母、韵母、声调及轻声。",
+      "targetWord": "维修"
     },
     {
       "id": 3,
@@ -47,181 +49,199 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“费用”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fèi yòng",
-        "B": "bèi yòng",
-        "C": "cèi yòng",
-        "D": "fèn yòng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“费用”读作 fèi yòng，本课词义：chi phí。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“漏水”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "lòu suǐ",
-        "B": "nòu shuǐ",
-        "C": "lòu shuǐ",
-        "D": "lào shuǐ"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“漏水”读作 lòu shuǐ，本课词义：rò nước。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“保修”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "bǎo qiū",
-        "B": "bǎo xiū",
-        "C": "biǎo xiū",
-        "D": "bǎ xiū"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "“保修”读作 bǎo xiū，本课词义：bảo hành。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我家的____打开以后一直不制冷。",
-      "pinyin": "wǒ jiā de ____ dǎ kāi yǐ hòu yì zhí bù zhì lěng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: điều hòa.",
-      "options": {
-        "A": "保修",
-        "B": "漏水",
-        "C": "空调",
-        "D": "费用"
-      },
-      "optionPinyin": {
-        "A": "bǎo xiū",
-        "B": "lòu shuǐ",
-        "C": "kōng tiáo",
-        "D": "fèi yòng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“空调”（điều hòa）。完整表达：我家的空调打开以后一直不制冷。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问您今天下午能来____吗。",
-      "pinyin": "qǐng wèn nín jīn tiān xià wǔ néng lái ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: sửa chữa.",
-      "options": {
-        "A": "维修",
-        "B": "漏水",
-        "C": "费用",
-        "D": "保修"
-      },
-      "optionPinyin": {
-        "A": "wéi xiū",
-        "B": "lòu shuǐ",
-        "C": "fèi yòng",
-        "D": "bǎo xiū"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“维修”（sửa chữa）。完整表达：请问您今天下午能来维修吗。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：上门检查以前能先说明一下____吗。",
-      "pinyin": "shàng mén jiǎn chá yǐ qián néng xiān shuō míng yī xià ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: chi phí.",
-      "options": {
-        "A": "漏水",
-        "B": "保修",
-        "C": "维修",
-        "D": "费用"
-      },
-      "optionPinyin": {
-        "A": "lòu shuǐ",
-        "B": "bǎo xiū",
-        "C": "wéi xiū",
+        "A": "bèi yòng",
+        "B": "cèi yòng",
+        "C": "fèn yòng",
         "D": "fèi yòng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“费用”（chi phí）。完整表达：上门检查以前能先说明一下费用吗。"
+      "explanation": "“费用”读作 fèi yòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "费用"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“制冷”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "zhì něng",
+        "B": "zhì lěng",
+        "C": "chì lěng",
+        "D": "zì lěng"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "“制冷”读作 zhì lěng。注意声母、韵母、声调及轻声。",
+      "targetWord": "制冷"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“零件”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "líng jiàn",
+        "B": "líng jiàng",
+        "C": "líng qiàn",
+        "D": "níng jiàn"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "“零件”读作 líng jiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "零件"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：空调突然不制冷，可能出了____。",
+      "pinyin": "kōng tiáo tū rán bù zhì lěng ， kě néng chū le ____。",
+      "vietnamese": "Gợi ý: sự cố.",
+      "options": {
+        "A": "漏水",
+        "B": "故障",
+        "C": "上门",
+        "D": "报价"
+      },
+      "optionPinyin": {
+        "A": "lòu shuǐ",
+        "B": "gù zhàng",
+        "C": "shàng mén",
+        "D": "bào jià"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“故障”。完整句子：空调突然不制冷，可能出了故障。\n语法与搭配：可能；出＋名词",
+      "targetWord": "故障",
+      "completeSentence": "空调突然不制冷，可能出了故障。",
+      "grammarFocus": "可能；出＋名词"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：地板湿了，水管可能在____。",
+      "pinyin": "dì bǎn shī le ， shuǐ guǎn kě néng zài ____。",
+      "vietnamese": "Gợi ý: rò nước.",
+      "options": {
+        "A": "上门",
+        "B": "报价",
+        "C": "漏水",
+        "D": "故障"
+      },
+      "optionPinyin": {
+        "A": "shàng mén",
+        "B": "bào jià",
+        "C": "lòu shuǐ",
+        "D": "gù zhàng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“漏水”。完整句子：地板湿了，水管可能在漏水。\n语法与搭配：可能在＋动词",
+      "targetWord": "漏水",
+      "completeSentence": "地板湿了，水管可能在漏水。",
+      "grammarFocus": "可能在＋动词"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：维修师傅可以明天____检查吗？",
+      "pinyin": "wéi xiū shī fù kě yǐ míng tiān ____ jiǎn chá ma ？",
+      "vietnamese": "Gợi ý: đến tận nhà.",
+      "options": {
+        "A": "上门",
+        "B": "故障",
+        "C": "报价",
+        "D": "漏水"
+      },
+      "optionPinyin": {
+        "A": "shàng mén",
+        "B": "gù zhàng",
+        "C": "bào jià",
+        "D": "lòu shuǐ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“上门”。完整句子：维修师傅可以明天上门检查吗？\n语法与搭配：可以……吗",
+      "targetWord": "上门",
+      "completeSentence": "维修师傅可以明天上门检查吗？",
+      "grammarFocus": "可以……吗"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：厨房的水龙头从昨天开始一直____。",
-      "pinyin": "chú fáng de shuǐ lóng tóu cóng zuó tiān kāi shǐ yì zhí ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: rò nước.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：修理之前，麻烦先给我一个____。",
+      "pinyin": "xiū lǐ zhī qián ， má fán xiān gěi wǒ yí gè ____。",
+      "vietnamese": "Gợi ý: báo giá.",
       "options": {
-        "A": "保修",
-        "B": "漏水",
-        "C": "维修",
-        "D": "空调"
+        "A": "报价",
+        "B": "故障",
+        "C": "漏水",
+        "D": "上门"
       },
       "optionPinyin": {
-        "A": "bǎo xiū",
-        "B": "lòu shuǐ",
-        "C": "wéi xiū",
-        "D": "kōng tiáo"
+        "A": "bào jià",
+        "B": "gù zhàng",
+        "C": "lòu shuǐ",
+        "D": "shàng mén"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“漏水”（rò nước）。完整表达：厨房的水龙头从昨天开始一直漏水。"
+      "explanation": "应填“报价”。完整句子：修理之前，麻烦先给我一个报价。\n语法与搭配：……之前；先",
+      "targetWord": "报价",
+      "completeSentence": "修理之前，麻烦先给我一个报价。",
+      "grammarFocus": "……之前；先"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这台机器还在____期内可以免费修理吗。",
-      "pinyin": "zhè tái jī qì hái zài ____ qī nèi kě yǐ miǎn fèi xiū lǐ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: bảo hành.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这台空调才买半年，还在____期内。",
+      "pinyin": "zhè tái kōng tiáo cái mǎi bàn nián ， hái zài ____ qī nèi 。",
+      "vietnamese": "Gợi ý: bảo hành.",
       "options": {
-        "A": "维修",
-        "B": "保修",
-        "C": "空调",
-        "D": "费用"
+        "A": "上门",
+        "B": "故障",
+        "C": "保修",
+        "D": "漏水"
       },
       "optionPinyin": {
-        "A": "wéi xiū",
-        "B": "bǎo xiū",
-        "C": "kōng tiáo",
-        "D": "fèi yòng"
+        "A": "shàng mén",
+        "B": "gù zhàng",
+        "C": "bǎo xiū",
+        "D": "lòu shuǐ"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“保修”（bảo hành）。完整表达：这台机器还在保修期内可以免费修理吗。"
+      "explanation": "应填“保修”。完整句子：这台空调才买半年，还在保修期内。\n语法与搭配：才；还在……内",
+      "targetWord": "保修",
+      "completeSentence": "这台空调才买半年，还在保修期内。",
+      "grammarFocus": "才；还在……内"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我家的空调 / 不制冷 / 打开以后 / 一直",
-      "pinyin": "wǒ jiā de kōng tiáo / bù zhì lěng / dǎ kāi yǐ hòu / yì zhí",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n听到奇怪的声音 / 我 / 把空调打开以后 / 一直",
+      "pinyin": "tīng dào qí guài de shēng yīn / wǒ / bǎ kōng tiáo dǎ kāi yǐ hòu / yì zhí",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我家的空调打开以后一直不制冷。",
-        "我家的空调打开以后一直不制冷",
-        "我家的空调打开以后一直不制冷.",
-        "我家的空调打开以后一直不制冷？",
-        "我家的空调打开以后一直不制冷?"
+        "我把空调打开以后一直听到奇怪的声音。",
+        "我把空调打开以后一直听到奇怪的声音",
+        "我把空调打开以后一直听到奇怪的声音."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：我家的空调打开以后一直不制冷。\nwǒ jiā de kōng tiáo dǎ kāi yǐ hòu yì zhí bù zhì lěng。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 17,
+      "explanation": "参考句子：我把空调打开以后一直听到奇怪的声音。\nwǒ bǎ kōng tiáo dǎ kāi yǐ hòu yì zhí tīng dào qí guài de shēng yīn\n语法与搭配：把；……以后；一直",
+      "grammarFocus": "把；……以后；一直"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n今天下午 / 请问 / 您 / 能来维修吗",
-      "pinyin": "jīn tiān xià wǔ / qǐng wèn / nín / néng lái wéi xiū ma",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n再 / 能不能 / 先检查原因 / 决定换不换零件",
+      "pinyin": "zài / néng bù néng / xiān jiǎn chá yuán yīn / jué dìng huàn bù huàn líng jiàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问您今天下午能来维修吗。",
-        "请问您今天下午能来维修吗",
-        "请问您今天下午能来维修吗.",
-        "请问您今天下午能来维修吗？",
-        "请问您今天下午能来维修吗?"
+        "能不能先检查原因再决定换不换零件。",
+        "能不能先检查原因再决定换不换零件",
+        "能不能先检查原因再决定换不换零件."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：请问您今天下午能来维修吗。\nqǐng wèn nín jīn tiān xià wǔ néng lái wéi xiū ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：能不能先检查原因再决定换不换零件。\nnéng bù néng xiān jiǎn chá yuán yīn zài jué dìng huàn bù huàn líng jiàn\n语法与搭配：能不能；先……再……",
+      "grammarFocus": "能不能；先……再……"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n费用吗 / 能 / 上门检查以前 / 先说明一下",
-      "pinyin": "fèi yòng ma / néng / shàng mén jiǎn chá yǐ qián / xiān shuō míng yī xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n应该联系谁 / 如果 / 修好以后又出问题 / 我",
+      "pinyin": "yīng gāi lián xì shuí / rú guǒ / xiū hǎo yǐ hòu yòu chū wèn tí / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "上门检查以前能先说明一下费用吗。",
-        "上门检查以前能先说明一下费用吗",
-        "上门检查以前能先说明一下费用吗.",
-        "上门检查以前能先说明一下费用吗？",
-        "上门检查以前能先说明一下费用吗?"
+        "如果修好以后又出问题我应该联系谁。",
+        "如果修好以后又出问题我应该联系谁",
+        "如果修好以后又出问题我应该联系谁."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：上门检查以前能先说明一下费用吗。\nshàng mén jiǎn chá yǐ qián néng xiān shuō míng yī xià fèi yòng ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：如果修好以后又出问题我应该联系谁。\nrú guǒ xiū hǎo yǐ hòu yòu chū wèn tí wǒ yīng gāi lián xì shuí\n语法与搭配：如果；……以后又……",
+      "grammarFocus": "如果；……以后又……"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n从昨天开始 / 漏水 / 厨房的水龙头 / 一直",
-      "pinyin": "cóng zuó tiān kāi shǐ / lòu shuǐ / chú fáng de shuǐ lóng tóu / yì zhí",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n来之前 / 先给我打个电话 / 请 / 师傅",
+      "pinyin": "lái zhī qián / xiān gěi wǒ dǎ gè diàn huà / qǐng / shī fù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "厨房的水龙头从昨天开始一直漏水。",
-        "厨房的水龙头从昨天开始一直漏水",
-        "厨房的水龙头从昨天开始一直漏水.",
-        "厨房的水龙头从昨天开始一直漏水？",
-        "厨房的水龙头从昨天开始一直漏水?"
+        "师傅来之前请先给我打个电话。",
+        "师傅来之前请先给我打个电话",
+        "师傅来之前请先给我打个电话."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：厨房的水龙头从昨天开始一直漏水。\nchú fáng de shuǐ lóng tóu cóng zuó tiān kāi shǐ yì zhí lòu shuǐ。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：师傅来之前请先给我打个电话。\nshī fù lái zhī qián qǐng xiān gěi wǒ dǎ gè diàn huà\n语法与搭配：……之前；先",
+      "grammarFocus": "……之前；先"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n这台机器 / 免费修理吗 / 可以 / 还在保修期内",
-      "pinyin": "zhè tái jī qì / miǎn fèi xiū lǐ ma / kě yǐ / hái zài bǎo xiū qī nèi",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n需要 / 多长时间 / 一共 / 更换零件",
+      "pinyin": "xū yào / duō zhǎng shí jiān / yī gòng / gēng huàn líng jiàn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这台机器还在保修期内可以免费修理吗。",
-        "这台机器还在保修期内可以免费修理吗",
-        "这台机器还在保修期内可以免费修理吗.",
-        "这台机器还在保修期内可以免费修理吗？",
-        "这台机器还在保修期内可以免费修理吗?"
+        "更换零件一共需要多长时间。",
+        "更换零件一共需要多长时间",
+        "更换零件一共需要多长时间."
       ],
       "points": 5,
-      "hanziCount": 17,
-      "explanation": "参考表达：这台机器还在保修期内可以免费修理吗。\nzhè tái jī qì hái zài bǎo xiū qī nèi kě yǐ miǎn fèi xiū lǐ ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：更换零件一共需要多长时间。\ngēng huàn líng jiàn yī gòng xū yào duō zhǎng shí jiān\n语法与搭配：一共；多长时间",
+      "grammarFocus": "一共；多长时间"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

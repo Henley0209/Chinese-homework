@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第18课 环境保护与绿色生活",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“污染”的正确读音。",
+      "text": "【拼音选择】请选择“减排”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wū rǎng",
-        "B": "cū rǎn",
-        "C": "bū rǎn",
-        "D": "wū rǎn"
+        "A": "jiǎn péi",
+        "B": "jiǎn pái",
+        "C": "jiǎng pái",
+        "D": "qiǎn pái"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“污染”读作 wū rǎn，意思是 ô nhiễm。"
+      "explanation": "“减排”读作 jiǎn pái。注意声母、韵母、声调及轻声。",
+      "targetWord": "减排"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“资源”的正确读音。",
+      "text": "【拼音选择】请选择“分类”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhī yuán",
-        "B": "zī yuán",
-        "C": "cī yuán",
-        "D": "bī yuán"
+        "A": "hēn lèi",
+        "B": "fēn nèi",
+        "C": "fēn lèi",
+        "D": "fēng lèi"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“资源”读作 zī yuán，意思是 tài nguyên。"
+      "explanation": "“分类”读作 fēn lèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "分类"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“回收”的正确读音。",
+      "text": "【拼音选择】请选择“循环”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chuí shōu",
-        "B": "huí shāo",
-        "C": "huí shōu",
-        "D": "huí sōu"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“回收”读作 huí shōu，意思是 tái chế。"
-    },
-    {
-      "id": 4,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“节约”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "bié yuē",
-        "B": "qié yuē",
-        "C": "jié yuē",
-        "D": "dié yuē"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“节约”读作 jié yuē，意思是 tiết kiệm。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“持续”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "chí qù",
-        "B": "chuí xù",
-        "C": "chí xù",
-        "D": "cí xù"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“持续”读作 chí xù，意思是 liên tục。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：减少一次性用品的使用有助于降低环境____。",
-      "pinyin": "jiǎn shǎo yí cì xìng yòng pǐn de shǐ yòng yǒu zhù yú jiàng dī huán jìng ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: ô nhiễm.",
-      "options": {
-        "A": "资源",
-        "B": "污染",
-        "C": "回收",
-        "D": "节约"
-      },
-      "optionPinyin": {
-        "A": "zī yuán",
-        "B": "wū rǎn",
-        "C": "huí shōu",
-        "D": "jié yuē"
+        "A": "qún huán",
+        "B": "xún huán",
+        "C": "cún huán",
+        "D": "xún huáng"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“污染”（ô nhiễm）。完整句子：减少一次性用品的使用有助于降低环境污染。"
+      "explanation": "“循环”读作 xún huán。注意声母、韵母、声调及轻声。",
+      "targetWord": "循环"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“生态”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "chēng tài",
+        "B": "shēng tài",
+        "C": "shēn tài",
+        "D": "sēng tài"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "“生态”读作 shēng tài。注意声母、韵母、声调及轻声。",
+      "targetWord": "生态"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“可持续”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "kě chí qù",
+        "B": "gě chí xù",
+        "C": "kě chí xù",
+        "D": "kě cí xù"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "“可持续”读作 kě chí xù。注意声母、韵母、声调及轻声。",
+      "targetWord": "可持续"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：与其反复购买一次性用品，不如减少不必要的____。",
+      "pinyin": "yǔ qí fǎn fù gòu mǎi yí cì xìng yòng pǐn ， bù rú jiǎn shǎo bù bì yào de ____。",
+      "vietnamese": "Gợi ý: tiêu dùng.",
+      "options": {
+        "A": "利用",
+        "B": "意识",
+        "C": "消费",
+        "D": "行动"
+      },
+      "optionPinyin": {
+        "A": "lì yòng",
+        "B": "yì shí",
+        "C": "xiāo fèi",
+        "D": "xíng dòng"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“消费”。完整句子：与其反复购买一次性用品，不如减少不必要的消费。\n语法与搭配：与其……不如……：比较并提出选择",
+      "targetWord": "消费",
+      "completeSentence": "与其反复购买一次性用品，不如减少不必要的消费。",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：如果不合理利用____未来的生活就可能受到影响。",
-      "pinyin": "rú guǒ bù hé lǐ lì yòng ____ wèi lái de shēng huó jiù kě néng shòu dào yǐng xiǎng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tài nguyên.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：学校通过活动提高学生的环保____。",
+      "pinyin": "xué xiào tōng guò huó dòng tí gāo xué shēng de huán bǎo ____。",
+      "vietnamese": "Gợi ý: ý thức.",
       "options": {
-        "A": "节约",
-        "B": "回收",
-        "C": "持续",
-        "D": "资源"
+        "A": "利用",
+        "B": "行动",
+        "C": "消费",
+        "D": "意识"
       },
       "optionPinyin": {
-        "A": "jié yuē",
-        "B": "huí shōu",
-        "C": "chí xù",
-        "D": "zī yuán"
+        "A": "lì yòng",
+        "B": "xíng dòng",
+        "C": "xiāo fèi",
+        "D": "yì shí"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“资源”（tài nguyên）。完整句子：如果不合理利用资源未来的生活就可能受到影响。"
+      "explanation": "应填“意识”。完整句子：学校通过活动提高学生的环保意识。\n语法与搭配：动词＋过：经历表达",
+      "targetWord": "意识",
+      "completeSentence": "学校通过活动提高学生的环保意识。",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：社区鼓励居民分类投放垃圾以便____可以利用的材料。",
-      "pinyin": "shè qū gǔ lì jū mín fēn lèi tóu fàng lā jī yǐ biàn ____ kě yǐ lì yòng de cái liào",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tái chế.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：废纸经过分类处理后，可以重新____。",
+      "pinyin": "fèi zhǐ jīng guò fēn lèi chǔ lǐ hòu ， kě yǐ chóng xīn ____。",
+      "vietnamese": "Gợi ý: tận dụng.",
       "options": {
-        "A": "资源",
-        "B": "持续",
-        "C": "污染",
-        "D": "回收"
+        "A": "意识",
+        "B": "利用",
+        "C": "行动",
+        "D": "消费"
       },
       "optionPinyin": {
-        "A": "zī yuán",
-        "B": "chí xù",
-        "C": "wū rǎn",
-        "D": "huí shōu"
+        "A": "yì shí",
+        "B": "lì yòng",
+        "C": "xíng dòng",
+        "D": "xiāo fèi"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“回收”（tái chế）。完整句子：社区鼓励居民分类投放垃圾以便回收可以利用的材料。"
+      "explanation": "应填“利用”。完整句子：废纸经过分类处理后，可以重新利用。\n语法与搭配：动词＋过：经历表达",
+      "targetWord": "利用",
+      "completeSentence": "废纸经过分类处理后，可以重新利用。",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：从随手关灯做起每个人都能够____能源。",
-      "pinyin": "cóng suí shǒu guān dēng zuò qǐ měi gè rén dōu néng gòu ____ néng yuán",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiết kiệm.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：保护环境不仅是口号，更需要每个人付诸____。",
+      "pinyin": "bǎo hù huán jìng bù jǐn shì kǒu hào ， gèng xū yào měi gè rén fù zhū ____。",
+      "vietnamese": "Gợi ý: hành động.",
       "options": {
-        "A": "回收",
-        "B": "持续",
-        "C": "资源",
-        "D": "节约"
+        "A": "消费",
+        "B": "利用",
+        "C": "意识",
+        "D": "行动"
       },
       "optionPinyin": {
-        "A": "huí shōu",
-        "B": "chí xù",
-        "C": "zī yuán",
-        "D": "jié yuē"
+        "A": "xiāo fèi",
+        "B": "lì yòng",
+        "C": "yì shí",
+        "D": "xíng dòng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“节约”（tiết kiệm）。完整句子：从随手关灯做起每个人都能够节约能源。"
+      "explanation": "应填“行动”。完整句子：保护环境不仅是口号，更需要每个人付诸行动。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "行动",
+      "completeSentence": "保护环境不仅是口号，更需要每个人付诸行动。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：环境改善需要____的努力而不是短期的宣传活动。",
-      "pinyin": "huán jìng gǎi shàn xū yào ____ de nǔ lì ér bú shì duǎn qī de xuān chuán huó dòng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: liên tục.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：绿色出行有助于降低能源____。",
+      "pinyin": "lǜ sè chū xíng yǒu zhù yú jiàng dī néng yuán ____。",
+      "vietnamese": "Gợi ý: tiêu hao.",
       "options": {
-        "A": "回收",
-        "B": "资源",
-        "C": "污染",
-        "D": "持续"
+        "A": "意识",
+        "B": "利用",
+        "C": "消耗",
+        "D": "消费"
       },
       "optionPinyin": {
-        "A": "huí shōu",
-        "B": "zī yuán",
-        "C": "wū rǎn",
-        "D": "chí xù"
+        "A": "yì shí",
+        "B": "lì yòng",
+        "C": "xiāo hào",
+        "D": "xiāo fèi"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“持续”（liên tục）。完整句子：环境改善需要持续的努力而不是短期的宣传活动。"
+      "explanation": "应填“消耗”。完整句子：绿色出行有助于降低能源消耗。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "消耗",
+      "completeSentence": "绿色出行有助于降低能源消耗。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：减少一次性用品的使用有助于降低环境污染。\njiǎn shǎo yí cì xìng yòng pǐn de shǐ yòng yǒu zhù yú jiàng dī huán jìng wū rǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：减少一次性用品的使用有助于降低环境污染。\njiǎn shǎo yí cì xìng yòng pǐn de shǐ yòng yǒu zhù yú jiàng dī huán jìng wū rǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：如果不合理利用资源未来的生活就可能受到影响。\nrú guǒ bù hé lǐ lì yòng zī yuán wèi lái de shēng huó jiù kě néng shòu dào yǐng xiǎng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：如果不合理利用资源未来的生活就可能受到影响。\nrú guǒ bù hé lǐ lì yòng zī yuán wèi lái de shēng huó jiù kě néng shòu dào yǐng xiǎng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：如果……就……：假设条件",
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：社区鼓励居民分类投放垃圾以便回收可以利用的材料。\nshè qū gǔ lì jū mín fēn lèi tóu fàng lā jī yǐ biàn huí shōu kě yǐ lì yòng de cái liào。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：社区鼓励居民分类投放垃圾以便回收可以利用的材料。\nshè qū gǔ lì jū mín fēn lèi tóu fàng lā jī yǐ biàn huí shōu kě yǐ lì yòng de cái liào。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：从随手关灯做起每个人都能够节约能源。\ncóng suí shǒu guān dēng zuò qǐ měi gè rén dōu néng gòu jié yuē néng yuán。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：从随手关灯做起每个人都能够节约能源。\ncóng suí shǒu guān dēng zuò qǐ měi gè rén dōu néng gòu jié yuē néng yuán。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：环境改善需要持续的努力而不是短期的宣传活动。\nhuán jìng gǎi shàn xū yào chí xù de nǔ lì ér bú shì duǎn qī de xuān chuán huó dòng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：环境改善需要持续的努力而不是短期的宣传活动。\nhuán jìng gǎi shàn xū yào chí xù de nǔ lì ér bú shì duǎn qī de xuān chuán huó dòng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解绿色生活的实践还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě lǜ sè shēng huó de shí jiàn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解绿色生活的实践还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě lǜ sè shēng huó de shí jiàn hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化垃圾分类的意义都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà lā jī fēn lèi de yì yì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化垃圾分类的意义都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà lā jī fēn lèi de yì yì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解自然资源的保护才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě zì rán zī yuán de bǎo hù cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解自然资源的保护才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě zì rán zī yuán de bǎo hù cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析环境责任的承担。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī huán jìng zé rèn de chéng dān。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析环境责任的承担。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī huán jìng zé rèn de chéng dān。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明节能措施的效果。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng jié néng cuò shī de xiào guǒ。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明节能措施的效果。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng jié néng cuò shī de xiào guǒ。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

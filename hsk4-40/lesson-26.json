@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第26课 在中国餐厅点菜",
-  "description": "中越生活与工作情境原创拓展练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "中越生活与工作情境原创拓展练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“餐厅”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bān tīng",
-        "B": "chān tīng",
-        "C": "cāng tīng",
-        "D": "cān tīng"
+        "A": "cān tīng",
+        "B": "cāng tīng",
+        "C": "bān tīng",
+        "D": "chān tīng"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“餐厅”的正确读音是 cān tīng。"
+      "explanation": "“餐厅”读作 cān tīng。注意声母、韵母、声调及轻声。",
+      "targetWord": "餐厅"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“订座”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dìng zhuò",
-        "B": "dìng zuò",
-        "C": "bìng zuò",
-        "D": "dìn zuò"
+        "A": "bìng zuò",
+        "B": "dìn zuò",
+        "C": "dìng zuò",
+        "D": "dìng zhuò"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“订座”的正确读音是 dìng zuò。"
+      "explanation": "“订座”读作 dìng zuò。注意声母、韵母、声调及轻声。",
+      "targetWord": "订座"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“菜单”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cài dāng",
-        "B": "cèi dān",
-        "C": "cài dān",
-        "D": "chài dān"
+        "A": "chài dān",
+        "B": "cài dān",
+        "C": "cài dāng",
+        "D": "cèi dān"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“菜单”的正确读音是 cài dān。"
+      "explanation": "“菜单”读作 cài dān。注意声母、韵母、声调及轻声。",
+      "targetWord": "菜单"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“服务员”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "fú wù yuán",
-        "B": "bú wù yuán",
+        "B": "hú wù yuán",
         "C": "cú wù yuán",
-        "D": "hú wù yuán"
+        "D": "bú wù yuán"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“服务员”的正确读音是 fú wù yuán。"
+      "explanation": "“服务员”读作 fú wù yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "服务员"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“顾客”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gù kè",
-        "B": "bù kè",
+        "A": "bù kè",
+        "B": "dù kè",
         "C": "cù kè",
-        "D": "dù kè"
+        "D": "gù kè"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“顾客”的正确读音是 gù kè。"
+      "explanation": "“顾客”读作 gù kè。注意声母、韵母、声调及轻声。",
+      "targetWord": "顾客"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“主食”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zhǔ sí",
         "B": "zǔ shí",
-        "C": "zhǔ shí",
-        "D": "chǔ shí"
+        "C": "chǔ shí",
+        "D": "zhǔ shí"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“主食”的正确读音是 zhǔ shí。"
+      "explanation": "“主食”读作 zhǔ shí。注意声母、韵母、声调及轻声。",
+      "targetWord": "主食"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“饮料”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǐn niào",
-        "B": "yǐn liào",
+        "A": "bǐn liào",
+        "B": "yǐn niào",
         "C": "yǐng liào",
-        "D": "bǐn liào"
+        "D": "yǐn liào"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“饮料”的正确读音是 yǐn liào。"
+      "explanation": "“饮料”读作 yǐn liào。注意声母、韵母、声调及轻声。",
+      "targetWord": "饮料"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“口味”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cǒu wèi",
-        "B": "kǎo wèi",
-        "C": "kǒu wèi",
+        "A": "kǎo wèi",
+        "B": "kǒu wèi",
+        "C": "cǒu wèi",
         "D": "kǒu wài"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“口味”的正确读音是 kǒu wèi。"
+      "explanation": "“口味”读作 kǒu wèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "口味"
     },
     {
       "id": 9,
@@ -161,7 +169,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“招牌菜”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zhāo pái cài",
         "B": "zhōu pái cài",
@@ -172,7 +180,8 @@
         "A"
       ],
       "points": 2,
-      "explanation": "“招牌菜”的正确读音是 zhāo pái cài。"
+      "explanation": "“招牌菜”读作 zhāo pái cài。注意声母、韵母、声调及轻声。",
+      "targetWord": "招牌菜"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“分量”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fèn liàng",
+        "A": "fèn liàn",
         "B": "fèn niàng",
         "C": "hèn liàng",
-        "D": "fèn liàn"
+        "D": "fèn liàng"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“分量”的正确读音是 fèn liàng。"
+      "explanation": "“分量”读作 fèn liàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "分量"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“筷子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kuài zi",
-        "B": "kuài zhi",
-        "C": "huài zi",
-        "D": "guài zi"
+        "A": "kuài zhi",
+        "B": "guài zi",
+        "C": "kuài zi",
+        "D": "huài zi"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“筷子”的正确读音是 kuài zi。"
+      "explanation": "“筷子”读作 kuài zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "筷子"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“勺子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sháo zi",
-        "B": "shóu zi",
-        "C": "sháo zhi",
-        "D": "cháo zi"
+        "A": "shóu zi",
+        "B": "cháo zi",
+        "C": "sháo zi",
+        "D": "sháo zhi"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“勺子”的正确读音是 sháo zi。"
+      "explanation": "“勺子”读作 sháo zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "勺子"
     },
     {
       "id": 13,
@@ -237,7 +249,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“账单”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zàng dān",
         "B": "zhàng dān",
@@ -248,7 +260,8 @@
         "B"
       ],
       "points": 2,
-      "explanation": "“账单”的正确读音是 zhàng dān。"
+      "explanation": "“账单”读作 zhàng dān。注意声母、韵母、声调及轻声。",
+      "targetWord": "账单"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“结账”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jié zhàng",
-        "B": "qié zhàng",
-        "C": "jié zàng",
+        "A": "qié zhàng",
+        "B": "jié zàng",
+        "C": "jié zhàng",
         "D": "jié zhàn"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“结账”的正确读音是 jié zhàng。"
+      "explanation": "“结账”读作 jié zhàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "结账"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“发票”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hā piào",
-        "B": "cā piào",
-        "C": "fā piào",
+        "A": "cā piào",
+        "B": "fā piào",
+        "C": "hā piào",
         "D": "bā piào"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“发票”的正确读音是 fā piào。"
+      "explanation": "“发票”读作 fā piào。注意声母、韵母、声调及轻声。",
+      "targetWord": "发票"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“预订”（đặt trước）。完整句子：周末客人很多，我们最好提前预订座位。"
+      "explanation": "应填“预订”（đặt trước）。完整句子：周末客人很多，我们最好提前预订座位。",
+      "targetWord": "预订",
+      "completeSentence": "周末客人很多，我们最好提前预订座位。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“靠窗”（gần cửa sổ）。完整句子：请问还有靠窗的位置吗？我想看看外面的风景。"
+      "explanation": "应填“靠窗”（gần cửa sổ）。完整句子：请问还有靠窗的位置吗？我想看看外面的风景。",
+      "targetWord": "靠窗",
+      "completeSentence": "请问还有靠窗的位置吗？我想看看外面的风景。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“推荐”（giới thiệu）。完整句子：第一次来这里，你能推荐两道特色菜吗？"
+      "explanation": "应填“推荐”（giới thiệu）。完整句子：第一次来这里，你能推荐两道特色菜吗？",
+      "targetWord": "推荐",
+      "completeSentence": "第一次来这里，你能推荐两道特色菜吗？"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“清淡”（thanh đạm）。完整句子：最近胃不舒服，我想吃得清淡一点。"
+      "explanation": "应填“清淡”（thanh đạm）。完整句子：最近胃不舒服，我想吃得清淡一点。",
+      "targetWord": "清淡",
+      "completeSentence": "最近胃不舒服，我想吃得清淡一点。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“过敏”（dị ứng）。完整句子：我吃花生会过敏，请不要在菜里放花生。"
+      "explanation": "应填“过敏”（dị ứng）。完整句子：我吃花生会过敏，请不要在菜里放花生。",
+      "targetWord": "过敏",
+      "completeSentence": "我吃花生会过敏，请不要在菜里放花生。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“忌口”（kiêng ăn）。完整句子：请问大家有什么忌口，我点菜时好注意。"
+      "explanation": "应填“忌口”（kiêng ăn）。完整句子：请问大家有什么忌口，我点菜时好注意。",
+      "targetWord": "忌口",
+      "completeSentence": "请问大家有什么忌口，我点菜时好注意。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“加”（thêm）。完整句子：这道菜有点淡，可以再加一点盐吗？"
+      "explanation": "应填“加”（thêm）。完整句子：这道菜有点淡，可以再加一点盐吗？",
+      "targetWord": "加",
+      "completeSentence": "这道菜有点淡，可以再加一点盐吗？"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“够”（đủ）。完整句子：我们一共四个人，这些菜够吃吗？"
+      "explanation": "应填“够”（đủ）。完整句子：我们一共四个人，这些菜够吃吗？",
+      "targetWord": "够",
+      "completeSentence": "我们一共四个人，这些菜够吃吗？"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“打包”（gói mang về）。完整句子：吃不完的菜，请帮我们打包带走。"
+      "explanation": "应填“打包”（gói mang về）。完整句子：吃不完的菜，请帮我们打包带走。",
+      "targetWord": "打包",
+      "completeSentence": "吃不完的菜，请帮我们打包带走。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“现金”（tiền mặt）。完整句子：我的手机没电了，可以用现金付款吗？"
+      "explanation": "应填“现金”（tiền mặt）。完整句子：我的手机没电了，可以用现金付款吗？",
+      "targetWord": "现金",
+      "completeSentence": "我的手机没电了，可以用现金付款吗？"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“扫码”（quét mã）。完整句子：服务员说，用手机扫码就可以看到电子菜单。"
+      "explanation": "应填“扫码”（quét mã）。完整句子：服务员说，用手机扫码就可以看到电子菜单。",
+      "targetWord": "扫码",
+      "completeSentence": "服务员说，用手机扫码就可以看到电子菜单。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“核对”（đối chiếu）。完整句子：付款以前，我想先核对一下账单上的菜名。"
+      "explanation": "应填“核对”（đối chiếu）。完整句子：付款以前，我想先核对一下账单上的菜名。",
+      "targetWord": "核对",
+      "completeSentence": "付款以前，我想先核对一下账单上的菜名。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“少”（ít, thiếu）。完整句子：我们点了四碗饭，现在还少一碗。"
+      "explanation": "应填“少”（ít, thiếu）。完整句子：我们点了四碗饭，现在还少一碗。",
+      "targetWord": "少",
+      "completeSentence": "我们点了四碗饭，现在还少一碗。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“等待”（chờ）。完整句子：这道菜需要等待大约二十分钟才能做好。"
+      "explanation": "应填“等待”（chờ）。完整句子：这道菜需要等待大约二十分钟才能做好。",
+      "targetWord": "等待",
+      "completeSentence": "这道菜需要等待大约二十分钟才能做好。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“分开”（tách riêng）。完整句子：这两桌的账单请分开计算，不要合在一起。"
+      "explanation": "应填“分开”（tách riêng）。完整句子：这两桌的账单请分开计算，不要合在一起。",
+      "targetWord": "分开",
+      "completeSentence": "这两桌的账单请分开计算，不要合在一起。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "我们已经提前预订了六个人的座位请帮忙查一下名字."
       ],
       "points": 2,
-      "explanation": "参考句子：我们已经提前预订了六个人的座位请帮忙查一下名字。\nwǒ men yǐ jīng tí qián yù dìng le liù gè rén de zuò wèi qǐng bāng máng chá yī xià míng zì 。",
-      "hanziCount": 23
+      "explanation": "参考句子：我们已经提前预订了六个人的座位请帮忙查一下名字。\nwǒ men yǐ jīng tí qián yù dìng le liù gè rén de zuò wèi qǐng bāng máng chá yī xià míng zì 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 23,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "因为其中一位朋友对花生过敏所以这几道菜都不能放花生."
       ],
       "points": 2,
-      "explanation": "参考句子：因为其中一位朋友对花生过敏所以这几道菜都不能放花生。\nyīn wèi qí zhōng yī wèi péng you duì huā shēng guò mǐn suǒ yǐ zhè jǐ dào cài dōu bù néng fàng huā shēng 。",
-      "hanziCount": 25
+      "explanation": "参考句子：因为其中一位朋友对花生过敏所以这几道菜都不能放花生。\nyīn wèi qí zhōng yī wèi péng you duì huā shēng guò mǐn suǒ yǐ zhè jǐ dào cài dōu bù néng fàng huā shēng 。\n语法与搭配：因为……所以……：因果关系",
+      "hanziCount": 25,
+      "grammarFocus": "因为……所以……：因果关系"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "如果分量不够我们可以等大家吃完以后再加两道菜."
       ],
       "points": 2,
-      "explanation": "参考句子：如果分量不够我们可以等大家吃完以后再加两道菜。\nrú guǒ fèn liàng bù gòu wǒ men kě yǐ děng dà jiā chī wán yǐ hòu zài jiā liǎng dào cài 。",
-      "hanziCount": 22
+      "explanation": "参考句子：如果分量不够我们可以等大家吃完以后再加两道菜。\nrú guǒ fèn liàng bù gòu wǒ men kě yǐ děng dà jiā chī wán yǐ hòu zài jiā liǎng dào cài 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 22,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "结账之前请先让我们核对一下账单上的菜品和价格."
       ],
       "points": 2,
-      "explanation": "参考句子：结账之前请先让我们核对一下账单上的菜品和价格。\njié zhàng zhī qián qǐng xiān ràng wǒ men hé duì yī xià zhàng dān shàng de cài pǐn hé jià gé 。",
-      "hanziCount": 22
+      "explanation": "参考句子：结账之前请先让我们核对一下账单上的菜品和价格。\njié zhàng zhī qián qǐng xiān ràng wǒ men hé duì yī xià zhàng dān shàng de cài pǐn hé jià gé 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "吃不完的菜不要浪费我们可以请服务员帮忙打包带走."
       ],
       "points": 2,
-      "explanation": "参考句子：吃不完的菜不要浪费我们可以请服务员帮忙打包带走。\nchī bù wán de cài bú yào làng fèi wǒ men kě yǐ qǐng fú wù yuán bāng máng dǎ bāo dài zǒu 。",
-      "hanziCount": 23
+      "explanation": "参考句子：吃不完的菜不要浪费我们可以请服务员帮忙打包带走。\nchī bù wán de cài bú yào làng fèi wǒ men kě yǐ qǐng fú wù yuán bāng máng dǎ bāo dài zǒu 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 23,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "他在报告中详细介绍了提前预订餐厅的方法."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了提前预订餐厅的方法。\ntā zài bào gào zhōng xiáng xì jiè shào le tí qián yù dìng cān tīng de fāng fǎ 。",
-      "hanziCount": 19
+      "explanation": "参考句子：他在报告中详细介绍了提前预订餐厅的方法。\ntā zài bào gào zhōng xiáng xì jiè shào le tí qián yù dìng cān tīng de fāng fǎ 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 19,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "请大家先讨论一下点菜时说明口味的方式."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下点菜时说明口味的方式。\nqǐng dà jiā xiān tǎo lùn yī xià diǎn cài shí shuō míng kǒu wèi de fāng shì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请大家先讨论一下点菜时说明口味的方式。\nqǐng dà jiā xiān tǎo lùn yī xià diǎn cài shí shuō míng kǒu wèi de fāng shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "我想请老师进一步解释表达食物过敏的句子."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释表达食物过敏的句子。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì biǎo dá shí wù guò mǐn de jù zi 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我想请老师进一步解释表达食物过敏的句子。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì biǎo dá shí wù guò mǐn de jù zi 。\n语法与搭配：动词＋过：经历表达",
+      "hanziCount": 19,
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "同学们正在一起讨论根据人数决定菜的分量."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论根据人数决定菜的分量。\ntóng xué men zhèng zài yì qǐ tǎo lùn gēn jù rén shù jué dìng cài de fèn liàng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：同学们正在一起讨论根据人数决定菜的分量。\ntóng xué men zhèng zài yì qǐ tǎo lùn gēn jù rén shù jué dìng cài de fèn liàng 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 19,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "老师请我们认真讨论询问特色菜的常用表达."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论询问特色菜的常用表达。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn xún wèn tè sè cài de cháng yòng biǎo dá 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师请我们认真讨论询问特色菜的常用表达。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn xún wèn tè sè cài de cháng yòng biǎo dá 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "我们应该提前了解核对账单时的注意事项."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解核对账单时的注意事项。\nwǒ men yīng gāi tí qián liǎo jiě hé duì zhàng dān shí de zhù yì shì xiàng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们应该提前了解核对账单时的注意事项。\nwǒ men yīng gāi tí qián liǎo jiě hé duì zhàng dān shí de zhù yì shì xiàng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "大家可以一起讨论处理上错菜时的办法."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论处理上错菜时的办法。\ndà jiā kě yǐ yì qǐ tǎo lùn chǔ lǐ shàng cuò cài shí de bàn fǎ 。",
-      "hanziCount": 17
+      "explanation": "参考句子：大家可以一起讨论处理上错菜时的办法。\ndà jiā kě yǐ yì qǐ tǎo lùn chǔ lǐ shàng cuò cài shí de bàn fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "我已经认真考虑过手机点菜的操作步骤."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过手机点菜的操作步骤。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò shǒu jī diǎn cài de cāo zuò bù zhòu 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我已经认真考虑过手机点菜的操作步骤。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò shǒu jī diǎn cài de cāo zuò bù zhòu 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 17,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "这篇文章主要介绍了打包剩余食物的理由."
       ],
       "points": 2,
-      "explanation": "参考句子：这篇文章主要介绍了打包剩余食物的理由。\nzhè piān wén zhāng zhǔ yào jiè shào le dǎ bāo shèng yú shí wù de lǐ yóu 。",
-      "hanziCount": 18
+      "explanation": "参考句子：这篇文章主要介绍了打包剩余食物的理由。\nzhè piān wén zhāng zhǔ yào jiè shào le dǎ bāo shèng yú shí wù de lǐ yóu 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "请结合例子具体说明付款方式的不同选择."
       ],
       "points": 2,
-      "explanation": "参考句子：请结合例子具体说明付款方式的不同选择。\nqǐng jié hé lì zi jù tǐ shuō míng fù kuǎn fāng shì de bù tóng xuǎn zé 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请结合例子具体说明付款方式的不同选择。\nqǐng jié hé lì zi jù tǐ shuō míng fù kuǎn fāng shì de bù tóng xuǎn zé 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "我们还没有讨论清楚如何向服务员提出合理要求."
       ],
       "points": 2,
-      "explanation": "参考句子：我们还没有讨论清楚如何向服务员提出合理要求。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ rú hé xiàng fú wù yuán tí chū hé lǐ yāo qiú 。",
-      "hanziCount": 21
+      "explanation": "参考句子：我们还没有讨论清楚如何向服务员提出合理要求。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ rú hé xiàng fú wù yuán tí chū hé lǐ yāo qiú 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 21,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "大家都需要认真了解等待上菜时的礼貌表达."
       ],
       "points": 2,
-      "explanation": "参考句子：大家都需要认真了解等待上菜时的礼貌表达。\ndà jiā dōu xū yào rèn zhēn liǎo jiě děng dài shàng cài shí de lǐ mào biǎo dá 。",
-      "hanziCount": 19
+      "explanation": "参考句子：大家都需要认真了解等待上菜时的礼貌表达。\ndà jiā dōu xū yào rèn zhēn liǎo jiě děng dài shàng cài shí de lǐ mào biǎo dá 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "这次活动让我们重新思考用餐过程中发现的问题."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考用餐过程中发现的问题。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo yòng cān guò chéng zhōng fā xiàn de wèn tí 。",
-      "hanziCount": 21
+      "explanation": "参考句子：这次活动让我们重新思考用餐过程中发现的问题。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo yòng cān guò chéng zhōng fā xiàn de wèn tí 。\n语法与搭配：动词＋过：经历表达",
+      "hanziCount": 21,
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "老师希望大家认真分析安排朋友聚餐的准备."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析安排朋友聚餐的准备。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī ān pái péng you jù cān de zhǔn bèi 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析安排朋友聚餐的准备。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī ān pái péng you jù cān de zhǔn bèi 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "我们有必要深入了解中越餐厅服务的差异."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解中越餐厅服务的差异。\nwǒ men yǒu bì yào shēn rù liǎo jiě zhōng yuè cān tīng fú wù de chā yì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们有必要深入了解中越餐厅服务的差异。\nwǒ men yǒu bì yào shēn rù liǎo jiě zhōng yuè cān tīng fú wù de chā yì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

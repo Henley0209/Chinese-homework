@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第15课 教育孩子的艺术",
-  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》下册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“教育”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biào yù",
-        "B": "jiào yù",
+        "A": "diào yù",
+        "B": "biào yù",
         "C": "qiào yù",
-        "D": "diào yù"
+        "D": "jiào yù"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“教育”的正确读音是 jiào yù。"
+      "explanation": "“教育”读作 jiào yù。注意声母、韵母、声调及轻声。",
+      "targetWord": "教育"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“孩子”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hái zi",
-        "B": "bái zi",
-        "C": "chái zi",
-        "D": "hái zhi"
+        "A": "chái zi",
+        "B": "hái zhi",
+        "C": "bái zi",
+        "D": "hái zi"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“孩子”的正确读音是 hái zi。"
+      "explanation": "“孩子”读作 hái zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "孩子"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“父母”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hù mǔ",
-        "B": "bù mǔ",
-        "C": "cù mǔ",
-        "D": "fù mǔ"
+        "A": "fù mǔ",
+        "B": "cù mǔ",
+        "C": "bù mǔ",
+        "D": "hù mǔ"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“父母”的正确读音是 fù mǔ。"
+      "explanation": "“父母”读作 fù mǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "父母"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“性格”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "xìng gé",
-        "B": "qìng gé",
-        "C": "bìng gé",
-        "D": "xìn gé"
+        "B": "xìn gé",
+        "C": "qìng gé",
+        "D": "bìng gé"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“性格”的正确读音是 xìng gé。"
+      "explanation": "“性格”读作 xìng gé。注意声母、韵母、声调及轻声。",
+      "targetWord": "性格"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“成长”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chéng zhǎn",
+        "A": "chéng zǎng",
         "B": "céng zhǎng",
         "C": "chéng zhǎng",
-        "D": "chéng zǎng"
+        "D": "chéng zhǎn"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“成长”的正确读音是 chéng zhǎng。"
+      "explanation": "“成长”读作 chéng zhǎng。注意声母、韵母、声调及轻声。",
+      "targetWord": "成长"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“批评”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pī píng",
-        "B": "cī píng",
-        "C": "bī píng",
+        "A": "cī píng",
+        "B": "bī píng",
+        "C": "pī píng",
         "D": "pī pín"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“批评”的正确读音是 pī píng。"
+      "explanation": "“批评”读作 pī píng。注意声母、韵母、声调及轻声。",
+      "targetWord": "批评"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“表扬”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biǎn yáng",
-        "B": "biǎo yáng",
-        "C": "biǎo yán",
-        "D": "bǎo yáng"
+        "A": "biǎo yáng",
+        "B": "biǎo yán",
+        "C": "bǎo yáng",
+        "D": "biǎn yáng"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“表扬”的正确读音是 biǎo yáng。"
+      "explanation": "“表扬”读作 biǎo yáng。注意声母、韵母、声调及轻声。",
+      "targetWord": "表扬"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“鼓励”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cǔ lì",
+        "A": "gǔ nì",
         "B": "bǔ lì",
-        "C": "gǔ nì",
-        "D": "gǔ lì"
+        "C": "gǔ lì",
+        "D": "cǔ lì"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“鼓励”的正确读音是 gǔ lì。"
+      "explanation": "“鼓励”读作 gǔ lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "鼓励"
     },
     {
       "id": 9,
@@ -161,18 +169,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“尊重”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cūn zhòng",
+        "A": "zūn zhòng",
         "B": "zhūn zhòng",
-        "C": "zūn zhòng",
+        "C": "cūn zhòng",
         "D": "zūn zòng"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“尊重”的正确读音是 zūn zhòng。"
+      "explanation": "“尊重”读作 zūn zhòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "尊重"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“耐心”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "nài xīng",
-        "B": "nài qīn",
+        "A": "nài xīn",
+        "B": "nài xīng",
         "C": "lài xīn",
-        "D": "nài xīn"
+        "D": "nài qīn"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“耐心”的正确读音是 nài xīn。"
+      "explanation": "“耐心”读作 nài xīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "耐心"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“独立”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dú nì",
-        "B": "bú lì",
-        "C": "cú lì",
-        "D": "dú lì"
+        "A": "cú lì",
+        "B": "dú lì",
+        "C": "bú lì",
+        "D": "dú nì"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“独立”的正确读音是 dú lì。"
+      "explanation": "“独立”读作 dú lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "独立"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“兴趣”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qìng qù",
+        "A": "xìng jù",
         "B": "xìng qù",
-        "C": "xìng jù",
-        "D": "xìng xù"
+        "C": "xìng xù",
+        "D": "qìng qù"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“兴趣”的正确读音是 xìng qù。"
+      "explanation": "“兴趣”读作 xìng qù。注意声母、韵母、声调及轻声。",
+      "targetWord": "兴趣"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“交流”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiāo liú",
-        "B": "jiāo niú",
-        "C": "biāo liú",
-        "D": "qiāo liú"
+        "A": "qiāo liú",
+        "B": "biāo liú",
+        "C": "jiāo niú",
+        "D": "jiāo liú"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“交流”的正确读音是 jiāo liú。"
+      "explanation": "“交流”读作 jiāo liú。注意声母、韵母、声调及轻声。",
+      "targetWord": "交流"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“榜样”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǎng yàng",
-        "B": "běng yàng",
-        "C": "bǎng yàn",
-        "D": "bǎn yàng"
+        "A": "běng yàng",
+        "B": "bǎng yàng",
+        "C": "bǎn yàng",
+        "D": "bǎng yàn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“榜样”的正确读音是 bǎng yàng。"
+      "explanation": "“榜样”读作 bǎng yàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "榜样"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“引导”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǐn dǎo",
-        "B": "yǐn dǒu",
-        "C": "yǐng dǎo",
-        "D": "bǐn dǎo"
+        "A": "bǐn dǎo",
+        "B": "yǐng dǎo",
+        "C": "yǐn dǒu",
+        "D": "yǐn dǎo"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“引导”的正确读音是 yǐn dǎo。"
+      "explanation": "“引导”读作 yǐn dǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "引导"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“理解”（thấu hiểu）。完整句子：父母应该努力理解孩子的真实想法。"
+      "explanation": "应填“理解”（thấu hiểu）。完整句子：父母应该努力理解孩子的真实想法。",
+      "targetWord": "理解",
+      "completeSentence": "父母应该努力理解孩子的真实想法。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“要求”（yêu cầu）。完整句子：对孩子的要求不能太高，要考虑实际能力。"
+      "explanation": "应填“要求”（yêu cầu）。完整句子：对孩子的要求不能太高，要考虑实际能力。",
+      "targetWord": "要求",
+      "completeSentence": "对孩子的要求不能太高，要考虑实际能力。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“允许”（cho phép）。完整句子：周末，妈妈允许孩子自己安排读书时间。"
+      "explanation": "应填“允许”（cho phép）。完整句子：周末，妈妈允许孩子自己安排读书时间。",
+      "targetWord": "允许",
+      "completeSentence": "周末，妈妈允许孩子自己安排读书时间。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“选择”（lựa chọn）。完整句子：让孩子学会选择，也是教育的一部分。"
+      "explanation": "应填“选择”（lựa chọn）。完整句子：让孩子学会选择，也是教育的一部分。",
+      "targetWord": "选择",
+      "completeSentence": "让孩子学会选择，也是教育的一部分。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“责任”（trách nhiệm）。完整句子：做家务能帮助孩子培养责任感。"
+      "explanation": "应填“责任”（trách nhiệm）。完整句子：做家务能帮助孩子培养责任感。",
+      "targetWord": "责任",
+      "completeSentence": "做家务能帮助孩子培养责任感。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“信心”（sự tự tin）。完整句子：家长适当的肯定能增强孩子的信心。"
+      "explanation": "应填“信心”（sự tự tin）。完整句子：家长适当的肯定能增强孩子的信心。",
+      "targetWord": "信心",
+      "completeSentence": "家长适当的肯定能增强孩子的信心。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“比较”（so sánh）。完整句子：不要总拿自己的孩子和别人的孩子比较。"
+      "explanation": "应填“比较”（so sánh）。完整句子：不要总拿自己的孩子和别人的孩子比较。",
+      "targetWord": "比较",
+      "completeSentence": "不要总拿自己的孩子和别人的孩子比较。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“错误”（lỗi sai）。完整句子：孩子犯了错误以后，应该教他怎样改正。"
+      "explanation": "应填“错误”（lỗi sai）。完整句子：孩子犯了错误以后，应该教他怎样改正。",
+      "targetWord": "错误",
+      "completeSentence": "孩子犯了错误以后，应该教他怎样改正。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“主动”（chủ động）。完整句子：受到鼓励后，他开始主动回答老师的问题。"
+      "explanation": "应填“主动”（chủ động）。完整句子：受到鼓励后，他开始主动回答老师的问题。",
+      "targetWord": "主动",
+      "completeSentence": "受到鼓励后，他开始主动回答老师的问题。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“习惯”（thói quen）。完整句子：从小养成整理房间的习惯，对生活有帮助。"
+      "explanation": "应填“习惯”（thói quen）。完整句子：从小养成整理房间的习惯，对生活有帮助。",
+      "targetWord": "习惯",
+      "completeSentence": "从小养成整理房间的习惯，对生活有帮助。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“方法”（phương pháp）。完整句子：同一种教育方法不一定适合所有孩子。"
+      "explanation": "应填“方法”（phương pháp）。完整句子：同一种教育方法不一定适合所有孩子。",
+      "targetWord": "方法",
+      "completeSentence": "同一种教育方法不一定适合所有孩子。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“意见”（ý kiến）。完整句子：做家庭决定时，也可以听听孩子的意见。"
+      "explanation": "应填“意见”（ý kiến）。完整句子：做家庭决定时，也可以听听孩子的意见。",
+      "targetWord": "意见",
+      "completeSentence": "做家庭决定时，也可以听听孩子的意见。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“压力”（áp lực）。完整句子：过多的课外班可能给孩子带来压力。"
+      "explanation": "应填“压力”（áp lực）。完整句子：过多的课外班可能给孩子带来压力。",
+      "targetWord": "压力",
+      "completeSentence": "过多的课外班可能给孩子带来压力。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“关心”（quan tâm）。完整句子：父母不仅要关心成绩，还要了解孩子的心情。"
+      "explanation": "应填“关心”（quan tâm）。完整句子：父母不仅要关心成绩，还要了解孩子的心情。",
+      "targetWord": "关心",
+      "completeSentence": "父母不仅要关心成绩，还要了解孩子的心情。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“信任”（tin tưởng）。完整句子：父母的信任让她敢于独自完成新的任务。"
+      "explanation": "应填“信任”（tin tưởng）。完整句子：父母的信任让她敢于独自完成新的任务。",
+      "targetWord": "信任",
+      "completeSentence": "父母的信任让她敢于独自完成新的任务。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "父母应该先认真听孩子解释然后再决定怎样处理问题."
       ],
       "points": 2,
-      "explanation": "参考句子：父母应该先认真听孩子解释然后再决定怎样处理问题。\nfù mǔ yīng gāi xiān rèn zhēn tīng hái zi jiě shì rán hòu zài jué dìng zěn yàng chǔ lǐ wèn tí 。",
-      "hanziCount": 23
+      "explanation": "参考句子：父母应该先认真听孩子解释然后再决定怎样处理问题。\nfù mǔ yīng gāi xiān rèn zhēn tīng hái zi jiě shì rán hòu zài jué dìng zěn yàng chǔ lǐ wèn tí 。\n语法与搭配：先……再……：动作先后顺序",
+      "hanziCount": 23,
+      "grammarFocus": "先……再……：动作先后顺序"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "如果只关注孩子的考试成绩就可能忽略他们的真实感受."
       ],
       "points": 2,
-      "explanation": "参考句子：如果只关注孩子的考试成绩就可能忽略他们的真实感受。\nrú guǒ zhǐ guān zhù hái zi de kǎo shì chéng jì jiù kě néng hū lüè tā men de zhēn shí gǎn shòu 。",
-      "hanziCount": 24
+      "explanation": "参考句子：如果只关注孩子的考试成绩就可能忽略他们的真实感受。\nrú guǒ zhǐ guān zhù hái zi de kǎo shì chéng jì jiù kě néng hū lüè tā men de zhēn shí gǎn shòu 。\n语法与搭配：如果……就……：假设条件",
+      "hanziCount": 24,
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "比起不断地批评孩子适当的鼓励往往会产生更好的效果."
       ],
       "points": 2,
-      "explanation": "参考句子：比起不断地批评孩子适当的鼓励往往会产生更好的效果。\nbǐ qǐ bù duàn dì pī píng hái zi shì dàng de gǔ lì wǎng wǎng huì chǎn shēng gèng hǎo de xiào guǒ 。",
-      "hanziCount": 24
+      "explanation": "参考句子：比起不断地批评孩子适当的鼓励往往会产生更好的效果。\nbǐ qǐ bù duàn dì pī píng hái zi shì dàng de gǔ lì wǎng wǎng huì chǎn shēng gèng hǎo de xiào guǒ 。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "hanziCount": 24,
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "让孩子学会独立思考比替他们决定一切更加重要."
       ],
       "points": 2,
-      "explanation": "参考句子：让孩子学会独立思考比替他们决定一切更加重要。\nràng hái zi xué huì dú lì sī kǎo bǐ tì tā men jué dìng yī qiè gèng jiā zhòng yào 。",
-      "hanziCount": 21
+      "explanation": "参考句子：让孩子学会独立思考比替他们决定一切更加重要。\nràng hái zi xué huì dú lì sī kǎo bǐ tì tā men jué dìng yī qiè gèng jiā zhòng yào 。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "hanziCount": 21,
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "每个孩子都有自己的特点家长不能总是用同一标准要求他们."
       ],
       "points": 2,
-      "explanation": "参考句子：每个孩子都有自己的特点家长不能总是用同一标准要求他们。\nměi gè hái zi dōu yǒu zì jǐ de tè diǎn jiā zhǎng bù néng zǒng shì yòng tóng yī biāo zhǔn yāo qiú tā men 。",
-      "hanziCount": 26
+      "explanation": "参考句子：每个孩子都有自己的特点家长不能总是用同一标准要求他们。\nměi gè hái zi dōu yǒu zì jǐ de tè diǎn jiā zhǎng bù néng zǒng shì yòng tóng yī biāo zhǔn yāo qiú tā men 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 26,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "老师请我们认真讨论父母与孩子沟通的方法."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论父母与孩子沟通的方法。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn fù mǔ yǔ hái zi gōu tōng de fāng fǎ 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师请我们认真讨论父母与孩子沟通的方法。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn fù mǔ yǔ hái zi gōu tōng de fāng fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "我们应该提前了解鼓励对孩子成长的作用."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解鼓励对孩子成长的作用。\nwǒ men yīng gāi tí qián liǎo jiě gǔ lì duì hái zi chéng zhǎng de zuò yòng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们应该提前了解鼓励对孩子成长的作用。\nwǒ men yīng gāi tí qián liǎo jiě gǔ lì duì hái zi chéng zhǎng de zuò yòng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "大家可以一起讨论批评孩子时应有的态度."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论批评孩子时应有的态度。\ndà jiā kě yǐ yì qǐ tǎo lùn pī píng hái zi shí yīng yǒu de tài dù 。",
-      "hanziCount": 18
+      "explanation": "参考句子：大家可以一起讨论批评孩子时应有的态度。\ndà jiā kě yǐ yì qǐ tǎo lùn pī píng hái zi shí yīng yǒu de tài dù 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "我已经认真考虑过培养独立能力的方式."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过培养独立能力的方式。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò péi yǎng dú lì néng lì de fāng shì 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我已经认真考虑过培养独立能力的方式。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò péi yǎng dú lì néng lì de fāng shì 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 17,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "这篇文章主要介绍了考试成绩以外的进步."
       ],
       "points": 2,
-      "explanation": "参考句子：这篇文章主要介绍了考试成绩以外的进步。\nzhè piān wén zhāng zhǔ yào jiè shào le kǎo shì chéng jì yǐ wài de jìn bù 。",
-      "hanziCount": 18
+      "explanation": "参考句子：这篇文章主要介绍了考试成绩以外的进步。\nzhè piān wén zhāng zhǔ yào jiè shào le kǎo shì chéng jì yǐ wài de jìn bù 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "请结合例子具体说明尊重孩子兴趣的重要性."
       ],
       "points": 2,
-      "explanation": "参考句子：请结合例子具体说明尊重孩子兴趣的重要性。\nqǐng jié hé lì zi jù tǐ shuō míng zūn zhòng hái zi xìng qù de zhòng yào xìng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：请结合例子具体说明尊重孩子兴趣的重要性。\nqǐng jié hé lì zi jù tǐ shuō míng zūn zhòng hái zi xìng qù de zhòng yào xìng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "我们还没有讨论清楚家长行为带来的影响."
       ],
       "points": 2,
-      "explanation": "参考句子：我们还没有讨论清楚家长行为带来的影响。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ jiā zhǎng xíng wéi dài lái de yǐng xiǎng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们还没有讨论清楚家长行为带来的影响。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ jiā zhǎng xíng wéi dài lái de yǐng xiǎng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "大家都需要认真了解合理安排课外活动."
       ],
       "points": 2,
-      "explanation": "参考句子：大家都需要认真了解合理安排课外活动。\ndà jiā dōu xū yào rèn zhēn liǎo jiě hé lǐ ān pái kè wài huó dòng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：大家都需要认真了解合理安排课外活动。\ndà jiā dōu xū yào rèn zhēn liǎo jiě hé lǐ ān pái kè wài huó dòng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "这次活动让我们重新思考孩子犯错后的处理方法."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考孩子犯错后的处理方法。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo hái zi fàn cuò hòu de chǔ lǐ fāng fǎ 。",
-      "hanziCount": 21
+      "explanation": "参考句子：这次活动让我们重新思考孩子犯错后的处理方法。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo hái zi fàn cuò hòu de chǔ lǐ fāng fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 21,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "老师希望大家认真分析家庭规则的制定过程."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析家庭规则的制定过程。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī jiā tíng guī zé de zhì dìng guò chéng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析家庭规则的制定过程。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī jiā tíng guī zé de zhì dìng guò chéng 。\n语法与搭配：动词＋过：经历表达",
+      "hanziCount": 19,
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "我们有必要深入了解不同孩子的性格特点."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解不同孩子的性格特点。\nwǒ men yǒu bì yào shēn rù liǎo jiě bù tóng hái zi de xìng gé tè diǎn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们有必要深入了解不同孩子的性格特点。\nwǒ men yǒu bì yào shēn rù liǎo jiě bù tóng hái zi de xìng gé tè diǎn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "他在报告中详细介绍了培养责任感的日常活动."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了培养责任感的日常活动。\ntā zài bào gào zhōng xiáng xì jiè shào le péi yǎng zé rèn gǎn de rì cháng huó dòng 。",
-      "hanziCount": 20
+      "explanation": "参考句子：他在报告中详细介绍了培养责任感的日常活动。\ntā zài bào gào zhōng xiáng xì jiè shào le péi yǎng zé rèn gǎn de rì cháng huó dòng 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 20,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "请大家先讨论一下父母期待与孩子压力."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下父母期待与孩子压力。\nqǐng dà jiā xiān tǎo lùn yī xià fù mǔ qī dài yǔ hái zi yā lì 。",
-      "hanziCount": 17
+      "explanation": "参考句子：请大家先讨论一下父母期待与孩子压力。\nqǐng dà jiā xiān tǎo lùn yī xià fù mǔ qī dài yǔ hái zi yā lì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "我想请老师进一步解释认真倾听孩子的想法."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释认真倾听孩子的想法。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì rèn zhēn qīng tīng hái zi de xiǎng fǎ 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我想请老师进一步解释认真倾听孩子的想法。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì rèn zhēn qīng tīng hái zi de xiǎng fǎ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "同学们正在一起讨论建立家庭信任的方法."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论建立家庭信任的方法。\ntóng xué men zhèng zài yì qǐ tǎo lùn jiàn lì jiā tíng xìn rèn de fāng fǎ 。",
-      "hanziCount": 18
+      "explanation": "参考句子：同学们正在一起讨论建立家庭信任的方法。\ntóng xué men zhèng zài yì qǐ tǎo lùn jiàn lì jiā tíng xìn rèn de fāng fǎ 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 18,
+      "grammarFocus": "正在＋动词：正在进行"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

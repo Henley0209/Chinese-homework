@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第13课 你的书在哪儿？",
-  "description": "Sách của bạn ở đâu?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Sách của bạn ở đâu?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“书”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "shū",
-        "B": "sū",
-        "C": "shuī",
-        "D": "shōu"
+        "B": "hū",
+        "C": "chū",
+        "D": "sū"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“书”的正确读音是 shū。"
+      "explanation": "“书”读作 shū。注意声母、韵母、声调及轻声。",
+      "targetWord": "书"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“笔”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǐ",
-        "B": "bǐn",
-        "C": "bǐng",
-        "D": "biě"
+        "A": "biě",
+        "B": "běi",
+        "C": "bǎ",
+        "D": "bǐ"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“笔”的正确读音是 bǐ。"
+      "explanation": "“笔”读作 bǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "笔"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“本子”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "běng zi",
-        "B": "běn zi",
-        "C": "běn zhi",
-        "D": "pěn zi"
+        "A": "běn zi",
+        "B": "běi zi",
+        "C": "běng zi",
+        "D": "běn zhi"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“本子”的正确读音是 běn zi。"
+      "explanation": "“本子”读作 běn zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "本子"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“书包”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sū bāo",
-        "B": "shuī bāo",
-        "C": "shū biāo",
-        "D": "shū bāo"
+        "A": "chū bāo",
+        "B": "sū bāo",
+        "C": "shū bāo",
+        "D": "hū bāo"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“书包”的正确读音是 shū bāo。"
+      "explanation": "“书包”读作 shū bāo。注意声母、韵母、声调及轻声。",
+      "targetWord": "书包"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“桌子”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhuō zhi",
+        "A": "zuō zi",
         "B": "zhuō zi",
-        "C": "zuō zi",
-        "D": "zhōu zi"
+        "C": "chuō zi",
+        "D": "zhuō zhi"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“桌子”的正确读音是 zhuō zi。"
+      "explanation": "“桌子”读作 zhuō zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "桌子"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“椅子”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǐ zhi",
-        "B": "yǐ zi",
-        "C": "yǐn zi",
-        "D": "yǐng zi"
+        "A": "cǐ zi",
+        "B": "bǐ zi",
+        "C": "yǐ zhi",
+        "D": "yǐ zi"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“椅子”的正确读音是 yǐ zi。"
+      "explanation": "“椅子”读作 yǐ zi。注意声母、韵母、声调及轻声。",
+      "targetWord": "椅子"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“教室”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jiào sì",
-        "B": "jiù shì",
-        "C": "jià shì",
+        "A": "qiào shì",
+        "B": "jiào sì",
+        "C": "biào shì",
         "D": "jiào shì"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“教室”的正确读音是 jiào shì。"
+      "explanation": "“教室”读作 jiào shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "教室"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“上面”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "sàng miàn",
-        "B": "shàn miàn",
+        "B": "chàng miàn",
         "C": "shàng miàn",
-        "D": "shàng miè"
+        "D": "shàn miàn"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“上面”的正确读音是 shàng miàn。"
+      "explanation": "“上面”读作 shàng miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "上面"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“下面”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiào miàn",
+        "A": "qià miàn",
         "B": "xià miàn",
-        "C": "xià miè",
-        "D": "xiè miàn"
+        "C": "jià miàn",
+        "D": "xiàn miàn"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“下面”的正确读音是 xià miàn。"
+      "explanation": "“下面”读作 xià miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "下面"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“里面”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "nǐ miàn",
-        "B": "lǐ miàn",
-        "C": "lǐn miàn",
-        "D": "lǐ miè"
+        "B": "cǐ miàn",
+        "C": "bǐ miàn",
+        "D": "lǐ miàn"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“里面”的正确读音是 lǐ miàn。"
+      "explanation": "“里面”读作 lǐ miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "里面"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“外面”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wài miàn",
-        "B": "wèi miàn",
-        "C": "wài miè",
-        "D": "wàn miàn"
+        "A": "bài miàn",
+        "B": "cài miàn",
+        "C": "wèi miàn",
+        "D": "wài miàn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“外面”的正确读音是 wài miàn。"
+      "explanation": "“外面”读作 wài miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "外面"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“前面”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "qián miàn",
-        "B": "qiáng miàn",
-        "C": "qián miè",
-        "D": "qié miàn"
+        "B": "xián miàn",
+        "C": "qiáng miàn",
+        "D": "dián miàn"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“前面”的正确读音是 qián miàn。"
+      "explanation": "“前面”读作 qián miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "前面"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“后面”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "huò miàn",
-        "B": "hòu miàn",
+        "A": "hòu miàn",
+        "B": "chòu miàn",
         "C": "hào miàn",
-        "D": "fòu miàn"
+        "D": "còu miàn"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“后面”的正确读音是 hòu miàn。"
+      "explanation": "“后面”读作 hòu miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "后面"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“哪儿”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lǎ ér",
-        "B": "ně ér",
-        "C": "nǎ é",
-        "D": "nǎ ér"
+        "A": "nǎ ér",
+        "B": "bǎ ér",
+        "C": "lǎ ér",
+        "D": "cǎ ér"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“哪儿”的正确读音是 nǎ ér。"
+      "explanation": "“哪儿”读作 nǎ ér。注意声母、韵母、声调及轻声。",
+      "targetWord": "哪儿"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“本”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "běng",
-        "B": "pěn",
+        "B": "bǎn",
         "C": "běn",
-        "D": "měn"
+        "D": "běi"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“本”的正确读音是 běn。"
+      "explanation": "“本”读作 běn。注意声母、韵母、声调及轻声。",
+      "targetWord": "本"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这本____是我的。",
-      "pinyin": "zhè běn ____ shì wǒ de 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Quyển sách này là của tôi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：那本词典____老师的包里。",
+      "pinyin": "nà běn cí diǎn ____ lǎo shī de bāo lǐ 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
       "options": {
-        "A": "上面",
-        "B": "教室",
-        "C": "桌子",
-        "D": "书"
+        "A": "在",
+        "B": "从",
+        "C": "给",
+        "D": "比"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“书”。完整句子：这本书是我的。",
+      "explanation": "应填“在”。完整句子：那本词典在老师的包里。\n语法与搭配：在＋地点＋动词/名词",
       "optionPinyin": {
-        "A": "shàng miàn",
-        "B": "jiào shì",
-        "C": "zhuō zi",
-        "D": "shū"
-      }
+        "A": "zài",
+        "B": "cóng",
+        "C": "gěi",
+        "D": "bǐ"
+      },
+      "targetWord": "在",
+      "completeSentence": "那本词典在老师的包里。",
+      "grammarFocus": "在＋地点＋动词/名词"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我用____写字。",
-      "pinyin": "wǒ yòng ____ xiě zì 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi dùng bút để viết chữ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这____谁的铅笔？",
+      "pinyin": "zhè ____ shéi de qiān bǐ ？",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "本子",
-        "B": "笔",
-        "C": "本",
-        "D": "上面"
+        "A": "去",
+        "B": "有",
+        "C": "是",
+        "D": "在"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“笔”。完整句子：我用笔写字。",
+      "explanation": "应填“是”。完整句子：这是谁的铅笔？\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "běn zi",
-        "B": "bǐ",
-        "C": "běn",
-        "D": "shàng miàn"
-      }
+        "A": "qù",
+        "B": "yǒu",
+        "C": "shì",
+        "D": "zài"
+      },
+      "targetWord": "是",
+      "completeSentence": "这是谁的铅笔？",
+      "grammarFocus": "是＋名词：判断或说明身份"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的____在这里。",
-      "pinyin": "wǒ de ____ zài zhè lǐ 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Vở của tôi ở đây.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是小李____橡皮。",
+      "pinyin": "zhè shì xiǎo lǐ ____ xiàng pí 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "外面",
-        "B": "本子",
-        "C": "桌子",
-        "D": "里面"
+        "A": "吗",
+        "B": "的",
+        "C": "地",
+        "D": "得"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“本子”。完整句子：我的本子在这里。",
+      "explanation": "应填“的”。完整句子：这是小李的橡皮。\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "wài miàn",
-        "B": "běn zi",
-        "C": "zhuō zi",
-        "D": "lǐ miàn"
-      }
+        "A": "ma",
+        "B": "de",
+        "C": "dì",
+        "D": "dé"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是小李的橡皮。",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你的____很漂亮。",
-      "pinyin": "nǐ de ____ hěn piào liang 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cặp sách của bạn rất đẹp.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我的水杯____在这里。",
+      "pinyin": "wǒ de shuǐ bēi ____ zài zhè lǐ 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
       "options": {
-        "A": "笔",
-        "B": "下面",
-        "C": "书包",
-        "D": "上面"
+        "A": "的",
+        "B": "比",
+        "C": "不",
+        "D": "把"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "应填“书包”。完整句子：你的书包很漂亮。",
+      "explanation": "应填“不”。完整句子：我的水杯不在这里。\n语法与搭配：不＋动词/形容词",
       "optionPinyin": {
-        "A": "bǐ",
-        "B": "xià miàn",
-        "C": "shū bāo",
-        "D": "shàng miàn"
-      }
+        "A": "de",
+        "B": "bǐ",
+        "C": "bù",
+        "D": "bǎ"
+      },
+      "targetWord": "不",
+      "completeSentence": "我的水杯不在这里。",
+      "grammarFocus": "不＋动词/形容词"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：书在____上。",
-      "pinyin": "shū zài ____ shàng 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Sách ở trên bàn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：柜子里____三盒彩笔。",
+      "pinyin": "guì zi lǐ ____ sān hé cǎi bǐ 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
       "options": {
-        "A": "哪儿",
-        "B": "椅子",
-        "C": "里面",
-        "D": "桌子"
+        "A": "去",
+        "B": "比",
+        "C": "是",
+        "D": "有"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "应填“桌子”。完整句子：书在桌子上。",
+      "explanation": "应填“有”。完整句子：柜子里有三盒彩笔。\n语法与搭配：有＋名词：拥有或存在",
       "optionPinyin": {
-        "A": "nǎ ér",
-        "B": "yǐ zi",
-        "C": "lǐ miàn",
-        "D": "zhuō zi"
-      }
+        "A": "qù",
+        "B": "bǐ",
+        "C": "shì",
+        "D": "yǒu"
+      },
+      "targetWord": "有",
+      "completeSentence": "柜子里有三盒彩笔。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：桌子下面有一把____。",
-      "pinyin": "zhuō zi xià miàn yǒu yī bǎ ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Dưới bàn có một chiếc ghế.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____课本放回原来的地方。",
+      "pinyin": "qǐng ____ kè běn fàng huí yuán lái de dì fang 。",
+      "vietnamese": "Gợi ý: đưa tân ngữ lên trước động từ để nói cách xử lý.",
       "options": {
-        "A": "教室",
-        "B": "椅子",
-        "C": "外面",
-        "D": "前面"
+        "A": "把",
+        "B": "从",
+        "C": "比",
+        "D": "的"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“椅子”。完整句子：桌子下面有一把椅子。",
+      "explanation": "应填“把”。完整句子：请把课本放回原来的地方。\n语法与搭配：把＋宾语＋动作及结果/位置",
       "optionPinyin": {
-        "A": "jiào shì",
-        "B": "yǐ zi",
-        "C": "wài miàn",
-        "D": "qián miàn"
-      }
+        "A": "bǎ",
+        "B": "cóng",
+        "C": "bǐ",
+        "D": "de"
+      },
+      "targetWord": "把",
+      "completeSentence": "请把课本放回原来的地方。",
+      "grammarFocus": "把＋宾语＋动作及结果/位置"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：老师在____里。",
-      "pinyin": "lǎo shī zài ____ lǐ 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Giáo viên ở trong lớp học.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：小王____找他的字典。",
+      "pinyin": "xiǎo wáng ____ zhǎo tā de zì diǎn 。",
+      "vietnamese": "Gợi ý: đang; hành động đang diễn ra.",
       "options": {
-        "A": "教室",
-        "B": "外面",
-        "C": "下面",
-        "D": "笔"
+        "A": "的",
+        "B": "把",
+        "C": "比",
+        "D": "正在"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“教室”。完整句子：老师在教室里。",
+      "explanation": "应填“正在”。完整句子：小王正在找他的字典。\n语法与搭配：正在＋动词",
       "optionPinyin": {
-        "A": "jiào shì",
-        "B": "wài miàn",
-        "C": "xià miàn",
-        "D": "bǐ"
-      }
+        "A": "de",
+        "B": "bǎ",
+        "C": "bǐ",
+        "D": "zhèng zài"
+      },
+      "targetWord": "正在",
+      "completeSentence": "小王正在找他的字典。",
+      "grammarFocus": "正在＋动词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的书在桌子____。",
-      "pinyin": "wǒ de shū zài zhuō zi ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Sách của tôi ở phía trên bàn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____找到钥匙了。",
+      "pinyin": "wǒ ____ zhǎo dào yào shi le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
       "options": {
-        "A": "外面",
-        "B": "上面",
-        "C": "桌子",
-        "D": "下面"
+        "A": "从",
+        "B": "把",
+        "C": "的",
+        "D": "已经"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“上面”。完整句子：我的书在桌子上面。",
+      "explanation": "应填“已经”。完整句子：我已经找到钥匙了。\n语法与搭配：已经……了",
       "optionPinyin": {
-        "A": "wài miàn",
-        "B": "shàng miàn",
-        "C": "zhuō zi",
-        "D": "xià miàn"
-      }
+        "A": "cóng",
+        "B": "bǎ",
+        "C": "de",
+        "D": "yǐ jīng"
+      },
+      "targetWord": "已经",
+      "completeSentence": "我已经找到钥匙了。",
+      "grammarFocus": "已经……了"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：书包在椅子____。",
-      "pinyin": "shū bāo zài yǐ zi ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cặp sách ở dưới ghế.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你的词典____我的放在一起。",
+      "pinyin": "nǐ de cí diǎn ____ wǒ de fàng zài yì qǐ 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
       "options": {
-        "A": "下面",
-        "B": "本",
-        "C": "椅子",
-        "D": "上面"
+        "A": "吗",
+        "B": "和",
+        "C": "把",
+        "D": "很"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“下面”。完整句子：书包在椅子下面。",
+      "explanation": "应填“和”。完整句子：你的词典和我的放在一起。\n语法与搭配：名词/代词＋和＋名词/代词",
       "optionPinyin": {
-        "A": "xià miàn",
-        "B": "běn",
-        "C": "yǐ zi",
-        "D": "shàng miàn"
-      }
+        "A": "ma",
+        "B": "hé",
+        "C": "bǎ",
+        "D": "hěn"
+      },
+      "targetWord": "和",
+      "completeSentence": "你的词典和我的放在一起。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
     },
     {
       "id": 25,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你的笔在盒子____。",
-      "pinyin": "nǐ de bǐ zài hé zi ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bút của bạn ở bên trong hộp.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____我最左边的那张纸。",
+      "pinyin": "qǐng ____ wǒ zuì zuǒ biān de nà zhāng zhǐ 。",
+      "vietnamese": "Gợi ý: cho; chỉ người nhận.",
       "options": {
-        "A": "里面",
-        "B": "书",
-        "C": "椅子",
-        "D": "上面"
+        "A": "比",
+        "B": "给",
+        "C": "吗",
+        "D": "的"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“里面”。完整句子：你的笔在盒子里面。",
+      "explanation": "应填“给”。完整句子：请给我最左边的那张纸。\n语法与搭配：给＋人＋物/动词",
       "optionPinyin": {
-        "A": "lǐ miàn",
-        "B": "shū",
-        "C": "yǐ zi",
-        "D": "shàng miàn"
-      }
+        "A": "bǐ",
+        "B": "gěi",
+        "C": "ma",
+        "D": "de"
+      },
+      "targetWord": "给",
+      "completeSentence": "请给我最左边的那张纸。",
+      "grammarFocus": "给＋人＋物/动词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：学校____有一家商店。",
-      "pinyin": "xué xiào ____ yǒu yī jiā shāng diàn 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bên ngoài trường có một cửa hàng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：那____铅笔是蓝色的。",
+      "pinyin": "nà ____ qiān bǐ shì lán sè de 。",
+      "vietnamese": "Gợi ý: cây/chiếc; lượng từ cho bút.",
       "options": {
-        "A": "哪儿",
-        "B": "教室",
-        "C": "椅子",
-        "D": "外面"
+        "A": "支",
+        "B": "岁",
+        "C": "遍",
+        "D": "点"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“外面”。完整句子：学校外面有一家商店。",
+      "explanation": "应填“支”。完整句子：那支铅笔是蓝色的。\n语法与搭配：数词＋支＋笔",
       "optionPinyin": {
-        "A": "nǎ ér",
-        "B": "jiào shì",
-        "C": "yǐ zi",
-        "D": "wài miàn"
-      }
+        "A": "zhī",
+        "B": "suì",
+        "C": "biàn",
+        "D": "diǎn"
+      },
+      "targetWord": "支",
+      "completeSentence": "那支铅笔是蓝色的。",
+      "grammarFocus": "数词＋支＋笔"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这本书在我____。",
-      "pinyin": "zhè běn shū zài wǒ ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Quyển sách này ở phía trước tôi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这个书架____那个高。",
+      "pinyin": "zhè ge shū jià ____ nà ge gāo 。",
+      "vietnamese": "Gợi ý: hơn; chỉ đối tượng so sánh.",
       "options": {
-        "A": "前面",
-        "B": "哪儿",
-        "C": "桌子",
-        "D": "书包"
+        "A": "比",
+        "B": "从",
+        "C": "把",
+        "D": "给"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“前面”。完整句子：这本书在我前面。",
+      "explanation": "应填“比”。完整句子：这个书架比那个高。\n语法与搭配：甲＋比＋乙＋形容词",
       "optionPinyin": {
-        "A": "qián miàn",
-        "B": "nǎ ér",
-        "C": "zhuō zi",
-        "D": "shū bāo"
-      }
+        "A": "bǐ",
+        "B": "cóng",
+        "C": "bǎ",
+        "D": "gěi"
+      },
+      "targetWord": "比",
+      "completeSentence": "这个书架比那个高。",
+      "grammarFocus": "甲＋比＋乙＋形容词"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：小明坐在我____。",
-      "pinyin": "xiǎo míng zuò zài wǒ ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tiểu Minh ngồi phía sau tôi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____帮我找找眼镜吗？",
+      "pinyin": "nǐ ____ bāng wǒ zhǎo zhǎo yǎn jìng ma ？",
+      "vietnamese": "Gợi ý: có thể; xin phép hoặc cho phép.",
       "options": {
-        "A": "笔",
-        "B": "教室",
-        "C": "外面",
-        "D": "后面"
+        "A": "把",
+        "B": "可以",
+        "C": "比",
+        "D": "的"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“后面”。完整句子：小明坐在我后面。",
+      "explanation": "应填“可以”。完整句子：你可以帮我找找眼镜吗？\n语法与搭配：可以＋动词",
       "optionPinyin": {
-        "A": "bǐ",
-        "B": "jiào shì",
-        "C": "wài miàn",
-        "D": "hòu miàn"
-      }
+        "A": "bǎ",
+        "B": "kě yǐ",
+        "C": "bǐ",
+        "D": "de"
+      },
+      "targetWord": "可以",
+      "completeSentence": "你可以帮我找找眼镜吗？",
+      "grammarFocus": "可以＋动词"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你的书在____？",
-      "pinyin": "nǐ de shū zài ____？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Sách của bạn ở đâu?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____坐在靠窗的位置。",
+      "pinyin": "wǒ ____ zuò zài kào chuāng de wèi zhì 。",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "哪儿",
-        "B": "椅子",
-        "C": "后面",
-        "D": "教室"
+        "A": "比",
+        "B": "把",
+        "C": "的",
+        "D": "想"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“哪儿”。完整句子：你的书在哪儿？",
+      "explanation": "应填“想”。完整句子：我想坐在靠窗的位置。\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "nǎ ér",
-        "B": "yǐ zi",
-        "C": "hòu miàn",
-        "D": "jiào shì"
-      }
+        "A": "bǐ",
+        "B": "bǎ",
+        "C": "de",
+        "D": "xiǎng"
+      },
+      "targetWord": "想",
+      "completeSentence": "我想坐在靠窗的位置。",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我有三____中文书。",
-      "pinyin": "wǒ yǒu sān ____ zhōng wén shū 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi có ba quyển sách tiếng Trung.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：柜子____门很近。",
+      "pinyin": "guì zi ____ mén hěn jìn 。",
+      "vietnamese": "Gợi ý: cách; chỉ khoảng cách.",
       "options": {
-        "A": "哪儿",
-        "B": "下面",
-        "C": "本",
-        "D": "教室"
+        "A": "把",
+        "B": "给",
+        "C": "的",
+        "D": "离"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“本”。完整句子：我有三本中文书。",
+      "explanation": "应填“离”。完整句子：柜子离门很近。\n语法与搭配：甲＋离＋乙＋远/近/距离",
       "optionPinyin": {
-        "A": "nǎ ér",
-        "B": "xià miàn",
-        "C": "běn",
-        "D": "jiào shì"
-      }
+        "A": "bǎ",
+        "B": "gěi",
+        "C": "de",
+        "D": "lí"
+      },
+      "targetWord": "离",
+      "completeSentence": "柜子离门很近。",
+      "grammarFocus": "甲＋离＋乙＋远/近/距离"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "这本书是我的."
       ],
       "points": 2,
-      "explanation": "参考句子：这本书是我的。"
+      "explanation": "参考句子：这本书是我的。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "我用笔写字."
       ],
       "points": 2,
-      "explanation": "参考句子：我用笔写字。"
+      "explanation": "参考句子：我用笔写字。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "我的本子在这里."
       ],
       "points": 2,
-      "explanation": "参考句子：我的本子在这里。"
+      "explanation": "参考句子：我的本子在这里。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 34,
@@ -721,7 +784,8 @@
         "你的书包很漂亮."
       ],
       "points": 2,
-      "explanation": "参考句子：你的书包很漂亮。"
+      "explanation": "参考句子：你的书包很漂亮。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -736,7 +800,8 @@
         "书在桌子上."
       ],
       "points": 2,
-      "explanation": "参考句子：书在桌子上。"
+      "explanation": "参考句子：书在桌子上。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 36,
@@ -751,7 +816,8 @@
         "桌子下面有一把椅子."
       ],
       "points": 2,
-      "explanation": "参考句子：桌子下面有一把椅子。"
+      "explanation": "参考句子：桌子下面有一把椅子。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 37,
@@ -766,7 +832,8 @@
         "老师在教室里."
       ],
       "points": 2,
-      "explanation": "参考句子：老师在教室里。"
+      "explanation": "参考句子：老师在教室里。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 38,
@@ -781,7 +848,8 @@
         "我的书在桌子上面."
       ],
       "points": 2,
-      "explanation": "参考句子：我的书在桌子上面。"
+      "explanation": "参考句子：我的书在桌子上面。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 39,
@@ -796,7 +864,8 @@
         "书包在椅子下面."
       ],
       "points": 2,
-      "explanation": "参考句子：书包在椅子下面。"
+      "explanation": "参考句子：书包在椅子下面。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 40,
@@ -811,7 +880,8 @@
         "你的笔在盒子里面."
       ],
       "points": 2,
-      "explanation": "参考句子：你的笔在盒子里面。"
+      "explanation": "参考句子：你的笔在盒子里面。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 41,
@@ -826,7 +896,8 @@
         "学校外面有一家商店."
       ],
       "points": 2,
-      "explanation": "参考句子：学校外面有一家商店。"
+      "explanation": "参考句子：学校外面有一家商店。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -841,7 +912,8 @@
         "这本书在我前面."
       ],
       "points": 2,
-      "explanation": "参考句子：这本书在我前面。"
+      "explanation": "参考句子：这本书在我前面。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 43,
@@ -856,7 +928,8 @@
         "小明坐在我后面."
       ],
       "points": 2,
-      "explanation": "参考句子：小明坐在我后面。"
+      "explanation": "参考句子：小明坐在我后面。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 44,
@@ -871,7 +944,8 @@
         "你的书在哪儿?"
       ],
       "points": 2,
-      "explanation": "参考句子：你的书在哪儿？"
+      "explanation": "参考句子：你的书在哪儿？\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 45,
@@ -886,7 +960,8 @@
         "我有三本中文书."
       ],
       "points": 2,
-      "explanation": "参考句子：我有三本中文书。"
+      "explanation": "参考句子：我有三本中文书。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -901,7 +976,8 @@
         "这不是我的书包."
       ],
       "points": 2,
-      "explanation": "参考句子：这不是我的书包。"
+      "explanation": "参考句子：这不是我的书包。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -916,7 +992,8 @@
         "请给我一支笔."
       ],
       "points": 2,
-      "explanation": "参考句子：请给我一支笔。"
+      "explanation": "参考句子：请给我一支笔。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 48,
@@ -931,7 +1008,8 @@
         "桌子上有两本书."
       ],
       "points": 2,
-      "explanation": "参考句子：桌子上有两本书。"
+      "explanation": "参考句子：桌子上有两本书。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -946,7 +1024,8 @@
         "你看见我的本子了吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：你看见我的本子了吗？"
+      "explanation": "参考句子：你看见我的本子了吗？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -961,9 +1040,11 @@
         "老师的书在那张桌子上."
       ],
       "points": 2,
-      "explanation": "参考句子：老师的书在那张桌子上。"
+      "explanation": "参考句子：老师的书在那张桌子上。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     }
   ],
   "previousPronunciationHash": "9fecb7e1",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

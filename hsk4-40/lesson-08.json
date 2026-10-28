@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第08课 生活中不缺少美",
-  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“风景”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fēn jǐng",
-        "B": "hēng jǐng",
-        "C": "fēng qǐng",
-        "D": "fēng jǐng"
+        "A": "fēng jǐng",
+        "B": "fēn jǐng",
+        "C": "hēng jǐng",
+        "D": "fēng qǐng"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“风景”的正确读音是 fēng jǐng。"
+      "explanation": "“风景”读作 fēng jǐng。注意声母、韵母、声调及轻声。",
+      "targetWord": "风景"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“发现”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hā xiàn",
-        "B": "fā xiàng",
+        "A": "fā qiàn",
+        "B": "hā xiàn",
         "C": "fā xiàn",
-        "D": "fā qiàn"
+        "D": "fā xiàng"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“发现”的正确读音是 fā xiàn。"
+      "explanation": "“发现”读作 fā xiàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "发现"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“观察”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "guān chá",
-        "B": "cuān chá",
-        "C": "guāng chá",
+        "A": "guāng chá",
+        "B": "guān chá",
+        "C": "cuān chá",
         "D": "duān chá"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“观察”的正确读音是 guān chá。"
+      "explanation": "“观察”读作 guān chá。注意声母、韵母、声调及轻声。",
+      "targetWord": "观察"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“感受”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎn sòu",
-        "B": "gǎng shòu",
-        "C": "gǎn shòu",
-        "D": "gǎn shào"
+        "A": "gǎng shòu",
+        "B": "gǎn shào",
+        "C": "gǎn sòu",
+        "D": "gǎn shòu"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“感受”的正确读音是 gǎn shòu。"
+      "explanation": "“感受”读作 gǎn shòu。注意声母、韵母、声调及轻声。",
+      "targetWord": "感受"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“细节”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "xì jié",
         "B": "qì jié",
-        "C": "bì jié",
-        "D": "xì qié"
+        "C": "xì qié",
+        "D": "bì jié"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“细节”的正确读音是 xì jié。"
+      "explanation": "“细节”读作 xì jié。注意声母、韵母、声调及轻声。",
+      "targetWord": "细节"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“美丽”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "běi lì",
-        "B": "měi lì",
-        "C": "měi nì",
-        "D": "mǎi lì"
+        "A": "měi nì",
+        "B": "mǎi lì",
+        "C": "měi lì",
+        "D": "běi lì"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“美丽”的正确读音是 měi lì。"
+      "explanation": "“美丽”读作 měi lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "美丽"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“欣赏”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xīn sǎng",
+        "A": "xīn shǎn",
         "B": "qīn shǎng",
-        "C": "xīn shǎng",
-        "D": "xīn shǎn"
+        "C": "xīn sǎng",
+        "D": "xīn shǎng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“欣赏”的正确读音是 xīn shǎng。"
+      "explanation": "“欣赏”读作 xīn shǎng。注意声母、韵母、声调及轻声。",
+      "targetWord": "欣赏"
     },
     {
       "id": 8,
@@ -142,7 +149,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“自然”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zì ráng",
         "B": "zì rán",
@@ -153,7 +160,8 @@
         "B"
       ],
       "points": 2,
-      "explanation": "“自然”的正确读音是 zì rán。"
+      "explanation": "“自然”读作 zì rán。注意声母、韵母、声调及轻声。",
+      "targetWord": "自然"
     },
     {
       "id": 9,
@@ -161,18 +169,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“艺术”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yì sù",
-        "B": "cì shù",
-        "C": "yì shù",
-        "D": "bì shù"
+        "A": "yì shù",
+        "B": "bì shù",
+        "C": "yì sù",
+        "D": "cì shù"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“艺术”的正确读音是 yì shù。"
+      "explanation": "“艺术”读作 yì shù。注意声母、韵母、声调及轻声。",
+      "targetWord": "艺术"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“鲜花”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biān huā",
-        "B": "xiān huā",
-        "C": "xiāng huā",
-        "D": "qiān huā"
+        "A": "qiān huā",
+        "B": "xiāng huā",
+        "C": "biān huā",
+        "D": "xiān huā"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“鲜花”的正确读音是 xiān huā。"
+      "explanation": "“鲜花”读作 xiān huā。注意声母、韵母、声调及轻声。",
+      "targetWord": "鲜花"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“照片”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhòu piān",
-        "B": "zào piān",
-        "C": "chào piān",
-        "D": "zhào piān"
+        "A": "zào piān",
+        "B": "zhòu piān",
+        "C": "zhào piān",
+        "D": "chào piān"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“照片”的正确读音是 zhào piān。"
+      "explanation": "“照片”读作 zhào piān。注意声母、韵母、声调及轻声。",
+      "targetWord": "照片"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“窗户”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chāng hù",
-        "B": "chuān hù",
-        "C": "chuāng fù",
-        "D": "chuāng hù"
+        "A": "chuāng hù",
+        "B": "chuāng fù",
+        "C": "chāng hù",
+        "D": "chuān hù"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“窗户”的正确读音是 chuāng hù。"
+      "explanation": "“窗户”读作 chuāng hù。注意声母、韵母、声调及轻声。",
+      "targetWord": "窗户"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“阳光”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yáng guāng",
-        "B": "yáng guān",
+        "A": "yáng guān",
+        "B": "yáng guāng",
         "C": "yán guāng",
         "D": "cáng guāng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“阳光”的正确读音是 yáng guāng。"
+      "explanation": "“阳光”读作 yáng guāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "阳光"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“温暖”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wēn nuǎn",
-        "B": "wēng nuǎn",
-        "C": "wēn luǎn",
-        "D": "bēn nuǎn"
+        "A": "bēn nuǎn",
+        "B": "wēn nuǎn",
+        "C": "wēng nuǎn",
+        "D": "wēn luǎn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“温暖”的正确读音是 wēn nuǎn。"
+      "explanation": "“温暖”读作 wēn nuǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "温暖"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“感谢”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎn qiè",
-        "B": "gǎng xiè",
-        "C": "gǎn xiè",
-        "D": "bǎn xiè"
+        "A": "gǎng xiè",
+        "B": "bǎn xiè",
+        "C": "gǎn qiè",
+        "D": "gǎn xiè"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“感谢”的正确读音是 gǎn xiè。"
+      "explanation": "“感谢”读作 gǎn xiè。注意声母、韵母、声调及轻声。",
+      "targetWord": "感谢"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“仔细”（kỹ lưỡng）。完整句子：只要仔细观察，就能发现身边有趣的变化。"
+      "explanation": "应填“仔细”（kỹ lưỡng）。完整句子：只要仔细观察，就能发现身边有趣的变化。",
+      "targetWord": "仔细",
+      "completeSentence": "只要仔细观察，就能发现身边有趣的变化。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“到处”（khắp nơi）。完整句子：春天来了，公园里到处都是盛开的鲜花。"
+      "explanation": "应填“到处”（khắp nơi）。完整句子：春天来了，公园里到处都是盛开的鲜花。",
+      "targetWord": "到处",
+      "completeSentence": "春天来了，公园里到处都是盛开的鲜花。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“吸引”（thu hút）。完整句子：湖边美丽的景色吸引了许多游客。"
+      "explanation": "应填“吸引”（thu hút）。完整句子：湖边美丽的景色吸引了许多游客。",
+      "targetWord": "吸引",
+      "completeSentence": "湖边美丽的景色吸引了许多游客。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“留意”（để ý）。完整句子：每天经过这条路，我却从来没有留意过这座桥。"
+      "explanation": "应填“留意”（để ý）。完整句子：每天经过这条路，我却从来没有留意过这座桥。",
+      "targetWord": "留意",
+      "completeSentence": "每天经过这条路，我却从来没有留意过这座桥。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“普通”（bình thường）。完整句子：一件普通的小事，也可能让人感动。"
+      "explanation": "应填“普通”（bình thường）。完整句子：一件普通的小事，也可能让人感动。",
+      "targetWord": "普通",
+      "completeSentence": "一件普通的小事，也可能让人感动。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“安静”（yên tĩnh）。完整句子：清晨的校园十分安静，只能听见鸟叫。"
+      "explanation": "应填“安静”（yên tĩnh）。完整句子：清晨的校园十分安静，只能听见鸟叫。",
+      "targetWord": "安静",
+      "completeSentence": "清晨的校园十分安静，只能听见鸟叫。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“微笑”（mỉm cười）。完整句子：面对陌生人的帮助，她用微笑表示感谢。"
+      "explanation": "应填“微笑”（mỉm cười）。完整句子：面对陌生人的帮助，她用微笑表示感谢。",
+      "targetWord": "微笑",
+      "completeSentence": "面对陌生人的帮助，她用微笑表示感谢。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“经历”（trải nghiệm）。完整句子：这次志愿服务的经历让我重新认识了这座城市。"
+      "explanation": "应填“经历”（trải nghiệm）。完整句子：这次志愿服务的经历让我重新认识了这座城市。",
+      "targetWord": "经历",
+      "completeSentence": "这次志愿服务的经历让我重新认识了这座城市。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“心情”（tâm trạng）。完整句子：看到孩子们开心的样子，我的心情也变好了。"
+      "explanation": "应填“心情”（tâm trạng）。完整句子：看到孩子们开心的样子，我的心情也变好了。",
+      "targetWord": "心情",
+      "completeSentence": "看到孩子们开心的样子，我的心情也变好了。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“记录”（ghi lại）。完整句子：他喜欢用相机记录生活中的美好时刻。"
+      "explanation": "应填“记录”（ghi lại）。完整句子：他喜欢用相机记录生活中的美好时刻。",
+      "targetWord": "记录",
+      "completeSentence": "他喜欢用相机记录生活中的美好时刻。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“颜色”（màu sắc）。完整句子：秋天的树叶有很多不同的颜色。"
+      "explanation": "应填“颜色”（màu sắc）。完整句子：秋天的树叶有很多不同的颜色。",
+      "targetWord": "颜色",
+      "completeSentence": "秋天的树叶有很多不同的颜色。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“角度”（góc độ）。完整句子：换一个角度看问题，可能会有新的发现。"
+      "explanation": "应填“角度”（góc độ）。完整句子：换一个角度看问题，可能会有新的发现。",
+      "targetWord": "角度",
+      "completeSentence": "换一个角度看问题，可能会有新的发现。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“值得”（đáng）。完整句子：这些平凡而温暖的故事值得我们记住。"
+      "explanation": "应填“值得”（đáng）。完整句子：这些平凡而温暖的故事值得我们记住。",
+      "targetWord": "值得",
+      "completeSentence": "这些平凡而温暖的故事值得我们记住。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“珍惜”（trân trọng）。完整句子：我们应该珍惜现在拥有的每一天。"
+      "explanation": "应填“珍惜”（trân trọng）。完整句子：我们应该珍惜现在拥有的每一天。",
+      "targetWord": "珍惜",
+      "completeSentence": "我们应该珍惜现在拥有的每一天。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“忽略”（bỏ qua, không chú ý）。完整句子：忙碌的人有时会忽略身边的小幸福。"
+      "explanation": "应填“忽略”（bỏ qua, không chú ý）。完整句子：忙碌的人有时会忽略身边的小幸福。",
+      "targetWord": "忽略",
+      "completeSentence": "忙碌的人有时会忽略身边的小幸福。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "生活中并不是缺少美而是我们常常忘了用心观察."
       ],
       "points": 2,
-      "explanation": "参考句子：生活中并不是缺少美而是我们常常忘了用心观察。\nshēng huó zhōng bìng bú shì quē shǎo měi ér shì wǒ men cháng cháng wàng le yòng xīn guān chá 。",
-      "hanziCount": 21
+      "explanation": "参考句子：生活中并不是缺少美而是我们常常忘了用心观察。\nshēng huó zhōng bìng bú shì quē shǎo měi ér shì wǒ men cháng cháng wàng le yòng xīn guān chá 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 21,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "清晨走在安静的小路上她发现路边的花已经开了."
       ],
       "points": 2,
-      "explanation": "参考句子：清晨走在安静的小路上她发现路边的花已经开了。\nqīng chén zǒu zài ān jìng de xiǎo lù shàng tā fā xiàn lù biān de huā yǐ jīng kāi le 。",
-      "hanziCount": 21
+      "explanation": "参考句子：清晨走在安静的小路上她发现路边的花已经开了。\nqīng chén zǒu zài ān jìng de xiǎo lù shàng tā fā xiàn lù biān de huā yǐ jīng kāi le 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 21,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "一个陌生人的真诚微笑有时候也能温暖我们的心."
       ],
       "points": 2,
-      "explanation": "参考句子：一个陌生人的真诚微笑有时候也能温暖我们的心。\nyí gè mò shēng rén de zhēn chéng wēi xiào yǒu shí hòu yě néng wēn nuǎn wǒ men de xīn 。",
-      "hanziCount": 21
+      "explanation": "参考句子：一个陌生人的真诚微笑有时候也能温暖我们的心。\nyí gè mò shēng rén de zhēn chéng wēi xiào yǒu shí hòu yě néng wēn nuǎn wǒ men de xīn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 21,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "他用相机记录下这座城市里许多普通而感人的瞬间."
       ],
       "points": 2,
-      "explanation": "参考句子：他用相机记录下这座城市里许多普通而感人的瞬间。\ntā yòng xiàng jī jì lù xià zhè zuò chéng shì lǐ xǔ duō pǔ tōng ér gǎn rén de shùn jiān 。",
-      "hanziCount": 22
+      "explanation": "参考句子：他用相机记录下这座城市里许多普通而感人的瞬间。\ntā yòng xiàng jī jì lù xià zhè zuò chéng shì lǐ xǔ duō pǔ tōng ér gǎn rén de shùn jiān 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "只要愿意放慢生活的脚步你就会发现更多美好的事."
       ],
       "points": 2,
-      "explanation": "参考句子：只要愿意放慢生活的脚步你就会发现更多美好的事。\nzhǐ yào yuàn yì fàng màn shēng huó de jiǎo bù nǐ jiù huì fā xiàn gèng duō měi hǎo de shì 。",
-      "hanziCount": 22
+      "explanation": "参考句子：只要愿意放慢生活的脚步你就会发现更多美好的事。\nzhǐ yào yuàn yì fàng màn shēng huó de jiǎo bù nǐ jiù huì fā xiàn gèng duō měi hǎo de shì 。\n语法与搭配：只要……就……：充分条件",
+      "hanziCount": 22,
+      "grammarFocus": "只要……就……：充分条件"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "这座我们每天经过的小桥在夕阳下显得格外美丽."
       ],
       "points": 2,
-      "explanation": "参考句子：这座我们每天经过的小桥在夕阳下显得格外美丽。\nzhè zuò wǒ men měi tiān jīng guò de xiǎo qiáo zài xī yáng xià xiǎn de gé wài měi lì 。",
-      "hanziCount": 21
+      "explanation": "参考句子：这座我们每天经过的小桥在夕阳下显得格外美丽。\nzhè zuò wǒ men měi tiān jīng guò de xiǎo qiáo zài xī yáng xià xiǎn de gé wài měi lì 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 21,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "我以前只关心最后的结果现在开始欣赏努力的过程."
       ],
       "points": 2,
-      "explanation": "参考句子：我以前只关心最后的结果现在开始欣赏努力的过程。\nwǒ yǐ qián zhǐ guān xīn zuì hòu de jié guǒ xiàn zài kāi shǐ xīn shǎng nǔ lì de guò chéng 。",
-      "hanziCount": 22
+      "explanation": "参考句子：我以前只关心最后的结果现在开始欣赏努力的过程。\nwǒ yǐ qián zhǐ guān xīn zuì hòu de jié guǒ xiàn zài kāi shǐ xīn shǎng nǔ lì de guò chéng 。\n语法与搭配：动作＋以前：说明时间顺序",
+      "hanziCount": 22,
+      "grammarFocus": "动作＋以前：说明时间顺序"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "同样的风景从不同角度看往往会给人不同的感受."
       ],
       "points": 2,
-      "explanation": "参考句子：同样的风景从不同角度看往往会给人不同的感受。\ntóng yàng de fēng jǐng cóng bù tóng jiǎo dù kàn wǎng wǎng huì gěi rén bù tóng de gǎn shòu 。",
-      "hanziCount": 21
+      "explanation": "参考句子：同样的风景从不同角度看往往会给人不同的感受。\ntóng yàng de fēng jǐng cóng bù tóng jiǎo dù kàn wǎng wǎng huì gěi rén bù tóng de gǎn shòu 。\n语法与搭配：给＋人＋物/动作",
+      "hanziCount": 21,
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "即使是一顿简单的晚饭一家人坐在一起也很幸福."
       ],
       "points": 2,
-      "explanation": "参考句子：即使是一顿简单的晚饭一家人坐在一起也很幸福。\njí shǐ shì yī dùn jiǎn dān de wǎn fàn yī jiā rén zuò zài yì qǐ yě hěn xìng fú 。",
-      "hanziCount": 21
+      "explanation": "参考句子：即使是一顿简单的晚饭一家人坐在一起也很幸福。\njí shǐ shì yī dùn jiǎn dān de wǎn fàn yī jiā rén zuò zài yì qǐ yě hěn xìng fú 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 21,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "她从平凡的小事当中逐渐学会了感谢身边的每个人."
       ],
       "points": 2,
-      "explanation": "参考句子：她从平凡的小事当中逐渐学会了感谢身边的每个人。\ntā cóng píng fán de xiǎo shì dāng zhōng zhú jiàn xué huì le gǎn xiè shēn biān de měi gè rén 。",
-      "hanziCount": 22
+      "explanation": "参考句子：她从平凡的小事当中逐渐学会了感谢身边的每个人。\ntā cóng píng fán de xiǎo shì dāng zhōng zhú jiàn xué huì le gǎn xiè shēn biān de měi gè rén 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "这次活动让我们重新思考身边容易被忽略的美."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考身边容易被忽略的美。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo shēn biān róng yì bèi hū lüè de měi 。",
-      "hanziCount": 20
+      "explanation": "参考句子：这次活动让我们重新思考身边容易被忽略的美。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo shēn biān róng yì bèi hū lüè de měi 。\n语法与搭配：被＋施事＋动词：被动表达",
+      "hanziCount": 20,
+      "grammarFocus": "被＋施事＋动词：被动表达"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "老师希望大家认真分析换一个角度观察生活."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析换一个角度观察生活。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī huàn yí gè jiǎo dù guān chá shēng huó 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析换一个角度观察生活。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī huàn yí gè jiǎo dù guān chá shēng huó 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "我们有必要深入了解普通人带来的温暖."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解普通人带来的温暖。\nwǒ men yǒu bì yào shēn rù liǎo jiě pǔ tōng rén dài lái de wēn nuǎn 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我们有必要深入了解普通人带来的温暖。\nwǒ men yǒu bì yào shēn rù liǎo jiě pǔ tōng rén dài lái de wēn nuǎn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "他在报告中详细介绍了怎样记录感动的瞬间."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了怎样记录感动的瞬间。\ntā zài bào gào zhōng xiáng xì jiè shào le zěn yàng jì lù gǎn dòng de shùn jiān 。",
-      "hanziCount": 19
+      "explanation": "参考句子：他在报告中详细介绍了怎样记录感动的瞬间。\ntā zài bào gào zhōng xiáng xì jiè shào le zěn yàng jì lù gǎn dòng de shùn jiān 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 19,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "请大家先讨论一下城市里值得欣赏的风景."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下城市里值得欣赏的风景。\nqǐng dà jiā xiān tǎo lùn yī xià chéng shì lǐ zhí de xīn shǎng de fēng jǐng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请大家先讨论一下城市里值得欣赏的风景。\nqǐng dà jiā xiān tǎo lùn yī xià chéng shì lǐ zhí de xīn shǎng de fēng jǐng 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 18,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "我想请老师进一步解释放慢生活节奏的好处."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释放慢生活节奏的好处。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì fàng màn shēng huó jié zòu de hǎo chù 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我想请老师进一步解释放慢生活节奏的好处。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì fàng màn shēng huó jié zòu de hǎo chù 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "同学们正在一起讨论小事为什么也能感动人."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论小事为什么也能感动人。\ntóng xué men zhèng zài yì qǐ tǎo lùn xiǎo shì wèi shén me yě néng gǎn dòng rén 。",
-      "hanziCount": 19
+      "explanation": "参考句子：同学们正在一起讨论小事为什么也能感动人。\ntóng xué men zhèng zài yì qǐ tǎo lùn xiǎo shì wèi shén me yě néng gǎn dòng rén 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 19,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "老师请我们认真讨论照片背后的真实故事."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论照片背后的真实故事。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn zhào piān bèi hòu de zhēn shí gù shì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：老师请我们认真讨论照片背后的真实故事。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn zhào piān bèi hòu de zhēn shí gù shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "我们应该提前了解观察自然时获得的发现."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解观察自然时获得的发现。\nwǒ men yīng gāi tí qián liǎo jiě guān chá zì rán shí huò dé de fā xiàn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们应该提前了解观察自然时获得的发现。\nwǒ men yīng gāi tí qián liǎo jiě guān chá zì rán shí huò dé de fā xiàn 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 18,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "大家可以一起讨论表达感谢的不同方式."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论表达感谢的不同方式。\ndà jiā kě yǐ yì qǐ tǎo lùn biǎo dá gǎn xiè de bù tóng fāng shì 。",
-      "hanziCount": 17
+      "explanation": "参考句子：大家可以一起讨论表达感谢的不同方式。\ndà jiā kě yǐ yì qǐ tǎo lùn biǎo dá gǎn xiè de bù tóng fāng shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第06课 你是做什么工作的？",
-  "description": "Bạn làm nghề gì?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Bạn làm nghề gì?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,49 +8,51 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“工作”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gōng zhuò",
-        "B": "gēng zuò",
-        "C": "gōng zòu",
-        "D": "gōng zuò"
+        "A": "gōng zuò",
+        "B": "dōng zuò",
+        "C": "gōng zhuò",
+        "D": "cōng zuò"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“工作”的正确读音是 gōng zuò。"
+      "explanation": "“工作”读作 gōng zuò。注意声母、韵母、声调及轻声。",
+      "targetWord": "工作"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“学生”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xué shen",
-        "B": "xué seng",
-        "C": "xié sheng",
-        "D": "xué sheng"
+        "A": "xué shēng",
+        "B": "xué sēng",
+        "C": "xué shēn",
+        "D": "qué shēng"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“学生”的正确读音是 xué sheng。"
+      "explanation": "“学生”读作 xué shēng。注意声母、韵母、声调及轻声。",
+      "targetWord": "学生"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“老师”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lǎo sī",
-        "B": "lǒu shī",
+        "A": "lǒu shī",
+        "B": "lǎo sī",
         "C": "lǎo shī",
         "D": "nǎo shī"
       },
@@ -58,610 +60,668 @@
         "C"
       ],
       "points": 2,
-      "explanation": "“老师”的正确读音是 lǎo shī。"
+      "explanation": "“老师”读作 lǎo shī。注意声母、韵母、声调及轻声。",
+      "targetWord": "老师"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“医生”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yī shēn",
-        "B": "yī sēng",
-        "C": "yīn shēng",
-        "D": "yī shēng"
+        "A": "yī sēng",
+        "B": "bī shēng",
+        "C": "yī shēng",
+        "D": "yī shēn"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“医生”的正确读音是 yī shēng。"
+      "explanation": "“医生”读作 yī shēng。注意声母、韵母、声调及轻声。",
+      "targetWord": "医生"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“公司”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gōng shī",
+        "A": "cōng sī",
         "B": "gōng sī",
-        "C": "gēng sī",
-        "D": "kōng sī"
+        "C": "gōng shī",
+        "D": "dōng sī"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“公司”的正确读音是 gōng sī。"
+      "explanation": "“公司”读作 gōng sī。注意声母、韵母、声调及轻声。",
+      "targetWord": "公司"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“医院”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yīn yuàn",
-        "B": "yī juàn",
-        "C": "yīng yuàn",
-        "D": "yī yuàn"
+        "A": "dī yuàn",
+        "B": "yī yuàn",
+        "C": "cī yuàn",
+        "D": "bī yuàn"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“医院”的正确读音是 yī yuàn。"
+      "explanation": "“医院”读作 yī yuàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "医院"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“学校”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xié xiào",
-        "B": "xué xiù",
-        "C": "qué xiào",
-        "D": "xué xiào"
+        "A": "xué xiào",
+        "B": "xué qiào",
+        "C": "jué xiào",
+        "D": "qué xiào"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“学校”的正确读音是 xué xiào。"
+      "explanation": "“学校”读作 xué xiào。注意声母、韵母、声调及轻声。",
+      "targetWord": "学校"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“同事”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tóng shì",
+        "A": "cóng shì",
         "B": "tóng sì",
-        "C": "téng shì",
-        "D": "dóng shì"
+        "C": "hóng shì",
+        "D": "tóng shì"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“同事”的正确读音是 tóng shì。"
+      "explanation": "“同事”读作 tóng shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "同事"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“经理”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jīn lǐ",
         "B": "jīng nǐ",
-        "C": "jīng lǐn",
+        "C": "qīng lǐ",
         "D": "jīng lǐ"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“经理”的正确读音是 jīng lǐ。"
+      "explanation": "“经理”读作 jīng lǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "经理"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“上班”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sàng bān",
-        "B": "shàng bān",
-        "C": "shàn bān",
-        "D": "shàng bāng"
+        "A": "shàng bāng",
+        "B": "sàng bān",
+        "C": "shàng bān",
+        "D": "shàn bān"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“上班”的正确读音是 shàng bān。"
+      "explanation": "“上班”读作 shàng bān。注意声母、韵母、声调及轻声。",
+      "targetWord": "上班"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“下班”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "xià bān",
         "B": "xià bāng",
-        "C": "xiào bān",
-        "D": "xiè bān"
+        "C": "qià bān",
+        "D": "jià bān"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“下班”的正确读音是 xià bān。"
+      "explanation": "“下班”读作 xià bān。注意声母、韵母、声调及轻声。",
+      "targetWord": "下班"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“忙”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "mán",
-        "B": "náng",
+        "A": "fáng",
+        "B": "mán",
         "C": "máng",
-        "D": "báng"
+        "D": "cáng"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“忙”的正确读音是 máng。"
+      "explanation": "“忙”读作 máng。注意声母、韵母、声调及轻声。",
+      "targetWord": "忙"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“喜欢”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xǐ huan",
-        "B": "xǐ huang",
-        "C": "xǐn huan",
-        "D": "xǐng huan"
+        "A": "bǐ huān",
+        "B": "xǐ huān",
+        "C": "qǐ huān",
+        "D": "xǐ huāng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“喜欢”的正确读音是 xǐ huan。"
+      "explanation": "“喜欢”读作 xǐ huān。注意声母、韵母、声调及轻声。",
+      "targetWord": "喜欢"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“商店”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sāng diàn",
-        "B": "shān diàn",
-        "C": "shāng diàn",
-        "D": "shāng diè"
+        "A": "shāng diàn",
+        "B": "chāng diàn",
+        "C": "shān diàn",
+        "D": "sāng diàn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“商店”的正确读音是 shāng diàn。"
+      "explanation": "“商店”读作 shāng diàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "商店"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“哪里”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "lǎ lǐ",
-        "B": "nǎ nǐ",
-        "C": "ně lǐ",
-        "D": "nǎ lǐ"
+        "B": "nǎ lǐ",
+        "C": "nǎ nǐ",
+        "D": "bǎ lǐ"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“哪里”的正确读音是 nǎ lǐ。"
+      "explanation": "“哪里”读作 nǎ lǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "哪里"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你做什么____？",
-      "pinyin": "nǐ zuò shén me ____？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn làm công việc gì?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：姐姐____一名护士。",
+      "pinyin": "jiě jiě ____ yī míng hù shì 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "下班",
-        "B": "学生",
-        "C": "忙",
-        "D": "工作"
+        "A": "在",
+        "B": "有",
+        "C": "是",
+        "D": "去"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“工作”。完整句子：你做什么工作？",
+      "explanation": "应填“是”。完整句子：姐姐是一名护士。\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "xià bān",
-        "B": "xué sheng",
-        "C": "máng",
-        "D": "gōng zuò"
-      }
+        "A": "zài",
+        "B": "yǒu",
+        "C": "shì",
+        "D": "qù"
+      },
+      "targetWord": "是",
+      "completeSentence": "姐姐是一名护士。",
+      "grammarFocus": "是＋名词：判断或说明身份"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我是____。",
-      "pinyin": "wǒ shì ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi là học sinh.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：爸爸____银行做事。",
+      "pinyin": "bà bà ____ yín háng zuò shì 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
       "options": {
-        "A": "老师",
-        "B": "哪里",
-        "C": "学生",
-        "D": "喜欢"
+        "A": "在",
+        "B": "从",
+        "C": "比",
+        "D": "给"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“学生”。完整句子：我是学生。",
+      "explanation": "应填“在”。完整句子：爸爸在银行做事。\n语法与搭配：在＋地点＋动词/名词",
       "optionPinyin": {
-        "A": "lǎo shī",
-        "B": "nǎ lǐ",
-        "C": "xué sheng",
-        "D": "xǐ huan"
-      }
+        "A": "zài",
+        "B": "cóng",
+        "C": "bǐ",
+        "D": "gěi"
+      },
+      "targetWord": "在",
+      "completeSentence": "爸爸在银行做事。",
+      "grammarFocus": "在＋地点＋动词/名词"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：她是中文____。",
-      "pinyin": "tā shì zhōng wén ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy là giáo viên tiếng Trung.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：妈妈每天____病人量体温。",
+      "pinyin": "mā mā měi tiān ____ bìng rén liáng tǐ wēn 。",
+      "vietnamese": "Gợi ý: cho; chỉ người nhận.",
       "options": {
-        "A": "经理",
-        "B": "商店",
-        "C": "老师",
-        "D": "喜欢"
+        "A": "比",
+        "B": "吗",
+        "C": "的",
+        "D": "给"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“老师”。完整句子：她是中文老师。",
+      "explanation": "应填“给”。完整句子：妈妈每天给病人量体温。\n语法与搭配：给＋人＋物/动词",
       "optionPinyin": {
-        "A": "jīng lǐ",
-        "B": "shāng diàn",
-        "C": "lǎo shī",
-        "D": "xǐ huan"
-      }
+        "A": "bǐ",
+        "B": "ma",
+        "C": "de",
+        "D": "gěi"
+      },
+      "targetWord": "给",
+      "completeSentence": "妈妈每天给病人量体温。",
+      "grammarFocus": "给＋人＋物/动词"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：爸爸是____。",
-      "pinyin": "bà ba shì ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bố là bác sĩ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是哥哥____办公室。",
+      "pinyin": "zhè shì gē gē ____ bàn gōng shì 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "工作",
-        "B": "医生",
-        "C": "忙",
-        "D": "哪里"
+        "A": "得",
+        "B": "地",
+        "C": "吗",
+        "D": "的"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“医生”。完整句子：爸爸是医生。",
+      "explanation": "应填“的”。完整句子：这是哥哥的办公室。\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "gōng zuò",
-        "B": "yī shēng",
-        "C": "máng",
-        "D": "nǎ lǐ"
-      }
+        "A": "dé",
+        "B": "dì",
+        "C": "ma",
+        "D": "de"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是哥哥的办公室。",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他在____上班。",
-      "pinyin": "tā zài ____ shàng bān 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy đi làm ở công ty.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____成为工程师吗？",
+      "pinyin": "nǐ ____ chéng wéi gōng chéng shī ma ？",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "公司",
-        "B": "学生",
-        "C": "医院",
-        "D": "忙"
+        "A": "想",
+        "B": "把",
+        "C": "比",
+        "D": "的"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“公司”。完整句子：他在公司上班。",
+      "explanation": "应填“想”。完整句子：你想成为工程师吗？\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "gōng sī",
-        "B": "xué sheng",
-        "C": "yī yuàn",
-        "D": "máng"
-      }
+        "A": "xiǎng",
+        "B": "bǎ",
+        "C": "bǐ",
+        "D": "de"
+      },
+      "targetWord": "想",
+      "completeSentence": "你想成为工程师吗？",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：哥哥在____工作。",
-      "pinyin": "gē ge zài ____ gōng zuò 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh trai làm việc ở bệnh viện.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他____修电脑。",
+      "pinyin": "tā ____ xiū diàn nǎo 。",
+      "vietnamese": "Gợi ý: biết; có kỹ năng hoặc dự đoán.",
       "options": {
-        "A": "老师",
-        "B": "忙",
-        "C": "医院",
-        "D": "工作"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“医院”。完整句子：哥哥在医院工作。",
-      "optionPinyin": {
-        "A": "lǎo shī",
-        "B": "máng",
-        "C": "yī yuàn",
-        "D": "gōng zuò"
-      }
-    },
-    {
-      "id": 22,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：妈妈在____教书。",
-      "pinyin": "mā ma zài ____ jiāo shū 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Mẹ dạy học ở trường.",
-      "options": {
-        "A": "学校",
-        "B": "喜欢",
-        "C": "医院",
-        "D": "商店"
+        "A": "会",
+        "B": "把",
+        "C": "比",
+        "D": "的"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“学校”。完整句子：妈妈在学校教书。",
+      "explanation": "应填“会”。完整句子：他会修电脑。\n语法与搭配：会＋动词",
       "optionPinyin": {
-        "A": "xué xiào",
-        "B": "xǐ huan",
-        "C": "yī yuàn",
-        "D": "shāng diàn"
-      }
+        "A": "huì",
+        "B": "bǎ",
+        "C": "bǐ",
+        "D": "de"
+      },
+      "targetWord": "会",
+      "completeSentence": "他会修电脑。",
+      "grammarFocus": "会＋动词"
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____朋友在同一个部门。",
+      "pinyin": "wǒ ____ péng you zài tóng yī gè bù mén 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
+      "options": {
+        "A": "和",
+        "B": "吗",
+        "C": "把",
+        "D": "很"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“和”。完整句子：我和朋友在同一个部门。\n语法与搭配：名词/代词＋和＋名词/代词",
+      "optionPinyin": {
+        "A": "hé",
+        "B": "ma",
+        "C": "bǎ",
+        "D": "hěn"
+      },
+      "targetWord": "和",
+      "completeSentence": "我和朋友在同一个部门。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
     },
     {
       "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这是我的____。",
-      "pinyin": "zhè shì wǒ de ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Đây là đồng nghiệp của tôi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：她每天____很早到办公室。",
+      "pinyin": "tā měi tiān ____ hěn zǎo dào bàn gōng shì 。",
+      "vietnamese": "Gợi ý: đều; bao quát toàn bộ chủ thể.",
       "options": {
-        "A": "工作",
-        "B": "下班",
-        "C": "同事",
-        "D": "学校"
+        "A": "从",
+        "B": "把",
+        "C": "都",
+        "D": "的"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "应填“同事”。完整句子：这是我的同事。",
+      "explanation": "应填“都”。完整句子：她每天都很早到办公室。\n语法与搭配：复数主语＋都＋谓语",
       "optionPinyin": {
-        "A": "gōng zuò",
-        "B": "xià bān",
-        "C": "tóng shì",
-        "D": "xué xiào"
-      }
+        "A": "cóng",
+        "B": "bǎ",
+        "C": "dōu",
+        "D": "de"
+      },
+      "targetWord": "都",
+      "completeSentence": "她每天都很早到办公室。",
+      "grammarFocus": "复数主语＋都＋谓语"
     },
     {
       "id": 24,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：王先生是我们的____。",
-      "pinyin": "wáng xiān shēng shì wǒ men de ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Ông Vương là giám đốc của chúng tôi.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他____是一名司机。",
+      "pinyin": "tā ____ shì yī míng sī jī 。",
+      "vietnamese": "Gợi ý: cũng; bổ sung điểm giống nhau.",
       "options": {
-        "A": "商店",
-        "B": "下班",
-        "C": "医生",
-        "D": "经理"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“经理”。完整句子：王先生是我们的经理。",
-      "optionPinyin": {
-        "A": "shāng diàn",
-        "B": "xià bān",
-        "C": "yī shēng",
-        "D": "jīng lǐ"
-      }
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我每天八点____。",
-      "pinyin": "wǒ měi tiān bā diǎn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi đi làm lúc tám giờ mỗi ngày.",
-      "options": {
-        "A": "哪里",
-        "B": "下班",
-        "C": "公司",
-        "D": "上班"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“上班”。完整句子：我每天八点上班。",
-      "optionPinyin": {
-        "A": "nǎ lǐ",
-        "B": "xià bān",
-        "C": "gōng sī",
-        "D": "shàng bān"
-      }
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：她下午五点____。",
-      "pinyin": "tā xià wǔ wǔ diǎn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cô ấy tan làm lúc năm giờ chiều.",
-      "options": {
-        "A": "老师",
-        "B": "哪里",
-        "C": "下班",
-        "D": "同事"
+        "A": "把",
+        "B": "从",
+        "C": "也",
+        "D": "的"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "应填“下班”。完整句子：她下午五点下班。",
+      "explanation": "应填“也”。完整句子：他也是一名司机。\n语法与搭配：也＋谓语：也有相同情况",
       "optionPinyin": {
-        "A": "lǎo shī",
-        "B": "nǎ lǐ",
-        "C": "xià bān",
-        "D": "tóng shì"
-      }
+        "A": "bǎ",
+        "B": "cóng",
+        "C": "yě",
+        "D": "de"
+      },
+      "targetWord": "也",
+      "completeSentence": "他也是一名司机。",
+      "grammarFocus": "也＋谓语：也有相同情况"
     },
     {
-      "id": 27,
+      "id": 25,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他今天很____。",
-      "pinyin": "tā jīn tiān hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay anh ấy rất bận.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这个岗位____会说中文的人。",
+      "pinyin": "zhè ge gǎng wèi ____ huì shuō zhōng wén de rén 。",
+      "vietnamese": "Gợi ý: cần.",
       "options": {
-        "A": "工作",
-        "B": "商店",
-        "C": "公司",
-        "D": "忙"
+        "A": "的",
+        "B": "吗",
+        "C": "比",
+        "D": "需要"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "应填“忙”。完整句子：他今天很忙。",
+      "explanation": "应填“需要”。完整句子：这个岗位需要会说中文的人。\n语法与搭配：需要＋名词/动词短语",
       "optionPinyin": {
-        "A": "gōng zuò",
-        "B": "shāng diàn",
-        "C": "gōng sī",
-        "D": "máng"
-      }
+        "A": "de",
+        "B": "ma",
+        "C": "bǐ",
+        "D": "xū yào"
+      },
+      "targetWord": "需要",
+      "completeSentence": "这个岗位需要会说中文的人。",
+      "grammarFocus": "需要＋名词/动词短语"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我家____公司不远。",
+      "pinyin": "wǒ jiā ____ gōng sī bù yuǎn 。",
+      "vietnamese": "Gợi ý: cách; chỉ khoảng cách.",
+      "options": {
+        "A": "给",
+        "B": "的",
+        "C": "离",
+        "D": "把"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“离”。完整句子：我家离公司不远。\n语法与搭配：甲＋离＋乙＋远/近/距离",
+      "optionPinyin": {
+        "A": "gěi",
+        "B": "de",
+        "C": "lí",
+        "D": "bǎ"
+      },
+      "targetWord": "离",
+      "completeSentence": "我家离公司不远。",
+      "grammarFocus": "甲＋离＋乙＋远/近/距离"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：弟弟____找第一份工作。",
+      "pinyin": "dì di ____ zhǎo dì yí fèn gōng zuò 。",
+      "vietnamese": "Gợi ý: đang; hành động đang diễn ra.",
+      "options": {
+        "A": "把",
+        "B": "的",
+        "C": "比",
+        "D": "正在"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“正在”。完整句子：弟弟正在找第一份工作。\n语法与搭配：正在＋动词",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "de",
+        "C": "bǐ",
+        "D": "zhèng zài"
+      },
+      "targetWord": "正在",
+      "completeSentence": "弟弟正在找第一份工作。",
+      "grammarFocus": "正在＋动词"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我很____这份工作。",
-      "pinyin": "wǒ hěn ____ zhè fèn gōng zuò 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi rất thích công việc này.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____是这家银行的员工。",
+      "pinyin": "wǒ ____ shì zhè jiā yín háng de yuán gōng 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
       "options": {
-        "A": "同事",
-        "B": "喜欢",
-        "C": "医院",
-        "D": "忙"
+        "A": "把",
+        "B": "不",
+        "C": "比",
+        "D": "的"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“喜欢”。完整句子：我很喜欢这份工作。",
+      "explanation": "应填“不”。完整句子：我不是这家银行的员工。\n语法与搭配：不＋动词/形容词",
       "optionPinyin": {
-        "A": "tóng shì",
-        "B": "xǐ huan",
-        "C": "yī yuàn",
-        "D": "máng"
-      }
+        "A": "bǎ",
+        "B": "bù",
+        "C": "bǐ",
+        "D": "de"
+      },
+      "targetWord": "不",
+      "completeSentence": "我不是这家银行的员工。",
+      "grammarFocus": "不＋动词/形容词"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：姐姐在____工作。",
-      "pinyin": "jiě jie zài ____ gōng zuò 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chị gái làm việc ở cửa hàng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他们____自己的办公室。",
+      "pinyin": "tā men ____ zì jǐ de bàn gōng shì 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
       "options": {
-        "A": "医生",
-        "B": "商店",
-        "C": "学生",
-        "D": "喜欢"
+        "A": "是",
+        "B": "有",
+        "C": "比",
+        "D": "去"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "应填“商店”。完整句子：姐姐在商店工作。",
+      "explanation": "应填“有”。完整句子：他们有自己的办公室。\n语法与搭配：有＋名词：拥有或存在",
       "optionPinyin": {
-        "A": "yī shēng",
-        "B": "shāng diàn",
-        "C": "xué sheng",
-        "D": "xǐ huan"
-      }
+        "A": "shì",
+        "B": "yǒu",
+        "C": "bǐ",
+        "D": "qù"
+      },
+      "targetWord": "有",
+      "completeSentence": "他们有自己的办公室。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：你在____工作？",
-      "pinyin": "nǐ zài ____ gōng zuò ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bạn làm việc ở đâu?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：明天我____去面试。",
+      "pinyin": "míng tiān wǒ ____ qù miàn shì 。",
+      "vietnamese": "Gợi ý: cần/sẽ; chỉ yêu cầu hoặc dự định.",
       "options": {
-        "A": "上班",
-        "B": "哪里",
-        "C": "喜欢",
-        "D": "商店"
+        "A": "把",
+        "B": "的",
+        "C": "比",
+        "D": "要"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "应填“哪里”。完整句子：你在哪里工作？",
+      "explanation": "应填“要”。完整句子：明天我要去面试。\n语法与搭配：要＋动词",
       "optionPinyin": {
-        "A": "shàng bān",
-        "B": "nǎ lǐ",
-        "C": "xǐ huan",
-        "D": "shāng diàn"
-      }
+        "A": "bǎ",
+        "B": "de",
+        "C": "bǐ",
+        "D": "yào"
+      },
+      "targetWord": "要",
+      "completeSentence": "明天我要去面试。",
+      "grammarFocus": "要＋动词"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "你做什么工作?"
       ],
       "points": 2,
-      "explanation": "参考句子：你做什么工作？"
+      "explanation": "参考句子：你做什么工作？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "我是学生."
       ],
       "points": 2,
-      "explanation": "参考句子：我是学生。"
+      "explanation": "参考句子：我是学生。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "她是中文老师."
       ],
       "points": 2,
-      "explanation": "参考句子：她是中文老师。"
+      "explanation": "参考句子：她是中文老师。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -721,7 +784,8 @@
         "爸爸是医生."
       ],
       "points": 2,
-      "explanation": "参考句子：爸爸是医生。"
+      "explanation": "参考句子：爸爸是医生。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -736,7 +800,8 @@
         "他在公司上班."
       ],
       "points": 2,
-      "explanation": "参考句子：他在公司上班。"
+      "explanation": "参考句子：他在公司上班。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 36,
@@ -751,7 +816,8 @@
         "哥哥在医院工作."
       ],
       "points": 2,
-      "explanation": "参考句子：哥哥在医院工作。"
+      "explanation": "参考句子：哥哥在医院工作。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 37,
@@ -766,7 +832,8 @@
         "妈妈在学校教书."
       ],
       "points": 2,
-      "explanation": "参考句子：妈妈在学校教书。"
+      "explanation": "参考句子：妈妈在学校教书。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 38,
@@ -781,7 +848,8 @@
         "这是我的同事."
       ],
       "points": 2,
-      "explanation": "参考句子：这是我的同事。"
+      "explanation": "参考句子：这是我的同事。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -796,7 +864,8 @@
         "王先生是我们的经理."
       ],
       "points": 2,
-      "explanation": "参考句子：王先生是我们的经理。"
+      "explanation": "参考句子：王先生是我们的经理。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -811,7 +880,8 @@
         "我每天八点上班."
       ],
       "points": 2,
-      "explanation": "参考句子：我每天八点上班。"
+      "explanation": "参考句子：我每天八点上班。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -827,7 +897,8 @@
         "她下午五点下班."
       ],
       "points": 2,
-      "explanation": "参考句子：她下午五点下班。"
+      "explanation": "参考句子：她下午五点下班。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -843,7 +914,8 @@
         "他今天很忙."
       ],
       "points": 2,
-      "explanation": "参考句子：他今天很忙。"
+      "explanation": "参考句子：他今天很忙。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -858,7 +930,8 @@
         "我很喜欢这份工作."
       ],
       "points": 2,
-      "explanation": "参考句子：我很喜欢这份工作。"
+      "explanation": "参考句子：我很喜欢这份工作。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -873,7 +946,8 @@
         "姐姐在商店工作."
       ],
       "points": 2,
-      "explanation": "参考句子：姐姐在商店工作。"
+      "explanation": "参考句子：姐姐在商店工作。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 45,
@@ -888,7 +962,8 @@
         "你在哪里工作?"
       ],
       "points": 2,
-      "explanation": "参考句子：你在哪里工作？"
+      "explanation": "参考句子：你在哪里工作？\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 46,
@@ -903,7 +978,8 @@
         "我的工作离家很近."
       ],
       "points": 2,
-      "explanation": "参考句子：我的工作离家很近。"
+      "explanation": "参考句子：我的工作离家很近。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -918,7 +994,8 @@
         "你想当老师吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：你想当老师吗？"
+      "explanation": "参考句子：你想当老师吗？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -933,7 +1010,8 @@
         "他不是医生是老师."
       ],
       "points": 2,
-      "explanation": "参考句子：他不是医生是老师。"
+      "explanation": "参考句子：他不是医生是老师。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -948,7 +1026,8 @@
         "今天公司里有很多人."
       ],
       "points": 2,
-      "explanation": "参考句子：今天公司里有很多人。"
+      "explanation": "参考句子：今天公司里有很多人。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -963,9 +1042,11 @@
         "我和同事一起吃午饭."
       ],
       "points": 2,
-      "explanation": "参考句子：我和同事一起吃午饭。"
+      "explanation": "参考句子：我和同事一起吃午饭。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "59b12d04",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

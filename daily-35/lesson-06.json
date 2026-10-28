@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第06课 你什么时候有空",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“有空”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "yǎo kòng",
         "B": "cǒu kòng",
-        "C": "yǒu kòng",
-        "D": "dǒu kòng"
+        "C": "dǒu kòng",
+        "D": "yǒu kòng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "“有空”读作 yǒu kòng，本课词义：rảnh。"
+      "explanation": "“有空”读作 yǒu kòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "有空"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“见面”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qiàn miàn",
+        "A": "jiàng miàn",
         "B": "biàn miàn",
         "C": "jiàn miàn",
-        "D": "jiàng miàn"
+        "D": "qiàn miàn"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“见面”读作 jiàn miàn，本课词义：gặp mặt。"
+      "explanation": "“见面”读作 jiàn miàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "见面"
     },
     {
       "id": 3,
@@ -47,181 +49,199 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“改成”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎi chén",
-        "B": "gǎi céng",
-        "C": "gěi chéng",
+        "A": "gěi chéng",
+        "B": "gǎi chén",
+        "C": "gǎi céng",
         "D": "gǎi chéng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“改成”读作 gǎi chéng，本课词义：đổi thành。"
+      "explanation": "“改成”读作 gǎi chéng。注意声母、韵母、声调及轻声。",
+      "targetWord": "改成"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“准时”的正确读音。",
+      "text": "【拼音选择】请选择“赴约”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chǔn shí",
-        "B": "zǔn shí",
-        "C": "zhǔn shí",
-        "D": "zhǔn sí"
+        "A": "hù yuē",
+        "B": "cù yuē",
+        "C": "fù yuē",
+        "D": "bù yuē"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "“准时”读作 zhǔn shí，本课词义：đúng giờ。"
+      "explanation": "“赴约”读作 fù yuē。注意声母、韵母、声调及轻声。",
+      "targetWord": "赴约"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“提前”的正确读音。",
+      "text": "【拼音选择】请选择“行程”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tí xián",
-        "B": "bí qián",
-        "C": "tí qiáng",
-        "D": "tí qián"
+        "A": "qíng chéng",
+        "B": "xíng chéng",
+        "C": "xíng chén",
+        "D": "xíng céng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“提前”读作 tí qián，本课词义：trước, sớm。"
+      "explanation": "“行程”读作 xíng chéng。注意声母、韵母、声调及轻声。",
+      "targetWord": "行程"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问你明天下午____吗。",
-      "pinyin": "qǐng wèn nǐ míng tiān xià wǔ ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: rảnh.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请告诉我你____的时间。",
+      "pinyin": "qǐng gào sù wǒ nǐ ____ de shí jiān 。",
+      "vietnamese": "Gợi ý: rảnh rỗi.",
       "options": {
-        "A": "提前",
-        "B": "有空",
+        "A": "改天",
+        "B": "取消",
         "C": "准时",
-        "D": "改成"
+        "D": "空闲"
       },
       "optionPinyin": {
-        "A": "tí qián",
-        "B": "yǒu kòng",
+        "A": "gǎi tiān",
+        "B": "qǔ xiāo",
         "C": "zhǔn shí",
-        "D": "gǎi chéng"
+        "D": "kòng xián"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“有空”（rảnh）。完整表达：请问你明天下午有空吗。"
+      "explanation": "应填“空闲”。完整句子：请告诉我你空闲的时间。\n语法与搭配：的字短语",
+      "targetWord": "空闲",
+      "completeSentence": "请告诉我你空闲的时间。",
+      "grammarFocus": "的字短语"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我们明天下午三点在校门口____吧。",
-      "pinyin": "wǒ men míng tiān xià wǔ sān diǎn zài xiào mén kǒu ____ ba",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: gặp mặt.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：今天不方便，我们____再见吧。",
+      "pinyin": "jīn tiān bù fāng biàn ， wǒ men ____ zài jiàn ba 。",
+      "vietnamese": "Gợi ý: hôm khác.",
       "options": {
         "A": "准时",
-        "B": "见面",
-        "C": "提前",
-        "D": "有空"
+        "B": "取消",
+        "C": "空闲",
+        "D": "改天"
       },
       "optionPinyin": {
         "A": "zhǔn shí",
-        "B": "jiàn miàn",
-        "C": "tí qián",
-        "D": "yǒu kòng"
+        "B": "qǔ xiāo",
+        "C": "kòng xián",
+        "D": "gǎi tiān"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“见面”（gặp mặt）。完整表达：我们明天下午三点在校门口见面吧。"
+      "explanation": "应填“改天”。完整句子：今天不方便，我们改天再见吧。\n语法与搭配：再；吧",
+      "targetWord": "改天",
+      "completeSentence": "今天不方便，我们改天再见吧。",
+      "grammarFocus": "再；吧"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我临时有事能把见面时间____四点吗。",
-      "pinyin": "wǒ lín shí yǒu shì néng bǎ jiàn miàn shí jiān ____ sì diǎn ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đổi thành.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：会议三点开始，请____到达。",
+      "pinyin": "huì yì sān diǎn kāi shǐ ， qǐng ____ dào dá 。",
+      "vietnamese": "Gợi ý: đúng giờ.",
       "options": {
-        "A": "准时",
-        "B": "改成",
-        "C": "见面",
-        "D": "有空"
+        "A": "空闲",
+        "B": "取消",
+        "C": "改天",
+        "D": "准时"
       },
       "optionPinyin": {
-        "A": "zhǔn shí",
-        "B": "gǎi chéng",
-        "C": "jiàn miàn",
-        "D": "yǒu kòng"
+        "A": "kòng xián",
+        "B": "qǔ xiāo",
+        "C": "gǎi tiān",
+        "D": "zhǔn shí"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“改成”（đổi thành）。完整表达：我临时有事能把见面时间改成四点吗。"
+      "explanation": "应填“准时”。完整句子：会议三点开始，请准时到达。\n语法与搭配：请＋状语＋动词",
+      "targetWord": "准时",
+      "completeSentence": "会议三点开始，请准时到达。",
+      "grammarFocus": "请＋状语＋动词"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：没问题我一定____到。",
-      "pinyin": "méi wèn tí wǒ yí dìng ____ dào",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: đúng giờ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：因为临时加班，我只好____约会。",
+      "pinyin": "yīn wèi lín shí jiā bān ， wǒ zhǐ hǎo ____ yuē huì 。",
+      "vietnamese": "Gợi ý: hủy.",
       "options": {
-        "A": "准时",
-        "B": "见面",
-        "C": "改成",
-        "D": "有空"
-      },
-      "optionPinyin": {
-        "A": "zhǔn shí",
-        "B": "jiàn miàn",
-        "C": "gǎi chéng",
-        "D": "yǒu kòng"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“准时”（đúng giờ）。完整表达：没问题我一定准时到。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：如果计划有变化请____告诉我。",
-      "pinyin": "rú guǒ jì huà yǒu biàn huà qǐng ____ gào sù wǒ",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: trước, sớm.",
-      "options": {
-        "A": "见面",
-        "B": "有空",
-        "C": "提前",
+        "A": "空闲",
+        "B": "改天",
+        "C": "取消",
         "D": "准时"
       },
       "optionPinyin": {
-        "A": "jiàn miàn",
-        "B": "yǒu kòng",
-        "C": "tí qián",
+        "A": "kòng xián",
+        "B": "gǎi tiān",
+        "C": "qǔ xiāo",
         "D": "zhǔn shí"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“提前”（trước, sớm）。完整表达：如果计划有变化请提前告诉我。"
+      "explanation": "应填“取消”。完整句子：因为临时加班，我只好取消约会。\n语法与搭配：因为；只好",
+      "targetWord": "取消",
+      "completeSentence": "因为临时加班，我只好取消约会。",
+      "grammarFocus": "因为；只好"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：如果要改时间，请____告诉我。",
+      "pinyin": "rú guǒ yào gǎi shí jiān ， qǐng ____ gào sù wǒ 。",
+      "vietnamese": "Gợi ý: trước (sớm hơn).",
+      "options": {
+        "A": "提前",
+        "B": "准时",
+        "C": "改天",
+        "D": "空闲"
+      },
+      "optionPinyin": {
+        "A": "tí qián",
+        "B": "zhǔn shí",
+        "C": "gǎi tiān",
+        "D": "kòng xián"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“提前”。完整句子：如果要改时间，请提前告诉我。\n语法与搭配：如果……请……",
+      "targetWord": "提前",
+      "completeSentence": "如果要改时间，请提前告诉我。",
+      "grammarFocus": "如果……请……"
     },
     {
       "id": 11,
@@ -352,96 +372,90 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n你 / 明天下午 / 请问 / 有空吗",
-      "pinyin": "nǐ / míng tiān xià wǔ / qǐng wèn / yǒu kòng ma",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n周五晚上 / 有没有时间 / 一起吃饭 / 你",
+      "pinyin": "zhōu wǔ wǎn shàng / yǒu méi yǒu shí jiān / yì qǐ chī fàn / nǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问你明天下午有空吗。",
-        "请问你明天下午有空吗",
-        "请问你明天下午有空吗.",
-        "请问你明天下午有空吗？",
-        "请问你明天下午有空吗?"
+        "你周五晚上有没有时间一起吃饭。",
+        "你周五晚上有没有时间一起吃饭",
+        "你周五晚上有没有时间一起吃饭.",
+        "周五晚上你有没有时间一起吃饭。",
+        "周五晚上你有没有时间一起吃饭",
+        "周五晚上你有没有时间一起吃饭."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：请问你明天下午有空吗。\nqǐng wèn nǐ míng tiān xià wǔ yǒu kòng ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：你周五晚上有没有时间一起吃饭。\nnǐ zhōu wǔ wǎn shàng yǒu méi yǒu shí jiān yì qǐ chī fàn\n语法与搭配：有没有；一起",
+      "grammarFocus": "有没有；一起"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n在校门口 / 我们 / 明天下午三点 / 见面吧",
-      "pinyin": "zài xiào mén kǒu / wǒ men / míng tiān xià wǔ sān diǎn / jiàn miàn ba",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n忙完这件事 / 等我 / 给你回复 / 就",
+      "pinyin": "máng wán zhè jiàn shì / děng wǒ / gěi nǐ huí fù / jiù",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我们明天下午三点在校门口见面吧。",
-        "我们明天下午三点在校门口见面吧",
-        "我们明天下午三点在校门口见面吧.",
-        "我们明天下午三点在校门口见面吧？",
-        "我们明天下午三点在校门口见面吧?",
-        "明天下午三点我们在校门口见面吧",
-        "明天下午三点我们在校门口见面吧。",
-        "明天下午三点我们在校门口见面吧.",
-        "明天下午三点我们在校门口见面吧？",
-        "明天下午三点我们在校门口见面吧?"
+        "等我忙完这件事就给你回复。",
+        "等我忙完这件事就给你回复",
+        "等我忙完这件事就给你回复."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：我们明天下午三点在校门口见面吧。\nwǒ men míng tiān xià wǔ sān diǎn zài xiào mén kǒu jiàn miàn ba。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：等我忙完这件事就给你回复。\nděng wǒ máng wán zhè jiàn shì jiù gěi nǐ huí fù\n语法与搭配：等……就……",
+      "grammarFocus": "等……就……"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 能把见面时间 / 临时有事 / 改成四点吗",
-      "pinyin": "wǒ / néng bǎ jiàn miàn shí jiān / lín shí yǒu shì / gǎi chéng sì diǎn ma",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n下周一吧 / 我们 / 把见面时间 / 改到",
+      "pinyin": "xià zhōu yī ba / wǒ men / bǎ jiàn miàn shí jiān / gǎi dào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我临时有事能把见面时间改成四点吗。",
-        "我临时有事能把见面时间改成四点吗",
-        "我临时有事能把见面时间改成四点吗.",
-        "我临时有事能把见面时间改成四点吗？",
-        "我临时有事能把见面时间改成四点吗?"
+        "我们把见面时间改到下周一吧。",
+        "我们把见面时间改到下周一吧",
+        "我们把见面时间改到下周一吧."
       ],
       "points": 5,
-      "hanziCount": 16,
-      "explanation": "参考表达：我临时有事能把见面时间改成四点吗。\nwǒ lín shí yǒu shì néng bǎ jiàn miàn shí jiān gǎi chéng sì diǎn ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：我们把见面时间改到下周一吧。\nwǒ men bǎ jiàn miàn shí jiān gǎi dào xià zhōu yī ba\n语法与搭配：把……改到……",
+      "grammarFocus": "把……改到……"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 没问题 / 一定 / 准时到",
-      "pinyin": "wǒ / méi wèn tí / yí dìng / zhǔn shí dào",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n下午两点 / 会不会 / 太早了 / 对你来说",
+      "pinyin": "xià wǔ liǎng diǎn / huì bú huì / tài zǎo le / duì nǐ lái shuō",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "没问题我一定准时到。",
-        "没问题我一定准时到",
-        "没问题我一定准时到.",
-        "没问题我一定准时到？",
-        "没问题我一定准时到?"
+        "下午两点对你来说会不会太早了。",
+        "下午两点对你来说会不会太早了",
+        "下午两点对你来说会不会太早了."
       ],
       "points": 5,
-      "hanziCount": 9,
-      "explanation": "参考表达：没问题我一定准时到。\nméi wèn tí wǒ yí dìng zhǔn shí dào。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：下午两点对你来说会不会太早了。\nxià wǔ liǎng diǎn duì nǐ lái shuō huì bú huì tài zǎo le\n语法与搭配：对……来说；会不会",
+      "grammarFocus": "对……来说；会不会"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n计划有变化 / 提前告诉我 / 如果 / 请",
-      "pinyin": "jì huà yǒu biàn huà / tí qián gào sù wǒ / rú guǒ / qǐng",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 周日上午 / 只有 / 可以参加活动",
+      "pinyin": "wǒ / zhōu rì shàng wǔ / zhǐ yǒu / kě yǐ cān jiā huó dòng",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "如果计划有变化请提前告诉我。",
-        "如果计划有变化请提前告诉我",
-        "如果计划有变化请提前告诉我.",
-        "如果计划有变化请提前告诉我？",
-        "如果计划有变化请提前告诉我?"
+        "我只有周日上午可以参加活动。",
+        "我只有周日上午可以参加活动",
+        "我只有周日上午可以参加活动."
       ],
       "points": 5,
       "hanziCount": 13,
-      "explanation": "参考表达：如果计划有变化请提前告诉我。\nrú guǒ jì huà yǒu biàn huà qǐng tí qián gào sù wǒ。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：我只有周日上午可以参加活动。\nwǒ zhǐ yǒu zhōu rì shàng wǔ kě yǐ cān jiā huó dòng\n语法与搭配：只有＋时间",
+      "grammarFocus": "只有＋时间"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

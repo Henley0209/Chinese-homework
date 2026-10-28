@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第16课 我要一杯茶",
-  "description": "Tôi muốn một cốc trà；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Tôi muốn một cốc trà；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“水”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shuǐ",
-        "B": "suǐ",
-        "C": "shǔ",
-        "D": "shuǒ"
+        "A": "suǐ",
+        "B": "chuǐ",
+        "C": "huǐ",
+        "D": "shuǐ"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“水”的正确读音是 shuǐ。"
+      "explanation": "“水”读作 shuǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "水"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“茶”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chá",
-        "B": "cá",
-        "C": "ché",
-        "D": "chuá"
+        "A": "chái",
+        "B": "chán",
+        "C": "cháo",
+        "D": "chá"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“茶”的正确读音是 chá。"
+      "explanation": "“茶”读作 chá。注意声母、韵母、声调及轻声。",
+      "targetWord": "茶"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“咖啡”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "kā hēi",
-        "B": "kā fēi",
-        "C": "kē fēi",
-        "D": "kuā fēi"
+        "B": "cā fēi",
+        "C": "kā fēi",
+        "D": "bā fēi"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“咖啡”的正确读音是 kā fēi。"
+      "explanation": "“咖啡”读作 kā fēi。注意声母、韵母、声调及轻声。",
+      "targetWord": "咖啡"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“牛奶”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "niú něi",
-        "B": "niú nǎi",
+        "B": "liú nǎi",
         "C": "niú lǎi",
-        "D": "liú nǎi"
+        "D": "niú nǎi"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“牛奶”的正确读音是 niú nǎi。"
+      "explanation": "“牛奶”读作 niú nǎi。注意声母、韵母、声调及轻声。",
+      "targetWord": "牛奶"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“果汁”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "guǒ zhī",
-        "B": "guǒ zī",
-        "C": "gǒu zhī",
-        "D": "guǐ zhī"
+        "A": "guǒ zī",
+        "B": "duǒ zhī",
+        "C": "cuǒ zhī",
+        "D": "guǒ zhī"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“果汁”的正确读音是 guǒ zhī。"
+      "explanation": "“果汁”读作 guǒ zhī。注意声母、韵母、声调及轻声。",
+      "targetWord": "果汁"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“杯”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bāi",
+        "A": "bēn",
         "B": "bēi",
-        "C": "pēi",
-        "D": "mēi"
+        "C": "bāi",
+        "D": "bī"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“杯”的正确读音是 bēi。"
+      "explanation": "“杯”读作 bēi。注意声母、韵母、声调及轻声。",
+      "targetWord": "杯"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“瓶”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "pín",
-        "B": "pí",
-        "C": "píng",
-        "D": "bíng"
+        "B": "líng",
+        "C": "míng",
+        "D": "píng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“瓶”的正确读音是 píng。"
+      "explanation": "“瓶”读作 píng。注意声母、韵母、声调及轻声。",
+      "targetWord": "瓶"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“喝”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hā",
-        "B": "hē",
-        "C": "hēi",
-        "D": "hōu"
+        "A": "chē",
+        "B": "dē",
+        "C": "gē",
+        "D": "hē"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“喝”的正确读音是 hē。"
+      "explanation": "“喝”读作 hē。注意声母、韵母、声调及轻声。",
+      "targetWord": "喝"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“渴”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kǎ",
+        "A": "kěn",
         "B": "kě",
-        "C": "kěi",
-        "D": "kǒu"
+        "C": "hě",
+        "D": "gě"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“渴”的正确读音是 kě。"
+      "explanation": "“渴”读作 kě。注意声母、韵母、声调及轻声。",
+      "targetWord": "渴"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“热”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "ròu",
-        "B": "rè",
-        "C": "lè",
-        "D": "shè"
+        "A": "gè",
+        "B": "cè",
+        "C": "rè",
+        "D": "hè"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "“热”的正确读音是 rè。"
+      "explanation": "“热”读作 rè。注意声母、韵母、声调及轻声。",
+      "targetWord": "热"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“冷”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "lěn",
-        "B": "lǒng",
+        "A": "běng",
+        "B": "lěng",
         "C": "něng",
-        "D": "lěng"
+        "D": "děng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“冷”的正确读音是 lěng。"
+      "explanation": "“冷”读作 lěng。注意声母、韵母、声调及轻声。",
+      "targetWord": "冷"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“甜”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tián",
-        "B": "tié",
-        "C": "tán",
-        "D": "dián"
+        "A": "lián",
+        "B": "tián",
+        "C": "dián",
+        "D": "mián"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“甜”的正确读音是 tián。"
+      "explanation": "“甜”读作 tián。注意声母、韵母、声调及轻声。",
+      "targetWord": "甜"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“糖”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tán",
-        "B": "dáng",
-        "C": "táng",
-        "D": "tái"
+        "A": "cáng",
+        "B": "tán",
+        "C": "fáng",
+        "D": "táng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“糖”的正确读音是 táng。"
+      "explanation": "“糖”读作 táng。注意声母、韵母、声调及轻声。",
+      "targetWord": "糖"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“冰”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "bīn",
-        "B": "bī",
-        "C": "pīng",
-        "D": "bīng"
+        "B": "bīng",
+        "C": "bēng",
+        "D": "bāng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“冰”的正确读音是 bīng。"
+      "explanation": "“冰”读作 bīng。注意声母、韵母、声调及轻声。",
+      "targetWord": "冰"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“两”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "liǎng",
-        "B": "liǎn",
-        "C": "niǎng",
-        "D": "liě"
+        "A": "liǎn",
+        "B": "liǎng",
+        "C": "jiǎng",
+        "D": "niǎng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“两”的正确读音是 liǎng。"
+      "explanation": "“两”读作 liǎng。注意声母、韵母、声调及轻声。",
+      "targetWord": "两"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我想喝____。",
-      "pinyin": "wǒ xiǎng hē ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn uống nước.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____一份不加奶的红茶。",
+      "pinyin": "wǒ ____ yí fèn bù jiā nǎi de hóng chá 。",
+      "vietnamese": "Gợi ý: cần/sẽ; chỉ yêu cầu hoặc dự định.",
       "options": {
-        "A": "牛奶",
-        "B": "渴",
-        "C": "水",
-        "D": "瓶"
+        "A": "要",
+        "B": "比",
+        "C": "的",
+        "D": "把"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“水”。完整句子：我想喝水。",
+      "explanation": "应填“要”。完整句子：我要一份不加奶的红茶。\n语法与搭配：要＋动词",
       "optionPinyin": {
-        "A": "niú nǎi",
-        "B": "kě",
-        "C": "shuǐ",
-        "D": "píng"
-      }
+        "A": "yào",
+        "B": "bǐ",
+        "C": "de",
+        "D": "bǎ"
+      },
+      "targetWord": "要",
+      "completeSentence": "我要一份不加奶的红茶。",
+      "grammarFocus": "要＋动词"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：爸爸喜欢喝____。",
-      "pinyin": "bà ba xǐ huan hē ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bố thích uống trà.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____妹妹一杯温开水。",
+      "pinyin": "qǐng ____ mèi mèi yī bēi wēn kāi shuǐ 。",
+      "vietnamese": "Gợi ý: cho; chỉ người nhận.",
       "options": {
-        "A": "茶",
-        "B": "冷",
-        "C": "渴",
-        "D": "牛奶"
+        "A": "比",
+        "B": "给",
+        "C": "的",
+        "D": "吗"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“茶”。完整句子：爸爸喜欢喝茶。",
+      "explanation": "应填“给”。完整句子：请给妹妹一杯温开水。\n语法与搭配：给＋人＋物/动词",
       "optionPinyin": {
-        "A": "chá",
-        "B": "lěng",
-        "C": "kě",
-        "D": "niú nǎi"
-      }
+        "A": "bǐ",
+        "B": "gěi",
+        "C": "de",
+        "D": "ma"
+      },
+      "targetWord": "给",
+      "completeSentence": "请给妹妹一杯温开水。",
+      "grammarFocus": "给＋人＋物/动词"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我要一杯____。",
-      "pinyin": "wǒ yào yī bēi ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn một cốc cà phê.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这____你的饮料。",
+      "pinyin": "zhè ____ nǐ de yǐn liào 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "两",
-        "B": "冰",
-        "C": "咖啡",
-        "D": "热"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“咖啡”。完整句子：我要一杯咖啡。",
-      "optionPinyin": {
-        "A": "liǎng",
-        "B": "bīng",
-        "C": "kā fēi",
-        "D": "rè"
-      }
-    },
-    {
-      "id": 19,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：妹妹早上喝____。",
-      "pinyin": "mèi mei zǎo shang hē ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Em gái uống sữa vào buổi sáng.",
-      "options": {
-        "A": "茶",
-        "B": "咖啡",
-        "C": "糖",
-        "D": "牛奶"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“牛奶”。完整句子：妹妹早上喝牛奶。",
-      "optionPinyin": {
-        "A": "chá",
-        "B": "kā fēi",
-        "C": "táng",
-        "D": "niú nǎi"
-      }
-    },
-    {
-      "id": 20,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：他喜欢喝____。",
-      "pinyin": "tā xǐ huan hē ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Anh ấy thích uống nước trái cây.",
-      "options": {
-        "A": "冰",
-        "B": "杯",
-        "C": "甜",
-        "D": "果汁"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“果汁”。完整句子：他喜欢喝果汁。",
-      "optionPinyin": {
-        "A": "bīng",
-        "B": "bēi",
-        "C": "tián",
-        "D": "guǒ zhī"
-      }
-    },
-    {
-      "id": 21,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请给我一____水。",
-      "pinyin": "qǐng gěi wǒ yī ____ shuǐ 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy cho tôi một cốc nước.",
-      "options": {
-        "A": "冷",
-        "B": "渴",
-        "C": "杯",
-        "D": "热"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“杯”。完整句子：请给我一杯水。",
-      "optionPinyin": {
-        "A": "lěng",
-        "B": "kě",
-        "C": "bēi",
-        "D": "rè"
-      }
-    },
-    {
-      "id": 22,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这____水是我的。",
-      "pinyin": "zhè ____ shuǐ shì wǒ de 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Chai nước này là của tôi.",
-      "options": {
-        "A": "咖啡",
-        "B": "果汁",
-        "C": "瓶",
-        "D": "冷"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“瓶”。完整句子：这瓶水是我的。",
-      "optionPinyin": {
-        "A": "kā fēi",
-        "B": "guǒ zhī",
-        "C": "píng",
-        "D": "lěng"
-      }
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我不想____咖啡。",
-      "pinyin": "wǒ bù xiǎng ____ kā fēi 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi không muốn uống cà phê.",
-      "options": {
-        "A": "糖",
-        "B": "牛奶",
-        "C": "冰",
-        "D": "喝"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“喝”。完整句子：我不想喝咖啡。",
-      "optionPinyin": {
-        "A": "táng",
-        "B": "niú nǎi",
-        "C": "bīng",
-        "D": "hē"
-      }
-    },
-    {
-      "id": 24,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：今天太热，我很____。",
-      "pinyin": "jīn tiān tài rè ， wǒ hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hôm nay nóng quá, tôi rất khát.",
-      "options": {
-        "A": "杯",
-        "B": "瓶",
-        "C": "冰",
-        "D": "渴"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“渴”。完整句子：今天太热，我很渴。",
-      "optionPinyin": {
-        "A": "bēi",
-        "B": "píng",
-        "C": "bīng",
-        "D": "kě"
-      }
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这杯水很____。",
-      "pinyin": "zhè bēi shuǐ hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cốc nước này rất nóng.",
-      "options": {
-        "A": "热",
-        "B": "甜",
-        "C": "果汁",
-        "D": "牛奶"
+        "A": "是",
+        "B": "去",
+        "C": "有",
+        "D": "在"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“热”。完整句子：这杯水很热。",
+      "explanation": "应填“是”。完整句子：这是你的饮料。\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "rè",
-        "B": "tián",
-        "C": "guǒ zhī",
-        "D": "niú nǎi"
-      }
+        "A": "shì",
+        "B": "qù",
+        "C": "yǒu",
+        "D": "zài"
+      },
+      "targetWord": "是",
+      "completeSentence": "这是你的饮料。",
+      "grammarFocus": "是＋名词：判断或说明身份"
+    },
+    {
+      "id": 19,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是妈妈买____豆浆。",
+      "pinyin": "zhè shì mā mā mǎi ____ dòu jiāng 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
+      "options": {
+        "A": "地",
+        "B": "得",
+        "C": "的",
+        "D": "吗"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“的”。完整句子：这是妈妈买的豆浆。\n语法与搭配：修饰语＋的＋名词",
+      "optionPinyin": {
+        "A": "dì",
+        "B": "dé",
+        "C": "de",
+        "D": "ma"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是妈妈买的豆浆。",
+      "grammarFocus": "修饰语＋的＋名词"
+    },
+    {
+      "id": 20,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：桌子上____几罐可乐。",
+      "pinyin": "zhuō zi shàng ____ jǐ guàn kě lè 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
+      "options": {
+        "A": "是",
+        "B": "有",
+        "C": "去",
+        "D": "比"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“有”。完整句子：桌子上有几罐可乐。\n语法与搭配：有＋名词：拥有或存在",
+      "optionPinyin": {
+        "A": "shì",
+        "B": "yǒu",
+        "C": "qù",
+        "D": "bǐ"
+      },
+      "targetWord": "有",
+      "completeSentence": "桌子上有几罐可乐。",
+      "grammarFocus": "有＋名词：拥有或存在"
+    },
+    {
+      "id": 21,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____想加冰块。",
+      "pinyin": "wǒ ____ xiǎng jiā bīng kuài 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
+      "options": {
+        "A": "把",
+        "B": "比",
+        "C": "不",
+        "D": "的"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“不”。完整句子：我不想加冰块。\n语法与搭配：不＋动词/形容词",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "bǐ",
+        "C": "bù",
+        "D": "de"
+      },
+      "targetWord": "不",
+      "completeSentence": "我不想加冰块。",
+      "grammarFocus": "不＋动词/形容词"
+    },
+    {
+      "id": 22,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：服务员____准备饮料。",
+      "pinyin": "fú wù yuán ____ zhǔn bèi yǐn liào 。",
+      "vietnamese": "Gợi ý: đang; hành động đang diễn ra.",
+      "options": {
+        "A": "的",
+        "B": "把",
+        "C": "比",
+        "D": "正在"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“正在”。完整句子：服务员正在准备饮料。\n语法与搭配：正在＋动词",
+      "optionPinyin": {
+        "A": "de",
+        "B": "bǎ",
+        "C": "bǐ",
+        "D": "zhèng zài"
+      },
+      "targetWord": "正在",
+      "completeSentence": "服务员正在准备饮料。",
+      "grammarFocus": "正在＋动词"
+    },
+    {
+      "id": 23,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____买好饮料了。",
+      "pinyin": "wǒ ____ mǎi hǎo yǐn liào le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
+      "options": {
+        "A": "已经",
+        "B": "从",
+        "C": "的",
+        "D": "把"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“已经”。完整句子：我已经买好饮料了。\n语法与搭配：已经……了",
+      "optionPinyin": {
+        "A": "yǐ jīng",
+        "B": "cóng",
+        "C": "de",
+        "D": "bǎ"
+      },
+      "targetWord": "已经",
+      "completeSentence": "我已经买好饮料了。",
+      "grammarFocus": "已经……了"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他____喜欢柠檬茶。",
+      "pinyin": "tā ____ xǐ huān níng méng chá 。",
+      "vietnamese": "Gợi ý: cũng; bổ sung điểm giống nhau.",
+      "options": {
+        "A": "从",
+        "B": "也",
+        "C": "把",
+        "D": "的"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“也”。完整句子：他也喜欢柠檬茶。\n语法与搭配：也＋谓语：也有相同情况",
+      "optionPinyin": {
+        "A": "cóng",
+        "B": "yě",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "也",
+      "completeSentence": "他也喜欢柠檬茶。",
+      "grammarFocus": "也＋谓语：也有相同情况"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____姐姐都不爱碳酸饮料。",
+      "pinyin": "wǒ ____ jiě jiě dōu bù ài tàn suān yǐn liào 。",
+      "vietnamese": "Gợi ý: và; nối hai người hoặc sự vật.",
+      "options": {
+        "A": "很",
+        "B": "和",
+        "C": "吗",
+        "D": "把"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“和”。完整句子：我和姐姐都不爱碳酸饮料。\n语法与搭配：名词/代词＋和＋名词/代词",
+      "optionPinyin": {
+        "A": "hěn",
+        "B": "hé",
+        "C": "ma",
+        "D": "bǎ"
+      },
+      "targetWord": "和",
+      "completeSentence": "我和姐姐都不爱碳酸饮料。",
+      "grammarFocus": "名词/代词＋和＋名词/代词"
     },
     {
       "id": 26,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我想喝____水。",
-      "pinyin": "wǒ xiǎng hē ____ shuǐ 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi muốn uống nước lạnh.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这家店的饮料____那家贵。",
+      "pinyin": "zhè jiā diàn de yǐn liào ____ nà jiā guì 。",
+      "vietnamese": "Gợi ý: hơn; chỉ đối tượng so sánh.",
       "options": {
-        "A": "糖",
-        "B": "咖啡",
-        "C": "冷",
-        "D": "茶"
+        "A": "比",
+        "B": "给",
+        "C": "把",
+        "D": "从"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“冷”。完整句子：我想喝冷水。",
+      "explanation": "应填“比”。完整句子：这家店的饮料比那家贵。\n语法与搭配：甲＋比＋乙＋形容词",
       "optionPinyin": {
-        "A": "táng",
-        "B": "kā fēi",
-        "C": "lěng",
-        "D": "chá"
-      }
+        "A": "bǐ",
+        "B": "gěi",
+        "C": "bǎ",
+        "D": "cóng"
+      },
+      "targetWord": "比",
+      "completeSentence": "这家店的饮料比那家贵。",
+      "grammarFocus": "甲＋比＋乙＋形容词"
     },
     {
       "id": 27,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这杯茶太____了。",
-      "pinyin": "zhè bēi chá tài ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cốc trà này ngọt quá.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我今天____买了一罐汽水。",
+      "pinyin": "wǒ jīn tiān ____ mǎi le yī guàn qì shuǐ 。",
+      "vietnamese": "Gợi ý: chỉ; giới hạn phạm vi hoặc số lượng.",
       "options": {
-        "A": "冰",
-        "B": "牛奶",
-        "C": "渴",
-        "D": "甜"
+        "A": "只",
+        "B": "从",
+        "C": "的",
+        "D": "把"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“甜”。完整句子：这杯茶太甜了。",
+      "explanation": "应填“只”。完整句子：我今天只买了一罐汽水。\n语法与搭配：只＋谓语",
       "optionPinyin": {
-        "A": "bīng",
-        "B": "niú nǎi",
-        "C": "kě",
-        "D": "tián"
-      }
+        "A": "zhǐ",
+        "B": "cóng",
+        "C": "de",
+        "D": "bǎ"
+      },
+      "targetWord": "只",
+      "completeSentence": "我今天只买了一罐汽水。",
+      "grammarFocus": "只＋谓语"
     },
     {
       "id": 28,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的咖啡不加____。",
-      "pinyin": "wǒ de kā fēi bù jiā ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cà phê của tôi không thêm đường.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____要常温的饮料吗？",
+      "pinyin": "nǐ ____ yào cháng wēn de yǐn liào ma ？",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "茶",
-        "B": "冰",
-        "C": "糖",
-        "D": "渴"
+        "A": "想",
+        "B": "的",
+        "C": "比",
+        "D": "把"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“糖”。完整句子：我的咖啡不加糖。",
+      "explanation": "应填“想”。完整句子：你想要常温的饮料吗？\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "chá",
-        "B": "bīng",
-        "C": "táng",
-        "D": "kě"
-      }
+        "A": "xiǎng",
+        "B": "de",
+        "C": "bǐ",
+        "D": "bǎ"
+      },
+      "targetWord": "想",
+      "completeSentence": "你想要常温的饮料吗？",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 29,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：杯子里没有____。",
-      "pinyin": "bēi zi lǐ méi yǒu ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Trong cốc không có đá.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____自己带杯子吗？",
+      "pinyin": "wǒ ____ zì jǐ dài bēi zi ma ？",
+      "vietnamese": "Gợi ý: có thể; xin phép hoặc cho phép.",
       "options": {
-        "A": "热",
-        "B": "两",
-        "C": "冰",
-        "D": "糖"
+        "A": "的",
+        "B": "可以",
+        "C": "把",
+        "D": "比"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“冰”。完整句子：杯子里没有冰。",
+      "explanation": "应填“可以”。完整句子：我可以自己带杯子吗？\n语法与搭配：可以＋动词",
       "optionPinyin": {
-        "A": "rè",
-        "B": "liǎng",
-        "C": "bīng",
-        "D": "táng"
-      }
+        "A": "de",
+        "B": "kě yǐ",
+        "C": "bǎ",
+        "D": "bǐ"
+      },
+      "targetWord": "可以",
+      "completeSentence": "我可以自己带杯子吗？",
+      "grammarFocus": "可以＋动词"
     },
     {
       "id": 30,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请给我____杯茶。",
-      "pinyin": "qǐng gěi wǒ ____ bēi chá 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy cho tôi hai cốc trà.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：饮料____冰箱里。",
+      "pinyin": "yǐn liào ____ bīng xiāng lǐ 。",
+      "vietnamese": "Gợi ý: ở; chỉ vị trí hoặc nơi diễn ra hành động.",
       "options": {
-        "A": "水",
-        "B": "喝",
-        "C": "冷",
-        "D": "两"
+        "A": "从",
+        "B": "在",
+        "C": "比",
+        "D": "给"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“两”。完整句子：请给我两杯茶。",
+      "explanation": "应填“在”。完整句子：饮料在冰箱里。\n语法与搭配：在＋地点＋动词/名词",
       "optionPinyin": {
-        "A": "shuǐ",
-        "B": "hē",
-        "C": "lěng",
-        "D": "liǎng"
-      }
+        "A": "cóng",
+        "B": "zài",
+        "C": "bǐ",
+        "D": "gěi"
+      },
+      "targetWord": "在",
+      "completeSentence": "饮料在冰箱里。",
+      "grammarFocus": "在＋地点＋动词/名词"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "我想喝水."
       ],
       "points": 2,
-      "explanation": "参考句子：我想喝水。"
+      "explanation": "参考句子：我想喝水。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "爸爸喜欢喝茶."
       ],
       "points": 2,
-      "explanation": "参考句子：爸爸喜欢喝茶。"
+      "explanation": "参考句子：爸爸喜欢喝茶。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "我要一杯咖啡."
       ],
       "points": 2,
-      "explanation": "参考句子：我要一杯咖啡。"
+      "explanation": "参考句子：我要一杯咖啡。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -722,7 +785,8 @@
         "妹妹早上喝牛奶."
       ],
       "points": 2,
-      "explanation": "参考句子：妹妹早上喝牛奶。"
+      "explanation": "参考句子：妹妹早上喝牛奶。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -737,7 +801,8 @@
         "他喜欢喝果汁."
       ],
       "points": 2,
-      "explanation": "参考句子：他喜欢喝果汁。"
+      "explanation": "参考句子：他喜欢喝果汁。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -752,7 +817,8 @@
         "请给我一杯水."
       ],
       "points": 2,
-      "explanation": "参考句子：请给我一杯水。"
+      "explanation": "参考句子：请给我一杯水。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 37,
@@ -767,7 +833,8 @@
         "这瓶水是我的."
       ],
       "points": 2,
-      "explanation": "参考句子：这瓶水是我的。"
+      "explanation": "参考句子：这瓶水是我的。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -782,7 +849,8 @@
         "我不想喝咖啡."
       ],
       "points": 2,
-      "explanation": "参考句子：我不想喝咖啡。"
+      "explanation": "参考句子：我不想喝咖啡。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -797,7 +865,8 @@
         "今天太热,我很渴."
       ],
       "points": 2,
-      "explanation": "参考句子：今天太热，我很渴。"
+      "explanation": "参考句子：今天太热，我很渴。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -812,7 +881,8 @@
         "这杯水很热."
       ],
       "points": 2,
-      "explanation": "参考句子：这杯水很热。"
+      "explanation": "参考句子：这杯水很热。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -827,7 +897,8 @@
         "我想喝冷水."
       ],
       "points": 2,
-      "explanation": "参考句子：我想喝冷水。"
+      "explanation": "参考句子：我想喝冷水。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -842,7 +913,8 @@
         "这杯茶太甜了."
       ],
       "points": 2,
-      "explanation": "参考句子：这杯茶太甜了。"
+      "explanation": "参考句子：这杯茶太甜了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -857,7 +929,8 @@
         "我的咖啡不加糖."
       ],
       "points": 2,
-      "explanation": "参考句子：我的咖啡不加糖。"
+      "explanation": "参考句子：我的咖啡不加糖。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -872,7 +945,8 @@
         "杯子里没有冰."
       ],
       "points": 2,
-      "explanation": "参考句子：杯子里没有冰。"
+      "explanation": "参考句子：杯子里没有冰。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -887,7 +961,8 @@
         "请给我两杯茶."
       ],
       "points": 2,
-      "explanation": "参考句子：请给我两杯茶。"
+      "explanation": "参考句子：请给我两杯茶。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 46,
@@ -902,7 +977,8 @@
         "你想喝热水还是冷水?"
       ],
       "points": 2,
-      "explanation": "参考句子：你想喝热水还是冷水？"
+      "explanation": "参考句子：你想喝热水还是冷水？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -917,7 +993,8 @@
         "我每天喝很多水."
       ],
       "points": 2,
-      "explanation": "参考句子：我每天喝很多水。"
+      "explanation": "参考句子：我每天喝很多水。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -932,7 +1009,8 @@
         "这杯咖啡是给你的."
       ],
       "points": 2,
-      "explanation": "参考句子：这杯咖啡是给你的。"
+      "explanation": "参考句子：这杯咖啡是给你的。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 49,
@@ -947,7 +1025,8 @@
         "桌子上有三瓶牛奶."
       ],
       "points": 2,
-      "explanation": "参考句子：桌子上有三瓶牛奶。"
+      "explanation": "参考句子：桌子上有三瓶牛奶。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -962,9 +1041,11 @@
         "我要一杯茶不要糖."
       ],
       "points": 2,
-      "explanation": "参考句子：我要一杯茶不要糖。"
+      "explanation": "参考句子：我要一杯茶不要糖。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "4776fb32",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

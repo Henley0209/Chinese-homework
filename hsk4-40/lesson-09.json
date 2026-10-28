@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第09课 阳光总在风雨后",
-  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“成功”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "céng gōng",
         "B": "chén gōng",
-        "C": "chéng gōng",
-        "D": "cháng gōng"
+        "C": "cháng gōng",
+        "D": "chéng gōng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“成功”的正确读音是 chéng gōng。"
+      "explanation": "“成功”读作 chéng gōng。注意声母、韵母、声调及轻声。",
+      "targetWord": "成功"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“失败”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chī bài",
-        "B": "sī bài",
-        "C": "shī bài",
-        "D": "shī bèi"
+        "A": "shī bèi",
+        "B": "shī bài",
+        "C": "sī bài",
+        "D": "chī bài"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“失败”的正确读音是 shī bài。"
+      "explanation": "“失败”读作 shī bài。注意声母、韵母、声调及轻声。",
+      "targetWord": "失败"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“努力”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "bǔ lì",
-        "B": "nǔ nì",
+        "B": "lǔ lì",
         "C": "nǔ lì",
-        "D": "lǔ lì"
+        "D": "nǔ nì"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“努力”的正确读音是 nǔ lì。"
+      "explanation": "“努力”读作 nǔ lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "努力"
     },
     {
       "id": 4,
@@ -66,7 +69,7 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“坚强”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jiān xiáng",
         "B": "qiān qiáng",
@@ -77,7 +80,8 @@
         "D"
       ],
       "points": 2,
-      "explanation": "“坚强”的正确读音是 jiān qiáng。"
+      "explanation": "“坚强”读作 jiān qiáng。注意声母、韵母、声调及轻声。",
+      "targetWord": "坚强"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“勇敢”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "cǒng gǎn",
         "B": "dǒng gǎn",
-        "C": "yǒng gǎn",
-        "D": "yǒng gǎng"
+        "C": "yǒng gǎng",
+        "D": "yǒng gǎn"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“勇敢”的正确读音是 yǒng gǎn。"
+      "explanation": "“勇敢”读作 yǒng gǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "勇敢"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“挑战”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biǎo zhàn",
-        "B": "tiǎo zhàng",
-        "C": "tiǎo zàn",
-        "D": "tiǎo zhàn"
+        "A": "tiǎo zàn",
+        "B": "tiǎo zhàn",
+        "C": "tiǎo zhàng",
+        "D": "biǎo zhàn"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“挑战”的正确读音是 tiǎo zhàn。"
+      "explanation": "“挑战”读作 tiǎo zhàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "挑战"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“挫折”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cuì zhé",
-        "B": "chuò zhé",
+        "A": "chuò zhé",
+        "B": "cuò zé",
         "C": "cuò zhé",
-        "D": "cuò zé"
+        "D": "cuì zhé"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "“挫折”的正确读音是 cuò zhé。"
+      "explanation": "“挫折”读作 cuò zhé。注意声母、韵母、声调及轻声。",
+      "targetWord": "挫折"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“经历”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "jīn lì",
-        "B": "qīng lì",
-        "C": "jīng lì",
-        "D": "jīng nì"
+        "A": "jīng lì",
+        "B": "jīng nì",
+        "C": "qīng lì",
+        "D": "jīn lì"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“经历”的正确读音是 jīng lì。"
+      "explanation": "“经历”读作 jīng lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "经历"
     },
     {
       "id": 9,
@@ -161,18 +169,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“勇气”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yǒng qì",
-        "B": "yǒng jì",
+        "A": "yǒng jì",
+        "B": "yǒng qì",
         "C": "cǒng qì",
         "D": "yǒng xì"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“勇气”的正确读音是 yǒng qì。"
+      "explanation": "“勇气”读作 yǒng qì。注意声母、韵母、声调及轻声。",
+      "targetWord": "勇气"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“信心”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xìng xīn",
-        "B": "qìn xīn",
-        "C": "xìn qīn",
-        "D": "xìn xīn"
+        "A": "xìn qīn",
+        "B": "xìn xīn",
+        "C": "xìng xīn",
+        "D": "qìn xīn"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“信心”的正确读音是 xìn xīn。"
+      "explanation": "“信心”读作 xìn xīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "信心"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“困难”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "kùn nán",
-        "B": "cùn nán",
-        "C": "kùn náng",
-        "D": "kùn lán"
+        "B": "kùn náng",
+        "C": "kùn lán",
+        "D": "cùn nán"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“困难”的正确读音是 kùn nán。"
+      "explanation": "“困难”读作 kùn nán。注意声母、韵母、声调及轻声。",
+      "targetWord": "困难"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“过程”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cuò chéng",
-        "B": "guò chén",
-        "C": "guò céng",
-        "D": "guò chéng"
+        "A": "guò chén",
+        "B": "guò chéng",
+        "C": "cuò chéng",
+        "D": "guò céng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“过程”的正确读音是 guò chéng。"
+      "explanation": "“过程”读作 guò chéng。注意声母、韵母、声调及轻声。",
+      "targetWord": "过程"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“结果”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bié guǒ",
-        "B": "jié guǒ",
-        "C": "qié guǒ",
-        "D": "dié guǒ"
+        "A": "jié guǒ",
+        "B": "bié guǒ",
+        "C": "dié guǒ",
+        "D": "qié guǒ"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“结果”的正确读音是 jié guǒ。"
+      "explanation": "“结果”读作 jié guǒ。注意声母、韵母、声调及轻声。",
+      "targetWord": "结果"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“鼓励”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǔ lì",
-        "B": "gǔ nì",
-        "C": "bǔ lì",
-        "D": "cǔ lì"
+        "A": "bǔ lì",
+        "B": "cǔ lì",
+        "C": "gǔ nì",
+        "D": "gǔ lì"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“鼓励”的正确读音是 gǔ lì。"
+      "explanation": "“鼓励”读作 gǔ lì。注意声母、韵母、声调及轻声。",
+      "targetWord": "鼓励"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“放弃”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fàng xì",
+        "A": "hàng qì",
         "B": "fàng jì",
-        "C": "fàng qì",
-        "D": "hàng qì"
+        "C": "fàng xì",
+        "D": "fàng qì"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“放弃”的正确读音是 fàng qì。"
+      "explanation": "“放弃”读作 fàng qì。注意声母、韵母、声调及轻声。",
+      "targetWord": "放弃"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“坚持”（kiên trì）。完整句子：即使暂时没有进步，他也坚持每天练习。"
+      "explanation": "应填“坚持”（kiên trì）。完整句子：即使暂时没有进步，他也坚持每天练习。",
+      "targetWord": "坚持",
+      "completeSentence": "即使暂时没有进步，他也坚持每天练习。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“克服”（khắc phục）。完整句子：在朋友帮助下，她克服了害怕开口说汉语的问题。"
+      "explanation": "应填“克服”（khắc phục）。完整句子：在朋友帮助下，她克服了害怕开口说汉语的问题。",
+      "targetWord": "克服",
+      "completeSentence": "在朋友帮助下，她克服了害怕开口说汉语的问题。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“重新”（lại, một lần nữa）。完整句子：电脑出了故障，我只好重新写一遍报告。"
+      "explanation": "应填“重新”（lại, một lần nữa）。完整句子：电脑出了故障，我只好重新写一遍报告。",
+      "targetWord": "重新",
+      "completeSentence": "电脑出了故障，我只好重新写一遍报告。"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“终于”（cuối cùng）。完整句子：经过多次尝试，他终于学会了游泳。"
+      "explanation": "应填“终于”（cuối cùng）。完整句子：经过多次尝试，他终于学会了游泳。",
+      "targetWord": "终于",
+      "completeSentence": "经过多次尝试，他终于学会了游泳。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“失望”（thất vọng）。完整句子：这次成绩不理想，她有点儿失望。"
+      "explanation": "应填“失望”（thất vọng）。完整句子：这次成绩不理想，她有点儿失望。",
+      "targetWord": "失望",
+      "completeSentence": "这次成绩不理想，她有点儿失望。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“积累”（tích lũy）。完整句子：每一次尝试都可以帮助我们积累经验。"
+      "explanation": "应填“积累”（tích lũy）。完整句子：每一次尝试都可以帮助我们积累经验。",
+      "targetWord": "积累",
+      "completeSentence": "每一次尝试都可以帮助我们积累经验。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“冷静”（bình tĩnh）。完整句子：遇到意外时，首先要保持冷静。"
+      "explanation": "应填“冷静”（bình tĩnh）。完整句子：遇到意外时，首先要保持冷静。",
+      "targetWord": "冷静",
+      "completeSentence": "遇到意外时，首先要保持冷静。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“面对”（đối mặt）。完整句子：问题不会自己消失，我们必须勇敢面对。"
+      "explanation": "应填“面对”（đối mặt）。完整句子：问题不会自己消失，我们必须勇敢面对。",
+      "targetWord": "面对",
+      "completeSentence": "问题不会自己消失，我们必须勇敢面对。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“机会”（cơ hội）。完整句子：这次比赛给了他展示自己的机会。"
+      "explanation": "应填“机会”（cơ hội）。完整句子：这次比赛给了他展示自己的机会。",
+      "targetWord": "机会",
+      "completeSentence": "这次比赛给了他展示自己的机会。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“改变”（thay đổi）。完整句子：发现原来的计划行不通后，他决定改变方法。"
+      "explanation": "应填“改变”（thay đổi）。完整句子：发现原来的计划行不通后，他决定改变方法。",
+      "targetWord": "改变",
+      "completeSentence": "发现原来的计划行不通后，他决定改变方法。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“相信”（tin tưởng）。完整句子：只要继续练习，我相信自己能够做到。"
+      "explanation": "应填“相信”（tin tưởng）。完整句子：只要继续练习，我相信自己能够做到。",
+      "targetWord": "相信",
+      "completeSentence": "只要继续练习，我相信自己能够做到。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“承担”（gánh chịu, đảm nhận）。完整句子：出了问题，他主动承担责任，没有推给别人。"
+      "explanation": "应填“承担”（gánh chịu, đảm nhận）。完整句子：出了问题，他主动承担责任，没有推给别人。",
+      "targetWord": "承担",
+      "completeSentence": "出了问题，他主动承担责任，没有推给别人。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“成长”（trưởng thành）。完整句子：离开父母独自生活，让她成长了很多。"
+      "explanation": "应填“成长”（trưởng thành）。完整句子：离开父母独自生活，让她成长了很多。",
+      "targetWord": "成长",
+      "completeSentence": "离开父母独自生活，让她成长了很多。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“收获”（thu hoạch, điều nhận được）。完整句子：虽然没有获奖，但这次参赛的收获很大。"
+      "explanation": "应填“收获”（thu hoạch, điều nhận được）。完整句子：虽然没有获奖，但这次参赛的收获很大。",
+      "targetWord": "收获",
+      "completeSentence": "虽然没有获奖，但这次参赛的收获很大。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“总结”（tổng kết）。完整句子：失败以后，我们应该认真总结原因。"
+      "explanation": "应填“总结”（tổng kết）。完整句子：失败以后，我们应该认真总结原因。",
+      "targetWord": "总结",
+      "completeSentence": "失败以后，我们应该认真总结原因。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "失败并不意味着一切都结束了它也可能是新的开始."
       ],
       "points": 2,
-      "explanation": "参考句子：失败并不意味着一切都结束了它也可能是新的开始。\nshī bài bìng bù yì wèi zhe yī qiè dōu jié shù le tā yě kě néng shì xīn de kāi shǐ 。",
-      "hanziCount": 22
+      "explanation": "参考句子：失败并不意味着一切都结束了它也可能是新的开始。\nshī bài bìng bù yì wèi zhe yī qiè dōu jié shù le tā yě kě néng shì xīn de kāi shǐ 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "尽管这次比赛没有得到理想的成绩他仍然没有放弃."
       ],
       "points": 2,
-      "explanation": "参考句子：尽管这次比赛没有得到理想的成绩他仍然没有放弃。\njǐn guǎn zhè cì bǐ sài méi yǒu dé dào lǐ xiǎng de chéng jì tā réng rán méi yǒu fàng qì 。",
-      "hanziCount": 22
+      "explanation": "参考句子：尽管这次比赛没有得到理想的成绩他仍然没有放弃。\njǐn guǎn zhè cì bǐ sài méi yǒu dé dào lǐ xiǎng de chéng jì tā réng rán méi yǒu fàng qì 。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "hanziCount": 22,
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "正是那些困难的经历让她变得比以前更加坚强."
       ],
       "points": 2,
-      "explanation": "参考句子：正是那些困难的经历让她变得比以前更加坚强。\nzhèng shì nà xiē kùn nán de jīng lì ràng tā biàn dé bǐ yǐ qián gèng jiā jiān qiáng 。",
-      "hanziCount": 20
+      "explanation": "参考句子：正是那些困难的经历让她变得比以前更加坚强。\nzhèng shì nà xiē kùn nán de jīng lì ràng tā biàn dé bǐ yǐ qián gèng jiā jiān qiáng 。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "hanziCount": 20,
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "如果遇到一点困难就后退我们永远无法真正取得进步."
       ],
       "points": 2,
-      "explanation": "参考句子：如果遇到一点困难就后退我们永远无法真正取得进步。\nrú guǒ yù dào yì diǎn kùn nán jiù hòu tuì wǒ men yǒng yuǎn wú fǎ zhēn zhèng qǔ dé jìn bù 。",
-      "hanziCount": 23
+      "explanation": "参考句子：如果遇到一点困难就后退我们永远无法真正取得进步。\nrú guǒ yù dào yì diǎn kùn nán jiù hòu tuì wǒ men yǒng yuǎn wú fǎ zhēn zhèng qǔ dé jìn bù 。\n语法与搭配：如果……就……：假设条件",
+      "hanziCount": 23,
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "在老师和朋友的鼓励下他终于走出了失败的阴影."
       ],
       "points": 2,
-      "explanation": "参考句子：在老师和朋友的鼓励下他终于走出了失败的阴影。\nzài lǎo shī hé péng you de gǔ lì xià tā zhōng yú zǒu chū le shī bài de yīn yǐng 。",
-      "hanziCount": 21
+      "explanation": "参考句子：在老师和朋友的鼓励下他终于走出了失败的阴影。\nzài lǎo shī hé péng you de gǔ lì xià tā zhōng yú zǒu chū le shī bài de yīn yǐng 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 21,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "每次遇到问题她都会先冷静思考然后再寻找解决办法."
       ],
       "points": 2,
-      "explanation": "参考句子：每次遇到问题她都会先冷静思考然后再寻找解决办法。\nměi cì yù dào wèn tí tā dū huì xiān lěng jìng sī kǎo rán hòu zài xún zhǎo jiě jué bàn fǎ 。",
-      "hanziCount": 23
+      "explanation": "参考句子：每次遇到问题她都会先冷静思考然后再寻找解决办法。\nměi cì yù dào wèn tí tā dū huì xiān lěng jìng sī kǎo rán hòu zài xún zhǎo jiě jué bàn fǎ 。\n语法与搭配：先……再……：动作先后顺序",
+      "hanziCount": 23,
+      "grammarFocus": "先……再……：动作先后顺序"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "成功往往不是一次就能得到的而是长期努力的结果."
       ],
       "points": 2,
-      "explanation": "参考句子：成功往往不是一次就能得到的而是长期努力的结果。\nchéng gōng wǎng wǎng bú shì yī cì jiù néng dé dào de ér shì cháng qī nǔ lì de jié guǒ 。",
-      "hanziCount": 22
+      "explanation": "参考句子：成功往往不是一次就能得到的而是长期努力的结果。\nchéng gōng wǎng wǎng bú shì yī cì jiù néng dé dào de ér shì cháng qī nǔ lì de jié guǒ 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 22,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "虽然前面的路还很长我们也应该勇敢地继续走下去."
       ],
       "points": 2,
-      "explanation": "参考句子：虽然前面的路还很长我们也应该勇敢地继续走下去。\nsuī rán qián miàn de lù hái hěn zhǎng wǒ men yě yīng gāi yǒng gǎn dì jì xù zǒu xià qù 。",
-      "hanziCount": 22
+      "explanation": "参考句子：虽然前面的路还很长我们也应该勇敢地继续走下去。\nsuī rán qián miàn de lù hái hěn zhǎng wǒ men yě yīng gāi yǒng gǎn dì jì xù zǒu xià qù 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "他把每次失败都当作一次重新认识自己的机会."
       ],
       "points": 2,
-      "explanation": "参考句子：他把每次失败都当作一次重新认识自己的机会。\ntā bǎ měi cì shī bài dōu dàng zuò yī cì chóng xīn rèn shí zì jǐ de jī huì 。",
-      "hanziCount": 20
+      "explanation": "参考句子：他把每次失败都当作一次重新认识自己的机会。\ntā bǎ měi cì shī bài dōu dàng zuò yī cì chóng xīn rèn shí zì jǐ de jī huì 。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "hanziCount": 20,
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "只有认真总结过去的经验才能避免再次犯同样的错误."
       ],
       "points": 2,
-      "explanation": "参考句子：只有认真总结过去的经验才能避免再次犯同样的错误。\nzhǐ yǒu rèn zhēn zǒng jié guò qù de jīng yàn cái néng bì miǎn zài cì fàn tóng yàng de cuò wù 。",
-      "hanziCount": 23
+      "explanation": "参考句子：只有认真总结过去的经验才能避免再次犯同样的错误。\nzhǐ yǒu rèn zhēn zǒng jié guò qù de jīng yàn cái néng bì miǎn zài cì fàn tóng yàng de cuò wù 。\n语法与搭配：只有……才……：必要条件",
+      "hanziCount": 23,
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "老师希望大家认真分析面对失败时的真实感受."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析面对失败时的真实感受。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī miàn duì shī bài shí de zhēn shí gǎn shòu 。",
-      "hanziCount": 20
+      "explanation": "参考句子：老师希望大家认真分析面对失败时的真实感受。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī miàn duì shī bài shí de zhēn shí gǎn shòu 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "我们有必要深入了解重新开始需要的勇气."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解重新开始需要的勇气。\nwǒ men yǒu bì yào shēn rù liǎo jiě chóng xīn kāi shǐ xū yào de yǒng qì 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们有必要深入了解重新开始需要的勇气。\nwǒ men yǒu bì yào shēn rù liǎo jiě chóng xīn kāi shǐ xū yào de yǒng qì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "他在报告中详细介绍了朋友鼓励自己的经历."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了朋友鼓励自己的经历。\ntā zài bào gào zhōng xiáng xì jiè shào le péng you gǔ lì zì jǐ de jīng lì 。",
-      "hanziCount": 19
+      "explanation": "参考句子：他在报告中详细介绍了朋友鼓励自己的经历。\ntā zài bào gào zhōng xiáng xì jiè shào le péng you gǔ lì zì jǐ de jīng lì 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 19,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "请大家先讨论一下怎样克服学习上的困难."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下怎样克服学习上的困难。\nqǐng dà jiā xiān tǎo lùn yī xià zěn yàng kè fú xué xí shàng de kùn nán 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请大家先讨论一下怎样克服学习上的困难。\nqǐng dà jiā xiān tǎo lùn yī xià zěn yàng kè fú xué xí shàng de kùn nán 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "我想请老师进一步解释失败之后应该做些什么."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释失败之后应该做些什么。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì shī bài zhī hòu yīng gāi zuò xiē shén me 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我想请老师进一步解释失败之后应该做些什么。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì shī bài zhī hòu yīng gāi zuò xiē shén me 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "同学们正在一起讨论坚持与调整之间的关系."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论坚持与调整之间的关系。\ntóng xué men zhèng zài yì qǐ tǎo lùn jiān chí yǔ tiáo zhěng zhī jiān de guān xi 。",
-      "hanziCount": 19
+      "explanation": "参考句子：同学们正在一起讨论坚持与调整之间的关系。\ntóng xué men zhèng zài yì qǐ tǎo lùn jiān chí yǔ tiáo zhěng zhī jiān de guān xi 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 19,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "老师请我们认真讨论从错误中积累的经验."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论从错误中积累的经验。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn cóng cuò wù zhōng jī lěi de jīng yàn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：老师请我们认真讨论从错误中积累的经验。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn cóng cuò wù zhōng jī lěi de jīng yàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "我们应该提前了解成功背后付出的努力."
       ],
       "points": 2,
-      "explanation": "参考句子：我们应该提前了解成功背后付出的努力。\nwǒ men yīng gāi tí qián liǎo jiě chéng gōng bèi hòu fù chū de nǔ lì 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我们应该提前了解成功背后付出的努力。\nwǒ men yīng gāi tí qián liǎo jiě chéng gōng bèi hòu fù chū de nǔ lì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "大家可以一起讨论对未来保持信心的理由."
       ],
       "points": 2,
-      "explanation": "参考句子：大家可以一起讨论对未来保持信心的理由。\ndà jiā kě yǐ yì qǐ tǎo lùn duì wèi lái bǎo chí xìn xīn de lǐ yóu 。",
-      "hanziCount": 18
+      "explanation": "参考句子：大家可以一起讨论对未来保持信心的理由。\ndà jiā kě yǐ yì qǐ tǎo lùn duì wèi lái bǎo chí xìn xīn de lǐ yóu 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "我已经认真考虑过困难经历带来的成长."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经认真考虑过困难经历带来的成长。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò kùn nán jīng lì dài lái de chéng zhǎng 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我已经认真考虑过困难经历带来的成长。\nwǒ yǐ jīng rèn zhēn kǎo lǜ guò kùn nán jīng lì dài lái de chéng zhǎng 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 17,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

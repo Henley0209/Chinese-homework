@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第14课 我想试一下这件衣服",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,37 +9,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“试穿”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shì cuān",
-        "B": "sì chuān",
+        "A": "sì chuān",
+        "B": "shì chuān",
         "C": "shì chuāng",
-        "D": "shì chuān"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "“试穿”读作 shì chuān，本课词义：thử đồ。"
-    },
-    {
-      "id": 2,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“尺码”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "chě mǎ",
-        "B": "chǐ mǎ",
-        "C": "chuǐ mǎ",
-        "D": "cǐ mǎ"
+        "D": "shì cuān"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“尺码”读作 chǐ mǎ，本课词义：kích cỡ。"
+      "explanation": "“试穿”读作 shì chuān。注意声母、韵母、声调及轻声。",
+      "targetWord": "试穿"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“款式”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "duǎn shì",
+        "B": "kuǎn sì",
+        "C": "kuǎng shì",
+        "D": "kuǎn shì"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“款式”读作 kuǎn shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "款式"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“颜色”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yán shè",
-        "B": "yáng sè",
-        "C": "cán sè",
+        "A": "cán sè",
+        "B": "yán shè",
+        "C": "yáng sè",
         "D": "yán sè"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“颜色”读作 yán sè，本课词义：màu sắc。"
+      "explanation": "“颜色”读作 yán sè。注意声母、韵母、声调及轻声。",
+      "targetWord": "颜色"
     },
     {
       "id": 4,
@@ -66,162 +69,179 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“合适”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dé shì",
+        "A": "hé sì",
         "B": "hé shì",
         "C": "ché shì",
-        "D": "hé sì"
+        "D": "dé shì"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“合适”读作 hé shì，本课词义：vừa vặn。"
+      "explanation": "“合适”读作 hé shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "合适"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“试衣间”的正确读音。",
+      "text": "【拼音选择】请选择“面料”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shì yī jiān",
-        "B": "sì yī jiān",
-        "C": "shì yī jiāng",
-        "D": "shì yī qiān"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“试衣间”读作 shì yī jiān，本课词义：phòng thử đồ。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这件衣服可以____吗。",
-      "pinyin": "qǐng wèn zhè jiàn yī fu kě yǐ ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thử đồ.",
-      "options": {
-        "A": "试衣间",
-        "B": "合适",
-        "C": "颜色",
-        "D": "试穿"
-      },
-      "optionPinyin": {
-        "A": "shì yī jiān",
-        "B": "hé shì",
-        "C": "yán sè",
-        "D": "shì chuān"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“试穿”（thử đồ）。完整表达：请问这件衣服可以试穿吗。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问还有大一点的____吗。",
-      "pinyin": "qǐng wèn hái yǒu dà yī diǎn de ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: kích cỡ.",
-      "options": {
-        "A": "合适",
-        "B": "试衣间",
-        "C": "尺码",
-        "D": "颜色"
-      },
-      "optionPinyin": {
-        "A": "hé shì",
-        "B": "shì yī jiān",
-        "C": "chǐ mǎ",
-        "D": "yán sè"
+        "A": "diàn liào",
+        "B": "biàn liào",
+        "C": "miàn liào",
+        "D": "miàn niào"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“尺码”（kích cỡ）。完整表达：请问还有大一点的尺码吗。"
+      "explanation": "“面料”读作 miàn liào。注意声母、韵母、声调及轻声。",
+      "targetWord": "面料"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这件太小了，有大一号的____吗？",
+      "pinyin": "zhè jiàn tài xiǎo le ， yǒu dà yī hào de ____ ma ？",
+      "vietnamese": "Gợi ý: cỡ (quần áo).",
+      "options": {
+        "A": "尺码",
+        "B": "合身",
+        "C": "纯棉",
+        "D": "试衣间"
+      },
+      "optionPinyin": {
+        "A": "chǐ mǎ",
+        "B": "hé shēn",
+        "C": "chún mián",
+        "D": "shì yī jiān"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“尺码”。完整句子：这件太小了，有大一号的尺码吗？\n语法与搭配：太……了；大一号",
+      "targetWord": "尺码",
+      "completeSentence": "这件太小了，有大一号的尺码吗？",
+      "grammarFocus": "太……了；大一号"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请问____在哪里，我想试穿这条裤子。",
+      "pinyin": "qǐng wèn ____ zài nǎ lǐ ， wǒ xiǎng shì chuān zhè tiáo kù zi 。",
+      "vietnamese": "Gợi ý: phòng thử đồ.",
+      "options": {
+        "A": "尺码",
+        "B": "试衣间",
+        "C": "合身",
+        "D": "纯棉"
+      },
+      "optionPinyin": {
+        "A": "chǐ mǎ",
+        "B": "shì yī jiān",
+        "C": "hé shēn",
+        "D": "chún mián"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“试衣间”。完整句子：请问试衣间在哪里，我想试穿这条裤子。\n语法与搭配：在哪里；想",
+      "targetWord": "试衣间",
+      "completeSentence": "请问试衣间在哪里，我想试穿这条裤子。",
+      "grammarFocus": "在哪里；想"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这件衬衫还有别的____吗。",
-      "pinyin": "zhè jiàn chèn shān hái yǒu bié de ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: màu sắc.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我想买____的衣服，穿着舒服。",
+      "pinyin": "wǒ xiǎng mǎi ____ de yī fu ， chuān zhe shū fú 。",
+      "vietnamese": "Gợi ý: cotton nguyên chất.",
       "options": {
-        "A": "试穿",
-        "B": "尺码",
-        "C": "合适",
-        "D": "颜色"
-      },
-      "optionPinyin": {
-        "A": "shì chuān",
-        "B": "chǐ mǎ",
-        "C": "hé shì",
-        "D": "yán sè"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“颜色”（màu sắc）。完整表达：这件衬衫还有别的颜色吗。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这条裤子长短正____。",
-      "pinyin": "zhè tiáo kù zi cháng duǎn zhèng ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: vừa vặn.",
-      "options": {
-        "A": "颜色",
-        "B": "试穿",
+        "A": "合身",
+        "B": "纯棉",
         "C": "试衣间",
-        "D": "合适"
-      },
-      "optionPinyin": {
-        "A": "yán sè",
-        "B": "shì chuān",
-        "C": "shì yī jiān",
-        "D": "hé shì"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“合适”（vừa vặn）。完整表达：这条裤子长短正合适。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：麻烦告诉我____在哪里。",
-      "pinyin": "má fán gào sù wǒ ____ zài nǎ lǐ",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: phòng thử đồ.",
-      "options": {
-        "A": "试穿",
-        "B": "试衣间",
-        "C": "合适",
         "D": "尺码"
       },
       "optionPinyin": {
-        "A": "shì chuān",
-        "B": "shì yī jiān",
-        "C": "hé shì",
+        "A": "hé shēn",
+        "B": "chún mián",
+        "C": "shì yī jiān",
         "D": "chǐ mǎ"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“试衣间”（phòng thử đồ）。完整表达：麻烦告诉我试衣间在哪里。"
+      "explanation": "应填“纯棉”。完整句子：我想买纯棉的衣服，穿着舒服。\n语法与搭配：的字短语；着",
+      "targetWord": "纯棉",
+      "completeSentence": "我想买纯棉的衣服，穿着舒服。",
+      "grammarFocus": "的字短语；着"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这件不大也不小，穿上很____。",
+      "pinyin": "zhè jiàn bù dà yě bù xiǎo ， chuān shàng hěn ____。",
+      "vietnamese": "Gợi ý: vừa người.",
+      "options": {
+        "A": "试衣间",
+        "B": "尺码",
+        "C": "合身",
+        "D": "纯棉"
+      },
+      "optionPinyin": {
+        "A": "shì yī jiān",
+        "B": "chǐ mǎ",
+        "C": "hé shēn",
+        "D": "chún mián"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“合身”。完整句子：这件不大也不小，穿上很合身。\n语法与搭配：不……也不……",
+      "targetWord": "合身",
+      "completeSentence": "这件不大也不小，穿上很合身。",
+      "grammarFocus": "不……也不……"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这件上衣的____有点长。",
+      "pinyin": "zhè jiàn shàng yī de ____ yǒu diǎn zhǎng 。",
+      "vietnamese": "Gợi ý: tay áo.",
+      "options": {
+        "A": "试衣间",
+        "B": "尺码",
+        "C": "纯棉",
+        "D": "袖子"
+      },
+      "optionPinyin": {
+        "A": "shì yī jiān",
+        "B": "chǐ mǎ",
+        "C": "chún mián",
+        "D": "xiù zi"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“袖子”。完整句子：这件上衣的袖子有点长。\n语法与搭配：有点＋形容词",
+      "targetWord": "袖子",
+      "completeSentence": "这件上衣的袖子有点长。",
+      "grammarFocus": "有点＋形容词"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 试穿吗 / 可以 / 这件衣服",
-      "pinyin": "qǐng wèn / shì chuān ma / kě yǐ / zhè jiàn yī fu",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n有没有 / 跟这件一样 / 颜色浅一点的 / 但是",
+      "pinyin": "yǒu méi yǒu / gēn zhè jiàn yí yàng / yán sè qiǎn yì diǎn de / dàn shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这件衣服可以试穿吗。",
-        "请问这件衣服可以试穿吗",
-        "请问这件衣服可以试穿吗.",
-        "请问这件衣服可以试穿吗？",
-        "请问这件衣服可以试穿吗?"
+        "有没有跟这件一样但是颜色浅一点的。",
+        "有没有跟这件一样但是颜色浅一点的",
+        "有没有跟这件一样但是颜色浅一点的."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请问这件衣服可以试穿吗。\nqǐng wèn zhè jiàn yī fu kě yǐ shì chuān ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：有没有跟这件一样但是颜色浅一点的。\nyǒu méi yǒu gēn zhè jiàn yí yàng dàn shì yán sè qiǎn yì diǎn de\n语法与搭配：跟……一样；一点",
+      "grammarFocus": "跟……一样；一点"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n还有 / 请问 / 大一点的 / 尺码吗",
-      "pinyin": "hái yǒu / qǐng wèn / dà yī diǎn de / chǐ mǎ ma",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n更 / 比刚才那条 / 这条裤子 / 适合你",
+      "pinyin": "gèng / bǐ gāng cái nà tiáo / zhè tiáo kù zi / shì hé nǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问还有大一点的尺码吗。",
-        "请问还有大一点的尺码吗",
-        "请问还有大一点的尺码吗.",
-        "请问还有大一点的尺码吗？",
-        "请问还有大一点的尺码吗?"
+        "这条裤子比刚才那条更适合你。",
+        "这条裤子比刚才那条更适合你",
+        "这条裤子比刚才那条更适合你."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请问还有大一点的尺码吗。\nqǐng wèn hái yǒu dà yī diǎn de chǐ mǎ ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：这条裤子比刚才那条更适合你。\nzhè tiáo kù zi bǐ gāng cái nà tiáo gèng shì hé nǐ\n语法与搭配：比……更……",
+      "grammarFocus": "比……更……"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n还有 / 吗 / 这件衬衫 / 别的颜色",
-      "pinyin": "hái yǒu / ma / zhè jiàn chèn shān / bié de yán sè",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n宽松一点的 / 不喜欢太紧的 / 我 / 想试试",
+      "pinyin": "kuān sōng yì diǎn de / bù xǐ huān tài jǐn de / wǒ / xiǎng shì shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这件衬衫还有别的颜色吗。",
-        "这件衬衫还有别的颜色吗",
-        "这件衬衫还有别的颜色吗.",
-        "这件衬衫还有别的颜色吗？",
-        "这件衬衫还有别的颜色吗?"
+        "我不喜欢太紧的想试试宽松一点的。",
+        "我不喜欢太紧的想试试宽松一点的",
+        "我不喜欢太紧的想试试宽松一点的."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：这件衬衫还有别的颜色吗。\nzhè jiàn chèn shān hái yǒu bié de yán sè ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：我不喜欢太紧的想试试宽松一点的。\nwǒ bù xǐ huān tài jǐn de xiǎng shì shì kuān sōng yì diǎn de\n语法与搭配：的字短语；动词重叠",
+      "grammarFocus": "的字短语；动词重叠"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n长短 / 正 / 这条裤子 / 合适",
-      "pinyin": "cháng duǎn / zhèng / zhè tiáo kù zi / hé shì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还能 / 要是 / 换吗 / 洗过以后缩水",
+      "pinyin": "hái néng / yào shì / huàn ma / xǐ guò yǐ hòu suō shuǐ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这条裤子长短正合适。",
-        "这条裤子长短正合适",
-        "这条裤子长短正合适.",
-        "这条裤子长短正合适？",
-        "这条裤子长短正合适?"
+        "要是洗过以后缩水还能换吗？",
+        "要是洗过以后缩水还能换吗",
+        "要是洗过以后缩水还能换吗?"
       ],
       "points": 5,
-      "hanziCount": 9,
-      "explanation": "参考表达：这条裤子长短正合适。\nzhè tiáo kù zi cháng duǎn zhèng hé shì。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：要是洗过以后缩水还能换吗？\nyào shì xǐ guò yǐ hòu suō shuǐ hái néng huàn ma\n语法与搭配：要是；……以后",
+      "grammarFocus": "要是；……以后"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n在哪里 / 试衣间 / 麻烦 / 告诉我",
-      "pinyin": "zài nǎ lǐ / shì yī jiān / má fán / gào sù wǒ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n小一号的 / 麻烦 / 帮我找一件 / 蓝色外套",
+      "pinyin": "xiǎo yī hào de / má fán / bāng wǒ zhǎo yī jiàn / lán sè wài tào",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦告诉我试衣间在哪里。",
-        "麻烦告诉我试衣间在哪里",
-        "麻烦告诉我试衣间在哪里.",
-        "麻烦告诉我试衣间在哪里？",
-        "麻烦告诉我试衣间在哪里?"
+        "麻烦帮我找一件小一号的蓝色外套。",
+        "麻烦帮我找一件小一号的蓝色外套",
+        "麻烦帮我找一件小一号的蓝色外套."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：麻烦告诉我试衣间在哪里。\nmá fán gào sù wǒ shì yī jiān zài nǎ lǐ。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：麻烦帮我找一件小一号的蓝色外套。\nmá fán bāng wǒ zhǎo yī jiàn xiǎo yī hào de lán sè wài tào\n语法与搭配：帮；数量差",
+      "grammarFocus": "帮；数量差"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

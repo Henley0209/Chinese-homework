@@ -1,26 +1,27 @@
 {
   "title": "日常交际 第32课 谢谢你，麻烦你了",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“帮忙”的正确读音。",
+      "text": "【拼音选择】请选择“劳烦”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bān máng",
-        "B": "bāng máng",
-        "C": "bēng máng",
-        "D": "bāng mán"
+        "A": "náo fán",
+        "B": "láo fán",
+        "C": "láo hán",
+        "D": "láo fáng"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“帮忙”读作 bāng máng，本课词义：giúp đỡ。"
+      "explanation": "“劳烦”读作 láo fán。注意声母、韵母、声调及轻声。",
+      "targetWord": "劳烦"
     },
     {
       "id": 2,
@@ -28,37 +29,39 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“感谢”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎn xiè",
-        "B": "gǎng xiè",
-        "C": "bǎn xiè",
-        "D": "gǎn qiè"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "“感谢”读作 gǎn xiè，本课词义：cảm ơn。"
-    },
-    {
-      "id": 3,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“举手之劳”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "jǔ sǒu zhī láo",
-        "B": "jǔ shǒu zhī láo",
-        "C": "jǔ shǒu zī láo",
-        "D": "jǔ shǒu zhī náo"
+        "A": "bǎn xiè",
+        "B": "gǎn xiè",
+        "C": "gǎn qiè",
+        "D": "gǎng xiè"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "“举手之劳”读作 jǔ shǒu zhī láo，本课词义：việc nhỏ, tiện tay giúp。"
+      "explanation": "“感谢”读作 gǎn xiè。注意声母、韵母、声调及轻声。",
+      "targetWord": "感谢"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“费心”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "fèi xīng",
+        "B": "fèi xīn",
+        "C": "fèi qīn",
+        "D": "bèi xīn"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "“费心”读作 fèi xīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "费心"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“麻烦”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "má fáng",
-        "B": "bá fán",
-        "C": "má hán",
-        "D": "má fán"
+        "B": "má hán",
+        "C": "má fán",
+        "D": "bá fán"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“麻烦”读作 má fán，本课词义：làm phiền。"
+      "explanation": "“麻烦”读作 má fán。注意声母、韵母、声调及轻声。",
+      "targetWord": "麻烦"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“搬”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bān",
-        "B": "bāng",
-        "C": "biān",
-        "D": "bā"
+        "A": "bā",
+        "B": "biān",
+        "C": "bāng",
+        "D": "bān"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“搬”读作 bān，本课词义：khiêng, chuyển。"
+      "explanation": "“搬”读作 bān。注意声母、韵母、声调及轻声。",
+      "targetWord": "搬"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：不好意思可以请你____吗。",
-      "pinyin": "bù hǎo yì sī kě yǐ qǐng nǐ ____ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: giúp đỡ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这件事我一个人做不完，想请你____。",
+      "pinyin": "zhè jiàn shì wǒ yí gè rén zuò bù wán ， xiǎng qǐng nǐ ____。",
+      "vietnamese": "Gợi ý: giúp đỡ.",
       "options": {
-        "A": "感谢",
-        "B": "麻烦",
-        "C": "帮忙",
-        "D": "搬"
+        "A": "辛苦",
+        "B": "感激",
+        "C": "举手之劳",
+        "D": "帮忙"
       },
       "optionPinyin": {
-        "A": "gǎn xiè",
-        "B": "má fán",
-        "C": "bāng máng",
-        "D": "bān"
+        "A": "xīn kǔ",
+        "B": "gǎn jī",
+        "C": "jǔ shǒu zhī láo",
+        "D": "bāng máng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 5,
-      "explanation": "应填“帮忙”（giúp đỡ）。完整表达：不好意思可以请你帮忙吗。"
+      "explanation": "应填“帮忙”。完整句子：这件事我一个人做不完，想请你帮忙。\n语法与搭配：动词＋不完；请",
+      "targetWord": "帮忙",
+      "completeSentence": "这件事我一个人做不完，想请你帮忙。",
+      "grammarFocus": "动词＋不完；请"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：非常____你今天对我的帮助。",
-      "pinyin": "fēi cháng ____ nǐ jīn tiān duì wǒ de bāng zhù",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: cảm ơn.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你在我最困难的时候支持我，我很____。",
+      "pinyin": "nǐ zài wǒ zuì kùn nán de shí hou zhī chí wǒ ， wǒ hěn ____。",
+      "vietnamese": "Gợi ý: biết ơn.",
       "options": {
-        "A": "搬",
-        "B": "感谢",
-        "C": "举手之劳",
-        "D": "麻烦"
-      },
-      "optionPinyin": {
-        "A": "bān",
-        "B": "gǎn xiè",
-        "C": "jǔ shǒu zhī láo",
-        "D": "má fán"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“感谢”（cảm ơn）。完整表达：非常感谢你今天对我的帮助。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：不用谢这只是____。",
-      "pinyin": "bù yòng xiè zhè zhǐ shì ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: việc nhỏ, tiện tay giúp.",
-      "options": {
-        "A": "感谢",
-        "B": "麻烦",
-        "C": "搬",
-        "D": "举手之劳"
-      },
-      "optionPinyin": {
-        "A": "gǎn xiè",
-        "B": "má fán",
-        "C": "bān",
-        "D": "jǔ shǒu zhī láo"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“举手之劳”（việc nhỏ, tiện tay giúp）。完整表达：不用谢这只是举手之劳。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：今天给您添____了真不好意思。",
-      "pinyin": "jīn tiān gěi nín tiān ____ le zhēn bù hǎo yì sī",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: làm phiền.",
-      "options": {
-        "A": "感谢",
-        "B": "帮忙",
-        "C": "搬",
-        "D": "麻烦"
-      },
-      "optionPinyin": {
-        "A": "gǎn xiè",
-        "B": "bāng máng",
-        "C": "bān",
-        "D": "má fán"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "应填“麻烦”（làm phiền）。完整表达：今天给您添麻烦了真不好意思。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：这个箱子有点重能帮我____一下吗。",
-      "pinyin": "zhè ge xiāng zi yǒu diǎn zhòng néng bāng wǒ ____ yī xià ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: khiêng, chuyển.",
-      "options": {
-        "A": "感谢",
-        "B": "搬",
-        "C": "麻烦",
+        "A": "举手之劳",
+        "B": "感激",
+        "C": "辛苦",
         "D": "帮忙"
       },
       "optionPinyin": {
-        "A": "gǎn xiè",
-        "B": "bān",
-        "C": "má fán",
+        "A": "jǔ shǒu zhī láo",
+        "B": "gǎn jī",
+        "C": "xīn kǔ",
         "D": "bāng máng"
       },
       "answers": [
         "B"
       ],
       "points": 5,
-      "explanation": "应填“搬”（khiêng, chuyển）。完整表达：这个箱子有点重能帮我搬一下吗。"
+      "explanation": "应填“感激”。完整句子：你在我最困难的时候支持我，我很感激。\n语法与搭配：……的时候；很",
+      "targetWord": "感激",
+      "completeSentence": "你在我最困难的时候支持我，我很感激。",
+      "grammarFocus": "……的时候；很"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：搬了一天东西，大家都____了。",
+      "pinyin": "bān le yī tiān dōng xi ， dà jiā dōu ____ le 。",
+      "vietnamese": "Gợi ý: vất vả.",
+      "options": {
+        "A": "帮忙",
+        "B": "举手之劳",
+        "C": "辛苦",
+        "D": "感激"
+      },
+      "optionPinyin": {
+        "A": "bāng máng",
+        "B": "jǔ shǒu zhī láo",
+        "C": "xīn kǔ",
+        "D": "gǎn jī"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“辛苦”。完整句子：搬了一天东西，大家都辛苦了。\n语法与搭配：动词＋时量；都",
+      "targetWord": "辛苦",
+      "completeSentence": "搬了一天东西，大家都辛苦了。",
+      "grammarFocus": "动词＋时量；都"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：不用一直谢我，这只是____。",
+      "pinyin": "bù yòng yì zhí xiè wǒ ， zhè zhǐ shì ____。",
+      "vietnamese": "Gợi ý: việc nhỏ trong tầm tay.",
+      "options": {
+        "A": "举手之劳",
+        "B": "帮忙",
+        "C": "感激",
+        "D": "辛苦"
+      },
+      "optionPinyin": {
+        "A": "jǔ shǒu zhī láo",
+        "B": "bāng máng",
+        "C": "gǎn jī",
+        "D": "xīn kǔ"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“举手之劳”。完整句子：不用一直谢我，这只是举手之劳。\n语法与搭配：不用；只是",
+      "targetWord": "举手之劳",
+      "completeSentence": "不用一直谢我，这只是举手之劳。",
+      "grammarFocus": "不用；只是"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：不好意思，____你这么久。",
+      "pinyin": "bù hǎo yì sī ，____ nǐ zhè me jiǔ 。",
+      "vietnamese": "Gợi ý: làm lỡ, mất thời gian.",
+      "options": {
+        "A": "耽误",
+        "B": "帮忙",
+        "C": "辛苦",
+        "D": "感激"
+      },
+      "optionPinyin": {
+        "A": "dān wù",
+        "B": "bāng máng",
+        "C": "xīn kǔ",
+        "D": "gǎn jī"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“耽误”。完整句子：不好意思，耽误你这么久。\n语法与搭配：动词＋人＋时量",
+      "targetWord": "耽误",
+      "completeSentence": "不好意思，耽误你这么久。",
+      "grammarFocus": "动词＋人＋时量"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请你 / 不好意思 / 可以 / 帮忙吗",
-      "pinyin": "qǐng nǐ / bù hǎo yì sī / kě yǐ / bāng máng ma",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n多亏 / 你及时提醒 / 才没有错过报名 / 我",
+      "pinyin": "duō kuī / nǐ jí shí tí xǐng / cái méi yǒu cuò guò bào míng / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "不好意思可以请你帮忙吗。",
-        "不好意思可以请你帮忙吗",
-        "不好意思可以请你帮忙吗.",
-        "不好意思可以请你帮忙吗？",
-        "不好意思可以请你帮忙吗?"
+        "多亏你及时提醒我才没有错过报名。",
+        "多亏你及时提醒我才没有错过报名",
+        "多亏你及时提醒我才没有错过报名."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：不好意思可以请你帮忙吗。\nbù hǎo yì sī kě yǐ qǐng nǐ bāng máng ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：多亏你及时提醒我才没有错过报名。\nduō kuī nǐ jí shí tí xǐng wǒ cái méi yǒu cuò guò bào míng\n语法与搭配：多亏……才……",
+      "grammarFocus": "多亏……才……"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n对我的帮助 / 非常感谢 / 你 / 今天",
-      "pinyin": "duì wǒ de bāng zhù / fēi cháng gǎn xiè / nǐ / jīn tiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 也来帮你 / 等你 / 有需要的时候",
+      "pinyin": "wǒ / yě lái bāng nǐ / děng nǐ / yǒu xū yào de shí hou",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "非常感谢你今天对我的帮助。",
-        "非常感谢你今天对我的帮助",
-        "非常感谢你今天对我的帮助.",
-        "非常感谢你今天对我的帮助？",
-        "非常感谢你今天对我的帮助?"
+        "等你有需要的时候我也来帮你。",
+        "等你有需要的时候我也来帮你",
+        "等你有需要的时候我也来帮你."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：非常感谢你今天对我的帮助。\nfēi cháng gǎn xiè nǐ jīn tiān duì wǒ de bāng zhù。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：等你有需要的时候我也来帮你。\nděng nǐ yǒu xū yào de shí hou wǒ yě lái bāng nǐ\n语法与搭配：……的时候；也",
+      "grammarFocus": "……的时候；也"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n只是 / 这 / 举手之劳 / 不用谢",
-      "pinyin": "zhǐ shì / zhè / jǔ shǒu zhī láo / bù yòng xiè",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n真不知道怎么办 / 我 / 如果没有你的帮助 / 这件事",
+      "pinyin": "zhēn bù zhī dào zěn me bàn / wǒ / rú guǒ méi yǒu nǐ de bāng zhù / zhè jiàn shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "不用谢这只是举手之劳。",
-        "不用谢这只是举手之劳",
-        "不用谢这只是举手之劳.",
-        "不用谢这只是举手之劳？",
-        "不用谢这只是举手之劳?"
+        "这件事如果没有你的帮助我真不知道怎么办。",
+        "这件事如果没有你的帮助我真不知道怎么办",
+        "这件事如果没有你的帮助我真不知道怎么办."
       ],
       "points": 5,
-      "hanziCount": 10,
-      "explanation": "参考表达：不用谢这只是举手之劳。\nbù yòng xiè zhè zhǐ shì jǔ shǒu zhī láo。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 19,
+      "explanation": "参考句子：这件事如果没有你的帮助我真不知道怎么办。\nzhè jiàn shì rú guǒ méi yǒu nǐ de bāng zhù wǒ zhēn bù zhī dào zěn me bàn\n语法与搭配：如果没有；怎么办",
+      "grammarFocus": "如果没有；怎么办"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n不好意思 / 真 / 给您添麻烦了 / 今天",
-      "pinyin": "bù hǎo yì sī / zhēn / gěi nín tiān má fán le / jīn tiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n互相帮忙是应该的 / 你 / 不用客气 / 我们",
+      "pinyin": "hù xiāng bāng máng shì yīng gāi de / nǐ / bù yòng kè qì / wǒ men",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "今天给您添麻烦了真不好意思。",
-        "今天给您添麻烦了真不好意思",
-        "今天给您添麻烦了真不好意思.",
-        "今天给您添麻烦了真不好意思？",
-        "今天给您添麻烦了真不好意思?"
+        "你不用客气我们互相帮忙是应该的。",
+        "你不用客气我们互相帮忙是应该的",
+        "你不用客气我们互相帮忙是应该的."
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：今天给您添麻烦了真不好意思。\njīn tiān gěi nín tiān má fán le zhēn bù hǎo yì sī。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 15,
+      "explanation": "参考句子：你不用客气我们互相帮忙是应该的。\nnǐ bù yòng kè qì wǒ men hù xiāng bāng máng shì yīng gāi de\n语法与搭配：不用；是……的",
+      "grammarFocus": "不用；是……的"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n有点重 / 能 / 帮我搬一下吗 / 这个箱子",
-      "pinyin": "yǒu diǎn zhòng / néng / bāng wǒ bān yī xià ma / zhè ge xiāng zi",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n为了 / 想请你吃顿饭 / 表达感谢 / 我",
+      "pinyin": "wèi le / xiǎng qǐng nǐ chī dùn fàn / biǎo dá gǎn xiè / wǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "这个箱子有点重能帮我搬一下吗。",
-        "这个箱子有点重能帮我搬一下吗",
-        "这个箱子有点重能帮我搬一下吗.",
-        "这个箱子有点重能帮我搬一下吗？",
-        "这个箱子有点重能帮我搬一下吗?"
+        "为了表达感谢我想请你吃顿饭。",
+        "为了表达感谢我想请你吃顿饭",
+        "为了表达感谢我想请你吃顿饭."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：这个箱子有点重能帮我搬一下吗。\nzhè ge xiāng zi yǒu diǎn zhòng néng bāng wǒ bān yī xià ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：为了表达感谢我想请你吃顿饭。\nwèi le biǎo dá gǎn xiè wǒ xiǎng qǐng nǐ chī dùn fàn\n语法与搭配：为了；想",
+      "grammarFocus": "为了；想"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

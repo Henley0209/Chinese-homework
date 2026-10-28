@@ -1,6 +1,6 @@
 {
   "title": "HSK4 第06课 一分钱一分货",
-  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷",
+  "description": "《HSK标准教程4》上册同主题原创练习 · 15道拼音选择 + 15道四选一词语填空 + 20道句子排序 · 每题2分，满分100分 · 非教材原题或官方试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“品牌”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pǐn pái",
+        "A": "pǐng pái",
         "B": "bǐn pái",
         "C": "pǐn péi",
-        "D": "pǐng pái"
+        "D": "pǐn pái"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“品牌”的正确读音是 pǐn pái。"
+      "explanation": "“品牌”读作 pǐn pái。注意声母、韵母、声调及轻声。",
+      "targetWord": "品牌"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“值得”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shí de",
-        "B": "zhí de",
-        "C": "chí de",
-        "D": "zí de"
+        "A": "chí de",
+        "B": "zí de",
+        "C": "shí de",
+        "D": "zhí de"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“值得”的正确读音是 zhí de。"
+      "explanation": "“值得”读作 zhí de。注意声母、韵母、声调及轻声。",
+      "targetWord": "值得"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“实际”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shí qì",
+        "A": "sí jì",
         "B": "chí jì",
-        "C": "sí jì",
-        "D": "shí jì"
+        "C": "shí jì",
+        "D": "shí qì"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“实际”的正确读音是 shí jì。"
+      "explanation": "“实际”读作 shí jì。注意声母、韵母、声调及轻声。",
+      "targetWord": "实际"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“便宜”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pián yi",
-        "B": "mián yi",
-        "C": "dián yi",
-        "D": "lián yi"
+        "A": "lián yi",
+        "B": "dián yi",
+        "C": "mián yi",
+        "D": "pián yi"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“便宜”的正确读音是 pián yi。"
+      "explanation": "“便宜”读作 pián yi。注意声母、韵母、声调及轻声。",
+      "targetWord": "便宜"
     },
     {
       "id": 5,
@@ -85,18 +89,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“贵重”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "guì zhòng",
-        "B": "guì zòng",
-        "C": "cuì zhòng",
-        "D": "duì zhòng"
+        "A": "duì zhòng",
+        "B": "guì zhòng",
+        "C": "guì zòng",
+        "D": "cuì zhòng"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“贵重”的正确读音是 guì zhòng。"
+      "explanation": "“贵重”读作 guì zhòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "贵重"
     },
     {
       "id": 6,
@@ -104,18 +109,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“保修”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bǎo qiū",
-        "B": "biǎo xiū",
-        "C": "bǎ xiū",
+        "A": "bǎ xiū",
+        "B": "bǎo qiū",
+        "C": "biǎo xiū",
         "D": "bǎo xiū"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“保修”的正确读音是 bǎo xiū。"
+      "explanation": "“保修”读作 bǎo xiū。注意声母、韵母、声调及轻声。",
+      "targetWord": "保修"
     },
     {
       "id": 7,
@@ -123,18 +129,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“生产”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sēng chǎn",
+        "A": "shēng chǎng",
         "B": "shēng cǎn",
-        "C": "shēng chǎn",
-        "D": "shēng chǎng"
+        "C": "sēng chǎn",
+        "D": "shēng chǎn"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“生产”的正确读音是 shēng chǎn。"
+      "explanation": "“生产”读作 shēng chǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "生产"
     },
     {
       "id": 8,
@@ -142,18 +149,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“材料”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bái liào",
-        "B": "cái liào",
-        "C": "cái niào",
-        "D": "chái liào"
+        "A": "cái niào",
+        "B": "bái liào",
+        "C": "chái liào",
+        "D": "cái liào"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“材料”的正确读音是 cái liào。"
+      "explanation": "“材料”读作 cái liào。注意声母、韵母、声调及轻声。",
+      "targetWord": "材料"
     },
     {
       "id": 9,
@@ -161,18 +169,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“标准”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bāo zhǔn",
-        "B": "biān zhǔn",
-        "C": "biāo zǔn",
-        "D": "biāo zhǔn"
+        "A": "biān zhǔn",
+        "B": "bāo zhǔn",
+        "C": "biāo zhǔn",
+        "D": "biāo zǔn"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“标准”的正确读音是 biāo zhǔn。"
+      "explanation": "“标准”读作 biāo zhǔn。注意声母、韵母、声调及轻声。",
+      "targetWord": "标准"
     },
     {
       "id": 10,
@@ -180,18 +189,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“功能”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dōng néng",
-        "B": "gōng léng",
-        "C": "cōng néng",
-        "D": "gōng néng"
+        "A": "cōng néng",
+        "B": "gōng néng",
+        "C": "dōng néng",
+        "D": "gōng léng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“功能”的正确读音是 gōng néng。"
+      "explanation": "“功能”读作 gōng néng。注意声母、韵母、声调及轻声。",
+      "targetWord": "功能"
     },
     {
       "id": 11,
@@ -199,18 +209,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“耐用”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bài yòng",
-        "B": "nèi yòng",
-        "C": "lài yòng",
-        "D": "nài yòng"
+        "A": "lài yòng",
+        "B": "nài yòng",
+        "C": "nèi yòng",
+        "D": "bài yòng"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“耐用”的正确读音是 nài yòng。"
+      "explanation": "“耐用”读作 nài yòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "耐用"
     },
     {
       "id": 12,
@@ -218,18 +229,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“包装”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "bāo zhuān",
-        "B": "biāo zhuāng",
-        "C": "bāo zhuāng",
-        "D": "bā zhuāng"
+        "B": "bā zhuāng",
+        "C": "biāo zhuāng",
+        "D": "bāo zhuāng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“包装”的正确读音是 bāo zhuāng。"
+      "explanation": "“包装”读作 bāo zhuāng。注意声母、韵母、声调及轻声。",
+      "targetWord": "包装"
     },
     {
       "id": 13,
@@ -237,18 +249,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“特价”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "tè qià",
-        "B": "gè jià",
-        "C": "cè jià",
-        "D": "tè jià"
+        "A": "cè jià",
+        "B": "tè jià",
+        "C": "gè jià",
+        "D": "tè qià"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“特价”的正确读音是 tè jià。"
+      "explanation": "“特价”读作 tè jià。注意声母、韵母、声调及轻声。",
+      "targetWord": "特价"
     },
     {
       "id": 14,
@@ -256,18 +269,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“优惠”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yōu huì",
-        "B": "cōu huì",
-        "C": "dōu huì",
+        "A": "cōu huì",
+        "B": "dōu huì",
+        "C": "yōu huì",
         "D": "yāo huì"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“优惠”的正确读音是 yōu huì。"
+      "explanation": "“优惠”读作 yōu huì。注意声母、韵母、声调及轻声。",
+      "targetWord": "优惠"
     },
     {
       "id": 15,
@@ -275,18 +289,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“性价比”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xìng jià bǐ",
-        "B": "xìn jià bǐ",
-        "C": "xìng qià bǐ",
-        "D": "qìng jià bǐ"
+        "A": "xìng qià bǐ",
+        "B": "qìng jià bǐ",
+        "C": "xìn jià bǐ",
+        "D": "xìng jià bǐ"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“性价比”的正确读音是 xìng jià bǐ。"
+      "explanation": "“性价比”读作 xìng jià bǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "性价比"
     },
     {
       "id": 16,
@@ -311,7 +326,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“质量”（chất lượng）。完整句子：这件外套穿了三年还很好，质量确实不错。"
+      "explanation": "应填“质量”（chất lượng）。完整句子：这件外套穿了三年还很好，质量确实不错。",
+      "targetWord": "质量",
+      "completeSentence": "这件外套穿了三年还很好，质量确实不错。"
     },
     {
       "id": 17,
@@ -336,7 +353,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“价格”（giá cả）。完整句子：买电脑的时候，不能只看价格高低。"
+      "explanation": "应填“价格”（giá cả）。完整句子：买电脑的时候，不能只看价格高低。",
+      "targetWord": "价格",
+      "completeSentence": "买电脑的时候，不能只看价格高低。"
     },
     {
       "id": 18,
@@ -361,7 +380,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“区别”（sự khác biệt）。完整句子：这两款手机看起来一样，功能上有什么区别？"
+      "explanation": "应填“区别”（sự khác biệt）。完整句子：这两款手机看起来一样，功能上有什么区别？",
+      "targetWord": "区别",
+      "completeSentence": "这两款手机看起来一样，功能上有什么区别？"
     },
     {
       "id": 19,
@@ -386,7 +407,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“服务”（dịch vụ）。完整句子：这家店的售后服务很好，出现问题马上处理。"
+      "explanation": "应填“服务”（dịch vụ）。完整句子：这家店的售后服务很好，出现问题马上处理。",
+      "targetWord": "服务",
+      "completeSentence": "这家店的售后服务很好，出现问题马上处理。"
     },
     {
       "id": 20,
@@ -411,7 +434,9 @@
         "D"
       ],
       "points": 2,
-      "explanation": "应填“修理”（sửa chữa）。完整句子：我的手表不走了，需要送去修理。"
+      "explanation": "应填“修理”（sửa chữa）。完整句子：我的手表不走了，需要送去修理。",
+      "targetWord": "修理",
+      "completeSentence": "我的手表不走了，需要送去修理。"
     },
     {
       "id": 21,
@@ -436,7 +461,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“更换”（thay thế）。完整句子：这个零件坏了，必须更换一个新的。"
+      "explanation": "应填“更换”（thay thế）。完整句子：这个零件坏了，必须更换一个新的。",
+      "targetWord": "更换",
+      "completeSentence": "这个零件坏了，必须更换一个新的。"
     },
     {
       "id": 22,
@@ -461,7 +488,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“证明”（chứng minh）。完整句子：贵不一定能证明商品质量好。"
+      "explanation": "应填“证明”（chứng minh）。完整句子：贵不一定能证明商品质量好。",
+      "targetWord": "证明",
+      "completeSentence": "贵不一定能证明商品质量好。"
     },
     {
       "id": 23,
@@ -486,7 +515,9 @@
         "A"
       ],
       "points": 2,
-      "explanation": "应填“适用”（thích hợp để dùng）。完整句子：这款简单的手机比较适用于老年人。"
+      "explanation": "应填“适用”（thích hợp để dùng）。完整句子：这款简单的手机比较适用于老年人。",
+      "targetWord": "适用",
+      "completeSentence": "这款简单的手机比较适用于老年人。"
     },
     {
       "id": 24,
@@ -511,7 +542,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“优点”（ưu điểm）。完整句子：这种材料最大的优点是轻便耐用。"
+      "explanation": "应填“优点”（ưu điểm）。完整句子：这种材料最大的优点是轻便耐用。",
+      "targetWord": "优点",
+      "completeSentence": "这种材料最大的优点是轻便耐用。"
     },
     {
       "id": 25,
@@ -536,7 +569,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“缺点”（nhược điểm）。完整句子：这款电脑的缺点是电池使用时间短。"
+      "explanation": "应填“缺点”（nhược điểm）。完整句子：这款电脑的缺点是电池使用时间短。",
+      "targetWord": "缺点",
+      "completeSentence": "这款电脑的缺点是电池使用时间短。"
     },
     {
       "id": 26,
@@ -561,7 +596,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“普通”（thông thường）。完整句子：它只是一个普通的杯子，不是什么贵重礼物。"
+      "explanation": "应填“普通”（thông thường）。完整句子：它只是一个普通的杯子，不是什么贵重礼物。",
+      "targetWord": "普通",
+      "completeSentence": "它只是一个普通的杯子，不是什么贵重礼物。"
     },
     {
       "id": 27,
@@ -586,7 +623,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“超过”（vượt quá）。完整句子：这台电脑的价格已经超过了我的预算。"
+      "explanation": "应填“超过”（vượt quá）。完整句子：这台电脑的价格已经超过了我的预算。",
+      "targetWord": "超过",
+      "completeSentence": "这台电脑的价格已经超过了我的预算。"
     },
     {
       "id": 28,
@@ -611,7 +650,9 @@
         "B"
       ],
       "points": 2,
-      "explanation": "应填“收入”（thu nhập）。完整句子：买东西要根据自己的收入，不能盲目跟风。"
+      "explanation": "应填“收入”（thu nhập）。完整句子：买东西要根据自己的收入，不能盲目跟风。",
+      "targetWord": "收入",
+      "completeSentence": "买东西要根据自己的收入，不能盲目跟风。"
     },
     {
       "id": 29,
@@ -636,7 +677,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“满意”（hài lòng）。完整句子：这次购物的价格和质量都让我很满意。"
+      "explanation": "应填“满意”（hài lòng）。完整句子：这次购物的价格和质量都让我很满意。",
+      "targetWord": "满意",
+      "completeSentence": "这次购物的价格和质量都让我很满意。"
     },
     {
       "id": 30,
@@ -661,7 +704,9 @@
         "C"
       ],
       "points": 2,
-      "explanation": "应填“认真”（cẩn thận）。完整句子：选购电器时，我们应该认真阅读产品说明。"
+      "explanation": "应填“认真”（cẩn thận）。完整句子：选购电器时，我们应该认真阅读产品说明。",
+      "targetWord": "认真",
+      "completeSentence": "选购电器时，我们应该认真阅读产品说明。"
     },
     {
       "id": 31,
@@ -676,8 +721,9 @@
         "一件商品是否值得购买不能只根据价格来判断."
       ],
       "points": 2,
-      "explanation": "参考句子：一件商品是否值得购买不能只根据价格来判断。\nyī jiàn shāng pǐn shì fǒu zhí de gòu mǎi bù néng zhǐ gēn jù jià gé lái pàn duàn 。",
-      "hanziCount": 20
+      "explanation": "参考句子：一件商品是否值得购买不能只根据价格来判断。\nyī jiàn shāng pǐn shì fǒu zhí de gòu mǎi bù néng zhǐ gēn jù jià gé lái pàn duàn 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 20,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 32,
@@ -692,8 +738,9 @@
         "这种外套虽然价格比较高但是质量确实让人满意."
       ],
       "points": 2,
-      "explanation": "参考句子：这种外套虽然价格比较高但是质量确实让人满意。\nzhè zhǒng wài tào suī rán jià gé bǐ jiào gāo dàn shì zhì liàng què shí ràng rén mǎn yì 。",
-      "hanziCount": 21
+      "explanation": "参考句子：这种外套虽然价格比较高但是质量确实让人满意。\nzhè zhǒng wài tào suī rán jià gé bǐ jiào gāo dàn shì zhì liàng què shí ràng rén mǎn yì 。\n语法与搭配：虽然……但是……：转折关系",
+      "hanziCount": 21,
+      "grammarFocus": "虽然……但是……：转折关系"
     },
     {
       "id": 33,
@@ -708,8 +755,9 @@
         "买电脑时应该根据自己的需要选择合适的功能和配置."
       ],
       "points": 2,
-      "explanation": "参考句子：买电脑时应该根据自己的需要选择合适的功能和配置。\nmǎi diàn nǎo shí yīng gāi gēn jù zì jǐ de xū yào xuǎn zé hé shì de gōng néng hé pèi zhì 。",
-      "hanziCount": 23
+      "explanation": "参考句子：买电脑时应该根据自己的需要选择合适的功能和配置。\nmǎi diàn nǎo shí yīng gāi gēn jù zì jǐ de xū yào xuǎn zé hé shì de gōng néng hé pèi zhì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 23,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -724,8 +772,9 @@
         "他宁可买一双结实耐用的鞋也不愿经常换新鞋."
       ],
       "points": 2,
-      "explanation": "参考句子：他宁可买一双结实耐用的鞋也不愿经常换新鞋。\ntā nìng kě mǎi yī shuāng jiē shi nài yòng de xié yě bù yuàn jīng cháng huàn xīn xié 。",
-      "hanziCount": 20
+      "explanation": "参考句子：他宁可买一双结实耐用的鞋也不愿经常换新鞋。\ntā nìng kě mǎi yī shuāng jiē shi nài yòng de xié yě bù yuàn jīng cháng huàn xīn xié 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -740,8 +789,9 @@
         "有些商品看起来非常便宜实际上用不了多久就坏了."
       ],
       "points": 2,
-      "explanation": "参考句子：有些商品看起来非常便宜实际上用不了多久就坏了。\nyǒu xiē shāng pǐn kàn qǐ lái fēi cháng pián yi shí jì shàng yòng bù liǎo duō jiǔ jiù huài le 。",
-      "hanziCount": 22
+      "explanation": "参考句子：有些商品看起来非常便宜实际上用不了多久就坏了。\nyǒu xiē shāng pǐn kàn qǐ lái fēi cháng pián yi shí jì shàng yòng bù liǎo duō jiǔ jiù huài le 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 22,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -756,8 +806,9 @@
         "除了商品本身的质量我们还应该关注售后的服务."
       ],
       "points": 2,
-      "explanation": "参考句子：除了商品本身的质量我们还应该关注售后的服务。\nchú le shāng pǐn běn shēn de zhì liàng wǒ men hái yīng gāi guān zhù shòu hòu de fú wù 。",
-      "hanziCount": 21
+      "explanation": "参考句子：除了商品本身的质量我们还应该关注售后的服务。\nchú le shāng pǐn běn shēn de zhì liàng wǒ men hái yīng gāi guān zhù shòu hòu de fú wù 。\n语法与搭配：除了……还……：补充",
+      "hanziCount": 21,
+      "grammarFocus": "除了……还……：补充"
     },
     {
       "id": 37,
@@ -772,8 +823,9 @@
         "为了弄清楚两款手机的区别她向售货员问了很多问题."
       ],
       "points": 2,
-      "explanation": "参考句子：为了弄清楚两款手机的区别她向售货员问了很多问题。\nwèi le nòng qīng chǔ liǎng kuǎn shǒu jī de qū bié tā xiàng shòu huò yuán wèn le hěn duō wèn tí 。",
-      "hanziCount": 23
+      "explanation": "参考句子：为了弄清楚两款手机的区别她向售货员问了很多问题。\nwèi le nòng qīng chǔ liǎng kuǎn shǒu jī de qū bié tā xiàng shòu huò yuán wèn le hěn duō wèn tí 。\n语法与搭配：为了＋目的＋行动",
+      "hanziCount": 23,
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 38,
@@ -788,8 +840,9 @@
         "这台洗衣机已经用了整整五年直到现在还运转正常."
       ],
       "points": 2,
-      "explanation": "参考句子：这台洗衣机已经用了整整五年直到现在还运转正常。\nzhè tái xǐ yī jī yǐ jīng yòng le zhěng zhěng wǔ nián zhí dào xiàn zài hái yùn zhuàn zhèng cháng 。",
-      "hanziCount": 22
+      "explanation": "参考句子：这台洗衣机已经用了整整五年直到现在还运转正常。\nzhè tái xǐ yī jī yǐ jīng yòng le zhěng zhěng wǔ nián zhí dào xiàn zài hái yùn zhuàn zhèng cháng 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 22,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 39,
@@ -804,8 +857,9 @@
         "如果商品在保修期内出现问题顾客可以要求免费修理."
       ],
       "points": 2,
-      "explanation": "参考句子：如果商品在保修期内出现问题顾客可以要求免费修理。\nrú guǒ shāng pǐn zài bǎo xiū qī nèi chū xiàn wèn tí gù kè kě yǐ yāo qiú miǎn fèi xiū lǐ 。",
-      "hanziCount": 23
+      "explanation": "参考句子：如果商品在保修期内出现问题顾客可以要求免费修理。\nrú guǒ shāng pǐn zài bǎo xiū qī nèi chū xiàn wèn tí gù kè kě yǐ yāo qiú miǎn fèi xiū lǐ 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 23,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 40,
@@ -820,8 +874,9 @@
         "我们没有必要为了追求品牌而购买超出自己能力的东西."
       ],
       "points": 2,
-      "explanation": "参考句子：我们没有必要为了追求品牌而购买超出自己能力的东西。\nwǒ men méi yǒu bì yào wèi le zhuī qiú pǐn pái ér gòu mǎi chāo chū zì jǐ néng lì de dōng xi 。",
-      "hanziCount": 24
+      "explanation": "参考句子：我们没有必要为了追求品牌而购买超出自己能力的东西。\nwǒ men méi yǒu bì yào wèi le zhuī qiú pǐn pái ér gòu mǎi chāo chū zì jǐ néng lì de dōng xi 。\n语法与搭配：为了＋目的＋行动",
+      "hanziCount": 24,
+      "grammarFocus": "为了＋目的＋行动"
     },
     {
       "id": 41,
@@ -836,8 +891,9 @@
         "我们还没有讨论清楚商品质量与使用时间."
       ],
       "points": 2,
-      "explanation": "参考句子：我们还没有讨论清楚商品质量与使用时间。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ shāng pǐn zhì liàng yǔ shǐ yòng shí jiān 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们还没有讨论清楚商品质量与使用时间。\nwǒ men hái méi yǒu tǎo lùn qīng chǔ shāng pǐn zhì liàng yǔ shǐ yòng shí jiān 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -852,8 +908,9 @@
         "大家都需要认真了解买贵的还是买合适的."
       ],
       "points": 2,
-      "explanation": "参考句子：大家都需要认真了解买贵的还是买合适的。\ndà jiā dōu xū yào rèn zhēn liǎo jiě mǎi guì de hái shì mǎi hé shì de 。",
-      "hanziCount": 18
+      "explanation": "参考句子：大家都需要认真了解买贵的还是买合适的。\ndà jiā dōu xū yào rèn zhēn liǎo jiě mǎi guì de hái shì mǎi hé shì de 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 43,
@@ -868,8 +925,9 @@
         "这次活动让我们重新思考怎样判断商品是否耐用."
       ],
       "points": 2,
-      "explanation": "参考句子：这次活动让我们重新思考怎样判断商品是否耐用。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo zěn yàng pàn duàn shāng pǐn shì fǒu nài yòng 。",
-      "hanziCount": 21
+      "explanation": "参考句子：这次活动让我们重新思考怎样判断商品是否耐用。\nzhè cì huó dòng ràng wǒ men chóng xīn sī kǎo zěn yàng pàn duàn shāng pǐn shì fǒu nài yòng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 21,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -884,8 +942,9 @@
         "老师希望大家认真分析不同品牌之间的区别."
       ],
       "points": 2,
-      "explanation": "参考句子：老师希望大家认真分析不同品牌之间的区别。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī bù tóng pǐn pái zhī jiān de qū bié 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师希望大家认真分析不同品牌之间的区别。\nlǎo shī xī wàng dà jiā rèn zhēn fēn xī bù tóng pǐn pái zhī jiān de qū bié 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -900,8 +959,9 @@
         "我们有必要深入了解售后服务的重要作用."
       ],
       "points": 2,
-      "explanation": "参考句子：我们有必要深入了解售后服务的重要作用。\nwǒ men yǒu bì yào shēn rù liǎo jiě shòu hòu fú wù de zhòng yào zuò yòng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我们有必要深入了解售后服务的重要作用。\nwǒ men yǒu bì yào shēn rù liǎo jiě shòu hòu fú wù de zhòng yào zuò yòng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -916,8 +976,9 @@
         "他在报告中详细介绍了购买电器时的注意事项."
       ],
       "points": 2,
-      "explanation": "参考句子：他在报告中详细介绍了购买电器时的注意事项。\ntā zài bào gào zhōng xiáng xì jiè shào le gòu mǎi diàn qì shí de zhù yì shì xiàng 。",
-      "hanziCount": 20
+      "explanation": "参考句子：他在报告中详细介绍了购买电器时的注意事项。\ntā zài bào gào zhōng xiáng xì jiè shào le gòu mǎi diàn qì shí de zhù yì shì xiàng 。\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "hanziCount": 20,
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 47,
@@ -932,8 +993,9 @@
         "请大家先讨论一下保修范围和保修时间."
       ],
       "points": 2,
-      "explanation": "参考句子：请大家先讨论一下保修范围和保修时间。\nqǐng dà jiā xiān tǎo lùn yī xià bǎo xiū fàn wéi hé bǎo xiū shí jiān 。",
-      "hanziCount": 17
+      "explanation": "参考句子：请大家先讨论一下保修范围和保修时间。\nqǐng dà jiā xiān tǎo lùn yī xià bǎo xiū fàn wéi hé bǎo xiū shí jiān 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -948,8 +1010,9 @@
         "我想请老师进一步解释价格是否超出实际预算."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师进一步解释价格是否超出实际预算。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì jià gé shì fǒu chāo chū shí jì yù suàn 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我想请老师进一步解释价格是否超出实际预算。\nwǒ xiǎng qǐng lǎo shī jìn yí bù jiě shì jià gé shì fǒu chāo chū shí jì yù suàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -964,8 +1027,9 @@
         "同学们正在一起讨论便宜商品可能存在的问题."
       ],
       "points": 2,
-      "explanation": "参考句子：同学们正在一起讨论便宜商品可能存在的问题。\ntóng xué men zhèng zài yì qǐ tǎo lùn pián yi shāng pǐn kě néng cún zài de wèn tí 。",
-      "hanziCount": 20
+      "explanation": "参考句子：同学们正在一起讨论便宜商品可能存在的问题。\ntóng xué men zhèng zài yì qǐ tǎo lùn pián yi shāng pǐn kě néng cún zài de wèn tí 。\n语法与搭配：正在＋动词：正在进行",
+      "hanziCount": 20,
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 50,
@@ -980,8 +1044,10 @@
         "老师请我们认真讨论根据实际需要选择功能."
       ],
       "points": 2,
-      "explanation": "参考句子：老师请我们认真讨论根据实际需要选择功能。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn gēn jù shí jì xū yào xuǎn zé gōng néng 。",
-      "hanziCount": 19
+      "explanation": "参考句子：老师请我们认真讨论根据实际需要选择功能。\nlǎo shī qǐng wǒ men rèn zhēn tǎo lùn gēn jù shí jì xū yào xuǎn zé gōng néng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,6 +1,6 @@
 {
   "title": "HSK3 第11课 一起去买东西",
-  "description": "Cùng đi mua sắm。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。",
+  "description": "Cùng đi mua sắm。共50题，每题2分，满分100分：拼音选择15题、四选一填空15题、句子排序20题。每道排序题15—20个汉字（不含标点）。拼音题与填空题目标词不重复，排序题使用另一组情境句，基础词语会适度复现。根据40个教学主题编写，以HSK3常用结构为主，含少量话题拓展词，并非指定版本教材原题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "pronunciationOptionsVersion": 1,
   "questions": [
@@ -10,18 +10,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“商店”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shāng diè",
+        "A": "shāng diàn",
         "B": "sāng diàn",
-        "C": "shāng diàn",
+        "C": "chāng diàn",
         "D": "shān diàn"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“商店”的正确读音：shāng diàn。"
+      "explanation": "“商店”读作 shāng diàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "商店"
     },
     {
       "id": 2,
@@ -29,18 +30,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“超市”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chāo sì",
+        "A": "cāo shì",
         "B": "chōu shì",
-        "C": "cāo shì",
-        "D": "chāo shì"
+        "C": "chāo shì",
+        "D": "chāo sì"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“超市”的正确读音：chāo shì。"
+      "explanation": "“超市”读作 chāo shì。注意声母、韵母、声调及轻声。",
+      "targetWord": "超市"
     },
     {
       "id": 3,
@@ -48,18 +50,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“商品”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shāng pǐn",
+        "A": "sāng pǐn",
         "B": "shān pǐn",
-        "C": "sāng pǐn",
-        "D": "shāng pǐng"
+        "C": "shāng pǐng",
+        "D": "shāng pǐn"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“商品”的正确读音：shāng pǐn。"
+      "explanation": "“商品”读作 shāng pǐn。注意声母、韵母、声调及轻声。",
+      "targetWord": "商品"
     },
     {
       "id": 4,
@@ -67,18 +70,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“价格”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "jiào gé",
-        "B": "jià gé",
-        "C": "jià gá",
-        "D": "jiè gé"
+        "B": "jiàn gé",
+        "C": "qià gé",
+        "D": "jià gé"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“价格”的正确读音：jià gé。"
+      "explanation": "“价格”读作 jià gé。注意声母、韵母、声调及轻声。",
+      "targetWord": "价格"
     },
     {
       "id": 5,
@@ -86,18 +90,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“便宜”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pián yin",
-        "B": "pán yi",
-        "C": "pián yi",
-        "D": "pié yi"
+        "A": "pián yi",
+        "B": "dián yi",
+        "C": "lián yi",
+        "D": "mián yi"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“便宜”的正确读音：pián yi。"
+      "explanation": "“便宜”读作 pián yi。注意声母、韵母、声调及轻声。",
+      "targetWord": "便宜"
     },
     {
       "id": 6,
@@ -105,18 +110,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“打折”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dǎ zhá",
+        "A": "dǎ zhé",
         "B": "dǎ zé",
-        "C": "dě zhé",
-        "D": "dǎ zhé"
+        "C": "cǎ zhé",
+        "D": "bǎ zhé"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“打折”的正确读音：dǎ zhé。"
+      "explanation": "“打折”读作 dǎ zhé。注意声母、韵母、声调及轻声。",
+      "targetWord": "打折"
     },
     {
       "id": 7,
@@ -124,18 +130,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“现金”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiàn jīn",
-        "B": "xiàn jīng",
-        "C": "xiàng jīn",
-        "D": "xiè jīn"
+        "A": "qiàn jīn",
+        "B": "xiàn qīn",
+        "C": "xiàn jīn",
+        "D": "xiàng jīn"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“现金”的正确读音：xiàn jīn。"
+      "explanation": "“现金”读作 xiàn jīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "现金"
     },
     {
       "id": 8,
@@ -143,18 +150,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“零钱”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "níng qián",
-        "B": "líng qián",
-        "C": "líng qiáng",
-        "D": "lín qián"
+        "A": "líng qián",
+        "B": "níng qián",
+        "C": "líng xián",
+        "D": "líng qiáng"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“零钱”的正确读音：líng qián。"
+      "explanation": "“零钱”读作 líng qián。注意声母、韵母、声调及轻声。",
+      "targetWord": "零钱"
     },
     {
       "id": 9,
@@ -162,9 +170,9 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“收据”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shuō jù",
+        "A": "shōu qù",
         "B": "sōu jù",
         "C": "shōu jù",
         "D": "shāo jù"
@@ -173,7 +181,8 @@
         "C"
       ],
       "points": 2,
-      "explanation": "“收据”的正确读音：shōu jù。"
+      "explanation": "“收据”读作 shōu jù。注意声母、韵母、声调及轻声。",
+      "targetWord": "收据"
     },
     {
       "id": 10,
@@ -181,18 +190,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“顾客”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gù kà",
-        "B": "gòu kè",
-        "C": "guì kè",
-        "D": "gù kè"
+        "A": "bù kè",
+        "B": "gù kè",
+        "C": "dù kè",
+        "D": "cù kè"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "“顾客”的正确读音：gù kè。"
+      "explanation": "“顾客”读作 gù kè。注意声母、韵母、声调及轻声。",
+      "targetWord": "顾客"
     },
     {
       "id": 11,
@@ -200,18 +210,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“服务员”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fú wù yuán",
-        "B": "hú wù yuán",
-        "C": "fó wù yuán",
-        "D": "fú wò yuán"
+        "A": "hú wù yuán",
+        "B": "cú wù yuán",
+        "C": "bú wù yuán",
+        "D": "fú wù yuán"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“服务员”的正确读音：fú wù yuán。"
+      "explanation": "“服务员”读作 fú wù yuán。注意声母、韵母、声调及轻声。",
+      "targetWord": "服务员"
     },
     {
       "id": 12,
@@ -219,18 +230,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“购物”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "guò wù",
+        "A": "gào wù",
         "B": "gòu wù",
-        "C": "gòu wò",
-        "D": "gào wù"
+        "C": "còu wù",
+        "D": "dòu wù"
       },
       "answers": [
         "B"
       ],
       "points": 2,
-      "explanation": "“购物”的正确读音：gòu wù。"
+      "explanation": "“购物”读作 gòu wù。注意声母、韵母、声调及轻声。",
+      "targetWord": "购物"
     },
     {
       "id": 13,
@@ -238,18 +250,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“质量”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zhì liàn",
+        "A": "zì liàng",
         "B": "zhì niàng",
-        "C": "zhì liàng",
-        "D": "zì liàng"
+        "C": "zhì liàn",
+        "D": "zhì liàng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“质量”的正确读音：zhì liàng。"
+      "explanation": "“质量”读作 zhì liàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "质量"
     },
     {
       "id": 14,
@@ -257,18 +270,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“数量”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "shù liàn",
-        "B": "shù niàng",
-        "C": "sù liàng",
-        "D": "shù liàng"
+        "B": "sù liàng",
+        "C": "shù liàng",
+        "D": "shù niàng"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 2,
-      "explanation": "“数量”的正确读音：shù liàng。"
+      "explanation": "“数量”读作 shù liàng。注意声母、韵母、声调及轻声。",
+      "targetWord": "数量"
     },
     {
       "id": 15,
@@ -276,18 +290,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“信用卡”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý các âm đầu và vần dễ nhầm.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xìn yòng kǎ",
-        "B": "xìng yòng kǎ",
-        "C": "xìn yòng kě",
-        "D": "xìn wòng kǎ"
+        "A": "qìn yòng kǎ",
+        "B": "xìn yòng kǎ",
+        "C": "xìng yòng kǎ",
+        "D": "bìn yòng kǎ"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“信用卡”的正确读音：xìn yòng kǎ。"
+      "explanation": "“信用卡”读作 xìn yòng kǎ。注意声母、韵母、声调及轻声。",
+      "targetWord": "信用卡"
     },
     {
       "id": 16,
@@ -312,7 +327,9 @@
         "B": "mǎi",
         "C": "zhòng",
         "D": "gèng"
-      }
+      },
+      "targetWord": "买",
+      "completeSentence": "你想买什么东西？"
     },
     {
       "id": 17,
@@ -337,7 +354,9 @@
         "B": "huàn",
         "C": "mài",
         "D": "yī yàng"
-      }
+      },
+      "targetWord": "卖",
+      "completeSentence": "这家店不卖水果。"
     },
     {
       "id": 18,
@@ -362,7 +381,9 @@
         "B": "kǎo lǜ",
         "C": "mài",
         "D": "yī yàng"
-      }
+      },
+      "targetWord": "一样",
+      "completeSentence": "这两个杯子一样大。"
     },
     {
       "id": 19,
@@ -387,7 +408,9 @@
         "B": "kǎo lǜ",
         "C": "ná",
         "D": "guì"
-      }
+      },
+      "targetWord": "更",
+      "completeSentence": "我觉得那个红色的更好看。"
     },
     {
       "id": 20,
@@ -412,7 +435,9 @@
         "B": "guì",
         "C": "dài",
         "D": "zhǐ yǒu"
-      }
+      },
+      "targetWord": "贵",
+      "completeSentence": "这件东西太贵了。"
     },
     {
       "id": 21,
@@ -437,7 +462,9 @@
         "B": "gèng",
         "C": "lìng wài",
         "D": "zhòng"
-      }
+      },
+      "targetWord": "另外",
+      "completeSentence": "我还需要另外一个袋子。"
     },
     {
       "id": 22,
@@ -462,7 +489,9 @@
         "B": "yī yàng",
         "C": "xīn xiān",
         "D": "yí gòng"
-      }
+      },
+      "targetWord": "一共",
+      "completeSentence": "这些东西一共多少钱？"
     },
     {
       "id": 23,
@@ -487,7 +516,9 @@
         "B": "guì",
         "C": "xīn xiān",
         "D": "lìng wài"
-      }
+      },
+      "targetWord": "找",
+      "completeSentence": "请找我五块钱。"
     },
     {
       "id": 24,
@@ -512,7 +543,9 @@
         "B": "huàn",
         "C": "dài",
         "D": "guì"
-      }
+      },
+      "targetWord": "换",
+      "completeSentence": "我想换一个蓝色的。"
     },
     {
       "id": 25,
@@ -537,7 +570,9 @@
         "B": "lìng wài",
         "C": "zhòng",
         "D": "guì"
-      }
+      },
+      "targetWord": "重",
+      "completeSentence": "这个袋子太重了。"
     },
     {
       "id": 26,
@@ -562,7 +597,9 @@
         "B": "huàn",
         "C": "mǎi",
         "D": "ná"
-      }
+      },
+      "targetWord": "拿",
+      "completeSentence": "请你帮我拿一下。"
     },
     {
       "id": 27,
@@ -587,7 +624,9 @@
         "B": "mài",
         "C": "guì",
         "D": "zhǎo"
-      }
+      },
+      "targetWord": "新鲜",
+      "completeSentence": "这种水果特别新鲜。"
     },
     {
       "id": 28,
@@ -612,7 +651,9 @@
         "B": "kǎo lǜ",
         "C": "mài",
         "D": "lìng wài"
-      }
+      },
+      "targetWord": "考虑",
+      "completeSentence": "请让我再考虑一下。"
     },
     {
       "id": 29,
@@ -637,7 +678,9 @@
         "B": "mǎi",
         "C": "dài",
         "D": "mài"
-      }
+      },
+      "targetWord": "带",
+      "completeSentence": "我今天只带了一百块钱。"
     },
     {
       "id": 30,
@@ -662,7 +705,9 @@
         "B": "gèng",
         "C": "mài",
         "D": "zhǐ yǒu"
-      }
+      },
+      "targetWord": "只有",
+      "completeSentence": "这个盒子里只有一本书。"
     },
     {
       "id": 31,
@@ -677,8 +722,9 @@
         "我现在已经学会怎样比较两种东西的区别."
       ],
       "points": 2,
-      "explanation": "参考句子：我现在已经学会怎样比较两种东西的区别。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng bǐ jiào liǎng zhǒng dōng xi de qū bié 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我现在已经学会怎样比较两种东西的区别。\nwǒ xiàn zài yǐ jīng xué huì zěn yàng bǐ jiào liǎng zhǒng dōng xi de qū bié 。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "hanziCount": 18,
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 32,
@@ -695,8 +741,9 @@
         "我今天下课以后准备选择适合自己的颜色。"
       ],
       "points": 2,
-      "explanation": "参考句子：今天下课以后我准备选择适合自己的颜色。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi xuǎn zé shì hé zì jǐ de yán sè 。",
-      "hanziCount": 18
+      "explanation": "参考句子：今天下课以后我准备选择适合自己的颜色。\njīn tiān xià kè yǐ hòu wǒ zhǔn bèi xuǎn zé shì hé zì jǐ de yán sè 。\n语法与搭配：动作＋以后：说明时间顺序",
+      "hanziCount": 18,
+      "grammarFocus": "动作＋以后：说明时间顺序"
     },
     {
       "id": 33,
@@ -713,8 +760,9 @@
         "我们下个星期打算一起计算今天花了多少钱。"
       ],
       "points": 2,
-      "explanation": "参考句子：下个星期我们打算一起计算今天花了多少钱。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ jì suàn jīn tiān huā le duō shǎo qián 。",
-      "hanziCount": 19
+      "explanation": "参考句子：下个星期我们打算一起计算今天花了多少钱。\nxià gè xīng qī wǒ men dǎ suàn yì qǐ jì suàn jīn tiān huā le duō shǎo qián 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -729,8 +777,9 @@
         "你能不能告诉我怎样看清包装上的日期?"
       ],
       "points": 2,
-      "explanation": "参考句子：你能不能告诉我怎样看清包装上的日期？\nnǐ néng bù néng gào su wǒ zěn yàng kàn qīng bāo zhuāng shàng de rì qī ？",
-      "hanziCount": 17
+      "explanation": "参考句子：你能不能告诉我怎样看清包装上的日期？\nnǐ néng bù néng gào su wǒ zěn yàng kàn qīng bāo zhuāng shàng de rì qī ？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -745,8 +794,9 @@
         "我们都认为问有没有别的型号是一件重要的事."
       ],
       "points": 2,
-      "explanation": "参考句子：我们都认为问有没有别的型号是一件重要的事。\nwǒ men dōu rèn wéi wèn yǒu méi yǒu bié de xíng hào shì yī jiàn zhòng yào de shì 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我们都认为问有没有别的型号是一件重要的事。\nwǒ men dōu rèn wéi wèn yǒu méi yǒu bié de xíng hào shì yī jiàn zhòng yào de shì 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 36,
@@ -761,8 +811,9 @@
         "如果明天有时间,我就列出家里需要的物品."
       ],
       "points": 2,
-      "explanation": "参考句子：如果明天有时间，我就列出家里需要的物品。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù liè chū jiā lǐ xū yào de wù pǐn 。",
-      "hanziCount": 18
+      "explanation": "参考句子：如果明天有时间，我就列出家里需要的物品。\nrú guǒ míng tiān yǒu shí jiān ， wǒ jiù liè chū jiā lǐ xū yào de wù pǐn 。\n语法与搭配：如果……就……：假设条件",
+      "hanziCount": 18,
+      "grammarFocus": "如果……就……：假设条件"
     },
     {
       "id": 37,
@@ -777,8 +828,9 @@
         "我想请老师教我怎样找到附近的那个市场."
       ],
       "points": 2,
-      "explanation": "参考句子：我想请老师教我怎样找到附近的那个市场。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng zhǎo dào fù jìn de nà ge shì chǎng 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我想请老师教我怎样找到附近的那个市场。\nwǒ xiǎng qǐng lǎo shī jiào wǒ zěn yàng zhǎo dào fù jìn de nà ge shì chǎng 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -793,8 +845,9 @@
         "我以前不太会了解东西能不能退回,现在好多了."
       ],
       "points": 2,
-      "explanation": "参考句子：我以前不太会了解东西能不能退回，现在好多了。\nwǒ yǐ qián bú tài huì liǎo jiě dōng xi néng bù néng tuì huí ， xiàn zài hǎo duō le 。",
-      "hanziCount": 20
+      "explanation": "参考句子：我以前不太会了解东西能不能退回，现在好多了。\nwǒ yǐ qián bú tài huì liǎo jiě dōng xi néng bù néng tuì huí ， xiàn zài hǎo duō le 。\n语法与搭配：动作＋以前：说明时间顺序",
+      "hanziCount": 20,
+      "grammarFocus": "动作＋以前：说明时间顺序"
     },
     {
       "id": 39,
@@ -809,8 +862,9 @@
         "我希望下次可以试着决定先去哪里看看."
       ],
       "points": 2,
-      "explanation": "参考句子：我希望下次可以试着决定先去哪里看看。\nwǒ xī wàng xià cì kě yǐ shì zhe jué dìng xiān qù nǎ lǐ kàn kàn 。",
-      "hanziCount": 17
+      "explanation": "参考句子：我希望下次可以试着决定先去哪里看看。\nwǒ xī wàng xià cì kě yǐ shì zhe jué dìng xiān qù nǎ lǐ kàn kàn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 17,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -825,8 +879,9 @@
         "姐姐说确认自己需要多少个让她觉得很开心."
       ],
       "points": 2,
-      "explanation": "参考句子：姐姐说确认自己需要多少个让她觉得很开心。\njiě jiě shuō què rèn zì jǐ xū yào duō shǎo gè ràng tā jué de hěn kāi xīn 。",
-      "hanziCount": 19
+      "explanation": "参考句子：姐姐说确认自己需要多少个让她觉得很开心。\njiě jiě shuō què rèn zì jǐ xū yào duō shǎo gè ràng tā jué de hěn kāi xīn 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 19,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 41,
@@ -841,8 +896,9 @@
         "我和同学常常利用周末请别人推荐一个牌子."
       ],
       "points": 2,
-      "explanation": "参考句子：我和同学常常利用周末请别人推荐一个牌子。\nwǒ hé tóng xué cháng cháng lì yòng zhōu mò qǐng bié rén tuī jiàn yí gè pái zi 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我和同学常常利用周末请别人推荐一个牌子。\nwǒ hé tóng xué cháng cháng lì yòng zhōu mò qǐng bié rén tuī jiàn yí gè pái zi 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 19,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -857,8 +913,9 @@
         "做事之前我们应该先给家人挑一份礼物."
       ],
       "points": 2,
-      "explanation": "参考句子：做事之前我们应该先给家人挑一份礼物。\nzuò shì zhī qián wǒ men yīng gāi xiān gěi jiā rén tiāo yī fèn lǐ wù 。",
-      "hanziCount": 17
+      "explanation": "参考句子：做事之前我们应该先给家人挑一份礼物。\nzuò shì zhī qián wǒ men yīng gāi xiān gěi jiā rén tiāo yī fèn lǐ wù 。\n语法与搭配：给＋人＋物/动作",
+      "hanziCount": 17,
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 43,
@@ -873,8 +930,9 @@
         "昨天上课时老师教我们记住回家的那条路."
       ],
       "points": 2,
-      "explanation": "参考句子：昨天上课时老师教我们记住回家的那条路。\nzuó tiān shàng kè shí lǎo shī jiào wǒ men jì zhù huí jiā de nà tiáo lù 。",
-      "hanziCount": 18
+      "explanation": "参考句子：昨天上课时老师教我们记住回家的那条路。\nzuó tiān shàng kè shí lǎo shī jiào wǒ men jì zhù huí jiā de nà tiáo lù 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 44,
@@ -889,8 +947,9 @@
         "我和朋友商量好明天把需要的东西放一起."
       ],
       "points": 2,
-      "explanation": "参考句子：我和朋友商量好明天把需要的东西放一起。\nwǒ hé péng you shāng liáng hǎo míng tiān bǎ xū yào de dōng xi fàng yì qǐ 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我和朋友商量好明天把需要的东西放一起。\nwǒ hé péng you shāng liáng hǎo míng tiān bǎ xū yào de dōng xi fàng yì qǐ 。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "hanziCount": 18,
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 45,
@@ -905,8 +964,9 @@
         "听说你很会问清使用时的要求,可以教我吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：听说你很会问清使用时的要求，可以教我吗？\ntīng shuō nǐ hěn huì wèn qīng shǐ yòng shí de yāo qiú ， kě yǐ jiào wǒ ma ？",
-      "hanziCount": 18
+      "explanation": "参考句子：听说你很会问清使用时的要求，可以教我吗？\ntīng shuō nǐ hěn huì wèn qīng shǐ yòng shí de yāo qiú ， kě yǐ jiào wǒ ma ？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 18,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 46,
@@ -921,8 +981,9 @@
         "我已经知道应该怎样检查有没有少了东西了."
       ],
       "points": 2,
-      "explanation": "参考句子：我已经知道应该怎样检查有没有少了东西了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng jiǎn chá yǒu méi yǒu shǎo le dōng xi le 。",
-      "hanziCount": 19
+      "explanation": "参考句子：我已经知道应该怎样检查有没有少了东西了。\nwǒ yǐ jīng zhī dao yīng gāi zěn yàng jiǎn chá yǒu méi yǒu shǎo le dōng xi le 。\n语法与搭配：已经……了：已完成或已达到的状态",
+      "hanziCount": 19,
+      "grammarFocus": "已经……了：已完成或已达到的状态"
     },
     {
       "id": 47,
@@ -939,8 +1000,9 @@
         "我们今天一起讨论怎样向同伴说明选择的原因。"
       ],
       "points": 2,
-      "explanation": "参考句子：今天我们一起讨论怎样向同伴说明选择的原因。\njīn tiān wǒ men yì qǐ tǎo lùn zěn yàng xiàng tóng bàn shuō míng xuǎn zé de yuán yīn 。",
-      "hanziCount": 20
+      "explanation": "参考句子：今天我们一起讨论怎样向同伴说明选择的原因。\njīn tiān wǒ men yì qǐ tǎo lùn zěn yàng xiàng tóng bàn shuō míng xuǎn zé de yuán yīn 。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "hanziCount": 20,
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -955,8 +1017,9 @@
         "他准备忙完工作以后再把不用的袋子留起来."
       ],
       "points": 2,
-      "explanation": "参考句子：他准备忙完工作以后再把不用的袋子留起来。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài bǎ bù yòng de dài zi liú qǐ lái 。",
-      "hanziCount": 19
+      "explanation": "参考句子：他准备忙完工作以后再把不用的袋子留起来。\ntā zhǔn bèi máng wán gōng zuò yǐ hòu zài bǎ bù yòng de dài zi liú qǐ lái 。\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "hanziCount": 19,
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 49,
@@ -971,8 +1034,9 @@
         "我觉得我们可以试着一起看家里还缺什么."
       ],
       "points": 2,
-      "explanation": "参考句子：我觉得我们可以试着一起看家里还缺什么。\nwǒ jué de wǒ men kě yǐ shì zhe yì qǐ kān jiā lǐ hái quē shén me 。",
-      "hanziCount": 18
+      "explanation": "参考句子：我觉得我们可以试着一起看家里还缺什么。\nwǒ jué de wǒ men kě yǐ shì zhe yì qǐ kān jiā lǐ hái quē shén me 。\n语法与搭配：动词＋得＋程度/状态补语",
+      "hanziCount": 18,
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 50,
@@ -987,8 +1051,10 @@
         "请先等我一下,然后我们再礼貌地拒绝别人."
       ],
       "points": 2,
-      "explanation": "参考句子：请先等我一下，然后我们再礼貌地拒绝别人。\nqǐng xiān děng wǒ yí xià ， rán hòu wǒ men zài lǐ mào dì jù jué bié rén 。",
-      "hanziCount": 18
+      "explanation": "参考句子：请先等我一下，然后我们再礼貌地拒绝别人。\nqǐng xiān děng wǒ yí xià ， rán hòu wǒ men zài lǐ mào dì jù jué bié rén 。\n语法与搭配：先……再……：动作先后顺序",
+      "hanziCount": 18,
+      "grammarFocus": "先……再……：动作先后顺序"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第23课 艺术欣赏与审美",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“欣赏”的正确读音。",
+      "text": "【拼音选择】请选择“画作”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xīn shǎng",
-        "B": "qīn shǎng",
-        "C": "xīn sǎng",
-        "D": "xīn shǎn"
+        "A": "guà zuò",
+        "B": "chuà zuò",
+        "C": "huà zuò",
+        "D": "huà zhuò"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“欣赏”读作 xīn shǎng，意思是 thưởng thức。"
+      "explanation": "“画作”读作 huà zuò。注意声母、韵母、声调及轻声。",
+      "targetWord": "画作"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“风格”的正确读音。",
+      "text": "【拼音选择】请选择“旋律”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "fēng gé",
-        "B": "bēng gé",
-        "C": "hēng gé",
-        "D": "fēn gé"
+        "A": "xuán nù",
+        "B": "cuán lǜ",
+        "C": "quán lǜ",
+        "D": "xuán lǜ"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 5,
-      "explanation": "“风格”读作 fēng gé，意思是 phong cách。"
+      "explanation": "“旋律”读作 xuán lǜ。注意声母、韵母、声调及轻声。",
+      "targetWord": "旋律"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“表达”的正确读音。",
+      "text": "【拼音选择】请选择“构图”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biǎo dá",
-        "B": "diǎo dá",
-        "C": "biǎn dá",
-        "D": "bǎo dá"
+        "A": "còu tú",
+        "B": "gòu tú",
+        "C": "gào tú",
+        "D": "dòu tú"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“表达”读作 biǎo dá，意思是 biểu đạt。"
+      "explanation": "“构图”读作 gòu tú。注意声母、韵母、声调及轻声。",
+      "targetWord": "构图"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“想象”的正确读音。",
+      "text": "【拼音选择】请选择“审美”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiǎng qiàng",
-        "B": "xiǎng xiàng",
-        "C": "xiǎn xiàng",
-        "D": "qiǎng xiàng"
+        "A": "shěn mǎi",
+        "B": "shěng měi",
+        "C": "sěn měi",
+        "D": "shěn měi"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "“想象”读作 xiǎng xiàng，意思是 tưởng tượng。"
+      "explanation": "“审美”读作 shěn měi。注意声母、韵母、声调及轻声。",
+      "targetWord": "审美"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“感受”的正确读音。",
+      "text": "【拼音选择】请选择“鉴赏”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǎn shào",
-        "B": "gǎn sòu",
-        "C": "gǎn shòu",
-        "D": "gǎng shòu"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "“感受”读作 gǎn shòu，意思是 cảm nhận。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：参观展览时老师引导学生从不同角度____作品。",
-      "pinyin": "cān guān zhǎn lǎn shí lǎo shī yǐn dǎo xué shēng cóng bù tóng jiǎo dù ____ zuò pǐn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thưởng thức.",
-      "options": {
-        "A": "表达",
-        "B": "想象",
-        "C": "欣赏",
-        "D": "风格"
-      },
-      "optionPinyin": {
-        "A": "biǎo dá",
-        "B": "xiǎng xiàng",
-        "C": "xīn shǎng",
-        "D": "fēng gé"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“欣赏”（thưởng thức）。完整句子：参观展览时老师引导学生从不同角度欣赏作品。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：这位画家在长期创作中逐渐形成了独特的艺术____。",
-      "pinyin": "zhè wèi huà jiā zài cháng qī chuàng zuò zhōng zhú jiàn xíng chéng le dú tè de yì shù ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: phong cách.",
-      "options": {
-        "A": "表达",
-        "B": "欣赏",
-        "C": "风格",
-        "D": "想象"
-      },
-      "optionPinyin": {
-        "A": "biǎo dá",
-        "B": "xīn shǎng",
-        "C": "fēng gé",
-        "D": "xiǎng xiàng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“风格”（phong cách）。完整句子：这位画家在长期创作中逐渐形成了独特的艺术风格。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：艺术家常常通过作品____对社会生活的思考。",
-      "pinyin": "yì shù jiā cháng cháng tōng guò zuò pǐn ____ duì shè huì shēng huó de sī kǎo",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: biểu đạt.",
-      "options": {
-        "A": "风格",
-        "B": "表达",
-        "C": "欣赏",
-        "D": "感受"
-      },
-      "optionPinyin": {
-        "A": "fēng gé",
-        "B": "biǎo dá",
-        "C": "xīn shǎng",
-        "D": "gǎn shòu"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“表达”（biểu đạt）。完整句子：艺术家常常通过作品表达对社会生活的思考。"
-    },
-    {
-      "id": 9,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：阅读文学作品能够激发读者丰富的____。",
-      "pinyin": "yuè dú wén xué zuò pǐn néng gòu jī fā dú zhě fēng fù de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tưởng tượng.",
-      "options": {
-        "A": "想象",
-        "B": "欣赏",
-        "C": "表达",
-        "D": "风格"
-      },
-      "optionPinyin": {
-        "A": "xiǎng xiàng",
-        "B": "xīn shǎng",
-        "C": "biǎo dá",
-        "D": "fēng gé"
+        "A": "jiàn shǎng",
+        "B": "jiàn sǎng",
+        "C": "jiàn shǎn",
+        "D": "qiàn shǎng"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“想象”（tưởng tượng）。完整句子：阅读文学作品能够激发读者丰富的想象。"
+      "explanation": "“鉴赏”读作 jiàn shǎng。注意声母、韵母、声调及轻声。",
+      "targetWord": "鉴赏"
     },
     {
-      "id": 10,
+      "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：即使面对同一幅画不同的人也可能产生不同的____。",
-      "pinyin": "jí shǐ miàn duì tóng yī fú huà bù tóng de rén yě kě néng chǎn shēng bù tóng de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: cảm nhận.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：欣赏艺术时，不必要求每个人都有相同的____。",
+      "pinyin": "xīn shǎng yì shù shí ， bù bì yāo qiú měi gè rén dōu yǒu xiāng tóng de ____。",
+      "vietnamese": "Gợi ý: cảm nhận.",
       "options": {
-        "A": "欣赏",
-        "B": "表达",
-        "C": "想象",
+        "A": "灵感",
+        "B": "情感",
+        "C": "细节",
         "D": "感受"
       },
       "optionPinyin": {
-        "A": "xīn shǎng",
-        "B": "biǎo dá",
-        "C": "xiǎng xiàng",
+        "A": "líng gǎn",
+        "B": "qíng gǎn",
+        "C": "xì jié",
         "D": "gǎn shòu"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“感受”（cảm nhận）。完整句子：即使面对同一幅画不同的人也可能产生不同的感受。"
+      "explanation": "应填“感受”。完整句子：欣赏艺术时，不必要求每个人都有相同的感受。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "感受",
+      "completeSentence": "欣赏艺术时，不必要求每个人都有相同的感受。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这幅画通过色彩的变化表达作者的____。",
+      "pinyin": "zhè fú huà tōng guò sè cǎi de biàn huà biǎo dá zuò zhě de ____。",
+      "vietnamese": "Gợi ý: tình cảm.",
+      "options": {
+        "A": "细节",
+        "B": "感受",
+        "C": "灵感",
+        "D": "情感"
+      },
+      "optionPinyin": {
+        "A": "xì jié",
+        "B": "gǎn shòu",
+        "C": "líng gǎn",
+        "D": "qíng gǎn"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“情感”。完整句子：这幅画通过色彩的变化表达作者的情感。\n语法与搭配：动词＋过：经历表达",
+      "targetWord": "情感",
+      "completeSentence": "这幅画通过色彩的变化表达作者的情感。",
+      "grammarFocus": "动词＋过：经历表达"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：作品的____来自他多年观察生活的经历。",
+      "pinyin": "zuò pǐn de ____ lái zì tā duō nián guān chá shēng huó de jīng lì 。",
+      "vietnamese": "Gợi ý: cảm hứng.",
+      "options": {
+        "A": "感受",
+        "B": "灵感",
+        "C": "情感",
+        "D": "细节"
+      },
+      "optionPinyin": {
+        "A": "gǎn shòu",
+        "B": "líng gǎn",
+        "C": "qíng gǎn",
+        "D": "xì jié"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“灵感”。完整句子：作品的灵感来自他多年观察生活的经历。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "灵感",
+      "completeSentence": "作品的灵感来自他多年观察生活的经历。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：听完讲解后，我才注意到画面中隐藏的____。",
+      "pinyin": "tīng wán jiǎng jiě hòu ， wǒ cái zhù yì dào huà miàn zhōng yǐn cáng de ____。",
+      "vietnamese": "Gợi ý: chi tiết.",
+      "options": {
+        "A": "灵感",
+        "B": "情感",
+        "C": "感受",
+        "D": "细节"
+      },
+      "optionPinyin": {
+        "A": "líng gǎn",
+        "B": "qíng gǎn",
+        "C": "gǎn shòu",
+        "D": "xì jié"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“细节”。完整句子：听完讲解后，我才注意到画面中隐藏的细节。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "细节",
+      "completeSentence": "听完讲解后，我才注意到画面中隐藏的细节。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：艺术教育有助于提高人们感受美的____。",
+      "pinyin": "yì shù jiào yù yǒu zhù yú tí gāo rén men gǎn shòu měi de ____。",
+      "vietnamese": "Gợi ý: năng lực.",
+      "options": {
+        "A": "能力",
+        "B": "情感",
+        "C": "灵感",
+        "D": "感受"
+      },
+      "optionPinyin": {
+        "A": "néng lì",
+        "B": "qíng gǎn",
+        "C": "líng gǎn",
+        "D": "gǎn shòu"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 5,
+      "explanation": "应填“能力”。完整句子：艺术教育有助于提高人们感受美的能力。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "能力",
+      "completeSentence": "艺术教育有助于提高人们感受美的能力。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -240,7 +260,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：参观展览时老师引导学生从不同角度欣赏作品。\ncān guān zhǎn lǎn shí lǎo shī yǐn dǎo xué shēng cóng bù tóng jiǎo dù xīn shǎng zuò pǐn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：参观展览时老师引导学生从不同角度欣赏作品。\ncān guān zhǎn lǎn shí lǎo shī yǐn dǎo xué shēng cóng bù tóng jiǎo dù xīn shǎng zuò pǐn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 12,
@@ -256,7 +277,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：这位画家在长期创作中逐渐形成了独特的艺术风格。\nzhè wèi huà jiā zài cháng qī chuàng zuò zhōng zhú jiàn xíng chéng le dú tè de yì shù fēng gé。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：这位画家在长期创作中逐渐形成了独特的艺术风格。\nzhè wèi huà jiā zài cháng qī chuàng zuò zhōng zhú jiàn xíng chéng le dú tè de yì shù fēng gé。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 13,
@@ -272,7 +294,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：艺术家常常通过作品表达对社会生活的思考。\nyì shù jiā cháng cháng tōng guò zuò pǐn biǎo dá duì shè huì shēng huó de sī kǎo。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：艺术家常常通过作品表达对社会生活的思考。\nyì shù jiā cháng cháng tōng guò zuò pǐn biǎo dá duì shè huì shēng huó de sī kǎo。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋过：经历表达",
+      "grammarFocus": "动词＋过：经历表达"
     },
     {
       "id": 14,
@@ -288,7 +311,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：阅读文学作品能够激发读者丰富的想象。\nyuè dú wén xué zuò pǐn néng gòu jī fā dú zhě fēng fù de xiǎng xiàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：阅读文学作品能够激发读者丰富的想象。\nyuè dú wén xué zuò pǐn néng gòu jī fā dú zhě fēng fù de xiǎng xiàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -304,7 +328,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：即使面对同一幅画不同的人也可能产生不同的感受。\njí shǐ miàn duì tóng yī fú huà bù tóng de rén yě kě néng chǎn shēng bù tóng de gǎn shòu。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：即使面对同一幅画不同的人也可能产生不同的感受。\njí shǐ miàn duì tóng yī fú huà bù tóng de rén yě kě néng chǎn shēng bù tóng de gǎn shòu。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 16,
@@ -320,7 +345,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解艺术欣赏的方法还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě yì shù xīn shǎng de fāng fǎ hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解艺术欣赏的方法还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě yì shù xīn shǎng de fāng fǎ hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -336,7 +362,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化审美差异的原因都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà shěn měi chāi yì de yuán yīn dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化审美差异的原因都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà shěn měi chāi yì de yuán yīn dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -352,7 +379,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解文学阅读的价值才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě wén xué yuè dú de jià zhí cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解文学阅读的价值才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě wén xué yuè dú de jià zhí cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -368,7 +396,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析个人风格的形成。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī gè rén fēng gé de xíng chéng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析个人风格的形成。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī gè rén fēng gé de xíng chéng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -384,7 +413,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明艺术表达的意义。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng yì shù biǎo dá de yì yì。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明艺术表达的意义。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng yì shù biǎo dá de yì yì。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

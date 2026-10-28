@@ -1,6 +1,6 @@
 {
   "title": "HSK1-2 第19课 这个多少钱？",
-  "description": "Cái này bao nhiêu tiền?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。",
+  "description": "Cái này bao nhiêu tiền?；50题，每题2分，满分100分：拼音选择15题、四选一词语填空15题、句子排序20题。根据越南语提示作答；排序题输入完整句子，不用斜线，不在汉字间加空格，兼容有无标点。本套为初级生活主题练习，包含少量拓展词，不是官方考试真题。 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -8,660 +8,720 @@
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“钱”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qiáng",
-        "B": "qié",
-        "C": "qián",
-        "D": "jián"
+        "A": "qián",
+        "B": "dián",
+        "C": "qiáng",
+        "D": "xián"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“钱”的正确读音是 qián。"
+      "explanation": "“钱”读作 qián。注意声母、韵母、声调及轻声。",
+      "targetWord": "钱"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“块”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "kuài",
-        "B": "kuì",
-        "C": "kuàn",
-        "D": "kài"
+        "A": "guài",
+        "B": "huài",
+        "C": "kuà",
+        "D": "kuài"
       },
       "answers": [
-        "A"
+        "D"
       ],
       "points": 2,
-      "explanation": "“块”的正确读音是 kuài。"
+      "explanation": "“块”读作 kuài。注意声母、韵母、声调及轻声。",
+      "targetWord": "块"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“毛”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "móu",
-        "B": "miáo",
-        "C": "máo",
-        "D": "náo"
+        "A": "cáo",
+        "B": "móu",
+        "C": "báo",
+        "D": "máo"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“毛”的正确读音是 máo。"
+      "explanation": "“毛”读作 máo。注意声母、韵母、声调及轻声。",
+      "targetWord": "毛"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“贵”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gù",
-        "B": "guò",
-        "C": "guài",
-        "D": "guì"
+        "A": "guì",
+        "B": "guà",
+        "C": "duì",
+        "D": "cuì"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“贵”的正确读音是 guì。"
+      "explanation": "“贵”读作 guì。注意声母、韵母、声调及轻声。",
+      "targetWord": "贵"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“便宜”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pián yi",
-        "B": "pié yi",
-        "C": "pián yin",
-        "D": "pán yi"
+        "A": "lián yi",
+        "B": "mián yi",
+        "C": "pián yi",
+        "D": "dián yi"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 2,
-      "explanation": "“便宜”的正确读音是 pián yi。"
+      "explanation": "“便宜”读作 pián yi。注意声母、韵母、声调及轻声。",
+      "targetWord": "便宜"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“一共”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yí gèng",
-        "B": "yín gòng",
-        "C": "yí gòng",
-        "D": "yíng gòng"
+        "A": "bī gòng",
+        "B": "cī gòng",
+        "C": "dī gòng",
+        "D": "yī gòng"
       },
       "answers": [
-        "C"
+        "D"
       ],
       "points": 2,
-      "explanation": "“一共”的正确读音是 yí gòng。"
+      "explanation": "“一共”读作 yī gòng。注意声母、韵母、声调及轻声。",
+      "targetWord": "一共"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“找”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "zǎo",
-        "B": "zhǎo",
-        "C": "zhǒu",
-        "D": "shǎo"
+        "B": "zhǒu",
+        "C": "chǎo",
+        "D": "zhǎo"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“找”的正确读音是 zhǎo。"
+      "explanation": "“找”读作 zhǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "找"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“付”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "hù",
-        "B": "fò",
-        "C": "fòu",
+        "A": "bù",
+        "B": "hù",
+        "C": "cù",
         "D": "fù"
       },
       "answers": [
         "D"
       ],
       "points": 2,
-      "explanation": "“付”的正确读音是 fù。"
+      "explanation": "“付”读作 fù。注意声母、韵母、声调及轻声。",
+      "targetWord": "付"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“百”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "běi",
+        "A": "bǎi",
         "B": "bǎn",
-        "C": "pǎi",
-        "D": "bǎi"
+        "C": "bǎ",
+        "D": "běi"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "“百”的正确读音是 bǎi。"
+      "explanation": "“百”读作 bǎi。注意声母、韵母、声调及轻声。",
+      "targetWord": "百"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“五”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "wǒ",
-        "B": "wǔ",
-        "C": "yǔ",
-        "D": "hǔ"
+        "A": "bǔ",
+        "B": "dǔ",
+        "C": "cǔ",
+        "D": "wǔ"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 2,
-      "explanation": "“五”的正确读音是 wǔ。"
+      "explanation": "“五”读作 wǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "五"
     },
     {
       "id": 11,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“多”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dōu",
-        "B": "duī",
-        "C": "duō",
-        "D": "tuō"
+        "A": "cuō",
+        "B": "duō",
+        "C": "duī",
+        "D": "dāo"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 2,
-      "explanation": "“多”的正确读音是 duō。"
+      "explanation": "“多”读作 duō。注意声母、韵母、声调及轻声。",
+      "targetWord": "多"
     },
     {
       "id": 12,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“少”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "shǎo",
-        "B": "sǎo",
-        "C": "shǒu",
-        "D": "rǎo"
+        "B": "shǒu",
+        "C": "sǎo",
+        "D": "chǎo"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "“少”的正确读音是 shǎo。"
+      "explanation": "“少”读作 shǎo。注意声母、韵母、声调及轻声。",
+      "targetWord": "少"
     },
     {
       "id": 13,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“便宜一点”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "pié yi yì diǎn",
-        "B": "pián yi yì diǎn",
-        "C": "pián yin yì diǎn",
-        "D": "pián yi yìn diǎn"
+        "A": "pián yi yì diǎn",
+        "B": "dián yi yì diǎn",
+        "C": "mián yi yì diǎn",
+        "D": "lián yi yì diǎn"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 2,
-      "explanation": "“便宜一点”的正确读音是 pián yi yì diǎn。"
+      "explanation": "“便宜一点”读作 pián yi yì diǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "便宜一点"
     },
     {
       "id": 14,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“零钱”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "líng qián",
-        "B": "lín qián",
-        "C": "líng qiáng",
-        "D": "níng qián"
+        "A": "líng qiáng",
+        "B": "líng qián",
+        "C": "níng qián",
+        "D": "líng xián"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "“零钱”的正确读音是 líng qián。"
+      "explanation": "“零钱”读作 líng qián。注意声母、韵母、声调及轻声。",
+      "targetWord": "零钱"
     },
     {
       "id": 15,
       "type": "choice",
       "section": "拼音选择",
       "text": "【拼音选择】请选择“收据”的正确读音。",
-      "pinyin": "【pīn yīn xuǎn zé】qǐng xuǎn zé “____” de zhèng què dú yīn。",
-      "vietnamese": "Chọn phiên âm đúng của từ trong ngoặc.",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sōu jù",
-        "B": "shuō jù",
-        "C": "shōu jù",
-        "D": "shāo jù"
+        "A": "shōu jù",
+        "B": "shāo jù",
+        "C": "shōu qù",
+        "D": "sōu jù"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "“收据”的正确读音是 shōu jù。"
+      "explanation": "“收据”读作 shōu jù。注意声母、韵母、声调及轻声。",
+      "targetWord": "收据"
     },
     {
       "id": 16,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这个多少____？",
-      "pinyin": "zhè ge duō shao ____？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cái này bao nhiêu tiền?",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这支笔____那支便宜两元。",
+      "pinyin": "zhè zhī bǐ ____ nà zhī pián yi liǎng yuán 。",
+      "vietnamese": "Gợi ý: hơn; chỉ đối tượng so sánh.",
       "options": {
-        "A": "贵",
-        "B": "百",
-        "C": "五",
-        "D": "钱"
+        "A": "从",
+        "B": "比",
+        "C": "给",
+        "D": "把"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“钱”。完整句子：这个多少钱？",
+      "explanation": "应填“比”。完整句子：这支笔比那支便宜两元。\n语法与搭配：甲＋比＋乙＋形容词",
       "optionPinyin": {
-        "A": "guì",
-        "B": "bǎi",
-        "C": "wǔ",
-        "D": "qián"
-      }
+        "A": "cóng",
+        "B": "bǐ",
+        "C": "gěi",
+        "D": "bǎ"
+      },
+      "targetWord": "比",
+      "completeSentence": "这支笔比那支便宜两元。",
+      "grammarFocus": "甲＋比＋乙＋形容词"
     },
     {
       "id": 17,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这本书十____钱。",
-      "pinyin": "zhè běn shū shí ____ qián 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Quyển sách này giá mười đồng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这____今天的优惠价格。",
+      "pinyin": "zhè ____ jīn tiān de yōu huì jià gé 。",
+      "vietnamese": "Gợi ý: là; xác định thân phận hoặc sự vật.",
       "options": {
-        "A": "贵",
-        "B": "零钱",
-        "C": "块",
-        "D": "便宜一点"
+        "A": "是",
+        "B": "有",
+        "C": "在",
+        "D": "去"
       },
       "answers": [
-        "C"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“块”。完整句子：这本书十块钱。",
+      "explanation": "应填“是”。完整句子：这是今天的优惠价格。\n语法与搭配：是＋名词：判断或说明身份",
       "optionPinyin": {
-        "A": "guì",
-        "B": "líng qián",
-        "C": "kuài",
-        "D": "pián yi yì diǎn"
-      }
+        "A": "shì",
+        "B": "yǒu",
+        "C": "zài",
+        "D": "qù"
+      },
+      "targetWord": "是",
+      "completeSentence": "这是今天的优惠价格。",
+      "grammarFocus": "是＋名词：判断或说明身份"
     },
     {
       "id": 18,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这个苹果三块五____。",
-      "pinyin": "zhè ge píng guǒ sān kuài wǔ ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Quả táo này giá ba đồng năm hào.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这是你要____购物小票。",
+      "pinyin": "zhè shì nǐ yào ____ gòu wù xiǎo piào 。",
+      "vietnamese": "Gợi ý: trợ từ chỉ sở hữu hoặc bổ nghĩa cho danh từ.",
       "options": {
-        "A": "找",
-        "B": "毛",
-        "C": "零钱",
-        "D": "收据"
+        "A": "吗",
+        "B": "得",
+        "C": "的",
+        "D": "地"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“毛”。完整句子：这个苹果三块五毛。",
+      "explanation": "应填“的”。完整句子：这是你要的购物小票。\n语法与搭配：修饰语＋的＋名词",
       "optionPinyin": {
-        "A": "zhǎo",
-        "B": "máo",
-        "C": "líng qián",
-        "D": "shōu jù"
-      }
+        "A": "ma",
+        "B": "dé",
+        "C": "de",
+        "D": "dì"
+      },
+      "targetWord": "的",
+      "completeSentence": "这是你要的购物小票。",
+      "grammarFocus": "修饰语＋的＋名词"
     },
     {
       "id": 19,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这件衣服太____了。",
-      "pinyin": "zhè jiàn yī fu tài ____ le 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Bộ quần áo này đắt quá.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____知道两盒加起来的价格。",
+      "pinyin": "wǒ ____ zhī dào liǎng hé jiā qǐ lái de jià gé 。",
+      "vietnamese": "Gợi ý: muốn; chỉ mong muốn.",
       "options": {
-        "A": "钱",
-        "B": "一共",
-        "C": "付",
-        "D": "贵"
+        "A": "想",
+        "B": "比",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 2,
-      "explanation": "应填“贵”。完整句子：这件衣服太贵了。",
+      "explanation": "应填“想”。完整句子：我想知道两盒加起来的价格。\n语法与搭配：想＋动词",
       "optionPinyin": {
-        "A": "qián",
-        "B": "yí gòng",
-        "C": "fù",
-        "D": "guì"
-      }
+        "A": "xiǎng",
+        "B": "bǐ",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "想",
+      "completeSentence": "我想知道两盒加起来的价格。",
+      "grammarFocus": "想＋动词"
     },
     {
       "id": 20,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：那本书比较____。",
-      "pinyin": "nà běn shū bǐ jiào ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Quyển sách kia khá rẻ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：包里____一些硬币。",
+      "pinyin": "bāo lǐ ____ yī xiē yìng bì 。",
+      "vietnamese": "Gợi ý: có; chỉ sở hữu hoặc tồn tại.",
       "options": {
-        "A": "贵",
-        "B": "便宜",
-        "C": "收据",
-        "D": "毛"
+        "A": "比",
+        "B": "是",
+        "C": "有",
+        "D": "去"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 2,
-      "explanation": "应填“便宜”。完整句子：那本书比较便宜。",
+      "explanation": "应填“有”。完整句子：包里有一些硬币。\n语法与搭配：有＋名词：拥有或存在",
       "optionPinyin": {
-        "A": "guì",
-        "B": "pián yi",
-        "C": "shōu jù",
-        "D": "máo"
-      }
+        "A": "bǐ",
+        "B": "shì",
+        "C": "yǒu",
+        "D": "qù"
+      },
+      "targetWord": "有",
+      "completeSentence": "包里有一些硬币。",
+      "grammarFocus": "有＋名词：拥有或存在"
     },
     {
       "id": 21,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这些东西____五十块钱。",
-      "pinyin": "zhè xiē dōng xi ____ wǔ shí kuài qián 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Những đồ này tổng cộng năm mươi đồng.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____需要买新的。",
+      "pinyin": "wǒ ____ xū yào mǎi xīn de 。",
+      "vietnamese": "Gợi ý: không; phủ định trạng thái hoặc ý muốn.",
       "options": {
-        "A": "一共",
-        "B": "五",
-        "C": "零钱",
-        "D": "贵"
+        "A": "比",
+        "B": "不",
+        "C": "把",
+        "D": "的"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 2,
-      "explanation": "应填“一共”。完整句子：这些东西一共五十块钱。",
+      "explanation": "应填“不”。完整句子：我不需要买新的。\n语法与搭配：不＋动词/形容词",
       "optionPinyin": {
-        "A": "yí gòng",
-        "B": "wǔ",
-        "C": "líng qián",
-        "D": "guì"
-      }
+        "A": "bǐ",
+        "B": "bù",
+        "C": "bǎ",
+        "D": "de"
+      },
+      "targetWord": "不",
+      "completeSentence": "我不需要买新的。",
+      "grammarFocus": "不＋动词/形容词"
     },
     {
       "id": 22,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请____我五块钱。",
-      "pinyin": "qǐng ____ wǒ wǔ kuài qián 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy trả lại tôi năm đồng tiền thừa.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：你____帮我算一下总价吗？",
+      "pinyin": "nǐ ____ bāng wǒ suàn yí xià zǒng jià ma ？",
+      "vietnamese": "Gợi ý: có thể; xin phép hoặc cho phép.",
       "options": {
-        "A": "便宜一点",
-        "B": "付",
-        "C": "找",
-        "D": "收据"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“找”。完整句子：请找我五块钱。",
-      "optionPinyin": {
-        "A": "pián yi yì diǎn",
-        "B": "fù",
-        "C": "zhǎo",
-        "D": "shōu jù"
-      }
-    },
-    {
-      "id": 23,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我要____多少钱？",
-      "pinyin": "wǒ yào ____ duō shao qián ？",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi cần trả bao nhiêu tiền?",
-      "options": {
-        "A": "收据",
-        "B": "钱",
-        "C": "便宜",
-        "D": "付"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“付”。完整句子：我要付多少钱？",
-      "optionPinyin": {
-        "A": "shōu jù",
-        "B": "qián",
-        "C": "pián yi",
-        "D": "fù"
-      }
-    },
-    {
-      "id": 24,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我有一____块钱。",
-      "pinyin": "wǒ yǒu yī ____ kuài qián 。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi có một trăm đồng.",
-      "options": {
-        "A": "五",
-        "B": "收据",
-        "C": "块",
-        "D": "百"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“百”。完整句子：我有一百块钱。",
-      "optionPinyin": {
-        "A": "wǔ",
-        "B": "shōu jù",
-        "C": "kuài",
-        "D": "bǎi"
-      }
-    },
-    {
-      "id": 25,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这个苹果两块____。",
-      "pinyin": "zhè ge píng guǒ liǎng kuài ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Quả táo này giá hai đồng rưỡi.",
-      "options": {
-        "A": "零钱",
-        "B": "块",
-        "C": "五",
-        "D": "便宜一点"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 2,
-      "explanation": "应填“五”。完整句子：这个苹果两块五。",
-      "optionPinyin": {
-        "A": "líng qián",
-        "B": "kuài",
-        "C": "wǔ",
-        "D": "pián yi yì diǎn"
-      }
-    },
-    {
-      "id": 26,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这家商店的东西很____。",
-      "pinyin": "zhè jiā shāng diàn de dōng xi hěn ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cửa hàng này có rất nhiều đồ.",
-      "options": {
-        "A": "便宜一点",
-        "B": "一共",
-        "C": "收据",
-        "D": "多"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 2,
-      "explanation": "应填“多”。完整句子：这家商店的东西很多。",
-      "optionPinyin": {
-        "A": "pián yi yì diǎn",
-        "B": "yí gòng",
-        "C": "shōu jù",
-        "D": "duō"
-      }
-    },
-    {
-      "id": 27,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我的钱比你____。",
-      "pinyin": "wǒ de qián bǐ nǐ ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tiền của tôi ít hơn của bạn.",
-      "options": {
-        "A": "少",
-        "B": "便宜",
-        "C": "便宜一点",
-        "D": "钱"
+        "A": "可以",
+        "B": "把",
+        "C": "的",
+        "D": "比"
       },
       "answers": [
         "A"
       ],
       "points": 2,
-      "explanation": "应填“少”。完整句子：我的钱比你少。",
+      "explanation": "应填“可以”。完整句子：你可以帮我算一下总价吗？\n语法与搭配：可以＋动词",
       "optionPinyin": {
-        "A": "shǎo",
-        "B": "pián yi",
-        "C": "pián yi yì diǎn",
-        "D": "qián"
-      }
-    },
-    {
-      "id": 28,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：这个比那个____。",
-      "pinyin": "zhè ge bǐ nà ge ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Cái này rẻ hơn cái kia một chút.",
-      "options": {
-        "A": "付",
-        "B": "便宜一点",
-        "C": "零钱",
-        "D": "钱"
+        "A": "kě yǐ",
+        "B": "bǎ",
+        "C": "de",
+        "D": "bǐ"
       },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "应填“便宜一点”。完整句子：这个比那个便宜一点。",
-      "optionPinyin": {
-        "A": "fù",
-        "B": "pián yi yì diǎn",
-        "C": "líng qián",
-        "D": "qián"
-      }
+      "targetWord": "可以",
+      "completeSentence": "你可以帮我算一下总价吗？",
+      "grammarFocus": "可以＋动词"
     },
     {
-      "id": 29,
+      "id": 23,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：我没有____。",
-      "pinyin": "wǒ méi yǒu ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Tôi không có tiền lẻ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：商家____把价格写在旁边了。",
+      "pinyin": "shāng jiā ____ bǎ jià gé xiě zài páng biān le 。",
+      "vietnamese": "Gợi ý: đã; sự việc hoàn tất hoặc đạt trạng thái.",
       "options": {
-        "A": "五",
-        "B": "零钱",
-        "C": "贵",
-        "D": "百"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 2,
-      "explanation": "应填“零钱”。完整句子：我没有零钱。",
-      "optionPinyin": {
-        "A": "wǔ",
-        "B": "líng qián",
-        "C": "guì",
-        "D": "bǎi"
-      }
-    },
-    {
-      "id": 30,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据越南语提示选择正确词语：请给我一张____。",
-      "pinyin": "qǐng gěi wǒ yī zhāng ____。",
-      "vietnamese": "Chọn từ phù hợp theo nghĩa tiếng Việt: Hãy cho tôi một biên lai.",
-      "options": {
-        "A": "少",
-        "B": "百",
-        "C": "收据",
-        "D": "钱"
+        "A": "从",
+        "B": "的",
+        "C": "已经",
+        "D": "把"
       },
       "answers": [
         "C"
       ],
       "points": 2,
-      "explanation": "应填“收据”。完整句子：请给我一张收据。",
+      "explanation": "应填“已经”。完整句子：商家已经把价格写在旁边了。\n语法与搭配：已经……了",
       "optionPinyin": {
-        "A": "shǎo",
-        "B": "bǎi",
-        "C": "shōu jù",
-        "D": "qián"
-      }
+        "A": "cóng",
+        "B": "de",
+        "C": "yǐ jīng",
+        "D": "bǎ"
+      },
+      "targetWord": "已经",
+      "completeSentence": "商家已经把价格写在旁边了。",
+      "grammarFocus": "已经……了"
+    },
+    {
+      "id": 24,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请____我看看价格标签。",
+      "pinyin": "qǐng ____ wǒ kàn kàn jià gé biāo qiān 。",
+      "vietnamese": "Gợi ý: cho; chỉ người nhận.",
+      "options": {
+        "A": "比",
+        "B": "吗",
+        "C": "给",
+        "D": "的"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“给”。完整句子：请给我看看价格标签。\n语法与搭配：给＋人＋物/动词",
+      "optionPinyin": {
+        "A": "bǐ",
+        "B": "ma",
+        "C": "gěi",
+        "D": "de"
+      },
+      "targetWord": "给",
+      "completeSentence": "请给我看看价格标签。",
+      "grammarFocus": "给＋人＋物/动词"
+    },
+    {
+      "id": 25,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这件商品____要十元。",
+      "pinyin": "zhè jiàn shāng pǐn ____ yào shí yuán 。",
+      "vietnamese": "Gợi ý: chỉ; giới hạn phạm vi hoặc số lượng.",
+      "options": {
+        "A": "把",
+        "B": "的",
+        "C": "从",
+        "D": "只"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“只”。完整句子：这件商品只要十元。\n语法与搭配：只＋谓语",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "de",
+        "C": "cóng",
+        "D": "zhǐ"
+      },
+      "targetWord": "只",
+      "completeSentence": "这件商品只要十元。",
+      "grammarFocus": "只＋谓语"
+    },
+    {
+      "id": 26,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：买东西____，我会看看价钱。",
+      "pinyin": "mǎi dōng xi ____， wǒ huì kàn kàn jià qián 。",
+      "vietnamese": "Gợi ý: trước khi.",
+      "options": {
+        "A": "以内",
+        "B": "以前",
+        "C": "之间",
+        "D": "以外"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 2,
+      "explanation": "应填“以前”。完整句子：买东西以前，我会看看价钱。\n语法与搭配：动作/时间＋以前",
+      "optionPinyin": {
+        "A": "yǐ nèi",
+        "B": "yǐ qián",
+        "C": "zhī jiān",
+        "D": "yǐ wài"
+      },
+      "targetWord": "以前",
+      "completeSentence": "买东西以前，我会看看价钱。",
+      "grammarFocus": "动作/时间＋以前"
+    },
+    {
+      "id": 27,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：两种商品____是这个价格。",
+      "pinyin": "liǎng zhǒng shāng pǐn ____ shì zhè ge jià gé 。",
+      "vietnamese": "Gợi ý: đều; bao quát toàn bộ chủ thể.",
+      "options": {
+        "A": "的",
+        "B": "从",
+        "C": "把",
+        "D": "都"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“都”。完整句子：两种商品都是这个价格。\n语法与搭配：复数主语＋都＋谓语",
+      "optionPinyin": {
+        "A": "de",
+        "B": "cóng",
+        "C": "bǎ",
+        "D": "dōu"
+      },
+      "targetWord": "都",
+      "completeSentence": "两种商品都是这个价格。",
+      "grammarFocus": "复数主语＋都＋谓语"
+    },
+    {
+      "id": 28,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这家店____支持刷卡。",
+      "pinyin": "zhè jiā diàn ____ zhī chí shuā kǎ 。",
+      "vietnamese": "Gợi ý: cũng; bổ sung điểm giống nhau.",
+      "options": {
+        "A": "也",
+        "B": "的",
+        "C": "把",
+        "D": "从"
+      },
+      "answers": [
+        "A"
+      ],
+      "points": 2,
+      "explanation": "应填“也”。完整句子：这家店也支持刷卡。\n语法与搭配：也＋谓语：也有相同情况",
+      "optionPinyin": {
+        "A": "yě",
+        "B": "de",
+        "C": "bǎ",
+        "D": "cóng"
+      },
+      "targetWord": "也",
+      "completeSentence": "这家店也支持刷卡。",
+      "grammarFocus": "也＋谓语：也有相同情况"
+    },
+    {
+      "id": 29,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：我____银行卡付款。",
+      "pinyin": "wǒ ____ yín háng kǎ fù kuǎn 。",
+      "vietnamese": "Gợi ý: dùng; chỉ công cụ hoặc ngôn ngữ.",
+      "options": {
+        "A": "吗",
+        "B": "的",
+        "C": "比",
+        "D": "用"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 2,
+      "explanation": "应填“用”。完整句子：我用银行卡付款。\n语法与搭配：用＋工具/语言＋动词",
+      "optionPinyin": {
+        "A": "ma",
+        "B": "de",
+        "C": "bǐ",
+        "D": "yòng"
+      },
+      "targetWord": "用",
+      "completeSentence": "我用银行卡付款。",
+      "grammarFocus": "用＋工具/语言＋动词"
+    },
+    {
+      "id": 30,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：如果打折，我____买两盒。",
+      "pinyin": "rú guǒ dǎ zhé ， wǒ ____ mǎi liǎng hé 。",
+      "vietnamese": "Gợi ý: thì/liền; kết quả hoặc hành động tiếp theo.",
+      "options": {
+        "A": "把",
+        "B": "的",
+        "C": "就",
+        "D": "从"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 2,
+      "explanation": "应填“就”。完整句子：如果打折，我就买两盒。\n语法与搭配：条件/时间＋就＋结果",
+      "optionPinyin": {
+        "A": "bǎ",
+        "B": "de",
+        "C": "jiù",
+        "D": "cóng"
+      },
+      "targetWord": "就",
+      "completeSentence": "如果打折，我就买两盒。",
+      "grammarFocus": "条件/时间＋就＋结果"
     },
     {
       "id": 31,
@@ -676,7 +736,8 @@
         "这个多少钱?"
       ],
       "points": 2,
-      "explanation": "参考句子：这个多少钱？"
+      "explanation": "参考句子：这个多少钱？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 32,
@@ -691,7 +752,8 @@
         "这本书十块钱."
       ],
       "points": 2,
-      "explanation": "参考句子：这本书十块钱。"
+      "explanation": "参考句子：这本书十块钱。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 33,
@@ -706,7 +768,8 @@
         "这个苹果三块五毛."
       ],
       "points": 2,
-      "explanation": "参考句子：这个苹果三块五毛。"
+      "explanation": "参考句子：这个苹果三块五毛。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 34,
@@ -721,7 +784,8 @@
         "这件衣服太贵了."
       ],
       "points": 2,
-      "explanation": "参考句子：这件衣服太贵了。"
+      "explanation": "参考句子：这件衣服太贵了。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 35,
@@ -736,7 +800,8 @@
         "那本书比较便宜."
       ],
       "points": 2,
-      "explanation": "参考句子：那本书比较便宜。"
+      "explanation": "参考句子：那本书比较便宜。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 36,
@@ -751,7 +816,8 @@
         "这些东西一共五十块钱."
       ],
       "points": 2,
-      "explanation": "参考句子：这些东西一共五十块钱。"
+      "explanation": "参考句子：这些东西一共五十块钱。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 37,
@@ -766,7 +832,8 @@
         "请找我五块钱."
       ],
       "points": 2,
-      "explanation": "参考句子：请找我五块钱。"
+      "explanation": "参考句子：请找我五块钱。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 38,
@@ -781,7 +848,8 @@
         "我要付多少钱?"
       ],
       "points": 2,
-      "explanation": "参考句子：我要付多少钱？"
+      "explanation": "参考句子：我要付多少钱？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 39,
@@ -796,7 +864,8 @@
         "我有一百块钱."
       ],
       "points": 2,
-      "explanation": "参考句子：我有一百块钱。"
+      "explanation": "参考句子：我有一百块钱。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 40,
@@ -811,7 +880,8 @@
         "这个苹果两块五."
       ],
       "points": 2,
-      "explanation": "参考句子：这个苹果两块五。"
+      "explanation": "参考句子：这个苹果两块五。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 41,
@@ -826,7 +896,8 @@
         "这家商店的东西很多."
       ],
       "points": 2,
-      "explanation": "参考句子：这家商店的东西很多。"
+      "explanation": "参考句子：这家商店的东西很多。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 42,
@@ -841,7 +912,8 @@
         "我的钱比你少."
       ],
       "points": 2,
-      "explanation": "参考句子：我的钱比你少。"
+      "explanation": "参考句子：我的钱比你少。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 43,
@@ -856,7 +928,8 @@
         "这个比那个便宜一点."
       ],
       "points": 2,
-      "explanation": "参考句子：这个比那个便宜一点。"
+      "explanation": "参考句子：这个比那个便宜一点。\n语法与搭配：甲＋比＋乙＋形容词：比较",
+      "grammarFocus": "甲＋比＋乙＋形容词：比较"
     },
     {
       "id": 44,
@@ -871,7 +944,8 @@
         "我没有零钱."
       ],
       "points": 2,
-      "explanation": "参考句子：我没有零钱。"
+      "explanation": "参考句子：我没有零钱。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 45,
@@ -886,7 +960,8 @@
         "请给我一张收据."
       ],
       "points": 2,
-      "explanation": "参考句子：请给我一张收据。"
+      "explanation": "参考句子：请给我一张收据。\n语法与搭配：给＋人＋物/动作",
+      "grammarFocus": "给＋人＋物/动作"
     },
     {
       "id": 46,
@@ -901,7 +976,8 @@
         "我想买便宜一点的."
       ],
       "points": 2,
-      "explanation": "参考句子：我想买便宜一点的。"
+      "explanation": "参考句子：我想买便宜一点的。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 47,
@@ -916,7 +992,8 @@
         "这杯茶八块不是十块."
       ],
       "points": 2,
-      "explanation": "参考句子：这杯茶八块不是十块。"
+      "explanation": "参考句子：这杯茶八块不是十块。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 48,
@@ -931,7 +1008,8 @@
         "两本书一共二十块钱."
       ],
       "points": 2,
-      "explanation": "参考句子：两本书一共二十块钱。"
+      "explanation": "参考句子：两本书一共二十块钱。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 49,
@@ -946,7 +1024,8 @@
         "你可以再便宜一点吗?"
       ],
       "points": 2,
-      "explanation": "参考句子：你可以再便宜一点吗？"
+      "explanation": "参考句子：你可以再便宜一点吗？\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 50,
@@ -962,9 +1041,11 @@
         "我今天没带钱."
       ],
       "points": 2,
-      "explanation": "参考句子：我今天没带钱。"
+      "explanation": "参考句子：我今天没带钱。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
   ],
   "previousPronunciationHash": "b896331a",
-  "pronunciationOptionsVersion": 1
+  "pronunciationOptionsVersion": 1,
+  "contentDiversityVersion": 1
 }

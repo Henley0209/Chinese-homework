@@ -1,26 +1,27 @@
 {
   "title": "HSK5 第05课 职场压力与成长",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“压力”的正确读音。",
+      "text": "【拼音选择】请选择“疲惫”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "cā lì",
-        "B": "bā lì",
-        "C": "yā lì",
-        "D": "yā nì"
+        "A": "pí bài",
+        "B": "pí bèi",
+        "C": "bí bèi",
+        "D": "cí bèi"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "“压力”读作 yā lì，意思是 áp lực。"
+      "explanation": "“疲惫”读作 pí bèi。注意声母、韵母、声调及轻声。",
+      "targetWord": "疲惫"
     },
     {
       "id": 2,
@@ -28,200 +29,219 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“适应”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shì yìng",
+        "A": "chì yìng",
         "B": "shì yìn",
-        "C": "chì yìng",
+        "C": "shì yìng",
         "D": "sì yìng"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“适应”读作 shì yìng，意思是 thích nghi。"
+      "explanation": "“适应”读作 shì yìng。注意声母、韵母、声调及轻声。",
+      "targetWord": "适应"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“挑战”的正确读音。",
+      "text": "【拼音选择】请选择“情绪”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biǎo zhàn",
-        "B": "tiǎo zhàn",
-        "C": "tiǎo zàn",
-        "D": "tiǎo zhàng"
+        "A": "qíng xù",
+        "B": "qíng qù",
+        "C": "xíng xù",
+        "D": "qín xù"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "“挑战”读作 tiǎo zhàn，意思是 thử thách。"
+      "explanation": "“情绪”读作 qíng xù。注意声母、韵母、声调及轻声。",
+      "targetWord": "情绪"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“鼓励”的正确读音。",
+      "text": "【拼音选择】请选择“挫折”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "gǔ nì",
-        "B": "bǔ lì",
-        "C": "cǔ lì",
+        "A": "cuì zhé",
+        "B": "chuò zhé",
+        "C": "cuò zhé",
+        "D": "cuò zé"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "“挫折”读作 cuò zhé。注意声母、韵母、声调及轻声。",
+      "targetWord": "挫折"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "section": "拼音选择",
+      "text": "【拼音选择】请选择“成就”的正确读音。",
+      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
+      "options": {
+        "A": "chén jiù",
+        "B": "chéng qiù",
+        "C": "céng jiù",
+        "D": "chéng jiù"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "“成就”读作 chéng jiù。注意声母、韵母、声调及轻声。",
+      "targetWord": "成就"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：面对连续的加班，他开始学习如何缓解____。",
+      "pinyin": "miàn duì lián xù de jiā bān ， tā kāi shǐ xué xí rú hé huǎn jiě ____。",
+      "vietnamese": "Gợi ý: áp lực.",
+      "options": {
+        "A": "成长",
+        "B": "分析",
+        "C": "压力",
+        "D": "鼓励"
+      },
+      "optionPinyin": {
+        "A": "chéng zhǎng",
+        "B": "fēn xī",
+        "C": "yā lì",
+        "D": "gǔ lì"
+      },
+      "answers": [
+        "C"
+      ],
+      "points": 5,
+      "explanation": "应填“压力”。完整句子：面对连续的加班，他开始学习如何缓解压力。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "压力",
+      "completeSentence": "面对连续的加班，他开始学习如何缓解压力。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：这次困难虽然很大，却也是一次难得的____机会。",
+      "pinyin": "zhè cì kùn nán suī rán hěn dà ， què yě shì yī cì nán dé de ____ jī huì 。",
+      "vietnamese": "Gợi ý: trưởng thành.",
+      "options": {
+        "A": "分析",
+        "B": "成长",
+        "C": "鼓励",
+        "D": "压力"
+      },
+      "optionPinyin": {
+        "A": "fēn xī",
+        "B": "chéng zhǎng",
+        "C": "gǔ lì",
+        "D": "yā lì"
+      },
+      "answers": [
+        "B"
+      ],
+      "points": 5,
+      "explanation": "应填“成长”。完整句子：这次困难虽然很大，却也是一次难得的成长机会。\n语法与搭配：动词＋得＋程度/状态补语",
+      "targetWord": "成长",
+      "completeSentence": "这次困难虽然很大，却也是一次难得的成长机会。",
+      "grammarFocus": "动词＋得＋程度/状态补语"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：同事的及时____让他重新有了继续尝试的信心。",
+      "pinyin": "tóng shì de jí shí ____ ràng tā chóng xīn yǒu le jì xù cháng shì de xìn xīn 。",
+      "vietnamese": "Gợi ý: động viên.",
+      "options": {
+        "A": "分析",
+        "B": "压力",
+        "C": "成长",
+        "D": "鼓励"
+      },
+      "optionPinyin": {
+        "A": "fēn xī",
+        "B": "yā lì",
+        "C": "chéng zhǎng",
         "D": "gǔ lì"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“鼓励”读作 gǔ lì，意思是 khuyến khích。"
-    },
-    {
-      "id": 5,
-      "type": "choice",
-      "section": "拼音选择",
-      "text": "【拼音选择】请选择“进步”的正确读音。",
-      "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
-      "options": {
-        "A": "qìn bù",
-        "B": "bìn bù",
-        "C": "jìng bù",
-        "D": "jìn bù"
-      },
-      "answers": [
-        "D"
-      ],
-      "points": 5,
-      "explanation": "“进步”读作 jìn bù，意思是 tiến bộ。"
-    },
-    {
-      "id": 6,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：面对越来越大的____她学会了合理安排工作。",
-      "pinyin": "miàn duì yuè lái yuè dà de ____ tā xué huì le hé lǐ ān pái gōng zuò",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: áp lực.",
-      "options": {
-        "A": "鼓励",
-        "B": "压力",
-        "C": "进步",
-        "D": "挑战"
-      },
-      "optionPinyin": {
-        "A": "gǔ lì",
-        "B": "yā lì",
-        "C": "jìn bù",
-        "D": "tiǎo zhàn"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“压力”（áp lực）。完整句子：面对越来越大的压力她学会了合理安排工作。"
-    },
-    {
-      "id": 7,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：新员工需要一段时间才能____公司的节奏。",
-      "pinyin": "xīn yuán gōng xū yào yī duàn shí jiān cái néng ____ gōng sī de jié zòu",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thích nghi.",
-      "options": {
-        "A": "适应",
-        "B": "进步",
-        "C": "挑战",
-        "D": "压力"
-      },
-      "optionPinyin": {
-        "A": "shì yìng",
-        "B": "jìn bù",
-        "C": "tiǎo zhàn",
-        "D": "yā lì"
-      },
-      "answers": [
-        "A"
-      ],
-      "points": 5,
-      "explanation": "应填“适应”（thích nghi）。完整句子：新员工需要一段时间才能适应公司的节奏。"
-    },
-    {
-      "id": 8,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：他把这次困难看作提升能力的____。",
-      "pinyin": "tā bǎ zhè cì kùn nán kàn zuò tí shēng néng lì de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thử thách.",
-      "options": {
-        "A": "压力",
-        "B": "进步",
-        "C": "挑战",
-        "D": "适应"
-      },
-      "optionPinyin": {
-        "A": "yā lì",
-        "B": "jìn bù",
-        "C": "tiǎo zhàn",
-        "D": "shì yìng"
-      },
-      "answers": [
-        "C"
-      ],
-      "points": 5,
-      "explanation": "应填“挑战”（thử thách）。完整句子：他把这次困难看作提升能力的挑战。"
+      "explanation": "应填“鼓励”。完整句子：同事的及时鼓励让他重新有了继续尝试的信心。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "鼓励",
+      "completeSentence": "同事的及时鼓励让他重新有了继续尝试的信心。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：经理经常____员工主动提出不同的意见。",
-      "pinyin": "jīng lǐ jīng cháng ____ yuán gōng zhǔ dòng tí chū bù tóng de yì jiàn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: khuyến khích.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：出现失误后，最重要的是____原因并采取行动。",
+      "pinyin": "chū xiàn shī wù hòu ， zuì zhòng yào de shì ____ yuán yīn bìng cǎi qǔ xíng dòng 。",
+      "vietnamese": "Gợi ý: phân tích.",
       "options": {
-        "A": "进步",
+        "A": "压力",
         "B": "鼓励",
-        "C": "压力",
-        "D": "挑战"
+        "C": "分析",
+        "D": "成长"
       },
       "optionPinyin": {
-        "A": "jìn bù",
+        "A": "yā lì",
         "B": "gǔ lì",
-        "C": "yā lì",
-        "D": "tiǎo zhàn"
-      },
-      "answers": [
-        "B"
-      ],
-      "points": 5,
-      "explanation": "应填“鼓励”（khuyến khích）。完整句子：经理经常鼓励员工主动提出不同的意见。"
-    },
-    {
-      "id": 10,
-      "type": "choice",
-      "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：通过不断总结错误她取得了明显的____。",
-      "pinyin": "tōng guò bù duàn zǒng jié cuò wù tā qǔ dé le míng xiǎn de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiến bộ.",
-      "options": {
-        "A": "鼓励",
-        "B": "压力",
-        "C": "进步",
-        "D": "适应"
-      },
-      "optionPinyin": {
-        "A": "gǔ lì",
-        "B": "yā lì",
-        "C": "jìn bù",
-        "D": "shì yìng"
+        "C": "fēn xī",
+        "D": "chéng zhǎng"
       },
       "answers": [
         "C"
       ],
       "points": 5,
-      "explanation": "应填“进步”（tiến bộ）。完整句子：通过不断总结错误她取得了明显的进步。"
+      "explanation": "应填“分析”。完整句子：出现失误后，最重要的是分析原因并采取行动。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "分析",
+      "completeSentence": "出现失误后，最重要的是分析原因并采取行动。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "section": "四选一词语填空",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：他不再用别人的成绩来____自己的价值。",
+      "pinyin": "tā bú zài yòng bié rén de chéng jì lái ____ zì jǐ de jià zhí 。",
+      "vietnamese": "Gợi ý: đánh giá.",
+      "options": {
+        "A": "鼓励",
+        "B": "压力",
+        "C": "成长",
+        "D": "衡量"
+      },
+      "optionPinyin": {
+        "A": "gǔ lì",
+        "B": "yā lì",
+        "C": "chéng zhǎng",
+        "D": "héng liáng"
+      },
+      "answers": [
+        "D"
+      ],
+      "points": 5,
+      "explanation": "应填“衡量”。完整句子：他不再用别人的成绩来衡量自己的价值。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "衡量",
+      "completeSentence": "他不再用别人的成绩来衡量自己的价值。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：面对越来越大的压力她学会了合理安排工作。\nmiàn duì yuè lái yuè dà de yā lì tā xué huì le hé lǐ ān pái gōng zuò。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：面对越来越大的压力她学会了合理安排工作。\nmiàn duì yuè lái yuè dà de yā lì tā xué huì le hé lǐ ān pái gōng zuò。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：越来越＋形容词：程度变化",
+      "grammarFocus": "越来越＋形容词：程度变化"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：新员工需要一段时间才能适应公司的节奏。\nxīn yuán gōng xū yào yī duàn shí jiān cái néng shì yìng gōng sī de jié zòu。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：新员工需要一段时间才能适应公司的节奏。\nxīn yuán gōng xū yào yī duàn shí jiān cái néng shì yìng gōng sī de jié zòu。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 15,
-      "explanation": "参考句子：他把这次困难看作提升能力的挑战。\ntā bǎ zhè cì kùn nán kàn zuò tí shēng néng lì de tiǎo zhàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：他把这次困难看作提升能力的挑战。\ntā bǎ zhè cì kùn nán kàn zuò tí shēng néng lì de tiǎo zhàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：把＋宾语＋动词＋结果/处所：说明处置",
+      "grammarFocus": "把＋宾语＋动词＋结果/处所：说明处置"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：经理经常鼓励员工主动提出不同的意见。\njīng lǐ jīng cháng gǔ lì yuán gōng zhǔ dòng tí chū bù tóng de yì jiàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：经理经常鼓励员工主动提出不同的意见。\njīng lǐ jīng cháng gǔ lì yuán gōng zhǔ dòng tí chū bù tóng de yì jiàn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 17,
-      "explanation": "参考句子：通过不断总结错误她取得了明显的进步。\ntōng guò bù duàn zǒng jié cuò wù tā qǔ dé le míng xiǎn de jìn bù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：通过不断总结错误她取得了明显的进步。\ntōng guò bù duàn zǒng jié cuò wù tā qǔ dé le míng xiǎn de jìn bù。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：动词＋得＋程度/状态补语",
+      "grammarFocus": "动词＋得＋程度/状态补语"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解工作压力的来源还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě gōng zuò yā lì de lái yuán hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解工作压力的来源还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě gōng zuò yā lì de lái yuán hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化职业成长的机会都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà zhí yè chéng zhǎng de jī huì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化职业成长的机会都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà zhí yè chéng zhǎng de jī huì dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：只有深入理解接受批评的态度才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě jiē shòu pī píng de tài dù cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解接受批评的态度才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě jiē shòu pī píng de tài dù cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析自我评价的标准。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī zì wǒ píng jià de biāo zhǔn。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析自我评价的标准。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī zì wǒ píng jià de biāo zhǔn。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明能力提升的途径。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng néng lì tí shēng de tú jìng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明能力提升的途径。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng néng lì tí shēng de tú jìng。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

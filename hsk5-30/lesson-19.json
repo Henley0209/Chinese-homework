@@ -1,227 +1,247 @@
 {
   "title": "HSK5 第19课 气候变化与自然灾害",
-  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷",
+  "description": "面向越南学习者的HSK5主题原创课堂练习 · 5道拼音选择＋5道词语填空＋10道句子排序 · 每题5分，满分100分 · 沿用现有HSK作业格式，非官方模拟卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
       "id": 1,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“气候”的正确读音。",
+      "text": "【拼音选择】请选择“洪水”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qì hào",
-        "B": "qì hòu",
-        "C": "xì hòu",
-        "D": "jì hòu"
+        "A": "hóng suǐ",
+        "B": "cóng shuǐ",
+        "C": "chóng shuǐ",
+        "D": "hóng shuǐ"
       },
       "answers": [
-        "B"
+        "D"
       ],
       "points": 5,
-      "explanation": "“气候”读作 qì hòu，意思是 khí hậu。"
+      "explanation": "“洪水”读作 hóng shuǐ。注意声母、韵母、声调及轻声。",
+      "targetWord": "洪水"
     },
     {
       "id": 2,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“灾害”的正确读音。",
+      "text": "【拼音选择】请选择“干旱”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "zāi hài",
-        "B": "zhāi hài",
-        "C": "bāi hài",
-        "D": "cāi hài"
+        "A": "gān hàng",
+        "B": "gān hàn",
+        "C": "gāng hàn",
+        "D": "gān fàn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“灾害”读作 zāi hài，意思是 thiên tai。"
+      "explanation": "“干旱”读作 gān hàn。注意声母、韵母、声调及轻声。",
+      "targetWord": "干旱"
     },
     {
       "id": 3,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“损失”的正确读音。",
+      "text": "【拼音选择】请选择“灾情”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "sǔn sī",
-        "B": "shǔn shī",
-        "C": "cǔn shī",
-        "D": "sǔn shī"
+        "A": "zāi qín",
+        "B": "zāi xíng",
+        "C": "zāi qíng",
+        "D": "zhāi qíng"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "“损失”读作 sǔn shī，意思是 tổn thất。"
+      "explanation": "“灾情”读作 zāi qíng。注意声母、韵母、声调及轻声。",
+      "targetWord": "灾情"
     },
     {
       "id": 4,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“预测”的正确读音。",
+      "text": "【拼音选择】请选择“避险”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "yù chè",
-        "B": "bù cè",
-        "C": "cù cè",
-        "D": "yù cè"
+        "A": "biè xiǎn",
+        "B": "bì qiǎn",
+        "C": "bì xiǎng",
+        "D": "bì xiǎn"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“预测”读作 yù cè，意思是 dự đoán。"
+      "explanation": "“避险”读作 bì xiǎn。注意声母、韵母、声调及轻声。",
+      "targetWord": "避险"
     },
     {
       "id": 5,
       "type": "choice",
       "section": "拼音选择",
-      "text": "【拼音选择】请选择“应对”的正确读音。",
+      "text": "【拼音选择】请选择“升温”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "dìng duì",
-        "B": "yìn duì",
-        "C": "bìng duì",
-        "D": "yìng duì"
+        "A": "sēng wēn",
+        "B": "shēn wēn",
+        "C": "shēng wēng",
+        "D": "shēng wēn"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“应对”读作 yìng duì，意思是 ứng phó。"
+      "explanation": "“升温”读作 shēng wēn。注意声母、韵母、声调及轻声。",
+      "targetWord": "升温"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：____的变化正在影响部分地区的农业生产。",
-      "pinyin": "____ de biàn huà zhèng zài yǐng xiǎng bù fèn dì qū de nóng yè shēng chǎn",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: khí hậu.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：连续高温使当地的用水____进一步增加。",
+      "pinyin": "lián xù gāo wēn shǐ dāng dì de yòng shuǐ ____ jìn yí bù zēng jiā 。",
+      "vietnamese": "Gợi ý: áp lực.",
       "options": {
-        "A": "损失",
-        "B": "应对",
-        "C": "预测",
-        "D": "气候"
+        "A": "压力",
+        "B": "预警",
+        "C": "赶到",
+        "D": "影响"
       },
       "optionPinyin": {
-        "A": "sǔn shī",
-        "B": "yìng duì",
-        "C": "yù cè",
-        "D": "qì hòu"
+        "A": "yā lì",
+        "B": "yù jǐng",
+        "C": "gǎn dào",
+        "D": "yǐng xiǎng"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“气候”（khí hậu）。完整句子：气候的变化正在影响部分地区的农业生产。"
+      "explanation": "应填“压力”。完整句子：连续高温使当地的用水压力进一步增加。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "压力",
+      "completeSentence": "连续高温使当地的用水压力进一步增加。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：面对突如其来的____居民按照指引迅速转移。",
-      "pinyin": "miàn duì tū rú qí lái de ____ jū mín àn zhào zhǐ yǐn xùn sù zhuǎn yí",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thiên tai.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：有关部门提前发布____，提醒居民做好准备。",
+      "pinyin": "yǒu guān bù mén tí qián fā bù ____， tí xǐng jū mín zuò hǎo zhǔn bèi 。",
+      "vietnamese": "Gợi ý: cảnh báo.",
       "options": {
-        "A": "损失",
-        "B": "预测",
-        "C": "灾害",
-        "D": "气候"
+        "A": "影响",
+        "B": "预警",
+        "C": "压力",
+        "D": "赶到"
       },
       "optionPinyin": {
-        "A": "sǔn shī",
-        "B": "yù cè",
-        "C": "zāi hài",
-        "D": "qì hòu"
+        "A": "yǐng xiǎng",
+        "B": "yù jǐng",
+        "C": "yā lì",
+        "D": "gǎn dào"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“灾害”（thiên tai）。完整句子：面对突如其来的灾害居民按照指引迅速转移。"
+      "explanation": "应填“预警”。完整句子：有关部门提前发布预警，提醒居民做好准备。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "预警",
+      "completeSentence": "有关部门提前发布预警，提醒居民做好准备。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：提前采取措施能够在一定程度上减少灾害造成的____。",
-      "pinyin": "tí qián cǎi qǔ cuò shī néng gòu zài yí dìng chéng dù shàng jiǎn shǎo zāi hài zào chéng de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tổn thất.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：极端天气可能对交通和农业造成严重____。",
+      "pinyin": "jí duān tiān qì kě néng duì jiāo tōng hé nóng yè zào chéng yán zhòng ____。",
+      "vietnamese": "Gợi ý: ảnh hưởng.",
       "options": {
-        "A": "应对",
-        "B": "灾害",
-        "C": "损失",
-        "D": "预测"
+        "A": "压力",
+        "B": "影响",
+        "C": "预警",
+        "D": "赶到"
       },
       "optionPinyin": {
-        "A": "yìng duì",
-        "B": "zāi hài",
-        "C": "sǔn shī",
-        "D": "yù cè"
+        "A": "yā lì",
+        "B": "yǐng xiǎng",
+        "C": "yù jǐng",
+        "D": "gǎn dào"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“损失”（tổn thất）。完整句子：提前采取措施能够在一定程度上减少灾害造成的损失。"
+      "explanation": "应填“影响”。完整句子：极端天气可能对交通和农业造成严重影响。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "影响",
+      "completeSentence": "极端天气可能对交通和农业造成严重影响。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：准确____天气有助于有关部门提前安排救援力量。",
-      "pinyin": "zhǔn què ____ tiān qì yǒu zhù yú yǒu guān bù mén tí qián ān pái jiù yuán lì liàng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: dự đoán.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：灾害发生后，救援人员迅速____现场。",
+      "pinyin": "zāi hài fā shēng hòu ， jiù yuán rén yuán xùn sù ____ xiàn chǎng 。",
+      "vietnamese": "Gợi ý: đến kịp.",
       "options": {
-        "A": "气候",
-        "B": "损失",
-        "C": "应对",
-        "D": "预测"
+        "A": "影响",
+        "B": "压力",
+        "C": "赶到",
+        "D": "预警"
       },
       "optionPinyin": {
-        "A": "qì hòu",
-        "B": "sǔn shī",
-        "C": "yìng duì",
-        "D": "yù cè"
+        "A": "yǐng xiǎng",
+        "B": "yā lì",
+        "C": "gǎn dào",
+        "D": "yù jǐng"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“预测”（dự đoán）。完整句子：准确预测天气有助于有关部门提前安排救援力量。"
+      "explanation": "应填“赶到”。完整句子：灾害发生后，救援人员迅速赶到现场。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "赶到",
+      "completeSentence": "灾害发生后，救援人员迅速赶到现场。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语提示选择最合适的词语：学校定期组织演练帮助学生学习____紧急情况。",
-      "pinyin": "xué xiào dìng qī zǔ zhī yǎn liàn bāng zhù xué shēng xué xí ____ jǐn jí qíng kuàng",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: ứng phó.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：制定长期方案时，应考虑气候变化带来的____。",
+      "pinyin": "zhì dìng cháng qī fāng àn shí ， yìng kǎo lǜ qì hòu biàn huà dài lái de ____。",
+      "vietnamese": "Gợi ý: tính bất định.",
       "options": {
-        "A": "灾害",
-        "B": "预测",
-        "C": "气候",
-        "D": "应对"
+        "A": "压力",
+        "B": "影响",
+        "C": "预警",
+        "D": "不确定性"
       },
       "optionPinyin": {
-        "A": "zāi hài",
-        "B": "yù cè",
-        "C": "qì hòu",
-        "D": "yìng duì"
+        "A": "yā lì",
+        "B": "yǐng xiǎng",
+        "C": "yù jǐng",
+        "D": "bù què dìng xìng"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“应对”（ứng phó）。完整句子：学校定期组织演练帮助学生学习应对紧急情况。"
+      "explanation": "应填“不确定性”。完整句子：制定长期方案时，应考虑气候变化带来的不确定性。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "targetWord": "不确定性",
+      "completeSentence": "制定长期方案时，应考虑气候变化带来的不确定性。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 11,
@@ -237,7 +257,8 @@
       ],
       "points": 5,
       "hanziCount": 18,
-      "explanation": "参考句子：气候的变化正在影响部分地区的农业生产。\nqì hòu de biàn huà zhèng zài yǐng xiǎng bù fèn dì qū de nóng yè shēng chǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：气候的变化正在影响部分地区的农业生产。\nqì hòu de biàn huà zhèng zài yǐng xiǎng bù fèn dì qū de nóng yè shēng chǎn。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：正在＋动词：正在进行",
+      "grammarFocus": "正在＋动词：正在进行"
     },
     {
       "id": 12,
@@ -253,7 +274,8 @@
       ],
       "points": 5,
       "hanziCount": 19,
-      "explanation": "参考句子：面对突如其来的灾害居民按照指引迅速转移。\nmiàn duì tū rú qí lái de zāi hài jū mín àn zhào zhǐ yǐn xùn sù zhuǎn yí。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：面对突如其来的灾害居民按照指引迅速转移。\nmiàn duì tū rú qí lái de zāi hài jū mín àn zhào zhǐ yǐn xùn sù zhuǎn yí。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 13,
@@ -269,7 +291,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：提前采取措施能够在一定程度上减少灾害造成的损失。\ntí qián cǎi qǔ cuò shī néng gòu zài yí dìng chéng dù shàng jiǎn shǎo zāi hài zào chéng de sǔn shī。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：提前采取措施能够在一定程度上减少灾害造成的损失。\ntí qián cǎi qǔ cuò shī néng gòu zài yí dìng chéng dù shàng jiǎn shǎo zāi hài zào chéng de sǔn shī。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：在＋地点＋动词；检查地点与谓语位置",
+      "grammarFocus": "在＋地点＋动词；检查地点与谓语位置"
     },
     {
       "id": 14,
@@ -285,7 +308,8 @@
       ],
       "points": 5,
       "hanziCount": 21,
-      "explanation": "参考句子：准确预测天气有助于有关部门提前安排救援力量。\nzhǔn què yù cè tiān qì yǒu zhù yú yǒu guān bù mén tí qián ān pái jiù yuán lì liàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：准确预测天气有助于有关部门提前安排救援力量。\nzhǔn què yù cè tiān qì yǒu zhù yú yǒu guān bù mén tí qián ān pái jiù yuán lì liàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 15,
@@ -301,7 +325,8 @@
       ],
       "points": 5,
       "hanziCount": 20,
-      "explanation": "参考句子：学校定期组织演练帮助学生学习应对紧急情况。\nxué xiào dìng qī zǔ zhī yǎn liàn bāng zhù xué shēng xué xí yìng duì jǐn jí qíng kuàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ."
+      "explanation": "参考句子：学校定期组织演练帮助学生学习应对紧急情况。\nxué xiào dìng qī zǔ zhī yǎn liàn bāng zhù xué shēng xué xí yìng duì jǐn jí qíng kuàng。\n注意主语、状语、谓语和关联词的位置。Chú ý vị trí chủ ngữ, trạng ngữ, vị ngữ và liên từ.\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     },
     {
       "id": 16,
@@ -317,7 +342,8 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：我们不仅要了解气候变化的影响还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě qì hòu biàn huà de yǐng xiǎng hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…"
+      "explanation": "参考句子：我们不仅要了解气候变化的影响还要思考其实际意义。\nwǒ men bù jǐn yào liǎo jiě qì hòu biàn huà de yǐng xiǎng hái yào sī kǎo qí shí jì yì yì。\n不仅……还……：递进关系。Không những… mà còn…\n语法与搭配：不仅……还……：递进关系",
+      "grammarFocus": "不仅……还……：递进关系"
     },
     {
       "id": 17,
@@ -333,7 +359,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：无论社会如何变化防灾知识的普及都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà fáng zāi zhī shí de pǔ jí dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…"
+      "explanation": "参考句子：无论社会如何变化防灾知识的普及都值得我们认真关注。\nwú lùn shè huì rú hé biàn huà fáng zāi zhī shí de pǔ jí dōu zhí de wǒ men rèn zhēn guān zhù。\n无论……都……：条件变化，结论不变。Dù… thì vẫn…\n语法与搭配：无论……都……：无条件关系",
+      "grammarFocus": "无论……都……：无条件关系"
     },
     {
       "id": 18,
@@ -349,7 +376,8 @@
       ],
       "points": 5,
       "hanziCount": 24,
-      "explanation": "参考句子：只有深入理解应急准备的重要性才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě yìng jí zhǔn bèi de zhòng yào xìng cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…"
+      "explanation": "参考句子：只有深入理解应急准备的重要性才能作出更合理的判断。\nzhǐ yǒu shēn rù lǐ jiě yìng jí zhǔn bèi de zhòng yào xìng cái néng zuò chū gèng hé lǐ de pàn duàn。\n只有……才……：必要条件。Chỉ khi… mới…\n语法与搭配：只有……才……：必要条件",
+      "grammarFocus": "只有……才……：必要条件"
     },
     {
       "id": 19,
@@ -365,7 +393,8 @@
       ],
       "points": 5,
       "hanziCount": 22,
-      "explanation": "参考句子：与其急于得出结论不如先认真分析天气预报的作用。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī tiān qì yù bào de zuò yòng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…"
+      "explanation": "参考句子：与其急于得出结论不如先认真分析天气预报的作用。\nyǔ qí jí yú dé chū jié lùn bù rú xiān rèn zhēn fēn xī tiān qì yù bào de zuò yòng。\n与其……不如……：比较两种做法并提出建议。Thà… còn hơn…\n语法与搭配：与其……不如……：比较并提出选择",
+      "grammarFocus": "与其……不如……：比较并提出选择"
     },
     {
       "id": 20,
@@ -381,7 +410,9 @@
       ],
       "points": 5,
       "hanziCount": 23,
-      "explanation": "参考句子：老师要求我们结合实际经历具体说明社会救援的合作。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng shè huì jiù yuán de hé zuò。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。"
+      "explanation": "参考句子：老师要求我们结合实际经历具体说明社会救援的合作。\nlǎo shī yāo qiú wǒ men jié hé shí jì jīng lì jù tǐ shuō míng shè huì jiù yuán de hé zuò。\n要求＋人＋动词短语；结合……说明……。Yêu cầu ai làm gì; kết hợp trải nghiệm để giải thích。\n语法与搭配：先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。",
+      "grammarFocus": "先确定主语与谓语，再安排时间、地点和修饰语；保持词块完整。"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

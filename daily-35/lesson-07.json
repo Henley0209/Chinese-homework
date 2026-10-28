@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第07课 今天天气怎么样",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“天气”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "biān qì",
-        "B": "tiān xì",
-        "C": "tiān qì",
-        "D": "tiān jì"
+        "A": "tiān xì",
+        "B": "tiān qì",
+        "C": "tiān jì",
+        "D": "biān qì"
       },
       "answers": [
-        "C"
+        "B"
       ],
       "points": 5,
-      "explanation": "“天气”读作 tiān qì，本课词义：thời tiết。"
+      "explanation": "“天气”读作 tiān qì。注意声母、韵母、声调及轻声。",
+      "targetWord": "天气"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“下雨”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qià yǔ",
-        "B": "xià yǔ",
-        "C": "jià yǔ",
-        "D": "xiàn yǔ"
+        "A": "xià yǔ",
+        "B": "xiàn yǔ",
+        "C": "qià yǔ",
+        "D": "jià yǔ"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "“下雨”读作 xià yǔ，本课词义：mưa。"
+      "explanation": "“下雨”读作 xià yǔ。注意声母、韵母、声调及轻声。",
+      "targetWord": "下雨"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“凉快”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "niáng kuài",
-        "B": "lián kuài",
-        "C": "biáng kuài",
+        "B": "biáng kuài",
+        "C": "lián kuài",
         "D": "liáng kuài"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "“凉快”读作 liáng kuài，本课词义：mát mẻ。"
+      "explanation": "“凉快”读作 liáng kuài。注意声母、韵母、声调及轻声。",
+      "targetWord": "凉快"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“外套”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
         "A": "wài tào",
-        "B": "wèi tào",
+        "B": "bài tào",
         "C": "wài tòu",
-        "D": "bài tào"
+        "D": "wèi tào"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "“外套”读作 wài tào，本课词义：áo khoác。"
+      "explanation": "“外套”读作 wài tào。注意声母、韵母、声调及轻声。",
+      "targetWord": "外套"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“季节”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "bì jié",
-        "B": "jì qié",
-        "C": "qì jié",
-        "D": "jì jié"
+        "A": "qì jié",
+        "B": "jì jié",
+        "C": "jì qié",
+        "D": "bì jié"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "“季节”读作 jì jié，本课词义：mùa。"
+      "explanation": "“季节”读作 jì jié。注意声母、韵母、声调及轻声。",
+      "targetWord": "季节"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：你们那里今天的____怎么样啊。",
-      "pinyin": "nǐ men nà lǐ jīn tiān de ____ zěn me yàng a",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thời tiết.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：天气____说晚上会下雨。",
+      "pinyin": "tiān qì ____ shuō wǎn shàng huì xià yǔ 。",
+      "vietnamese": "Gợi ý: dự báo.",
       "options": {
-        "A": "外套",
-        "B": "下雨",
-        "C": "季节",
-        "D": "天气"
+        "A": "雨伞",
+        "B": "降温",
+        "C": "预报",
+        "D": "潮湿"
       },
       "optionPinyin": {
-        "A": "wài tào",
-        "B": "xià yǔ",
-        "C": "jì jié",
-        "D": "tiān qì"
+        "A": "yǔ sǎn",
+        "B": "jiàng wēn",
+        "C": "yù bào",
+        "D": "cháo shī"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“天气”（thời tiết）。完整表达：你们那里今天的天气怎么样啊。"
+      "explanation": "应填“预报”。完整句子：天气预报说晚上会下雨。\n语法与搭配：说：引述信息",
+      "targetWord": "预报",
+      "completeSentence": "天气预报说晚上会下雨。",
+      "grammarFocus": "说：引述信息"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：外面可能要____了你带把伞吧。",
-      "pinyin": "wài miàn kě néng yào ____ le nǐ dài bǎ sǎn ba",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: mưa.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：外面下雨了，出门别忘了带____。",
+      "pinyin": "wài miàn xià yǔ le ， chū mén bié wàng le dài ____。",
+      "vietnamese": "Gợi ý: ô, dù.",
       "options": {
-        "A": "下雨",
-        "B": "季节",
-        "C": "凉快",
-        "D": "天气"
+        "A": "雨伞",
+        "B": "潮湿",
+        "C": "降温",
+        "D": "预报"
       },
       "optionPinyin": {
-        "A": "xià yǔ",
-        "B": "jì jié",
-        "C": "liáng kuài",
-        "D": "tiān qì"
+        "A": "yǔ sǎn",
+        "B": "cháo shī",
+        "C": "jiàng wēn",
+        "D": "yù bào"
       },
       "answers": [
         "A"
       ],
       "points": 5,
-      "explanation": "应填“下雨”（mưa）。完整表达：外面可能要下雨了你带把伞吧。"
+      "explanation": "应填“雨伞”。完整句子：外面下雨了，出门别忘了带雨伞。\n语法与搭配：别忘了＋动词",
+      "targetWord": "雨伞",
+      "completeSentence": "外面下雨了，出门别忘了带雨伞。",
+      "grammarFocus": "别忘了＋动词"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：今天比昨天____多了。",
-      "pinyin": "jīn tiān bǐ zuó tiān ____ duō le",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: mát mẻ.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：连着下了三天雨，屋里很____。",
+      "pinyin": "lián zhe xià le sān tiān yǔ ， wū lǐ hěn ____。",
+      "vietnamese": "Gợi ý: ẩm ướt.",
       "options": {
-        "A": "季节",
-        "B": "外套",
-        "C": "下雨",
-        "D": "凉快"
+        "A": "降温",
+        "B": "雨伞",
+        "C": "预报",
+        "D": "潮湿"
       },
       "optionPinyin": {
-        "A": "jì jié",
-        "B": "wài tào",
-        "C": "xià yǔ",
-        "D": "liáng kuài"
+        "A": "jiàng wēn",
+        "B": "yǔ sǎn",
+        "C": "yù bào",
+        "D": "cháo shī"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“凉快”（mát mẻ）。完整表达：今天比昨天凉快多了。"
+      "explanation": "应填“潮湿”。完整句子：连着下了三天雨，屋里很潮湿。\n语法与搭配：形容词谓语",
+      "targetWord": "潮湿",
+      "completeSentence": "连着下了三天雨，屋里很潮湿。",
+      "grammarFocus": "形容词谓语"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：早晚温差大你最好带件____。",
-      "pinyin": "zǎo wǎn wēn chà dà nǐ zuì hǎo dài jiàn ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: áo khoác.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：明天要____，记得多穿一件衣服。",
+      "pinyin": "míng tiān yào ____， jì de duō chuān yī jiàn yī fu 。",
+      "vietnamese": "Gợi ý: giảm nhiệt độ.",
       "options": {
-        "A": "季节",
-        "B": "凉快",
-        "C": "下雨",
-        "D": "外套"
+        "A": "降温",
+        "B": "预报",
+        "C": "潮湿",
+        "D": "雨伞"
       },
       "optionPinyin": {
-        "A": "jì jié",
-        "B": "liáng kuài",
-        "C": "xià yǔ",
-        "D": "wài tào"
+        "A": "jiàng wēn",
+        "B": "yù bào",
+        "C": "cháo shī",
+        "D": "yǔ sǎn"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“外套”（áo khoác）。完整表达：早晚温差大你最好带件外套。"
+      "explanation": "应填“降温”。完整句子：明天要降温，记得多穿一件衣服。\n语法与搭配：要：将要",
+      "targetWord": "降温",
+      "completeSentence": "明天要降温，记得多穿一件衣服。",
+      "grammarFocus": "要：将要"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：你最喜欢哪个____呢。",
-      "pinyin": "nǐ zuì xǐ huān nǎ ge ____ ne",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: mùa.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：今天阳光很强，出去要注意____。",
+      "pinyin": "jīn tiān yáng guāng hěn qiáng ， chū qù yào zhù yì ____。",
+      "vietnamese": "Gợi ý: chống nắng.",
       "options": {
-        "A": "凉快",
-        "B": "天气",
-        "C": "外套",
-        "D": "季节"
+        "A": "雨伞",
+        "B": "潮湿",
+        "C": "预报",
+        "D": "防晒"
       },
       "optionPinyin": {
-        "A": "liáng kuài",
-        "B": "tiān qì",
-        "C": "wài tào",
-        "D": "jì jié"
+        "A": "yǔ sǎn",
+        "B": "cháo shī",
+        "C": "yù bào",
+        "D": "fáng shài"
       },
       "answers": [
         "D"
       ],
       "points": 5,
-      "explanation": "应填“季节”（mùa）。完整表达：你最喜欢哪个季节呢。"
+      "explanation": "应填“防晒”。完整句子：今天阳光很强，出去要注意防晒。\n语法与搭配：要注意＋名词/动词",
+      "targetWord": "防晒",
+      "completeSentence": "今天阳光很强，出去要注意防晒。",
+      "grammarFocus": "要注意＋名词/动词"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n你们那里 / 啊 / 怎么样 / 今天的天气",
-      "pinyin": "nǐ men nà lǐ / a / zěn me yàng / jīn tiān de tiān qì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n低了 / 五度 / 比昨天 / 今天的气温",
+      "pinyin": "dī le / wǔ dù / bǐ zuó tiān / jīn tiān de qì wēn",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "你们那里今天的天气怎么样啊。",
-        "你们那里今天的天气怎么样啊",
-        "你们那里今天的天气怎么样啊.",
-        "你们那里今天的天气怎么样啊？",
-        "你们那里今天的天气怎么样啊?"
+        "今天的气温比昨天低了五度。",
+        "今天的气温比昨天低了五度",
+        "今天的气温比昨天低了五度."
       ],
       "points": 5,
-      "hanziCount": 13,
-      "explanation": "参考表达：你们那里今天的天气怎么样啊。\nnǐ men nà lǐ jīn tiān de tiān qì zěn me yàng a。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：今天的气温比昨天低了五度。\njīn tiān de qì wēn bǐ zuó tiān dī le wǔ dù\n语法与搭配：比字句；数量差",
+      "grammarFocus": "比字句；数量差"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n你 / 外面 / 带把伞吧 / 可能要下雨了",
-      "pinyin": "nǐ / wài miàn / dài bǎ sǎn ba / kě néng yào xià yǔ le",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 不管 / 都得出门 / 明天下不下雨",
+      "pinyin": "wǒ / bù guǎn / dōu dé chū mén / míng tiān xià bù xià yǔ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "外面可能要下雨了你带把伞吧。",
-        "外面可能要下雨了你带把伞吧",
-        "外面可能要下雨了你带把伞吧.",
-        "外面可能要下雨了你带把伞吧？",
-        "外面可能要下雨了你带把伞吧?"
+        "不管明天下不下雨我都得出门。",
+        "不管明天下不下雨我都得出门",
+        "不管明天下不下雨我都得出门."
       ],
       "points": 5,
       "hanziCount": 13,
-      "explanation": "参考表达：外面可能要下雨了你带把伞吧。\nwài miàn kě néng yào xià yǔ le nǐ dài bǎ sǎn ba。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "explanation": "参考句子：不管明天下不下雨我都得出门。\nbù guǎn míng tiān xià bù xià yǔ wǒ dōu dé chū mén\n语法与搭配：不管……都……",
+      "grammarFocus": "不管……都……"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n多了 / 今天 / 凉快 / 比昨天",
-      "pinyin": "duō le / jīn tiān / liáng kuài / bǐ zuó tiān",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n还晴着 / 就下起雨来了 / 刚才 / 现在",
+      "pinyin": "hái qíng zhe / jiù xià qǐ yǔ lái le / gāng cái / xiàn zài",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "今天比昨天凉快多了。",
-        "今天比昨天凉快多了",
-        "今天比昨天凉快多了.",
-        "今天比昨天凉快多了？",
-        "今天比昨天凉快多了?"
+        "刚才还晴着现在就下起雨来了。",
+        "刚才还晴着现在就下起雨来了",
+        "刚才还晴着现在就下起雨来了."
       ],
       "points": 5,
-      "hanziCount": 9,
-      "explanation": "参考表达：今天比昨天凉快多了。\njīn tiān bǐ zuó tiān liáng kuài duō le。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：刚才还晴着现在就下起雨来了。\ngāng cái hái qíng zhe xiàn zài jiù xià qǐ yǔ lái le\n语法与搭配：还……就……；起来",
+      "grammarFocus": "还……就……；起来"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n带件外套 / 你 / 最好 / 早晚温差大",
-      "pinyin": "dài jiàn wài tào / nǐ / zuì hǎo / zǎo wǎn wēn chà dà",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n就改在室内活动 / 我们 / 风太大 / 要是",
+      "pinyin": "jiù gǎi zài shì nèi huó dòng / wǒ men / fēng tài dà / yào shì",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "早晚温差大你最好带件外套。",
-        "早晚温差大你最好带件外套",
-        "早晚温差大你最好带件外套.",
-        "早晚温差大你最好带件外套？",
-        "早晚温差大你最好带件外套?"
+        "要是风太大我们就改在室内活动。",
+        "要是风太大我们就改在室内活动",
+        "要是风太大我们就改在室内活动."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：早晚温差大你最好带件外套。\nzǎo wǎn wēn chà dà nǐ zuì hǎo dài jiàn wài tào。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：要是风太大我们就改在室内活动。\nyào shì fēng tài dà wǒ men jiù gǎi zài shì nèi huó dòng\n语法与搭配：要是……就……",
+      "grammarFocus": "要是……就……"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n最喜欢 / 哪个季节 / 你 / 呢",
-      "pinyin": "zuì xǐ huān / nǎ ge jì jié / nǐ / ne",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我们 / 已经停了 / 出去走走吧 / 雨",
+      "pinyin": "wǒ men / yǐ jīng tíng le / chū qù zǒu zǒu ba / yǔ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "你最喜欢哪个季节呢。",
-        "你最喜欢哪个季节呢",
-        "你最喜欢哪个季节呢.",
-        "你最喜欢哪个季节呢？",
-        "你最喜欢哪个季节呢?"
+        "雨已经停了我们出去走走吧。",
+        "雨已经停了我们出去走走吧",
+        "雨已经停了我们出去走走吧."
       ],
       "points": 5,
-      "hanziCount": 9,
-      "explanation": "参考表达：你最喜欢哪个季节呢。\nnǐ zuì xǐ huān nǎ ge jì jié ne。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 12,
+      "explanation": "参考句子：雨已经停了我们出去走走吧。\nyǔ yǐ jīng tíng le wǒ men chū qù zǒu zǒu ba\n语法与搭配：已经……了；动词重叠",
+      "grammarFocus": "已经……了；动词重叠"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

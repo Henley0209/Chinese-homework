@@ -1,6 +1,6 @@
 {
   "title": "日常交际 第26课 可以扫码付款吗",
-  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷",
+  "description": "面向越南学习者的原创日常口语交际练习 · 5道拼音选择＋5道词语填空＋5道情境应答＋5道句子排序 · 每题5分，满分100分 · 沿用HSK作业格式，非官方考试试卷 同主题题型分工：拼音辨音、填空词义与语法、排序语序；完整句不跨题型重复。",
   "annotationVersion": 1,
   "questions": [
     {
@@ -9,18 +9,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“扫码”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "shǎo mǎ",
-        "B": "sǎo mǎ",
-        "C": "bǎo mǎ",
-        "D": "sǒu mǎ"
+        "A": "sǒu mǎ",
+        "B": "bǎo mǎ",
+        "C": "sǎo mǎ",
+        "D": "shǎo mǎ"
       },
       "answers": [
-        "B"
+        "C"
       ],
       "points": 5,
-      "explanation": "“扫码”读作 sǎo mǎ，本课词义：quét mã。"
+      "explanation": "“扫码”读作 sǎo mǎ。注意声母、韵母、声调及轻声。",
+      "targetWord": "扫码"
     },
     {
       "id": 2,
@@ -28,18 +29,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“现金”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "xiàn jīn",
-        "B": "xiàng jīn",
-        "C": "xiàn qīn",
-        "D": "qiàn jīn"
+        "A": "qiàn jīn",
+        "B": "xiàn jīn",
+        "C": "xiàng jīn",
+        "D": "xiàn qīn"
       },
       "answers": [
-        "A"
+        "B"
       ],
       "points": 5,
-      "explanation": "“现金”读作 xiàn jīn，本课词义：tiền mặt。"
+      "explanation": "“现金”读作 xiàn jīn。注意声母、韵母、声调及轻声。",
+      "targetWord": "现金"
     },
     {
       "id": 3,
@@ -47,18 +49,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“金额”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "qīn é",
-        "B": "jīng é",
-        "C": "bīn é",
-        "D": "jīn é"
+        "A": "jīn é",
+        "B": "qīn é",
+        "C": "jīng é",
+        "D": "bīn é"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "“金额”读作 jīn é，本课词义：số tiền。"
+      "explanation": "“金额”读作 jīn é。注意声母、韵母、声调及轻声。",
+      "targetWord": "金额"
     },
     {
       "id": 4,
@@ -66,18 +69,19 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“失败”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chī bài",
-        "B": "shī bài",
-        "C": "shī bèi",
-        "D": "sī bài"
+        "A": "shī bài",
+        "B": "chī bài",
+        "C": "sī bài",
+        "D": "shī bèi"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "“失败”读作 shī bài，本课词义：thất bại。"
+      "explanation": "“失败”读作 shī bài。注意声母、韵母、声调及轻声。",
+      "targetWord": "失败"
     },
     {
       "id": 5,
@@ -85,143 +89,159 @@
       "section": "拼音选择",
       "text": "【拼音选择】请选择“重复”的正确读音。",
       "pinyin": "Qǐng xuǎn zé “____” de zhèng què dú yīn.",
-      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần và thanh điệu.",
+      "vietnamese": "Chọn phiên âm đúng; chú ý âm đầu, vần, thanh điệu và thanh nhẹ.",
       "options": {
-        "A": "chóng fù",
-        "B": "cháng fù",
-        "C": "chóng hù",
+        "A": "cháng fù",
+        "B": "chóng hù",
+        "C": "chóng fù",
         "D": "cóng fù"
       },
       "answers": [
-        "A"
+        "C"
       ],
       "points": 5,
-      "explanation": "“重复”读作 chóng fù，本课词义：lặp lại。"
+      "explanation": "“重复”读作 chóng fù。注意声母、韵母、声调及轻声。",
+      "targetWord": "重复"
     },
     {
       "id": 6,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：请问这里可以____付款吗。",
-      "pinyin": "qǐng wèn zhè lǐ kě yǐ ____ fù kuǎn ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: quét mã.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：账户____不足，请换一种方式付款。",
+      "pinyin": "zhàng hù ____ bù zú ， qǐng huàn yī zhǒng fāng shì fù kuǎn 。",
+      "vietnamese": "Gợi ý: số dư.",
       "options": {
-        "A": "失败",
-        "B": "现金",
-        "C": "重复",
-        "D": "扫码"
+        "A": "余额",
+        "B": "付款码",
+        "C": "到账",
+        "D": "手续费"
       },
       "optionPinyin": {
-        "A": "shī bài",
-        "B": "xiàn jīn",
-        "C": "chóng fù",
-        "D": "sǎo mǎ"
+        "A": "yú é",
+        "B": "fù kuǎn mǎ",
+        "C": "dào zhàng",
+        "D": "shǒu xù fèi"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“扫码”（quét mã）。完整表达：请问这里可以扫码付款吗。"
+      "explanation": "应填“余额”。完整句子：账户余额不足，请换一种方式付款。\n语法与搭配：不足；请",
+      "targetWord": "余额",
+      "completeSentence": "账户余额不足，请换一种方式付款。",
+      "grammarFocus": "不足；请"
     },
     {
       "id": 7,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我没有带____可以刷卡吗。",
-      "pinyin": "wǒ méi yǒu dài ____ kě yǐ shuā kǎ ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: tiền mặt.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：转账以后，对方还没有____。",
+      "pinyin": "zhuǎn zhàng yǐ hòu ， duì fāng hái méi yǒu ____。",
+      "vietnamese": "Gợi ý: tiền vào tài khoản.",
       "options": {
-        "A": "重复",
-        "B": "现金",
-        "C": "失败",
-        "D": "扫码"
+        "A": "到账",
+        "B": "手续费",
+        "C": "付款码",
+        "D": "余额"
       },
       "optionPinyin": {
-        "A": "chóng fù",
-        "B": "xiàn jīn",
-        "C": "shī bài",
-        "D": "sǎo mǎ"
+        "A": "dào zhàng",
+        "B": "shǒu xù fèi",
+        "C": "fù kuǎn mǎ",
+        "D": "yú é"
       },
       "answers": [
-        "B"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“现金”（tiền mặt）。完整表达：我没有带现金可以刷卡吗。"
+      "explanation": "应填“到账”。完整句子：转账以后，对方还没有到账。\n语法与搭配：……以后；还没有",
+      "targetWord": "到账",
+      "completeSentence": "转账以后，对方还没有到账。",
+      "grammarFocus": "……以后；还没有"
     },
     {
       "id": 8,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：麻烦再核对一下这笔付款的____。",
-      "pinyin": "má fán zài hé duì yī xià zhè bǐ fù kuǎn de ____",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: số tiền.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：请打开____，让我扫一下。",
+      "pinyin": "qǐng dǎ kāi ____， ràng wǒ sǎo yí xià 。",
+      "vietnamese": "Gợi ý: mã thanh toán.",
       "options": {
-        "A": "现金",
-        "B": "扫码",
-        "C": "失败",
-        "D": "金额"
+        "A": "手续费",
+        "B": "付款码",
+        "C": "到账",
+        "D": "余额"
       },
       "optionPinyin": {
-        "A": "xiàn jīn",
-        "B": "sǎo mǎ",
-        "C": "shī bài",
-        "D": "jīn é"
+        "A": "shǒu xù fèi",
+        "B": "fù kuǎn mǎ",
+        "C": "dào zhàng",
+        "D": "yú é"
       },
       "answers": [
-        "D"
+        "B"
       ],
       "points": 5,
-      "explanation": "应填“金额”（số tiền）。完整表达：麻烦再核对一下这笔付款的金额。"
+      "explanation": "应填“付款码”。完整句子：请打开付款码，让我扫一下。\n语法与搭配：让＋人＋动词",
+      "targetWord": "付款码",
+      "completeSentence": "请打开付款码，让我扫一下。",
+      "grammarFocus": "让＋人＋动词"
     },
     {
       "id": 9,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：刚才付款____了我再试一次。",
-      "pinyin": "gāng cái fù kuǎn ____ le wǒ zài shì yī cì",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: thất bại.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：用银行卡付款会收____吗？",
+      "pinyin": "yòng yín háng kǎ fù kuǎn huì shōu ____ ma ？",
+      "vietnamese": "Gợi ý: phí giao dịch.",
       "options": {
-        "A": "金额",
-        "B": "扫码",
-        "C": "重复",
-        "D": "失败"
+        "A": "手续费",
+        "B": "余额",
+        "C": "付款码",
+        "D": "到账"
       },
       "optionPinyin": {
-        "A": "jīn é",
-        "B": "sǎo mǎ",
-        "C": "chóng fù",
-        "D": "shī bài"
+        "A": "shǒu xù fèi",
+        "B": "yú é",
+        "C": "fù kuǎn mǎ",
+        "D": "dào zhàng"
       },
       "answers": [
-        "D"
+        "A"
       ],
       "points": 5,
-      "explanation": "应填“失败”（thất bại）。完整表达：刚才付款失败了我再试一次。"
+      "explanation": "应填“手续费”。完整句子：用银行卡付款会收手续费吗？\n语法与搭配：会……吗",
+      "targetWord": "手续费",
+      "completeSentence": "用银行卡付款会收手续费吗？",
+      "grammarFocus": "会……吗"
     },
     {
       "id": 10,
       "type": "choice",
       "section": "四选一词语填空",
-      "text": "【选词填空】根据句意和越南语词义提示选择最合适的词语：我好像____付款了能帮我查一下吗。",
-      "pinyin": "wǒ hǎo xiàng ____ fù kuǎn le néng bāng wǒ chá yī xià ma",
-      "vietnamese": "Gợi ý nghĩa của từ cần điền: lặp lại.",
+      "text": "【选词填空】根据句意和提示选择最合适的词语：付款成功以后，请保存电子____。",
+      "pinyin": "fù kuǎn chéng gōng yǐ hòu ， qǐng bǎo cún diàn zi ____。",
+      "vietnamese": "Gợi ý: chứng từ.",
       "options": {
-        "A": "现金",
-        "B": "失败",
-        "C": "金额",
-        "D": "重复"
+        "A": "付款码",
+        "B": "到账",
+        "C": "凭证",
+        "D": "余额"
       },
       "optionPinyin": {
-        "A": "xiàn jīn",
-        "B": "shī bài",
-        "C": "jīn é",
-        "D": "chóng fù"
+        "A": "fù kuǎn mǎ",
+        "B": "dào zhàng",
+        "C": "píng zhèng",
+        "D": "yú é"
       },
       "answers": [
-        "D"
+        "C"
       ],
       "points": 5,
-      "explanation": "应填“重复”（lặp lại）。完整表达：我好像重复付款了能帮我查一下吗。"
+      "explanation": "应填“凭证”。完整句子：付款成功以后，请保存电子凭证。\n语法与搭配：……以后；请",
+      "targetWord": "凭证",
+      "completeSentence": "付款成功以后，请保存电子凭证。",
+      "grammarFocus": "……以后；请"
     },
     {
       "id": 11,
@@ -352,91 +372,87 @@
       "id": 16,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n请问 / 扫码付款吗 / 这里 / 可以",
-      "pinyin": "qǐng wèn / sǎo mǎ fù kuǎn ma / zhè lǐ / kě yǐ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 请 / 不要重复扣款 / 已经付过钱了",
+      "pinyin": "wǒ / qǐng / bú yào chóng fù kòu kuǎn / yǐ jīng fù guò qián le",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "请问这里可以扫码付款吗。",
-        "请问这里可以扫码付款吗",
-        "请问这里可以扫码付款吗.",
-        "请问这里可以扫码付款吗？",
-        "请问这里可以扫码付款吗?"
+        "我已经付过钱了请不要重复扣款。",
+        "我已经付过钱了请不要重复扣款",
+        "我已经付过钱了请不要重复扣款."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：请问这里可以扫码付款吗。\nqǐng wèn zhè lǐ kě yǐ sǎo mǎ fù kuǎn ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 14,
+      "explanation": "参考句子：我已经付过钱了请不要重复扣款。\nwǒ yǐ jīng fù guò qián le qǐng bú yào chóng fù kòu kuǎn\n语法与搭配：已经……过……了；不要",
+      "grammarFocus": "已经……过……了；不要"
     },
     {
       "id": 17,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n我 / 没有带现金 / 刷卡吗 / 可以",
-      "pinyin": "wǒ / méi yǒu dài xiàn jīn / shuā kǎ ma / kě yǐ",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n可以改用现金 / 网络不好 / 我 / 如果",
+      "pinyin": "kě yǐ gǎi yòng xiàn jīn / wǎng luò bù hǎo / wǒ / rú guǒ",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我没有带现金可以刷卡吗。",
-        "我没有带现金可以刷卡吗",
-        "我没有带现金可以刷卡吗.",
-        "我没有带现金可以刷卡吗？",
-        "我没有带现金可以刷卡吗?"
+        "如果网络不好我可以改用现金。",
+        "如果网络不好我可以改用现金",
+        "如果网络不好我可以改用现金."
       ],
       "points": 5,
-      "hanziCount": 11,
-      "explanation": "参考表达：我没有带现金可以刷卡吗。\nwǒ méi yǒu dài xiàn jīn kě yǐ shuā kǎ ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：如果网络不好我可以改用现金。\nrú guǒ wǎng luò bù hǎo wǒ kě yǐ gǎi yòng xiàn jīn\n语法与搭配：如果；改用",
+      "grammarFocus": "如果；改用"
     },
     {
       "id": 18,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n金额 / 麻烦 / 这笔付款的 / 再核对一下",
-      "pinyin": "jīn é / má fán / zhè bǐ fù kuǎn de / zài hé duì yī xià",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n这笔金额 / 不一样 / 跟账单上的 / 请再核对一下",
+      "pinyin": "zhè bǐ jīn é / bù yí yàng / gēn zhàng dān shàng de / qǐng zài hé duì yí xià",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "麻烦再核对一下这笔付款的金额。",
-        "麻烦再核对一下这笔付款的金额",
-        "麻烦再核对一下这笔付款的金额.",
-        "麻烦再核对一下这笔付款的金额？",
-        "麻烦再核对一下这笔付款的金额?"
+        "这笔金额跟账单上的不一样请再核对一下。",
+        "这笔金额跟账单上的不一样请再核对一下",
+        "这笔金额跟账单上的不一样请再核对一下."
       ],
       "points": 5,
-      "hanziCount": 14,
-      "explanation": "参考表达：麻烦再核对一下这笔付款的金额。\nmá fán zài hé duì yī xià zhè bǐ fù kuǎn de jīn é。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 18,
+      "explanation": "参考句子：这笔金额跟账单上的不一样请再核对一下。\nzhè bǐ jīn é gēn zhàng dān shàng de bù yí yàng qǐng zài hé duì yí xià\n语法与搭配：跟……不一样；再",
+      "grammarFocus": "跟……不一样；再"
     },
     {
       "id": 19,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n付款失败了 / 刚才 / 我 / 再试一次",
-      "pinyin": "fù kuǎn shī bài le / gāng cái / wǒ / zài shì yī cì",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n确认收到款项以后 / 我 / 您 / 再离开",
+      "pinyin": "què rèn shōu dào kuǎn xiàng yǐ hòu / wǒ / nín / zài lí kāi",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "刚才付款失败了我再试一次。",
-        "刚才付款失败了我再试一次",
-        "刚才付款失败了我再试一次.",
-        "刚才付款失败了我再试一次？",
-        "刚才付款失败了我再试一次?"
+        "您确认收到款项以后我再离开。",
+        "您确认收到款项以后我再离开",
+        "您确认收到款项以后我再离开."
       ],
       "points": 5,
-      "hanziCount": 12,
-      "explanation": "参考表达：刚才付款失败了我再试一次。\ngāng cái fù kuǎn shī bài le wǒ zài shì yī cì。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 13,
+      "explanation": "参考句子：您确认收到款项以后我再离开。\nnín què rèn shōu dào kuǎn xiàng yǐ hòu wǒ zài lí kāi\n语法与搭配：……以后再……",
+      "grammarFocus": "……以后再……"
     },
     {
       "id": 20,
       "type": "fill",
       "section": "句子排序",
-      "text": "【句子排序】将词块排列为自然完整的表达（不增减词语，不用斜线，不在汉字间加空格）：\n能 / 我 / 帮我查一下吗 / 好像重复付款了",
-      "pinyin": "néng / wǒ / bāng wǒ chá yī xià ma / hǎo xiàng chóng fù fù kuǎn le",
-      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ, không nhập dấu gạch chéo hoặc khoảng trắng giữa các chữ Hán.",
+      "text": "【句子排序】将词块排成完整句子（不增减词语，不用斜线，不在汉字间加空格）：\n核实收款人的姓名 / 要 / 扫描二维码 / 之前",
+      "pinyin": "hé shí shōu kuǎn rén de xìng míng / yào / sǎo miáo èr wéi mǎ / zhī qián",
+      "vietnamese": "Sắp xếp các cụm từ thành câu hoàn chỉnh. Không thêm bớt từ.",
       "answers": [
-        "我好像重复付款了能帮我查一下吗。",
-        "我好像重复付款了能帮我查一下吗",
-        "我好像重复付款了能帮我查一下吗.",
-        "我好像重复付款了能帮我查一下吗？",
-        "我好像重复付款了能帮我查一下吗?"
+        "扫描二维码之前要核实收款人的姓名。",
+        "扫描二维码之前要核实收款人的姓名",
+        "扫描二维码之前要核实收款人的姓名."
       ],
       "points": 5,
-      "hanziCount": 15,
-      "explanation": "参考表达：我好像重复付款了能帮我查一下吗。\nwǒ hǎo xiàng chóng fù fù kuǎn le néng bāng wǒ chá yī xià ma。\n先确定交际目的，再检查称呼、主语、时间、地点和谓语的位置。Xác định mục đích giao tiếp rồi kiểm tra trật tự từ."
+      "hanziCount": 16,
+      "explanation": "参考句子：扫描二维码之前要核实收款人的姓名。\nsǎo miáo èr wéi mǎ zhī qián yào hé shí shōu kuǎn rén de xìng míng\n语法与搭配：……之前；要",
+      "grammarFocus": "……之前；要"
     }
-  ]
+  ],
+  "contentDiversityVersion": 1
 }

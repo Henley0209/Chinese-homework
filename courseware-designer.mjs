@@ -1,6 +1,6 @@
 import {listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {coursewareBanks,coursewareLevels,pilotIds,validateCourseware,coursewareSlides} from './courseware-core.mjs?v=courseware1';
-import {makeCoursewarePptx} from './courseware-pptx.mjs?v=courseware1';
+import {coursewareBanks,coursewareLevels,pilotIds,validateCourseware,coursewareSlides} from './courseware-core.mjs?v=courseware2';
+import {makeCoursewarePptx} from './courseware-pptx.mjs?v=courseware2';
 const node=(tag,text,cls)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;};
 function triple(t){const root=node('div');for(const [key,cls,lang]of [['pinyin','cw-pinyin','zh-Latn'],['zh','cw-hanzi','zh-Hans'],['vi','cw-vietnamese','vi']]){const line=node('div',t[key],cls);line.lang=lang;root.append(line);}return root;}
 function art(scene,cls){const image=node('div',undefined,'cw-scene '+cls);image.style.backgroundPosition=`${(scene%3)*50}% ${Math.floor(scene/3)*100}%`;image.setAttribute('role','img');image.setAttribute('aria-label',['师生在教室门口问候','同学在书桌前介绍姓名','中越同学看地球仪介绍国籍','同学在校园挥手告别','老师向同学介绍新朋友','师生看家庭照片交流生活'][scene]);return image;}
@@ -16,7 +16,7 @@ export function initCourseware({requireTeacher}){
  function targets(){const previous=exercise.value;exercise.replaceChildren();for(const e of listExercises(bank.value)){const option=node('option',e.exercise.title+(pilotIds.includes(e.id)?' · 试用课件已就绪':''));option.value=e.id;exercise.append(option);}if([...exercise.options].some(o=>o.value===previous))exercise.value=previous;else if(bank.value==='hsk1-2'&&[...exercise.options].some(o=>o.value===pilotIds[0]))exercise.value=pilotIds[0];selection();}
  bank.addEventListener('change',targets);exercise.addEventListener('change',selection);subscribe(targets);targets();
  button.onclick=()=>{try{requireTeacher();section.hidden=!section.hidden;button.setAttribute('aria-expanded',String(!section.hidden));if(!section.hidden)section.scrollIntoView({block:'start',behavior:'smooth'});}catch(e){status.textContent=e.message;}};
- async function load(){requireTeacher();const id=exercise.value;if(!pilotIds.includes(id))throw Error('请先选择前三个试用主题。');if(!cache.has(id)){const response=await fetch(`courseware/data/${id}.json?v=courseware1`);if(!response.ok)throw Error('课件加载失败，请稍后重试。');cache.set(id,validateCourseware(await response.json()));}requireTeacher();return cache.get(id);}
+ async function load(){requireTeacher();const id=exercise.value;if(!pilotIds.includes(id))throw Error('请先选择前三个试用主题。');if(!cache.has(id)){const response=await fetch(`courseware/data/${id}.json?v=courseware2`);if(!response.ok)throw Error('课件加载失败，请稍后重试。');cache.set(id,validateCourseware(await response.json()));}requireTeacher();return cache.get(id);}
  const viewer=node('dialog',undefined,'courseware-viewer');viewer.id='courseware-viewer';viewer.setAttribute('aria-label','三语教学课件预览');
  viewer.innerHTML='<div class="courseware-toolbar"><strong data-cw-view-title></strong><div><button type="button" data-cw-fullscreen>全屏展示</button> <button type="button" data-cw-close>返回教师工具 ×</button></div></div><div class="courseware-stage-wrap"><div class="courseware-slide" data-cw-stage></div></div><div class="courseware-controls"><button type="button" data-cw-prev>← 上一页</button><span class="courseware-progress" data-cw-progress role="status" aria-live="polite"></span><button type="button" data-cw-next>下一页 →</button><button type="button" data-cw-answers>显示答案</button><button type="button" data-cw-view-download>下载 PPTX</button></div>';
  document.body.append(viewer);const v=s=>viewer.querySelector(s);let deck=null,slides=[],page=0,answers=false;
@@ -27,7 +27,7 @@ export function initCourseware({requireTeacher}){
   if(slide.type==='cover'){
    const title=triple(deck.title);title.className='cw-cover';const meta=node('div',undefined,'cw-cover-meta');meta.append(node('div','2组对话 × 300字 · 20个生词 · 10道填空'),node('div',deck.difficulty));title.append(meta);stage.append(title,art(slide.scene,'cw-cover-art'));
   }else if(slide.type==='dialogue'){
-   stage.append(art(slide.scene,'cw-dialogue-art'));const caption=triple(slide.title);caption.className='cw-dialogue-caption';stage.append(caption);
+   stage.append(art(slide.scene,'cw-dialogue-art'));const caption=triple(slide.title);caption.className='cw-dialogue-caption';caption.append(node('div',Object.entries(slide.roles).map(([id,name])=>`${id} · ${name}`).join('  /  '),'cw-role-legend'));stage.append(caption);
    const heading=node('div',`对话 ${slide.groupIndex+1} · 300字 · ${slide.page}/${slide.pages}`,'cw-section-heading');heading.style.fontSize='1.2cqw';heading.style.top='10%';stage.append(heading);
    const turns=node('div',undefined,'cw-dialogue-turns');for(const turn of slide.turns){const item=triple(turn);item.className='cw-turn';item.prepend(node('span',turn.speaker,'cw-speaker'));turns.append(item);}stage.append(turns);
   }else if(slide.type==='vocabulary'){

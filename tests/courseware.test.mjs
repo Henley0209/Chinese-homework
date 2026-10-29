@@ -11,6 +11,7 @@ for(const id of pilotIds)test(id+' has the requested exact content and page orde
   assert.equal(group.vocabulary.length,10);assert.equal(group.exercises.length,5);
   for(const e of group.exercises){assert.equal((e.zh.match(/____/g)||[]).length,1);assert.ok(group.vocabulary.some(w=>w.zh===e.answer.zh));}
  }
+ if(deck.number===2){assert.equal(deck.groups[1].dialogue[4].speaker,'C');assert.equal(deck.groups[1].roles.C,'小文');}
  const slides=coursewareSlides(deck);assert.equal(slides.length,13);
  assert.deepEqual(slides.map(s=>s.type),['cover','dialogue','dialogue','dialogue','dialogue','vocabulary','exercise','dialogue','dialogue','dialogue','dialogue','vocabulary','exercise']);
  const blob=await makeCoursewarePptx(deck,{imageBytes:new Uint8Array(fs.readFileSync('courseware/assets/beginner-scenes.png'))});

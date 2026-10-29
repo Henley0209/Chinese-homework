@@ -248,7 +248,11 @@
             "vi": "đọc"
           }
         }
-      ]
+      ],
+      "roles": {
+        "A": "小明",
+        "B": "小安"
+      }
     },
     {
       "title": {
@@ -284,7 +288,7 @@
           "vi": "Tất nhiên rồi. Mời em vào! Chào em, em tên là gì?"
         },
         {
-          "speaker": "A",
+          "speaker": "C",
           "pinyin": "Lǎoshī hǎo! Wǒ jiào Chén Wén. Chén shì wǒ de xìng, wén shì míngzi.",
           "zh": "老师好！我叫陈文。陈是我的姓，文是名字。",
           "vi": "Em chào cô! Em tên là Trần Văn. Trần là họ của em, Văn là tên ạ."
@@ -296,7 +300,7 @@
           "vi": "Cô rất vui được gặp em. Em có thể viết tên lên bảng không?"
         },
         {
-          "speaker": "A",
+          "speaker": "C",
           "pinyin": "Kéyǐ, lǎoshī. Wǒ xiě dé yóudiǎn màn.",
           "zh": "可以，老师。我写得有点慢。",
           "vi": "Dạ được ạ. Em viết hơi chậm."
@@ -308,7 +312,7 @@
           "vi": "Không sao, em cứ viết từ từ. Các bạn khác cũng cùng xem nhé."
         },
         {
-          "speaker": "A",
+          "speaker": "C",
           "pinyin": "Lǎoshī, wǒ de míngzi xiě hǎo le. Zhèyàng xiě duì ma?",
           "zh": "老师，我的名字写好了。这样写对吗？",
           "vi": "Thưa cô, em viết tên xong rồi. Viết thế này có đúng không ạ?"
@@ -320,7 +324,7 @@
           "vi": "Đúng rồi, em viết tốt lắm. Hãy đọc lại tên của mình một lần nữa."
         },
         {
-          "speaker": "A",
+          "speaker": "C",
           "pinyin": "Wǒ jiào Chén Wén, hěn gāoxìng rènshi dàjiā.",
           "zh": "我叫陈文，很高兴认识大家。",
           "vi": "Mình tên là Trần Văn, rất vui được gặp các bạn."
@@ -332,19 +336,19 @@
           "vi": "Văn, chào mừng em! Đây là sách của em, mời em ngồi cạnh An."
         },
         {
-          "speaker": "A",
+          "speaker": "C",
           "pinyin": "Xièxie lǎoshī! Xiǎo Ān, xièxie nǐ dài wǒ lái rènshi lǎoshī.",
           "zh": "谢谢老师！小安，谢谢你带我来认识老师。",
           "vi": "Em cảm ơn cô! An ơi, cảm ơn bạn đã đưa mình đến gặp cô."
         },
         {
-          "speaker": "B",
+          "speaker": "A",
           "pinyin": "Búyòng xiè. Wǒmen shì péngyou, yě shì jīntiān de xīn tóngzhuō.",
           "zh": "不用谢。我们是朋友，也是今天的新同桌。",
           "vi": "Không có gì. Chúng ta là bạn và cũng là bạn cùng bàn mới hôm nay."
         },
         {
-          "speaker": "A",
+          "speaker": "C",
           "pinyin": "Lǎoshī, nín kéyǐ zài shuō yībiàn nín de míngzi ma?",
           "zh": "老师，您可以再说一遍您的名字吗？",
           "vi": "Thưa cô, cô có thể nói lại tên của cô một lần nữa không ạ?"
@@ -356,7 +360,7 @@
           "vi": "Được chứ. Cô họ Lý, các em cứ gọi cô là cô Lý là được."
         },
         {
-          "speaker": "A",
+          "speaker": "C",
           "pinyin": "Hǎo de, Lǐ lǎoshī. Wǒ yǐjīng jìzhù nín de míngzi le.",
           "zh": "好的，李老师。我已经记住您的名字了。",
           "vi": "Dạ, thưa cô Lý. Em đã nhớ tên cô rồi ạ."
@@ -368,13 +372,13 @@
           "vi": "Tốt lắm. Bây giờ các em hãy làm việc theo cặp và giới thiệu tên cho nhau."
         },
         {
-          "speaker": "A",
+          "speaker": "C",
           "pinyin": "Xiǎo Ān, wǒmen xiān shuō míngzi, zài bǎ míngzi xiě xià lái, hǎo ma?",
           "zh": "小安，我们先说名字，再把名字写下来，好吗？",
           "vi": "An ơi, chúng ta nói tên trước rồi viết tên xuống nhé?"
         },
         {
-          "speaker": "B",
+          "speaker": "A",
           "pinyin": "Hǎo a! Wǒmen yìqǐ liànxí, ràng lǎoshī tīng yī tīng.",
           "zh": "好啊！我们一起练习，让老师听一听。",
           "vi": "Được chứ! Chúng ta cùng luyện để cô nghe nhé."
@@ -488,7 +492,12 @@
             "vi": "luyện tập"
           }
         }
-      ]
+      ],
+      "roles": {
+        "A": "小安",
+        "B": "李老师",
+        "C": "小文"
+      }
     }
   ]
 }

@@ -1,5 +1,5 @@
-import {zipFiles} from './homework-docx.mjs?v=courseware1';
-import {coursewareSlides} from './courseware-core.mjs?v=courseware1';
+import {zipFiles} from './homework-docx.mjs?v=courseware2';
+import {coursewareSlides} from './courseware-core.mjs?v=courseware2';
 const nsA='http://schemas.openxmlformats.org/drawingml/2006/main',nsP='http://schemas.openxmlformats.org/presentationml/2006/main',nsR='http://schemas.openxmlformats.org/officeDocument/2006/relationships';
 const xml=s=>String(s).replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
 const emu=n=>Math.round(n*914400),palette={ink:'203B39',green:'1E5B57',orange:'B36A45',muted:'6C7B72',paper:'FAF7F0',line:'E2E5D9'};
@@ -18,7 +18,7 @@ function slideXml(deck,slide,index,total){
   text(deck.title.pinyin,.65,2.0,6.4,.4,23,palette.orange);text(deck.title.zh,.65,2.65,6.6,1.05,deck.number===2?35:42,palette.green,true);text(deck.title.vi,.65,3.95,6.6,.55,24,palette.muted);
   text('2组对话 × 300字   /   20个生词   /   10道填空',.65,5.3,6.6,.4,13,palette.green);text(deck.difficulty,.65,5.9,6.6,.3,12,palette.muted);image(slide.scene,8.0,1.25,4.65,4.65);
  }else if(slide.type==='dialogue'){
-  image(slide.scene,.6,1.35,3.1,3.1);triple(slide.title,.6,4.85,3.1,{py:11,zh:19,vi:11});text(`对话 ${slide.groupIndex+1} · 300字 · ${slide.page}/${slide.pages}`,.6,.8,5,.3,13,palette.green,true);
+  image(slide.scene,.6,1.35,3.1,3.1);triple(slide.title,.6,4.85,3.1,{py:11,zh:19,vi:11});text(Object.entries(slide.roles).map(([id,name])=>`${id} · ${name}`).join('  /  '),.6,6.15,3.1,.5,10,palette.muted);text(`对话 ${slide.groupIndex+1} · 300字 · ${slide.page}/${slide.pages}`,.6,.8,5,.3,13,palette.green,true);
   slide.turns.forEach((turn,i)=>{const y=1.0+i*1.12;box(4.05,y+.28,.27,.27,'E7EBE0');text(turn.speaker,4.05,y+.28,.27,.27,9,palette.green,true,'ctr');triple(turn,4.48,y,8.15,{py:10.5,zh:18.5,vi:11,gap:.23});});
  }else if(slide.type==='vocabulary'){
   text(`生词 · 10个  /  对话 ${slide.groupIndex+1}`,.6,.8,12,.5,25,palette.green,true);

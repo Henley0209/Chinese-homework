@@ -6,7 +6,7 @@ export function validateCourseware(data){
  const triple=t=>t&&['pinyin','zh','vi'].every(k=>typeof t[k]==='string'&&t[k].trim());
  if(!data||!pilotIds.includes(data.id)||!triple(data.title)||!Array.isArray(data.groups)||data.groups.length!==2)throw Error('课件格式无效。');
  for(const g of data.groups){
-  if(!triple(g.title)||!Number.isInteger(g.scene)||g.scene<0||g.scene>5||!Array.isArray(g.dialogue)||g.dialogue.some(t=>!triple(t)||!['A','B'].includes(t.speaker))||g.dialogue.reduce((n,t)=>n+hanziCount(t.zh),0)!==300)throw Error('每组对话必须包含300个汉字，并逐句提供拼音及越南语。');
+  if(!triple(g.title)||!Number.isInteger(g.scene)||g.scene<0||g.scene>5||!Array.isArray(g.dialogue)||g.dialogue.some(t=>!triple(t)||!Object.hasOwn(g.roles||{},t.speaker))||g.dialogue.reduce((n,t)=>n+hanziCount(t.zh),0)!==300)throw Error('每组对话必须包含300个汉字，并逐句提供拼音及越南语。');
   if(!Array.isArray(g.vocabulary)||g.vocabulary.length!==10||g.vocabulary.some(t=>!triple(t))||new Set(g.vocabulary.map(t=>t.zh)).size!==10)throw Error('每组需包含10个不同生词。');
   if(!Array.isArray(g.exercises)||g.exercises.length!==5||g.exercises.some(t=>!triple(t)||!triple(t.answer)||!t.zh.includes('____')||!g.vocabulary.some(w=>w.zh===t.answer.zh)))throw Error('每组需包含5道填空题，答案取自本组生词。');
  }
@@ -15,7 +15,7 @@ export function validateCourseware(data){
 export function coursewareSlides(deck){
  const slides=[{type:'cover',title:deck.title,scene:deck.groups[0].scene}];
  deck.groups.forEach((group,groupIndex)=>{
-  for(let i=0;i<group.dialogue.length;i+=5)slides.push({type:'dialogue',groupIndex,title:group.title,scene:group.scene,turns:group.dialogue.slice(i,i+5),page:Math.floor(i/5)+1,pages:Math.ceil(group.dialogue.length/5)});
+  for(let i=0;i<group.dialogue.length;i+=5)slides.push({type:'dialogue',groupIndex,title:group.title,scene:group.scene,roles:group.roles,turns:group.dialogue.slice(i,i+5),page:Math.floor(i/5)+1,pages:Math.ceil(group.dialogue.length/5)});
   slides.push({type:'vocabulary',groupIndex,title:group.title,scene:group.scene,words:group.vocabulary});
   slides.push({type:'exercise',groupIndex,title:group.title,scene:group.scene,exercises:group.exercises});
  });

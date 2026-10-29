@@ -46,6 +46,6 @@ test('target validation rejects oversized or malformed references and translatio
  assert.deepEqual(plannedQuestions('translation',targets,[{id:'t',text:'生活不缺少美'}]).questions,[]);
 });
 test('history contains every imported version, stable numbering from V0001, timestamp and current changes',()=>{
- const data=JSON.parse(fs.readFileSync('change-history.json'));const entries=validateHistory(data);assert.ok(entries.length>=201);assert.equal(entries[0].version,'V0001');assert.equal(entries.at(-1).version,'V0201');assert.ok(entries.at(-1).changes.some(t=>t.includes('变更记录')));
+ const data=JSON.parse(fs.readFileSync('change-history.json'));const entries=validateHistory(data);assert.ok(entries.length>=201);assert.equal(entries[0].version,'V0001');assert.ok(entries.some(e=>e.version==='V0201'&&e.changes.some(t=>t.includes('变更记录'))));
  assert.throws(()=>validateHistory({entries:[{...entries[0],version:'V0002'}]}));
 });

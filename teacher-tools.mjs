@@ -24,7 +24,8 @@ $('#teacher-login').addEventListener('submit',e=>{e.preventDefault();authenticat
 $('#teacher-password').addEventListener('input',()=>{if(authenticated){teacherPassword='';authenticated=false;$('#open-teacher-tools').hidden=true;$('#teacher-auth-state').textContent='';}$('#teacher-error').textContent='';authenticate(true);});
 $('#open-teacher-tools').onclick=async()=>{try{requireTeacher();await loadCatalog();requireTeacher();updateTargets();openTools();}catch(e){$('#teacher-error').textContent=e.message;}};
 $('#close-tools').onclick=()=>$('#tools').close();
-$('#tools').addEventListener('close',()=>{$('#import').value='';});
+$('#toggle-upload').onclick=()=>{try{requireTeacher();const panel=$('#teacher-upload-panel');panel.hidden=!panel.hidden;$('#toggle-upload').setAttribute('aria-expanded',String(!panel.hidden));}catch(e){message(e.message);}};
+$('#tools').addEventListener('close',()=>{$('#import').value='';$('#teacher-upload-panel').hidden=true;$('#toggle-upload').setAttribute('aria-expanded','false');});
 for(const [id,label]of Object.entries(bankLabels)){const option=document.createElement('option');option.value=id;option.textContent=label;$('#upload-bank').append(option);}
 $('#upload-bank').value='hsk1-2';$('#upload-bank').onchange=updateTargets;$('#upload-mode').onchange=updateTargets;subscribe(updateTargets);
 $('#import').onchange=async e=>{

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {validateCourseware,coursewareSlides,pilotIds,hanziCount} from '../courseware-core.mjs';
-import {makeCoursewarePptx} from '../courseware-pptx.mjs';
+import {makeCoursewareDocx} from '../courseware-docx.mjs';
 for(const id of pilotIds)test(id+' has the requested exact content and page order',async()=>{
  const deck=validateCourseware(JSON.parse(fs.readFileSync(`courseware/data/${id}.json`)));
  for(const group of deck.groups){
@@ -14,8 +14,8 @@ for(const id of pilotIds)test(id+' has the requested exact content and page orde
  if(deck.number===2){assert.equal(deck.groups[1].dialogue[4].speaker,'C');assert.equal(deck.groups[1].roles.C,'小文');}
  const slides=coursewareSlides(deck);assert.equal(slides.length,13);
  assert.deepEqual(slides.map(s=>s.type),['cover','dialogue','dialogue','dialogue','dialogue','vocabulary','exercise','dialogue','dialogue','dialogue','dialogue','vocabulary','exercise']);
- const blob=await makeCoursewarePptx(deck,{imageBytes:new Uint8Array(fs.readFileSync('courseware/assets/beginner-scenes.png'))});
- assert.equal(blob.type,'application/vnd.openxmlformats-officedocument.presentationml.presentation');
+ const blob=await makeCoursewareDocx(deck,{imageBytes:new Uint8Array(fs.readFileSync('courseware/assets/beginner-scenes.png'))});
+ assert.equal(blob.type,'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
  assert.deepEqual([...new Uint8Array(await blob.arrayBuffer()).slice(0,4)],[80,75,3,4]);
 });
 test('both homepage entries expose exactly the requested four buttons in order',()=>{

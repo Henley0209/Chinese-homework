@@ -48,7 +48,18 @@ jobs:
           mkdir -p work
           npx --yes wrangler@4 deploy --config backend/conversation/wrangler.toml 2>&1 | tee work/conversation-deploy.log
       - name: Check real AI response before enabling website
-        run: python3 tools/enable-conversation-ai.py
+        run: |
+          python3 tools/enable-conversation-ai.py 2>&1 | tee work/conversation-verification.log
+      - name: Report real AI verification failure
+        if: failure()
+        shell: bash
+        run: |
+          if [ -f work/conversation-verification.log ]; then
+            echo '### Real AI verification failure' >> "$GITHUB_STEP_SUMMARY"
+            echo '```text' >> "$GITHUB_STEP_SUMMARY"
+            tail -50 work/conversation-verification.log >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Publish verified AI endpoint
         shell: bash
         run: |

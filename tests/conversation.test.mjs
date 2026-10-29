@@ -122,3 +122,18 @@ test('screenshot day-question paraphrase triggers a fresh question and persisten
  const failed=await worker.fetch(req({lesson:greeting,messages}),{...env,AI:{run:async()=>({response:repeated})}});
  assert.equal(failed.status,502);assert.equal((await failed.json()).code,'AI_NO_NEW_QUESTION');
 });
+
+test('visible dialogue includes skipped questions and ungraded answers as model context',async()=>{
+ const messages=[{role:'assistant',content:'你今天过得怎么样？'},{role:'user',content:'今天过得很开心'}];
+ const transcript=[{question:'你今天忙吗？',answer:''},{question:messages[0].content,answer:messages[1].content}];
+ let calls=0;const configured={...env,AI:{run:async(model,input)=>{
+  const data=JSON.parse(input.messages[1].content.split('\n')[1]);assert.deepEqual(data.visibleDialogue,transcript);
+  if(++calls===1)return {response:{...good,next:'你今天忙吗？'}};
+  assert.match(input.messages.at(-1).content,/你今天忙吗/);assert.match(input.messages.at(-1).content,/已拒绝/);
+  return {response:good};
+ }}};
+ const response=await worker.fetch(req({lesson,messages,transcript}),configured);
+ assert.equal(response.status,200);assert.equal(calls,2);
+ assert.throws(()=>validateInput({lesson,messages,transcript:[{question:'别的问题',answer:'好'}]}));
+ assert.throws(()=>validateInput({lesson,messages,transcript:[{question:messages[0].content,answer:'别的回答'}]}));
+});

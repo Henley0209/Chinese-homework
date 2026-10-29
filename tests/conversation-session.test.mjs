@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {sessionKey,topicSessionKey,lessonFingerprint,readSession,writeSession,questionHistory,learningProgress} from '../conversation-session.mjs';
+import {sessionKey,topicSessionKey,lessonFingerprint,readSession,writeSession,questionHistory,learningProgress,conversationTranscript,continuationAction} from '../conversation-session.mjs';
 const lesson={bank:'HSK1-2',title:'第1课',questions:[]};
 const make=()=>({version:1,lesson:lessonFingerprint(lesson),turns:[{number:1,question:'你好吗？',pinyin:'Nǐ hǎo ma?',answer:'好',assessment:{feedback:'回答正确',feedbackPinyin:'Huídá zhèngquè',correction:'',correctionPinyin:'',answerPinyin:'Hǎo',needsCorrection:false}},{number:2,question:'你忙吗？',pinyin:'Nǐ máng ma?',answer:'',assessment:null}],cursor:1,pendingAction:null,playlist:['这句话可以这样回答：我很好。','你忙吗？'],playIndex:1,scroll:160});
 test('exit/re-entry preserves cursor, feedback, pinyin and unfinished audio',()=>{const map=new Map(),storage={getItem:k=>map.get(k),setItem:(k,v)=>map.set(k,v)},key=sessionKey(lesson,'An');const value=make();assert.equal(writeSession(storage,key,value,lesson),true);const restored=readSession(storage,key,lesson);assert.equal(restored.cursor,1);assert.equal(restored.turns[0].assessment.answerPinyin,'Hǎo');assert.equal(restored.playIndex,1);assert.equal(restored.scroll,160);restored.pendingAction='answer';assert.equal(writeSession(storage,key,restored,lesson),true);assert.equal(readSession(storage,key,lesson).pendingAction,'answer');assert.equal(readSession(storage,key,{...lesson,questions:['changed']}),null);});
@@ -14,4 +14,15 @@ test('live topic conversations keep fixed-bank progress and separate students an
  assert.notEqual(oldKey,liveKey);assert.equal(writeSession(storage,oldKey,make(),lesson),true);
  assert.equal(readSession(storage,liveKey,lesson),null);assert.equal(readSession(storage,oldKey,lesson).cursor,1);
  assert.notEqual(liveKey,topicSessionKey(lesson,'Binh'));assert.notEqual(liveKey,topicSessionKey({...lesson,title:'餐厅点菜'},'An'));
+});
+
+test('visible ungraded answers are retained as context and resumed after navigation or reload',()=>{
+ const model=make();model.turns[0].assessment=null;model.turns[1].answer='今天过得很开心';
+ assert.equal(questionHistory(model.turns,1,{answer:true})[1].content,'好');
+ assert.deepEqual(conversationTranscript(model.turns,1),[{question:'你好吗？',answer:'好'},{question:'你忙吗？',answer:'今天过得很开心'}]);
+ assert.equal(continuationAction(model),'answer');
+ model.pendingAction='next';assert.equal(continuationAction(model),'answer');
+ model.turns[1].answer='';model.pendingAction=null;assert.equal(continuationAction(model),null);
+ model.cursor=0;assert.equal(continuationAction(model),'answer');
+ assert.equal(conversationTranscript(Array.from({length:40},()=>model.turns[0]),39).length,20);
 });

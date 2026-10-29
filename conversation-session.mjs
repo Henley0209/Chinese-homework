@@ -16,8 +16,19 @@ export function validateSession(value,lesson){
 export function readSession(storage,key,lesson){try{const raw=storage.getItem(key);return raw?validateSession(JSON.parse(raw),lesson):null;}catch{return null;}}
 export function writeSession(storage,key,session,lesson){try{storage.setItem(key,JSON.stringify(validateSession(session,lesson)));return true;}catch{return false;}}
 export function questionHistory(turns,cursor,{answer=false}={}){
- const messages=[];for(let i=0;i<cursor;i++){const t=turns[i];if(t.answer&&t.assessment)messages.push({role:'assistant',content:t.question},{role:'user',content:t.answer});}
+ const messages=[];for(let i=0;i<cursor;i++){const t=turns[i];if(t.answer)messages.push({role:'assistant',content:t.question},{role:'user',content:t.answer});}
  const current=turns[cursor];messages.push({role:'assistant',content:current.question});if(answer)messages.push({role:'user',content:current.answer});return messages.slice(answer?-20:-19);
 }
 export function learningProgress(turns,cursor){return {questionNumber:turns[cursor]?.number||1,correctAnswers:turns.slice(0,cursor).filter(t=>t.assessment&&!t.assessment.needsCorrection).length};}
 
+
+// The same turns render the dialogue and supply context; ungraded answers are still real answers.
+export function conversationTranscript(turns,cursor){
+ return turns.slice(Math.max(0,cursor-19),cursor+1).map(t=>({question:t.question,answer:t.answer||''}));
+}
+export function continuationAction(model){
+ const turn=model?.turns[model.cursor];
+ if(!turn)return 'open';
+ if(turn.answer&&!turn.assessment)return 'answer';
+ return model.pendingAction==='open'?'next':model.pendingAction;
+}

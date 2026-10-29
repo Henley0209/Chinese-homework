@@ -78,7 +78,7 @@ for number in range(1, 3):
     else:
         answer = '我很好，谢谢。'
     history.extend([{'role': 'assistant', 'content': previous['next']}, {'role': 'user', 'content': answer}])
-    live_request = Request(endpoint, data=json.dumps({'lesson': context, 'action': 'answer', 'messages': history, 'keywords': previous.get('nextKeywords', []), 'progress': {'questionNumber': number, 'correctAnswers': 0}}).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0'})
+    live_request = Request(endpoint, data=json.dumps({'lesson': context, 'action': 'answer', 'messages': history, 'transcript': [{'question': history[i]['content'], 'answer': history[i+1]['content']} for i in range(0, len(history), 2)], 'keywords': previous.get('nextKeywords', []), 'progress': {'questionNumber': number, 'correctAnswers': 0}}).encode(), headers={'Content-Type': 'application/json', 'Origin': 'https://henley0209.github.io', 'User-Agent': 'ChineseHomework-DeploymentCheck/1.0'})
     with urlopen(live_request, timeout=45) as response:
         previous = json.load(response)
     verify_topic(previous, asked)

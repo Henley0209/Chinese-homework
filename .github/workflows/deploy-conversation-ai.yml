@@ -6,6 +6,11 @@ on:
     paths:
       - tools/enable-conversation-ai.py
       - backend/conversation/**
+      - conversation-topic.mjs
+      - conversation-topics.mjs
+      - conversation-core.mjs
+      - conversation-keywords.mjs
+      - vendor/chinese-simplified.mjs
       - .github/workflows/deploy-conversation-ai.yml
 permissions:
   contents: write

@@ -1,4 +1,4 @@
-import {topicViolation} from './conversation-topic.mjs?v=scopes1';
+import {topicViolation} from './conversation-topic.mjs?v=dedup2';
 import {toSimplified} from './vendor/chinese-simplified.mjs';
 import {canRecord,createAnswerRecorder} from './conversation-recorder.mjs?v=loose1';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
@@ -40,7 +40,7 @@ export function initConversation({onEnter=()=>{},onAuthenticatedEntry=()=>{},fix
   try{
    let result;
    const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({lesson:context,messages,action,progress,keywords:action==='answer'?(current().keywords||[]):[]}),signal:requestController.signal,credentials:'omit'});
-   if(!response.ok)throw Error(response.status===429?'今天的对话次数已用完，请稍后再试。':response.status===503?'AI 服务尚未配置完成，请联系老师。':'AI 暂时无法回答，请重试。');
+   if(!response.ok){const failure=await response.json().catch(()=>({}));const known={AI_TIMEOUT:'AI 响应超时，请重试。',AI_NO_NEW_QUESTION:'AI 暂未生成新的课程问题，请重试。',AI_GENERATION_FAILED:'AI 回答生成失败，请重试。'};throw Error(known[failure.code]||(response.status===429?'今天的对话次数已用完，请稍后再试。':response.status===503?'AI 服务尚未配置完成，请联系老师。':'AI 服务暂时连接失败，请重试。'));}
    result=validateReply(await response.json(),action!=='answer');if(token!==generation)return;clearTimeout(timeout);
    const number=current()?.number||0;if(action==='answer')current().assessment=result;
    if(action==='next')current().skipped=true;

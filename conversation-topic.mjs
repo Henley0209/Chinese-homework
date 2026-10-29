@@ -1,7 +1,15 @@
 import {toSimplified} from './vendor/chinese-simplified.mjs';
 import {topicDomains,lessonTopics} from './conversation-topics.mjs?v=scopes1';
 const normalize=text=>toSimplified(String(text||'')).normalize('NFKC').replace(/[\p{P}\p{Z}\p{S}\s]/gu,'');
-const questionKey=text=>normalize(String(text||'').split(/[。！？!?；;]/u).filter(s=>s.trim()).at(-1)||text).replace(/^(?:你好|您好|谢谢|好的|早上好|下午好|晚上好)+/u,'');
+const questionKey=text=>{
+ let key=normalize(String(text||'').replace(/^[^，,：:]{1,12}[，,：:]/u,'').split(/[。！？!?；;]/u).filter(s=>s.trim()).at(-1)||text)
+  .replace(/^(?:你好|您好|谢谢|好的|早上好|下午好|晚上好)+/u,'');
+ // A learner's name, an optional subject and a greeting do not create a new question.
+ key=key.replace(/^你(?!们)/u,'').replace(/过的/gu,'过得');
+ if(/^(?:今天|今日)?过得(?:怎么样|如何|好吗)$/u.test(key))return 'day-wellbeing';
+ if(/^(?:今天|最近|现在)?(?:好不好|好吗|怎么样)$/u.test(key))return 'wellbeing';
+ return key;
+};
 const profileKey=lesson=>normalize(lesson?.bank)+'|'+normalize(lesson?.title);
 const profiles=new Map(lessonTopics.map(profile=>[profileKey(profile),profile]));
 const patterns=Object.entries(topicDomains).map(([id,domain])=>[id,new RegExp(domain.pattern,'u')]);

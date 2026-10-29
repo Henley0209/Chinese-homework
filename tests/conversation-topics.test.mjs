@@ -44,3 +44,11 @@ test('teacher drafts derive scope from the course title and do not follow studen
  assert.equal(topicViolation('你喜欢吃什么菜？',l),'');assert.ok(topicViolation('你今天赚了多少钱？',l));
  assert.equal(topicProfile(lesson('老师自编课：宇宙探索')).domain,'custom');
 });
+
+test('day questions stay duplicates with a name, optional subject and spelling variation',()=>{
+ const l=lesson('HSK1-2 第01课 你好！','HSK1-2');
+ const messages=[{role:'assistant',content:'你好，艾艳！今天过得怎么样？'}];
+ for(const question of ['你今天过得怎么样？','今天过的怎么样？','好的，今天过得好吗？'])assert.ok(topicViolation(question,l,messages),question);
+ assert.equal(topicViolation('你明天过得怎么样？',l,messages),'');
+ assert.equal(topicViolation('你叫什么名字？',l,messages),'');
+});

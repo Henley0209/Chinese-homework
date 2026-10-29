@@ -106,3 +106,19 @@ test('repeated questions are regenerated and income vocabulary remains valid in 
  const result=await worker.fetch(req({lesson:money,messages:[]}),{...env,AI:{run:async()=>({response:{...good,next:'你的工资是多少？'}})}});
  assert.equal(result.status,200);assert.equal((await result.json()).next,'你的工资是多少？');
 });
+
+test('malformed AI output is regenerated rather than immediately failing the conversation',async()=>{
+ let calls=0;const configured={...env,AI:{run:async()=>({response:++calls===1?'not JSON':good})}};
+ const response=await worker.fetch(req({lesson,messages:[]}),configured);
+ assert.equal(response.status,200);assert.equal(calls,2);assert.equal((await response.json()).next,good.next);
+});
+test('screenshot day-question paraphrase triggers a fresh question and persistent repetition has a specific error',async()=>{
+ const greeting=lessonContext({title:'HSK1-2 第01课 你好！',questions:[]},'HSK1-2');
+ const messages=[{role:'assistant',content:'你好，艾艳！今天过得怎么样？'},{role:'user',content:'今天过得很开心'}];
+ let calls=0;const repeated={...good,next:'你今天过得怎么样？'};
+ const configured={...env,AI:{run:async()=>({response:++calls===1?repeated:{...good,next:'你叫什么名字？'}})}};
+ const response=await worker.fetch(req({lesson:greeting,messages}),configured);
+ assert.equal(response.status,200);assert.equal(calls,2);assert.equal((await response.json()).next,'你叫什么名字？');
+ const failed=await worker.fetch(req({lesson:greeting,messages}),{...env,AI:{run:async()=>({response:repeated})}});
+ assert.equal(failed.status,502);assert.equal((await failed.json()).code,'AI_NO_NEW_QUESTION');
+});

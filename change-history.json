@@ -1621,6 +1621,15 @@
         "教师工具新增“上传练习题”按钮，上传说明、题库选择、导入方式、文件选择和草稿发布操作默认收起，点击按钮后展开。",
         "教师工具标题简化为“教师工具”；关闭窗口后上传区恢复收起状态，保留AI作业生成和变更记录入口。"
       ]
+    },
+    {
+      "version": "V0203",
+      "updatedAt": "2026-10-29T08:28:14Z",
+      "commit": null,
+      "commitMessage": "Remove password-free note from student role label",
+      "changes": [
+        "删除学生用户选项中的“（免登录密码）”文字，显示为“学生用户 / Học sinh”。"
+      ]
     }
   ]
 }

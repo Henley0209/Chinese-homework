@@ -1602,8 +1602,8 @@
     },
     {
       "version": "V0201",
-      "updatedAt": "2026-10-29T08:07:02Z",
-      "commit": null,
+      "updatedAt": "2026-10-29T15:07:56+07:00",
+      "commit": "960972ed566ca219bc93172a33fd1202db632672",
       "commitMessage": "Use course-specific homework targets and add complete teacher change history",
       "changes": [
         "按所选课程分配唯一出题目标，使用课程中已校验的读音生成拼音题，减少重复批次被过滤导致的中断。",

@@ -8,6 +8,8 @@ on:
       - backend/conversation/**
       - conversation-fallback.mjs
       - homework-core.mjs
+      - homework-plan.mjs
+      - tools/verify-homework-live.mjs
       - teacher-auth.mjs
       - conversation-topic.mjs
       - conversation-topics.mjs
@@ -44,7 +46,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate conversation service
-        run: node --test tests/conversation.test.mjs tests/homework.test.mjs
+        run: node --test tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs
       - name: Deploy free Workers AI service
         shell: bash
         run: |
@@ -53,6 +55,17 @@ jobs:
       - name: Check real AI response before enabling website
         run: |
           python3 tools/enable-conversation-ai.py 2>&1 | tee work/conversation-verification.log
+      - name: Install temporary homework verification credential
+        run: |
+          token="$(node -e "console.log(Date.now()+'.'+require('node:crypto').randomBytes(32).toString('hex'))")"
+          echo "::add-mask::$token"
+          echo "HOMEWORK_VERIFY_TOKEN=$token" >> "$GITHUB_ENV"
+          printf '%s' "$token" | npx --yes wrangler@4 secret put HOMEWORK_VERIFY_TOKEN --config backend/conversation/wrangler.toml
+      - name: Verify real 50-question HSK4 and HSK5 homework
+        run: node tools/verify-homework-live.mjs
+      - name: Remove temporary homework verification credential
+        if: always()
+        run: printf 'y\n' | npx --yes wrangler@4 secret delete HOMEWORK_VERIFY_TOKEN --config backend/conversation/wrangler.toml
       - name: Report real AI verification failure
         if: failure()
         shell: bash

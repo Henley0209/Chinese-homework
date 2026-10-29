@@ -1,3 +1,5 @@
+import {generatePlannedBatch,validTargets} from './homework-planned.mjs';
+import {plannedQuestions} from '../../homework-plan.mjs';
 import {isTeacherPassword} from '../../teacher-auth.mjs';
 import {selectNewQuestions,kinds} from '../../homework-core.mjs';
 const banks=['入门练习','HSK1-2','HSK3','HSK4','HSK5','日常交际','汉语工厂'];
@@ -9,9 +11,12 @@ export async function generateHomework(request,env,json){
   while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>200000){await reader.cancel();throw Error();}chunks.push(value);}
   const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length;}body=JSON.parse(new TextDecoder().decode(bytes));
  }catch{return json({error:'请求过大或格式无效'},400);}
- if(typeof body.password!=='string'||body.password.length>100||!await isTeacherPassword(body.password))return json({error:'教师密码不正确，请重新验证。'},401);
+ const verification=typeof env.HOMEWORK_VERIFY_TOKEN==='string'&&/^\d{13}\.[a-f0-9]{64}$/.test(env.HOMEWORK_VERIFY_TOKEN)&&Date.now()-Number(env.HOMEWORK_VERIFY_TOKEN.split('.')[0])>=0&&Date.now()-Number(env.HOMEWORK_VERIFY_TOKEN.split('.')[0])<15*60*1000&&request.headers.get('Authorization')==='Bearer '+env.HOMEWORK_VERIFY_TOKEN;
+ if(!verification&&(typeof body.password!=='string'||body.password.length>100||!await isTeacherPassword(body.password)))return json({error:'教师密码不正确，请重新验证。'},401);
  const {bank,title,kind,count,context,avoid=[],attempt=0}=body;
  if(!banks.includes(bank)||typeof title!=='string'||!title.trim()||title.length>200||!Object.hasOwn(kinds,kind)||!Number.isInteger(count)||count<1||count>5||typeof context!=='string'||context.length>8000||!Array.isArray(avoid)||avoid.length>80||avoid.some(t=>typeof t!=='string'||t.length>600)||!Number.isInteger(attempt)||attempt<0||attempt>10000)return json({error:'题库、题型或题目参数无效'},400);
+ if(body.targets!==undefined&&!validTargets(body.targets,count))return json({error:'课程出题目标无效'},400);
+ if(kind==='pinyin'&&body.targets){const {questions}=plannedQuestions(kind,body.targets,[],avoid,count,{referenceOnly:true});if(questions.length===count)return json({questions,needsMore:false});}
  if(!env.AI||!env.LIMITS)return json({error:'AI服务尚未配置'},503);
  const ip=request.headers.get('CF-Connecting-IP');if(!ip)return json({error:'无法确认请求来源'},403);
  const day=new Date().toISOString().slice(0,10);
@@ -19,6 +24,7 @@ export async function generateHomework(request,env,json){
  const client=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');
  const quota=await env.LIMITS.get(env.LIMITS.idFromName('homework-daily')).fetch('https://limits/check',{method:'POST',body:JSON.stringify({day,client,perClient:100,total:300})});
  if(!quota.ok)return json({error:'今日作业生成额度已用完，请明天重试。'},429);
+ if(body.targets)return generatePlannedBatch(env,{bank,title,kind,count,targets:body.targets,avoid,attempt},json);
  const choice=['pinyin','choice'].includes(kind);
  const schema={type:'object',properties:{questions:{type:'array',minItems:count,maxItems:count,items:{type:'object',properties:{text:{type:'string'},answer:{type:'string'},explanation:{type:'string'},...(choice?{options:{type:'array',items:{type:'string'},minItems:3,maxItems:3}}:{})},required:['text','answer','explanation',...(choice?['options']:[])],additionalProperties:false}}},required:['questions'],additionalProperties:false};
  const instructions={pinyin:'词语选正确拼音，使用带声调拼音，三个选项仅一个正确。text只写中文词语。answer为A/B/C。',choice:'中文句子留一个________空缺，三个词语选项，仅一个正确。answer为A/B/C。',order:'只生成语法正确、切合主题的完整中文句子，text与answer填写同一个句子。系统负责分词和打乱顺序，你不需要生成斜杠或词语片段。句子含多个词语，长度约12—30个汉字。',translation:'越南语译成中文。text为自然越南语句子，answer为中文参考译文。'};

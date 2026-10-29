@@ -1,11 +1,12 @@
-import {fillHomework,missingQuestions} from './homework-generation.mjs?v=homework3';
+import {courseTasks} from './homework-plan.mjs?v=homework4';
+import {fillHomework,missingQuestions} from './homework-generation.mjs?v=homework4';
 import {bankLabels,listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {kinds,validateQuestions} from './homework-core.mjs?v=homework3';
-import {makeDocx} from './homework-docx.mjs?v=homework3';
+import {kinds,validateQuestions} from './homework-core.mjs?v=homework4';
+import {makeDocx} from './homework-docx.mjs?v=homework4';
 export function initHomework({requireTeacher,getPassword}){
  const tools=document.querySelector('#tools');
  const section=document.createElement('section');section.className='homework-generator';
- section.innerHTML=`<hr><h3>AI 生成作业 / Tạo bài tập AI</h3><p class="note">根据所选练习的主题、等级和已有题目生成新作业。翻译题为越南语译成中文；每题2分，总分自动计算。</p><label>所属题库<select data-hw-bank></select></label><label>练习题<select data-hw-exercise></select></label><div class="homework-counts">${Object.entries(kinds).map(([key,label])=>`<label>${label}<select data-hw-count="${key}" aria-label="${label}题数">${[0,5,10,15,20].map(n=>`<option value="${n}">${n} 题</option>`).join('')}</select></label>`).join('')}</div><p data-hw-total class="note"></p><div class="teacher-actions"><button type="button" class="primary" data-hw-generate>生成练习题</button><button type="button" class="quiet" data-hw-cancel hidden>取消生成</button></div><p data-hw-status role="status" aria-live="polite"></p><div data-hw-result hidden><p class="note">AI题目请由教师核对后使用。下载前可在下方修改题干、选项、参考答案和解析。修改题库或题数后请重新生成。</p><div class="teacher-actions"><button type="button" class="primary" data-hw-download>下载学生试卷 .docx</button><button type="button" class="quiet" data-hw-answers>下载教师答案 .docx</button></div><div data-hw-preview></div></div>`;
+ section.innerHTML=`<hr><h3>AI 生成作业 / Tạo bài tập AI</h3><p class="note">根据所选练习的主题、等级和已有题目生成新作业。翻译题为越南语译成中文；每题2分，总分自动计算。</p><label>所属题库<select data-hw-bank></select></label><label>练习题<select data-hw-exercise></select></label><div class="homework-counts">${Object.entries(kinds).map(([key,label])=>`<label>${label}<select data-hw-count="${key}" aria-label="${label}题数">${[0,5,10,15,20].map(n=>`<option value="${n}">${n} 题</option>`).join('')}</select></label>`).join('')}</div><p data-hw-total class="note"></p><div class="teacher-actions"><button type="button" class="primary" data-hw-generate>生成练习题</button><button type="button" class="quiet" data-hw-cancel hidden>取消生成</button></div><p data-hw-status role="status" aria-live="polite"></p><div data-hw-result hidden><p class="note">拼音按课程词表校验；其他题型由AI生成，参考题补齐会标明。请由教师核对后使用。下载前可在下方修改题干、选项、参考答案和解析。修改题库或题数后请重新生成。</p><div class="teacher-actions"><button type="button" class="primary" data-hw-download>下载学生试卷 .docx</button><button type="button" class="quiet" data-hw-answers>下载教师答案 .docx</button></div><div data-hw-preview></div></div>`;
  tools.append(section);
  const shortcut=document.createElement('button');shortcut.type='button';shortcut.className='quiet';shortcut.textContent='AI 生成作业 ↓';shortcut.style.marginBottom='16px';
  tools.querySelector('.section-top').after(shortcut);
@@ -32,6 +33,7 @@ export function initHomework({requireTeacher,getPassword}){
   let index=0;
   for(const q of paper.questions){
    const box=document.createElement('fieldset'),legend=document.createElement('legend');legend.textContent=`第 ${++index} 题`;box.append(legend);
+   if(q.source==='course-reference'){const note=document.createElement('small');note.textContent='本课参考题补齐';box.append(note);}
    const field=(label,value,set)=>{const wrap=document.createElement('label');wrap.textContent=label;const input=document.createElement('textarea');input.value=value;input.rows=2;input.maxLength=600;input.addEventListener('input',()=>set(input.value));wrap.append(input);box.append(wrap);};
    field('题干',q.text,v=>q.text=v);
    q.options?.forEach((o,i)=>field('选项 '+'ABCD'[i],o,v=>q.options[i]=v));
@@ -50,7 +52,8 @@ export function initHomework({requireTeacher,getPassword}){
   if(!resuming){clear();paper={title:entry.exercise.title,bank:bankLabels[bank.value],questions:[]};}
   busy(true);$('[data-hw-result]').hidden=true;controller=new AbortController();const signal=controller.signal,token=++run;
   const next=paper;
-  const context=JSON.stringify({description:entry.exercise.description||'',questions:entry.exercise.questions?.slice(0,20).map(q=>({text:q.text,explanation:q.explanation}))}).slice(0,8000);
+  const taskPlan=courseTasks(entry.exercise,listExercises(bank.value).map(e=>e.exercise));
+  const context=JSON.stringify({description:entry.exercise.description||'',vocabulary:taskPlan.pinyin.map(t=>t.word).slice(0,40)}).slice(0,8000);
   try{
    const configResponse=await fetch('./conversation-config.json',{signal,cache:'no-store'});if(!configResponse.ok)throw Error('AI配置读取失败。');
    const config=await configResponse.json(),url=new URL(config.endpoint);if(url.protocol!=='https:')throw Error('AI服务地址无效。');url.pathname='/homework';url.search='';url.hash='';
@@ -62,8 +65,8 @@ export function initHomework({requireTeacher,getPassword}){
      const response=await fetch(url,{method:'POST',signal:timeout.signal,headers:{'Content-Type':'application/json'},body:JSON.stringify({password:getPassword(),bank:next.bank,title:next.title,context,...batch})});
      const data=await response.json();if(!response.ok){const error=Error(data.error||'AI服务暂不可用。');error.status=response.status;throw error;}return data;
     }finally{clearTimeout(timer);signal.removeEventListener('abort',abort);}
-   },{signal,onProgress:({kind,done,stalls})=>{if(token===run)setStatus(`正在生成${kinds[kind]}，已完成 ${done}/${n} 题${stalls?'，正在更换内容补题…':'…'}`);}});
-   requireTeacher();if(token!==run)return;preview();setStatus(`已生成 ${n} 题，满分 ${n*2} 分。请核对题目后下载。`);
+   },{signal,tasks:taskPlan,onProgress:({kind,done,stalls})=>{if(token===run)setStatus(`正在生成${kinds[kind]}，已完成 ${done}/${n} 题${stalls?'，正在更换内容补题…':'…'}`);}});
+   requireTeacher();if(token!==run)return;preview();setStatus(`已生成 ${n} 题，满分 ${n*2} 分。请核对题目后下载。${sourceNote(next)}`);
   }catch(e){
    if(token===run){
     if(next.questions.length)preview();
@@ -73,6 +76,7 @@ export function initHomework({requireTeacher,getPassword}){
   }finally{if(token===run){controller=null;busy(false);}}
  };
 
+ function sourceNote(value){const reference=value.questions.filter(q=>q.source==='course-reference').length;return reference?` 其中 ${reference} 题使用本课参考题补齐，已在预览中标明。`:'';}
  function download(answers){
   try{
    requireTeacher();if(!paper)throw Error('请先生成练习题。');

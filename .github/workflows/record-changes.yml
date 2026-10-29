@@ -1,0 +1,29 @@
+name: Record teacher change history
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - change-history.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: teacher-change-history
+  cancel-in-progress: false
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Record source updates
+        run: |
+          git pull --rebase origin main
+          python3 tools/update-change-history.py
+          git add change-history.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update teacher change history'
+          git push origin HEAD:main

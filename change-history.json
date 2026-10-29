@@ -1,0 +1,1616 @@
+{
+  "entries": [
+    {
+      "version": "V0001",
+      "updatedAt": "2026-10-16T01:58:07Z",
+      "commit": "61e3798063c9dbb70951d1ad1aa0f41c81bc7540",
+      "changes": [
+        "建立项目初始版本。"
+      ]
+    },
+    {
+      "version": "V0002",
+      "updatedAt": "2026-10-16T02:14:05Z",
+      "commit": "c70bc601e97965df3cb9fdcd2cde7e45db50fc2c",
+      "changes": [
+        "Add Chinese homework demo: index.html"
+      ]
+    },
+    {
+      "version": "V0003",
+      "updatedAt": "2026-10-16T02:14:13Z",
+      "commit": "c50c75f70f51bf0be32e488518eae24c12c5007d",
+      "changes": [
+        "Add Chinese homework demo: grading.mjs"
+      ]
+    },
+    {
+      "version": "V0004",
+      "updatedAt": "2026-10-16T02:14:21Z",
+      "commit": "d6d64e00f26de2d4f57363c03503220b4e3ec264",
+      "changes": [
+        "Add Chinese homework demo: style.css"
+      ]
+    },
+    {
+      "version": "V0005",
+      "updatedAt": "2026-10-16T02:14:28Z",
+      "commit": "b71186ad0818dae670c24776680c6699d6e06de4",
+      "changes": [
+        "Add Chinese homework demo: app.js"
+      ]
+    },
+    {
+      "version": "V0006",
+      "updatedAt": "2026-10-16T02:14:36Z",
+      "commit": "3852f16d74f3f33252b25aca98219a40aa63e885",
+      "changes": [
+        "Add Chinese homework demo: questions.json"
+      ]
+    },
+    {
+      "version": "V0007",
+      "updatedAt": "2026-10-16T02:14:44Z",
+      "commit": "1c19fd488dac265d7ad988ef0acb7b944becb4c3",
+      "changes": [
+        "Add Chinese homework demo: 使用说明.md"
+      ]
+    },
+    {
+      "version": "V0008",
+      "updatedAt": "2026-10-16T02:14:59Z",
+      "commit": "c69307d1ea08696256fb3746732e97f5f5ccf3c5",
+      "changes": [
+        "Add automated grading checks"
+      ]
+    },
+    {
+      "version": "V0009",
+      "updatedAt": "2026-10-16T02:35:59Z",
+      "commit": "2f8e82fed7cb84e80fb2c98315a64150779ca18a",
+      "changes": [
+        "Add visual homepage appearance editor: editor.html"
+      ]
+    },
+    {
+      "version": "V0010",
+      "updatedAt": "2026-10-16T02:36:07Z",
+      "commit": "e6e1c1de6eeccdc5b52fc1e30c58995d8fec5a26",
+      "changes": [
+        "Add visual homepage appearance editor: appearance.mjs"
+      ]
+    },
+    {
+      "version": "V0011",
+      "updatedAt": "2026-10-16T02:36:15Z",
+      "commit": "35e79f8abd24bf0e1372171dce04fe88b598477b",
+      "changes": [
+        "Add visual homepage appearance editor: editor.mjs"
+      ]
+    },
+    {
+      "version": "V0012",
+      "updatedAt": "2026-10-16T02:36:23Z",
+      "commit": "a55088835436bf6656bfa6a25023ace11c4a2a0e",
+      "changes": [
+        "Add visual homepage appearance editor: editor.css"
+      ]
+    },
+    {
+      "version": "V0013",
+      "updatedAt": "2026-10-16T02:36:31Z",
+      "commit": "997fe5d945b54bf1d8f7556dcff37d084297db0f",
+      "changes": [
+        "Add visual homepage appearance editor: site-config.json"
+      ]
+    },
+    {
+      "version": "V0014",
+      "updatedAt": "2026-10-16T02:36:45Z",
+      "commit": "e599e5d5470357bf3e9de5b74f73cd7921336a28",
+      "changes": [
+        "Connect homepage to visual appearance settings"
+      ]
+    },
+    {
+      "version": "V0015",
+      "updatedAt": "2026-10-16T02:36:53Z",
+      "commit": "c1e124c43f6268c3eb575639cd553bb80e281712",
+      "changes": [
+        "Connect homepage to visual appearance settings"
+      ]
+    },
+    {
+      "version": "V0016",
+      "updatedAt": "2026-10-16T02:46:50Z",
+      "commit": "6d0c24c552c71b9ae1a74d43c4561d4e5efe70c3",
+      "changes": [
+        "Fix live appearance preview synchronization and refresh cached scripts"
+      ]
+    },
+    {
+      "version": "V0017",
+      "updatedAt": "2026-10-16T02:46:58Z",
+      "commit": "d1c4632456bdf71118b20b8053193c6a6bb50635",
+      "changes": [
+        "Fix live appearance preview synchronization and refresh cached scripts"
+      ]
+    },
+    {
+      "version": "V0018",
+      "updatedAt": "2026-10-16T02:47:07Z",
+      "commit": "a7e7b12e1452c4e20b8fc43a5db2655f3654bf85",
+      "changes": [
+        "Fix live appearance preview synchronization and refresh cached scripts"
+      ]
+    },
+    {
+      "version": "V0019",
+      "updatedAt": "2026-10-16T02:47:15Z",
+      "commit": "cced08b228987b9b46e97767066462ee35951eef",
+      "changes": [
+        "Fix live appearance preview synchronization and refresh cached scripts"
+      ]
+    },
+    {
+      "version": "V0020",
+      "updatedAt": "2026-10-16T02:59:34Z",
+      "commit": "af21b84c01b75e800c6552960796128f45ba1a23",
+      "changes": [
+        "Customize classroom masthead, subtitle and responsive photo background"
+      ]
+    },
+    {
+      "version": "V0021",
+      "updatedAt": "2026-10-16T02:59:42Z",
+      "commit": "7c05f2e0f3c419bb5de41019b4cc4d91af80e387",
+      "changes": [
+        "Customize classroom masthead, subtitle and responsive photo background"
+      ]
+    },
+    {
+      "version": "V0022",
+      "updatedAt": "2026-10-16T02:59:50Z",
+      "commit": "d28baceb790194fb1227e715fa3608a99793873a",
+      "changes": [
+        "Customize classroom masthead, subtitle and responsive photo background"
+      ]
+    },
+    {
+      "version": "V0023",
+      "updatedAt": "2026-10-16T02:59:58Z",
+      "commit": "c746ab3fb8027f1c4a6b3c902ced712dd9363c15",
+      "changes": [
+        "Customize classroom masthead, subtitle and responsive photo background"
+      ]
+    },
+    {
+      "version": "V0024",
+      "updatedAt": "2026-10-16T03:00:06Z",
+      "commit": "5418e449680cbb7d5069a334039910da6ef7f3bf",
+      "changes": [
+        "Customize classroom masthead, subtitle and responsive photo background"
+      ]
+    },
+    {
+      "version": "V0025",
+      "updatedAt": "2026-10-16T03:00:14Z",
+      "commit": "73294ce78ce45aa34811bc8fa0f059ab6988f7ba",
+      "changes": [
+        "Customize classroom masthead, subtitle and responsive photo background"
+      ]
+    },
+    {
+      "version": "V0026",
+      "updatedAt": "2026-10-16T03:03:32Z",
+      "commit": "e3a7059dc6195a6261b8741302ac86d719b247a7",
+      "changes": [
+        "Add isolated v4 editor and preview assets to prevent stale-page mixing"
+      ]
+    },
+    {
+      "version": "V0027",
+      "updatedAt": "2026-10-16T03:03:40Z",
+      "commit": "48f5cf1478508be5d88137379a5a96d80922440a",
+      "changes": [
+        "Add isolated v4 editor and preview assets to prevent stale-page mixing"
+      ]
+    },
+    {
+      "version": "V0028",
+      "updatedAt": "2026-10-16T03:03:48Z",
+      "commit": "309af90be02402cb033f8972cb3f3fc9ecc12a0b",
+      "changes": [
+        "Add isolated v4 editor and preview assets to prevent stale-page mixing"
+      ]
+    },
+    {
+      "version": "V0029",
+      "updatedAt": "2026-10-16T03:03:56Z",
+      "commit": "b055edb2381177c5e45302d7b6f42c53be5d7f2e",
+      "changes": [
+        "Add isolated v4 editor and preview assets to prevent stale-page mixing"
+      ]
+    },
+    {
+      "version": "V0030",
+      "updatedAt": "2026-10-16T03:04:04Z",
+      "commit": "c9de240ca7b0aea3a9b51288d464fc23266f5fae",
+      "changes": [
+        "Add isolated v4 editor and preview assets to prevent stale-page mixing"
+      ]
+    },
+    {
+      "version": "V0031",
+      "updatedAt": "2026-10-16T03:04:21Z",
+      "commit": "cbce206f3d0438a6979bca55c317f5b74a0234e5",
+      "changes": [
+        "Point teacher tools to versioned classroom appearance editor"
+      ]
+    },
+    {
+      "version": "V0032",
+      "updatedAt": "2026-10-16T03:04:29Z",
+      "commit": "ec1c700f9e39c3cb13a85b42dfab9ed36ec348f6",
+      "changes": [
+        "Point teacher tools to versioned classroom appearance editor"
+      ]
+    },
+    {
+      "version": "V0033",
+      "updatedAt": "2026-10-16T03:09:20Z",
+      "commit": "2630a615c72687c90a8f1826680a731851ef63f6",
+      "changes": [
+        "Add real-time photo opacity and white overlay controls"
+      ]
+    },
+    {
+      "version": "V0034",
+      "updatedAt": "2026-10-16T03:09:28Z",
+      "commit": "997c72ca87aeb8057706e928d41320c29578dd09",
+      "changes": [
+        "Add real-time photo opacity and white overlay controls"
+      ]
+    },
+    {
+      "version": "V0035",
+      "updatedAt": "2026-10-16T03:09:36Z",
+      "commit": "72bc1fc29f7b5ad729e0e2f4f11dd9db5603f333",
+      "changes": [
+        "Add real-time photo opacity and white overlay controls"
+      ]
+    },
+    {
+      "version": "V0036",
+      "updatedAt": "2026-10-16T03:09:44Z",
+      "commit": "40779cfd596c6baef9b86c4415862bffa559cc93",
+      "changes": [
+        "Add real-time photo opacity and white overlay controls"
+      ]
+    },
+    {
+      "version": "V0037",
+      "updatedAt": "2026-10-16T03:09:52Z",
+      "commit": "cca116cdcb78cdd7582d6243aae4ee757fd46003",
+      "changes": [
+        "Add real-time photo opacity and white overlay controls"
+      ]
+    },
+    {
+      "version": "V0038",
+      "updatedAt": "2026-10-16T03:10:00Z",
+      "commit": "8bfaeda5b305530408b77b71345e85eb6e6dae5b",
+      "changes": [
+        "Add real-time photo opacity and white overlay controls"
+      ]
+    },
+    {
+      "version": "V0039",
+      "updatedAt": "2026-10-16T03:16:55Z",
+      "commit": "86b0f8834f00afe9bc0c11d420599ccfe4842d03",
+      "changes": [
+        "上传更新文件；原始提交未提供更详细的变更说明。"
+      ]
+    },
+    {
+      "version": "V0040",
+      "updatedAt": "2026-10-16T03:27:28Z",
+      "commit": "38bee14cf9e20fcf7024cc76e7f408fcbe9d8a6c",
+      "changes": [
+        "Allow clearing optional homepage text and immediately hide empty content"
+      ]
+    },
+    {
+      "version": "V0041",
+      "updatedAt": "2026-10-16T03:27:35Z",
+      "commit": "8163dd7bfc807c9c9f2851b8d62e3a98dd47c7fb",
+      "changes": [
+        "Allow clearing optional homepage text and immediately hide empty content"
+      ]
+    },
+    {
+      "version": "V0042",
+      "updatedAt": "2026-10-16T03:27:43Z",
+      "commit": "8dc40821f90fe0fac9fd7c17194c9fea1e30bdee",
+      "changes": [
+        "Allow clearing optional homepage text and immediately hide empty content"
+      ]
+    },
+    {
+      "version": "V0043",
+      "updatedAt": "2026-10-16T03:27:51Z",
+      "commit": "10ee97c40856627cd7096295954bd4850c256809",
+      "changes": [
+        "Allow clearing optional homepage text and immediately hide empty content"
+      ]
+    },
+    {
+      "version": "V0044",
+      "updatedAt": "2026-10-16T03:27:59Z",
+      "commit": "1f21d70b8c355f10bece714b0b818b4d7004a2cc",
+      "changes": [
+        "Allow clearing optional homepage text and immediately hide empty content"
+      ]
+    },
+    {
+      "version": "V0045",
+      "updatedAt": "2026-10-16T03:34:58Z",
+      "commit": "4743384180b1c593dc382c733cc63df96dfced04",
+      "changes": [
+        "Add configurable website link and separate photo from homework hints"
+      ]
+    },
+    {
+      "version": "V0046",
+      "updatedAt": "2026-10-16T03:35:06Z",
+      "commit": "ed22a056aa71b96b2fe7b765d255f7fd6124220d",
+      "changes": [
+        "Add configurable website link and separate photo from homework hints"
+      ]
+    },
+    {
+      "version": "V0047",
+      "updatedAt": "2026-10-16T03:35:14Z",
+      "commit": "f530f907a91fa88b99dae8553796152a52e9168f",
+      "changes": [
+        "Add configurable website link and separate photo from homework hints"
+      ]
+    },
+    {
+      "version": "V0048",
+      "updatedAt": "2026-10-16T03:35:22Z",
+      "commit": "434f851bec7a263ca37264ba7d3ba3cac3d086a0",
+      "changes": [
+        "Add configurable website link and separate photo from homework hints"
+      ]
+    },
+    {
+      "version": "V0049",
+      "updatedAt": "2026-10-16T03:35:30Z",
+      "commit": "51682c53aad76c3163ae51bbe3ed5028a99fc3ef",
+      "changes": [
+        "Add configurable website link and separate photo from homework hints"
+      ]
+    },
+    {
+      "version": "V0050",
+      "updatedAt": "2026-10-16T03:35:38Z",
+      "commit": "bb7b0b65a6a1970a04237804506baf5b7452f6c3",
+      "changes": [
+        "Add configurable website link and separate photo from homework hints"
+      ]
+    },
+    {
+      "version": "V0051",
+      "updatedAt": "2026-10-16T03:41:26Z",
+      "commit": "cab4589383b20d5167cc33d408f98e45c8c0437d",
+      "changes": [
+        "上传更新文件；原始提交未提供更详细的变更说明。"
+      ]
+    },
+    {
+      "version": "V0052",
+      "updatedAt": "2026-10-16T04:06:59Z",
+      "commit": "3359f3ae59e0fe2bcc3d8558f9946b3033bcfc4c",
+      "changes": [
+        "Add six practice banks with password routing and hide student teacher tools"
+      ]
+    },
+    {
+      "version": "V0053",
+      "updatedAt": "2026-10-16T04:11:42Z",
+      "commit": "417cd8833b156219f25d3550312eeeda91648003",
+      "changes": [
+        "Show question bank password characters while typing"
+      ]
+    },
+    {
+      "version": "V0054",
+      "updatedAt": "2026-10-16T04:11:51Z",
+      "commit": "b936f9500a80ed1577b7fc762148c77febf0b28c",
+      "changes": [
+        "Show question bank password characters while typing"
+      ]
+    },
+    {
+      "version": "V0055",
+      "updatedAt": "2026-10-16T04:17:30Z",
+      "commit": "eecc56e83a0a33b499c262eed35cb80f9916946c",
+      "changes": [
+        "Revalidate default Pages entry and refresh versioned application assets"
+      ]
+    },
+    {
+      "version": "V0056",
+      "updatedAt": "2026-10-16T04:29:04Z",
+      "commit": "797c2dbf38d25174ed07e5442d105716670f76ee",
+      "changes": [
+        "Prevent initial default-theme flash and avoid redundant first-load navigation"
+      ]
+    },
+    {
+      "version": "V0057",
+      "updatedAt": "2026-10-16T06:01:50Z",
+      "commit": "edea9ecd273f9849e5b0a86aae4d4bbd9a40f5ce",
+      "changes": [
+        "Use published school name in initial browser tab titles"
+      ]
+    },
+    {
+      "version": "V0058",
+      "updatedAt": "2026-10-16T06:33:18Z",
+      "commit": "f4d2a8c6684878b43e14aae09fe9ef7124e94dcc",
+      "changes": [
+        "Add student and teacher roles, authenticated exercise import and bank-matched assignment selection"
+      ]
+    },
+    {
+      "version": "V0059",
+      "updatedAt": "2026-10-16T06:34:05Z",
+      "commit": "8218fee1a3d0160b9dc6cd0a629254b623c7dda9",
+      "changes": [
+        "Adapt original bank checks to new role and exercise selection flow"
+      ]
+    },
+    {
+      "version": "V0060",
+      "updatedAt": "2026-10-16T07:03:58Z",
+      "commit": "c23f9657b15f71499919b06d5491f41ca900a931",
+      "changes": [
+        "Add Lesson 11 work abnormalities: 50-question exercise JSON"
+      ]
+    },
+    {
+      "version": "V0061",
+      "updatedAt": "2026-10-16T07:07:22Z",
+      "commit": "bb5de5d7ec7fff14b6d558a1b2de83792067c29c",
+      "changes": [
+        "上传更新文件；原始提交未提供更详细的变更说明。"
+      ]
+    },
+    {
+      "version": "V0062",
+      "updatedAt": "2026-10-16T07:20:07Z",
+      "commit": "bf08c862f61d10c99fdf1a45ea11532499e884a7",
+      "changes": [
+        "Deduplicate exercises, refresh shared catalog on mobile, and remove class field"
+      ]
+    },
+    {
+      "version": "V0063",
+      "updatedAt": "2026-10-16T07:46:45Z",
+      "commit": "c578302ac5f349f46efedfd7466faab7012f090c",
+      "changes": [
+        "Add shared login counter module and service checks"
+      ]
+    },
+    {
+      "version": "V0064",
+      "updatedAt": "2026-10-16T07:48:40Z",
+      "commit": "7b784a56038b10a5e3ba49ae1133a4c1314cb84f",
+      "changes": [
+        "Show shared total below photo and count successful student and teacher logins"
+      ]
+    },
+    {
+      "version": "V0065",
+      "updatedAt": "2026-10-16T08:57:07Z",
+      "commit": "c68018d1fd58c85833c53b42c723eed68e425491",
+      "changes": [
+        "Rename browser tab suffix to 汉语中心 before and after appearance loading"
+      ]
+    },
+    {
+      "version": "V0066",
+      "updatedAt": "2026-10-16T10:05:17Z",
+      "commit": "b475bbd22c13a7b0a54574c3b981d61126e4f04a",
+      "changes": [
+        "Add lesson 12 workday exercise JSON: 50 questions, 100 points"
+      ]
+    },
+    {
+      "version": "V0067",
+      "updatedAt": "2026-10-16T10:18:45Z",
+      "commit": "50fdec500273af73453663599862f733dca412d8",
+      "changes": [
+        "Publish lesson 12, add reviewed pinyin and larger options, show bilingual usage guide"
+      ]
+    },
+    {
+      "version": "V0068",
+      "updatedAt": "2026-10-16T10:47:13Z",
+      "commit": "a1601d7b27f635123fe3b74f21cee5a382ddcbc3",
+      "changes": [
+        "Enlarge compact answer choices and play Chinese encouragement after grading"
+      ]
+    },
+    {
+      "version": "V0069",
+      "updatedAt": "2026-10-16T13:18:54Z",
+      "commit": "7d2fe4ebdebe54b8d9daef4b47b31aa23560e125",
+      "changes": [
+        "Add 30 HSK1-2 themed exercise JSON files, validated 1500-question download pack"
+      ]
+    },
+    {
+      "version": "V0070",
+      "updatedAt": "2026-10-16T13:24:11Z",
+      "commit": "eaec2a01d872e71a75f1f18689c7366c1be760c9",
+      "changes": [
+        "上传更新文件；原始提交未提供更详细的变更说明。"
+      ]
+    },
+    {
+      "version": "V0071",
+      "updatedAt": "2026-10-16T13:53:48Z",
+      "commit": "6d6258def16eef385ca506248c77c3fe8ff8125a",
+      "changes": [
+        "Add bilingual 90-minute HSK2 lessons 1-8 review deck and printable teaching materials"
+      ]
+    },
+    {
+      "version": "V0072",
+      "updatedAt": "2026-10-16T16:03:20Z",
+      "commit": "1c1c6b15873bdad467c1bc8169b466e90a99bcfd",
+      "changes": [
+        "Replace all 482 pronunciation distractors with phonetic confusions and sync downloads"
+      ]
+    },
+    {
+      "version": "V0073",
+      "updatedAt": "2026-10-16T16:43:54Z",
+      "commit": "c0c52ae9f73f3446093c76f4d8d01f98b1246751",
+      "changes": [
+        "Publish 40 HSK3 topic exercises: 2000 questions and 800 ordering sentences of 15-20 Hanzi"
+      ]
+    },
+    {
+      "version": "V0074",
+      "updatedAt": "2026-10-17T01:41:24Z",
+      "commit": "58b5b4708b20d76919d05670e3ccfd7bf5ebd020",
+      "changes": [
+        "Add HSK1–4 handwriting practice with 1071 characters and improve quiz review"
+      ]
+    },
+    {
+      "version": "V0075",
+      "updatedAt": "2026-10-17T02:05:40Z",
+      "commit": "0c25010c93e954cef71cfd1d5e86883678adcca1",
+      "changes": [
+        "Refine handwriting completion, compact blue controls, and single-syllable pronunciation"
+      ]
+    },
+    {
+      "version": "V0076",
+      "updatedAt": "2026-10-17T02:42:03Z",
+      "commit": "fd1812cca265222478234fdd7a163aa3d350515b",
+      "changes": [
+        "Relax handwriting matching, check after 3 seconds, clear mistakes, and compact mobile controls"
+      ]
+    },
+    {
+      "version": "V0077",
+      "updatedAt": "2026-10-17T02:56:12Z",
+      "commit": "dae289893f407c5d3dae753a72e9aeb4e5b161ba",
+      "changes": [
+        "Check handwriting after 2 seconds, demonstrate mistakes once, and prefer real exercises"
+      ]
+    },
+    {
+      "version": "V0078",
+      "updatedAt": "2026-10-17T03:45:43Z",
+      "commit": "8f381f0ab5158957ac4266efc8922f5209a5fa46",
+      "changes": [
+        "Improve handwriting practice, boost audio and add system ratings"
+      ]
+    },
+    {
+      "version": "V0079",
+      "updatedAt": "2026-10-17T03:58:42Z",
+      "commit": "e8a8dbc7f905f09b11feb5a0ceeffd44c7175611",
+      "changes": [
+        "Accept natural handwriting proportions with flexible stroke structure matching"
+      ]
+    },
+    {
+      "version": "V0080",
+      "updatedAt": "2026-10-17T04:04:10Z",
+      "commit": "91c52b51125e807d924bf24315c97169f4385659",
+      "changes": [
+        "Tolerate short slants and variable component spacing in handwritten characters"
+      ]
+    },
+    {
+      "version": "V0081",
+      "updatedAt": "2026-10-17T04:14:45Z",
+      "commit": "e99fc3fa60529e897149516994afc3f8fb2335af",
+      "changes": [
+        "Relax local stroke length and proportion checks for handwriting practice"
+      ]
+    },
+    {
+      "version": "V0082",
+      "updatedAt": "2026-10-17T04:28:59Z",
+      "commit": "298b8f0e1986189fb7309117bb5033d752a4b3e4",
+      "changes": [
+        "Restore automatic character pronunciation with reusable gesture-unlocked audio and page resume handling"
+      ]
+    },
+    {
+      "version": "V0083",
+      "updatedAt": "2026-10-17T04:38:51Z",
+      "commit": "1a18353e4f7bdfcbca8d8cccc52465d8333a26a2",
+      "changes": [
+        "Add falling heart celebration, one-hour dislike undo and cross-device rating refresh"
+      ]
+    },
+    {
+      "version": "V0084",
+      "updatedAt": "2026-10-17T05:01:20Z",
+      "commit": "e185359b92559d5e121edf1849250ff9435fc8d1",
+      "changes": [
+        "Show continuous falling heart rain for four seconds on positive ratings"
+      ]
+    },
+    {
+      "version": "V0085",
+      "updatedAt": "2026-10-17T05:06:42Z",
+      "commit": "d26343c2335738d302c46978c9dd1ff21ea2a2d0",
+      "changes": [
+        "Keep heart rain falling on mobile devices with reduced motion enabled"
+      ]
+    },
+    {
+      "version": "V0086",
+      "updatedAt": "2026-10-17T06:04:42Z",
+      "commit": "846e5cf8e78ecf9566847c58b092f5bfae1556bd",
+      "changes": [
+        "Remove Chinese homework description from shared link previews"
+      ]
+    },
+    {
+      "version": "V0087",
+      "updatedAt": "2026-10-17T07:30:17Z",
+      "commit": "a34df6bea61d7b6025addb4f3b492336e68ef264",
+      "changes": [
+        "Replace homepage hints with four blue Vietnamese course modules"
+      ]
+    },
+    {
+      "version": "V0088",
+      "updatedAt": "2026-10-17T07:38:56Z",
+      "commit": "30fe3b349fe1b798abf2a9e01b1f3c6e86b13944",
+      "changes": [
+        "Make homepage course modules smaller and more compact"
+      ]
+    },
+    {
+      "version": "V0089",
+      "updatedAt": "2026-10-17T09:33:59Z",
+      "commit": "a7285acaffab1a48560fbbc3ebbe4dbcf55755a7",
+      "changes": [
+        "Reject extra strokes and crossbars when 年 is written for 牛 while retaining loose handwriting tolerance"
+      ]
+    },
+    {
+      "version": "V0090",
+      "updatedAt": "2026-10-17T09:52:36Z",
+      "commit": "79ca1fce53aa312305497f85eff48a0f621223f4",
+      "changes": [
+        "Distinguish 牛 and 午 by the upright crossing the upper horizontal stroke"
+      ]
+    },
+    {
+      "version": "V0091",
+      "updatedAt": "2026-10-17T12:53:34Z",
+      "commit": "587d7f0f71601eb7292c6d53dd4ce0e5b18c833e",
+      "changes": [
+        "Restore unfinished exercise answers and reading position"
+      ]
+    },
+    {
+      "version": "V0092",
+      "updatedAt": "2026-10-17T14:07:15Z",
+      "commit": "38d07e8cfdd2b350ada1497c0512cfd0e550adb0",
+      "changes": [
+        "Add 40 HSK4 themed lessons with 2000 bilingual practice questions"
+      ]
+    },
+    {
+      "version": "V0093",
+      "updatedAt": "2026-10-18T06:57:48Z",
+      "commit": "16122a9daff8b19e56c0ad155aa2daabdf3e678e",
+      "changes": [
+        "Add two-lesson Chinese reading practice pilot with content recognition scoring"
+      ]
+    },
+    {
+      "version": "V0094",
+      "updatedAt": "2026-10-18T07:01:25Z",
+      "commit": "24d1243dcfc2ace671ba8cfc187a84848b9d8af1",
+      "changes": [
+        "Revert reading pronunciation pilot at user request"
+      ]
+    },
+    {
+      "version": "V0095",
+      "updatedAt": "2026-10-18T08:22:22Z",
+      "commit": "87e25ba916f973f5233be61389c70b8c6c7e4a12",
+      "changes": [
+        "Add fruit picture vocabulary practice with Mandarin audio and timed feedback"
+      ]
+    },
+    {
+      "version": "V0096",
+      "updatedAt": "2026-10-18T09:01:28Z",
+      "commit": "d6f479967fd5c428acf93f8a89815b5803a61e8a",
+      "changes": [
+        "Expand picture vocabulary to 19 categories and restore practice screens"
+      ]
+    },
+    {
+      "version": "V0097",
+      "updatedAt": "2026-10-18T09:09:00Z",
+      "commit": "2bc196ea94e91ca54f901979eb707d033149f339",
+      "changes": [
+        "Remove header writing shortcut"
+      ]
+    },
+    {
+      "version": "V0098",
+      "updatedAt": "2026-10-18T09:24:26Z",
+      "commit": "9785904bbc77527d1163b6b830694bec355a0901",
+      "changes": [
+        "Expand all 19 picture vocabulary categories beyond 50 words"
+      ]
+    },
+    {
+      "version": "V0099",
+      "updatedAt": "2026-10-18T09:42:23Z",
+      "commit": "a1f35cbd02d16ea254d2673143fba9ffc98fc8c3",
+      "changes": [
+        "Add five picture vocabulary categories and compact category buttons"
+      ]
+    },
+    {
+      "version": "V0100",
+      "updatedAt": "2026-10-18T10:07:16Z",
+      "commit": "eaa5f1a3a86244afac21675232d3a94a8b237303",
+      "changes": [
+        "Count every authenticated entry across all three practice modes"
+      ]
+    },
+    {
+      "version": "V0101",
+      "updatedAt": "2026-10-18T14:19:46Z",
+      "commit": "2cd835f3c492c0187fa5ad58114ff0f23b9d1607",
+      "changes": [
+        "Fix sticky picture option hover on touch devices"
+      ]
+    },
+    {
+      "version": "V0102",
+      "updatedAt": "2026-10-18T15:09:18Z",
+      "commit": "cd796d6e472f80a01221cb037cbe2ed599dc416c",
+      "changes": [
+        "Hide passwords by default and add visibility toggles"
+      ]
+    },
+    {
+      "version": "V0103",
+      "updatedAt": "2026-10-18T15:28:55Z",
+      "commit": "7fe6b356baa5536b18d6a394ff334cac90f22e6a",
+      "changes": [
+        "Add quiz music player with provided YouTube video and stop control"
+      ]
+    },
+    {
+      "version": "V0104",
+      "updatedAt": "2026-10-18T15:49:26Z",
+      "commit": "f0a42d6099b132b5e2ab3d37b3460a4645c9972b",
+      "changes": [
+        "Use uploaded MP3 with looping and compact play pause controls"
+      ]
+    },
+    {
+      "version": "V0105",
+      "updatedAt": "2026-10-18T16:38:28Z",
+      "commit": "863f4a60d83dd27ac6083cb28556a7b03f2aadc8",
+      "changes": [
+        "Add shared looping homepage music with playback controls"
+      ]
+    },
+    {
+      "version": "V0106",
+      "updatedAt": "2026-10-18T17:13:29Z",
+      "commit": "8fe0ca7d6b86811c5d77beecce6613cac33bfa94",
+      "changes": [
+        "Add smooth classroom photo carousel after initial homepage background"
+      ]
+    },
+    {
+      "version": "V0107",
+      "updatedAt": "2026-10-18T17:17:44Z",
+      "commit": "38e069c037f29906ac441f385b499b7eb41d0c3a",
+      "changes": [
+        "Remove dinner photo from homepage slideshow"
+      ]
+    },
+    {
+      "version": "V0108",
+      "updatedAt": "2026-10-19T05:20:46Z",
+      "commit": "e8ccf96b3256b465539122a4a3127235ed82a060",
+      "changes": [
+        "Add slowly rotating Women's Day bouquet below homepage background"
+      ]
+    },
+    {
+      "version": "V0109",
+      "updatedAt": "2026-10-19T05:26:41Z",
+      "commit": "25f5bdd0ca5c1585f381a91a73d1e61d82e51cd8",
+      "changes": [
+        "Center artistic greeting over a slowly rotating dimensional rose bouquet"
+      ]
+    },
+    {
+      "version": "V0110",
+      "updatedAt": "2026-10-19T05:30:10Z",
+      "commit": "f354f74581def6ea3c334a3af9d15a1746f82001",
+      "changes": [
+        "Restore original bouquet and retain centered artistic Women's Day greeting"
+      ]
+    },
+    {
+      "version": "V0111",
+      "updatedAt": "2026-10-19T05:39:36Z",
+      "commit": "b142c6ec4d6b90ebab747666fc47481d11a77203",
+      "changes": [
+        "Add bilingual return-home button to quiz while preserving exercise progress"
+      ]
+    },
+    {
+      "version": "V0112",
+      "updatedAt": "2026-10-19T06:05:42Z",
+      "commit": "3fba6d516140b9efee6abc6770aba281fb29fb6f",
+      "changes": [
+        "Enlarge homepage bouquet while keeping the artistic greeting centered"
+      ]
+    },
+    {
+      "version": "V0113",
+      "updatedAt": "2026-10-19T14:44:46Z",
+      "commit": "e94337f1e6ba3b5fccd8511b0788731743b2efa9",
+      "changes": [
+        "Hide two requested homepage slideshow photos"
+      ]
+    },
+    {
+      "version": "V0114",
+      "updatedAt": "2026-10-19T14:50:04Z",
+      "commit": "89e79524a5e543dd7e3928ba8c3652702171fbe8",
+      "changes": [
+        "Keep only original homepage background and disable photo rotation"
+      ]
+    },
+    {
+      "version": "V0115",
+      "updatedAt": "2026-10-20T08:59:42Z",
+      "commit": "060cd6739b91eb6cbb75d432bf8b44dacef3dfae",
+      "changes": [
+        "Add bilingual pronunciation practice with animated mouth guides"
+      ]
+    },
+    {
+      "version": "V0116",
+      "updatedAt": "2026-10-20T09:22:08Z",
+      "commit": "a9a8e59cb05ec06be885862a13d50df9e2ca6dab",
+      "changes": [
+        "Use isolated pinyin sounds and static photographic mouth references"
+      ]
+    },
+    {
+      "version": "V0117",
+      "updatedAt": "2026-10-20T09:40:23Z",
+      "commit": "8a9318a3364339f10c3538ee96057158e07e78d7",
+      "changes": [
+        "Add AI-generated mouth motion with synchronized pronunciation controls"
+      ]
+    },
+    {
+      "version": "V0118",
+      "updatedAt": "2026-10-20T09:47:55Z",
+      "commit": "a646686a97ee6be014f40146a5fa83e7c7545329",
+      "changes": [
+        "Fix pronunciation autoplay at half speed and simplify controls"
+      ]
+    },
+    {
+      "version": "V0119",
+      "updatedAt": "2026-10-20T09:57:27Z",
+      "commit": "e153d43de8abf18121cb8babc5b1600bffc87262",
+      "changes": [
+        "Use complete Mandarin teaching readings at very slow speed"
+      ]
+    },
+    {
+      "version": "V0120",
+      "updatedAt": "2026-10-20T10:10:04Z",
+      "commit": "5537111dc5a882a9ec583901f91306a5ddd7736c",
+      "changes": [
+        "Fix mobile pronunciation mouth canvas visibility"
+      ]
+    },
+    {
+      "version": "V0121",
+      "updatedAt": "2026-10-20T10:16:23Z",
+      "commit": "2e562d6f9b748804b34c7ca08d4ddb15a977743e",
+      "changes": [
+        "Show mouth canvas by default on mobile and compact letter tiles"
+      ]
+    },
+    {
+      "version": "V0122",
+      "updatedAt": "2026-10-20T10:29:48Z",
+      "commit": "b638b99b8e2d66a2a0e78c7c210c8c03f30c24a0",
+      "changes": [
+        "Remove mouth image enlargement and its hint"
+      ]
+    },
+    {
+      "version": "V0123",
+      "updatedAt": "2026-10-20T10:50:48Z",
+      "commit": "d8a14698cc4fbc113d499f169301de3b69d56de1",
+      "changes": [
+        "Add SMT DIP and warehouse picture vocabulary with generated illustrations"
+      ]
+    },
+    {
+      "version": "V0124",
+      "updatedAt": "2026-10-21T02:23:16Z",
+      "commit": "bd47859a905d64f11d6d3b40618363f46ed12df0",
+      "changes": [
+        "Compact pronunciation category buttons on desktop and mobile"
+      ]
+    },
+    {
+      "version": "V0125",
+      "updatedAt": "2026-10-21T02:33:17Z",
+      "commit": "e2603e835e2fa9c4957f8c7492c70fc3d226c3c0",
+      "changes": [
+        "Add line icons and bilingual practice label to home buttons"
+      ]
+    },
+    {
+      "version": "V0126",
+      "updatedAt": "2026-10-21T03:16:09Z",
+      "commit": "78652f9e31e5cfeef5280bf4ed31b687368a3042",
+      "changes": [
+        "Remember student name and course password on this browser"
+      ]
+    },
+    {
+      "version": "V0127",
+      "updatedAt": "2026-10-21T03:49:48Z",
+      "commit": "bd23e077e5973ea1a0ab67910d7c877d9dd1cb85",
+      "changes": [
+        "Add bilingual listening practice with approved HSK questions and themed quizzes"
+      ]
+    },
+    {
+      "version": "V0128",
+      "updatedAt": "2026-10-21T04:12:38Z",
+      "commit": "f74a75f945764d56ea9b1de269ba40feb29dbed9",
+      "changes": [
+        "Use mainland Mandarin voices and separate male/female dialogue speakers"
+      ]
+    },
+    {
+      "version": "V0129",
+      "updatedAt": "2026-10-21T04:22:35Z",
+      "commit": "a680af4ecbdc45126a559c152a1798eeddc1be02",
+      "changes": [
+        "Prefer natural Xiaoxiao and Yunxi voices with male/female preview controls"
+      ]
+    },
+    {
+      "version": "V0130",
+      "updatedAt": "2026-10-21T04:29:14Z",
+      "commit": "5edc86513e6f94d79ad4258bfa6dc56d4fe8e029",
+      "changes": [
+        "Prepare fixed Xiaoxiao and Yunxi recordings for all listening variants"
+      ]
+    },
+    {
+      "version": "V0131",
+      "updatedAt": "2026-10-21T04:31:11Z",
+      "commit": "fa40aa69591b35449e5e3ea9d3986c23574ba45c",
+      "changes": [
+        "Validate generated MP3 recordings without external ffprobe dependency"
+      ]
+    },
+    {
+      "version": "V0132",
+      "updatedAt": "2026-10-21T04:32:11Z",
+      "commit": "81354f62e6ca95ec6fe6149137978cee1baa3100",
+      "changes": [
+        "Upload verified Xiaoxiao and Yunxi listening recordings"
+      ]
+    },
+    {
+      "version": "V0133",
+      "updatedAt": "2026-10-21T04:36:22Z",
+      "commit": "2bf6f20cd4119505b5b16c8ce4c41e80466da291",
+      "changes": [
+        "Play uploaded Xiaoxiao and Yunxi recordings consistently across devices"
+      ]
+    },
+    {
+      "version": "V0134",
+      "updatedAt": "2026-10-21T07:02:16Z",
+      "commit": "3578c97ac8599c6f309ba28e0c2962f4bf16690b",
+      "changes": [
+        "Compact listening practice, resume saved sessions, add previous/next and default 0.8 playback"
+      ]
+    },
+    {
+      "version": "V0135",
+      "updatedAt": "2026-10-21T07:20:51Z",
+      "commit": "4974a54407e638b6dbe3977a7a831359e4ff2a5c",
+      "changes": [
+        "Prepare 900 listening questions with alternating monologues and dialogues"
+      ]
+    },
+    {
+      "version": "V0136",
+      "updatedAt": "2026-10-21T07:29:42Z",
+      "commit": "044cfb5c0b38c9e5853b1ae1527720f88dc95585",
+      "changes": [
+        "Upload verified Xiaoxiao and Yunxi listening recordings"
+      ]
+    },
+    {
+      "version": "V0137",
+      "updatedAt": "2026-10-21T07:31:29Z",
+      "commit": "42e20c1b692ac4d10e0172b58c76c7cfad14b1f3",
+      "changes": [
+        "Publish 300 listening questions per category with alternating single and dual speakers"
+      ]
+    },
+    {
+      "version": "V0138",
+      "updatedAt": "2026-10-21T08:38:47Z",
+      "commit": "199fb96878a98566612cc8cafd09249d79d33aa7",
+      "changes": [
+        "Match listening entry button styling and autoplay first and resumed questions"
+      ]
+    },
+    {
+      "version": "V0139",
+      "updatedAt": "2026-10-21T09:48:29Z",
+      "commit": "4dd6f182a422693d6001e7b84b9d18d7be363d78",
+      "changes": [
+        "Add 30 HSK5 topics and 600 Vietnamese-supported exercises"
+      ]
+    },
+    {
+      "version": "V0140",
+      "updatedAt": "2026-10-21T10:58:16Z",
+      "commit": "c156948a0dad2979838b1efb384abecf4a1b0385",
+      "changes": [
+        "Add 35 daily communication topics and 700 Vietnamese-supported exercises"
+      ]
+    },
+    {
+      "version": "V0141",
+      "updatedAt": "2026-10-21T12:33:25Z",
+      "commit": "9b5be8450d989dc48ecc1bd3657fc28e68c52242",
+      "changes": [
+        "Add 35 electronics factory topics with 50 exercises each to daily bank"
+      ]
+    },
+    {
+      "version": "V0142",
+      "updatedAt": "2026-10-21T12:37:42Z",
+      "commit": "1a60f2b7e309500e378689459156e00623e9635c",
+      "changes": [
+        "Remove three course download link rows from homepage"
+      ]
+    },
+    {
+      "version": "V0143",
+      "updatedAt": "2026-10-21T12:44:22Z",
+      "commit": "8ad7d98a48054f88b2aa056763c657a23772b9db",
+      "changes": [
+        "Restyle homepage course cards with icons and Chinese Vietnamese labels"
+      ]
+    },
+    {
+      "version": "V0144",
+      "updatedAt": "2026-10-21T12:51:52Z",
+      "commit": "acf71b13a0c4ae26b5f11a9bc175ff0d1a42e9ed",
+      "changes": [
+        "Generate verified Xiaoxiao recordings for all picture vocabulary"
+      ]
+    },
+    {
+      "version": "V0145",
+      "updatedAt": "2026-10-21T12:55:48Z",
+      "commit": "f01f7eae0320d0ab5cf96e9b881d188e5e35cff8",
+      "changes": [
+        "Publish verified Xiaoxiao recordings for picture vocabulary"
+      ]
+    },
+    {
+      "version": "V0146",
+      "updatedAt": "2026-10-21T12:56:12Z",
+      "commit": "7dea3a5abf77808a98dbd9f4dae5f09007482d28",
+      "changes": [
+        "Use fixed Xiaoxiao female recordings for picture word playback"
+      ]
+    },
+    {
+      "version": "V0147",
+      "updatedAt": "2026-10-21T13:03:30Z",
+      "commit": "0a403fe4c52e9092b336def6eb6679d1e8593aa1",
+      "changes": [
+        "Play picture word MP3 synchronously on mobile taps"
+      ]
+    },
+    {
+      "version": "V0148",
+      "updatedAt": "2026-10-21T13:17:25Z",
+      "commit": "65ba438a148d2a40b638d775766243f7e306cc0f",
+      "changes": [
+        "Verify shared counter supports exact Unicode user index and page visits"
+      ]
+    },
+    {
+      "version": "V0149",
+      "updatedAt": "2026-10-21T13:21:30Z",
+      "commit": "557391ef2d89908c7e909e9bf0a50296515de44e",
+      "changes": [
+        "Count every page open and show shared per-name visit ticker"
+      ]
+    },
+    {
+      "version": "V0150",
+      "updatedAt": "2026-10-21T16:00:35Z",
+      "commit": "a63479a26a6b6738791fca27ad3359cc22ced6e0",
+      "changes": [
+        "Make visitor records scroll vertically in a seamless loop"
+      ]
+    },
+    {
+      "version": "V0151",
+      "updatedAt": "2026-10-21T16:04:56Z",
+      "commit": "bb99396d8868026b86952bdd82c64f882df2d57e",
+      "changes": [
+        "Keep visitor ticker scrolling upward automatically without interaction"
+      ]
+    },
+    {
+      "version": "V0152",
+      "updatedAt": "2026-10-21T16:17:55Z",
+      "commit": "c91b64b92449f7446c2ddea89fa70f1b7fa28008",
+      "changes": [
+        "Drive visitor ticker continuously upward with requestAnimationFrame"
+      ]
+    },
+    {
+      "version": "V0153",
+      "updatedAt": "2026-10-22T02:36:55Z",
+      "commit": "675d23781aa04a28fee1d73835e9d413b9daf84f",
+      "changes": [
+        "Show two visitor rows and remove ticker caption"
+      ]
+    },
+    {
+      "version": "V0154",
+      "updatedAt": "2026-10-22T02:56:58Z",
+      "commit": "6dffcd93a915d7145adf4ac152ffb2e36ab7abe2",
+      "changes": [
+        "Fix release manifest mismatch and prevent page reload loops"
+      ]
+    },
+    {
+      "version": "V0155",
+      "updatedAt": "2026-10-22T03:23:22Z",
+      "commit": "37bd253afdc3c8e7161842c6746b031fbc7d5309",
+      "changes": [
+        "Rename electronics lessons to Chinese factory and move them to factory bank"
+      ]
+    },
+    {
+      "version": "V0156",
+      "updatedAt": "2026-10-23T15:23:46Z",
+      "commit": "eb4f778f7200d4a90252fc03df24bbb1cb0cf332",
+      "changes": [
+        "Prepare ordered background music playlist (audio upload pending)"
+      ]
+    },
+    {
+      "version": "V0157",
+      "updatedAt": "2026-10-23T15:26:23Z",
+      "commit": "45ab7dde4856c952e70f737f8187f95df1354a42",
+      "changes": [
+        "上传更新文件；原始提交未提供更详细的变更说明。"
+      ]
+    },
+    {
+      "version": "V0158",
+      "updatedAt": "2026-10-23T15:27:38Z",
+      "commit": "cd2bc8a4696fe03947ca8845860790b87bee6ea0",
+      "changes": [
+        "Document uploaded music and playlist validation"
+      ]
+    },
+    {
+      "version": "V0159",
+      "updatedAt": "2026-10-23T15:27:58Z",
+      "commit": "97a260066a6982a623eee38e64544d1ed077ff26",
+      "changes": [
+        "Refresh cached music module for ordered playlist"
+      ]
+    },
+    {
+      "version": "V0160",
+      "updatedAt": "2026-10-23T15:28:30Z",
+      "commit": "89a65b87ca055833e2a8c4618eb41ec6aac69523",
+      "changes": [
+        "Merge pull request #1 from Henley0209/codex/a-yi-mo-playlist"
+      ]
+    },
+    {
+      "version": "V0161",
+      "updatedAt": "2026-10-23T15:30:44Z",
+      "commit": "5ddd3631197f0c8e1c533129d8c76df0baee73c5",
+      "changes": [
+        "Fix stale entry module cache loading old background music"
+      ]
+    },
+    {
+      "version": "V0162",
+      "updatedAt": "2026-10-25T13:55:36Z",
+      "commit": "2852f7a1dbcf688767c6ebf141d8e840435cb44a",
+      "changes": [
+        "Publish HSK lesson 1 conversation flow and speech preview"
+      ]
+    },
+    {
+      "version": "V0163",
+      "updatedAt": "2026-10-25T14:03:23Z",
+      "commit": "1586769f207d058498e12d9396539ce35141a39e",
+      "changes": [
+        "Use fixed Xiaoxiao female recordings for HSK conversation preview"
+      ]
+    },
+    {
+      "version": "V0164",
+      "updatedAt": "2026-10-25T14:03:57Z",
+      "commit": "d00afac399b762171140627455e05199b636e7d7",
+      "changes": [
+        "Publish fixed Xiaoxiao recordings for HSK lesson 1 preview"
+      ]
+    },
+    {
+      "version": "V0165",
+      "updatedAt": "2026-10-25T14:12:22Z",
+      "commit": "cea0034b986c83fa4babe69f96681ae33dec820c",
+      "changes": [
+        "Set HSK lesson 1 Xiaoxiao speech to 0.9 speed"
+      ]
+    },
+    {
+      "version": "V0166",
+      "updatedAt": "2026-10-25T14:12:52Z",
+      "commit": "c777c4940317fd8b9bec66646808782e93696f33",
+      "changes": [
+        "Publish fixed Xiaoxiao recordings for HSK lesson 1 preview"
+      ]
+    },
+    {
+      "version": "V0167",
+      "updatedAt": "2026-10-25T14:15:57Z",
+      "commit": "968634e898cabf0579b91add1e19f5e6ecbc8995",
+      "changes": [
+        "Upload HSK lesson 1 with free Workers AI integration and 0.9 speech"
+      ]
+    },
+    {
+      "version": "V0168",
+      "updatedAt": "2026-10-25T14:34:17Z",
+      "commit": "394c52b7124e240d8d47d8ffaee1acda9084a3f4",
+      "changes": [
+        "Retry new Workers HTTPS certificate readiness before AI verification"
+      ]
+    },
+    {
+      "version": "V0169",
+      "updatedAt": "2026-10-25T14:36:00Z",
+      "commit": "4174146d04c37f4b91a446f985939f2eac4ef661",
+      "changes": [
+        "Identify deployment verification client in Worker health checks"
+      ]
+    },
+    {
+      "version": "V0170",
+      "updatedAt": "2026-10-25T14:36:37Z",
+      "commit": "f45895b999b6b1516fab189113e3f5d79b7d7c5f",
+      "changes": [
+        "Enable verified real AI conversation endpoint"
+      ]
+    },
+    {
+      "version": "V0171",
+      "updatedAt": "2026-10-25T14:41:32Z",
+      "commit": "8d1a48f95e9716bca02e1d9727302b4548e3c72d",
+      "changes": [
+        "Add live AI conversation practice entry to system homepage"
+      ]
+    },
+    {
+      "version": "V0172",
+      "updatedAt": "2026-10-25T14:54:35Z",
+      "commit": "efb47a76a58466b7548929d850284e2dda78969f",
+      "changes": [
+        "Fix silent AI dialogue with verified cloud Chinese speech fallback"
+      ]
+    },
+    {
+      "version": "V0173",
+      "updatedAt": "2026-10-25T14:57:19Z",
+      "commit": "404ef0a136b4e3380cdf85ddd3fd469b24b7bf5d",
+      "changes": [
+        "Expose audio playback controls for mobile dialogue speech"
+      ]
+    },
+    {
+      "version": "V0174",
+      "updatedAt": "2026-10-25T14:59:30Z",
+      "commit": "b99e1101d79996e28046a597615b07f81c3ebd4e",
+      "changes": [
+        "Use decodable audio fixture for mobile playback control coverage"
+      ]
+    },
+    {
+      "version": "V0175",
+      "updatedAt": "2026-10-25T15:09:28Z",
+      "commit": "694f45bc060e915369309abb3fb8ba170090d99d",
+      "changes": [
+        "Enable authorized mobile recording with cloud Chinese transcription"
+      ]
+    },
+    {
+      "version": "V0176",
+      "updatedAt": "2026-10-25T15:23:47Z",
+      "commit": "b6addbdcd403bbc560fed0481760cf28cace913a",
+      "changes": [
+        "Update wrangler.toml"
+      ]
+    },
+    {
+      "version": "V0177",
+      "updatedAt": "2026-10-25T15:25:17Z",
+      "commit": "7d123ce9ecf9ca96276dc0062c06b2d57c747d1e",
+      "changes": [
+        "Update worker.mjs"
+      ]
+    },
+    {
+      "version": "V0178",
+      "updatedAt": "2026-10-25T15:43:55Z",
+      "commit": "9e50aeab705e95b5cf2e307162248392d9011f45",
+      "changes": [
+        "Automate spoken dialogue turns with slower speech and three-second silence detection"
+      ]
+    },
+    {
+      "version": "V0179",
+      "updatedAt": "2026-10-25T16:12:50Z",
+      "commit": "a23b146ed9c297b0783500a44cf6eed32a4da418",
+      "changes": [
+        "Add pinyin assessments, saved question navigation and reliable progressive dialogue"
+      ]
+    },
+    {
+      "version": "V0180",
+      "updatedAt": "2026-10-25T16:16:14Z",
+      "commit": "861fe0cfcb2eed4929ed19ba5baa229c90842a56",
+      "changes": [
+        "Clarify grammar correction and require pinyin for the original student answer"
+      ]
+    },
+    {
+      "version": "V0181",
+      "updatedAt": "2026-10-25T16:39:47Z",
+      "commit": "a50299ac0d9df1715461b8c2586157ac8b038a72",
+      "changes": [
+        "Use simplified transcripts, compact assessments and permissive keyword-based answers"
+      ]
+    },
+    {
+      "version": "V0182",
+      "updatedAt": "2026-10-25T17:17:16Z",
+      "commit": "18d4d6b341e3381c611bdd83c4620501b8ab5f22",
+      "changes": [
+        "Prepare 200 curriculum dialogue pairs per exercise and integrate fixed question banks"
+      ]
+    },
+    {
+      "version": "V0183",
+      "updatedAt": "2026-10-25T17:18:01Z",
+      "commit": "ffdd61dfa05900a500c36c378ec70318e624295f",
+      "changes": [
+        "Publish 200 validated dialogue pairs per visible exercise"
+      ]
+    },
+    {
+      "version": "V0184",
+      "updatedAt": "2026-10-26T00:38:54Z",
+      "commit": "e6f15e4702ec2726fd64ff1aabc0417dedb9dfcd",
+      "changes": [
+        "Make conversation practice generate topic-aware AI dialogue (#3)"
+      ]
+    },
+    {
+      "version": "V0185",
+      "updatedAt": "2026-10-26T00:50:30Z",
+      "commit": "d32e11ca6494abdd4787a2344bd18eb7f85988e8",
+      "changes": [
+        "Fix off-topic and repeated HSK lesson 1 dialogue; verify live follow-ups"
+      ]
+    },
+    {
+      "version": "V0186",
+      "updatedAt": "2026-10-26T00:52:50Z",
+      "commit": "71887a5e1115d70342d68cff865f1eac2b8e3ef0",
+      "changes": [
+        "Treat greeting-prefixed repeated questions as duplicates"
+      ]
+    },
+    {
+      "version": "V0187",
+      "updatedAt": "2026-10-26T00:55:04Z",
+      "commit": "afa2a25f1ebcb3e71c7de9b873df1e1797f73028",
+      "changes": [
+        "Give regeneration explicit recent-question exclusions and verify contextual replies"
+      ]
+    },
+    {
+      "version": "V0188",
+      "updatedAt": "2026-10-26T01:11:02Z",
+      "commit": "bf5f77da03baf200762be0e4ab979d8d80de7018",
+      "changes": [
+        "Apply lesson-specific conversation scopes and topic checks to all 213 courses"
+      ]
+    },
+    {
+      "version": "V0189",
+      "updatedAt": "2026-10-28T04:15:11Z",
+      "commit": "3fd9c13855febfdeedbef95b7285d5b188dd1a93",
+      "changes": [
+        "Diversify exercise content and grammar across all 213 visible courses"
+      ]
+    },
+    {
+      "version": "V0190",
+      "updatedAt": "2026-10-29T03:31:13Z",
+      "commit": "cc858a42b80a0bd16b0367deabbc29ff445bbfce",
+      "changes": [
+        "Fix repeated day questions and retry malformed AI replies"
+      ]
+    },
+    {
+      "version": "V0191",
+      "updatedAt": "2026-10-29T03:33:13Z",
+      "commit": "31d5fe63fd8d282e7d36e3ec24e2e44d60240b22",
+      "changes": [
+        "Expose AI deployment verification failures in job summary"
+      ]
+    },
+    {
+      "version": "V0192",
+      "updatedAt": "2026-10-29T03:34:02Z",
+      "commit": "08fc341d734be7c7b138aebfacfac3b71f5adb5f",
+      "changes": [
+        "Refresh browser assets for conversation fixes"
+      ]
+    },
+    {
+      "version": "V0193",
+      "updatedAt": "2026-10-29T03:43:47Z",
+      "commit": "d162fe5c7e0bb321445bd798cc2cc1a757536a14",
+      "changes": [
+        "Resume dialogue from visible answers and repair question navigation"
+      ]
+    },
+    {
+      "version": "V0194",
+      "updatedAt": "2026-10-29T03:51:26Z",
+      "commit": "1f92330ea70f1a748e130b3e148dd0b8e996c0b2",
+      "changes": [
+        "Prevent appearance loading from blocking the homepage"
+      ]
+    },
+    {
+      "version": "V0195",
+      "updatedAt": "2026-10-29T03:56:27Z",
+      "commit": "fa629fead6ae814b0ce0849cd881eca1ffee3a12",
+      "changes": [
+        "Revert \"Prevent appearance loading from blocking the homepage\""
+      ]
+    },
+    {
+      "version": "V0196",
+      "updatedAt": "2026-10-29T04:04:03Z",
+      "commit": "8dbda0a730dde7af9e5efd3222aa90ba72f17c87",
+      "changes": [
+        "Keep valid assessments and continue with scoped fallback questions"
+      ]
+    },
+    {
+      "version": "V0197",
+      "updatedAt": "2026-10-29T06:36:42Z",
+      "commit": "f595bb6e5dfb6a2600ac8339326523865e2d832c",
+      "changes": [
+        "花束与祝福语改为每年10月15日至25日显示，其余时间隐藏并释放占位。"
+      ]
+    },
+    {
+      "version": "V0198",
+      "updatedAt": "2026-10-29T07:18:38Z",
+      "commit": "61e1951fd6b7c5c5fe2207b4b5741841fac3b8a7",
+      "changes": [
+        "教师工具新增AI作业生成、四种题型数量选择、题目编辑及学生试卷和教师答案Word下载。"
+      ]
+    },
+    {
+      "version": "V0199",
+      "updatedAt": "2026-10-29T07:28:09Z",
+      "commit": "6b0ad883b2c8133ff9444014bb81af77c175b5af",
+      "changes": [
+        "保留AI生成的有效题目，过滤重复题，支持中断后继续补齐及下载已有题目。"
+      ]
+    },
+    {
+      "version": "V0200",
+      "updatedAt": "2026-10-29T07:44:09Z",
+      "commit": "6cad8ccc5f2b2a4d22af24833404ec0c2ff292e6",
+      "changes": [
+        "清理每题题型标签和重复选项字母，校验拼音选项，按完整句子构造排序题。"
+      ]
+    },
+    {
+      "version": "V0201",
+      "updatedAt": "2026-10-29T08:07:02Z",
+      "commit": null,
+      "commitMessage": "Use course-specific homework targets and add complete teacher change history",
+      "changes": [
+        "按所选课程分配唯一出题目标，使用课程中已校验的读音生成拼音题，减少重复批次被过滤导致的中断。",
+        "AI按目标词语或句子生成填空、排序和翻译；必要时用本课参考题补齐并在预览中标明来源。",
+        "教师工具新增“变更记录”按钮，回填全部历史记录，从V0001连续编号，可按版本和内容搜索，时间显示为UTC+7。",
+        "部署流程新增真实作业接口回归检查，验证HSK4和HSK5的50题生成、题数、去重和格式。"
+      ]
+    }
+  ]
+}

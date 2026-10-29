@@ -1,7 +1,7 @@
 export const kinds={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译题'};
 export function cleanQuestionText(value){
  if(typeof value!=='string')return value;
- return value.trim().replace(/^(?:(?:第\s*)?\d+\s*[.．、)）]\s*)?(?:[【\[（(]\s*(?:拼音选择题?|填空选择题?|句子排序题?|翻译题?)\s*[】\]）)]\s*[:：]?\s*)+/u,'').trim();
+ return value.trim().replace(/^(?:(?:第\s*)?\d+\s*[.．、)）]\s*)?(?:[【\[（(]\s*(?:拼音选择题?|填空选择题?|选词填空|句子排序题?|翻译题?)\s*[】\]）)]\s*[:：]?\s*)+/u,'').trim();
 }
 export function cleanOption(value){
  return typeof value==='string'?value.normalize('NFC').trim().replace(/^(?:[（(【\[]?\s*[A-DＡ-Ｄ]\s*(?:[）)】\]]\s*[.．、:：]?|[.．、:：])\s*)+/u,'').trim():value;
@@ -62,6 +62,8 @@ export function validateQuestions(value,kind,count){
   if(!text(q?.text)||!text(q.answer)||!text(q.explanation))throw Error('题目或参考答案不完整。');
   const key=questionKey(q.text,kind);if(seen.has(key))throw Error('AI返回重复题目，请重新生成。');seen.add(key);
   const result={kind,text:q.text.trim(),answer:q.answer.trim(),explanation:q.explanation.trim()};
+  if(['ai','course-vocabulary','course-reference'].includes(q.source))result.source=q.source;
+  if(typeof q.targetId==='string'&&q.targetId.length<=100)result.targetId=q.targetId;
   if(['pinyin','choice'].includes(kind)){
    if(!Array.isArray(q.options)||![3,4].includes(q.options.length)||q.options.some(o=>!text(o,200))||new Set(q.options.map(o=>o.trim())).size!==q.options.length||!('ABCD'.slice(0,q.options.length)).includes(q.answer)||q.answer.length!==1)throw Error('选择题选项或答案无效。');
    result.options=q.options.map(o=>o.trim());

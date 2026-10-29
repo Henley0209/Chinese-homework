@@ -1,4 +1,5 @@
-import {initHomework} from './homework-generator.mjs?v=homework3';
+import {initChangeHistory} from './change-history.mjs?v=homework4';
+import {initHomework} from './homework-generator.mjs?v=homework4';
 import {isTeacherPassword} from './teacher-auth.mjs?v=visits15';
 import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=hsk4-40';
 import {validate} from './grading.mjs';
@@ -43,3 +44,5 @@ $('#discard-exercises').onclick=()=>{try{requireTeacher();if(!confirm('清除本
 
 
 initHomework({requireTeacher,getPassword:()=>teacherPassword});
+
+initChangeHistory({requireTeacher});

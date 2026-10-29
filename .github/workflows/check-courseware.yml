@@ -1,0 +1,24 @@
+name: Check beginner courseware
+on:
+  push:
+    paths:
+      - 'courseware/**'
+      - 'courseware-*.mjs'
+      - 'courseware.css'
+      - 'homework-docx.mjs'
+      - 'index.html'
+      - 'homepage-v4.html'
+      - 'tests/courseware.test.mjs'
+      - '.github/workflows/check-courseware.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  courseware:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/courseware.test.mjs tests/homework.test.mjs tests/roles-and-exercises.test.mjs tests/release-refresh.test.mjs

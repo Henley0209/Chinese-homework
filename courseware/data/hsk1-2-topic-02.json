@@ -1,0 +1,494 @@
+{
+  "id": "hsk1-2-topic-02",
+  "number": 2,
+  "bank": "hsk1-2",
+  "title": {
+    "pinyin": "Nǐ jiào shénme míngzi?",
+    "zh": "你叫什么名字？",
+    "vi": "Bạn tên là gì?"
+  },
+  "difficulty": "初级进阶：姓名与人物介绍",
+  "image": "courseware/assets/beginner-scenes.png",
+  "groups": [
+    {
+      "title": {
+        "pinyin": "Rènshi xīn tóngxué",
+        "zh": "认识新同学",
+        "vi": "Làm quen với bạn mới"
+      },
+      "scene": 1,
+      "hanziCount": 300,
+      "dialogue": [
+        {
+          "speaker": "A",
+          "pinyin": "Nǐhǎo! Lǎoshī shuō nǐ shì wǒmen bān de xīn tóngxué. Huānyíng nǐ lái a!",
+          "zh": "你好！老师说你是我们班的新同学。欢迎你来啊！",
+          "vi": "Chào bạn! Cô nói bạn là học sinh mới của lớp chúng mình. Chào mừng bạn đến nhé!"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Nǐhǎo! Shì de, wǒ jīntiān lái zhèlǐ xué zhōngwén.",
+          "zh": "你好！是的，我今天来这里学中文。",
+          "vi": "Chào bạn! Đúng rồi, hôm nay mình đến đây học tiếng Trung."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Hěn gāoxìng rènshi nǐ. Qǐngwèn, nǐ jiào shénme míngzi?",
+          "zh": "很高兴认识你。请问，你叫什么名字？",
+          "vi": "Rất vui được gặp bạn. Xin hỏi, bạn tên là gì?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ jiào Xiǎo Ān. Xiǎo shì dàxiǎo de xiǎo, ān shì píngān de ān.",
+          "zh": "我叫小安。小是大小的小，安是平安的安。",
+          "vi": "Mình tên là Tiểu An. “Tiểu” là nhỏ trong “to nhỏ”, “An” là an trong “bình an”."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Nǐ de míngzi hěn hǎo tīng. Nǐ xìng shénme ne?",
+          "zh": "你的名字很好听。你姓什么呢？",
+          "vi": "Tên của bạn nghe hay lắm. Bạn họ gì vậy?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ xìng ruǎn. Nǐ ne? Nǐ kéyǐ gàosu wǒ nǐ de míngzi ma?",
+          "zh": "我姓阮。你呢？你可以告诉我你的名字吗？",
+          "vi": "Mình họ Nguyễn. Còn bạn? Bạn có thể cho mình biết tên của bạn không?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Dāngrán kéyǐ. Wǒ xìng wáng, jiào Wáng Míng, dàjiā jiào wǒ Xiǎomíng.",
+          "zh": "当然可以。我姓王，叫王明，大家叫我小明。",
+          "vi": "Tất nhiên rồi. Mình họ Vương, tên Vương Minh, mọi người gọi mình là Tiểu Minh."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ kéyǐ jiào nǐ Xiǎomíng ma? Zhèyàng wǒ bǐjiào róngyì jìzhù.",
+          "zh": "我可以叫你小明吗？这样我比较容易记住。",
+          "vi": "Mình có thể gọi bạn là Tiểu Minh không? Như vậy mình dễ nhớ hơn."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Kéyǐ. Nǐ kàn, wǒ bǎ wǒ de míngzi xiě zài zhèlǐ.",
+          "zh": "可以。你看，我把我的名字写在这里。",
+          "vi": "Được chứ. Bạn xem, mình viết tên mình ở đây."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Zhège zì wǒ rènshi. Míng shì míngtiān de míng, duì ma?",
+          "zh": "这个字我认识。明是明天的明，对吗？",
+          "vi": "Mình biết chữ này. “Minh” là chữ trong từ “ngày mai”, đúng không?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Duì! Nǐ dú dé hěn hǎo. Nǐ de zhōngwén míngzi shì shuí qǐ de?",
+          "zh": "对！你读得很好。你的中文名字是谁起的？",
+          "vi": "Đúng rồi! Bạn đọc rất tốt. Ai đặt tên tiếng Trung cho bạn vậy?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Shì wǒ de lǎoshī qǐ de. Tā shuō zhège míngzi hěn hǎo jì.",
+          "zh": "是我的老师起的。她说这个名字很好记。",
+          "vi": "Cô giáo đặt cho mình. Cô nói tên này rất dễ nhớ."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Nà nǐ huì xiě zìjǐde zhōngwén míngzi ma?",
+          "zh": "那你会写自己的中文名字吗？",
+          "vi": "Vậy bạn có biết viết tên tiếng Trung của mình không?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ huì xiě yìdiǎn. Zhège ān zì, wǒ hái xiǎng duō liànxí.",
+          "zh": "我会写一点。这个安字，我还想多练习。",
+          "vi": "Mình biết viết một chút. Chữ “An” này mình vẫn muốn luyện thêm."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒmen yìqǐ xiě ba. Nǐ xiě hànzì, wǒ xiě pīnyīn.",
+          "zh": "我们一起写吧。你写汉字，我写拼音。",
+          "vi": "Chúng ta cùng viết nhé. Bạn viết chữ Hán, mình viết phiên âm."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hǎo a! Rúguǒ wǒ dú dé bú duì, qǐng nǐ gàosu wǒ.",
+          "zh": "好啊！如果我读得不对，请你告诉我。",
+          "vi": "Được chứ! Nếu mình đọc chưa đúng, bạn hãy nói cho mình biết nhé."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Méiyǒu wèntí. Wǒ yě xiǎng xuéxí nǐ de Yuènányǔ míngzi.",
+          "zh": "没有问题。我也想学习你的越南语名字。",
+          "vi": "Không vấn đề gì. Mình cũng muốn học tên tiếng Việt của bạn."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ shuō màn yìdiǎn, nǐ tīng yī tīng, zài gēn wǒ dú yībiàn.",
+          "zh": "我说慢一点，你听一听，再跟我读一遍。",
+          "vi": "Mình nói chậm một chút, bạn nghe rồi đọc theo mình một lần nhé."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Hǎo de, xièxie nǐ. Jīntiān rènshi le yí gè xīn péngyou.",
+          "zh": "好的，谢谢你。今天认识了一个新朋友。",
+          "vi": "Được, cảm ơn bạn. Hôm nay mình đã quen một người bạn mới."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ yě hěn gāoxìng. Yǐhòu wǒmen yìqǐ liànxí zhōngwén ba!",
+          "zh": "我也很高兴。以后我们一起练习中文吧！",
+          "vi": "Mình cũng rất vui. Sau này chúng ta cùng luyện tiếng Trung nhé!"
+        }
+      ],
+      "vocabulary": [
+        {
+          "pinyin": "Míngzi",
+          "zh": "名字",
+          "vi": "tên"
+        },
+        {
+          "pinyin": "Jiào",
+          "zh": "叫",
+          "vi": "tên là; gọi"
+        },
+        {
+          "pinyin": "Xìng",
+          "zh": "姓",
+          "vi": "họ; mang họ"
+        },
+        {
+          "pinyin": "Rènshi",
+          "zh": "认识",
+          "vi": "quen; biết"
+        },
+        {
+          "pinyin": "Gāoxìng",
+          "zh": "高兴",
+          "vi": "vui"
+        },
+        {
+          "pinyin": "Qǐngwèn",
+          "zh": "请问",
+          "vi": "xin hỏi"
+        },
+        {
+          "pinyin": "Pīnyīn",
+          "zh": "拼音",
+          "vi": "phiên âm"
+        },
+        {
+          "pinyin": "Hànzì",
+          "zh": "汉字",
+          "vi": "chữ Hán"
+        },
+        {
+          "pinyin": "Xiě",
+          "zh": "写",
+          "vi": "viết"
+        },
+        {
+          "pinyin": "Dú",
+          "zh": "读",
+          "vi": "đọc"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "pinyin": "Qǐngwèn, nǐ de ____ shì shénme?",
+          "zh": "请问，你的____是什么？",
+          "vi": "Xin hỏi, ____ của bạn là gì?",
+          "answer": {
+            "pinyin": "Míngzi",
+            "zh": "名字",
+            "vi": "tên"
+          }
+        },
+        {
+          "id": 2,
+          "pinyin": "Wǒ ____ wáng, jiào Wáng Míng.",
+          "zh": "我____王，叫王明。",
+          "vi": "Mình ____ Vương, tên là Vương Minh.",
+          "answer": {
+            "pinyin": "Xìng",
+            "zh": "姓",
+            "vi": "họ"
+          }
+        },
+        {
+          "id": 3,
+          "pinyin": "Hěn gāoxìng ____ nǐ!",
+          "zh": "很高兴____你！",
+          "vi": "Rất vui được ____ bạn!",
+          "answer": {
+            "pinyin": "Rènshi",
+            "zh": "认识",
+            "vi": "làm quen với"
+          }
+        },
+        {
+          "id": 4,
+          "pinyin": "Qǐng bǎ míngzi ____ zài zhèlǐ.",
+          "zh": "请把名字____在这里。",
+          "vi": "Hãy ____ tên vào đây.",
+          "answer": {
+            "pinyin": "Xiě",
+            "zh": "写",
+            "vi": "viết"
+          }
+        },
+        {
+          "id": 5,
+          "pinyin": "Nǐ kéyǐ zài ____ yībiàn ma?",
+          "zh": "你可以再____一遍吗？",
+          "vi": "Bạn có thể ____ lại một lần nữa không?",
+          "answer": {
+            "pinyin": "Dú",
+            "zh": "读",
+            "vi": "đọc"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "pinyin": "Gěi lǎoshī jièshào péngyou",
+        "zh": "给老师介绍朋友",
+        "vi": "Giới thiệu bạn với cô giáo"
+      },
+      "scene": 4,
+      "hanziCount": 300,
+      "dialogue": [
+        {
+          "speaker": "A",
+          "pinyin": "Lǎoshī, nín hǎo! Wǒ xiǎng gěi nín jièshào yí gè xīn péngyou.",
+          "zh": "老师，您好！我想给您介绍一个新朋友。",
+          "vi": "Em chào cô ạ! Em muốn giới thiệu với cô một người bạn mới."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Nǐhǎo, Xiǎo Ān! Nǐ de xīn péngyou zài nálǐ?",
+          "zh": "你好，小安！你的新朋友在哪里？",
+          "vi": "Chào An! Người bạn mới của em ở đâu?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Tā zài jiàoshì mén kǒu. Wǒ kéyǐ qǐng tā jìn lái ma?",
+          "zh": "他在教室门口。我可以请他进来吗？",
+          "vi": "Bạn ấy ở cửa lớp. Em có thể mời bạn ấy vào không ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Dāngrán kéyǐ. Qǐngjìn! Nǐhǎo, nǐ jiào shénme míngzi?",
+          "zh": "当然可以。请进！你好，你叫什么名字？",
+          "vi": "Tất nhiên rồi. Mời em vào! Chào em, em tên là gì?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Lǎoshī hǎo! Wǒ jiào Chén Wén. Chén shì wǒ de xìng, wén shì míngzi.",
+          "zh": "老师好！我叫陈文。陈是我的姓，文是名字。",
+          "vi": "Em chào cô! Em tên là Trần Văn. Trần là họ của em, Văn là tên ạ."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hěn gāoxìng rènshi nǐ. Nǐ kéyǐ bǎ míngzi xiě zài hēibǎn shàng ma?",
+          "zh": "很高兴认识你。你可以把名字写在黑板上吗？",
+          "vi": "Cô rất vui được gặp em. Em có thể viết tên lên bảng không?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Kéyǐ, lǎoshī. Wǒ xiě dé yóudiǎn màn.",
+          "zh": "可以，老师。我写得有点慢。",
+          "vi": "Dạ được ạ. Em viết hơi chậm."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Méi guān xì, màn man xiě. Qí tā tóngxué yě yìqǐ kàn yī kàn.",
+          "zh": "没关系，慢慢写。其他同学也一起看一看。",
+          "vi": "Không sao, em cứ viết từ từ. Các bạn khác cũng cùng xem nhé."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Lǎoshī, wǒ de míngzi xiě hǎo le. Zhèyàng xiě duì ma?",
+          "zh": "老师，我的名字写好了。这样写对吗？",
+          "vi": "Thưa cô, em viết tên xong rồi. Viết thế này có đúng không ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Duì, xiě dé hěn hǎo. Qǐng nǐ zài dú yībiàn zìjǐde míngzi.",
+          "zh": "对，写得很好。请你再读一遍自己的名字。",
+          "vi": "Đúng rồi, em viết tốt lắm. Hãy đọc lại tên của mình một lần nữa."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ jiào Chén Wén, hěn gāoxìng rènshi dàjiā.",
+          "zh": "我叫陈文，很高兴认识大家。",
+          "vi": "Mình tên là Trần Văn, rất vui được gặp các bạn."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Xiǎowén, huānyíng nǐ! Zhè shì nǐ de kèběn, qǐng zuò zài Xiǎo Ān pángbiān.",
+          "zh": "小文，欢迎你！这是你的课本，请坐在小安旁边。",
+          "vi": "Văn, chào mừng em! Đây là sách của em, mời em ngồi cạnh An."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Xièxie lǎoshī! Xiǎo Ān, xièxie nǐ dài wǒ lái rènshi lǎoshī.",
+          "zh": "谢谢老师！小安，谢谢你带我来认识老师。",
+          "vi": "Em cảm ơn cô! An ơi, cảm ơn bạn đã đưa mình đến gặp cô."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Búyòng xiè. Wǒmen shì péngyou, yě shì jīntiān de xīn tóngzhuō.",
+          "zh": "不用谢。我们是朋友，也是今天的新同桌。",
+          "vi": "Không có gì. Chúng ta là bạn và cũng là bạn cùng bàn mới hôm nay."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Lǎoshī, nín kéyǐ zài shuō yībiàn nín de míngzi ma?",
+          "zh": "老师，您可以再说一遍您的名字吗？",
+          "vi": "Thưa cô, cô có thể nói lại tên của cô một lần nữa không ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Kéyǐ. Wǒ xìng lǐ, nǐmen jiào wǒ Lǐ lǎoshī jiù kéyǐ le.",
+          "zh": "可以。我姓李，你们叫我李老师就可以了。",
+          "vi": "Được chứ. Cô họ Lý, các em cứ gọi cô là cô Lý là được."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Hǎo de, Lǐ lǎoshī. Wǒ yǐjīng jìzhù nín de míngzi le.",
+          "zh": "好的，李老师。我已经记住您的名字了。",
+          "vi": "Dạ, thưa cô Lý. Em đã nhớ tên cô rồi ạ."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hěn hǎo. Xiànzài qǐng dàjiā liǎng gè rén yī zǔ, hùxiāng jièshào míngzi.",
+          "zh": "很好。现在请大家两个人一组，互相介绍名字。",
+          "vi": "Tốt lắm. Bây giờ các em hãy làm việc theo cặp và giới thiệu tên cho nhau."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Xiǎo Ān, wǒmen xiān shuō míngzi, zài bǎ míngzi xiě xià lái, hǎo ma?",
+          "zh": "小安，我们先说名字，再把名字写下来，好吗？",
+          "vi": "An ơi, chúng ta nói tên trước rồi viết tên xuống nhé?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hǎo a! Wǒmen yìqǐ liànxí, ràng lǎoshī tīng yī tīng.",
+          "zh": "好啊！我们一起练习，让老师听一听。",
+          "vi": "Được chứ! Chúng ta cùng luyện để cô nghe nhé."
+        }
+      ],
+      "vocabulary": [
+        {
+          "pinyin": "Jièshào",
+          "zh": "介绍",
+          "vi": "giới thiệu"
+        },
+        {
+          "pinyin": "Xīn",
+          "zh": "新",
+          "vi": "mới"
+        },
+        {
+          "pinyin": "Hēibǎn",
+          "zh": "黑板",
+          "vi": "bảng đen"
+        },
+        {
+          "pinyin": "Kèběn",
+          "zh": "课本",
+          "vi": "sách giáo khoa"
+        },
+        {
+          "pinyin": "Pángbiān",
+          "zh": "旁边",
+          "vi": "bên cạnh"
+        },
+        {
+          "pinyin": "Tóngzhuō",
+          "zh": "同桌",
+          "vi": "bạn cùng bàn"
+        },
+        {
+          "pinyin": "Màn",
+          "zh": "慢",
+          "vi": "chậm"
+        },
+        {
+          "pinyin": "Jìzhù",
+          "zh": "记住",
+          "vi": "ghi nhớ"
+        },
+        {
+          "pinyin": "Huānyíng",
+          "zh": "欢迎",
+          "vi": "chào mừng"
+        },
+        {
+          "pinyin": "Liànxí",
+          "zh": "练习",
+          "vi": "luyện tập"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "pinyin": "Qǐng bǎ míngzi xiě zài ____ shàng.",
+          "zh": "请把名字写在____上。",
+          "vi": "Hãy viết tên lên ____.",
+          "answer": {
+            "pinyin": "Hēibǎn",
+            "zh": "黑板",
+            "vi": "bảng đen"
+          }
+        },
+        {
+          "id": 2,
+          "pinyin": "Qǐng zuò zài Xiǎo Ān ____.",
+          "zh": "请坐在小安____。",
+          "vi": "Mời bạn ngồi ____ An.",
+          "answer": {
+            "pinyin": "Pángbiān",
+            "zh": "旁边",
+            "vi": "bên cạnh"
+          }
+        },
+        {
+          "id": 3,
+          "pinyin": "Wǒmen zuò zài yìqǐ, shì xīn ____.",
+          "zh": "我们坐在一起，是新____。",
+          "vi": "Chúng ta ngồi cùng nhau, là ____ mới.",
+          "answer": {
+            "pinyin": "Tóngzhuō",
+            "zh": "同桌",
+            "vi": "bạn cùng bàn"
+          }
+        },
+        {
+          "id": 4,
+          "pinyin": "Wǒ xiǎng gěi nǐ ____ yí gè péngyou.",
+          "zh": "我想给你____一个朋友。",
+          "vi": "Mình muốn ____ với bạn một người bạn.",
+          "answer": {
+            "pinyin": "Jièshào",
+            "zh": "介绍",
+            "vi": "giới thiệu"
+          }
+        },
+        {
+          "id": 5,
+          "pinyin": "Wǒmen měitiān yìqǐ ____ zhōngwén.",
+          "zh": "我们每天一起____中文。",
+          "vi": "Mỗi ngày chúng ta cùng ____ tiếng Trung.",
+          "answer": {
+            "pinyin": "Liànxí",
+            "zh": "练习",
+            "vi": "luyện tập"
+          }
+        }
+      ]
+    }
+  ]
+}

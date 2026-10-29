@@ -7,7 +7,7 @@ export function zipFiles(files){
  const chunks=[],central=[];let offset=0,centralSize=0;
  const header=(length,values)=>{const b=new Uint8Array(length),v=new DataView(b.buffer);for(const [at,size,value]of values)size===2?v.setUint16(at,value,true):v.setUint32(at,value,true);return b;};
  for(const [path,text]of Object.entries(files)){
-  const name=encoder.encode(path),data=encoder.encode(text),crc=crc32(data);
+  const name=encoder.encode(path),data=text instanceof Uint8Array?text:encoder.encode(text),crc=crc32(data);
   const local=header(30,[[0,4,0x04034b50],[4,2,20],[6,2,0x800],[14,4,crc],[18,4,data.length],[22,4,data.length],[26,2,name.length]]);
   chunks.push(local,name,data);
   central.push(header(46,[[0,4,0x02014b50],[4,2,20],[6,2,20],[8,2,0x800],[16,4,crc],[20,4,data.length],[24,4,data.length],[28,2,name.length],[42,4,offset]]),name);

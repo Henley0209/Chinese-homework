@@ -1,5 +1,6 @@
-import {initChangeHistory} from './change-history.mjs?v=homework4';
-import {initHomework} from './homework-generator.mjs?v=homework4';
+import {initCourseware} from './courseware-designer.mjs?v=courseware1';
+import {initChangeHistory} from './change-history.mjs?v=courseware1';
+import {initHomework} from './homework-generator.mjs?v=courseware1';
 import {isTeacherPassword} from './teacher-auth.mjs?v=visits15';
 import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=hsk4-40';
 import {validate} from './grading.mjs';
@@ -44,6 +45,7 @@ $('#export-exercises').onclick=()=>{try{requireTeacher();const data=catalog();co
 $('#discard-exercises').onclick=()=>{try{requireTeacher();if(!confirm('清除本机未发布草稿，恢复网站已发布的题目？'))return;discardDrafts();message('已清除本机草稿，网站已发布的题库不受影响。');}catch(e){message(e.message);}};
 
 
+initCourseware({requireTeacher});
 initHomework({requireTeacher,getPassword:()=>teacherPassword});
 
 initChangeHistory({requireTeacher});

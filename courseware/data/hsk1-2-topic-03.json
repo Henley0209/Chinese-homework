@@ -1,0 +1,494 @@
+{
+  "id": "hsk1-2-topic-03",
+  "number": 3,
+  "bank": "hsk1-2",
+  "title": {
+    "pinyin": "Wǒ shì Yuènán rén",
+    "zh": "我是越南人",
+    "vi": "Tôi là người Việt Nam"
+  },
+  "difficulty": "初级应用：国籍、语言与家人",
+  "image": "courseware/assets/beginner-scenes.png",
+  "groups": [
+    {
+      "title": {
+        "pinyin": "Wǒmen lái zì nálǐ",
+        "zh": "我们来自哪里",
+        "vi": "Chúng ta đến từ đâu"
+      },
+      "scene": 2,
+      "hanziCount": 300,
+      "dialogue": [
+        {
+          "speaker": "A",
+          "pinyin": "Nǐhǎo, Xiǎomíng! Wǒmen yìqǐ kàn zhè zhāng dìtú ba.",
+          "zh": "你好，小明！我们一起看这张地图吧。",
+          "vi": "Chào Minh! Chúng ta cùng xem tấm bản đồ này nhé."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hǎo a! Wǒ hěn xǐ huan kàn dìtú. Nǐ shì nǎ guó rén?",
+          "zh": "好啊！我很喜欢看地图。你是哪国人？",
+          "vi": "Được chứ! Mình rất thích xem bản đồ. Bạn là người nước nào?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ shì Yuènán rén. Wǒ jiā zài Hénèi, nǐ ne?",
+          "zh": "我是越南人。我家在河内，你呢？",
+          "vi": "Mình là người Việt Nam. Nhà mình ở Hà Nội, còn bạn?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ shì Zhōngguó rén. Wǒ jiā zài Běijīng, xiànzài zài zhèlǐ xuéxí.",
+          "zh": "我是中国人。我家在北京，现在在这里学习。",
+          "vi": "Mình là người Trung Quốc. Nhà mình ở Bắc Kinh, hiện mình đang học ở đây."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Běijīng zài Zhōngguó de běi biān ma? Wǒ hái méiyǒu qù guò Běijīng.",
+          "zh": "北京在中国的北边吗？我还没有去过北京。",
+          "vi": "Bắc Kinh ở phía bắc Trung Quốc phải không? Mình chưa từng đến Bắc Kinh."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Shì de. Běijīng hěn dà, yǒu hěn duō xuéxiào hé hǎo chī de dōng xi.",
+          "zh": "是的。北京很大，有很多学校和好吃的东西。",
+          "vi": "Đúng rồi. Bắc Kinh rất lớn, có nhiều trường học và đồ ăn ngon."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ xiǎng yǐhòu qù Zhōngguó, hé Zhōngguó péngyou shuō zhōngwén.",
+          "zh": "我想以后去中国，和中国朋友说中文。",
+          "vi": "Sau này mình muốn đến Trung Quốc và nói tiếng Trung với bạn bè Trung Quốc."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Huānyíng nǐ lái! Nǐ xiànzài huì shuō nǎ xiē yǔyán?",
+          "zh": "欢迎你来！你现在会说哪些语言？",
+          "vi": "Chào mừng bạn đến! Bây giờ bạn nói được những ngôn ngữ nào?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ huì shuō Yuènányǔ, yě huì shuō yìdiǎn zhōngwén hé yīngyǔ.",
+          "zh": "我会说越南语，也会说一点中文和英语。",
+          "vi": "Mình nói được tiếng Việt và một chút tiếng Trung, tiếng Anh."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Zhēn hǎo! Wǒ huì shuō zhōngwén, kě shì Yuènányǔ shuō dé bù tài hǎo.",
+          "zh": "真好！我会说中文，可是越南语说得不太好。",
+          "vi": "Hay quá! Mình nói được tiếng Trung, nhưng tiếng Việt chưa tốt lắm."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Méi guān xì. Nǐ jiào wǒ zhōngwén, wǒ jiào nǐ Yuènányǔ.",
+          "zh": "没关系。你教我中文，我教你越南语。",
+          "vi": "Không sao. Bạn dạy mình tiếng Trung, mình dạy bạn tiếng Việt."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hǎo a! Wǒmen kéyǐ yìqǐ liànxí shífēnzhōng.",
+          "zh": "好啊！我们可以一起练习十分钟。",
+          "vi": "Được chứ! Chúng ta có thể cùng luyện mười phút."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ māma yě shì Yuènán rén, tā hěn xiǎng xuéxí zhōngwén.",
+          "zh": "我妈妈也是越南人，她很想学习中文。",
+          "vi": "Mẹ mình cũng là người Việt Nam, mẹ rất muốn học tiếng Trung."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Nǐ kéyǐ bǎ jīntiān xué de jù zi shuō gěi tā tīng.",
+          "zh": "你可以把今天学的句子说给她听。",
+          "vi": "Bạn có thể nói cho mẹ nghe những câu đã học hôm nay."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Hǎo de. Nǐ bàba māma xiànzài yě zhù zài zhèlǐ ma?",
+          "zh": "好的。你爸爸妈妈现在也住在这里吗？",
+          "vi": "Được rồi. Bố mẹ bạn hiện cũng sống ở đây phải không?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Bù, tāmen zhù zài Zhōngguó. Wǒ měitiān gěi tāmen dǎ diàn huà.",
+          "zh": "不，他们住在中国。我每天给他们打电话。",
+          "vi": "Không, bố mẹ mình sống ở Trung Quốc. Ngày nào mình cũng gọi điện cho bố mẹ."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Tāmen zhīdào nǐ yǒu yí gè Yuènán péngyou ma?",
+          "zh": "他们知道你有一个越南朋友吗？",
+          "vi": "Bố mẹ bạn có biết bạn có một người bạn Việt Nam không?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Zhīdào. Wǒ gàosu tāmen, wǒ de xīn péngyou hěn yóu hǎo.",
+          "zh": "知道。我告诉他们，我的新朋友很友好。",
+          "vi": "Biết chứ. Mình nói với bố mẹ rằng người bạn mới của mình rất thân thiện."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Xièxie nǐ! Míngtiān wǒ dài yī zhāng wǒ jiā de zhàopiān gěi nǐ kàn.",
+          "zh": "谢谢你！明天我带一张我家的照片给你看。",
+          "vi": "Cảm ơn bạn! Ngày mai mình mang một tấm ảnh gia đình cho bạn xem."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Tài hǎo le! Wǒmen kéyǐ yī biān kàn zhàopiān, yī biān liáo tiān.",
+          "zh": "太好了！我们可以一边看照片，一边聊天。",
+          "vi": "Tốt quá! Chúng ta có thể vừa xem ảnh vừa trò chuyện."
+        }
+      ],
+      "vocabulary": [
+        {
+          "pinyin": "Yuènán",
+          "zh": "越南",
+          "vi": "Việt Nam"
+        },
+        {
+          "pinyin": "Zhōngguó",
+          "zh": "中国",
+          "vi": "Trung Quốc"
+        },
+        {
+          "pinyin": "Hénèi",
+          "zh": "河内",
+          "vi": "Hà Nội"
+        },
+        {
+          "pinyin": "Běijīng",
+          "zh": "北京",
+          "vi": "Bắc Kinh"
+        },
+        {
+          "pinyin": "Dìtú",
+          "zh": "地图",
+          "vi": "bản đồ"
+        },
+        {
+          "pinyin": "Yǔyán",
+          "zh": "语言",
+          "vi": "ngôn ngữ"
+        },
+        {
+          "pinyin": "Yuènányǔ",
+          "zh": "越南语",
+          "vi": "tiếng Việt"
+        },
+        {
+          "pinyin": "Yīngyǔ",
+          "zh": "英语",
+          "vi": "tiếng Anh"
+        },
+        {
+          "pinyin": "Jiào",
+          "zh": "教",
+          "vi": "dạy"
+        },
+        {
+          "pinyin": "Zhàopiān",
+          "zh": "照片",
+          "vi": "ảnh"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "pinyin": "Xiǎo Ān shuō: “wǒ shì ____ rén. ”",
+          "zh": "小安说：“我是____人。”",
+          "vi": "An nói: “Mình là người ____.”",
+          "answer": {
+            "pinyin": "Yuènán",
+            "zh": "越南",
+            "vi": "Việt Nam"
+          }
+        },
+        {
+          "id": 2,
+          "pinyin": "Xiǎomíng shuō: “wǒ shì ____ rén. ”",
+          "zh": "小明说：“我是____人。”",
+          "vi": "Minh nói: “Mình là người ____.”",
+          "answer": {
+            "pinyin": "Zhōngguó",
+            "zh": "中国",
+            "vi": "Trung Quốc"
+          }
+        },
+        {
+          "id": 3,
+          "pinyin": "Xiǎo Ān jiā zài ____.",
+          "zh": "小安家在____。",
+          "vi": "Nhà của An ở ____.",
+          "answer": {
+            "pinyin": "Hénèi",
+            "zh": "河内",
+            "vi": "Hà Nội"
+          }
+        },
+        {
+          "id": 4,
+          "pinyin": "Wǒmen yìqǐ kàn zhè zhāng ____.",
+          "zh": "我们一起看这张____。",
+          "vi": "Chúng ta cùng xem tấm ____ này.",
+          "answer": {
+            "pinyin": "Dìtú",
+            "zh": "地图",
+            "vi": "bản đồ"
+          }
+        },
+        {
+          "id": 5,
+          "pinyin": "Nǐ ____ wǒ zhōngwén, wǒ jiào nǐ Yuènányǔ.",
+          "zh": "你____我中文，我教你越南语。",
+          "vi": "Bạn ____ mình tiếng Trung, mình dạy bạn tiếng Việt.",
+          "answer": {
+            "pinyin": "Jiào",
+            "zh": "教",
+            "vi": "dạy"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "pinyin": "Jièshào jiārén hé shēnghuó",
+        "zh": "介绍家人和生活",
+        "vi": "Giới thiệu gia đình và cuộc sống"
+      },
+      "scene": 5,
+      "hanziCount": 300,
+      "dialogue": [
+        {
+          "speaker": "A",
+          "pinyin": "Zhè zhāng zhàopiān shì wǒ de jiārén, nín xiǎng kàn kàn ma?",
+          "zh": "这张照片是我的家人，您想看看吗？",
+          "vi": "Đây là ảnh gia đình em. Cô có muốn xem không ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Dāngrán xiǎng kàn. Zhè liǎng wèi shì nǐ de bàba māma ma?",
+          "zh": "当然想看。这两位是你的爸爸妈妈吗？",
+          "vi": "Tất nhiên cô muốn xem. Hai người này là bố mẹ của em phải không?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Shì de, tāmen dōu shì Yuènán rén, zhù zài Hénèi.",
+          "zh": "是的，他们都是越南人，住在河内。",
+          "vi": "Dạ, bố mẹ em đều là người Việt Nam, sống ở Hà Nội."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Nǐ de bàba māma zuò shénme gōngzuò?",
+          "zh": "你的爸爸妈妈做什么工作？",
+          "vi": "Bố mẹ em làm công việc gì?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ bàba shì yīshēng, māma shì lǎoshī.",
+          "zh": "我爸爸是医生，妈妈是老师。",
+          "vi": "Bố em là bác sĩ, mẹ em là giáo viên."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Zhè wèi nǚ hái zi shì shuí? Tā hé nǐ hěn xiàng.",
+          "zh": "这位女孩子是谁？她和你很像。",
+          "vi": "Cô gái này là ai? Bạn ấy rất giống em."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Tā shì wǒ jiějie, zài xuéxiào xuéxí yīngyǔ hé zhōngwén.",
+          "zh": "她是我姐姐，在学校学习英语和中文。",
+          "vi": "Đó là chị gái em, chị học tiếng Anh và tiếng Trung ở trường."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Tā wèishénme xiǎng xuéxí zhōngwén ne?",
+          "zh": "她为什么想学习中文呢？",
+          "vi": "Vì sao chị của em muốn học tiếng Trung?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Tā yǒu yì xiē Zhōngguó péngyou, xiǎng tīng dǒng tāmen shuō de huà.",
+          "zh": "她有一些中国朋友，想听懂他们说的话。",
+          "vi": "Chị có một vài người bạn Trung Quốc và muốn hiểu lời họ nói."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hěn hǎo. Xuéxí yǔyán kéyǐ bāngzhù wǒmen rènshi gèng duō péngyou.",
+          "zh": "很好。学习语言可以帮助我们认识更多朋友。",
+          "vi": "Rất tốt. Học ngôn ngữ có thể giúp chúng ta quen thêm nhiều bạn."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Lǎoshī, nín shì Zhōngguó rén ma? Nín de jiā zài nálǐ?",
+          "zh": "老师，您是中国人吗？您的家在哪里？",
+          "vi": "Thưa cô, cô là người Trung Quốc phải không? Nhà cô ở đâu ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ shì Zhōngguó rén, jiā zài Shànghǎi. Xiànzài wǒ zhù zài Yuènán.",
+          "zh": "我是中国人，家在上海。现在我住在越南。",
+          "vi": "Cô là người Trung Quốc, nhà ở Thượng Hải. Bây giờ cô sống ở Việt Nam."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Nín huì shuō Yuènányǔ ma? Nín xǐ huan zhèlǐ de shēnghuó ma?",
+          "zh": "您会说越南语吗？您喜欢这里的生活吗？",
+          "vi": "Cô có nói được tiếng Việt không? Cô có thích cuộc sống ở đây không ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ huì shuō yìdiǎn Yuènányǔ. Wǒ xǐ huan zhèlǐ de rén hé shíwù.",
+          "zh": "我会说一点越南语。我喜欢这里的人和食物。",
+          "vi": "Cô nói được một chút tiếng Việt. Cô thích con người và món ăn ở đây."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ yě xǐ huan Zhōngguó cài. Wǒ xiǎng xué huì yòng zhōngwén diǎn cài.",
+          "zh": "我也喜欢中国菜。我想学会用中文点菜。",
+          "vi": "Em cũng thích món ăn Trung Quốc. Em muốn biết gọi món bằng tiếng Trung."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒmen xià cì yìqǐ liànxí. Nǐ zuì xǐ huan chī shénme?",
+          "zh": "我们下次一起练习。你最喜欢吃什么？",
+          "vi": "Lần sau chúng ta cùng luyện nhé. Em thích ăn món gì nhất?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ xǐ huan chī mǐfàn, jī ròu hé shuǐguǒ, yě xǐ huan hēchá.",
+          "zh": "我喜欢吃米饭、鸡肉和水果，也喜欢喝茶。",
+          "vi": "Em thích ăn cơm, thịt gà, trái cây và cũng thích uống trà."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hěn hǎo. Jīntiān xiān jièshào jiārén, xià cì zài jièshào xǐ huan de shíwù.",
+          "zh": "很好。今天先介绍家人，下次再介绍喜欢的食物。",
+          "vi": "Tốt lắm. Hôm nay giới thiệu gia đình trước, lần sau giới thiệu món ăn yêu thích."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Xièxie lǎoshī! Wǒ huì huíjiā duō liànxí, yě jiào māma shuō zhōngwén.",
+          "zh": "谢谢老师！我会回家多练习，也教妈妈说中文。",
+          "vi": "Em cảm ơn cô! Em sẽ về nhà luyện thêm và dạy mẹ nói tiếng Trung nữa."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Bú kè qì! Měitiān shuō yìdiǎn, nǐ de zhōngwén huì yuè lái yuè hǎo.",
+          "zh": "不客气！每天说一点，你的中文会越来越好。",
+          "vi": "Không có gì! Mỗi ngày nói một chút, tiếng Trung của em sẽ ngày càng tốt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "pinyin": "Jiārén",
+          "zh": "家人",
+          "vi": "người nhà; gia đình"
+        },
+        {
+          "pinyin": "Yīshēng",
+          "zh": "医生",
+          "vi": "bác sĩ"
+        },
+        {
+          "pinyin": "Gōngzuò",
+          "zh": "工作",
+          "vi": "công việc; làm việc"
+        },
+        {
+          "pinyin": "Jiějie",
+          "zh": "姐姐",
+          "vi": "chị gái"
+        },
+        {
+          "pinyin": "Shànghǎi",
+          "zh": "上海",
+          "vi": "Thượng Hải"
+        },
+        {
+          "pinyin": "Shēnghuó",
+          "zh": "生活",
+          "vi": "cuộc sống"
+        },
+        {
+          "pinyin": "Shíwù",
+          "zh": "食物",
+          "vi": "thức ăn"
+        },
+        {
+          "pinyin": "Mǐfàn",
+          "zh": "米饭",
+          "vi": "cơm"
+        },
+        {
+          "pinyin": "Shuǐguǒ",
+          "zh": "水果",
+          "vi": "trái cây"
+        },
+        {
+          "pinyin": "Chá",
+          "zh": "茶",
+          "vi": "trà"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "pinyin": "Wǒ bàba zài yī yuàn gōngzuò, shì ____.",
+          "zh": "我爸爸在医院工作，是____。",
+          "vi": "Bố mình làm việc ở bệnh viện, là ____.",
+          "answer": {
+            "pinyin": "Yīshēng",
+            "zh": "医生",
+            "vi": "bác sĩ"
+          }
+        },
+        {
+          "id": 2,
+          "pinyin": "Zhè shì wǒ ____, tā bǐ wǒ dà.",
+          "zh": "这是我____，她比我大。",
+          "vi": "Đây là ____ của mình, chị ấy lớn tuổi hơn mình.",
+          "answer": {
+            "pinyin": "Jiějie",
+            "zh": "姐姐",
+            "vi": "chị gái"
+          }
+        },
+        {
+          "id": 3,
+          "pinyin": "Lǐ lǎoshī jiā zài ____.",
+          "zh": "李老师家在____。",
+          "vi": "Nhà của cô Lý ở ____.",
+          "answer": {
+            "pinyin": "Shànghǎi",
+            "zh": "上海",
+            "vi": "Thượng Hải"
+          }
+        },
+        {
+          "id": 4,
+          "pinyin": "Wǒ xǐ huan chī píng guǒ hé qí tā ____.",
+          "zh": "我喜欢吃苹果和其他____。",
+          "vi": "Mình thích ăn táo và các loại ____ khác.",
+          "answer": {
+            "pinyin": "Shuǐguǒ",
+            "zh": "水果",
+            "vi": "trái cây"
+          }
+        },
+        {
+          "id": 5,
+          "pinyin": "Chī fàn yǐhòu, wǒ xǐ huan hē ____.",
+          "zh": "吃饭以后，我喜欢喝____。",
+          "vi": "Sau khi ăn cơm, mình thích uống ____.",
+          "answer": {
+            "pinyin": "Chá",
+            "zh": "茶",
+            "vi": "trà"
+          }
+        }
+      ]
+    }
+  ]
+}

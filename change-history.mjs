@@ -9,12 +9,12 @@ export function validateHistory(data){
 }
 export function initChangeHistory({requireTeacher}){
  const tools=document.querySelector('#tools');if(!tools)return;
- const button=document.createElement('button');button.type='button';button.className='quiet';button.textContent='变更记录';button.setAttribute('aria-expanded','false');button.setAttribute('aria-controls','teacher-change-history');
+ const button=document.querySelector('#change-history-toggle');
  const panel=document.createElement('section');panel.id='teacher-change-history';panel.className='teacher-change-history';panel.hidden=true;panel.setAttribute('aria-label','网站变更记录');
  const heading=document.createElement('h3');heading.textContent='变更记录';const status=document.createElement('p');status.setAttribute('role','status');
  const label=document.createElement('label');label.textContent='查找版本或更新内容';const search=document.createElement('input');search.type='search';search.placeholder='例如 V0001、作业、拼音';label.append(search);
  const list=document.createElement('div');list.className='change-history-list';panel.append(heading,status,label,list);
- tools.querySelector('.section-top').after(button,panel);let entries=null,loading=false;
+ tools.querySelector('#teacher-tool-actions').after(panel);let entries=null,loading=false;
  const date=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});
  function render(){
   const query=search.value.trim().toLowerCase();const filtered=entries.filter(e=>/^v\d{4,}$/i.test(query)?e.version.toLowerCase()===query:(e.version+' '+e.changes.join(' ')).toLowerCase().includes(query));list.replaceChildren();

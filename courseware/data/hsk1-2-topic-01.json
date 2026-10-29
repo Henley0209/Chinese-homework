@@ -1,0 +1,494 @@
+{
+  "id": "hsk1-2-topic-01",
+  "number": 1,
+  "bank": "hsk1-2",
+  "title": {
+    "pinyin": "Nǐhǎo!",
+    "zh": "你好！",
+    "vi": "Xin chào!"
+  },
+  "difficulty": "初级起步：问候与课堂用语",
+  "image": "courseware/assets/beginner-scenes.png",
+  "groups": [
+    {
+      "title": {
+        "pinyin": "Xiào yuán lǐ de dì yīshēng wèn hòu",
+        "zh": "校园里的第一声问候",
+        "vi": "Lời chào đầu tiên ở trường"
+      },
+      "scene": 0,
+      "hanziCount": 300,
+      "dialogue": [
+        {
+          "speaker": "A",
+          "pinyin": "Zǎoshàng hǎo, lǎoshī! Wǒ jīntiān dì yī tiān lái xuéxiào. Zhèlǐ kànqǐlái hěn piàoliàng.",
+          "zh": "早上好，老师！我今天第一天来学校。这里看起来很漂亮。",
+          "vi": "Em chào cô buổi sáng! Hôm nay là ngày đầu tiên em đến trường. Nơi này trông đẹp quá."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Zǎoshàng hǎo! Huānyíng nǐ. Nǐ shì wǒmen bān de xīn xuésheng ma?",
+          "zh": "早上好！欢迎你。你是我们班的新学生吗？",
+          "vi": "Chào em buổi sáng! Chào mừng em. Em là học sinh mới của lớp cô phải không?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Shì de, wǒ shì xīn xuésheng. Qǐngwèn, nín shì Lǐ lǎoshī ma?",
+          "zh": "是的，我是新学生。请问，您是李老师吗？",
+          "vi": "Dạ, em là học sinh mới. Xin hỏi, cô là cô Lý phải không ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Shì de, wǒ shì Lǐ lǎoshī. Nǐ jiào shénme míngzi? Jīntiān wǒ huì dài nǐ lái rènshi dàjiā.",
+          "zh": "是的，我是李老师。你叫什么名字？今天我会带你来认识大家。",
+          "vi": "Đúng rồi, cô là cô Lý. Em tên là gì? Hôm nay cô sẽ dẫn em làm quen với mọi người."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Lǎoshī hǎo! Wǒ jiào Xiǎo Ān. Hěn gāoxìng rènshi nín.",
+          "zh": "老师好！我叫小安。很高兴认识您。",
+          "vi": "Em chào cô! Em tên là An. Em rất vui được gặp cô."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Nǐhǎo, Xiǎo Ān! Wǒ yě hěn gāoxìng rènshi nǐ.",
+          "zh": "你好，小安！我也很高兴认识你。",
+          "vi": "Chào An! Cô cũng rất vui được gặp em."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Lǎoshī, wǒ de zhōngwén bù tài hǎo, kě yǐ shuō màn yìdiǎn ma?",
+          "zh": "老师，我的中文不太好，可以说慢一点吗？",
+          "vi": "Thưa cô, tiếng Trung của em chưa tốt lắm. Cô có thể nói chậm một chút không ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Dāngrán kéyǐ. Wǒmen měitiān yìqǐ xué yìdiǎn zhōngwén.",
+          "zh": "当然可以。我们每天一起学一点中文。",
+          "vi": "Được chứ. Mỗi ngày chúng ta cùng học một chút tiếng Trung."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Xièxie lǎoshī! Qǐngwèn, wǒmen jīntiān zài nǎ ér shàngkè?",
+          "zh": "谢谢老师！请问，我们今天在哪儿上课？",
+          "vi": "Em cảm ơn cô! Xin hỏi, hôm nay chúng ta học ở đâu ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒmen zài zhège jiàoshì shàngkè. Qǐngjìn, zuò zhè ér ba.",
+          "zh": "我们在这个教室上课。请进，坐这儿吧。",
+          "vi": "Chúng ta học trong phòng này. Mời em vào, ngồi ở đây nhé."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Hǎo de, xièxie nín. Wǒ de shū kéyǐ fàng zài zhuō zi shàng ma?",
+          "zh": "好的，谢谢您。我的书可以放在桌子上吗？",
+          "vi": "Dạ, em cảm ơn cô. Em có thể đặt sách lên bàn không ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Kéyǐ. Nǐ de shū hé bǐ dōu zài shūbāo lǐ ma?",
+          "zh": "可以。你的书和笔都在书包里吗？",
+          "vi": "Được. Sách và bút của em đều ở trong cặp phải không?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Shì de, dōu zài zhèlǐ. Wǒ hái yǒu yí gè xiǎo běn zi.",
+          "zh": "是的，都在这里。我还有一个小本子。",
+          "vi": "Dạ, đều ở đây ạ. Em còn có một quyển vở nhỏ."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hěn hǎo. Shàngkè shí, nǐ kéyǐ zài běn zi shàng xiě hànzì.",
+          "zh": "很好。上课时，你可以在本子上写汉字。",
+          "vi": "Tốt lắm. Khi học, em có thể viết chữ Hán vào vở."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Lǎoshī, jīntiān bān lǐ yǒu jǐ gè xīn xuésheng?",
+          "zh": "老师，今天班里有几个新学生？",
+          "vi": "Thưa cô, hôm nay trong lớp có mấy học sinh mới ạ?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Yǒu sān gè. Dàjiā dōu hěn yóu hǎo, nǐ búyòng pà.",
+          "zh": "有三个。大家都很友好，你不用怕。",
+          "vi": "Có ba em. Mọi người đều thân thiện, em không cần sợ."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Tài hǎo le! Wǒ xiǎng hé dàjiā yìqǐ xuéxí zhōngwén.",
+          "zh": "太好了！我想和大家一起学习中文。",
+          "vi": "Tốt quá! Em muốn cùng mọi người học tiếng Trung."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hǎo de. Xiànzài gēn wǒ shuō yībiàn, lǎoshī hǎo!",
+          "zh": "好的。现在跟我说一遍，老师好！",
+          "vi": "Được. Bây giờ nói theo cô một lần: Em chào cô!"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Lǎoshī hǎo! Tóngxué men hǎo! Qǐng dàjiā duō bāngzhù wǒ.",
+          "zh": "老师好！同学们好！请大家多帮助我。",
+          "vi": "Em chào cô! Chào các bạn! Mong mọi người giúp đỡ mình."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Dàjiā huānyíng nǐ! Wǒmen xiànzài kāishǐ shàngkè ba.",
+          "zh": "大家欢迎你！我们现在开始上课吧。",
+          "vi": "Mọi người chào mừng em! Bây giờ chúng ta bắt đầu học nhé."
+        }
+      ],
+      "vocabulary": [
+        {
+          "pinyin": "Nǐhǎo",
+          "zh": "你好",
+          "vi": "xin chào"
+        },
+        {
+          "pinyin": "Lǎoshī",
+          "zh": "老师",
+          "vi": "giáo viên"
+        },
+        {
+          "pinyin": "Xuésheng",
+          "zh": "学生",
+          "vi": "học sinh"
+        },
+        {
+          "pinyin": "Xuéxiào",
+          "zh": "学校",
+          "vi": "trường học"
+        },
+        {
+          "pinyin": "Jīntiān",
+          "zh": "今天",
+          "vi": "hôm nay"
+        },
+        {
+          "pinyin": "Zǎoshàng",
+          "zh": "早上",
+          "vi": "buổi sáng"
+        },
+        {
+          "pinyin": "Xièxie",
+          "zh": "谢谢",
+          "vi": "cảm ơn"
+        },
+        {
+          "pinyin": "Qǐngjìn",
+          "zh": "请进",
+          "vi": "mời vào"
+        },
+        {
+          "pinyin": "Zuò",
+          "zh": "坐",
+          "vi": "ngồi"
+        },
+        {
+          "pinyin": "Shūbāo",
+          "zh": "书包",
+          "vi": "cặp sách"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "pinyin": "____, lǎoshī!",
+          "zh": "____，老师！",
+          "vi": "____, cô giáo!",
+          "answer": {
+            "pinyin": "Nǐhǎo",
+            "zh": "你好",
+            "vi": "xin chào"
+          }
+        },
+        {
+          "id": 2,
+          "pinyin": "Wǒ shì zhèlǐ de xīn ____.",
+          "zh": "我是这里的新____。",
+          "vi": "Em là ____ mới ở đây.",
+          "answer": {
+            "pinyin": "Xuésheng",
+            "zh": "学生",
+            "vi": "học sinh"
+          }
+        },
+        {
+          "id": 3,
+          "pinyin": "Wǒ měitiān qù ____ xué zhōngwén.",
+          "zh": "我每天去____学中文。",
+          "vi": "Mỗi ngày em đến ____ học tiếng Trung.",
+          "answer": {
+            "pinyin": "Xuéxiào",
+            "zh": "学校",
+            "vi": "trường học"
+          }
+        },
+        {
+          "id": 4,
+          "pinyin": "____ nǐ bāngzhù wǒ.",
+          "zh": "____你帮助我。",
+          "vi": "____ bạn đã giúp mình.",
+          "answer": {
+            "pinyin": "Xièxie",
+            "zh": "谢谢",
+            "vi": "cảm ơn"
+          }
+        },
+        {
+          "id": 5,
+          "pinyin": "Lǎoshī shuō: “____, zuò zhèlǐ. ”",
+          "zh": "老师说：“____，坐这里。”",
+          "vi": "Cô nói: “____, ngồi ở đây.”",
+          "answer": {
+            "pinyin": "Qǐngjìn",
+            "zh": "请进",
+            "vi": "mời vào"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "pinyin": "Xiàkè le, míngtiān jiàn",
+        "zh": "下课了，明天见",
+        "vi": "Tan học rồi, hẹn ngày mai"
+      },
+      "scene": 3,
+      "hanziCount": 300,
+      "dialogue": [
+        {
+          "speaker": "A",
+          "pinyin": "Xiàwǔ hǎo! Nǐ shì jīntiān lái de xīn tóngxué ma?",
+          "zh": "下午好！你是今天来的新同学吗？",
+          "vi": "Chào buổi chiều! Bạn là học sinh mới đến hôm nay phải không?"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Xiàwǔ hǎo! Shì de, wǒ jiào Xiǎo Ān. Nǐ jiào shénme míngzi?",
+          "zh": "下午好！是的，我叫小安。你叫什么名字？",
+          "vi": "Chào buổi chiều! Đúng rồi, mình tên là An. Bạn tên là gì?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ jiào Xiǎomíng. Wǒmen shì tóngxué, yě kéyǐ zuò péngyou.",
+          "zh": "我叫小明。我们是同学，也可以做朋友。",
+          "vi": "Mình tên là Minh. Chúng ta là bạn cùng lớp và cũng có thể làm bạn."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hěn gāoxìng rènshi nǐ! Nǐ měitiān dōu lái zhèlǐ shàngkè ma? Nǐ yì bān jǐ diǎn lái shàngkè?",
+          "zh": "很高兴认识你！你每天都来这里上课吗？你一般几点来上课？",
+          "vi": "Rất vui được gặp bạn! Ngày nào bạn cũng đến đây học sao? Bạn thường đến học lúc mấy giờ?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Shì de, wǒ zǎoshàng bā diǎn lái, xiàwǔ huíjiā.",
+          "zh": "是的，我早上八点来，下午回家。",
+          "vi": "Đúng vậy, tám giờ sáng mình đến đây và chiều thì về nhà."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ yě shì. Wǒmen de jiàoshì hěn dà, yě hěn míng liàng. Zài zhèlǐ xuéxí hěn kāi xīn.",
+          "zh": "我也是。我们的教室很大，也很明亮。在这里学习很开心。",
+          "vi": "Mình cũng vậy. Phòng học của chúng ta rộng và sáng nữa. Học ở đây rất vui."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Duì, Lǐ lǎoshī hěn hǎo, tóngxué men yě dōu hěn hǎo.",
+          "zh": "对，李老师很好，同学们也都很好。",
+          "vi": "Đúng rồi, cô Lý rất tốt và các bạn cũng rất tốt."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ jīntiān méiyǒu tīng dǒng lǎoshī shuō de yí gè cí.",
+          "zh": "我今天没有听懂老师说的一个词。",
+          "vi": "Hôm nay mình chưa hiểu một từ cô nói."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Shì nǎ ge cí? Nǐ kéyǐ gàosu wǒ, wǒmen yìqǐ kàn.",
+          "zh": "是哪个词？你可以告诉我，我们一起看。",
+          "vi": "Là từ nào? Bạn có thể nói cho mình, chúng ta cùng xem."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Shì zàijiàn. Xiàkè de shíhou, dàjiā dōu zhèyàng shuō.",
+          "zh": "是再见。下课的时候，大家都这样说。",
+          "vi": "Là từ “tạm biệt”. Khi tan học, mọi người đều nói như vậy."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Zàijiàn shì shuō yǐhòu zàijiàn miàn. Huíjiā qián kě yǐ shuō zàijiàn.",
+          "zh": "再见是说以后再见面。回家前可以说再见。",
+          "vi": "“Tạm biệt” có nghĩa là sau này gặp lại. Trước khi về nhà có thể nói từ đó."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Wǒ míng bai le. Xièxie nǐ! Nǐ xiànzài yào huíjiā ma?",
+          "zh": "我明白了。谢谢你！你现在要回家吗？",
+          "vi": "Mình hiểu rồi. Cảm ơn bạn! Bây giờ bạn định về nhà à?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Shì de. Wǒ de māma zài xuéxiào mén kǒu děng wǒ.",
+          "zh": "是的。我的妈妈在学校门口等我。",
+          "vi": "Đúng rồi. Mẹ mình đang đợi mình ở cổng trường."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hǎo de. Wǒ dī gē gē yíhuìr yě lái jiē wǒ.",
+          "zh": "好的。我的哥哥一会儿也来接我。",
+          "vi": "Được rồi. Lát nữa anh trai mình cũng đến đón."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Nǐ de shū zài zhuō zi shàng, bié wàng le fàng jìn shūbāo.",
+          "zh": "你的书在桌子上，别忘了放进书包。",
+          "vi": "Sách của bạn ở trên bàn, đừng quên cất vào cặp nhé."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Xièxie tí xǐng! Míngtiān wǒmen hái zuò zài yìqǐ, hǎo ma?",
+          "zh": "谢谢提醒！明天我们还坐在一起，好吗？",
+          "vi": "Cảm ơn bạn đã nhắc! Ngày mai chúng ta vẫn ngồi cùng nhau nhé?"
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Hǎo a! Yǒu bù dǒng de dìfāng, wǒmen kéyǐ yìqǐ wèn lǎoshī.",
+          "zh": "好啊！有不懂的地方，我们可以一起问老师。",
+          "vi": "Được chứ! Chỗ nào chưa hiểu, chúng ta có thể cùng hỏi cô."
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Tài hǎo le. Yǒu nǐ zhège péngyou, wǒ hěn kāi xīn.",
+          "zh": "太好了。有你这个朋友，我很开心。",
+          "vi": "Tốt quá. Có người bạn như bạn, mình rất vui."
+        },
+        {
+          "speaker": "A",
+          "pinyin": "Wǒ yě hěn kāi xīn. Xiànzài wǒ yào zǒu le, míngtiān jiàn!",
+          "zh": "我也很开心。现在我要走了，明天见！",
+          "vi": "Mình cũng rất vui. Bây giờ mình phải đi rồi, ngày mai gặp nhé!"
+        },
+        {
+          "speaker": "B",
+          "pinyin": "Hǎo de, Xiǎomíng, zàijiàn! Wǒmen míngtiān xuéxiào jiàn.",
+          "zh": "好的，小明，再见！我们明天学校见。",
+          "vi": "Được rồi Minh, tạm biệt! Ngày mai gặp nhau ở trường nhé."
+        }
+      ],
+      "vocabulary": [
+        {
+          "pinyin": "Xiàwǔ",
+          "zh": "下午",
+          "vi": "buổi chiều"
+        },
+        {
+          "pinyin": "Tóngxué",
+          "zh": "同学",
+          "vi": "bạn cùng lớp"
+        },
+        {
+          "pinyin": "Péngyou",
+          "zh": "朋友",
+          "vi": "bạn bè"
+        },
+        {
+          "pinyin": "Jiàoshì",
+          "zh": "教室",
+          "vi": "phòng học"
+        },
+        {
+          "pinyin": "Míngtiān",
+          "zh": "明天",
+          "vi": "ngày mai"
+        },
+        {
+          "pinyin": "Zàijiàn",
+          "zh": "再见",
+          "vi": "tạm biệt"
+        },
+        {
+          "pinyin": "Yìqǐ",
+          "zh": "一起",
+          "vi": "cùng nhau"
+        },
+        {
+          "pinyin": "Shàngkè",
+          "zh": "上课",
+          "vi": "vào học; học trên lớp"
+        },
+        {
+          "pinyin": "Xiàkè",
+          "zh": "下课",
+          "vi": "tan học"
+        },
+        {
+          "pinyin": "Huíjiā",
+          "zh": "回家",
+          "vi": "về nhà"
+        }
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "pinyin": "Wǒmen shì tóng bān ____.",
+          "zh": "我们是同班____。",
+          "vi": "Chúng mình là ____ cùng lớp.",
+          "answer": {
+            "pinyin": "Tóngxué",
+            "zh": "同学",
+            "vi": "bạn học"
+          }
+        },
+        {
+          "id": 2,
+          "pinyin": "Nǐ shì wǒ de hǎo ____.",
+          "zh": "你是我的好____。",
+          "vi": "Bạn là ____ tốt của mình.",
+          "answer": {
+            "pinyin": "Péngyou",
+            "zh": "朋友",
+            "vi": "người bạn"
+          }
+        },
+        {
+          "id": 3,
+          "pinyin": "Wǒmen ____ xué zhōngwén.",
+          "zh": "我们____学中文。",
+          "vi": "Chúng ta ____ học tiếng Trung.",
+          "answer": {
+            "pinyin": "Yìqǐ",
+            "zh": "一起",
+            "vi": "cùng nhau"
+          }
+        },
+        {
+          "id": 4,
+          "pinyin": "Jīntiān xiàkè le, ____ jiàn!",
+          "zh": "今天下课了，____见！",
+          "vi": "Hôm nay tan học rồi, ____ gặp nhé!",
+          "answer": {
+            "pinyin": "Míngtiān",
+            "zh": "明天",
+            "vi": "ngày mai"
+          }
+        },
+        {
+          "id": 5,
+          "pinyin": "Wǒ yào zǒu le, ____!",
+          "zh": "我要走了，____！",
+          "vi": "Mình phải đi rồi, ____!",
+          "answer": {
+            "pinyin": "Zàijiàn",
+            "zh": "再见",
+            "vi": "tạm biệt"
+          }
+        }
+      ]
+    }
+  ]
+}

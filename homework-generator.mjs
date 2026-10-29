@@ -8,8 +8,7 @@ export function initHomework({requireTeacher,getPassword}){
  const section=document.createElement('section');section.className='homework-generator';
  section.innerHTML=`<hr><h3>AI 生成作业 / Tạo bài tập AI</h3><p class="note">根据所选练习的主题、等级和已有题目生成新作业。翻译题为越南语译成中文；每题2分，总分自动计算。</p><label>所属题库<select data-hw-bank></select></label><label>练习题<select data-hw-exercise></select></label><div class="homework-counts">${Object.entries(kinds).map(([key,label])=>`<label>${label}<select data-hw-count="${key}" aria-label="${label}题数">${[0,5,10,15,20].map(n=>`<option value="${n}">${n} 题</option>`).join('')}</select></label>`).join('')}</div><p data-hw-total class="note"></p><div class="teacher-actions"><button type="button" class="primary" data-hw-generate>生成练习题</button><button type="button" class="quiet" data-hw-cancel hidden>取消生成</button></div><p data-hw-status role="status" aria-live="polite"></p><div data-hw-result hidden><p class="note">拼音按课程词表校验；其他题型由AI生成，参考题补齐会标明。请由教师核对后使用。下载前可在下方修改题干、选项、参考答案和解析。修改题库或题数后请重新生成。</p><div class="teacher-actions"><button type="button" class="primary" data-hw-download>下载学生试卷 .docx</button><button type="button" class="quiet" data-hw-answers>下载教师答案 .docx</button></div><div data-hw-preview></div></div>`;
  tools.append(section);
- const shortcut=document.createElement('button');shortcut.type='button';shortcut.className='quiet';shortcut.textContent='AI 生成作业 ↓';shortcut.style.marginBottom='16px';
- tools.querySelector('.section-top').after(shortcut);
+ const shortcut=document.querySelector('#open-homework');
  shortcut.onclick=()=>{section.scrollIntoView({block:'start',behavior:'smooth'});section.querySelector('[data-hw-bank]').focus({preventScroll:true});};
  const $=s=>section.querySelector(s),$$=s=>[...section.querySelectorAll(s)];
  const bank=$('[data-hw-bank]'),exercise=$('[data-hw-exercise]'),status=$('[data-hw-status]');

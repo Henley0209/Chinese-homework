@@ -11,7 +11,7 @@ import {showFeedback,stopFeedback} from './result-feedback.mjs?v=writing21';
 import {validate,grade,normalize} from './grading.mjs';
 import {resolveBank} from './bank-access.mjs?v=banks-8';
 import {loadCatalog,listExercises,getExercise,introExercise,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {teacherActive} from './teacher-tools.mjs?v=upload1';
+import {teacherActive} from './teacher-tools.mjs?v=courseware1';
 const quizMusic=initQuizMusic();
 const $=s=>document.querySelector(s);let data,student,submitted=false,intro=null,starting=false,activeProgress=null,restoring=false;const notice=t=>$('#notice').textContent=t;
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}

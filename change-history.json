@@ -1624,8 +1624,8 @@
     },
     {
       "version": "V0203",
-      "updatedAt": "2026-10-29T08:28:14Z",
-      "commit": null,
+      "updatedAt": "2026-10-29T15:28:43+07:00",
+      "commit": "e9bb5e74307f40eb4b030d493cc4a26590e736e3",
       "commitMessage": "Remove password-free note from student role label",
       "changes": [
         "删除学生用户选项中的“（免登录密码）”文字，显示为“学生用户 / Học sinh”。"

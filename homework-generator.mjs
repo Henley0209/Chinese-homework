@@ -1,7 +1,7 @@
-import {fillHomework,missingQuestions} from './homework-generation.mjs?v=homework2';
+import {fillHomework,missingQuestions} from './homework-generation.mjs?v=homework3';
 import {bankLabels,listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {kinds,validateQuestions} from './homework-core.mjs?v=homework2';
-import {makeDocx} from './homework-docx.mjs?v=homework2';
+import {kinds,validateQuestions} from './homework-core.mjs?v=homework3';
+import {makeDocx} from './homework-docx.mjs?v=homework3';
 export function initHomework({requireTeacher,getPassword}){
  const tools=document.querySelector('#tools');
  const section=document.createElement('section');section.className='homework-generator';
@@ -31,10 +31,10 @@ export function initHomework({requireTeacher,getPassword}){
   const root=$('[data-hw-preview]');root.replaceChildren();
   let index=0;
   for(const q of paper.questions){
-   const box=document.createElement('fieldset'),legend=document.createElement('legend');legend.textContent=`${++index}. ${kinds[q.kind]}`;box.append(legend);
+   const box=document.createElement('fieldset'),legend=document.createElement('legend');legend.textContent=`第 ${++index} 题`;box.append(legend);
    const field=(label,value,set)=>{const wrap=document.createElement('label');wrap.textContent=label;const input=document.createElement('textarea');input.value=value;input.rows=2;input.maxLength=600;input.addEventListener('input',()=>set(input.value));wrap.append(input);box.append(wrap);};
    field('题干',q.text,v=>q.text=v);
-   q.options?.forEach((o,i)=>field('选项 '+'ABC'[i],o,v=>q.options[i]=v));
+   q.options?.forEach((o,i)=>field('选项 '+'ABCD'[i],o,v=>q.options[i]=v));
    field('参考答案'+(q.options?'（A / B / C）':''),q.answer,v=>q.answer=v);
    field('解析',q.explanation,v=>q.explanation=v);root.append(box);
   }

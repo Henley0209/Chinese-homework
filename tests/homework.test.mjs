@@ -77,3 +77,34 @@ test('authorization/quota failures are not retried; canceled batches never modif
  await assert.rejects(fillHomework(paper,{pinyin:5},async()=>{controller.abort();return {questions:Array.from({length:5},(_,i)=>question('pinyin',i))};},{signal:controller.signal}),{name:'AbortError'});
  assert.equal(paper.questions.length,0);
 });
+test('screenshot labels and repeated option letters are removed before preview and Word export',()=>{
+ const raw={text:'1.【拼音选择】请选择“理解”的正确读音。',options:['A. A. lǐ jiě','B. B. lí jiě','C. C. lǐ jié'],answer:'答案：A',explanation:'理解读lǐ jiě。'};
+ const [q]=validateQuestions([raw],'pinyin',1);assert.equal(q.text,'请选择“理解”的正确读音。');assert.deepEqual(q.options,['lǐ jiě','lí jiě','lǐ jié']);assert.equal(q.answer,'A');
+ for(const answers of [false,true]){
+  const lines=paperLines({title:'家庭关系与代际沟通',bank:'HSK5',questions:[{...raw,kind:'pinyin'}]},answers).map(p=>p.text).join('\n');
+  assert.doesNotMatch(lines,/【拼音选择】|A\. A\.|B\. B\.|C\. C\./);assert.match(lines,/A\. lǐ jiě/);
+ }
+ assert.throws(()=>validateQuestions([{...raw,options:['A. lǐ jiě','B. lǐ jiě','C. lǐ jiě']}],'pinyin',1),'duplicate readings must never survive formatting cleanup');
+ const [repaired]=selectNewQuestions([{...raw,options:['A. lǐ jiě','B. lǐ jiě','C. lǐ jiě']}],'pinyin');
+ assert.equal(new Set(repaired.options).size,3);assert.equal(repaired.options[0],'lǐ jiě');
+});
+test('sorting questions use one complete sentence, preserving every word after segmentation and shuffle',()=>{
+ const sentence='父母应该尊重孩子的选择，并且认真听取他们的意见。';
+ const [q]=selectNewQuestions([{text:'【句子排序】父母 / 孩子 / 选择',answer:sentence,explanation:'尊重彼此的选择。'}],'order');
+ assert.equal(q.answer,sentence);assert.ok(q.text.split('/').length>=3);assert.equal(validateQuestions([q],'order',1).length,1);
+ const [full]=selectNewQuestions([{text:sentence,answer:sentence,explanation:'尊重彼此的选择。'}],'order');
+ assert.equal(questionKey(q.text,'order'),questionKey(full.text,'order'));
+ assert.deepEqual(selectNewQuestions([{text:sentence,answer:sentence,explanation:'同义题'}],'order',[q.text]),[]);
+});
+test('HSK5 50-question configuration tolerates labeled pinyin duplicates and full-sentence sorting output',async()=>{
+ const paper={title:'HSK5 第11课 家庭关系与代际沟通',bank:'HSK5',questions:[]};let calls=0;
+ const counts={pinyin:15,choice:15,order:15,translation:5};
+ await fillHomework(paper,counts,async({kind,count})=>({questions:Array.from({length:count},(_,i)=>{
+  const n=++calls;
+  if(kind==='pinyin')return {text:`【拼音选择】词语${n}`,options:['A. lǐ jiě','B. lǐ jiě','C. lǐ jiě'],answer:'A',explanation:'注意声调。'};
+  if(kind==='order'){const answer=`这个家庭每周交流${n}次，认真听取彼此的意见。`;return {text:answer,answer,explanation:'句子语序。'};}
+  return question(kind,n);
+ })}));
+ assert.equal(paper.questions.length,50);assert.equal(missingQuestions(paper,counts),0);
+ for(const kind of Object.keys(counts)){const qs=paper.questions.filter(q=>q.kind===kind);validateQuestions(qs,kind,counts[kind]);}
+});

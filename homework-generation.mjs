@@ -1,4 +1,4 @@
-import {kinds,selectNewQuestions,validateQuestions} from './homework-core.mjs?v=homework2';
+import {kinds,selectNewQuestions,validateQuestions} from './homework-core.mjs?v=homework3';
 export function missingQuestions(paper,counts){
  return Object.entries(counts).reduce((sum,[kind,count])=>sum+Math.max(0,count-(paper?.questions.filter(q=>q.kind===kind).length||0)),0);
 }

@@ -56,12 +56,13 @@ if(typeof document!=='undefined'&&document.body.dataset.page!=='editor'){
  // Only the editor's same-origin parent may send temporary preview changes.
  const preview=new URLSearchParams(location.search).has('appearance-preview')&&window.parent!==window;
  if(preview)window.addEventListener('message',e=>{if(e.origin!==location.origin||e.source!==window.parent||e.data?.type!=='appearance-preview')return;try{applyAppearance(e.data.config);}catch{}});
+ const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),8000);
  try{
- const r=await fetch('./site-config.json',{cache:'no-store'});if(!r.ok)throw Error();const c=validateAppearance(await r.json());
+ const r=await fetch('./site-config.json',{cache:'no-store',signal:controller.signal});if(!r.ok)throw Error();const c=validateAppearance(await r.json());
  if(!preview){
  if(c.backgroundImage){const image=new Image();image.src=c.backgroundImage;try{await Promise.race([image.decode(),new Promise(resolve=>setTimeout(resolve,2000))]);}catch{}}
  applyAppearance(c);
  }
- }catch{if(!preview)applyAppearance(defaults);}
+ }catch{if(!preview)applyAppearance(defaults);}finally{clearTimeout(timeout);}
  if(preview)window.parent.postMessage({type:'appearance-ready'},location.origin);
 }

@@ -1614,8 +1614,8 @@
     },
     {
       "version": "V0202",
-      "updatedAt": "2026-10-29T08:16:28Z",
-      "commit": null,
+      "updatedAt": "2026-10-29T15:17:50+07:00",
+      "commit": "9086ab0a4bbd62dd7c55ab723ba46cac5ceb1778",
       "commitMessage": "Collapse exercise upload into a teacher tools button",
       "changes": [
         "教师工具新增“上传练习题”按钮，上传说明、题库选择、导入方式、文件选择和草稿发布操作默认收起，点击按钮后展开。",

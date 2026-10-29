@@ -28,7 +28,7 @@ export function topicInstruction(lesson){
  const level=/HSK\s*([345])/i.exec(lesson?.bank||'')?.[1];
  const difficulty=level?`课程等级HSK${level}：词汇与句式遵守该等级，按学生回答逐步加入原因、比较、经历和观点。`:'初级或应用口语：从课程熟悉词语和简短问句开始，再逐步加入情境表达。';
  const greeting=p.domain==='greeting'?'只练习打招呼、问候、姓名介绍、认识朋友、感谢、道歉、礼貌邀请和告别。':'';
- return `本课主题数据：${JSON.stringify({title:p.title,scope:p.scope,goals:p.goals})}。${greeting}${difficulty}每一轮只选择一个本课内尚未完成的交流目标，开场直接进入该主题。承接学生真实回复中的具体信息；已确认的信息不得反复询问。学生答非所问或要求换主题时，简短引回本课并换一个相关目标。不要转为其他课程的问候、收入或购物话题；只有课程范围涉及这些内容时才能讨论。历史中偏题的问题不是本课主题。`;
+ return `本课主题数据：${JSON.stringify({title:p.title,scope:p.scope,goals:p.goals})}。${greeting}${difficulty}每一轮选择本课内一个新的交流点；同一个交流目标可以围绕不同细节继续，不要求每轮更换目标，开场直接进入该主题。承接学生真实回复中的具体信息；已确认的信息不得反复询问。学生答非所问或要求换主题时，简短引回本课并换一个相关目标。不要转为其他课程的问候、收入或购物话题；只有课程范围涉及这些内容时才能讨论。历史中偏题的问题不是本课主题。`;
 }
 export function topicViolation(question,lesson,messages=[]){
  const next=normalize(question),p=topicProfile(lesson);

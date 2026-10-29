@@ -95,7 +95,7 @@ test('HSK lesson 1 rejects income questions and regenerates within its greeting 
  const response=await worker.fetch(req({lesson:greeting,messages:[]}),configured);
  assert.equal(response.status,200);assert.equal((await response.json()).next,good.next);assert.equal(calls,2);
  const neverRecovers={...env,AI:{run:async()=>({response:{...good,next:'你今天赚了多少钱？'}})}};
- assert.equal((await worker.fetch(req({lesson:greeting,messages:[]}),neverRecovers)).status,502);
+ const fallback=await worker.fetch(req({lesson:greeting,messages:[]}),neverRecovers);assert.equal(fallback.status,200);assert.doesNotMatch((await fallback.json()).next,/钱/);
 });
 test('repeated questions are regenerated and income vocabulary remains valid in a money lesson',async()=>{
  const greeting=lessonContext({title:'HSK1-2 第01课 你好！',description:'问候',questions:[]},'HSK1-2');
@@ -112,7 +112,7 @@ test('malformed AI output is regenerated rather than immediately failing the con
  const response=await worker.fetch(req({lesson,messages:[]}),configured);
  assert.equal(response.status,200);assert.equal(calls,2);assert.equal((await response.json()).next,good.next);
 });
-test('screenshot day-question paraphrase triggers a fresh question and persistent repetition has a specific error',async()=>{
+test('screenshot day-question paraphrase triggers a fresh question and persistent repetition preserves assessment and supplies a new question',async()=>{
  const greeting=lessonContext({title:'HSK1-2 第01课 你好！',questions:[]},'HSK1-2');
  const messages=[{role:'assistant',content:'你好，艾艳！今天过得怎么样？'},{role:'user',content:'今天过得很开心'}];
  let calls=0;const repeated={...good,next:'你今天过得怎么样？'};
@@ -120,7 +120,7 @@ test('screenshot day-question paraphrase triggers a fresh question and persisten
  const response=await worker.fetch(req({lesson:greeting,messages}),configured);
  assert.equal(response.status,200);assert.equal(calls,2);assert.equal((await response.json()).next,'你叫什么名字？');
  const failed=await worker.fetch(req({lesson:greeting,messages}),{...env,AI:{run:async()=>({response:repeated})}});
- assert.equal(failed.status,502);assert.equal((await failed.json()).code,'AI_NO_NEW_QUESTION');
+ assert.equal(failed.status,200);const value=await failed.json();assert.notEqual(value.next,repeated.next);assert.equal(value.feedback,good.feedback);assert.equal(value.answerPinyin,good.answerPinyin);assert.equal(validateReply(value).needsCorrection,false);
 });
 
 test('visible dialogue includes skipped questions and ungraded answers as model context',async()=>{
@@ -136,4 +136,15 @@ test('visible dialogue includes skipped questions and ungraded answers as model 
  assert.equal(response.status,200);assert.equal(calls,2);
  assert.throws(()=>validateInput({lesson,messages,transcript:[{question:'别的问题',answer:'好'}]}));
  assert.throws(()=>validateInput({lesson,messages,transcript:[{question:messages[0].content,answer:'别的回答'}]}));
+});
+
+test('fallback retains a real correction when AI repeatedly generates an invalid next question',async()=>{
+ const messages=[{role:'assistant',content:'你今天做什么？'},{role:'user',content:'我叫是小明。'}];
+ const correction={...bad,grammarCorrect:false,contentCorrect:true,correction:'我叫小明。',correctionPinyin:'Wǒ jiào Xiǎomíng.',next:'你今天做什么？'};
+ const response=await worker.fetch(req({lesson,messages}),{...env,AI:{run:async()=>({response:{...correction}})}});
+ assert.equal(response.status,200);const value=await response.json();assert.equal(value.correction,correction.correction);assert.equal(value.answerPinyin,bad.answerPinyin);assert.notEqual(value.next,messages[0].content);assert.equal(validateReply(value).needsCorrection,true);
+});
+test('a fallback never fabricates an assessment when the AI service fails before evaluating an answer',async()=>{
+ const response=await worker.fetch(req({lesson,messages:[{role:'assistant',content:'你好吗？'},{role:'user',content:'好'}]}),{...env,AI:{run:async()=>{throw Error('network unavailable');}}});
+ assert.equal(response.status,502);
 });

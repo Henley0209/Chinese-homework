@@ -6,6 +6,7 @@ on:
     paths:
       - tools/enable-conversation-ai.py
       - backend/conversation/**
+      - conversation-fallback.mjs
       - conversation-topic.mjs
       - conversation-topics.mjs
       - conversation-core.mjs

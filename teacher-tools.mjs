@@ -1,4 +1,4 @@
-import {initHomework} from './homework-generator.mjs?v=homework1';
+import {initHomework} from './homework-generator.mjs?v=homework2';
 import {isTeacherPassword} from './teacher-auth.mjs?v=visits15';
 import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=hsk4-40';
 import {validate} from './grading.mjs';

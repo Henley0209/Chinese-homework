@@ -1,6 +1,7 @@
+import {fillHomework,missingQuestions} from './homework-generation.mjs?v=homework2';
 import {bankLabels,listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {kinds,validateQuestions} from './homework-core.mjs?v=homework1';
-import {makeDocx} from './homework-docx.mjs?v=homework1';
+import {kinds,validateQuestions} from './homework-core.mjs?v=homework2';
+import {makeDocx} from './homework-docx.mjs?v=homework2';
 export function initHomework({requireTeacher,getPassword}){
  const tools=document.querySelector('#tools');
  const section=document.createElement('section');section.className='homework-generator';
@@ -13,18 +14,19 @@ export function initHomework({requireTeacher,getPassword}){
  const bank=$('[data-hw-bank]'),exercise=$('[data-hw-exercise]'),status=$('[data-hw-status]');
  let paper=null,controller=null,run=0;
  const setStatus=text=>status.textContent=text;
- function clear(){paper=null;$('[data-hw-result]').hidden=true;$('[data-hw-preview]').replaceChildren();}
+ function clear(){paper=null;$('[data-hw-generate]').textContent='生成练习题';$('[data-hw-result]').hidden=true;$('[data-hw-preview]').replaceChildren();}
  function total(){const n=$$('[data-hw-count]').reduce((n,s)=>n+Number(s.value),0);$('[data-hw-total]').textContent=`共 ${n} 题，满分 ${n*2} 分`;return n;}
  function targets(){const previous=exercise.value;exercise.replaceChildren();for(const e of listExercises(bank.value)){const o=document.createElement('option');o.value=e.id;o.textContent=e.exercise.title;exercise.append(o);}if([...exercise.options].some(o=>o.value===previous))exercise.value=previous;clear();}
  for(const [id,label]of Object.entries(bankLabels)){const o=document.createElement('option');o.value=id;o.textContent=label;bank.append(o);}bank.value='hsk1-2';
  bank.addEventListener('change',targets);exercise.addEventListener('change',clear);subscribe(targets);
  for(const select of $$('[data-hw-count]'))select.addEventListener('change',()=>{total();clear();});
  $('[data-hw-count="pinyin"]').value='15';$('[data-hw-count="choice"]').value='20';$('[data-hw-count="order"]').value='15';total();targets();
- function busy(value){for(const el of $$('select,[data-hw-generate]'))el.disabled=value;$('[data-hw-cancel]').hidden=!value;}
- function cancel(){run++;controller?.abort();controller=null;busy(false);if(!paper)clear();}
- $('[data-hw-cancel]').onclick=()=>{cancel();setStatus('已取消生成，可重新选择后生成。');};
+ function counts(){return Object.fromEntries($$('[data-hw-count]').map(s=>[s.dataset.hwCount,Number(s.value)]));}
+ function busy(value){for(const el of $$('select,[data-hw-generate]'))el.disabled=value;$('[data-hw-cancel]').hidden=!value;$('[data-hw-generate]').textContent=value?'正在生成…':paper?.questions.length&&missingQuestions(paper,counts())?'继续生成剩余题目':'生成练习题';}
+ function cancel(){run++;controller?.abort();controller=null;busy(false);if(paper?.questions.length)preview();else clear();}
+ $('[data-hw-cancel]').onclick=()=>{cancel();setStatus(paper?.questions.length?`已暂停，保留 ${paper.questions.length} 题。可下载已有题目，或点击“继续生成剩余题目”。`:'已取消生成，可重新选择后生成。');};
  document.querySelector('#user-role').addEventListener('change',()=>{cancel();clear();setStatus('');});
- tools.addEventListener('close',()=>{if(controller){cancel();setStatus('已停止生成，请重新生成。');}});
+ tools.addEventListener('close',()=>{if(controller){cancel();setStatus('已暂停生成，已生成题目保留在当前页面，可继续生成。');}});
  function preview(){
   const root=$('[data-hw-preview]');root.replaceChildren();
   let index=0;
@@ -42,42 +44,40 @@ export function initHomework({requireTeacher,getPassword}){
   try{requireTeacher();}catch(e){setStatus(e.message);return;}
   const n=total(),entry=listExercises(bank.value).find(e=>e.id===exercise.value);
   if(!entry){setStatus('请选择练习题。');return;}if(!n){setStatus('请至少选择一种题型，题数不能全部为0。');return;}
-  if(paper&&!confirm('重新生成会替换当前作业及修改，是否继续？'))return;
-  clear();busy(true);controller=new AbortController();const signal=controller.signal,token=++run;
-  const counts=Object.fromEntries($$('[data-hw-count]').map(s=>[s.dataset.hwCount,Number(s.value)]));
-  const next={title:entry.exercise.title,bank:bankLabels[bank.value],questions:[]};
+  const selectedCounts=counts();
+  const resuming=paper?.questions.length&&missingQuestions(paper,selectedCounts)>0;
+  if(paper?.questions.length&&!resuming&&!confirm('重新生成会替换当前作业及修改，是否继续？'))return;
+  if(!resuming){clear();paper={title:entry.exercise.title,bank:bankLabels[bank.value],questions:[]};}
+  busy(true);$('[data-hw-result]').hidden=true;controller=new AbortController();const signal=controller.signal,token=++run;
+  const next=paper;
   const context=JSON.stringify({description:entry.exercise.description||'',questions:entry.exercise.questions?.slice(0,20).map(q=>({text:q.text,explanation:q.explanation}))}).slice(0,8000);
   try{
    const configResponse=await fetch('./conversation-config.json',{signal,cache:'no-store'});if(!configResponse.ok)throw Error('AI配置读取失败。');
    const config=await configResponse.json(),url=new URL(config.endpoint);if(url.protocol!=='https:')throw Error('AI服务地址无效。');url.pathname='/homework';url.search='';url.hash='';
-   for(const [kind,count]of Object.entries(counts)){
-    for(let offset=0;offset<count;offset+=5){
-     let questions,last;
-     for(let retry=0;retry<2;retry++){
-      setStatus(`正在生成${kinds[kind]}，已完成 ${next.questions.length}/${n} 题${retry?'，正在重试…':'…'}`);
-      try{
-       requireTeacher();const timeout=new AbortController();const timer=setTimeout(()=>timeout.abort(),65000);
-       const abort=()=>timeout.abort();signal.addEventListener('abort',abort,{once:true});
-       let response;
-       try{response=await fetch(url,{method:'POST',signal:timeout.signal,headers:{'Content-Type':'application/json'},body:JSON.stringify({password:getPassword(),bank:next.bank,title:next.title,kind,count:Math.min(5,count-offset),context,avoid:next.questions.map(q=>q.text)})});}
-       finally{clearTimeout(timer);signal.removeEventListener('abort',abort);}
-       const data=await response.json();if(!response.ok){const error=Error(data.error||'AI服务暂不可用。');error.status=response.status;throw error;}
-       questions=validateQuestions(data.questions,kind,Math.min(5,count-offset));
-       if(questions.some(q=>next.questions.some(prev=>prev.text.replace(/\s/g,'')===q.text.replace(/\s/g,''))))throw Error('AI返回重复题目。');break;
-      }catch(e){last=e;if(signal.aborted||[400,401,403,429].includes(e.status))throw e;}
-     }
-     if(!questions)throw last;next.questions.push(...questions);if(signal.aborted||token!==run)return;
-    }
+   await fillHomework(next,selectedCounts,async batch=>{
+    requireTeacher();
+    const timeout=new AbortController(),timer=setTimeout(()=>timeout.abort(),65000);
+    const abort=()=>timeout.abort();signal.addEventListener('abort',abort,{once:true});
+    try{
+     const response=await fetch(url,{method:'POST',signal:timeout.signal,headers:{'Content-Type':'application/json'},body:JSON.stringify({password:getPassword(),bank:next.bank,title:next.title,context,...batch})});
+     const data=await response.json();if(!response.ok){const error=Error(data.error||'AI服务暂不可用。');error.status=response.status;throw error;}return data;
+    }finally{clearTimeout(timer);signal.removeEventListener('abort',abort);}
+   },{signal,onProgress:({kind,done,stalls})=>{if(token===run)setStatus(`正在生成${kinds[kind]}，已完成 ${done}/${n} 题${stalls?'，正在更换内容补题…':'…'}`);}});
+   requireTeacher();if(token!==run)return;preview();setStatus(`已生成 ${n} 题，满分 ${n*2} 分。请核对题目后下载。`);
+  }catch(e){
+   if(token===run){
+    if(next.questions.length)preview();
+    const reason=e.name==='AbortError'?'请求超时，请重试。':e.message;
+    setStatus(`生成暂未完成：${reason}${next.questions.length?` 已保留 ${next.questions.length}/${n} 题，可下载已有题目，或点击“继续生成剩余题目”。`:' 请点击生成按钮重试。'}`);
    }
-   requireTeacher();if(token!==run)return;paper=next;preview();setStatus(`已生成 ${n} 题，满分 ${n*2} 分。请核对题目后下载。`);
-  }catch(e){if(token===run)setStatus(signal.aborted?'已取消生成。':'生成未完成：'+(e.name==='AbortError'?'请求超时，请重试。':e.message));}
-  finally{if(token===run){controller=null;busy(false);}}
+  }finally{if(token===run){controller=null;busy(false);}}
  };
+
  function download(answers){
   try{
    requireTeacher();if(!paper)throw Error('请先生成练习题。');
    for(const kind of Object.keys(kinds)){const qs=paper.questions.filter(q=>q.kind===kind);if(qs.length)validateQuestions(qs,kind,qs.length);}
-   const blob=makeDocx(paper,answers),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`${paper.title.replace(/[\\/:*?"<>|]/g,'_')}-${answers?'教师答案':'学生试卷'}.docx`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);setStatus('已下载'+(answers?'教师答案':'学生试卷')+'。');
+   const blob=makeDocx(paper,answers),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`${missingQuestions(paper,counts())?'未完成-':''}${paper.title.replace(/[\\/:*?"<>|]/g,'_')}-${answers?'教师答案':'学生试卷'}.docx`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);setStatus('已下载'+(answers?'教师答案':'学生试卷')+(missingQuestions(paper,counts())?'（仅含已生成题目，尚有题目待补充）。':'。'));
   }catch(e){setStatus('下载失败：'+e.message);}
  }
  $('[data-hw-download]').onclick=()=>download(false);$('[data-hw-answers]').onclick=()=>download(true);

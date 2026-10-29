@@ -1,11 +1,26 @@
 export const kinds={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译题'};
+export function questionKey(text,kind){
+ const normalize=s=>s.normalize('NFKC').toLowerCase().replace(/[\p{P}\p{Z}\s]/gu,'');
+ return kind==='order'?text.split('/').map(normalize).sort().join('|'):normalize(text);
+}
+// Keep good questions even when another item in the same AI response is unusable.
+export function selectNewQuestions(value,kind,avoid=[],limit=5){
+ if(!Array.isArray(value)||value.length>20)throw Error('AI返回题目格式无效，请重试。');
+ const seen=new Set(avoid.map(text=>questionKey(text,kind))),questions=[];
+ for(const raw of value){
+  let q;try{[q]=validateQuestions([raw],kind,1);}catch{continue;}
+  const key=questionKey(q.text,kind);if(seen.has(key))continue;
+  seen.add(key);questions.push(q);if(questions.length===limit)break;
+ }
+ return questions;
+}
 export function validateQuestions(value,kind,count){
  if(!Object.hasOwn(kinds,kind)||!Array.isArray(value)||value.length!==count)throw Error('AI返回题数不正确，请重新生成。');
  const seen=new Set();
  return value.map(q=>{
   const text=(v,max=600)=>typeof v==='string'&&v.trim()&&v.length<=max;
   if(!text(q?.text)||!text(q.answer)||!text(q.explanation))throw Error('题目或参考答案不完整。');
-  const key=q.text.replace(/\s/g,'');if(seen.has(key))throw Error('AI返回重复题目，请重新生成。');seen.add(key);
+  const key=questionKey(q.text,kind);if(seen.has(key))throw Error('AI返回重复题目，请重新生成。');seen.add(key);
   const result={kind,text:q.text.trim(),answer:q.answer.trim(),explanation:q.explanation.trim()};
   if(['pinyin','choice'].includes(kind)){
    if(!Array.isArray(q.options)||q.options.length!==3||q.options.some(o=>!text(o,200))||new Set(q.options.map(o=>o.trim())).size!==3||!['A','B','C'].includes(q.answer))throw Error('选择题选项或答案无效。');

@@ -7,6 +7,8 @@ on:
       - tools/enable-conversation-ai.py
       - backend/conversation/**
       - conversation-fallback.mjs
+      - homework-core.mjs
+      - teacher-auth.mjs
       - conversation-topic.mjs
       - conversation-topics.mjs
       - conversation-core.mjs
@@ -42,7 +44,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate conversation service
-        run: node --test tests/conversation.test.mjs
+        run: node --test tests/conversation.test.mjs tests/homework.test.mjs
       - name: Deploy free Workers AI service
         shell: bash
         run: |

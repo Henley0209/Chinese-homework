@@ -1,3 +1,4 @@
+import {generateHomework} from './homework.mjs';
 import {toSimplified} from '../../vendor/chinese-simplified.mjs';
 import {cleanKeywords,inferredKeywords,matchedKeyword} from '../../conversation-keywords.mjs';
 import {topicInstruction,topicViolation} from '../../conversation-topic.mjs';
@@ -54,6 +55,7 @@ export default {
   if(!allowed||origin!==allowed)return json({error:'来源不允许'},403);
   if(request.method==='OPTIONS')return new Response(null,{status:204,headers});
   const path=new URL(request.url).pathname,speech=path==='/speech',transcribe=path==='/transcribe';
+  if(path==='/homework'){if(request.method!=='POST')return json({error:'仅支持POST'},405);return generateHomework(request,env,json);}
   if(!speech&&!transcribe&&path!=='/conversation')return json({error:'路径不存在'},404);
   if(request.method!=='POST')return json({error:'仅支持POST'},405);
   if(!env.AI||!env.LIMITS)return json({error:'AI服务尚未配置'},503);

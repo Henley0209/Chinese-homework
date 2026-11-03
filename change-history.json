@@ -1662,6 +1662,22 @@
         "三份HSK1-2试用课件的下载格式由PPTX改为可编辑、可打印的Word（DOCX），网页和预览中的下载按钮同步更新。",
         "保留两张情境配图、两组300字对话、每组10个生词及5道填空；按拼音、汉字、越南语上下排列，每份排版为6页。"
       ]
+    },
+    {
+      "version": "V0207",
+      "updatedAt": "2026-11-03T07:25:34Z",
+      "commit": "13c566daddd7eb8a95159ec9fa53dfafdd2c0aef",
+      "changes": [
+        "Add local courseware upload for AI homework generation"
+      ]
+    },
+    {
+      "version": "V0208",
+      "updatedAt": "2026-11-03T14:28:43+07:00",
+      "commit": "86d417ba00a8039d17d232b07c519d3269e7753a",
+      "changes": [
+        "Merge pull request #4 from Henley0209/codex/homework-local-courseware"
+      ]
     }
   ]
 }

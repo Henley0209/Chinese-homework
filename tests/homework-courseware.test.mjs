@@ -6,7 +6,7 @@ import {makeDocx} from '../homework-docx.mjs';
 const file=(name,text)=>Object.assign(new Blob([text]),{name});
 test('text courseware preserves Chinese, bounds AI context and rejects invalid files',async()=>{
  const result=await readCourseware(file('点菜.txt','菜单\r\n面条\t 米饭'));
- assert.equal(result.title,'点菜');assert.equal(result.text,'菜单\n面条 米饭');
+ assert.equal(result.title,'点菜');assert.equal(result.text,'菜单\n面条米饭');
  assert.equal(JSON.parse(coursewareContext(result.text)).content,result.text);
  const long=await readCourseware(file('长课件.md','汉'.repeat(7100)));assert.equal(long.text.length,7000);assert.equal(long.truncated,true);
  await assert.rejects(readCourseware(file('空.txt','  ')),/未提取/);

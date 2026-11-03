@@ -1,13 +1,14 @@
-import {readCourseware,coursewareContext} from './homework-courseware.mjs?v=courseware-upload1';
+import {coursewareTasks,checkCoursewareCounts} from './homework-courseware-plan.mjs?v=courseware-fix2';
+import {readCourseware,coursewareContext,extractChinese} from './homework-courseware.mjs?v=courseware-fix2';
 import {courseTasks} from './homework-plan.mjs?v=homework4';
-import {fillHomework,missingQuestions} from './homework-generation.mjs?v=homework4';
+import {fillHomework,missingQuestions} from './homework-generation.mjs?v=courseware-fix2';
 import {bankLabels,listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
 import {kinds,validateQuestions} from './homework-core.mjs?v=homework4';
 import {makeDocx} from './homework-docx.mjs?v=homework4';
 export function initHomework({requireTeacher,getPassword}){
  const tools=document.querySelector('#tools');
  const section=document.createElement('section');section.className='homework-generator';
- section.innerHTML=`<hr><h3>AI 生成作业 / Tạo bài tập AI</h3><p class="note">根据所选练习的主题、等级和已有题目生成新作业。翻译题为越南语译成中文；每题2分，总分自动计算。</p><label>所属题库<select data-hw-bank></select></label><label>练习题<select data-hw-exercise></select></label><section class="homework-courseware" aria-label="本地课件"><div class="teacher-actions"><button type="button" class="quiet" data-hw-upload>上传本地课件 / Tải tài liệu</button><button type="button" class="quiet" data-hw-remove hidden>移除课件</button></div><input type="file" data-hw-file accept=".pptx,.pdf,.docx,.txt,.md" hidden><p class="note">支持 PPTX、PDF、Word（DOCX）和文本，每份不超过20MB。上传后按课件出题，所属题库用于设置等级。文件在本机解析，点击生成时将下方文字发送给AI。</p><p data-hw-file-status role="status" aria-live="polite"></p><label data-hw-content-wrap hidden>课件内容（可修改，最多7000字）<textarea data-hw-content rows="7" maxlength="7000"></textarea></label></section><div class="homework-counts">${Object.entries(kinds).map(([key,label])=>`<label>${label}<select data-hw-count="${key}" aria-label="${label}题数">${[0,5,10,15,20].map(n=>`<option value="${n}">${n} 题</option>`).join('')}</select></label>`).join('')}</div><p data-hw-total class="note"></p><div class="teacher-actions"><button type="button" class="primary" data-hw-generate>生成练习题</button><button type="button" class="quiet" data-hw-cancel hidden>取消生成</button></div><p data-hw-status role="status" aria-live="polite"></p><div data-hw-result hidden><p class="note">拼音按课程词表校验；其他题型由AI生成，参考题补齐会标明。请由教师核对后使用。下载前可在下方修改题干、选项、参考答案和解析。修改课件、题库或题数后请重新生成。</p><div class="teacher-actions"><button type="button" class="primary" data-hw-download>下载学生试卷 .docx</button><button type="button" class="quiet" data-hw-answers>下载教师答案 .docx</button></div><div data-hw-preview></div></div>`;
+ section.innerHTML=`<hr><h3>AI 生成作业 / Tạo bài tập AI</h3><p class="note">根据所选练习的主题、等级和已有题目生成新作业。翻译题为越南语译成中文；每题2分，总分自动计算。</p><label>所属题库<select data-hw-bank></select></label><label>练习题<select data-hw-exercise></select></label><section class="homework-courseware" aria-label="本地课件"><div class="teacher-actions"><button type="button" class="quiet" data-hw-upload>上传本地课件 / Tải tài liệu</button><button type="button" class="quiet" data-hw-remove hidden>移除课件</button></div><input type="file" data-hw-file accept=".pptx,.pdf,.docx,.txt,.md" hidden><p class="note">支持 PPTX、PDF、Word（DOCX）和文本，每份不超过20MB。自动只提取中文，过滤英文、越南语和拼音。上传后按课件中文出题，所属题库用于设置等级。文件在本机解析，点击生成时将下方文字发送给AI。</p><p data-hw-file-status role="status" aria-live="polite"></p><label data-hw-content-wrap hidden>课件中文内容（可修改，最多7000字）<textarea data-hw-content rows="7" maxlength="7000"></textarea></label></section><div class="homework-counts">${Object.entries(kinds).map(([key,label])=>`<label>${label}<select data-hw-count="${key}" aria-label="${label}题数">${[0,5,10,15,20].map(n=>`<option value="${n}">${n} 题</option>`).join('')}</select></label>`).join('')}</div><p data-hw-total class="note"></p><div class="teacher-actions"><button type="button" class="primary" data-hw-generate>生成练习题</button><button type="button" class="quiet" data-hw-cancel hidden>取消生成</button></div><p data-hw-status role="status" aria-live="polite"></p><div data-hw-result hidden><p class="note">拼音按课程词表校验；其他题型由AI生成，参考题补齐会标明。请由教师核对后使用。下载前可在下方修改题干、选项、参考答案和解析。修改课件、题库或题数后请重新生成。</p><div class="teacher-actions"><button type="button" class="primary" data-hw-download>下载学生试卷 .docx</button><button type="button" class="quiet" data-hw-answers>下载教师答案 .docx</button></div><div data-hw-preview></div></div>`;
  tools.append(section);
  const shortcut=document.querySelector('#open-homework');
  shortcut.onclick=()=>{section.scrollIntoView({block:'start',behavior:'smooth'});section.querySelector('[data-hw-bank]').focus({preventScroll:true});};
@@ -32,7 +33,7 @@ export function initHomework({requireTeacher,getPassword}){
   $('[data-hw-file-status]').textContent='正在读取课件…';
   try{requireTeacher();const parsed=await readCourseware(file);if(token!==uploadRun)return;requireTeacher();courseware=parsed;
    $('[data-hw-content]').value=parsed.text;$('[data-hw-content-wrap]').hidden=false;$('[data-hw-remove]').hidden=false;
-   $('[data-hw-file-status]').textContent=`已读取：${parsed.name}。将根据下方课件内容生成作业。${parsed.truncated?'内容超过7000字，仅保留前7000字，请核对或分批上传。':''}`;
+   $('[data-hw-file-status]').textContent=`已读取：${parsed.name}。已过滤英文、越南语和拼音，将根据下方中文内容生成作业。${parsed.truncated?'内容超过7000字，仅保留前7000字，请核对或分批上传。':''}`;
   }catch(e){if(token===uploadRun){removeCourseware();$('[data-hw-file-status]').textContent='读取失败：'+e.message;}}
   finally{if(token===uploadRun||!reading){reading=false;busy(false);}}
  });
@@ -61,14 +62,14 @@ export function initHomework({requireTeacher,getPassword}){
   if(reading)return;
   const n=total(),entry=listExercises(bank.value).find(e=>e.id===exercise.value);
   if(!courseware&&!entry){setStatus('请选择练习题。');return;}if(!n){setStatus('请至少选择一种题型，题数不能全部为0。');return;}
-  let uploadedContext;try{if(courseware)uploadedContext=coursewareContext($('[data-hw-content]').value);}catch(e){setStatus(e.message);return;}
+  let uploadedContext;try{if(courseware){$('[data-hw-content]').value=extractChinese($('[data-hw-content]').value);uploadedContext=coursewareContext($('[data-hw-content]').value);}}catch(e){setStatus(e.message);return;}
   const selectedCounts=counts();
+  let taskPlan;try{taskPlan=courseware?coursewareTasks($('[data-hw-content]').value,Object.keys(bankLabels).flatMap(id=>listExercises(id).map(e=>e.exercise))):courseTasks(entry.exercise,listExercises(bank.value).map(e=>e.exercise));if(courseware)checkCoursewareCounts(taskPlan,selectedCounts);}catch(e){setStatus(e.message);return;}
   const resuming=paper?.questions.length&&missingQuestions(paper,selectedCounts)>0;
   if(paper?.questions.length&&!resuming&&!confirm('重新生成会替换当前作业及修改，是否继续？'))return;
   if(!resuming){clear();paper={title:courseware?courseware.title:entry.exercise.title,bank:bankLabels[bank.value],questions:[]};}
   busy(true);$('[data-hw-result]').hidden=true;controller=new AbortController();const signal=controller.signal,token=++run;
   const next=paper;
-  const taskPlan=courseware?{}:courseTasks(entry.exercise,listExercises(bank.value).map(e=>e.exercise));
   const context=uploadedContext||JSON.stringify({description:entry.exercise.description||'',vocabulary:taskPlan.pinyin.map(t=>t.word).slice(0,40)}).slice(0,8000);
   try{
    const configResponse=await fetch('./conversation-config.json',{signal,cache:'no-store'});if(!configResponse.ok)throw Error('AI配置读取失败。');

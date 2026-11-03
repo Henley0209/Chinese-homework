@@ -1,3 +1,5 @@
+import {coursewareTasks,checkCoursewareCounts} from '../homework-courseware-plan.mjs';
+import {coursewareContext,extractChinese} from '../homework-courseware.mjs';
 import fs from 'node:fs';
 import {courseTasks} from '../homework-plan.mjs';
 import {fillHomework,missingQuestions} from '../homework-generation.mjs';
@@ -28,4 +30,20 @@ for(const [bank,folder,file]of [['HSK4','hsk4-40','lesson-08.json'],['HSK5','hsk
  const ai=paper.questions.filter(q=>q.source==='ai').length,reference=paper.questions.filter(q=>q.source==='course-reference').length;
  if(paper.questions.filter(q=>q.kind==='translation'&&q.source==='ai').length!==5)throw Error('Live translation generation did not complete');
  console.log(JSON.stringify({bank,title:paper.title,total:paper.questions.length,requests,ai,reference,vocabulary:paper.questions.filter(q=>q.source==='course-vocabulary').length}));
+}
+
+// Reproduce the reported bilingual local-courseware 15/15/15/5 configuration.
+{
+ const text=extractChinese(fs.readFileSync('tests/fixtures/courseware-bilingual.txt','utf8'));
+ if(/\p{Script=Latin}/u.test(text))throw Error('Non-Chinese courseware text leaked');
+ const tasks=coursewareTasks(text);checkCoursewareCounts(tasks,counts);
+ const paper={bank:'HSK3',title:'本地课件：请假与工作',questions:[]};let requests=0;
+ await fillHomework(paper,counts,async batch=>{
+  if(!batch.targets?.length)throw Error('Local courseware lost explicit targets');
+  const response=await fetch(endpoint,{method:'POST',signal:AbortSignal.timeout(70000),headers:{Origin:'https://henley0209.github.io',Authorization:'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify({bank:paper.bank,title:paper.title,context:coursewareContext(text),...batch})});
+  const data=await response.json();requests++;if(!response.ok)throw Object.assign(Error(data.error||'Local courseware verification failed'),{status:response.status});return data;
+ },{tasks});
+ if(paper.questions.length!==50||missingQuestions(paper,counts))throw Error('Incomplete local courseware homework');
+ for(const [kind,count]of Object.entries(counts))validateQuestions(paper.questions.filter(q=>q.kind===kind),kind,count);
+ console.log(JSON.stringify({source:'bilingual-local-courseware',total:paper.questions.length,requests,counts}));
 }

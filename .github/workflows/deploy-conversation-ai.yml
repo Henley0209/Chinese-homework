@@ -46,7 +46,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate conversation service
-        run: node --test tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs
+        run: node --test tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs tests/homework-courseware.test.mjs tests/homework-courseware-plan.test.mjs
       - name: Deploy free Workers AI service
         shell: bash
         run: |
@@ -61,7 +61,7 @@ jobs:
           echo "::add-mask::$token"
           echo "HOMEWORK_VERIFY_TOKEN=$token" >> "$GITHUB_ENV"
           printf '%s' "$token" | npx --yes wrangler@4 secret put HOMEWORK_VERIFY_TOKEN --config backend/conversation/wrangler.toml
-      - name: Verify real 50-question HSK4 and HSK5 homework
+      - name: Verify real 50-question HSK4, HSK5 and local courseware homework
         run: node tools/verify-homework-live.mjs
       - name: Remove temporary homework verification credential
         if: always()

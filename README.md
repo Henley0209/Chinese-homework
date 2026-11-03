@@ -1,2 +1,6 @@
 # Chinese-homework
 中文在线作业练习系统
+
+AI生成作业支持上传本地PPTX、DOCX、PDF、TXT、MD课件（单文件20MB；PDF最多200页）。在教师工具中选择所属题库等级，上传课件并核对提取文字，然后选择题型和题数生成。最多采用7000字，超出时界面会提示；可以编辑内容或分批上传。移除课件后恢复原题库出题。扫描PDF及纯图片课件需先OCR为文字；旧版PPT/DOC请先另存为PPTX/DOCX。文件在浏览器本地解析，仅在点击生成时将核对后的文字发送给现有AI服务。
+
+PDF解析使用随项目部署的PDF.js 4.10.38（Apache-2.0），许可见 `vendor/pdfjs-LICENSE`；字体许可保留在 `vendor/pdfjs/standard_fonts/`。Office文件使用浏览器原生解压功能，需支持 `DecompressionStream('deflate-raw')` 的现代浏览器。

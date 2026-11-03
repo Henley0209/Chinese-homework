@@ -5,3 +5,4 @@
 
 #teacher-upload-panel[hidden]{display:none!important}
 #teacher-upload-panel{margin-top:12px}
+.homework-courseware{margin:16px 0;padding:14px;border:1px dashed #86b4d4;border-radius:10px;background:#f5faff}.homework-courseware [hidden]{display:none!important}.homework-courseware [data-hw-file-status]{white-space:pre-wrap;overflow-wrap:anywhere}.homework-courseware .note{margin-bottom:8px}

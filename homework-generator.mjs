@@ -1,3 +1,4 @@
+import {readCourseware,coursewareContext} from './homework-courseware.mjs?v=courseware-upload1';
 import {courseTasks} from './homework-plan.mjs?v=homework4';
 import {fillHomework,missingQuestions} from './homework-generation.mjs?v=homework4';
 import {bankLabels,listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
@@ -6,13 +7,13 @@ import {makeDocx} from './homework-docx.mjs?v=homework4';
 export function initHomework({requireTeacher,getPassword}){
  const tools=document.querySelector('#tools');
  const section=document.createElement('section');section.className='homework-generator';
- section.innerHTML=`<hr><h3>AI 生成作业 / Tạo bài tập AI</h3><p class="note">根据所选练习的主题、等级和已有题目生成新作业。翻译题为越南语译成中文；每题2分，总分自动计算。</p><label>所属题库<select data-hw-bank></select></label><label>练习题<select data-hw-exercise></select></label><div class="homework-counts">${Object.entries(kinds).map(([key,label])=>`<label>${label}<select data-hw-count="${key}" aria-label="${label}题数">${[0,5,10,15,20].map(n=>`<option value="${n}">${n} 题</option>`).join('')}</select></label>`).join('')}</div><p data-hw-total class="note"></p><div class="teacher-actions"><button type="button" class="primary" data-hw-generate>生成练习题</button><button type="button" class="quiet" data-hw-cancel hidden>取消生成</button></div><p data-hw-status role="status" aria-live="polite"></p><div data-hw-result hidden><p class="note">拼音按课程词表校验；其他题型由AI生成，参考题补齐会标明。请由教师核对后使用。下载前可在下方修改题干、选项、参考答案和解析。修改题库或题数后请重新生成。</p><div class="teacher-actions"><button type="button" class="primary" data-hw-download>下载学生试卷 .docx</button><button type="button" class="quiet" data-hw-answers>下载教师答案 .docx</button></div><div data-hw-preview></div></div>`;
+ section.innerHTML=`<hr><h3>AI 生成作业 / Tạo bài tập AI</h3><p class="note">根据所选练习的主题、等级和已有题目生成新作业。翻译题为越南语译成中文；每题2分，总分自动计算。</p><label>所属题库<select data-hw-bank></select></label><label>练习题<select data-hw-exercise></select></label><section class="homework-courseware" aria-label="本地课件"><div class="teacher-actions"><button type="button" class="quiet" data-hw-upload>上传本地课件 / Tải tài liệu</button><button type="button" class="quiet" data-hw-remove hidden>移除课件</button></div><input type="file" data-hw-file accept=".pptx,.pdf,.docx,.txt,.md" hidden><p class="note">支持 PPTX、PDF、Word（DOCX）和文本，每份不超过20MB。上传后按课件出题，所属题库用于设置等级。文件在本机解析，点击生成时将下方文字发送给AI。</p><p data-hw-file-status role="status" aria-live="polite"></p><label data-hw-content-wrap hidden>课件内容（可修改，最多7000字）<textarea data-hw-content rows="7" maxlength="7000"></textarea></label></section><div class="homework-counts">${Object.entries(kinds).map(([key,label])=>`<label>${label}<select data-hw-count="${key}" aria-label="${label}题数">${[0,5,10,15,20].map(n=>`<option value="${n}">${n} 题</option>`).join('')}</select></label>`).join('')}</div><p data-hw-total class="note"></p><div class="teacher-actions"><button type="button" class="primary" data-hw-generate>生成练习题</button><button type="button" class="quiet" data-hw-cancel hidden>取消生成</button></div><p data-hw-status role="status" aria-live="polite"></p><div data-hw-result hidden><p class="note">拼音按课程词表校验；其他题型由AI生成，参考题补齐会标明。请由教师核对后使用。下载前可在下方修改题干、选项、参考答案和解析。修改课件、题库或题数后请重新生成。</p><div class="teacher-actions"><button type="button" class="primary" data-hw-download>下载学生试卷 .docx</button><button type="button" class="quiet" data-hw-answers>下载教师答案 .docx</button></div><div data-hw-preview></div></div>`;
  tools.append(section);
  const shortcut=document.querySelector('#open-homework');
  shortcut.onclick=()=>{section.scrollIntoView({block:'start',behavior:'smooth'});section.querySelector('[data-hw-bank]').focus({preventScroll:true});};
  const $=s=>section.querySelector(s),$$=s=>[...section.querySelectorAll(s)];
  const bank=$('[data-hw-bank]'),exercise=$('[data-hw-exercise]'),status=$('[data-hw-status]');
- let paper=null,controller=null,run=0;
+ let paper=null,controller=null,run=0,courseware=null,reading=false,uploadRun=0;
  const setStatus=text=>status.textContent=text;
  function clear(){paper=null;$('[data-hw-generate]').textContent='生成练习题';$('[data-hw-result]').hidden=true;$('[data-hw-preview]').replaceChildren();}
  function total(){const n=$$('[data-hw-count]').reduce((n,s)=>n+Number(s.value),0);$('[data-hw-total]').textContent=`共 ${n} 题，满分 ${n*2} 分`;return n;}
@@ -21,11 +22,25 @@ export function initHomework({requireTeacher,getPassword}){
  bank.addEventListener('change',targets);exercise.addEventListener('change',clear);subscribe(targets);
  for(const select of $$('[data-hw-count]'))select.addEventListener('change',()=>{total();clear();});
  $('[data-hw-count="pinyin"]').value='15';$('[data-hw-count="choice"]').value='20';$('[data-hw-count="order"]').value='15';total();targets();
+ $('[data-hw-upload]').onclick=()=>{try{requireTeacher();$('[data-hw-file]').click();}catch(e){setStatus(e.message);}};
+ function removeCourseware(){uploadRun++;courseware=null;reading=false;$('[data-hw-file]').value='';$('[data-hw-content]').value='';$('[data-hw-content-wrap]').hidden=true;$('[data-hw-remove]').hidden=true;$('[data-hw-file-status]').textContent='';exercise.disabled=false;clear();}
+ $('[data-hw-remove]').onclick=removeCourseware;
+ $('[data-hw-content]').addEventListener('input',clear);
+ $('[data-hw-file]').addEventListener('change',async()=>{
+  const file=$('[data-hw-file]').files[0];if(!file)return;
+  const token=++uploadRun;reading=true;clear();busy(true);$('[data-hw-cancel]').hidden=true;
+  $('[data-hw-file-status]').textContent='正在读取课件…';
+  try{requireTeacher();const parsed=await readCourseware(file);if(token!==uploadRun)return;requireTeacher();courseware=parsed;
+   $('[data-hw-content]').value=parsed.text;$('[data-hw-content-wrap]').hidden=false;$('[data-hw-remove]').hidden=false;
+   $('[data-hw-file-status]').textContent=`已读取：${parsed.name}。将根据下方课件内容生成作业。${parsed.truncated?'内容超过7000字，仅保留前7000字，请核对或分批上传。':''}`;
+  }catch(e){if(token===uploadRun){removeCourseware();$('[data-hw-file-status]').textContent='读取失败：'+e.message;}}
+  finally{if(token===uploadRun||!reading){reading=false;busy(false);}}
+ });
  function counts(){return Object.fromEntries($$('[data-hw-count]').map(s=>[s.dataset.hwCount,Number(s.value)]));}
- function busy(value){for(const el of $$('select,[data-hw-generate]'))el.disabled=value;$('[data-hw-cancel]').hidden=!value;$('[data-hw-generate]').textContent=value?'正在生成…':paper?.questions.length&&missingQuestions(paper,counts())?'继续生成剩余题目':'生成练习题';}
+ function busy(value){for(const el of $$('select,[data-hw-generate],[data-hw-upload],[data-hw-remove],[data-hw-content]'))el.disabled=value;exercise.disabled=value||Boolean(courseware);$('[data-hw-cancel]').hidden=!value;$('[data-hw-generate]').textContent=value?'正在生成…':paper?.questions.length&&missingQuestions(paper,counts())?'继续生成剩余题目':'生成练习题';}
  function cancel(){run++;controller?.abort();controller=null;busy(false);if(paper?.questions.length)preview();else clear();}
  $('[data-hw-cancel]').onclick=()=>{cancel();setStatus(paper?.questions.length?`已暂停，保留 ${paper.questions.length} 题。可下载已有题目，或点击“继续生成剩余题目”。`:'已取消生成，可重新选择后生成。');};
- document.querySelector('#user-role').addEventListener('change',()=>{cancel();clear();setStatus('');});
+ document.querySelector('#user-role').addEventListener('change',()=>{cancel();removeCourseware();clear();setStatus('');});
  tools.addEventListener('close',()=>{if(controller){cancel();setStatus('已暂停生成，已生成题目保留在当前页面，可继续生成。');}});
  function preview(){
   const root=$('[data-hw-preview]');root.replaceChildren();
@@ -43,16 +58,18 @@ export function initHomework({requireTeacher,getPassword}){
  }
  $('[data-hw-generate]').onclick=async()=>{
   try{requireTeacher();}catch(e){setStatus(e.message);return;}
+  if(reading)return;
   const n=total(),entry=listExercises(bank.value).find(e=>e.id===exercise.value);
-  if(!entry){setStatus('请选择练习题。');return;}if(!n){setStatus('请至少选择一种题型，题数不能全部为0。');return;}
+  if(!courseware&&!entry){setStatus('请选择练习题。');return;}if(!n){setStatus('请至少选择一种题型，题数不能全部为0。');return;}
+  let uploadedContext;try{if(courseware)uploadedContext=coursewareContext($('[data-hw-content]').value);}catch(e){setStatus(e.message);return;}
   const selectedCounts=counts();
   const resuming=paper?.questions.length&&missingQuestions(paper,selectedCounts)>0;
   if(paper?.questions.length&&!resuming&&!confirm('重新生成会替换当前作业及修改，是否继续？'))return;
-  if(!resuming){clear();paper={title:entry.exercise.title,bank:bankLabels[bank.value],questions:[]};}
+  if(!resuming){clear();paper={title:courseware?courseware.title:entry.exercise.title,bank:bankLabels[bank.value],questions:[]};}
   busy(true);$('[data-hw-result]').hidden=true;controller=new AbortController();const signal=controller.signal,token=++run;
   const next=paper;
-  const taskPlan=courseTasks(entry.exercise,listExercises(bank.value).map(e=>e.exercise));
-  const context=JSON.stringify({description:entry.exercise.description||'',vocabulary:taskPlan.pinyin.map(t=>t.word).slice(0,40)}).slice(0,8000);
+  const taskPlan=courseware?{}:courseTasks(entry.exercise,listExercises(bank.value).map(e=>e.exercise));
+  const context=uploadedContext||JSON.stringify({description:entry.exercise.description||'',vocabulary:taskPlan.pinyin.map(t=>t.word).slice(0,40)}).slice(0,8000);
   try{
    const configResponse=await fetch('./conversation-config.json',{signal,cache:'no-store'});if(!configResponse.ok)throw Error('AI配置读取失败。');
    const config=await configResponse.json(),url=new URL(config.endpoint);if(url.protocol!=='https:')throw Error('AI服务地址无效。');url.pathname='/homework';url.search='';url.hash='';

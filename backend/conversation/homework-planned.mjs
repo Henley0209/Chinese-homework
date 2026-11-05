@@ -1,4 +1,5 @@
 import {plannedQuestions} from '../../homework-plan.mjs';
+import {translationWordCount} from '../../homework-core.mjs';
 export function validTargets(targets,count){
  return Array.isArray(targets)&&targets.length===count&&targets.every(t=>t&&typeof t.id==='string'&&t.id.length<=100&&typeof t.word==='string'&&t.word.length<=50&&typeof t.sentence==='string'&&t.sentence.length<=600&&(t.reading===undefined||typeof t.reading==='string'&&t.reading.length<=200)&&Array.isArray(t.options)&&t.options.length<=10&&t.options.every(o=>typeof o==='string'&&o.length<=200)&&(t.explanation===undefined||typeof t.explanation==='string'&&t.explanation.length<=600));
 }
@@ -16,7 +17,7 @@ export async function generatePlannedBatch(env,{bank,title,kind,count,targets,av
   const {questions,rejected}=plannedQuestions(kind,targets,items,avoid,count);
   const reference=questions.filter(q=>q.source==='course-reference').length;
   console.info('homework-batch',JSON.stringify({kind,requested:count,received:items.length,accepted:questions.length,rejected,reference}));
-  return json({questions,needsMore:questions.length<count,diagnostics:{rejected,reference}});
+  return json({questions,needsMore:questions.length<count,diagnostics:{rejected,reference,...(diagnostic?{items:items.map(q=>({id:q.id,text:q.text,answer:q.answer,words:typeof q.text==='string'?translationWordCount(q.text):0})),...responseDetails}:{})}});
  }catch(error){
   if(/quota|neuron|limit|exceeded/i.test(error.message||''))return json({error:'AI额度暂时不足，请稍后重试。'},429);
   const {questions}=plannedQuestions(kind,targets,[],avoid,count,{referenceOnly:true});

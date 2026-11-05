@@ -50,3 +50,19 @@ test('generation sends completed fill-in context, rejects overlapping orders and
  assert.equal(calls,2);assert.equal(paper.questions.length,3);
  assert.ok(paper.questions.every(q=>!conflictsWithPaper(q,paper.questions)));
 });
+
+// A long source sentence must not force a long Vietnamese translation.
+test('translation generation receives a compact word target and a Chinese-first schema',async()=>{
+ const {generatePlannedBatch}=await import('../backend/conversation/homework-planned.mjs');
+ let called=false;
+ const env={AI:{run:async(_model,params)=>{
+  called=true;
+  const input=JSON.parse(params.messages[1].content);
+  assert.equal(input.targets[0].sentence,'');
+  assert.equal(input.targets[0].word,'生活');
+  assert.deepEqual(Object.keys(params.response_format.json_schema.properties.questions.items.properties),['id','answer','text']);
+  return {response:{questions:[{id:'t',answer:'今天我要给公司买一个新的本子。',text:'Hôm nay tôi cần mua một quyển vở mới cho công ty.'}]}};
+ }}};
+ const result=await generatePlannedBatch(env,{bank:'HSK4',title:'生活',kind:'translation',count:1,targets:[{id:'t',word:'',sentence:'生活中并不是缺少美而是我们常常忘了用心观察。',options:[]}],avoid:[],attempt:0},(data)=>data);
+ assert.ok(called);assert.equal(result.questions.length,1);
+});

@@ -1710,6 +1710,14 @@
       "changes": [
         "Diagnose AI homework verification failures with temporary credential only"
       ]
+    },
+    {
+      "version": "V0213",
+      "updatedAt": "2026-11-05T11:47:31+07:00",
+      "commit": "c1d6347a8470f93fb78207cbaaaf99d5bb249cf9",
+      "changes": [
+        "Allow complete AI translation responses and retry verification readiness"
+      ]
     }
   ]
 }

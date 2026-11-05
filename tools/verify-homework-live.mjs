@@ -23,7 +23,7 @@ for(const [bank,folder,file]of [['HSK4','hsk4-40','lesson-08.json'],['HSK5','hsk
  const paper={bank,title:exercise.title,questions:[]};let requests=0;
  await fillHomework(paper,counts,async batch=>{
   const response=await fetch(endpoint,{method:'POST',signal:AbortSignal.timeout(70000),headers:{Origin:'https://henley0209.github.io',Authorization:'Bearer '+token,'Content-Type':'application/json','User-Agent':'Chinese-homework-verification/1.0'},body:JSON.stringify({bank,title:paper.title,context:'',...batch})});
-  const data=await response.json();requests++;if(!response.ok){const error=Error(data.error||'Homework verification failed');error.status=response.status;throw error;}return data;
+  const data=await response.json();requests++;if(!response.ok){const error=Error(JSON.stringify(data));error.status=response.status;throw error;}return data;
  },{tasks:courseTasks(exercise,related)});
  if(missingQuestions(paper,counts)!==0||paper.questions.length!==50)throw Error('Incomplete live homework');
  for(const [kind,count]of Object.entries(counts))validateQuestions(paper.questions.filter(q=>q.kind===kind),kind,count);
@@ -41,7 +41,7 @@ for(const [bank,folder,file]of [['HSK4','hsk4-40','lesson-08.json'],['HSK5','hsk
  await fillHomework(paper,counts,async batch=>{
   if(!batch.targets?.length)throw Error('Local courseware lost explicit targets');
   const response=await fetch(endpoint,{method:'POST',signal:AbortSignal.timeout(70000),headers:{Origin:'https://henley0209.github.io',Authorization:'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify({bank:paper.bank,title:paper.title,context:coursewareContext(text),...batch})});
-  const data=await response.json();requests++;if(!response.ok)throw Object.assign(Error(data.error||'Local courseware verification failed'),{status:response.status});return data;
+  const data=await response.json();requests++;if(!response.ok)throw Object.assign(Error(JSON.stringify(data)),{status:response.status});return data;
  },{tasks});
  if(paper.questions.length!==50||missingQuestions(paper,counts))throw Error('Incomplete local courseware homework');
  for(const [kind,count]of Object.entries(counts))validateQuestions(paper.questions.filter(q=>q.kind===kind),kind,count);

@@ -24,7 +24,7 @@ export async function generateHomework(request,env,json){
  const client=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');
  const quota=await env.LIMITS.get(env.LIMITS.idFromName('homework-daily')).fetch('https://limits/check',{method:'POST',body:JSON.stringify({day,client,perClient:100,total:300})});
  if(!quota.ok)return json({error:'今日作业生成额度已用完，请明天重试。'},429);
- if(body.targets)return generatePlannedBatch(env,{bank,title,kind,count,targets:body.targets,avoid,attempt},json);
+ if(body.targets)return generatePlannedBatch(env,{bank,title,kind,count,targets:body.targets,avoid,attempt,diagnostic:verification},json);
  const choice=['pinyin','choice'].includes(kind);
  const schema={type:'object',properties:{questions:{type:'array',minItems:count,maxItems:count,items:{type:'object',properties:{text:{type:'string'},answer:{type:'string'},explanation:{type:'string'},...(choice?{options:{type:'array',items:{type:'string'},minItems:3,maxItems:3}}:{})},required:['text','answer','explanation',...(choice?['options']:[])],additionalProperties:false}}},required:['questions'],additionalProperties:false};
  const instructions={pinyin:'词语选正确拼音，使用带声调拼音，三个选项仅一个正确。text只写中文词语。answer为A/B/C。',choice:'中文句子留一个________空缺，三个词语选项，仅一个正确。answer为A/B/C。',order:'只生成语法正确、切合主题的完整中文句子，text与answer填写同一个句子。系统负责分词和打乱顺序，你不需要生成斜杠或词语片段。句子含多个词语，长度约12—30个汉字。',translation:'越南语译成中文。text为10—15个词的自然越南语完整句子（按空格分隔计词），answer为中文参考译文。'};

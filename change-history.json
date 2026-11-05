@@ -1718,6 +1718,14 @@
       "changes": [
         "Allow complete AI translation responses and retry verification readiness"
       ]
+    },
+    {
+      "version": "V0214",
+      "updatedAt": "2026-11-05T11:50:12+07:00",
+      "commit": "4012043a43fe87872531cece71baa4e7e529eef2",
+      "changes": [
+        "Report rejected live homework items during authorized deployment checks"
+      ]
     }
   ]
 }

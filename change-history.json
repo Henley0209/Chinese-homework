@@ -1726,6 +1726,14 @@
       "changes": [
         "Report rejected live homework items during authorized deployment checks"
       ]
+    },
+    {
+      "version": "V0215",
+      "updatedAt": "2026-11-05T11:52:34+07:00",
+      "commit": "bac91eabfd9fc95cd2fb45b6334b84eaf117dade",
+      "changes": [
+        "Enforce Vietnamese translation prompts after Chinese answer generation"
+      ]
     }
   ]
 }

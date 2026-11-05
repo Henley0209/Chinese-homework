@@ -9,11 +9,20 @@ if(!token)throw Error('Missing temporary homework verification token');
 const config=JSON.parse(fs.readFileSync('conversation-config.json','utf8'));
 const endpoint=new URL(config.endpoint);endpoint.pathname='/homework';endpoint.search='';
 const counts={pinyin:15,choice:15,order:15,translation:5};
+// Secret updates propagate across Worker isolates; retry only temporary readiness failures.
+async function verificationFetch(url,options){
+ for(let attempt=0;;attempt++){
+  const response=await fetch(url,options);
+  if(![401,503].includes(response.status)||attempt>=7)return response;
+  await response.arrayBuffer();
+  await new Promise(resolve=>setTimeout(resolve,2000));
+ }
+}
 let ready=false;
 for(let attempt=0;attempt<10&&!ready;attempt++){
  const exercise=JSON.parse(fs.readFileSync('hsk4-40/lesson-08.json','utf8'));
  const targets=courseTasks(exercise).pinyin.slice(0,1);
- const response=await fetch(endpoint,{method:'POST',signal:AbortSignal.timeout(20000),headers:{Origin:'https://henley0209.github.io',Authorization:'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify({bank:'HSK4',title:exercise.title,kind:'pinyin',count:1,context:'',targets})});
+ const response=await verificationFetch(endpoint,{method:'POST',signal:AbortSignal.timeout(20000),headers:{Origin:'https://henley0209.github.io',Authorization:'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify({bank:'HSK4',title:exercise.title,kind:'pinyin',count:1,context:'',targets})});
  ready=response.ok;if(!ready){if(![401,503].includes(response.status))throw Error('Homework verification readiness failed: '+response.status);await new Promise(resolve=>setTimeout(resolve,2000));}
 }
 if(!ready)throw Error('Temporary homework verification credential not ready');
@@ -22,7 +31,7 @@ for(const [bank,folder,file]of [['HSK4','hsk4-40','lesson-08.json'],['HSK5','hsk
  const related=fs.readdirSync(folder).filter(f=>/^lesson-\d+\.json$/.test(f)).map(f=>JSON.parse(fs.readFileSync(folder+'/'+f,'utf8')));
  const paper={bank,title:exercise.title,questions:[]};let requests=0;
  await fillHomework(paper,counts,async batch=>{
-  const response=await fetch(endpoint,{method:'POST',signal:AbortSignal.timeout(70000),headers:{Origin:'https://henley0209.github.io',Authorization:'Bearer '+token,'Content-Type':'application/json','User-Agent':'Chinese-homework-verification/1.0'},body:JSON.stringify({bank,title:paper.title,context:'',...batch})});
+  const response=await verificationFetch(endpoint,{method:'POST',signal:AbortSignal.timeout(70000),headers:{Origin:'https://henley0209.github.io',Authorization:'Bearer '+token,'Content-Type':'application/json','User-Agent':'Chinese-homework-verification/1.0'},body:JSON.stringify({bank,title:paper.title,context:'',...batch})});
   const data=await response.json();requests++;if(!response.ok){const error=Error(JSON.stringify(data));error.status=response.status;throw error;}return data;
  },{tasks:courseTasks(exercise,related)});
  if(missingQuestions(paper,counts)!==0||paper.questions.length!==50)throw Error('Incomplete live homework');
@@ -40,7 +49,7 @@ for(const [bank,folder,file]of [['HSK4','hsk4-40','lesson-08.json'],['HSK5','hsk
  const paper={bank:'HSK3',title:'本地课件：请假与工作',questions:[]};let requests=0;
  await fillHomework(paper,counts,async batch=>{
   if(!batch.targets?.length)throw Error('Local courseware lost explicit targets');
-  const response=await fetch(endpoint,{method:'POST',signal:AbortSignal.timeout(70000),headers:{Origin:'https://henley0209.github.io',Authorization:'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify({bank:paper.bank,title:paper.title,context:coursewareContext(text),...batch})});
+  const response=await verificationFetch(endpoint,{method:'POST',signal:AbortSignal.timeout(70000),headers:{Origin:'https://henley0209.github.io',Authorization:'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify({bank:paper.bank,title:paper.title,context:coursewareContext(text),...batch})});
   const data=await response.json();requests++;if(!response.ok)throw Object.assign(Error(JSON.stringify(data)),{status:response.status});return data;
  },{tasks});
  if(paper.questions.length!==50||missingQuestions(paper,counts))throw Error('Incomplete local courseware homework');

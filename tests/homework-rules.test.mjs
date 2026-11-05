@@ -66,3 +66,16 @@ test('translation generation receives a compact word target and a Chinese-first 
  const result=await generatePlannedBatch(env,{bank:'HSK4',title:'生活',kind:'translation',count:1,targets:[{id:'t',word:'',sentence:'生活中并不是缺少美而是我们常常忘了用心观察。',options:[]}],avoid:[],attempt:0},(data)=>data);
  assert.ok(called);assert.equal(result.questions.length,1);
 });
+test('translation repair receives actual word counts and preserves already valid items',async()=>{
+ const {generatePlannedBatch}=await import('../backend/conversation/homework-planned.mjs');let calls=0;
+ const valid={id:'a',answer:'今天我要给公司买一个新的本子。',text:'Hôm nay tôi cần mua một quyển vở mới cho công ty.'};
+ const env={AI:{run:async(_model,params)=>{
+  calls++;if(calls===1)return {response:{questions:[valid,{id:'b',answer:'这是我的本子。',text:'Đây là vở.'}]}};
+  const input=JSON.parse(params.messages[1].content);
+  assert.equal(input.feedback[0].words,3);assert.deepEqual(input.targets.map(t=>t.id),['b']);
+  assert.equal(params.response_format.json_schema.properties.questions.minItems,1);
+  return {response:{questions:[{...valid,id:'b',text:'Ngày mai tôi cần mua một quyển vở mới cho công ty.'}]}};
+ }}};
+ const result=await generatePlannedBatch(env,{bank:'HSK1-2',title:'本子',kind:'translation',count:2,targets:['a','b'].map(id=>({id,word:'本子',sentence:'这是我的本子。',options:[]})),avoid:[],attempt:0},data=>data);
+ assert.equal(calls,2);assert.equal(result.questions.length,2);assert.equal(result.questions[0].text,valid.text);
+});

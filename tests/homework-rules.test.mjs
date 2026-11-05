@@ -74,7 +74,8 @@ test('translation repair receives actual word counts and preserves already valid
   const input=JSON.parse(params.messages[1].content);
   assert.equal(input.feedback[0].words,3);assert.deepEqual(input.targets.map(t=>t.id),['b']);
   assert.equal(params.response_format.json_schema.properties.questions.minItems,1);
-  return {response:{questions:[{...valid,id:'b',text:'Ngày mai tôi cần mua một quyển vở mới cho công ty.'}]}};
+  assert.equal(params.response_format.json_schema.properties.questions.items.properties.words.minItems,10);
+  return {response:{questions:[{id:'b',answer:valid.answer,words:'Ngày mai tôi cần mua một quyển vở mới cho công ty.'.split(' ')}]}};
  }}};
  const result=await generatePlannedBatch(env,{bank:'HSK1-2',title:'本子',kind:'translation',count:2,targets:['a','b'].map(id=>({id,word:'本子',sentence:'这是我的本子。',options:[]})),avoid:[],attempt:0},data=>data);
  assert.equal(calls,2);assert.equal(result.questions.length,2);assert.equal(result.questions[0].text,valid.text);

@@ -36,15 +36,16 @@ export async function generatePlannedBatch(env,{bank,title,kind,count,targets,av
    const repairSchema=structuredClone(schema);
    repairSchema.properties.questions.minItems=missing.length;
    repairSchema.properties.questions.maxItems=missing.length;
+   repairSchema.properties.questions.items={type:'object',properties:{id:{type:'string'},answer:{type:'string'},words:{type:'array',minItems:10,maxItems:15,items:{type:'string',pattern:'^\\S+$'}}},required:['id','answer','words'],additionalProperties:false};
    clearTimeout(timer);
    const repaired=await Promise.race([env.AI.run(env.AI_MODEL||'@cf/qwen/qwen3-30b-a3b-fp8',{
-    messages:[{role:'system',content:'You are a Vietnamese-Chinese language teacher. Correct each failed exercise using feedback. Return id, answer (Chinese), text (Vietnamese). text MUST have 10 to 15 space-separated words, aim for exactly 12. Count the words before returning. Rewrite BOTH sentences to keep the meanings identical. Do not copy the failed wording unchanged. Keep the course word/theme. Example: {"id":"t","answer":"今天我要给公司买一个新的本子。","text":"Hôm nay tôi cần mua một quyển vở mới cho công ty."}. Only JSON. /no_think'},
+    messages:[{role:'system',content:'You are a Vietnamese-Chinese language teacher. Correct each failed exercise using feedback. Return id, answer (a complete Chinese sentence), and words (the Vietnamese translation split at EVERY SPACE into an array). words MUST contain 10 to 15 items; each item must contain exactly one written syllable or number, NO SPACES and NO Chinese. Add or remove meaningful details and update BOTH sentences to keep identical meanings. Do not return fragments. Example: {"id":"t","answer":"今天我要给公司买一个新的本子。","words":["Hôm","nay","tôi","cần","mua","một","quyển","vở","mới","cho","công","ty."]}. Only JSON. /no_think'},
      {role:'user',content:JSON.stringify({bank,title,targets:missing,feedback,avoid})}],
     max_tokens:6000,temperature:.4,response_format:{type:'json_schema',json_schema:repairSchema}
    }),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('翻译题修正超时')),Math.max(1,20000-(Date.now()-repairStarted)));})]);
    const rawRepair=repaired?.response??repaired?.choices?.[0]?.message?.content;
    const parsed=typeof rawRepair==='string'?JSON.parse(rawRepair.replace(/^```(?:json)?\s*|\s*```$/gu,'')):rawRepair;
-   const corrected=Array.isArray(parsed?.questions)?parsed.questions:[];
+   const corrected=Array.isArray(parsed?.questions)?parsed.questions.map(q=>({...q,text:Array.isArray(q.words)?q.words.join(' '):q.text})):[];
    items=targets.map((t,i)=>corrected.find(q=>q?.id===t.id)||items.find(q=>q?.id===t.id)||items[i]).filter(Boolean);
   }
   const {questions,rejected}=plannedQuestions(kind,targets,items,avoid,count);

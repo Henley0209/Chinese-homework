@@ -1758,6 +1758,14 @@
       "changes": [
         "Constrain repaired Vietnamese translations with a 10-to-15-word array"
       ]
+    },
+    {
+      "version": "V0219",
+      "updatedAt": "2026-11-05T12:07:09+07:00",
+      "commit": "4de0003d5fd8460819a734e214986d35a1093b69",
+      "changes": [
+        "Compose natural Vietnamese prompts first and translate into Chinese"
+      ]
     }
   ]
 }

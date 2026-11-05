@@ -1734,6 +1734,14 @@
       "changes": [
         "Enforce Vietnamese translation prompts after Chinese answer generation"
       ]
+    },
+    {
+      "version": "V0216",
+      "updatedAt": "2026-11-05T11:55:18+07:00",
+      "commit": "a8eae317bd37b4cc79803099b647f7c4177702f6",
+      "changes": [
+        "Compose short translation exercises around course vocabulary"
+      ]
     }
   ]
 }

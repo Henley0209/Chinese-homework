@@ -1742,6 +1742,14 @@
       "changes": [
         "Compose short translation exercises around course vocabulary"
       ]
+    },
+    {
+      "version": "V0217",
+      "updatedAt": "2026-11-05T11:59:08+07:00",
+      "commit": "8ec15250db0c0a35d6b401b5bcb79c44582f7ff7",
+      "changes": [
+        "Repair AI translations using measured Vietnamese word counts"
+      ]
     }
   ]
 }

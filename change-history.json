@@ -1702,6 +1702,14 @@
       "changes": [
         "Improve AI homework fuzzy pinyin, distinct sentences and translation length"
       ]
+    },
+    {
+      "version": "V0212",
+      "updatedAt": "2026-11-05T11:42:26+07:00",
+      "commit": "a065f7bb14a9f3c374e8bdd15df3f840f5e72bfa",
+      "changes": [
+        "Diagnose AI homework verification failures with temporary credential only"
+      ]
     }
   ]
 }

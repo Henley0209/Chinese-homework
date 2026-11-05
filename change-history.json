@@ -1694,6 +1694,14 @@
       "changes": [
         "Merge pull request #5 from Henley0209/codex/fix-courseware-homework"
       ]
+    },
+    {
+      "version": "V0211",
+      "updatedAt": "2026-11-05T11:39:17+07:00",
+      "commit": "711a39d3401d0070db96d3088fd665666f017b4a",
+      "changes": [
+        "Improve AI homework fuzzy pinyin, distinct sentences and translation length"
+      ]
     }
   ]
 }

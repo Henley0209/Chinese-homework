@@ -46,7 +46,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate conversation service
-        run: node --test tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs tests/homework-courseware.test.mjs tests/homework-courseware-plan.test.mjs
+        run: node --test tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs tests/homework-courseware.test.mjs tests/homework-courseware-plan.test.mjs tests/homework-rules.test.mjs
       - name: Deploy free Workers AI service
         shell: bash
         run: |

@@ -1,4 +1,4 @@
-import {cleanQuestionText,preparePinyinQuestion,selectNewQuestions} from './homework-core.mjs?v=homework4';
+import {cleanQuestionText,preparePinyinQuestion,selectNewQuestions} from './homework-core.mjs?v=homework-rules1';
 const han=s=>typeof s==='string'&&/[\p{Script=Han}]/u.test(s);
 export function courseTasks(exercise,related=[]){
  const vocabulary=new Map(),choice=[],order=[];
@@ -36,7 +36,7 @@ function optionsFor(correct,alternatives){
 export function referenceQuestion(kind,task){
  if(kind==='pinyin'&&task.word&&task.reading){
   let q={text:task.word,options:[task.reading,task.reading,task.reading],answer:'A',explanation:`“${task.word}”读作 ${task.reading}。`};
-  q=preparePinyinQuestion(q);const opts=optionsFor(task.reading,[...(task.options||[]),...q.options]);
+  q=preparePinyinQuestion(q);const opts=optionsFor(task.reading,[...q.options,...(task.options||[])]);
   return opts?{...q,...opts,source:'course-vocabulary',targetId:task.id}:null;
  }
  if(kind==='choice'&&task.sentence&&task.word&&task.sentence.includes(task.word)){
@@ -60,7 +60,7 @@ export function plannedQuestions(kind,targets,items,avoid=[],limit=5,{referenceO
     if(opts&&sentence.includes(task.word))raw={text:sentence.replace(task.word,'________'),...opts,explanation:`应填“${task.word}”。完整句子：${sentence}`};
    }
    if(kind==='order'&&han(item.text))raw={text:item.text,answer:item.text,explanation:'根据句子成分及修饰关系排列，字词不能增减。'};
-   if(kind==='translation'&&typeof item.text==='string'&&!han(item.text)&&item.text.trim().length>=5&&(task.sentence||han(item.answer)))raw={text:item.text,answer:task.sentence||item.answer,explanation:'注意中文词序；意思相同且语法正确的译法也可得分。'};
+   if(kind==='translation'&&typeof item.text==='string'&&!han(item.text)&&item.text.trim().length>=5&&(task.sentence||han(item.answer)))raw={text:item.text,answer:item.answer,explanation:'注意中文词序；意思相同且语法正确的译法也可得分。'};
    if(raw){raw={...raw,source:'ai',targetId:task.id};if(add(raw))continue;}
    rejected++;
   }

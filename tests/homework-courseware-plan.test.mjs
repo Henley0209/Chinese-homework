@@ -21,7 +21,7 @@ test('short documents report capacity rather than repeatedly requesting duplicat
 test('screenshot 15/15/15/5 completes via actual worker target route with explicit vocabulary and sentence targets',async()=>{
  const tasks=coursewareTasks(bilingual),counts={pinyin:15,choice:15,order:15,translation:5};checkCoursewareCounts(tasks,counts);
  const env={HOMEWORK_VERIFY_TOKEN:Date.now()+'.'+'b'.repeat(64),ALLOWED_ORIGIN:'https://henley0209.github.io',AI:{run:async(model,params)=>{
-  const input=JSON.parse(params.messages[1].content);return {response:{questions:input.targets.map(t=>({id:t.id,reading:'xué xí',text:t.id.startsWith('cw-translation:')?`Bản dịch câu ${t.id}`:t.id.startsWith('cw-choice:')?`我今天在课上学习了${t.word}这个中文词语。`:t.sentence||`老师要求学生认真学习${t.word}这个词语。`,answer:t.sentence||`老师要求学生认真学习${t.word}这个词语。`}))}};
+  const input=JSON.parse(params.messages[1].content);return {response:{questions:input.targets.map((t,i)=>({id:t.id,reading:'xué xí',text:t.id.startsWith('cw-translation:')?`Hôm nay tôi muốn cùng bạn tìm hiểu câu số ${input.attempt * 5 + i + 1}.`:t.id.startsWith('cw-choice:')?`我今天在课上学习了${t.word}这个中文词语。`:t.sentence||`老师要求学生认真学习${t.word}这个词语。`,answer:t.sentence||`老师要求学生认真学习${t.word}这个词语。`}))}};
  }},LIMITS:{idFromName:v=>v,get:()=>({fetch:async()=>new Response('')})}};
  const paper={bank:'HSK3',title:'请假',questions:[]};let calls=0;
  await fillHomework(paper,counts,async batch=>{

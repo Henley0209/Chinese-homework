@@ -1,4 +1,4 @@
-import {kinds,selectNewQuestions,validateQuestions} from './homework-core.mjs?v=homework4';
+import {kinds,selectNewQuestions,validateQuestions,completedSentence,conflictsWithPaper} from './homework-core.mjs?v=homework-rules1';
 export function missingQuestions(paper,counts){
  return Object.entries(counts).reduce((sum,[kind,count])=>sum+Math.max(0,count-(paper?.questions.filter(q=>q.kind===kind).length||0)),0);
 }
@@ -12,7 +12,7 @@ export async function fillHomework(paper,counts,requestBatch,{signal,onProgress=
   while(paper.questions.filter(q=>q.kind===kind).length<counts[kind]){
    check();
    const remaining=counts[kind]-paper.questions.filter(q=>q.kind===kind).length;
-   let count=Math.min(stalls?1:kind==='translation'?2:5,remaining);const avoid=paper.questions.map(q=>q.text);
+   let count=Math.min(stalls?1:kind==='translation'?2:5,remaining);const avoid=paper.questions.map(q=>q.kind!==kind&&['choice','order'].includes(q.kind)?completedSentence(q):q.text);
    const used=new Set(paper.questions.filter(q=>q.kind===kind).map(q=>q.targetId));
    const available=(tasks[kind]||[]).filter(t=>!used.has(t.id)).sort((a,b)=>(tried.get(a.id)||0)-(tried.get(b.id)||0)).slice(0,count);
    if(available.length)count=Math.min(count,available.length);
@@ -24,7 +24,9 @@ export async function fillHomework(paper,counts,requestBatch,{signal,onProgress=
     const response=await requestBatch({kind,count,avoid,attempt,...(targets?{targets}:{})});check();
     const questions=selectNewQuestions(response.questions,kind,avoid,count);
     if(!questions.length)throw Error('AI暂未返回新的有效题目。');
-    paper.questions.push(...questions);stalls=0;
+    const accepted=questions.filter(q=>!conflictsWithPaper(q,paper.questions));
+    if(!accepted.length)throw Error('填空题与排序题内容重复，请更换情境。');
+    paper.questions.push(...accepted);stalls=0;
     onProgress({kind,done:paper.questions.length,stalls});
    }catch(e){
     check();if([400,401,403,429].includes(e.status))throw e;

@@ -1,0 +1,52 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {preparePinyinQuestion,translationWordCount,validateQuestions,conflictsWithPaper,completedSentence} from '../homework-core.mjs';
+import {referenceQuestion,plannedQuestions} from '../homework-plan.mjs';
+import {fillHomework} from '../homework-generation.mjs';
+const choice={kind:'choice',text:'请把________放在办公室的桌子上。',options:['本子','公司','事情'],answer:'A',explanation:'应填本子。'};
+const order=answer=>({kind:'order',text:answer,answer,explanation:'按语序排列。'});
+test('fuzzy initials take priority over tone-only distractors without changing the correct answer',()=>{
+ for(const [reading,expected]of [['gōng sī','gōng shī'],['běn zi','běn zhi'],['shū jià','sū jià'],['cè shì','chè shì']]){
+  const q=preparePinyinQuestion({options:['wrong',reading,'other'],answer:'B'});
+  assert.equal(q.options[1],reading);assert.ok(q.options.includes(expected));assert.equal(new Set(q.options).size,3);
+  const reference=referenceQuestion('pinyin',{id:'t',word:'测试',reading,options:['tone one','tone two']});
+  assert.ok(reference.options.includes(expected));assert.equal(reference.options['ABC'.indexOf(reference.answer)],reading);
+ }
+ const q=preparePinyinQuestion({options:['zǒng cái','wrong','other'],answer:'A'});
+ assert.deepEqual(q.options,['zǒng cái','zhǒng cái','zǒng chái']);
+});
+test('translation length boundaries count accented Vietnamese and ignore punctuation',()=>{
+ for(const count of [9,10,15,16]){
+  const text=Array(count).fill('được').join(' ')+'.';
+  assert.equal(translationWordCount(text),count);
+  const validate=()=>validateQuestions([{text,answer:'请把本子放在桌子上。',explanation:'译文。'}],'translation',1);
+  if(count===10||count===15)assert.equal(validate().length,1);else assert.throws(validate,/10—15/);
+ }
+ assert.equal(translationWordCount('Hôm nay, tôi muốn mua một quyển sách mới cho bạn.'),11);
+ assert.equal(translationWordCount('Hôm nay'.normalize('NFD')),2);
+});
+test('translation uses the generated matching Chinese answer when the source sentence is expanded',()=>{
+ const target={id:'t',word:'本子',sentence:'这是本子。',options:[]};
+ const answer='今天我想给你买一个新的本子。';
+ const result=plannedQuestions('translation',[target],[{id:'t',text:'Hôm nay tôi muốn mua một quyển vở mới cho bạn.',answer}]);
+ assert.equal(result.questions[0].answer,answer);
+ assert.equal(plannedQuestions('translation',[target],[{id:'t',text:'Đây là vở.',answer}]).questions.length,0);
+});
+test('fill-in and ordering cannot reuse the same sentence or a near copy',()=>{
+ const same=order('请把本子放在办公室的桌子上。');
+ assert.equal(completedSentence(choice),same.answer);
+ assert.ok(conflictsWithPaper(same,[choice]));assert.ok(conflictsWithPaper(choice,[same]));
+ assert.ok(conflictsWithPaper(order('请把本子放在办公室的桌子上！'),[choice]));
+ assert.ok(conflictsWithPaper(order('请把本子放在办公室的桌子上面。'),[choice]));
+ assert.equal(conflictsWithPaper(order('下班以后我们一起去商店买书架。'),[choice]),false);
+});
+test('generation sends completed fill-in context, rejects overlapping orders and fills only the rejected slot',async()=>{
+ const paper={questions:[choice]};let calls=0;
+ await fillHomework(paper,{choice:1,order:2},async({count,avoid})=>{
+  assert.ok(avoid.includes(completedSentence(choice)));calls++;
+  if(calls===1)return {questions:[order(completedSentence(choice)),order('经理今天下午要和客户一起开会。')]};
+  assert.equal(count,1);return {questions:[order('下班以后我们一起去商店买书架。')]};
+ });
+ assert.equal(calls,2);assert.equal(paper.questions.length,3);
+ assert.ok(paper.questions.every(q=>!conflictsWithPaper(q,paper.questions)));
+});

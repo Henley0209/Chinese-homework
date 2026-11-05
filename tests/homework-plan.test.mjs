@@ -10,7 +10,7 @@ import worker from '../backend/conversation/worker.mjs';
 function course(folder,file){const exercise=JSON.parse(fs.readFileSync(folder+'/'+file));const related=fs.readdirSync(folder).filter(f=>/^lesson-\d+\.json$/.test(f)).map(f=>JSON.parse(fs.readFileSync(folder+'/'+f)));return {exercise,tasks:courseTasks(exercise,related)};}
 function environment(){return {HOMEWORK_VERIFY_TOKEN:Date.now()+'.'+'a'.repeat(64),ALLOWED_ORIGIN:'https://henley0209.github.io',AI:{run:async(model,params)=>{
  const input=JSON.parse(params.messages[1].content);
- return {response:{questions:input.targets.map((t,i)=>({id:t.id,text:input.targets[0].id.startsWith('translation:')?`Bản dịch ${t.id}`:t.sentence||`我们应该认真理解${t.word}的含义。`,answer:t.sentence||`我们认真理解${t.word}。`}))}};
+ return {response:{questions:input.targets.map((t,i)=>({id:t.id,text:input.targets[0].id.startsWith('translation:')?`Hôm nay tôi muốn cùng bạn tìm hiểu câu số ${input.attempt * 5 + i + 1}.`:t.sentence||`我们应该认真理解${t.word}的含义。`,answer:t.sentence||`我们认真理解${t.word}。`}))}};
  }},LIMITS:{idFromName:v=>v,get:()=>({fetch:async()=>new Response('')})}};}
 function request(env,body){return new Request('https://worker.test/homework',{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,Authorization:'Bearer '+env.HOMEWORK_VERIFY_TOKEN,'CF-Connecting-IP':'127.0.0.1','Content-Type':'application/json'},body:JSON.stringify(body)});}
 test('selected HSK4 and HSK5 courses supply enough different targets and verified readings',()=>{
@@ -23,7 +23,7 @@ test('selected HSK4 and HSK5 courses supply enough different targets and verifie
 test('real course 50-question flow survives repeated AI text and invalid batches without losing slots',async()=>{
  for(const [bank,folder,file]of [['HSK4','hsk4-40','lesson-08.json'],['HSK5','hsk5-30','lesson-11.json']]){
   const {exercise,tasks}=course(folder,file),env=environment();const original=env.AI.run;let aiCalls=0;
-  env.AI.run=async(model,params)=>{aiCalls++;const input=JSON.parse(params.messages[1].content);if(input.targets[0].id.startsWith('translation:'))return original(model,params);return {response:{questions:input.targets.map(t=>({id:t.id,text:'父母应该认真听取孩子的意见。'}))}};};
+  env.AI.run=async(model,params)=>{aiCalls++;const input=JSON.parse(params.messages[1].content);if(input.targets[0].id.startsWith('translation:'))return original(model,params);return {response:{questions:input.targets.map((t,i)=>({id:t.id,text:input.targets[0].id.startsWith('order:')&&input.attempt>6?`父母计划在周末和孩子讨论第${input.attempt*5+i}个问题。`:'父母应该认真听取孩子的意见。'}))}};};
   const counts={pinyin:15,choice:15,order:15,translation:5},paper={bank,title:exercise.title,questions:[]};
   await fillHomework(paper,counts,async batch=>{const response=await worker.fetch(request(env,{bank,title:paper.title,context:'',...batch}),env);const data=await response.json();if(!response.ok)throw Object.assign(Error(data.error),{status:response.status});return data;},{tasks});
   assert.equal(paper.questions.length,50);assert.equal(missingQuestions(paper,counts),0);assert.ok(aiCalls>0);

@@ -18,7 +18,29 @@ export function preparePinyinQuestion(q){
  if(!Array.isArray(q?.options)||![3,4].includes(q.options.length)||!['A','B','C','D'].includes(q.answer))return q;
  const correctIndex='ABCD'.indexOf(q.answer),correct=q.options[correctIndex];
  if(typeof correct!=='string'||!correct.trim())return q;
- const candidates=q.options.filter(o=>typeof o==='string'&&o.trim()&&o!==correct);
+ // Prefer fuzzy initials, keeping the original finals and tones intact.
+ const candidates=[];
+ const syllables=correct.split(/(\s+|['’])/u);
+ for(const pattern of [/^(zh|ch|sh|z|c|s)/iu,/^(n|l|f|h)/iu]){
+  for(let i=0;i<syllables.length;i++){
+   const match=syllables[i].match(pattern);if(!match)continue;
+   const pairs={z:'zh',zh:'z',c:'ch',ch:'c',s:'sh',sh:'s',n:'l',l:'n',f:'h',h:'f'};
+   const parts=[...syllables],initial=match[0],replacement=pairs[initial.toLowerCase()];
+   parts[i]=(initial[0]===initial[0].toUpperCase()?replacement[0].toUpperCase()+replacement.slice(1):replacement)+parts[i].slice(initial.length);
+   candidates.push(parts.join(''));
+  }
+  if(candidates.length>=q.options.length-1)break;
+ }
+ // If only one initial can be confused, vary its tone for a second fuzzy option.
+ if(candidates.length===1){
+  const fuzzy=candidates[0];
+  for(const tones of ['āáǎà','ēéěè','īíǐì','ōóǒò','ūúǔù','ǖǘǚǜ']){
+   const index=[...fuzzy].findIndex(c=>tones.includes(c.toLowerCase()));if(index<0)continue;
+   for(const tone of tones){const chars=[...fuzzy];chars[index]=chars[index]===chars[index].toUpperCase()?tone.toUpperCase():tone;const option=chars.join('');if(option!==fuzzy)candidates.push(option);}
+   break;
+  }
+ }
+ candidates.push(...q.options.filter(o=>typeof o==='string'&&o.trim()&&o!==correct));
  for(const tones of ['āáǎà','ēéěè','īíǐì','ōóǒò','ūúǔù','ǖǘǚǜ']){
   const index=[...correct].findIndex(c=>tones.includes(c.toLowerCase()));if(index<0)continue;
   for(const tone of tones){const chars=[...correct];chars[index]=chars[index]===chars[index].toUpperCase()?tone.toUpperCase():tone;const option=chars.join('');if(option!==correct)candidates.push(option);}
@@ -53,6 +75,26 @@ export function selectNewQuestions(value,kind,avoid=[],limit=5){
  }
  return questions;
 }
+export function translationWordCount(text){
+ return (text.match(/\p{L}[\p{L}\p{M}\p{N}]*(?:['’-][\p{L}\p{M}\p{N}]+)*|\p{N}+/gu)||[]).length;
+}
+export function completedSentence(q){
+ if(q.kind==='order')return q.answer;
+ if(q.kind==='choice'&&q.options)return q.text.replace(/[_＿]+/u,q.options['ABCD'.indexOf(q.answer)]||'');
+ return q.text;
+}
+export function sentenceOverlap(a,b){
+ const normalize=s=>s.normalize('NFKC').replace(/[^\p{L}\p{N}]/gu,'');
+ a=normalize(a);b=normalize(b);
+ if(Math.min(a.length,b.length)<6)return a===b;
+ if(a.includes(b)||b.includes(a))return true;
+ const grams=s=>new Set(Array.from({length:s.length-2},(_,i)=>s.slice(i,i+3)));
+ const left=grams(a),right=grams(b);
+ return [...left].filter(g=>right.has(g)).length/Math.min(left.size,right.size)>=.8;
+}
+export function conflictsWithPaper(q,questions){
+ return questions.some(other=>((q.kind==='order'&&other.kind==='choice')||(q.kind==='choice'&&other.kind==='order'))&&sentenceOverlap(completedSentence(q),completedSentence(other)));
+}
 export function validateQuestions(value,kind,count){
  if(!Object.hasOwn(kinds,kind)||!Array.isArray(value)||value.length!==count)throw Error('AI返回题数不正确，请重新生成。');
  const seen=new Set();
@@ -68,6 +110,7 @@ export function validateQuestions(value,kind,count){
    if(!Array.isArray(q.options)||![3,4].includes(q.options.length)||q.options.some(o=>!text(o,200))||new Set(q.options.map(o=>o.trim())).size!==q.options.length||!('ABCD'.slice(0,q.options.length)).includes(q.answer)||q.answer.length!==1)throw Error('选择题选项或答案无效。');
    result.options=q.options.map(o=>o.trim());
   }
+  if(kind==='translation'&&(translationWordCount(q.text)<10||translationWordCount(q.text)>15||/\p{Script=Han}/u.test(q.text)))throw Error('翻译题须为10—15个词的越南语句子。');
   if(kind==='order'){
    const tokens=q.text.split('/').map(t=>t.trim());
    const normalize=s=>s.replace(/[\p{P}\p{Z}\s]/gu,'');

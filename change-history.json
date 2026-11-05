@@ -1750,6 +1750,14 @@
       "changes": [
         "Repair AI translations using measured Vietnamese word counts"
       ]
+    },
+    {
+      "version": "V0218",
+      "updatedAt": "2026-11-05T12:02:34+07:00",
+      "commit": "f54449f97125b3006c89c65c6a48ff2bc361f375",
+      "changes": [
+        "Constrain repaired Vietnamese translations with a 10-to-15-word array"
+      ]
     }
   ]
 }

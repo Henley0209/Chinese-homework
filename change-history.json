@@ -1774,6 +1774,14 @@
       "changes": [
         "Deduplicate fill-ins by completed sentence and stop courseware title fallbacks"
       ]
+    },
+    {
+      "version": "V0221",
+      "updatedAt": "2026-11-06T07:46:01+07:00",
+      "commit": "e80c09a85d83f3c257321ece29be646237d52a85",
+      "changes": [
+        "Require exactly one blank and never mask pre-blanked AI sentences"
+      ]
     }
   ]
 }

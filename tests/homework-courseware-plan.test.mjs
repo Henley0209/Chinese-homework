@@ -38,6 +38,6 @@ test('screenshot 15/15/15/5 completes via actual worker target route with explic
 });
 test('one stalled question type does not block the remaining types; retries keep existing progress',async()=>{
  const paper={questions:[]};const counts={pinyin:5,choice:5};
- await assert.rejects(fillHomework(paper,counts,async({kind,count})=>({questions:kind==='pinyin'?[]:Array.from({length:count},(_,i)=>({text:`今天学习词语${i}`,options:['学习','工作','休息'],answer:'A',explanation:'选择学习。'}))})),/拼音选择题/);
+ await assert.rejects(fillHomework(paper,counts,async({kind,count})=>({questions:kind==='pinyin'?[]:Array.from({length:count},(_,i)=>({text:`今天________词语${i}`,options:['学习','工作','休息'],answer:'A',explanation:'选择学习。'}))})),/拼音选择题/);
  assert.equal(paper.questions.filter(q=>q.kind==='choice').length,5);
 });

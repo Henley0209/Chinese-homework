@@ -1,10 +1,10 @@
-import {coursewareTasks,checkCoursewareCounts} from './homework-courseware-plan.mjs?v=homework-dedup2';
+import {coursewareTasks,checkCoursewareCounts} from './homework-courseware-plan.mjs?v=homework-singleblank3';
 import {readCourseware,coursewareContext,extractChinese} from './homework-courseware.mjs?v=courseware-fix2';
-import {courseTasks} from './homework-plan.mjs?v=homework-dedup2';
-import {fillHomework,missingQuestions} from './homework-generation.mjs?v=homework-dedup2';
+import {courseTasks} from './homework-plan.mjs?v=homework-singleblank3';
+import {fillHomework,missingQuestions} from './homework-generation.mjs?v=homework-singleblank3';
 import {bankLabels,listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {kinds,validateQuestions} from './homework-core.mjs?v=homework-dedup2';
-import {makeDocx} from './homework-docx.mjs?v=homework-dedup2';
+import {kinds,validateQuestions} from './homework-core.mjs?v=homework-singleblank3';
+import {makeDocx} from './homework-docx.mjs?v=homework-singleblank3';
 export function initHomework({requireTeacher,getPassword}){
  const tools=document.querySelector('#tools');
  const section=document.createElement('section');section.className='homework-generator';

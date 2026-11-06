@@ -1,4 +1,4 @@
-import {courseTasks} from './homework-plan.mjs?v=homework-dedup2';
+import {courseTasks} from './homework-plan.mjs?v=homework-singleblank3';
 import {extractChinese} from './homework-courseware.mjs?v=courseware-fix2';
 const han=/\p{Script=Han}/u;
 const headings=/^(?:口语练习|练习|词语|生词|词汇|对话|课文|请回答下面的问题|请回答问题|汉语|中文|答案|原因)$/u;

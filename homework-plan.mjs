@@ -1,4 +1,4 @@
-import {cleanQuestionText,preparePinyinQuestion,selectNewQuestions,completedSentence} from './homework-core.mjs?v=homework-dedup2';
+import {cleanQuestionText,preparePinyinQuestion,selectNewQuestions,completedSentence} from './homework-core.mjs?v=homework-singleblank3';
 const han=s=>typeof s==='string'&&/[\p{Script=Han}]/u.test(s);
 export function courseTasks(exercise,related=[]){
  const vocabulary=new Map(),choice=[],order=[];
@@ -33,6 +33,11 @@ function optionsFor(correct,alternatives){
  const shift=Math.floor(Math.random()*3);for(let i=0;i<shift;i++)options.push(options.shift());
  return {options,answer:'ABC'[options.indexOf(correct)]};
 }
+// The model returns an unmasked sentence; only this function creates its single blank.
+function blankSentence(sentence,word){
+ if(typeof sentence!=='string'||!word||/[_＿]/u.test(sentence)||sentence.split(word).length!==2)return null;
+ return sentence.replace(word,'________');
+}
 export function referenceQuestion(kind,task){
  if(kind==='pinyin'&&task.word&&task.reading){
   let q={text:task.word,options:[task.reading,task.reading,task.reading],answer:'A',explanation:`“${task.word}”读作 ${task.reading}。`};
@@ -40,8 +45,8 @@ export function referenceQuestion(kind,task){
   return opts?{...q,...opts,source:'course-vocabulary',targetId:task.id}:null;
  }
  if(kind==='choice'&&!task.id?.startsWith('cw-')&&task.sentence&&task.word&&task.sentence.includes(task.word)){
-  const opts=optionsFor(task.word,task.options||[]);if(!opts)return null;
-  return {text:task.sentence.replace(task.word,'________'),...opts,explanation:task.explanation||`应填“${task.word}”。完整句子：${task.sentence}`,source:'course-reference',targetId:task.id};
+  const opts=optionsFor(task.word,task.options||[]),text=blankSentence(task.sentence,task.word);if(!opts||!text)return null;
+  return {text,...opts,explanation:task.explanation||`应填“${task.word}”。完整句子：${task.sentence}`,source:'course-reference',targetId:task.id};
  }
  if(kind==='order'&&task.sentence)return {text:task.sentence,answer:task.sentence,explanation:task.explanation||'按照主语、谓语、宾语和修饰语的关系排列。',source:'course-reference',targetId:task.id};
  return null;
@@ -55,9 +60,9 @@ export function plannedQuestions(kind,targets,items,avoid=[],limit=5,{referenceO
   if(item&&!referenceOnly){
    if(kind==='pinyin'&&typeof item.reading==='string')raw=referenceQuestion(kind,{...task,reading:item.reading});
    if(kind==='choice'&&typeof item.text==='string'){
-    const sentence=item.text.includes(task.word)?item.text:item.text.replace(/[_＿]+/u,task.word);
+    const sentence=item.text,text=blankSentence(sentence,task.word);
     const opts=optionsFor(task.word,task.options||[]);
-    if(opts&&sentence.includes(task.word))raw={text:sentence.replace(task.word,'________'),...opts,explanation:`应填“${task.word}”。完整句子：${sentence}`};
+    if(opts&&text)raw={text,...opts,explanation:`应填“${task.word}”。完整句子：${sentence}`};
    }
    if(kind==='order'&&han(item.text))raw={text:item.text,answer:item.text,explanation:'根据句子成分及修饰关系排列，字词不能增减。'};
    if(kind==='translation'&&typeof item.text==='string'&&!han(item.text)&&item.text.trim().length>=5&&(task.sentence||han(item.answer)))raw={text:item.text,answer:item.answer,explanation:'注意中文词序；意思相同且语法正确的译法也可得分。'};

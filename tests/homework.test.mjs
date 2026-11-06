@@ -6,7 +6,7 @@ import {makeDocx} from '../homework-docx.mjs';
 import {fillHomework,missingQuestions} from '../homework-generation.mjs';
 import worker from '../backend/conversation/worker.mjs';
 if(!globalThis.crypto)globalThis.crypto=webcrypto;
-const question=(kind,i)=>kind==='order'?{text:`我 / 今天 / 买了${i}本书`,answer:`我今天买了${i}本书。`,explanation:'按时间和动作排序。'}:kind==='translation'?{text:`Hôm nay tôi muốn mua ${i} quyển sách cho các bạn.`,answer:`我买${i}本书。`,explanation:'本是书的量词。'}:{text:`词语${i}`,options:['选项一','选项二','选项三'],answer:'B',explanation:'第二项正确。'};
+const question=(kind,i)=>kind==='order'?{text:`我 / 今天 / 买了${i}本书`,answer:`我今天买了${i}本书。`,explanation:'按时间和动作排序。'}:kind==='translation'?{text:`Hôm nay tôi muốn mua ${i} quyển sách cho các bạn.`,answer:`我买${i}本书。`,explanation:'本是书的量词。'}:{text:`词语${i}${kind==='choice'?'________':''}`,options:['选项一','选项二','选项三'],answer:'B',explanation:'第二项正确。'};
 test('validates all four kinds, count, duplicates, options and ordering tokens',()=>{
  for(const kind of ['pinyin','choice','order','translation'])assert.equal(validateQuestions([question(kind,1)],kind,1).length,1);
  assert.throws(()=>validateQuestions([], 'pinyin',5));

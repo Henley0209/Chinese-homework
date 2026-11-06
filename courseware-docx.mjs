@@ -1,4 +1,4 @@
-import {zipFiles} from './homework-docx.mjs?v=homework-dedup2';
+import {zipFiles} from './homework-docx.mjs?v=homework-singleblank3';
 import {validateCourseware} from './courseware-core.mjs?v=courseware3';
 const xml=s=>String(s).replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c])).replace(/[\x00-\x08\x0b\x0c\x0e-\x1f]/g,'');
 const colors={ink:'203B39',green:'1E5B57',orange:'B36A45',muted:'6C7B72'};

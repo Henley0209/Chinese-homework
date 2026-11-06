@@ -1,4 +1,4 @@
-import {kinds,selectNewQuestions,validateQuestions,completedSentence,conflictsWithPaper} from './homework-core.mjs?v=homework-dedup2';
+import {kinds,selectNewQuestions,validateQuestions,completedSentence,conflictsWithPaper} from './homework-core.mjs?v=homework-singleblank3';
 export function missingQuestions(paper,counts){
  return Object.entries(counts).reduce((sum,[kind,count])=>sum+Math.max(0,count-(paper?.questions.filter(q=>q.kind===kind).length||0)),0);
 }

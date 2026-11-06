@@ -118,3 +118,32 @@ test('courseware titles and classroom prompts cannot be used as reference fill-i
  const fallback=referenceQuestion('choice',{id:'cw-choice:title',word:'公司',sentence:'公司里的办公用品',options:['办公','用品']});
  assert.equal(fallback,null);
 });
+test('screenshot double blanks and zero-blank choices are rejected before export',()=>{
+ const base={...choice,text:'________室的________很齐全，包括电脑和打印机。',options:['办公','公司','用品'],answer:'A'};
+ for(const text of [base.text,'＿＿＿＿室的________很齐全。','办公室的用品很齐全。']){
+  const q={...base,text};
+  assert.throws(()=>validateQuestions([q],'choice',1),/只能有一个空/);
+  assert.deepEqual(selectNewQuestions([q],'choice'),[]);
+  assert.throws(()=>paperLines({title:'办公用品',bank:'HSK1-2',questions:[q]}),/只能有一个空/);
+ }
+ assert.equal(validateQuestions([{...base,text:'办公室的＿＿＿＿很齐全。'}],'choice',1).length,1);
+});
+test('planned fill-ins never mask a model sentence that already contains a blank',()=>{
+ const task={id:'cw-choice:office',word:'办公',sentence:'',options:['公司','用品']};
+ for(const text of ['办公室的________很齐全，包括电脑和打印机。','________室的用品很齐全。','办公用品和办公设备都在这里。']){
+  assert.deepEqual(plannedQuestions('choice',[task],[{id:task.id,text}]).questions,[]);
+ }
+ const result=plannedQuestions('choice',[task],[{id:task.id,text:'办公室的用品很齐全，包括电脑和打印机。'}]);
+ assert.equal(result.questions.length,1);
+ assert.equal((result.questions[0].text.match(/[_＿]+/gu)||[]).length,1);
+ assert.equal(referenceQuestion('choice',{...task,id:'choice:bad',sentence:'办公室的________很齐全。'}),null);
+});
+test('a double-blank AI item is discarded and only its missing slot is refilled',async()=>{
+ const paper={questions:[]};let calls=0;
+ await fillHomework(paper,{choice:1},async()=>{
+  calls++;
+  return {questions:[{...choice,text:calls===1?'请把________放在________上。':'请把________放在办公室的桌子上。'}]};
+ });
+ assert.equal(calls,2);assert.equal(paper.questions.length,1);
+ assert.equal((paper.questions[0].text.match(/[_＿]+/gu)||[]).length,1);
+});

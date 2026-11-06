@@ -114,6 +114,7 @@ export function validateQuestions(value,kind,count){
    if(!Array.isArray(q.options)||![3,4].includes(q.options.length)||q.options.some(o=>!text(o,200))||new Set(q.options.map(o=>o.trim())).size!==q.options.length||!('ABCD'.slice(0,q.options.length)).includes(q.answer)||q.answer.length!==1)throw Error('选择题选项或答案无效。');
    result.options=q.options.map(o=>o.trim());
   }
+  if(kind==='choice'&&(q.text.match(/[_＿]+/gu)||[]).length!==1)throw Error('每道填空选择题必须且只能有一个空。');
   if(kind==='translation'&&(translationWordCount(q.text)<10||translationWordCount(q.text)>15||/\p{Script=Han}/u.test(q.text)))throw Error('翻译题须为10—15个词的越南语句子。');
   if(kind==='order'){
    const tokens=q.text.split('/').map(t=>t.trim());

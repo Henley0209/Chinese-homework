@@ -1766,6 +1766,14 @@
       "changes": [
         "Compose natural Vietnamese prompts first and translate into Chinese"
       ]
+    },
+    {
+      "version": "V0220",
+      "updatedAt": "2026-11-06T07:33:41+07:00",
+      "commit": "0cd65673e527ab81a662138559eadf359adfad56",
+      "changes": [
+        "Deduplicate fill-ins by completed sentence and stop courseware title fallbacks"
+      ]
     }
   ]
 }

@@ -60,7 +60,11 @@ export function plannedQuestions(kind,targets,items,avoid=[],limit=5,{referenceO
   if(item&&!referenceOnly){
    if(kind==='pinyin'&&typeof item.reading==='string')raw=referenceQuestion(kind,{...task,reading:item.reading});
    if(kind==='choice'&&typeof item.text==='string'){
-    const sentence=item.text,text=blankSentence(sentence,task.word);
+    let sentence=item.text;
+    // A model-supplied single blank can be restored only when the target word is absent.
+    // Never restore one blank while leaving another or mask a second location.
+    if(task.word&&!sentence.includes(task.word)&&(sentence.match(/[_＿]+/gu)||[]).length===1)sentence=sentence.replace(/[_＿]+/u,task.word);
+    const text=blankSentence(sentence,task.word);
     const opts=optionsFor(task.word,task.options||[]);
     if(opts&&text)raw={text,...opts,explanation:`应填“${task.word}”。完整句子：${sentence}`};
    }

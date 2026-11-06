@@ -130,9 +130,11 @@ test('screenshot double blanks and zero-blank choices are rejected before export
 });
 test('planned fill-ins never mask a model sentence that already contains a blank',()=>{
  const task={id:'cw-choice:office',word:'办公',sentence:'',options:['公司','用品']};
- for(const text of ['办公室的________很齐全，包括电脑和打印机。','________室的用品很齐全。','办公用品和办公设备都在这里。']){
+ for(const text of ['办公室的________很齐全，包括电脑和打印机。','________室的________很齐全。','办公用品和办公设备都在这里。']){
   assert.deepEqual(plannedQuestions('choice',[task],[{id:task.id,text}]).questions,[]);
  }
+ const preblanked=plannedQuestions('choice',[task],[{id:task.id,text:'________室的用品很齐全，包括电脑和打印机。'}]);
+ assert.equal(preblanked.questions.length,1);assert.equal((preblanked.questions[0].text.match(/[_＿]+/gu)||[]).length,1);
  const result=plannedQuestions('choice',[task],[{id:task.id,text:'办公室的用品很齐全，包括电脑和打印机。'}]);
  assert.equal(result.questions.length,1);
  assert.equal((result.questions[0].text.match(/[_＿]+/gu)||[]).length,1);

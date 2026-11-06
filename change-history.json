@@ -1782,6 +1782,14 @@
       "changes": [
         "Require exactly one blank and never mask pre-blanked AI sentences"
       ]
+    },
+    {
+      "version": "V0222",
+      "updatedAt": "2026-11-06T07:49:45+07:00",
+      "commit": "932d219f1e47e5940062caebe46e9582d8800ffc",
+      "changes": [
+        "Safely normalize AI single blanks without creating additional gaps"
+      ]
     }
   ]
 }

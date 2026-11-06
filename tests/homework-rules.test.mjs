@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {preparePinyinQuestion,translationWordCount,validateQuestions,conflictsWithPaper,completedSentence} from '../homework-core.mjs';
+import {preparePinyinQuestion,translationWordCount,validateQuestions,conflictsWithPaper,completedSentence,selectNewQuestions,paperLines,questionKey} from '../homework-core.mjs';
 import {referenceQuestion,plannedQuestions} from '../homework-plan.mjs';
 import {fillHomework} from '../homework-generation.mjs';
 const choice={kind:'choice',text:'请把________放在办公室的桌子上。',options:['本子','公司','事情'],answer:'A',explanation:'应填本子。'};
@@ -79,4 +79,42 @@ test('translation repair receives actual word counts and preserves already valid
  }}};
  const result=await generatePlannedBatch(env,{bank:'HSK1-2',title:'本子',kind:'translation',count:2,targets:['a','b'].map(id=>({id,word:'本子',sentence:'这是我的本子。',options:[]})),avoid:[],attempt:0},data=>data);
  assert.equal(calls,2);assert.equal(result.questions.length,2);assert.equal(result.questions[0].text,valid.text);
+});
+
+const officeBlanks=[
+ {text:'________里的办公用品',options:['公司','办公','用品'],answer:'A'},
+ {text:'公司里的________用品',options:['公司','用品','办公'],answer:'C'},
+ {text:'公司里的办公________',options:['用品','办公','公司'],answer:'A'}
+].map(q=>({...q,kind:'choice',explanation:'办公室用品。'}));
+const lessonBlanks=[
+ {text:'这段课文________是什么事情',options:['讲的','公司','办公'],answer:'A'},
+ {text:'这段课文讲的是________事情',options:['办公','什么','公司'],answer:'B'},
+ {text:'这段课文讲的是什么________',options:['办公','事情','公司'],answer:'B'}
+].map(q=>({...q,kind:'choice',explanation:'课文内容。'}));
+test('both screenshot examples keep only one question when the blank moves',()=>{
+ for(const group of [officeBlanks,lessonBlanks]){
+  assert.equal(selectNewQuestions(group,'choice').length,1);
+  assert.throws(()=>validateQuestions(group,'choice',3),/重复题目/);
+  assert.throws(()=>paperLines({title:'公司办公用品',bank:'HSK1-2',questions:group}),/重复题目/);
+ }
+});
+test('completed sentence deduplication spans requests and preserves valid new slots',async()=>{
+ const paper={questions:[officeBlanks[0]]};let calls=0;
+ const newQuestion={kind:'choice',text:'请帮我买三张________。',options:['打印纸','电脑','胶水'],answer:'A',explanation:'打印需要纸。'};
+ await fillHomework(paper,{choice:2},async({avoid,count})=>{
+  assert.ok(avoid.includes('公司里的办公用品'));assert.equal(count,1);calls++;
+  return {questions:[calls===1?officeBlanks[1]:newQuestion]};
+ });
+ assert.equal(calls,2);assert.equal(paper.questions.length,2);
+ assert.equal(new Set(paper.questions.map(q=>questionKey(completedSentence(q),'choice'))).size,2);
+});
+test('courseware titles and classroom prompts cannot be used as reference fill-ins',async()=>{
+ const {coursewareTasks}=await import('../homework-courseware-plan.mjs');
+ const tasks=coursewareTasks('公司里的办公用品\n这段课文讲的是什么事情？\n请用打印机打印明天开会的资料。\n请把本子放在书架上。');
+ assert.ok(tasks.choice.length>0);
+ assert.ok(tasks.choice.every(t=>t.sentence===''));
+ assert.ok(tasks.choice.every(t=>!['讲的','事情','什么'].includes(t.word)));
+ for(const task of tasks.choice)assert.equal(referenceQuestion('choice',task),null);
+ const fallback=referenceQuestion('choice',{id:'cw-choice:title',word:'公司',sentence:'公司里的办公用品',options:['办公','用品']});
+ assert.equal(fallback,null);
 });

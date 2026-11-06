@@ -70,8 +70,8 @@ export function selectNewQuestions(value,kind,avoid=[],limit=5){
  const seen=new Set(avoid.map(text=>questionKey(text,kind))),questions=[];
  for(const raw of value){
   let q;try{let normalized=normalizeQuestion(raw);if(kind==='order'){try{validateQuestions([normalized],kind,1);}catch{normalized=prepareOrderQuestion(normalized);}}if(kind==='pinyin')normalized=preparePinyinQuestion(normalized);[q]=validateQuestions([normalized],kind,1);}catch{continue;}
-  const key=questionKey(q.text,kind);if(seen.has(key))continue;
-  seen.add(key);questions.push(q);if(questions.length===limit)break;
+  const key=questionKey(kind==='choice'?completedSentence(q):q.text,kind),stem=questionKey(q.text,kind);if(seen.has(key)||seen.has(stem))continue;
+  seen.add(key);seen.add(stem);questions.push(q);if(questions.length===limit)break;
  }
  return questions;
 }
@@ -93,7 +93,11 @@ export function sentenceOverlap(a,b){
  return [...left].filter(g=>right.has(g)).length/Math.min(left.size,right.size)>=.8;
 }
 export function conflictsWithPaper(q,questions){
- return questions.some(other=>((q.kind==='order'&&other.kind==='choice')||(q.kind==='choice'&&other.kind==='order'))&&sentenceOverlap(completedSentence(q),completedSentence(other)));
+ return questions.some(other=>{
+  if(other===q)return false;
+  if(q.kind==='choice'&&other.kind==='choice')return questionKey(completedSentence(q),'choice')===questionKey(completedSentence(other),'choice')||questionKey(q.text,'choice')===questionKey(other.text,'choice');
+  return ((q.kind==='order'&&other.kind==='choice')||(q.kind==='choice'&&other.kind==='order'))&&sentenceOverlap(completedSentence(q),completedSentence(other));
+ });
 }
 export function validateQuestions(value,kind,count){
  if(!Object.hasOwn(kinds,kind)||!Array.isArray(value)||value.length!==count)throw Error('AI返回题数不正确，请重新生成。');
@@ -102,7 +106,7 @@ export function validateQuestions(value,kind,count){
   const q=normalizeQuestion(raw);
   const text=(v,max=600)=>typeof v==='string'&&v.trim()&&v.length<=max;
   if(!text(q?.text)||!text(q.answer)||!text(q.explanation))throw Error('题目或参考答案不完整。');
-  const key=questionKey(q.text,kind);if(seen.has(key))throw Error('AI返回重复题目，请重新生成。');seen.add(key);
+  const key=questionKey(kind==='choice'?completedSentence({...q,kind}):q.text,kind),stem=questionKey(q.text,kind);if(seen.has(key)||seen.has(stem))throw Error('AI返回重复题目，请重新生成。');seen.add(key);seen.add(stem);
   const result={kind,text:q.text.trim(),answer:q.answer.trim(),explanation:q.explanation.trim()};
   if(['ai','course-vocabulary','course-reference'].includes(q.source))result.source=q.source;
   if(typeof q.targetId==='string'&&q.targetId.length<=100)result.targetId=q.targetId;

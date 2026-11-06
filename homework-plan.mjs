@@ -1,4 +1,4 @@
-import {cleanQuestionText,preparePinyinQuestion,selectNewQuestions} from './homework-core.mjs?v=homework-rules1';
+import {cleanQuestionText,preparePinyinQuestion,selectNewQuestions,completedSentence} from './homework-core.mjs?v=homework-dedup2';
 const han=s=>typeof s==='string'&&/[\p{Script=Han}]/u.test(s);
 export function courseTasks(exercise,related=[]){
  const vocabulary=new Map(),choice=[],order=[];
@@ -39,7 +39,7 @@ export function referenceQuestion(kind,task){
   q=preparePinyinQuestion(q);const opts=optionsFor(task.reading,[...q.options,...(task.options||[])]);
   return opts?{...q,...opts,source:'course-vocabulary',targetId:task.id}:null;
  }
- if(kind==='choice'&&task.sentence&&task.word&&task.sentence.includes(task.word)){
+ if(kind==='choice'&&!task.id?.startsWith('cw-')&&task.sentence&&task.word&&task.sentence.includes(task.word)){
   const opts=optionsFor(task.word,task.options||[]);if(!opts)return null;
   return {text:task.sentence.replace(task.word,'________'),...opts,explanation:task.explanation||`应填“${task.word}”。完整句子：${task.sentence}`,source:'course-reference',targetId:task.id};
  }
@@ -48,7 +48,7 @@ export function referenceQuestion(kind,task){
 }
 export function plannedQuestions(kind,targets,items,avoid=[],limit=5,{referenceOnly=false}={}){
  const questions=[];let rejected=0;
- const add=raw=>{const [q]=selectNewQuestions([raw],kind,[...avoid,...questions.map(q=>q.text)],1);if(q)questions.push(q);return Boolean(q);};
+ const add=raw=>{const [q]=selectNewQuestions([raw],kind,[...avoid,...questions.map(q=>kind==='choice'?completedSentence(q):q.text)],1);if(q)questions.push(q);return Boolean(q);};
  for(let index=0;index<targets.length&&questions.length<limit;index++){
   const task=targets[index];
   const item=items.find(q=>q?.id===task.id)||items[index];let raw=null;

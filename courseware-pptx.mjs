@@ -1,4 +1,4 @@
-import {zipFiles} from './homework-docx.mjs?v=courseware2';
+import {zipFiles} from './homework-docx.mjs?v=homework-dedup2';
 import {coursewareSlides} from './courseware-core.mjs?v=courseware2';
 const nsA='http://schemas.openxmlformats.org/drawingml/2006/main',nsP='http://schemas.openxmlformats.org/presentationml/2006/main',nsR='http://schemas.openxmlformats.org/officeDocument/2006/relationships';
 const xml=s=>String(s).replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));

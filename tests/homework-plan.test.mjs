@@ -23,7 +23,7 @@ test('selected HSK4 and HSK5 courses supply enough different targets and verifie
 test('real course 50-question flow survives repeated AI text and invalid batches without losing slots',async()=>{
  for(const [bank,folder,file]of [['HSK4','hsk4-40','lesson-08.json'],['HSK5','hsk5-30','lesson-11.json']]){
   const {exercise,tasks}=course(folder,file),env=environment();const original=env.AI.run;let aiCalls=0;
-  env.AI.run=async(model,params)=>{aiCalls++;const input=JSON.parse(params.messages[1].content);if(input.targets[0].id.startsWith('translation:'))return original(model,params);return {response:{questions:input.targets.map((t,i)=>({id:t.id,text:input.targets[0].id.startsWith('order:')&&input.attempt>6?`父母计划在周末和孩子讨论第${input.attempt*5+i}个问题。`:'父母应该认真听取孩子的意见。'}))}};};
+  env.AI.run=async(model,params)=>{aiCalls++;const input=JSON.parse(params.messages[1].content);if(input.targets[0].id.startsWith('translation:'))return original(model,params);return {response:{questions:input.targets.map((t,i)=>({id:t.id,text:input.targets[0].id.startsWith('choice')&&input.attempt>3?`第${input.attempt*5+i}位学生认真学习${t.word}的意思。`:input.targets[0].id.startsWith('order:')&&input.attempt>6?`父母计划在周末和孩子讨论第${input.attempt*5+i}个问题。`:'父母应该认真听取孩子的意见。'}))}};};
   const counts={pinyin:15,choice:15,order:15,translation:5},paper={bank,title:exercise.title,questions:[]};
   await fillHomework(paper,counts,async batch=>{const response=await worker.fetch(request(env,{bank,title:paper.title,context:'',...batch}),env);const data=await response.json();if(!response.ok)throw Object.assign(Error(data.error),{status:response.status});return data;},{tasks});
   assert.equal(paper.questions.length,50);assert.equal(missingQuestions(paper,counts),0);assert.ok(aiCalls>0);

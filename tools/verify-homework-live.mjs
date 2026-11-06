@@ -3,12 +3,17 @@ import {coursewareContext,extractChinese} from '../homework-courseware.mjs';
 import fs from 'node:fs';
 import {courseTasks} from '../homework-plan.mjs';
 import {fillHomework,missingQuestions} from '../homework-generation.mjs';
-import {validateQuestions} from '../homework-core.mjs';
+import {validateQuestions,completedSentence,questionKey} from '../homework-core.mjs';
 const token=process.env.HOMEWORK_VERIFY_TOKEN;
 if(!token)throw Error('Missing temporary homework verification token');
 const config=JSON.parse(fs.readFileSync('conversation-config.json','utf8'));
 const endpoint=new URL(config.endpoint);endpoint.pathname='/homework';endpoint.search='';
 const counts={pinyin:15,choice:15,order:15,translation:5};
+function verifyUniqueFillIns(paper){
+ const questions=paper.questions.filter(q=>q.kind==='choice');
+ if(new Set(questions.map(q=>questionKey(completedSentence(q),'choice'))).size!==questions.length)throw Error('Repeated completed fill-in sentence');
+}
+
 // Secret updates propagate across Worker isolates; retry only temporary readiness failures.
 async function verificationFetch(url,options){
  for(let attempt=0;;attempt++){
@@ -36,6 +41,7 @@ for(const [bank,folder,file]of [['HSK4','hsk4-40','lesson-08.json'],['HSK5','hsk
  },{tasks:courseTasks(exercise,related)});
  if(missingQuestions(paper,counts)!==0||paper.questions.length!==50)throw Error('Incomplete live homework');
  for(const [kind,count]of Object.entries(counts))validateQuestions(paper.questions.filter(q=>q.kind===kind),kind,count);
+ verifyUniqueFillIns(paper);
  const ai=paper.questions.filter(q=>q.source==='ai').length,reference=paper.questions.filter(q=>q.source==='course-reference').length;
  if(paper.questions.filter(q=>q.kind==='translation'&&q.source==='ai').length!==5)throw Error('Live translation generation did not complete');
  console.log(JSON.stringify({bank,title:paper.title,total:paper.questions.length,requests,ai,reference,vocabulary:paper.questions.filter(q=>q.source==='course-vocabulary').length}));
@@ -54,5 +60,6 @@ for(const [bank,folder,file]of [['HSK4','hsk4-40','lesson-08.json'],['HSK5','hsk
  },{tasks});
  if(paper.questions.length!==50||missingQuestions(paper,counts))throw Error('Incomplete local courseware homework');
  for(const [kind,count]of Object.entries(counts))validateQuestions(paper.questions.filter(q=>q.kind===kind),kind,count);
+ verifyUniqueFillIns(paper);
  console.log(JSON.stringify({source:'bilingual-local-courseware',total:paper.questions.length,requests,counts}));
 }

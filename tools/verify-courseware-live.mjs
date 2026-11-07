@@ -12,7 +12,7 @@ async function request(batch){
   const response=await fetch(endpoint,{method:'POST',signal:AbortSignal.timeout(70000),headers:{Origin:'https://henley0209.github.io','Content-Type':'application/json',Authorization:'Bearer '+token},body:JSON.stringify(batch)});
   const data=await response.json();
   if(response.status===401&&i<4){await new Promise(r=>setTimeout(r,4000));continue;}
-  if(!response.ok){const e=Error(data.error||'HTTP '+response.status);e.status=response.status;throw e;}
+  if(!response.ok){if(data.diagnostic){fs.mkdirSync('work',{recursive:true});fs.writeFileSync('work/courseware-invalid-'+batch.phase+'-'+(batch.attempt||0)+'.json',JSON.stringify(data.diagnostic,null,2));}const e=Error(data.error||'HTTP '+response.status);e.status=response.status;throw e;}
   return data.part;
  }
 }

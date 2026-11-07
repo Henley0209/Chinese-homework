@@ -1,5 +1,5 @@
 import {zipFiles} from './homework-docx.mjs?v=homework-singleblank3';
-import {validateCourseware,coursewareBrand,coursewareLabel} from './courseware-core.mjs?v=courseware5';
+import {validateCourseware,coursewareBrand,coursewareLabel} from './courseware-core.mjs?v=courseware6';
 const xml=s=>String(s).replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c])).replace(/[\x00-\x08\x0b\x0c\x0e-\x1f]/g,'');
 const colors={ink:'573D2A',green:'E77D19',orange:'F58B24',muted:'766A60'};
 function paragraph(text,{size=20,color=colors.ink,bold=false,after=60,before=0,keep=false,center=false,pageBreak=false,lang='zh-CN'}={}){

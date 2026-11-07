@@ -1,5 +1,5 @@
 import {zipFiles} from './homework-docx.mjs?v=homework-singleblank3';
-import {coursewareSlides,coursewareBrand,coursewareLabel} from './courseware-core.mjs?v=courseware5';
+import {coursewareSlides,coursewareBrand,coursewareLabel} from './courseware-core.mjs?v=courseware6';
 const nsA='http://schemas.openxmlformats.org/drawingml/2006/main',nsP='http://schemas.openxmlformats.org/presentationml/2006/main',nsR='http://schemas.openxmlformats.org/officeDocument/2006/relationships';
 const xml=s=>String(s).replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
 const emu=n=>Math.round(n*914400),palette={ink:'573D2A',green:'E77D19',orange:'F58B24',muted:'766A60',paper:'FFFCF5',line:'F2DDC0'};

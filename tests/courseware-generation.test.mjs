@@ -40,6 +40,21 @@ test('courseware API checks origin, teacher access, bounds, quota and every gene
  quota=false;assert.equal((await worker.fetch(request(),env)).status,429);quota=true;
  const parts=fixtureParts();
  for(const phase of coursewarePhases){part=parts[phase];const res=await worker.fetch(request({phase,overview:parts.overview}),env);assert.equal(res.status,200,phase);validateCoursewarePart(phase,(await res.json()).part);}
+ // Reproduce the reported overview/length failure, then recover each field.
+ const normalRun=env.AI.run;let recoveryCalls=0;
+ env.AI.run=async(_model,params)=>{
+  recoveryCalls++;
+  const keys=Object.keys(params.response_format.json_schema.properties);
+  if(keys.length>1)return {choices:[{finish_reason:'length',message:{content:'{"title":'}}]};
+  assert.match(params.messages.at(-1).content,new RegExp(keys[0]));
+  return {choices:[{finish_reason:'stop',message:{content:JSON.stringify({[keys[0]]:parts.overview[keys[0]]})}}]};
+ };
+ const recovered=await worker.fetch(request(),env);assert.equal(recovered.status,200);
+ assert.deepEqual((await recovered.json()).part,parts.overview);assert.equal(recoveryCalls,5);
+ // Recurring truncation must stay bounded and must not invent a valid lesson.
+ recoveryCalls=0;env.AI.run=async()=>{recoveryCalls++;return {choices:[{finish_reason:'length',message:{content:'{"title":'}}]};};
+ assert.equal((await worker.fetch(request(),env)).status,502);assert.equal(recoveryCalls,2);
+ env.AI.run=normalRun;
  part={};assert.equal((await worker.fetch(request(),env)).status,502);
  const noAI={...env,AI:null};assert.equal((await worker.fetch(request(),noAI)).status,503);
  const old=env.COURSEWARE_VERIFY_TOKEN=(Date.now()-900001)+'.'+'a'.repeat(64);

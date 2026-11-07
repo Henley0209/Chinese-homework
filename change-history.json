@@ -1790,6 +1790,14 @@
       "changes": [
         "Safely normalize AI single blanks without creating additional gaps"
       ]
+    },
+    {
+      "version": "V0223",
+      "updatedAt": "2026-11-07T07:25:17Z",
+      "commit": "256a347bca08dd154b4f27dac2af79c2a34b4ca1",
+      "changes": [
+        "Upgrade textbook-style courseware and enable branded PPT downloads"
+      ]
     }
   ]
 }

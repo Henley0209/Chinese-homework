@@ -252,7 +252,28 @@
       "roles": {
         "A": "小明",
         "B": "小安"
-      }
+      },
+      "grammar": [
+        {
+          "title": {
+            "zh": "你叫什么名字？",
+            "vi": "Hỏi tên",
+            "pinyin": ""
+          },
+          "items": [
+            {
+              "zh": "你叫什么名字？",
+              "vi": "Bạn tên là gì?",
+              "pinyin": "Nǐ jiào shénme míngzi?"
+            },
+            {
+              "zh": "我叫小明。",
+              "vi": "Tôi tên là Tiểu Minh.",
+              "pinyin": "Wǒ jiào Xiǎomíng."
+            }
+          ]
+        }
+      ]
     },
     {
       "title": {
@@ -497,7 +518,122 @@
         "A": "小安",
         "B": "李老师",
         "C": "小文"
-      }
+      },
+      "grammar": [
+        {
+          "title": {
+            "zh": "你姓什么？",
+            "vi": "Hỏi họ",
+            "pinyin": ""
+          },
+          "items": [
+            {
+              "zh": "你姓什么？",
+              "vi": "Bạn họ gì?",
+              "pinyin": "Nǐ xìng shénme?"
+            },
+            {
+              "zh": "我姓王。",
+              "vi": "Tôi họ Vương.",
+              "pinyin": "Wǒ xìng Wáng."
+            },
+            {
+              "zh": "“姓”介绍姓氏；“叫”可介绍名字或全名。",
+              "vi": "“姓” dùng cho họ; “叫” dùng để giới thiệu tên hoặc họ tên.",
+              "pinyin": ""
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "objectives": [
+    {
+      "zh": "能询问姓名并介绍自己。",
+      "vi": "Biết hỏi tên và tự giới thiệu.",
+      "pinyin": ""
+    },
+    {
+      "zh": "能区分“你叫什么名字？”和“你姓什么？”。",
+      "vi": "Phân biệt cách hỏi tên và hỏi họ.",
+      "pinyin": ""
+    }
+  ],
+  "warmup": {
+    "title": {
+      "zh": "热身：认识新朋友",
+      "vi": "Khởi động: Làm quen",
+      "pinyin": ""
+    },
+    "items": [
+      {
+        "zh": "看图：两位同学如何介绍姓名？",
+        "vi": "Nhìn tranh: Hai bạn giới thiệu tên thế nào?",
+        "pinyin": ""
+      },
+      {
+        "zh": "说一说：我叫____。你叫什么名字？",
+        "vi": "Hãy nói: Tôi tên là ____. Bạn tên là gì?",
+        "pinyin": ""
+      }
+    ],
+    "scene": 1
+  },
+  "communication": {
+    "title": {
+      "zh": "交际任务：介绍新同学",
+      "vi": "Giao tiếp: Giới thiệu bạn mới",
+      "pinyin": ""
+    },
+    "items": [
+      {
+        "zh": "问同伴的姓名和姓氏，然后向全班介绍。",
+        "vi": "Hỏi tên, họ của bạn rồi giới thiệu trước lớp.",
+        "pinyin": ""
+      },
+      {
+        "zh": "参考：他／她叫____，姓____。",
+        "vi": "Gợi ý: Bạn ấy tên là ____, họ ____.",
+        "pinyin": ""
+      }
+    ]
+  },
+  "culture": {
+    "title": {
+      "zh": "文化小窗口",
+      "vi": "Góc văn hóa",
+      "pinyin": ""
+    },
+    "items": [
+      {
+        "zh": "中文姓名通常姓在前，名在后。",
+        "vi": "Trong họ tên tiếng Trung, họ thường đứng trước tên.",
+        "pinyin": ""
+      },
+      {
+        "zh": "初次见面可以说“很高兴认识你”。",
+        "vi": "Khi mới gặp, có thể nói “Rất vui được làm quen với bạn”.",
+        "pinyin": ""
+      }
+    ]
+  },
+  "homework": {
+    "title": {
+      "zh": "课后任务",
+      "vi": "Bài tập về nhà",
+      "pinyin": ""
+    },
+    "items": [
+      {
+        "zh": "和同伴录一段问候与姓名问答。",
+        "vi": "Ghi âm hội thoại chào hỏi và hỏi tên cùng bạn.",
+        "pinyin": ""
+      },
+      {
+        "zh": "写三句话介绍自己。",
+        "vi": "Viết ba câu giới thiệu bản thân.",
+        "pinyin": ""
+      }
+    ]
+  }
 }

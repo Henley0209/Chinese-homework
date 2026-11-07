@@ -1,32 +1,51 @@
 import {zipFiles} from './homework-docx.mjs?v=homework-singleblank3';
-import {coursewareSlides} from './courseware-core.mjs?v=courseware2';
+import {coursewareSlides,coursewareBrand} from './courseware-core.mjs?v=courseware4';
 const nsA='http://schemas.openxmlformats.org/drawingml/2006/main',nsP='http://schemas.openxmlformats.org/presentationml/2006/main',nsR='http://schemas.openxmlformats.org/officeDocument/2006/relationships';
 const xml=s=>String(s).replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
-const emu=n=>Math.round(n*914400),palette={ink:'203B39',green:'1E5B57',orange:'B36A45',muted:'6C7B72',paper:'FAF7F0',line:'E2E5D9'};
+const emu=n=>Math.round(n*914400),palette={ink:'573D2A',green:'E77D19',orange:'F58B24',muted:'766A60',paper:'FFFCF5',line:'F2DDC0'};
 const group='<p:nvGrpSpPr><p:cNvPr id="1" name=""/><p:cNvGrpSpPr/><p:nvPr/></p:nvGrpSpPr><p:grpSpPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="0" cy="0"/><a:chOff x="0" y="0"/><a:chExt cx="0" cy="0"/></a:xfrm></p:grpSpPr>';
 const transform=(x,y,w,h)=>`<a:xfrm><a:off x="${emu(x)}" y="${emu(y)}"/><a:ext cx="${emu(w)}" cy="${emu(h)}"/></a:xfrm>`;
 function slideXml(deck,slide,index,total){
  let shapes='',id=2;
  const box=(x,y,w,h,fill='FFFFFF',line=fill)=>{shapes+=`<p:sp><p:nvSpPr><p:cNvPr id="${id++}" name="Card"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr>${transform(x,y,w,h)}<a:prstGeom prst="roundRect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="${fill}"/></a:solidFill><a:ln w="9000"><a:solidFill><a:srgbClr val="${line}"/></a:solidFill></a:ln></p:spPr></p:sp>`;};
- const text=(value,x,y,w,h,size=14,color=palette.ink,bold=false,align='l')=>{shapes+=`<p:sp><p:nvSpPr><p:cNvPr id="${id++}" name="${xml(String(value).slice(0,30))}"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr><p:spPr>${transform(x,y,w,h)}<a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr wrap="square" lIns="0" rIns="0" tIns="0" bIns="0" anchor="ctr"/><a:lstStyle/>${String(value).split('\n').map(line=>`<a:p><a:pPr algn="${align}"><a:buNone/></a:pPr><a:r><a:rPr lang="zh-CN" sz="${Math.round(size*100)}" b="${bold?1:0}"><a:solidFill><a:srgbClr val="${color}"/></a:solidFill><a:latin typeface="Arial"/><a:ea typeface="Microsoft YaHei"/><a:cs typeface="Arial"/></a:rPr><a:t>${xml(line)}</a:t></a:r><a:endParaRPr lang="zh-CN" sz="${Math.round(size*100)}"/></a:p>`).join('')}</p:txBody></p:sp>`;};
- const triple=(t,x,y,w,{py=12,zh=22,vi=12,center=false,gap=.27}={})=>{const align=center?'ctr':'l';text(t.pinyin,x,y,w,.22,py,palette.orange,false,align);text(t.zh.replaceAll('____','（　　）'),x,y+gap,w,.36,zh,palette.ink,true,align);text(t.vi,x,y+gap+.39,w,.37,vi,palette.muted,false,align);};
+ const text=(value,x,y,w,h,size=14,color=palette.ink,bold=false,align='l')=>{shapes+=`<p:sp><p:nvSpPr><p:cNvPr id="${id++}" name="${xml(String(value).slice(0,30))}"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr><p:spPr>${transform(x,y,w,h)}<a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr wrap="square" lIns="0" rIns="0" tIns="0" bIns="0" anchor="t"><a:normAutofit/></a:bodyPr><a:lstStyle/>${String(value).split('\n').map(line=>`<a:p><a:pPr algn="${align}"><a:buNone/></a:pPr><a:r><a:rPr lang="zh-CN" sz="${Math.round(size*100)}" b="${bold?1:0}"><a:solidFill><a:srgbClr val="${color}"/></a:solidFill><a:latin typeface="Arial"/><a:ea typeface="Microsoft YaHei"/><a:cs typeface="Arial"/></a:rPr><a:t>${xml(line)}</a:t></a:r><a:endParaRPr lang="zh-CN" sz="${Math.round(size*100)}"/></a:p>`).join('')}</p:txBody></p:sp>`;};
+ const triple=(t,x,y,w,h=1.45)=>{
+  const hasPinyin=Boolean(t.pinyin),pyH=hasPinyin?h*.27:0,zhH=h*(hasPinyin?.34:.5);
+  if(hasPinyin)text(t.pinyin,x,y,w,pyH,12,palette.orange);
+  text(t.zh.replaceAll('____','（　　）'),x,y+pyH,w,zhH,20,palette.ink,true);
+  text(t.vi,x,y+pyH+zhH+.04,w,h-pyH-zhH-.04,12,palette.muted);
+ };
  const image=(scene,x,y,w,h)=>{const col=scene%3,row=Math.floor(scene/3);shapes+=`<p:pic><p:nvPicPr><p:cNvPr id="${id++}" name="Dialogue scene ${scene+1}"/><p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr><p:nvPr/></p:nvPicPr><p:blipFill><a:blip r:embed="rId2"/><a:srcRect l="${Math.round(col/3*100000)}" r="${Math.round((2-col)/3*100000)}" t="${row*50000}" b="${(1-row)*50000}"/><a:stretch><a:fillRect/></a:stretch></p:blipFill><p:spPr>${transform(x,y,w,h)}<a:prstGeom prst="rect"><a:avLst/></a:prstGeom></p:spPr></p:pic>`;};
- text(`HSK1–2  /  主题 ${String(deck.number).padStart(2,'0')}`,.6,.25,6,.2,9,'658079');text('Tiếng Trung Cô Nga',9.1,.25,3.6,.2,9,'658079',false,'r');
- text('拼音 → 汉字 → Tiếng Việt',.6,7.07,8,.2,8,'7E8C83');text(`${index+1} / ${total}`,11.2,7.07,1.5,.2,8,'7E8C83',false,'r');
+ box(0,0,13.333,.09,palette.orange);
+ text(`HSK1–2 / 第${String(deck.number).padStart(2,'0')}课`,.6,.25,5,.3,10,palette.muted);
+ text(coursewareBrand,7.05,.25,5.7,.3,10,palette.muted,false,'r');
+ text(coursewareBrand,.6,7.08,10,.25,9,palette.muted);
+ text(`${index+1} / ${total}`,11.2,7.08,1.5,.25,9,palette.muted,false,'r');
+ const heading=value=>text(value,.6,.85,12.1,.7,24,palette.orange,true);
  if(slide.type==='cover'){
-  text('从一句话，开始交流',.65,1.05,6.3,.3,15,palette.green);
-  text(deck.title.pinyin,.65,2.0,6.4,.4,23,palette.orange);text(deck.title.zh,.65,2.65,6.6,1.05,deck.number===2?35:42,palette.green,true);text(deck.title.vi,.65,3.95,6.6,.55,24,palette.muted);
-  text('2组对话 × 300字   /   20个生词   /   10道填空',.65,5.3,6.6,.4,13,palette.green);text(deck.difficulty,.65,5.9,6.6,.3,12,palette.muted);image(slide.scene,8.0,1.25,4.65,4.65);
+  text(deck.title.pinyin,.65,1.8,7,.7,23,palette.orange);
+  text(deck.title.zh,.65,2.6,7,1.1,36,palette.ink,true);
+  text(deck.title.vi,.65,3.8,7,1.0,24,palette.muted);
+  text('目标 · 热身 · 课文 · 生词 · 语法 · 练习',.65,5.15,7,.7,16,palette.orange);
+  text(deck.difficulty,.65,6.05,7,.5,13,palette.muted);image(slide.scene,8.3,1.6,4.3,4.3);
+ }else if(slide.type==='lesson'){
+  heading(slide.title.zh+' / '+slide.title.vi);
+  const illustrated=slide.scene!==undefined,w=illustrated?8.1:11.8;
+  if(illustrated)image(slide.scene,9.4,2.05,3.2,3.2);
+  const step=4.95/slide.items.length;
+  slide.items.forEach((item,i)=>triple(item,.75,1.8+i*step,w,Math.min(2.1,step-.15)));
  }else if(slide.type==='dialogue'){
-  image(slide.scene,.6,1.35,3.1,3.1);triple(slide.title,.6,4.85,3.1,{py:11,zh:19,vi:11});text(Object.entries(slide.roles).map(([id,name])=>`${id} · ${name}`).join('  /  '),.6,6.15,3.1,.5,10,palette.muted);text(`对话 ${slide.groupIndex+1} · 300字 · ${slide.page}/${slide.pages}`,.6,.8,5,.3,13,palette.green,true);
-  slide.turns.forEach((turn,i)=>{const y=1.0+i*1.12;box(4.05,y+.28,.27,.27,'E7EBE0');text(turn.speaker,4.05,y+.28,.27,.27,9,palette.green,true,'ctr');triple(turn,4.48,y,8.15,{py:10.5,zh:18.5,vi:11,gap:.23});});
+  heading(`课文 ${slide.groupIndex+1} / Bài khóa ${slide.groupIndex+1} · ${slide.page}/${slide.pages}`);
+  image(slide.scene,.6,1.9,3.1,3.1);triple(slide.title,.6,5.2,3.1,1.3);
+  const step=4.95/slide.turns.length;
+  slide.turns.forEach((turn,i)=>{const y=1.8+i*step;text(slide.roles[turn.speaker],4.0,y,1,.35,11,palette.orange,true);triple(turn,5.0,y,7.65,Math.min(3.4,step-.12));});
  }else if(slide.type==='vocabulary'){
-  text(`生词 · 10个  /  对话 ${slide.groupIndex+1}`,.6,.8,12,.5,25,palette.green,true);
-  slide.words.forEach((word,i)=>{const x=.6+(i%5)*2.46,y=1.75+Math.floor(i/5)*2.35;box(x,y,2.26,2.02,'FFFFFF','E6E3D9');triple(word,x+.12,y+.38,2.02,{py:13,zh:25,vi:12,center:true,gap:.36});});
- }else{
-  text(`填空练习 · 5题  /  对话 ${slide.groupIndex+1}`,.6,.8,12,.45,25,palette.green,true);
-  box(.6,1.47,12.1,.85,'EAF0E6');const bank=[...slide.exercises].reverse();bank.forEach((e,i)=>triple(e.answer,.78+i*2.38,1.53,2.12,{py:9,zh:15,vi:9,center:true,gap:.18}));
-  slide.exercises.forEach((e,i)=>{const y=2.55+i*.82;text(String(i+1).padStart(2,'0'),.8,y+.2,.5,.3,14,palette.orange,true);triple(e,1.52,y,10.95,{py:10.5,zh:18,vi:11,gap:.18});});
+  heading(`生词 / Từ mới · ${slide.page}/${slide.pages}`);
+  slide.words.forEach((word,i)=>{const y=1.8+i*.98;box(.65,y,12,.9,'FFFFFF','F2DDC0');text(word.zh,.85,y+.18,2,.5,24,palette.ink,true);text(word.pinyin,3.0,y+.2,2.6,.5,15,palette.orange);text(word.pos||'',5.7,y+.2,1.3,.5,12,palette.muted);text(word.vi,7.15,y+.14,5.2,.64,16,palette.muted);});
+ }else if(slide.type==='exercise'){
+  heading(`填空练习 / Điền từ · ${slide.groupIndex+1}`);
+  box(.65,1.6,12,.65,'FFF0DB');text([...slide.exercises].reverse().map(e=>e.answer.zh).join('　 /　 '),.85,1.74,11.6,.4,18,palette.orange);
+  slide.exercises.forEach((e,i)=>{const y=2.45+i*.84;text(String(i+1),.75,y,.4,.4,16,palette.orange,true);triple(e,1.3,y,11.2,.79);});
  }
  return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?><p:sld xmlns:a="${nsA}" xmlns:r="${nsR}" xmlns:p="${nsP}"><p:cSld><p:bg><p:bgPr><a:solidFill><a:srgbClr val="${palette.paper}"/></a:solidFill><a:effectLst/></p:bgPr></p:bg><p:spTree>${group}${shapes}</p:spTree></p:cSld><p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr></p:sld>`;
 }

@@ -252,7 +252,28 @@
       "roles": {
         "A": "小安",
         "B": "李老师"
-      }
+      },
+      "grammar": [
+        {
+          "title": {
+            "zh": "我叫……",
+            "vi": "Giới thiệu tên",
+            "pinyin": ""
+          },
+          "items": [
+            {
+              "zh": "我叫小明。",
+              "vi": "Tôi tên là Tiểu Minh.",
+              "pinyin": "Wǒ jiào Xiǎomíng."
+            },
+            {
+              "zh": "你叫什么名字？",
+              "vi": "Bạn tên là gì?",
+              "pinyin": "Nǐ jiào shénme míngzi?"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": {
@@ -496,7 +517,117 @@
       "roles": {
         "A": "小明",
         "B": "小安"
-      }
+      },
+      "grammar": [
+        {
+          "title": {
+            "zh": "你呢？",
+            "vi": "Còn bạn thì sao?",
+            "pinyin": ""
+          },
+          "items": [
+            {
+              "zh": "我很好，你呢？",
+              "vi": "Tôi khỏe, còn bạn?",
+              "pinyin": "Wǒ hěn hǎo, nǐ ne?"
+            },
+            {
+              "zh": "用“你呢？”把同一个问题问对方。",
+              "vi": "Dùng “你呢？” để hỏi lại cùng một câu hỏi.",
+              "pinyin": ""
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "objectives": [
+    {
+      "zh": "能用“你好”问候，并用“再见”告别。",
+      "vi": "Biết chào hỏi và chào tạm biệt.",
+      "pinyin": ""
+    },
+    {
+      "zh": "能介绍姓名，完成简短的初次见面对话。",
+      "vi": "Giới thiệu tên và thực hiện hội thoại làm quen.",
+      "pinyin": ""
+    }
+  ],
+  "warmup": {
+    "title": {
+      "zh": "热身：见面怎么说？",
+      "vi": "Khởi động: Chào hỏi",
+      "pinyin": ""
+    },
+    "items": [
+      {
+        "zh": "看图：老师和学生见面时会说什么？",
+        "vi": "Nhìn tranh: Cô giáo và học sinh chào nhau thế nào?",
+        "pinyin": ""
+      },
+      {
+        "zh": "两人问答：你好！你叫什么名字？",
+        "vi": "Làm theo cặp: Chào bạn! Bạn tên là gì?",
+        "pinyin": ""
+      }
+    ],
+    "scene": 0
+  },
+  "communication": {
+    "title": {
+      "zh": "交际任务：第一次见面",
+      "vi": "Giao tiếp: Lần đầu gặp",
+      "pinyin": ""
+    },
+    "items": [
+      {
+        "zh": "两人一组：问候、介绍姓名，再告别。",
+        "vi": "Làm theo cặp: chào hỏi, giới thiệu tên, rồi tạm biệt.",
+        "pinyin": ""
+      },
+      {
+        "zh": "交换角色，不看课文再说一次。",
+        "vi": "Đổi vai và nói lại mà không nhìn bài.",
+        "pinyin": ""
+      }
+    ]
+  },
+  "culture": {
+    "title": {
+      "zh": "文化小窗口",
+      "vi": "Góc văn hóa",
+      "pinyin": ""
+    },
+    "items": [
+      {
+        "zh": "中文姓名通常姓在前，名在后。",
+        "vi": "Trong họ tên tiếng Trung, họ thường đứng trước tên.",
+        "pinyin": ""
+      },
+      {
+        "zh": "初次见面可以说“很高兴认识你”。",
+        "vi": "Khi mới gặp, có thể nói “Rất vui được làm quen với bạn”.",
+        "pinyin": ""
+      }
+    ]
+  },
+  "homework": {
+    "title": {
+      "zh": "课后任务",
+      "vi": "Bài tập về nhà",
+      "pinyin": ""
+    },
+    "items": [
+      {
+        "zh": "和同伴录一段问候与姓名问答。",
+        "vi": "Ghi âm hội thoại chào hỏi và hỏi tên cùng bạn.",
+        "pinyin": ""
+      },
+      {
+        "zh": "写三句话介绍自己。",
+        "vi": "Viết ba câu giới thiệu bản thân.",
+        "pinyin": ""
+      }
+    ]
+  }
 }

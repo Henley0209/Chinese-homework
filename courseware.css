@@ -2,3 +2,22 @@
 .cw-exercises{top:32%;bottom:10%;gap:0;grid-template-rows:repeat(5,minmax(0,1fr))}.cw-exercise .cw-pinyin{font-size:1cqw}.cw-exercise .cw-hanzi{font-size:1.6cqw}.cw-exercise .cw-vietnamese,.cw-exercise .cw-answer{font-size:.95cqw}
 
 .cw-role-legend{font-size:.9cqw;color:#638074;line-height:1.7;margin-top:1.2cqw}
+
+/* Textbook palette and shared lesson modules. */
+.courseware-slide{background:#fffcf5;color:#573d2a;border-top:5px solid #f58b24}
+.cw-eyebrow,.cw-footer{color:#766a60;font-size:.95cqw;letter-spacing:0}
+.cw-cover .cw-hanzi,.cw-section-heading{color:#e77d19}
+.cw-pinyin{color:#bf691b}.cw-vietnamese{color:#766a60}
+.cw-section-heading{top:11%;right:4.5%;font-size:2cqw;line-height:1.35}
+.cw-dialogue-turns{left:37%;top:24%;bottom:11%;grid-template-rows:none;grid-auto-rows:1fr;gap:1cqw}
+.cw-turn{padding-left:3.8cqw;border-color:#f2ddc0}.cw-speaker{width:3.4cqw;height:auto;background:#fff0db;font:600 1cqw/1.5 Arial,'Microsoft YaHei',sans-serif;top:22%;border-radius:.4cqw}
+.cw-turn .cw-pinyin{font-size:1.05cqw}.cw-turn .cw-hanzi{font-size:1.65cqw}.cw-turn .cw-vietnamese{font-size:1.05cqw}
+.cw-dialogue-art{top:25%;width:26%}.cw-dialogue-caption{top:73%;width:27%}
+.cw-vocabulary-grid{top:24%;bottom:12%;grid-template-columns:1fr;grid-template-rows:repeat(5,1fr);gap:.65cqw}
+.cw-word{display:grid;grid-template-columns:2.3fr 2fr 4fr;text-align:left;padding:.6cqw 1.3cqw;border-color:#f2ddc0;border-radius:.5cqw;align-items:center}
+.cw-word .cw-pinyin{grid-column:2;grid-row:1;font-size:1.3cqw}.cw-word .cw-hanzi{grid-column:1;grid-row:1;font-size:2cqw}.cw-word .cw-vietnamese{grid-column:3;grid-row:1;font-size:1.3cqw}
+.cw-word-bank{background:#fff0db;top:23%}.cw-exercises{top:39%;bottom:12%}
+.cw-lesson-content{position:absolute;top:26%;left:6%;right:6%;bottom:12%;display:flex;flex-direction:column;justify-content:space-evenly;gap:1.4cqw}
+.cw-lesson-item{border-left:.3cqw solid #f58b24;padding:.6cqw 1.2cqw;background:#fff8eb}
+.cw-lesson-item .cw-pinyin:empty{display:none}.cw-lesson-item .cw-hanzi{font-size:1.75cqw;line-height:1.45}.cw-lesson-item .cw-vietnamese{font-size:1.3cqw;line-height:1.5;margin-top:.4cqw}
+.cw-lesson-art{position:absolute;top:28%;right:5%;width:28%;aspect-ratio:1}.cw-lesson-illustrated{right:36%}

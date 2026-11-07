@@ -1846,6 +1846,14 @@
       "changes": [
         "Recover truncated courseware overviews with bounded field generation"
       ]
+    },
+    {
+      "version": "V0230",
+      "updatedAt": "2026-11-07T09:45:44Z",
+      "commit": "fd13376df90aaf804dba6f63a0038eb3d9997394",
+      "changes": [
+        "Correct courseware pinyin from Chinese text in preview and exports"
+      ]
     }
   ]
 }

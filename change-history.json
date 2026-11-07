@@ -1830,6 +1830,14 @@
       "changes": [
         "Keep prior-lesson context compact and allow validated complete AI JSON"
       ]
+    },
+    {
+      "version": "V0228",
+      "updatedAt": "2026-11-07T07:55:38Z",
+      "commit": "fe34873d952e73f79c33b5a4eec809205f8ca71e",
+      "changes": [
+        "Verify courseware bank overviews with the same bounded retries as the UI"
+      ]
     }
   ]
 }

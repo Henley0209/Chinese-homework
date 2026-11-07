@@ -1,5 +1,5 @@
 import {zipFiles} from './homework-docx.mjs?v=homework-singleblank3';
-import {coursewareSlides,coursewareBrand} from './courseware-core.mjs?v=courseware4';
+import {coursewareSlides,coursewareBrand,coursewareLabel} from './courseware-core.mjs?v=courseware5';
 const nsA='http://schemas.openxmlformats.org/drawingml/2006/main',nsP='http://schemas.openxmlformats.org/presentationml/2006/main',nsR='http://schemas.openxmlformats.org/officeDocument/2006/relationships';
 const xml=s=>String(s).replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c]));
 const emu=n=>Math.round(n*914400),palette={ink:'573D2A',green:'E77D19',orange:'F58B24',muted:'766A60',paper:'FFFCF5',line:'F2DDC0'};
@@ -15,9 +15,9 @@ function slideXml(deck,slide,index,total){
   text(t.zh.replaceAll('____','（　　）'),x,y+pyH,w,zhH,20,palette.ink,true);
   text(t.vi,x,y+pyH+zhH+.04,w,h-pyH-zhH-.04,12,palette.muted);
  };
- const image=(scene,x,y,w,h)=>{const col=scene%3,row=Math.floor(scene/3);shapes+=`<p:pic><p:nvPicPr><p:cNvPr id="${id++}" name="Dialogue scene ${scene+1}"/><p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr><p:nvPr/></p:nvPicPr><p:blipFill><a:blip r:embed="rId2"/><a:srcRect l="${Math.round(col/3*100000)}" r="${Math.round((2-col)/3*100000)}" t="${row*50000}" b="${(1-row)*50000}"/><a:stretch><a:fillRect/></a:stretch></p:blipFill><p:spPr>${transform(x,y,w,h)}<a:prstGeom prst="rect"><a:avLst/></a:prstGeom></p:spPr></p:pic>`;};
+ const image=(scene,x,y,w,h)=>{if(!Number.isInteger(scene)){box(x,y,w,h,'FFF0DB');text(coursewareLabel(deck),x+.25,y+.5,w-.5,.6,23,palette.orange,true);text(deck.title.zh,x+.25,y+1.3,w-.5,h-1.5,24,palette.ink,true);return;}const col=scene%3,row=Math.floor(scene/3);shapes+=`<p:pic><p:nvPicPr><p:cNvPr id="${id++}" name="Dialogue scene ${scene+1}"/><p:cNvPicPr><a:picLocks noChangeAspect="1"/></p:cNvPicPr><p:nvPr/></p:nvPicPr><p:blipFill><a:blip r:embed="rId2"/><a:srcRect l="${Math.round(col/3*100000)}" r="${Math.round((2-col)/3*100000)}" t="${row*50000}" b="${(1-row)*50000}"/><a:stretch><a:fillRect/></a:stretch></p:blipFill><p:spPr>${transform(x,y,w,h)}<a:prstGeom prst="rect"><a:avLst/></a:prstGeom></p:spPr></p:pic>`;};
  box(0,0,13.333,.09,palette.orange);
- text(`HSK1–2 / 第${String(deck.number).padStart(2,'0')}课`,.6,.25,5,.3,10,palette.muted);
+ text(`${coursewareLabel(deck)} / 第${String(deck.number).padStart(2,'0')}课`,.6,.25,5,.3,10,palette.muted);
  text(coursewareBrand,7.05,.25,5.7,.3,10,palette.muted,false,'r');
  text(coursewareBrand,.6,7.08,10,.25,9,palette.muted);
  text(`${index+1} / ${total}`,11.2,7.08,1.5,.25,9,palette.muted,false,'r');

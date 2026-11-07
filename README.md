@@ -13,11 +13,17 @@ AI作业规则：拼音干扰项优先使用z/zh、s/sh、c/ch等模糊音；填
 
 ### 教材式课件与 PPT 下载
 
-教师工具 → **AI 设计课件**：当前开放 HSK1–2 前三个预制主题，按“目标 → 热身 → 课文／生词 → 语法讲解 → 练习 → 交际／文化 → 课后任务”展示。第03课《我是越南人》使用新版初级对话，不再按300字凑长。预览、学生讲义 Word 与可编辑 PPT 共用课程数据；所有页面含 `Tiếng Trung Cô Nga -Zalo:0966795638` 页眉页脚。学生讲义不包含参考答案；网页填空答案默认隐藏，教师可切换显示。此入口仍为预制课件，未接入任意主题的在线 AI 生成。
+教师工具 → **AI 设计课件**：支持 HSK1–2、HSK3、HSK4、HSK5、日常交际和汉语工厂六类题库，共210个正式主题及已发布的演示／补充练习。前三个已校对的HSK1–2课件直接加载，其余主题首次按需调用AI生成；不是预先制作了210份文件。
 
-- **下载学生讲义 Word**：A4纵向，包含三语课文、词表和练习，可在 Word/WPS 修改、打印。
-- **下载PPT 课件**：16:9横向，拼音／汉字／越南语文本可编辑；预览窗口中也可下载。
-- 其他题库或未开放主题会禁用预览和下载，不会导出错误主题。
-- 课件数据位于 `courseware/data/`；新版支持目标、热身、语法、理解题、综合练习、交际、文化及作业模块。`courseware-core.mjs` 负责验证和展示分页，Word保持纵向连续排版。
+统一结构为“学习目标 → 热身 → 两组课文／生词 → 语法讲解／理解题 → 填空与综合练习 → 交际／文化 → 课后任务”。所有课件使用橙色教材风格，提供拼音、中文、越南语。页眉页脚均显示 `Tiếng Trung Cô Nga -Zalo:0966795638`，不使用“小语课堂”栏目名。
 
-验证：`node --test tests/courseware.test.mjs tests/homework.test.mjs tests/roles-and-exercises.test.mjs tests/release-refresh.test.mjs`。浏览器集成验证在本地静态服务器启动后运行 `node tests/courseware-browser.cjs`（需要 Playwright 和 Chromium；可设置 `COURSEWARE_BASE_URL`、`CHROMIUM_PATH`）。
+- **生成 / 预览课件**：四步生成目标热身、课文一、课文二和课后模块，实时显示进度；取消或暂时失败后，可在当前页面继续已完成的部分。
+- **下载学生讲义 Word**：A4纵向，可编辑、打印；首次直接点击下载也会先生成课件。
+- **下载PPT 课件**：16:9横向，可编辑文字；预览窗口中也可下载。题库和课号与所选主题对应。
+- 当前页面缓存已生成结果，重复预览／下载不会重复调用AI。刷新页面或退出教师身份会清除生成缓存；请及时下载。密码只随经过教师验证的生成请求发送，不写入草稿或文件。
+- AI生成的拼音、越南语、语法和练习需教师核对后使用。未配置AI、额度不足或验证失败会显示具体错误，不会用其他主题的课件冒充。
+- 三个已校对课件使用现有情境插图；新生成主题使用主题文字卡片，不把教室图冒充工厂、医疗等主题配图。此版本不自动生成新插画。
+
+`courseware-core.mjs` 管理共享数据与分页；`courseware-generation.mjs` 负责四步验证、恢复与组装。后端 `/courseware` 在现有Cloudflare Worker中运行，复用教师验证及独立课件额度，拒绝不完整栏目和错误填空答案。
+
+验证：`node --test tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/homework.test.mjs tests/roles-and-exercises.test.mjs tests/release-refresh.test.mjs`。浏览器集成测试：启动静态服务器后运行 `node tests/courseware-browser.cjs`（需要Playwright和Chromium，可设置 `COURSEWARE_BASE_URL`、`CHROMIUM_PATH`）。部署工作流使用临时凭据验证真实AI生成，再自动删除验证凭据。

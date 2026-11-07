@@ -21,3 +21,4 @@
 .cw-lesson-item{border-left:.3cqw solid #f58b24;padding:.6cqw 1.2cqw;background:#fff8eb}
 .cw-lesson-item .cw-pinyin:empty{display:none}.cw-lesson-item .cw-hanzi{font-size:1.75cqw;line-height:1.45}.cw-lesson-item .cw-vietnamese{font-size:1.3cqw;line-height:1.5;margin-top:.4cqw}
 .cw-lesson-art{position:absolute;top:28%;right:5%;width:28%;aspect-ratio:1}.cw-lesson-illustrated{right:36%}
+.cw-theme-card{background:#fff0db;border:1px solid #f2ddc0;border-radius:2cqw;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1.5cqw;color:#ad631d;padding:1cqw;text-align:center;font-size:1.1cqw}.cw-theme-card strong{font-size:2.6cqw;color:#e77d19}

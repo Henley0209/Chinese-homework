@@ -1,30 +1,56 @@
 import {listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {coursewareBanks,coursewareLevels,pilotIds,coursewareBrand,validateCourseware,coursewareSlides} from './courseware-core.mjs?v=courseware4';
-import {makeCoursewareDocx} from './courseware-docx.mjs?v=courseware4';
-import {makeCoursewarePptx} from './courseware-pptx.mjs?v=courseware4';
+import {coursewareBanks,coursewareLevels,pilotIds,coursewareLabel,coursewareBrand,validateCourseware,coursewareSlides} from './courseware-core.mjs?v=courseware5';
+import {makeCoursewareDocx} from './courseware-docx.mjs?v=courseware5';
+import {makeCoursewarePptx} from './courseware-pptx.mjs?v=courseware5';
+import {coursewareSource,fillCourseware,phaseLabels} from './courseware-generation.mjs?v=courseware5';
 const node=(tag,text,cls)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;};
 function triple(t){const root=node('div');for(const [key,cls,lang]of [['pinyin','cw-pinyin','zh-Latn'],['zh','cw-hanzi','zh-Hans'],['vi','cw-vietnamese','vi']]){const line=node('div',t[key],cls);line.lang=lang;root.append(line);}return root;}
-function art(scene,cls){const image=node('div',undefined,'cw-scene '+cls);image.style.backgroundPosition=`${(scene%3)*50}% ${Math.floor(scene/3)*100}%`;image.setAttribute('role','img');image.setAttribute('aria-label',['师生在教室门口问候','同学在书桌前介绍姓名','中越同学看地球仪介绍国籍','同学在校园挥手告别','老师向同学介绍新朋友','师生看家庭照片交流生活'][scene]);return image;}
-export function initCourseware({requireTeacher}){
+function art(scene,cls){if(!Number.isInteger(scene)){const card=node('div',undefined,'cw-theme-card '+cls);card.append(node('span','中文 × Tiếng Việt'),node('strong','情境交流'),node('span','Giao tiếp theo chủ đề'));return card;}const image=node('div',undefined,'cw-scene '+cls);image.style.backgroundPosition=`${(scene%3)*50}% ${Math.floor(scene/3)*100}%`;image.setAttribute('role','img');image.setAttribute('aria-label',['师生在教室门口问候','同学在书桌前介绍姓名','中越同学看地球仪介绍国籍','同学在校园挥手告别','老师向同学介绍新朋友','师生看家庭照片交流生活'][scene]);return image;}
+export function initCourseware({requireTeacher,getPassword=()=>''}){
  const tools=document.querySelector('#tools'),button=document.querySelector('#design-courseware');if(!tools||!button)return;
  const section=node('section',undefined,'courseware-designer');section.id='courseware-designer';section.hidden=true;
- section.innerHTML='<h3>AI 设计课件</h3><p class="courseware-pilot-note">教材式课件：学习目标 → 热身 → 课文与生词 → 语法讲解 → 课堂练习 → 交际与课后任务。提供拼音、汉字、越南语及品牌页眉页脚。当前开放 HSK1-2 前三个预制主题。</p><label>题库<select data-cw-bank></select></label><p data-cw-level class="note"></p><label>练习题 / 课件主题<select data-cw-exercise></select></label><div class="courseware-actions"><button type="button" class="primary" data-cw-preview>预览课件</button><button type="button" class="quiet" data-cw-download>下载学生讲义 Word</button><button type="button" class="quiet" data-cw-pptx>下载PPT 课件</button></div><p data-cw-status class="courseware-status" role="status" aria-live="polite"></p>';
+ section.innerHTML='<h3>AI 设计课件</h3><p class="courseware-pilot-note">教材式课件：学习目标 → 热身 → 课文与生词 → 语法讲解 → 课堂练习 → 交际与课后任务。提供拼音、汉字、越南语及品牌页眉页脚。六类题库均可按所选主题生成，前三个已校对课件直接加载。其余主题首次需分四步生成；生成后请核对内容再使用。</p><label>题库<select data-cw-bank></select></label><p data-cw-level class="note"></p><label>练习题 / 课件主题<select data-cw-exercise></select></label><div class="courseware-actions"><button type="button" class="primary" data-cw-preview>生成 / 预览课件</button><button type="button" class="quiet" data-cw-download>下载学生讲义 Word</button><button type="button" class="quiet" data-cw-pptx>下载PPT 课件</button><button type="button" class="quiet" data-cw-cancel hidden>取消生成</button></div><p data-cw-status class="courseware-status" role="status" aria-live="polite"></p>';
  tools.append(section);const $=s=>section.querySelector(s),bank=$('[data-cw-bank]'),exercise=$('[data-cw-exercise]'),status=$('[data-cw-status]');
- const cache=new Map();let busy=false;
+ const cache=new Map(),drafts=new Map();let busy=false,controller=null;
  for(const [id,label]of Object.entries(coursewareBanks)){const option=node('option',label);option.value=id;bank.append(option);}
  bank.value='hsk1-2';
- function controls(){const ready=bank.value==='hsk1-2'&&pilotIds.includes(exercise.value);bank.disabled=busy;exercise.disabled=busy;for(const selector of ['[data-cw-preview]','[data-cw-download]','[data-cw-pptx]'])$(selector).disabled=!ready||busy;}
- function selection(){controls();const ready=bank.value==='hsk1-2'&&pilotIds.includes(exercise.value);$('[data-cw-level]').textContent='难度安排：'+coursewareLevels[bank.value]+'，随主题逐步递进。';status.textContent=ready?'课件已就绪：可预览、下载学生讲义 Word 或 PPT 课件。':'当前主题暂未开放；本次先验证 HSK1-2 前三个主题。';}
- function targets(){const previous=exercise.value;exercise.replaceChildren();for(const e of listExercises(bank.value)){const option=node('option',e.exercise.title+(pilotIds.includes(e.id)?' · 试用课件已就绪':''));option.value=e.id;exercise.append(option);}if([...exercise.options].some(o=>o.value===previous))exercise.value=previous;else if(bank.value==='hsk1-2'&&[...exercise.options].some(o=>o.value===pilotIds[0]))exercise.value=pilotIds[0];selection();}
+ function controls(){const ready=listExercises(bank.value).some(e=>e.id===exercise.value);bank.disabled=busy;exercise.disabled=busy;for(const selector of ['[data-cw-preview]','[data-cw-download]','[data-cw-pptx]'])$(selector).disabled=!ready||busy;$('[data-cw-cancel]').hidden=!busy||!controller;}
+ function selection(){controls();const ready=listExercises(bank.value).some(e=>e.id===exercise.value);$('[data-cw-level]').textContent='难度安排：'+coursewareLevels[bank.value]+'，随主题逐步递进。';status.textContent=ready?(pilotIds.includes(exercise.value)?'已校对课件：可直接预览或下载。':'选择生成／预览，或直接下载。首次生成分四步，完成后可重复下载；中断后可继续。'):'请选择课件主题。';}
+ function targets(){const previous=exercise.value;exercise.replaceChildren();for(const e of listExercises(bank.value)){const option=node('option',e.exercise.title+(pilotIds.includes(e.id)?' · 已校对课件':''));option.value=e.id;exercise.append(option);}if([...exercise.options].some(o=>o.value===previous))exercise.value=previous;else if(bank.value==='hsk1-2'&&[...exercise.options].some(o=>o.value===pilotIds[0]))exercise.value=pilotIds[0];selection();}
  bank.addEventListener('change',targets);exercise.addEventListener('change',selection);subscribe(targets);targets();
- button.onclick=()=>{try{requireTeacher();section.hidden=!section.hidden;button.setAttribute('aria-expanded',String(!section.hidden));if(!section.hidden)section.scrollIntoView({block:'start',behavior:'smooth'});}catch(e){status.textContent=e.message;}};
- async function load(){requireTeacher();const id=exercise.value;if(!pilotIds.includes(id))throw Error('请先选择前三个试用主题。');if(!cache.has(id)){const response=await fetch(`courseware/data/${id}.json?v=courseware4`);if(!response.ok)throw Error('课件加载失败，请稍后重试。');cache.set(id,validateCourseware(await response.json()));}requireTeacher();return cache.get(id);}
+ button.onclick=()=>{try{requireTeacher();section.hidden=!section.hidden;button.setAttribute('aria-expanded',String(!section.hidden));if(!section.hidden)section.scrollIntoView({block:'start',behavior:'smooth'});}catch(e){status.textContent=e.name==='AbortError'?'已暂停，已完成的栏目保留，可再次点击继续。':e.message;}};
+ function selected(){const entry=listExercises(bank.value).find(e=>e.id===exercise.value);return {entry,source:coursewareSource(entry,bank.value)};}
+ async function load(){
+  requireTeacher();const {source}=selected(),key=JSON.stringify(source);
+  if(cache.has(key))return cache.get(key);
+  controller=new AbortController();controls();const signal=controller.signal;
+  try{
+   let value;
+   if(pilotIds.includes(source.id)&&source.bank==='hsk1-2'){
+    const response=await fetch(`courseware/data/${source.id}.json?v=courseware5`,{signal});if(!response.ok)throw Error('课件加载失败，请稍后重试。');value=validateCourseware(await response.json());
+   }else{
+    const response=await fetch('./conversation-config.json',{signal,cache:'no-store'});if(!response.ok)throw Error('AI配置读取失败。');
+    const config=await response.json(),url=new URL(config.endpoint);if(url.protocol!=='https:')throw Error('AI服务地址无效。');url.pathname='/courseware';url.search='';url.hash='';
+    if(!drafts.has(key))drafts.set(key,{});const parts=drafts.get(key);
+    value=await fillCourseware(source,parts,async batch=>{
+     requireTeacher();const timeout=AbortSignal.timeout(70000),combined=AbortSignal.any([signal,timeout]);
+     const result=await fetch(url,{method:'POST',signal:combined,headers:{'Content-Type':'application/json'},body:JSON.stringify({...batch,password:getPassword()})});
+     let data;try{data=await result.json();}catch{throw Error('AI服务暂未返回有效内容，请稍后继续生成。');}
+     if(!result.ok){const error=Error(data.error||'课件生成失败，请稍后重试。');error.status=result.status;throw error;}
+     requireTeacher();return data.part;
+    },{signal,onProgress:({phase,done})=>{status.textContent=`正在生成 ${done+1}/4：${phaseLabels[phase]}… 完成后请核对拼音、译文和答案。`;}});
+   }
+   requireTeacher();if(signal.aborted)throw new DOMException('已取消生成','AbortError');cache.set(key,value);drafts.delete(key);return value;
+  }finally{controller=null;controls();}
+ }
+ $('[data-cw-cancel]').onclick=()=>{controller?.abort();status.textContent='已取消，已完成的栏目保留，可再次点击继续生成。';};
+ tools.addEventListener('close',()=>controller?.abort());
  const viewer=node('dialog',undefined,'courseware-viewer');viewer.id='courseware-viewer';viewer.setAttribute('aria-label','三语教学课件预览');
  viewer.innerHTML='<div class="courseware-toolbar"><strong data-cw-view-title></strong><div><button type="button" data-cw-fullscreen>全屏展示</button> <button type="button" data-cw-close>返回教师工具 ×</button></div></div><div class="courseware-stage-wrap"><div class="courseware-slide" data-cw-stage></div></div><div class="courseware-controls"><button type="button" data-cw-prev>← 上一页</button><span class="courseware-progress" data-cw-progress role="status" aria-live="polite"></span><button type="button" data-cw-next>下一页 →</button><button type="button" data-cw-answers>显示答案</button><button type="button" data-cw-view-download>下载 Word</button><button type="button" data-cw-view-pptx>下载PPT 课件</button></div>';
  document.body.append(viewer);const v=s=>viewer.querySelector(s);let deck=null,slides=[],page=0,answers=false;
  function render(){
   const slide=slides[page],stage=v('[data-cw-stage]');stage.replaceChildren();stage.setAttribute('aria-label',`${deck.title.zh}，第${page+1}页`);
-  const header=node('div',undefined,'cw-eyebrow');header.append(node('span',`HSK1–2 / 主题 ${String(deck.number).padStart(2,'0')}`),node('span',coursewareBrand));stage.append(header);
+  const header=node('div',undefined,'cw-eyebrow');header.append(node('span',`${coursewareLabel(deck)} / 主题 ${String(deck.number).padStart(2,'0')}`),node('span',coursewareBrand));stage.append(header);
   const footer=node('div',undefined,'cw-footer');footer.append(node('span',coursewareBrand),node('span',`${page+1} / ${slides.length}`));stage.append(footer);
   if(slide.type==='cover'){
    const title=triple(deck.title);title.className='cw-cover';const meta=node('div',undefined,'cw-cover-meta');meta.append(node('div','目标 · 热身 · 课文 · 生词 · 语法 · 练习'),node('div',deck.difficulty));title.append(meta);stage.append(title,art(slide.scene,'cw-cover-art'));
@@ -50,11 +76,11 @@ export function initCourseware({requireTeacher}){
  v('[data-cw-fullscreen]').onclick=async()=>{try{if(document.fullscreenElement===viewer)await document.exitFullscreen();else await viewer.requestFullscreen();}catch{v('[data-cw-view-title]').textContent=deck.title.zh+' · 当前浏览器不支持全屏，可直接预览。';}};
  viewer.addEventListener('keydown',event=>{if(event.key==='ArrowRight'){event.preventDefault();move(1);}if(event.key==='ArrowLeft'){event.preventDefault();move(-1);}});
  viewer.addEventListener('close',()=>{if(document.fullscreenElement===viewer)void document.exitFullscreen();});
- async function download(value,format='docx'){requireTeacher();const blob=await (format==='pptx'?makeCoursewarePptx(value):makeCoursewareDocx(value));requireTeacher();const url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download=`HSK1-2-第${String(value.number).padStart(2,'0')}课-${value.title.zh.replace(/[\\/:*?"<>|]/g,'')}.${format}`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
- $('[data-cw-preview]').onclick=async()=>{if(busy)return;busy=true;selection();status.textContent='正在读取三语课件…';try{deck=await load();slides=coursewareSlides(deck);page=0;answers=false;v('[data-cw-view-title]').textContent=`HSK1-2 第${deck.number}课 · ${deck.title.zh}`;render();viewer.showModal();status.textContent='课件已就绪，可使用左右方向键翻页。手机建议横屏查看。';}catch(e){status.textContent=e.message;}finally{busy=false;controls();}};
- $('[data-cw-download]').onclick=async()=>{if(busy)return;busy=true;selection();status.textContent='正在打包 Word 课件…';try{await download(await load());status.textContent='Word课件已下载，可用 Word 或 WPS 编辑、打印。';}catch(e){status.textContent=e.message;}finally{busy=false;controls();}};
- $('[data-cw-pptx]').onclick=async()=>{if(busy)return;busy=true;controls();status.textContent='正在打包 PPT 课件…';try{await download(await load(),'pptx');status.textContent='PPT课件已下载，可用 PowerPoint 或 WPS 编辑、投屏。';}catch(e){status.textContent=e.message;}finally{busy=false;controls();}};
+ async function download(value,format='docx'){requireTeacher();const blob=await (format==='pptx'?makeCoursewarePptx(value):makeCoursewareDocx(value));requireTeacher();const url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download=`${coursewareLabel(value)}-第${String(value.number).padStart(2,'0')}课-${value.title.zh.replace(/[\\/:*?"<>|]/g,'')}.${format}`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+ $('[data-cw-preview]').onclick=async()=>{if(busy)return;busy=true;selection();status.textContent='正在读取三语课件…';try{deck=await load();slides=coursewareSlides(deck);page=0;answers=false;v('[data-cw-view-title]').textContent=`${coursewareLabel(deck)} 第${deck.number}课 · ${deck.title.zh}`;render();viewer.showModal();status.textContent='课件已就绪，可使用左右方向键翻页。手机建议横屏查看。';}catch(e){status.textContent=e.name==='AbortError'?'已暂停，已完成的栏目保留，可再次点击继续。':e.message;}finally{busy=false;controls();}};
+ $('[data-cw-download]').onclick=async()=>{if(busy)return;busy=true;selection();status.textContent='正在打包 Word 课件…';try{await download(await load());status.textContent='Word课件已下载，可用 Word 或 WPS 编辑、打印。';}catch(e){status.textContent=e.name==='AbortError'?'已暂停，已完成的栏目保留，可再次点击继续。':e.message;}finally{busy=false;controls();}};
+ $('[data-cw-pptx]').onclick=async()=>{if(busy)return;busy=true;controls();status.textContent='正在打包 PPT 课件…';try{await download(await load(),'pptx');status.textContent='PPT课件已下载，可用 PowerPoint 或 WPS 编辑、投屏。';}catch(e){status.textContent=e.name==='AbortError'?'已暂停，已完成的栏目保留，可再次点击继续。':e.message;}finally{busy=false;controls();}};
  v('[data-cw-view-pptx]').onclick=async()=>{const control=v('[data-cw-view-pptx]');control.disabled=true;try{await download(deck,'pptx');}catch(e){v('[data-cw-view-title]').textContent=e.message;}finally{control.disabled=false;}};
  v('[data-cw-view-download]').onclick=async()=>{const control=v('[data-cw-view-download]');control.disabled=true;try{await download(deck);}catch(e){v('[data-cw-view-title]').textContent=e.message;}finally{control.disabled=false;}};
- document.querySelector('#user-role').addEventListener('change',()=>{section.hidden=true;button.setAttribute('aria-expanded','false');if(viewer.open)viewer.close();});
+ document.querySelector('#user-role').addEventListener('change',()=>{controller?.abort();cache.clear();drafts.clear();section.hidden=true;button.setAttribute('aria-expanded','false');if(viewer.open)viewer.close();});
 }

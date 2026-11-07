@@ -1,5 +1,5 @@
 import {zipFiles} from './homework-docx.mjs?v=homework-singleblank3';
-import {validateCourseware,coursewareBrand} from './courseware-core.mjs?v=courseware4';
+import {validateCourseware,coursewareBrand,coursewareLabel} from './courseware-core.mjs?v=courseware5';
 const xml=s=>String(s).replace(/[<>&"']/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;',"'":'&apos;'}[c])).replace(/[\x00-\x08\x0b\x0c\x0e-\x1f]/g,'');
 const colors={ink:'573D2A',green:'E77D19',orange:'F58B24',muted:'766A60'};
 function paragraph(text,{size=20,color=colors.ink,bold=false,after=60,before=0,keep=false,center=false,pageBreak=false,lang='zh-CN'}={}){
@@ -9,6 +9,7 @@ function triple(t,{prefix='',center=false,title=false,compact=false}={}){
  return (t.pinyin?paragraph(prefix+t.pinyin,{size:title?28:19,color:colors.orange,after:20,keep:true,center,lang:'en-US'}):'')+paragraph(t.zh.replaceAll('____','（　　）'),{size:title?46:compact?24:24,color:title?colors.green:colors.ink,bold:true,after:20,keep:true,center})+paragraph(t.vi,{size:title?28:19,color:colors.muted,after:compact?50:110,center,lang:'vi-VN'});
 }
 function illustration(scene,id){
+ if(!Number.isInteger(scene))return '';
  const col=scene%3,row=Math.floor(scene/3),size=2377440;
  return `<w:p><w:pPr><w:keepNext/><w:jc w:val="center"/><w:spacing w:after="120"/></w:pPr><w:r><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0"><wp:extent cx="${size}" cy="${size}"/><wp:docPr id="${id}" name="Dialogue scene ${scene+1}" descr="与本组对话相关的课堂情境图"/><wp:cNvGraphicFramePr><a:graphicFrameLocks noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic><pic:nvPicPr><pic:cNvPr id="${id}" name="scenes.png"/><pic:cNvPicPr/></pic:nvPicPr><pic:blipFill><a:blip r:embed="rIdImage"/><a:srcRect l="${Math.round(col/3*100000)}" r="${Math.round((2-col)/3*100000)}" t="${row*50000}" b="${(1-row)*50000}"/><a:stretch><a:fillRect/></a:stretch></pic:blipFill><pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="${size}" cy="${size}"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></w:r></w:p>`;
 }
@@ -20,7 +21,7 @@ function vocabularyTable(words){
 export async function makeCoursewareDocx(value,{imageBytes}={}){
  const deck=validateCourseware(value);
  if(!imageBytes){const response=await fetch(deck.image);if(!response.ok)throw Error('课件图片读取失败，请稍后重试。');imageBytes=new Uint8Array(await response.arrayBuffer());}
- let body=paragraph(`HSK1-2 · 第${String(deck.number).padStart(2,'0')}课`,{size:20,color:colors.green,bold:true,center:true,keep:true})+triple(deck.title,{center:true,title:true})+paragraph('学习目标 · 热身 · 课文 · 生词 · 语法讲解 · 练习',{size:19,color:colors.muted,center:true,after:120});
+ let body=paragraph(`${coursewareLabel(deck)} · 第${String(deck.number).padStart(2,'0')}课`,{size:20,color:colors.green,bold:true,center:true,keep:true})+triple(deck.title,{center:true,title:true})+paragraph('学习目标 · 热身 · 课文 · 生词 · 语法讲解 · 练习',{size:19,color:colors.muted,center:true,after:120});
  const lesson=block=>paragraph(block.title.zh+' / '+block.title.vi,{size:28,color:colors.green,bold:true,keep:true,before:180,after:100})+(block.scene!==undefined?illustration(block.scene,50+deck.groups.length):'')+block.items.map(item=>triple(item)).join('');
  if(deck.objectives)body+=lesson({title:{zh:'学习目标',vi:'Mục tiêu'},items:deck.objectives});
  if(deck.warmup)body+=lesson(deck.warmup);

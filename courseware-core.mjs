@@ -1,11 +1,12 @@
 export const coursewareBanks={'hsk1-2':'HSK1-2','hsk3':'HSK3','hsk4':'HSK4','hsk5':'HSK5','daily':'日常交际','factory':'汉语工厂'};
 export const coursewareLevels={'hsk1-2':'从问候、短句到基础情境表达','hsk3':'从日常叙述到连贯表达','hsk4':'从情境交流到说明、比较与讨论','hsk5':'从复杂叙述到观点、理由与深入交流','daily':'从基础生活问答到复杂日常情境','factory':'从岗位词语、操作指令到异常处理与协作沟通'};
 export const pilotIds=['hsk1-2-topic-01','hsk1-2-topic-02','hsk1-2-topic-03'];
+export const coursewareLabel=deck=>coursewareBanks[deck.bank]||'HSK1-2';
 export const coursewareBrand='Tiếng Trung Cô Nga -Zalo:0966795638';
 export const hanziCount=text=>[...text.matchAll(/\p{Script=Han}/gu)].length;
 export function validateCourseware(data){
  const triple=t=>t&&['pinyin','zh','vi'].every(k=>typeof t[k]==='string'&&t[k].trim());
- if(!data||!pilotIds.includes(data.id)||!triple(data.title)||!Array.isArray(data.groups)||data.groups.length!==2)throw Error('课件格式无效。');
+ if(!data||!(typeof data.id==='string'&&/^[-\w]{1,100}$/.test(data.id)&&Object.hasOwn(coursewareBanks,data.bank))||!triple(data.title)||!Array.isArray(data.groups)||data.groups.length!==2)throw Error('课件格式无效。');
  const lesson=b=>b&&typeof b.title?.zh==='string'&&typeof b.title?.vi==='string'&&Array.isArray(b.items)&&b.items.length>0&&b.items.length<=30&&b.items.every(t=>typeof t.zh==='string'&&t.zh.trim()&&typeof t.vi==='string'&&typeof t.pinyin==='string')&&(b.scene===undefined||Number.isInteger(b.scene)&&b.scene>=0&&b.scene<=5);
  if(data.objectives&&(!Array.isArray(data.objectives)||!lesson({title:{zh:'目标',vi:'Mục tiêu'},items:data.objectives})))throw Error('学习目标格式无效。');
  for(const key of ['warmup','communication','introduction','culture','homework'])if(data[key]&&!lesson(data[key]))throw Error('教学栏目格式无效：'+key);
@@ -13,7 +14,7 @@ export function validateCourseware(data){
  for(const g of data.groups){
   if(g.grammar&&(!Array.isArray(g.grammar)||!g.grammar.every(lesson)))throw Error('语法讲解格式无效。');
   if(g.comprehension&&!lesson(g.comprehension))throw Error('课文理解格式无效。');
-  if(!triple(g.title)||!Number.isInteger(g.scene)||g.scene<0||g.scene>5||!Array.isArray(g.dialogue)||g.dialogue.some(t=>!triple(t)||!Object.hasOwn(g.roles||{},t.speaker))||(data.schemaVersion===2?(g.dialogue.length<1||g.dialogue.length>40||g.dialogue.some(t=>t.zh.length>120||t.pinyin.length>600||t.vi.length>600)):g.dialogue.reduce((n,t)=>n+hanziCount(t.zh),0)!==300))throw Error('对话长度或格式无效，须逐句提供拼音、汉字及越南语。');
+  if(!triple(g.title)||!(g.scene===null&&data.schemaVersion===2||Number.isInteger(g.scene)&&g.scene>=0&&g.scene<=5)||!Array.isArray(g.dialogue)||g.dialogue.some(t=>!triple(t)||!Object.hasOwn(g.roles||{},t.speaker))||(data.schemaVersion===2?(g.dialogue.length<1||g.dialogue.length>40||g.dialogue.some(t=>t.zh.length>120||t.pinyin.length>600||t.vi.length>600)):g.dialogue.reduce((n,t)=>n+hanziCount(t.zh),0)!==300))throw Error('对话长度或格式无效，须逐句提供拼音、汉字及越南语。');
   if(!Array.isArray(g.vocabulary)||(data.schemaVersion===2?(g.vocabulary.length<1||g.vocabulary.length>20):g.vocabulary.length!==10)||g.vocabulary.some(t=>!triple(t))||new Set(g.vocabulary.map(t=>t.zh)).size!==g.vocabulary.length)throw Error('每组需包含不同的生词，并提供拼音及越南语。');
   if(!Array.isArray(g.exercises)||g.exercises.length!==5||g.exercises.some(t=>!triple(t)||!triple(t.answer)||(t.zh.match(/____/g)||[]).length!==1||!g.vocabulary.some(w=>w.zh===t.answer.zh)))throw Error('每组需包含5道填空题，答案取自本组生词。');
  }

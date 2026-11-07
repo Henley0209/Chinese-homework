@@ -1,0 +1,47 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {fixtureParts} from './fixtures/courseware-ai.mjs';
+import {coursewareSource,fillCourseware,assembleCourseware,validateCoursewarePart,coursewarePhases} from '../courseware-generation.mjs';
+import {coursewareSlides,coursewareLabel} from '../courseware-core.mjs';
+import worker from '../backend/conversation/worker.mjs';
+const catalog=JSON.parse(fs.readFileSync('exercise-catalog.json')).exercises;
+const entry=catalog.find(e=>e.id==='hsk3-topic-01'),source=coursewareSource(entry,entry.bank);
+test('all 210 published formal themes and legacy lessons support the same template',()=>{
+ const formal=catalog.filter(e=>e.id.includes('-topic-'));assert.equal(formal.length,210);
+ for(const entry of catalog.filter(e=>e.bank!=='intro')){
+  const source=coursewareSource(entry,entry.bank),deck=assembleCourseware(source,fixtureParts());
+  assert.equal(deck.id,entry.id);assert.equal(deck.bank,entry.bank);assert.equal(coursewareLabel(deck),{'hsk1-2':'HSK1-2',hsk3:'HSK3',hsk4:'HSK4',hsk5:'HSK5',daily:'日常交际',factory:'汉语工厂'}[entry.bank]);
+  assert.ok(source.context.length<=6500);assert.ok(coursewareSlides(deck).length>13);
+ }
+});
+test('generation resumes completed phases, validates before storage and preserves cancellation',async()=>{
+ const parts=fixtureParts(),draft={};let failed=true,calls=[];
+ await assert.rejects(fillCourseware(source,draft,async({phase})=>{calls.push(phase);if(phase==='group2'&&failed)throw Error('temporary');return parts[phase];}));
+ assert.deepEqual(Object.keys(draft),['overview','group1']);failed=false;calls=[];
+ const deck=await fillCourseware(source,draft,async({phase})=>{calls.push(phase);return parts[phase];});assert.deepEqual(calls,['group2','closing']);assert.equal(deck.bank,'hsk3');
+ const controller=new AbortController(),canceled={};
+ await assert.rejects(fillCourseware(source,canceled,async()=>{controller.abort();return parts.overview;},{signal:controller.signal}),{name:'AbortError'});assert.deepEqual(canceled,{});
+ let authCalls=0;await assert.rejects(fillCourseware(source,{},async()=>{authCalls++;const e=Error('wrong');e.status=401;throw e;}));assert.equal(authCalls,1);
+ const bad=fixtureParts().group1;bad.vocabulary[0].zh='从未出现的词';assert.throws(()=>validateCoursewarePart('group1',bad));
+});
+test('courseware API checks origin, teacher access, bounds, quota and every generated phase',async t=>{
+ const real=crypto.subtle.digest.bind(crypto.subtle);
+ t.mock.method(crypto.subtle,'digest',async(algorithm,data)=>new TextDecoder().decode(data)==='teacher-fixture'?Uint8Array.from('605241b419d122752eb1878fa7b13dee955ec9f4c0e9530fe16491a9976c7120'.match(/../g).map(h=>parseInt(h,16))).buffer:real(algorithm,data));
+ let quota=true,calls=0,part=fixtureParts().overview;
+ const env={ALLOWED_ORIGIN:'https://henley0209.github.io',AI:{run:async()=>{calls++;return {response:part};}},LIMITS:{idFromName:x=>x,get:()=>({fetch:async()=>new Response('',{status:quota?200:429})})}};
+ const body={source,password:'teacher-fixture',phase:'overview'};
+ const request=(patch={},origin=env.ALLOWED_ORIGIN)=>new Request('https://example.com/courseware',{method:'POST',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':'127.0.0.1'},body:JSON.stringify({...body,...patch})});
+ assert.equal((await worker.fetch(request({},'https://bad.example'),env)).status,403);
+ assert.equal((await worker.fetch(request({password:'bad'}),env)).status,401);assert.equal(calls,0);
+ assert.equal((await worker.fetch(request({source:{...source,bank:'bad'}}),env)).status,400);
+ assert.equal((await worker.fetch(request({source:{...source,context:'x'.repeat(7001)}}),env)).status,400);
+ assert.equal((await worker.fetch(request({phase:'group1'}),env)).status,400);
+ quota=false;assert.equal((await worker.fetch(request(),env)).status,429);quota=true;
+ const parts=fixtureParts();
+ for(const phase of coursewarePhases){part=parts[phase];const res=await worker.fetch(request({phase,overview:parts.overview}),env);assert.equal(res.status,200,phase);validateCoursewarePart(phase,(await res.json()).part);}
+ part={};assert.equal((await worker.fetch(request(),env)).status,502);
+ const noAI={...env,AI:null};assert.equal((await worker.fetch(request(),noAI)).status,503);
+ const old=env.COURSEWARE_VERIFY_TOKEN=(Date.now()-900001)+'.'+'a'.repeat(64);
+ const req=new Request('https://example.com/courseware',{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,'Content-Type':'application/json','CF-Connecting-IP':'1','Authorization':'Bearer '+old},body:JSON.stringify({...body,password:'bad'})});assert.equal((await worker.fetch(req,env)).status,401);
+});

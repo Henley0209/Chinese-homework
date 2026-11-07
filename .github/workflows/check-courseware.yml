@@ -8,7 +8,8 @@ on:
       - 'homework-docx.mjs'
       - 'index.html'
       - 'homepage-v4.html'
-      - 'tests/courseware.test.mjs'
+      - 'tests/courseware*.mjs'
+      - 'tests/fixtures/courseware-ai.mjs'
       - '.github/workflows/check-courseware.yml'
   workflow_dispatch:
 permissions:
@@ -21,4 +22,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test tests/courseware.test.mjs tests/homework.test.mjs tests/roles-and-exercises.test.mjs tests/release-refresh.test.mjs
+      - run: node --test tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/homework.test.mjs tests/roles-and-exercises.test.mjs tests/release-refresh.test.mjs

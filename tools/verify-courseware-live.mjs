@@ -22,6 +22,10 @@ console.log('Verified complete lesson',deck.id,coursewareSlides(deck).length,'sl
 fs.mkdirSync('work',{recursive:true});fs.writeFileSync('work/courseware-live-sample.json',JSON.stringify(deck,null,2));
 for(const bank of ['hsk3','hsk4','hsk5','daily','factory']){
  const entry=catalog.find(e=>e.bank===bank&&e.id.includes('-topic-'));
- const source=coursewareSource(entry,bank),part=await request({phase:'overview',source});
- validateCoursewarePart('overview',part);fs.writeFileSync('work/courseware-overview-'+bank+'.json',JSON.stringify({source,part},null,2));console.log('Verified courseware bank:',bank,entry.id);
+ const source=coursewareSource(entry,bank);let part,repair='';
+ for(let attempt=0;;attempt++){
+  try{part=await request({phase:'overview',source,attempt,repair});validateCoursewarePart('overview',part);break;}
+  catch(error){if([400,401,403,429].includes(error.status)||attempt>=2)throw error;repair=String(error.message).slice(0,500);}
+ }
+ fs.writeFileSync('work/courseware-overview-'+bank+'.json',JSON.stringify({source,part},null,2));console.log('Verified courseware bank:',bank,entry.id);
 }

@@ -1822,6 +1822,14 @@
       "changes": [
         "Constrain courseware fill-in generation to the validated vocabulary bank"
       ]
+    },
+    {
+      "version": "V0227",
+      "updatedAt": "2026-11-07T07:51:47Z",
+      "commit": "35ca462861695a33a3e691d83eaf10fd1e7c5170",
+      "changes": [
+        "Keep prior-lesson context compact and allow validated complete AI JSON"
+      ]
     }
   ]
 }

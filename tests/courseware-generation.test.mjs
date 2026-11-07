@@ -29,7 +29,7 @@ test('courseware API checks origin, teacher access, bounds, quota and every gene
  const real=crypto.subtle.digest.bind(crypto.subtle);
  t.mock.method(crypto.subtle,'digest',async(algorithm,data)=>new TextDecoder().decode(data)==='teacher-fixture'?Uint8Array.from('605241b419d122752eb1878fa7b13dee955ec9f4c0e9530fe16491a9976c7120'.match(/../g).map(h=>parseInt(h,16))).buffer:real(algorithm,data));
  let quota=true,calls=0,part=fixtureParts().overview;
- const env={ALLOWED_ORIGIN:'https://henley0209.github.io',AI:{run:async()=>{calls++;return {response:part};}},LIMITS:{idFromName:x=>x,get:()=>({fetch:async()=>new Response('',{status:quota?200:429})})}};
+ const env={ALLOWED_ORIGIN:'https://henley0209.github.io',AI:{run:async(_model,params)=>{calls++;if(params.response_format.json_schema.properties.exercises){assert.deepEqual(params.response_format.json_schema.properties.exercises.items.properties.answer.enum,part.vocabulary.map(w=>w.zh));return {response:{exercises:part.exercises.map(e=>({...e,answer:e.answer.zh}))}};}return {response:part};}},LIMITS:{idFromName:x=>x,get:()=>({fetch:async()=>new Response('',{status:quota?200:429})})}};
  const body={source,password:'teacher-fixture',phase:'overview'};
  const request=(patch={},origin=env.ALLOWED_ORIGIN)=>new Request('https://example.com/courseware',{method:'POST',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':'127.0.0.1'},body:JSON.stringify({...body,...patch})});
  assert.equal((await worker.fetch(request({},'https://bad.example'),env)).status,403);

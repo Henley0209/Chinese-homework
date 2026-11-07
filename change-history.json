@@ -1814,6 +1814,14 @@
       "changes": [
         "Give courseware AI precise validation feedback when repairing exercises"
       ]
+    },
+    {
+      "version": "V0226",
+      "updatedAt": "2026-11-07T07:47:59Z",
+      "commit": "2ef2bbc79173dcea88af1cefee35b00d7e86de3d",
+      "changes": [
+        "Constrain courseware fill-in generation to the validated vocabulary bank"
+      ]
     }
   ]
 }

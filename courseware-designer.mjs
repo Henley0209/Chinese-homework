@@ -1,8 +1,8 @@
 import {listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {coursewareBanks,coursewareLevels,pilotIds,coursewareLabel,coursewareBrand,validateCourseware,coursewareSlides} from './courseware-core.mjs?v=courseware6';
-import {makeCoursewareDocx} from './courseware-docx.mjs?v=courseware6';
-import {makeCoursewarePptx} from './courseware-pptx.mjs?v=courseware6';
-import {coursewareSource,fillCourseware,phaseLabels} from './courseware-generation.mjs?v=courseware6';
+import {coursewareBanks,coursewareLevels,pilotIds,coursewareLabel,coursewareBrand,validateCourseware,coursewareSlides} from './courseware-core.mjs?v=courseware7';
+import {makeCoursewareDocx} from './courseware-docx.mjs?v=courseware7';
+import {makeCoursewarePptx} from './courseware-pptx.mjs?v=courseware7';
+import {coursewareSource,fillCourseware,phaseLabels} from './courseware-generation.mjs?v=courseware7';
 const node=(tag,text,cls)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;};
 function triple(t){const root=node('div');for(const [key,cls,lang]of [['pinyin','cw-pinyin','zh-Latn'],['zh','cw-hanzi','zh-Hans'],['vi','cw-vietnamese','vi']]){const line=node('div',t[key],cls);line.lang=lang;root.append(line);}return root;}
 function art(scene,cls){if(!Number.isInteger(scene)){const card=node('div',undefined,'cw-theme-card '+cls);card.append(node('span','中文 × Tiếng Việt'),node('strong','情境交流'),node('span','Giao tiếp theo chủ đề'));return card;}const image=node('div',undefined,'cw-scene '+cls);image.style.backgroundPosition=`${(scene%3)*50}% ${Math.floor(scene/3)*100}%`;image.setAttribute('role','img');image.setAttribute('aria-label',['师生在教室门口问候','同学在书桌前介绍姓名','中越同学看地球仪介绍国籍','同学在校园挥手告别','老师向同学介绍新朋友','师生看家庭照片交流生活'][scene]);return image;}
@@ -27,7 +27,7 @@ export function initCourseware({requireTeacher,getPassword=()=>''}){
   try{
    let value;
    if(pilotIds.includes(source.id)&&source.bank==='hsk1-2'){
-    const response=await fetch(`courseware/data/${source.id}.json?v=courseware6`,{signal});if(!response.ok)throw Error('课件加载失败，请稍后重试。');value=validateCourseware(await response.json());
+    const response=await fetch(`courseware/data/${source.id}.json?v=courseware7`,{signal});if(!response.ok)throw Error('课件加载失败，请稍后重试。');value=validateCourseware(await response.json());
    }else{
     const response=await fetch('./conversation-config.json',{signal,cache:'no-store'});if(!response.ok)throw Error('AI配置读取失败。');
     const config=await response.json(),url=new URL(config.endpoint);if(url.protocol!=='https:')throw Error('AI服务地址无效。');url.pathname='/courseware';url.search='';url.hash='';

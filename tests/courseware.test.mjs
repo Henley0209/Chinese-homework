@@ -66,3 +66,19 @@ test('new lesson content rejects malformed modules and ambiguous gaps',()=>{
  const translation=structuredClone(deck);translation.groups[1].dialogue[0].vi='';assert.throws(()=>validateCourseware(translation));
  const overflow=structuredClone(deck);overflow.groups[0].dialogue[0].zh='你'.repeat(121);assert.throws(()=>validateCourseware(overflow));
 });
+
+test('wrong AI pinyin is corrected in preview, Word and PPT without changing source text',async()=>{
+ const deck=JSON.parse(fs.readFileSync('courseware/data/hsk1-2-topic-03.json'));
+ const target={zh:'学习请假、调班与加班的常用表达',pinyin:'xué xí qǐ jià',vi:'Học cách xin nghỉ và đổi ca.'};
+ deck.objectives=[target];
+ const expected='xué xí qǐng jià、 tiáo bān yǔ jiā bān de cháng yòng biǎo dá';
+ const slides=coursewareSlides(deck);
+ const objective=slides.find(s=>s.type==='lesson'&&s.title.zh==='学习目标').items[0];
+ assert.equal(objective.pinyin,expected);assert.equal(objective.zh,target.zh);assert.equal(objective.vi,target.vi);
+ assert.equal(target.pinyin,'xué xí qǐ jià');
+ const imageBytes=new Uint8Array(fs.readFileSync('courseware/assets/beginner-scenes.png'));
+ const word=await storedZip(await makeCoursewareDocx(deck,{imageBytes}));
+ assert.ok(word['word/document.xml'].includes(expected));
+ const ppt=await storedZip(await makeCoursewarePptx(deck,{imageBytes}));
+ assert.ok(Object.entries(ppt).some(([path,xml])=>/^ppt\/slides\/slide\d+\.xml$/.test(path)&&xml.includes(expected)));
+});

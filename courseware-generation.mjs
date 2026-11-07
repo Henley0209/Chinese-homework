@@ -1,4 +1,4 @@
-import {coursewareBanks,coursewareLevels,validateCourseware} from './courseware-core.mjs?v=courseware6';
+import {coursewareBanks,coursewareLevels,validateCourseware} from './courseware-core.mjs?v=courseware7';
 export const coursewarePhases=['overview','group1','group2','closing'];
 export const phaseLabels={overview:'学习目标与热身',group1:'课文一、生词与语法',group2:'课文二、生词与语法',closing:'综合练习、交际与课后任务'};
 const text=(s,max)=>typeof s==='string'&&s.trim().length>0&&s.length<=max;

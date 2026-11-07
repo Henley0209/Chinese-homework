@@ -9,6 +9,8 @@ on:
       - conversation-fallback.mjs
       - courseware-core.mjs
       - courseware-generation.mjs
+      - courseware-pinyin.mjs
+      - vendor/pinyin-pro.mjs
       - tools/verify-courseware-live.mjs
       - homework-core.mjs
       - homework-plan.mjs
@@ -49,7 +51,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate conversation service
-        run: node --test tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs tests/homework-courseware.test.mjs tests/homework-courseware-plan.test.mjs tests/homework-rules.test.mjs
+        run: node --test tests/courseware-pinyin.test.mjs tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs tests/homework-courseware.test.mjs tests/homework-courseware-plan.test.mjs tests/homework-rules.test.mjs
       - name: Deploy free Workers AI service
         shell: bash
         run: |

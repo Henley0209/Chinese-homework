@@ -5,6 +5,7 @@ on:
       - 'courseware/**'
       - 'courseware-*.mjs'
       - 'courseware.css'
+      - 'vendor/pinyin-pro.mjs'
       - 'homework-docx.mjs'
       - 'index.html'
       - 'homepage-v4.html'
@@ -22,4 +23,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/homework.test.mjs tests/roles-and-exercises.test.mjs tests/release-refresh.test.mjs
+      - run: node --test tests/courseware-pinyin.test.mjs tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/homework.test.mjs tests/roles-and-exercises.test.mjs tests/release-refresh.test.mjs

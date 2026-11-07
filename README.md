@@ -27,3 +27,5 @@ AI作业规则：拼音干扰项优先使用z/zh、s/sh、c/ch等模糊音；填
 `courseware-core.mjs` 管理共享数据与分页；`courseware-generation.mjs` 负责四步验证、恢复与组装。后端 `/courseware` 在现有Cloudflare Worker中运行，复用教师验证及独立课件额度，拒绝不完整栏目和错误填空答案。
 
 验证：`node --test tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/homework.test.mjs tests/roles-and-exercises.test.mjs tests/release-refresh.test.mjs`。浏览器集成测试：启动静态服务器后运行 `node tests/courseware-browser.cjs`（需要Playwright和Chromium，可设置 `COURSEWARE_BASE_URL`、`CHROMIUM_PATH`）。部署工作流使用临时凭据验证真实AI生成，再自动删除验证凭据。
+
+课件预览、Word和PPT导出会使用随站点部署的 pinyin-pro 3.29.5 词典，根据中文正文重新生成非空拼音，不直接采用AI给出的读音。采用带声调的本调拼写，按词语上下文处理多音字；填空题先代入答案判断读音，再隐藏答案。无需联网查询；可选栏目的空拼音保持为空。人名、生僻词仍建议教师核对。

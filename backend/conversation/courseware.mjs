@@ -1,3 +1,4 @@
+import {correctCoursewarePinyin} from '../../courseware-pinyin.mjs';
 import {isTeacherPassword} from '../../teacher-auth.mjs';
 import {coursewareBanks,coursewareLevels} from '../../courseware-core.mjs';
 import {validateCoursewarePart,validateCoursewareGroup,coursewarePhases} from '../../courseware-generation.mjs';
@@ -70,7 +71,7 @@ export async function generateCourseware(request,env,json){
    return part;
   };
   const part=await Promise.race([build(),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('生成超时，请重试或继续生成。')),55000);})]);
-  invalidPart=part;validateCoursewarePart(phase,part);return json({part});
+  invalidPart=part;validateCoursewarePart(phase,part);return json({part:correctCoursewarePinyin(part)});
  }catch(error){return json({error:/quota|neuron|limit|exceeded/i.test(error.message||'')?'AI额度暂时不足，请稍后重试。':'课件生成失败：'+(error instanceof SyntaxError?'AI格式无效，请重试。':error.message||'请稍后重试。'),...(verification&&invalidPart?{diagnostic:invalidPart}:{})},502);}
  finally{clearTimeout(timer);}
 }

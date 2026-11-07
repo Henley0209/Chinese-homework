@@ -1,3 +1,4 @@
+import {correctCoursewarePinyin} from '../courseware-pinyin.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -40,6 +41,11 @@ test('courseware API checks origin, teacher access, bounds, quota and every gene
  quota=false;assert.equal((await worker.fetch(request(),env)).status,429);quota=true;
  const parts=fixtureParts();
  for(const phase of coursewarePhases){part=parts[phase];const res=await worker.fetch(request({phase,overview:parts.overview}),env);assert.equal(res.status,200,phase);validateCoursewarePart(phase,(await res.json()).part);}
+ part=structuredClone(parts.overview);
+ part.objectives[0]={zh:'学习请假、调班与加班的常用表达',pinyin:'xué xí qǐ jià',vi:'Học cách xin nghỉ và đổi ca.'};
+ const correctedResponse=await worker.fetch(request(),env);
+ assert.equal(correctedResponse.status,200);
+ assert.equal((await correctedResponse.json()).part.objectives[0].pinyin,'xué xí qǐng jià、 tiáo bān yǔ jiā bān de cháng yòng biǎo dá');
  // Reproduce the reported overview/length failure, then recover each field.
  const normalRun=env.AI.run;let recoveryCalls=0;
  env.AI.run=async(_model,params)=>{
@@ -50,7 +56,7 @@ test('courseware API checks origin, teacher access, bounds, quota and every gene
   return {choices:[{finish_reason:'stop',message:{content:JSON.stringify({[keys[0]]:parts.overview[keys[0]]})}}]};
  };
  const recovered=await worker.fetch(request(),env);assert.equal(recovered.status,200);
- assert.deepEqual((await recovered.json()).part,parts.overview);assert.equal(recoveryCalls,5);
+ assert.deepEqual((await recovered.json()).part,correctCoursewarePinyin(parts.overview));assert.equal(recoveryCalls,5);
  // Recurring truncation must stay bounded and must not invent a valid lesson.
  recoveryCalls=0;env.AI.run=async()=>{recoveryCalls++;return {choices:[{finish_reason:'length',message:{content:'{"title":'}}]};};
  assert.equal((await worker.fetch(request(),env)).status,502);assert.equal(recoveryCalls,2);

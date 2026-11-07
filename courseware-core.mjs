@@ -1,3 +1,4 @@
+import {correctCoursewarePinyin} from './courseware-pinyin.mjs?v=courseware7';
 export const coursewareBanks={'hsk1-2':'HSK1-2','hsk3':'HSK3','hsk4':'HSK4','hsk5':'HSK5','daily':'日常交际','factory':'汉语工厂'};
 export const coursewareLevels={'hsk1-2':'从问候、短句到基础情境表达','hsk3':'从日常叙述到连贯表达','hsk4':'从情境交流到说明、比较与讨论','hsk5':'从复杂叙述到观点、理由与深入交流','daily':'从基础生活问答到复杂日常情境','factory':'从岗位词语、操作指令到异常处理与协作沟通'};
 export const pilotIds=['hsk1-2-topic-01','hsk1-2-topic-02','hsk1-2-topic-03'];
@@ -18,11 +19,11 @@ export function validateCourseware(data){
   if(!Array.isArray(g.vocabulary)||(data.schemaVersion===2?(g.vocabulary.length<1||g.vocabulary.length>20):g.vocabulary.length!==10)||g.vocabulary.some(t=>!triple(t))||new Set(g.vocabulary.map(t=>t.zh)).size!==g.vocabulary.length)throw Error('每组需包含不同的生词，并提供拼音及越南语。');
   if(!Array.isArray(g.exercises)||g.exercises.length!==5||g.exercises.some(t=>!triple(t)||!triple(t.answer)||(t.zh.match(/____/g)||[]).length!==1||!g.vocabulary.some(w=>w.zh===t.answer.zh)))throw Error('每组需包含5道填空题，答案取自本组生词。');
  }
- return data;
+ return correctCoursewarePinyin(data);
 }
 // Shared pagination keeps browser, PPT and Word on the same teaching sequence.
 export function coursewareSlides(deck){
- validateCourseware(deck);
+ deck=validateCourseware(deck);
  const slides=[{type:'cover',title:deck.title,scene:deck.groups[0].scene}];
  const lesson=block=>{
   const chunks=[];let chunk=[],weight=0;

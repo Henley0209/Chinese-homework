@@ -1838,6 +1838,14 @@
       "changes": [
         "Verify courseware bank overviews with the same bounded retries as the UI"
       ]
+    },
+    {
+      "version": "V0229",
+      "updatedAt": "2026-11-07T09:36:48Z",
+      "commit": "01006a749e65cecbfcd524d147df005a2b3016e1",
+      "changes": [
+        "Recover truncated courseware overviews with bounded field generation"
+      ]
     }
   ]
 }

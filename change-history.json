@@ -1806,6 +1806,14 @@
       "changes": [
         "Extend textbook courseware generation to all six curriculum banks"
       ]
+    },
+    {
+      "version": "V0225",
+      "updatedAt": "2026-11-07T07:44:10Z",
+      "commit": "1d98634db0009c5ef6e5904210e6cf4f4b89f52c",
+      "changes": [
+        "Give courseware AI precise validation feedback when repairing exercises"
+      ]
     }
   ]
 }

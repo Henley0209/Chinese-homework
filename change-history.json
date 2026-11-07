@@ -1798,6 +1798,14 @@
       "changes": [
         "Upgrade textbook-style courseware and enable branded PPT downloads"
       ]
+    },
+    {
+      "version": "V0224",
+      "updatedAt": "2026-11-07T07:40:30Z",
+      "commit": "44e380752ebb6810a61ae28e6aa9ff219e7a0a57",
+      "changes": [
+        "Extend textbook courseware generation to all six curriculum banks"
+      ]
     }
   ]
 }

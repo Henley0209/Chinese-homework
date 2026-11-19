@@ -13,3 +13,7 @@
 .homework-practice input:not([type=radio]),.homework-practice textarea{display:block;width:100%;box-sizing:border-box}
 .homework-practice [hidden]{display:none}
 .homework-practice legend,.homework-practice p{overflow-wrap:anywhere}
+
+.homework-practice .homework-submit button{margin:0 .25rem .5rem 0}
+.homework-practice #homework-submit-status:empty{margin:0}
+.homework-practice #homework-score{scroll-margin-top:1rem}

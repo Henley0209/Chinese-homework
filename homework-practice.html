@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>课堂作业</title>
 <link rel="stylesheet" href="./style.css">
-<link rel="stylesheet" href="./homework-generator.css">
-<script type="module" src="./homework-practice.mjs"></script>
+<link rel="stylesheet" href="./homework-generator.css?v=submit2">
+<script type="module" src="./homework-practice.mjs?v=submit2"></script>
 </head>
 <body>
 <main class="panel homework-practice">
@@ -16,7 +16,12 @@
  <button id="homework-retry" class="quiet" type="button" hidden>重新载入</button>
  <form id="homework-form" hidden>
   <div id="homework-questions"></div>
-  <button class="primary" type="submit">提交作业</button>
+  <div class="homework-submit">
+   <p id="homework-submit-status" role="status" aria-live="polite"></p>
+   <button id="homework-submit" class="primary" type="submit">提交作业</button>
+   <button id="homework-jump" class="quiet" type="button" hidden>跳到第一道未答题</button>
+   <button id="homework-submit-incomplete" class="primary" type="submit" hidden>确认提交</button>
+  </div>
  </form>
  <section id="homework-results" hidden aria-labelledby="homework-score">
   <h2 id="homework-score" tabindex="-1"></h2>

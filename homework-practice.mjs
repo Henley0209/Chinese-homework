@@ -4,7 +4,8 @@ import {kinds} from './homework-core.mjs';
 const $=id=>document.getElementById(id);
 const id=new URLSearchParams(location.search).get('id');
 const form=$('homework-form'),status=$('homework-status'),retry=$('homework-retry');
-const submit=form.querySelector('button[type="submit"]');
+const submit=$('homework-submit'),confirmSubmit=$('homework-submit-incomplete');
+const submitStatus=$('homework-submit-status'),jump=$('homework-jump');
 const node=(tag,text)=>Object.assign(document.createElement(tag),{textContent:text});
 
 function renderQuestion(q,index){
@@ -37,22 +38,43 @@ async function load(){
   $('homework-questions').replaceChildren(...paper.questions.map(renderQuestion));
   status.textContent=`${paper.bank} · 共 ${paper.questions.length} 题`;
   form.hidden=false;
+  const answerValues=()=>{
+   const fields=new FormData(form);
+   return paper.questions.map((_,i)=>(fields.get('answer-'+i)||'').trim());
+  };
+  function dismissConfirmation(){
+   jump.hidden=true;
+   confirmSubmit.hidden=true;
+  }
+  form.oninput=()=>{
+   if(submit.disabled)return;
+   dismissConfirmation();
+   submitStatus.textContent='';
+  };
+  jump.onclick=()=>{
+   const firstBlank=answerValues().indexOf('');
+   if(firstBlank!==-1)form.querySelector('[name="answer-'+firstBlank+'"]')?.focus();
+  };
   form.onsubmit=async event=>{
    event.preventDefault();
    if(submit.disabled)return;
-   const fields=new FormData(form);
-   const answers=paper.questions.map((_,i)=>fields.get('answer-'+i)||'');
-   if(answers.some(answer=>!answer.trim())){
-    status.textContent='请完成每一道题后再提交。';
+   const answers=answerValues();
+   const blankCount=answers.filter(answer=>!answer).length;
+   if(blankCount&&(event.submitter!==confirmSubmit||confirmSubmit.hidden)){
+    submitStatus.textContent=`还有 ${blankCount} 道题未作答。可以继续作答，也可以确认交卷，未作答题目不得分。`;
+    jump.hidden=false;
+    confirmSubmit.hidden=false;
     return;
    }
+   dismissConfirmation();
    submit.disabled=true;
+   submitStatus.textContent='正在提交作业…';
    try{
     const result=await homeworkApi('/homework-submit',{body:{id,answers},signal:AbortSignal.timeout(15000)});
     const feedback=result.details.map((detail,i)=>{
      const q=paper.questions[i];
      const answer=q.options?q.options['ABCD'.indexOf(detail.answer)]:detail.answer;
-     const state=detail.correct===null?'参考译文':detail.correct?'回答正确':'回答有误';
+     const state=!answers[i]?'未作答':detail.correct===null?'参考译文':detail.correct?'回答正确':'回答有误';
      const item=node('li','');
      item.append(node('strong',`第 ${i+1} 题 · ${state}`),node('p',`参考答案：${answer}`),node('p',detail.explanation));
      return item;
@@ -62,10 +84,10 @@ async function load(){
     score.textContent=result.total?`得分 ${result.score} / ${result.total}`:'已提交 · 查看参考译文';
     if(result.total&&result.details.some(d=>d.correct===null))score.textContent+='（翻译题提供参考译文）';
     for(const field of form.querySelectorAll('fieldset'))field.disabled=true;
-    status.textContent='作业已提交。';
+    submitStatus.textContent='作业已提交。';
     $('homework-results').hidden=false;
     score.focus();
-   }catch(error){status.textContent=error.message;submit.disabled=false;}
+   }catch(error){submitStatus.textContent='提交失败，请重试。'+(error.name==='TimeoutError'?'请求超时。':error.message);submit.disabled=false;}
   };
  }catch(error){status.textContent=error.message;retry.hidden=false;}
 }

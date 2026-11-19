@@ -17,3 +17,6 @@
 .homework-practice .homework-submit button{margin:0 .25rem .5rem 0}
 .homework-practice #homework-submit-status:empty{margin:0}
 .homework-practice #homework-score{scroll-margin-top:1rem}
+
+.homework-generator [data-hw-link-wrap] .teacher-actions{align-items:center}
+.homework-generator [data-hw-link-wrap] button{min-height:32px;padding:4px 10px}

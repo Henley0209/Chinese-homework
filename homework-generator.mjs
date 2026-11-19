@@ -9,7 +9,7 @@ import {homeworkApi} from './homework-api.mjs';
 export function initHomework({requireTeacher,getPassword}){
  const tools=document.querySelector('#tools');
  const section=document.createElement('section');section.className='homework-generator';
- section.innerHTML=`<hr><h3>AI 生成作业 / Tạo bài tập AI</h3><p class="note">粘贴课堂文字、上传课件，或选择题库中的练习作为出题材料。拼音选项优先辨析z/zh、s/sh、c/ch等模糊音；填空与排序题错开内容；翻译题为10—15个词左右的越南语译成中文；每题2分，总分自动计算。</p><label>所属题库<select data-hw-bank></select></label><label>练习题<select data-hw-exercise></select></label><section class="homework-courseware" aria-label="课堂内容"><div class="teacher-actions"><button type="button" class="quiet" data-hw-upload>上传本地课件 / Tải tài liệu</button><button type="button" class="quiet" data-hw-remove hidden>清空课堂内容</button></div><input type="file" data-hw-file accept=".pptx,.pdf,.docx,.txt,.md" hidden><p class="note">支持 PPTX、PDF、Word（DOCX）和文本，每份不超过20MB。自动只提取中文，过滤英文、越南语和拼音。上传后按课件中文出题，所属题库用于设置等级。文件在本机解析，点击生成时将下方文字发送给AI。</p><p data-hw-file-status role="status" aria-live="polite"></p><label>课堂文字（可直接粘贴，最多7000字）<textarea data-hw-content rows="7" maxlength="7000" placeholder="粘贴当天的课堂笔记、课文或知识点"></textarea></label></section><div class="homework-counts">${Object.entries(kinds).map(([key,label])=>`<label>${label}<select data-hw-count="${key}" aria-label="${label}题数">${[0,1,2,3,4,5,10,15,20].map(n=>`<option value="${n}">${n} 题</option>`).join('')}</select></label>`).join('')}</div><p data-hw-total class="note"></p><div class="teacher-actions"><button type="button" class="primary" data-hw-generate>生成练习题</button><button type="button" class="quiet" data-hw-cancel hidden>取消生成</button></div><p data-hw-status role="status" aria-live="polite"></p><div data-hw-result hidden><p class="note">拼音按课程词表校验；其他题型由AI生成，参考题补齐会标明。请由教师核对后使用。发布或下载前可在下方修改题干、选项、参考答案和解析。修改课件、题库或题数后请重新生成。</p><div class="teacher-actions"><button type="button" class="primary" data-hw-download>下载学生试卷 .docx</button><button type="button" class="quiet" data-hw-answers>下载教师答案 .docx</button></div><label>作业标题<input data-hw-title maxlength="200"></label><div class="teacher-actions"><button type="button" class="primary" data-hw-publish>发布并生成链接</button><button type="button" class="quiet" data-hw-copy hidden>复制作业链接</button></div><label data-hw-link-wrap hidden>已发布的作业链接<input data-hw-link type="url" readonly><a data-hw-open target="_blank" rel="noopener">打开学生答题页 ↗</a></label><div data-hw-preview></div></div>`;
+ section.innerHTML=`<hr><h3>AI 生成作业 / Tạo bài tập AI</h3><p class="note">粘贴课堂文字、上传课件，或选择题库中的练习作为出题材料。拼音选项优先辨析z/zh、s/sh、c/ch等模糊音；填空与排序题错开内容；翻译题为10—15个词左右的越南语译成中文；每题2分，总分自动计算。</p><label>所属题库<select data-hw-bank></select></label><label>练习题<select data-hw-exercise></select></label><section class="homework-courseware" aria-label="课堂内容"><div class="teacher-actions"><button type="button" class="quiet" data-hw-upload>上传本地课件 / Tải tài liệu</button><button type="button" class="quiet" data-hw-remove hidden>清空课堂内容</button></div><input type="file" data-hw-file accept=".pptx,.pdf,.docx,.txt,.md" hidden><p class="note">支持 PPTX、PDF、Word（DOCX）和文本，每份不超过20MB。自动只提取中文，过滤英文、越南语和拼音。上传后按课件中文出题，所属题库用于设置等级。文件在本机解析，点击生成时将下方文字发送给AI。</p><p data-hw-file-status role="status" aria-live="polite"></p><label>课堂文字（可直接粘贴，最多7000字）<textarea data-hw-content rows="7" maxlength="7000" placeholder="粘贴当天的课堂笔记、课文或知识点"></textarea></label></section><div class="homework-counts">${Object.entries(kinds).map(([key,label])=>`<label>${label}<select data-hw-count="${key}" aria-label="${label}题数">${[0,1,2,3,4,5,10,15,20].map(n=>`<option value="${n}">${n} 题</option>`).join('')}</select></label>`).join('')}</div><p data-hw-total class="note"></p><div class="teacher-actions"><button type="button" class="primary" data-hw-generate>生成练习题</button><button type="button" class="quiet" data-hw-cancel hidden>取消生成</button></div><p data-hw-status role="status" aria-live="polite"></p><div data-hw-result hidden><p class="note">拼音按课程词表校验；其他题型由AI生成，参考题补齐会标明。请由教师核对后使用。发布或下载前可在下方修改题干、选项、参考答案和解析。修改课件、题库或题数后请重新生成。</p><div class="teacher-actions"><button type="button" class="primary" data-hw-download>下载学生试卷 .docx</button><button type="button" class="quiet" data-hw-answers>下载教师答案 .docx</button></div><label>作业标题<input data-hw-title maxlength="200"></label><div class="teacher-actions"><button type="button" class="primary" data-hw-publish>发布并生成链接</button><button type="button" class="quiet" data-hw-copy data-hw-copy-primary hidden>复制作业链接</button></div><div data-hw-link-wrap hidden><label>已发布的作业链接<input data-hw-link type="url" readonly></label><div class="teacher-actions"><a data-hw-open target="_blank" rel="noopener">打开学生答题页 ↗</a><button type="button" class="quiet" data-hw-copy>复制链接</button><span data-hw-copy-status role="status"></span></div></div><div data-hw-preview></div></div>`;
  tools.append(section);
  const shortcut=document.querySelector('#open-homework');
  shortcut.onclick=()=>{section.scrollIntoView({block:'start',behavior:'smooth'});section.querySelector('[data-hw-bank]').focus({preventScroll:true});};
@@ -20,7 +20,7 @@ export function initHomework({requireTeacher,getPassword}){
  let publishing=false;
  let paper=null,controller=null,run=0,courseware=null,reading=false,uploadRun=0;
  const setStatus=text=>status.textContent=text;
- function clear(){paper=null;$('[data-hw-copy]').hidden=true;$('[data-hw-link-wrap]').hidden=true;$('[data-hw-generate]').textContent='生成练习题';$('[data-hw-result]').hidden=true;$('[data-hw-preview]').replaceChildren();}
+ function clear(){paper=null;$('[data-hw-copy-primary]').hidden=true;$('[data-hw-link-wrap]').hidden=true;$('[data-hw-generate]').textContent='生成练习题';$('[data-hw-result]').hidden=true;$('[data-hw-preview]').replaceChildren();}
  function total(){const n=$$('[data-hw-count]').reduce((n,s)=>n+Number(s.value),0);$('[data-hw-total]').textContent=`共 ${n} 题，满分 ${n*2} 分`;return n;}
  function targets(){const previous=exercise.value;exercise.replaceChildren();for(const e of listExercises(bank.value)){const o=document.createElement('option');o.value=e.id;o.textContent=e.exercise.title;exercise.append(o);}if([...exercise.options].some(o=>o.value===previous))exercise.value=previous;clear();}
  for(const [id,label]of Object.entries(bankLabels)){const o=document.createElement('option');o.value=id;o.textContent=label;bank.append(o);}bank.value='hsk1-2';
@@ -112,15 +112,16 @@ export function initHomework({requireTeacher,getPassword}){
    if(paper!==draft)return;
    const url=new URL('./homework-practice.html',location.href);
    url.searchParams.set('id',id);
-   link.value=url.href;$('[data-hw-open]').href=url.href;
-   $('[data-hw-link-wrap]').hidden=false;$('[data-hw-copy]').hidden=false;
+   link.value=url.href;$('[data-hw-open]').href=url.href;$('[data-hw-copy-status]').textContent='';
+   $('[data-hw-link-wrap]').hidden=false;$('[data-hw-copy-primary]').hidden=false;
    setStatus('作业已发布。学生可以通过此链接直接答题。');
   }catch(e){setStatus(e.message);}
   finally{publishing=false;publishButton.disabled=false;}
  };
- $('[data-hw-copy]').onclick=async()=>{
-  try{await navigator.clipboard.writeText(link.value);setStatus('已复制作业链接。');}
-  catch{link.select();setStatus('请手动复制已选中的链接。');}
+ for(const button of $$('[data-hw-copy]'))button.onclick=async()=>{
+  const copyStatus=$('[data-hw-copy-status]');
+  try{await navigator.clipboard.writeText(link.value);copyStatus.textContent='已复制';}
+  catch{link.focus();link.select();copyStatus.textContent='请手动复制已选中的链接。';}
  };
 
  function sourceNote(value){const reference=value.questions.filter(q=>q.source==='course-reference').length;return reference?` 其中 ${reference} 题使用本课参考题补齐，已在预览中标明。`:'';}

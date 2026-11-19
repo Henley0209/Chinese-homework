@@ -1854,6 +1854,22 @@
       "changes": [
         "Correct courseware pinyin from Chinese text in preview and exports"
       ]
+    },
+    {
+      "version": "V0231",
+      "updatedAt": "2026-11-19T04:24:08Z",
+      "commit": "b75a2ff690254ebfc63b80cc9ae37f2c063b820d",
+      "changes": [
+        "Publish AI homework from pasted classroom content"
+      ]
+    },
+    {
+      "version": "V0232",
+      "updatedAt": "2026-11-19T11:27:12+07:00",
+      "commit": "1c25969c07c057ca774ace23964d79b2e5b08e2e",
+      "changes": [
+        "Merge pull request #6 from Henley0209/codex/classroom-homework"
+      ]
     }
   ]
 }

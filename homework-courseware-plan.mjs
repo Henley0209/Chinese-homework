@@ -25,5 +25,5 @@ export function coursewareTasks(text,exercises=[]){
 export function checkCoursewareCounts(tasks,counts){
  const labels={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译题'};
  const errors=Object.keys(labels).filter(k=>(counts[k]||0)>tasks[k].length).map(k=>`${labels[k]}需要${counts[k]}个目标，当前课件可用${tasks[k].length}个`);
- if(errors.length)throw Error(errors.join('；')+'。请减少相应题数或上传更多中文内容。');
+ if(errors.length)throw Error(errors.join('；')+'。请减少相应题数或补充更多中文内容。');
 }

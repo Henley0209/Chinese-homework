@@ -4,11 +4,11 @@ import {webcrypto} from 'node:crypto';
 import {validateQuestions,paperLines,selectNewQuestions,questionKey} from '../homework-core.mjs';
 import {makeDocx} from '../homework-docx.mjs';
 import {fillHomework,missingQuestions} from '../homework-generation.mjs';
-import worker from '../backend/conversation/worker.mjs';
+import worker,{PublishedHomework} from '../backend/conversation/worker.mjs';
 if(!globalThis.crypto)globalThis.crypto=webcrypto;
-const question=(kind,i)=>kind==='order'?{text:`我 / 今天 / 买了${i}本书`,answer:`我今天买了${i}本书。`,explanation:'按时间和动作排序。'}:kind==='translation'?{text:`Hôm nay tôi muốn mua ${i} quyển sách cho các bạn.`,answer:`我买${i}本书。`,explanation:'本是书的量词。'}:{text:`词语${i}${kind==='choice'?'________':''}`,options:['选项一','选项二','选项三'],answer:'B',explanation:'第二项正确。'};
-test('validates all four kinds, count, duplicates, options and ordering tokens',()=>{
- for(const kind of ['pinyin','choice','order','translation'])assert.equal(validateQuestions([question(kind,1)],kind,1).length,1);
+const question=(kind,i)=>kind==='judgment'?{text:`第${i}组有两位同学。`,answer:'正确',explanation:'课堂记录说明每组人数。'}:kind==='fill'?{text:`第${i}组有________位同学。`,answer:'两',explanation:'根据课堂记录填空。'}:kind==='order'?{text:`我 / 今天 / 买了${i}本书`,answer:`我今天买了${i}本书。`,explanation:'按时间和动作排序。'}:kind==='translation'?{text:`Hôm nay tôi muốn mua ${i} quyển sách cho các bạn.`,answer:`我买${i}本书。`,explanation:'本是书的量词。'}:{text:`词语${i}${kind==='choice'?'________':''}`,options:['选项一','选项二','选项三'],answer:'B',explanation:'第二项正确。'};
+test('validates all six kinds, count, duplicates, options and ordering tokens',()=>{
+ for(const kind of ['pinyin','choice','order','translation','judgment','fill'])assert.equal(validateQuestions([question(kind,1)],kind,1).length,1);
  assert.throws(()=>validateQuestions([], 'pinyin',5));
  assert.throws(()=>validateQuestions([question('pinyin',1),question('pinyin',1)],'pinyin',2));
  assert.throws(()=>validateQuestions([{...question('pinyin',1),answer:'D'}],'pinyin',1));
@@ -33,7 +33,7 @@ test('homework endpoint checks origin, method, teacher authorization, limits and
  assert.equal((await worker.fetch(request({password:'wrong'}),env)).status,401);assert.equal(calls,0);
  assert.equal((await worker.fetch(request({count:20}),env)).status,400);
  quota=false;assert.equal((await worker.fetch(request(),env)).status,429);quota=true;
- for(const kind of ['pinyin','choice','order','translation']){result={questions:Array.from({length:5},(_,i)=>question(kind,i+1))};const response=await worker.fetch(request({kind}),env);assert.equal(response.status,200);assert.equal((await response.json()).questions.length,5);}
+ for(const kind of ['pinyin','choice','order','translation','judgment','fill']){result={questions:Array.from({length:5},(_,i)=>question(kind,i+1))};const response=await worker.fetch(request({kind}),env);assert.equal(response.status,200);assert.equal((await response.json()).questions.length,5);}
  result={};assert.equal((await worker.fetch(request(),env)).status,502);
  result={questions:[]};const empty=await worker.fetch(request(),env);assert.equal(empty.status,200);assert.equal((await empty.json()).needsMore,true);
  result={questions:Array.from({length:5},(_,i)=>question('choice',i+1))};const partial=await worker.fetch(request({avoid:['词语1']}),env);assert.equal(partial.status,200);const kept=await partial.json();assert.equal(kept.questions.length,4);assert.equal(kept.needsMore,true);
@@ -107,4 +107,51 @@ test('HSK5 50-question configuration tolerates labeled pinyin duplicates and ful
  })}));
  assert.equal(paper.questions.length,50);assert.equal(missingQuestions(paper,counts),0);
  for(const kind of Object.keys(counts)){const qs=paper.questions.filter(q=>q.kind===kind);validateQuestions(qs,kind,counts[kind]);}
+});
+
+test('teachers publish a fixed homework snapshot and students open and submit without credentials',async t=>{
+ const digest=crypto.subtle.digest.bind(crypto.subtle);
+ t.mock.method(crypto.subtle,'digest',(algorithm,data)=>new TextDecoder().decode(data)==='teacher-fixture'
+  ?Promise.resolve(Uint8Array.from(Buffer.from('605241b419d122752eb1878fa7b13dee955ec9f4c0e9530fe16491a9976c7120','hex')).buffer)
+  :digest(algorithm,data));
+ const stored=new Map();
+ const env={
+  ALLOWED_ORIGIN:'https://henley0209.github.io',
+  PUBLISHED_HOMEWORK:{
+   idFromName:id=>id,
+   get(id){
+    if(!stored.has(id))stored.set(id,new Map());
+    const items=stored.get(id);
+    const storage={get:key=>items.get(key),put:(key,value)=>items.set(key,value)};
+    storage.transaction=update=>update(storage);
+    const object=new PublishedHomework({storage});
+    return {fetch:(url,init)=>object.fetch(new Request(url,init))};
+   }
+  }
+ };
+ const call=(path,body)=>worker.fetch(new Request('https://example.com/homework-'+path,{
+  method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,'Content-Type':'application/json'},body:JSON.stringify(body)
+ }),env);
+ const questions=['choice','judgment','fill','translation'].map(kind=>({...question(kind,1),kind}));
+ const draft={title:'课堂作业',bank:'HSK3',questions};
+ assert.equal((await call('publish',draft)).status,401);
+ const publish=paper=>call('publish',{...paper,password:'teacher-fixture'});
+ assert.equal((await publish({...draft,questions:[{...questions[1],answer:'也许'}]})).status,400);
+ const published=await publish(draft);
+ assert.equal(published.status,201);
+ const {id}=await published.json();
+ draft.title='修改过的作业';
+ assert.notEqual((await (await publish(draft)).json()).id,id);
+ const opened=await call('open',{id});
+ assert.equal(opened.status,200);
+ const paper=await opened.json();
+ assert.equal(paper.title,'课堂作业');
+ assert.deepEqual(paper.questions.map(q=>q.kind),questions.map(q=>q.kind));
+ assert.ok(paper.questions.every(q=>!Object.hasOwn(q,'answer')&&!Object.hasOwn(q,'explanation')));
+ assert.equal((await call('submit',{id,answers:['B']})).status,400);
+ assert.deepEqual(await (await call('submit',{id,answers:['B','错误',' 两 ','我要买书']})).json(),{
+  score:4,total:6,
+  details:questions.map(({answer,explanation},i)=>({answer,explanation,correct:[true,false,true,null][i]}))
+ });
+ assert.equal((await call('open',{id:crypto.randomUUID()})).status,404);
 });

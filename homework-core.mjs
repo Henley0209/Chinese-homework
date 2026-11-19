@@ -1,4 +1,4 @@
-export const kinds={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译题'};
+export const kinds={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译题',judgment:'判断题',fill:'填空题'};
 export function cleanQuestionText(value){
  if(typeof value!=='string')return value;
  return value.trim().replace(/^(?:(?:第\s*)?\d+\s*[.．、)）]\s*)?(?:[【\[（(]\s*(?:拼音选择题?|填空选择题?|选词填空|句子排序题?|翻译题?)\s*[】\]）)]\s*[:：]?\s*)+/u,'').trim();
@@ -115,6 +115,8 @@ export function validateQuestions(value,kind,count){
    result.options=q.options.map(o=>o.trim());
   }
   if(kind==='choice'&&(q.text.match(/[_＿]+/gu)||[]).length!==1)throw Error('每道填空选择题必须且只能有一个空。');
+  if(kind==='judgment'&&!['正确','错误'].includes(q.answer))throw Error('判断题答案须为“正确”或“错误”。');
+  if(kind==='fill'&&((q.text.match(/[_＿]+/gu)||[]).length!==1||q.answer.length>60))throw Error('填空题须有一个空和不超过60字的参考答案。');
   if(kind==='translation'&&(translationWordCount(q.text)<10||translationWordCount(q.text)>15||/\p{Script=Han}/u.test(q.text)))throw Error('翻译题须为10—15个词的越南语句子。');
   if(kind==='order'){
    const tokens=q.text.split('/').map(t=>t.trim());
@@ -132,8 +134,8 @@ export function paperLines(paper,answers=false){
  for(const [kind,label]of Object.entries(kinds)){
   const raw=paper.questions.filter(q=>q.kind===kind);if(!raw.length)continue;
   const qs=validateQuestions(raw,kind,raw.length);
-  lines.push({text:`${['一','二','三','四'][group++]}、${label}（共${qs.length}题，每题2分，共${qs.length*2}分）`,bold:true});
-  if(!answers)lines.push({text:kind==='order'?'将词语排列成通顺的句子，不得增减词语。':kind==='translation'?'请将下列越南语翻译成中文。':'请选择正确答案，将字母填入括号内。'});
+  lines.push({text:`${['一','二','三','四','五','六'][group++]}、${label}（共${qs.length}题，每题2分，共${qs.length*2}分）`,bold:true});
+  if(!answers)lines.push({text:kind==='order'?'将词语排列成通顺的句子，不得增减词语。':kind==='translation'?'请将下列越南语翻译成中文。':kind==='judgment'?'请判断下列说法是否正确。':kind==='fill'?'请填写空缺处的答案。':'请选择正确答案，将字母填入括号内。'});
   qs.forEach((q,i)=>{
    lines.push({text:`${i+1}. ${q.text}${q.options?'（　　）':''}`});
    if(q.options)lines.push({text:q.options.map((o,j)=>`${'ABCD'[j]}. ${o}`).join('       ')});

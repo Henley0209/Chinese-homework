@@ -18,3 +18,11 @@ new_sqlite_classes = ["ConversationLimits"]
 
 [ai]
 binding = "AI"
+
+[[durable_objects.bindings]]
+name = "PUBLISHED_HOMEWORK"
+class_name = "PublishedHomework"
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["PublishedHomework"]

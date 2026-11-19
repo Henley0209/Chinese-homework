@@ -1,3 +1,5 @@
+import {handlePublishedHomework} from './homework-publishing.mjs';
+export {PublishedHomework} from './homework-publishing.mjs';
 import {generateCourseware} from './courseware.mjs';
 import {generateHomework} from './homework.mjs';
 import {toSimplified} from '../../vendor/chinese-simplified.mjs';
@@ -57,6 +59,10 @@ export default {
   if(request.method==='OPTIONS')return new Response(null,{status:204,headers});
   const path=new URL(request.url).pathname,speech=path==='/speech',transcribe=path==='/transcribe';
   if(path==='/courseware'){if(request.method!=='POST')return json({error:'仅支持POST'},405);return generateCourseware(request,env,json);}
+  if(['/homework-publish','/homework-open','/homework-submit'].includes(path)){
+   if(request.method!=='POST')return json({error:'仅支持POST'},405);
+   return handlePublishedHomework(path,request,env,json,readBytes);
+  }
   if(path==='/homework'){if(request.method!=='POST')return json({error:'仅支持POST'},405);return generateHomework(request,env,json);}
   if(!speech&&!transcribe&&path!=='/conversation')return json({error:'路径不存在'},404);
   if(request.method!=='POST')return json({error:'仅支持POST'},405);

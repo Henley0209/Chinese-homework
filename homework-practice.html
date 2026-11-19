@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>课堂作业</title>
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./homework-generator.css">
+<script type="module" src="./homework-practice.mjs"></script>
+</head>
+<body>
+<main class="panel homework-practice">
+ <a href="./index.html">返回首页</a>
+ <h1 id="homework-title">课堂作业</h1>
+ <p id="homework-status" role="status" aria-live="polite">正在载入作业…</p>
+ <button id="homework-retry" class="quiet" type="button" hidden>重新载入</button>
+ <form id="homework-form" hidden>
+  <div id="homework-questions"></div>
+  <button class="primary" type="submit">提交作业</button>
+ </form>
+ <section id="homework-results" hidden aria-labelledby="homework-score">
+  <h2 id="homework-score" tabindex="-1"></h2>
+  <ol id="homework-feedback"></ol>
+ </section>
+</main>
+</body>
+</html>

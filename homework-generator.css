@@ -6,3 +6,10 @@
 #teacher-upload-panel[hidden]{display:none!important}
 #teacher-upload-panel{margin-top:12px}
 .homework-courseware{margin:16px 0;padding:14px;border:1px dashed #86b4d4;border-radius:10px;background:#f5faff}.homework-courseware [hidden]{display:none!important}.homework-courseware [data-hw-file-status]{white-space:pre-wrap;overflow-wrap:anywhere}.homework-courseware .note{margin-bottom:8px}
+
+.homework-practice{max-width:760px;margin:2rem auto;padding:1.5rem}
+.homework-practice fieldset{margin:0 0 1rem;padding:1rem;min-width:0}
+.homework-practice label{display:block;margin:.5rem 0}
+.homework-practice input:not([type=radio]),.homework-practice textarea{display:block;width:100%;box-sizing:border-box}
+.homework-practice [hidden]{display:none}
+.homework-practice legend,.homework-practice p{overflow-wrap:anywhere}

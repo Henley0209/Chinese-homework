@@ -56,7 +56,7 @@ export function plannedQuestions(kind,targets,items,avoid=[],limit=5,{referenceO
  const add=raw=>{const [q]=selectNewQuestions([raw],kind,[...avoid,...questions.map(q=>kind==='choice'?completedSentence(q):q.text)],1);if(q)questions.push(q);return Boolean(q);};
  for(let index=0;index<targets.length&&questions.length<limit;index++){
   const task=targets[index];
-  const item=items.find(q=>q?.id===task.id)||items[index];let raw=null;
+  const item=items.find(q=>q?.id===task.id);let raw=null;
   if(item&&!referenceOnly){
    if(kind==='pinyin'&&typeof item.reading==='string')raw=referenceQuestion(kind,{...task,reading:item.reading});
    if(kind==='choice'&&typeof item.text==='string'){

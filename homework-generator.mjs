@@ -1,7 +1,7 @@
-import {coursewareTasks,checkCoursewareCounts} from './homework-courseware-plan.mjs?v=classroom-homework1';
+import {coursewareTasks,checkCoursewareCounts} from './homework-courseware-plan.mjs?v=classroom-homework3';
 import {readCourseware,coursewareContext,extractChinese} from './homework-courseware.mjs?v=courseware-fix2';
 import {courseTasks} from './homework-plan.mjs?v=homework-singleblank3';
-import {fillHomework,missingQuestions} from './homework-generation.mjs?v=classroom-homework1';
+import {fillHomework,missingQuestions} from './homework-generation.mjs?v=classroom-homework3';
 import {bankLabels,listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
 import {kinds,validateQuestions} from './homework-core.mjs?v=classroom-homework1';
 import {makeDocx} from './homework-docx.mjs?v=classroom-homework1';
@@ -70,7 +70,7 @@ export function initHomework({requireTeacher,getPassword}){
   let uploadedContext;try{if(courseware){content.value=extractChinese(content.value);uploadedContext=coursewareContext(content.value);}else if(useContent){if(!/\p{Script=Han}/u.test(content.value)||content.value.length>7000)throw Error('请输入含中文的课堂文字，最多7000字。');uploadedContext=content.value.trim();}}catch(e){setStatus(e.message);return;}
   const selectedCounts=counts();
   let taskPlan;try{taskPlan=useContent?coursewareTasks($('[data-hw-content]').value,Object.keys(bankLabels).flatMap(id=>listExercises(id).map(e=>e.exercise))):courseTasks(entry.exercise,listExercises(bank.value).map(e=>e.exercise));if(useContent)checkCoursewareCounts(taskPlan,selectedCounts);}catch(e){setStatus(e.message);return;}
-  const resuming=paper?.questions.length&&missingQuestions(paper,selectedCounts)>0;
+  const resuming=paper?.generationAttempt&&missingQuestions(paper,selectedCounts)>0;
   if(paper?.questions.length&&!resuming&&!confirm('重新生成会替换当前作业及修改，是否继续？'))return;
   if(!resuming){clear();paper={title:courseware?courseware.title:useContent?'课堂作业':entry.exercise.title,bank:bankLabels[bank.value],questions:[]};title.value=paper.title;}
   busy(true);$('[data-hw-result]').hidden=true;controller=new AbortController();const signal=controller.signal,token=++run;

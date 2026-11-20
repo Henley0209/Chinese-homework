@@ -20,7 +20,10 @@ export function coursewareTasks(text,exercises=[]){
  const sentenceTargets=sentences.map((sentence,i)=>({id:'cw-sentence:'+i,word:multi.find(w=>sentence.includes(w))||'',sentence,options:[],explanation:''}));
  // A word without a sentence asks AI to compose a fresh sentence around that word.
  const expanded=[...sentenceTargets,...vocabulary.map(t=>({...t,sentence:''}))];
- return {pinyin,choice,order:expanded.map((t,i)=>({...t,id:'cw-order:'+i})),translation:expanded.map((t,i)=>({...t,id:'cw-translation:'+i}))};
+ const translationTargets=[
+  ...vocabulary.filter(t=>t.word.length>1),...sentenceTargets,...vocabulary.filter(t=>t.word.length===1)
+ ];
+ return {pinyin,choice,order:expanded.map((t,i)=>({...t,id:'cw-order:'+i})),translation:translationTargets.map((t,i)=>({...t,id:'cw-translation:'+i}))};
 }
 export function checkCoursewareCounts(tasks,counts){
  const labels={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译题'};

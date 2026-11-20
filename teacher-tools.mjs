@@ -1,6 +1,6 @@
 import {initCourseware} from './courseware-designer.mjs?v=courseware7';
 import {initChangeHistory} from './change-history.mjs?v=courseware3';
-import {initHomework} from './homework-generator.mjs?v=classroom-homework2';
+import {initHomework} from './homework-generator.mjs?v=classroom-homework3';
 import {isTeacherPassword} from './teacher-auth.mjs?v=visits15';
 import {bankLabels,loadCatalog,listExercises,saveExercise,catalog,discardDrafts,draftCount,subscribe} from './exercise-store.mjs?v=hsk4-40';
 import {validate} from './grading.mjs';

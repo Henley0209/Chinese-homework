@@ -21,13 +21,13 @@ test('short documents report capacity rather than repeatedly requesting duplicat
 test('screenshot 15/15/15/5 completes via actual worker target route with explicit vocabulary and sentence targets',async()=>{
  const tasks=coursewareTasks(bilingual),counts={pinyin:15,choice:15,order:15,translation:5};checkCoursewareCounts(tasks,counts);
  const env={HOMEWORK_VERIFY_TOKEN:Date.now()+'.'+'b'.repeat(64),ALLOWED_ORIGIN:'https://henley0209.github.io',AI:{run:async(model,params)=>{
-  const input=JSON.parse(params.messages[1].content);return {response:{questions:input.targets.map((t,i)=>({id:t.id,reading:'xué xí',text:t.id.startsWith('cw-translation:')?`Hôm nay tôi muốn cùng bạn tìm hiểu câu số ${input.attempt * 5 + i + 1}.`:t.id.startsWith('cw-choice:')?`第${input.attempt * 5 + i + 1}位员工正在认真学习${t.word}的用法。`:t.sentence||`老师要求学生认真学习${t.word}这个词语。`,answer:t.sentence||`老师要求学生认真学习${t.word}这个词语。`}))}};
+  const input=JSON.parse(params.messages[1].content);assert.equal(input.lesson,bilingual.trim().slice(0,1200));return {response:{questions:input.targets.map((t,i)=>({id:t.id,reading:'xué xí',text:t.id.startsWith('cw-translation:')?`Hôm nay tôi muốn cùng bạn tìm hiểu câu số ${input.attempt * 5 + i + 1}.`:t.id.startsWith('cw-choice:')?`第${input.attempt * 5 + i + 1}位员工正在认真学习${t.word}的用法。`:t.sentence||`老师要求学生认真学习${t.word}这个词语。`,answer:t.sentence||`老师要求学生认真学习${t.word}这个词语。`}))}};
  }},LIMITS:{idFromName:v=>v,get:()=>({fetch:async()=>new Response('')})}};
  const paper={bank:'HSK3',title:'请假',questions:[]};let calls=0;
  await fillHomework(paper,counts,async batch=>{
   assert.ok(batch.targets?.length);assert.equal(batch.count,batch.targets.length);calls++;
   for(const t of batch.targets)assert.doesNotMatch(t.word+t.sentence,/\p{Script=Latin}/u);
-  const request=new Request('https://worker.test/homework',{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,Authorization:'Bearer '+env.HOMEWORK_VERIFY_TOKEN,'CF-Connecting-IP':'127.0.0.1','Content-Type':'application/json'},body:JSON.stringify({...batch,bank:paper.bank,title:paper.title,context:coursewareContext(bilingual)})});
+  const request=new Request('https://worker.test/homework',{method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,Authorization:'Bearer '+env.HOMEWORK_VERIFY_TOKEN,'CF-Connecting-IP':'127.0.0.1','Content-Type':'application/json'},body:JSON.stringify({...batch,bank:paper.bank,title:paper.title,context:bilingual.trim()})});
   const response=await worker.fetch(request,env),data=await response.json();assert.equal(response.status,200,JSON.stringify(data));return data;
  },{tasks});
  assert.equal(paper.questions.length,50);assert.ok(calls<30);
@@ -40,4 +40,28 @@ test('one stalled question type does not block the remaining types; retries keep
  const paper={questions:[]};const counts={pinyin:5,choice:5};
  await assert.rejects(fillHomework(paper,counts,async({kind,count})=>({questions:kind==='pinyin'?[]:Array.from({length:count},(_,i)=>({text:`今天________词语${i}`,options:['学习','工作','休息'],answer:'A',explanation:'选择学习。'}))})),/拼音选择题/);
  assert.equal(paper.questions.filter(q=>q.kind==='choice').length,5);
+});
+
+test('resuming classroom generation rotates past targets that already failed',async()=>{
+ const paper={questions:[]};
+ const targets=coursewareTasks(bilingual).choice;
+ const seen=new Set();
+ await assert.rejects(fillHomework(paper,{choice:5},async({targets})=>{
+  for(const target of targets)seen.add(target.id);
+  return {questions:[]};
+ },{tasks:{choice:targets}}),/填空选择题/);
+ let firstResumeBatch;
+ await assert.rejects(fillHomework(paper,{choice:5},async({targets})=>{
+  firstResumeBatch??=targets;
+  return {questions:[]};
+ },{tasks:{choice:targets}}),/填空选择题/);
+ assert.ok(firstResumeBatch.length>0);
+ assert.ok(firstResumeBatch.every(target=>!seen.has(target.id)));
+});
+
+test('classroom translation starts with distinct multi-character vocabulary',()=>{
+ const {translation}=coursewareTasks('行政部负责公司管理。行政部采购办公用品。行政部每天整理仓库。');
+ const words=translation.slice(0,3).map(target=>target.word);
+ assert.equal(new Set(words).size,3);
+ assert.ok(words.every(word=>word.length>=2));
 });

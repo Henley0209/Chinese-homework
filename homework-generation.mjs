@@ -1,14 +1,20 @@
 import {kinds,selectNewQuestions,validateQuestions,completedSentence,conflictsWithPaper} from './homework-core.mjs?v=classroom-homework1';
+const targetAttempts=new WeakMap();
+
 export function missingQuestions(paper,counts){
  return Object.entries(counts).reduce((sum,[kind,count])=>sum+Math.max(0,count-(paper?.questions.filter(q=>q.kind===kind).length||0)),0);
 }
 // Mutate the draft only after validation, so cancellation and retries preserve progress.
 export async function fillHomework(paper,counts,requestBatch,{signal,onProgress=()=>{},tasks={}}={}){
  const failures=[];
+ const attempts=targetAttempts.get(paper)||new Map();
+ targetAttempts.set(paper,attempts);
  const check=()=>{if(signal?.aborted)throw new DOMException('已取消生成','AbortError');};
  for(const kind of Object.keys(kinds)){
   const existing=paper.questions.filter(q=>q.kind===kind);if(existing.length)validateQuestions(existing,kind,existing.length);
-  let stalls=0;const tried=new Map();
+  let stalls=0;
+  const tried=attempts.get(kind)||new Map();
+  attempts.set(kind,tried);
   while(paper.questions.filter(q=>q.kind===kind).length<counts[kind]){
    check();
    const remaining=counts[kind]-paper.questions.filter(q=>q.kind===kind).length;

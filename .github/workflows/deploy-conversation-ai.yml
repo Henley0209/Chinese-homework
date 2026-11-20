@@ -61,6 +61,7 @@ jobs:
         run: |
           python3 tools/enable-conversation-ai.py 2>&1 | tee work/conversation-verification.log
       - name: Install temporary homework verification credential
+        id: verification-credential
         run: |
           token="$(node -e "console.log(Date.now()+'.'+require('node:crypto').randomBytes(32).toString('hex'))")"
           echo "::add-mask::$token"
@@ -69,6 +70,7 @@ jobs:
       - name: Verify all six courseware banks and a complete generated lesson
         run: node tools/verify-courseware-live.mjs
       - name: Verify real 50-question HSK4, HSK5 and local courseware homework
+        if: ${{ !cancelled() && steps.verification-credential.outcome == 'success' }}
         run: node tools/verify-homework-live.mjs
       - name: Preserve inspectable generated courseware samples
         if: always()

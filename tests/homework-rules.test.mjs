@@ -163,3 +163,10 @@ test('a double-blank AI item is discarded and only its missing slot is refilled'
  assert.equal(calls,2);assert.equal(paper.questions.length,1);
  assert.equal((paper.questions[0].text.match(/[_＿]+/gu)||[]).length,1);
 });
+
+test('a partial model reply is matched to the intended translation target',()=>{
+ const targets=['a','b'].map(id=>({id,word:'本子',sentence:'',options:[]}));
+ const item={id:'b',text:'Hôm nay tôi cần mua một quyển vở mới cho công ty.',answer:'今天我要给公司买一个新的本子。'};
+ const result=plannedQuestions('translation',targets,[item]);
+ assert.deepEqual(result.questions.map(q=>q.targetId),['b']);
+});

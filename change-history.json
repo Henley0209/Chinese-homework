@@ -1926,6 +1926,14 @@
       "changes": [
         "Replace retired Workers AI model"
       ]
+    },
+    {
+      "version": "V0240",
+      "updatedAt": "2026-11-20T21:32:25+07:00",
+      "commit": "b0b13a7f0d75990a9e7ed6711f0a2b33eb0afbd5",
+      "changes": [
+        "Use GPT-OSS for Workers AI generation"
+      ]
     }
   ]
 }

@@ -1910,6 +1910,14 @@
       "changes": [
         "Preserve valid homework questions when AI repair fails"
       ]
+    },
+    {
+      "version": "V0238",
+      "updatedAt": "2026-11-20T21:29:07+07:00",
+      "commit": "58ee726a94d1c7950e7e24240805ecb7d8458346",
+      "changes": [
+        "Improve reliability of homework generation from classroom notes"
+      ]
     }
   ]
 }

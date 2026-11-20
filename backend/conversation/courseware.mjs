@@ -35,7 +35,7 @@ export async function generateCourseware(request,env,json){
  try{
   const run=async(schema,messages,maxTokens=4500,allowSplit=true)=>{
    if(Date.now()>=deadline)throw Error('生成超时，请重试或继续生成。');
-   const response=await env.AI.run(env.AI_MODEL||'@cf/qwen/qwen3.5-35b-a3b',{messages,max_tokens:maxTokens,temperature:.5,response_format:{type:'json_schema',json_schema:schema}});
+   const response=await env.AI.run(env.AI_MODEL||'@cf/openai/gpt-oss-120b',{messages,max_tokens:maxTokens,temperature:.5,response_format:{type:'json_schema',json_schema:schema}});
    const choice=response?.choices?.[0];if(choice?.message?.refusal)throw Error('AI未能生成本课内容，请重试。');
    const raw=response?.response??choice?.message?.content;
    try{return typeof raw==='string'?JSON.parse(raw):raw;}catch{

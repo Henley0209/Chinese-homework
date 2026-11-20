@@ -21,7 +21,7 @@ export async function handlePublishedHomework(path,request,env,json,readBytes){
    !Array.isArray(questions)||!questions.length||questions.length>maxHomeworkQuestions){
    return json({error:'请填写作业标题并提供有效题目。'},400);
   }
-  try{payload={title:title.trim(),bank,questions:questions.map(q=>validateQuestions([q],q?.kind,1)[0])};}
+  try{payload={title:title.trim(),bank,...(body.showPinyin===true?{showPinyin:true}:{}),questions:questions.map(q=>validateQuestions([q],q?.kind,1)[0])};}
   catch(error){return json({error:error.message},400);}
   id=crypto.randomUUID();
  }else if(typeof id!=='string'||!/^[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(id)){
@@ -56,8 +56,8 @@ export class PublishedHomework {
   if(!paper)return Response.json({error:'找不到这份作业，请核对链接。'},{status:404});
 
   if(path==='/homework-open'){
-   const {title,bank,questions}=paper;
-   return Response.json({title,bank,questions:questions.map(({kind,text,options})=>({kind,text,options}))});
+   const {title,bank,questions,showPinyin}=paper;
+   return Response.json({title,bank,...(showPinyin?{showPinyin:true}:{}),questions:questions.map(({kind,text,options})=>({kind,text,options}))});
   }
 
   const {answers}=await request.json();

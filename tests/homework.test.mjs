@@ -37,6 +37,21 @@ test('student paper omits answers and zero-count groups, teacher paper includes 
  const data=new Uint8Array(await blob.arrayBuffer());assert.deepEqual([...data.slice(0,4)],[80,75,3,4]);
  assert.match(new TextDecoder().decode(data),/测试&lt;&amp;&gt;/);
 });
+test('optional pinyin is exported under Chinese without supplying pronunciation quiz answers',()=>{
+ const questions=[
+  {...question('pinyin',1),kind:'pinyin',text:'图书馆',options:['tú shū guǎn','tǔ shū guǎn','tú shù guǎn']},
+  {...vocabularyQuestions[1],kind:'vocabulary'},
+  {...question('translation',1),kind:'translation',answer:'学校'},
+ ];
+ const paper={title:'测试',bank:'HSK3',questions};
+ const output=(showPinyin,answers)=>paperLines({...paper,showPinyin},answers).map(line=>line.text).join('\n');
+ assert.doesNotMatch(output(false,true),/xué xiào|kuài jì bù/);
+ assert.match(output(true,true),/参考答案：学校\nxué xiào/u);
+ assert.match(output(true,true),/参考答案：B · 会计部\nkuài jì bù/u);
+ assert.match(output(true,false),/B\. 会计部\nkuài jì bù/u);
+ assert.doesNotMatch(output(true,false),/图书馆（　　）\ntú shū guǎn|xué xiào/u);
+});
+
 test('homework endpoint checks origin, method, teacher authorization, limits and generated output',async t=>{
  const real=crypto.subtle.digest.bind(crypto.subtle);
  t.mock.method(crypto.subtle,'digest',async(algorithm,data)=>new TextDecoder().decode(data)==='teacher-fixture'?Uint8Array.from('605241b419d122752eb1878fa7b13dee955ec9f4c0e9530fe16491a9976c7120'.match(/../g).map(h=>parseInt(h,16))).buffer:real(algorithm,data));
@@ -168,6 +183,11 @@ test('teachers publish a fixed homework snapshot and students open and submit wi
  assert.equal(opened.status,200);
  const paper=await opened.json();
  assert.equal(paper.title,'课堂作业');
+ assert.equal(paper.showPinyin,undefined);
+ const pinyinId=(await (await publish({...draft,showPinyin:true})).json()).id;
+ const withPinyin=await (await call('open',{id:pinyinId})).json();
+ assert.equal(withPinyin.showPinyin,true);
+ assert.ok(withPinyin.questions.every(q=>!Object.hasOwn(q,'answer')));
  assert.deepEqual(paper.questions.map(q=>q.kind),questions.map(q=>q.kind));
  assert.ok(paper.questions.every(q=>!Object.hasOwn(q,'answer')&&!Object.hasOwn(q,'explanation')));
  assert.equal((await call('submit',{id,answers:['B']})).status,400);

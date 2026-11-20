@@ -1,3 +1,10 @@
+import {coursewarePinyin} from './courseware-pinyin.mjs';
+
+export function homeworkPinyin(text,kind){
+ if(kind!=='pinyin'&&typeof text==='string'&&/\p{Script=Han}/u.test(text))return coursewarePinyin(text);
+ return '';
+}
+
 export const kinds={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译句子',vocabulary:'中越词语选择题',judgment:'判断题',fill:'填空题'};
 export const maxQuestionsPerKind=20;
 export const maxHomeworkQuestions=Object.keys(kinds).length*maxQuestionsPerKind;
@@ -149,8 +156,22 @@ export function paperLines(paper,answers=false){
   if(!answers)lines.push({text:kind==='order'?'将词语排列成通顺的句子，不得增减词语。':kind==='translation'?'请将下列越南语翻译成中文。':kind==='vocabulary'?'请选择题干词语在另一种语言中的正确译义。':kind==='judgment'?'请判断下列说法是否正确。':kind==='fill'?'请填写空缺处的答案。':'请选择正确答案，将字母填入括号内。'});
   qs.forEach((q,i)=>{
    lines.push({text:`${i+1}. ${q.text}${q.options?'（　　）':''}`});
-   if(q.options)lines.push({text:q.options.map((o,j)=>`${'ABCD'[j]}. ${o}`).join('       ')});
-   if(answers)lines.push({text:`参考答案：${q.answer}\n解析：${q.explanation}`});
+   const annotate=text=>paper.showPinyin?homeworkPinyin(text,q.kind):'';
+   const pronunciation=annotate(q.text);
+   if(pronunciation)lines.push({text:pronunciation});
+   if(q.options){
+    const readings=q.options.map(annotate);
+    if(readings.some(Boolean))q.options.forEach((option,j)=>{
+     lines.push({text:`${'ABCD'[j]}. ${option}`});
+     if(readings[j])lines.push({text:readings[j]});
+    });
+    else lines.push({text:q.options.map((o,j)=>`${'ABCD'[j]}. ${o}`).join('       ')});
+   }
+   if(answers){
+    const answerText=q.options?q.options['ABCD'.indexOf(q.answer)]:q.answer;
+    const answerPinyin=annotate(answerText);
+    lines.push({text:`参考答案：${q.answer}${answerPinyin&&q.options?' · '+answerText:''}${answerPinyin?'\n'+answerPinyin:''}\n解析：${q.explanation}`});
+   }
    else if(!q.options)lines.push({text:'________________________________________________________________'});
   });
  }

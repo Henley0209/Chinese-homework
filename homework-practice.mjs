@@ -1,5 +1,5 @@
 import {homeworkApi} from './homework-api.mjs';
-import {kinds} from './homework-core.mjs?v=classroom-homework4';
+import {kinds,homeworkPinyin} from './homework-core.mjs?v=classroom-homework5';
 
 const $=id=>document.getElementById(id);
 const id=new URLSearchParams(location.search).get('id');
@@ -8,11 +8,21 @@ const submit=$('homework-submit'),confirmSubmit=$('homework-submit-incomplete');
 const submitStatus=$('homework-submit-status'),jump=$('homework-jump');
 const node=(tag,text)=>Object.assign(document.createElement(tag),{textContent:text});
 
-function renderQuestion(q,index){
+function appendPinyin(parent,text,kind,enabled){
+ const reading=enabled?homeworkPinyin(text,kind):'';
+ if(reading){
+  const line=node('small',reading);
+  line.style.display='block';
+  parent.append(line);
+ }
+}
+
+function renderQuestion(q,index,showPinyin){
  const field=node('fieldset','');
  const group='answer-'+index;
  field.append(node('legend',`第 ${index+1} 题 · ${kinds[q.kind]}`));
- field.append(node('p',q.text));
+ const stem=node('p',q.text);
+ appendPinyin(stem,q.text,q.kind,showPinyin);field.append(stem);
  const options=q.kind==='judgment'?['正确','错误']:q.options;
  if(options){
   options.forEach((option,i)=>{
@@ -20,7 +30,7 @@ function renderQuestion(q,index){
    const input=Object.assign(node('input',''),{
     type:'radio',name:group,value:q.kind==='judgment'?option:'ABCD'[i]
    });
-   label.append(input,document.createTextNode(option));field.append(label);
+   label.append(input,document.createTextNode(option));appendPinyin(label,option,q.kind,showPinyin);field.append(label);
   });
  }else{
   const label=node('label',q.kind==='order'?'按正确顺序写出完整句子':'你的答案');
@@ -35,7 +45,7 @@ async function load(){
  try{
   const paper=await homeworkApi('/homework-open',{body:{id},signal:AbortSignal.timeout(15000)});
   document.title=$('homework-title').textContent=paper.title;
-  $('homework-questions').replaceChildren(...paper.questions.map(renderQuestion));
+  $('homework-questions').replaceChildren(...paper.questions.map((q,i)=>renderQuestion(q,i,paper.showPinyin)));
   status.textContent=`${paper.bank} · 共 ${paper.questions.length} 题`;
   form.hidden=false;
   const answerValues=()=>{
@@ -76,7 +86,9 @@ async function load(){
      const answer=q.options?q.options['ABCD'.indexOf(detail.answer)]:detail.answer;
      const state=!answers[i]?'未作答':detail.correct===null?'参考译文':detail.correct?'回答正确':'回答有误';
      const item=node('li','');
-     item.append(node('strong',`第 ${i+1} 题 · ${state}`),node('p',`参考答案：${answer}`),node('p',detail.explanation));
+     const reference=node('p',`参考答案：${answer}`);
+     appendPinyin(reference,answer,q.kind,paper.showPinyin);
+     item.append(node('strong',`第 ${i+1} 题 · ${state}`),reference,node('p',detail.explanation));
      return item;
     });
     $('homework-feedback').replaceChildren(...feedback);

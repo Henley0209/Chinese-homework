@@ -20,3 +20,5 @@
 
 .homework-generator [data-hw-link-wrap] .teacher-actions{align-items:center}
 .homework-generator [data-hw-link-wrap] button{min-height:32px;padding:4px 10px}
+
+.homework-generator .homework-pinyin-toggle{display:flex;align-items:center;gap:8px;font-weight:600}.homework-pinyin-toggle input{width:1.1em;height:1.1em}

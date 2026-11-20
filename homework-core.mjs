@@ -5,6 +5,11 @@ export function homeworkPinyin(text,kind){
  return '';
 }
 
+export function inlineHomeworkPinyin(text,kind,enabled){
+ const reading=enabled?homeworkPinyin(text,kind):'';
+ return reading?`${text}（${reading}）`:text;
+}
+
 export const kinds={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译句子',vocabulary:'中越词语选择题',judgment:'判断题',fill:'填空题'};
 export const maxQuestionsPerKind=20;
 export const maxHomeworkQuestions=Object.keys(kinds).length*maxQuestionsPerKind;
@@ -160,17 +165,16 @@ export function paperLines(paper,answers=false){
    const pronunciation=annotate(q.text);
    if(pronunciation)lines.push({text:pronunciation});
    if(q.options){
-    const readings=q.options.map(annotate);
-    if(readings.some(Boolean))q.options.forEach((option,j)=>{
-     lines.push({text:`${'ABCD'[j]}. ${option}`});
-     if(readings[j])lines.push({text:readings[j]});
-    });
-    else lines.push({text:q.options.map((o,j)=>`${'ABCD'[j]}. ${o}`).join('       ')});
+    const labels=q.options.map(option=>inlineHomeworkPinyin(option,q.kind,paper.showPinyin));
+    const options=labels.map((label,j)=>`${'ABCD'[j]}. ${label}`);
+    if(labels.some((label,j)=>label!==q.options[j]))lines.push(...options.map(text=>({text})));
+    else lines.push({text:options.join('       ')});
    }
    if(answers){
     const answerText=q.options?q.options['ABCD'.indexOf(q.answer)]:q.answer;
     const answerPinyin=annotate(answerText);
-    lines.push({text:`参考答案：${q.answer}${answerPinyin&&q.options?' · '+answerText:''}${answerPinyin?'\n'+answerPinyin:''}\n解析：${q.explanation}`});
+    const inlineAnswer=answerPinyin&&q.options?' · '+inlineHomeworkPinyin(answerText,q.kind,true):'';
+    lines.push({text:`参考答案：${q.answer}${inlineAnswer}${answerPinyin&&!q.options?'\n'+answerPinyin:''}\n解析：${q.explanation}`});
    }
    else if(!q.options)lines.push({text:'________________________________________________________________'});
   });

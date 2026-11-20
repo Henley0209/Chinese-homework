@@ -1,5 +1,5 @@
 import {homeworkApi} from './homework-api.mjs';
-import {kinds,homeworkPinyin} from './homework-core.mjs?v=classroom-homework5';
+import {kinds,homeworkPinyin,inlineHomeworkPinyin} from './homework-core.mjs?v=classroom-homework6';
 
 const $=id=>document.getElementById(id);
 const id=new URLSearchParams(location.search).get('id');
@@ -30,7 +30,7 @@ function renderQuestion(q,index,showPinyin){
    const input=Object.assign(node('input',''),{
     type:'radio',name:group,value:q.kind==='judgment'?option:'ABCD'[i]
    });
-   label.append(input,document.createTextNode(option));appendPinyin(label,option,q.kind,showPinyin);field.append(label);
+   label.append(input,document.createTextNode(inlineHomeworkPinyin(option,q.kind,showPinyin)));field.append(label);
   });
  }else{
   const label=node('label',q.kind==='order'?'按正确顺序写出完整句子':'你的答案');
@@ -86,8 +86,8 @@ async function load(){
      const answer=q.options?q.options['ABCD'.indexOf(detail.answer)]:detail.answer;
      const state=!answers[i]?'未作答':detail.correct===null?'参考译文':detail.correct?'回答正确':'回答有误';
      const item=node('li','');
-     const reference=node('p',`参考答案：${answer}`);
-     appendPinyin(reference,answer,q.kind,paper.showPinyin);
+     const reference=node('p',`参考答案：${q.options?inlineHomeworkPinyin(answer,q.kind,paper.showPinyin):answer}`);
+     if(!q.options)appendPinyin(reference,answer,q.kind,paper.showPinyin);
      item.append(node('strong',`第 ${i+1} 题 · ${state}`),reference,node('p',detail.explanation));
      return item;
     });

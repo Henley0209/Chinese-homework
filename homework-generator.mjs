@@ -1,10 +1,10 @@
 import {coursewareTasks,checkCoursewareCounts} from './homework-courseware-plan.mjs?v=classroom-homework3';
 import {readCourseware,coursewareContext,extractChinese} from './homework-courseware.mjs?v=courseware-fix2';
 import {courseTasks} from './homework-plan.mjs?v=homework-singleblank3';
-import {fillHomework,missingQuestions} from './homework-generation.mjs?v=classroom-homework5';
+import {fillHomework,missingQuestions} from './homework-generation.mjs?v=classroom-homework6';
 import {bankLabels,listExercises,subscribe} from './exercise-store.mjs?v=hsk4-40';
-import {kinds,validateQuestions,maxQuestionsPerKind,homeworkPinyin} from './homework-core.mjs?v=classroom-homework5';
-import {makeDocx} from './homework-docx.mjs?v=classroom-homework5';
+import {kinds,validateQuestions,maxQuestionsPerKind,homeworkPinyin,inlineHomeworkPinyin} from './homework-core.mjs?v=classroom-homework6';
+import {makeDocx} from './homework-docx.mjs?v=classroom-homework6';
 import {homeworkApi} from './homework-api.mjs';
 export function initHomework({requireTeacher,getPassword}){
  const tools=document.querySelector('#tools');
@@ -67,9 +67,7 @@ export function initHomework({requireTeacher,getPassword}){
     wrap.textContent=label;input.value=value;input.rows=2;input.maxLength=600;
     const update=()=>{
      const text=read(),reading=paper.showPinyin?homeworkPinyin(text,q.kind):'';
-     pinyin.replaceChildren();
-     if(reading&&showWord)pinyin.append(text,document.createElement('br'));
-     if(reading)pinyin.append(reading);
+     pinyin.textContent=reading&&showWord?inlineHomeworkPinyin(text,q.kind,true):reading;
      pinyin.hidden=!reading;
     };
     readings.push(update);
@@ -77,7 +75,7 @@ export function initHomework({requireTeacher,getPassword}){
     wrap.append(input,pinyin);box.append(wrap);
    };
    field('题干',q.text,v=>q.text=v,()=>q.text);
-   q.options?.forEach((o,i)=>field('选项 '+'ABCD'[i],o,v=>q.options[i]=v,()=>q.options[i]));
+   q.options?.forEach((o,i)=>field('选项 '+'ABCD'[i],o,v=>q.options[i]=v,()=>q.options[i],true));
    field('参考答案'+(q.options?'（选项字母）':q.kind==='judgment'?'（正确 / 错误）':''),q.answer,v=>q.answer=v,()=>q.options?q.options[[...'ABCD'].indexOf(q.answer.trim().toUpperCase())]:q.answer,Boolean(q.options));
    field('解析',q.explanation,v=>q.explanation=v,()=> '');
    readings.forEach(update=>update());root.append(box);

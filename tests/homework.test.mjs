@@ -47,8 +47,8 @@ test('optional pinyin is exported under Chinese without supplying pronunciation 
  const output=(showPinyin,answers)=>paperLines({...paper,showPinyin},answers).map(line=>line.text).join('\n');
  assert.doesNotMatch(output(false,true),/xué xiào|kuài jì bù/);
  assert.match(output(true,true),/参考答案：学校\nxué xiào/u);
- assert.match(output(true,true),/参考答案：B · 会计部\nkuài jì bù/u);
- assert.match(output(true,false),/B\. 会计部\nkuài jì bù/u);
+ assert.match(output(true,true),/参考答案：B · 会计部（kuài jì bù）/u);
+ assert.match(output(true,false),/B\. 会计部（kuài jì bù）/u);
  assert.doesNotMatch(output(true,false),/图书馆（　　）\ntú shū guǎn|xué xiào/u);
 });
 

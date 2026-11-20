@@ -81,6 +81,20 @@ test('translation repair receives actual word counts and preserves already valid
  assert.equal(calls,2);assert.equal(result.questions.length,2);assert.equal(result.questions[0].text,valid.text);
 });
 
+test('invalid translation repair returns the valid question from the first response',async()=>{
+ const {generatePlannedBatch}=await import('../backend/conversation/homework-planned.mjs');
+ const valid={id:'a',answer:'今天我要给公司买一个新的本子。',text:'Hôm nay tôi cần mua một quyển vở mới cho công ty.'};
+ const responses=[{response:{questions:[valid]}},{response:'{"questions":['}];
+ const result=await generatePlannedBatch(
+  {AI:{run:async()=>responses.shift()}},
+  {bank:'HSK1-2',title:'本子',kind:'translation',count:2,targets:['a','b'].map(id=>({id,word:'本子',sentence:'',options:[]})),avoid:[],attempt:0},
+  (data,status=200)=>({data,status})
+ );
+ assert.equal(result.status,200);
+ assert.equal(result.data.needsMore,true);
+ assert.deepEqual(result.data.questions.map(q=>q.text),[valid.text]);
+});
+
 const officeBlanks=[
  {text:'________里的办公用品',options:['公司','办公','用品'],answer:'A'},
  {text:'公司里的________用品',options:['公司','用品','办公'],answer:'C'},

@@ -1,4 +1,4 @@
-import {kinds,selectNewQuestions,validateQuestions,completedSentence,conflictsWithPaper} from './homework-core.mjs?v=classroom-homework1';
+import {kinds,selectNewQuestions,validateQuestions,completedSentence,conflictsWithPaper} from './homework-core.mjs?v=classroom-homework4';
 const targetAttempts=new WeakMap();
 
 export function missingQuestions(paper,counts){
@@ -18,7 +18,7 @@ export async function fillHomework(paper,counts,requestBatch,{signal,onProgress=
   while(paper.questions.filter(q=>q.kind===kind).length<counts[kind]){
    check();
    const remaining=counts[kind]-paper.questions.filter(q=>q.kind===kind).length;
-   let count=Math.min(stalls?1:kind==='translation'?2:5,remaining);const avoid=paper.questions.map(q=>q.kind==='choice'||q.kind==='order'&&kind!=='order'?completedSentence(q):q.text);
+   let count=Math.min(stalls?1:kind==='translation'?2:5,remaining);const avoid=paper.questions.filter(q=>(q.kind==='vocabulary')===(kind==='vocabulary')).map(q=>q.kind==='choice'||q.kind==='order'&&kind!=='order'?completedSentence(q):q.text);
    const used=new Set(paper.questions.filter(q=>q.kind===kind).map(q=>q.targetId));
    const available=(tasks[kind]||[]).filter(t=>!used.has(t.id)).sort((a,b)=>(tried.get(a.id)||0)-(tried.get(b.id)||0)).slice(0,count);
    if(available.length)count=Math.min(count,available.length);

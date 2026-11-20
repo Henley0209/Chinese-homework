@@ -7,6 +7,21 @@ import {fillHomework,missingQuestions} from '../homework-generation.mjs';
 import worker,{PublishedHomework} from '../backend/conversation/worker.mjs';
 if(!globalThis.crypto)globalThis.crypto=webcrypto;
 const question=(kind,i)=>kind==='judgment'?{text:`第${i}组有两位同学。`,answer:'正确',explanation:'课堂记录说明每组人数。'}:kind==='fill'?{text:`第${i}组有________位同学。`,answer:'两',explanation:'根据课堂记录填空。'}:kind==='order'?{text:`我 / 今天 / 买了${i}本书`,answer:`我今天买了${i}本书。`,explanation:'按时间和动作排序。'}:kind==='translation'?{text:`Hôm nay tôi muốn mua ${i} quyển sách cho các bạn.`,answer:`我买${i}本书。`,explanation:'本是书的量词。'}:{text:`词语${i}${kind==='choice'?'________':''}`,options:['选项一','选项二','选项三'],answer:'B',explanation:'第二项正确。'};
+const vocabularyQuestions=[
+ {text:'行政部',options:['phòng hành chính','phòng kế toán','phòng nhân sự'],answer:'A',explanation:'行政部对应 phòng hành chính。'},
+ {text:'phòng kế toán',options:['行政部','会计部','生产部'],answer:'B',explanation:'phòng kế toán 对应会计部。'}
+];
+
+test('Chinese–Vietnamese vocabulary validates both directions and exports as a choice group',()=>{
+ const questions=validateQuestions(vocabularyQuestions,'vocabulary',2);
+ assert.throws(()=>validateQuestions([{...questions[0],options:['行政部','phòng kế toán','phòng nhân sự']}],'vocabulary',1));
+ assert.throws(()=>validateQuestions([{...questions[1],text:'phòng kế toán?'}],'vocabulary',1));
+ const lines=paperLines({title:'公司部门',bank:'HSK3',questions}).map(line=>line.text).join('\n');
+ assert.match(lines,/中越词语选择题/);
+ assert.match(lines,/A\. phòng hành chính/);
+ assert.doesNotMatch(lines,/参考答案/);
+});
+
 test('validates all six kinds, count, duplicates, options and ordering tokens',()=>{
  for(const kind of ['pinyin','choice','order','translation','judgment','fill'])assert.equal(validateQuestions([question(kind,1)],kind,1).length,1);
  assert.throws(()=>validateQuestions([], 'pinyin',5));
@@ -34,6 +49,12 @@ test('homework endpoint checks origin, method, teacher authorization, limits and
  assert.equal((await worker.fetch(request({count:20}),env)).status,400);
  quota=false;assert.equal((await worker.fetch(request(),env)).status,429);quota=true;
  for(const kind of ['pinyin','choice','order','translation','judgment','fill']){result={questions:Array.from({length:5},(_,i)=>question(kind,i+1))};const response=await worker.fetch(request({kind}),env);assert.equal(response.status,200);assert.equal((await response.json()).questions.length,5);}
+ result={questions:vocabularyQuestions};
+ for(const context of ['行政部负责后勤，会计部管理账目。',JSON.stringify({description:'公司部门',vocabulary:['行政部','会计部']})]){
+  const response=await worker.fetch(request({kind:'vocabulary',count:2,context}),env);
+  assert.equal(response.status,200);
+  assert.deepEqual((await response.json()).questions,validateQuestions(vocabularyQuestions,'vocabulary',2));
+ }
  result={};assert.equal((await worker.fetch(request(),env)).status,502);
  result={questions:[]};const empty=await worker.fetch(request(),env);assert.equal(empty.status,200);assert.equal((await empty.json()).needsMore,true);
  result={questions:Array.from({length:5},(_,i)=>question('choice',i+1))};const partial=await worker.fetch(request({avoid:['词语1']}),env);assert.equal(partial.status,200);const kept=await partial.json();assert.equal(kept.questions.length,4);assert.equal(kept.needsMore,true);
@@ -133,6 +154,7 @@ test('teachers publish a fixed homework snapshot and students open and submit wi
   method:'POST',headers:{Origin:env.ALLOWED_ORIGIN,'Content-Type':'application/json'},body:JSON.stringify(body)
  }),env);
  const questions=['choice','judgment','fill','translation'].map(kind=>({...question(kind,1),kind}));
+ questions.push({...vocabularyQuestions[0],kind:'vocabulary'});
  const draft={title:'课堂作业',bank:'HSK3',questions};
  assert.equal((await call('publish',draft)).status,401);
  const publish=paper=>call('publish',{...paper,password:'teacher-fixture'});
@@ -149,9 +171,9 @@ test('teachers publish a fixed homework snapshot and students open and submit wi
  assert.deepEqual(paper.questions.map(q=>q.kind),questions.map(q=>q.kind));
  assert.ok(paper.questions.every(q=>!Object.hasOwn(q,'answer')&&!Object.hasOwn(q,'explanation')));
  assert.equal((await call('submit',{id,answers:['B']})).status,400);
- assert.deepEqual(await (await call('submit',{id,answers:['B','错误',' 两 ','我要买书']})).json(),{
-  score:4,total:6,
-  details:questions.map(({answer,explanation},i)=>({answer,explanation,correct:[true,false,true,null][i]}))
+ assert.deepEqual(await (await call('submit',{id,answers:['B','错误',' 两 ','我要买书','A']})).json(),{
+  score:6,total:8,
+  details:questions.map(({answer,explanation},i)=>({answer,explanation,correct:[true,false,true,null,true][i]}))
  });
  assert.equal((await call('open',{id:crypto.randomUUID()})).status,404);
 });

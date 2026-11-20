@@ -1,5 +1,5 @@
 import {isTeacherPassword} from '../../teacher-auth.mjs';
-import {validateQuestions} from '../../homework-core.mjs';
+import {validateQuestions,maxHomeworkQuestions} from '../../homework-core.mjs';
 import {grade} from '../../grading.mjs';
 
 export async function handlePublishedHomework(path,request,env,json,readBytes){
@@ -18,7 +18,7 @@ export async function handlePublishedHomework(path,request,env,json,readBytes){
   const {title,bank,questions}=body;
   if(typeof title!=='string'||!title.trim()||title.length>200||
    typeof bank!=='string'||!bank.trim()||bank.length>40||
-   !Array.isArray(questions)||!questions.length||questions.length>120){
+   !Array.isArray(questions)||!questions.length||questions.length>maxHomeworkQuestions){
    return json({error:'请填写作业标题并提供有效题目。'},400);
   }
   try{payload={title:title.trim(),bank,questions:questions.map(q=>validateQuestions([q],q?.kind,1)[0])};}

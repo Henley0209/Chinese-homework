@@ -1,7 +1,11 @@
-export const kinds={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译题',judgment:'判断题',fill:'填空题'};
+export const kinds={pinyin:'拼音选择题',choice:'填空选择题',order:'句子排序题',translation:'翻译句子',vocabulary:'中越词语选择题',judgment:'判断题',fill:'填空题'};
+export const maxQuestionsPerKind=20;
+export const maxHomeworkQuestions=Object.keys(kinds).length*maxQuestionsPerKind;
+export const isChoiceKind=kind=>['pinyin','choice','vocabulary'].includes(kind);
+
 export function cleanQuestionText(value){
  if(typeof value!=='string')return value;
- return value.trim().replace(/^(?:(?:第\s*)?\d+\s*[.．、)）]\s*)?(?:[【\[（(]\s*(?:拼音选择题?|填空选择题?|选词填空|句子排序题?|翻译题?)\s*[】\]）)]\s*[:：]?\s*)+/u,'').trim();
+ return value.trim().replace(/^(?:(?:第\s*)?\d+\s*[.．、)）]\s*)?(?:[【\[（(]\s*(?:拼音选择题?|填空选择题?|选词填空|句子排序题?|翻译句子|翻译题?|中越词语选择题?)\s*[】\]）)]\s*[:：]?\s*)+/u,'').trim();
 }
 export function cleanOption(value){
  return typeof value==='string'?value.normalize('NFC').trim().replace(/^(?:[（(【\[]?\s*[A-DＡ-Ｄ]\s*(?:[）)】\]]\s*[.．、:：]?|[.．、:：])\s*)+/u,'').trim():value;
@@ -110,11 +114,18 @@ export function validateQuestions(value,kind,count){
   const result={kind,text:q.text.trim(),answer:q.answer.trim(),explanation:q.explanation.trim()};
   if(['ai','course-vocabulary','course-reference'].includes(q.source))result.source=q.source;
   if(typeof q.targetId==='string'&&q.targetId.length<=100)result.targetId=q.targetId;
-  if(['pinyin','choice'].includes(kind)){
+  if(isChoiceKind(kind)){
    if(!Array.isArray(q.options)||![3,4].includes(q.options.length)||q.options.some(o=>!text(o,200))||new Set(q.options.map(o=>o.trim())).size!==q.options.length||!('ABCD'.slice(0,q.options.length)).includes(q.answer)||q.answer.length!==1)throw Error('选择题选项或答案无效。');
    result.options=q.options.map(o=>o.trim());
   }
   if(kind==='choice'&&(q.text.match(/[_＿]+/gu)||[]).length!==1)throw Error('每道填空选择题必须且只能有一个空。');
+  if(kind==='vocabulary'){
+   const chinese=value=>/^\p{Script=Han}{1,20}$/u.test(value);
+   const vietnamese=value=>/^[\p{Script=Latin}\p{M}]+(?:[ ’'-][\p{Script=Latin}\p{M}]+)*$/u.test(value)&&translationWordCount(value)<=8;
+   const opposite=chinese(q.text)?vietnamese:chinese;
+   const options=result.options.map(option=>questionKey(option,kind));
+   if((!chinese(q.text)&&!vietnamese(q.text))||!result.options.every(opposite)||new Set(options).size!==options.length)throw Error('中越词语选择题须使用中文或越南语词语，选项须为另一种语言且互不重复。');
+  }
   if(kind==='judgment'&&!['正确','错误'].includes(q.answer))throw Error('判断题答案须为“正确”或“错误”。');
   if(kind==='fill'&&((q.text.match(/[_＿]+/gu)||[]).length!==1||q.answer.length>60))throw Error('填空题须有一个空和不超过60字的参考答案。');
   if(kind==='translation'&&(translationWordCount(q.text)<10||translationWordCount(q.text)>15||/\p{Script=Han}/u.test(q.text)))throw Error('翻译题须为10—15个词的越南语句子。');
@@ -134,8 +145,8 @@ export function paperLines(paper,answers=false){
  for(const [kind,label]of Object.entries(kinds)){
   const raw=paper.questions.filter(q=>q.kind===kind);if(!raw.length)continue;
   const qs=validateQuestions(raw,kind,raw.length);
-  lines.push({text:`${['一','二','三','四','五','六'][group++]}、${label}（共${qs.length}题，每题2分，共${qs.length*2}分）`,bold:true});
-  if(!answers)lines.push({text:kind==='order'?'将词语排列成通顺的句子，不得增减词语。':kind==='translation'?'请将下列越南语翻译成中文。':kind==='judgment'?'请判断下列说法是否正确。':kind==='fill'?'请填写空缺处的答案。':'请选择正确答案，将字母填入括号内。'});
+  lines.push({text:`${['一','二','三','四','五','六','七'][group++]}、${label}（共${qs.length}题，每题2分，共${qs.length*2}分）`,bold:true});
+  if(!answers)lines.push({text:kind==='order'?'将词语排列成通顺的句子，不得增减词语。':kind==='translation'?'请将下列越南语翻译成中文。':kind==='vocabulary'?'请选择题干词语在另一种语言中的正确译义。':kind==='judgment'?'请判断下列说法是否正确。':kind==='fill'?'请填写空缺处的答案。':'请选择正确答案，将字母填入括号内。'});
   qs.forEach((q,i)=>{
    lines.push({text:`${i+1}. ${q.text}${q.options?'（　　）':''}`});
    if(q.options)lines.push({text:q.options.map((o,j)=>`${'ABCD'[j]}. ${o}`).join('       ')});

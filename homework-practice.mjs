@@ -1,5 +1,5 @@
 import {homeworkApi} from './homework-api.mjs';
-import {kinds} from './homework-core.mjs';
+import {kinds} from './homework-core.mjs?v=classroom-homework4';
 
 const $=id=>document.getElementById(id);
 const id=new URLSearchParams(location.search).get('id');

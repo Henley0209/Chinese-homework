@@ -1,7 +1,7 @@
 import {generatePlannedBatch,validTargets} from './homework-planned.mjs';
 import {plannedQuestions} from '../../homework-plan.mjs';
 import {isTeacherPassword} from '../../teacher-auth.mjs';
-import {selectNewQuestions,kinds} from '../../homework-core.mjs';
+import {selectNewQuestions,kinds,isChoiceKind,maxHomeworkQuestions} from '../../homework-core.mjs';
 const banks=['入门练习','HSK1-2','HSK3','HSK4','HSK5','日常交际','汉语工厂'];
 export async function generateHomework(request,env,json){
  if(!request.headers.get('Content-Type')?.startsWith('application/json'))return json({error:'需要JSON'},415);
@@ -14,7 +14,7 @@ export async function generateHomework(request,env,json){
  const verification=typeof env.HOMEWORK_VERIFY_TOKEN==='string'&&/^\d{13}\.[a-f0-9]{64}$/.test(env.HOMEWORK_VERIFY_TOKEN)&&Date.now()-Number(env.HOMEWORK_VERIFY_TOKEN.split('.')[0])>=0&&Date.now()-Number(env.HOMEWORK_VERIFY_TOKEN.split('.')[0])<15*60*1000&&request.headers.get('Authorization')==='Bearer '+env.HOMEWORK_VERIFY_TOKEN;
  if(!verification&&(typeof body?.password!=='string'||body.password.length>100||!await isTeacherPassword(body.password)))return json({error:'教师密码不正确，请重新验证。'},401);
  const {bank,title,kind,count,context,avoid=[],attempt=0}=body;
- if(!banks.includes(bank)||typeof title!=='string'||!title.trim()||title.length>200||!Object.hasOwn(kinds,kind)||!Number.isInteger(count)||count<1||count>5||typeof context!=='string'||context.length>8000||!Array.isArray(avoid)||avoid.length>120||avoid.some(t=>typeof t!=='string'||t.length>600)||!Number.isInteger(attempt)||attempt<0||attempt>10000)return json({error:'题库、题型或题目参数无效'},400);
+ if(!banks.includes(bank)||typeof title!=='string'||!title.trim()||title.length>200||!Object.hasOwn(kinds,kind)||!Number.isInteger(count)||count<1||count>5||typeof context!=='string'||context.length>8000||!Array.isArray(avoid)||avoid.length>maxHomeworkQuestions||avoid.some(t=>typeof t!=='string'||t.length>600)||!Number.isInteger(attempt)||attempt<0||attempt>10000)return json({error:'题库、题型或题目参数无效'},400);
  if(body.targets!==undefined&&!validTargets(body.targets,count))return json({error:'课程出题目标无效'},400);
  if(kind==='pinyin'&&body.targets){const {questions}=plannedQuestions(kind,body.targets,[],avoid,count,{referenceOnly:true});if(questions.length===count)return json({questions,needsMore:false});}
  if(!env.AI||!env.LIMITS)return json({error:'AI服务尚未配置'},503);
@@ -24,10 +24,10 @@ export async function generateHomework(request,env,json){
  const client=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');
  const quota=await env.LIMITS.get(env.LIMITS.idFromName('homework-daily')).fetch('https://limits/check',{method:'POST',body:JSON.stringify({day,client,perClient:100,total:300})});
  if(!quota.ok)return json({error:'今日作业生成额度已用完，请明天重试。'},429);
- if(body.targets)return generatePlannedBatch(env,{bank,title,kind,count,targets:body.targets,avoid,attempt,context,diagnostic:verification},json);
- const choice=['pinyin','choice'].includes(kind);
+ if(body.targets&&kind!=='vocabulary')return generatePlannedBatch(env,{bank,title,kind,count,targets:body.targets,avoid,attempt,context,diagnostic:verification},json);
+ const choice=isChoiceKind(kind);
  const schema={type:'object',properties:{questions:{type:'array',minItems:count,maxItems:count,items:{type:'object',properties:{text:{type:'string'},answer:{type:'string'},explanation:{type:'string'},...(choice?{options:{type:'array',items:{type:'string'},minItems:3,maxItems:3}}:{})},required:['text','answer','explanation',...(choice?['options']:[])],additionalProperties:false}}},required:['questions'],additionalProperties:false};
- const instructions={pinyin:'词语选正确拼音，使用带声调拼音，三个选项仅一个正确。text只写中文词语。answer为A/B/C。',choice:'中文句子留一个________空缺，三个词语选项，仅一个正确。answer为A/B/C。',order:'只生成语法正确、切合主题的完整中文句子，text与answer填写同一个句子。系统负责分词和打乱顺序，你不需要生成斜杠或词语片段。句子含多个词语，长度约12—30个汉字。',translation:'越南语译成中文。text为10—15个词的自然越南语完整句子（按空格分隔计词），answer为中文参考译文。',judgment:'根据课堂资料写一条可明确判断正误的陈述。answer只填正确或错误。',fill:'根据课堂资料写一个仅有一个确定答案的句子，空缺标为________。answer只填空缺处的词语。'};
+ const instructions={pinyin:'词语选正确拼音，使用带声调拼音，三个选项仅一个正确。text只写中文词语。answer为A/B/C。',choice:'中文句子留一个________空缺，三个词语选项，仅一个正确。answer为A/B/C。',order:'只生成语法正确、切合主题的完整中文句子，text与answer填写同一个句子。系统负责分词和打乱顺序，你不需要生成斜杠或词语片段。句子含多个词语，长度约12—30个汉字。',translation:'越南语译成中文。text为10—15个词的自然越南语完整句子（按空格分隔计词），answer为中文参考译文。',vocabulary:'根据所选课件主题或课堂文字挑选有实际教学价值的词语或短语。题干只写一个简体中文词语或一个越南语词语，不能写完整句子。中文题干的三个选项全部为越南语词语，越南语题干的三个选项全部为简体中文词语。每题只有一个正确译义，两个干扰项须符合主题但不能是同义译法。answer填正确选项字母 A、B 或 C，解析说明中越对应关系。同批有两题或以上时，使用两个翻译方向，词语不要互相倒置重复。',judgment:'根据课堂资料写一条可明确判断正误的陈述。answer只填正确或错误。',fill:'根据课堂资料写一个仅有一个确定答案的句子，空缺标为________。answer只填空缺处的词语。'};
  const angles=['学习与练习','遇到困难并解决问题','选择与比较方法','调整计划和安排','寻求建议与帮助','总结经验和反馈','日常生活中的应用','观察结果与改进'];
  const variation={batch:crypto.randomUUID(),attempt,angle:angles[(avoid.length+attempt)%angles.length]};
  let timer;

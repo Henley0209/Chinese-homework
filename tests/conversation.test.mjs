@@ -20,7 +20,7 @@ test('worker fails closed, enforces CORS, protects secrets and validates actual 
  let captured;
  const configured={...env,AI:{run:async(model,options)=>{captured={model,options};return {response:bad};}}};
  const response=await worker.fetch(req({lesson,messages:[{role:'assistant',content:'你今天做什么？'},{role:'user',content:'我叫是小明。'}]}),configured);
- assert.equal(response.status,200);assert.equal(response.headers.get('Access-Control-Allow-Origin'),env.ALLOWED_ORIGIN);assert.deepEqual(await response.json(),bad);assert.equal(captured.model,'@cf/qwen/qwen3-30b-a3b-fp8');assert.equal(captured.options.response_format.type,'json_schema');assert.equal(captured.options.max_tokens,1600);
+ assert.equal(response.status,200);assert.equal(response.headers.get('Access-Control-Allow-Origin'),env.ALLOWED_ORIGIN);assert.deepEqual(await response.json(),bad);assert.equal(captured.model,'@cf/qwen/qwen3.5-35b-a3b');assert.equal(captured.options.response_format.type,'json_schema');assert.equal(captured.options.max_tokens,1600);
  const malformed={...env,AI:{run:async()=>({response:{next:'hi'}})}};
  assert.equal((await worker.fetch(req({lesson,messages:[{role:'assistant',content:'hi'},{role:'user',content:'hi'}]}),malformed)).status,502);
  const choices={...env,AI:{run:async()=>({choices:[{finish_reason:'stop',message:{content:JSON.stringify(good)}}]})}};

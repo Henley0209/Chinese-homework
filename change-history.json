@@ -1902,6 +1902,14 @@
       "changes": [
         "Merge pull request #8 from Henley0209/codex/copy-homework-link"
       ]
+    },
+    {
+      "version": "V0237",
+      "updatedAt": "2026-11-20T21:20:03+07:00",
+      "commit": "e6368c8e5270359d2fe6f91e835bb9918283fdc1",
+      "changes": [
+        "Preserve valid homework questions when AI repair fails"
+      ]
     }
   ]
 }

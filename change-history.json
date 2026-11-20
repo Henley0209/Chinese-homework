@@ -1950,6 +1950,14 @@
       "changes": [
         "Add optional pinyin to generated homework"
       ]
+    },
+    {
+      "version": "V0243",
+      "updatedAt": "2026-11-20T23:06:59+07:00",
+      "commit": "a9cb28c28d1ad726ccba58414fbd4033d87482a4",
+      "changes": [
+        "Display choice pinyin in inline parentheses"
+      ]
     }
   ]
 }

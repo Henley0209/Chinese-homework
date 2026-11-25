@@ -1,4 +1,4 @@
-import {initCourseware} from './courseware-designer.mjs?v=courseware7';
+import {initCourseware} from './courseware-designer.mjs?v=courseware8';
 import {initChangeHistory} from './change-history.mjs?v=courseware3';
 import {initHomework} from './homework-generator.mjs?v=classroom-homework6';
 import {isTeacherPassword} from './teacher-auth.mjs?v=visits15';

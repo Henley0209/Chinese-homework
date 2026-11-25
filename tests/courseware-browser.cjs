@@ -37,6 +37,21 @@ const fs=require('node:fs');
    }
    await page.click('[data-cw-close]');
   }
+  await page.selectOption('[data-cw-bank]','factory');
+  await page.selectOption('[data-cw-exercise]','electronics-topic-02');
+  assert.match(await page.locator('[data-cw-status]').innerText(),/已备课/);
+  const beforePreset=apiCalls;
+  await page.click('[data-cw-preview]');
+  await page.locator('#courseware-viewer').waitFor({state:'visible'});
+  assert.match(await page.locator('[data-cw-view-title]').innerText(),/工厂部门和职位/);
+  for(const [selector,ext] of [['[data-cw-view-pptx]','pptx'],['[data-cw-view-download]','docx']]){
+   const [download]=await Promise.all([page.waitForEvent('download'),page.click(selector)]);
+   assert.match(download.suggestedFilename(),/工厂部门和职位/);
+   assert.ok(download.suggestedFilename().endsWith('.'+ext));
+   assert.equal(await download.failure(),null);
+  }
+  assert.equal(apiCalls,beforePreset);
+  await page.click('[data-cw-close]');
   for(const [bank,id]of [['hsk1-2','hsk1-2-topic-04'],['hsk3','hsk3-topic-01'],['hsk4','hsk4-topic-01'],['hsk5','hsk5-topic-01'],['daily','daily-topic-01'],['factory','electronics-topic-01']]){
    await page.selectOption('[data-cw-bank]',bank);await page.selectOption('[data-cw-exercise]',id);const before=apiCalls;
    if(bank==='hsk3'){

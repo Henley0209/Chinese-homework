@@ -3,20 +3,24 @@ import {coursewareBanks,coursewareLevels,pilotIds,coursewareLabel,coursewareBran
 import {makeCoursewareDocx} from './courseware-docx.mjs?v=courseware7';
 import {makeCoursewarePptx} from './courseware-pptx.mjs?v=courseware7';
 import {coursewareSource,fillCourseware,phaseLabels} from './courseware-generation.mjs?v=courseware7';
+export function presetCoursewarePath({id,bank}){
+ if(bank==='hsk1-2'&&pilotIds.includes(id)||bank==='factory'&&id==='electronics-topic-02')return `courseware/data/${id}.json?v=courseware8`;
+ return null;
+}
 const node=(tag,text,cls)=>{const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el;};
 function triple(t){const root=node('div');for(const [key,cls,lang]of [['pinyin','cw-pinyin','zh-Latn'],['zh','cw-hanzi','zh-Hans'],['vi','cw-vietnamese','vi']]){const line=node('div',t[key],cls);line.lang=lang;root.append(line);}return root;}
 function art(scene,cls){if(!Number.isInteger(scene)){const card=node('div',undefined,'cw-theme-card '+cls);card.append(node('span','中文 × Tiếng Việt'),node('strong','情境交流'),node('span','Giao tiếp theo chủ đề'));return card;}const image=node('div',undefined,'cw-scene '+cls);image.style.backgroundPosition=`${(scene%3)*50}% ${Math.floor(scene/3)*100}%`;image.setAttribute('role','img');image.setAttribute('aria-label',['师生在教室门口问候','同学在书桌前介绍姓名','中越同学看地球仪介绍国籍','同学在校园挥手告别','老师向同学介绍新朋友','师生看家庭照片交流生活'][scene]);return image;}
 export function initCourseware({requireTeacher,getPassword=()=>''}){
  const tools=document.querySelector('#tools'),button=document.querySelector('#design-courseware');if(!tools||!button)return;
  const section=node('section',undefined,'courseware-designer');section.id='courseware-designer';section.hidden=true;
- section.innerHTML='<h3>AI 设计课件</h3><p class="courseware-pilot-note">教材式课件：学习目标 → 热身 → 课文与生词 → 语法讲解 → 课堂练习 → 交际与课后任务。提供拼音、汉字、越南语及品牌页眉页脚。六类题库均可按所选主题生成，前三个已校对课件直接加载。其余主题首次需分四步生成；生成后请核对内容再使用。</p><label>题库<select data-cw-bank></select></label><p data-cw-level class="note"></p><label>练习题 / 课件主题<select data-cw-exercise></select></label><div class="courseware-actions"><button type="button" class="primary" data-cw-preview>生成 / 预览课件</button><button type="button" class="quiet" data-cw-download>下载学生讲义 Word</button><button type="button" class="quiet" data-cw-pptx>下载PPT 课件</button><button type="button" class="quiet" data-cw-cancel hidden>取消生成</button></div><p data-cw-status class="courseware-status" role="status" aria-live="polite"></p>';
+ section.innerHTML='<h3>AI 设计课件</h3><p class="courseware-pilot-note">教材式课件：学习目标 → 热身 → 课文与生词 → 语法讲解 → 课堂练习 → 交际与课后任务。提供拼音、汉字、越南语及品牌页眉页脚。六类题库均可按所选主题生成，已备课主题直接加载。其余主题首次需分四步生成；生成后请核对内容再使用。</p><label>题库<select data-cw-bank></select></label><p data-cw-level class="note"></p><label>练习题 / 课件主题<select data-cw-exercise></select></label><div class="courseware-actions"><button type="button" class="primary" data-cw-preview>生成 / 预览课件</button><button type="button" class="quiet" data-cw-download>下载学生讲义 Word</button><button type="button" class="quiet" data-cw-pptx>下载PPT 课件</button><button type="button" class="quiet" data-cw-cancel hidden>取消生成</button></div><p data-cw-status class="courseware-status" role="status" aria-live="polite"></p>';
  tools.append(section);const $=s=>section.querySelector(s),bank=$('[data-cw-bank]'),exercise=$('[data-cw-exercise]'),status=$('[data-cw-status]');
  const cache=new Map(),drafts=new Map();let busy=false,controller=null;
  for(const [id,label]of Object.entries(coursewareBanks)){const option=node('option',label);option.value=id;bank.append(option);}
  bank.value='hsk1-2';
  function controls(){const ready=listExercises(bank.value).some(e=>e.id===exercise.value);bank.disabled=busy;exercise.disabled=busy;for(const selector of ['[data-cw-preview]','[data-cw-download]','[data-cw-pptx]'])$(selector).disabled=!ready||busy;$('[data-cw-cancel]').hidden=!busy||!controller;}
- function selection(){controls();const ready=listExercises(bank.value).some(e=>e.id===exercise.value);$('[data-cw-level]').textContent='难度安排：'+coursewareLevels[bank.value]+'，随主题逐步递进。';status.textContent=ready?(pilotIds.includes(exercise.value)?'已校对课件：可直接预览或下载。':'选择生成／预览，或直接下载。首次生成分四步，完成后可重复下载；中断后可继续。'):'请选择课件主题。';}
- function targets(){const previous=exercise.value;exercise.replaceChildren();for(const e of listExercises(bank.value)){const option=node('option',e.exercise.title+(pilotIds.includes(e.id)?' · 已校对课件':''));option.value=e.id;exercise.append(option);}if([...exercise.options].some(o=>o.value===previous))exercise.value=previous;else if(bank.value==='hsk1-2'&&[...exercise.options].some(o=>o.value===pilotIds[0]))exercise.value=pilotIds[0];selection();}
+ function selection(){controls();const entry=listExercises(bank.value).find(e=>e.id===exercise.value);$('[data-cw-level]').textContent='难度安排：'+coursewareLevels[bank.value]+'，随主题逐步递进。';status.textContent=entry?(presetCoursewarePath(entry)?'已备课：可直接预览或下载。':'选择生成／预览，或直接下载。首次生成分四步，完成后可重复下载；中断后可继续。'):'请选择课件主题。';}
+ function targets(){const previous=exercise.value;exercise.replaceChildren();for(const e of listExercises(bank.value)){const option=node('option',e.exercise.title+(presetCoursewarePath(e)?' · 已备课':''));option.value=e.id;exercise.append(option);}if([...exercise.options].some(o=>o.value===previous))exercise.value=previous;else if(bank.value==='hsk1-2'&&[...exercise.options].some(o=>o.value===pilotIds[0]))exercise.value=pilotIds[0];selection();}
  bank.addEventListener('change',targets);exercise.addEventListener('change',selection);subscribe(targets);targets();
  button.onclick=()=>{try{requireTeacher();section.hidden=!section.hidden;button.setAttribute('aria-expanded',String(!section.hidden));if(!section.hidden)section.scrollIntoView({block:'start',behavior:'smooth'});}catch(e){status.textContent=e.name==='AbortError'?'已暂停，已完成的栏目保留，可再次点击继续。':e.message;}};
  function selected(){const entry=listExercises(bank.value).find(e=>e.id===exercise.value);return {entry,source:coursewareSource(entry,bank.value)};}
@@ -26,8 +30,9 @@ export function initCourseware({requireTeacher,getPassword=()=>''}){
   controller=new AbortController();controls();const signal=controller.signal;
   try{
    let value;
-   if(pilotIds.includes(source.id)&&source.bank==='hsk1-2'){
-    const response=await fetch(`courseware/data/${source.id}.json?v=courseware7`,{signal});if(!response.ok)throw Error('课件加载失败，请稍后重试。');value=validateCourseware(await response.json());
+   const preset=presetCoursewarePath(source);
+   if(preset){
+    const response=await fetch(preset,{signal});if(!response.ok)throw Error('课件加载失败，请稍后重试。');value=validateCourseware(await response.json());
    }else{
     const response=await fetch('./conversation-config.json',{signal,cache:'no-store'});if(!response.ok)throw Error('AI配置读取失败。');
     const config=await response.json(),url=new URL(config.endpoint);if(url.protocol!=='https:')throw Error('AI服务地址无效。');url.pathname='/courseware';url.search='';url.hash='';

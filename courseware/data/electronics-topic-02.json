@@ -1,0 +1,1330 @@
+{
+  "schemaVersion": 2,
+  "id": "electronics-topic-02",
+  "bank": "factory",
+  "number": 2,
+  "title": {
+    "zh": "工厂部门和职位",
+    "vi": "Các bộ phận và chức vụ trong nhà máy",
+    "pinyin": "gōng chǎng bù mén hé zhí wèi"
+  },
+  "difficulty": "工厂汉语 · 介绍职责和询问工作联系人",
+  "image": "courseware/assets/beginner-scenes.png",
+  "objectives": [
+    {
+      "zh": "说出常见的工厂部门和职位。",
+      "vi": "Gọi tên các bộ phận và chức vụ thường gặp trong nhà máy.",
+      "pinyin": "shuō chū cháng jiàn de gōng chǎng bù mén hé zhí wèi。"
+    },
+    {
+      "zh": "用“负责”说明工作职责。",
+      "vi": "Dùng “负责” để trình bày nhiệm vụ.",
+      "pinyin": "yòng “ fù zé ” shuō míng gōng zuò zhí zé。"
+    },
+    {
+      "zh": "用“应该找谁”询问工作联系人。",
+      "vi": "Dùng “应该找谁” để hỏi nên liên hệ với ai.",
+      "pinyin": "yòng “ yīng gāi zhǎo shuí ” xún wèn gōng zuò lián xì rén。"
+    }
+  ],
+  "warmup": {
+    "title": {
+      "zh": "热身",
+      "vi": "Khởi động"
+    },
+    "items": [
+      {
+        "zh": "你在哪个部门工作？",
+        "vi": "Bạn làm việc ở bộ phận nào?",
+        "pinyin": "nǐ zài nǎ gè bù mén gōng zuò？"
+      },
+      {
+        "zh": "你的工作主要负责什么？",
+        "vi": "Công việc chính của bạn là gì?",
+        "pinyin": "nǐ de gōng zuò zhǔ yào fù zé shén me？"
+      }
+    ]
+  },
+  "groups": [
+    {
+      "title": {
+        "zh": "车间缺物料",
+        "vi": "Xưởng thiếu vật tư",
+        "pinyin": "chē jiān quē wù liào"
+      },
+      "scene": null,
+      "roles": {
+        "A": "小安",
+        "B": "小林"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "生产部缺物料了。我们应该找哪个部门？",
+          "vi": "Bộ phận sản xuất thiếu vật tư rồi. Chúng ta nên liên hệ bộ phận nào?",
+          "pinyin": "shēng chǎn bù quē wù liào le。 wǒ men yīng gāi zhǎo nǎ gè bù mén？"
+        },
+        {
+          "speaker": "B",
+          "zh": "先问仓储部，看看仓库里还有没有。",
+          "vi": "Hỏi bộ phận kho trước, xem trong kho còn không.",
+          "pinyin": "xiān wèn cāng chǔ bù， kàn kàn cāng kù lǐ hái yǒu méi yǒu。"
+        },
+        {
+          "speaker": "A",
+          "zh": "如果仓库也没有呢？",
+          "vi": "Nếu trong kho cũng hết thì sao?",
+          "pinyin": "rú guǒ cāng kù yě méi yǒu ne？"
+        },
+        {
+          "speaker": "B",
+          "zh": "就找采购部。他们负责采购物料。",
+          "vi": "Hãy liên hệ bộ phận thu mua. Họ phụ trách mua vật tư.",
+          "pinyin": "jiù zhǎo cǎi gòu bù。 tā men fù zé cǎi gòu wù liào。"
+        },
+        {
+          "speaker": "A",
+          "zh": "那谁来调整生产计划？",
+          "vi": "Vậy ai sẽ điều chỉnh kế hoạch sản xuất?",
+          "pinyin": "nà shuí lái tiáo zhěng shēng chǎn jì huà？"
+        },
+        {
+          "speaker": "B",
+          "zh": "我们可以通知PMC计划部。",
+          "vi": "Chúng ta có thể báo cho bộ phận kế hoạch PMC.",
+          "pinyin": "wǒ men kě yǐ tōng zhī PMC jì huà bù。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "zh": "采购部",
+          "pinyin": "cǎigòubù",
+          "vi": "bộ phận thu mua",
+          "pos": "名词"
+        },
+        {
+          "zh": "业务部",
+          "pinyin": "yèwùbù",
+          "vi": "bộ phận kinh doanh",
+          "pos": "名词"
+        },
+        {
+          "zh": "PMC计划部",
+          "pinyin": "jìhuàbù",
+          "vi": "bộ phận kế hoạch",
+          "pos": "名词"
+        },
+        {
+          "zh": "生产部",
+          "pinyin": "shēngchǎnbù",
+          "vi": "bộ phận sản xuất",
+          "pos": "名词"
+        },
+        {
+          "zh": "工程部",
+          "pinyin": "gōngchéngbù",
+          "vi": "bộ phận kỹ thuật công trình",
+          "pos": "名词"
+        },
+        {
+          "zh": "技术部",
+          "pinyin": "jìshùbù",
+          "vi": "bộ phận kỹ thuật",
+          "pos": "名词"
+        },
+        {
+          "zh": "品质部",
+          "pinyin": "pǐnzhìbù",
+          "vi": "bộ phận chất lượng",
+          "pos": "名词"
+        },
+        {
+          "zh": "仓储部",
+          "pinyin": "cāngchǔbù",
+          "vi": "bộ phận kho",
+          "pos": "名词"
+        },
+        {
+          "zh": "物流部",
+          "pinyin": "wùliúbù",
+          "vi": "bộ phận logistics",
+          "pos": "名词"
+        },
+        {
+          "zh": "模具部",
+          "pinyin": "mújùbù",
+          "vi": "bộ phận khuôn",
+          "pos": "名词"
+        },
+        {
+          "zh": "组装部",
+          "pinyin": "zǔzhuāngbù",
+          "vi": "bộ phận lắp ráp",
+          "pos": "名词"
+        },
+        {
+          "zh": "包装部",
+          "pinyin": "bāozhuāngbù",
+          "vi": "bộ phận đóng gói",
+          "pos": "名词"
+        },
+        {
+          "zh": "研发部",
+          "pinyin": "yánfābù",
+          "vi": "bộ phận R&D",
+          "pos": "名词"
+        },
+        {
+          "zh": "生管部",
+          "pinyin": "shēngguǎnbù",
+          "vi": "bộ phận quản lý sản xuất",
+          "pos": "名词"
+        },
+        {
+          "zh": "安保部",
+          "pinyin": "ānbǎobù",
+          "vi": "bộ phận bảo vệ",
+          "pos": "名词"
+        },
+        {
+          "zh": "食堂",
+          "pinyin": "shítáng",
+          "vi": "nhà ăn",
+          "pos": "名词"
+        }
+      ],
+      "grammar": [
+        {
+          "title": {
+            "zh": "语法讲解｜负责",
+            "vi": "Ngữ pháp · Phụ trách"
+          },
+          "items": [
+            {
+              "zh": "部门或职位＋负责＋工作。",
+              "vi": "Bộ phận hoặc chức vụ + phụ trách + công việc.",
+              "pinyin": "bù mén huò zhí wèi ＋ fù zé ＋ gōng zuò。"
+            },
+            {
+              "zh": "品质部负责检查产品质量。",
+              "vi": "Bộ phận chất lượng phụ trách kiểm tra chất lượng sản phẩm.",
+              "pinyin": "pǐn zhì bù fù zé jiǎn chá chǎn pǐn zhì liàng。"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "zh": "新产品开发由____负责。",
+          "vi": "Việc phát triển sản phẩm mới do ____ phụ trách.",
+          "pinyin": "xīn chǎn pǐn kāi fā yóu ____ fù zé。",
+          "answer": {
+            "zh": "研发部",
+            "pinyin": "yánfābù",
+            "vi": "bộ phận R&D",
+            "pos": "名词"
+          }
+        },
+        {
+          "zh": "产品做完了，由____负责入库。",
+          "vi": "Khi sản phẩm đã hoàn thành, ____ phụ trách nhập kho.",
+          "pinyin": "chǎn pǐn zuò wán le， yóu ____ fù zé rù kù。",
+          "answer": {
+            "zh": "仓储部",
+            "pinyin": "cāngchǔbù",
+            "vi": "bộ phận kho",
+            "pos": "名词"
+          }
+        },
+        {
+          "zh": "发货运输出问题，可以找____。",
+          "vi": "Nếu có vấn đề khi gửi hoặc vận chuyển hàng, có thể liên hệ ____.",
+          "pinyin": "fā huò yùn shū chū wèn tí， kě yǐ zhǎo ____。",
+          "answer": {
+            "zh": "物流部",
+            "pinyin": "wùliúbù",
+            "vi": "bộ phận logistics",
+            "pos": "名词"
+          }
+        },
+        {
+          "zh": "____负责把零件装成完整的产品。",
+          "vi": "____ phụ trách lắp các linh kiện thành sản phẩm hoàn chỉnh.",
+          "pinyin": "____ fù zé bǎ líng jiàn zhuāng chéng wán zhěng de chǎn pǐn。",
+          "answer": {
+            "zh": "组装部",
+            "pinyin": "zǔzhuāngbù",
+            "vi": "bộ phận lắp ráp",
+            "pos": "名词"
+          }
+        },
+        {
+          "zh": "生产过程中需要管理，这是____的工作。",
+          "vi": "Quản lý trong quá trình sản xuất là công việc của ____.",
+          "pinyin": "shēng chǎn guò chéng zhōng xū yào guǎn lǐ， zhè shì ____ de gōng zuò。",
+          "answer": {
+            "zh": "生管部",
+            "pinyin": "shēngguǎnbù",
+            "vi": "bộ phận quản lý sản xuất",
+            "pos": "名词"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "产品有质量问题",
+        "vi": "Sản phẩm có vấn đề về chất lượng",
+        "pinyin": "chǎn pǐn yǒu zhì liàng wèn tí"
+      },
+      "scene": null,
+      "roles": {
+        "A": "小安",
+        "B": "小林"
+      },
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "这批产品有问题，应该找谁？",
+          "vi": "Lô sản phẩm này có vấn đề. Nên tìm ai?",
+          "pinyin": "zhè pī chǎn pǐn yǒu wèn tí， yīng gāi zhǎo shuí？"
+        },
+        {
+          "speaker": "B",
+          "zh": "先请质检员检查。",
+          "vi": "Trước tiên hãy nhờ nhân viên QC kiểm tra.",
+          "pinyin": "xiān qǐng zhì jiǎn yuán jiǎn chá。"
+        },
+        {
+          "speaker": "A",
+          "zh": "如果是机器的问题呢？",
+          "vi": "Nếu vấn đề là do máy móc thì sao?",
+          "pinyin": "rú guǒ shì jī qì de wèn tí ne？"
+        },
+        {
+          "speaker": "B",
+          "zh": "请技术员看看，必要时也可以找工程师。",
+          "vi": "Hãy nhờ kỹ thuật viên xem. Khi cần có thể tìm kỹ sư.",
+          "pinyin": "qǐng jì shù yuán kàn kàn， bì yào shí yě kě yǐ zhǎo gōng chéng shī。"
+        },
+        {
+          "speaker": "A",
+          "zh": "好，我也会把情况告诉主管。",
+          "vi": "Được, tôi cũng sẽ báo tình hình cho chủ quản.",
+          "pinyin": "hǎo， wǒ yě huì bǎ qíng kuàng gào sù zhǔ guǎn。"
+        },
+        {
+          "speaker": "B",
+          "zh": "记得跟操作工说一声。",
+          "vi": "Nhớ báo cho công nhân vận hành một tiếng nhé.",
+          "pinyin": "jì de gēn cāo zuò gōng shuō yī shēng。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "zh": "总经理",
+          "pinyin": "zǒngjīnglǐ",
+          "vi": "tổng giám đốc",
+          "pos": "名词"
+        },
+        {
+          "zh": "主管",
+          "pinyin": "zhǔguǎn",
+          "vi": "chủ quản",
+          "pos": "名词"
+        },
+        {
+          "zh": "工程师",
+          "pinyin": "gōngchéngshī",
+          "vi": "kỹ sư",
+          "pos": "名词"
+        },
+        {
+          "zh": "技术员",
+          "pinyin": "jìshùyuán",
+          "vi": "kỹ thuật viên",
+          "pos": "名词"
+        },
+        {
+          "zh": "质检员",
+          "pinyin": "zhìjiǎnyuán",
+          "vi": "nhân viên QC",
+          "pos": "名词"
+        },
+        {
+          "zh": "文员",
+          "pinyin": "wényuán",
+          "vi": "nhân viên văn phòng",
+          "pos": "名词"
+        },
+        {
+          "zh": "采购员",
+          "pinyin": "cǎigòuyuán",
+          "vi": "nhân viên mua hàng",
+          "pos": "名词"
+        },
+        {
+          "zh": "业务员",
+          "pinyin": "yèwùyuán",
+          "vi": "nhân viên kinh doanh",
+          "pos": "名词"
+        },
+        {
+          "zh": "操作工",
+          "pinyin": "cāozuògōng",
+          "vi": "công nhân vận hành",
+          "pos": "名词"
+        },
+        {
+          "zh": "仓管",
+          "pinyin": "cāngguǎn",
+          "vi": "nhân viên kho",
+          "pos": "名词"
+        }
+      ],
+      "grammar": [
+        {
+          "title": {
+            "zh": "语法讲解｜应该找谁",
+            "vi": "Ngữ pháp · Nên tìm ai"
+          },
+          "items": [
+            {
+              "zh": "如果仓库没有物料，应该找谁？",
+              "vi": "Nếu trong kho không có vật tư thì nên tìm ai?",
+              "pinyin": "rú guǒ cāng kù méi yǒu wù liào， yīng gāi zhǎo shuí？"
+            },
+            {
+              "zh": "应该找采购员。",
+              "vi": "Nên tìm nhân viên mua hàng.",
+              "pinyin": "yīng gāi zhǎo cǎi gòu yuán。"
+            }
+          ]
+        }
+      ],
+      "exercises": [
+        {
+          "zh": "机器坏了，可以找____来修理。",
+          "vi": "Máy bị hỏng thì có thể tìm ____ để sửa.",
+          "pinyin": "jī qì huài le， kě yǐ zhǎo ____ lái xiū lǐ。",
+          "answer": {
+            "zh": "技术员",
+            "pinyin": "jìshùyuán",
+            "vi": "kỹ thuật viên",
+            "pos": "名词"
+          }
+        },
+        {
+          "zh": "质量检查员叫____。",
+          "vi": "Nhân viên kiểm tra chất lượng được gọi là ____.",
+          "pinyin": "zhì liàng jiǎn chá yuán jiào ____。",
+          "answer": {
+            "zh": "质检员",
+            "pinyin": "zhìjiǎnyuán",
+            "vi": "nhân viên QC",
+            "pos": "名词"
+          }
+        },
+        {
+          "zh": "直接开机器的人是____。",
+          "vi": "Người trực tiếp vận hành máy là ____.",
+          "pinyin": "zhí jiē kāi jī qì de rén shì ____。",
+          "answer": {
+            "zh": "操作工",
+            "pinyin": "cāozuògōng",
+            "vi": "công nhân vận hành",
+            "pos": "名词"
+          }
+        },
+        {
+          "zh": "解决技术问题的专家叫____。",
+          "vi": "Chuyên gia giải quyết vấn đề kỹ thuật được gọi là ____.",
+          "pinyin": "jiě jué jì shù wèn tí de zhuān jiā jiào ____。",
+          "answer": {
+            "zh": "工程师",
+            "pinyin": "gōngchéngshī",
+            "vi": "kỹ sư",
+            "pos": "名词"
+          }
+        },
+        {
+          "zh": "生产需要物料，应该联系____。",
+          "vi": "Khi cần vật tư cho sản xuất, nên liên hệ ____.",
+          "pinyin": "shēng chǎn xū yào wù liào， yīng gāi lián xì ____。",
+          "answer": {
+            "zh": "采购员",
+            "pinyin": "cǎigòuyuán",
+            "vi": "nhân viên mua hàng",
+            "pos": "名词"
+          }
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 5 · 采购部",
+        "vi": "bộ phận thu mua"
+      },
+      "items": [
+        {
+          "zh": "负责购买生产所需要的物料。",
+          "vi": "Phụ trách mua vật tư cần cho sản xuất.",
+          "pinyin": "fù zé gòu mǎi shēng chǎn suǒ xū yào de wù liào。"
+        },
+        {
+          "zh": "采购部需要买什么东西？",
+          "vi": "Bộ phận thu mua cần mua những gì?",
+          "pinyin": "cǎi gòu bù xū yào mǎi shén me dōng xī？"
+        },
+        {
+          "zh": "采购员需要会讲价吗？",
+          "vi": "Nhân viên mua hàng có cần biết mặc cả không?",
+          "pinyin": "cǎi gòu yuán xū yào huì jiǎng jià ma？"
+        },
+        {
+          "zh": "你做过采购工作吗？",
+          "vi": "Bạn đã từng làm công việc thu mua chưa?",
+          "pinyin": "nǐ zuò guò cǎi gòu gōng zuò ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 6 · 业务部",
+        "vi": "bộ phận kinh doanh"
+      },
+      "items": [
+        {
+          "zh": "负责接单和销售产品。",
+          "vi": "Phụ trách nhận đơn hàng và bán sản phẩm.",
+          "pinyin": "fù zé jiē dān hé xiāo shòu chǎn pǐn。"
+        },
+        {
+          "zh": "业务部的主要任务是什么？",
+          "vi": "Nhiệm vụ chính của bộ phận kinh doanh là gì?",
+          "pinyin": "yè wù bù de zhǔ yào rèn wu shì shén me？"
+        },
+        {
+          "zh": "做业务员需要会沟通吗？",
+          "vi": "Nhân viên kinh doanh có cần biết giao tiếp không?",
+          "pinyin": "zuò yè wù yuán xū yào huì gōu tōng ma？"
+        },
+        {
+          "zh": "你想做业务员吗？",
+          "vi": "Bạn có muốn làm nhân viên kinh doanh không?",
+          "pinyin": "nǐ xiǎng zuò yè wù yuán ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 7 · PMC计划部",
+        "vi": "bộ phận kế hoạch"
+      },
+      "items": [
+        {
+          "zh": "负责生产计划和排程安排。",
+          "vi": "Phụ trách lập kế hoạch và xếp lịch sản xuất.",
+          "pinyin": "fù zé shēng chǎn jì huà hé pái chéng ān pái。"
+        },
+        {
+          "zh": "计划部负责什么？",
+          "vi": "Bộ phận kế hoạch phụ trách việc gì?",
+          "pinyin": "jì huà bù fù zé shén me？"
+        },
+        {
+          "zh": "生产需要计划吗？",
+          "vi": "Sản xuất có cần lập kế hoạch không?",
+          "pinyin": "shēng chǎn xū yào jì huà ma？"
+        },
+        {
+          "zh": "你做事会提前计划吗？",
+          "vi": "Bạn có lên kế hoạch trước khi làm việc không?",
+          "pinyin": "nǐ zuò shì huì tí qián jì huà ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 8 · 生产部",
+        "vi": "bộ phận sản xuất"
+      },
+      "items": [
+        {
+          "zh": "负责车间的生产工作。",
+          "vi": "Phụ trách công việc sản xuất tại xưởng.",
+          "pinyin": "fù zé chē jiān de shēng chǎn gōng zuò。"
+        },
+        {
+          "zh": "生产部在哪里工作？",
+          "vi": "Bộ phận sản xuất làm việc ở đâu?",
+          "pinyin": "shēng chǎn bù zài nǎ lǐ gōng zuò？"
+        },
+        {
+          "zh": "生产部重要吗？",
+          "vi": "Bộ phận sản xuất có quan trọng không?",
+          "pinyin": "shēng chǎn bù zhòng yào ma？"
+        },
+        {
+          "zh": "你做过生产工作吗？",
+          "vi": "Bạn đã từng làm công việc sản xuất chưa?",
+          "pinyin": "nǐ zuò guò shēng chǎn gōng zuò ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 9 · 工程部",
+        "vi": "bộ phận kỹ thuật công trình"
+      },
+      "items": [
+        {
+          "zh": "负责设备和工程相关工作。",
+          "vi": "Phụ trách thiết bị và các công việc liên quan đến kỹ thuật công trình.",
+          "pinyin": "fù zé shè bèi hé gōng chéng xiāng guān gōng zuò。"
+        },
+        {
+          "zh": "工程部主要管什么？",
+          "vi": "Bộ phận kỹ thuật công trình chủ yếu quản lý gì?",
+          "pinyin": "gōng chéng bù zhǔ yào guǎn shén me？"
+        },
+        {
+          "zh": "工程师在这个部门吗？",
+          "vi": "Kỹ sư có làm việc ở bộ phận này không?",
+          "pinyin": "gōng chéng shī zài zhè ge bù mén ma？"
+        },
+        {
+          "zh": "你了解工程工作吗？",
+          "vi": "Bạn có hiểu về công việc kỹ thuật công trình không?",
+          "pinyin": "nǐ liǎo jiě gōng chéng gōng zuò ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 10 · 技术部",
+        "vi": "bộ phận kỹ thuật"
+      },
+      "items": [
+        {
+          "zh": "负责技术支持和工艺问题。",
+          "vi": "Phụ trách hỗ trợ kỹ thuật và xử lý các vấn đề về quy trình công nghệ.",
+          "pinyin": "fù zé jì shù zhī chí hé gōng yì wèn tí。"
+        },
+        {
+          "zh": "技术部解决什么问题？",
+          "vi": "Bộ phận kỹ thuật giải quyết những vấn đề gì?",
+          "pinyin": "jì shù bù jiě jué shén me wèn tí？"
+        },
+        {
+          "zh": "技术员在这里工作吗？",
+          "vi": "Kỹ thuật viên có làm việc ở đây không?",
+          "pinyin": "jì shù yuán zài zhè lǐ gōng zuò ma？"
+        },
+        {
+          "zh": "技术工作难吗？",
+          "vi": "Công việc kỹ thuật có khó không?",
+          "pinyin": "jì shù gōng zuò nán ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 11 · 品质部",
+        "vi": "bộ phận chất lượng"
+      },
+      "items": [
+        {
+          "zh": "负责产品质量检查和控制。",
+          "vi": "Phụ trách kiểm tra và kiểm soát chất lượng sản phẩm.",
+          "pinyin": "fù zé chǎn pǐn zhì liàng jiǎn chá hé kòng zhì。"
+        },
+        {
+          "zh": "品质部的工作是什么？",
+          "vi": "Bộ phận chất lượng làm công việc gì?",
+          "pinyin": "pǐn zhì bù de gōng zuò shì shén me？"
+        },
+        {
+          "zh": "质量重要吗？",
+          "vi": "Chất lượng có quan trọng không?",
+          "pinyin": "zhì liàng zhòng yào ma？"
+        },
+        {
+          "zh": "你见过质检员吗？",
+          "vi": "Bạn đã từng gặp nhân viên QC chưa?",
+          "pinyin": "nǐ jiàn guò zhì jiǎn yuán ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 12 · 仓储部",
+        "vi": "bộ phận kho"
+      },
+      "items": [
+        {
+          "zh": "负责仓库和物料管理。",
+          "vi": "Phụ trách quản lý kho và vật tư.",
+          "pinyin": "fù zé cāng kù hé wù liào guǎn lǐ。"
+        },
+        {
+          "zh": "仓储部管理什么？",
+          "vi": "Bộ phận kho quản lý những gì?",
+          "pinyin": "cāng chǔ bù guǎn lǐ shén me？"
+        },
+        {
+          "zh": "仓库重要吗？",
+          "vi": "Kho có quan trọng không?",
+          "pinyin": "cāng kù zhòng yào ma？"
+        },
+        {
+          "zh": "你去过仓库吗？",
+          "vi": "Bạn đã từng đến kho chưa?",
+          "pinyin": "nǐ qù guò cāng kù ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 13 · 物流部",
+        "vi": "bộ phận logistics"
+      },
+      "items": [
+        {
+          "zh": "负责发货和运输。",
+          "vi": "Phụ trách gửi hàng và vận chuyển.",
+          "pinyin": "fù zé fā huò hé yùn shū。"
+        },
+        {
+          "zh": "物流部做什么？",
+          "vi": "Bộ phận logistics làm gì?",
+          "pinyin": "wù liú bù zuò shén me？"
+        },
+        {
+          "zh": "发货需要物流吗？",
+          "vi": "Gửi hàng có cần logistics không?",
+          "pinyin": "fā huò xū yào wù liú ma？"
+        },
+        {
+          "zh": "你做过物流工作吗？",
+          "vi": "Bạn đã từng làm công việc logistics chưa?",
+          "pinyin": "nǐ zuò guò wù liú gōng zuò ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 14 · 模具部",
+        "vi": "bộ phận khuôn"
+      },
+      "items": [
+        {
+          "zh": "负责模具的制作和维修。",
+          "vi": "Phụ trách chế tạo và sửa chữa khuôn.",
+          "pinyin": "fù zé mú jù de zhì zuò hé wéi xiū。"
+        },
+        {
+          "zh": "模具部是做什么的？",
+          "vi": "Bộ phận khuôn làm gì?",
+          "pinyin": "mú jù bù shì zuò shén me de？"
+        },
+        {
+          "zh": "模具重要吗？",
+          "vi": "Khuôn có quan trọng không?",
+          "pinyin": "mú jù zhòng yào ma？"
+        },
+        {
+          "zh": "你见过模具吗？",
+          "vi": "Bạn đã từng thấy khuôn chưa?",
+          "pinyin": "nǐ jiàn guò mú jù ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 15 · 组装部",
+        "vi": "bộ phận lắp ráp"
+      },
+      "items": [
+        {
+          "zh": "负责产品组装。",
+          "vi": "Phụ trách lắp ráp sản phẩm.",
+          "pinyin": "fù zé chǎn pǐn zǔ zhuāng。"
+        },
+        {
+          "zh": "组装部做什么工作？",
+          "vi": "Bộ phận lắp ráp làm công việc gì?",
+          "pinyin": "zǔ zhuāng bù zuò shén me gōng zuò？"
+        },
+        {
+          "zh": "产品需要组装吗？",
+          "vi": "Sản phẩm có cần lắp ráp không?",
+          "pinyin": "chǎn pǐn xū yào zǔ zhuāng ma？"
+        },
+        {
+          "zh": "你会组装吗？",
+          "vi": "Bạn có biết lắp ráp không?",
+          "pinyin": "nǐ huì zǔ zhuāng ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 16 · 包装部",
+        "vi": "bộ phận đóng gói"
+      },
+      "items": [
+        {
+          "zh": "负责产品包装。",
+          "vi": "Phụ trách đóng gói sản phẩm.",
+          "pinyin": "fù zé chǎn pǐn bāo zhuāng。"
+        },
+        {
+          "zh": "包装部的工作是什么？",
+          "vi": "Bộ phận đóng gói làm công việc gì?",
+          "pinyin": "bāo zhuāng bù de gōng zuò shì shén me？"
+        },
+        {
+          "zh": "包装重要吗？",
+          "vi": "Đóng gói có quan trọng không?",
+          "pinyin": "bāo zhuāng zhòng yào ma？"
+        },
+        {
+          "zh": "你做过包装工作吗？",
+          "vi": "Bạn đã từng làm công việc đóng gói chưa?",
+          "pinyin": "nǐ zuò guò bāo zhuāng gōng zuò ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 17 · 研发部",
+        "vi": "bộ phận R&D"
+      },
+      "items": [
+        {
+          "zh": "负责新产品的开发。",
+          "vi": "Phụ trách phát triển sản phẩm mới.",
+          "pinyin": "fù zé xīn chǎn pǐn de kāi fā。"
+        },
+        {
+          "zh": "研发部做什么？",
+          "vi": "Bộ phận R&D làm gì?",
+          "pinyin": "yán fā bù zuò shén me？"
+        },
+        {
+          "zh": "新产品是谁开发的？",
+          "vi": "Ai phát triển sản phẩm mới?",
+          "pinyin": "xīn chǎn pǐn shì shuí kāi fā de？"
+        },
+        {
+          "zh": "你有创新能力吗？",
+          "vi": "Bạn có khả năng đổi mới sáng tạo không?",
+          "pinyin": "nǐ yǒu chuàng xīn néng lì ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 18 · 生管部",
+        "vi": "bộ phận quản lý sản xuất"
+      },
+      "items": [
+        {
+          "zh": "负责生产过程管理。",
+          "vi": "Phụ trách quản lý quá trình sản xuất.",
+          "pinyin": "fù zé shēng chǎn guò chéng guǎn lǐ。"
+        },
+        {
+          "zh": "生管部负责什么？",
+          "vi": "Bộ phận quản lý sản xuất phụ trách việc gì?",
+          "pinyin": "shēng guǎn bù fù zé shén me？"
+        },
+        {
+          "zh": "生产需要管理吗？",
+          "vi": "Sản xuất có cần được quản lý không?",
+          "pinyin": "shēng chǎn xū yào guǎn lǐ ma？"
+        },
+        {
+          "zh": "你会管理工作吗？",
+          "vi": "Bạn có biết làm công việc quản lý không?",
+          "pinyin": "nǐ huì guǎn lǐ gōng zuò ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 19 · 安保部",
+        "vi": "bộ phận bảo vệ"
+      },
+      "items": [
+        {
+          "zh": "负责公司的安全。",
+          "vi": "Phụ trách bảo đảm an ninh cho công ty.",
+          "pinyin": "fù zé gōng sī de ān quán。"
+        },
+        {
+          "zh": "安保部的工作是什么？",
+          "vi": "Bộ phận bảo vệ làm công việc gì?",
+          "pinyin": "ān bǎo bù de gōng zuò shì shén me？"
+        },
+        {
+          "zh": "公司需要保安吗？",
+          "vi": "Công ty có cần nhân viên bảo vệ không?",
+          "pinyin": "gōng sī xū yào bǎo ān ma？"
+        },
+        {
+          "zh": "你觉得安全重要吗？",
+          "vi": "Bạn thấy an toàn có quan trọng không?",
+          "pinyin": "nǐ jué de ān quán zhòng yào ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 部门 20 · 食堂",
+        "vi": "nhà ăn"
+      },
+      "items": [
+        {
+          "zh": "为员工提供吃饭的地方。",
+          "vi": "Cung cấp chỗ ăn uống cho nhân viên.",
+          "pinyin": "wèi yuán gōng tí gōng chī fàn de dì fāng。"
+        },
+        {
+          "zh": "食堂是做什么的？",
+          "vi": "Nhà ăn dùng để làm gì?",
+          "pinyin": "shí táng shì zuò shén me de？"
+        },
+        {
+          "zh": "你在公司食堂吃饭吗？",
+          "vi": "Bạn có ăn ở nhà ăn công ty không?",
+          "pinyin": "nǐ zài gōng sī shí táng chī fàn ma？"
+        },
+        {
+          "zh": "食堂的饭好吃吗？",
+          "vi": "Đồ ăn ở nhà ăn có ngon không?",
+          "pinyin": "shí táng de fàn hǎo chī ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 1 · 总经理",
+        "vi": "tổng giám đốc"
+      },
+      "items": [
+        {
+          "zh": "负责整个公司的管理。",
+          "vi": "Phụ trách quản lý toàn bộ công ty.",
+          "pinyin": "fù zé zhěng gè gōng sī de guǎn lǐ。"
+        },
+        {
+          "zh": "总经理负责什么？",
+          "vi": "Tổng giám đốc phụ trách việc gì?",
+          "pinyin": "zǒng jīng lǐ fù zé shén me？"
+        },
+        {
+          "zh": "你见过总经理吗？",
+          "vi": "Bạn đã từng gặp tổng giám đốc chưa?",
+          "pinyin": "nǐ jiàn guò zǒng jīng lǐ ma？"
+        },
+        {
+          "zh": "总经理工作忙吗？",
+          "vi": "Tổng giám đốc có bận không?",
+          "pinyin": "zǒng jīng lǐ gōng zuò máng ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 2 · 主管",
+        "vi": "chủ quản"
+      },
+      "items": [
+        {
+          "zh": "负责管理一个小团队。",
+          "vi": "Phụ trách quản lý một nhóm nhỏ.",
+          "pinyin": "fù zé guǎn lǐ yī gè xiǎo tuán duì。"
+        },
+        {
+          "zh": "主管管多少人？",
+          "vi": "Chủ quản quản lý bao nhiêu người?",
+          "pinyin": "zhǔ guǎn guǎn duō shǎo rén？"
+        },
+        {
+          "zh": "你有主管吗？",
+          "vi": "Bạn có chủ quản không?",
+          "pinyin": "nǐ yǒu zhǔ guǎn ma？"
+        },
+        {
+          "zh": "主管需要负责什么？",
+          "vi": "Chủ quản cần phụ trách việc gì?",
+          "pinyin": "zhǔ guǎn xū yào fù zé shén me？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 3 · 工程师",
+        "vi": "kỹ sư"
+      },
+      "items": [
+        {
+          "zh": "负责技术和工程问题。",
+          "vi": "Phụ trách xử lý các vấn đề kỹ thuật và công trình.",
+          "pinyin": "fù zé jì shù hé gōng chéng wèn tí。"
+        },
+        {
+          "zh": "工程师做什么？",
+          "vi": "Kỹ sư làm gì?",
+          "pinyin": "gōng chéng shī zuò shén me？"
+        },
+        {
+          "zh": "工程师工资高吗？",
+          "vi": "Lương kỹ sư có cao không?",
+          "pinyin": "gōng chéng shī gōng zī gāo ma？"
+        },
+        {
+          "zh": "你想做工程师吗？",
+          "vi": "Bạn có muốn làm kỹ sư không?",
+          "pinyin": "nǐ xiǎng zuò gōng chéng shī ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 4 · 技术员",
+        "vi": "kỹ thuật viên"
+      },
+      "items": [
+        {
+          "zh": "负责具体技术操作。",
+          "vi": "Phụ trách thực hiện các thao tác kỹ thuật cụ thể.",
+          "pinyin": "fù zé jù tǐ jì shù cāo zuò。"
+        },
+        {
+          "zh": "技术员做什么？",
+          "vi": "Kỹ thuật viên làm gì?",
+          "pinyin": "jì shù yuán zuò shén me？"
+        },
+        {
+          "zh": "技术员需要经验吗？",
+          "vi": "Kỹ thuật viên có cần kinh nghiệm không?",
+          "pinyin": "jì shù yuán xū yào jīng yàn ma？"
+        },
+        {
+          "zh": "你是技术员吗？",
+          "vi": "Bạn có phải là kỹ thuật viên không?",
+          "pinyin": "nǐ shì jì shù yuán ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 5 · 质检员",
+        "vi": "nhân viên QC"
+      },
+      "items": [
+        {
+          "zh": "负责检查产品质量。",
+          "vi": "Phụ trách kiểm tra chất lượng sản phẩm.",
+          "pinyin": "fù zé jiǎn chá chǎn pǐn zhì liàng。"
+        },
+        {
+          "zh": "质检员检查什么？",
+          "vi": "Nhân viên QC kiểm tra những gì?",
+          "pinyin": "zhì jiǎn yuán jiǎn chá shén me？"
+        },
+        {
+          "zh": "质量重要吗？",
+          "vi": "Chất lượng có quan trọng không?",
+          "pinyin": "zhì liàng zhòng yào ma？"
+        },
+        {
+          "zh": "你做过质检吗？",
+          "vi": "Bạn đã từng làm công việc kiểm tra chất lượng chưa?",
+          "pinyin": "nǐ zuò guò zhì jiǎn ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 6 · 文员",
+        "vi": "nhân viên văn phòng"
+      },
+      "items": [
+        {
+          "zh": "负责文件和日常办公工作。",
+          "vi": "Phụ trách hồ sơ và công việc văn phòng hằng ngày.",
+          "pinyin": "fù zé wén jiàn hé rì cháng bàn gōng gōng zuò。"
+        },
+        {
+          "zh": "文员做什么？",
+          "vi": "Nhân viên văn phòng làm gì?",
+          "pinyin": "wén yuán zuò shén me？"
+        },
+        {
+          "zh": "文员需要会电脑吗？",
+          "vi": "Nhân viên văn phòng có cần biết dùng máy tính không?",
+          "pinyin": "wén yuán xū yào huì diàn nǎo ma？"
+        },
+        {
+          "zh": "你是文员吗？",
+          "vi": "Bạn có phải là nhân viên văn phòng không?",
+          "pinyin": "nǐ shì wén yuán ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 7 · 采购员",
+        "vi": "nhân viên mua hàng"
+      },
+      "items": [
+        {
+          "zh": "负责采购物料。",
+          "vi": "Phụ trách mua vật tư.",
+          "pinyin": "fù zé cǎi gòu wù liào。"
+        },
+        {
+          "zh": "采购员买什么？",
+          "vi": "Nhân viên mua hàng mua những gì?",
+          "pinyin": "cǎi gòu yuán mǎi shén me？"
+        },
+        {
+          "zh": "采购需要谈价格吗？",
+          "vi": "Khi mua hàng có cần đàm phán giá không?",
+          "pinyin": "cǎi gòu xū yào tán jià gé ma？"
+        },
+        {
+          "zh": "你会做采购吗？",
+          "vi": "Bạn có biết làm công việc thu mua không?",
+          "pinyin": "nǐ huì zuò cǎi gòu ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 8 · 业务员",
+        "vi": "nhân viên kinh doanh"
+      },
+      "items": [
+        {
+          "zh": "负责销售产品。",
+          "vi": "Phụ trách bán sản phẩm.",
+          "pinyin": "fù zé xiāo shòu chǎn pǐn。"
+        },
+        {
+          "zh": "业务员做什么？",
+          "vi": "Nhân viên kinh doanh làm gì?",
+          "pinyin": "yè wù yuán zuò shén me？"
+        },
+        {
+          "zh": "业务员需要会说话吗？",
+          "vi": "Nhân viên kinh doanh có cần biết cách nói chuyện không?",
+          "pinyin": "yè wù yuán xū yào huì shuō huà ma？"
+        },
+        {
+          "zh": "你喜欢销售吗？",
+          "vi": "Bạn có thích bán hàng không?",
+          "pinyin": "nǐ xǐ huan xiāo shòu ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 9 · 操作工",
+        "vi": "công nhân vận hành"
+      },
+      "items": [
+        {
+          "zh": "负责机器操作。",
+          "vi": "Phụ trách vận hành máy móc.",
+          "pinyin": "fù zé jī qì cāo zuò。"
+        },
+        {
+          "zh": "操作工做什么？",
+          "vi": "Công nhân vận hành làm gì?",
+          "pinyin": "cāo zuò gōng zuò shén me？"
+        },
+        {
+          "zh": "工作辛苦吗？",
+          "vi": "Công việc có vất vả không?",
+          "pinyin": "gōng zuò xīn kǔ ma？"
+        },
+        {
+          "zh": "你做过操作工吗？",
+          "vi": "Bạn đã từng làm công nhân vận hành chưa?",
+          "pinyin": "nǐ zuò guò cāo zuò gōng ma？"
+        }
+      ]
+    },
+    {
+      "title": {
+        "zh": "课堂练习 · 职位 10 · 仓管",
+        "vi": "nhân viên kho"
+      },
+      "items": [
+        {
+          "zh": "负责仓库管理。",
+          "vi": "Phụ trách quản lý kho.",
+          "pinyin": "fù zé cāng kù guǎn lǐ。"
+        },
+        {
+          "zh": "仓管管理什么？",
+          "vi": "Nhân viên kho quản lý những gì?",
+          "pinyin": "cāng guǎn guǎn lǐ shén me？"
+        },
+        {
+          "zh": "仓库重要吗？",
+          "vi": "Kho có quan trọng không?",
+          "pinyin": "cāng kù zhòng yào ma？"
+        },
+        {
+          "zh": "你做过仓管吗？",
+          "vi": "Bạn đã từng làm nhân viên kho chưa?",
+          "pinyin": "nǐ zuò guò cāng guǎn ma？"
+        }
+      ]
+    }
+  ],
+  "communication": {
+    "title": {
+      "zh": "课堂交际",
+      "vi": "Giao tiếp trên lớp"
+    },
+    "items": [
+      {
+        "zh": "两人一组。一人说明工作中遇到的问题，另一人说出应该找谁。",
+        "vi": "Làm việc theo cặp. Một người nêu vấn đề, người kia nói nên tìm ai.",
+        "pinyin": "liǎng rén yī zǔ。 yī rén shuō míng gōng zuò zhōng yù dào de wèn tí， lìng yī rén shuō chū yīng gāi zhǎo shuí。"
+      },
+      {
+        "zh": "轮流练习：缺物料、质量有问题、发货出问题。",
+        "vi": "Đổi vai với ba tình huống: thiếu vật tư, lỗi chất lượng và trục trặc khi giao hàng.",
+        "pinyin": "lún liú liàn xí： quē wù liào、 zhì liàng yǒu wèn tí、 fā huò chū wèn tí。"
+      }
+    ]
+  },
+  "homework": {
+    "title": {
+      "zh": "课后任务",
+      "vi": "Bài tập về nhà"
+    },
+    "items": [
+      {
+        "zh": "完成选择题、翻译题。每道口语题写十到十五句话。",
+        "vi": "Làm bài trắc nghiệm và dịch câu. Viết 10–15 câu cho mỗi câu hỏi nói.",
+        "pinyin": "wán chéng xuǎn zé tí、 fān yì tí。 měi dào kǒu yǔ tí xiě shí dào shí wǔ jù huà。"
+      },
+      {
+        "zh": "补充填空：产品最后由____负责包装，然后才能卖。",
+        "vi": "Điền từ: Cuối cùng ____ phụ trách đóng gói sản phẩm trước khi bán. (từ gợi ý: 包装部)",
+        "pinyin": "bǔ chōng tián kòng： chǎn pǐn zuì hòu yóu ____ fù zé bāo zhuāng， rán hòu cái néng mài。"
+      },
+      {
+        "zh": "选择 1. 如果你想买生产需要的物料，应该去找哪个部门？",
+        "pinyin": "",
+        "vi": "A. 业务部　B. 采购部　C. 仓储部"
+      },
+      {
+        "zh": "选择 2. 哪个部门负责检查产品质量？",
+        "pinyin": "",
+        "vi": "A. 品质部　B. 生产部　C. 物流部"
+      },
+      {
+        "zh": "选择 3. “总经理”的职位相当于以下哪个？",
+        "pinyin": "",
+        "vi": "A. Tổng giám đốc　B. Kỹ sư　C. Chủ quản"
+      },
+      {
+        "zh": "选择 4. 谁负责管理一个小团队？",
+        "pinyin": "",
+        "vi": "A. 技术员　B. 主管　C. 操作工"
+      },
+      {
+        "zh": "选择 5. 公司的收入和支出由哪个部门管理？",
+        "pinyin": "",
+        "vi": "A. 人事部　B. 财务部　C. 行政部"
+      },
+      {
+        "zh": "选择 6. 如果你想找工作，应该去哪个部门咨询？",
+        "pinyin": "",
+        "vi": "A. 人事部　B. 业务部　C. 安保部"
+      },
+      {
+        "zh": "选择 7. 哪个职位的人负责销售产品？",
+        "pinyin": "",
+        "vi": "A. 采购员　B. 业务员　C. 仓管"
+      },
+      {
+        "zh": "选择 8. 生产计划和生产排程由哪个部门负责？",
+        "pinyin": "",
+        "vi": "A. 工程部　B. PMC计划部　C. 模具部"
+      },
+      {
+        "zh": "选择 9. “文员”的主要工作是什么？",
+        "pinyin": "",
+        "vi": "A. 操作机器　B. 处理文件和办公事务　C. 检查产品质量"
+      },
+      {
+        "zh": "选择 10. 公司里员工吃饭的地方叫什么？",
+        "pinyin": "",
+        "vi": "A. 食堂　B. 仓库　C. 办公室"
+      },
+      {
+        "zh": "翻译 1. ____________________",
+        "pinyin": "",
+        "vi": "Bộ phận kế hoạch lên lịch sản xuất hàng ngày."
+      },
+      {
+        "zh": "翻译 2. ____________________",
+        "pinyin": "",
+        "vi": "Tôi làm nhân viên QC, công việc của tôi là kiểm tra chất lượng sản phẩm."
+      },
+      {
+        "zh": "翻译 3. ____________________",
+        "pinyin": "",
+        "vi": "Kỹ sư và kỹ thuật viên đều làm việc ở bộ phận kỹ thuật."
+      },
+      {
+        "zh": "翻译 4. ____________________",
+        "pinyin": "",
+        "vi": "Nhà ăn của công ty chúng tôi có đồ ăn rất ngon."
+      },
+      {
+        "zh": "翻译 5. ____________________",
+        "pinyin": "",
+        "vi": "Bạn có muốn trở thành nhân viên kinh doanh không?"
+      },
+      {
+        "zh": "口语 1. 你们公司（或者你了解的公司）有哪些部门？请写出3个部门的名字，并说明它们分别做什么。",
+        "vi": "Công ty bạn (hoặc một công ty bạn biết) có những bộ phận nào? Hãy nêu tên ba bộ phận và cho biết từng bộ phận làm gì.",
+        "pinyin": "nǐ men gōng sī （ huò zhě nǐ liǎo jiě de gōng sī ） yǒu nǎ xiē bù mén？ qǐng xiě chū 3 gè bù mén de míng zì， bìng shuō míng tā men fēn bié zuò shén me。"
+      },
+      {
+        "zh": "口语 2. 你觉得“人事部”重要吗？为什么？",
+        "vi": "Bạn thấy bộ phận nhân sự có quan trọng không? Vì sao?",
+        "pinyin": "nǐ jué de “ rén shì bù ” zhòng yào ma？ wèi shén me？"
+      },
+      {
+        "zh": "口语 3. 如果你想做“主管”，你需要有什么能力？",
+        "vi": "Nếu muốn làm chủ quản, bạn cần có những năng lực gì?",
+        "pinyin": "rú guǒ nǐ xiǎng zuò “ zhǔ guǎn ”， nǐ xū yào yǒu shén me néng lì？"
+      },
+      {
+        "zh": "口语 4. “品质部”和“生产部”有什么关系？请简单说明。",
+        "vi": "Bộ phận chất lượng và bộ phận sản xuất có liên quan gì với nhau? Hãy giải thích ngắn gọn.",
+        "pinyin": "“ pǐn zhì bù ” hé “ shēng chǎn bù ” yǒu shén me guān xì？ qǐng jiǎn dān shuō míng。"
+      },
+      {
+        "zh": "口语 5. 你最喜欢（或最想尝试）哪个职位？为什么？",
+        "vi": "Bạn thích nhất hoặc muốn thử vị trí nào nhất? Vì sao?",
+        "pinyin": "nǐ zuì xǐ huan （ huò zuì xiǎng cháng shì ） nǎ gè zhí wèi？ wèi shén me？"
+      }
+    ]
+  }
+}

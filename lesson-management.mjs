@@ -24,6 +24,7 @@ const fields={
 };
 const recordNames={students:'学员',classes:'班级',attendance:'签到'};
 const panels=new WeakMap();
+const searchText=value=>String(value??'').normalize('NFKC').toLowerCase();
 
 function element(tag,text){
  const node=document.createElement(tag);
@@ -104,6 +105,7 @@ export function openLessonManagement(dialog,requireTeacher,getPassword){
 }
 
 function createPanel(dialog,requireTeacher,getPassword){
+ const searches={students:'',classes:''};
  let view='overview',token='',shared=null,loading=false,busy=false,opening=0;
  const panel=element('section');
  panel.id='lesson-management';
@@ -187,6 +189,8 @@ function createPanel(dialog,requireTeacher,getPassword){
 
  function reset(){
   opening++;
+  searches.students='';
+  searches.classes='';
   if(token)lessonApi('logout',{token}).catch(()=>{});
   token='';
   shared=null;
@@ -399,8 +403,11 @@ function createPanel(dialog,requireTeacher,getPassword){
   toolbar.className='lesson-toolbar';
   const heading=element('h3',tabs[view]);
   const add=button('新增'+recordNames[view],()=>render({}),'primary');
-  toolbar.append(heading,add);
-  if(view==='students')toolbar.append(button('粘贴 Excel',()=>render('paste')));
+  const actions=element('div');
+  actions.className='lesson-record-actions';
+  actions.append(add);
+  if(view==='students')actions.append(button('粘贴 Excel',()=>render('paste')));
+  toolbar.append(heading,actions);
   content.append(toolbar);
   function edit(item){
    return button('编辑',()=>render(item));
@@ -421,7 +428,31 @@ function createPanel(dialog,requireTeacher,getPassword){
     edit(item)
    ]);
   }
-  content.append(table(tabs[view],[...headers,'操作'],rows,'暂无'+recordNames[view]+'记录。'));
+  const page=view;
+  const empty='暂无'+recordNames[page]+'记录。';
+  const columns=[...headers,'操作'];
+  if(!Object.hasOwn(searches,page)){
+   content.append(table(tabs[page],columns,rows,empty));
+   return;
+  }
+  const search=element('input');
+  search.type='search';
+  search.className='lesson-record-search';
+  search.placeholder=page==='students'?'搜索学员…':'搜索班级…';
+  search.setAttribute('aria-label',page==='students'?'搜索学员':'搜索班级');
+  search.value=searches[page];
+  actions.append(search);
+  const results=element('div');
+  const searchableRows=rows.map(row=>row.slice(0,-1).map(searchText).join(' '));
+  function filter(){
+   searches[page]=search.value;
+   const terms=searchText(search.value).trim().split(/\s+/).filter(Boolean);
+   const matches=terms.length?rows.filter((row,i)=>terms.every(term=>searchableRows[i].includes(term))):rows;
+   results.replaceChildren(table(tabs[page],columns,matches,rows.length?'没有找到匹配的记录。':empty));
+  }
+  search.addEventListener('input',filter);
+  content.append(results);
+  filter();
  }
 
  function renderForm(data,item){

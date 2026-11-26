@@ -207,3 +207,13 @@
  font-size: 15px;
  font-weight: 600;
 }
+#lesson-management .lesson-record-actions {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: flex-end;
+ gap: 8px;
+}
+#lesson-management .lesson-record-search {
+ width: min(14rem, 100%);
+}

@@ -15,6 +15,8 @@ on:
       - homework-core.mjs
       - homework-plan.mjs
       - lesson-data.mjs
+      - lesson-payroll.mjs
+      - tests/lesson-payroll.test.mjs
       - tests/lesson-register.test.mjs
       - tools/verify-homework-live.mjs
       - tools/verify-homework-vocabulary-live.mjs
@@ -54,7 +56,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate conversation service
-        run: node --test tests/courseware-pinyin.test.mjs tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs tests/homework-courseware.test.mjs tests/homework-courseware-plan.test.mjs tests/homework-rules.test.mjs tests/lesson-register.test.mjs
+        run: node --test tests/courseware-pinyin.test.mjs tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs tests/homework-courseware.test.mjs tests/homework-courseware-plan.test.mjs tests/homework-rules.test.mjs tests/lesson-register.test.mjs tests/lesson-payroll.test.mjs
       - name: Deploy free Workers AI service
         shell: bash
         run: |

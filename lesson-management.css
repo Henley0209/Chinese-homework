@@ -227,3 +227,31 @@
   grid-template-columns: 1fr;
  }
 }
+#lesson-management .lesson-payroll-chart {
+ display: flex;
+ gap: 12px;
+ overflow-x: auto;
+ min-height: 245px;
+ padding: 12px;
+ border: 1px solid var(--line);
+ border-radius: 10px;
+}
+#lesson-management .lesson-payroll-column {
+ display: grid;
+ grid-template-rows: auto 155px 1fr;
+ flex: 0 0 110px;
+ gap: 4px;
+ text-align: center;
+ overflow-wrap: anywhere;
+}
+#lesson-management .lesson-payroll-track {
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+ border-bottom: 1px solid var(--line);
+}
+#lesson-management .lesson-payroll-bar {
+ width: 60%;
+ background: var(--blue);
+ border-radius: 4px 4px 0 0;
+}

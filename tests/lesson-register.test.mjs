@@ -65,7 +65,10 @@ test('teachers can only read authorized rosters and save selected students once'
  assert.deepEqual(await call('admin-migrate',{token:admin,revision:1,data}),{revision:1});
  const teacher={username:'teacher01',name:'李老师',classIds:[classId]};
  await call('admin-account',{...teacher,token:admin},400);
- await call('admin-account',{...teacher,token:admin,password:'example-pass-123'});
+ await call('admin-account',{...teacher,token:admin,password:'example-pass-123',rate60:'100.25',rate90:'140'});
+ await call('admin-account',{...teacher,token:admin,replace:true,rate60:'-1'},400);
+ assert.deepEqual((await call('admin-read',{token:admin})).accounts[0],
+  {...teacher,disabled:false,rate60:10025,rate90:14000});
  await call('teacher-login',{username:'teacher01',password:'wrong-pass'},401);
  const {token}=await call('teacher-login',{username:'TEACHER01',password:'example-pass-123'});
  await call('admin-read',{token},403);
@@ -96,7 +99,7 @@ test('teachers can only read authorized rosters and save selected students once'
  const state=await call('admin-read',{token:admin});
  assert.deepEqual(state.data.attendance.map(({id,...item})=>item),[{
   classId,date:today,studentId:students[0].id,lesson:1,teacher:'李老师',topic:'自我介绍',
-  content:'姓名、国籍和问候语',status:'出勤',durationMinutes:90
+  content:'姓名、国籍和问候语',status:'出勤',durationMinutes:90,teacherUsername:'teacher01'
  }]);
  const updated=await call('teacher-roster',{token,classId,date:today});
  assert.deepEqual([updated.lesson,updated.remaining],[1,3]);
@@ -115,7 +118,9 @@ test('teachers can only read authorized rosters and save selected students once'
  assert.deepEqual(unnamed.students.find(student=>student.id===students[0].id),{id:students[0].id,name:'',recorded:true});
  const {durationMinutes,...oldEdit}=saved.data.attendance[0];
  await call('admin-save',{token:admin,revision:saved.revision,group:'attendance',records:[{...oldEdit,topic:'更新主题'}]});
- assert.equal((await call('admin-read',{token:admin})).data.attendance[0].durationMinutes,90);
+ const edited=(await call('admin-read',{token:admin})).data.attendance[0];
+ assert.equal(edited.durationMinutes,90);
+ assert.equal(edited.teacherUsername,'teacher01');
  await call('admin-account',{...teacher,token:admin,replace:true,password:'replacement-example'});
  await call('teacher-classes',{token},401);
  await call('teacher-login',{username:'teacher01',password:'example-pass-123'},401);
@@ -134,4 +139,7 @@ test('teachers can only read authorized rosters and save selected students once'
  assert.deepEqual(noHours,{lesson:1,remaining:null,students:[]});
  await call('admin-disable',{token:admin,username:'teacher01'});
  await call('teacher-classes',{token:renewed.token},401);
+ const disabled=(await call('admin-read',{token:admin})).accounts[0];
+ assert.equal(disabled.disabled,true);
+ assert.equal(disabled.rate90,14000);
 });

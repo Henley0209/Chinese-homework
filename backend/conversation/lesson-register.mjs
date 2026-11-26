@@ -1,5 +1,6 @@
 import {isTeacherPassword} from '../../teacher-auth.mjs';
 import {attendanceDates,lessonDate} from '../../lesson-data.mjs';
+import {payBands,readPayRate} from '../../lesson-payroll.mjs';
 
 const groups=['classes','students','attendance'];
 const encoder=new TextEncoder();
@@ -62,7 +63,7 @@ function validRecord(group,item){
 const columns={
  classes:['id','code','name','teacher','days','time','start','end','hours','room','notes'],
  students:['id','name','phone','classId','enrolled'],
- attendance:['id','date','studentId','classId','lesson','teacher','topic','content','status','durationMinutes']
+ attendance:['id','date','studentId','classId','lesson','teacher','topic','content','status','durationMinutes','teacherUsername']
 };
 const select=(item,keys)=>Object.fromEntries(keys.map(key=>[key,item[key]]));
 function courseRecord(item){
@@ -137,7 +138,7 @@ export class LessonRegister {
    const username=String(body.username??'').trim().toLowerCase();
    const account=/^[a-z0-9._-]{3,40}$/.test(username)?await this.storage.get('account:'+username):null;
    const digest=await passwordHash(body.password,account?.salt??'unregistered-account');
-   if(!account||!same(digest,account.digest))return reply('用户名或密码不正确。',401);
+   if(!account||account.disabled||!same(digest,account.digest))return reply('用户名或密码不正确。',401);
    return this.session(username,account.salt);
   }
   if(typeof body.token!=='string'||!/^[a-f0-9]{64}$/.test(body.token))return reply('请先登录。',401);
@@ -165,7 +166,7 @@ export class LessonRegister {
  async admin(body){
   if(body.action==='admin-read'){
    const state=await this.storage.transaction(snapshot);
-   const accounts=[...(await this.storage.list({prefix:'account:'})).values()].map(item=>select(item,['username','name','classIds']));
+   const accounts=[...(await this.storage.list({prefix:'account:'})).values()].map(item=>select(item,['username','name','classIds','disabled',...payBands.map(band=>band.field)]));
    return Response.json({...state,accounts});
   }
   if(body.action==='admin-account'){
@@ -177,6 +178,12 @@ export class LessonRegister {
     body.classIds.length>100||!body.classIds.length||!body.classIds.every(id)){
     return reply('请填写有效用户名、姓名、至少 10 位密码并选择班级。');
    }
+   const rates={};
+   try{
+    for(const {field} of payBands){
+     if(Object.hasOwn(body,field))rates[field]=readPayRate(body[field]);
+    }
+   }catch(error){return reply(error.message);}
    const newSalt=changingPassword?crypto.randomUUID():null;
    const newDigest=newSalt?await passwordHash(password,newSalt):null;
    return this.storage.transaction(async storage=>{
@@ -186,14 +193,20 @@ export class LessonRegister {
     const existing=await storage.get('account:'+username);
     if(Boolean(existing)!==Boolean(body.replace))return reply(existing?'该用户名已存在，请编辑原账号。':'账号已不存在，请刷新后重试。',409);
     await storage.put('account:'+username,{username,name:body.name.trim(),classIds:[...new Set(body.classIds)],
-     salt:newSalt??existing.salt,digest:newDigest??existing.digest});
+     salt:newSalt??existing.salt,digest:newDigest??existing.digest,disabled:existing?.disabled??false,
+     ...Object.fromEntries(payBands.map(({field})=>[field,Object.hasOwn(rates,field)?rates[field]:existing?.[field]??null]))});
     return Response.json({});
    });
   }
   if(body.action==='admin-disable'){
    if(!/^[a-z0-9._-]{3,40}$/.test(body.username??''))return reply('用户名无效。');
-   await this.storage.delete('account:'+body.username);
-   return Response.json({});
+   return this.storage.transaction(async storage=>{
+    const key='account:'+body.username;
+    const account=await storage.get(key);
+    if(!account)return reply('账号已不存在。',404);
+    await storage.put(key,{...account,disabled:true});
+    return Response.json({});
+   });
   }
   if(!['admin-save','admin-migrate'].includes(body.action))return reply('操作无效。',404);
   const migration=body.action==='admin-migrate';
@@ -211,9 +224,13 @@ export class LessonRegister {
    const changes=incoming.map(([group,records])=>{
     if(group==='students')return [group,records.map(studentRecord)];
     if(group==='classes')return [group,records.map(courseRecord)];
-    const durations=new Map(current.data.attendance.map(record=>[record.id,record.durationMinutes]));
-    return [group,records.map(item=>item&&!Object.hasOwn(item,'durationMinutes')?
-     {...item,durationMinutes:durations.get(item.id)??null}:item)];
+    const oldRecords=new Map(current.data.attendance.map(record=>[record.id,record]));
+    return [group,records.map(item=>{
+     if(!item)return item;
+     const old=oldRecords.get(item.id);
+     return {...item,durationMinutes:Object.hasOwn(item,'durationMinutes')?item.durationMinutes:old?.durationMinutes??null,
+      teacherUsername:old?.teacher===item.teacher?old?.teacherUsername:undefined};
+    })];
    });
    if(changes.every(([,records])=>!records.length))return Response.json({revision:current.revision});
    for(const [group,records] of changes){
@@ -237,7 +254,7 @@ export class LessonRegister {
  async teacher(body,auth){
   return this.storage.transaction(async storage=>{
    const account=await storage.get('account:'+auth.user);
-   if(!account||auth.salt!==account.salt)return reply('账号已停用或更新，请重新登录。',401);
+   if(!account||account.disabled||auth.salt!==account.salt)return reply('账号已停用或更新，请重新登录。',401);
    const classes=[];
    for(const classId of account.classIds){
     const course=await storage.get('classes:'+classId);
@@ -280,7 +297,7 @@ export class LessonRegister {
    const lesson=classLesson(records,date);
    if(!integer(lesson,10000))return reply('课次已达到上限，请联系管理员。',409);
    for(const studentId of body.studentIds){
-    const record={id:crypto.randomUUID(),date,studentId,classId:body.classId,lesson,teacher:account.name,
+    const record={id:crypto.randomUUID(),date,studentId,classId:body.classId,lesson,teacher:account.name,teacherUsername:account.username,
      topic:topic.trim(),content:content.trim(),status:'出勤',...(durationMinutes===undefined?{}:{durationMinutes})};
     await storage.put('attendance:'+record.id,record);
    }

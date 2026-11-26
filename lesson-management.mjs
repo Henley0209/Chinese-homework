@@ -1,10 +1,12 @@
 import {lessonApi} from './lesson-api.mjs?v=1';
-import {lessonToday as today,parseStudentPaste,studentLabels,studentName,classLabel,classLabels} from './lesson-data.mjs?v=4';
+import {lessonToday as today,parseStudentPaste,studentLabels,studentName,classLabel,classLabels,lessonDate} from './lesson-data.mjs?v=4';
+
+import {calculatePayroll,formatPay,payBands,readPayRate} from './lesson-payroll.mjs?v=1';
 
 const storageKey='qinglan-lesson-management-v1';
 const durationOptions=[[60,'1 小时'],[90,'1.5 小时']];
 const statuses=['出勤','补课','缺勤','请假'];
-const tabs={overview:'管理看板',students:'学员管理',classes:'班级课程',attendance:'上课签到',accounts:'授课教师'};
+const tabs={overview:'管理看板',students:'学员管理',classes:'班级课程',attendance:'上课签到',accounts:'授课教师',payroll:'工资计算'};
 const fields={
  students:[
   ['name','学生姓名','text',false],['phone','联系电话','tel',false],
@@ -108,6 +110,7 @@ export function openLessonManagement(dialog,requireTeacher,getPassword){
 
 function createPanel(dialog,requireTeacher,getPassword){
  const searches={};
+ const payPeriod={start:'',end:''};
  let view='overview',token='',shared=null,loading=false,busy=false,opening=0;
  const panel=element('section');
  panel.id='lesson-management';
@@ -174,6 +177,7 @@ function createPanel(dialog,requireTeacher,getPassword){
    const data=hasShared?shared.data:hasLocal?local:shared?.data??local;
    if(view==='overview')renderOverview(data);
    else if(view==='accounts')renderAccounts(data,editor);
+   else if(view==='payroll')renderPayroll();
    else if(editor==='paste')renderPaste(data);
    else if(editor)renderForm(data,editor);
    else renderRecords(data);
@@ -313,12 +317,15 @@ function createPanel(dialog,requireTeacher,getPassword){
   }
   if(!account){
    content.append(button('新增教师账号',()=>render({}),'primary'),
-    table('授课教师账号',['用户名','教师姓名','授权班级','操作'],shared.accounts.map(item=>{
+    table('授课教师账号',['用户名','教师姓名','授权班级','1 小时费用','1.5 小时费用','操作'],shared.accounts.map(item=>{
      const actions=element('div');
-     actions.append(button('编辑或重设密码',()=>render(item)),button('停用',()=>{
+     actions.append(button('编辑或重设密码',()=>render(item)));
+     if(item.disabled)actions.append(element('span','已停用'));
+     else actions.append(button('停用',()=>{
       if(window.confirm('确定停用「'+item.username+'」？'))mutate('admin-disable',{username:item.username},'账号已停用。');
      }));
-     return [item.username,item.name,data.classes.filter(course=>item.classIds.includes(course.id)).map(classLabel).join('、'),actions];
+     return [item.username,item.name,data.classes.filter(course=>item.classIds.includes(course.id)).map(classLabel).join('、'),
+      ...payBands.map(({field})=>formatPay(item[field])),actions];
     }),'暂无授课教师账号。'));
    return;
   }
@@ -341,6 +348,16 @@ function createPanel(dialog,requireTeacher,getPassword){
    }
    if(key==='password'){field.type='password';field.minLength=10;field.autocomplete='new-password';}
    wrapper.append(field);
+   form.append(wrapper);
+  }
+  for(const {field,label} of payBands){
+   const wrapper=element('label',label+'费用');
+   const input=element('input');
+   input.name=field;
+   input.inputMode='decimal';
+   input.maxLength=12;
+   input.value=account[field]==null?'':String(account[field]/100);
+   wrapper.append(input);
    form.append(wrapper);
   }
   const classes=element('fieldset');
@@ -369,12 +386,91 @@ function createPanel(dialog,requireTeacher,getPassword){
    const values=new FormData(form);
    const classIds=values.getAll('classIds');
    if(!classIds.length){message.textContent='请至少授权一个班级。';return;}
+   const rates=Object.fromEntries(payBands.map(({field})=>[field,values.get(field).trim()]));
+   try{for(const value of Object.values(rates))readPayRate(value);}
+   catch(error){message.textContent=error.message;return;}
    save.disabled=true;
    const success=await mutate('admin-account',{username:values.get('username'),name:values.get('name'),
-    password:values.get('password'),classIds,replace:Boolean(account.username)},'教师账号已保存。');
+    password:values.get('password'),classIds,...rates,replace:Boolean(account.username)},'教师账号已保存。');
    if(!success)save.disabled=false;
   });
   content.append(form);
+ }
+
+ function renderPayroll(){
+  content.append(element('h3','工资计算'));
+  if(!shared){
+   content.append(element('p','连接共享课时库后可查询工资。'));
+   return;
+  }
+  const date=today();
+  const filters=element('div');
+  filters.className='lesson-form';
+  const results=element('div');
+  const inputs={};
+  for(const [key,label,value] of [['start','签到开始日期',date.slice(0,7)+'-01'],['end','签到截止日期',date]]){
+   const wrapper=element('label',label);
+   const input=element('input');
+   input.type='date';
+   input.name='payroll-'+key;
+   input.value=payPeriod[key]||value;
+   input.addEventListener('input',update);
+   inputs[key]=input;
+   wrapper.append(input);
+   filters.append(wrapper);
+  }
+  const summary=element('p');
+  summary.setAttribute('role','status');
+  content.append(filters,summary,results);
+
+  function update(){
+   const start=inputs.start.value;
+   const end=inputs.end.value;
+   payPeriod.start=start;
+   payPeriod.end=end;
+   results.replaceChildren();
+   if(!lessonDate(start)||!lessonDate(end)||start>end){
+    summary.textContent='请选择有效的开始和截止日期。';
+    return;
+   }
+   const {results:teachers,missingDuration,conflictingDuration,unresolved}=
+    calculatePayroll(shared.accounts,shared.data.attendance,start,end);
+   if(!teachers.length){summary.textContent='暂无授课教师账号。';return;}
+   const incomplete=teachers.reduce((sum,row)=>sum+row.missingRates,0);
+   const notes=[];
+   if(incomplete)notes.push(incomplete+' 节待设置费用');
+   if(missingDuration)notes.push(missingDuration+' 节缺少上课时长');
+   if(conflictingDuration)notes.push(conflictingDuration+' 节的上课时长不一致');
+   if(unresolved)notes.push(unresolved+' 节无法匹配教师账号');
+   summary.textContent=notes.length?'以下为已计入的工资。暂未计入：'+notes.join('、')+'。':'按综合工资从高到低排列。';
+
+   const chart=element('div');
+   chart.className='lesson-payroll-chart';
+   chart.tabIndex=0;
+   chart.setAttribute('role','region');
+   chart.setAttribute('aria-label','教师工资柱状图');
+   const max=Math.max(1,teachers[0].total);
+   for(const row of teachers){
+    const {account,total}=row;
+    const column=element('div');
+    column.className='lesson-payroll-column';
+    const bar=element('div');
+    bar.className='lesson-payroll-bar';
+    bar.style.height=total/max*100+'%';
+    const track=element('div');
+    track.className='lesson-payroll-track';
+    track.setAttribute('aria-hidden','true');
+    track.append(bar);
+    column.append(element('strong',formatPay(total)),track,
+     element('span',account.name+' · '+account.username));
+    chart.append(column);
+   }
+   results.append(chart,table('教师工资明细',['授课教师','1 小时次数','1.5 小时次数','综合工资','待设置费用次数'],
+    teachers.map(({account,counts,total,missingRates})=>[
+     account.name+' · '+account.username,counts[60],counts[90],formatPay(total),missingRates
+    ]),'暂无工资记录。'));
+  }
+  update();
  }
 
  function renderOverview(data){

@@ -1990,6 +1990,14 @@
       "changes": [
         "Wait for attendance Worker propagation in live verification"
       ]
+    },
+    {
+      "version": "V0248",
+      "updatedAt": "2026-11-26T14:10:36Z",
+      "commit": "add72326032f52d614da43b042bb0da679a4d917",
+      "changes": [
+        "Remove student codes and allow optional student details"
+      ]
     }
   ]
 }

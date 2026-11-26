@@ -1998,6 +1998,14 @@
       "changes": [
         "Remove student codes and allow optional student details"
       ]
+    },
+    {
+      "version": "V0249",
+      "updatedAt": "2026-11-26T14:23:36Z",
+      "commit": "78ccace411477698c058949f72790c4dc7925472",
+      "changes": [
+        "Batch attendance from a class roster"
+      ]
     }
   ]
 }

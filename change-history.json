@@ -2062,6 +2062,14 @@
       "changes": [
         "Record teaching duration on teacher attendance"
       ]
+    },
+    {
+      "version": "V0257",
+      "updatedAt": "2026-11-26T16:26:03Z",
+      "commit": "3f849bb016509fd550d0711cd3babcaa5d367cd7",
+      "changes": [
+        "Calculate teacher payroll from attendance and hourly lesson rates"
+      ]
     }
   ]
 }

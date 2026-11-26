@@ -1982,6 +1982,14 @@
       "changes": [
         "Add Excel roster paste and shared teacher attendance"
       ]
+    },
+    {
+      "version": "V0247",
+      "updatedAt": "2026-11-26T13:05:20Z",
+      "commit": "9ed1a0e75bdfbac2e441454b08e261e75dd4d67a",
+      "changes": [
+        "Wait for attendance Worker propagation in live verification"
+      ]
     }
   ]
 }

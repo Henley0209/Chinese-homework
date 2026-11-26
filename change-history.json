@@ -2054,6 +2054,14 @@
       "changes": [
         "Add live search to attendance records"
       ]
+    },
+    {
+      "version": "V0256",
+      "updatedAt": "2026-11-26T16:15:50Z",
+      "commit": "0e4029795acedabd637e2fa51a28343b1f023eab",
+      "changes": [
+        "Record teaching duration on teacher attendance"
+      ]
     }
   ]
 }

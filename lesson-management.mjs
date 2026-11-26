@@ -16,7 +16,7 @@ const fields={
   ['room','教室','text',false],['notes','备注','textarea',false]
  ],
  attendance:[
-  ['date','上课日期','date'],['studentId','学员','students'],['classId','班级','classes'],
+  ['date','上课日期','date'],['classId','班级','classes'],['studentId','学员','students'],
   ['lesson','课次','number'],['teacher','授课教师','text',false],
   ['topic','上课主题','text',false],['content','本节课学习内容','textarea',false],
   ['status','出勤状态','status']
@@ -424,11 +424,10 @@ function createPanel(dialog,requireTeacher,getPassword){
  }
 
  function renderForm(data,item){
-  const availableStudents=data.students.filter(student=>student.classId||student.id===item.studentId);
-  if(view==='attendance'&&!availableStudents.length){
-   const nextView=data.students.length&&!data.classes.length?'classes':'students';
-   const guide=nextView==='classes'?'请先创建班级，再在学员管理中为学员分班。':
-    data.students.length?'请先在学员管理中为学员分班。':'请先在学员管理中新增学员并分班。';
+  const batch=view==='attendance'&&!item.id;
+  if(batch&&!data.classes.length){
+   const nextView='classes';
+   const guide='请先创建班级，再在学员管理中为学员分班。';
    const heading=element('h3','新增签到');
    heading.tabIndex=-1;
    const actions=element('div');
@@ -447,11 +446,16 @@ function createPanel(dialog,requireTeacher,getPassword){
   form.className='lesson-form';
   const heading=element('h3',(item.id?'编辑':'新增')+recordNames[view]);
   const controls={};
+  const roster=batch?element('fieldset'):null;
   for(const [key,label,type='text',required=true] of fields[view]){
+   if(batch&&key==='studentId'){
+    roster.className='lesson-checklist lesson-attendance-roster';
+    form.append(roster);
+    continue;
+   }
    const group=element('label',label);
-   const records=type==='students'?availableStudents:data[type];
-   const names=type==='students'?studentLabels(availableStudents):null;
-   const options=records?records.map((record,i)=>[record.id,names?names[i]:record.code+' · '+record.name]):
+   const records=type==='students'?[]:data[type];
+   const options=records?records.map(record=>[record.id,record.code+' · '+record.name]):
     type==='status'?statuses.map(status=>[status,status]):null;
    const input=element(options?'select':type==='textarea'?'textarea':'input');
    if(options){
@@ -476,12 +480,56 @@ function createPanel(dialog,requireTeacher,getPassword){
    form.append(group);
   }
   if(view==='attendance'){
-   controls.studentId.addEventListener('change',()=>{
-    const student=data.students.find(record=>record.id===controls.studentId.value);
-    const course=data.classes.find(record=>record.id===student?.classId);
-    controls.classId.value=course?.id??'';
-    controls.teacher.value=course?.teacher??'';
+   function showRoster(currentStudent=''){
+    const classId=controls.classId.value;
+    const students=classId?data.students.filter(student=>student.classId===classId||
+     (item.classId===classId&&item.studentId===student.id)):[];
+    const labels=studentLabels(students);
+    if(!batch){
+     controls.studentId.replaceChildren(new Option('请选择',''),
+      ...students.map((student,i)=>new Option(labels[i],student.id)));
+     controls.studentId.value=students.some(student=>student.id===currentStudent)?currentStudent:'';
+     return;
+    }
+    const legend=element('legend','班级学员（可多选）');
+    if(!students.length){
+     roster.replaceChildren(legend,element('p',classId?'该班级暂无学员，请先在学员管理中分班。':'请选择班级，名单会自动显示。'));
+     return;
+    }
+    const checks=students.map(student=>{
+     const check=element('input');
+     check.type='checkbox';
+     check.name='studentId';
+     check.value=student.id;
+     return check;
+    });
+    const summary=element('span');
+    summary.setAttribute('role','status');
+    const summarize=()=>{summary.textContent='已选 '+checks.filter(check=>check.checked).length+' / '+checks.length+' 位';};
+    const toggle=checked=>{
+     for(const check of checks)check.checked=checked;
+     summarize();
+    };
+    const toolbar=element('div');
+    toolbar.className='lesson-toolbar lesson-roster-actions';
+    toolbar.append(button('全选',()=>toggle(true)),button('取消全选',()=>toggle(false)),summary);
+    const list=element('div');
+    list.className='lesson-roster-list';
+    for(const [i,check] of checks.entries()){
+     const label=element('label');
+     label.append(check,document.createTextNode(labels[i]));
+     check.addEventListener('change',summarize);
+     list.append(label);
+    }
+    summarize();
+    roster.replaceChildren(legend,toolbar,list);
+   }
+   controls.classId.addEventListener('change',()=>{
+    controls.teacher.value=data.classes.find(course=>course.id===controls.classId.value)?.teacher??'';
+    showRoster();
+    message.textContent='';
    });
+   showRoster(item.studentId);
   }
   const actions=element('div');
   actions.className='lesson-toolbar';
@@ -499,6 +547,7 @@ function createPanel(dialog,requireTeacher,getPassword){
     const records=latest[view];
     const entry={id:item.id??crypto.randomUUID()};
     for(const [key,,type,required=true] of fields[view]){
+     if(batch&&key==='studentId')continue;
      const value=controls[key].value.trim();
      if(required&&!value)throw Error('请填写所有必填字段。');
      entry[key]=type==='number'?Number(value):value;
@@ -509,18 +558,28 @@ function createPanel(dialog,requireTeacher,getPassword){
     }
     if(view==='classes'&&entry.end<entry.start)throw Error('预计结课日期须等于或晚于开课日期。');
     if(entry.classId&&!latest.classes.some(record=>record.id===entry.classId))throw Error('请选择有效班级。');
+    let pending=[entry];
+    let notice='已保存'+recordNames[view]+'记录。';
     if(view==='attendance'){
-     const student=latest.students.find(record=>record.id===entry.studentId);
-     if(!student)throw Error('请选择有效学员。');
-     const sameAssignment=item.studentId===entry.studentId&&item.classId===entry.classId;
-     if(student.classId!==entry.classId&&!sameAssignment)throw Error('请选择该学员当前所在的班级。');
-     if(records.some(record=>record.id!==entry.id&&record.studentId===entry.studentId&&
-      record.classId===entry.classId&&record.date===entry.date&&record.lesson===entry.lesson)){
-      throw Error('该学员当天的此课次已有签到，请编辑原记录。');
+     const selected=batch?new FormData(form).getAll('studentId'):[entry.studentId];
+     if(!selected.length||selected.length>500)throw Error('请选择 1–500 位学员。');
+     const students=new Map(latest.students.map(student=>[student.id,student]));
+     if(selected.some(studentId=>!students.has(studentId)||
+      (students.get(studentId).classId!==entry.classId&&(item.studentId!==studentId||item.classId!==entry.classId)))){
+      throw Error('请选择该班级的学员。');
+     }
+     const existing=new Set(records.filter(record=>record.id!==entry.id&&record.classId===entry.classId&&
+      record.date===entry.date&&record.lesson===entry.lesson).map(record=>record.studentId));
+     const duplicates=selected.filter(studentId=>existing.has(studentId)).map(studentId=>studentName(students.get(studentId)));
+     if(duplicates.length)throw Error(duplicates.slice(0,3).join('、')+(duplicates.length>3?'等学员':'')+
+      '当天的此课次已有签到。请取消勾选或编辑原记录。');
+     if(batch){
+      pending=selected.map(studentId=>({...entry,id:crypto.randomUUID(),studentId}));
+      notice='已保存 '+pending.length+' 位学员的签到记录。';
      }
     }
     save.disabled=true;
-    const success=await mutate('admin-save',{revision:shared.revision,group:view,records:[entry]},'已保存'+recordNames[view]+'记录。');
+    const success=await mutate('admin-save',{revision:shared.revision,group:view,records:pending},notice);
     if(!success)save.disabled=false;
    }catch(error){
     message.textContent=error.message;

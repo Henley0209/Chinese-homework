@@ -1,0 +1,134 @@
+#tools.lesson-management-open {
+ width: min(1160px, calc(100% - 24px));
+ max-width: none;
+ padding: clamp(16px, 3vw, 30px);
+}
+#tools.lesson-management-open > :not(#lesson-management) {
+ display: none;
+}
+#lesson-management {
+ color: var(--ink);
+}
+#lesson-management > header, #lesson-management .lesson-toolbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ gap: 10px 16px;
+}
+#lesson-management h2, #lesson-management h3 {
+ margin: 0;
+ line-height: 1.35;
+}
+#lesson-management nav {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 6px;
+ margin: 18px 0 24px;
+ padding-bottom: 10px;
+ border-bottom: 1px solid var(--line);
+}
+#lesson-management nav button[aria-current] {
+ background: var(--blue);
+ color: white;
+}
+#lesson-management .lesson-stats {
+ display: grid;
+ grid-template-columns: repeat(4, minmax(0, 1fr));
+ gap: 12px;
+ margin: 0 0 24px;
+}
+#lesson-management .lesson-stats div {
+ padding: 14px;
+ border: 1px solid var(--line);
+ border-radius: 12px;
+ background: #f2f8fd;
+}
+#lesson-management dt {
+ font-size: 14px;
+}
+#lesson-management dd {
+ margin: 4px 0 0;
+ color: #215c90;
+ font-size: 30px;
+ font-weight: 700;
+ font-variant-numeric: tabular-nums;
+}
+#lesson-management .lesson-table {
+ overflow: auto;
+ margin-top: 12px;
+ border: 1px solid var(--line);
+ border-radius: 10px;
+}
+#lesson-management table {
+ width: 100%;
+ border-collapse: collapse;
+ font-size: 14px;
+ text-align: left;
+}
+#lesson-management th, #lesson-management td {
+ min-width: 84px;
+ padding: 10px 12px;
+ border-bottom: 1px solid var(--line);
+}
+#lesson-management th {
+ background: #edf5fa;
+ white-space: nowrap;
+}
+#lesson-management tbody tr:last-child td {
+ border-bottom: 0;
+}
+#lesson-management td {
+ overflow-wrap: anywhere;
+}
+#lesson-management td button {
+ white-space: nowrap;
+ padding: 5px 9px;
+}
+#lesson-management .lesson-form {
+ display: grid;
+ grid-template-columns: repeat(2, minmax(0, 1fr));
+ gap: 12px 18px;
+ margin-top: 14px;
+}
+#lesson-management .lesson-form label {
+ display: grid;
+ align-content: start;
+ gap: 4px;
+ margin: 0;
+}
+#lesson-management :is(input, select, textarea) {
+ width: 100%;
+ min-width: 0;
+ margin: 0;
+ font: inherit;
+}
+#lesson-management textarea {
+ padding: 9px 12px;
+ border: 1px solid var(--line);
+ border-radius: 8px;
+ resize: vertical;
+}
+#lesson-management .lesson-form .lesson-toolbar {
+ grid-column: 1 / -1;
+ justify-content: flex-start;
+}
+#lesson-management .lesson-message {
+ font-size: 14px;
+ margin: 12px 0 0;
+}
+#lesson-management .lesson-message:empty {
+ margin: 0;
+}
+@media (max-width: 600px) {
+ #lesson-management .lesson-stats {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+ }
+ #lesson-management .lesson-form {
+  grid-template-columns: 1fr;
+ }
+ #lesson-management nav {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+ }
+}

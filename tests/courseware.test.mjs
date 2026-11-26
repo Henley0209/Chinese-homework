@@ -35,10 +35,10 @@ for(const id of pilotIds)test(id+' has the requested exact content and page orde
  for(const path of slideFiles){assert.equal(files[path].split(coursewareBrand).length-1,2);assert.ok(files[path].includes('F58B24'));}
 
 });
-test('both homepage entries expose exactly the requested four buttons in order',()=>{
+test('both homepage entries expose the teacher tool buttons in order',()=>{
  for(const file of ['index.html','homepage-v4.html']){
   const html=fs.readFileSync(file,'utf8'),toolbar=html.match(/<div id="teacher-tool-actions"[^>]*>(.*?)<\/div>/s)?.[1];assert.ok(toolbar);
-  assert.deepEqual([...toolbar.matchAll(/<button[^>]*>(.*?)<\/button>/gs)].map(m=>m[1]),['AI 设计课件','AI 生成作业','上传练习题','变更记录']);
+  assert.deepEqual([...toolbar.matchAll(/<button[^>]*>(.*?)<\/button>/gs)].map(m=>m[1]),['学员课时管理看板','AI 设计课件','AI 生成作业','上传练习题','变更记录']);
   assert.match(html,/<section id="teacher-upload-panel"[^>]* hidden>/);
  }
 });

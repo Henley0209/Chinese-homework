@@ -1,5 +1,5 @@
 import {lessonApi} from './lesson-api.mjs?v=1';
-import {attendanceDates,lessonDate,studentLabels,classLabels} from './lesson-data.mjs?v=4';
+import {attendanceDates,lessonDate,studentLabels,classLabels} from './lesson-data.mjs?v=5';
 
 const $=id=>document.getElementById('teacher-attendance-'+id);
 const login=$('login');
@@ -59,8 +59,8 @@ login.addEventListener('submit',async event=>{
   const labels=classLabels(result.classes);
   controls.classId.replaceChildren(new Option('请选择班级',''),
    ...result.classes.map((course,i)=>new Option(labels[i],course.id)));
-  const [today,tomorrow]=result.dates??attendanceDates();
-  controls.date.replaceChildren(new Option('今天 · '+today,today),new Option('明天 · '+tomorrow,tomorrow));
+  const [today,yesterday]=attendanceDates();
+  controls.date.replaceChildren(new Option('今天 · '+today,today),new Option('昨天 · '+yesterday,yesterday));
   controls.start.value=today;
   controls.end.value=today;
   login.reset();
@@ -91,7 +91,7 @@ async function loadRoster(){
   const {students,lesson,remaining}=await lessonApi('teacher-roster',{token,classId,date});
   if(request!==rosterRequest)return;
   if(Number.isInteger(lesson)){
-   const day=date===controls.date.options[0].value?'今天':'明天';
+   const day=date===controls.date.options[0].value?'今天':'昨天';
    progress.textContent=day+'是第 '+lesson+' 课时，'+(Number.isInteger(remaining)?'本班级还剩 '+remaining+' 课时':'本班级尚未设置总课时');
    progress.hidden=false;
   }

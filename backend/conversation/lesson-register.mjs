@@ -244,7 +244,7 @@ export class LessonRegister {
    const students=(await rows(storage,'students')).filter(student=>student.classId===body.classId)
     .sort(compareStudents);
    if(body.action==='teacher-roster'){
-    if(!dates.includes(body.date))return reply('实际签到日期只可选择今天或明天。');
+    if(!dates.includes(body.date))return reply('实际签到日期只可选择今天或昨天。');
     const records=await classRecords();
     const course=await storage.get('classes:'+body.classId);
     const lesson=classLesson(records,body.date);
@@ -263,7 +263,7 @@ export class LessonRegister {
    const signature=JSON.stringify([body.classId,date,start,end,topic,content,body.studentIds]);
    const previous=await storage.get(submissionKey);
    if(previous)return previous.signature===signature?Response.json({count:previous.count}):reply('提交内容已更改，请重新点名。',409);
-   if(!dates.includes(date))return reply('实际签到日期只可选择今天或明天。');
+   if(!dates.includes(date))return reply('实际签到日期只可选择今天或昨天。');
    const studentIds=new Set(students.map(item=>item.id));
    if(body.studentIds.some(studentId=>!studentIds.has(studentId)))return reply('班级名单已变化，请重新选择班级。',409);
    const records=await classRecords();

@@ -10,8 +10,8 @@ export function lessonToday(now=new Date()){
 
 export function attendanceDates(now=new Date()){
  const today=lessonToday(now);
- const tomorrow=new Date(Date.parse(today)+86400000).toISOString().slice(0,10);
- return [today,tomorrow];
+ const yesterday=new Date(Date.parse(today)-86400000).toISOString().slice(0,10);
+ return [today,yesterday];
 }
 
 function spreadsheetRows(text){

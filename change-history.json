@@ -2022,6 +2022,14 @@
       "changes": [
         "Allow all class course fields to be optional"
       ]
+    },
+    {
+      "version": "V0252",
+      "updatedAt": "2026-11-26T15:31:00Z",
+      "commit": "84690d8db0fa4b6178b92386df180c31822ae5ae",
+      "changes": [
+        "Allow teacher attendance today or yesterday"
+      ]
     }
   ]
 }

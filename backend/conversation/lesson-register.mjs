@@ -1,5 +1,5 @@
 import {isTeacherPassword} from '../../teacher-auth.mjs';
-import {lessonDate} from '../../lesson-data.mjs';
+import {attendanceDates,lessonDate} from '../../lesson-data.mjs';
 
 const groups=['classes','students','attendance'];
 const encoder=new TextEncoder();
@@ -93,6 +93,15 @@ function validData(data){
   data.attendance.every(item=>courses.has(item.classId)&&students.has(item.studentId));
 }
 
+function classLesson(records,date){
+ let latest=0,scheduled=0;
+ for(const record of records){
+  latest=Math.max(latest,record.lesson);
+  if(record.date===date)scheduled=Math.max(scheduled,record.lesson);
+ }
+ return scheduled||latest+1;
+}
+
 export class LessonRegister {
  constructor(state){this.storage=state.storage;}
 
@@ -154,20 +163,23 @@ export class LessonRegister {
   }
   if(body.action==='admin-account'){
    const username=String(body.username??'').trim().toLowerCase();
+   const password=body.password??'';
+   const changingPassword=password!=='';
    if(!/^[a-z0-9._-]{3,40}$/.test(username)||username==='admin'||!filled(body.name,80)||
-    !filled(body.password,128)||body.password.length<10||!Array.isArray(body.classIds)||
+    (!body.replace&&!changingPassword)||(changingPassword&&(!filled(password,128)||password.length<10))||!Array.isArray(body.classIds)||
     body.classIds.length>100||!body.classIds.length||!body.classIds.every(id)){
     return reply('请填写有效用户名、姓名、至少 10 位密码并选择班级。');
    }
-   const salt=crypto.randomUUID();
-   const digest=await passwordHash(body.password,salt);
+   const newSalt=changingPassword?crypto.randomUUID():null;
+   const newDigest=newSalt?await passwordHash(password,newSalt):null;
    return this.storage.transaction(async storage=>{
     for(const classId of body.classIds){
      if(!await storage.get('classes:'+classId))return reply('所选班级已不存在。');
     }
-    const exists=Boolean(await storage.get('account:'+username));
-    if(exists!==Boolean(body.replace))return reply(exists?'该用户名已存在，请编辑原账号。':'账号已不存在，请刷新后重试。',409);
-    await storage.put('account:'+username,{username,name:body.name.trim(),classIds:[...new Set(body.classIds)],salt,digest});
+    const existing=await storage.get('account:'+username);
+    if(Boolean(existing)!==Boolean(body.replace))return reply(existing?'该用户名已存在，请编辑原账号。':'账号已不存在，请刷新后重试。',409);
+    await storage.put('account:'+username,{username,name:body.name.trim(),classIds:[...new Set(body.classIds)],
+     salt:newSalt??existing.salt,digest:newDigest??existing.digest});
     return Response.json({});
    });
   }
@@ -218,15 +230,20 @@ export class LessonRegister {
     const course=await storage.get('classes:'+classId);
     if(course)classes.push(select(course,['id','code','name']));
    }
-   if(body.action==='teacher-classes')return Response.json({name:account.name,classes});
+   const dates=attendanceDates();
+   if(body.action==='teacher-classes')return Response.json({name:account.name,classes,dates});
    if(!classes.some(course=>course.id===body.classId))return reply('该班级未授权给当前教师。',403);
+   const classRecords=async()=> (await rows(storage,'attendance')).filter(item=>item.classId===body.classId);
    const students=(await rows(storage,'students')).filter(student=>student.classId===body.classId)
     .sort(compareStudents);
    if(body.action==='teacher-roster'){
-    if(!lessonDate(body.date))return reply('签到日期无效。');
-    const recorded=new Set((await rows(storage,'attendance'))
-     .filter(item=>item.classId===body.classId&&item.date===body.date).map(item=>item.studentId));
-    return Response.json({students:students.map(item=>({...select(item,['id','name']),recorded:recorded.has(item.id)}))});
+    if(!dates.includes(body.date))return reply('实际签到日期只可选择今天或明天。');
+    const records=await classRecords();
+    const course=await storage.get('classes:'+body.classId);
+    const lesson=classLesson(records,body.date);
+    const recorded=new Set(records.filter(item=>item.date===body.date).map(item=>item.studentId));
+    return Response.json({lesson,remaining:Math.max(0,course.hours-lesson),
+     students:students.map(item=>({...select(item,['id','name']),recorded:recorded.has(item.id)}))});
    }
    if(body.action!=='teacher-submit')return reply('操作无效。',404);
    const {date,start,end,topic,content,submissionId}=body;
@@ -239,16 +256,15 @@ export class LessonRegister {
    const signature=JSON.stringify([body.classId,date,start,end,topic,content,body.studentIds]);
    const previous=await storage.get(submissionKey);
    if(previous)return previous.signature===signature?Response.json({count:previous.count}):reply('提交内容已更改，请重新点名。',409);
+   if(!dates.includes(date))return reply('实际签到日期只可选择今天或明天。');
    const studentIds=new Set(students.map(item=>item.id));
    if(body.studentIds.some(studentId=>!studentIds.has(studentId)))return reply('班级名单已变化，请重新选择班级。',409);
-   const records=(await rows(storage,'attendance')).filter(item=>item.classId===body.classId);
+   const records=await classRecords();
    const present=new Set(records.filter(item=>item.date===date).map(item=>item.studentId));
    if(body.studentIds.some(studentId=>present.has(studentId))){
     return reply('所选学员中有人当天已有签到，请去掉已签到学员，或请管理员更正原记录。',409);
    }
-   const sameDay=records.filter(record=>record.date===date);
-   const lesson=sameDay.length?Math.max(...sameDay.map(record=>record.lesson)):
-    records.reduce((max,record)=>Math.max(max,record.lesson),0)+1;
+   const lesson=classLesson(records,date);
    if(!integer(lesson,10000))return reply('课次已达到上限，请联系管理员。',409);
    for(const studentId of body.studentIds){
     const record={id:crypto.randomUUID(),date,studentId,classId:body.classId,lesson,teacher:account.name,

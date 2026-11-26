@@ -1,5 +1,5 @@
 import {lessonApi} from './lesson-api.mjs?v=1';
-import {lessonToday as today,parseStudentPaste,studentLabels,studentName} from './lesson-data.mjs?v=2';
+import {lessonToday as today,parseStudentPaste,studentLabels,studentName} from './lesson-data.mjs?v=3';
 
 const storageKey='qinglan-lesson-management-v1';
 const statuses=['出勤','补课','缺勤','请假'];
@@ -322,12 +322,12 @@ function createPanel(dialog,requireTeacher,getPassword){
   for(const [key,label,value] of [
    ['username','用户名（字母、数字、点、下划线或连字符）',account.username],
    ['name','教师姓名',account.name],
-   ['password',account.username?'新密码（至少 10 位）':'密码（至少 10 位）']
+   ['password',account.username?'新密码（留空则保留原密码）':'密码（至少 10 位）']
   ]){
    const wrapper=element('label',label);
    const field=element('input');
    field.name=key;
-   field.required=true;
+   field.required=key!=='password'||!account.username;
    field.value=value??'';
    field.maxLength=key==='username'?40:key==='name'?80:128;
    if(key==='username'){

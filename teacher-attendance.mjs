@@ -1,11 +1,12 @@
 import {lessonApi} from './lesson-api.mjs?v=1';
-import {lessonDate,lessonToday,studentLabels} from './lesson-data.mjs?v=2';
+import {attendanceDates,lessonDate,studentLabels} from './lesson-data.mjs?v=3';
 
 const $=id=>document.getElementById('teacher-attendance-'+id);
 const login=$('login');
 const form=$('form');
 const controls=form.elements;
 const roster=$('roster');
+const progress=$('progress');
 const status=$('status');
 const submit=$('save');
 const logout=$('logout');
@@ -57,7 +58,10 @@ login.addEventListener('submit',async event=>{
   $('name').textContent='当前教师：'+result.name;
   controls.classId.replaceChildren(new Option('请选择班级',''),
    ...result.classes.map(course=>new Option(course.code+' · '+course.name,course.id)));
-  for(const key of ['start','end','date'])controls[key].value=lessonToday();
+  const [today,tomorrow]=result.dates??attendanceDates();
+  controls.date.replaceChildren(new Option('今天 · '+today,today),new Option('明天 · '+tomorrow,tomorrow));
+  controls.start.value=today;
+  controls.end.value=today;
   login.reset();
   login.hidden=true;
   form.hidden=false;
@@ -73,8 +77,7 @@ async function loadRoster(){
  const request=++rosterRequest;
  const classId=controls.classId.value;
  const {start,end,date}=dates();
- controls.date.min=start;
- controls.date.max=end;
+ progress.hidden=true;
  roster.textContent='';
  submit.disabled=true;
  if(!classId){roster.textContent=controls.classId.options.length>1?'请选择班级。':'当前账号暂无授权班级，请联系管理员。';return;}
@@ -84,8 +87,13 @@ async function loadRoster(){
  }
  roster.textContent='正在读取班级名单…';
  try{
-  const {students}=await lessonApi('teacher-roster',{token,classId,date});
+  const {students,lesson,remaining}=await lessonApi('teacher-roster',{token,classId,date});
   if(request!==rosterRequest)return;
+  if(Number.isInteger(lesson)&&Number.isInteger(remaining)){
+   const day=date===controls.date.options[0].value?'今天':'明天';
+   progress.textContent=day+'是第 '+lesson+' 课时，本班级还剩 '+remaining+' 课时';
+   progress.hidden=false;
+  }
   if(!students.length){roster.textContent='该班级暂无学员，请联系管理员。';return;}
   const labels=studentLabels(students);
   roster.replaceChildren(...students.map((student,i)=>{
@@ -106,9 +114,10 @@ async function loadRoster(){
 for(const key of ['start','end','date','classId']){
  controls[key].addEventListener('change',()=>{
   if(key==='start'&&controls.start.value>controls.end.value)controls.end.value=controls.start.value;
-  if(key==='start'||key==='end'){
+  if(key==='date'){
    const {start,end,date}=dates();
-   if(date<start||date>end)controls.date.value=start<=end?start:'';
+   if(!start||date<start)controls.start.value=date;
+   if(!end||date>end)controls.end.value=date;
   }
   tell('');
   loadRoster();

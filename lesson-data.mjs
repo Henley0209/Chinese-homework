@@ -4,8 +4,14 @@ export function lessonDate(value){
  return Number.isFinite(+date)&&date.toISOString().slice(0,10)===value;
 }
 
-export function lessonToday(){
- return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Bangkok'}).format(new Date());
+export function lessonToday(now=new Date()){
+ return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Bangkok'}).format(now);
+}
+
+export function attendanceDates(now=new Date()){
+ const today=lessonToday(now);
+ const tomorrow=new Date(Date.parse(today)+86400000).toISOString().slice(0,10);
+ return [today,tomorrow];
 }
 
 function spreadsheetRows(text){

@@ -362,9 +362,15 @@ function createPanel(dialog,requireTeacher,getPassword){
   }
   const classes=element('fieldset');
   classes.className='lesson-checklist';
-  classes.append(element('legend','授权班级'));
+  const classActions=element('div');
+  classActions.className='lesson-toolbar lesson-roster-actions';
+  function selectClasses(checked){
+   for(const check of classes.querySelectorAll('input[name="classIds"]'))check.checked=checked;
+  }
+  classActions.append(button('全选',()=>selectClasses(true)),button('全取消',()=>selectClasses(false)));
+  classes.append(element('legend','授权班级'),classActions);
   const courseLabels=classLabels(data.classes);
- for(const [i,course] of data.classes.entries()){
+  for(const [i,course] of data.classes.entries()){
    const label=element('label');
    const check=element('input');
    check.type='checkbox';

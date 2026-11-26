@@ -2086,6 +2086,14 @@
       "changes": [
         "Require all teacher attendance fields and explicit duration"
       ]
+    },
+    {
+      "version": "V0260",
+      "updatedAt": "2026-11-26T16:53:05Z",
+      "commit": "60c8e36363df9e8b06b865fe9022bcbf3d974446",
+      "changes": [
+        "Add bulk selection for teacher class permissions"
+      ]
     }
   ]
 }

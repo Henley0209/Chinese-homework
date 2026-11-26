@@ -1,5 +1,5 @@
 import {lessonApi} from './lesson-api.mjs?v=1';
-import {lessonDate,lessonToday} from './lesson-data.mjs?v=1';
+import {lessonDate,lessonToday,studentLabels} from './lesson-data.mjs?v=2';
 
 const $=id=>document.getElementById('teacher-attendance-'+id);
 const login=$('login');
@@ -87,13 +87,14 @@ async function loadRoster(){
   const {students}=await lessonApi('teacher-roster',{token,classId,date});
   if(request!==rosterRequest)return;
   if(!students.length){roster.textContent='该班级暂无学员，请联系管理员。';return;}
-  roster.replaceChildren(...students.map(student=>{
+  const labels=studentLabels(students);
+  roster.replaceChildren(...students.map((student,i)=>{
    const label=document.createElement('label');
    const check=document.createElement('input');
    check.type='checkbox';
    check.value=student.id;
    check.disabled=Boolean(student.recorded);
-   label.append(check,document.createTextNode(student.code+' · '+student.name+(student.recorded?'（已有签到）':'')));
+   label.append(check,document.createTextNode(labels[i]+(student.recorded?'（已有签到）':'')));
    return label;
   }));
  }catch(error){

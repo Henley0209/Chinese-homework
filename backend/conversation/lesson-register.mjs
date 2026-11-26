@@ -41,7 +41,8 @@ async function rows(storage,group){
 
 async function snapshot(storage){
  const data=Object.fromEntries(await Promise.all(groups.map(async group=>[group,await rows(storage,group)])));
- for(const group of ['classes','students'])data[group].sort((a,b)=>a.code.localeCompare(b.code,'zh',{numeric:true}));
+ data.classes.sort((a,b)=>a.code.localeCompare(b.code,'zh',{numeric:true}));
+ data.students=data.students.map(studentRecord).sort(compareStudents);
  data.attendance.sort((a,b)=>b.date.localeCompare(a.date)||b.lesson-a.lesson);
  return {data,revision:await storage.get('revision')??0};
 }
@@ -51,18 +52,24 @@ function validRecord(group,item){
  if(group==='classes')return filled(item.code,120)&&filled(item.name,120)&&filled(item.teacher,120)&&
   lessonDate(item.start)&&lessonDate(item.end)&&item.start<=item.end&&integer(item.hours,10000)&&
   ['days','time','room'].every(key=>text(item[key],120))&&text(item.notes,1000);
- if(group==='students')return filled(item.code,120)&&filled(item.name,120)&&text(item.phone,120)&&
-  (item.classId===''||id(item.classId))&&lessonDate(item.enrolled);
+ if(group==='students')return text(item.name,120)&&text(item.phone,120)&&
+  (item.classId===''||id(item.classId))&&(item.enrolled===''||lessonDate(item.enrolled));
  return id(item.classId)&&id(item.studentId)&&lessonDate(item.date)&&integer(item.lesson,10000)&&
   ['出勤','补课','缺勤','请假'].includes(item.status)&&text(item.teacher,120)&&text(item.topic,120)&&text(item.content,1000);
 }
 
 const columns={
  classes:['id','code','name','teacher','days','time','start','end','hours','room','notes'],
- students:['id','code','name','phone','classId','enrolled'],
+ students:['id','name','phone','classId','enrolled'],
  attendance:['id','date','studentId','classId','lesson','teacher','topic','content','status']
 };
 const select=(item,keys)=>Object.fromEntries(keys.map(key=>[key,item[key]]));
+function studentRecord(item){
+ return {id:item?.id,name:item?.name??'',phone:item?.phone??'',classId:item?.classId??'',enrolled:item?.enrolled??''};
+}
+function compareStudents(a,b){
+ return (a.name??'').localeCompare(b.name??'','zh',{numeric:true})||a.id.localeCompare(b.id);
+}
 const attendanceKey=item=>[item.studentId,item.classId,item.date,item.lesson].join(':');
 
 function validData(data){
@@ -73,10 +80,13 @@ function validData(data){
   const keys=new Set();
   for(const item of data[group]){
    if(!validRecord(group,item))return false;
-   const key=group==='attendance'?attendanceKey(item):item.code.toLowerCase();
-   if(ids.has(item.id)||keys.has(key))return false;
+   if(ids.has(item.id))return false;
    ids.add(item.id);
-   keys.add(key);
+   if(group!=='students'){
+    const key=group==='attendance'?attendanceKey(item):item.code.toLowerCase();
+    if(keys.has(key))return false;
+    keys.add(key);
+   }
   }
  }
  return data.students.every(item=>!item.classId||courses.has(item.classId))&&
@@ -175,10 +185,11 @@ export class LessonRegister {
   return this.storage.transaction(async storage=>{
    const current=await snapshot(storage);
    if(current.revision!==body.revision)return reply('其他设备刚更新了数据，请刷新共享数据后重试。',409);
-   const changes=migration?groups.map(group=>{
+   const incoming=migration?groups.map(group=>{
     const ids=new Set(current.data[group].map(item=>item.id));
     return [group,body.data[group].filter(item=>!ids.has(item?.id))];
    }):[[body.group,body.records]];
+   const changes=incoming.map(([group,records])=>[group,group==='students'?records.map(studentRecord):records]);
    if(changes.every(([,records])=>!records.length))return Response.json({revision:current.revision});
    for(const [group,records] of changes){
     if(records.some(item=>!validRecord(group,item))||new Set(records.map(item=>item.id)).size!==records.length){
@@ -188,7 +199,7 @@ export class LessonRegister {
     for(const item of records)merged.set(item.id,item);
     current.data[group]=[...merged.values()];
    }
-   if(!validData(current.data))return reply('学员编号、班级编号或签到重复，或引用了无效班级或学员。');
+   if(!validData(current.data))return reply('记录、班级编号或签到重复，或引用了无效班级或学员。');
    for(const [group,records] of changes){
     for(const item of records)await storage.put(group+':'+item.id,select(item,columns[group]));
    }
@@ -210,12 +221,12 @@ export class LessonRegister {
    if(body.action==='teacher-classes')return Response.json({name:account.name,classes});
    if(!classes.some(course=>course.id===body.classId))return reply('该班级未授权给当前教师。',403);
    const students=(await rows(storage,'students')).filter(student=>student.classId===body.classId)
-    .sort((a,b)=>a.code.localeCompare(b.code,'zh',{numeric:true}));
+    .sort(compareStudents);
    if(body.action==='teacher-roster'){
     if(!lessonDate(body.date))return reply('签到日期无效。');
     const recorded=new Set((await rows(storage,'attendance'))
      .filter(item=>item.classId===body.classId&&item.date===body.date).map(item=>item.studentId));
-    return Response.json({students:students.map(item=>({...select(item,['id','code','name']),recorded:recorded.has(item.id)}))});
+    return Response.json({students:students.map(item=>({...select(item,['id','name']),recorded:recorded.has(item.id)}))});
    }
    if(body.action!=='teacher-submit')return reply('操作无效。',404);
    const {date,start,end,topic,content,submissionId}=body;

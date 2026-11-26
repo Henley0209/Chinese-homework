@@ -1,13 +1,13 @@
 import {lessonApi} from './lesson-api.mjs?v=1';
-import {lessonToday as today,parseStudentPaste} from './lesson-data.mjs?v=1';
+import {lessonToday as today,parseStudentPaste,studentLabels,studentName} from './lesson-data.mjs?v=2';
 
 const storageKey='qinglan-lesson-management-v1';
 const statuses=['出勤','补课','缺勤','请假'];
 const tabs={overview:'管理看板',students:'学员管理',classes:'班级课程',attendance:'上课签到',accounts:'授课教师'};
 const fields={
  students:[
-  ['code','学员编号'],['name','学生姓名'],['phone','联系电话','tel',false],
-  ['classId','所在班级','classes',false],['enrolled','报名日期','date']
+  ['name','学生姓名','text',false],['phone','联系电话','tel',false],
+  ['classId','所在班级','classes',false],['enrolled','报名日期','date',false]
  ],
  classes:[
   ['code','班级编号'],['name','班级名称'],['teacher','授课教师'],
@@ -245,9 +245,9 @@ function createPanel(dialog,requireTeacher,getPassword){
   const field=element('textarea');
   field.rows=8;
   field.required=true;
-  field.placeholder='学员编号\t姓名\t联系电话\t班级编号\t报名日期';
+  field.placeholder='姓名\t联系电话\t班级编号\t报名日期';
   label.append(field);
-  const note=element('p','支持带表头的 Excel 学员管理表。无表头时请按学员编号、姓名、联系电话、班级编号、报名日期顺序粘贴。班级可留空，报名日期留空时使用当天。');
+  const note=element('p','支持带表头的新旧 Excel 学员管理表。无表头时请按姓名、联系电话、班级编号或名称、报名日期的顺序粘贴。各项均可留空，空白行会跳过。');
   const preview=element('div');
   const actions=element('div');
   actions.className='lesson-toolbar';
@@ -275,8 +275,8 @@ function createPanel(dialog,requireTeacher,getPassword){
    try{
     entries=parseStudentPaste(field.value,data);
     preview.replaceChildren(element('p','待导入 '+entries.length+' 位学员'),
-     table('导入预览',['学员编号','姓名','联系电话','班级','报名日期'],entries.map(item=>[
-      item.code,item.name,item.phone,data.classes.find(course=>course.id===item.classId)?.name??'待分班',item.enrolled
+     table('导入预览',['姓名','联系电话','班级','报名日期'],entries.map(item=>[
+      studentName(item),item.phone,data.classes.find(course=>course.id===item.classId)?.name??'待分班',item.enrolled
      ]),''));
     confirm.hidden=false;
     message.textContent='';
@@ -388,7 +388,7 @@ function createPanel(dialog,requireTeacher,getPassword){
   }
   content.append(stats,element('h3','即将结课学员'),
    table('即将结课学员',['学生姓名','所在班级','剩余课时','预计结束日期'],
-    upcoming.sort((a,b)=>a.remaining-b.remaining).map(row=>[row.student.name,row.course.name,row.remaining,row.course.end]),
+    upcoming.sort((a,b)=>a.remaining-b.remaining).map(row=>[studentName(row.student),row.course.name,row.remaining,row.course.end]),
     '暂无剩余 1–3 课时的学员。'),
    element('p','共享库中的签到会自动计入课时。出勤、补课和缺勤各计 1 课时，请假只记录次数。'));
  }
@@ -407,15 +407,16 @@ function createPanel(dialog,requireTeacher,getPassword){
   let headers;
   let rows;
   if(view==='students'){
-   headers=['学员编号','学生姓名','联系电话','所在班级','报名日期','总课时','已上课时','缺勤课时','请假次数','已消耗课时','剩余课时','课程进度','预计结束日期','学习状态'];
+   headers=['学生姓名','联系电话','所在班级','报名日期','总课时','已上课时','缺勤课时','请假次数','已消耗课时','剩余课时','课程进度','预计结束日期','学习状态'];
    rows=studentProgress(data).map(row=>[
-    row.student.code,row.student.name,row.student.phone,row.course?.name,row.student.enrolled,
+    studentName(row.student),row.student.phone,row.course?.name,row.student.enrolled,
     row.total,row.attended,row.absent,row.leave,row.used,row.remaining,row.progress,row.course?.end,row.status,edit(row.student)
    ]);
   }else{
    headers=fields[view].map(([,label])=>label);
    rows=data[view].map(item=>[
-    ...fields[view].map(([key,,type])=>fields[type]?data[type].find(record=>record.id===item[key])?.name:item[key]),
+    ...fields[view].map(([key,,type])=>type==='students'?studentName(data.students.find(record=>record.id===item[key])):
+     type==='classes'?data.classes.find(record=>record.id===item[key])?.name:item[key]),
     edit(item)
    ]);
   }
@@ -449,7 +450,8 @@ function createPanel(dialog,requireTeacher,getPassword){
   for(const [key,label,type='text',required=true] of fields[view]){
    const group=element('label',label);
    const records=type==='students'?availableStudents:data[type];
-   const options=records?records.map(record=>[record.id,record.code+' · '+record.name]):
+   const names=type==='students'?studentLabels(availableStudents):null;
+   const options=records?records.map((record,i)=>[record.id,names?names[i]:record.code+' · '+record.name]):
     type==='status'?statuses.map(status=>[status,status]):null;
    const input=element(options?'select':type==='textarea'?'textarea':'input');
    if(options){
@@ -468,7 +470,7 @@ function createPanel(dialog,requireTeacher,getPassword){
    }
    input.required=required;
    input.name=key;
-   input.value=item[key]??(key==='date'||key==='enrolled'?today():'');
+   input.value=item[key]??(key==='date'?today():'');
    controls[key]=input;
    group.append(input);
    form.append(group);
@@ -502,8 +504,8 @@ function createPanel(dialog,requireTeacher,getPassword){
      entry[key]=type==='number'?Number(value):value;
     }
     if(item.id&&!records.some(record=>record.id===item.id))throw Error('这条记录已不存在，请重新打开列表。');
-    if(entry.code&&records.some(record=>record.id!==entry.id&&record.code.toLowerCase()===entry.code.toLowerCase())){
-     throw Error('此编号已存在，请使用其他编号。');
+    if(view==='classes'&&records.some(record=>record.id!==entry.id&&record.code.toLowerCase()===entry.code.toLowerCase())){
+     throw Error('此班级编号已存在，请使用其他编号。');
     }
     if(view==='classes'&&entry.end<entry.start)throw Error('预计结课日期须等于或晚于开课日期。');
     if(entry.classId&&!latest.classes.some(record=>record.id===entry.classId))throw Error('请选择有效班级。');

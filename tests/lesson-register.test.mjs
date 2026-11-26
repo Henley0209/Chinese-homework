@@ -14,13 +14,16 @@ const input='S01\t张同学\t0900123456\tC01\t中文一班\t2026/11/26\t0';
 test('Excel preview accepts the template header and preserves phone text',()=>{
  const data={students:[],classes:[course]};
  const [record]=parseStudentPaste('培训中心 · 学员管理\r\n\r\n'+headings+'\r\n'+input,data);
- assert.deepEqual({...record,id:undefined},{id:undefined,code:'S01',name:'张同学',phone:'0900123456',classId,enrolled:lessonDate});
- const [unassigned]=parseStudentPaste('S02\t王同学\t\t\t2026年11月26日',data);
+ assert.deepEqual({...record,id:undefined},{id:undefined,name:'张同学',phone:'0900123456',classId,enrolled:lessonDate});
+ const [unassigned]=parseStudentPaste('王同学\t\t\t2026年11月26日',data);
  assert.equal(unassigned.classId,'');
  assert.equal(unassigned.enrolled,lessonDate);
- assert.throws(()=>parseStudentPaste(headings+'\n'+input+'\n'+input,data),/已存在/);
- assert.throws(()=>parseStudentPaste(input.replace('C01','UNKNOWN'),data),/无法唯一匹配/);
- assert.throws(()=>parseStudentPaste(input.replace('2026/11/26','2026/02/30'),data),/报名日期无效/);
+ const [phoneOnly]=parseStudentPaste('联系电话\n0900765432',data);
+ assert.deepEqual({...phoneOnly,id:undefined},{id:undefined,name:'',phone:'0900765432',classId:'',enrolled:''});
+ const sameNames=parseStudentPaste('张同学\n张同学',data);
+ assert.notEqual(sameNames[0].id,sameNames[1].id);
+ assert.throws(()=>parseStudentPaste(headings+'\n'+input.replace('C01','UNKNOWN'),data),/无法唯一匹配/);
+ assert.throws(()=>parseStudentPaste(headings+'\n'+input.replace('2026/11/26','2026/02/30'),data),/报名日期无效/);
 });
 
 test('teachers can only read authorized rosters and save selected students once',async()=>{
@@ -50,7 +53,8 @@ test('teachers can only read authorized rosters and save selected students once'
  const digest=Buffer.from(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(admin))).toString('hex');
  values.set('session:'+digest,{user:'admin',expires:Date.now()+60000});
  const students=parseStudentPaste([headings,input,input.replace('S01','S02').replace('张同学','王同学')].join('\n'),{classes:[course],students:[]});
- const data={classes:[course,{...course,id:otherClass,code:'C02'}],students,attendance:[]};
+ const data={classes:[course,{...course,id:otherClass,code:'C02'}],
+  students:students.map((student,i)=>({...student,code:'old-'+i})),attendance:[]};
  await call('admin-migrate',{token:admin,revision:0,data});
  assert.deepEqual(await call('admin-migrate',{token:admin,revision:1,data}),{revision:1});
  await call('admin-account',{token:admin,username:'teacher01',name:'李老师',password:'example-pass-123',classIds:[classId]});
@@ -60,7 +64,8 @@ test('teachers can only read authorized rosters and save selected students once'
  assert.deepEqual((await call('teacher-classes',{token})).classes,[{id:classId,code:'C01',name:'中文一班'}]);
  await call('teacher-roster',{token,classId:otherClass,date:lessonDate},403);
  const roster=await call('teacher-roster',{token,classId,date:lessonDate});
- assert.deepEqual(roster.students,students.map(({id,code,name})=>({id,code,name,recorded:false})));
+ assert.deepEqual(new Map(roster.students.map(student=>[student.id,student])),
+  new Map(students.map(({id,name})=>[id,{id,name,recorded:false}])));
  const entry={token,classId,date:lessonDate,start:'2026-11-25',end:lessonDate,studentIds:[students[0].id],
   submissionId:crypto.randomUUID(),topic:'自我介绍',content:'姓名、国籍和问候语'};
  await call('teacher-submit',{...entry,date:'2026-11-27'},400);
@@ -73,8 +78,17 @@ test('teachers can only read authorized rosters and save selected students once'
   content:'姓名、国籍和问候语',status:'出勤'
  }]);
  const updated=await call('teacher-roster',{token,classId,date:lessonDate});
- assert.deepEqual(updated.students.map(s=>s.recorded),[true,false]);
+ assert.deepEqual(updated.students.filter(student=>student.recorded).map(student=>student.id),[students[0].id]);
+ assert.ok(state.data.students.every(student=>!('code' in student)));
  await call('admin-save',{token:admin,revision:1,group:'students',records:[students[0]]},409);
+ const blank={id:crypto.randomUUID()};
+ await call('admin-save',{token:admin,revision:state.revision,group:'students',
+  records:[blank,{id:students[0].id,classId}]});
+ const saved=await call('admin-read',{token:admin});
+ assert.deepEqual(saved.data.students.find(student=>student.id===blank.id),{...blank,name:'',phone:'',classId:'',enrolled:''});
+ assert.equal(saved.data.attendance[0].studentId,students[0].id);
+ const unnamed=await call('teacher-roster',{token,classId,date:lessonDate});
+ assert.deepEqual(unnamed.students.find(student=>student.id===students[0].id),{id:students[0].id,name:'',recorded:true});
  await call('admin-disable',{token:admin,username:'teacher01'});
  await call('teacher-classes',{token},401);
 });

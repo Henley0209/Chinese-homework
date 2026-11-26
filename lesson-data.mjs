@@ -30,7 +30,7 @@ function spreadsheetRows(text){
 }
 
 const headings={
- code:['学员编号','学生编号','编号'],name:['学员姓名','学生姓名','姓名'],
+ name:['学员姓名','学生姓名','姓名'],
  phone:['联系电话','手机号','电话'],classId:['班级编号','所在班级','班级名称','班级'],
  enrolled:['报名日期','入学日期']
 };
@@ -46,28 +46,45 @@ export function parseStudentPaste(value,data){
  const rows=spreadsheetRows(value.replace(/^\uFEFF/,''));
  if(!rows.length)throw Error('请先粘贴 Excel 学员行。');
  const headerIndex=rows.slice(0,5).findIndex(row=>
-  row.some(cell=>headings.code.includes(cell))&&row.some(cell=>headings.name.includes(cell)));
+  row.some(cell=>Object.values(headings).some(labels=>labels.includes(cell))));
  const header=headerIndex>=0;
  const headerRow=rows[headerIndex]??[];
  const columns=Object.fromEntries(Object.entries(headings).map(([key,labels])=>[key,headerRow.findIndex(cell=>labels.includes(cell))]));
  const classColumn=headerRow.indexOf('班级编号');
  if(classColumn>=0)columns.classId=classColumn;
- if(!header)Object.assign(columns,{code:0,name:1,phone:2,classId:3,enrolled:4});
- const entries=rows.slice(headerIndex+1);
+ if(!header)Object.assign(columns,{name:0,phone:1,classId:2,enrolled:3});
+ const entries=rows.slice(headerIndex+1).filter(row=>Object.values(columns).some(index=>row[index]));
  if(!entries.length||entries.length>500)throw Error('每次请粘贴 1–500 位学员。');
- const codes=new Set(data.students.map(item=>item.code.toLowerCase()));
  return entries.map((row,i)=>{
   const get=key=>row[columns[key]]??'';
-  const code=get('code'),name=get('name'),phone=get('phone'),className=get('classId');
-  const enrolled=get('enrolled')?pastedDate(get('enrolled')):lessonToday();
+  const name=get('name'),phone=get('phone'),className=get('classId');
+  const enrolled=pastedDate(get('enrolled'));
   const courses=data.classes.filter(item=>item.code.toLowerCase()===className.toLowerCase());
   const matches=courses.length?courses:data.classes.filter(item=>item.name===className);
   const fail=message=>{throw Error('第 '+(i+headerIndex+2)+' 行：'+message);};
-  if(!code||!name||[code,name,phone].some(cell=>cell.length>120))fail('学员编号和姓名必填，每项最多 120 字。');
-  if(codes.has(code.toLowerCase()))fail('学员编号「'+code+'」已存在。');
+  if([name,phone].some(cell=>cell.length>120))fail('姓名和联系电话每项最多 120 字。');
   if(className&&matches.length!==1)fail('班级「'+className+'」无法唯一匹配，请核对班级编号。');
-  if(!lessonDate(enrolled))fail('报名日期无效，请使用 YYYY-MM-DD。');
-  codes.add(code.toLowerCase());
-  return {id:crypto.randomUUID(),code,name,phone,classId:matches[0]?.id??'',enrolled};
+  if(enrolled&&!lessonDate(enrolled))fail('报名日期无效，请使用 YYYY-MM-DD。');
+  return {id:crypto.randomUUID(),name,phone,classId:matches[0]?.id??'',enrolled};
+ });
+}
+
+export function studentName(student){
+ return student?.name||'未填写姓名';
+}
+
+export function studentLabels(students){
+ const counts=new Map();
+ for(const student of students){
+  const label=studentName(student);
+  counts.set(label,(counts.get(label)??0)+1);
+ }
+ const positions=new Map();
+ return students.map(student=>{
+  const label=studentName(student);
+  if(counts.get(label)===1)return label;
+  const position=(positions.get(label)??0)+1;
+  positions.set(label,position);
+  return label+'（'+position+'）';
  });
 }

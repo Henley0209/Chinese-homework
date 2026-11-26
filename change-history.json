@@ -2030,6 +2030,14 @@
       "changes": [
         "Allow teacher attendance today or yesterday"
       ]
+    },
+    {
+      "version": "V0253",
+      "updatedAt": "2026-11-26T15:35:36Z",
+      "commit": "efd65703a1baf5853a2a941dbd6d31c5a1bdd9bb",
+      "changes": [
+        "Add live search to student and class tables"
+      ]
     }
   ]
 }

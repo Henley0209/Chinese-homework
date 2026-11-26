@@ -4,7 +4,7 @@ const tabs={overview:'管理看板',students:'学员管理',classes:'班级课�
 const fields={
  students:[
   ['code','学员编号'],['name','学生姓名'],['phone','联系电话','tel',false],
-  ['classId','所在班级','classes'],['enrolled','报名日期','date']
+  ['classId','所在班级','classes',false],['enrolled','报名日期','date']
  ],
  classes:[
   ['code','班级编号'],['name','班级名称'],['teacher','授课教师'],
@@ -168,7 +168,7 @@ function createPanel(dialog,requireTeacher){
   const stats=element('dl');
   stats.className='lesson-stats';
   for(const [label,count] of [
-   ['在读及结课学员',students.length],
+   ['学员总数',students.length],
    ['学习中',students.filter(row=>row.status==='学习中').length],
    ['即将结课（≤3课时）',upcoming.length],
    ['已结课',students.filter(row=>row.status==='已结课').length]
@@ -185,16 +185,12 @@ function createPanel(dialog,requireTeacher){
  }
 
  function renderRecords(data){
-  const prerequisites=view==='students'&&!data.classes.length?'请先在班级课程添加班级。':
-   view==='attendance'&&!data.students.length?'请先在学员管理添加学员。':'';
   const toolbar=element('div');
   toolbar.className='lesson-toolbar';
   const heading=element('h3',tabs[view]);
   const add=button('新增'+recordNames[view],()=>render({}),'primary');
-  add.disabled=Boolean(prerequisites);
   toolbar.append(heading,add);
   content.append(toolbar);
-  if(prerequisites)content.append(element('p',prerequisites));
   function edit(item){
    return button('编辑',()=>render(item));
   }
@@ -217,17 +213,37 @@ function createPanel(dialog,requireTeacher){
  }
 
  function renderForm(data,item){
+  const availableStudents=data.students.filter(student=>student.classId||student.id===item.studentId);
+  if(view==='attendance'&&!availableStudents.length){
+   const nextView=data.students.length&&!data.classes.length?'classes':'students';
+   const guide=nextView==='classes'?'请先创建班级，再在学员管理中为学员分班。':
+    data.students.length?'请先在学员管理中为学员分班。':'请先在学员管理中新增学员并分班。';
+   const heading=element('h3','新增签到');
+   heading.tabIndex=-1;
+   const actions=element('div');
+   actions.className='lesson-toolbar';
+   actions.append(button('前往'+tabs[nextView],()=>{
+    view=nextView;
+    render();
+    content.querySelector('h3').tabIndex=-1;
+    content.querySelector('h3').focus();
+   },'primary'),button('返回签到列表',()=>render()));
+   content.append(heading,element('p',guide),actions);
+   heading.focus();
+   return;
+  }
   const form=element('form');
   form.className='lesson-form';
   const heading=element('h3',(item.id?'编辑':'新增')+recordNames[view]);
   const controls={};
   for(const [key,label,type='text',required=true] of fields[view]){
    const group=element('label',label);
-   const options=fields[type]?data[type].map(record=>[record.id,record.code+' · '+record.name]):
+   const records=type==='students'?availableStudents:data[type];
+   const options=records?records.map(record=>[record.id,record.code+' · '+record.name]):
     type==='status'?statuses.map(status=>[status,status]):null;
    const input=element(options?'select':type==='textarea'?'textarea':'input');
    if(options){
-    input.append(new Option('请选择',''),...options.map(([id,name])=>new Option(name,id)));
+    input.append(new Option(view==='students'&&key==='classId'?'待分班':'请选择',''),...options.map(([id,name])=>new Option(name,id)));
    }else if(type==='textarea'){
     input.rows=3;
     input.maxLength=1000;

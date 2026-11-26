@@ -53,7 +53,7 @@ initChangeHistory({requireTeacher});
 $('#open-lesson-management').onclick=async()=>{
  try{
   requireTeacher();
-  const {openLessonManagement}=await import('./lesson-management.mjs?v=1');
+  const {openLessonManagement}=await import('./lesson-management.mjs?v=2');
   requireTeacher();
   if($('#tools').open)openLessonManagement($('#tools'),requireTeacher);
  }catch(error){$('#teacher-error').textContent=error.message;}

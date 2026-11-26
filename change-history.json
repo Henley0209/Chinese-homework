@@ -2006,6 +2006,14 @@
       "changes": [
         "Batch attendance from a class roster"
       ]
+    },
+    {
+      "version": "V0250",
+      "updatedAt": "2026-11-26T15:10:51Z",
+      "commit": "ff35507b95a9d8e302d6354c2a2fa417e1e2f763",
+      "changes": [
+        "Show class lesson progress and make password resets optional"
+      ]
     }
   ]
 }

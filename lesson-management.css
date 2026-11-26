@@ -217,3 +217,13 @@
 #lesson-management .lesson-record-search {
  width: min(14rem, 100%);
 }
+#lesson-management .lesson-attendance-details {
+ display: grid;
+ grid-template-columns: minmax(0, 1fr) minmax(0, .65fr) minmax(0, 1fr);
+ gap: 12px 18px;
+}
+@media (max-width: 600px) {
+ #lesson-management .lesson-attendance-details {
+  grid-template-columns: 1fr;
+ }
+}

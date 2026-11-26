@@ -8,6 +8,7 @@ const hash=async value=>hex(await crypto.subtle.digest('SHA-256',encoder.encode(
 const id=value=>typeof value==='string'&&/^[a-f0-9-]{36}$/.test(value);
 const text=(value,max)=>typeof value==='string'&&value.length<=max;
 const filled=(value,max)=>text(value,max)&&Boolean(value.trim());
+const lessonDuration=value=>value===60||value===90;
 const integer=(value,max)=>Number.isInteger(value)&&value>0&&value<=max;
 const reply=(error,status=400)=>Response.json({error},{status});
 const same=(a,b)=>a.length===b.length&&Array.from(a).reduce((diff,c,i)=>diff|(c.charCodeAt(0)^b.charCodeAt(i)),0)===0;
@@ -55,13 +56,13 @@ function validRecord(group,item){
  if(group==='students')return text(item.name,120)&&text(item.phone,120)&&
   (item.classId===''||id(item.classId))&&(item.enrolled===''||lessonDate(item.enrolled));
  return id(item.classId)&&id(item.studentId)&&lessonDate(item.date)&&integer(item.lesson,10000)&&
-  ['出勤','补课','缺勤','请假'].includes(item.status)&&text(item.teacher,120)&&text(item.topic,120)&&text(item.content,1000);
+  ['出勤','补课','缺勤','请假'].includes(item.status)&&text(item.teacher,120)&&text(item.topic,120)&&text(item.content,1000)&&(item.durationMinutes==null||lessonDuration(item.durationMinutes));
 }
 
 const columns={
  classes:['id','code','name','teacher','days','time','start','end','hours','room','notes'],
  students:['id','name','phone','classId','enrolled'],
- attendance:['id','date','studentId','classId','lesson','teacher','topic','content','status']
+ attendance:['id','date','studentId','classId','lesson','teacher','topic','content','status','durationMinutes']
 };
 const select=(item,keys)=>Object.fromEntries(keys.map(key=>[key,item[key]]));
 function courseRecord(item){
@@ -207,9 +208,13 @@ export class LessonRegister {
     const ids=new Set(current.data[group].map(item=>item.id));
     return [group,body.data[group].filter(item=>!ids.has(item?.id))];
    }):[[body.group,body.records]];
-   const changes=incoming.map(([group,records])=>[
-    group,group==='students'?records.map(studentRecord):group==='classes'?records.map(courseRecord):records
-   ]);
+   const changes=incoming.map(([group,records])=>{
+    if(group==='students')return [group,records.map(studentRecord)];
+    if(group==='classes')return [group,records.map(courseRecord)];
+    const durations=new Map(current.data.attendance.map(record=>[record.id,record.durationMinutes]));
+    return [group,records.map(item=>item&&!Object.hasOwn(item,'durationMinutes')?
+     {...item,durationMinutes:durations.get(item.id)??null}:item)];
+   });
    if(changes.every(([,records])=>!records.length))return Response.json({revision:current.revision});
    for(const [group,records] of changes){
     if(records.some(item=>!validRecord(group,item))||new Set(records.map(item=>item.id)).size!==records.length){
@@ -254,14 +259,14 @@ export class LessonRegister {
      students:students.map(item=>({...select(item,['id','name']),recorded:recorded.has(item.id)}))});
    }
    if(body.action!=='teacher-submit')return reply('操作无效。',404);
-   const {date,start,end,topic,content,submissionId}=body;
+   const {date,start,end,topic,content,submissionId,durationMinutes}=body;
    if(!lessonDate(date)||!lessonDate(start)||!lessonDate(end)||date<start||date>end||!id(submissionId)||
-    !filled(topic,120)||!filled(content,1000)||!Array.isArray(body.studentIds)||!body.studentIds.length||
+    (durationMinutes!==undefined&&!lessonDuration(durationMinutes))||!filled(topic,120)||!filled(content,1000)||!Array.isArray(body.studentIds)||!body.studentIds.length||
     body.studentIds.length>500||new Set(body.studentIds).size!==body.studentIds.length){
     return reply('请核对上课日期、点名名单、上课主题和学习内容。');
    }
    const submissionKey='submission:'+auth.user+':'+submissionId;
-   const signature=JSON.stringify([body.classId,date,start,end,topic,content,body.studentIds]);
+   const signature=JSON.stringify([body.classId,date,start,end,topic,content,body.studentIds,...(durationMinutes===undefined?[]:[durationMinutes])]);
    const previous=await storage.get(submissionKey);
    if(previous)return previous.signature===signature?Response.json({count:previous.count}):reply('提交内容已更改，请重新点名。',409);
    if(!dates.includes(date))return reply('实际签到日期只可选择今天或昨天。');
@@ -276,7 +281,7 @@ export class LessonRegister {
    if(!integer(lesson,10000))return reply('课次已达到上限，请联系管理员。',409);
    for(const studentId of body.studentIds){
     const record={id:crypto.randomUUID(),date,studentId,classId:body.classId,lesson,teacher:account.name,
-     topic:topic.trim(),content:content.trim(),status:'出勤'};
+     topic:topic.trim(),content:content.trim(),status:'出勤',...(durationMinutes===undefined?{}:{durationMinutes})};
     await storage.put('attendance:'+record.id,record);
    }
    await storage.put('revision',(await storage.get('revision')??0)+1);

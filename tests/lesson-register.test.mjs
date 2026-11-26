@@ -86,15 +86,17 @@ test('teachers can only read authorized rosters and save selected students once'
  assert.deepEqual(new Map(roster.students.map(student=>[student.id,student])),
   new Map(students.map(({id,name})=>[id,{id,name,recorded:false}])));
  const entry={token,classId,date:today,start:yesterday,end:today,studentIds:[students[0].id],
-  submissionId:crypto.randomUUID(),topic:'自我介绍',content:'姓名、国籍和问候语'};
+  submissionId:crypto.randomUUID(),durationMinutes:90,topic:'自我介绍',content:'姓名、国籍和问候语'};
  await call('teacher-submit',{...entry,date:future,end:future},400);
+ await call('teacher-submit',{...entry,durationMinutes:45},400);
  assert.deepEqual(await call('teacher-submit',entry),{count:1});
  assert.deepEqual(await call('teacher-submit',entry),{count:1});
  await call('teacher-submit',{...entry,submissionId:crypto.randomUUID()},409);
+ await call('teacher-submit',{...entry,durationMinutes:60},409);
  const state=await call('admin-read',{token:admin});
  assert.deepEqual(state.data.attendance.map(({id,...item})=>item),[{
   classId,date:today,studentId:students[0].id,lesson:1,teacher:'李老师',topic:'自我介绍',
-  content:'姓名、国籍和问候语',status:'出勤'
+  content:'姓名、国籍和问候语',status:'出勤',durationMinutes:90
  }]);
  const updated=await call('teacher-roster',{token,classId,date:today});
  assert.deepEqual([updated.lesson,updated.remaining],[1,3]);
@@ -111,6 +113,9 @@ test('teachers can only read authorized rosters and save selected students once'
  assert.equal(saved.data.attendance[0].studentId,students[0].id);
  const unnamed=await call('teacher-roster',{token,classId,date:today});
  assert.deepEqual(unnamed.students.find(student=>student.id===students[0].id),{id:students[0].id,name:'',recorded:true});
+ const {durationMinutes,...oldEdit}=saved.data.attendance[0];
+ await call('admin-save',{token:admin,revision:saved.revision,group:'attendance',records:[{...oldEdit,topic:'更新主题'}]});
+ assert.equal((await call('admin-read',{token:admin})).data.attendance[0].durationMinutes,90);
  await call('admin-account',{...teacher,token:admin,replace:true,password:'replacement-example'});
  await call('teacher-classes',{token},401);
  await call('teacher-login',{username:'teacher01',password:'example-pass-123'},401);

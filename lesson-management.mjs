@@ -2,6 +2,7 @@ import {lessonApi} from './lesson-api.mjs?v=1';
 import {lessonToday as today,parseStudentPaste,studentLabels,studentName,classLabel,classLabels} from './lesson-data.mjs?v=4';
 
 const storageKey='qinglan-lesson-management-v1';
+const durationOptions=[[60,'1 小时'],[90,'1.5 小时']];
 const statuses=['出勤','补课','缺勤','请假'];
 const tabs={overview:'管理看板',students:'学员管理',classes:'班级课程',attendance:'上课签到',accounts:'授课教师'};
 const fields={
@@ -19,7 +20,7 @@ const fields={
   ['date','上课日期','date'],['classId','班级','classes'],['studentId','学员','students'],
   ['lesson','课次','number'],['teacher','授课教师','text',false],
   ['topic','上课主题','text',false],['content','本节课学习内容','textarea',false],
-  ['status','出勤状态','status']
+  ['status','出勤状态','status'],['durationMinutes','上课时长','duration',false]
  ]
 };
 const recordNames={students:'学员',classes:'班级',attendance:'签到'};
@@ -424,7 +425,8 @@ function createPanel(dialog,requireTeacher,getPassword){
    headers=fields[view].map(([,label])=>label);
    rows=data[view].map(item=>[
     ...fields[view].map(([key,,type])=>type==='students'?studentName(data.students.find(record=>record.id===item[key])):
-     type==='classes'?classLabel(data.classes.find(record=>record.id===item[key])):item[key]),
+     type==='classes'?classLabel(data.classes.find(record=>record.id===item[key])):
+     type==='duration'?durationOptions.find(([minutes])=>minutes===item[key])?.[1]:item[key]),
     edit(item)
    ]);
   }
@@ -490,7 +492,7 @@ function createPanel(dialog,requireTeacher,getPassword){
    const records=type==='students'?[]:data[type];
    const courseLabels=type==='classes'?classLabels(records):[];
    const options=records?records.map((record,i)=>[record.id,courseLabels[i]]):
-    type==='status'?statuses.map(status=>[status,status]):null;
+    type==='status'?statuses.map(status=>[status,status]):type==='duration'?durationOptions:null;
    const input=element(options?'select':type==='textarea'?'textarea':'input');
    if(options){
     input.append(new Option(view==='students'&&key==='classId'?'待分班':'请选择',''),...options.map(([id,name])=>new Option(name,id)));
@@ -584,7 +586,7 @@ function createPanel(dialog,requireTeacher,getPassword){
      if(batch&&key==='studentId')continue;
      const value=controls[key].value.trim();
      if(required&&!value)throw Error('请填写所有必填字段。');
-     entry[key]=type==='number'?(value?Number(value):null):value;
+     entry[key]=type==='number'||type==='duration'?(value?Number(value):null):value;
     }
     if(item.id&&!records.some(record=>record.id===item.id))throw Error('这条记录已不存在，请重新打开列表。');
     if(view==='classes'&&entry.code&&records.some(record=>record.id!==entry.id&&record.code?.toLowerCase()===entry.code.toLowerCase())){

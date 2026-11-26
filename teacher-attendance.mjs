@@ -169,7 +169,7 @@ form.addEventListener('submit',async event=>{
  event.preventDefault();
  const studentIds=selected();
  if(submitting||!studentIds.length)return;
- const values={...dates(),classId:controls.classId.value,studentIds,
+ const values={...dates(),classId:controls.classId.value,studentIds,durationMinutes:Number(controls.durationMinutes.value),
   topic:controls.topic.value.trim(),content:controls.content.value.trim()};
  if(!values.topic||!values.content){tell('请填写上课主题和学习内容。');return;}
  const signature=JSON.stringify(values);

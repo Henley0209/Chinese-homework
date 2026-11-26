@@ -5,8 +5,8 @@
  <meta name="viewport" content="width=device-width,initial-scale=1">
  <title>授课教师点名 · Tiếng Trung Cô Nga</title>
  <link rel="stylesheet" href="style-classroom-v4.css">
- <link rel="stylesheet" href="lesson-management.css?v=5">
- <script type="module" src="teacher-attendance.mjs?v=6"></script>
+ <link rel="stylesheet" href="lesson-management.css?v=7">
+ <script type="module" src="teacher-attendance.mjs?v=7"></script>
 </head>
 <body class="lesson-attendance-page">
  <main id="lesson-management" class="teacher-attendance-card">
@@ -23,10 +23,18 @@
    <p id="teacher-attendance-name" class="lesson-wide"></p>
    <label>上课开始日期<input name="start" type="date" required></label>
    <label>上课结束日期<input name="end" type="date" required></label>
-   <label>实际签到日期<select name="date" required aria-describedby="teacher-attendance-date-hint"></select></label>
-   <div>
-    <label>班级<select name="classId" required></select></label>
-    <p id="teacher-attendance-progress" class="lesson-class-progress" role="status" hidden></p>
+   <div class="lesson-attendance-details lesson-wide">
+    <label>实际签到日期<select name="date" required aria-describedby="teacher-attendance-date-hint"></select></label>
+    <label>上课时长
+     <select name="durationMinutes" required>
+      <option value="60">1 小时</option>
+      <option value="90">1.5 小时</option>
+     </select>
+    </label>
+    <div>
+     <label>班级<select name="classId" required></select></label>
+     <p id="teacher-attendance-progress" class="lesson-class-progress" role="status" hidden></p>
+    </div>
    </div>
    <p id="teacher-attendance-date-hint" class="lesson-wide">实际签到日期只可选择今天或昨天，按泰国／越南时间计算。本次提交只记录所选日期。</p>
    <fieldset class="lesson-checklist lesson-wide">

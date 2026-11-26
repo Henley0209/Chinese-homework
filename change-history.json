@@ -2038,6 +2038,14 @@
       "changes": [
         "Add live search to student and class tables"
       ]
+    },
+    {
+      "version": "V0254",
+      "updatedAt": "2026-11-26T15:39:04Z",
+      "commit": "84c8d5a1bbb9af407a2411b3dcadc312344b9624",
+      "changes": [
+        "Remember teacher attendance sessions in the browser"
+      ]
     }
   ]
 }

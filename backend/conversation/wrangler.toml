@@ -26,3 +26,11 @@ class_name = "PublishedHomework"
 [[migrations]]
 tag = "v2"
 new_sqlite_classes = ["PublishedHomework"]
+
+[[durable_objects.bindings]]
+name = "LESSON_REGISTER"
+class_name = "LessonRegister"
+
+[[migrations]]
+tag = "v3"
+new_sqlite_classes = ["LessonRegister"]

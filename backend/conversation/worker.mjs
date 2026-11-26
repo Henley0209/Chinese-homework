@@ -1,3 +1,5 @@
+import {handleLessonRegister} from './lesson-register.mjs';
+export {LessonRegister} from './lesson-register.mjs';
 import {handlePublishedHomework} from './homework-publishing.mjs';
 export {PublishedHomework} from './homework-publishing.mjs';
 import {generateCourseware} from './courseware.mjs';
@@ -58,6 +60,7 @@ export default {
   if(!allowed||origin!==allowed)return json({error:'来源不允许'},403);
   if(request.method==='OPTIONS')return new Response(null,{status:204,headers});
   const path=new URL(request.url).pathname,speech=path==='/speech',transcribe=path==='/transcribe';
+  if(path==='/lesson-register'){if(request.method!=='POST')return json({error:'仅支持POST'},405);return handleLessonRegister(request,env,json,readBytes);}
   if(path==='/courseware'){if(request.method!=='POST')return json({error:'仅支持POST'},405);return generateCourseware(request,env,json);}
   if(['/homework-publish','/homework-open','/homework-submit'].includes(path)){
    if(request.method!=='POST')return json({error:'仅支持POST'},405);

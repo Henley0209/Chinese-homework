@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>授课教师点名 · Tiếng Trung Cô Nga</title>
+ <link rel="stylesheet" href="style-classroom-v4.css">
+ <link rel="stylesheet" href="lesson-management.css?v=3">
+ <script type="module" src="teacher-attendance.mjs?v=1"></script>
+</head>
+<body class="lesson-attendance-page">
+ <main id="lesson-management" class="teacher-attendance-card">
+  <div class="lesson-toolbar">
+   <h1>授课教师点名</h1>
+   <button id="teacher-attendance-logout" type="button" class="quiet" hidden>退出登录</button>
+  </div>
+  <form id="teacher-attendance-login" class="lesson-form">
+   <label>用户名<input name="username" autocomplete="username" required maxlength="40"></label>
+   <label>密码<input name="password" type="password" autocomplete="current-password" required maxlength="128"></label>
+   <div class="lesson-toolbar"><button class="primary" type="submit">登录</button></div>
+  </form>
+  <form id="teacher-attendance-form" class="lesson-form" hidden>
+   <p id="teacher-attendance-name" class="lesson-wide"></p>
+   <label>上课开始日期<input name="start" type="date" required></label>
+   <label>上课结束日期<input name="end" type="date" required></label>
+   <label>实际签到日期<input name="date" type="date" required aria-describedby="teacher-attendance-date-hint"></label>
+   <label>班级<select name="classId" required></select></label>
+   <p id="teacher-attendance-date-hint" class="lesson-wide">实际签到日期须在所选日期范围内。本次提交只记录这一天。</p>
+   <fieldset class="lesson-checklist lesson-wide">
+    <legend>当天上课的学员</legend>
+    <div id="teacher-attendance-roster" aria-live="polite"></div>
+   </fieldset>
+   <label class="lesson-wide">上课主题<input name="topic" required maxlength="120"></label>
+   <label class="lesson-wide">本节课学习内容<textarea name="content" required maxlength="1000" rows="5"></textarea></label>
+   <div class="lesson-toolbar"><button id="teacher-attendance-save" class="primary" type="submit" disabled>提交签到</button></div>
+  </form>
+  <p id="teacher-attendance-status" class="lesson-message" role="status"></p>
+ </main>
+</body>
+</html>

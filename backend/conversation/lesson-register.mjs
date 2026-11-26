@@ -1,0 +1,252 @@
+import {isTeacherPassword} from '../../teacher-auth.mjs';
+import {lessonDate} from '../../lesson-data.mjs';
+
+const groups=['classes','students','attendance'];
+const encoder=new TextEncoder();
+const hex=bytes=>Array.from(new Uint8Array(bytes),byte=>byte.toString(16).padStart(2,'0')).join('');
+const hash=async value=>hex(await crypto.subtle.digest('SHA-256',encoder.encode(value)));
+const id=value=>typeof value==='string'&&/^[a-f0-9-]{36}$/.test(value);
+const text=(value,max)=>typeof value==='string'&&value.length<=max;
+const filled=(value,max)=>text(value,max)&&Boolean(value.trim());
+const integer=(value,max)=>Number.isInteger(value)&&value>0&&value<=max;
+const reply=(error,status=400)=>Response.json({error},{status});
+const same=(a,b)=>a.length===b.length&&Array.from(a).reduce((diff,c,i)=>diff|(c.charCodeAt(0)^b.charCodeAt(i)),0)===0;
+
+async function passwordHash(password,salt){
+ const key=await crypto.subtle.importKey('raw',encoder.encode(password),'PBKDF2',false,['deriveBits']);
+ return hex(await crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:encoder.encode(salt),iterations:100000},key,256));
+}
+
+export async function handleLessonRegister(request,env,json,readBytes){
+ if(!env.LESSON_REGISTER)return json({error:'课时共享服务尚未启用。'},503);
+ if(!request.headers.get('Content-Type')?.startsWith('application/json'))return json({error:'需要 JSON 请求。'},415);
+ let body;
+ try{body=JSON.parse(new TextDecoder().decode(await readBytes(request,1500000)));}
+ catch{return json({error:'请求格式无效或内容过大。'},400);}
+ if(!body||typeof body!=='object'||Array.isArray(body))return json({error:'请求格式无效。'},400);
+ try{
+  const store=env.LESSON_REGISTER.get(env.LESSON_REGISTER.idFromName('training-center'));
+  const ip=request.headers.get('CF-Connecting-IP');
+  if(!ip)return json({error:'无法确认登录来源。'},403);
+  const response=await store.fetch('https://lesson-register/api',{
+   method:'POST',body:JSON.stringify({body,client:await hash(ip)})
+  });
+  return json(await response.json(),response.status);
+ }catch{return json({error:'课时共享服务暂时不可用，请稍后重试。'},503);}
+}
+
+async function rows(storage,group){
+ return [...(await storage.list({prefix:group+':'})).values()];
+}
+
+async function snapshot(storage){
+ const data=Object.fromEntries(await Promise.all(groups.map(async group=>[group,await rows(storage,group)])));
+ for(const group of ['classes','students'])data[group].sort((a,b)=>a.code.localeCompare(b.code,'zh',{numeric:true}));
+ data.attendance.sort((a,b)=>b.date.localeCompare(a.date)||b.lesson-a.lesson);
+ return {data,revision:await storage.get('revision')??0};
+}
+
+function validRecord(group,item){
+ if(!id(item?.id))return false;
+ if(group==='classes')return filled(item.code,120)&&filled(item.name,120)&&filled(item.teacher,120)&&
+  lessonDate(item.start)&&lessonDate(item.end)&&item.start<=item.end&&integer(item.hours,10000)&&
+  ['days','time','room'].every(key=>text(item[key],120))&&text(item.notes,1000);
+ if(group==='students')return filled(item.code,120)&&filled(item.name,120)&&text(item.phone,120)&&
+  (item.classId===''||id(item.classId))&&lessonDate(item.enrolled);
+ return id(item.classId)&&id(item.studentId)&&lessonDate(item.date)&&integer(item.lesson,10000)&&
+  ['出勤','补课','缺勤','请假'].includes(item.status)&&text(item.teacher,120)&&text(item.topic,120)&&text(item.content,1000);
+}
+
+const columns={
+ classes:['id','code','name','teacher','days','time','start','end','hours','room','notes'],
+ students:['id','code','name','phone','classId','enrolled'],
+ attendance:['id','date','studentId','classId','lesson','teacher','topic','content','status']
+};
+const select=(item,keys)=>Object.fromEntries(keys.map(key=>[key,item[key]]));
+const attendanceKey=item=>[item.studentId,item.classId,item.date,item.lesson].join(':');
+
+function validData(data){
+ const courses=new Set(data.classes.map(item=>item.id));
+ const students=new Set(data.students.map(item=>item.id));
+ for(const group of groups){
+  const ids=new Set();
+  const keys=new Set();
+  for(const item of data[group]){
+   if(!validRecord(group,item))return false;
+   const key=group==='attendance'?attendanceKey(item):item.code.toLowerCase();
+   if(ids.has(item.id)||keys.has(key))return false;
+   ids.add(item.id);
+   keys.add(key);
+  }
+ }
+ return data.students.every(item=>!item.classId||courses.has(item.classId))&&
+  data.attendance.every(item=>courses.has(item.classId)&&students.has(item.studentId));
+}
+
+export class LessonRegister {
+ constructor(state){this.storage=state.storage;}
+
+ async rateLimit(client){
+  // A rolling window per IP covers both teacher and administrator login attempts.
+  return this.storage.transaction(async storage=>{
+   const key='attempt:'+client;
+   const now=Date.now();
+   const old=await storage.get(key);
+   const attempt=old?.until>now?old:{count:0,until:now+300000};
+   if(attempt.count>=12)return false;
+   await storage.put(key,{...attempt,count:attempt.count+1});
+   return true;
+  });
+ }
+
+ async fetch(request){
+  const {body,client}=await request.json();
+  const {action}=body;
+  if(action==='admin-login'||action==='teacher-login'){
+   if(!await this.rateLimit(client))return reply('尝试次数过多，请五分钟后重试。',429);
+   if(!filled(body.password,128))return reply('用户名或密码不正确。',401);
+   if(action==='admin-login'){
+    if(!await isTeacherPassword(body.password))return reply('教师工具密码不正确。',401);
+    return this.session('admin');
+   }
+   const username=String(body.username??'').trim().toLowerCase();
+   const account=/^[a-z0-9._-]{3,40}$/.test(username)?await this.storage.get('account:'+username):null;
+   const digest=await passwordHash(body.password,account?.salt??'unregistered-account');
+   if(!account||!same(digest,account.digest))return reply('用户名或密码不正确。',401);
+   return this.session(username,account.salt);
+  }
+  if(typeof body.token!=='string'||!/^[a-f0-9]{64}$/.test(body.token))return reply('请先登录。',401);
+  const sessionKey='session:'+await hash(body.token);
+  const auth=await this.storage.get(sessionKey);
+  if(!auth||auth.expires<=Date.now()){
+   if(auth)await this.storage.delete(sessionKey);
+   return reply('登录已过期，请重新登录。',401);
+  }
+  if(action==='logout'){
+   await this.storage.delete(sessionKey);
+   return Response.json({});
+  }
+  if(auth.user==='admin')return this.admin(body);
+  return this.teacher(body,auth);
+ }
+
+ async session(user,salt){
+  const token=hex(crypto.getRandomValues(new Uint8Array(32)));
+  await this.storage.put('session:'+await hash(token),{user,salt:salt??null,expires:Date.now()+8*3600000});
+  return Response.json({token});
+ }
+
+ async admin(body){
+  if(body.action==='admin-read'){
+   const state=await this.storage.transaction(snapshot);
+   const accounts=[...(await this.storage.list({prefix:'account:'})).values()].map(item=>select(item,['username','name','classIds']));
+   return Response.json({...state,accounts});
+  }
+  if(body.action==='admin-account'){
+   const username=String(body.username??'').trim().toLowerCase();
+   if(!/^[a-z0-9._-]{3,40}$/.test(username)||username==='admin'||!filled(body.name,80)||
+    !filled(body.password,128)||body.password.length<10||!Array.isArray(body.classIds)||
+    body.classIds.length>100||!body.classIds.length||!body.classIds.every(id)){
+    return reply('请填写有效用户名、姓名、至少 10 位密码并选择班级。');
+   }
+   const salt=crypto.randomUUID();
+   const digest=await passwordHash(body.password,salt);
+   return this.storage.transaction(async storage=>{
+    for(const classId of body.classIds){
+     if(!await storage.get('classes:'+classId))return reply('所选班级已不存在。');
+    }
+    const exists=Boolean(await storage.get('account:'+username));
+    if(exists!==Boolean(body.replace))return reply(exists?'该用户名已存在，请编辑原账号。':'账号已不存在，请刷新后重试。',409);
+    await storage.put('account:'+username,{username,name:body.name.trim(),classIds:[...new Set(body.classIds)],salt,digest});
+    return Response.json({});
+   });
+  }
+  if(body.action==='admin-disable'){
+   if(!/^[a-z0-9._-]{3,40}$/.test(body.username??''))return reply('用户名无效。');
+   await this.storage.delete('account:'+body.username);
+   return Response.json({});
+  }
+  if(!['admin-save','admin-migrate'].includes(body.action))return reply('操作无效。',404);
+  const migration=body.action==='admin-migrate';
+  if(migration?!groups.every(group=>Array.isArray(body.data?.[group])):
+   !groups.includes(body.group)||!Array.isArray(body.records)||!body.records.length||body.records.length>500){
+   return reply('记录格式无效。');
+  }
+  return this.storage.transaction(async storage=>{
+   const current=await snapshot(storage);
+   if(current.revision!==body.revision)return reply('其他设备刚更新了数据，请刷新共享数据后重试。',409);
+   const changes=migration?groups.map(group=>{
+    const ids=new Set(current.data[group].map(item=>item.id));
+    return [group,body.data[group].filter(item=>!ids.has(item?.id))];
+   }):[[body.group,body.records]];
+   if(changes.every(([,records])=>!records.length))return Response.json({revision:current.revision});
+   for(const [group,records] of changes){
+    if(records.some(item=>!validRecord(group,item))||new Set(records.map(item=>item.id)).size!==records.length){
+     return reply('记录格式无效。');
+    }
+    const merged=new Map(current.data[group].map(item=>[item.id,item]));
+    for(const item of records)merged.set(item.id,item);
+    current.data[group]=[...merged.values()];
+   }
+   if(!validData(current.data))return reply('学员编号、班级编号或签到重复，或引用了无效班级或学员。');
+   for(const [group,records] of changes){
+    for(const item of records)await storage.put(group+':'+item.id,select(item,columns[group]));
+   }
+   const revision=current.revision+1;
+   await storage.put('revision',revision);
+   return Response.json({revision});
+  });
+ }
+
+ async teacher(body,auth){
+  return this.storage.transaction(async storage=>{
+   const account=await storage.get('account:'+auth.user);
+   if(!account||auth.salt!==account.salt)return reply('账号已停用或更新，请重新登录。',401);
+   const classes=[];
+   for(const classId of account.classIds){
+    const course=await storage.get('classes:'+classId);
+    if(course)classes.push(select(course,['id','code','name']));
+   }
+   if(body.action==='teacher-classes')return Response.json({name:account.name,classes});
+   if(!classes.some(course=>course.id===body.classId))return reply('该班级未授权给当前教师。',403);
+   const students=(await rows(storage,'students')).filter(student=>student.classId===body.classId)
+    .sort((a,b)=>a.code.localeCompare(b.code,'zh',{numeric:true}));
+   if(body.action==='teacher-roster'){
+    if(!lessonDate(body.date))return reply('签到日期无效。');
+    const recorded=new Set((await rows(storage,'attendance'))
+     .filter(item=>item.classId===body.classId&&item.date===body.date).map(item=>item.studentId));
+    return Response.json({students:students.map(item=>({...select(item,['id','code','name']),recorded:recorded.has(item.id)}))});
+   }
+   if(body.action!=='teacher-submit')return reply('操作无效。',404);
+   const {date,start,end,topic,content,submissionId}=body;
+   if(!lessonDate(date)||!lessonDate(start)||!lessonDate(end)||date<start||date>end||!id(submissionId)||
+    !filled(topic,120)||!filled(content,1000)||!Array.isArray(body.studentIds)||!body.studentIds.length||
+    body.studentIds.length>500||new Set(body.studentIds).size!==body.studentIds.length){
+    return reply('请核对上课日期、点名名单、上课主题和学习内容。');
+   }
+   const submissionKey='submission:'+auth.user+':'+submissionId;
+   const signature=JSON.stringify([body.classId,date,start,end,topic,content,body.studentIds]);
+   const previous=await storage.get(submissionKey);
+   if(previous)return previous.signature===signature?Response.json({count:previous.count}):reply('提交内容已更改，请重新点名。',409);
+   const studentIds=new Set(students.map(item=>item.id));
+   if(body.studentIds.some(studentId=>!studentIds.has(studentId)))return reply('班级名单已变化，请重新选择班级。',409);
+   const records=(await rows(storage,'attendance')).filter(item=>item.classId===body.classId);
+   const present=new Set(records.filter(item=>item.date===date).map(item=>item.studentId));
+   if(body.studentIds.some(studentId=>present.has(studentId))){
+    return reply('所选学员中有人当天已有签到，请去掉已签到学员，或请管理员更正原记录。',409);
+   }
+   const sameDay=records.filter(record=>record.date===date);
+   const lesson=sameDay.length?Math.max(...sameDay.map(record=>record.lesson)):
+    records.reduce((max,record)=>Math.max(max,record.lesson),0)+1;
+   if(!integer(lesson,10000))return reply('课次已达到上限，请联系管理员。',409);
+   for(const studentId of body.studentIds){
+    const record={id:crypto.randomUUID(),date,studentId,classId:body.classId,lesson,teacher:account.name,
+     topic:topic.trim(),content:content.trim(),status:'出勤'};
+    await storage.put('attendance:'+record.id,record);
+   }
+   await storage.put('revision',(await storage.get('revision')??0)+1);
+   await storage.put(submissionKey,{signature,count:body.studentIds.length});
+   return Response.json({count:body.studentIds.length});
+  });
+ }
+}

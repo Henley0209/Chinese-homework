@@ -1,6 +1,9 @@
+import {lessonApi} from './lesson-api.mjs?v=1';
+import {lessonToday as today,parseStudentPaste} from './lesson-data.mjs?v=1';
+
 const storageKey='qinglan-lesson-management-v1';
 const statuses=['出勤','补课','缺勤','请假'];
-const tabs={overview:'管理看板',students:'学员管理',classes:'班级课程',attendance:'上课签到'};
+const tabs={overview:'管理看板',students:'学员管理',classes:'班级课程',attendance:'上课签到',accounts:'授课教师'};
 const fields={
  students:[
   ['code','学员编号'],['name','学生姓名'],['phone','联系电话','tel',false],
@@ -34,11 +37,6 @@ function button(label,action,className='quiet'){
  node.className=className;
  node.addEventListener('click',action);
  return node;
-}
-
-function today(){
- const now=new Date();
- return [now.getFullYear(),String(now.getMonth()+1).padStart(2,'0'),String(now.getDate()).padStart(2,'0')].join('-');
 }
 
 function readData(){
@@ -100,13 +98,13 @@ function table(title,headers,rows,emptyText){
  return wrap;
 }
 
-export function openLessonManagement(dialog,requireTeacher){
- if(!panels.has(dialog))panels.set(dialog,createPanel(dialog,requireTeacher));
+export function openLessonManagement(dialog,requireTeacher,getPassword){
+ if(!panels.has(dialog))panels.set(dialog,createPanel(dialog,requireTeacher,getPassword));
  panels.get(dialog).open();
 }
 
-function createPanel(dialog,requireTeacher){
- let view='overview';
+function createPanel(dialog,requireTeacher,getPassword){
+ let view='overview',token='',shared=null,loading=false,busy=false,opening=0;
  const panel=element('section');
  panel.id='lesson-management';
  panel.setAttribute('aria-labelledby','lesson-management-title');
@@ -115,6 +113,7 @@ function createPanel(dialog,requireTeacher){
  title.id='lesson-management-title';
  title.tabIndex=-1;
  const close=button('返回教师工具',()=>{
+  reset();
   dialog.classList.remove('lesson-management-open');
   panel.hidden=true;
   content.replaceChildren();
@@ -133,11 +132,14 @@ function createPanel(dialog,requireTeacher){
  const message=element('p');
  message.className='lesson-message';
  message.setAttribute('role','status');
- panel.append(header,nav,content,message);
+ const sync=element('div');
+ sync.className='lesson-toolbar lesson-sync';
+ panel.append(header,nav,sync,content,message);
  panel.hidden=true;
  dialog.append(panel);
  dialog.addEventListener('close',()=>{
   if(dialog.open)return;
+  reset();
   dialog.classList.remove('lesson-management-open');
   panel.hidden=true;
   content.replaceChildren();
@@ -153,13 +155,220 @@ function createPanel(dialog,requireTeacher){
   }
   try{
    requireTeacher();
-   const data=readData();
+   const local=readData();
+   const hasLocal=Object.values(local).some(records=>records.length);
+   const hasShared=shared&&Object.values(shared.data).some(records=>records.length);
+   const controls=[element('span',loading?'正在读取共享数据…':shared?'已连接共享课时库':'共享课时库未连接')];
+   if(!loading)controls.push(button('刷新共享数据',()=>refresh()));
+   if(shared&&hasLocal&&!localRecordsTransferred(local,shared.data)){
+    controls.push(button('迁移本机记录到共享库',()=>mutate('admin-migrate',
+     {revision:shared.revision,data:local},'已迁移本机记录。'),'primary'));
+    if(hasShared)controls.push(element('span','此浏览器还有旧记录可迁移。'));
+   }
+   if(hasLocal&&!hasShared)controls.push(element('span','当前显示本机旧记录。迁移后授课教师可读取名单。'));
+   sync.replaceChildren(...controls);
+   const data=hasShared?shared.data:hasLocal?local:shared?.data??local;
    if(view==='overview')renderOverview(data);
+   else if(view==='accounts')renderAccounts(data,editor);
+   else if(editor==='paste')renderPaste(data);
    else if(editor)renderForm(data,editor);
    else renderRecords(data);
   }catch(error){
    message.textContent=error.message;
   }
+ }
+
+ function localRecordsTransferred(local,data){
+  return Object.keys(local).every(group=>{
+   const ids=new Set(data[group].map(record=>record.id));
+   return local[group].every(record=>ids.has(record.id));
+  });
+ }
+
+ function reset(){
+  opening++;
+  if(token)lessonApi('logout',{token}).catch(()=>{});
+  token='';
+  shared=null;
+  loading=false;
+  busy=false;
+  sync.replaceChildren();
+ }
+
+ async function refresh(notice='',epoch=opening){
+  if(loading||busy)return;
+  loading=true;
+  render(undefined,notice);
+  try{
+   const activeToken=token||(await lessonApi('admin-login',{password:getPassword()})).token;
+   if(epoch!==opening){lessonApi('logout',{token:activeToken}).catch(()=>{});return;}
+   const result=await lessonApi('admin-read',{token:activeToken});
+   if(epoch!==opening){lessonApi('logout',{token:activeToken}).catch(()=>{});return;}
+   token=activeToken;
+   shared=result;
+  }catch(error){
+   if(epoch!==opening)return;
+   token='';
+   shared=null;
+   notice='连接共享课时库失败。'+error.message;
+  }
+  if(epoch!==opening)return;
+  loading=false;
+  render(undefined,notice);
+ }
+
+ function requireWritable(data){
+  if(!shared)throw Error('请先连接共享课时库。');
+  if(data!==shared.data)throw Error('请先点击「迁移本机记录到共享库」。');
+ }
+
+ async function mutate(action,body,notice){
+  if(busy||loading)return false;
+  busy=true;
+  const epoch=opening;
+  try{
+   await lessonApi(action,{...body,token});
+  }catch(error){
+   if(epoch===opening)message.textContent=error.message;
+   return false;
+  }finally{
+   if(epoch===opening)busy=false;
+  }
+  if(epoch===opening)await refresh(notice,epoch);
+  return true;
+ }
+
+ function renderPaste(data){
+  const form=element('form');
+  form.className='lesson-paste';
+  const label=element('label','从 Excel 复制后粘贴');
+  const field=element('textarea');
+  field.rows=8;
+  field.required=true;
+  field.placeholder='学员编号\t姓名\t联系电话\t班级编号\t报名日期';
+  label.append(field);
+  const note=element('p','支持带表头的 Excel 学员管理表。无表头时请按学员编号、姓名、联系电话、班级编号、报名日期顺序粘贴。班级可留空，报名日期留空时使用当天。');
+  const preview=element('div');
+  const actions=element('div');
+  actions.className='lesson-toolbar';
+  const confirm=button('确认导入',async()=>{
+   confirm.disabled=true;
+   try{
+    requireWritable(data);
+    const success=await mutate('admin-save',{revision:shared.revision,group:'students',records:entries},'已导入 '+entries.length+' 位学员。');
+    if(!success)confirm.disabled=false;
+   }catch(error){message.textContent=error.message;confirm.disabled=false;}
+  },'primary');
+  confirm.hidden=true;
+  const check=element('button','预览导入');
+  check.type='submit';
+  check.className='primary';
+  let entries=[];
+  field.addEventListener('input',()=>{
+   entries=[];
+   confirm.hidden=true;
+   preview.replaceChildren();
+   message.textContent='';
+  });
+  form.addEventListener('submit',event=>{
+   event.preventDefault();
+   try{
+    entries=parseStudentPaste(field.value,data);
+    preview.replaceChildren(element('p','待导入 '+entries.length+' 位学员'),
+     table('导入预览',['学员编号','姓名','联系电话','班级','报名日期'],entries.map(item=>[
+      item.code,item.name,item.phone,data.classes.find(course=>course.id===item.classId)?.name??'待分班',item.enrolled
+     ]),''));
+    confirm.hidden=false;
+    message.textContent='';
+   }catch(error){message.textContent=error.message;}
+  });
+  actions.append(check,confirm,button('取消',()=>render()));
+  form.append(label,actions,preview);
+  content.append(element('h3','粘贴 Excel 学员名单'),note,form);
+  field.focus();
+ }
+
+ function renderAccounts(data,account){
+  const url=new URL('teacher-attendance.html',location.href);
+  const link=element('a','打开教师点名页');
+  link.href=url;
+  link.target='_blank';
+  link.rel='noopener';
+  const copy=button('复制点名链接',async()=>{
+   try{await navigator.clipboard.writeText(url.href);message.textContent='已复制点名链接。';}
+   catch{message.textContent='请打开点名页，从地址栏复制链接。';}
+  });
+  const toolbar=element('div');
+  toolbar.className='lesson-toolbar';
+  toolbar.append(element('h3','授课教师账号'),link,copy);
+  content.append(toolbar);
+  if(!shared||!shared.data.classes.length){
+   content.append(element('p','请先在共享库添加班级或迁移本机名单，再创建授课教师账号。'));
+   return;
+  }
+  if(!account){
+   content.append(button('新增教师账号',()=>render({}),'primary'),
+    table('授课教师账号',['用户名','教师姓名','授权班级','操作'],shared.accounts.map(item=>{
+     const actions=element('div');
+     actions.append(button('编辑或重设密码',()=>render(item)),button('停用',()=>{
+      if(window.confirm('确定停用「'+item.username+'」？'))mutate('admin-disable',{username:item.username},'账号已停用。');
+     }));
+     return [item.username,item.name,item.classIds.map(id=>data.classes.find(course=>course.id===id)?.name).filter(Boolean).join('、'),actions];
+    }),'暂无授课教师账号。'));
+   return;
+  }
+  const form=element('form');
+  form.className='lesson-form';
+  for(const [key,label,value] of [
+   ['username','用户名（字母、数字、点、下划线或连字符）',account.username],
+   ['name','教师姓名',account.name],
+   ['password',account.username?'新密码（至少 10 位）':'密码（至少 10 位）']
+  ]){
+   const wrapper=element('label',label);
+   const field=element('input');
+   field.name=key;
+   field.required=true;
+   field.value=value??'';
+   field.maxLength=key==='username'?40:key==='name'?80:128;
+   if(key==='username'){
+    field.pattern='[a-zA-Z0-9._\\-]{3,40}';
+    field.readOnly=Boolean(account.username);
+   }
+   if(key==='password'){field.type='password';field.minLength=10;field.autocomplete='new-password';}
+   wrapper.append(field);
+   form.append(wrapper);
+  }
+  const classes=element('fieldset');
+  classes.className='lesson-checklist';
+  classes.append(element('legend','授权班级'));
+  for(const course of data.classes){
+   const label=element('label');
+   const check=element('input');
+   check.type='checkbox';
+   check.name='classIds';
+   check.value=course.id;
+   check.checked=account.classIds?.includes(course.id)??false;
+   label.append(check,document.createTextNode(course.code+' · '+course.name));
+   classes.append(label);
+  }
+  const actions=element('div');
+  actions.className='lesson-toolbar';
+  const save=element('button','保存账号');
+  save.type='submit';
+  save.className='primary';
+  actions.append(save,button('取消',()=>render()));
+  form.append(classes,actions);
+  form.addEventListener('submit',async event=>{
+   event.preventDefault();
+   const values=new FormData(form);
+   const classIds=values.getAll('classIds');
+   if(!classIds.length){message.textContent='请至少授权一个班级。';return;}
+   save.disabled=true;
+   const success=await mutate('admin-account',{username:values.get('username'),name:values.get('name'),
+    password:values.get('password'),classIds,replace:Boolean(account.username)},'教师账号已保存。');
+   if(!success)save.disabled=false;
+  });
+  content.append(form);
  }
 
  function renderOverview(data){
@@ -181,7 +390,7 @@ function createPanel(dialog,requireTeacher){
    table('即将结课学员',['学生姓名','所在班级','剩余课时','预计结束日期'],
     upcoming.sort((a,b)=>a.remaining-b.remaining).map(row=>[row.student.name,row.course.name,row.remaining,row.course.end]),
     '暂无剩余 1–3 课时的学员。'),
-   element('p','记录保存在当前浏览器。出勤、补课和缺勤各计 1 课时，请假只记录次数。'));
+   element('p','共享库中的签到会自动计入课时。出勤、补课和缺勤各计 1 课时，请假只记录次数。'));
  }
 
  function renderRecords(data){
@@ -190,6 +399,7 @@ function createPanel(dialog,requireTeacher){
   const heading=element('h3',tabs[view]);
   const add=button('新增'+recordNames[view],()=>render({}),'primary');
   toolbar.append(heading,add);
+  if(view==='students')toolbar.append(button('粘贴 Excel',()=>render('paste')));
   content.append(toolbar);
   function edit(item){
    return button('编辑',()=>render(item));
@@ -278,11 +488,12 @@ function createPanel(dialog,requireTeacher){
   save.className='primary';
   actions.append(save,button('取消',()=>render()));
   form.append(actions);
-  form.addEventListener('submit',event=>{
+  form.addEventListener('submit',async event=>{
    event.preventDefault();
    try{
     requireTeacher();
-    const latest=readData();
+    requireWritable(data);
+    const latest=data;
     const records=latest[view];
     const entry={id:item.id??crypto.randomUUID()};
     for(const [key,,type,required=true] of fields[view]){
@@ -306,9 +517,9 @@ function createPanel(dialog,requireTeacher){
       throw Error('该学员当天的此课次已有签到，请编辑原记录。');
      }
     }
-    latest[view]=item.id?records.map(record=>record.id===item.id?entry:record):[...records,entry];
-    localStorage.setItem(storageKey,JSON.stringify(latest));
-    render(undefined,'已保存'+recordNames[view]+'记录。');
+    save.disabled=true;
+    const success=await mutate('admin-save',{revision:shared.revision,group:view,records:[entry]},'已保存'+recordNames[view]+'记录。');
+    if(!success)save.disabled=false;
    }catch(error){
     message.textContent=error.message;
    }
@@ -321,7 +532,7 @@ function createPanel(dialog,requireTeacher){
   view='overview';
   dialog.classList.add('lesson-management-open');
   panel.hidden=false;
-  render();
+  refresh();
   dialog.scrollTop=0;
   title.focus();
  }};

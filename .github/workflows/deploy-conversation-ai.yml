@@ -14,6 +14,8 @@ on:
       - tools/verify-courseware-live.mjs
       - homework-core.mjs
       - homework-plan.mjs
+      - lesson-data.mjs
+      - tests/lesson-register.test.mjs
       - tools/verify-homework-live.mjs
       - tools/verify-homework-vocabulary-live.mjs
       - teacher-auth.mjs
@@ -52,12 +54,23 @@ jobs:
         with:
           node-version: '22'
       - name: Validate conversation service
-        run: node --test tests/courseware-pinyin.test.mjs tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs tests/homework-courseware.test.mjs tests/homework-courseware-plan.test.mjs tests/homework-rules.test.mjs
+        run: node --test tests/courseware-pinyin.test.mjs tests/courseware-generation.test.mjs tests/courseware.test.mjs tests/conversation.test.mjs tests/homework.test.mjs tests/homework-plan.test.mjs tests/homework-courseware.test.mjs tests/homework-courseware-plan.test.mjs tests/homework-rules.test.mjs tests/lesson-register.test.mjs
       - name: Deploy free Workers AI service
         shell: bash
         run: |
           mkdir -p work
           npx --yes wrangler@4 deploy --config backend/conversation/wrangler.toml 2>&1 | tee work/conversation-deploy.log
+      - name: Verify the live teacher attendance endpoint
+        run: |
+          node --input-type=module <<'JS'
+          import assert from 'node:assert/strict';
+          import {readFileSync} from 'node:fs';
+          const url=new URL('/lesson-register',JSON.parse(readFileSync('conversation-config.json','utf8')).endpoint);
+          const headers={Origin:'https://henley0209.github.io','Content-Type':'application/json'};
+          const response=await fetch(url,{method:'POST',headers,body:JSON.stringify({action:'teacher-classes'}),signal:AbortSignal.timeout(15000)});
+          assert.equal(response.status,401);
+          assert.equal((await response.json()).error,'请先登录。');
+          JS
       - name: Check real AI response before enabling website
         run: |
           python3 tools/enable-conversation-ai.py 2>&1 | tee work/conversation-verification.log

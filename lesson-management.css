@@ -132,3 +132,61 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
  }
 }
+#lesson-management .lesson-sync {
+ justify-content: flex-start;
+ margin-bottom: 18px;
+ padding: 10px 12px;
+ border: 1px solid var(--line);
+ border-radius: 8px;
+ font-size: 14px;
+}
+#lesson-management .lesson-wide, #lesson-management .lesson-checklist {
+ grid-column: 1 / -1;
+ min-width: 0;
+}
+#lesson-management .lesson-checklist {
+ padding: 12px;
+ border: 1px solid var(--line);
+ border-radius: 8px;
+}
+#lesson-management .lesson-checklist label {
+ display: flex;
+ gap: 8px;
+ align-items: center;
+ padding: 5px;
+ margin: 0;
+}
+#lesson-management input[type="checkbox"] {
+ width: 18px;
+ height: 18px;
+ flex: 0 0 auto;
+}
+#lesson-management .lesson-paste .lesson-toolbar {
+ justify-content: flex-start;
+ margin-top: 12px;
+}
+#lesson-management .lesson-paste label {
+ display: grid;
+ gap: 4px;
+}
+.lesson-attendance-page {
+ padding: clamp(14px, 4vw, 40px);
+}
+#lesson-management.teacher-attendance-card {
+ width: min(760px, 100%);
+ margin: 0 auto;
+ padding: clamp(18px, 4vw, 36px);
+ border: 1px solid var(--line);
+ border-radius: 16px;
+ background: white;
+}
+#lesson-management.teacher-attendance-card h1 {
+ margin: 0;
+ font-size: clamp(23px, 5vw, 32px);
+}
+#lesson-management.teacher-attendance-card [hidden] {
+ display: none;
+}
+#lesson-management.teacher-attendance-card .lesson-wide {
+ margin: 0;
+}

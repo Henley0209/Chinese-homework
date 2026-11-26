@@ -2078,6 +2078,14 @@
       "changes": [
         "Group teacher payroll charts by fee threshold"
       ]
+    },
+    {
+      "version": "V0259",
+      "updatedAt": "2026-11-26T16:47:04Z",
+      "commit": "22d005f846d1c7cba0d043a02dc80b2a37ba1e8a",
+      "changes": [
+        "Require all teacher attendance fields and explicit duration"
+      ]
     }
   ]
 }

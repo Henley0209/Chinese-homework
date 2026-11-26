@@ -442,35 +442,58 @@ function createPanel(dialog,requireTeacher,getPassword){
    if(missingDuration)notes.push(missingDuration+' 节缺少上课时长');
    if(conflictingDuration)notes.push(conflictingDuration+' 节的上课时长不一致');
    if(unresolved)notes.push(unresolved+' 节无法匹配教师账号');
-   summary.textContent=notes.length?'以下为已计入的工资。暂未计入：'+notes.join('、')+'。':'按综合工资从高到低排列。';
-
-   const chart=element('div');
-   chart.className='lesson-payroll-chart';
-   chart.tabIndex=0;
-   chart.setAttribute('role','region');
-   chart.setAttribute('aria-label','教师工资柱状图');
-   const max=Math.max(1,teachers[0].total);
+   const groups={china:[],vietnam:[]};
+   let unclassified=0;
    for(const row of teachers){
-    const {account,total}=row;
-    const column=element('div');
-    column.className='lesson-payroll-column';
-    const bar=element('div');
-    bar.className='lesson-payroll-bar';
-    bar.style.height=total/max*100+'%';
-    const track=element('div');
-    track.className='lesson-payroll-track';
-    track.setAttribute('aria-hidden','true');
-    track.append(bar);
-    column.append(element('strong',formatPay(total)),track,
-     element('span',account.name+' · '+account.username));
-    chart.append(column);
+    const {rate60,rate90}=row.account;
+    if(rate60>=10000||rate90>=10000)groups.vietnam.push(row);
+    else if(rate60!=null&&rate90!=null)groups.china.push(row);
+    else unclassified++;
    }
-   results.append(chart,table('教师工资明细',['授课教师','1 小时次数','1.5 小时次数','综合工资','待设置费用次数'],
+   summary.textContent=notes.length?'以下为已计入的工资。暂未计入：'+notes.join('、')+'。':'各组按综合工资从高到低排列。';
+
+   results.append(payrollChart('中国老师',groups.china),payrollChart('越南老师',groups.vietnam));
+   if(unclassified)results.append(element('p',unclassified+' 位老师的费用资料不足以分组，可在下方查看工资明细。'));
+   results.append(table('教师工资明细',['授课教师','1 小时次数','1.5 小时次数','综合工资','待设置费用次数'],
     teachers.map(({account,counts,total,missingRates})=>[
      account.name+' · '+account.username,counts[60],counts[90],formatPay(total),missingRates
     ]),'暂无工资记录。'));
   }
+
   update();
+ }
+
+ function payrollChart(label,teachers){
+  const section=element('section');
+  section.className='lesson-payroll-group';
+  section.append(element('h4',label+'工资'));
+  if(!teachers.length){
+   section.append(element('p','该组暂无教师。'));
+   return section;
+  }
+  const chart=element('div');
+  chart.className='lesson-payroll-chart';
+  chart.tabIndex=0;
+  chart.setAttribute('role','region');
+  chart.setAttribute('aria-label',label+'工资柱状图');
+  const max=Math.max(1,teachers[0].total);
+  for(const row of teachers){
+   const {account,total}=row;
+   const column=element('div');
+   column.className='lesson-payroll-column';
+   const bar=element('div');
+   bar.className='lesson-payroll-bar';
+   bar.style.height=total/max*100+'%';
+   const track=element('div');
+   track.className='lesson-payroll-track';
+   track.setAttribute('aria-hidden','true');
+   track.append(bar);
+   column.append(element('strong',formatPay(total)),track,
+    element('span',account.name+' · '+account.username));
+   chart.append(column);
+  }
+  section.append(chart);
+  return section;
  }
 
  function renderOverview(data){

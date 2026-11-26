@@ -1966,6 +1966,14 @@
       "changes": [
         "Add student lesson management dashboard"
       ]
+    },
+    {
+      "version": "V0245",
+      "updatedAt": "2026-11-26T10:47:07Z",
+      "commit": "65a5b98723332d161061aea05d06b8e2c955fa75",
+      "changes": [
+        "Guide lesson setup and allow students without a class"
+      ]
     }
   ]
 }

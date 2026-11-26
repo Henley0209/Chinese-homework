@@ -1,5 +1,5 @@
 import {lessonApi} from './lesson-api.mjs?v=1';
-import {lessonToday as today,parseStudentPaste,studentLabels,studentName} from './lesson-data.mjs?v=3';
+import {lessonToday as today,parseStudentPaste,studentLabels,studentName,classLabel,classLabels} from './lesson-data.mjs?v=4';
 
 const storageKey='qinglan-lesson-management-v1';
 const statuses=['出勤','补课','缺勤','请假'];
@@ -10,9 +10,9 @@ const fields={
   ['classId','所在班级','classes',false],['enrolled','报名日期','date',false]
  ],
  classes:[
-  ['code','班级编号'],['name','班级名称'],['teacher','授课教师'],
+  ['code','班级编号','text',false],['name','班级名称','text',false],['teacher','授课教师','text',false],
   ['days','每周上课日','text',false],['time','上课时间','text',false],
-  ['start','开课日期','date'],['end','预计结课日期','date'],['hours','总课时','number'],
+  ['start','开课日期','date',false],['end','预计结课日期','date',false],['hours','总课时','number',false],
   ['room','教室','text',false],['notes','备注','textarea',false]
  ],
  attendance:[
@@ -62,11 +62,11 @@ function studentProgress(data){
  return data.students.map(student=>{
   const course=data.classes.find(item=>item.id===student.classId);
   const {attended,absent,leave}=counts.get(student.id+' '+student.classId)??{attended:0,absent:0,leave:0};
-  const total=Number(course?.hours??0);
+  const total=course?.hours||null;
   const used=attended+absent;
-  const remaining=Math.max(0,total-used);
+  const remaining=total===null?null:Math.max(0,total-used);
   const progress=total?Math.round(used/total*100)+'%':'—';
-  const status=!course?'待分班':remaining===0?'已结课':course.end<currentDate?'计划已到期':'学习中';
+  const status=!course?'待分班':remaining===0?'已结课':course.end&&course.end<currentDate?'计划已到期':'学习中';
   return {student,course,total,attended,absent,leave,used,remaining,progress,status};
  });
 }
@@ -276,7 +276,7 @@ function createPanel(dialog,requireTeacher,getPassword){
     entries=parseStudentPaste(field.value,data);
     preview.replaceChildren(element('p','待导入 '+entries.length+' 位学员'),
      table('导入预览',['姓名','联系电话','班级','报名日期'],entries.map(item=>[
-      studentName(item),item.phone,data.classes.find(course=>course.id===item.classId)?.name??'待分班',item.enrolled
+      studentName(item),item.phone,item.classId?classLabel(data.classes.find(course=>course.id===item.classId)):'待分班',item.enrolled
      ]),''));
     confirm.hidden=false;
     message.textContent='';
@@ -313,7 +313,7 @@ function createPanel(dialog,requireTeacher,getPassword){
      actions.append(button('编辑或重设密码',()=>render(item)),button('停用',()=>{
       if(window.confirm('确定停用「'+item.username+'」？'))mutate('admin-disable',{username:item.username},'账号已停用。');
      }));
-     return [item.username,item.name,item.classIds.map(id=>data.classes.find(course=>course.id===id)?.name).filter(Boolean).join('、'),actions];
+     return [item.username,item.name,data.classes.filter(course=>item.classIds.includes(course.id)).map(classLabel).join('、'),actions];
     }),'暂无授课教师账号。'));
    return;
   }
@@ -341,14 +341,15 @@ function createPanel(dialog,requireTeacher,getPassword){
   const classes=element('fieldset');
   classes.className='lesson-checklist';
   classes.append(element('legend','授权班级'));
-  for(const course of data.classes){
+  const courseLabels=classLabels(data.classes);
+ for(const [i,course] of data.classes.entries()){
    const label=element('label');
    const check=element('input');
    check.type='checkbox';
    check.name='classIds';
    check.value=course.id;
    check.checked=account.classIds?.includes(course.id)??false;
-   label.append(check,document.createTextNode(course.code+' · '+course.name));
+   label.append(check,document.createTextNode(courseLabels[i]));
    classes.append(label);
   }
   const actions=element('div');
@@ -388,7 +389,7 @@ function createPanel(dialog,requireTeacher,getPassword){
   }
   content.append(stats,element('h3','即将结课学员'),
    table('即将结课学员',['学生姓名','所在班级','剩余课时','预计结束日期'],
-    upcoming.sort((a,b)=>a.remaining-b.remaining).map(row=>[studentName(row.student),row.course.name,row.remaining,row.course.end]),
+    upcoming.sort((a,b)=>a.remaining-b.remaining).map(row=>[studentName(row.student),classLabel(row.course),row.remaining,row.course.end]),
     '暂无剩余 1–3 课时的学员。'),
    element('p','共享库中的签到会自动计入课时。出勤、补课和缺勤各计 1 课时，请假只记录次数。'));
  }
@@ -409,14 +410,14 @@ function createPanel(dialog,requireTeacher,getPassword){
   if(view==='students'){
    headers=['学生姓名','联系电话','所在班级','报名日期','总课时','已上课时','缺勤课时','请假次数','已消耗课时','剩余课时','课程进度','预计结束日期','学习状态'];
    rows=studentProgress(data).map(row=>[
-    studentName(row.student),row.student.phone,row.course?.name,row.student.enrolled,
+    studentName(row.student),row.student.phone,row.course?classLabel(row.course):'',row.student.enrolled,
     row.total,row.attended,row.absent,row.leave,row.used,row.remaining,row.progress,row.course?.end,row.status,edit(row.student)
    ]);
   }else{
    headers=fields[view].map(([,label])=>label);
    rows=data[view].map(item=>[
     ...fields[view].map(([key,,type])=>type==='students'?studentName(data.students.find(record=>record.id===item[key])):
-     type==='classes'?data.classes.find(record=>record.id===item[key])?.name:item[key]),
+     type==='classes'?classLabel(data.classes.find(record=>record.id===item[key])):item[key]),
     edit(item)
    ]);
   }
@@ -455,7 +456,8 @@ function createPanel(dialog,requireTeacher,getPassword){
    }
    const group=element('label',label);
    const records=type==='students'?[]:data[type];
-   const options=records?records.map(record=>[record.id,record.code+' · '+record.name]):
+   const courseLabels=type==='classes'?classLabels(records):[];
+   const options=records?records.map((record,i)=>[record.id,courseLabels[i]]):
     type==='status'?statuses.map(status=>[status,status]):null;
    const input=element(options?'select':type==='textarea'?'textarea':'input');
    if(options){
@@ -550,13 +552,13 @@ function createPanel(dialog,requireTeacher,getPassword){
      if(batch&&key==='studentId')continue;
      const value=controls[key].value.trim();
      if(required&&!value)throw Error('请填写所有必填字段。');
-     entry[key]=type==='number'?Number(value):value;
+     entry[key]=type==='number'?(value?Number(value):null):value;
     }
     if(item.id&&!records.some(record=>record.id===item.id))throw Error('这条记录已不存在，请重新打开列表。');
-    if(view==='classes'&&records.some(record=>record.id!==entry.id&&record.code.toLowerCase()===entry.code.toLowerCase())){
+    if(view==='classes'&&entry.code&&records.some(record=>record.id!==entry.id&&record.code?.toLowerCase()===entry.code.toLowerCase())){
      throw Error('此班级编号已存在，请使用其他编号。');
     }
-    if(view==='classes'&&entry.end<entry.start)throw Error('预计结课日期须等于或晚于开课日期。');
+    if(view==='classes'&&entry.start&&entry.end&&entry.end<entry.start)throw Error('预计结课日期须等于或晚于开课日期。');
     if(entry.classId&&!latest.classes.some(record=>record.id===entry.classId))throw Error('请选择有效班级。');
     let pending=[entry];
     let notice='已保存'+recordNames[view]+'记录。';

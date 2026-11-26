@@ -65,7 +65,7 @@ export function parseStudentPaste(value,data){
   const get=key=>row[columns[key]]??'';
   const name=get('name'),phone=get('phone'),className=get('classId');
   const enrolled=pastedDate(get('enrolled'));
-  const courses=data.classes.filter(item=>item.code.toLowerCase()===className.toLowerCase());
+  const courses=data.classes.filter(item=>(item.code??'').toLowerCase()===className.toLowerCase());
   const matches=courses.length?courses:data.classes.filter(item=>item.name===className);
   const fail=message=>{throw Error('第 '+(i+headerIndex+2)+' 行：'+message);};
   if([name,phone].some(cell=>cell.length>120))fail('姓名和联系电话每项最多 120 字。');
@@ -80,14 +80,24 @@ export function studentName(student){
 }
 
 export function studentLabels(students){
+ return distinguishLabels(students.map(studentName));
+}
+
+export function classLabel(course){
+ return [course?.code,course?.name].filter(Boolean).join(' · ')||'未命名班级';
+}
+
+export function classLabels(courses){
+ return distinguishLabels(courses.map(classLabel));
+}
+
+function distinguishLabels(labels){
  const counts=new Map();
- for(const student of students){
-  const label=studentName(student);
+ for(const label of labels){
   counts.set(label,(counts.get(label)??0)+1);
  }
  const positions=new Map();
- return students.map(student=>{
-  const label=studentName(student);
+ return labels.map(label=>{
   if(counts.get(label)===1)return label;
   const position=(positions.get(label)??0)+1;
   positions.set(label,position);

@@ -41,7 +41,7 @@ async function rows(storage,group){
 
 async function snapshot(storage){
  const data=Object.fromEntries(await Promise.all(groups.map(async group=>[group,await rows(storage,group)])));
- data.classes.sort((a,b)=>a.code.localeCompare(b.code,'zh',{numeric:true}));
+ data.classes=data.classes.map(courseRecord).sort((a,b)=>a.code.localeCompare(b.code,'zh',{numeric:true}));
  data.students=data.students.map(studentRecord).sort(compareStudents);
  data.attendance.sort((a,b)=>b.date.localeCompare(a.date)||b.lesson-a.lesson);
  return {data,revision:await storage.get('revision')??0};
@@ -49,9 +49,9 @@ async function snapshot(storage){
 
 function validRecord(group,item){
  if(!id(item?.id))return false;
- if(group==='classes')return filled(item.code,120)&&filled(item.name,120)&&filled(item.teacher,120)&&
-  lessonDate(item.start)&&lessonDate(item.end)&&item.start<=item.end&&integer(item.hours,10000)&&
-  ['days','time','room'].every(key=>text(item[key],120))&&text(item.notes,1000);
+ if(group==='classes')return ['code','name','teacher','days','time','room'].every(key=>text(item[key],120))&&
+  ['start','end'].every(key=>item[key]===''||lessonDate(item[key]))&&(!item.start||!item.end||item.start<=item.end)&&
+  (item.hours===null||integer(item.hours,10000))&&text(item.notes,1000);
  if(group==='students')return text(item.name,120)&&text(item.phone,120)&&
   (item.classId===''||id(item.classId))&&(item.enrolled===''||lessonDate(item.enrolled));
  return id(item.classId)&&id(item.studentId)&&lessonDate(item.date)&&integer(item.lesson,10000)&&
@@ -64,6 +64,11 @@ const columns={
  attendance:['id','date','studentId','classId','lesson','teacher','topic','content','status']
 };
 const select=(item,keys)=>Object.fromEntries(keys.map(key=>[key,item[key]]));
+function courseRecord(item){
+ const course=select(item??{},columns.classes);
+ for(const key of columns.classes.slice(1))course[key]??=key==='hours'?null:'';
+ return course;
+}
 function studentRecord(item){
  return {id:item?.id,name:item?.name??'',phone:item?.phone??'',classId:item?.classId??'',enrolled:item?.enrolled??''};
 }
@@ -82,7 +87,7 @@ function validData(data){
    if(!validRecord(group,item))return false;
    if(ids.has(item.id))return false;
    ids.add(item.id);
-   if(group!=='students'){
+   if(group==='attendance'||(group==='classes'&&item.code)){
     const key=group==='attendance'?attendanceKey(item):item.code.toLowerCase();
     if(keys.has(key))return false;
     keys.add(key);
@@ -201,7 +206,9 @@ export class LessonRegister {
     const ids=new Set(current.data[group].map(item=>item.id));
     return [group,body.data[group].filter(item=>!ids.has(item?.id))];
    }):[[body.group,body.records]];
-   const changes=incoming.map(([group,records])=>[group,group==='students'?records.map(studentRecord):records]);
+   const changes=incoming.map(([group,records])=>[
+    group,group==='students'?records.map(studentRecord):group==='classes'?records.map(courseRecord):records
+   ]);
    if(changes.every(([,records])=>!records.length))return Response.json({revision:current.revision});
    for(const [group,records] of changes){
     if(records.some(item=>!validRecord(group,item))||new Set(records.map(item=>item.id)).size!==records.length){
@@ -242,7 +249,7 @@ export class LessonRegister {
     const course=await storage.get('classes:'+body.classId);
     const lesson=classLesson(records,body.date);
     const recorded=new Set(records.filter(item=>item.date===body.date).map(item=>item.studentId));
-    return Response.json({lesson,remaining:Math.max(0,course.hours-lesson),
+    return Response.json({lesson,remaining:course.hours?Math.max(0,course.hours-lesson):null,
      students:students.map(item=>({...select(item,['id','name']),recorded:recorded.has(item.id)}))});
    }
    if(body.action!=='teacher-submit')return reply('操作无效。',404);

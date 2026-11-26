@@ -1,5 +1,5 @@
 import {lessonApi} from './lesson-api.mjs?v=1';
-import {attendanceDates,lessonDate,studentLabels} from './lesson-data.mjs?v=3';
+import {attendanceDates,lessonDate,studentLabels,classLabels} from './lesson-data.mjs?v=4';
 
 const $=id=>document.getElementById('teacher-attendance-'+id);
 const login=$('login');
@@ -56,8 +56,9 @@ login.addEventListener('submit',async event=>{
   const result=await lessonApi('teacher-classes',{token:auth.token});
   token=auth.token;
   $('name').textContent='当前教师：'+result.name;
+  const labels=classLabels(result.classes);
   controls.classId.replaceChildren(new Option('请选择班级',''),
-   ...result.classes.map(course=>new Option(course.code+' · '+course.name,course.id)));
+   ...result.classes.map((course,i)=>new Option(labels[i],course.id)));
   const [today,tomorrow]=result.dates??attendanceDates();
   controls.date.replaceChildren(new Option('今天 · '+today,today),new Option('明天 · '+tomorrow,tomorrow));
   controls.start.value=today;
@@ -89,9 +90,9 @@ async function loadRoster(){
  try{
   const {students,lesson,remaining}=await lessonApi('teacher-roster',{token,classId,date});
   if(request!==rosterRequest)return;
-  if(Number.isInteger(lesson)&&Number.isInteger(remaining)){
+  if(Number.isInteger(lesson)){
    const day=date===controls.date.options[0].value?'今天':'明天';
-   progress.textContent=day+'是第 '+lesson+' 课时，本班级还剩 '+remaining+' 课时';
+   progress.textContent=day+'是第 '+lesson+' 课时，'+(Number.isInteger(remaining)?'本班级还剩 '+remaining+' 课时':'本班级尚未设置总课时');
    progress.hidden=false;
   }
   if(!students.length){roster.textContent='该班级暂无学员，请联系管理员。';return;}

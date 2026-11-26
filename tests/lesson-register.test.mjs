@@ -113,6 +113,17 @@ test('teachers can only read authorized rosters and save selected students once'
  await call('teacher-login',{username:'teacher01',password:'example-pass-123'},401);
  const renewed=await call('teacher-login',{username:'teacher01',password:'replacement-example'});
  await call('teacher-submit',{...entry,token:renewed.token,date:tomorrow,submissionId:crypto.randomUUID()});
+ const {revision}=await call('admin-read',{token:admin});
+ const classWithoutDetails={id:crypto.randomUUID()};
+ const anotherClass={id:crypto.randomUUID(),end:tomorrow};
+ await call('admin-save',{token:admin,revision,group:'classes',records:[classWithoutDetails,anotherClass]});
+ const afterClassSave=await call('admin-read',{token:admin});
+ assert.equal(afterClassSave.data.classes.find(course=>course.id===classWithoutDetails.id).hours,null);
+ await call('admin-save',{token:admin,revision:afterClassSave.revision,group:'classes',
+  records:[{id:anotherClass.id,start:tomorrow,end:today}]},400);
+ await call('admin-account',{...teacher,token:admin,replace:true,classIds:[classId,classWithoutDetails.id]});
+ const noHours=await call('teacher-roster',{token:renewed.token,classId:classWithoutDetails.id,date:today});
+ assert.deepEqual(noHours,{lesson:1,remaining:null,students:[]});
  await call('admin-disable',{token:admin,username:'teacher01'});
  await call('teacher-classes',{token:renewed.token},401);
 });

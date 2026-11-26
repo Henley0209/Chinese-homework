@@ -156,7 +156,8 @@ export class LessonRegister {
 
  async session(user,salt){
   const token=hex(crypto.getRandomValues(new Uint8Array(32)));
-  await this.storage.put('session:'+await hash(token),{user,salt:salt??null,expires:Date.now()+8*3600000});
+  const lifetime=user==='admin'?8*3600000:30*86400000;
+  await this.storage.put('session:'+await hash(token),{user,salt:salt??null,expires:Date.now()+lifetime});
   return Response.json({token});
  }
 

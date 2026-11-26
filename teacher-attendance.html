@@ -6,7 +6,7 @@
  <title>授课教师点名 · Tiếng Trung Cô Nga</title>
  <link rel="stylesheet" href="style-classroom-v4.css">
  <link rel="stylesheet" href="lesson-management.css?v=5">
- <script type="module" src="teacher-attendance.mjs?v=5"></script>
+ <script type="module" src="teacher-attendance.mjs?v=6"></script>
 </head>
 <body class="lesson-attendance-page">
  <main id="lesson-management" class="teacher-attendance-card">
@@ -17,7 +17,7 @@
   <form id="teacher-attendance-login" class="lesson-form">
    <label>用户名<input name="username" autocomplete="username" required maxlength="40"></label>
    <label>密码<input name="password" type="password" autocomplete="current-password" required maxlength="128"></label>
-   <div class="lesson-toolbar"><button class="primary" type="submit">登录</button></div>
+   <div class="lesson-toolbar"><button class="primary" type="submit">登录</button><span>此浏览器会记住登录状态，退出后清除。</span></div>
   </form>
   <form id="teacher-attendance-form" class="lesson-form" hidden>
    <p id="teacher-attendance-name" class="lesson-wide"></p>

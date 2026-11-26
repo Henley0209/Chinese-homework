@@ -8,6 +8,6 @@ export async function homeworkApi(path,{body,signal}={}){
   method:'POST',signal,headers:{'Content-Type':'application/json'},body:JSON.stringify(body)
  });
  const data=await response.json();
- if(!response.ok)throw Error(data.error||'作业服务暂不可用。');
+ if(!response.ok)throw Object.assign(Error(data.error||'作业服务暂不可用。'),{status:response.status});
  return data;
 }

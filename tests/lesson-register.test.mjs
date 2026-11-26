@@ -69,6 +69,8 @@ test('teachers can only read authorized rosters and save selected students once'
  await call('teacher-login',{username:'teacher01',password:'wrong-pass'},401);
  const {token}=await call('teacher-login',{username:'TEACHER01',password:'example-pass-123'});
  await call('admin-read',{token},403);
+ const teacherSession=[...values.entries()].find(([key,value])=>key.startsWith('session:')&&value.user==='teacher01');
+ assert.ok(teacherSession[1].expires>Date.now()+29*86400000);
  const profile=await call('teacher-classes',{token});
  assert.deepEqual(profile.classes,[{id:classId,code:'C01',name:'中文一班'}]);
  assert.deepEqual(profile.dates,[today,yesterday]);

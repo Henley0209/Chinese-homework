@@ -1,4 +1,4 @@
-import {lessonApi} from './lesson-api.mjs?v=1';
+import {lessonApi} from './lesson-api.mjs?v=2';
 import {attendanceDates,lessonDate,studentLabels,classLabels} from './lesson-data.mjs?v=5';
 
 const $=id=>document.getElementById('teacher-attendance-'+id);
@@ -10,6 +10,7 @@ const progress=$('progress');
 const status=$('status');
 const submit=$('save');
 const logout=$('logout');
+const rememberedKey='qinglan-teacher-attendance-session-v1';
 let token='',rosterRequest=0,submitting=false;
 let retry=null;
 const tell=message=>{status.textContent=message;};
@@ -20,6 +21,17 @@ function dates(){
 
 function selected(){
  return [...roster.querySelectorAll('input:checked:not(:disabled)')].map(check=>check.value);
+}
+
+function rememberedToken(){
+ try{return localStorage.getItem(rememberedKey)??'';}catch{return '';}
+}
+
+function rememberToken(value){
+ try{
+  if(value)localStorage.setItem(rememberedKey,value);
+  else localStorage.removeItem(rememberedKey);
+ }catch{}
 }
 
 function showLogin(){
@@ -39,40 +51,67 @@ function showLogin(){
 
 logout.addEventListener('click',()=>{
  const currentToken=token;
+ rememberToken('');
  showLogin();
  tell('已退出登录。');
  lessonApi('logout',{token:currentToken}).catch(()=>{});
 });
 
+async function openSession(sessionToken){
+ const result=await lessonApi('teacher-classes',{token:sessionToken});
+ token=sessionToken;
+ rememberToken(sessionToken);
+ $('name').textContent='当前教师：'+result.name;
+ const labels=classLabels(result.classes);
+ controls.classId.replaceChildren(new Option('请选择班级',''),
+  ...result.classes.map((course,i)=>new Option(labels[i],course.id)));
+ const [today,yesterday]=attendanceDates();
+ controls.date.replaceChildren(new Option('今天 · '+today,today),new Option('昨天 · '+yesterday,yesterday));
+ controls.start.value=today;
+ controls.end.value=today;
+ login.reset();
+ login.hidden=true;
+ form.hidden=false;
+ logout.hidden=false;
+ tell('');
+ await loadRoster();
+ controls.start.focus();
+}
+
+function sessionError(error){
+ if(error.status===401){
+  rememberToken('');
+  showLogin();
+ }
+ tell(error.message);
+}
+
+const loginButton=login.querySelector('button');
 login.addEventListener('submit',async event=>{
  event.preventDefault();
- const button=login.querySelector('button');
- button.disabled=true;
+ if(loginButton.disabled)return;
+ loginButton.disabled=true;
  tell('正在登录…');
  try{
   const auth=await lessonApi('teacher-login',{
    username:login.elements.username.value,password:login.elements.password.value
   });
-  const result=await lessonApi('teacher-classes',{token:auth.token});
-  token=auth.token;
-  $('name').textContent='当前教师：'+result.name;
-  const labels=classLabels(result.classes);
-  controls.classId.replaceChildren(new Option('请选择班级',''),
-   ...result.classes.map((course,i)=>new Option(labels[i],course.id)));
-  const [today,yesterday]=attendanceDates();
-  controls.date.replaceChildren(new Option('今天 · '+today,today),new Option('昨天 · '+yesterday,yesterday));
-  controls.start.value=today;
-  controls.end.value=today;
-  login.reset();
-  login.hidden=true;
-  form.hidden=false;
-  logout.hidden=false;
-  tell('');
-  await loadRoster();
-  controls.start.focus();
- }catch(error){tell(error.message);}
- finally{button.disabled=false;}
+  await openSession(auth.token);
+ }catch(error){sessionError(error);}
+ finally{loginButton.disabled=false;}
 });
+
+async function restoreSession(){
+ const saved=rememberedToken();
+ if(!saved)return;
+ loginButton.disabled=true;
+ tell('正在恢复登录…');
+ try{await openSession(saved);}
+ catch(error){
+  if(error.status===401)sessionError(error);
+  else tell('暂时无法恢复登录。请刷新后重试，或重新登录。');
+ }finally{loginButton.disabled=false;}
+}
 
 async function loadRoster(){
  const request=++rosterRequest;
@@ -108,7 +147,8 @@ async function loadRoster(){
   }));
  }catch(error){
   if(request!==rosterRequest)return;
-  roster.textContent=error.message;
+  if(error.status===401)sessionError(error);
+  else roster.textContent=error.message;
  }
 }
 
@@ -147,7 +187,7 @@ form.addEventListener('submit',async event=>{
   tell('已保存 '+result.count+' 位学员的出勤记录。');
   await loadRoster();
  }catch(error){
-  if(token===currentToken)tell(error.message);
+  if(token===currentToken)sessionError(error);
  }finally{
   if(token===currentToken){
    for(const field of fieldsets)field.disabled=false;
@@ -156,3 +196,5 @@ form.addEventListener('submit',async event=>{
   }
  }
 });
+
+restoreSession();

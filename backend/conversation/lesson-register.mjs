@@ -278,12 +278,12 @@ export class LessonRegister {
    if(body.action!=='teacher-submit')return reply('操作无效。',404);
    const {date,start,end,topic,content,submissionId,durationMinutes}=body;
    if(!lessonDate(date)||!lessonDate(start)||!lessonDate(end)||date<start||date>end||!id(submissionId)||
-    (durationMinutes!==undefined&&!lessonDuration(durationMinutes))||!filled(topic,120)||!filled(content,1000)||!Array.isArray(body.studentIds)||!body.studentIds.length||
+    !lessonDuration(durationMinutes)||!filled(topic,120)||!filled(content,1000)||!Array.isArray(body.studentIds)||!body.studentIds.length||
     body.studentIds.length>500||new Set(body.studentIds).size!==body.studentIds.length){
-    return reply('请核对上课日期、点名名单、上课主题和学习内容。');
+    return reply('请填写有效的上课日期、上课时长、点名名单、上课主题和学习内容。');
    }
    const submissionKey='submission:'+auth.user+':'+submissionId;
-   const signature=JSON.stringify([body.classId,date,start,end,topic,content,body.studentIds,...(durationMinutes===undefined?[]:[durationMinutes])]);
+   const signature=JSON.stringify([body.classId,date,start,end,topic,content,body.studentIds,durationMinutes]);
    const previous=await storage.get(submissionKey);
    if(previous)return previous.signature===signature?Response.json({count:previous.count}):reply('提交内容已更改，请重新点名。',409);
    if(!dates.includes(date))return reply('实际签到日期只可选择今天或昨天。');
@@ -298,7 +298,7 @@ export class LessonRegister {
    if(!integer(lesson,10000))return reply('课次已达到上限，请联系管理员。',409);
    for(const studentId of body.studentIds){
     const record={id:crypto.randomUUID(),date,studentId,classId:body.classId,lesson,teacher:account.name,teacherUsername:account.username,
-     topic:topic.trim(),content:content.trim(),status:'出勤',...(durationMinutes===undefined?{}:{durationMinutes})};
+     topic:topic.trim(),content:content.trim(),status:'出勤',durationMinutes};
     await storage.put('attendance:'+record.id,record);
    }
    await storage.put('revision',(await storage.get('revision')??0)+1);

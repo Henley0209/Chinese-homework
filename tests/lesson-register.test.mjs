@@ -92,6 +92,10 @@ test('teachers can only read authorized rosters and save selected students once'
   submissionId:crypto.randomUUID(),durationMinutes:90,topic:'自我介绍',content:'姓名、国籍和问候语'};
  await call('teacher-submit',{...entry,date:future,end:future},400);
  await call('teacher-submit',{...entry,durationMinutes:45},400);
+ await call('teacher-submit',{...entry,durationMinutes:undefined},400);
+ await call('teacher-submit',{...entry,studentIds:[]},400);
+ await call('teacher-submit',{...entry,topic:' '},400);
+ await call('teacher-submit',{...entry,content:''},400);
  assert.deepEqual(await call('teacher-submit',entry),{count:1});
  assert.deepEqual(await call('teacher-submit',entry),{count:1});
  await call('teacher-submit',{...entry,submissionId:crypto.randomUUID()},409);

@@ -23,6 +23,17 @@ function selected(){
  return [...roster.querySelectorAll('input:checked:not(:disabled)')].map(check=>check.value);
 }
 
+function readyToSubmit(){
+ const {start,end,date}=dates();
+ return !submitting&&[start,end,date].every(lessonDate)&&start<=date&&date<=end&&
+  Boolean(controls.classId.value)&&['60','90'].includes(controls.durationMinutes.value)&&
+  Boolean(controls.topic.value.trim())&&Boolean(controls.content.value.trim())&&selected().length>0;
+}
+
+function updateSubmit(){
+ submit.disabled=!readyToSubmit();
+}
+
 function rememberedToken(){
  try{return localStorage.getItem(rememberedKey)??'';}catch{return '';}
 }
@@ -164,14 +175,14 @@ for(const key of ['start','end','date','classId']){
   loadRoster();
  });
 }
-roster.addEventListener('change',()=>{submit.disabled=submitting||!selected().length;});
+form.addEventListener('input',updateSubmit);
+form.addEventListener('change',updateSubmit);
 form.addEventListener('submit',async event=>{
  event.preventDefault();
+ if(!readyToSubmit())return;
  const studentIds=selected();
- if(submitting||!studentIds.length)return;
  const values={...dates(),classId:controls.classId.value,studentIds,durationMinutes:Number(controls.durationMinutes.value),
   topic:controls.topic.value.trim(),content:controls.content.value.trim()};
- if(!values.topic||!values.content){tell('请填写上课主题和学习内容。');return;}
  const signature=JSON.stringify(values);
  if(retry?.signature!==signature)retry={signature,id:crypto.randomUUID()};
  const currentToken=token;
@@ -184,6 +195,7 @@ form.addEventListener('submit',async event=>{
   const result=await lessonApi('teacher-submit',{...values,token:currentToken,submissionId:retry.id});
   if(token!==currentToken)return;
   retry=null;
+  controls.durationMinutes.value='';
   tell('已保存 '+result.count+' 位学员的出勤记录。');
   await loadRoster();
  }catch(error){
@@ -192,7 +204,7 @@ form.addEventListener('submit',async event=>{
   if(token===currentToken){
    for(const field of fieldsets)field.disabled=false;
    submitting=false;
-   submit.disabled=!selected().length;
+   updateSubmit();
   }
  }
 });

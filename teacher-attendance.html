@@ -6,7 +6,7 @@
  <title>授课教师点名 · Tiếng Trung Cô Nga</title>
  <link rel="stylesheet" href="style-classroom-v4.css">
  <link rel="stylesheet" href="lesson-management.css?v=7">
- <script type="module" src="teacher-attendance.mjs?v=7"></script>
+ <script type="module" src="teacher-attendance.mjs?v=8"></script>
 </head>
 <body class="lesson-attendance-page">
  <main id="lesson-management" class="teacher-attendance-card">
@@ -27,6 +27,7 @@
     <label>实际签到日期<select name="date" required aria-describedby="teacher-attendance-date-hint"></select></label>
     <label>上课时长
      <select name="durationMinutes" required>
+      <option value="" selected>请选择上课时长</option>
       <option value="60">1 小时</option>
       <option value="90">1.5 小时</option>
      </select>
@@ -38,11 +39,12 @@
    </div>
    <p id="teacher-attendance-date-hint" class="lesson-wide">实际签到日期只可选择今天或昨天，按泰国／越南时间计算。本次提交只记录所选日期。</p>
    <fieldset class="lesson-checklist lesson-wide">
-    <legend>当天上课的学员</legend>
+    <legend>当天上课的学员（至少勾选一位）</legend>
     <div id="teacher-attendance-roster" aria-live="polite"></div>
    </fieldset>
    <label class="lesson-wide">上课主题<input name="topic" required maxlength="120"></label>
    <label class="lesson-wide">本节课学习内容<textarea name="content" required maxlength="1000" rows="5"></textarea></label>
+   <p class="lesson-wide">请填写所有项目并勾选学员后提交。</p>
    <div class="lesson-toolbar"><button id="teacher-attendance-save" class="primary" type="submit" disabled>提交签到</button></div>
   </form>
   <p id="teacher-attendance-status" class="lesson-message" role="status"></p>

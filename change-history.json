@@ -2014,6 +2014,14 @@
       "changes": [
         "Show class lesson progress and make password resets optional"
       ]
+    },
+    {
+      "version": "V0251",
+      "updatedAt": "2026-11-26T15:17:39Z",
+      "commit": "198f5895a5a6b228f9904614aaa0fe1a0cb22d88",
+      "changes": [
+        "Allow all class course fields to be optional"
+      ]
     }
   ]
 }

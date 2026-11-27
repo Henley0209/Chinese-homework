@@ -2150,6 +2150,14 @@
       "changes": [
         "Send Telegram notifications for teacher attendance"
       ]
+    },
+    {
+      "version": "V0268",
+      "updatedAt": "2026-11-27T07:46:28Z",
+      "commit": "c3fecbc3516693eaf9e52647a9f14c04a61328f0",
+      "changes": [
+        "Keep the homepage visible when appearance loading stalls"
+      ]
     }
   ]
 }

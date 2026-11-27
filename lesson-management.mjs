@@ -3,6 +3,8 @@ import {lessonToday as today,parseStudentPaste,studentLabels,studentName,classLa
 
 import {calculatePayroll,formatPay,payBands,readPayRate} from './lesson-payroll.mjs?v=1';
 
+import {monthlyPayroll,payrollGroup} from './lesson-payroll-chart.mjs?v=1';
+
 const storageKey='qinglan-lesson-management-v1';
 const durationOptions=[[60,'1 小时'],[90,'1.5 小时']];
 const statuses=['出勤','补课','缺勤','请假'];
@@ -368,7 +370,7 @@ function createPanel(dialog,requireTeacher,getPassword){
    for(const check of classes.querySelectorAll('input[name="classIds"]'))check.checked=checked;
   }
   classActions.append(button('全选',()=>selectClasses(true)),button('全取消',()=>selectClasses(false)));
-  classes.append(element('legend','授权班级'),classActions);
+  classes.append(element('legend','授权班级'));
   const courseLabels=classLabels(data.classes);
   for(const [i,course] of data.classes.entries()){
    const label=element('label');
@@ -386,7 +388,7 @@ function createPanel(dialog,requireTeacher,getPassword){
   save.type='submit';
   save.className='primary';
   actions.append(save,button('取消',()=>render()));
-  form.append(classes,actions);
+  form.append(classes,classActions,actions);
   form.addEventListener('submit',async event=>{
    event.preventDefault();
    const values=new FormData(form);
@@ -410,6 +412,15 @@ function createPanel(dialog,requireTeacher,getPassword){
    return;
   }
   const date=today();
+  const totals=monthlyPayroll(shared.accounts,shared.data.attendance,date);
+  const monthly=element('section');
+  monthly.className='lesson-payroll-group';
+  monthly.append(element('h4','每月总费用'),
+   element('p','每月 1 日起显示上月汇总。中国老师工资 × 3900 + 越南老师工资。'),
+   drawPayrollChart('每月总费用柱状图',totals,true));
+  const incompleteMonths=totals.filter(row=>row.incomplete).map(row=>row.label);
+  if(incompleteMonths.length)monthly.append(element('p','以下月份有未计入记录：'+incompleteMonths.join('、')+'。'));
+  content.append(monthly);
   const filters=element('div');
   filters.className='lesson-form';
   const results=element('div');
@@ -451,9 +462,8 @@ function createPanel(dialog,requireTeacher,getPassword){
    const groups={china:[],vietnam:[]};
    let unclassified=0;
    for(const row of teachers){
-    const {rate60,rate90}=row.account;
-    if(rate60>=10000||rate90>=10000)groups.vietnam.push(row);
-    else if(rate60!=null&&rate90!=null)groups.china.push(row);
+    const group=payrollGroup(row.account);
+    if(group)groups[group].push(row);
     else unclassified++;
    }
    summary.textContent=notes.length?'以下为已计入的工资。暂未计入：'+notes.join('、')+'。':'各组按综合工资从高到低排列。';
@@ -477,29 +487,44 @@ function createPanel(dialog,requireTeacher,getPassword){
    section.append(element('p','该组暂无教师。'));
    return section;
   }
+  section.append(drawPayrollChart(label+'工资柱状图',teachers.map(({account,total})=>({
+   label:account.name+' · '+account.username,total
+  }))));
+  return section;
+ }
+
+ function drawPayrollChart(label,entries,monthly=false){
   const chart=element('div');
   chart.className='lesson-payroll-chart';
   chart.tabIndex=0;
   chart.setAttribute('role','region');
-  chart.setAttribute('aria-label',label+'工资柱状图');
-  const max=Math.max(1,teachers[0].total);
-  for(const row of teachers){
-   const {account,total}=row;
+  chart.setAttribute('aria-label',label);
+  const max=entries.reduce((largest,entry)=>Math.max(largest,entry.total),0);
+  if(monthly){
+   const scale=element('div');
+   scale.className='lesson-payroll-column lesson-payroll-scale';
+   const ticks=element('div');
+   ticks.className='lesson-payroll-ticks';
+   for(const value of max?[max,Math.round(max/2),0]:[0])ticks.append(element('span',formatPay(value)));
+   scale.append(element('strong','总工资'),ticks,element('span','月份'));
+   chart.append(scale);
+  }
+  for(const entry of entries){
+   const {total}=entry;
    const column=element('div');
    column.className='lesson-payroll-column';
    const bar=element('div');
    bar.className='lesson-payroll-bar';
-   bar.style.height=total/max*100+'%';
+   bar.style.height=(max?total/max*100:0)+'%';
    const track=element('div');
    track.className='lesson-payroll-track';
    track.setAttribute('aria-hidden','true');
    track.append(bar);
    column.append(element('strong',formatPay(total)),track,
-    element('span',account.name+' · '+account.username));
+    element('span',entry.label));
    chart.append(column);
   }
-  section.append(chart);
-  return section;
+  return chart;
  }
 
  function renderOverview(data){

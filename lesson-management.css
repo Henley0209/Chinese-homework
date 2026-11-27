@@ -261,3 +261,23 @@
 #lesson-management .lesson-payroll-group h4 {
  margin: 0 0 8px;
 }
+#lesson-management .lesson-payroll-scale {
+ flex-basis: auto;
+ min-width: 52px;
+}
+#lesson-management .lesson-payroll-ticks {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: flex-end;
+ padding-right: 8px;
+ border-right: 1px solid var(--line);
+ font-size: 13px;
+ white-space: nowrap;
+}
+#lesson-management .lesson-form > .lesson-roster-actions {
+ margin: 0;
+}
+#lesson-management .lesson-payroll-ticks span:only-child {
+ margin-top: auto;
+}

@@ -2142,6 +2142,14 @@
       "changes": [
         "Add sticky horizontal scroll control to student records"
       ]
+    },
+    {
+      "version": "V0267",
+      "updatedAt": "2026-11-27T06:46:29Z",
+      "commit": "bf912688c3c5ed125681e2b63cf907e0f4e02ada",
+      "changes": [
+        "Send Telegram notifications for teacher attendance"
+      ]
     }
   ]
 }

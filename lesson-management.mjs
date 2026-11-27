@@ -604,9 +604,10 @@ function createPanel(dialog,requireTeacher,getPassword){
     row.total,row.attended,row.absent,row.leave,row.used,row.remaining,row.progress,row.course?.end,row.status,edit(row.student)
    ]);
   }else{
-   headers=fields[view].map(([,label])=>label);
+   const columns=view==='classes'?fields.classes.filter(([key])=>key!=='room'):fields[view];
+   headers=columns.map(([,label])=>label);
    rows=data[view].map(item=>[
-    ...fields[view].map(([key,,type])=>type==='students'?studentName(data.students.find(record=>record.id===item[key])):
+    ...columns.map(([key,,type])=>type==='students'?studentName(data.students.find(record=>record.id===item[key])):
      type==='classes'?classLabel(data.classes.find(record=>record.id===item[key])):
      type==='duration'?durationOptions.find(([minutes])=>minutes===item[key])?.[1]:item[key]),
     edit(item)

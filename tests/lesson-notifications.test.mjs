@@ -11,7 +11,7 @@ test('Telegram delivery is opt-in and retries throttled notifications',async t=>
   list:async({prefix,limit})=>new Map([...messages].filter(([key])=>key.startsWith(prefix)).sort().slice(0,limit)),
   transaction:async work=>work(storage)
  };
- const summary={teacher:'李老师',course:'K32',date:'2026-11-27',minutes:90,count:8};
+ const summary={teacher:'李老师',course:'K32',date:'2026-11-27',minutes:90,count:8,topic:'自我介绍',content:'练习问候和自我介绍。'};
  await queueAttendanceNotice(storage,{},'test',summary);
  assert.equal(messages.size,0);
  const env={TELEGRAM_BOT_TOKEN:'123:fixture',TELEGRAM_CHAT_ID:'-1234'};
@@ -26,7 +26,10 @@ test('Telegram delivery is opt-in and retries throttled notifications',async t=>
   assert.equal(url,'https://api.telegram.org/bot123:fixture/sendMessage');
   const payload=JSON.parse(options.body);
   assert.equal(payload.chat_id,'-1234');
-  assert.match(payload.text,/K32[\s\S]*李老师[\s\S]*2026\/11\/27[\s\S]*1.5 小时｜出勤：8 人/);
+  assert.equal(payload.text,[
+   '点名已提交｜K32','教师：李老师','日期：2026/11/27','时长：1.5 小时｜出勤：8 人',
+   '上课主题: 自我介绍','本节课学习内容: 练习问候和自我介绍。'
+  ].join('\n'));
   return attempts===1?Response.json({ok:false,error_code:429,parameters:{retry_after:40}},{status:429}):
    Response.json({ok:true});
  });

@@ -13,7 +13,7 @@ async function nextNotification(storage){
  return (await storage.list({prefix,limit:1})).entries().next().value;
 }
 
-export async function queueAttendanceNotice(storage,env,id,{teacher,course,date,minutes,count}){
+export async function queueAttendanceNotice(storage,env,id,{teacher,course,date,minutes,count,topic,content}){
  if(!telegramConfig(env))return;
  const when=Date.now()+1000;
  const message=[
@@ -21,7 +21,8 @@ export async function queueAttendanceNotice(storage,env,id,{teacher,course,date,
   '教师：'+teacher,
   '日期：'+date.replaceAll('-','/'),
   '时长：'+(minutes/60)+' 小时｜出勤：'+count+' 人',
-  '管理看板：https://henley0209.github.io/Chinese-homework/'
+  '上课主题: '+topic,
+  '本节课学习内容: '+content
  ].join('\n');
  await storage.put(notificationKey(when,id),{id,when,message,attempts:0});
  const alarm=await storage.getAlarm();

@@ -323,7 +323,7 @@ export class LessonRegister {
    await storage.put(submissionKey,{signature,count:body.studentIds.length});
    await queueAttendanceNotice(storage,this.env,auth.user+':'+submissionId,{
     teacher:account.name,course:[selectedCourse.code,selectedCourse.name].filter(Boolean).join(' · ')||'未命名班级',
-    date,minutes:durationMinutes,count:body.studentIds.length
+    date,minutes:durationMinutes,count:body.studentIds.length,topic:topic.trim(),content:content.trim()
    });
    return Response.json({count:body.studentIds.length});
   });

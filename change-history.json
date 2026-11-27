@@ -2094,6 +2094,14 @@
       "changes": [
         "Add bulk selection for teacher class permissions"
       ]
+    },
+    {
+      "version": "V0261",
+      "updatedAt": "2026-11-27T00:36:05Z",
+      "commit": "268cb98e1d4e91f0adb3402a868e0bb726569a95",
+      "changes": [
+        "Show monthly teacher payroll totals and relocate class selection controls"
+      ]
     }
   ]
 }

@@ -55,12 +55,14 @@ function readData(){
  return data;
 }
 
+const attendedClass=record=>record.status==='出勤'||record.status==='补课';
+
 function studentProgress(data){
  const counts=new Map();
  for(const record of data.attendance){
   const key=record.studentId+' '+record.classId;
   const count=counts.get(key)??{attended:0,absent:0,leave:0};
-  if(record.status==='出勤'||record.status==='补课')count.attended++;
+  if(attendedClass(record))count.attended++;
   if(record.status==='缺勤')count.absent++;
   if(record.status==='请假')count.leave++;
   counts.set(key,count);
@@ -68,7 +70,8 @@ function studentProgress(data){
  const currentDate=today();
  return data.students.map(student=>{
   const course=data.classes.find(item=>item.id===student.classId);
-  const {attended,absent,leave}=counts.get(student.id+' '+student.classId)??{attended:0,absent:0,leave:0};
+  const {attended:recorded,absent,leave}=counts.get(student.id+' '+student.classId)??{attended:0,absent:0,leave:0};
+  const attended=Math.max(0,recorded+(student.attendedAdjustment??0));
   const total=course?.hours||null;
   const used=attended+absent;
   const remaining=total===null?null:Math.max(0,total-used);
@@ -707,6 +710,26 @@ function createPanel(dialog,requireTeacher,getPassword){
    group.append(input);
    form.append(group);
   }
+  let attended,recorded=0,initialAttended='';
+  if(view==='students'&&item.id){
+   const label=element('label','已上课时');
+   attended=element('input');
+   attended.type='number';
+   attended.name='attendedHours';
+   attended.min=0;
+   attended.step=1;
+   function updateAttended(){
+    const classId=controls.classId.value;
+    recorded=data.attendance.filter(record=>record.studentId===item.id&&record.classId===classId&&attendedClass(record)).length;
+    const correction=classId===(item.classId??'')?item.attendedAdjustment??0:0;
+    initialAttended=String(Math.max(0,recorded+correction));
+    attended.value=initialAttended;
+   }
+   controls.classId.addEventListener('change',updateAttended);
+   updateAttended();
+   label.append(attended,element('small','留空可恢复为按签到自动统计。'));
+   form.append(label);
+  }
   if(view==='attendance'){
    function showRoster(currentStudent=''){
     const classId=controls.classId.value;
@@ -743,6 +766,14 @@ function createPanel(dialog,requireTeacher,getPassword){
      const value=controls[key].value.trim();
      if(required&&!value)throw Error('请填写所有必填字段。');
      entry[key]=type==='number'||type==='duration'?(value?Number(value):null):value;
+    }
+    if(attended&&attended.value!==initialAttended){
+     if(attended.value==='')entry.attendedAdjustment=0;
+     else{
+      const amount=attended.valueAsNumber;
+      if(!Number.isSafeInteger(amount)||amount<0)throw Error('已上课时须为非负整数。');
+      entry.attendedAdjustment=amount-recorded;
+     }
     }
     if(item.id&&!records.some(record=>record.id===item.id))throw Error('这条记录已不存在，请重新打开列表。');
     if(view==='classes'&&entry.code&&records.some(record=>record.id!==entry.id&&record.code?.toLowerCase()===entry.code.toLowerCase())){

@@ -116,7 +116,7 @@ test('teachers can only read authorized rosters and save selected students once'
  await call('admin-save',{token:admin,revision:state.revision,group:'students',
   records:[blank,{id:students[0].id,classId}]});
  const saved=await call('admin-read',{token:admin});
- assert.deepEqual(saved.data.students.find(student=>student.id===blank.id),{...blank,name:'',phone:'',classId:'',enrolled:''});
+ assert.deepEqual(saved.data.students.find(student=>student.id===blank.id),{...blank,name:'',phone:'',classId:'',enrolled:'',attendedAdjustment:0});
  assert.equal(saved.data.attendance[0].studentId,students[0].id);
  const unnamed=await call('teacher-roster',{token,classId,date:today});
  assert.deepEqual(unnamed.students.find(student=>student.id===students[0].id),{id:students[0].id,name:'',recorded:true});
@@ -146,4 +146,17 @@ test('teachers can only read authorized rosters and save selected students once'
  const disabled=(await call('admin-read',{token:admin})).accounts[0];
  assert.equal(disabled.disabled,true);
  assert.equal(disabled.rate90,14000);
+ const editedStudent=async()=> (await call('admin-read',{token:admin})).data.students.find(student=>student.id===students[0].id);
+ async function saveStudent(update,status=200){
+  const {revision}=await call('admin-read',{token:admin});
+  await call('admin-save',{token:admin,revision,group:'students',records:[{id:students[0].id,classId,...update}]},status);
+ }
+ await saveStudent({attendedAdjustment:2});
+ assert.equal((await editedStudent()).attendedAdjustment,2);
+ await saveStudent({name:'改名'});
+ assert.equal((await editedStudent()).attendedAdjustment,2);
+ await saveStudent({attendedAdjustment:1.5},400);
+ await saveStudent({classId:otherClass});
+ assert.equal((await editedStudent()).attendedAdjustment,0);
+
 });

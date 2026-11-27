@@ -2158,6 +2158,14 @@
       "changes": [
         "Keep the homepage visible when appearance loading stalls"
       ]
+    },
+    {
+      "version": "V0269",
+      "updatedAt": "2026-11-27T07:52:51Z",
+      "commit": "ee15686ee8412da51c123ae3cc63d935b443c4db",
+      "changes": [
+        "Include lesson topic and content in Telegram attendance notices"
+      ]
     }
   ]
 }

@@ -598,9 +598,9 @@ function createPanel(dialog,requireTeacher,getPassword){
   const upcoming=students.filter(row=>row.remaining>0&&row.remaining<=3);
   const stats=overviewStats('学员统计',[
    ['学员总数',students.length],
-   ['学习中',students.filter(row=>row.status==='学习中').length],
-   ['即将结课（≤3课时）',upcoming.length],
-   ['已结课',students.filter(row=>row.status==='已结课').length]
+   ['学员学习中',students.filter(row=>row.status==='学习中').length],
+   ['学员即将结课（≤3 课时）',upcoming.length],
+   ['学员已结课',students.filter(row=>row.status==='已结课').length]
   ]);
   const byDate=new Map();
   const lessonsByClass=new Map();

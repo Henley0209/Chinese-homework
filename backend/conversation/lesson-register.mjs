@@ -1,3 +1,4 @@
+import {processAttendanceNotice,queueAttendanceNotice} from './lesson-notifications.mjs';
 import {latestLessonBackup} from './lesson-backup.mjs';
 import {isTeacherPassword} from '../../teacher-auth.mjs';
 import {attendanceDates,lessonDate} from '../../lesson-data.mjs';
@@ -112,6 +113,8 @@ function classLesson(records,date){
 
 export class LessonRegister {
  constructor(state,env){this.storage=state.storage;this.env=env;}
+
+ async alarm(){await processAttendanceNotice(this.storage,this.env);}
 
  async rateLimit(client){
   // A rolling window per IP covers both teacher and administrator login attempts.
@@ -276,7 +279,8 @@ export class LessonRegister {
    }
    const dates=attendanceDates();
    if(body.action==='teacher-classes')return Response.json({name:account.name,classes,dates});
-   if(!classes.some(course=>course.id===body.classId))return reply('该班级未授权给当前教师。',403);
+   const selectedCourse=classes.find(course=>course.id===body.classId);
+   if(!selectedCourse)return reply('该班级未授权给当前教师。',403);
    const classRecords=async()=> (await rows(storage,'attendance')).filter(item=>item.classId===body.classId);
    const students=(await rows(storage,'students')).filter(student=>student.classId===body.classId)
     .sort(compareStudents);
@@ -317,6 +321,10 @@ export class LessonRegister {
    }
    await storage.put('revision',(await storage.get('revision')??0)+1);
    await storage.put(submissionKey,{signature,count:body.studentIds.length});
+   await queueAttendanceNotice(storage,this.env,auth.user+':'+submissionId,{
+    teacher:account.name,course:[selectedCourse.code,selectedCourse.name].filter(Boolean).join(' · ')||'未命名班级',
+    date,minutes:durationMinutes,count:body.studentIds.length
+   });
    return Response.json({count:body.studentIds.length});
   });
  }

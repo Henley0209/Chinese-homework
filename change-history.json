@@ -2102,6 +2102,14 @@
       "changes": [
         "Show monthly teacher payroll totals and relocate class selection controls"
       ]
+    },
+    {
+      "version": "V0262",
+      "updatedAt": "2026-11-27T01:00:54Z",
+      "commit": "ad583c0d1e442b58cff6c107250ea70f0e292ded",
+      "changes": [
+        "Chart unique daily attendance on the teacher dashboard"
+      ]
     }
   ]
 }

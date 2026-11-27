@@ -283,3 +283,19 @@
  justify-self: center;
  white-space: nowrap;
 }
+#lesson-management .lesson-student-scroll {
+ position: sticky;
+ bottom: 0;
+ z-index: 1;
+ padding: 4px 10px;
+ background: white;
+ border: 1px solid var(--line);
+ border-radius: 8px;
+}
+#lesson-management .lesson-student-scroll input[type="range"] {
+ display: block;
+ margin: 0;
+ height: 28px;
+ padding: 0;
+ accent-color: var(--blue);
+}

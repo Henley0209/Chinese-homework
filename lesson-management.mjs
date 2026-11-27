@@ -105,6 +105,32 @@ function table(title,headers,rows,emptyText){
  return wrap;
 }
 
+function addStudentScroll(container,viewport){
+ const bar=element('div');
+ bar.className='lesson-student-scroll';
+ const slider=element('input');
+ slider.type='range';
+ slider.min=0;
+ slider.value=0;
+ slider.setAttribute('aria-label','左右滑动学员表格');
+ bar.append(slider);
+ container.append(bar);
+
+ function synchronize(){
+  const max=Math.max(0,viewport.scrollWidth-viewport.clientWidth);
+  slider.max=max;
+  slider.value=Math.round(viewport.scrollLeft);
+  bar.hidden=max===0;
+ }
+ slider.addEventListener('input',()=>{viewport.scrollLeft=slider.valueAsNumber;});
+ viewport.addEventListener('scroll',synchronize);
+ const observer=new ResizeObserver(synchronize);
+ observer.observe(viewport);
+ observer.observe(viewport.querySelector('table'));
+ synchronize();
+ return ()=>observer.disconnect();
+}
+
 export function openLessonManagement(dialog,requireTeacher,getPassword){
  if(!panels.has(dialog))panels.set(dialog,createPanel(dialog,requireTeacher,getPassword));
  panels.get(dialog).open();
@@ -112,6 +138,7 @@ export function openLessonManagement(dialog,requireTeacher,getPassword){
 
 function createPanel(dialog,requireTeacher,getPassword){
  const searches={};
+ let disconnectStudentScroll;
  const payPeriod={start:'',end:''};
  let view='overview',token='',shared=null,loading=false,busy=false,opening=0;
  const panel=element('section');
@@ -157,6 +184,8 @@ function createPanel(dialog,requireTeacher,getPassword){
 
  function render(editor,notice=''){
   message.textContent=notice;
+  disconnectStudentScroll?.();
+  disconnectStudentScroll=undefined;
   content.replaceChildren();
   for(const [key,link] of navigation){
    if(key===view)link.setAttribute('aria-current','page');
@@ -213,6 +242,8 @@ function createPanel(dialog,requireTeacher,getPassword){
  }
 
  function reset(){
+  disconnectStudentScroll?.();
+  disconnectStudentScroll=undefined;
   opening++;
   for(const page of Object.keys(searchLabels))delete searches[page];
   if(token)lessonApi('logout',{token}).catch(()=>{});
@@ -633,7 +664,10 @@ function createPanel(dialog,requireTeacher,getPassword){
    searches[page]=search.value;
    const terms=searchText(search.value).trim().split(/\s+/).filter(Boolean);
    const matches=terms.length?rows.filter((row,i)=>terms.every(term=>searchableRows[i].includes(term))):rows;
-   results.replaceChildren(table(tabs[page],columns,matches,rows.length?'没有找到匹配的记录。':empty));
+   const visibleTable=table(tabs[page],columns,matches,rows.length?'没有找到匹配的记录。':empty);
+   if(page==='students')disconnectStudentScroll?.();
+   results.replaceChildren(visibleTable);
+   if(page==='students')disconnectStudentScroll=matches.length?addStudentScroll(results,visibleTable):undefined;
   }
   search.addEventListener('input',filter);
   content.append(results);

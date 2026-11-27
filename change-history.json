@@ -2126,6 +2126,14 @@
       "changes": [
         "Remove classroom column from class course table"
       ]
+    },
+    {
+      "version": "V0265",
+      "updatedAt": "2026-11-27T03:03:48Z",
+      "commit": "8b42f9bb07d12a1daf3be11d75c44af86e32acdd",
+      "changes": [
+        "Remove dashboard attendance creation and neutralize migration button"
+      ]
     }
   ]
 }

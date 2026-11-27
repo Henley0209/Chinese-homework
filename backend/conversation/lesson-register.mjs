@@ -1,3 +1,4 @@
+import {latestLessonBackup} from './lesson-backup.mjs';
 import {isTeacherPassword} from '../../teacher-auth.mjs';
 import {attendanceDates,lessonDate} from '../../lesson-data.mjs';
 import {payBands,readPayRate} from '../../lesson-payroll.mjs';
@@ -110,7 +111,7 @@ function classLesson(records,date){
 }
 
 export class LessonRegister {
- constructor(state){this.storage=state.storage;}
+ constructor(state,env){this.storage=state.storage;this.env=env;}
 
  async rateLimit(client){
   // A rolling window per IP covers both teacher and administrator login attempts.
@@ -126,6 +127,15 @@ export class LessonRegister {
  }
 
  async fetch(request){
+  if(new URL(request.url).pathname==='/internal/backup'&&request.method==='POST'){
+   const scheduledTime=Number(await request.text());
+   if(!Number.isFinite(scheduledTime))return new Response(null,{status:400});
+   const backup=await this.storage.transaction(async storage=>({
+    version:1,scheduledTime,createdAt:new Date().toISOString(),
+    ...await snapshot(storage),accounts:await rows(storage,'account')
+   }));
+   return latestLessonBackup(this.env).fetch('https://lesson-backup/latest',{method:'PUT',body:JSON.stringify(backup)});
+  }
   const {body,client}=await request.json();
   const {action}=body;
   if(action==='admin-login'||action==='teacher-login'){
@@ -164,6 +174,10 @@ export class LessonRegister {
  }
 
  async admin(body){
+  if(body.action==='admin-backup'){
+   if(!this.env?.LESSON_BACKUP)return reply('业务备份服务尚未启用。',503);
+   return latestLessonBackup(this.env).fetch('https://lesson-backup/latest');
+  }
   if(body.action==='admin-read'){
    const state=await this.storage.transaction(snapshot);
    const accounts=[...(await this.storage.list({prefix:'account:'})).values()].map(item=>select(item,['username','name','classIds','disabled',...payBands.map(band=>band.field)]));

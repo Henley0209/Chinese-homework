@@ -34,3 +34,15 @@ class_name = "LessonRegister"
 [[migrations]]
 tag = "v3"
 new_sqlite_classes = ["LessonRegister"]
+
+[[durable_objects.bindings]]
+name = "LESSON_BACKUP"
+class_name = "LessonBackup"
+
+[[migrations]]
+tag = "v4"
+new_sqlite_classes = ["LessonBackup"]
+
+[triggers]
+# Sunday 02:00 in Asia/Bangkok.
+crons = ["0 19 * * SAT"]

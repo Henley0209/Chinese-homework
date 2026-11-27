@@ -1,3 +1,5 @@
+import {backupLessons} from './lesson-backup.mjs';
+export {LessonBackup} from './lesson-backup.mjs';
 import {handleLessonRegister} from './lesson-register.mjs';
 export {LessonRegister} from './lesson-register.mjs';
 import {handlePublishedHomework} from './homework-publishing.mjs';
@@ -52,6 +54,7 @@ async function readBytes(request,max=32768){
 async function readBody(request){return JSON.parse(new TextDecoder().decode(await readBytes(request)));
 }
 export default {
+ async scheduled(event,env){await backupLessons(env,event.scheduledTime);},
  async fetch(request,env){
   const origin=request.headers.get('Origin'),allowed=env.ALLOWED_ORIGIN;
   const headers={'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','Vary':'Origin'};

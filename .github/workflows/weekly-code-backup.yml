@@ -1,0 +1,66 @@
+name: Weekly code backup
+
+on:
+  schedule:
+    # Sunday 02:00 in Asia/Bangkok is Saturday 19:00 UTC.
+    - cron: '0 19 * * 6'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/weekly-code-backup.yml
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: weekly-code-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Download and verify all Git branches and tags
+        shell: bash
+        run: |
+          git clone --mirror "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git" "$RUNNER_TEMP/source.git"
+          git -C "$RUNNER_TEMP/source.git" bundle create "$RUNNER_TEMP/Chinese-homework.bundle" --branches --tags
+          git -C "$RUNNER_TEMP/source.git" bundle verify "$RUNNER_TEMP/Chinese-homework.bundle"
+          git -C "$RUNNER_TEMP/source.git" for-each-ref --format='%(objectname) %(refname)' refs/heads refs/tags | sort > "$RUNNER_TEMP/source-refs"
+          git bundle list-heads "$RUNNER_TEMP/Chinese-homework.bundle" | sort > "$RUNNER_TEMP/backup-refs"
+          cmp "$RUNNER_TEMP/source-refs" "$RUNNER_TEMP/backup-refs"
+          cd "$RUNNER_TEMP"
+          sha256sum Chinese-homework.bundle > Chinese-homework.bundle.sha256
+      - name: Upload the latest verified bundle
+        id: backup
+        uses: actions/upload-artifact@v4
+        with:
+          name: chinese-homework-latest-code-backup
+          path: |
+            ${{ runner.temp }}/Chinese-homework.bundle
+            ${{ runner.temp }}/Chinese-homework.bundle.sha256
+          compression-level: 0
+          if-no-files-found: error
+      - name: Remove older copies of this backup
+        uses: actions/github-script@v7
+        env:
+          CURRENT_BACKUP_ID: ${{ steps.backup.outputs.artifact-id }}
+        with:
+          script: |
+            const current = Number(process.env.CURRENT_BACKUP_ID);
+            if (!Number.isSafeInteger(current) || current <= 0) throw Error('Missing new backup identifier');
+            const artifacts = await github.paginate(github.rest.actions.listArtifactsForRepo, {
+              ...context.repo, name: 'chinese-homework-latest-code-backup', per_page: 100
+            });
+            const sameName = artifacts.filter(artifact => artifact.name === 'chinese-homework-latest-code-backup');
+            if (!sameName.some(artifact => artifact.id === current && !artifact.expired)) {
+              throw Error('The new backup could not be verified. Keeping previous copies.');
+            }
+            for (const artifact of sameName) {
+              if (artifact.id < current) {
+                await github.rest.actions.deleteArtifact({...context.repo, artifact_id: artifact.id});
+              }
+            }

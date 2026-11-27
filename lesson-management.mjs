@@ -175,6 +175,7 @@ function createPanel(dialog,requireTeacher,getPassword){
     if(hasShared)controls.push(element('span','此浏览器还有旧记录可迁移。'));
    }
    if(hasLocal&&!hasShared)controls.push(element('span','当前显示本机旧记录。迁移后授课教师可读取名单。'));
+   if(shared&&view==='overview')controls.push(button('下载最近一次业务备份',downloadBackup));
    sync.replaceChildren(...controls);
    const data=hasShared?shared.data:hasLocal?local:shared?.data??local;
    if(view==='overview')renderOverview(data);
@@ -186,6 +187,22 @@ function createPanel(dialog,requireTeacher,getPassword){
   }catch(error){
    message.textContent=error.message;
   }
+ }
+
+ async function downloadBackup(){
+  try{
+   requireTeacher();
+   const epoch=opening;
+   const backup=await lessonApi('admin-backup',{token});
+   if(epoch!==opening)return;
+   const blob=new Blob([JSON.stringify(backup,null,2)],{type:'application/json'});
+   const url=URL.createObjectURL(blob);
+   const link=element('a');
+   link.href=url;
+   link.download='课时业务备份-'+today(new Date(backup.createdAt))+'.json';
+   link.click();
+   setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }catch(error){message.textContent=error.message;}
  }
 
  function localRecordsTransferred(local,data){

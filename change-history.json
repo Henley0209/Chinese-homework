@@ -2166,6 +2166,14 @@
       "changes": [
         "Include lesson topic and content in Telegram attendance notices"
       ]
+    },
+    {
+      "version": "V0270",
+      "updatedAt": "2026-11-27T10:20:26Z",
+      "commit": "63febf9d44e6b766000a5854064cf16cdf05e243",
+      "changes": [
+        "Allow admins to adjust a student's attended lesson count"
+      ]
     }
   ]
 }

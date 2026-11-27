@@ -581,26 +581,42 @@ function createPanel(dialog,requireTeacher,getPassword){
   return chart;
  }
 
+ function overviewStats(label,items){
+  const stats=element('dl');
+  stats.className='lesson-stats';
+  stats.setAttribute('aria-label',label);
+  for(const [name,count] of items){
+   const card=element('div');
+   card.append(element('dt',name),element('dd',count));
+   stats.append(card);
+  }
+  return stats;
+ }
+
  function renderOverview(data){
   const students=studentProgress(data);
   const upcoming=students.filter(row=>row.remaining>0&&row.remaining<=3);
-  const stats=element('dl');
-  stats.className='lesson-stats';
-  for(const [label,count] of [
+  const stats=overviewStats('学员统计',[
    ['学员总数',students.length],
    ['学习中',students.filter(row=>row.status==='学习中').length],
    ['即将结课（≤3课时）',upcoming.length],
    ['已结课',students.filter(row=>row.status==='已结课').length]
-  ]){
-   const card=element('div');
-   card.append(element('dt',label),element('dd',count));
-   stats.append(card);
-  }
+  ]);
   const byDate=new Map();
+  const lessonsByClass=new Map();
   for(const record of data.attendance){
    if(!byDate.has(record.date))byDate.set(record.date,new Set());
-   if(record.status==='出勤'||record.status==='补课')byDate.get(record.date).add(record.studentId);
+   if(attendedClass(record))byDate.get(record.date).add(record.studentId);
+   lessonsByClass.set(record.classId,Math.max(lessonsByClass.get(record.classId)??0,record.lesson));
   }
+  const remaining=data.classes.map(course=>course.hours?Math.max(0,course.hours-(lessonsByClass.get(course.id)??0)):null);
+  const completed=remaining.filter(hours=>hours===0).length;
+  const classStats=overviewStats('班级统计',[
+   ['班级总数',data.classes.length],
+   ['班级学习中',data.classes.length-completed],
+   ['班级即将结课（剩余 1–7 节）',remaining.filter(hours=>hours>0&&hours<8).length],
+   ['班级已结课',completed]
+  ]);
   const daily=[...byDate.keys()].sort().map(date=>({label:date.replaceAll('-','/'),total:byDate.get(date).size}));
   const dailySection=element('section');
   dailySection.className='lesson-payroll-group';
@@ -608,7 +624,7 @@ function createPanel(dialog,requireTeacher,getPassword){
    daily.length?drawBarChart('每日上课学员总人数柱状图',daily,{
     x:'日期',y:'人数',vertical:true,format:value=>value.toLocaleString('zh-CN')
    }):element('p','暂无签到记录。'));
-  content.append(stats,dailySection,element('h3','即将结课学员'),
+  content.append(stats,classStats,dailySection,element('h3','即将结课学员'),
    table('即将结课学员',['学生姓名','所在班级','剩余课时','预计结束日期'],
     upcoming.sort((a,b)=>a.remaining-b.remaining).map(row=>[studentName(row.student),classLabel(row.course),row.remaining,row.course.end]),
     '暂无剩余 1–3 课时的学员。'),

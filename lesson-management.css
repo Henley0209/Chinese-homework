@@ -194,13 +194,6 @@
  justify-content: flex-start;
  margin-bottom: 10px;
 }
-#lesson-management .lesson-roster-list {
- display: grid;
- grid-template-columns: repeat(auto-fit, minmax(min(100%, 175px), 1fr));
- gap: 4px 12px;
- max-height: 245px;
- overflow: auto;
-}
 #lesson-management .lesson-class-progress {
  margin: 8px 0 0;
  color: #215c90;

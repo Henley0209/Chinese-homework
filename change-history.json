@@ -2134,6 +2134,14 @@
       "changes": [
         "Remove dashboard attendance creation and neutralize migration button"
       ]
+    },
+    {
+      "version": "V0266",
+      "updatedAt": "2026-11-27T04:44:56Z",
+      "commit": "f9805ba4250642253fb005c8069f14c82c2bbdb5",
+      "changes": [
+        "Add sticky horizontal scroll control to student records"
+      ]
     }
   ]
 }

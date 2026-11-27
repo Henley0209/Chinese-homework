@@ -281,3 +281,12 @@
 #lesson-management .lesson-payroll-ticks span:only-child {
  margin-top: auto;
 }
+#lesson-management .lesson-chart-vertical .lesson-payroll-column:not(.lesson-payroll-scale) {
+ flex-basis: 42px;
+}
+#lesson-management .lesson-chart-vertical .lesson-chart-category {
+ writing-mode: vertical-rl;
+ text-orientation: sideways;
+ justify-self: center;
+ white-space: nowrap;
+}

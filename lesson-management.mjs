@@ -417,7 +417,7 @@ function createPanel(dialog,requireTeacher,getPassword){
   monthly.className='lesson-payroll-group';
   monthly.append(element('h4','每月总费用'),
    element('p','每月 1 日起显示上月汇总。中国老师工资 × 3900 + 越南老师工资。'),
-   drawPayrollChart('每月总费用柱状图',totals,true));
+   drawBarChart('每月总费用柱状图',totals,{x:'月份',y:'总工资'}));
   const incompleteMonths=totals.filter(row=>row.incomplete).map(row=>row.label);
   if(incompleteMonths.length)monthly.append(element('p','以下月份有未计入记录：'+incompleteMonths.join('、')+'。'));
   content.append(monthly);
@@ -487,26 +487,28 @@ function createPanel(dialog,requireTeacher,getPassword){
    section.append(element('p','该组暂无教师。'));
    return section;
   }
-  section.append(drawPayrollChart(label+'工资柱状图',teachers.map(({account,total})=>({
+  section.append(drawBarChart(label+'工资柱状图',teachers.map(({account,total})=>({
    label:account.name+' · '+account.username,total
   }))));
   return section;
  }
 
- function drawPayrollChart(label,entries,monthly=false){
+ function drawBarChart(label,entries,axes=null){
   const chart=element('div');
   chart.className='lesson-payroll-chart';
   chart.tabIndex=0;
   chart.setAttribute('role','region');
   chart.setAttribute('aria-label',label);
   const max=entries.reduce((largest,entry)=>Math.max(largest,entry.total),0);
-  if(monthly){
+  const format=axes?.format??formatPay;
+  if(axes?.vertical)chart.classList.add('lesson-chart-vertical');
+  if(axes){
    const scale=element('div');
    scale.className='lesson-payroll-column lesson-payroll-scale';
    const ticks=element('div');
    ticks.className='lesson-payroll-ticks';
-   for(const value of max?[max,Math.round(max/2),0]:[0])ticks.append(element('span',formatPay(value)));
-   scale.append(element('strong','总工资'),ticks,element('span','月份'));
+   for(const value of new Set([max,Math.round(max/2),0]))ticks.append(element('span',format(value)));
+   scale.append(element('strong',axes.y),ticks,element('span',axes.x));
    chart.append(scale);
   }
   for(const entry of entries){
@@ -520,8 +522,9 @@ function createPanel(dialog,requireTeacher,getPassword){
    track.className='lesson-payroll-track';
    track.setAttribute('aria-hidden','true');
    track.append(bar);
-   column.append(element('strong',formatPay(total)),track,
-    element('span',entry.label));
+   const category=element('span',entry.label);
+   category.className='lesson-chart-category';
+   column.append(element('strong',format(total)),track,category);
    chart.append(column);
   }
   return chart;
@@ -542,7 +545,19 @@ function createPanel(dialog,requireTeacher,getPassword){
    card.append(element('dt',label),element('dd',count));
    stats.append(card);
   }
-  content.append(stats,element('h3','即将结课学员'),
+  const byDate=new Map();
+  for(const record of data.attendance){
+   if(!byDate.has(record.date))byDate.set(record.date,new Set());
+   if(record.status==='出勤'||record.status==='补课')byDate.get(record.date).add(record.studentId);
+  }
+  const daily=[...byDate.keys()].sort().map(date=>({label:date.replaceAll('-','/'),total:byDate.get(date).size}));
+  const dailySection=element('section');
+  dailySection.className='lesson-payroll-group';
+  dailySection.append(element('h4','每日上课学员总人数'),
+   daily.length?drawBarChart('每日上课学员总人数柱状图',daily,{
+    x:'日期',y:'人数',vertical:true,format:value=>value.toLocaleString('zh-CN')
+   }):element('p','暂无签到记录。'));
+  content.append(stats,dailySection,element('h3','即将结课学员'),
    table('即将结课学员',['学生姓名','所在班级','剩余课时','预计结束日期'],
     upcoming.sort((a,b)=>a.remaining-b.remaining).map(row=>[studentName(row.student),classLabel(row.course),row.remaining,row.course.end]),
     '暂无剩余 1–3 课时的学员。'),

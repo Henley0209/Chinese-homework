@@ -2174,6 +2174,14 @@
       "changes": [
         "Allow admins to adjust a student's attended lesson count"
       ]
+    },
+    {
+      "version": "V0271",
+      "updatedAt": "2026-11-27T10:28:00Z",
+      "commit": "495a9dcad9e4bb759d162209cfe33de9264a4fe1",
+      "changes": [
+        "Add class completion statistics to the teacher dashboard"
+      ]
     }
   ]
 }

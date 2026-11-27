@@ -2118,6 +2118,14 @@
       "changes": [
         "Schedule weekly code and lesson data backups"
       ]
+    },
+    {
+      "version": "V0264",
+      "updatedAt": "2026-11-27T02:56:12Z",
+      "commit": "4927ab8b2de16580207589be8eb029cd1158f8be",
+      "changes": [
+        "Remove classroom column from class course table"
+      ]
     }
   ]
 }

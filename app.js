@@ -1,7 +1,7 @@
 import {initConversation} from './conversation.mjs?v=resume3';
 import {initRememberedEntry} from './remembered-entry.mjs?v=remember11';
 import {initPhonetics} from './phonetics.mjs?v=phonetics-mobile8';
-import {initQuizMusic} from './quiz-music.mjs?v=music22';
+import {initQuizMusic} from './quiz-music.mjs?v=music23';
 import './password-visibility.mjs?v=password17';
 import {initPictureWords} from './picture-words.mjs?v=mobile-tap1';
 import {progressKey,saveProgress,loadProgress,clearProgress} from './exercise-progress.mjs?v=resume1';
@@ -68,7 +68,6 @@ $('#identity').addEventListener('submit',async e=>{
 
  saveCurrentProgress();install(selected,route.label);student=person;activeProgress=progressKey(person.name,route.id,route.id==='intro'?'intro':String(fd.get('exerciseId')||''));const saved=loadProgress(activeProgress,data);notice('');render();rememberEntry();
  $('#welcome').hidden=true;$('#exercise').hidden=false;$('#student-label').textContent=student.name+' · '+route.label;
- void quizMusic.start();
  if(saved)restoreCurrentProgress(saved);else{$('#exercise').scrollIntoView({behavior:'instant'});saveCurrentProgress();}
  }catch(err){error.textContent='无法开始答题：'+err.message;}finally{starting=false;$('#start').disabled=false;$('#bank-loading').textContent='';}
 });
